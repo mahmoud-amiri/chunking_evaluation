@@ -1,0 +1,9 @@
+tiktoken 
+fuzzywuzzy 
+pandas 
+numpy 
+tqdm 
+chromadb
+ openai 
+ anthropic
+  attrs
