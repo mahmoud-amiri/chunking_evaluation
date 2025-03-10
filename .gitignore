@@ -11,3 +11,5 @@ Python-3.8.10.tgz.1
 =
 sqlite-autoconf-3450200.tar.gz
 sqlite-autoconf-3450200.tar.gz.1
+main.py
+mydb/

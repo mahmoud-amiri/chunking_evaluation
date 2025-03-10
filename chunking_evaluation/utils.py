@@ -22,51 +22,65 @@ def find_query_despite_whitespace(document, query):
         return document[match.start(): match.end()], match.start(), match.end()
     else:
         return None
+    
+
+import unicodedata
+import re
+from fuzzywuzzy import process, fuzz
+
+def normalize_text(text):
+    """Normalize Unicode text to NFKC form for consistent comparison."""
+    return unicodedata.normalize("NFKC", text)
 
 def rigorous_document_search(document: str, target: str):
     """
-    This function performs a rigorous search of a target string within a document. 
-    It handles issues related to whitespace, changes in grammar, and other minor text alterations.
-    The function first checks for an exact match of the target in the document. 
-    If no exact match is found, it performs a raw search that accounts for variations in whitespace.
-    If the raw search also fails, it splits the document into sentences and uses fuzzy matching 
-    to find the sentence that best matches the target.
+    Searches for a target string within a document, handling Unicode normalization, whitespace variations, 
+    and fuzzy matching for approximate matches.
     
     Args:
-        document (str): The document in which to search for the target.
-        target (str): The string to search for within the document.
+        document (str): The document to search within.
+        target (str): The text string to find.
 
     Returns:
-        tuple: A tuple containing the best match found in the document, its start index, and its end index.
-        If no match is found, returns None.
+        tuple: (best_match, start_index, end_index) if found, otherwise None.
     """
-    if target.endswith('.'):
-        target = target[:-1]
+    if not document or not target:
+        return None  # Ensure inputs are valid
     
+    # Normalize both document and target
+    document = normalize_text(document)
+    target = normalize_text(target)
+# In your evaluation or data prep code:
+    document = document.replace("�", "")
+    target = target.replace("�", "")
+
+    # Remove trailing period from target (common in chunk searches)
+    target = target.rstrip('.')
+
+    # 1️⃣ Exact Match Search
     if target in document:
         start_index = document.find(target)
         end_index = start_index + len(target)
         return target, start_index, end_index
-    else:
-        raw_search = find_query_despite_whitespace(document, target)
-        if raw_search is not None:
-            return raw_search
 
-    # Split the text into sentences
-    sentences = re.split(r'[.!?]\s*|\n', document)
+    # 2️⃣ Whitespace-Insensitive Search
+    raw_search = find_query_despite_whitespace(document, target)
+    if raw_search is not None:
+        return raw_search
 
-    # Find the sentence that matches the query best
+    # 3️⃣ Fuzzy Matching for Approximate Searches
+    sentences = re.split(r'[.!?]\s*|\n', document)  # Split into sentences
     best_match = process.extractOne(target, sentences, scorer=fuzz.token_sort_ratio)
 
-    if best_match[1] < 98:
-        return None
-    
-    reference = best_match[0]
+    if best_match and best_match[1] >= 95:  # Adjusted threshold for flexibility
+        reference = best_match[0]
+        start_index = document.find(reference)
+        end_index = start_index + len(reference)
+        return reference, start_index, end_index
 
-    start_index = document.find(reference)
-    end_index = start_index + len(reference)
+    # 4️⃣ No match found
+    return None
 
-    return reference, start_index, end_index
 
 def get_openai_embedding_function():
     openai_api_key = os.getenv('OPENAI_API_KEY')

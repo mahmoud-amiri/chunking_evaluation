@@ -115,32 +115,63 @@ class BaseEvaluation:
             self.questions_df = pd.DataFrame(columns=['question', 'references', 'corpus_id'])
         
         self.corpus_list = self.questions_df['corpus_id'].unique().tolist()
-
     def _get_chunks_and_metadata(self, splitter):
-        # Warning: metadata will be incorrect if a chunk is repeated since we use .find() to find the start index. This isn't pratically an issue for chunks over 1000 characters.
+        # Warning: metadata will be incorrect if a chunk is repeated since we use .find() to find the start index. 
+        # This isn't practically an issue for chunks over 1000 characters.
         documents = []
         metadatas = []
-        for corpus_id in self.corpus_list:
-            corpus_path = corpus_id
-            if self.corpora_id_paths is not None:
-                corpus_path = self.corpora_id_paths[corpus_id]
 
-            with open(corpus_path, 'r') as file:
-                corpus = file.read()
+        for corpus_id in self.corpus_list:
+            corpus_path = corpus_id  # Defaulting to corpus_id if corpora_id_paths is None
+            
+            if self.corpora_id_paths is not None:
+                print(f"🔍 Available corpus keys: {self.corpora_id_paths.keys()}")  
+                print(f"🔍 Requested corpus_id: {corpus_id}")  
+
+                corpus_id_str = str(corpus_id)  # Ensure it's a string
+                if corpus_id_str not in self.corpora_id_paths:
+                    print(f"❌ ERROR: corpus_id '{corpus_id_str}' not found in corpora_id_paths!")
+                    raise KeyError(f"Corpus ID '{corpus_id_str}' not in available corpus keys.")
+
+                corpus_path = self.corpora_id_paths[corpus_id_str]  
+
+            print(f"📂 Loading corpus from: {corpus_path}")
+
+            try:
+                with open(corpus_path, 'r', encoding='utf-8') as file:  
+                    corpus = file.read()
+            except FileNotFoundError:
+                print(f"❌ ERROR: File '{corpus_path}' not found!")
+                raise
 
             current_documents = splitter.split_text(corpus)
             current_metadatas = []
+
             for document in current_documents:
+                print(f"🔎 Searching for chunk in corpus {corpus_id}...")
+
                 try:
-                    _, start_index, end_index = rigorous_document_search(corpus, document)
-                except:
-                    print(f"Error in finding {document} in {corpus_id}")
-                    raise Exception(f"Error in finding {document} in {corpus_id}")
-                # start_index, end_index = find_target_in_document(corpus, document)
-                current_metadatas.append({"start_index": start_index, "end_index": end_index, "corpus_id": corpus_id})
+                    result = rigorous_document_search(corpus, document)
+                    if result is None:
+                        print(f"❌ ERROR: Could not find '{document[:50]}...' in corpus {corpus_id}")
+                        raise Exception(f"Error in finding '{document[:50]}...' in corpus {corpus_id}")
+                    
+                    _, start_index, end_index = result  # Extract indices
+                    current_metadatas.append({
+                        "start_index": start_index, 
+                        "end_index": end_index, 
+                        "corpus_id": corpus_id
+                    })
+                except Exception as e:
+                    print(f"❌ ERROR while processing chunk: {e}")
+                    raise  
+
             documents.extend(current_documents)
             metadatas.extend(current_metadatas)
-        return documents, metadatas
+
+        print("✅ Successfully processed all corpora!")
+        return documents, metadatas  # Fixed return variable
+
 
     def _full_precision_score(self, chunk_metadatas):
         ioc_scores = []
