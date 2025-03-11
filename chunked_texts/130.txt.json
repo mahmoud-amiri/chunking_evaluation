@@ -1,0 +1,668 @@
+[
+    {
+        "document_name": "130.txt",
+        "chunk_text": "FINAL REPORT",
+        "start_index": 0,
+        "end_index": 12
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "1 General Information\nDFG reference number: CA852/11-1 and CA852/11-3\nProject number: 394233453\nProject title: Zusammenspiel von strukturellen und elektronischen Eigenschaften und deren Auswirkungen auf d\u00fcnne Schichten von metallfreien organischen Radikalen (plus Fortsetzungsantrag)\nName of the applicant: apl. Prof. Maria Benedetta Casu",
+        "start_index": 12,
+        "end_index": 350
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Official address: Institute of Physical and Theoretical Chemistry, University of T\u00fcbingen, Auf der Morgenstelle 18, D-72076 T\u00fcbingen\nName(s) of the co-applicants:---\nName(s) of the cooperation partners: Prof. Dr. Rajca, Dr. N. Crivillers, Dr. A. Calzolari",
+        "start_index": 350,
+        "end_index": 605
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Reporting period (entire funding period): CA852/11-1 (01.03.2018 and 30.05.2021) and its extension CA852/11-3 (01.01.2022-31.12.2024).",
+        "start_index": 605,
+        "end_index": 739
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "2 Summary\nThe project and its extension concentrate on radical thin films. I have identified and refined the growth protocols for various radicals and multi-radicals, enabling their evaporation while preserving their radical nature. Additionally, I have explored the influence of different functional groups on thin film properties. During these years, I have addressed a variety of aspects, demonstrating the feasibility of using radicals in fields ranging from quantum technologies to spintronics.",
+        "start_index": 739,
+        "end_index": 1238
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "By using primarily X-ray-based techniques, including at synchrotron facilities, I have linked structural, electronic, and magnetic properties. I have also examined how the interaction strength between the (multi-)radicals and the substrate affects the interface formation, growth modes, and film processes of the radical thin films",
+        "start_index": 1238,
+        "end_index": 1569
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Furthermore, I have focused on evaluating film stability, which is crucial for understanding their chemistry when exposed to air prior to performing electron spin resonance (ESR) spectroscopy\u2014a traditional (ex-situ) technique used for radicals\u2014and for determining film stability in environments simulating working devices. I have developed a protocol to study the effects of air exposure on radical thin films and utilized this method",
+        "start_index": 1569,
+        "end_index": 2005
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Finally, I have conducted and interpreted X-ray magnetic circular dichroism (XMCD) investigations, revealing the interplay between structure and magnetic behavior in radical thin films.",
+        "start_index": 2005,
+        "end_index": 2192
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Das Projekt und seine Fortsetzung konzentrieren sich auf radikale D\u00fcnnenschichten. Ich habe die Wachstumsprotokolle f\u00fcr verschiedene Radikale und Multi-Radikale identifiziert und verfeinert, um deren Verdampfung zu erm\u00f6glichen und gleichzeitig ihren radikalen Charakter zu erhalten",
+        "start_index": 2192,
+        "end_index": 2473
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Dar\u00fcber hinaus habe ich den Einfluss verschiedener funktioneller Gruppen auf die Eigenschaften der D\u00fcnnenschichten untersucht. Im Laufe der Jahre habe ich verschiedene Aspekte adressiert und die Machbarkeit der Verwendung von Radikalen in Bereichen von Quantentechnologien bis Spintronik demonstriert.",
+        "start_index": 2473,
+        "end_index": 2776
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Durch den Einsatz haupts\u00e4chlich r\u00f6ntgenbasiertener Techniken, einschlie\u00dflich am Synchrotron, habe ich strukturelle, elektronische und magnetische Eigenschaften verkn\u00fcpft",
+        "start_index": 2776,
+        "end_index": 2945
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Zudem habe ich untersucht, wie die Wechselwirkungsst\u00e4rke zwischen den (Multi-)Radikalen und dem Substrat die Grenzfl\u00e4chen, Wachstumsmodi und Filmprozesse der radikalen D\u00fcnnenschichten beeinflusst",
+        "start_index": 2945,
+        "end_index": 3142
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Weiterhin habe ich mich auf die Bewertung der Filmstabilit\u00e4t konzentriert, was entscheidend f\u00fcr das Verst\u00e4ndnis ihrer Chemie bei Luft vor der Durchf\u00fchrung der Elektronenspinresonanz-Spektroskopie (ESR) ist \u2013 einer traditionellen (ex-situ) Technik f\u00fcr Radikale \u2013 sowie zur Bestimmung der Filmstabilit\u00e4t in Umgebungen, die ein funktionierende Bauteile simulieren",
+        "start_index": 3142,
+        "end_index": 3504
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Ich habe ein Protokoll entwickelt, um die Auswirkungen der Luft auf radikale D\u00fcnnenschichten zu untersuchen und dieses Verfahren angewendet. Dar\u00fcber hinaus habe ich R\u00f6ntgenmagnetische Zirkulardichroismus (XMCD) Untersuchungen durchgef\u00fchrt und interpretiert, welche das Zusammenspiel von Struktur und magnetischem Verhalten in radikalen D\u00fcnnenschichten aufzeigen",
+        "start_index": 3504,
+        "end_index": 3867
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "3 Progress Report",
+        "start_index": 3867,
+        "end_index": 3884
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "The expected results foreseen in \"Interplay of structural and electronic properties and their impact on thin films of metal-free organic radicals\" and its prolongation were: 1) Growth protocol containing all relevant parameters (temperature substrates, evaporation temperature, geometry), without radical degradation. 2) Characterization of the electronic structure of the thin films at the interface. Chemi- versus physisorption. Core-hole screening effects",
+        "start_index": 3884,
+        "end_index": 4342
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Distance of the molecules from the surface, mobility, desorption and dewetting phenomena. Density of states at the interface. 3) Correlation of the properties of the interfacial layer with the properties of the multilayer. 4) Assessing the (UHV, air, humidity, various gases) stability of the radical thin films. 5) Spinterface: Analysis of the magnetic character of the molecules at the interface. Spin density at the interface. Hybridisation",
+        "start_index": 4342,
+        "end_index": 4787
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Correlation with the magnetic properties of the single molecule on the one side, and with the substrate on the other side, in the case of a magnetic substrate. Description of the influence of the substrate/multi-radicals on the pristine magnetic character of the molecule/substrate. Description of the influence of the substrate (chemi- versus physisorption) on the pristine magnetic character of the molecule. 6) In selected systems: Exploring the potential magnetic character of",
+        "start_index": 4787,
+        "end_index": 5269
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "the thin films. Exploring the interplay between structure and the local magnetic-exchange coupling. Exploring the magnetic character for different thicknesses. Hysteresis curves.",
+        "start_index": 5269,
+        "end_index": 5447
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "All used radicals have been synthesized either by Prof. Dr. Rajca, or Dr. N. Crivillers.\n\nThe work done has been presented in the following published peer-reviewed papers:",
+        "start_index": 5447,
+        "end_index": 5618
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In *ACS Appl. Mater. Interface* 11 (2019) 1571, by using a multidisciplinary and multi-technique approach, I addressed the issue of attaching a molecular quantum bit to a real surface. I demonstrated that an organic derivative of the pyrene-Blatter radical is a potential molecular quantum bit",
+        "start_index": 5618,
+        "end_index": 5911
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". The study of the interface of the pyrene-Blatter radical with a copper-based surface reveals that the spin of the interface layer is not canceled by the interaction with the surface. Although the measured pyrene-Blatter derivative quantum coherence time is not the highest value known, this molecule is known as a \u201csuper stable\u201d radical.[1] Therefore, I discussed strategies, from synthesis to interface and surface stability, to make these materials competitive, bridging the gap between potential and real applications",
+        "start_index": 5911,
+        "end_index": 6433
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". The pyrene is the spacer between the anchor and the radical. In the case of the Blatter radical, this has a two-fold role: it enhances the unpaired electron delocalization and keeps the molecular qubit intact and available for the wished logic operations. This method gives also the opportunity to control the distance between molecules attached to a surface, i.e., between their spin centers, and, thus, to control their correlation.[2]",
+        "start_index": 6433,
+        "end_index": 6872
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In *JACS* 141 (2019) 4764, I demonstrated that it is possible to evaporate a diradical without degradation. Open-shell organic molecules with high-spin ground states and large energy gaps between the high-spin ground state and low-spin excited states possess intriguing characteristics that are not only of fundamental interest but also have significant potential for numerous advanced technological applications",
+        "start_index": 6872,
+        "end_index": 7284
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". The possibility to attach a molecule to a contact or to evaporate it onto a substrate, without degradation, is an undisputable requisite for its use in devices. I investigated the thin film by X-ray photoelectron spectroscopy (XPS). Looking at the relative intensities of the signals, I could calculate the elemental concentration of the films and compare it to the molecular stoichiometry",
+        "start_index": 7284,
+        "end_index": 7675
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". A best-fit procedure allows identifying the contributions from different atomic sites having slightly different binding energies due to variations in the chemical environment.[3] Comparing the film fit results and the molecule stoichiometry, I could conclude that the evaporation occurred without degradation of the diradical. This result is further supported by comparison with the XPS investigations carried out on the powder, i.e., on molecules that did not undergo evaporation",
+        "start_index": 7675,
+        "end_index": 8157
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". This work shows for the first time that a diradical is stable and robust enough to be evaporated under controlled conditions. I have also monitored the stability of the films in UHV (base pressure 2 x 10^{-10} mbar) using XPS, focusing on the N 1s core level spectra that are those of interest in our",
+        "start_index": 8157,
+        "end_index": 8459
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "work, carrying the information on the radical state. The spectra show no major changes on the time scale investigated, indicating that the diradical is vacuum-stable. Using the same method, I investigated film stability on air exposure. The diradical films show clear changes on the time scale of a few hours",
+        "start_index": 8459,
+        "end_index": 8767
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". While it is possible to evaporate diradicals and deposit their thin films under controlled conditions without degradation, the results indicate that the diradical films are less stable when compared to their single radical components.\\textsuperscript{[3-4]}",
+        "start_index": 8767,
+        "end_index": 9026
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In \\textit{Chem. Sci. 11 (2020) 516} and \\textit{Chem. Sci. 11 (2020) 9162}, I capitalize on the knowledge of the previous work studying the functionalization of gold surfaces with derivatives of the perchlorotriphenylmethyl (PTM) radical. PTM is a very persistent and stable radical that shows a long coherence time at room temperature, being a strong potential candidate for quantum technologies",
+        "start_index": 9026,
+        "end_index": 9423
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".\\textsuperscript{[5]} I used a ferrocene functionalized PTM derivative with an alkyne termination (Figure 1) that spontaneously covalently attaches to the gold substrate.\\textsuperscript{[6]} The ferrocene functionalization makes the molecules interesting for current rectification, as seen in radical self-assembled monolayers (SAMs) incorporating ferrocene acting as a redox-active moiety",
+        "start_index": 9423,
+        "end_index": 9814
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".\\textsuperscript{[7]} I investigated also the formation of SAMs obtained by using on-surface chemistry. While the chemical stability of the PTM radical was well-known, PTM is considered an inert radical, here I show that the radical monolayers have unprecedented stability under ambient conditions and aggressive X-ray exposure. Extremely prolonged X-ray exposure indicates a dynamic nature of the radical-Au complex, analogously to the case of thiolates-Au surfaces",
+        "start_index": 9814,
+        "end_index": 10281
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".\\textsuperscript{[8]} Although further investigations on the long-term aging pattern of the PTM radical-based layers also depending on different parameters, such as temperature and visible light, are necessary, the results point out that carbon absorption from ambient plays a major role when the monolayer is exposed to air for a long time. The PTM radical and its derivatives form monolayers with unprecedented stability properties, confirming that these systems are suitable candidates for market-oriented applications.",
+        "start_index": 10281,
+        "end_index": 10804
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In \\textit{Chem. Mater. 33 (2021) 2019}, I addressed why the evaporation of diradicals is difficult and how to choose them to have intact radical thin films. I also elucidate why the multi-radical thin films have a shorter lifetime. I demonstrated that it is possible to evaporate various diradicals in a controlled environment obtaining thin films in which the diradical character is preserved",
+        "start_index": 10804,
+        "end_index": 11198
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". The presence of two radical sites makes the molecules more reactive, also if the pristine single radicals are very stable. I have explored the parameters that play a role in this phenomenon. I find that the higher the formation energies of the crystal, the more difficult the evaporation of intact radicals is. Large delocalization of unpaired electrons helps the diradical to stand evaporation",
+        "start_index": 11198,
+        "end_index": 11594
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". This means that diradicals containing nitronyl nitroxide radical derivatives are weaker than Blatter diradical derivatives. I have also investigated the lifetime of the films when exposed to X-rays or air. The onset of thermal degradation plays a role in the film's lifetime. In fact, the lower the evaporation temperature with respect to the onset tem-",
+        "start_index": 11594,
+        "end_index": 11949
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "perature, the longer the film's lifetime. The evaporation of different diradicals can be success-\nfully addressed considering these findings.",
+        "start_index": 11949,
+        "end_index": 12090
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In *JACS* 143 (2021) 5508, I demonstrated that it is possible to evaporate a triradical. This is\nthe molecule with the highest number of radical sites ever evaporated so far. I have used the\nsame method that I previously used for the diradicals. I consider 1) the stochiometric infor-",
+        "start_index": 12090,
+        "end_index": 12374
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "mation from the XPS spectra; 2) the comparison between films and powder XPS spectra (the\npowder does not undergo evaporation) looking at the shape and the components of the sin-\ngle spectroscopic lines using a best-fit procedure[9] that I have also previously correlated with\nelectron spin resonant (ESR) spectroscopic investigations;[3-4, 10] 3) the comparison between",
+        "start_index": 12374,
+        "end_index": 12743
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "the experimental and the theoretical curves obtained by DFT calculations.[11] I have also in-\nvestigated the drop-cast films using the same techniques. The results further affirm that the\nevaporation does not degrade the triradical. Finally, I monitor the lifetime of the films in UHV\n(base pressure $2 \\times 10^{-10}$ mbar) by using XPS. I adopted the protocol previously applied to",
+        "start_index": 12743,
+        "end_index": 13127
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "radical and diradical films.19,22,50 I observed no major changes in the spectra of the evapo-\nrated films after their exposure to UHV at room temperature for around 17 h. However, after\n4 h of air exposure, I observe major changes in their XPS spectra, indicating film degradation.\nThus, the triradical thin films are much less robust in the air, as expected, given the results",
+        "start_index": 13127,
+        "end_index": 13504
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "already obtained for diradicals. Drop-cast films change on a longer time scale if exposed to\nair. These changes are different and might be due to structural changes. Additionally, be-\ncause the drop cast films are thicker by two orders of magnitude than the evaporated films\n(nm versus hundreds of nm), I speculate that the changes in intensities originate also from\nthe degradation of the more superficial layers of the drop cast films. These degraded layers",
+        "start_index": 13504,
+        "end_index": 13963
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "then act as a protective buffer for the underneath material that keeps its properties.",
+        "start_index": 13963,
+        "end_index": 14049
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "With the recent supervision of a Master Thesis on the evaporation of a Triblatter, i.e., a trirad-\nical based on the linear fusion of three Blatter radicals, I turned back to the triradical evapora-\ntion. The evaporation and deposition were successful, although very challenging, not only\nbecause of the number of radical sites but also because of the mass of the molecules (mo-",
+        "start_index": 14049,
+        "end_index": 14427
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "lecular weight: 865,1220) which is the biggest molecule I have evaporated in my laboratory.",
+        "start_index": 14427,
+        "end_index": 14518
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In *J. Mater Chem C* 9 (2021) 10787, I analyzed the radical evaporation process and the rad-\nical thin film formation using thermodynamic concepts and described the material properties\nalso using first-principles calculations (by Dr Arrigo Calzolari, CNR-NANO-S3, Modena). The\npresence of more than one radical site makes the radical more reactive, narrowing the win-",
+        "start_index": 14518,
+        "end_index": 14885
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "dows left for evaporation, thus, favoring the assembly of molecules and island formation ra-\nther than two-dimensional growth.",
+        "start_index": 14885,
+        "end_index": 15011
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In *JACS* 144 (2022) 13, I investigated evaporation processes and thin films of a High-Spin ($S = 1$)\nstable diradical derivative of the Blatter radical. This diradical was stable enough to be\nevaporated. The XPS investigations indicate that the films have the expected stoichiometry,",
+        "start_index": 15011,
+        "end_index": 15295
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "i.e., the evaporation of intact radicals was successfully achieved. They grow following the Volmer\u2013Weber (VW) growth mode, i.e., island growth. The radical single crystal and thin films show high conductivity: no charging of the single crystals and thin films during X-ray photoemission, due to the core hole left behind, was measured, indicating the fast delocalization of the core hole",
+        "start_index": 15295,
+        "end_index": 15682
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". It was found that the films exposed to air did not show any changes in the N 1s core level spectra for at least 18 hours. This can be considered a long film lifetime in comparison with other diradical and triradical thin films.",
+        "start_index": 15682,
+        "end_index": 15911
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Chem (Cell Press) 8 (2022) 801 explores the magnetic order in molecular films of light elements based on purely organic radicals, i.e., without the presence of metal atoms. This is the first paper in the field. What makes the difference is the investigation of thin films of materials that do not contain any metal atom, contrary to the published literature. The efforts aimed at measuring X-ray magnetic circular dichroism (XMCD) at the carbon and nitrogen K-edge",
+        "start_index": 15911,
+        "end_index": 16375
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". This allowed, for the first time, the magnetic characterization of very thin organic films. In fact, traditional techniques such as a superconducting quantum interference device (SQUID) do not possess enough sensitivity to investigate thin films. This paper unravels X-ray magnetic circular dichroism at the carbon and nitrogen K-edges in purely organic radical thin films. Controlling the preparation, the magnetic behavior is different than in single crystals. Atomistic simulations (by Dr. A",
+        "start_index": 16375,
+        "end_index": 16871
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Calzolari, CNR-NANO-S3, Modena) indicate that the reason for this is the molecular arrangement in the films when compared with that in the single crystal. The tuning of the film's magnetic properties by the molecular arrangement is an exciting perspective toward revealing new properties and applications.",
+        "start_index": 16871,
+        "end_index": 17178
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "JACS 145 (2023) 13335 proposes the investigation of a new stable $S = 1/2$ Tetrazolinyl Radical. It was evaporated under ultra-high vacuum (UHV), forming nanoneedles keeping the substrate at room temperature. The nanoneedles\u2019 UHV- and air-stability were further investigated by using XPS",
+        "start_index": 17178,
+        "end_index": 17465
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". The nanoneedle morphology is very interesting for nanoelectronics applications because of device miniaturization and the favorable ratio between surface and bulk, beneficial for various devices such as sensors and transistors. To our knowledge, among adequately characterized thin films of radicals, only the tris(2,4,6-trichlorophenyl)methyl radical shows a mixed morphology, with the coexistent presence of islands and fibers when grown on graphene",
+        "start_index": 17465,
+        "end_index": 17917
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Conversely, the tetrazolinyl radical shows a distinct nanoneedle self-assembled morphology under the present preparation conditions. This morphology was also the starting point for a new work that is presently submitted (Achieving Chemical Recognition, Recycling, and Circularity with Radical Nanostructures, by A. Das, E. M. Nowik-Boltyk, T. Junghoever, E. Nadler, F. Gity, P. K. Hurley, z",
+        "start_index": 17917,
+        "end_index": 18309
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Yang, A. Rajca, F. Tavanti, A. Calzolari, M. B. Casu). This work focuses on the growth of novel three-dimensional (3D) magnetic nanostructures using an innovative approach that emphasizes recycling and circular economy principles. The production and investigation of 3D",
+        "start_index": 18309,
+        "end_index": 18580
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "magnetic nanostructures represent a significant advancement in both fundamental research and practical applications, with immense potential for next-generation technologies, as also explicitly discussed in the \u201c2025 Roadmap on 3D Nano-magnetism\u201d by Gubbiotti (J. Phys.: Condens. Matter 2024, DOI: 10.1088/1361-648X/ad9655). Device scientists continuously develop new ideas and materials, but these efforts rarely address ecological questions",
+        "start_index": 18580,
+        "end_index": 19021
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". In this study, the S = 1/2 4,4\u2019-dicyano-2,2\u2019-biphenylene-fused tetrazolinyl radical was used or the fabrication of these 3D nanostructures. Interdigitated gold-SiO\u2082 hybrid surfaces were used as substrates, due to their relevance in technological applications. The key findings include: 1) Successful growth of radical nanostructures that retain their magnetic properties",
+        "start_index": 19021,
+        "end_index": 19393
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". 2) Ability to adjust the morphology and size of the nanostructures. 3) Selective removal of nanostructures from specific substrate regions using distilled water. 4) Restoration of substrates to their pristine condition, enabling their reuse after washing.",
+        "start_index": 19393,
+        "end_index": 19650
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "This research not only aims to produce cutting-edge 3D nanostructures but also strives to improve efficiency and minimize material consumption, aligning with circular economy principles. This approach is particularly beneficial for expensive materials such as gold and patterned hybrid substrates that require complex fabrication techniques. The non-conventional use of water makes the procedure safe, low-cost, and compatible with ecological requirements.",
+        "start_index": 19650,
+        "end_index": 20106
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "ACS Appl. Mater. Interface 15 (2023) 30935 focuses on Blatter radical derivatives because they are very attractive due to their potential applications, ranging from batteries to quantum technologies. This work is on the latest insights regarding the fundamental mechanisms of radical thin film (long-term) degradation, by comparing two Blatter radical derivatives. The interaction with different contaminants affects the chemical and magnetic properties of the thin films upon air exposure",
+        "start_index": 20106,
+        "end_index": 20595
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Also, the radical-specific site, where the contaminant interaction takes place, plays a role (simulations by Dr. A. Calzolari, CNR-NANO-S3, Modena). Atomic H and NH\u2082 are detrimental to the magnetic properties of Blatter radicals, while the presence of molecular water influences more specifically the magnetic properties of the diradical thin films, and it is believed to be the major cause of the shorter diradical thin film lifetime in air.",
+        "start_index": 20595,
+        "end_index": 21039
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "In Angew. Chem., Int. Ed. 42 (2024) e202403495, the question that I answered was whether depositing a radical monolayer can influence the magnetic properties of a \"classical\" ferromagnetic material such as cobalt. It was the first time that this aspect was explored. This was done by proposing a different way to look at the organic/ferromagnetic interfaces",
+        "start_index": 21039,
+        "end_index": 21396
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". By combining soft X-ray techniques such as XPS and NEXAFS and analyzing all details of the electronic structure of the interface, it is possible to predict its magnetic properties. In this case, the Blatter-pyr derivative, used for this investigation, is strongly hybridized with the surface. Changes in the core level spectra reflect the modification of the molecule and the cobalt electronic structures inducing a decrease in the magnetic moment of the cobalt atoms bond-",
+        "start_index": 21396,
+        "end_index": 21871
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "ed to the molecules which, in turn, lose their radical character. Taking inspiration from the data analysis performed on electron energy loss spectroscopy (EELS), I have adapted it to the NEXAFS spectra to quantify the differences in the spectra before and after evaporation, calculating the $I(L_3)/I(L_2)$ ratio. The $I(L_3)/I(L_2)$ ratio is lower after the radical layer deposition, indicating lower d orbital occupancy",
+        "start_index": 21871,
+        "end_index": 22293
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Considering methods previously used for EELS spectra; it is also possible to obtain a numerical estimate of the d orbital occupancy that confirms the chemisorption of the Blatter-pyr with charge transfer from the cobalt surface. After the publication of this paper, I was invited to write a \u201cFeature article\u201d to be published in *Chemistry - A European Journal* (in preparation) on this new development.",
+        "start_index": 22293,
+        "end_index": 22697
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "The CA852/11-3 data has been partly saved in Zenodo and openly accessible under the following DOIs: 10.5281/zenodo.11048245 and DOI 10.5281/zenodo.10854586.\n\nBibliography",
+        "start_index": 22697,
+        "end_index": 22867
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[1] C. P. Constantinides, P. A. Koutentis, H. Krassos, J. M. Rawson, A. J. Tasiopoulos, *J. Org. Chem.* 2011, 76, 2798.",
+        "start_index": 22867,
+        "end_index": 22986
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[2] a)A. Ghirri, A. Candini, M. Affronte, *Magnetoochemistry* 2017, 3, 12; b)M. D. Jenkins, D. Zueco, O. Roubek, G. Arimi, J. Majer, F. Luis, *Dalton Transactions* 2016, 45, 16682.",
+        "start_index": 22986,
+        "end_index": 23166
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[3] S.-A. Savu, I. Biswas, L. Sorace, M. Mannini, D. Rovai, A. Caneschi, T. Chass\u00e9, M. B. Casu, *Chem.-Eur. J.* 2013, 19, 3445.",
+        "start_index": 23166,
+        "end_index": 23293
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[4] F. Ciccullo, N. M. Gallagher, O. Geladari, T. Chasse, A. Rajca, M. B. Casu, *ACS Appl. Mater. Interfaces* 2016, 8, 1805.",
+        "start_index": 23293,
+        "end_index": 23417
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[5] Y.-Z. Dai, B.-W. Dong, Y. Kao, Z.-Y. Wang, H.-L. Un, Z. Liu, Z.-J. Lin, L. Li, F.-B. Xie, Y. Lu, M.-X. Xu, T. Lei, Y.-J. Sun, J.-Y. Wang, S. Gao, S.-D. Jiang, J",
+        "start_index": 23417,
+        "end_index": 23581
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Pei, *ChemPhysChem* 2018, 19, 2972.",
+        "start_index": 23581,
+        "end_index": 23618
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[6] a)T. Heinrich, C. H. H. Traulsen, E. Darlatt, S. Richter, J. Poppenberg, N. L. Traulsen, I. Linder, A. Lippitz, P. M. Dietrich, B. Dib, W. E. S. Unger, C. A. Schalley, *RSC Adv",
+        "start_index": 23618,
+        "end_index": 23798
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".* 2014, 4, 17694; b)Y.-Q. Zhang, N. Kep\u010dija, M. Kleinschrodt, K. Diller, S. Fischer, A. C. Papageorgiou, F. Allegretti, B. Bj\u00f6rk, S. Klyatskaya, F. Klappenberger, M. Ruben, J. V. Barth, *Nat. Commun",
+        "start_index": 23798,
+        "end_index": 23997
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".* 2012, 3, 1286; c)T. Zaba, A. Noworolska, C. M. Bowers, B. Breiten, G. M. Whitesides, P. Cyganik, *J. Am. Chem. Soc.* 2014, 136, 11198; d)N. J. Tao, *Nat. Nanotechnol.* 2006, 1, 173; e)D",
+        "start_index": 23997,
+        "end_index": 24185
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Fracasso, S. Kumar, P. Rudolf, R. C. Chiechi, *RSC Adv.* 2014, 4, 56026; f)F. Bejarano, I. J. Olavarria-Contreras, A. Droghetti, I. Rungger, A. Rudnev, D. Guti\u00e9rrez, M. Mas-Torrent, J. Veciana, H. S. J",
+        "start_index": 24185,
+        "end_index": 24388
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". van der Zant, C. Rovira, E. Burzuri, N. Crivillers, *J. Am. Chem. Soc.* 2018, 140, 1691.",
+        "start_index": 24388,
+        "end_index": 24478
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[7] a)M. Souto, V. D\u00edez-Cabanes, L. Yuan, A. R. Kyv\u00eck, I. Ratera, C. A. Nijhuis, J. Cornil, J. Veciana, *Phys. Chem. Chem. Phys.* 2018, 20, 25638; b)L. Yuan, N. Nerngchamnong, L. Cao, H",
+        "start_index": 24478,
+        "end_index": 24663
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Hamoudi, E. del Barco, M. Roemer, R. K. Siriramula, D. Thompson, C. A. Nijhuis, *Nat. Commun.* 2015, 6, 6324; c)J. A. de Sousa, F. Bejarano, D. Guti\u00e9rrez, Y. R. Leroux, E. M. Nowik-Boltyk, T",
+        "start_index": 24663,
+        "end_index": 24855
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Junghofer, E. Giangrisostomi, R. Ovsyannikov, M. B. Casu, J. Veciana, M. Mas-Torrent, B. Fabre, C. Rovira, N. Crivillers, *Chem. Sci.* 2020, 11, 9162.",
+        "start_index": 24855,
+        "end_index": 25007
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[8] T. B\u00fcrgi, *Nanoscale* 2015, 7, 15553.",
+        "start_index": 25007,
+        "end_index": 25048
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[9] T. Junghofer, E. M. Nowik-Boltyk, J. A. de Sousa, E. Giangrisostomi, R. Ovsyannikov, T. Chass\u00e9, J. Veciana, M. Mas-Torrent, C. Rovira, N. Crivillers, *Chem. Sci.* 2020, 11, 516.",
+        "start_index": 25048,
+        "end_index": 25229
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[10] a)R. Kakavandi, S.-A. Savu, A. Caneschi, M. B. Casu, *J. Phys. Chem. C* 2013, 117, 26675; b)F. Ciccullo, A. Calzolari, K. Bader, P. Neugebauer, N. M. Gallagher, A. Rajca, J. van Slageren, M. B",
+        "start_index": 25229,
+        "end_index": 25426
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Casu, *ACS Appl. Mater. Interfaces* 2019, 11, 1571.",
+        "start_index": 25426,
+        "end_index": 25479
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "[11] T. Junghofer, N. M. Gallagher, K. Kolanji, E. Giangrisostomi, R. Ovsyannikov, T. Chass\u00e9, M. Baumgarten, A. Rajca, A. Calzolari, M. B. Casu, *Chem. Mat.* 2021, 33, 2019.\n4.1 Publications with scientific quality assurance",
+        "start_index": 25479,
+        "end_index": 25703
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "The asterisk identifies my role as the corresponding author.",
+        "start_index": 25703,
+        "end_index": 25763
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Radical-Induced Changes in Transition Metal Interfacial Magnetic Properties: A Blatter Derivative on Polycrystalline Cobalt, E. M. Nowik-Boltyk, T. Junghoefer, E. Giangrisostomi, R. Ovsyannikov, C. Shu, A. Rajca, A. Droghetti, M. B. Casu*, Angew. Chem., Int. Ed",
+        "start_index": 25763,
+        "end_index": 26026
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". (2024) (open access) (featured on the inside back cover)",
+        "start_index": 26026,
+        "end_index": 26084
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Long-term degradation mechanisms in application-implemented radical thin films, E. M. Nowik-Boltyk, T. Junghoefer, M. Glaser, E. Giangrisostomi, R. Ovsyannikov, S. Zhang, C. Shu, A. Rajca, A. Calzolari, M. B. Casu*, ACS Appl. Mater",
+        "start_index": 26084,
+        "end_index": 26317
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Interface 15 (2023) 30935 (open access)",
+        "start_index": 26317,
+        "end_index": 26358
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Thermally Ultra-Robust S = \u00bd Tetrazolinyl Radicals: Synthesis, Electronic Structure, Magnetism, and Nanoneedle Assemblies on Silicon Surface, Z. Yang, M. Pink, E.M. Nowik-Boltyk, S. Lu, T. Junghoefer, S. Rajca, S. Stoll, M. B. Casu*, A",
+        "start_index": 26358,
+        "end_index": 26595
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Rajca, JACS 145 (2023) 13335 (https://chemrxiv.org/engage/chemrxiv/article-details/6430358f0784a63aeeb3d714)",
+        "start_index": 26595,
+        "end_index": 26705
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Magnetic behaviour in metal-free radical thin films, T. Junghoefer, A. Calzolari, I. Baev, M. Glaser, F. Ciccullo, E. Giangristomi, R. Ovsyannikov., F. Kielgast, M. Nissen, J. Schwarz, N. M. Gallagher, A. Rajca, M. Martins, M. B",
+        "start_index": 26705,
+        "end_index": 26935
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Casu*, Chem (Cell Press) 8 (2022) 801 (research highlight in Nat. Rev. Chem. 6 (2022) 88)",
+        "start_index": 26935,
+        "end_index": 27026
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- High-Spin (S = 1) Blatter-Based Diradical with Robust Stability and Electrical Conductivity, S. Zhang, M. Pink, T. Junghoefer, W. Zhao, S.-N. Hsu, S. Rajca, B. W. Boudouris, A. Calzolari, M. B. Casu*, A. Rajca, JACS 144 (2022) 13",
+        "start_index": 27026,
+        "end_index": 27257
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- (invited) From radical to triradical thin film processes: the Blatter radical derivatives, A. Calzolari, A. Rajca, M. B. Casu*, J. Mater Chem C 9 (2021) 10787 (open access) Special issue \u201cMaterials for molecular electronics and magnetism\u201d",
+        "start_index": 27257,
+        "end_index": 27497
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Synthesis and Thin Films of Thermally Robust Quartet (S = 3/2) Ground State Triradical, C. Shu, M. Pink, T. Junghoefer, E. Nadler, S. Rajca, M. B. Casu*, A. Rajca, JACS 143 (2021) 5508 (https://arxiv.org/abs/2103.12713)",
+        "start_index": 27497,
+        "end_index": 27718
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Challenges in controlled thermal deposition of organic diradicals, T. Junghoefer, N. M. Gallagher, K. Kolanji, E. Giangrisostomi, R. Ovsyannikov, T. Chass\u00e9, M. Baumgarten, A. Rajca, A. Calzolari, M. B. Casu*, Chem. Mater. 33 (2021) 2019 (https://arxiv",
+        "start_index": 27718,
+        "end_index": 27971
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ".org/abs/2005.04993) (Featured on the front cover)",
+        "start_index": 27971,
+        "end_index": 28021
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Stability of radical-functionalized gold surfaces by self-assembly and on-surface chemistry (open access), T. Junghoefer, E. Malgorzata Nowik-Boltyk, J. A. de Sousa, E. Giangrisostomi, R. Ovsyannikov, T. Chass\u00e9, J. Veciana, M. Mas-Torrent, C. Rovira, N.",
+        "start_index": 28021,
+        "end_index": 28276
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Crivillers, M. B. Casu*, Chem. Sci. 11 (2020) 9162 (open access) Selected for the Themed collection #RSCPoster Twitter Conference",
+        "start_index": 28276,
+        "end_index": 28405
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Exploiting the versatile alkyne-based chemistry for expanding the applications of a stable triphenylmethyl organic radical on surfaces, J. Alejandro de Sousa, F. Bejarano, D. Guti\u00e9rrez, Y. R. Leroux, E.-M. Nowik Boltyk, T. Junghoefer, E. Giangrisostomi, R. Ovsyannikov, M. B. Casu*, J",
+        "start_index": 28405,
+        "end_index": 28691
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": ". Veciana, M. Mas-Torrent, B. Fabre, C. Rovira, N. Crivillers, Chem. Sci. 11 (2020) 516 (open access)",
+        "start_index": 28691,
+        "end_index": 28792
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Thermally and Magnetically Robust Triplet Ground State Diradical, N. Gallagher, H. Zhang, T. Junghoefer, E. Giangrisostomi, R. Ovsyannikov, M. Pink, S. Rajca, M. B. Casu*, A. Rajca, JACS 141 (2019) 4764",
+        "start_index": 28792,
+        "end_index": 28996
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Interfacing a Potential Purely Organic Molecular Quantum Bit with a Real-Life Surface, F. Ciccullo, A. Calzolari, K. Bader, P. Neugebauer, N. M. Gallagher, A. Rajca, J. van Slageren, M. B. Casu*, ACS Appl. Mater. Interface 11 (2019) 1571\n\n4.2 Other publications and published results",
+        "start_index": 28996,
+        "end_index": 29281
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "Contributions to science communication that I have written:\n\n- The magnetic behavior of metal-free organic materials, Science X https://sciencex.com/news/2022-03-magnetic-behavior-metal-free-materials.html\n\n- First step in radical spintronics, https://uni-tuebingen.de/en/university/news-and-publications/attempto-online/newsfullview-attempto-en/article/first-step-in-radical-spintronics/",
+        "start_index": 29281,
+        "end_index": 29669
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Metal-free radicals show magnetic behaviour, https://uni-tuebingen.de/uni/aktuelles-und-publikationen/attempto-online/newsfullview-attempto/article/metal-free-radicals-show-magnetic-behaviour/\n\n- X-ray analysis points way to flexible and transparent magnets, https://www.desy.de/news/news_search/index_eng.html?openDirectAnchor=2218&two_columns=0",
+        "start_index": 29669,
+        "end_index": 30017
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "- Overcoming the challenges in controlled thermal deposition of organic diradicals, https://phys.org/news/2021-02-thermal-deposition-diradicals.html",
+        "start_index": 30017,
+        "end_index": 30165
+    },
+    {
+        "document_name": "130.txt",
+        "chunk_text": "I was interviewed by the research Magazine Attempto!: Future materials: delicate magnets, https://uni-tuebingen.de/universitaet/aktuelles-und-publikationen/forschungsmagazin-attempto-1/archiv/ (Issue 57, October 2022, page 24)\n\n4.3 Patents (applied for and granted)\n\n--",
+        "start_index": 30165,
+        "end_index": 30434
+    }
+]

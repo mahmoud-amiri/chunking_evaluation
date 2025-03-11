@@ -1,0 +1,2360 @@
+[
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Quaternary biopesticides and disinfectants derived from quinine and amino acids \u2013 environmental prospects and risks\n\nTomasz Rzemieniecki, a,* Krzysztof Ju\u015b, b Tomasz Klejdysz, c Daniela Gwiazdowska b\n\na Faculty of Chemical Technology, Poznan University of Technology, Berdychowo 4, Poznan 60-965, Poland",
+        "start_index": 0,
+        "end_index": 303
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "b Department of Natural Science and Quality Assurance, Poznan University of Economics and Business, Niepodleg\u0142o\u015bci 10, Poznan 60-967, Poland\n\nc Institute of Plant Protection\u2013National Research Institute, W\u0142adys\u0142awa Wegorka 20, Poznan 60-318, Poland\n\n* Tomasz Rzemieniecki: Faculty of Chemical Technology, Poznan University of Technology, Berdychowo 4, Poznan 60-965, Poland",
+        "start_index": 303,
+        "end_index": 675
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "E-mail address: tomasz.rzemieniecki@put.poznan.pl",
+        "start_index": 675,
+        "end_index": 724
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Tel. +48 61 665 3681",
+        "start_index": 724,
+        "end_index": 744
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Abstract: The numerous risks associated with the toxicity of conventional quaternary ammonium salts (QASs) to various groups of living organisms have prompted the search for new, safer biologically active compounds synthesized in a sustainable manner from renewable raw materials. Here, we describe new QASs of natural origin containing quinine-based cation and anions derived from proteinogenic amino acids \u2013 L-asparagine and L-alanine",
+        "start_index": 744,
+        "end_index": 1180
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The quinine-derived QASs were thoroughly characterized in terms of correctness of chemical structure, physicochemical properties, and biological activity. It was discovered that due to quinine activity, the new salts exhibit strong antifeedant activity toward stored products pests, and in the case of elongation of the alkyl substituent in the 1-alkylquininium cation, they also become potent disinfectants.",
+        "start_index": 1180,
+        "end_index": 1590
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The performed analyses also allowed to assess the environmental risk by determining toxicity to monocotyledonous (Sorghum bicolor) and dicotyledonous (Sinapis alba) terrestrial plants, freshwater algae (Chlorella vulgaris) and crustaceans (Daphnia magna) at various concentrations of the test substance",
+        "start_index": 1590,
+        "end_index": 1892
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". None of the QASs of natural origin showed phytotoxicity, and salts containing short alkyl substituents in quinine-based cations were noticeably less toxic to aquatic organisms than the other tested compounds. The results indicate that although a trade-off between antimicrobial activity and aquatic toxicity must be made when designing new quinine-based antiseptics, it is possible to obtain potent, naturally-derived and relatively low-toxic biopesticides based on quinine and amino acids.",
+        "start_index": 1892,
+        "end_index": 2384
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Keywords: proteinogenic amino acids, cinchona alkaloids, antifeedants, antimicrobial activity, phytotoxicity, aquatic toxicity\n1. Introduction",
+        "start_index": 2384,
+        "end_index": 2526
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Quaternary ammonium salts (QASs) are a group of chemicals manufactured and used on a mass scale around the world. Their favorable surface properties and biological activity have resulted in decades of use as cleaning agents, emulsifiers, preservatives, algicides, cosmetic additives, as well as antiseptics and disinfectants (Arnold et al., 2023; De et al., 2015)",
+        "start_index": 2526,
+        "end_index": 2889
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". However, the increasing use of conventional, fully synthetic QASs, particularly evident in recent years due to the COVID-19 pandemic (Arnold et al., 2023), represents a significant environmental burden due to their limited biodegradability, accumulation tendencies (Pati and Arnold, 2020) and their very high toxicity toward organisms present in water and soil (Badmus et al., 2021; Kaczerewska et al., 2020; Zhang et al",
+        "start_index": 2889,
+        "end_index": 3311
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2015). Due to the persistence of QASs in the environment at constant, low concentrations, there is also a genuine risk of widespread acquisition of resistance by pathogenic microbes to this most commonly used type of disinfectants (Jia et al., 2022). Moreover, due to their good surface properties and ability to form micelles, QASs may also be responsible for the spread of hydrophobic toxic substances in the environment (Badmus et al",
+        "start_index": 3311,
+        "end_index": 3750
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2021).",
+        "start_index": 3750,
+        "end_index": 3759
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "For the above reasons, a strategy of replacing toxic QASs characterized by low biocompatibility with safer active substances of natural origin and taking into account environmental risks of their production and use is reasonable (Zhang et al., 2021). This approach involves replacing fully synthetic cationic QASs with salts of natural origin, including amphiphilic betaine derivatives (Homa et al., 2024; Merkova et al",
+        "start_index": 3759,
+        "end_index": 4178
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2018; Vonlanthen et al., 2011), which can be obtained in sustainable ways and are characterized by lower ecotoxicity. A particularly interesting variant of this strategy consists in the use of natural compounds with favorable physicochemical or biological properties as a scaffold for new active ingredients. For example, quinine, the oldest, naturally derived antimalarial drug, is currently attracting interest in the scientific community and provides a promising foundation for the structures of active",
+        "start_index": 4178,
+        "end_index": 4686
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "pharmaceutical ingredients (Jones et al., 2015; Terunuma and Hayashi, 2022). In this regard, it should be noted that recently effective methods have been developed for obtaining QASs with a cation derived from quinine (McNeice et al., 2020; Pernak et al., 2020), for which a number of beneficial applications have been proposed to date",
+        "start_index": 4686,
+        "end_index": 5021
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Quinine-based QASs may be applied as catalysts for stereochemical reactions that are stable in alkaline media (McNeice et al., 2020), modifiers for enantiomer separation (Sintra et al., 2019), and plant growth regulators (Rzemieniecki et al., 2021). Due to the confirmed antifeedant properties toward insects exhibited by quinine (Jermy, 1990; Lazzari et al",
+        "start_index": 5021,
+        "end_index": 5380
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2024; Ramaswamy et al., 1992), the prospect of application of quinine-based QASs as biopesticides to reduce insect feeding on plants and stored grain may represent a promising direction (Pernak et al., 2020). The search for new ways to counteract insect feeding in a sustainable and environmentally safe manner is particularly important, since ongoing global warming significantly contributes to the increase in insect metabolism, as well as their need for food",
+        "start_index": 5380,
+        "end_index": 5844
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the case of a 2 \u00b0C temperature rise compared to the pre-industrial levels, yield losses caused by pest insects could increase by as much as 46% for wheat, 13% for rice and 31% for corn (Deutsch et al., 2018). Given that the projected increase in global temperature is very likely to reach 2.5\u20132",
+        "start_index": 5844,
+        "end_index": 6143
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".9 \u00b0C by the end of this century according to the latest UN report (United Nations Environment Programme, 2023), pest activity is also expected to rise faster and to higher levels.",
+        "start_index": 6143,
+        "end_index": 6323
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In previous work, no attention was paid to the environmental fate of quinine-based QASs as a new type of pollutant, nor did they consider the toxicity of these compounds to living organisms. In order to mitigate negative environmental effects, in the course of designing the new compounds, the strategy of obtaining new naturally-derived QASs was extended",
+        "start_index": 6323,
+        "end_index": 6678
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The cation derived from the plant alkaloid was combined with natural anions of L-asparagine and L-alanine, proteinogenic amino acids that constitute the building blocks of proteins in living organisms. There is no information about harmful effects of these amino acids on human and",
+        "start_index": 6678,
+        "end_index": 6961
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "animal health (Garlick, 2004). The synthesized quinine-derived QASs were subsequently tested in terms of their lipophilicity, antimicrobial activity, biopesticidal activity toward pest insects, and their toxicity toward terrestrial plants and aquatic organisms. The results obtained in the course of this study allowed a meaningful determination of the application potential of the new quinine derivatives, as well as the risks associated with their possible introduction into the environment.",
+        "start_index": 6961,
+        "end_index": 7454
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2. Experimental\n\n2.1. Materials",
+        "start_index": 7454,
+        "end_index": 7485
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Quinine monohydrochloride dihydrate (purity \u226595%), 1-bromobutane (purity \u226598%), 1-bromooctane (purity 99%), 1-bromododecane (purity \u226595%), 1-bromododecane (purity 95%), L-asparagine (purity \u226598%), L-alanine (purity \u226599%), 1-octanol (purity \u226599%)",
+        "start_index": 7485,
+        "end_index": 7730
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "and ion-exchange resin AmberLite\u2122 HPR550 OH were purchased from Merck KGaA, (Darmstadt, Germany)",
+        "start_index": 7730,
+        "end_index": 7826
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Methanol (purity \u226599.8%), ethanol (purity \u226599.8%), 2-propanol (purity \u226599.7%), diethyl ether (purity \u226599.8%), dimethyl sulfoxide (purity \u226599.9%), dimethylformamide (purity \u226599.8%), acetonitrile (\u226599.9%), acetone (purity \u226599.8%), ethyl acetate (purity \u226599",
+        "start_index": 7826,
+        "end_index": 8082
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".5%) and potassium hydroxide (>98%) were provided by Avantor Performance Materials Poland S.A. (Gliwice, Poland) and used without further purification. Microbiological broth media including Nutrient Broth, Mueller-Hinton Broth, TS and BHI Broth for bacteria, YPD Broth for yeast and PDB for filamentous fungi were purchased from BioMaxima (Lublin, Poland)",
+        "start_index": 8082,
+        "end_index": 8437
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The sources of materials used for the preparation of media recommended by OECD guidelines for toxicity studies are disclosed in the Supplementary Data (Table A.1). Water for syntheses, apparatus calibration, solubility studies, octanol-water partition coefficient studies, and biological assay studies was deionized, with a conductivity <0.1 \u03bcS\u00b7cm\u207b\u00b9, from demineralizer HLP Smart 1000 (Hydrolab, Straszyn, Poland)",
+        "start_index": 8437,
+        "end_index": 8852
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". OECD guidelines-compliant soil and seeds of white mustard...",
+        "start_index": 8852,
+        "end_index": 8914
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "(Sinapis alba L.) and sorghum (Sorghum bicolor (L.) Moench) were purchased from MicroBioTests Inc. (Gent, Belgium).",
+        "start_index": 8914,
+        "end_index": 9029
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.2. General",
+        "start_index": 9029,
+        "end_index": 9041
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "$^1$H NMR spectra were acquired using Bruker Avance III\u2122 HD 600 MHz apparatus (Billerica, Massachusetts, USA) or Varian VNMR-S 400 MHz spectrometer (Palo Alto, USA) with TMS as the internal standard, using DMSO-$d_6$ as a solvent. $^{13}$C NMR spectra were obtained with the same instruments at 150 MHz or 100 MHz, respectively",
+        "start_index": 9041,
+        "end_index": 9368
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". FT-IR spectra were recorded on IFS 66v/S spectrometer (Bruker Optics, Ettling, Germany) or collected by using an EasyMax 102 semi-automated system (Mettler Toledo, USA) connected to a ReactIR\u00ae 15 (Mettler Toledo, USA) probe equipped with an MCT detector and 9.5 mm AgX probe with a diamond tip",
+        "start_index": 9368,
+        "end_index": 9663
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The data were sampled from 4000 to 400 cm$^{-1}$ and visualized using Spectragryph 1.2.13 software (Menges, 2009) (IFS 66v/S spectrometer) or from 3000 to 650 cm$^{-1}$ and processed by iCIR 4.3 software (ReactIR\u00ae 15)",
+        "start_index": 9663,
+        "end_index": 9882
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The water content in all obtained products was measured with a TitroLine 7500 KF coulometer (SI Analytics, Germany) using the Karl Fischer titration method according to the previously described procedure (Stachowiak et al., 2022). Differential scanning calorimeter (DSC) was performed on DSC-XP-10 unit (THASS, Germany)",
+        "start_index": 9882,
+        "end_index": 10203
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Samples between 5 and 20 mg were placed in platinum pans and were heated from 25 to 120 \u00b0C at a heating rate of 10 \u00b0C min$^{-1}$ and cooled at a cooling rate of 10 \u00b0C min$^{-1}$ to -80 \u00b0C. After that, samples were heated again to 120 \u00b0C and subsequently cooled to 25 \u00b0C",
+        "start_index": 10203,
+        "end_index": 10474
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Decomposition temperatures were determined visually using Melting Point System MP90 apparatus (Mettler Toledo, USA).",
+        "start_index": 10474,
+        "end_index": 10592
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.3. Synthesis\n\n2.3.1. Quinine-derived QASs with bromide anion",
+        "start_index": 10592,
+        "end_index": 10654
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "To perform quaternization, quinine free base of high purity was obtained from quinine monohydrochloride dihydrate of technical grade using the previously developed precipitation",
+        "start_index": 10654,
+        "end_index": 10831
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "method (Pernak and Rzemieniecki, 2020). First, quinine monohydrochloride dihydrate was dissolved in anhydrous acetonitrile (0.9 dm$^3$ per 100 g of hydrochloride) at 25 \u00b0C, and then, an equimolar amount of potassium hydroxide was added. The precipitate was filtered off and thoroughly washed with warm (40\u201350 \u00b0C) water",
+        "start_index": 10831,
+        "end_index": 11149
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the next stage, the obtained quinine free base was subjected to quaternization with 1-bromoalkanes comprising 4, 8, or 12 carbon atoms in the alkyl chain according to the methodology described previously (Rzemieniecki et al., 2021). 1-(2-Hydroxyethyl)quininium bromide was obtained according to a similar methodology. First, quinine free base (0.03 mol, 9",
+        "start_index": 11149,
+        "end_index": 11509
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".733 g) was alkylated using 2-bromoethanol (0.0315 mol, 3.936 g). The reaction was conducted for 48 hours at 35 \u00b0C in 30 cm$^3$ of either DMSO or DMF",
+        "start_index": 11509,
+        "end_index": 11658
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The post-reaction mixture was transferred to a dropping funnel and added dropwise to vigorously stirred ethyl acetate, and the resulting precipitate was filtered off, dried, and recrystallized twice from methanol-acetone (1:3 volumetric ratio). The resulting quaternary ammonium bromides were pulverized, dried and stored over P$_4$O$_{10}$",
+        "start_index": 11658,
+        "end_index": 12000
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". A semi-automatic EasyMax reactor with a vessel of 100 cm$^3$ equipped with a reflux condenser, a stir bar and a temperature sensor (Mettler Toledo, USA) was used to perform all quaternization reactions.",
+        "start_index": 12000,
+        "end_index": 12204
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.3.2. Quinine-derived QASs with amino acid-derived anion",
+        "start_index": 12204,
+        "end_index": 12261
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In the last stage, L-asparagine and L-alanine QASs with quinine-derived cations were obtained using the previously obtained bromides as cation sources. First, the respective quaternary ammonium bromide (0.01 mol) was dissolved in ethanol (20 cm$^3$) and placed in a 50 cm$^3$ EasyMax\u2122 reaction vessel equipped with a stir bar and a temperature sensor",
+        "start_index": 12261,
+        "end_index": 12611
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Next, AmberLite\u2122 HPR550 OH highly alkaline anionic resin (15 cm$^3$) was placed in the vessel, and the system was stirred for the next 15 minutes. The resin was subsequently filtered off from the post-reaction mixture and washed with 10 cm$^3$ of ethanol. In the next step, 20 cm$^3$ of aqueous solution containing 0",
+        "start_index": 12611,
+        "end_index": 12929
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".01 mol of the respective amino acid (L-asparagine, 1.321 g or L-alanine, 0.891 g) in zwitterionic form was added to the filtrate and the mixture was stirred for the next",
+        "start_index": 12929,
+        "end_index": 13099
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "30 minutes. The solvents were afterwards removed using a rotary vacuum evaporator, and the raw product was dissolved in 15 cm$^3$ of anhydrous methanol. In the next step, the resulting solution was filtered to remove any potential residue of unreacted amino acid",
+        "start_index": 13099,
+        "end_index": 13361
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The solvent was afterwards removed using a rotary vacuum evaporator, and the residue was dried using a Schlenk line (pressure: 2\u00b710$^{-5}$ bar) while heating to 40 \u00b0C for at least 8 hours. The obtained QASs were refrigerated at 4 \u00b0C in airtight vessels to prevent moisture absorption and potential decomposition.",
+        "start_index": 13361,
+        "end_index": 13675
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.4. Water solubility",
+        "start_index": 13675,
+        "end_index": 13696
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Solubility in water of the obtained compounds at 25 \u00b0C was tested using the flask method described in the OECD 105 Guidelines (OECD, 1995a). First, a preliminary test was performed, which consisted in adding increasing amounts of water to a determined amount (0.1 g) of test substance and shaking it for 10 minutes after each addition to determine an approximate solubility. Subsequently, exact solubility was determined for low-soluble compounds",
+        "start_index": 13696,
+        "end_index": 14142
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". First, a determined amount of pulverized solid, greater than can be dissolved in 10 cm$^3$ of water, was placed in 3 glass vials, and then water (in 10 cm$^3$ aliquots) was added to each vial",
+        "start_index": 14142,
+        "end_index": 14335
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In addition, 2 more vials containing the same amount of water, but 2 or 3 times more test substance, were prepared to establish the effect of the dissolution of potential impurities on the solubility results. The vessels were stoppered and then stirred at 30 \u00b0C for one day",
+        "start_index": 14335,
+        "end_index": 14610
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Next, one of the standard vials was equilibrated at 25 \u00b0C for 24 hours, and then the aqueous solution was collected from the suspension with a syringe equipped with a filter with a hydrophilic membrane",
+        "start_index": 14610,
+        "end_index": 14813
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The concentration of test compounds in water was determined spectrophotometrically using a VWR\u00ae UV-5300PC spectrophotometer (VWR International, Belgium) based on calibration curves made previously (at $\\lambda_{\\text{max}} = 235$ nm). Second and third vials were tested after being stirred at 30 \u00b0C for 2 and 3 days, respectively, using the same procedure. Two additional vials with an",
+        "start_index": 14813,
+        "end_index": 15200
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "increased amount of test substance were tested after 3 days of stirring (alongside the third vial).",
+        "start_index": 15200,
+        "end_index": 15299
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Finally, the solubility was calculated as the average of 5 results collected for each compound.\n\n2.5. Octanol-water partition coefficient",
+        "start_index": 15299,
+        "end_index": 15436
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The octanol-water partition coefficient values ($K_{OW}$) of the synthesized salts were determined by the shake-flask method according to the OECD Test No. 107 guidelines (OECD, 1995b). Measurements were performed using mutually saturated distilled water and 1-octanol in a glass vial containing a magnetic stir bar",
+        "start_index": 15436,
+        "end_index": 15751
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The synthesized products were dissolved in distilled water (or 1-octanol, depending on their water solubility) at chosen concentration corresponding to the values adopted for the phytotoxicity and aquatic toxicity tests (1 g per 1 dm$^3$ of octanol or water), and then proper amounts of the second solvent (octanol or water) were added",
+        "start_index": 15751,
+        "end_index": 16088
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Two duplicate runs were also carried out with different solvent ratios: 2 cm$^3$ of 1-octanol and 4 cm$^3$ of water (2:1), 4 cm$^3$ of 1-octanol and 4 cm$^3$ of water (1:1) and 8 cm$^3$ of 1-octanol and 4 cm$^3$ of water (1:2)",
+        "start_index": 16088,
+        "end_index": 16316
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". All vials have been shaken at constant temperature of 25 \u00b0C. All obtained samples were subsequently centrifuged after 24 h and the aqueous and octanolic phases were collected with a syringe",
+        "start_index": 16316,
+        "end_index": 16507
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The concentrations of compounds in water and in 1-octanol were determined spectrophotometrically using a VWR\u00ae UV-5300PC spectrophotometer (VWR International, Belgium) based on calibration curves made previously (at $\\lambda_{max}$ = 235 nm for aqueous solutions, 236 nm for 1-octanolic solutions)",
+        "start_index": 16507,
+        "end_index": 16805
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Two repetitions of each measurement were performed in a specific solvent ratio (1:1, 1:2 and 2:1). Finally, the log $K_{OW}$ was calculated as the average of 6 results collected for each compound.",
+        "start_index": 16805,
+        "end_index": 17003
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.6. Antimicrobial activity",
+        "start_index": 17003,
+        "end_index": 17030
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The antimicrobial activity of the tested compounds was determined in relation to Gram-positive bacteria: *Staphylococcus aureus* ATCC 33862, *Enterococcus faecalis* ATCC 19433, *Listeria*",
+        "start_index": 17030,
+        "end_index": 17217
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "monocytogenes ATCC 19111, Micrococcus luteus ATCC 4698, Gram-negative bacteria: Escherichia coli ATCC 8739, Pseudomonas aeruginosa ATCC 9027, Serratia marcescens ATCC 8100, Moraxella catarrhalis ATCC 25238, yeasts Candida albicans ATCC 10231, Rhodotorula mucilaginosa",
+        "start_index": 17217,
+        "end_index": 17484
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "(PUEB collection) and filamentous fungi Fusarium graminearum (PUEB collection)",
+        "start_index": 17484,
+        "end_index": 17562
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Minimal inhibitory concentration (MIC) and minimal bactericidal/fungicidal concentration (MBC/MFC) of the tested substances was determined using the microdilution method based on methodology described previously (Kaczmarek et al., 2021) with some modifications. First, a series of two-fold dilutions of the tested substances in the concentration range of 0",
+        "start_index": 17562,
+        "end_index": 17920
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".48\u20131000 mg dm$^{-3}$ were prepared in 96-well microplates in MH broth (for S. aureus, P. aeruginosa and E. coli), TSB (for S. marcescens, M. catarrhalis and M. luteus), BHI (for L. monocytogenes and E. faecalis), YPD (for C. albicans and R",
+        "start_index": 17920,
+        "end_index": 18160
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". mucilaginosa) or PDB (for F. graminearum). Then, suspensions prepared from 24-hour cultures of indicator microorganisms in broth media at a final concentration of $10^5$ CFU cm$^{-3}$, were inoculated into the microplates with diluted substances. Incubation was carried out for 24 hours at 30 or 37 \u00b0C, depending on the indicator microorganism. The inoculate of F",
+        "start_index": 18160,
+        "end_index": 18525
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". graminearum was prepared in liquid PDB medium from a fresh culture, setting the final spore concentration at $10^4$ CFU cm$^{-3}$, introduced into the prepared microplates and incubated for 5\u20137 days at 25 \u00b0C. After incubation the optical density of microorganisms culture was determined at 600 nm using BioTek Epoch 2 microplate reader (Agilent, USA)",
+        "start_index": 18525,
+        "end_index": 18877
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The results are expressed as the average of three replicates. The MIC value was defined as the concentration of tested substances, inhibiting the growth of the microorganism by at least 90%. MBC/MFC values were determined by spot inoculation of 10 mm$^3$ of cultures from wells with no growth observed in the MIC assay on an agar medium and incubation for 24\u201348 h at 30 or 37 \u00b0C",
+        "start_index": 18877,
+        "end_index": 19257
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The lowest concentration of the tested substances supporting no microorganisms growth was defined as the MBC/MFC. In case of F. graminearum the MIC and MFC value was evaluated by spotting of 100 mm$^3$ of cultures from",
+        "start_index": 19257,
+        "end_index": 19477
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "wells on PDA and incubation for 5\u20137 days at 25 \u00b0C. The lowest concentration of the tested substances supporting no fungal growth was defined as the MIC and MFC. The tested compounds were applied in the form of aqueous solutions at the defined concentration, with the exception of 1-alkylquininium bromides and free base quinine, which were applied in the form of solutions in water-DMSO mixture with volumetric ratio of 7:3",
+        "start_index": 19477,
+        "end_index": 19900
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Water-DMSO mixture was used as a control.",
+        "start_index": 19900,
+        "end_index": 19943
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**2.7. Biopesticidal activity**",
+        "start_index": 19943,
+        "end_index": 19974
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The bioassay experiments were conducted using adult granary weevil beetles (*Sitophilus granarius* L.), larvae of confused flour beetle (*Tribolium confusum* Duv.) and larvae of khapra beetle (*Trogoderma granarium* Ev.). Insects were grown on a wheat grain or whole-wheat meal diet in laboratory colonies, which were maintained at 26 \u00b1 1 \u00b0C and 60 \u00b1 5% relative humidity",
+        "start_index": 19974,
+        "end_index": 20345
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Choice and no-choice tests for insect feeding were conducted following a previously described procedure (Klejdysz et al., 2016). Wheat wafer discs (1 cm in diameter and 1 mm thick) were saturated by dipping them either in methanol only (control) or in a methanolic solution of the studied compounds (1%) to be tested",
+        "start_index": 20345,
+        "end_index": 20663
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". After evaporation of the solvent (30 min of air-drying), the wafers were weighed and offered to the insects in plastic boxes as the sole food source for 5 days. The feeding of insects was recorded under three sets of conditions: (1) on two control discs (CC), (2) on a choice between one treated disc (T) and one control disc (C; choice test), and (3) on two treated discs (TT; no-choice test)",
+        "start_index": 20663,
+        "end_index": 21058
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Each of the three experiments was repeated five times with 3 adult beetles (*S. granarius*), or 10 larvae (*T. confusum* or *T. granarium*). The number of insects depended on the intensity of their food consumption. The adults used for the experiments were unsexed and 7\u201310 days old",
+        "start_index": 21058,
+        "end_index": 21342
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". After 5 days, the discs were reweighed, and the average weight of eaten food was calculated as previously described (Klejdysz et al., 2016).",
+        "start_index": 21342,
+        "end_index": 21484
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The total deterrence coefficient classifies the total activity of the compounds tested according to the following criteria: 200\u2013151, very good; 150\u2013101, good; 100\u201351, medium; 50\u20130, weak;\nand <0, attractant. The data were statistically analyzed by means of one-way ANOVA. In the cases where the ANOVA results were statistically significant at the 5% probability level, Tukey\u2019s test was performed.",
+        "start_index": 21484,
+        "end_index": 21879
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.8. Influence on germination and early development of terrestrial plants",
+        "start_index": 21879,
+        "end_index": 21952
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Phytotoxicity tests of the obtained salts were carried out in accordance with OECD 208 guidelines (OECD, 2006), using Phytotoxkit\u2122 plastic containers (MicroBioTests, Belgium). Two species of plants \u2013 dicotyledonous (white mustard, *Sinapis alba*) and monocotyledonous (sorghum, *Sorghum bicolor*) were used as test organisms",
+        "start_index": 21952,
+        "end_index": 22276
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The designated wells in plastic containers were filled with 90 cm$^3$ of certified, OECD-compliant dry soil (MicroBioTests, Belgium) and then the soil was saturated with 25 cm$^3$ of aqueous solution of the analyzed compounds. Two concentrations of test solutions were selected: 1 g dm$^{-3}$ and 10 g dm$^{-3}$",
+        "start_index": 22276,
+        "end_index": 22589
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". For the compounds insoluble in water at 10 g dm$^{-3}$ only the test at 1 g dm$^{-3}$ was performed, and in the case of 1-dodecylquininium bromide, which was insoluble in water at 1 g dm$^{-3}$, the experiment was performed using test solutions with lower concentration (0.1 g dm$^{-3}$)",
+        "start_index": 22589,
+        "end_index": 22878
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Pure deionized water was used to saturate the soil in the control sample. Subsequently, a sheet of absorbent paper was placed on the saturated soil, and 10 seeds of the selected plant were placed with 1-cm spaces in a single row. Samples were incubated in vertical position, at 26 \u00b11 \u00b0C for 96 hours and the number of germinating seeds in each sample was checked every 24 hours",
+        "start_index": 22878,
+        "end_index": 23257
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". After the end of the experiment, photos showing plant development were taken and length of roots and shoots of the young plants was measured using ImageJ software. The average growth of the root and stem was calculated in relation to the results recorded for the control sample.",
+        "start_index": 23257,
+        "end_index": 23537
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.9. Aquatic toxicity studies\n\nThree aquatic organisms were chosen to assess the acute toxicity of the synthesized compound: freshwater green alga *Chlorella vulgaris* and a crustacean *Daphnia magna*. In addition, chronic toxicity of a selected compound was assessed for *D. magna* in a reproduction test.\n2.9.1. Acute toxicity toward algae",
+        "start_index": 23537,
+        "end_index": 23878
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The experiments were carried out on model *C. vulgaris* (SAG 211-11b) cells obtained from Culture Collection of Algae at G\u00f6ttingen University (Germany) according to the methodology described in OECD 201 Guidelines (OECD, 2011). Algae were cultivated in OECD TG medium prepared as described in the Annex 3 of the OECD 201 Guidelines in sterile conditions. To accommodate *C",
+        "start_index": 23878,
+        "end_index": 24250
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". vulgaris* to test conditions, algae cells have been cultured in OECD medium for 4 days before tests. The inoculum was continuously aerated with sterile air and illuminated with magenta (red + blue) LED grow light with the illuminance of 5500 \u00b1800 lx. Before tests, the inoculum was diluted with pure medium until its absorbance of monochromatic light (688 nm) was in the range of 0.05\u20130.08 at 10 cm path",
+        "start_index": 24250,
+        "end_index": 24655
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". To obtain the desired range of concentrations, 19 cm\u00b3 portions of diluted inoculum were mixed with 1 cm\u00b3 of the prepared toxicant solution in OECD medium. In the case of control samples, 1 cm\u00b3 of pure OECD medium was added. The selected compounds were tested in triplicates at a series of geometrically decreasing concentrations: 1000, 100, 10, 1, and 0.1 mg dm\u207b\u00b3",
+        "start_index": 24655,
+        "end_index": 25020
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". For 1-dodecylquininium bromide, due to its low solubility in water and expected high toxicity, a different series was used: 10, 1, 0.1, 0.01, and 0.001 mg dm\u207b\u00b3. The absorbance at 688 nm was tested for each sample using 10 cm-long glass cuvettes, and the measurements were conducted at the start of the experiment and after 72 hours",
+        "start_index": 25020,
+        "end_index": 25353
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The contents of all test vessels were mixed and illuminated continuously during the test, and their position was randomized to achieve similar levels of illumination for each sample throughout the experiment. The tests were conducted at 22\u201323 \u00b0C. The rate of algae growth inhibition was calculated according to the following equation:",
+        "start_index": 25353,
+        "end_index": 25689
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\\[ \\mu = \\frac{\\ln(OD_{t_2}) - \\ln(OD_{t_1})}{t_2 - t_1} \\]  \n\n(1)",
+        "start_index": 25689,
+        "end_index": 25755
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "where \\( OD_{t_2} \\) and \\( OD_{t_1} \\) are the absorbances of the tested solution at the start \\( (t_1) \\) and at the end \\( (t_2) \\) of the experiment, respectively. Growth rate inhibition was then calculated in relation to the control mean.",
+        "start_index": 25755,
+        "end_index": 25998
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\\[ I_r = 100 \\cdot \\left(1 - \\frac{\\mu_{\\text{sample}}}{\\mu_{\\text{control}}}\\right) \\] (2)",
+        "start_index": 25998,
+        "end_index": 26089
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The EC\\textsubscript{50} range for each of the toxicants tested was determined based on the relationship between its concentration and the calculated \\( I_r \\) value.\n\n2.9.2. Acute toxicity toward \\textit{D. magna}",
+        "start_index": 26089,
+        "end_index": 26303
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Freshwater \\textit{D. magna} organisms no older than 24 hours were cultured at the Poznan University of Technology in Elendt M4 medium prepared as described in the Annex 3 of the OECD 202 Guidelines (OECD, 2004) and used as test organisms according to the methodology compliant with the OECD 202 Guidelines and ISO 6341 standards. The multi-well Daptoxkit F plates for the tests were purchased from MicroBioTests Inc",
+        "start_index": 26303,
+        "end_index": 26719
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". (Gent, Belgium). The Elendt M4 medium was aerated for 1 hour before the tests and the organisms had access to food (\\textit{C. vulgaris} suspension) before the start of the test. In the next step, 10 cm\\(^3\\) aliquots of the solution of a given compound in Elendt M4 medium at the specified concentrations: 1000, 100, 10, 1, and 0",
+        "start_index": 26719,
+        "end_index": 27051
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1 mg dm\\(^{-3}\\) (with the exception of 1-dodecylquininium bromide, which was tested at 100, 10, 1, 0.1, and 0.01 mg dm\\(^{-3}\\) concentrations) were introduced into each of the 5 cells in a given row of the Daptoxkit F plate. In the case of the control samples, pure medium without the addition of toxicant was used",
+        "start_index": 27051,
+        "end_index": 27368
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Next, no less than 20 daphnia were placed in the first column of cells. Then, from each of the first cells in the first column, 20 daphnia were taken out and divided so that there were 4 cells in each row containing 5 specimens in 10 cm\\(^3\\) of toxicant solution of the same concentration. Then, the plate was covered with parafilm and closed with a plastic cap",
+        "start_index": 27368,
+        "end_index": 27732
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The prepared kits were incubated at 20 \u00b0C without light. Number of motionless organisms were counted after 24 h and 48 h. Immobilization rate was then calculated for each concentration in relation to the number of organisms at the start of the test:",
+        "start_index": 27732,
+        "end_index": 27983
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\\[ Im = 100 \\cdot \\left(1 - \\frac{M_{\\text{ob}_{t2}}}{M_{\\text{ob}_{t1}}}\\right) \\] (3)",
+        "start_index": 27983,
+        "end_index": 28070
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "where $Mob_{t_2}$ and $Mob_{t_1}$ are the numbers of the mobile test organisms at the start ($t_1$) and at the end ($t_2$) of the experiment, respectively. Next, the dependence between effect and the concentration of the tested compounds was plotted, and on this basis, an EC$_{50}$ range was determined.",
+        "start_index": 28070,
+        "end_index": 28374
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "2.9.3. Chronic toxicity toward $D. magna$",
+        "start_index": 28374,
+        "end_index": 28415
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "For chronic toxicity testing, $D. magna$ organisms from the same culture as the individuals used for acute toxicity testing were used. The experiment was carried out according to the semi-static test methodology described in the OECD 211 Guidelines (OECD, 2012)",
+        "start_index": 28415,
+        "end_index": 28676
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The solutions of a selected compound in non-aerated Elendt M4 medium at sub-lethal concentrations (determined based on the results of the acute toxicity test) were placed in 5 glass beakers for each concentration. Pure medium was used for control samples. In the next step, a single female $D",
+        "start_index": 28676,
+        "end_index": 28970
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". magna$ organism no older than 24 hours was placed in each vessel and the vessels were illuminated with white LED light with the illuminance of 1200 \u00b1600 lx and 16L:8D photoperiod. The range finding experiment was conducted for 21 days. The test medium was renewed 3 times a week, and the organisms were fed living algal cells ($C. vulgaris$) daily",
+        "start_index": 28970,
+        "end_index": 29319
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Following the appearance of first brood, living offspring was counted and removed daily from the vessels. The parent animals which died accidentally or inadvertently were excluded from the test. At the end of the experiment, the number of living offspring produced per surviving parental animal was counted and the effect of each concentration of the toxicant on $D. magna$ reproduction was calculated and expressed in relation to the results recorded for the controls.",
+        "start_index": 29319,
+        "end_index": 29790
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3. Results and discussion",
+        "start_index": 29790,
+        "end_index": 29815
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.1. Synthesis",
+        "start_index": 29815,
+        "end_index": 29829
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Currently, the design of methods for the efficient synthesis of new biologically active substances poses a challenge due to the need to adapt the developed method to the principles of green chemistry and sustainable development and prevent waste production, while maintaining the cost-effectiveness of the process, the possibility of scale-up and the possibility of obtaining the desired substances of high purity. The significant scale of this problem is illustrated by the amount of the environmental factor (E-factor, i.e",
+        "start_index": 29829,
+        "end_index": 30353
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., the ratio of the mass of waste per mass of product). Typical values of this indicator for the processes of obtaining pharmaceuticals and fine chemicals are in the range from 5 to 100 (Sheldon, 2017), which shows the problem associated with the significant amount of waste generated by the above-mentioned chemical industries",
+        "start_index": 30353,
+        "end_index": 30680
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the course of multistage synthesis of compounds with often complex chemical structures, technological problems also cause side reactions that result in impurities that are difficult to separate without chromatographic methods.",
+        "start_index": 30680,
+        "end_index": 30911
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The above problem occurs, among others, in the case of the alkylation of quinine, which degrades at elevated temperatures with the formation of numerous derivatives with similar chemical structures (Dawidowicz et al., 2018)",
+        "start_index": 30911,
+        "end_index": 31134
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In our past research, we proposed a favorable method for highly efficient (95% yield) conversion of technical quinine hydrochloride extracted from natural raw material (cinchona bark) into quinine free base (Pernak and Rzemieniecki, 2020), followed by efficient alkylation of quinine using 1-bromoalkanes and DMSO as solvent at 35 \u00b0C to reduce the amount of degradation products of the alkaloid (Pernak et",
+        "start_index": 31134,
+        "end_index": 31541
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "al",
+        "start_index": 31541,
+        "end_index": 31543
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2020). A thorough three-step purification of the crude product yielded QASs with 1-alkylquininium cation in satisfactory yields (>80%) (Scheme 1).",
+        "start_index": 31543,
+        "end_index": 31692
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "We applied an analogous method to obtain 1-(2-hydroxyethyl)quininium bromide, which to our knowledge has not yet been described previously. However, the introduction of a hydroxyl moiety into the substituent significantly altered the properties of the finished product, thus it was necessary to modify and develop a new method for purifying the reaction mixture to",
+        "start_index": 31692,
+        "end_index": 32056
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "remove the resulting quinine degradation products. In the first stage of purification, the post-reaction mixture was slowly introduced into the ethyl acetate, which acted as an anti-solvent. The precipitate was subsequently recrystallized twice from a mixture of methanol and acetone. Since the yield of the synthesis and purification process of 1-(2-hydroxyethyl)quininium bromide was relatively low (56%), an attempt was made to select more favorable synthesis conditions",
+        "start_index": 32056,
+        "end_index": 32529
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". When the reaction environment was changed from DMSO to a solvent with similar physicochemical properties \u2013 DMF \u2013 an increase in total process yield was achieved (up to 73%), most likely due to the precipitation of a larger amount of the main product in the first purification step",
+        "start_index": 32529,
+        "end_index": 32811
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". At the same time, it should be noted that while the use of DMF provides significantly better process efficiency and translates into a reduction in the amount of waste generated per product mass output, this solvent is considered as potential carcinogen and long-term exposure results in harmful effects to human health (Luo et al., 2001). Therefore, further research is warranted to develop more efficient and safer methods for the synthesis and purification of quinine derivatives with a 2-hydroxyethyl substituent",
+        "start_index": 32811,
+        "end_index": 33328
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". However, the solvents used in the course of purification of 1-(2-hydroxyethyl)quininium bromide belong to the group of media recommended by the CHEM21 solvent selection guide, and moreover, DMSO (unlike DMF) is not considered a hazardous solvent (Prat et al., 2016). In addition, the solvents can be easily recovered and reused in the same process",
+        "start_index": 33328,
+        "end_index": 33677
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The results of the syntheses and the basic properties of quinine-based quaternary bromides with butyl (1Br), octyl (2Br), dodecyl (3Br), and 2-hydroxyethyl (4Br) are summarized in Table 1.",
+        "start_index": 33677,
+        "end_index": 33867
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Scheme 1. Process of obtaining quinine-derived QASs with an amino acid anion.",
+        "start_index": 33867,
+        "end_index": 33944
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In the next step, the bromide anion was exchanged for the natural anion of a proteinogenic amino acid: L-asparagine or L-alanine. The bromide anion is characterized by limited acute toxicity (van Leeuwen et al., 1987), however, in elevated concentrations it exhibits neurotoxic effects (Thornton and Haws, 2020), and also affects iodine metabolism in the body (Pavelka, 2009)",
+        "start_index": 33944,
+        "end_index": 34319
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". According to the 4th principle of green chemistry (\u201cDesigning safer chemicals\u201d), it is reasonable to replace it with anions characterized by the absence of toxic effects on the human body (Garlick, 2004)",
+        "start_index": 34319,
+        "end_index": 34524
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". To incorporate the amino acid anion into quinine-based QASs, the previously described method of converting 1-alkylquininium or 1-(2-hydroxyethyl)quininium bromides into the corresponding quaternary ammonium hydroxides using anionic ion exchange resin in ethanol of natural origin was used. The resulting hydroxides were then neutralized with the appropriate anion source to yield the desired products and water (Pernak et al",
+        "start_index": 34524,
+        "end_index": 34950
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2020). The method is sustainable and conforms to the principles of green chemistry, and its main advantages include low energy input (the process is conducted at atmospheric pressure at room temperature), very high yields (>99%), no contamination of the final product with halides, and the use of safe reaction media that can be easily regenerated and reused",
+        "start_index": 34950,
+        "end_index": 35311
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The only by-products are the water formed during neutralization (Scheme 1) and the inorganic salt with a bromide anion obtained after regeneration of the ion exchange resin.",
+        "start_index": 35311,
+        "end_index": 35486
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Due to the insolubility of the zwitterionic L-asparagine and L-alanine in ethanol, the amino acids were added in the form of an aqueous solution. After evaporation of the solvents and drying of the residue, quinine-derived QASs with either L-asparaginate or L-alaninate anion were obtained (Table 1)",
+        "start_index": 35486,
+        "end_index": 35785
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In contrast to 1Br\u20134Br, which were white crystalline solids, the obtained QASs with the amino acid anions were amorphous solids with glassy appearance at room temperature",
+        "start_index": 35785,
+        "end_index": 35957
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". According to the results of DSC analyses, new compounds (4Br, 1Asp\u20134Asp, 1Ala\u20134Ala) did not exhibit first- or second-order phase transitions in the measurement range from -80 to 120 \u00b0C, although at temperatures exceeding 128 \u00b0C, the release of gaseous thermal decomposition products could be observed for QASs containing the amino acid anion",
+        "start_index": 35957,
+        "end_index": 36300
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The exact results of the above-mentioned analyses are summarized in Table A.2 (Supplementary Data).",
+        "start_index": 36300,
+        "end_index": 36401
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Taking into account the need to assess the environmental impact of the new methods of chemical synthesis, we calculated Green Chemistry Metrics (GCM) values for the quinine quaternization (1Br\u20134Br) and for the anion exchange reaction from bromide to amino acid anion (1Asp\u20134Asp, 1Ala\u20134Ala). The results are summarized in Table 1",
+        "start_index": 36401,
+        "end_index": 36729
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Despite the 100% atom economy of the quinine conversion reaction to 1Br\u20134Br, the need for additional media in the course of purification of the finished salt results in an increase of the E-Factor values (8.58\u201311.13). These values are within the range typical for industrial synthesis of fine chemicals (Sheldon, 2017)",
+        "start_index": 36729,
+        "end_index": 37049
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The lower efficiency of the 4Br synthesis process results in higher E-Factor values compared to the more efficient syntheses of 1Br\u20133Br compounds. The E-Factors for the aforementioned reactions may be lowered by improving the selectivity of the process to lower the amount of by-products requires to be separated.",
+        "start_index": 37049,
+        "end_index": 37364
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**Table 1.** Synthesized quinine-derived QASs with bromide (1Br\u20134Br) and amino acid (1Asp\u20134Asp, 1Ala\u20134Ala) anions",
+        "start_index": 37364,
+        "end_index": 37477
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| Compound | R | Anion | Atom economy | Yield | E-Factor | Appearance at 25 \u00b0C | Water content | Water solubility |\n|----------|---|-------|--------------|-------|----------|---------------------|--------------|-----------------|",
+        "start_index": 37477,
+        "end_index": 37706
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-h5hbb-v2 ORCID: https://orcid.org/0000-0002-9146-0082 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 37706,
+        "end_index": 37856
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The anion exchange process is characterized by more favorable GCM values compared to the syntheses of 1Br\u20134Br. Despite the lower atom economy (82\u201386%) resulting from the nature of exchange reaction, the total alkalization and neutralization efficiency is almost equal to the theoretical one (>99%), which translates into a reduction in waste generation and lowers the negative environmental impact. This is indicated by E-Factor values ranging from 1.90 to 1",
+        "start_index": 37856,
+        "end_index": 38314
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".97, more than twice as low as the lower end of the E-Factor range characteristic of fine chemicals synthesis (5\u201350).",
+        "start_index": 38314,
+        "end_index": 38431
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The new amino acid anion QASs (1Asp\u20134Asp, 1Ala\u20134Ala) are characterized by higher water content (from 1.44% for 2Ala to 2.69% for 3Ala) compared to the values determined for bromides (0.2\u20131.0%). This is a typical phenomenon for QASs with the amino acid anion\n\n---",
+        "start_index": 38431,
+        "end_index": 38693
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "|    |   |   |   |   |   |\n|----|---|---|---|---|---|\n| 1Br | C\u2084H\u2085 | bromide | 100 | 84 | 8.58 | crystalline solid | 0.77 | 9.3 \u00b10.2 |",
+        "start_index": 38693,
+        "end_index": 38827
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 2Br | C\u2084H\u2081\u2081 | bromide | 100 | 83 | 8.68 | crystalline solid | 0.20 | 2.3 \u00b10.1 |\n| 3Br | C\u2081\u2082H\u2082\u2083 | bromide | 100 | 82 | 8.81 | crystalline solid | 0.75 | 0.1 \u00b10.004 |",
+        "start_index": 38827,
+        "end_index": 38993
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 4Br | C\u2082H\u2085OH | bromide | 100 | 56\u00b3 | 14.51\u00b3 | crystalline solid | 1.00 | >250 |\n| 1Asp | C\u2084H\u2089 | L-asparaginate | 84 | >99 | 1.94 | amorphous solid | 2.09 | >1000 |",
+        "start_index": 38993,
+        "end_index": 39158
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 2Asp | C\u2084H\u2081\u2087 | L-asparaginate | 85 | >99 | 1.92 | amorphous solid | 1.83 | >1000 |\n| 3Asp | C\u2081\u2082H\u2082\u2085 | L-asparaginate | 86 | >99 | 1.90 | amorphous solid | 1.53 | >1000 |",
+        "start_index": 39158,
+        "end_index": 39328
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 4Asp | C\u2082H\u2085OH | L-asparaginate | 84 | >99 | 1.95 | amorphous solid | 1.8\u00b2 | >1000 |\n| 1Ala | C\u2084H\u2089 | L-alaninate | 83 | >99 | 1.97 | amorphous solid | 2.66 | >1000 |",
+        "start_index": 39328,
+        "end_index": 39494
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 2Ala | C\u2083H\u2081\u2087 | L-alaninate | 84 | >99 | 1.94 | amorphous solid | 1.44 | >1000 |\n| 3Ala | C\u2081\u2082H\u2082\u2085 | L-alaninate | 86 | >99 | 1.91 | amorphous solid | 2.69 | >500 |",
+        "start_index": 39494,
+        "end_index": 39657
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "| 4Ala | C\u2082H\u2085OH | L-alaninate | 82 | >99 | 1.97 | amorphous solid | 1.8\u00b2 | >1000 |",
+        "start_index": 39657,
+        "end_index": 39739
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\u2074 partial value for a given synthesis stage, \u2075 OECD 105, \u2076 synthesis conducted in DMSO, \u2077 synthesis conducted in DMF, \u2078 highly hygroscopic compound.\n\n---",
+        "start_index": 39739,
+        "end_index": 39892
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-h5hbb-v2 ORCID: https://orcid.org/0000-0002-9146-0082 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 39892,
+        "end_index": 40042
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "(Kaczmarek et al., 2022). More thorough drying would require a dry environment in a glovebox and the use of multi-stage azeotropic distillation. For 4Asp and 4Ala salts with a 2-hydroxyethyl substituent, it was impossible to determine the exact water content due to the high hygroscopicity of these compounds; the water content values recorded during the analyses (9.6 \u00b10",
+        "start_index": 40042,
+        "end_index": 40413
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".24% for 4Asp and 8.2 \u00b10.15% for 4Ala) were characterized by two orders of magnitude greater measurement error than for the other compounds tested \u2013 the error value for other compounds ranged from 0.002 to 0.005%.",
+        "start_index": 40413,
+        "end_index": 40626
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Low solubility in water may be the reason for the low bioavailability of biologically active substances (Bhalani et al., 2022). Quinine in its free base form is a poorly water-soluble substance (0.05 g dm\u207b\u00b3) (Yalkowsky et al",
+        "start_index": 40626,
+        "end_index": 40850
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2010), and the solubility of QASs 1Br\u20134Br is strongly correlated with the length of the alkyl substituent: 1Br with a short (butyl) substituent (9.3 g dm\u207b\u00b3, Table 1) is dissolved more than 70 times better than its analog 3Br with a long (dodecyl) substituent (0.1 g dm\u207b\u00b3)",
+        "start_index": 40850,
+        "end_index": 41124
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In contrast, the presence of a hydroxyl group in the short substituent of 4Br increases the solubility in water to more than 250 g dm\u207b\u00b3",
+        "start_index": 41124,
+        "end_index": 41261
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should be noted here that the chemical structure of the anion has an even more significant effect on the solubility of quinine-based QASs in water, and the replacement of the bromide anion with either an L-asparaginate or L-alaninate anion results in ready solubility (more than 1000 g dm\u207b\u00b3), with the exception of 3Ala, which still showed very good solubility (more than 500 g",
+        "start_index": 41261,
+        "end_index": 41643
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "dm\u207b\u00b3)",
+        "start_index": 41643,
+        "end_index": 41648
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Given the relationship between the solubility of active substances in water and their bioavailability (Bhalani et al., 2022), combining quaternary cations with low affinity for water with amino acid anions may result in increased bioavailability of new QASs, although more thorough studies are required to confirm the validity of utilizing such a strategy.",
+        "start_index": 41648,
+        "end_index": 42006
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.2. Spectral analysis",
+        "start_index": 42006,
+        "end_index": 42028
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "For all new quinine-based QASs (4Br, 1Asp\u20134Asp, 1Ala\u20134Ala), spectral analysis was performed using FT-IR, $^1$H NMR and $^{13}$C NMR techniques. The results of the spectral characterization of the products are shown in Supplementary Data (Figs. A.1\u2013A.27)",
+        "start_index": 42028,
+        "end_index": 42281
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the $^1$H NMR spectrum of 4Br, a triplet occurred at a chemical shift of 5.59 ppm, which was not visible in the spectra of 1-alkylquininium bromides (1Br\u20133Br). This signal was identified as originating from the hydroxyl group in the substituent in 4Br. Moreover, in the $^{13}$C NMR spectrum of the same compound, a signal at 61",
+        "start_index": 42281,
+        "end_index": 42614
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".8 ppm can be observed, originating from the \u2013CH$_2$\u2013 group in the immediate vicinity of the hydroxyl group. Both these signals confirm the successful 2-hydroxyethylation process and the correct chemical structure of 4Br. A comparison of the $^1$H NMR spectra of 4Br and 1-ethylquininium bromide described in the literature (Pernak et al., 2020) is shown in Fig. A",
+        "start_index": 42614,
+        "end_index": 42978
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".28 (Supplementary Data).",
+        "start_index": 42978,
+        "end_index": 43003
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The successful anion exchange for either the L-asparaginate anion (1Asp\u20134Asp) or the L-alaninate anion (1Ala\u20134Ala) was also confirmed. The appearance of characteristic signals from the newly introduced amino acid anion was observed, and the integration of the new signals in the $^1$H NMR spectra indicated an equimolar ratio of cation and anion in the new QASs",
+        "start_index": 43003,
+        "end_index": 43364
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Characteristic signals from the anions in the proton spectra of 1Br, 1Asp and 1Ala are shown in Fig. 1. It should be noted that the hydrogen atoms in the \u2013CH$_2$\u2013 group in L-asparagine differ in terms of chemical environment due to the chirality of the amino acid (Wishart et al., 2009)",
+        "start_index": 43364,
+        "end_index": 43652
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should be noted that the diastereotopic hydrogen atoms in the CH$_2$ group in the L-asparaginate anion are characterized by different chemical environment due to the chirality of the anion. The difference between the chemical shifts of those atoms reaches approximately 0.4 ppm (see signals A1 and A2 in Fig. 1) in the spectra of the obtained L-asparaginates (1Asp\u20134Asp).",
+        "start_index": 43652,
+        "end_index": 44028
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Figure 1. Comparison of 1Br, 1Asp and 1Ala $^1$H NMR spectra (0.5\u20137.0 ppm)",
+        "start_index": 44028,
+        "end_index": 44102
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "All characteristic signals originating from the quinine-based cations, which were present in the NMR and FT-IR spectra of 1Br\u20134Br, occurred in the spectra of the L-asparaginate and L-alaninate salts as well, which indicates that no significant changes in the structure of the cation occurred as a result of the ion exchange reaction. The triplet (0.77\u20130",
+        "start_index": 44102,
+        "end_index": 44455
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".78 ppm) occurring at the baseline of the $^1$H NMR spectra, as well as the corresponding signal at approximately 10 ppm in the $^{13}$C NMR spectra, originate from the $\u2013$CH$_3$ group in the ethyl substituent of dihydroquinine, a minor residue of which is present in quinine extracted from natural sources",
+        "start_index": 44455,
+        "end_index": 44761
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should be noted that methods for complete removal of dihydroquinine prior to derivatization of the alkaloid are known, although they require expensive and waste-generating preparative techniques (e.g., HPLC or UPLC with special stationary phases (Borges, 2015)). No significant signals from other organic impurities were observed in the NMR spectra",
+        "start_index": 44761,
+        "end_index": 45114
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Nevertheless, it was noted that the introduction of proteinogenic amino acid anions notably alters the chemical shifts of hydrogen atoms in 1-alkylquininium or 1-(2-hydroxyethyl)quininium cations, particularly in the quinuclidine group, compared to the spectra of the corresponding bromides (Fig. 1).",
+        "start_index": 45114,
+        "end_index": 45416
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "To assess the chemical stability of new QASs, additional $^1$H and $^{13}$C NMR spectra of 2 exemplary salts: 1Asp and 1Ala were acquired 5 and 7 months following their synthesis, respectively. From the comparison of the obtained spectra (Fig. A.29, Supplementary Data), it",
+        "start_index": 45416,
+        "end_index": 45689
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "can be observed that the same signals originating from cations and anions of QASs are present in the spectra obtained both immediately after synthesis and after long-term storage. This result implies that the new QASs can be stored in pure form for at least 5 months without the appearance of any decomposition products in noticeable amounts.",
+        "start_index": 45689,
+        "end_index": 46031
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "### 3.3. Octanol-water partition coefficient",
+        "start_index": 46031,
+        "end_index": 46075
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "As a measure of a lipophilicity, the octanol-water partition coefficient ($K_{OW}$) makes it possible to estimate the interaction of a chemical compound with a variety of biological interfaces",
+        "start_index": 46075,
+        "end_index": 46267
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". For example, there is a correlation between the values of log $K_{OW}$ and skin permeability coefficient ($K_p$) \u2013 a parameter describing the ability of an active ingredient to penetrate the skin, which is important for the design of new active pharmaceutical ingredients (Olejniczak et al., 2024). It is also possible to estimate the bioavailability of new pesticides based on their log $K_{OW}$ value (Akamatsu, 2011)",
+        "start_index": 46267,
+        "end_index": 46688
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In addition, log $K_{OW}$ is useful in predicting the environmental fate of new compounds, for example, by estimating the probability of bioaccumulation of the analyzed substance in tissues or soil. Determination of log $K_{OW}$ values is required by REACH regulations, and a value of this parameter higher than 4 indicates a high probability of bioaccumulation (The European Parliament and the Council, 2006).",
+        "start_index": 46688,
+        "end_index": 47100
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The new quinine-based QASs are characterized by moderate hydrophilicity or lipophilicity, and their log $K_{OW}$ values range from -1.34 ($4\\text{Ala}$) to 1.84 ($3\\text{Br}$). The dependence of the log $K_{OW}$ values on the anion and the substituent in the cation is shown in Fig. 2, while the exact values are summarized in Table A",
+        "start_index": 47100,
+        "end_index": 47434
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".3 (Supplementary Data).",
+        "start_index": 47434,
+        "end_index": 47458
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Figure 2. Octanol\u2013water partition coefficient determined for the quinine-based QASs",
+        "start_index": 47458,
+        "end_index": 47541
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Expectedly, the length of the alkyl substituent in the quinine-based cation is the most important parameter affecting the log $K_{OW}$",
+        "start_index": 47541,
+        "end_index": 47675
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The presence of a long dodecyl substituent is the main reason for the increased lipophilicity of compounds \\textbf{3Br}, \\textbf{3Asp}, and \\textbf{3Ala}, even despite the presence of a highly hydrophilic amino acid-derived anion in the case of the latter two. In contrast, compounds with a short butyl substituent show significant hydrophilicity (log $K_{OW} < -0",
+        "start_index": 47675,
+        "end_index": 48041
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".5$). The introduction of a hydroxyl group into the short alkyl chain does not increase the hydrophilicity of \\textbf{4Br} compared to \\textbf{1Br}, although both \\textbf{4Asp} and \\textbf{4Ala} are characterized by lower log $K_{OW}$ values (-1.18 and -1.34, respectively) compared to \\textbf{1Asp} (-0",
+        "start_index": 48041,
+        "end_index": 48344
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".91) and \\textbf{1Ala} (-0.90). In all analyzed cases, the exchange of the bromide anion for the proteinogenic amino acid anion resulted in a significant reduction in log $K_{OW}$. It should also be noted that all quinine-based QASs have significantly higher hydrophilicity compared to quinine free base (log $K_{OW} = 3.44$) (Hansch et al",
+        "start_index": 48344,
+        "end_index": 48683
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 1995).",
+        "start_index": 48683,
+        "end_index": 48692
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.4. Antimicrobial activity",
+        "start_index": 48692,
+        "end_index": 48719
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In the context of acquiring multidirectional resistance by strains of pathogenic microorganisms against commonly used disinfectants (\\textit{e.g.}, benzalkonium chloride) (Maillard, 2022; Merchel\nPiovesan Pereira and Tagkopoulos, 2019; Nordholt et al., 2021), as well as the risks associated\nwith the penetration of synthetic cationic surfactants into the environment and their high",
+        "start_index": 48719,
+        "end_index": 49101
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "toxicity toward aquatic organisms (Tezel and Pavlostathis, 2015), it becomes necessary to\nsearch for new, safer active ingredients with potent antimicrobial activity among compounds\nof natural origin. Therefore, the biological activity of the obtained quinine-based QASs against\nvarious microbes that pose a serious threat to human health, especially to immunocompromised\npatients in hospital settings, was investigated. The microorganisms tested included pathogenic",
+        "start_index": 49101,
+        "end_index": 49567
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "foodborne bacteria (L. monocytogenes) and microbes responsible for opportunistic infections\nwith potentially serious consequences (e.g., S. aureus, P. aeruginosa, E. coli, C. albicans).\nMoreover, the influence of new QASs toward F. graminearum, a pathogen of numerous\nimportant crop plants (e.g., barley or rice) at all stages of their development was determined.",
+        "start_index": 49567,
+        "end_index": 49930
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In addition to salts with bromide or amino acid anion, the antimicrobial activity of quinine in\nthe form of hydrochloride and free base was also examined. All tested microorganisms were\nsusceptible to QAS-type disinfectants and none of the bacterial strains selected contained any\ngenes determining resistance to the antimicrobial activity of this group of compounds (e.g.,",
+        "start_index": 49930,
+        "end_index": 50303
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "qacE or qacE\u03941). Determined values of minimum inhibitory concentration (MIC), as well as\nminimum bactericidal/fungicidal concentration (MBC/MFC) are summarized in Table A.4\n(Supplementary Data).",
+        "start_index": 50303,
+        "end_index": 50497
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Figure 3. Comparison of MICs of quinine-based QASs with a dodecyl substituent in the cation (3Br, 3Asp, 3Ala). For Gram-positive bacteria: A \u2013 *L. monocytogenes*, B \u2013 *M. luteus*, C \u2013 *E. faecalis*, D \u2013 *S. aureus*; for Gram-negative bacteria: A \u2013 *P",
+        "start_index": 50497,
+        "end_index": 50747
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". aeruginosa*, B \u2013 *E. coli*, C \u2013 *M. catarrhalis*, D \u2013 *S. marcescens*; for fungi: A \u2013 *C. albicans*, B \u2013 *R. mucilaginosa*, C \u2013 *F. graminearum*",
+        "start_index": 50747,
+        "end_index": 50893
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The results indicate that 3Br, 3Asp and 3Ala comprising a dodecyl substituent showed the highest antimicrobial activity. They were characterized by MIC values of <1 mg dm$^{-3}$ for the tested Gram-positive bacteria and Gram-negative *M. catarrhalis*, while MIC determined for the other Gram-negative bacteria (*P. aeruginosa*, *E. coli*, *S. marcescens*) and the fungi *R",
+        "start_index": 50893,
+        "end_index": 51265
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". mucilaginosa* and *F. graminearum* ranged from 3.9 to 31.25 mg dm$^{-3}$ (Fig. 3). MBC/MFC values against the mentioned microorganisms were equal or twice as high (<0.48\u201362.5 mg dm$^{-3}$). These results indicate that 3Br, 3Asp and 3Ala demonstrate activity against pathogens at the...",
+        "start_index": 51265,
+        "end_index": 51552
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "level of benzalkonium chloride, commonly applied as a potent disinfectant (Rzemieniecki et\nal., 2019). Relatively low susceptibility to the tested dodecyl substituted QASs was noted only\nin the case of C. albicans (MIC 15.62\u201362.5 mg dm$^{-3}$, MFC 62.5\u2013250 mg dm$^{-3}$).",
+        "start_index": 51552,
+        "end_index": 51823
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "QASs with a short substituent (butyl or 2-hydroxyethyl) in the quinine-derived cation, on the\nother hand, exhibited low antagonistic activity towards the tested microorganisms (MIC and",
+        "start_index": 51823,
+        "end_index": 52007
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "MBC/MFC up to above 1000 mg dm$^{-3}$), comparable to that of pure quinine. On the other hand, 2Br, 2Asp and 2Ala comprising a medium-length substituent (octyl) in the cation showed\nnoticeable levels of activity toward most of the microorganisms tested, although they were less\nactive compared to their counterparts with a dodecyl substituent.",
+        "start_index": 52007,
+        "end_index": 52350
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Based on the obtained results, it can be concluded that the length of the alkyl substituent and\nthe associated amphiphilicity of the quinine-based cation is the main factor affecting the level\nof antibacterial activity. Hence, it can be stated that obtained compounds most likely exhibit\nantimicrobial activity according to the same mechanism as other amphiphilic QASs (Tischer et",
+        "start_index": 52350,
+        "end_index": 52730
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "al., 2012) \u2013 this is also indicated by the higher susceptibility of Gram-positive bacteria to the\ntested compounds compared to other groups of microorganisms. MIC and MBC/MFC values\nwere in the vast majority of cases independent of the chemical structure of the anion. Only in\nthe case of E. faecalis 2Asp and 2Ala were characterized by significantly reduced activity",
+        "start_index": 52730,
+        "end_index": 53097
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "compared to 2Br, but such differences were not observed between 3Asp or 3Ala, and 3Br.\nThus, it can be concluded that the strategy of introducing a non-toxic amino acid anion into\nQASs does not cause significant changes in the antimicrobial activity of quinine-based salts.",
+        "start_index": 53097,
+        "end_index": 53370
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.5. Biopesticidal activity",
+        "start_index": 53370,
+        "end_index": 53397
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Taking into account recent reports on the antifeedant activity of QASs comprising anions\nderived from amino acids (Kaczmarek et al., 2024, 2022) and the confirmation of the\nbiopesticidal activity of quinine (Pernak et al., 2020), we analyzed the antifeedant properties of",
+        "start_index": 53397,
+        "end_index": 53668
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The obtained bromides and amino acid salts comprising quinine-based cations toward adult forms of granary weevil (S. granarius) and larvae of 2 species: confused flour beetle (T. confusum) and khapra beetle (T. granarium). As in the case of antimicrobial activity tests, quinine free base and quinine hydrochloride were used as reference substances. The results of the tests are summarized in Fig",
+        "start_index": 53668,
+        "end_index": 54064
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". 4, while the exact values are summarized in Table A.5 (Supplementary Data).",
+        "start_index": 54064,
+        "end_index": 54141
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**Figure 4.** Antifeedant activity of the synthesized QASs toward granary weevil adults (S. granarius), confused flour beetle larvae (T. confusum), and khapra beetle larvae (T. granarium); REF1 \u2013 quinine free base, REF2 \u2013 quinine hydrochloride, REF3 \u2013 azadirachtin, results reported previously (\u0141ozowicka et al., 2007)",
+        "start_index": 54141,
+        "end_index": 54459
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Analysis of the results showed that the majority of the tested QASs exhibited good antifeedant activity toward adult granary weevils as well as khapra beetle larvae, and very good activity toward confused flour beetle larvae",
+        "start_index": 54459,
+        "end_index": 54683
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". A deviation from this rule was observed only in the case of 4Br, 4Asp and 4Ala containing a 2-hydroxyl substituent, for which the total deterrence coefficient $T$ toward granary weevil showed values ranging from 81 to 99, comparable to the",
+        "start_index": 54683,
+        "end_index": 54924
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "values achieved for the reference compounds (95). 4Asp was further characterized by significantly worse activity toward confused flour beetle larvae than the rest of the tested compounds and reference substances. Also in our previous studies, we observed that excessive hydrophilicity of the cation can negatively affect deterrent activity\u2014choline analogs (Pernak et al., 2007) and compounds containing hydroxyl (Stachowiak et al",
+        "start_index": 54924,
+        "end_index": 55353
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2020) or ester groups (Kaczmarek et al., 2022) in the cations are generally characterized by worse $T$ values compared to QASs with cations based on synthetic surfactants with long alkyl chains (Niemczak et al., 2019).",
+        "start_index": 55353,
+        "end_index": 55574
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The introduction of an alkyl substituent into the quinine cation resulted in an increase in antifeedant activity against adult granary weevils compared to the reference substances; for 5 QASs (2Br, 1Asp, 2Asp, 2Ala, 3Ala) the difference to the references was statistically significant (Fig. 4)",
+        "start_index": 55574,
+        "end_index": 55867
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The length of the substituent in the 1-alkylquininium cation had no effect on the performance of the compounds with bromide anion, while in the case of L-asparaginate and L-alaninate, 2Asp and 2Ala containing an intermediate-length (octyl) substituent had the best effect against adult weevils ($T$ equal to 136 and 139, respectively)",
+        "start_index": 55867,
+        "end_index": 56203
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". However, these results were not significantly different from the $T$ values determined for most compounds with either butyl or dodecyl chains.",
+        "start_index": 56203,
+        "end_index": 56347
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The antifeedant activity of the tested compounds toward larvae of khapra beetle ($T.\\ granarium$) was highly varied, with $T$ values ranging from 45 (4Ala) to 169 (2Ala). In the case of this pest, no clear dependence of biopesticidal activity on the type of cation or anion was observed",
+        "start_index": 56347,
+        "end_index": 56633
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Interestingly, an incidental, statistically significant increase in the activity was observed for 2Ala compared to the other salts. Like in the case of $S.\\ granarius$, many of the quinine-based QAS obtained were characterized by at least good antifeedant properties and showed significantly better activity toward khapra beetle larvae compared to quinine hydrochloride ($T = 59$). Interestingly, quinine in the form of the free base also demonstrated significantly better",
+        "start_index": 56633,
+        "end_index": 57107
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "activity toward khapra beetle \\( (T = 121) \\) compared to the hydrochloride form \u2014 such discrepancies between the selected reference substances were not observed for the other species tested.",
+        "start_index": 57107,
+        "end_index": 57298
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "With the exception of 4Asp, all quinine-based QASs showed very good \\( (T > 150) \\) antifeedant properties toward confused flour beetle larvae regardless of the type of substituent in the cation or anion structure (Fig. 4)",
+        "start_index": 57298,
+        "end_index": 57520
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". This is most likely due to the very strong effect of quinine structure on inhibiting the feeding of this species \u2014 the \\( T \\) value determined for quinine free base in confused flour beetle tests was equal to 189. Thus, it can be concluded that the activity of quinine against \\( T. \\) confusum larvae is comparable to that of azadirachtin \\( (T = 192, \\) see Fig",
+        "start_index": 57520,
+        "end_index": 57886
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". 4), a substance known for its very potent biopesticidal properties. Although quinine is characterized by potent antifeedant activity toward some mosquito species (Lukenge et al., 2023), its activity toward stored product pests is reported to be significantly lower compared to azadirachtin or neem oil formulations (Sanan\u00e9 et al., 2021)",
+        "start_index": 57886,
+        "end_index": 58224
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". This is also true in the case of most of the obtained quinine-based QASs, which did not reach the effectiveness of pure azadirachtin \\( (T = 194) \\) to khapra beetles, and only 2Ala \\( (T = 169) \\) exhibited similar antifeedant activity toward larvae of this species",
+        "start_index": 58224,
+        "end_index": 58492
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the case of adult granary weevils, the differences were even more pronounced and pure azadirachtin \\( (T = 190) \\) was noticeably a superior feeding deterrent than any of the quinine-based compounds tested. However, the very good antifeedant activity of quinine (in the form of the free base and hydrochloride) toward \\( T",
+        "start_index": 58492,
+        "end_index": 58819
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". \\) confusum larvae, that also determines high efficacy of the majority of quinine-based QASs, is a surprising result and indicates the legitimacy of further research into the use of this alkaloid and its derivatives in the protection of plants and seeds against pests",
+        "start_index": 58819,
+        "end_index": 59088
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should also be emphasized that despite the exceptional biopesticidal activity of azadirachtin to a broad spectrum of stored product pests, this substance cannot be profitably obtained by synthetic methods due to its complex chemical structure (Jauch, 2008). In addition, azadirachtin is difficult to extract in large quantities from",
+        "start_index": 59088,
+        "end_index": 59425
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Azadirachta indica plant matter which contributes to its high price. Therefore, the search for feeding deterrents derived from other, more readily available natural resources remains a legitimate approach. Moreover, given the high antimicrobial activity of salts 3Br, 3Asp, and 3Ala toward F. graminearum (a fungal pathogen of seeds and plants) and other microorganisms (see Fig",
+        "start_index": 59425,
+        "end_index": 59803
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". 3), there is some potential for using the quinine-based QASs with longer alkyl substituents for comprehensive biopesticidal protection of stored grain against both pest insects and harmful plant pathogens. However, further research in this area needs to be preceded by analyses of the toxicity of the new QASs, as well as their environmental fate and effects on stored grain quality.",
+        "start_index": 59803,
+        "end_index": 60188
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.6. Phytotoxicity",
+        "start_index": 60188,
+        "end_index": 60206
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Both the pesticide residues in the soil (Bragan\u00e7a et al., 2018) and the presence of antifeedant on seeds (de Paulo Barbosa et al., 2023) may have a negative effect on plant germination and development. Therefore, the effect of quinine-based QASs and a reference substance (quinine hydrochloride) on seeds of a dicotyledous (white mustard, S",
+        "start_index": 60206,
+        "end_index": 60546
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". alba) and a monocotyledous plant (sorghum, S. bicolor) was studied at different concentrations. The effect of the application on the germination capacity of the plants is shown in Table A.6 (Supplementary Data), while Fig. 5 shows the effect of the obtained compounds on the growth of shoots and roots of white mustard. An analogous graph for sorghum (Fig. A",
+        "start_index": 60546,
+        "end_index": 60906
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".30) and a summary of the exact results of the phytotoxicity tests (Tables A.7 and A.8) can be found in Supplementary Data.",
+        "start_index": 60906,
+        "end_index": 61029
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Figure 5. Effect of quinine-based QASs on the early development of white mustard (*S. alba*).",
+        "start_index": 61029,
+        "end_index": 61122
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**REF2** \u2013 quinine hydrochloride",
+        "start_index": 61122,
+        "end_index": 61154
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Regardless of the chemical structure of the test compound, 80\u2013100% of seeds of both plants germinated after 96 h after treatment. This range coincides with the germination capacity of untreated seeds according to the manufacturer\u2019s specifications. Thus, none of the applied QASs or the reference formulation showed significant phytotoxicity at concentrations up to 10 g dm$^{-3}$ at the earliest stage of white mustard and sorghum development",
+        "start_index": 61154,
+        "end_index": 61596
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Also, no significant germination delays were observed during the experiment compared to the control.",
+        "start_index": 61596,
+        "end_index": 61698
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Analysis of young white mustard plants revealed an interesting effect of the new quinine-based QASs on the growth rate of roots and shoots (Fig. 5). At a concentration of 1 g dm$^{-3}$, the tested salts caused an increase in shoot length by 31\u2013100% compared to the control, while roots were elongated by 24\u2013158%",
+        "start_index": 61698,
+        "end_index": 62009
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". **4Asp** and **4Ala** had the strongest stimulating effect on root growth, and in their case the differences in white mustard root length (152% and 158%, respectively) were statistically significant compared to the control. Regarding the shoot elongation, a significant",
+        "start_index": 62009,
+        "end_index": 62280
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "difference to the control was also recorded for 4Asp (100% increase). The beneficial effect of 4Asp and 4Ala may be due to the high hydrophilicity of these compounds (log $K_{ow} < -1$), which may positively influence the bioavailability of quinine-based cation in the soil",
+        "start_index": 62280,
+        "end_index": 62553
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". At the same time, it should be remembered that the cation and anion of QASs behave differently in the soil and their effects on plants should be considered separately (Homa et al., 2024)",
+        "start_index": 62553,
+        "end_index": 62741
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Given that 4Br with the same cation stimulated root and shoot growth to a lesser extent, it can be predicted that the plant growth-stimulating effect observed for 4Asp and 4Ala is a product of the beneficial effect of the 1-(2-hydroxyethyl)quinium cation and the enhancement of metabolism caused by exogenous application of proteinogenic amino acids (Sowmya et al., 2023)",
+        "start_index": 62741,
+        "end_index": 63114
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should also be emphasized that the growth-stimulating activity of quinine in terrestrial plants has not yet been studied in detail, and thus further research of this phenomenon is recommended.",
+        "start_index": 63114,
+        "end_index": 63311
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "At elevated concentrations (10 g dm$^{-3}$), a difference in the effect of QASs with L-asparaginate and L-alaninate anions was observed. The addition of 1Asp\u20134Asp continued to stimulate white mustard root growth up to 79% compared to the control, although it did not stimulate shoot elongation",
+        "start_index": 63311,
+        "end_index": 63604
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In contrast, for compounds 1Ala\u20133Ala an inhibition of root (up to -43%) and shoot growth (up to -28%) was observed. Conversely, the addition of 4Ala at 10 g dm$^{-3}$ resulted in a 95% and 29% increase in root and stem length, respectively",
+        "start_index": 63604,
+        "end_index": 63845
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The observed phenomenon can be explained by the fact that L-alanine in high concentrations can cause phytotoxic effects in some dicotyledonous plants (Alfosea-Sim\u00f3n et al., 2021).",
+        "start_index": 63845,
+        "end_index": 64026
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In the case of young sorghum plants, the addition of quinine hydrochloride or quinine-based QASs at a concentration of 10 g dm$^{-3}$ or lower did not cause statistically significant changes in root or shoot length compared to the control. Thus, no phytotoxic effect of the obtained compounds was observed toward sorghum",
+        "start_index": 64026,
+        "end_index": 64346
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Since growth inhibition was not observed at a statistically significant level for white mustard either, it can be concluded that application of the obtained QASs on the stored grain for pest protection will not cause phytotoxic effects.",
+        "start_index": 64346,
+        "end_index": 64584
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "However, more detailed studies on a wider spectrum of monocotyledonous and dicotyledonous plants are needed to assess the risk of quinine-derived biopesticides application in the agrochemical operations.",
+        "start_index": 64584,
+        "end_index": 64787
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.7. Aquatic toxicity\n\n3.7.1. Freshwater green algae (Chlorella vulgaris)",
+        "start_index": 64787,
+        "end_index": 64860
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Proteinogenic amino acids are relatively harmless to many groups of aquatic organisms, and their exogenous addition can have beneficial effects on algal growth. Among other things, positive effects of amino acid addition have been observed on the increase in biomass of freshwater algal cultures of *C. vulgaris* (Koochi et al., 2023)",
+        "start_index": 64860,
+        "end_index": 65194
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". On the other hand, surface-active QASs containing long alkyl substituents are characterized by high toxicity to aquatic organisms, including microalgae (Zhu et al., 2010). This is due to the same mechanism of interaction with cell membranes, which is responsible for the antibacterial activity of these compounds (Sanches et al., 2023), as well as adverse interactions with organelles, including chloroplasts (Paw\u0142owska et al",
+        "start_index": 65194,
+        "end_index": 65621
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2019). Given the important role of algae as an essential source of food and oxygen in aquatic biocoenoses, assessing toxicity of new chemicals to this group of organisms is important in the course of the environmental risk analysis. According to the studies we performed on *C. vulgaris*, the obtained quinine-based QASs are characterized by a diverse range of acute toxicity. The estimated ErC$_{50}$ values ranged from 0",
+        "start_index": 65621,
+        "end_index": 66046
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1 (*3Br, 3Asp, 3Ala*) to more than 1000 mg dm$^{-3}$ (*1Asp*). The determined ErC$_{50}$ ranges are summarized in Fig. 6, while the growth inhibition values of *C. vulgaris* for the corresponding toxicant concentration are summarized in Table A.9 (Supplementary Data).",
+        "start_index": 66046,
+        "end_index": 66315
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Figure 6. 72 h ErC\\textsubscript{50} (the concentration of test substance which results in a 50 percent reduction in growth rate) of tested QASs on green algae \\textit{C. vulgaris} and 48 h EC\\textsubscript{50} on freshwater crustacean \\textit{D. magna}. REF2 \u2013 quinine hydrochloride",
+        "start_index": 66315,
+        "end_index": 66598
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Toxicity categories according to (El-Harbawi, 2014)",
+        "start_index": 66598,
+        "end_index": 66651
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "As in the case of antimicrobial activity, toxicity toward algae was determined by the type of substituent in the quinine-derived cation. All compounds with a dodecyl substituent (3Br, 3Asp, 3Ala) exhibited the same ErC\\textsubscript{50} range (0.1\u20131 mg dm\\textsuperscript{3}), comparable to the toxicity toward \\textit{C",
+        "start_index": 66651,
+        "end_index": 66971
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". vulgaris} recorded for other QASs with a dodecyl chain, such as benzalkonium chloride (ErC\\textsubscript{50}: 0.22 mg dm\\textsuperscript{3}) (Zhu et al., 2010) or salts with an imidazolium cation (0.37 mg dm\\textsuperscript{3}) (Zhang et al., 2017)",
+        "start_index": 66971,
+        "end_index": 67221
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". No differences were also noticed between the toxicity of the 3 salts with an octyl substituent (2Br, 2Asp, 2Ala, ErC50: 1\u201310 mg dm\\textsuperscript{3})",
+        "start_index": 67221,
+        "end_index": 67373
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". It should therefore be emphasized that optimization of the quinine-derived cation structure for antimicrobial activity (especially in the case of 3Br, 3Asp and 3Ala) also leads to a significant increase in acute toxicity against \\textit{C. vulgaris}, which presumably results from the analogous mechanism of action of amphiphilic QASs against cells of both pathogenic microorganisms and algae (Sanches et al., 2023)",
+        "start_index": 67373,
+        "end_index": 67790
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Thus, this means that despite their natural origin and enhanced biocompatibility, potential quinine-based quaternary disinfectants containing a long alkyl substituent should still be treated as a potential pollutant, and their release into the environment and concentration in",
+        "start_index": 67790,
+        "end_index": 68068
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "wastewater should be closely monitored analogously to \u201cconventional\u201d QASs of synthetic origin (Arnold et al., 2023).",
+        "start_index": 68068,
+        "end_index": 68184
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Compounds with a short butyl or 2-(hydroxyethyl) substituent were \u201cpractically nontoxic\u201d (El-Harbawi, 2014) and exhibited ErC\\textsubscript{50} values exceeding 100 mg dm\\textsuperscript{-3}. Thus, they were less toxic than quinine hydrochloride (10\u2013100 mg dm\\textsuperscript{-3})",
+        "start_index": 68184,
+        "end_index": 68464
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Interestingly, a decrease in the toxicity against \\textit{C. vulgaris} (ErC\\textsubscript{50} >1000 mg dm\\textsuperscript{-3}) to a level where the chemical can be considered \u201crelatively harmless\u201d (El-Harbawi, 2014) was noted for 1Asp",
+        "start_index": 68464,
+        "end_index": 68700
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Thus, it can be concluded that the introduction of an amino acid anion into the structure of QASs could reduce the toxicity of the quinine structure toward \\textit{C. vulgaris} in some cases, although it had no effect on reducing the adverse effects caused by QASs comprising a quinine-based cation with a longer alkyl substituent.",
+        "start_index": 68700,
+        "end_index": 69033
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "3.7.2. Freshwater crustaceans (\\textit{Daphnia magna})",
+        "start_index": 69033,
+        "end_index": 69087
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Freshwater crustaceans of the \\textit{D. magna} species are highly sensitive to the presence of a wide range of chemicals in water, including cationic surfactants. QASs of synthetic origin such as benzalkonium chloride, didecyldimethylammonium chloride or cetyltrimethylammonium bromide are characterized by acute toxicity toward \\textit{D",
+        "start_index": 69087,
+        "end_index": 69426
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". magna} at very low concentrations (EC\\textsubscript{50} <0.1 mg dm\\textsuperscript{-3}) (Fuchsman et al., 2022; Homa et al., 2024; Nowacka et al., 2023), which qualifies them in the \u201csuper toxic\u201d category. This forces special caution in the disposal of conventional disinfecting agents and prompts the search for active ingredients characterized by lower toxicity to aquatic animals.",
+        "start_index": 69426,
+        "end_index": 69811
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The acute toxicity analysis revealed that among the obtained quinine-based QASs, compounds with cations containing either a short (1Br, 1Asp, 1Ala, 4Br, 4Asp, 4Ala) or a medium-length (2Br, 2Asp, 2Ala) substituent were characterized by EC\\textsubscript{50} values against \\textit{D",
+        "start_index": 69811,
+        "end_index": 70092
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". magna} in the range of 10\u2013100 mg dm\\textsuperscript{-3} (\u201cslightly toxic\u201d, Fig. 6). The harmful effect of the listed salts is presumably",
+        "start_index": 70092,
+        "end_index": 70230
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "due to the aquatic toxicity of quinine, since the EC$_{50}$ range estimated for the reference compound (quinine hydrochloride) is identical. As with the toxicity analyses conducted for C. vulgaris, extension of the alkyl chain to 12 carbon atoms resulted in a significant increase in toxicity to crustaceans (EC$_{50}$: 0.1\u20131 mg dm$^{-3}$)",
+        "start_index": 70230,
+        "end_index": 70569
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". These results indicate that 3Br, 3Asp and 3Ala containing 1-dodecylquininium cation, which determines their potent antimicrobial properties are at least moderately toxic to multiple classes of freshwater organisms and should be thoroughly controlled as substances potentially hazardous to the aquatic environment in the case of their potential application. However, quinine-based QASs with dodecyl substituent were still less toxic than conventional QASs used in disinfectant formulations",
+        "start_index": 70569,
+        "end_index": 71059
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The exact results of the acute toxicity tests toward D. magna are summarized in Table A.10 (Supplementary Data). Of all the compounds tested, 1Asp was characterized by good or very good antifeedant activity, and its toxicity toward test organisms from a wide range of systematic groups (bacteria, fungi, terrestrial plants, freshwater algae, freshwater crustaceans) was the lowest. Due to the low value of log $K_{ow}$ (-0",
+        "start_index": 71059,
+        "end_index": 71483
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".91) it was also characterized by a low risk of bioaccumulation. Therefore, an additional chronic toxicity study was conducted to determine the ability of D. magna to reproduce in an environment contaminated with 1Asp at sublethal concentrations ($\\leq$ 10 mg dm$^{-3}$). The results of the study are summarized in Fig A.31 and Table A.11 (Supplementary Data). The data obtained show that at low concentrations (0",
+        "start_index": 71483,
+        "end_index": 71896
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".01 mg dm$^{-3}$ and 0.1 mg dm$^{-3}$), 1Asp did not affect the reproduction of D. magna females, and the number of parthenogenetic offspring did not differ significantly from control organisms",
+        "start_index": 71896,
+        "end_index": 72089
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Conversely, the applied QAS caused a reduction in the number of offspring by an average of 48% as well as other adverse effects (occurrence of aborted eggs and dead neonates) at a concentration of 1 mg dm$^{-3}$, indicating the presence of toxic effects. It should be noted that no relationship was observed between the concentration of 1Asp and the mortality of D. magna; only four parent organisms (one in",
+        "start_index": 72089,
+        "end_index": 72498
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "control, one at 0.01 mg dm\\(^{-3}\\), one at 1 mg dm\\(^{-3}\\), and one at 10 mg dm\\(^{-3}\\)) died inadvertently during the experiment.",
+        "start_index": 72498,
+        "end_index": 72631
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Fascinatingly, increasing the concentration of \\textbf{1Asp} to sublethal levels (10 mg dm\\(^{-3}\\)) did not result in a further increase in toxicity toward \\textit{D. magna}, but instead caused a biostimulatory effect",
+        "start_index": 72631,
+        "end_index": 72849
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". At the highest concentration of \\textbf{1Asp} tested, the reproductive output increased by 32\\% compared to the control, and no mortality or signs of stress were observed during the test. This unexpected phenomenon may stem from compensation for the toxic effects of 1-butylquininium cation due to biostimulation induced by elevated concentrations of L-asparagine in the medium.",
+        "start_index": 72849,
+        "end_index": 73229
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Despite the lack of data on the effect of exogenous addition of L-asparagine and other on \\textit{D. magna}, there are reports that indicate a beneficial effect of proteinogenic amino acid addition on the reproduction of the genetically similar \\textit{Daphnia pulex} (Fink et al., 2011)",
+        "start_index": 73229,
+        "end_index": 73516
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". In the context of this result, further, more thorough studies are warranted to test whether the addition of proteinogenic amino acids can reduce the negative effects of chemicals exhibiting chronic toxicity on aquatic crustaceans.",
+        "start_index": 73516,
+        "end_index": 73748
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\\section{Conclusions}",
+        "start_index": 73748,
+        "end_index": 73769
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In this study, new naturally-derived quaternary ammonium salts (QASs) with quinine-based cation and two amino acid anions: L-asparaginate and L-alaninate were obtained for the first time using a sustainable, environmentally friendly synthesis method. and the acquired FT-IR and NMR spectra allowed confirmation of their chemical structures. The new compounds exhibited many times higher solubility in water compared to known 1-alkylquininium bromides",
+        "start_index": 73769,
+        "end_index": 74219
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". The antimicrobial activity of the analyzed quinine-based QASs increased with the elongation of the alkyl chain in the cation, and the chemical structure of an anion had no influence on this effect. The 1-dodecylquininium salts inhibited the growth of most of the microbes tested at concentrations below 16 mg dm\\(^{-3}\\), thus showing activity at the level of...",
+        "start_index": 74219,
+        "end_index": 74583
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "commercially available disinfectants. Most quinine derivatives also proved to be good or very good feeding deterrents active toward stored product pests, particularly effective against *T. confusum* larvae. In view of this high activity, and due the low availability and high price of the most effective natural antifeedants for storage pests (*i.e",
+        "start_index": 74583,
+        "end_index": 74931
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".* azadirachtin), further research to determine the optimal chemical structure and dose of quinine-based QASs to achieve optimal biostatic activity is warranted.",
+        "start_index": 74931,
+        "end_index": 75092
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "No significant phytotoxic effects were observed for any of the tested compounds in concentrations below 10 mg dm\\(^{-3}\\), which is a promising preliminary result in the context of the potential application of new compounds",
+        "start_index": 75092,
+        "end_index": 75315
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Interestingly, although QASs with an amino acid anion and 1-(2-hydroxyethyl)quininium cation were characterized by weak antifeedant activity and had no antimicrobial properties, their application on seeds caused accelerated growth of white mustard plants compared to the control. This result implies the potential use of more hydrophilic forms of quinine-based QASs",
+        "start_index": 75315,
+        "end_index": 75682
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". As with conventional QASs, the aquatic toxicity of the analyzed quinine derivatives was related to the length of the alkyl substituent in the cation",
+        "start_index": 75682,
+        "end_index": 75832
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Despite the lack of clear toxicity of salts with 1-(2-hydroxyethyl)quininium and 1-butylnquininium cations toward algae (ErC\\(_{50}\\) > 100 mg dm\\(^{-3}\\)), QASs containing a longer alkyl chain were moderately or highly toxic toward *C. vulgaris*. Toxicity toward *D. magna* was mainly due to the adverse effects of quinine",
+        "start_index": 75832,
+        "end_index": 76157
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". An additional chronic toxicity test against *D. magna*, performed for the least harmful QAS with a 1-butylnquinium cation and an L-asparaginate anion, showed no long-term effects at concentrations of 0.1 mg dm\\(^{-3}\\) and below. Surprisingly, at sublethal concentration (10 mg dm\\(^{-3}\\)), inhibition of the chronic toxicity of this salt and positive effects on the reproduction of test organisms were observed",
+        "start_index": 76157,
+        "end_index": 76571
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".",
+        "start_index": 76571,
+        "end_index": 76572
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The results of the conducted studies indicate that quinine is an interesting raw material for the synthesis of new biologically active compounds, and its quaternary salts containing short alkyl substituents exhibit low or mild toxicity to microbes, terrestrial plants and aquatic organisms.",
+        "start_index": 76572,
+        "end_index": 76862
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "In addition, they are effective biopesticides that prevent stored product pests from feeding with moderate or high efficiency. Moreover, the elongation of the alkyl chain in the quinine-derived cation, allows for synthesis of new QASs with potent disinfectant properties, albeit at the expense of their increased toxicity to aquatic organisms",
+        "start_index": 76862,
+        "end_index": 77204
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Therefore, it should be emphasized that quinine-based cations that determine antimicrobial activity are also toxic to multiple classes of aquatic organisms and, despite their higher biocompatibility, should be treated as emerging pollutants like conventional QAS disinfectants currently in use",
+        "start_index": 77204,
+        "end_index": 77499
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". From the above, it also follows that new QASs such as 1-butylquininium l-asparaginate (1Asp) \u2013 inactive against microorganisms and low-toxic, but with favorable antifeedant activity \u2013 offer a potentially safer alternative as dedicated biopesticides in applications where the disinfectant activity of new QASs is not required.",
+        "start_index": 77499,
+        "end_index": 77826
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**Author contributions: CRediT**",
+        "start_index": 77826,
+        "end_index": 77858
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Tomasz Rzemieniecki: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Validation, Visualization, Writing \u2013 original draft. Krzysztof Ju\u015b: Data curation, Investigation, Methodology. Tomasz Klejdysz: Investigation, Data curation, Formal analysis, Funding Acquisition, Resources",
+        "start_index": 77858,
+        "end_index": 78219
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Daniela Gwiazdowska: Data curation, Funding Acquisition, Investigation, Methodology, Resources.",
+        "start_index": 78219,
+        "end_index": 78316
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "**Funding sources**\n\nThis research was funded by National Science Centre, Poland (2023/07/X/ST4/00728). Antimicrobial activity studies were funded by Ministry of Science and Higher Education, Poland. Biopesticidal activity tests toward *T. confusum* were funded by Ministry of Agriculture and Rural Development, Poland.\nAppendices",
+        "start_index": 78316,
+        "end_index": 78646
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Appendix A: Supplementary data; Materials for OECD media preparation (OECD 201 TG medium, Elendt M4 medium), spectral analyses (FT-IR, NMR), additional data and exact values (physicochemical parameters, antimicrobial activity, biopesticidal activity, germination capacity, phytotoxicity, acute toxicity toward *C. vulgaris* and *D. magna*, chronic toxicity toward *D. magna*), references.",
+        "start_index": 78646,
+        "end_index": 79034
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Declaration of generative AI and AI-assisted technologies in the writing process\n\nDuring the preparation of this work the authors did not use any generative AI and AI-assisted technologies.\n\nReferences\n\nAkamatsu, M., 2011. Importance of Physicochemical Properties for the Design of New Pesticides. J. Agric. Food Chem. 59, 2909\u20132917. https://doi.org/10.1021/jf102525e",
+        "start_index": 79034,
+        "end_index": 79401
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Alfosea-Sim\u00f3n, M., Sim\u00f3n-Grao, S., Zavala-Gonzalez, E.A., C\u00e1mara-Zapata, J.M., Sim\u00f3n, I., Mart\u00ednez-Nicol\u00e1s, J.J., Lid\u00f3n, V., Garc\u00eda-S\u00e1nchez, F., 2021",
+        "start_index": 79401,
+        "end_index": 79550
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Physiological, Nutritional and Metabolomic Responses of Tomato Plants After the Foliar Application of Amino Acids Aspartic Acid, Glutamic Acid and Alanine. Front. Plant Sci. 11. https://doi.org/10.3389/fpls.2020.581234",
+        "start_index": 79550,
+        "end_index": 79770
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Arnold, W.A., Blum, A., Branyan, J., Bruton, T.A., Carignan, C.C., Cortopassi, G., Datta, S., DeWitt, J., Doherty, A.-C., Halden, R.U., Harari, H., Hartmann, E.M., Hrubec, T.C., Iyer, S., Kwiatkowski, C.F., LaPier, J",
+        "start_index": 79770,
+        "end_index": 79986
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., Li, D., Li, L., Mu\u00f1iz Ortiz, J.G., Salamova, A.,",
+        "start_index": 79986,
+        "end_index": 80037
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Schettler, T., Seguin, R.P., Soehl, A., Sutton, R., Xu, L., Zheng, G., 2023. Quaternary Ammonium Compounds: A Chemical Class of Emerging Concern. Environ. Sci. Technol. 57, 7645\u20137665. https://doi.org/10.1021/acs.est.2c08244",
+        "start_index": 80037,
+        "end_index": 80260
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Badmus, S.O., Amusa, H.K., Oyehan, T.A., Saleh, T.A., 2021. Environmental risks and toxicity of surfactants: overview of analysis, assessment, and remediation techniques. Environ. Sci. Pollut. Res. 28, 62085\u201362104. https://doi.org/10.1007/s11356-021-16483-w",
+        "start_index": 80260,
+        "end_index": 80517
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Bhalani, D. V, Nutan, B., Kumar, A., Singh Chandel, A.K., 2022. Bioavailability Enhancement Techniques for Poorly Aqueous Soluble Drugs and Therapeutics. Biomedicines 10, 2055. https://doi.org/10.3390/biomedicines10092055",
+        "start_index": 80517,
+        "end_index": 80738
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Borges, E.M., 2015. Silica, Hybrid Silica, Hydride Silica and Non-Silica Stationary Phases for Liquid Chromatography. J. Chromatogr. Sci. 53, 580\u2013597. https://doi.org/10.1093/chromsci/bmu090",
+        "start_index": 80738,
+        "end_index": 80928
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Bragan\u00e7a, I., Lemos, P.C., Barros, P., Delerue-Matos, C., Domingues, V.F., 2018. Phytotoxicity of pyrethroid pesticides and its metabolite towards Cucumis sativus. Sci. Total Environ. 619\u2013620, 685\u2013691. https://doi.org/10.1016/j.scitotenv.2017.11.164",
+        "start_index": 80928,
+        "end_index": 81177
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Dawidowicz, A.L., Bernacik, K., Typek, R., Stankevi\u010d, M., 2018. Possibility of quinine transformation in food products: LC\u2013MS and NMR techniques in analysis of quinine derivatives. Eur. Food Res. Technol. 244, 105\u2013116. https://doi.org/10.1007/s00217-017-2940-0",
+        "start_index": 81177,
+        "end_index": 81437
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "de Paulo Barbosa, L.M., Oliveira Santos, J., Mouzinho de Sousa, R.C., Barros Furtado, J.L., Vidinha, P., Suller Garcia, M.A., Aguilar Vitorino, H., Fossatti Dall\u2019Oglio, D., 2023",
+        "start_index": 81437,
+        "end_index": 81614
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". Bioherbicide from Azadirachta indica Seed Waste: Exploitation, Efficient Extraction of Neem Oil and Allelopathic Effect on Senna occidentalis. Recycling 8, 50. https://doi.org/10.3390/recycling8030050",
+        "start_index": 81614,
+        "end_index": 81816
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "De, S., Malik, S., Ghosh, A., Saha, R., Saha, B., 2015. A review on natural surfactants. RSC Adv. 5, 65757\u201365767. https://doi.org/10.1039/C5RA11101C",
+        "start_index": 81816,
+        "end_index": 81964
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Deutsch, C.A., Tewksbury, J.J., Tigchelaar, M., Battisti, D.S., Merrill, S.C., Huey, R.B., Naylor, R.L., 2018. Increase in crop losses to insect pests in a warming climate. Science 361, 916\u2013919. https://doi.org/10.1126/science.aat3466",
+        "start_index": 81964,
+        "end_index": 82198
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "El-Harbawi, M., 2014. Toxicity Measurement of Imidazolium Ionic Liquids Using Acute Toxicity Test. Procedia Chem. 9, 40\u201352. https://doi.org/10.1016/j.proche.2014.05.006",
+        "start_index": 82198,
+        "end_index": 82366
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Fink, P., Pflitsch, C., Marin, K., 2011. Dietary Essential Amino Acids Affect the Reproduction of the Keystone Herbivore Daphnia pulex. PLoS One 6, e28498.",
+        "start_index": 82366,
+        "end_index": 82521
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Fuchsman, P., Fetters, K., O\u2019Connor, A., Bock, M., Henning, M., Brown, L., Mrdjen, I., Stanton, K., 2022. Ecological Risk Analysis for Benzalkonium Chloride, Benzethonium Chloride, and Chloroxylenol in US Disinfecting and Sanitizing Products. Environ. Toxicol. Chem. 41, 3095\u20133115",
+        "start_index": 82521,
+        "end_index": 82801
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". https://doi.org/10.1002/etc.5484",
+        "start_index": 82801,
+        "end_index": 82835
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Garlick, P.J., 2004. The Nature of Human Hazards Associated with Excessive Intake of Amino Acids. J. Nutr. 134, 1633S-1639S. https://doi.org/10.1093/jn/134.6.1633S",
+        "start_index": 82835,
+        "end_index": 82998
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Hansch, C., Leo, A., Hoekman, D.H., 1995. Exploring QSAR: Hydrophobic, electronic, and steric constants. American Chemical Society, Washington, DC.",
+        "start_index": 82998,
+        "end_index": 83145
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Homa, J., Stachowiak, W., Olejniczak, A., Chrzanowski, \u0141., Niemczak, M., 2024. Ecotoxicity studies reveal that organic cations in dicamba-derived ionic liquids can pose a greater environmental risk than the herbicide itself. Sci. Total Environ. 922, 171062. https://doi.org/10.1016/j.scitotenv.2024.171062",
+        "start_index": 83145,
+        "end_index": 83450
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Jauch, J., 2008. Total Synthesis of Azadirachtin\u2014Finally Completed After 22 Years. Angew. Chemie Int. Ed. 47, 34\u201337. https://doi.org/10.1002/anie.200703814",
+        "start_index": 83450,
+        "end_index": 83605
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Jermy, T., 1990. Prospects of antifeedant approach to pest control \u2014 A critical review. J. Chem. Ecol. 16, 3151\u20133166. https://doi.org/10.1007/BF00979617",
+        "start_index": 83605,
+        "end_index": 83757
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Jia, Y., Lu, H., Zhu, L., 2022. Molecular mechanism of antibiotic resistance induced by mono- and twin-chained quaternary ammonium compounds. Sci. Total Environ. 832, 155090. https://doi.org/10.1016/j.scitotenv.2022.155090",
+        "start_index": 83757,
+        "end_index": 83979
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Jones, R.A., Panda, S.S., Hall, C.D., 2015. Quinine conjugates and quinine analogues as potential antimalarial agents. Eur. J. Med. Chem. 97, 335\u2013355. https://doi.org/10.1016/j.ejmech.2015.02.002",
+        "start_index": 83979,
+        "end_index": 84174
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Kaczerewska, O., Martins, R., Figueiredo, J., Loureiro, S., Tedim, J., 2020. Environmental behaviour and ecotoxicity of cationic surfactants towards marine organisms. J. Hazard. Mater. 392, 122299. https://doi.org/10.1016/j.jhazmat.2020.122299",
+        "start_index": 84174,
+        "end_index": 84417
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Kaczmarek, D.K., Gwiazdowska, D., Ju\u015b, K., Klejdysz, T., Wojcieszak, M., Materna, K., Pernak, J., 2021. Glycine betaine-based ionic liquids and their influence on bacteria, fungi, insects and plants. New J. Chem. 45, 6344\u20136355. https://doi.org/10",
+        "start_index": 84417,
+        "end_index": 84663
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1039/D1NJ00498K",
+        "start_index": 84663,
+        "end_index": 84679
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Kaczmarek, D.K., Gwiazdowska, D., Marchwi\u0144ska, K., Klejdysz, T., Wojcieszak, M., Materna, K., Pernak, J., 2022. Amino acid-based dicationic ionic liquids as complex crop protection agents. J. Mol. Liq. 360, 119357. https://doi.org/10.1016/j.molliq",
+        "start_index": 84679,
+        "end_index": 84926
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".2022.119357",
+        "start_index": 84926,
+        "end_index": 84938
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Kaczmarek, D.K., Klejdysz, T., Pacholak, A., Kaczorek, E., Pernak, J., 2024. Environmental impact assessment of dicationic ionic liquids with ammonium-phosphonium cations and amino acid anions. J. Hazard. Mater. 474, 134793. https://doi.org/10.1016/j.jhazmat.2024.134793",
+        "start_index": 84938,
+        "end_index": 85208
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Klejdysz, T., \u0141\u0119gosz, B., Czuryszkiewicz, D., Czerniak, K., Pernak, J., 2016. Biobased Ionic Liquids with Abietate Anion. ACS Sustain. Chem. Eng. 4, 6543\u20136550. https://doi.org/10.1021/acssuschemeng.6b01381",
+        "start_index": 85208,
+        "end_index": 85413
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Koochi, Z.H., Jahromi, K.G., Kavoosi, G., Ramezanian, A., 2023. Fortification of Chlorella\nvulgaris with citrus peel amino acid for improvement biomass and protein quality.\n\nBiotechnol. Reports 39, e00806. https://doi.org/10.1016/j.btre.2023.e00806",
+        "start_index": 85413,
+        "end_index": 85661
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Lazzari, C.R., Ortega-Insaurralde, I., Esnault, J., Costa, E., Crespo, J.E., Barrozo, R.B., 2024. Mosquitoes do not Like Bitter. J. Chem. Ecol. 50, 143\u2013151. https://doi.org/10.1007/s10886-024-01476-z",
+        "start_index": 85661,
+        "end_index": 85860
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\u0141ozowicka, B., Kaczy\u0144ski, P., Nawrot, J., Wysocka, J., 2007. Aktywno\u015b\u0107 deterentna nowych pochodnych alfa-asaronu. Prog. Plant Prot. 47, 303\u2013309.",
+        "start_index": 85860,
+        "end_index": 86004
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "\u0141ukenge, M., Ignell, R., Hill, S.R., 2023. Adenosine triphosphate overrides the aversive effect of antifeedants and toxicants: a model alternative phagostimulant for sugar-based vector control tools. Parasit. Vectors 16, 416. https://doi.org/10.1186/s13071-023-06039-x",
+        "start_index": 86004,
+        "end_index": 86272
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Luo, J.-C., Kuo, H.-W., Cheng, T.-J., Chang, M.J.W., 2001. Abnormal Liver Function Associated With Occupational Exposure to Dimethylformamide and Hepatitis B Virus. J. Occup. Environ. Med. 43, 474\u2013482. https://doi.org/10.1097/00043764-200105000-00008",
+        "start_index": 86272,
+        "end_index": 86522
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Maillard, J., 2022. Impact of benzalkonium chloride, benzethonium chloride and chloroxylenol on bacterial antimicrobial resistance. J. Appl. Microbiol. 133, 3322\u20133346. https://doi.org/10.1111/jam.15739",
+        "start_index": 86522,
+        "end_index": 86723
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "McNeice, P., Vallana, F.M.F., Coles, S.J., Horton, P.N., Marr, P.C., Seddon, K.R., Marr, A.C., 2020. Quinine based ionic liquids: A tonic for base instability. J. Mol. Liq. 297, 111773. https://doi.org/10.1016/j.molliq.2019.111773",
+        "start_index": 86723,
+        "end_index": 86953
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Menges, F., 2009. Spectragryph - optical spectroscopy software.\n\nMerchel Piovesan Pereira, B., Tagkopoulos, I., 2019. Benzalkonium Chlorides: Uses, Regulatory Status, and Microbial Resistance. Appl. Environ. Microbiol. 85, e00377-19. https://doi.org/10.1128/AEM.00377-19",
+        "start_index": 86953,
+        "end_index": 87223
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Merkova, M., Zalesak, M., Ringlova, E., Julinova, M., Ruzicka, J., 2018. Degradation of the surfactant Cocamidopropyl betaine by two bacterial strains isolated from activated\nsludge. Int. Biodeterior. Biodegradation 127, 236\u2013240.",
+        "start_index": 87223,
+        "end_index": 87452
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "https://doi.org/10.1016/j.ibiod.2017.12.006",
+        "start_index": 87452,
+        "end_index": 87495
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Niemczak, M., Kaczmarek, D.K., Klejdysz, T., Gwiazdowska, D., Marchwi\u0144ska, K., Pernak, J., 2019. Ionic Liquids Derived from Vitamin C as Multifunctional Active Ingredients for Sustainable Stored-Product Management. ACS Sustain. Chem. Eng. 7, 1072\u20131084.",
+        "start_index": 87495,
+        "end_index": 87747
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "https://doi.org/10.1021/acssuschemeng.8b04696\n\nNordholt, N., Kanaris, O., Schmidt, S.B.I., Schreiber, F., 2021. Persistence against benzalkonium chloride promotes rapid evolution of tolerance during periodic disinfection. Nat. Commun. 12, 6792. https://doi.org/10.1038/s41467-021-27019-8",
+        "start_index": 87747,
+        "end_index": 88034
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Nowacka, A., Olejniczak, A., Stachowiak, W., Niemczak, M., 2023. Comprehensive Ecotoxicity Studies on Quaternary Ammonium Salts Synthesized from Vitamin B3 Supported by QSAR Calculations. Plants. https://doi.org/10.3390/plants12040914",
+        "start_index": 88034,
+        "end_index": 88268
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "OECD, 2012. Test No. 211: Daphnia magna Reproduction Test. https://doi.org/https://doi.org/10.1787/9789264185203-en\n\nOECD, 2011. Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test. https://doi.org/https://doi.org/10.1787/9789264069923-en",
+        "start_index": 88268,
+        "end_index": 88526
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "OECD, 2006. Test No. 208: Terrestrial Plant Test: Seedling Emergence and Seedling Growth Test. https://doi.org/https://doi.org/10.1787/9789264070066-en\n\nOECD, 2004. Test No. 202: Daphnia sp. Acute Immobilisation Test. https://doi.org/https://doi.org/10.1787/9789264069947-en",
+        "start_index": 88526,
+        "end_index": 88800
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "OECD, 1995a. Test No. 105: Water Solubility. https://doi.org/https://doi.org/10.1787/9789264069589-en",
+        "start_index": 88800,
+        "end_index": 88901
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "OECD, 1995b. Test No. 107: Partition Coefficient (n-octanol/water): Shake Flask Method, OECD Guidelines for the Testing of Chemicals, Section 1. OECD. https://doi.org/10.1787/9789264069626-en",
+        "start_index": 88901,
+        "end_index": 89092
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Olejniczak, A., Stachowiak, W., Ziental, D., D\u0142ugaszewska, J., Rzemieniecki, T., Wysokowski, M., Jesionowski, T., Niemczak, M., 2024. Unraveling the Potential of Vitamin B3-Derived Salts with a Salicylate Anion as Dermal Active Agents for Acne Treatment. Mol. Pharm",
+        "start_index": 89092,
+        "end_index": 89357
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". 21, 4634\u20134647. https://doi.org/10.1021/acs.molpharmaceut.4c00543",
+        "start_index": 89357,
+        "end_index": 89423
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Pati, S.G., Arnold, W.A., 2020. Comprehensive screening of quaternary ammonium surfactants and ionic liquids in wastewater effluents and lake sediments. Environ. Sci. Process. Impacts 22, 430\u2013441. https://doi.org/10.1039/C9EM00554D",
+        "start_index": 89423,
+        "end_index": 89654
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Pavelka, S., 2009. Chapter 61 - Bromide Interference with Iodine Metabolism: Goitrogenic and Whole-body Effects of Excessive Inorganic Bromide in the Rat, in: Preedy, V.R., Burrow, G.N., Watson, R.B.T.-C.H. of I. (Eds.), Academic Press, San Diego, pp. 587\u2013595. https://doi.org/10",
+        "start_index": 89654,
+        "end_index": 89933
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1016/B978-0-12-374135-6.00061-3",
+        "start_index": 89933,
+        "end_index": 89965
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Paw\u0142owska, B., Telesi\u0144ski, A., Biczak, R., 2019. Phytotoxicity of ionic liquids. Chemosphere 237, 124436. https://doi.org/10.1016/j.chemosphere.2019.124436",
+        "start_index": 89965,
+        "end_index": 90120
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Pernak, J., Rzemieniecki, T., 2020. Method for obtaining quinine by way of deprotonation of hydrogen chloride or quinine sulfate in acetonitrile. Pat.236141.",
+        "start_index": 90120,
+        "end_index": 90277
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Pernak, J., Rzemieniecki, T., Klejdysz, T., Qu, F., Rogers, R.D., 2020. Conversion of Quinine Derivatives into Biologically Active Ionic Liquids: Advantages, Multifunctionality, and Perspectives. ACS Sustain. Chem. Eng. 8, 9263\u20139267. https://doi.org/10.1021/acssuschemeng.0c03501",
+        "start_index": 90277,
+        "end_index": 90556
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Pernak, J., Syguda, A., Mirska, I., Pernak, A., Nawrot, J., Pr\u0105dzy\u0144ska, A., Griffin, S.T., Rogers, R.D., 2007. Choline-Derivative-Based Ionic Liquids. Chem. \u2013 A Eur. J. 13, 6817\u20136827. https://doi.org/10.1002/chem.200700285",
+        "start_index": 90556,
+        "end_index": 90778
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Prat, D., Wells, A., Hayler, J., Sneddon, H., McElroy, C.R., Abou-Shehada, S., Dunn, P.J., 2016. CHEM21 selection guide of classical- and less classical-solvents. Green Chem. 18,",
+        "start_index": 90778,
+        "end_index": 90956
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Ramaswamy, S.B., Cohen, N.E., Hanson, F.E., 1992. Deterrence of feeding and oviposition responses of adult Heliothis virescens by some compounds bitter-tasting to humans. Entomol. Exp. Appl. 65, 81\u201393. https://doi.org/10.1111/j.1570-7458.1992.tb01630.x",
+        "start_index": 90956,
+        "end_index": 91208
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Rzemieniecki, T., Gwiazdowska, D., Rybak, K., Materna, K., Ju\u015b, K., Pernak, J., 2019. Synthesis, Properties, and Antimicrobial Activity of 1-Alkyl-4-hydroxy-1-methylpiperidinium Ionic Liquids with Mandelate Anion. ACS Sustain. Chem. Eng. 7, 15053\u201315063",
+        "start_index": 91208,
+        "end_index": 91460
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ". https://doi.org/10.1021/acssuschemeng.9b03690",
+        "start_index": 91460,
+        "end_index": 91507
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Rzemieniecki, T., Kleiber, T., Pernak, J., 2021. Naturally based ionic liquids with indole-3-acetate anions and cations derived from cinchona alkaloids. RSC Adv. 11, 27530\u201327540. https://doi.org/10.1039/D1RA04805H",
+        "start_index": 91507,
+        "end_index": 91720
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Sanan\u00e9, I., Legrand, J., Dillmann, C., Marion-Poll, F., 2021. High-Throughput Feeding Bioassay for Lepidoptera Larvae. J. Chem. Ecol. 47, 642\u2013652. https://doi.org/10.1007/s10886-021-01290-x",
+        "start_index": 91720,
+        "end_index": 91909
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Sanches, M.V., Freitas, R., Oliva, M., Cuccaro, A., Monni, G., Mezzetta, A., Guazzelli, L., Pretti, C., 2023. Toxicity of ionic liquids in marine and freshwater microorganisms and invertebrates: state of the art. Environ. Sci. Pollut. Res. 30, 39288\u201339318. https://doi.org/10",
+        "start_index": 91909,
+        "end_index": 92184
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1007/s11356-023-25562-z",
+        "start_index": 92184,
+        "end_index": 92208
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Sheldon, R.A., 2017. The E factor 25 years on: the rise of green chemistry and sustainability. Green Chem. 19, 18\u201343. https://doi.org/10.1039/C6GC02157C",
+        "start_index": 92208,
+        "end_index": 92360
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Sintra, T.E., Gantman, M.G., Ventura, S.P.M., Coutinho, J.A.P., Wasserscheid, P., Schulz, P.S., 2019. Synthesis and characterization of chiral ionic liquids based on quinine, l-proline and l-valine for enantiomeric recognition. J. Mol. Liq. 283, 410\u2013416. https://doi.org/10.1016/j",
+        "start_index": 92360,
+        "end_index": 92640
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".molliq.2019.03.084",
+        "start_index": 92640,
+        "end_index": 92659
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Sowmya, R.S., Warke, V.G., Mahajan, G.B., Annapure, U.S., 2023. Effect of amino acids on\ngrowth, elemental content, functional groups, and essential oils composition on hydroponically cultivated coriander under different conditions. Ind. Crops Prod. 197, 116577. https://doi.org/10.1016/j.indcrop.2023.116577",
+        "start_index": 92659,
+        "end_index": 92967
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Stachowiak, W., Rzemieniecki, T., Klejdzysz, T., Pernak, J., Niemczak, M., 2020. \u201cSweet\u201d ionic liquids comprising the acesulfame anion \u2013 synthesis, physicochemical properties and antifeedant activity towards stored product insects. New J. Chem. 44, 7017\u20137028. https://doi.org/10",
+        "start_index": 92967,
+        "end_index": 93245
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".1039/C9NJ06005G",
+        "start_index": 93245,
+        "end_index": 93261
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Stachowiak, W., Smolibowski, M., Kaczmarek, D.K., Rzemieniecki, T., Niemczak, M., 2022. Toward revealing the role of the cation in the phytotoxicity of the betaine-based esterquats comprising dicamba herbicide. Sci. Total Environ. 845, 157181. https://doi.org/10.1016/j.scitotenv.2022",
+        "start_index": 93261,
+        "end_index": 93545
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": ".157181",
+        "start_index": 93545,
+        "end_index": 93552
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Terunuma, T., Hayashi, Y., 2022. Organocatalyst-mediated five-pot synthesis of (\u2013)-quinine. Nat. Commun. 13, 7503. https://doi.org/10.1038/s41467-022-34916-z",
+        "start_index": 93552,
+        "end_index": 93709
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Tezel, U., Pavlostathis, S.G., 2015. Quaternary ammonium disinfectants: microbial adaptation, degradation and ecology. Curr. Opin. Biotechnol. 33, 296\u2013304. https://doi.org/10.1016/j.copbio.2015.03.018",
+        "start_index": 93709,
+        "end_index": 93909
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "The European Parliament and the Council, 2006. Consolidated text: Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006.",
+        "start_index": 93909,
+        "end_index": 94070
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Thornton, C.S., Haws, J.T., 2020. Bromism in the Modern Day: Case Report and Canadian Review of Bromide Intoxication. J. Gen. Intern. Med. 35, 2459\u20132461. https://doi.org/10.1007/s11606-020-05907-x",
+        "start_index": 94070,
+        "end_index": 94266
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Tischer, M., Pradel, G., Ohlsen, K., Holzgrabe, U., 2012. Quaternary ammonium salts and their antimicrobial potential: targets or nonspecific interactions? ChemMedChem 7, 22\u201331. https://doi.org/10.1002/cmdc.201100404",
+        "start_index": 94266,
+        "end_index": 94482
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "United Nations Environment Programme, 2023. Emissions Gap Report 2023: Broken Record\nTemperatures hit new highs, yet world fails to cut emissions (again).\n\nhttps://doi.org/10.59117/20.500.11822/43922",
+        "start_index": 94482,
+        "end_index": 94681
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "van Leeuwen, F.X.R., Sangster, B., Hildebrandt, A.G., 1987. The Toxicology of Bromide Ion. CRC Crit. Rev. Toxicol. 18, 189\u2013213. https://doi.org/10.3109/10408448709089861",
+        "start_index": 94681,
+        "end_index": 94850
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Vonlanthen, S., Brown, M.T., Turner, A., 2011. Toxicity of the amphoteric surfactant, cocamidopropyl betaine, to the marine macroalga, Ulva lactuca. Ecotoxicology 20, 202\u2013207. https://doi.org/10.1007/s10646-010-0571-3",
+        "start_index": 94850,
+        "end_index": 95067
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Wishart, D.S., Knox, C., Guo, A.C., Eisner, R., Young, N., Gautam, B., Hau, D.D., Psychogios, N., Dong, E., Bouatra, S., Mandal, R., Sinelnikov, I., Xia, J., Jia, L., Cruz, J.A., Lim, E., Sobsey, C.A., Shrivastava, S., Huang, P",
+        "start_index": 95067,
+        "end_index": 95294
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., Liu, P., Fang, L., Peng, J., Fradette, R., Cheng, D., Tzur, D., Clements, M., Lewis, A., De Souza, A., Zuniga, A., Dawe, M., Xiong, Y., Clive, D., Greiner, R., Nazyrova, A., Shaykhutdinov, R., Li, L., Vogel, H.J., Forsythe, I",
+        "start_index": 95294,
+        "end_index": 95522
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "., 2009. HMDB: a knowledgebase for the human metabolome. Nucleic Acids Res. 37, D603\u2013D610. https://doi.org/10.1093/nar/gkn810",
+        "start_index": 95522,
+        "end_index": 95647
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Yalkowsky, S.H., He, Y., Jain, P., 2010. Handbook of Aqueous Solubility Data, 2nd Editio. ed. CRC Press. https://doi.org/10.1201/EBK1439802458",
+        "start_index": 95647,
+        "end_index": 95789
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Zhang, C., Cui, F., Zeng, G., Jiang, M., Yang, Z., Yu, Z., Zhu, M., Shen, L., 2015. Quaternary ammonium compounds (QACs): A review on occurrence, fate and toxicity in the environment. Sci. Total Environ. 518-519, 352\u2013362. https://doi.org/10.1016/j.scitotenv.2015.03.007",
+        "start_index": 95789,
+        "end_index": 96058
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Zhang, C., Zhang, S., Zhu, L., Wang, Jinhua, Wang, Jun, Zhou, T., 2017. The acute toxic effects of 1-alkyl-3-methylimidazolium nitrate ionic liquids on Chlorella vulgaris and Daphnia magna. Environ. Pollut. 229, 887\u2013895. https://doi.org/10.1016/j.envpol.2017.07.055",
+        "start_index": 96058,
+        "end_index": 96323
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Zhang, Xiaolong, Kong, H., Zhang, Xuepeng, Jia, H., Ma, X., Miao, H., Mu, Y., Zhang, G.,\n2021. Design and production of environmentally degradable quaternary ammonium salts. Green Chem. 23, 6548\u20136554. https://doi.org/10.1039/D1GC01525G",
+        "start_index": 96323,
+        "end_index": 96558
+    },
+    {
+        "document_name": "135.txt",
+        "chunk_text": "Zhu, M., Ge, F., Zhu, R., Wang, X., Zheng, X., 2010. A DFT-based QSAR study of the toxicity of quaternary ammonium compounds on Chlorella vulgaris. Chemosphere 80, 46\u201352. https://doi.org/10.1016/j.chemosphere.2010.03.044",
+        "start_index": 96558,
+        "end_index": 96778
+    }
+]

@@ -1,0 +1,2132 @@
+[
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Tuning Magnetic Anisotropy and Luminescence Thermometry in a Series of Dysprosium Complexes containing \u03b2-diimine Ligand\n\nSukanya Bagchi, Sakshi Mehta, Sujit Kamilya, Mathieu Rouzi\u00e8res, Radovan Herchel, Mikhail Kiskin, Subrata Ghosh, and Abhishake Mondal",
+        "start_index": 0,
+        "end_index": 253
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "aSolid State and Structural Chemistry Unit, Indian Institute of Science, Sir C V Raman Road, Bangalore 560012, India.\n\nbUniv. Bordeaux, CNRS, Centre de Recherche Paul Pascal, CRPP, UMR 5031, 33600 Pessac, France.\n\ncDepartment of Inorganic Chemistry, Faculty of Science, Palack\u00fd University, CZ-771 46 Olomouc, Czech Republic.",
+        "start_index": 253,
+        "end_index": 577
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "dN. S. Kurnakov Institute of General and Inorganic Chemistry, Russian Academy of Sciences, Leninsky Prosp. 31, 119991 Moscow, GSP-1, Russia.\nABSTRACT",
+        "start_index": 577,
+        "end_index": 726
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Understanding spin dynamics in molecular systems is critical for developing advanced quantum materials, where optimizing structural parameters plays a pivotal role. Although significant progress has been made in studying the spin dynamics of \\( \\beta \\)-diketone-Dysprosium(III) complexes with \\( \\alpha \\)-diimine bidentate ligands, the exploration of \\( \\beta \\)-diimine-based ligands to elucidate the structure-property relationship in spin dynamics remains limited",
+        "start_index": 726,
+        "end_index": 1194
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Here, we report three Dysprosium complexes containing \\( \\beta \\)-diimine based bidentate ligands, \\([\\text{Dy(dbm})_3(\\text{bik-Et})]\\) (1), \\([\\text{Dy(dbm})_3(\\text{bik-Me})]\\) (2), and \\([\\text{Dy(acac})_3(\\text{bik-Et})]\\) (3)",
+        "start_index": 1194,
+        "end_index": 1427
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "(dbm = 1,3-diphenyl-1,3-propanedione, acac = acetylacetonate, bik-Et = bis(1-ethyl-1H-imidazol-2-yl)methanone), and bik-Me = bis(1-methyl-1H-imidazol-2-yl)methanone), which were synthesized and characterized by single crystal X-ray diffraction analysis, spectroscopic, magnetic and",
+        "start_index": 1427,
+        "end_index": 1708
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "theoretical investigations",
+        "start_index": 1708,
+        "end_index": 1734
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Structural investigations showed a distorted square antiprism geometry in 1 and 3 and a trigonal bipyramidal geometry in 2 in a DyO\\(_6\\)N\\(_2\\) environment. Magnetic studies reveal slow magnetic relaxation behaviour under a zero-applied DC field for all three complexes. Theoretical calculations at the DFT and CASSCF level of theory were carried out to find a better correlation between the electronic structure and magnetism of the reported complexes",
+        "start_index": 1734,
+        "end_index": 2189
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Moreover, the variable temperature photoluminescence study of the complexes reveals these complexes performed significantly well in the application of luminescent thermometry.",
+        "start_index": 2189,
+        "end_index": 2366
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "INTRODUCTION",
+        "start_index": 2366,
+        "end_index": 2378
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Switchable molecular materials are a diverse class of molecular organizations which includes single-molecule magnets (SMMs), spin crossover (SCO) complexes, single-chain magnets (SCMs), metal-to-metal electron transfer (MMET) systems, etc.\\(^1\\)-\\(^6\\) SMMs are a class of paramagnetic molecular entities displaying slow dynamics in their magnetization.\\(^7\\) The intriguing",
+        "start_index": 2378,
+        "end_index": 2752
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "feature of these molecules is their bistable magnetic states which are separated by an energy barrier ($U_{\\text{eff}}$). Thus, SMMs qualify as potential candidates for application in molecular spintronic devices, high-density information storage and quantum computing.\\textsuperscript{8-13} The credit for the slow relaxation of magnetization is given to magnetic anisotropy ($D$) and ground state spin ($S$)",
+        "start_index": 2752,
+        "end_index": 3161
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". These two factors produce the energy difference for altering the magnetization, \\textit{i.e.} spin reversal. The effective energy barrier is equated as $U_{\\text{eff}} = S^2|D|$ or $(S^2 - 1/4)|D|$ for molecules with integer or non-integer ground state spin, respectively. In order to increase the value of the energy barrier, researchers thought of creating large spin systems",
+        "start_index": 3161,
+        "end_index": 3540
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{14-16} Nevertheless, the anticipated value of energy barrier was not effectively attained as the anisotropy factor ($D$) is inversely proportional to electronic spin ($S$). The contemporary idea of the scientist is to enhance the anisotropic barrier of a single metal centre. In this aspect, the lanthanide complexes attracted a lot of attention due to their large orbital angular momentum and high ground state spin",
+        "start_index": 3540,
+        "end_index": 3974
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{9, 17-19} They proved themselves as suitable candidates for fulfilling the long-desired goal of the scientific community to enhance the energy barrier and thereby the magnetic blocking temperature",
+        "start_index": 3974,
+        "end_index": 4188
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Among the lanthanides, particularly the Dy(III) which is a Kramers ion with a ground state of $^6\\text{H}_{15/2}$, has a large magnetic moment and high anisotropy as the ground electronic state splits into 8 Kramers doublets and large spin-orbit coupling. Thereby, several research groups have reported several SIMs based on Dy with varied structures",
+        "start_index": 4188,
+        "end_index": 4540
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{17, 18, 20-24}",
+        "start_index": 4540,
+        "end_index": 4572
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$\\beta$-diketone ligands are being used in the synthesis of lanthanide-based complexes as they provide a stable bidentate chelating coordination mode offering a suitable ligand field to explore the magnetic anisotropy of lanthanide complexes. Thus $\\beta$-diketone ligands along with suitable coligands form a conducive environment for a stable mononuclear system giving an upper-hand w.r.t",
+        "start_index": 4572,
+        "end_index": 4962
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". the organometallic systems which are highly air and moisture-sensitive. Mononuclear",
+        "start_index": 4962,
+        "end_index": 5047
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "complexes show substantial advantages in magneto-structural analysis due to their negligible magnetic exchange interactions and convenient structural regulation. With a major focus on Ln-based SMM, numerous mononuclear complexes incorporating $\\beta$-diketone ligands including dibenzoylmethane (dbm), acetylacetonate (acac), ferrocenylacetonate, fluoro substituted $\\beta$-diketone with different bidentate nitrogen donor coligand e",
+        "start_index": 5047,
+        "end_index": 5480
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".g. 2,2$'$-bipyridine (bpy), 1,10-phenanthroline (phen), 2,2$'$-bipyrimidine (bpm) and their azacyclo-derivative have been studied to investigate Dy-based SMMs. These studies report that magnetic anisotropy of Dy(III) based complexes is affected by the ligand field strength, local symmetry around the mental centre, etc",
+        "start_index": 5480,
+        "end_index": 5800
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Thus, subtle modulations of the ligand via alteration of substituents on the $\\beta$-diketone ligand and/or bidentate nitrogen donor coligand play a substantial impact on the magnetization relaxation dynamics of Dy complexes",
+        "start_index": 5800,
+        "end_index": 6026
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Apart from these great efforts, a significant and intense development is still needed to construct a straightforward and reliable magneto-structural relationship in lanthanide-based SMMs, which will develop a better understanding of how ligand field, structural parameters, intermolecular interactions and crystallographic packing alter the dynamic behaviour of structurally analogous lanthanide-based systems.",
+        "start_index": 6026,
+        "end_index": 6438
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "It is important to mention that most of the aforementioned bidentate nitrogen donor coligands belong to the category of $\\alpha$-diimine ligands (Scheme 1). In contrast, $\\beta$-diimine ligands are rarely studied in compounds of Lanthanides. However, the $\\beta$-diimine ligands like bik-R (R = Et, Me, etc",
+        "start_index": 6438,
+        "end_index": 6744
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".) (Schemes 1, right) have not been explored yet in lanthanide chemistry. The more flexible $\\beta$-diimine ligands form a six-membered chelating ring with the metal centre in comparison to less flexible $\\alpha$-diimine ligands, which form a five-membered chelating ring",
+        "start_index": 6744,
+        "end_index": 7015
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Importantly, bik-R ligands have been widely used to study various switchable molecular magnetic materials with 3$d$-5$d$ transition metals in the recent past. We have lately reported the reversible switching of photo-",
+        "start_index": 7015,
+        "end_index": 7234
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "physical properties of SCO, MMET systems using bik-R ligands where we have shown that the chelating and flexible nature along with the electronic effect of these bik-R ligands can significantly affect the switching behaviour of the associated materials",
+        "start_index": 7234,
+        "end_index": 7486
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". \\(^3, 4, 39-45\\) Thus, we for the first time used the \\(\\beta\\)-diimine ligands bik-R (R = Et, Me) in tuning the magnetic anisotropy of the Dy(III) mononuclear complexes, the visualization of their diverse electronic nature is evident from the distinct luminescence and magnetic properties discussed below",
+        "start_index": 7486,
+        "end_index": 7793
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The tuning of SMM and stark sublevel-based luminescence properties together within a compound is a challenging task since both properties have opposing requirements",
+        "start_index": 7793,
+        "end_index": 7959
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". \\(^37, 46\\) The slow dynamics in magnetization relaxation in an oblate top like Dy(III) is achieved by enhancing the axial symmetry and lowering the equatorial symmetry elements to enhance the axial anisotropy and the energy gap between the \\(\\pm m_j\\) levels of the Kramers doublet which again reduces the charge cloud repulsion of the f-electron density and the electron density of the ligand",
+        "start_index": 7959,
+        "end_index": 8355
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". \\(^47\\) On the other hand, the energy difference between the \\(m_j\\) levels of the emitter level is lowered by a distorted pseudosymmetry favouring partial admixture of orbitals of opposite parity which favours symmetry forbidden (Laporte forbidden) f-f transitions and hence the luminescence (Stark level) thermometric features",
+        "start_index": 8355,
+        "end_index": 8685
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". \\(^37, 48, 49\\) In order to observe luminescence, the selection of the ligand system should be made judiciously so that the energy transfer can take place by the \u2018antenna effect\u2019 from the ligand to the emitter level of the Dy(III) centre alongside curbing the thermo-induced back electron transfer",
+        "start_index": 8685,
+        "end_index": 8984
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The amalgamation of the luminescence thermometric property with the SMM feature is desirable as it can act as an \\textit{in-situ} thermometer, thereby self-monitoring the temperature of the operation and giving an insight into the fundamentals of heat generation which can act as the potential solution of the increasing need for device miniaturization and multifunctionality. \\(^48, 49\\) This property is highly desirable in modern optoelectronic devices",
+        "start_index": 8984,
+        "end_index": 9441
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The speciality of Stark-level thermometry is that its dimension can",
+        "start_index": 9441,
+        "end_index": 9510
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "be reduced to a submicrometric scale; it is contactless and remote sensing, which is essential in the realization of microdevices in the diverse fields of material science, biology and quantum technologies. Moreover, these thermometers are self-calibrated following a ratiometric approach where the anomalies due to intensity fluctuations, i.e. variation of concentration or excitation power, are nullified and thereby the requirement of any external reference is redundant",
+        "start_index": 9510,
+        "end_index": 9983
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Luminescent thermometric properties in Dy SMMs are majorly studied with \\(\\alpha\\)-diimine ligand (Table S6); in this work, we have explored this optical thermometric property in \\(\\beta\\)-diimine mononuclear Dy systems.",
+        "start_index": 9983,
+        "end_index": 10205
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Herein, we studied spin dynamics and optical thermometric properties of three Dysprosium complexes, \\([\\text{Dy(dbm)}_3(\\text{bik-Et})]\\) (1), \\([\\text{Dy(dbm)}_3(\\text{bik-Me})]\\) (2) and \\([\\text{Dy(acac)}_3(\\text{bik-Et})]\\) (3) (Figure 1) containing",
+        "start_index": 10205,
+        "end_index": 10458
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "dbm and acac as \\(\\beta\\)-diketone ligand with nitrogen donor \\(\\beta\\)-diimine bik-Et and bik-Me as coligand",
+        "start_index": 10458,
+        "end_index": 10567
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 10567,
+        "end_index": 10568
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Scheme 1.** Representation of bidentate nitrogen donor \\(\\alpha\\)-diimine and \\(\\beta\\)-diimine coligands.\nRESULTS AND DISCUSSION\n\nSynthesis",
+        "start_index": 10568,
+        "end_index": 10710
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "All three complexes were prepared by a simple synthesis pathway (Scheme 2). The reaction of three equivalents of dbm and triethylamine with one equivalent of Dy(NO$_3$)$_3$\u00b75H$_2$O in methanol produced a colourless solution with a pale yellow tinge",
+        "start_index": 10710,
+        "end_index": 10958
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Subsequent addition of a methanolic solution of bik-Et ligand into the above reaction mixture formed an off-white precipitate on stirring, which was dissolved in a mixture of dichloromethane and methanol (5:2). Slow evaporation of the solution yielded analytically pure crystals of 1 in good yield (Figure S1)",
+        "start_index": 10958,
+        "end_index": 11269
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Colourless crystals of complex 2 were obtained in a similar method by using the ligand bik-Me instead of ligand bik-Et (Figure S1). For complex 3, the reaction of three equivalents of acetylacetone and triethylamine with one equivalent of Dy(NO$_3$)$_3$\u00b75H$_2$O in methanol produced a colourless solution. The successive addition of a methanolic solution of bik-Et ligand into the",
+        "start_index": 11269,
+        "end_index": 11651
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "above reaction mixture produced a very pale-yellow solution. After filtration, slow evaporation of the filtrate yielded analytically pure crystals of 3 (Figure S1).",
+        "start_index": 11651,
+        "end_index": 11815
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Scheme 2.** Synthesis of complexes 1 \u2013 3.",
+        "start_index": 11815,
+        "end_index": 11858
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The purity of complexes 1 \u2013 3 was confirmed by elemental analysis studies and powder X-ray diffraction measurements (Figures S2 \u2013 S4). The thermal stability of all complexes was estimated by thermogravimetry analyses (TGA) from 303 K to 573 K with a scan rate of 10 K min\u207b\u00b9 under a nitrogen atmosphere (Figure S5)",
+        "start_index": 11858,
+        "end_index": 12171
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The TGA analyses of 1 and 2 show that both complexes are well stable up to 500 K, indicating the absence of interstitial solvent molecules which is also consistent with the single crystal X-ray structure studies (*vide infra*). It is important to mention that the noteworthy thermal stability might be coming from the intense chelating nature of both the dbm and bik-Et/ bik-Me ligands",
+        "start_index": 12171,
+        "end_index": 12558
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Importantly, the absence of interstitial solvent molecules offers us an opportunity to explore the effect of ligand only on the magneto-structural relationship.",
+        "start_index": 12558,
+        "end_index": 12720
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "of the complexes without any interference coming from the interstitial solvent molecules, which is rarely noticed in SMM studies. In contrast, the TGA curve of complex 3 shows continuous weight loss in the range of 304 \u2013 331 K (ca. 4 %) and 340 \u2013 375 K (ca. 4 %), suggesting the loss of interstitial solvent molecules.",
+        "start_index": 12720,
+        "end_index": 13038
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Complexes 1 \u2013 3 were characterized fully by solid-state IR spectroscopy at room temperature (Figure S6). The IR spectra display the characteristic C=O stretching vibration of the coordinated bik-Et and bik-Me ligands at around 1644 cm\\(^{-1}\\)",
+        "start_index": 13038,
+        "end_index": 13281
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The \\(\\nu(\\text{CO})\\) of the coordinated dbm and acac ligands were observed at around 1595 and 1587 cm\\(^{-1}\\) respectively. In addition, IR spectra of all complexes show typical absorptions of the coordinated dbm, acac, bik-Et and bik-Me ligands which are slightly shifted in comparison to the free ligands.",
+        "start_index": 13281,
+        "end_index": 13593
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Structure analyses**",
+        "start_index": 13593,
+        "end_index": 13615
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Single crystal X-ray diffraction analyses were performed on single crystals of 1 (240 K), 2 (296 K) and 3 (120 K). Crystallographic data and structural parameters are given in Table S1. Selected bond distances and angles are enlisted in Table S2 - S4",
+        "start_index": 13615,
+        "end_index": 13865
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Complex [Dy(dbm)\\(_3\\) (bik-Et)]\u00b7(1) and [Dy(acac)\\(_3\\) (bik-Et)]\u00b7(3) are crystallized in triclinic space group \\(P\\overline{1}\\) (\\(Z = 2\\)), while complex [Dy(dbm)\\(_3\\) (bik-Me)]\u00b7(2) is crystallized in monoclinic space group",
+        "start_index": 13865,
+        "end_index": 14095
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "\\(P2_1/c\\) (\\(Z = 4\\))",
+        "start_index": 14095,
+        "end_index": 14117
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The crystal structure of 1 and 2 contains mononuclear neutral [Dy(dbm)\\(_3\\) (bik-Et)] and [Dy(dbm)\\(_3\\) (bik-Me)] units, respectively, as displayed in Figures 2, S7 \u2013 S8. No solvent molecules were found in the crystal lattice of complexes 1 and 2, a similar observation has been noticed from the TGA data",
+        "start_index": 14117,
+        "end_index": 14425
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The asymmetric unit of complex 3 consists of two crystallographically independent [Dy(acac)\\(_3\\) (bik-Et)] units and four methanol as interstitial solvent molecules (Figures 2 and S9)",
+        "start_index": 14425,
+        "end_index": 14611
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The coordination geometry around each metal center in complexes 1 and 3 is slightly distorted square antiprism (\\(D_{4d}\\)), while a distorted triangular dodecahedron (\\(D_{2d}\\)) geometry was observed.",
+        "start_index": 14611,
+        "end_index": 14815
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "for complex 2",
+        "start_index": 14815,
+        "end_index": 14828
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". These geometries are calculated by the continuous shape measures (CShM) program\\textsuperscript{50} (Table S5), where the metal center lie in a DyO\\textsubscript{6}N\\textsubscript{2} coordination environment by the six oxygen donor atoms of three deprotonated $\\beta$-diketone ligands (dbm or acac) and two nitrogen donor atoms of a bidentate bik-Et or",
+        "start_index": 14828,
+        "end_index": 15182
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "bik-Me coligand",
+        "start_index": 15182,
+        "end_index": 15197
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 15197,
+        "end_index": 15198
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "![Figure 2](image-url)\n\n**Figure 2.** Single crystal X-ray structure of complexes 1 (240 K), 2 (296 K) and 3 (120 K). Hydrogen atoms are omitted for clarity (Dy: Light green, C: grey, N: blue, O: red).",
+        "start_index": 15198,
+        "end_index": 15399
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The degree of distortion in the square antiprism shape of 1 and 3 is estimated by parameters like $\\varphi$ (skew angle, the angle between the diagonals of the two square faces), $\\alpha$ (the angle between the S\\textsubscript{8}/C\\textsubscript{4} axis and a M\u2013L direction), $d_{pp}$ (the distance in between the L\\textsubscript{4} squares) and",
+        "start_index": 15399,
+        "end_index": 15744
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$d_{in}$ (the shorter L\u2013L atom distance in the L\\textsubscript{4} square)",
+        "start_index": 15744,
+        "end_index": 15817
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{51} In the square antiprism geometry in complexes 1, one square base is constructed by the four oxygen atoms (O4, O5, O6 and O3) from two deprotonated $\\beta$-diketone ligands (dbm), and the other one is formed by two oxygen donors (O1 and O2) and two nitrogen donors (N2 and N1) from one deprotonated",
+        "start_index": 15817,
+        "end_index": 16136
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$\\beta$-diketone ligand (dbm) and one bidentate bik-Et coligand, respectively (Figure 3)",
+        "start_index": 16136,
+        "end_index": 16224
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The angle $\\varphi$ calculated as the angle between the diagonal planes of the two opposite square faces namely between N1-O2-Dy1 and O5-O3-Dy1 (50.13\u00b0), N2-O1-Dy1 and O4-O6-Dy1 (48.72\u00b0), N2-O1-Dy1 and O5-O3-Dy1 (40",
+        "start_index": 16224,
+        "end_index": 16441
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".82\u00b0), N1-O2-Dy1 and O4-O6-Dy1 (40.80\u00b0), the average value is 45.118\u00b0 which significantly deviates from the ideal",
+        "start_index": 16441,
+        "end_index": 16554
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "skew angle value of 45\u00b0. The angle $\\alpha$ is calculated by taking the centroid of the square plane N1-N2-O2-O1 as $X(1)$ with Dy(1)-L(N1/ N2/ O2/ O1) and by taking the centroid of the square O4-O5-O6-O3 $X(2)$ with Dy(1)-L(O4/ O5/ O6/ O3)",
+        "start_index": 16554,
+        "end_index": 16794
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The values of $\\alpha$ are $X(1)$-Dy(1)-L(N1/ N2/ O2/ O1) are 52.89\u00b0 (N1), 53.67\u00b0 (N2), 59.13\u00b0 (O2), 59.03\u00b0 (O1)",
+        "start_index": 16794,
+        "end_index": 16908
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The values of $\\alpha$ calculated from $X(2)$-Dy(1)-L(O4/ O5/ O6/ O3) are 62.47\u00b0 (O4), 49.94\u00b0 (O5), 63.22\u00b0 (O6), 48.19\u00b0 (O3). In an ideal square antiprism, the value of $\\alpha$ is 54.74\u00b0",
+        "start_index": 16908,
+        "end_index": 17097
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". For complex 1, the average value of $\\alpha$ is 56.068\u00b0, which is greater than the ideal value, and it indicates a compression in the square antiprism. The $d_{pp}$ (2.642 \u00c5) was calculated as the distance between the centroids of the two square planes. The L-L distances in the square O4-O5-O6-O3 are 2.748 \u00c5, 2.815 \u00c5, 2",
+        "start_index": 17097,
+        "end_index": 17420
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".774 \u00c5, 2.754 \u00c5, the average value is 2.773 \u00c5 and for the other square plane N1-N2-O2-O1 are 2.881 \u00c5, 2.876 \u00c5, 2.758 \u00c5, 2.851 \u00c5, the average value is 2.842 \u00c5. Therefore, $d_{in}$ is 2.773 \u00c5. The axial distortion i.e",
+        "start_index": 17420,
+        "end_index": 17635
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., $\\frac{d_{in}}{d_{pp}}$ is 1.05",
+        "start_index": 17635,
+        "end_index": 17669
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". For complex 3, the square bases in the two Dysprosium centers \u2013 Dy(1) and Dy(2) are formed by N1-N2-O2-O1 and O4-O3-O5-O6 for Dy1 and in the other polyhedron for Dy2, the two square bases are formed of N6-N5-O8-O9 and O10-O11-O13-O12, coming from the oxygen donor atoms of acac and nitrogen donor atoms of",
+        "start_index": 17669,
+        "end_index": 17976
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "bik-Et ligands",
+        "start_index": 17976,
+        "end_index": 17990
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". It is important to mention that this type of coordination geometry is very similar to other analogous mononuclear rare earth complexes containing $\\beta$-diketonates. The skew angles in complex 3, for polyhedron 1 (Dy1) are 42.12\u00b0 (between the diagonal planes O4-O5-Dy1 and N1-O2-Dy1), 44",
+        "start_index": 17990,
+        "end_index": 18280
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".41\u00b0 (between N2-O1-Dy1 and O3-O6-Dy1), 46.33\u00b0 (between N2-O1-Dy1 and O4-O5-Dy1) and 47.69\u00b0 (between O3-O6-Dy1 and N1-O2-Dy1). The average value of $\\varphi$ is 45.138\u00b0",
+        "start_index": 18280,
+        "end_index": 18448
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The $\\alpha$ angle calculated considering the centroid $X(1)$ (for the plane N1-N2-O2-O1) are $X(1)$-Dy1-L(N1/ N2/ O2/ O1) are \u2013 52.35\u00b0 (N1), 54.07\u00b0 (N2), 59.63\u00b0 (O2), 59.81\u00b0 (O1)",
+        "start_index": 18448,
+        "end_index": 18629
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The $\\alpha$ angle obtained from the centroid $X(2)$ (for the plane O4-O3-O5-O6) are $X(2)$-Dy1-L(O4/ O3/ O5/ O6) are \u2013 58.41\u00b0 (O4), 56.04\u00b0 (O3), 58.81\u00b0 (O5), 58.34\u00b0",
+        "start_index": 18629,
+        "end_index": 18796
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "(O6). The average value of $\\alpha$ is $57.183^\\circ$. The $d_{pp}$ calculated is 2.576 \u00c5. The L-L distance in the plane N1-N2-O2-O1 is 2.862 \u00c5, 2.765 \u00c5, 2.933 \u00c5, 2.880 \u00c5, the average is 2.86 \u00c5",
+        "start_index": 18796,
+        "end_index": 18989
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The L-L distance in the plane O4-O3-O5-O6 is 2.772 \u00c5, 2.807 \u00c5, 2.790 \u00c5, 2.792 \u00c5, the average is 2.790 \u00c5. Thus, the $d_{in}$ is 2.790 \u00c5. The axial distortion is 1.083",
+        "start_index": 18989,
+        "end_index": 19156
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Similarly, the distortion parameters were calculated for the other polyhedron with Dy2 and the average skew angle ($\\varphi$) is 45.093\u00b0, the average value of $\\alpha$ is 57.123\u00b0, $d_{pp}$ is 2.584 \u00c5, $d_{in}$ is 2.819 \u00c5 and the axial distortion parameter $\\left(\\frac{d_{in}}{d_{pp}}\\right)$ is 1.091",
+        "start_index": 19156,
+        "end_index": 19459
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The above parameters in complex 3 suggest a compressed distorted square antiprismatic coordination environment for Dy1 and Dy2 centers. The triangular dodecahedron coordination environment around the Dy(III) center in 2 is less common in Dy(III) octacoordinated system\\textsuperscript{52-54} which has one square base formed by O1, O2, O6, O4",
+        "start_index": 19459,
+        "end_index": 19803
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". It is well demonstrated that the coordination geometry around the Dy(III) centers is significantly affected by the auxiliary coligands.",
+        "start_index": 19803,
+        "end_index": 19940
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "![Figure 3](https://example.com/figure3.png)\n\n**Figure 3.** Square antiprism coordination polyhedron of Dy(III) for complexes 1 (a) and 3 (c). Triangular dodecahedron coordination polyhedron of Dy(III) for complexes 2 (b).",
+        "start_index": 19940,
+        "end_index": 20162
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The Dy-O bond distances lie in the range of 2.296(6) \u2013 2.393(6) \u00c5 with an average value of 2.331 \u00c5 for 1, 2.272(4) \u2013 2.388(4) \u00c5 with an average value of 2.327 \u00c5 for 2, and 2.280(9) \u2013 2.348(8) \u00c5 for Dy(1) and 2",
+        "start_index": 20162,
+        "end_index": 20371
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".294(9) \u2013 2.357(8) \u00c5 for Dy(2) with an average value of 2.323 \u00c5 Dy(1) and 2.327 \u00c5 Dy(2) for 3. The average Dy-N bond distances are 2.5255, 2.5405 and 2.537 Dy(1),",
+        "start_index": 20371,
+        "end_index": 20533
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "0.25435 \u00c5 Dy(2) for complexes 1, 2 and 3 respectively. These bond distances lie in the range expected for Dy(III) in rare earth complexes containing \u03b2-diketonates and bidentate coligand",
+        "start_index": 20533,
+        "end_index": 20718
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{25-36} The crystal packing of complexes 1 - 3 shows the presence of intermolecular stacking between the coordinated ligands as depicted in Figures 4 and S10 \u2013 S12 through several weak C\u2013H\u00b7\u00b7\u00b7C and C\u00b7\u00b7\u00b7C intermolecular interactions. The shortest C\u00b7\u00b7\u00b7C distances between the intermolecular imidazole rings are 3.480(1) \u00c5 for 1, 3",
+        "start_index": 20718,
+        "end_index": 21062
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".362(7) \u00c5 for 2 and 3.230(2) and 3.265(2) \u00c5 for 3. The stacked units form 1D chain through numerous weak supramolecular C\u2013H\u00b7\u00b7\u00b7C, C\u2013H\u00b7\u00b7\u00b7O and C\u00b7\u00b7\u00b7C interactions. The shortest intermolecular Dy\u00b7\u00b7\u00b7Dy distances are 8.001, 7.704 and 8",
+        "start_index": 21062,
+        "end_index": 21291
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".654 \u00c5 for complexes 1 - 3 respectively, signifying the presence of weak intermolecular interactions. The Dy\u00b7\u00b7\u00b7Dy distance in 1 and 2 is significantly shorter than that in the analogous complex \\([\\text{Dy(dbm)}_3(\\text{dmbpy})]\\) (9.922 \u00c5)",
+        "start_index": 21291,
+        "end_index": 21531
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{26} For complex 3, Dy\u00b7\u00b7\u00b7Dy distance is slightly shorter than that in analogous complex \\([\\text{Dy(acac)}_3(\\text{phen})]\\) (8.83 \u00c5) while longer than those in \\([\\text{Dy(acac)}_3(\\text{dppz})]\\) (7",
+        "start_index": 21531,
+        "end_index": 21748
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".34 \u00c5), \\([\\text{Dy(acac)}_3(\\text{dppn})]\\) (7.407 \u00c5) and \\([\\text{Dy(acac)}_3(\\text{dpq})]\\) (8.243 \u00c5).\\textsuperscript{33, 36}",
+        "start_index": 21748,
+        "end_index": 21877
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Figure 4.** View of 1D packing diagram in 1.",
+        "start_index": 21877,
+        "end_index": 21923
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Spectroscopic studies**",
+        "start_index": 21923,
+        "end_index": 21948
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "UV-vis-NIR spectroscopic studies were carried out on 1 \u2013 3 in solid-state diluted with KBr as well as in solution in DCM (dichloromethane) solvent at room temperature (Figures S13 and S14)",
+        "start_index": 21948,
+        "end_index": 22136
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The UV-vis-NIR spectra of 1 - 3 show a broad absorption band between 250 \u2013 400 nm, which could be ascribed to intra-ligand transitions coming from dbm, acac and bik-Et/Me ligands",
+        "start_index": 22136,
+        "end_index": 22316
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The characteristic f-f transitions for Dy(III) in complexes 1 - 3 were observed in NIR region originating from $^6H_{15/2}$ ground state to excite states ($^6H_{15/2} \\rightarrow ^6F_{3/2}$ (~ 755 nm), $^6H_{15/2} \\rightarrow ^6F_{5/2}$ (~ 805 nm), $^6H_{15/2} \\rightarrow",
+        "start_index": 22316,
+        "end_index": 22590
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "^6F_{7/2}$, $^6H_{5/2}$ (~ 900 nm), $^6H_{15/2} \\rightarrow ^6F_{9/2}$, $^6F_{7/2}$, $^6H_{7/2}$ (~ 1100 nm), $^6H_{15/2} \\rightarrow ^6F_{11/2}$, $^6H_{9/2}$ (~",
+        "start_index": 22590,
+        "end_index": 22751
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "1290 nm) and $^6H_{15/2} \\rightarrow ^6H_{11/2}$ (1691 nm))",
+        "start_index": 22751,
+        "end_index": 22810
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The solution-state spectra (Figure S14) of complexes 1 \u2013 3 also display very similar absorption bands, particularly in the region of 250 \u2013 400 nm, indicating that all complexes have a well-preserved identity in both solid-state as well as in solution state.",
+        "start_index": 22810,
+        "end_index": 23069
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Variable temperature photoluminescence studies**",
+        "start_index": 23069,
+        "end_index": 23119
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Temperature-dependent luminescence measurements provide significant fundamental insights by enabling the optical probing of the fine structure of the electronic ground state of Dy(III) ($^6H_{15/2}$), which directly influences the magnetic performance of a single-molecule magnet (SMM). Furthermore, the temperature sensitivity of the spectral features imparts potential applications in thermal sensing",
+        "start_index": 23119,
+        "end_index": 23521
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". We have performed variable temperature solid-state photoluminescence of the complexes 1-3 in the temperature range of 300 K - 15 K (1, 3) and 300 K - 13 K (2) along with the free ligands (bik, bik* and acac) at 300 K.",
+        "start_index": 23521,
+        "end_index": 23740
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 5. The emission spectra obtained for 1 \u2013 3 by excitation at 320 nm in the temperature range of 15 K to 300 K (1 and 3) and 13 K to 300 K (2).",
+        "start_index": 23740,
+        "end_index": 23888
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "On excitation at 320 nm, the emission bands due to the $f$-$f$ transitions are visible for complex 3 at 300 K, which shows sharp intense peaks at 484 nm and 580 nm corresponding to $^4F_{9/2} \\rightarrow ^6H_{15/2}$ and $^4F_{9/2} \\rightarrow ^6H_{13/2}$ respectively",
+        "start_index": 23888,
+        "end_index": 24155
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\cite{48,55} Upon lowering the temperature to 15 K, the intensity of both the peaks increases with the appearance of very low intense hump at 545 nm ($^4I_{15/2} \\rightarrow ^6H_{13/2}$)$^{48,56}$ When the spectrum of complex 3 at 300 K was compared to the free ligands (i.e",
+        "start_index": 24155,
+        "end_index": 24430
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". acac and bik-Et) spectra under similar conditions (Figure S15), we observed ligand-centric emissions at 434 nm and 463 nm coming from acac and 468 nm coming from bik-Et ligand is completely quenched in complex 3. This indicates that when complex 3 is excited at the intra-ligand charge transfer band at 320 nm, the coordinated ligands i.e",
+        "start_index": 24430,
+        "end_index": 24770
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". acac and bik-Et on the absorption of the energy, transfer the electrons from the ground state to an excited singlet state ($S_0 \\rightarrow S_n$) or an excited triplet state ($S_0 \\rightarrow T_n$). From there, the energy transfer takes place to the excited states of Dy(III), namely, $^4I_{15/2}$ and $^4F_{9/2}$, which act as the emitter states",
+        "start_index": 24770,
+        "end_index": 25118
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\cite{37,57} For complex 1, on excitation at 320 nm, at 300 K, the PL measurement reveals a bik-Et ligand-based emission at 465 nm with several humps between 400 \u2013 600 nm (Figure 5). Upon lowering the temperature to 15 K, the PL spectra show the",
+        "start_index": 25118,
+        "end_index": 25364
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "evolution of peaks at 442 nm ($^4I_{15/2} \\rightarrow {}^6H_{15/2}$), 484 nm ($^4F_{9/2} \\rightarrow {}^6H_{15/2}$), 544 nm ($^4I_{15/2} \\rightarrow {}^6H_{13/2}$) and 577 nm ($^4F_{9/2} \\rightarrow",
+        "start_index": 25364,
+        "end_index": 25562
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "{}^6H_{13/2}$)\\textsuperscript{37,48,56}(Figure 5)",
+        "start_index": 25562,
+        "end_index": 25612
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". These peaks are distinct from those obtained from the free ligands dbm (432 nm, 466 nm) and bik-Et (468 nm) at 300 K (Figure S15). However, the emission contribution from the ligand is not completely quenched, as evident from the broad nature of the spectra",
+        "start_index": 25612,
+        "end_index": 25871
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The PL spectrum of complex 2, obtained at 300 K on excitation at 320 nm, shows a bik-Me ligand-based emission at 468 nm and shoulders at 484 nm ($^4F_{9/2} \\rightarrow {}^6H_{15/2}$) and 545 nm ($^4I_{15/2} \\rightarrow {}^6H_{13/2}$)\\textsuperscript{37,48,56,57}",
+        "start_index": 25871,
+        "end_index": 26135
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Upon lowering the temperature to 13 K, the PL spectrum shows sharp peaks at 484 nm ($^4F_{9/2} \\rightarrow {}^6H_{15/2}$), 545 nm ($^4I_{15/2} \\rightarrow {}^6H_{13/2}$) and 578 nm ($^4F_{9/2} \\rightarrow {}^6H_{13/2}$), along with the appearance of humps at 422 nm",
+        "start_index": 26135,
+        "end_index": 26400
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "(emission contribution coming from dbm ligand) and 440 nm ($^4I_{15/2} \\rightarrow {}^6H_{15/2}$)",
+        "start_index": 26400,
+        "end_index": 26497
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{37,48,56,57} Similar to complex 1, the ligand-based emissions are not completely quenched in complex 2 (Figures S15). Additional variable temperature PL measurements were performed by applying an excitation wavelength of 420 nm for complexes 1 - 3 (see SI for further details) (Figure S16 and S17).",
+        "start_index": 26497,
+        "end_index": 26813
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Variable temperature excitation spectra for complexes 1 - 3 were recorded by applying an emission wavelength of 467 nm ($\\lambda_{em} = 467$ nm), 530 nm ($\\lambda_{em} = 530$ nm) and 580 nm ($\\lambda_{em} = 580$ nm) respectively in the temperature of 300 K - 15 K (for complexes 1, 3) and 300 K - 13 K (complex",
+        "start_index": 26813,
+        "end_index": 27123
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "2)",
+        "start_index": 27123,
+        "end_index": 27125
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The PLE spectrum of complex 3 at 15 K shows transition around 290 nm ($^6H_{15/2} \\rightarrow {}^4K_{15/2}$), 326 nm (contribution from ligand), 355 nm ($^6H_{15/2} \\rightarrow {}^4M_{15/2}$, $^6P_{7/2}$), 367 nm ($^6H_{15/2} \\rightarrow",
+        "start_index": 27125,
+        "end_index": 27364
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "{}^4I_{15/2}$), 378 nm ($^6H_{15/2} \\rightarrow {}^6P_{5/2}$), 426 nm ($^6H_{15/2} \\rightarrow {}^6G_{11/2}$), 452 nm ($^6H_{15/2} \\rightarrow {}^4H_{15/2}$) and 470 nm ($^6H_{15/2} \\rightarrow",
+        "start_index": 27364,
+        "end_index": 27557
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "{}^4F_{9/2}$)",
+        "start_index": 27557,
+        "end_index": 27570
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".\\textsuperscript{37,56-58} Intensity of the peaks decrease upon increase the temperature to 300 K. For complexes 1 and 2, broad excitation transitions were observed in the range between 300 to 500 nm. The PLE spectrum of 1 shows prominent peaks around 330 nm and 410 nm ($^6H_{15/2} \\rightarrow {}^4F_{11/2}$)\\textsuperscript{57};",
+        "start_index": 27570,
+        "end_index": 27901
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "while peaks around 362 nm ($^6H_{15/2} \\rightarrow ^6P_{5/2}$), 423 nm ($^6H_{15/2} \\rightarrow ^4F_{11/2}$), 440 nm ($^6H_{15/2} \\rightarrow ^6G_{11/2}$), 470 nm ($^6H_{15/2} \\rightarrow ^4H_{15/2}$), and 480 nm",
+        "start_index": 27901,
+        "end_index": 28113
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "($^6H_{15/2} \\rightarrow ^4F_{9/2}$) were detected for complex 2",
+        "start_index": 28113,
+        "end_index": 28177
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". 37, 56-58",
+        "start_index": 28177,
+        "end_index": 28188
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 1. CIE chromaticity diagram of complexes 1 \u2013 3 at 15 K (left) and 300 K (middle) on 320 nm excitation. Right: CIE chromaticity diagram of complexes 1 \u2013 3 at 15 K (1, 2, 3) and 300 K (1\u2019, 2\u2019, 3\u2019) on 320 nm excitation.",
+        "start_index": 28188,
+        "end_index": 28411
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The Commission Internationale de l\u2019\u00c9clairage (CIE) diagrams of complexes 1 \u2013 3 were evaluated at 15 K and 300 K for the photoluminescence measurements at two excitation wavelengths of 320 nm and 420 nm (Figure 6, Figure S22). The CIE coordinates of the complexes on 320 nm excitation at 15 K are 0.20959, 0.23561 (1); 0",
+        "start_index": 28411,
+        "end_index": 28730
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".22301, 0.29596 (2) and 0.38061, 0.39917 (3), and at 300 K, the CIE coordinates are 0.22112, 0.24521 (1); 0.21668, 0.27361 (2) and 0.31615, 0.34456 (3).",
+        "start_index": 28730,
+        "end_index": 28882
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Comparing the CIE diagram for complex 3 we see a shift in the CIE coordinates from the white region at 300 K to the yellow region at 15 K (Figure 6). In complexes 1 and 2, we see a shift from the blue to violet-blue region and a shift from the greenish blue to blue region, respectively, when we increase the temperature from 15 K to 300 K (Figure 6)",
+        "start_index": 28882,
+        "end_index": 29232
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The shifts in the colour coordinates are due to the changes in the spectral patterns of the emission profiles of the complexes on temperature variation and, hence, further reinforce the property of thermal sensitivity of these complexes.",
+        "start_index": 29232,
+        "end_index": 29471
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Luminescence Thermometric Characterization",
+        "start_index": 29471,
+        "end_index": 29513
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The sensitivity of the spectral features toward temperature indicates the thermal sensing capabilities of all three Dy-complexes",
+        "start_index": 29513,
+        "end_index": 29641
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The thermometric parameters - luminescent intensity ratio ($\\Delta$) was estimated as the ratio of $I_1/I_2$ ($\\Delta = I_1/I_2$) where $I_1$ and $I_2$ are integrated intensity of emissions, while the thermal sensitivity ($S_r$) and the temperature uncertainty ($\\delta T$) were estimated by equations 1 and 2 respectively.",
+        "start_index": 29641,
+        "end_index": 29966
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$$S_r = \\frac{1}{\\Delta} \\left| \\frac{d \\Delta}{dT} \\right|$$\n\n(1)\n\n$$\\delta T = \\frac{1}{S_r} \\frac{\\delta \\Delta}{\\Delta}$$\n\n(2)",
+        "start_index": 29966,
+        "end_index": 30096
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "For complex 1, the emission bands in the region 446 nm to 479 nm (ligand centric emission) and 533 nm to 565 nm ($^4I_{15/2} \\rightarrow ^6H_{13/2}$) were considered to estimated $I_1$ and $I_2$",
+        "start_index": 30096,
+        "end_index": 30290
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". For complex 2, we recognised the region 457 nm to 474 nm (ligand centric emission) and 567 nm to 598 nm ($^4F_{9/2} \\rightarrow ^6H_{13/2}$) for $I_1$ and $I_2$ respectively, while for complex 3 the $I_1$ and $I_2$ are identified as 550 nm to 601 nm",
+        "start_index": 30290,
+        "end_index": 30541
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "($^4F_{9/2} \\rightarrow ^6H_{13/2}$) and 455 nm to 510 nm ($^4F_{9/2} \\rightarrow ^6H_{15/2}$) respectively",
+        "start_index": 30541,
+        "end_index": 30648
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The $\\Delta$ for all three complexes show temperature dependency (Figure 7 and Figures S19 and S20) and therefore, can be used to determine the thermometric properties. The thermal performance of complexes 1 \u2013 3 was assessed using the thermal sensitivity ($S_r$) and the temperature uncertainty ($\\delta T$), key figures of merit for evaluating the efficiency of optical temperature sensors",
+        "start_index": 30648,
+        "end_index": 31040
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The temperature dependence of $S_r$ values are depicted in Figures 7, S19 and S20. $S_r$ value decreases with increasing temperature, with a maximum value of 1.09 % K$^{-1}$ at 15 K and 2.98 % K$^{-1}$ at 13 K for complexes 1 and 2 respectively",
+        "start_index": 31040,
+        "end_index": 31286
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". For complex 3, the $S_r$ value remains nearly constant upon increasing temperature to around 200 K, then increases sharply to reach a maximum value of 0.81 % K$^{-1}$ at 300 K. For complex 1, the $S_r$ value reaches 0.725 % K$^{-1}$ at 20 K and increases thereafter",
+        "start_index": 31286,
+        "end_index": 31553
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Complex 2 performed significantly well in the performance luminescent thermometers showing $S_r$ value above 1 at temperatures lower than 40 K, thereby showing the potentials to qualify for in-situ thermometric",
+        "start_index": 31553,
+        "end_index": 31765
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "applications around the region of magnetic relaxation. The temperature uncertainty ($dT$) in complexes 1 - 3 varied from 0.5 to 0.0 units (Figure S21) as identified in accordance with Equation S3. All the three complexes showed emission profiles sensitive to temperature with complex 2 displaying decent luminescent thermometric properties.",
+        "start_index": 31765,
+        "end_index": 32105
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "![Figure 7](https://doi.org/10.26434/chemrxiv-2025-tnhwp)\n\n**Figure 7.** Left: The plot of luminescent intensity ratio ($\\Delta$) vs. $T$. Right: The plot of $S_r$ vs. $T$ and inset the variable temperature PL spectra of complex 2 on excitation at 320 nm in the temperature range of 13 to 300 K.",
+        "start_index": 32105,
+        "end_index": 32400
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "### Magnetic studies",
+        "start_index": 32400,
+        "end_index": 32420
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The static magnetic properties of 1 - 3 were examined on polycrystalline samples in the temperature range of 1.85 \u2013 300 K at 1000 and 10000 Oe (Figure 8 and Figures S23 \u2013 S29). The measured $\\chi T$ ($\\chi$ is magnetic susceptibility equal to $M/H$ per Dy(III) ion) value for complex 1 is 13",
+        "start_index": 32420,
+        "end_index": 32711
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".75 cm$^3$ mol$^{-1}$ K at 280 K and for complexes 2 and 3 are 14.10 and 14",
+        "start_index": 32711,
+        "end_index": 32786
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".22 cm$^3$ mol$^{-1}$ K respectively at 300 K (Figure 8), which are in good agreement with the expected value for one Dy(III) ($S = 5/2$, $L = 5$, $^6H_{15/2}$, $g = 4/3$, $\\chi T = 14.17$ cm$^3$ mol$^{-1}$ K) ion",
+        "start_index": 32786,
+        "end_index": 32999
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The $\\chi T$ values do not change significantly down to 100 K for all three complexes. Upon further lowering of the",
+        "start_index": 32999,
+        "end_index": 33116
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "temperature, the $\\chi T$ value shows a slow decrease to attain the lowest value of 8.24 cm$^3$ mol$^{-1}$ K at 1.9 K for complex 1, 10.93 cm$^3$ mol$^{-1}$ K at 2.50 K for complex 2, and 10.92 cm$^3$ mol$^{-1}$ K at 1",
+        "start_index": 33116,
+        "end_index": 33334
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".85 K for complex 3, while a sudden increase in $\\chi T$ value to 13.57 cm$^3$ mol$^{-1}$ K between 2.5 K - 1.85 K was observed for complex 2. The $\\chi T$ vs. $T$ measurements under a higher magnetic field of 10000 Oe show $\\chi T$ values of 4.65, 4.78 and 4",
+        "start_index": 33334,
+        "end_index": 33593
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".70 cm$^3$ mol$^{-1}$ K at the lowest measured temperature for complexes 1 - 3, respectively (Figures S24 \u2013 S26, log scale). This low value can be attributed to the continuing depopulation of excited $m_J$ sublevels of Dy(III) and/or the very weak intermolecular magnetic interactions between the Dy(III) ions, and/or to the Zeeman effect of the applied dc field",
+        "start_index": 33593,
+        "end_index": 33955
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". These low-temperature behaviours are also noticed from the field dependencies of the magnetization studies from 0 \u2013 5 T at 1.9, 4, 6 and 8 K for 1, and from 0 \u2013 7 T at 1.85, 3, 5 and 8 K for complexes 2 and 3 (Figures S27 \u2013 S29). At 1",
+        "start_index": 33955,
+        "end_index": 34191
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".85 K and 7 T for complexes 2 and 3, the magnetization values are 5.23 and 5.39 $\\mu_B$, while the magnetization value of 5.15 $\\mu_B$ was observed for 1 at 1.9 K and 5 T. Additionally, $M$ vs. $H/T$ measurements displayed a non-superposition of the data on a single master curve. $M$ vs",
+        "start_index": 34191,
+        "end_index": 34478
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". $H$ and $M$ vs. $H/T$ curves suggest the presence of these low-temperature behaviours and significant magnetic anisotropy.",
+        "start_index": 34478,
+        "end_index": 34602
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 8. Temperature dependence of $\\chi T$ product for 1 - 3.",
+        "start_index": 34602,
+        "end_index": 34665
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "To investigate the slow dynamics of magnetization, in other words, the SMM properties of these complexes, ac susceptibility measurements were carried out on all three complexes (Figures 9 \u2013 11 and Figures S30 \u2013 S36)",
+        "start_index": 34665,
+        "end_index": 34880
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The in-phase/ real ($\\chi'$) and the out-of-phase/ imaginary ($\\chi''$) components of the ac susceptibility under zero dc field were measured at low temperatures at driving frequencies up to 10,000 Hz for complexes 2 and 3 and up to 1500 Hz for 1",
+        "start_index": 34880,
+        "end_index": 35128
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". At zero applied dc field, the $\\chi'$ and $\\chi''$ components in all three Dy-complexes 1 - 3 display significantly strong ac response, demonstrating the indication of its slow relaxation of magnetization, i.e. SMM features",
+        "start_index": 35128,
+        "end_index": 35353
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The relaxation time of the magnetization $\\tau$ was deduced as a function of the temperature at 0 Oe for complexes 1 - 3 and as a function of the applied dc-field at 8 K for complex 3 from the experimental $\\chi'$ vs. $\\nu$ and $\\chi''$ vs. $\\nu$ data fitted to the generalized Debye model (Figures 12 and 13)",
+        "start_index": 35353,
+        "end_index": 35664
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The magnetic relaxation is temperature-independent at low temperatures (below 5, 6, and 8 K for 1 \u2013 3, respectively), describing the significant dominance of quantum tunnelling of the magnetization (QTM) effect in that region. Above this QTM regime, magnetic relaxation is",
+        "start_index": 35664,
+        "end_index": 35938
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "temperature-dependent and is influenced by the thermal effects. Finally, it follows a thermally activated process at high temperatures.",
+        "start_index": 35938,
+        "end_index": 36073
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Figure 9.** Temperature (top) and frequency (bottom) dependence of the real ($\\chi'$, left) and imaginary ($\\chi''$, right) components of the ac susceptibility at different ac frequencies from 1 - 1500 Hz and at different temperatures from 1.9 \u2013 16.5 K respectively, under 0 Oe external dc field, with a 3 Oe ac field for 1.",
+        "start_index": 36073,
+        "end_index": 36399
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 10. Temperature (top) and frequency (bottom) dependence of the real ($\\chi'$, left) and imaginary ($\\chi''$, right) components of the ac susceptibility at different ac frequencies from 10 - 10000 Hz and at different temperatures from 1.8 \u2013 25 K respectively, under 0 Oe external dc field, with a 3 Oe ac field for 2.",
+        "start_index": 36399,
+        "end_index": 36722
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 2. Temperature (top) and frequency (bottom) dependence of the real ($\\chi'$, left) and imaginary ($\\chi''$, right) components of the ac susceptibility at different ac frequencies from 10 - 10000 Hz and at different temperatures from 1.9 \u2013 20 K respectively, under 0 Oe external dc field, with a 3 Oe ac field for 3.",
+        "start_index": 36722,
+        "end_index": 37044
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Origin of the paramagnetic relaxation behaviour in SMM, can be defined in terms of magnetization relaxation time ($\\tau$) by four main mechanisms: Raman, direct, thermally activated (Arrhenius or Orbach-like), and QTM processes as described in the following equations (3) and (4).",
+        "start_index": 37044,
+        "end_index": 37324
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$$\\tau^{-1} = \\tau^{-1}_{QTM} + \\tau^{-1}_{Direct} + \\tau^{-1}_{Raman} + \\tau^{-1}_{Orbach}$$",
+        "start_index": 37324,
+        "end_index": 37417
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$$\\tau^{-1} = \\frac{B_{1}}{1 + B_{2}H^2} + A T H^4 + C \\frac{T^n}{1 + C_2H^2} T^n + \\tau_0^{-1} \\exp\\left(-\\frac{\\Delta}{k_B T}\\right)$$",
+        "start_index": 37417,
+        "end_index": 37553
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "It is important to note from the above equations that each relaxation mechanism has its own characteristic temperature (T) and field (H) dependence. For all three complexes from the temperature dependence of \u03c4 at 0 Oe, the presence of a clear temperature-independent regime at low temperatures indicates the contribution of a QTM process. In addition, the involvement of a Direct process is excluded in the absence of an external DC magnetic field. Adding only Raman or only Orbach processes is not sufficient",
+        "start_index": 37553,
+        "end_index": 38062
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". A model considering QTM, Raman and Orbach processes (equation 5) is applied to describe the experimental temperature dependence of \u03c4. The best-fit parameters are listed in Table 1.",
+        "start_index": 38062,
+        "end_index": 38244
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "\\[ \\tau^{-1} = B + C T^n + \\tau_0^{-1} \\exp \\left(-\\frac{\\Delta}{k_B T}\\right) \\]  (5)",
+        "start_index": 38244,
+        "end_index": 38330
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "![Figure 3. Temperature dependence of the magnetization relaxation time as \u03c4 vs. T\u207b\u00b9 plot for 1 \u2013 3 in 0 Oe dc-field. The solid red lines correspond to various combinations of the relaxation processes as described in the text.](image)\n\nTable 1. Best-fit parameters to reproduce the temperature dependence of the magnetic relaxation for 1 - 3 using equation 5.",
+        "start_index": 38330,
+        "end_index": 38689
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| Complex | B (s\u207b\u00b9) | c (K\u207b\u207fs\u207b\u00b9) | n | \u03c4\u2080 (s\u207b\u00b9) | \u0394/k_B (K) |\n|---------|---------|------------|---|----------|-----------|",
+        "start_index": 38689,
+        "end_index": 38812
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-trhwp ORCID: https://orcid.org/0000-0002-5061-2326 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 38812,
+        "end_index": 38959
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Considering the evolution of $\\tau$ under DC magnetic field at 8 K for complex 3, the combination of Raman and QTM processes is in agreement with the experimental data at low field. Adding a Direct process increases the fit reliability at a higher field, indicating the component of a Direct process is non-negligible. A model considering Raman, QTM and Direct processes (eq 6) is applied to describe the experimental field dependence of $\\tau$",
+        "start_index": 38959,
+        "end_index": 39403
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The best fit values are $C = 3.7(2) \\times 10^{-2}$ K$^{-n} s^{-1}$, $C_I = 1.0(1) \\times 10^{3}$ T$^{-2}$, $C_2 = 6.8(6) \\times 10^{4}$ T$^{-2}$, $n = 5$; $B_1 = 2",
+        "start_index": 39403,
+        "end_index": 39569
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".0(1) \\times 10^{-3}$ s$^{-1}$, $B_2 = 8.4(4) \\times 10^{-1}$ T$^{-2}$; and $A = 98(8) \\times 10^{-4}$ K$^{-1}$ s$^{-1}$.",
+        "start_index": 39569,
+        "end_index": 39690
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "$$\n\\tau^{-1} = C \\frac{1+C_1H^2}{1+C_2H^2} T^n + \\frac{B_1}{1+B_2H^2} + A T H^4\n$$",
+        "start_index": 39690,
+        "end_index": 39772
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 4. Left: Frequency dependence of the imaginary ($\\chi''$, right) components of the ac susceptibility from 10 - 10000 Hz and at 8 K, under different applied external dc field, with a 3 Oe ac field for 3. Right: Field dependence of the magnetization relaxation time as $\\tau$ vs. $H$ plot for 3 at 8 K. The full line corresponds to various combinations of the relaxation processes as described in text",
+        "start_index": 39772,
+        "end_index": 40178
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 40178,
+        "end_index": 40179
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The results stated above are compared with analogues Dy complexes containing $\\alpha$-diamine ligands [Dy(dbm)$_3$(N2)] and [Dy(acac)$_3$(N2)] (Table S9 and S10)",
+        "start_index": 40179,
+        "end_index": 40340
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". When compared with Dy-dbmb complexes containing $\\alpha$-diamine ligands bpy, phen, and their azacyclo-derivative dpq and dppz,$^{26}$ complexes 1 and 2 shows much slower relaxation ($\\tau_{0}^{-1}$) with significantly higher spin reversal energy barrier value ($U_{\\text{eff}}$)",
+        "start_index": 40340,
+        "end_index": 40621
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". While spin dynamic behaviour of complexes 1 and 2 are very much similar with the Dy-dbmb complexes containing $\\alpha$-diamine ligands dmbipy (4,4\u2032-dimethyl-2,2\u2032-bipyridine) and 4,5-pineneopyridyl-2-pyrazine",
+        "start_index": 40621,
+        "end_index": 40830
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".$^{26}$ When compared with Dy-acac complexes containing $\\alpha$-diamine ligands like phen, tmphen, and their azacyclo-derivative dpq and dppz, complexes 3 shows slower relaxation ($\\tau_{0}^{-1}$) with slightly higher spin reversal energy barrier value ($U_{\\text{eff}}$), while analogue complexes [Dy(acac)$_3$(dmdophen)]$^{59}$ and",
+        "start_index": 40830,
+        "end_index": 41165
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "[Dy(acac)$_3$bpm]$^{37}$ shows lower $\\tau_{0}^{-1}$ and higher $U_{\\text{eff}}$",
+        "start_index": 41165,
+        "end_index": 41245
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". In addition, complexes 3 shows slower relaxation ($\\tau_{0}^{-1}$) with slightly higher spin reversal energy barrier value ($U_{\\text{eff}}$) when compared to the parent [Dy(acac)$_3$(H$_2$O)$_2$] complex.$^{60}$",
+        "start_index": 41245,
+        "end_index": 41459
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Table S6 presents the thermometric performance of previously reported mononuclear Dy(III)-based SMM optical thermometers alongside complexes 1 \u2013 3. Luminescence thermometric properties of mononuclear Dysprosium(III) complexes with dbm as $\\beta$-diketone ligand with $\\alpha$-diimine bidentate ligand has not been studied,$^{26}$ while acac analogue showed a comparable behaviour when compared to complex 3",
+        "start_index": 41459,
+        "end_index": 41865
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The complex [Dy(acac)$_3$bpm], [Dy(acac)$_3$(H$_2$O)$_2$]\u00b7H$_2$O, and [Dy(acac)$_3$(PyAm)] show both SMM behaviour as well as luminescent thermometric properties with $S_{\\text{r}}$max value of 1.5 % K$^{-1}$ (70 K), 5",
+        "start_index": 41865,
+        "end_index": 42085
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".5 % K$^{-1}$ (40 K), and 2.0 % K$^{-1}$ (40 K) respectively.$^{60}$ $^{37}$",
+        "start_index": 42085,
+        "end_index": 42161
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Theoretical studies**",
+        "start_index": 42161,
+        "end_index": 42184
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "The insight into the influence of the geometry of the coordination polyhedra and the ligand field on the magnetic properties of 1 - 3 has also been evaluated using theoretical methods based on the state average complete active space self-consistent field (SA-CASSCF)$^{61}$ calculations followed by",
+        "start_index": 42184,
+        "end_index": 42482
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "SINGLE_ANISO analysis. The calculations were performed with ORCA 5.0 software and the computational details are described in the Experimental section. The respective molecular structures were derived from the experimental X-ray data and only the hydrogen atom positions were optimized. In the case of compound 3, there are two molecular units in the asymmetric unit with dysprosium atoms Dy1 and Dy2, herein labelled as 3a and 3b, respectively",
+        "start_index": 42482,
+        "end_index": 42925
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Moreover, there is a potentially significant hydrogen bond of methanol molecules to acac anion of 3b. Previously, some of us and other authors pointed to the significance of the second coordination sphere in SMMs, therefore, the computations were also performed for the complex \\{[Dy(acac)3(bik-Et)]-2MeOH\\} of 3, labelled as 3c",
+        "start_index": 42925,
+        "end_index": 43255
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The results of CASSCF calculations were also analysed with ab initio ligand field theory (AILFT), which resulted in energies of the f-orbitals of the ground state term \\(^6\\text{H}_{15/2}\\) spanning the energy intervals up to \\(\\sim 700 \\text{ cm}^{-1}\\) as shown in Figure S37 (left)",
+        "start_index": 43255,
+        "end_index": 43541
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The ligand field multiplets originating from the \\(^6\\text{H}_{15/2}\\) term formed upon applying the spin-orbit coupling, span the energy interval up to \\(\\sim 600 \\text{ cm}^{-1}\\) (Figure S37 (right)) and the respective energies are listed in Table S7",
+        "start_index": 43541,
+        "end_index": 43796
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". CASSCF calculated energy levels of Dy\\(^{3+}\\) in complexes 1 \u2013 3 upto 25,000 cm\\(^{-1}\\) is given in Figure S38, which reveals that the calculated energy for the excited state \\(^4\\text{F}_{9/2}\\) (\\(\\pm 5 \\text{ mJ levels}\\)) is in the region 24190 -24560 cm\\(^{-1}\\) and hence energy transfer from",
+        "start_index": 43796,
+        "end_index": 44098
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "the excited state of the ligands can easily take place via antenna effect on photoirradiation which thereby acts as the emitter level in the luminescence phenomenon",
+        "start_index": 44098,
+        "end_index": 44262
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The large axial anisotropy of the respective KD states, \\(g_z \\gg g_x, g_y\\) were found in all complexes 1 - 3 (Table S8). Interestingly, the easy axes of all three lowest KDs for 1 - 3 are localized along midpoints of Dy-O bonds of the dbm/acac ligands coordinated in the opposite way \u2013 Figures S39 and S40",
+        "start_index": 44262,
+        "end_index": 44571
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Interestingly in complex 2, the magnetic easy axes of the ground state, first and second excited states or Kramers doublets (KDs) align approximately in the same direction, for 3 the magnetic easy axes of KD1 and KD3 are",
+        "start_index": 44571,
+        "end_index": 44793
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "roughly colinear and in 1 the magnetic easy axis of the ground state (KD1) is aligned in an antagonistic fashion to that of KD2 and KD3. Moreover, the transverse components of the g tensor of the KDs are smallest for 2 followed by 3 and 1. This indicates the presence of greater axiality in 2 followed by 3 and 1.73",
+        "start_index": 44793,
+        "end_index": 45108
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Next, the magnetization reversal blocking barriers for 1 - 3 are shown in Figure 14. The equivalent matrix elements of the transverse magnetic moment between the two lowest Kramers doublets (KD) are small (less than 0.1 unit). This suggests that the temperature-assisted quantum tunnelling probability becomes relevant for the third KD, which has a value of around 170 cm\\(^{-1}\\) (244",
+        "start_index": 45108,
+        "end_index": 45493
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".6 K) for 1 - 2, and in the case of 3, it varies between 170 (244.6 K) and 216 cm\\(^{-1}\\) (310.8 K) (Table S8). These values are close to Orbach barriers determined from the analysis of AC susceptibility data.",
+        "start_index": 45493,
+        "end_index": 45703
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Figure 5. Magnetization reversal blocking barrier of Dy$^{III}$ in 1 - 3 calculated by SINGLE_ANISO. The numbers presented for lowest four doublets represent the equivalent matrix\nelement of the transversal magnetic moment (for values larger than 0.1 an efficient relaxation mechanism is expected). The values of the transition probabilities between different spin-orbit coupled states are given in red (most probable), green and blue.",
+        "start_index": 45703,
+        "end_index": 46138
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Table 2. The Mulliken atomic charges for \\{DyN\\textsubscript{2}O\\textsubscript{6}\\} chromophore and the Mayer bond orders for Dy-O/N coordination bonds for 3b and 3c calculated by PBE0 functional.\\textsuperscript{a}",
+        "start_index": 46138,
+        "end_index": 46353
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| Atom label | \\(q_M(3b)\\) | \\(q_M(3c)\\) | \\(q_M(3b)/q_M(3c)\\) | b.o.(3b) | b.o.(3c) | b.o.(3b)/b.o.(3c) |\n|------------|-------------|-------------|----------------------|-----------|-----------|------------------|",
+        "start_index": 46353,
+        "end_index": 46568
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| Dy2        | 1.5652      | 1.6082      | 0.973                |           |           |                  |\n| O12\\textsuperscript{b} | -0.5775    | -0.6851     | 0.843                | 0.3576    | 0.2694    | 1.327            |",
+        "start_index": 46568,
+        "end_index": 46796
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| O10        | -0.5406     | -0.5739     | 0.942                | 0.3227    | 0.3063    | 1.054            |\n| O13\\textsuperscript{b} | -0.5283    | -0.6176     | 0.855                | 0.3215    | 0.2516    | 1.278            |",
+        "start_index": 46796,
+        "end_index": 47024
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| O8         | -0.5855     | -0.5903     | 0.992                | 0.3096    | 0.3192    | 0.970            |\n| N6         | -0.5645     | -0.5661     | 0.997                | 0.1599    | 0.1641    | 0.974            |",
+        "start_index": 47024,
+        "end_index": 47241
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| O11        | -0.5449     | -0.5744     | 0.949                | 0.3165    | 0.3043    | 1.040            |\n| N5         | -0.5503     | -0.5641     | 0.976                | 0.1613    | 0.1689    | 0.955            |",
+        "start_index": 47241,
+        "end_index": 47458
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "| O9         | -0.5689     | -0.5871     | 0.969                | 0.2757    | 0.2773    | 0.994            |",
+        "start_index": 47458,
+        "end_index": 47566
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "\\textsuperscript{a} q\\(_M\\) = Mulliken atomic charges; b.o. = Mayer bond orders; \\textsuperscript{b} oxygen atom affected by hydrogen bonds",
+        "start_index": 47566,
+        "end_index": 47705
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Finally, we can conclude that the inclusion of the second coordination sphere, where the two MeOH molecules are hydrogen-bonded to one acac ligand of 3, resulted in higher axiality of respective g-tensors, larger energy gaps (Table S8, compare 3b and 3c), and lower probabilities for the quantum tunnelling of the magnetization (Figure 14)",
+        "start_index": 47705,
+        "end_index": 48044
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Herein, we performed an additional DFT calculation with PBE0 functional for 3b and 3c and the Mayer bond orders for Dy-O/N coordination bonds and Mulliken atomic charges for \\{DyN\\textsubscript{2}O\\textsubscript{6}\\} chromophore are listed in Table 2",
+        "start_index": 48044,
+        "end_index": 48296
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The comparison of the Mayer bond orders and the Mulliken atomic charges shows that the formation of hydrogen bonds to O-donor atoms O12 and O13 of acac ligand resulted in larger atomic charges of these donor atoms, which is coupled to decrease the respective Dy-O bond orders. Thus, Dy-O12/O13 coordination bonds are more ionic in 3c. As a result, we can expect an",
+        "start_index": 48296,
+        "end_index": 48662
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "increase of the orbital reduction factor $\\kappa$ describing the covalency effect in the ligand field theory ($\\kappa(3c) > \\kappa(3b)$), which should lead to more efficient spin-orbit interaction ($-\\lambda(\\kappa L)\\cdot S$), and larger splitting of the energy levels.",
+        "start_index": 48662,
+        "end_index": 48932
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Absorption spectra of the complexes 1 \u2013 3 have been calculated via CASSCF and TD-DFT (Time-dependent density functional theory) $^{74-79}$ calculations from the CIF files to give as estimation of the f-f transitions (Figures S41 to S42)",
+        "start_index": 48932,
+        "end_index": 49168
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Further, the spectra obtained via TD-DFT calculations were analysed with MultiWFN $^{80, 81}$ using the IFCT (interfragment charge transfer) $^{81-84}$ approach, where the complexes are divided into fragments, and charge transfer among them is calculated (Figures S43 to S46)",
+        "start_index": 49168,
+        "end_index": 49445
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". The absorption spectra calculated from the TD-DFT calculations were applied to DFT-optimized geometries in CH$_2$Cl$_2$ (Figures S47) to get an estimation of the f-f transitions in the solution state.",
+        "start_index": 49445,
+        "end_index": 49647
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Conclusion**",
+        "start_index": 49647,
+        "end_index": 49661
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Thus we see that in the mononuclear Dy(III) complexes, tapping into the second coordination sphere changed the structure (triclinic $P\\overline{1}$, for 1 and 3, monoclinic $P2_1/c$ for 2) and the geometry of the complexes (square antiprism ($D_{4d}$) for 1 and 3, trigonal dodecahedron ($D_{2d}$)",
+        "start_index": 49661,
+        "end_index": 49958
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "for 2)",
+        "start_index": 49958,
+        "end_index": 49964
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". These complexes exhibited distinct emissive properties, giving a value of $S_{f_{\\max}}$ at 1.09 % K$^{-1}$ (15 K), 2.98 % K$^{-1}$ (13 K) and 0.81 % K$^{-1}$ (300 K) for complexes 1 \u2013 3, respectively",
+        "start_index": 49964,
+        "end_index": 50166
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". All three complexes showed zero field SMM behaviour with unique relaxation features, and $U_{\\text{eff}}$ is in the range of 129(8) to 257(6) K. Thus, we have successfully visualised the electronic effect of the ligands in tuning the magnetic and optical properties by varying the second coordination sphere",
+        "start_index": 50166,
+        "end_index": 50475
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". Among the complexes reported here, complex 3 has the highest $U_{\\text{eff}}$ and $S_{f_{\\max}}$ values. The conclusions derived from experiments were further supported by theoretical calculations.",
+        "start_index": 50475,
+        "end_index": 50674
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Experimental Section**",
+        "start_index": 50674,
+        "end_index": 50698
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Detailed experimental methods with materials, various physical methods, spectroscopic measurements, single-crystal X-ray structure determinations and magnetic studies are reported in the supporting information.\n\n**Synthesis of complexes**\n\n\\[\\text{[Dy(dbm)\u2083(bik-Et)]} \\cdot (1)\\]",
+        "start_index": 50698,
+        "end_index": 50977
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "A methanolic solution of Dy(NO\u2083)\u2083\u00b75H\u2082O (0.05 mmol) (22 mg, 5 mL) was added to a stirred solution of 1,3-diphenyl-1,3-propanedione (dbm) (39 mg, 0.15 mmol) and NEt\u2083 (0.05 mL) in methanol (5 mL)",
+        "start_index": 50977,
+        "end_index": 51169
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". After stirring for 15 min, a solution of bik-Et (12 mg, 0.05 mmol) in methanol (5 mL) was added to it. The reaction was allowed to stir for another 1 h to obtain a white precipitate",
+        "start_index": 51169,
+        "end_index": 51352
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". After filtration, the precipitate was dissolved in a mixture of methanol and dichloromethane (2 : 5) (20 mL) and kept for slow evaporation to obtained analytically pure crystals of 1 in 75% yield.",
+        "start_index": 51352,
+        "end_index": 51550
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Formula for 1. C\u2085\u2085H\u2084\u2089DyN\u2084O\u2087 (MW. 1050.51 g mol\u207b\u00b9); Anal. calcd. C 64.03, H 4.51, N 5.33; found C 63.82, H 4.79, N 5.01",
+        "start_index": 51550,
+        "end_index": 51668
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". ATR-IR (only intensive bands): \\(\\nu (\\text{cm}^{-1}) = 3055, 2312, 1644, 1609, 1594, 1548, 1512, 1476, 1456, 1415, 1396, 1305, 1284, 1261, 1219, 1176, 1160, 1068, 1023,",
+        "start_index": 51668,
+        "end_index": 51839
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "999, 966, 939, 895, 790, 780, 772, 759, 742, 718, 684, 608, 521",
+        "start_index": 51839,
+        "end_index": 51902
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 51902,
+        "end_index": 51903
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "\\[\\text{[Dy(dbm)\u2083(bik-Me)]} \\cdot (2)\\]",
+        "start_index": 51903,
+        "end_index": 51942
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Colorless crystals of complex 2 were obtained in a similar method to that of complex 1 by using the ligand bik-Me instead of ligand bik-Et. Formula for 2. C\u2085\u2084H\u2084\u2081N\u2084O\u2087Dy (MW. 1022.46) Anal. calcd. C, 63.43; H, 4.24; N, 5.48; found C 63",
+        "start_index": 51942,
+        "end_index": 52175
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".30, H 4.47, N 5.62",
+        "start_index": 52175,
+        "end_index": 52194
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". ATR-IR (only intensive bands): \\(\\nu (\\text{cm}^{-1}) = 3053, 1645, 1609, 1595, 1549, 1514, 1479, 1457, 1415, 1397, 1306, 1283, 1219, 1178, 1161, 1067, 1023, 1000, 940, 899,",
+        "start_index": 52194,
+        "end_index": 52369
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "792, 782, 759, 741, 718, 685, 650, 618, 608",
+        "start_index": 52369,
+        "end_index": 52412
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 52412,
+        "end_index": 52413
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "\\[\\text{[Dy(acac)\u2083(bik-Et)]} \\cdot 2\\text{MeOH} \\cdot (3)\\]",
+        "start_index": 52413,
+        "end_index": 52472
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "A methanolic solution of Dy(NO$_3$)$_3$.5H$_2$O (44 mg, 0.1 mmol) (5 mL) was added to a stirred solution of acetylacetone (acac) (30 mg, 0.3 mmol) and NEt$_3$ (0.1 mL) in methanol (5 mL)",
+        "start_index": 52472,
+        "end_index": 52658
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". After stirring for 15 min, a solution of bik-Et (24 mg, 0.1 mmol) in methanol (5 mL) was added to it. The reaction was allowed to stir for another 1 h to obtain a pale-yellow solution. After filtration, the filtrate was kept for slow evaporation to obtained analytically pure crystals of 3 in good yield.",
+        "start_index": 52658,
+        "end_index": 52964
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Formula for 3. C$_{28}$H$_{43}$N$_4$O$_9$Dy (MW. 742.16) Anal. calcd. C, 45.31; H, 5.48; N, 7.55; found C 45.92; H, 5.14; N, 7.27",
+        "start_index": 52964,
+        "end_index": 53093
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". ATR-IR (only intensive bands): $\\nu$ (cm$^{-1}$) = 3056, 1954, 1644, 1609, 1594, 1549, 1514, 1477, 1462, 1455, 1417, 1397, 1305, 1285, 1219, 1176, 1160, 1072, 1023, 999,",
+        "start_index": 53093,
+        "end_index": 53264
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "966, 939, 896, 872, 790, 772, 759, 742, 718, 684, 654, 608",
+        "start_index": 53264,
+        "end_index": 53322
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 53322,
+        "end_index": 53323
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "ASSOCIATED CONTENT\n\nSupporting Information. The Supporting Information is available free of charge on the ACS Publications website at DOI:\n\nPXRD, TGA, infrared and electronic spectra, crystal packing, magnetic data, Theoretical calculation, crystallographic tables. (PDF).\n\nAccession Codes.",
+        "start_index": 53323,
+        "end_index": 53613
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "CCDC 2277463 - 2277465 contain the supplementary crystallographic data for this paper. These data can be obtained free of charge via www.ccdc.cam.ac.uk/data_request/cif, or by emailing data_request@ccdc.cam.ac.uk, or by contacting The Cambridge Crystallographic Data Centre, 12 Union Road, Cambridge CB2 1EZ, UK; fax: +44 1223 336033.\n\nAUTHOR INFORMATION\n\nCorresponding Author",
+        "start_index": 53613,
+        "end_index": 53989
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Radovan Herchel: *Email: radovan.herchel@upol.cz",
+        "start_index": 53989,
+        "end_index": 54037
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-tnhwp ORCID: https://orcid.org/0000-0002-5061-2326 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nSubrata Ghosh: *Email: subratagchem@gmail.com\nAbhishake Mondal: *Email: mondal@iisc.ac.in\n\n**ORCID**",
+        "start_index": 54037,
+        "end_index": 54285
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Sukanya Bagchi: 0000-0002-5636-4159\nSujit Kamilya: 0000-0003-4881-0638\nMathieu Rouzi\u00e8res: 0000-0003-3457-3133\nRadovan Herchel: 0000-0001-8262-4666\nMikhail. Kiskin: 0000-0002-8782-1308",
+        "start_index": 54285,
+        "end_index": 54468
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Sakshi Mehta: 0000-0002-1232-4489\nSubrata Ghosh: 0000-0003-4539-4413\nAbhishake Mondal: 0000-0002-5061-2326",
+        "start_index": 54468,
+        "end_index": 54574
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**Notes**\n\nThe authors declare no competing financial interest.\n\n**ACKNOWLEDGEMENT**",
+        "start_index": 54574,
+        "end_index": 54658
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "This research work is supported by the Indian Institute of Science (IISc), Bangalore, India and the Department of Science and Technology, Mission on Nano Science and Technology (Nano Mission) (DST, Project No. DST/NM/TUE/QM-10/2019(G)/1), Government of India. S.G. and S.K. thanks to the Council of Scientific and Industrial Research (CSIR), Govt. of India and S. B",
+        "start_index": 54658,
+        "end_index": 55023
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". thanks to IISc for the fellowship.",
+        "start_index": 55023,
+        "end_index": 55059
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "**REFERENCES**\n\n1. Coronado, E., Molecular magnetism: from chemical design to spin control in molecules, materials and devices. *Nature Reviews Materials* **2020**, *5* (2), 87-104.",
+        "start_index": 55059,
+        "end_index": 55240
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "2. Aguil\u00e0, D.; Prado, Y.; Koumousi, E. S.; Mathoni\u00e8re, C.; Cl\u00e9rac, R., Switchable Fe/Co Prussian blue networks and molecular analogues. *Chem. Soc. Rev.* **2016**, *45* (1), 203-224.",
+        "start_index": 55240,
+        "end_index": 55422
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "3. Mondal, A.; Li, Y.; Seuleiman, M.; Julve, M.; Toupet, L.; Buron-Le Cointe, M.; Lescouezec, R., On/Off Photoswitching in a Cyanide-Bridged \\{Fe_2Co_2\\} Magnetic Molecular Square. *J. Am. Chem. Soc.* **2013**, *135* (5), 1653-1656.",
+        "start_index": 55422,
+        "end_index": 55654
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "4. Kamilya, S.; Ghosh, S.; Li, Y.; Dechambenoit, P.; Rouzieres, M.; Lescouezec, R.; Mehta, S.; Mondal, A., Two-Step Thermoinduced Metal-to-Metal Electron Transfer and ON/OFF Photoswitching in a Molecular [Fe2Co2] Square Complex. *Inorg. Chem",
+        "start_index": 55654,
+        "end_index": 55895
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".* **2020**, *59* (17), 11879-11888.",
+        "start_index": 55895,
+        "end_index": 55931
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "5. Perlepe, P.; Oyarzabal, I.; Mailman, A.; Yquel, M.; Platunov, M.; Dovgaliuk, I.; Rouzi\u00e8res, M.; N\u00e9grier, P.; Mondieig, D.; Suturina, E. A.; Dourges, M.-A.; Bonhommeau, S.; Musgrave, R. A.; Pedersen, K. S",
+        "start_index": 55931,
+        "end_index": 56137
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".; Chernyshov, D.; Wilhelm, F.; Rogalev, A.; Mathoni\u00e8re, C.; Cl\u00e9rac, R., Metal-organic magnets with large coercivity and ordering temperatures up to 242\u00b0C. *Science* **2020**, *370* (6516), 587.",
+        "start_index": 56137,
+        "end_index": 56331
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "6. Hogue, R. W.; Singh, S.; Brooker, S., Spin crossover in discrete polynuclear iron(II) complexes. *Chem. Soc. Rev.* **2018**, *47* (19), 7303-7338.",
+        "start_index": 56331,
+        "end_index": 56480
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "7. Woodruff, D. N.; Winpenny, R. E. P.; Layfield, R. A., Lanthanide Single-Molecule Magnets. *Chem. Rev.* **2013**, *113* (7), 5110-5148.",
+        "start_index": 56480,
+        "end_index": 56617
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "8. Bernot, K.; Daiguebonne, C.; Calvez, G.; Suffren, Y.; Guillou, O., A Journey in Lanthanide Coordination Chemistry: From Evaporable Dimers to Magnetic Materials and Luminescent Devices. *Acc. Chem. Res.* **2021**, *54* (2), 427-440.",
+        "start_index": 56617,
+        "end_index": 56851
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "9. Zhu, Z.; Guo, M.; Li, X.-L.; Tang, J., Molecular magnetism of lanthanide: Advances and perspectives. *Coordination Chemistry Reviews* **2019**, *378*, 350-364.",
+        "start_index": 56851,
+        "end_index": 57013
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "10. Natterer, F. D.; Yang, K.; Paul, W.; Willke, P.; Choi, T.; Greber, T.; Heinrich, A. J.; Lutz, C. P., Reading and writing single-atom magnets. *Nature* **2017**, *543* (7644), 226-228.",
+        "start_index": 57013,
+        "end_index": 57200
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "11. Mannini, M.; Pineider, F.; Sainctavit, P.; Danieli, C.; Otero, E.; Sciancalepore, C.; Talarico, A. M.; Arrio, M.-A.; Cornia, A.; Gatteschi, D.; Sessoli, R., Magnetic memory of a single-molecule quantum magnet wired to a gold surface. *Nat. Mater",
+        "start_index": 57200,
+        "end_index": 57449
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".* **2009**, *8* (3), 194-197.",
+        "start_index": 57449,
+        "end_index": 57479
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "12. Leuenberger, M. N.; Loss, D., Quantum computing in molecular magnets. *Nature* **2001**, *410* (6830), 789-793.\n\n13. Wernsdorfer, W.; Sessoli, R., Quantum Phase Interference and Parity Effects in Magnetic Molecular Clusters. *Science* **1999**, *284* (5411), 133.",
+        "start_index": 57479,
+        "end_index": 57746
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "14. Ako, A. M.; Hewitt, I. J.; Mereacre, V.; Cl\u00e9rac, R.; Wernsdorfer, W.; Anson, C. E.; Powell, A. K., A Ferromagnetically Coupled Mn19 Aggregate with a Record S=83/2 Ground Spin State. *Angew. Chem. Int. Ed.* **2006**, *45* (30), 4926-4929.",
+        "start_index": 57746,
+        "end_index": 57987
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "15. Sessoli, R.; Tsai, H. L.; Schake, A. R.; Wang, S.; Vincent, J. B.; Folting, K.; Gatteschi, D.; Christou, G.; Hendrickson, D. N., High-spin molecules: [Mn12O12(O2CR)16(H2O)4]",
+        "start_index": 57987,
+        "end_index": 58164
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". *Journal of the American Chemical Society* **1993**, *115* (5), 1804-1816.",
+        "start_index": 58164,
+        "end_index": 58240
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "16. Sessoli, R.; Gatteschi, D.; Caneschi, A.; Novak, M. A., Magnetic bistability in a metal-ion cluster. *Nature* **1993**, *365* (6442), 141-143.",
+        "start_index": 58240,
+        "end_index": 58386
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "17. Goodwin, C. A. P.; Ortu, F.; Reta, D.; Chilton, N. F.; Mills, D. P., Molecular magnetic hysteresis at 60 kelvin in dysprosocenium. *Nature* **2017**, *548* (7668), 439-442.",
+        "start_index": 58386,
+        "end_index": 58562
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "18. Bala, S.; Huang, G.-Z.; Ruan, Z.-Y.; Wu, S.-G.; Liu, Y.; Wang, L.-F.; Liu, J.-L.; Tong, M.-L., A square antiprism dysprosium single-ion magnet with an energy barrier over 900 K. *Chem Commun* **2019**, *55* (67), 9939-9942.",
+        "start_index": 58562,
+        "end_index": 58789
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "19. Zabala-Lekuona, A.; Seco, J. M.; Colacio, E., Single-Molecule Magnets: From Mn12-ac to dysprosium metallocenes, a travel in time. *Coordination Chemistry Reviews* **2021**, *441*, 213984.",
+        "start_index": 58789,
+        "end_index": 58980
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "20. Meng, Y.-S.; Jiang, S.-D.; Wang, B.-W.; Gao, S., Understanding the Magnetic Anisotropy toward Single-Ion Magnets. *Acc. Chem. Res.* **2016**, *49* (11), 2381-2389.",
+        "start_index": 58980,
+        "end_index": 59147
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "21. Wang, C.; Meng, Y.-S.; Jiang, S.-D.; Wang, B.-W.; Gao, S., Approaching the uniaxiality of magnetic anisotropy in single-molecule magnets. *Science China Chemistry* **2023**, *66* (3), 683-702.",
+        "start_index": 59147,
+        "end_index": 59343
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "22. Zhang, P.; Guo, Y.-N.; Tang, J., Recent advances in dysprosium-based single molecule magnets: Structural overview and synthetic strategies. *Coordination Chemistry Reviews* **2013**, *257* (11), 1728-1763.",
+        "start_index": 59343,
+        "end_index": 59552
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "23. Wang, C.; Meng, Y.-S.; Jiang, S.-D.; Wang, B.-W.; Gao, S., Approaching the uniaxiality of magnetic anisotropy in single-molecule magnets. *Science China Chemistry* **2023**.",
+        "start_index": 59552,
+        "end_index": 59729
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "24. Zhang, P.; Guo, Y.-N.; Tang, J., Recent advances in dysprosium-based single molecule magnets: Structural overview and synthetic strategies. *Coordination Chemistry Reviews* **2013**, *257* (11-12), 1728-1763.",
+        "start_index": 59729,
+        "end_index": 59941
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "25. Xi, J.; Ma, X.; Cen, P.; Wu, Y.; Zhang, Y.-Q.; Guo, Y.; Yang, J.; Chen, L.; Liu, X., Regulating the magnetic dynamics of mononuclear \u03b2-diketone Dy(iii) single-molecule magnets\n\n---",
+        "start_index": 59941,
+        "end_index": 60125
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-trnwwp ORCID: https://orcid.org/0000-0002-5061-2326 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nthrough the substitution effect on capping N-donor coligands. *Dalton Trans.* 2021, 50 (6), 2102-2111.",
+        "start_index": 60125,
+        "end_index": 60376
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "26. Liu, S.-S.; Liu, B.; Ding, M.-M.; Meng, Y.-S.; Jing, J.-H.; Zhang, Y.-Q.; Wang, X.; Lin, S., Substituent effects of auxiliary ligands in mononuclear dibenzoylmethane DyIII/ErIII complexes: single-molecule magnetic behavior and luminescence properties",
+        "start_index": 60376,
+        "end_index": 60630
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". *CrystEngComm* 2020, 22 (45), 7929-7934.",
+        "start_index": 60630,
+        "end_index": 60672
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "27. Kong, M.; Feng, X.; Li, J.; Hu, Z.-B.; Wang, J.; Song, X.-J.; Jing, Z.-Y.; Zhang, Y.-Q.; Song, Y., Structurally modulated single-ion magnets of mononuclear \u03b2-diketone dysprosium(iii) complexes. *Dalton Trans.* 2020, 49 (42), 14931-14940.",
+        "start_index": 60672,
+        "end_index": 60913
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "28. Cen, P.; Wang, M.; Ma, X.; Chen, L.; Zhang, Y.-Q.; Li, Y.; Tian, D.; Liu, X., Coordination microenvironment perturbed single-ion magnet behavior in a \u03b2-diketone Dy(iii) complex. *CrystEngComm* 2020, 22 (41), 6856-6863.",
+        "start_index": 60913,
+        "end_index": 61135
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "29. Cen, P.; Liu, X.; Ferrando-Soria, J.; Zhang, Y.-Q.; Xie, G.; Chen, S.; Pardo, E., Capping N-Donor Ligands Modulate the Magnetic Dynamics of DyIII \u03b2-Diketonate Single-Ion Magnets with D4d Symmetry. *Chem. - Eur. J.* 2019, 25 (15), 3884-3892.",
+        "start_index": 61135,
+        "end_index": 61379
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "30. Zhang, S.; Ke, H.; Sun, L.; Li, X.; Shi, Q.; Xie, G.; Wei, Q.; Yang, D.; Wang, W.; Chen, S., Magnetization Dynamics Changes of Dysprosium(III) Single-Ion Magnets Associated with Guest Molecules. *Inorg. Chem.* 2016, 55 (8), 3865-3871.",
+        "start_index": 61379,
+        "end_index": 61617
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "31. Koroteev, P. S.; Dobrokhotova, Z. V.; Ilyukhin, A. B.; Efimov, N. N.; Rouzi\u00e8res, M.; Kiskin, M. A.; Cl\u00e9rac, R.; Novotortsev, V. M., Synthesis, structure, and physical properties of new rare earth ferrocenoylacetonates. *Dalton Trans",
+        "start_index": 61617,
+        "end_index": 61853
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".* 2016, 45 (15), 6405-6417.",
+        "start_index": 61853,
+        "end_index": 61881
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "32. Dong, Y.; Yan, P.; Zou, X.; Li, G., Azacyclo-auxiliary ligand-tuned SMMs of dibenzoylemethane Dy(iii) complexes. *Inorganic Chemistry Frontiers* 2015, 2 (9), 827-836.",
+        "start_index": 61881,
+        "end_index": 62051
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "33. Chen, G.-J.; Zhou, Y.; Jin, G.-X.; Dong, Y.-B., [Dy(acac)3(dppn)]\u00b7C2H5OH: construction of a single-ion magnet based on the square-antiprism dysprosium(iii) ion. *Dalton Trans.* 2014, 43 (44), 16659-16665.",
+        "start_index": 62051,
+        "end_index": 62259
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "34. Chilton, N. F.; Langley, S. K.; Moubaraki, B.; Soncini, A.; Batten, S. R.; Murray, K. S., Single molecule magnetism in a family of mononuclear \u03b2-diketonate lanthanide(iii) complexes: rationalization of magnetic anisotropy in complexes of low symmetry. *Chem. Sci.* 2013, 4 (4), 1719-1730",
+        "start_index": 62259,
+        "end_index": 62550
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 62550,
+        "end_index": 62551
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "35. Aravena, D.; Ruiz, E., Shedding Light on the Single-Molecule Magnet Behavior of Mononuclear DyIII Complexes. *Inorg. Chem.* 2013, 52 (23), 13770-13778.",
+        "start_index": 62551,
+        "end_index": 62706
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "36. Chen, G.-J.; Guo, Y.-N.; Tian, J.-L.; Tang, J.; Gu, W.; Liu, X.; Yan, S.-P.; Cheng, P.; Liao, D.-Z., Enhancing Anisotropy Barriers of Dysprosium(III) Single-Ion Magnets. *Chem. - Eur. J.* 2012, 18 (9), 2484-2487.",
+        "start_index": 62706,
+        "end_index": 62922
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "37. Bispo-Jr, A. G.; Yeh, L.; Errulat, D.; G\u00e1lico, D. A.; Sigoli, F. A.; Murugesu, M., Improving the performance of \u03b2-diketonate-based DyIII single-molecule magnets displaying luminescence thermometry. *Chem Commun* 2023, 59 (56), 8723-8726.",
+        "start_index": 62922,
+        "end_index": 63163
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "38. Kaushik, K.; Mehta, S.; Das, M.; Ghosh, S.; Kamilna, S.; Mondal, A., Stimuli-responsive magnetic materials: impact of spin and electronic modulation. *Chem Commun* 2023, 59 (88), 13107-13124.",
+        "start_index": 63163,
+        "end_index": 63358
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "39. De, S.; Tewary, S.; Garnier, D.; Li, Y.; Gontard, G.; Lisnard, L.; Flambard, A.; Breher, F.; Boillot, M.-L.; Rajaraman, G.; Lescou\u00ebzec, R",
+        "start_index": 63358,
+        "end_index": 63499
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., Solution and Solid-State Study of the Spin-Crossover [FeII(R-bik)3](BF4)2 Complexes (R = Me, Et, Vinyl). Eur. J. Inorg. Chem. 2018, 2018 (3-4), 414-428.",
+        "start_index": 63499,
+        "end_index": 63654
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "40. Mondal, A.; Li, Y.; Chamoreau, L.-M.; Seuleiman, M.; Rechignat, L.; Bousseksou, A.; Boillot, M.-L.; Lescou\u00ebzec, R., Photo- and thermo-induced spin crossover in a cyanide-bridged \\{Mo^{V2}Fe^{II2}\\} rhombus molecule. Chem. Commun",
+        "start_index": 63654,
+        "end_index": 63886
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". 2014, 50 (22), 2893-2895.",
+        "start_index": 63886,
+        "end_index": 63913
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "41. Garnier, D.; Mondal, A.; Li, Y.; Herson, P.; Chamoreau, L.-M.; Toupet, L.; Buron Le Cointe, M.; Moos, E. M. B.; Breher, F.; Lescouezec, R",
+        "start_index": 63913,
+        "end_index": 64054
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., Tetranuclear [FeII2FeIII2]2+ molecular switches: [FeII(bik)2(N-2)] spin-crossover complexes containing [FeIII(Tp)(CN)3]-metalloligands as N-donor. C. R. Chim. 2019, 22 (6-7), 516-524.",
+        "start_index": 64054,
+        "end_index": 64240
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "42. De, S.; Flambard, A.; Garnier, D.; Herson, P.; Mondal, A.; Lescouezec, R.; Kohler, F. H.; Costuas, K.; Le, G. B.; Gendron, F.; Gillon, B",
+        "start_index": 64240,
+        "end_index": 64380
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., Probing the Local Magnetic Structure of the [Fe(III) (Tp)(CN)3 ](-) Building Block Via Solid-State NMR Spectroscopy, Polarized Neutron Diffraction, and First-Principle Calculations. Chemistry 2019, 25 (52), 12120-12136.",
+        "start_index": 64380,
+        "end_index": 64602
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "43. Ridier, K.; Mondal, A.; Boilleau, C.; Cador, O.; Gillon, B.; Chaboussant, G.; Le Guennic, B.; Costuas, K.; Lescouezec, R., Polarized neutron diffraction to probe local magnetic anisotropy of a low-spin Fe(III) complex. Angew. Chem., Int. Ed",
+        "start_index": 64602,
+        "end_index": 64846
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ". 2016, 55 (12), 3963-3967.",
+        "start_index": 64846,
+        "end_index": 64873
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "44. Mondal, A.; Chamoreau, L.-M.; Li, Y.; Journaux, Y.; Seuleiman, M.; Lescou\u00ebzec, R., W\u25a1Co Discrete Complex Exhibiting Photo- and Thermo-Induced Magnetisation. Chem. - Eur. J. 2013, 19 (24), 7682-7685.",
+        "start_index": 64873,
+        "end_index": 65075
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "45. Mondal, A.; Li, Y.; Herson, P.; Seuleiman, M.; Boillot, M.-L.; Rivi\u00e8re, E.; Julve, M.; Rechignat, L.; Bousseksou, A.; Lescou\u00ebzec, R",
+        "start_index": 65075,
+        "end_index": 65210
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., Photomagnetic effect in a cyanide-bridged mixed-valence \\(\\{\\text{Fe}^{II2}\\text{Fe}^{III2}\\}\\) molecular square. *Chem. Commun.* **2012**, *48*(45), 5653-5655.",
+        "start_index": 65210,
+        "end_index": 65373
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "46. Zanella, S.; Aragon-Alberti, M.; Brite, C. D. S.; Salles, F.; Carlos, L. D.; Long, J., Luminescent Single-Molecule Magnets as Dual Magneto-Optical Molecular Thermometers. *Angewandte Chemie International Edition* **2023**, *62*(35), e202306970.",
+        "start_index": 65373,
+        "end_index": 65621
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "47. Rinehart, J. D.; Long, J. R., Exploiting single-ion anisotropy in the design of f-element single-molecule magnets. *Chemical Science* **2011**, *2*(11).",
+        "start_index": 65621,
+        "end_index": 65777
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "48. Errulat, D.; Marin, R.; G\u00e1lico, D. A.; Harriman, K. L. M.; Pialat, A.; Gabidullin, B.; Iikawa, F.; Couto, O. D. D., Jr.; Moilonen, J. O.; Hemmer, E.; Sigoli, F. A.; Murugesu, M",
+        "start_index": 65777,
+        "end_index": 65957
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., A Luminescent Thermometer Exhibiting Slow Relaxation of the Magnetization: Toward Self-Monitored Building Blocks for Next-Generation Optomagnetic Devices. *ACS Central Science* **2019**, *5*(7), 1187-1198.",
+        "start_index": 65957,
+        "end_index": 66165
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "49. Jankowski, R.; Wyczesany, M.; Chorazy, S., Multifunctionality of luminescent molecular nanomagnets based on lanthanide complexes. *Chem Commun* **2023**, *59*(40), 5961-5986.",
+        "start_index": 66165,
+        "end_index": 66343
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "50. Casanova, D.; Llunell, M.; Alemany, P.; Alvarez, S., The Rich Stereochemistry of Eight-Vertex Polyhedra: A Continuous Shape Measures Study. *Chemistry \u2013 A European Journal* **2005**, *11*(5), 1479-1494.",
+        "start_index": 66343,
+        "end_index": 66549
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "51. Sorace, L.; Benelli, C.; Gatteschi, D., Lanthanides in molecular magnetism: old tools in a new field. *Chem Soc Rev* **2011**, *40*(6), 3092-104.",
+        "start_index": 66549,
+        "end_index": 66698
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "52. Feltham, H. L. C.; Brooker, S., Review of purely 4f and mixed-metal nd-4f single-molecule magnets containing only one lanthanide ion. Coordination Chemistry Reviews 2014, 276, 1-33.",
+        "start_index": 66698,
+        "end_index": 66883
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "53. Li, D.-P.; Zhang, X.-P.; Wang, T.-W.; Ma, B.-B.; Li, C.-H.; Li, Y.-Z.; You, X.-Z., Distinct magnetic dynamic behavior for two polymorphs of the same Dy(III) complex. Chem Commun 2011, 47 (24), 6867-6869.",
+        "start_index": 66883,
+        "end_index": 67090
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "54. Menelaou, M.; Ouharrou, F.; Rodriguez, L.; Roubeau, O.; Teat, S. J.; Aliaga-Alcalde, N., Dy(III)- and Yb(III)-curcuminoid compounds: original fluorescent single-ion magnet and magnetic near-IR luminescent species. Chemistry 2012, 18 (37), 11545-9.",
+        "start_index": 67090,
+        "end_index": 67341
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "55. Corredoira-V\u00e1zquez, J.; Gonz\u00e1lez-Barreira, C.; Fondo, M.; Garc\u00eda-Deibe, A. M.; Sanmart\u00edn-Matalobos, J.; Hern\u00e1ndez-Rodr\u00edguez, M. A.; Carlos, L. D., Luminescence thermometry in a Dy4 single molecule magnet. Dalton T 2022, 51 (40), 15593-15600.",
+        "start_index": 67341,
+        "end_index": 67586
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "56. Jean-Claude, G. B.; Svetlana, V. E., Basics of Lanthanide Photophysics. 2010; Vol. 7, pp 1-45.",
+        "start_index": 67586,
+        "end_index": 67684
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "57. Marin, R.; G\u00e1lico, D. A.; Gayfullina, R.; Moilanen, J. O.; Carlos, L. D.; Jaque, D.; Murugesu, M., A zero-field single-molecule magnet with luminescence thermometry capabilities containing soft donors. Journal of Materials Chemistry C 2022, 10 (37), 13946-13953.",
+        "start_index": 67684,
+        "end_index": 67950
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "58. Kitos, A. A.; G\u00e1lico, D. A.; Casta\u00f1eda, R.; Ovens, J. S.; Murugesu, M.; Brusso, J. L., Stark Sublevel-Based Thermometry with Tb(III) and Dy(III) Complexes Cosensitized via the 2-Amidinopyridine Ligand. Inorganic Chemistry 2020, 59 (15), 11061-11070.",
+        "start_index": 67950,
+        "end_index": 68203
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "59. Gorshkov, E. V.; Korchagin, D. V.; Yureva, E. A.; Shilov, G. V.; Zhidkov, M. V.; Dmitriev, A. I.; Efimov, N. N.; Palii, A. V.; Aldoshin, S. M., Effect of Ligand Substitution on",
+        "start_index": 68203,
+        "end_index": 68383
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "Zero-Field Slow Magnetic Relaxation in Mononuclear Dy(III) \u03b2-Diketonate Complexes with Phenanthroline-Based Ligands. *Magnechochemistry* **2022**, *8* (11).",
+        "start_index": 68383,
+        "end_index": 68539
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "60. Ferreira, R. A. S.; Mamontova, E.; Botas, A. M. P.; Shestakov, M.; Vanacken, J.; Moshchalkov, V.; Guari, Y.; Chibotaru, L. F.; Luneau, D.; Andr\u00e9, P. S.; Larionova, J.; Long, J.; Carlos, L. D",
+        "start_index": 68539,
+        "end_index": 68733
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "., Synchronous Temperature and Magnetic Field Dual-Sensing by Luminescence in a Dysprosium Single-Molecule Magnet. *Advanced Optical Materials* **2021**, *9* (24), 2101495.",
+        "start_index": 68733,
+        "end_index": 68905
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "61. Malmqvist, P.-\u00c5.; Roos, B. O., The CASSCF state interaction method. *Chem. Phys. Lett.* **1989**, *155* (2), 189-194.",
+        "start_index": 68905,
+        "end_index": 69026
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "62. Chibotaru, L. F.; Ungur, L., Ab initio calculation of anisotropic magnetic properties of complexes. I. Unique definition of pseudospin Hamiltonians and their derivation. *J. Chem. Phys.* **2012**, *137* (6).",
+        "start_index": 69026,
+        "end_index": 69237
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "63. Neese, F., Software update: The ORCA program system\u2014Version 5.0. *WIREs Computational Molecular Science* **2022**, *12* (5), e1606.",
+        "start_index": 69237,
+        "end_index": 69372
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "64. Rotondo, E.; Aragon-Alberti, M.; Rouquette, J.; Long, J., Modulation of the Slow Relaxation of the Magnetization Dynamics through Second Coordination Sphere in Macrocyclic Dysprosium(III) Complexes. *Crystal Growth & Design* **2024**.",
+        "start_index": 69372,
+        "end_index": 69610
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "65. Matheson, B. E.; Dais, T. N.; Donaldson, M. E.; Rowlands, G. J.; Plieger, P. G., The importance of second sphere interactions on single molecule magnet performance. *Inorg. Chem. Front.* **2023**, *10* (22), 6427-6439.",
+        "start_index": 69610,
+        "end_index": 69832
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "66. Panja, A.; Jagli\u010di\u0107, Z.; Herchel, R.; Brand\u00e3o, P.; Pramanik, K.; Jana, N. C., Three angular Zn2Dy complexes showing the effect of remote coordination at Zn and counter ions on slow magnetic relaxation at Dy centres. *New J. Chem.* **2022**, *46* (28), 13546-13557.",
+        "start_index": 69832,
+        "end_index": 70100
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "67. Zahradn\u00edkov\u00e1, E.; Herchel, R.; \u0160alitro\u0161, I.; \u010c\u00edsa\u0159ov\u00e1, I.; Draho\u0161, B., Late first-row transition metal complexes of a 17-membered piperazine-based macrocyclic ligand: structures and magnetism. *Dalton Trans.* **2020**, *49* (26), 9057-9069.",
+        "start_index": 70100,
+        "end_index": 70344
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "68. Gil, Y.; Llanos, L.; Cancino, P.; Fuentealba, P.; Vega, A.; Spodine, E.; Aravena, D., Effect of Second-Sphere Interactions on the Magnetic Anisotropy of Lanthanide Single-Molecule Magnets: Electrostatic Interactions and Supramolecular Contacts. *The Journal of Physical Chemistry C* **2020**, *124* (9), 5308-5320",
+        "start_index": 70344,
+        "end_index": 70661
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": ".",
+        "start_index": 70661,
+        "end_index": 70662
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "69. Herchel, R.; Zoufal\u00fd, P.; Nemec, I., The effect of the second coordination sphere on the magnetism of [Ln(NO3)3(H2O)3]\u00b7(18-crown-6) (Ln = Dy and Er). *RSC Advances* **2019**, *9* (1), 569-575.",
+        "start_index": 70662,
+        "end_index": 70858
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "70. Singh, S. K.; Eng, J.; Atanasov, M.; Neese, F., Covalency and chemical bonding in transition metal complexes: An ab initio based ligand field perspective. *Coord. Chem. Rev.* **2017**, *344*, 2-25.",
+        "start_index": 70858,
+        "end_index": 71059
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "71. Mingos, D. M. P.; Day, P.; Dahl, J. P.; Atanasov, M., Molecular electronic structures of transition metal complexes II. Springer Berlin: Berlin, 2012. [http://site.ebrary.com/id/10653387](http://site.ebrary.com/id/10653387).",
+        "start_index": 71059,
+        "end_index": 71287
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "72. Ma, C. G.; Brik, M. G.; Liu, D. X.; Feng, B.; Tian, Y.; Suchocki, A., Energy level schemes of fN electronic configurations for the di-, tri-, and tetravalent lanthanides and actinides in a free state. *Journal of Luminescence* **2016**, *170*, 369-374.",
+        "start_index": 71287,
+        "end_index": 71543
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "73. Kitos, A. A.; Galico, D. A.; Mavragani, N.; Castaneda, R.; Moilanen, J. O.; Brusso, J. L.; Murugesu, M., Probing optical and magnetic properties via subtle stereoelectronic effects in mononuclear Dy(III)-complexes. *Chem Commun (Camb)* 2021, 57 (63), 7818-7821.",
+        "start_index": 71543,
+        "end_index": 71808
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "74. Casida, M. E., Time-dependent density-functional theory for molecules and molecular solids. *Journal of Molecular Structure: THEOCHEM* 2009, 914 (1), 3-18.\n\n75. Cristina, G. I.; Marazzi, M., *Theoretical and Computational Photochemistry: Fundamentals, Methods, Applications and Synergy with Experimental Approaches*. Elsevier: 2023.",
+        "start_index": 71808,
+        "end_index": 72144
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "76. Elliott, P.; Burke, K.; Furche, F. J. a. p. c.-m., Excited states from time-dependent density functional theory. 2007.\n\n77. Herbert, J. M., Visualizing and characterizing excited states from time-dependent density functional theory. *Physical Chemistry Chemical Physics* 2024, 26 (5), 3755-3794.",
+        "start_index": 72144,
+        "end_index": 72443
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "78. Olivucci, M.; Sinicropi, A., Computational photochemistry. In *Theoretical and Computational Chemistry*, Elsevier: 2005; Vol. 16, pp 1-33.\n\n79. Ullrich, C. A., Time-dependent density-functional theory: concepts and applications. 2011.",
+        "start_index": 72443,
+        "end_index": 72681
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "80. Lu, T. J. T. J. o. C. P., A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn. 2024, 161 (8).",
+        "start_index": 72681,
+        "end_index": 72804
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "81. Zhan, H.; Wang, Y.; Li, Z.; Tang, Z.; Tian, J.; Fei, X. J. T. J. o. P. C. A., Investigating the influence of electronic effects of functional groups on the fluorescence mechanism of probes in water samples. 2021, 125 (14), 2866-2875.",
+        "start_index": 72804,
+        "end_index": 73041
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "82. Jahanbani, S.; Ghadari, R. J. J. o. M. L., Theoretical study of optoelectronic performance of hole-transporting material quinoxaline-based with architecture (DAD) in perovskite solar cells: A DFT method. 2024, 398, 124296.",
+        "start_index": 73041,
+        "end_index": 73267
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "83. Ren, F.; Wu, X.; Liu, G.; Ding, Y. J. S. A. P. A. M.; Spectroscopy, B., Fluorescent response mechanism based on ESIPT and TICT of novel probe H2QJI: A TD-DFT investigation. 2024, 318, 124383.",
+        "start_index": 73267,
+        "end_index": 73462
+    },
+    {
+        "document_name": "7.txt",
+        "chunk_text": "84. Wang, Y.; Zhang, M.; Li, W.; Wang, Y.; Zhou, P. J. M., Theoretical Investigation on the \u201cON-OFF\u201d Mechanism of a Fluorescent Probe for Thiophenols: Photoinduced Electron Transfer and Intramolecular Charge Transfer. 2023, 28 (19), 6921.\nFor Table of Contents Only",
+        "start_index": 73462,
+        "end_index": 73727
+    }
+]

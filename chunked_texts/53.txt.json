@@ -1,0 +1,1310 @@
+[
+    {
+        "document_name": "53.txt",
+        "chunk_text": "An integrated assessment of microplastic pollution in coastal surface water and sediment of Japan\n\nJonathan J. Ramtahal\u00b9, Kugako Sugimoto\u00b9,\u00b3, Samantha Phan\u2074, Tara Jambio Microplastic Consortium*, Yumiko Patouillet\u2075, Romain Troubl\u00e9\u2076, Christine K. Luscombe\u2074, Sylvain Agostini\u00b9,\u00b2",
+        "start_index": 0,
+        "end_index": 276
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "\u00b9 Shimoda Marine Research Center, University of Tsukuba, Shimoda 5-10-1, Shizuoka, 415-0025, Japan.\n\u00b2 UMR-Entropie, IRD New Caledonia, Noumea, New Caledonia",
+        "start_index": 276,
+        "end_index": 432
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "\u00b3 Advanced Institute for Marine Ecosystem Change (WPI-AIMEC), Tohoku University, 6-3 Aoba, Aramaki, Aoba-ku, Sendai 980-8578, Japan\n\u2074 pi-Conjugated Polymers Unit, Okinawa Institute of Science and Technology, Onna, Okinawa 904\u20130495, Japan.",
+        "start_index": 432,
+        "end_index": 670
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "\u2075 Tara Ocean Japan, 2-25-2 Kamiosaki, Shinagawa, Tokyo, 141-0021, Japan\n\u2076 Fondation Tara Oc\u00e9an, Base Tara, 8 rue de Prague, 75012 Paris, France.",
+        "start_index": 670,
+        "end_index": 814
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "* Author list provided at the end of the paper.\nAbstract",
+        "start_index": 814,
+        "end_index": 870
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The ubiquity of microplastics in the marine environment has been highlighted in recent years, yet the extent of microplastics pollution in coastal areas, especially off the coast of Japan, remains unclear. Here we provide a comprehensive dataset of microplastic pollution in surface water and sediment around coastal Japan. The survey encompasses 14 locations along Japanese coasts from the northernmost in Hokkaido to the southern archipelago of Okinawa. The overall microplastic concentration was 288",
+        "start_index": 870,
+        "end_index": 1372
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".7 \u00b1 651.6 g km\\(^{-2}\\) and 1,185 \u00b1 3,829 kg km\\(^{-2}\\) for surface water and sediment, respectively. A total of 53,674 particles were extracted from both sediment and surface water as suspected microplastics using a series of sieving, density separation and digestions",
+        "start_index": 1372,
+        "end_index": 1643
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Using Fourier Transform Infrared Spectroscopy, 85% of particles from surface water were identified as plastics and 70% in sediment. The main polymers found were the widely used polyethylene, polypropylene, and polystyrene. Analysis of sources and pathways of microplastics revealed that rainfall, population, aquaculture and fisheries were major driver of microplastic concentrations",
+        "start_index": 1643,
+        "end_index": 2028
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". This comprehensive survey highlights the rapid sinking of microplastic in coastal areas and the urgent need for better waste management associated with marine activities especially in rural areas.",
+        "start_index": 2028,
+        "end_index": 2226
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Keywords: Japan, coastal waters, coastal sediment, microplastics, polymers, sources and pathways\n\nGraphical abstract\n\nSynopsis: Environmental and socio-economic factors drive microplastic pollution, both in terms of concentrations and polymer types, in surface water and sediment along Japanese coasts.\nIntroduction",
+        "start_index": 2226,
+        "end_index": 2541
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Marine plastic pollution continues to be a challenge as global plastic production has increased to 400.3 million tonnes in 2022. An estimated 80 to 85% of the marine debris consist of plastics from land-based sources. The ubiquity and presence of microplastics in the marine environment have been widely discussed in recent scientific literature",
+        "start_index": 2541,
+        "end_index": 2886
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Since its first use in scientific literature the definition for \u201cmicroplastics\u201d has undergone several alterations with the most agreed upon as \u201cfragments of plastics < 5 mm in size\u201d. Further categorization has been included to differentiate microplastics based on source; primary and secondary. Primary microplastics refers to items specifically designed with a small size and, employed in various industrial applications such as starter pellets for fertilizers, air blasting technologies, and microbeads in cosmetics etc",
+        "start_index": 2886,
+        "end_index": 3409
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Secondary microplastics are those derived from the breakdown of larger plastics through degradation such as shopping bags, ghost fishing nets, and buoys used in maritime practice etc.",
+        "start_index": 3409,
+        "end_index": 3594
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The breakdown of plastics into smaller fragments is widely studied as it is an important factor in the understanding of sources of microplastics and pathways to the marine environment. Microplastic degradation can be attributed to both mechanical and chemical processes. Exposure to environmental conditions, wind and waves decrease the stability of plastics and causes fragmentation to occur",
+        "start_index": 3594,
+        "end_index": 3986
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". It is posited that a major part of the degradation process begins on land, as plastics travel along rivers and waterways they are constantly washed onto the riverbanks, increasing exposure to UV radiation and heat, becoming brittle, breaking down into small fragments and re-entering the aquatic environment",
+        "start_index": 3986,
+        "end_index": 4295
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". However, the fragmentation of larger items of plastics is not the only source of microplastics in the environment, as the direct release of primary microplastics through industrial spillage, wastewater systems and microbeads used in cosmetics contribute significantly to the accumulation of microplastics in the marine environment.",
+        "start_index": 4295,
+        "end_index": 4628
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "According to Browne, it is important to distinguish between the sources and pathways through which microplastic enters the environment. Sources should be used to describe the origin while pathways should be used to elucidate the movement from the source to the various habitats",
+        "start_index": 4628,
+        "end_index": 4905
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The major sources outlined include four categories, (i) larger plastics litter \u2013 originating from fishing, shipping and other maritime counterparts; (ii) cleaning products \u2013 a byproduct of industrial and domestic cleaning activities; (iii) medicines \u2013 microplastics used in drug delivery for both human and animal treatments; (iv) textiles \u2013 as a results of washing clothes. All sources have the common factor of land-based activities at some point in the",
+        "start_index": 4905,
+        "end_index": 5362
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "pathway to the marine habitat. Although, determining the individual source of microplastic pollution may be difficult, polymer identification and chemical characterization may help to provide some information on the origin of microplastic and the possible pathways involved.\\textsuperscript{17,18} It is estimated annually between 1.15 and 2",
+        "start_index": 5362,
+        "end_index": 5703
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".41 million tonnes of plastics enters the ocean through river systems globally with 67\\% of the total riverine output being found in Asia\\textsuperscript{19}. While various indicators suggest high input from Asian countries\\textsuperscript{20}, data to validate such claims are limited. Nevertheless, East Asian seas have been labelled as a \u201chotspot\u201d for microplastic pollution due to the high concentrations within the region\\textsuperscript{21}.",
+        "start_index": 5703,
+        "end_index": 6150
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "While an increasing number of studies investigate the sources and distribution of microplastics in the marine environment, the problem of \u201cmissing\u201d plastics remains. The inputs from various sources do not match the estimates of floating debris found in oceans\\textsuperscript{22,23}. Retention of floating debris in coastal areas with recurrent episodes of beaching, submersion, and sinking may account for this missing debris\\textsuperscript{7,22}",
+        "start_index": 6150,
+        "end_index": 6598
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The individual characteristics of particles (e.g., size, density, shape) play an important role in the pathways as denser films and items with a greater surface-to-volume have a higher chance of being trapped in the coastal zone, becoming beached and fragmenting into smaller fractions before re-entering the marine environment. Colonization by biofilms and marine organism play an important role in the pathway of vertical transport from the surface to sediments.\\textsuperscript{23}.",
+        "start_index": 6598,
+        "end_index": 7085
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Although the number of studies on microplastics in the coastal environment has increased globally, the number of studies concerning Japanese coastal waters is limited\\textsuperscript{24}. To this end the Tara-JAMBI\\textsuperscript{O} (Japanese Association of Marine Biology) Joint Microplastic Survey aims to provide knowledge on the status of microplastic pollution in the coastal environment around Japan",
+        "start_index": 7085,
+        "end_index": 7491
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". A Japan-wide survey was undertaken from October 2020 to June 2023 with sampling at 14 locations along the Japanese coasts, utilizing the infrastructure (research vessels and laboratories) of the JAMBI\\textsuperscript{O} network. The different hydrodynamic and societal contexts at the sampling location allow for the investigation of the various sources and pathways of microplastic pollution",
+        "start_index": 7491,
+        "end_index": 7885
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". This comprehensive sampling of surface water and sediment allowed the compilation of the dataset of 53,557 particles of which 11,699 where chemically characterized using Fourier Transform Infrared Spectroscopy (FT-IR). This study aims to provide baseline data as the first comprehensive study Japanese coastal environment and provide an easily reproducible method for large scale study of surface water and sediments.",
+        "start_index": 7885,
+        "end_index": 8304
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Materials and Methods",
+        "start_index": 8304,
+        "end_index": 8325
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Study Sites",
+        "start_index": 8325,
+        "end_index": 8336
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The Tara-JAMBO Joint Microplastics survey was a partnered initiative between the Tara Ocean Japan, a Japanese antenna of the Tara Ocean Foundation and the Japanese Association for Marine Biology (JAMBO) which began in 2020 to conduct a Japan-wide survey in coastal areas around Japan to assess the status of microplastic pollution in surface water and sediment",
+        "start_index": 8336,
+        "end_index": 8696
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Study sites were chosen based on the location of marine stations within the JAMBO network that would allow for ease of access and use of facilities for sampling",
+        "start_index": 8696,
+        "end_index": 8858
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". In 2020, five marine stations were visited in western Japan from 13 October to 2 November; In 2021, three stations located in northern Japan were visited from 19 July to 4 August; In 2022 stations located on the coast of the Sea of Japan were visited; In September 2022 a station at the entrance of Tokyo was visited and in June 2023 stations at southern island of Okinawa were visited",
+        "start_index": 8858,
+        "end_index": 9245
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". (See Supplementary Information Figure 1) At each station a major river was identified, and samples were taken along a transect from the estuary to the bay and offshore areas. A minimum of three neuston samples and three sediment sample were taken at each marine station.",
+        "start_index": 9245,
+        "end_index": 9517
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Field Sample Collection",
+        "start_index": 9517,
+        "end_index": 9540
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Surface water samples were collected using a Neuston net (JMA Neuston net, RIGO Co. Ltd, Tokyo, Japan) (mesh size 350\u03bcm), fitted with a collection bucket at the end (RIGO Co. Ltd, Tokyo, Japan) (mesh size 315\u03bcm)",
+        "start_index": 9540,
+        "end_index": 9751
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The net was half submerged and towed alongside the designated vessel at approximately 1~2 knots for a total time of 30 minutes, providing that the submerged portion of the net opening was constant without showing signs of clogging. All neuston samples were placed in aluminium zip lock bags and stored in a cool box for transport. The samples were then stored at -20\u00b0C until treatment",
+        "start_index": 9751,
+        "end_index": 10137
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". A CTD (Rinko profiler, JFE Advantech, Tokyo, Japan) was attached to the base of the net frame to collect environmental data for each tow and a flow meter (RIGO Co. Ltd, Tokyo, Japan) attached to the opening of the net to record flow rate. GPS locations were taken at the start and end of every tow",
+        "start_index": 10137,
+        "end_index": 10436
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". At each location a blank net was taken for control by submerging the net briefly with a new bucket (~1 min).",
+        "start_index": 10436,
+        "end_index": 10546
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Sediment samples were collected from the research vessel, using a Smith & McIntyre Grab Sampler (RIGO Co. Ltd Cat. No. 5144-AH) deployed to the side of the vessel. The samples were placed directly into a U-Pack (0.1mm x 70 cm x100 cm Sanyu Sangyo Co. Ltd) for storage and transport back to the lab. A CTD profile was taken at the same location as sediment sampling",
+        "start_index": 10546,
+        "end_index": 10910
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". GPS locations were taken for every sediment grab and each CTD Profile.",
+        "start_index": 10910,
+        "end_index": 10982
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Extraction of microplastic from surface water sample",
+        "start_index": 10982,
+        "end_index": 11034
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Sieving and sample preparation",
+        "start_index": 11034,
+        "end_index": 11064
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Samples were washed with tap water from the collecting sock into a 5 mm round stainless-steel sieve and then into a custom-made filtration apparatus consisting of a PVC tube, with a pre-weighted 315 \u03bcm nylon mesh attached to one end via hose clip. The pre-weighed filter containing the sample was then placed in a glass beaker and allowed to oven dry at 80\u00b0C until completely dry and the weight of the filter and sample was then recorded.\n\nDigestion",
+        "start_index": 11064,
+        "end_index": 11513
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "To further purify the microplastic sample and reduce debris before microscopic analysis, wet peroxidation digestion using Fenton\u2019s reagent was carried out (Masura et al. 2015)",
+        "start_index": 11513,
+        "end_index": 11688
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The dried filtered material, recovered after density separation was transferred to a large beaker (1\u20132 L depending on the volume of the sample, and to prevent overflow since the reaction is volatile) and an initial 20 mL of 30% H\u2082O\u2082, followed by 20 mL of 0.05 mol L\u207b\u00b9 acidic Iron Fe(II) solution (prepared by adding 7",
+        "start_index": 11688,
+        "end_index": 12007
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".5 g of FeSO\u2084\u00b77H\u2082O to 500 mL of ultrapure water (Advantec\u00ae RFU685DA) and 3 mL of concentrated sulfuric acid). This mixture was allowed to sit uncovered for at least 5 minutes for the initial reaction to begin. After the initial reaction, ultrapure water was used to wash down the sides of the beaker",
+        "start_index": 12007,
+        "end_index": 12306
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". A magnetic stir bar was added to the beaker and then covered with a watch glass. The mixture was then heated to 75\u00b0C (using a hot plate with a stirrer) until gas bubbles were observed. To prevent overflow ultrapure water was added periodically to wash down the sides of the beaker",
+        "start_index": 12306,
+        "end_index": 12588
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The temperature was kept constant at 75\u00b0C and after every 30 minutes (or until no visible reaction) another 20 mL of 30% H\u2082O\u2082 was added to the beaker. This was repeated until no organic matter was visible within a four-hour limit. After the organic matter was dissolved, 6 g of NaCl (FUJIFILM Wako Pure Chemical Co., Ltd",
+        "start_index": 12588,
+        "end_index": 12910
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".) per 20 mL of the digested mixture was added to the beaker and stirred until completely dissolved. After cooling, the mixture (including undissolved matter) was transferred to a large funnel (~3 L) with a stopcock attached at the end (using rubber hose and hose clip). This mixture was then allowed to settle for approximately 24\u201372 hours depending on the amount of solids, which was drained periodically until no large solids were visible",
+        "start_index": 12910,
+        "end_index": 13351
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The remaining solution containing microplastics was vacuum filtered onto a 90 mm Whatman paper filter. The filter was then allowed to dry overnight in a loosely covered glass petri dish in preparation for microscopic analysis.",
+        "start_index": 13351,
+        "end_index": 13579
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Extraction of microplastic from sediment sample",
+        "start_index": 13579,
+        "end_index": 13626
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Sieving and density separation",
+        "start_index": 13626,
+        "end_index": 13656
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Each sample was washed with tap water using a stacked box mesh consisting of 5 mm and then 300 \u03bcm size opening respectively. Samples were washed until the wastewater ran clear indicating fine silt and mud was removed. Samples were placed in pre-weighted stainless-steel trays and oven-dried at 80\u00b0C until completely dry. Sample dry weight was then recorded at room temperature",
+        "start_index": 13656,
+        "end_index": 14032
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". An initial density separation step was done to recover microplastics in the sediment and reduce sample volume by adding super-saturated NaCl (1.2 g mL\u207b\u00b9) solution prepared by adding 358.5 g of NaCl (FUJIFILM Wako Pure Chemical Co., Ltd.) to 1 L of ultrapure water",
+        "start_index": 14032,
+        "end_index": 14297
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".\u00b2\u2075 Dried sediment was added to a 3000 mL glass beaker and the NaCl solution was added until 8\u201310 cm above the sediment. This mixture was agitated by stirring with a stainless-steel spatula for 2\u20133 minutes and left to rest for 1 hour allowing the sediment to settle and, microplastic and other buoyant materials to float to the top",
+        "start_index": 14297,
+        "end_index": 14628
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". All floating matter was poured into a custom-made filtration apparatus consisting of a PVC tube, with a 315 \u03bcm nylon mesh attached to one end via a hose clip. Ultrapure water was used to wash the floating material to remove excess NaCl after each recovery. The agitation and filtration steps were repeated three times for each sample using a new NaCl solution each time to ensure maximum recovery of plastic fragments",
+        "start_index": 14628,
+        "end_index": 15047
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Filtered material containing microplastic was allowed to dry in a covered glass petri dish at 80\u00b0C for 24\u201348 hours to reduce moisture in the sample. After these additional steps were completed, digestion and final extraction were carried out using the same methods for surface water in preparation for microscopic analysis.",
+        "start_index": 15047,
+        "end_index": 15372
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Quality control",
+        "start_index": 15372,
+        "end_index": 15387
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "To minimize contamination all apparatus used were either glass or stainless steel and was washed with ultrapure water (Advantec\u00ae RFU685DA). Latex or nitrile gloves were worn for all procedures and a 100% cotton lab coat was used. All steps were carried out on a sanitized clean bench with positive air flow for both sediment and surface water respectively. When not in use the filtration apparatus was covered in aluminium foil",
+        "start_index": 15387,
+        "end_index": 15814
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Procedural blanks were taken by leaving an uncovered paper filter while processing samples, no contamination was found. For blank nets collected during surface water sampling, less than 5 particles were found in some while none in others.",
+        "start_index": 15814,
+        "end_index": 16054
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-crmbc ORCID: https://orcid.org/0009-0003-7256-9765 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nMicroscopy",
+        "start_index": 16054,
+        "end_index": 16212
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Microscopic analysis for surface water and sediment, was done in both bright field and fluorescence to ensure maximum recovery of microplastic particles using Olympus SZX16 Reflected Fluorescence System (Filters: SZX2: FUV-BP330-385, BA420; FGFP-A-BP460-495, BA510-550; FGFPHQ-BP460-480, BA495-540) with an Olympus DP21 Digital Camera attached for photoimaging",
+        "start_index": 16212,
+        "end_index": 16572
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". A glass petri dish containing the filtered samples was placed on the stage of the microscope, and using a pair of pincette, all suspected microplastic were picked-up, placed into a separate glass dish, photographed, and collected in a pre-weighted glass vial with a screw-capped. After completing the pick-up for each sample, the vial was then weighed.",
+        "start_index": 16572,
+        "end_index": 16926
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "ImageJ Analysis",
+        "start_index": 16926,
+        "end_index": 16941
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Feret diameter and microplastic type were documented from the photographs using ImageJ software (Schneider, Rasband, and Eliceiri 2012). Photographs were analysed using a custom macro that allowed tracing of individual items of plastic, calculation of the Feret diameter, surface area and recording of the microplastic type. (See Supplementary Information for the custom macro)",
+        "start_index": 16941,
+        "end_index": 17318
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Microplastic types were classified as three main categories based on shape and form: rigid, sheet and fibre. Rigid was described as pellets, balls of entangled fibres, or foam like fragments resembling pellets or beads. Sheet was described as films or ribbons of plastic. Fibre was described as cords or filamentous items of plastic. Fibre type microplastic was excluded from the calculation of Feret diameter and therefore excluded from size distribution analysis in this study.",
+        "start_index": 17318,
+        "end_index": 17799
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Chemical characterization",
+        "start_index": 17799,
+        "end_index": 17824
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Ni10 ThermoFisher microFT-IR was used for the chemical characterization of particles suspected to be microplastic. Reflectance was used as the mode of analysis since the size of particles was highly variable (100\u20135,000\u00b5m). A modified coning and quartering method was used to randomize and reduce the size of samples that contained large amounts of particles before analysis",
+        "start_index": 17824,
+        "end_index": 18197
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Selected particles were mounted onto a gold slide on which three 15 x 15 mm areas were demarcated using tape of known composition. For each sample, several mosaics were taken using OMNIC Picta software, and maps were produced for multipoint spectra collection to increase time efficiency. Collected maps were then split into individual spectra for analysis using the OMNIC Specta suite of libraries (See Supplementary Information Table 3)",
+        "start_index": 18197,
+        "end_index": 18637
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The number of particles selected for analysis was varied between > 10% or 100% per sample according to the volume of each sample. Analysed spectra were compiled into an Excel Sheet and used for statistical analyses.",
+        "start_index": 18637,
+        "end_index": 18854
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Statistical Analysis",
+        "start_index": 18854,
+        "end_index": 18874
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "All statistical analysis and figures were computed using R software v4.4.0. The packages \u2018ggplot2\u2019, \u2018dplyr\u2019, \u2018tibble\u2019, \u2018stringr\u2019, \u2018tidyr\u2019 from the \u2018tidverse\u2019 and \u2018ggpubr\u2019 together with \u2018patchwork\u2019 were used for data manipulation and production of figures. Microplastic concentration and driver variables were modelled using the \u201clm\u201d function of the \u2018vegan\u2019 package",
+        "start_index": 18874,
+        "end_index": 19238
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". nMDS was calculated for the difference in community composition of polymer type in surface water and sediment using the \u2018vegan\u2019 package and PERMANOVA was done to test the statistical significance between surface water and sediment. For the comparison between the community composition of polymers, two samples (one surface sample from Takehara and one sediment sample from Tateyama) were removed from the analysis as they consisted of only 1 and 2 particles, respectively, identified as \u201cother plastics\u201d",
+        "start_index": 19238,
+        "end_index": 19743
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The difference in the size distribution of feret diameter among the different matrices was computed using the \u2018glmer\u2019 function in the \u2018lme4\u2019 package and \u201clmer\u201d function was used to assess the relationship between feret diameter and distance from river.",
+        "start_index": 19743,
+        "end_index": 19997
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Explanatory Variables as Drivers of Change in Microplastic Concentrations\n\nVariables used for stepwise regression analysis were selected based on a priori knowledge from literature suggesting factors which may influence microplastic concentration. The direction for stepwise regression was \u2018both\u2019.",
+        "start_index": 19997,
+        "end_index": 20294
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The following explanatory variables were selected for analysis: surface microplastic concentration (g km\\(^{-2}\\)), distance from river (m), rainfall \u2013 up to ten days before, including sample day (mm), chlorophyll a \u2013 average of neuston tows (\u00b5g L\\(^{-1}\\)), total population agglomeration (n), total metropolitan population (n), fishery catch (tonnes), aquaculture accumulative (tonnes) and end member",
+        "start_index": 20294,
+        "end_index": 20696
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "contribution (%)",
+        "start_index": 20696,
+        "end_index": 20712
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The end member contribution represents the percentage of river water at the sampling location. It was calculated using the salinity measured at the sampling location and assuming a salinity of 0 for the river water.",
+        "start_index": 20712,
+        "end_index": 20929
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "For sediment: surface microplastic concentration (g km\\(^{-2}\\)), distance from river (m), sample dry weight (g), rainfall \u2013 up to ten days before, including sample day (mm), total metropolitan population (n), chlorophyll a \u2013 average of top 1 m profile (\u00b5g L\\(^{-1}\\)), fishery catch (tonnes), aquaculture accumulative (tonnes) and end member contribution (%).",
+        "start_index": 20929,
+        "end_index": 21289
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The population data was obtained from 2020 population census of Japan (https://www.stat.go.jp/english/data/kokusei/index.html). The total agglomeration was calculated as the coastal cities closest to samples area. Distance from river was calculated...",
+        "start_index": 21289,
+        "end_index": 21540
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "using the \u201cmeasure\u201d tool in Google Earth (Version 9.178.0.1 https://earth.google.com/web). Salinity, chlorophyl and depth were all taken from CTD records after tows and sediment collection and rainfall data was taken from Japan Meteorological Agency (https://www.data.jma.go.jp/obd/stats/etrn/index.php)",
+        "start_index": 21540,
+        "end_index": 21843
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Fishery and aquaculture data was collected from Ministry of Agriculture, Forestry and Fisheries Census and Statistics Office, 2018 census of fishery and statistical survey on marine fisher production (https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00500210). Maps were produced with the QGIS software (https://www.qgis.org), base map of Japan was obtained from the Japanese Ministry of Land and Infrastructure (https://nlftp.mlit",
+        "start_index": 21843,
+        "end_index": 22284
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".go.jp/index.html).",
+        "start_index": 22284,
+        "end_index": 22303
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Results",
+        "start_index": 22303,
+        "end_index": 22310
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Figure 1. Surface water a) microplastic concentration (g km$^{-2}$) inner circle represent mean and outer circle represents standard deviation, n=59. b) Morphology (rigid, sheet and fibre) of suspected microplastic particles per location. c) Percentage of microplastics identified per location. d) Proportion of microplastics identified by polymer type per location",
+        "start_index": 22310,
+        "end_index": 22675
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". e-h) partial effects of socioeconomic and environmental sources and pathways (rainfall, accumulative aquaculture, total population agglomeration and accumulative fishery catch) on microplastic concentration in surface water. The x-axes represent the partial residuals of each predictor variables and the y-axes the partial residuals of the response variable.",
+        "start_index": 22675,
+        "end_index": 23035
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Figure 2. Sediment a) microplastic concentration (kg km$^2$) inner circle represents mean and outer circle represents standard deviation, n=50. b) Morphology (rigid, sheet and fibre) of suspected microplastic particles per location. c) Percentage of microplastics identified per location. d) Proportion of microplastics identified by polymer type per location",
+        "start_index": 23035,
+        "end_index": 23394
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". e-h) partial effects of socioeconomic and environmental sources and pathways (Total metropolitan population, accumulative aquaculture, rainfall and end member contribution) on microplastic concentration in sediment. The x-axes represent the partial residuals of each predictor variables and the y-axes the partial residuals of the response variable.",
+        "start_index": 23394,
+        "end_index": 23745
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Surface water",
+        "start_index": 23745,
+        "end_index": 23758
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The overall microplastic concentration for surface water was 288.7 \u00b1 651.6 g km\\(^{-2}\\) (Figure. 1a). For comparison with other studies the mean weight of particles per volume of water filtered for surface water was calculated to be 0.79 \u00b1 1.75 mg m\\(^{-3}\\).",
+        "start_index": 23758,
+        "end_index": 24018
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "A total of 44,410 particles were extracted from the surface water as suspected microplastics. Particles were then grouped into three categories based on morphology (rigid, sheet, fibre; Figure.1b) The dominant morphology of particles in the surface water was rigid fragments representing 77% of the total suspected microplastics.",
+        "start_index": 24018,
+        "end_index": 24347
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "A total of 11,700 (21.8%) particles were chemically characterized from suspected microplastic particles. In surface water 85% were positively identified as plastics, 7% as non-plastics and 8% as unidentified particles. The main polymers found were polyethylene (PE), polypropylene (PP), polystyrene (PS), polymethyl pentene (PMP) and polymethacrylate (PMA) (Figure. 1d",
+        "start_index": 24347,
+        "end_index": 24715
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".) Other plastics consisted of polyamide, nylon, polyacrylate, and polyester. Unknown represented the proportion of spectra matches that could not identified through our extensive library.",
+        "start_index": 24715,
+        "end_index": 24903
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Analysis of the environmental and socio-economic factors together with suspected microplastic concentration for surface water (Figure. 1 e-h) showed that rainfall (p < 0.01), accumulative aquaculture (p = 0.07), total population agglomeration (p = 0.01) and accumulative fishery catch (p = 0.08) were the main explanatory factors. The model including these four parameters had an AIC of 168",
+        "start_index": 24903,
+        "end_index": 25293
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".95 (adjusted r\\(^2\\) = 0.18, p = 0.03). Both rainfall (coefficient: 4.56 x 10\\(^{-02}\\) \u00b1 1.72 x 10\\(^{-02}\\), p =0.01) and Accumulative Aquaculture (coefficient: 3.74 x 10\\(^{-05}\\) \u00b1 1",
+        "start_index": 25293,
+        "end_index": 25480
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".95 x 10\\(^{-05}\\), p = 0.07) showed a positive trend with suspected surface water microplastics concentration, while Total Population Agglomeration (coefficient: -3.61 x 10\\(^{-06}\\) \u00b1 1.41 x 10\\(^{-06}\\), p = 0.02) and Accumulative Fishery Catch (coefficient: -1",
+        "start_index": 25480,
+        "end_index": 25744
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".83 x 10\\(^{-05}\\) \u00b1 1.02 x 10\\(^{-05}\\), p = 0.08) were negatively associated.",
+        "start_index": 25744,
+        "end_index": 25823
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Sediment",
+        "start_index": 25823,
+        "end_index": 25831
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The overall microplastic concentration for sediment (Figure 2a) was 1,185 \u00b1 3,829 kg km\\(^{-2}\\). For comparison with the mean number of particles per kilogram of dry sample weight was 2,579 \u00b1 8,506 pieces kg\\(^{-1}\\).",
+        "start_index": 25831,
+        "end_index": 26049
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "A total of 9,264 particles were extracted from sediment samples as suspected microplastics particles (Fig 2b). The dominant morphology of the total suspected microplastics, for sediment was sheet type representing 53.7%.",
+        "start_index": 26049,
+        "end_index": 26269
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "In the sediment 70% of the particles were identified as plastics, 7% as non-plastics and 23% as unidentified particles (Figure 2c)",
+        "start_index": 26269,
+        "end_index": 26399
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The main polymers found were polyethylene (PE), polypropylene (PP), polystyrene (PS), polyacrylate (PA), polyethylene terephthalate (PET), polyvinyl chloride (PVC) and polymethacrylate (PMA) (Figure 2d). Other plastics comprised of nylon, polycarbonate, and silicone.",
+        "start_index": 26399,
+        "end_index": 26668
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Analysis of the environmental and socio-economic factors together with suspected microplastic concentration for sediment showed total metropolitan population (p < 0.001), accumulative aquaculture (p <0.001), rainfall (p < 0.001), and end member contribution (p < 0.01) to be the most significant explanatory variables. The model had an AIC of 106.57 (adjusted $r^2 = 0.63$, p < 0",
+        "start_index": 26668,
+        "end_index": 27047
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".001). Total metropolitan population (coefficient: $2.56 \\times 10^{-06} \\pm 5.69 \\times 10^{-07}$, p < 0.001) and accumulative aquaculture (coefficient: $5.31 \\times 10^{-05} \\pm 1.15 \\times 10^{-05}$, p < 0",
+        "start_index": 27047,
+        "end_index": 27255
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".001) both had positive trends in relation to the suspected sediment microplastic concentration, while rainfall (coefficient: $-6.46 \\times 10^{-02} \\pm 1.58 \\times 10^{-02}$, p < 0.001) and end member contribution (coefficient: $4.27 \\times 10^{-01} \\pm 1.25 \\times 10^{-01}$, p < 0.01) were negatively associated",
+        "start_index": 27255,
+        "end_index": 27569
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".",
+        "start_index": 27569,
+        "end_index": 27570
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Size distribution of microplastics",
+        "start_index": 27570,
+        "end_index": 27604
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The suspected microplastics were significantly larger in sediment than in surface water (GLMM: \\( p < 0.001 \\)) with a mean feret diameter of \\( 1.46 \\pm 1.03 \\) and \\( 1.77 \\pm 0.94 \\) mm (median \\( 1.23 \\pm 0.93 \\) and \\( 1.49 \\pm 1",
+        "start_index": 27604,
+        "end_index": 27838
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".03 \\) mm) in surface water and sediment, respectively.",
+        "start_index": 27838,
+        "end_index": 27893
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Figure 3. Size distribution of microplastics in surface water and sediment excluding fibers. The solid line indicates mean Feret diameter for both surface water and sediment respectively.\nPolymer compositions",
+        "start_index": 27893,
+        "end_index": 28101
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Visualization of the community composition of polymer types using nMDS showed distinct communities in surface water and sediment (PERMANOVA: p < 0.001). Denser plastics such as PET (1.38 g cm\u207b\u00b3), PVC (1.4-1.42 g cm\u207b\u00b3), Polyacrylate (1.07-1.16 g cm\u207b\u00b3) and other plastics (e.g., nylon (1",
+        "start_index": 28101,
+        "end_index": 28386
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".15 g cm\u207b\u00b3) were present only in the sediment, while less dense polymers such as PE (0.89-0.97 g cm\u207b\u00b3), PP (0.87-0.92 g cm\u207b\u00b3) and PS (1.04-1.08 g cm\u207b\u00b3) were found in both sediment and surface water.",
+        "start_index": 28386,
+        "end_index": 28584
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Figure 4. nMDS plot of microplastics polymer types found in surface water and sediment. Red dots represent polymer found in sediment samples while blue dots represent polymers found in surface water samples respectively. Outliers for Takehara and Tateyama were removed from this plot due to overlapping results.\nDiscussion",
+        "start_index": 28584,
+        "end_index": 28906
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The presence of microplastics in the marine environment has been documented globally, not only in coastal areas but also in the deep sea and the polar regions. However the exact status of microplastic pollution remains widely unknown. Previous studies have attempted to summarize the global distribution of microplastics in the world ocean through numerical modelling",
+        "start_index": 28906,
+        "end_index": 29273
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". These models, however, have excluded sediment microplastics due to the lack of available data, limiting the possibility of a comprehensive representation of the status of microplastics pollution in the world ocean. Here, we provide for the first time a comprehensive dataset on microplastic pollution in coastal surface waters and sediments of Japan, using established protocols and methods that allows the comparison of surface water and sediment plastic pollution",
+        "start_index": 29273,
+        "end_index": 29740
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The data showed and confirmed the ubiquity of microplastics in coastal areas, and the potential role of sediment as a sink for microplastics. Sources and pathways were investigated showing the importance of both environmental and socioeconomic factors in driving microplastic concentrations in coastal areas.",
+        "start_index": 29740,
+        "end_index": 30050
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The surface water microplastic concentration found in our study was similar to the global average found by Isobe et al. 2021. However, it should be noted that data in our study reflect surface water only, while Isobe et al reported it for the entire water column not including sediment. Thus, extrapolating our data to the entire water column would certainly lead to a higher mean concentration than the global average",
+        "start_index": 30050,
+        "end_index": 30468
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Our data showed that surface water microplastics concentrations higher than that found in the Mediterranean Sea (61.6 \u00b1 83.7 g km\u207b\u00b2 Pedrotti et al. 2022), the Eurasian Arctic (0.0037 mg m\u207b\u00b3 Yakushev et al. 2021) and in Japanese rivers (0.44 mg m\u207b\u00b3 Kataoka et al. 2019)",
+        "start_index": 30468,
+        "end_index": 30738
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The sediment microplastic concentration in our study was higher than reported for Tokyo Bay (1,845-5,385 pieces kg\u207b\u00b9 dry sediment Matsuguma et al. 2017), Hiroshima Bay (24-253 pieces kg\u207b\u00b9 dry sediment Sagawa, Kawaai, and Hinata 2018), Venice Lagoon (672-2,175 pieces kg\u207b\u00b9 dry sediment Vianello et al",
+        "start_index": 30738,
+        "end_index": 31039
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". 2013) and the Belgian coast (Harbor: 67-391 pieces kg\u207b\u00b9 dry sediment Claessens et al. 2011). Higher concentrations of both surface water and sediment microplastics, in coastal areas suggests the trapping of particles near the shore, since transport of microplastics may be slower in areas where the outflow from estuaries meets the ocean.",
+        "start_index": 31039,
+        "end_index": 31379
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The methods used for the study of microplastics in sediment often differed in sampling techniques, (corers, Van-Veen grabs, box-corers) laboratory methods used for extraction, analysis of particles, (digested or non-digested) and the units for reporting concentrations found.",
+        "start_index": 31379,
+        "end_index": 31654
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "This variation in sampling and analytical techniques affect the overall results of each study, leading to a problem of incomparability. This highlights the need for the use of standardized protocols that allow harmonization between studies, and while there has been a certain effort in this direction for surface water studies, harmonization of the methods used for sediment is still lacking.",
+        "start_index": 31654,
+        "end_index": 32046
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "A significant portion of microplastics < 1mm are \u201cmissing\u201d, since the assumed inputs from land-based sources do not reflect the quantities reported on the ocean surface. This discrepancy suggests that sedimentation of microplastics occurs readily in the marine environment. Sediment microplastic concentrations were found to be an order of magnitude higher than surface water",
+        "start_index": 32046,
+        "end_index": 32421
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". This is consistent with data reported for Hiroshima Bay and Tokyo Bay, which are the only other known studies within Japan as well as coastal areas of Guangdong, South China and river mouths of Manila Bay. The higher concentrations of microplastics found in sediment highlight the sinking of microplastic particles in the coastal ocean. The exact processes involved in the vertical transfer of microplastics from surface water to sediment are still widely unknown.",
+        "start_index": 32421,
+        "end_index": 32887
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Selectivity of larger particles of microplastics occur along the shoreline in coastal areas where debris becomes beached. UV radiation and temperature encourage fragmentation of particles before being reintroduced and resuspended into the marine environment either by wind or wave motion, which is then transported towards offshore areas or may sediment along closer to the shore. Larger particles, sheet type and denser polymers (PET, PVC, PMA, PAA) and other plastics (nylon, polyamide etc",
+        "start_index": 32887,
+        "end_index": 33378
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".) were found in higher concentration in the sediment compared to the surface water, suggesting a selective sinking of these particles. Overall, our data suggest that rapid selective sinking of microplastics occurs in the coastal areas, before they reach offshore waters.",
+        "start_index": 33378,
+        "end_index": 33649
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The source of marine microplastics can be land-based anthropogenic activities and maritime activities, however the sources and pathways which can exacerbate inputs into the environment remain unclear. Contrary to our expectations, our data showed a decreasing sediment microplastic concentration with an increasing proportion of river water, and the proportion of river water was not an explanatory predictor of the surface water concentrations",
+        "start_index": 33649,
+        "end_index": 34093
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Sedimentation rates of microplastics can be influenced by the complex and dynamic nature in estuaries which show variable conditions (high turn-over) and strong gradients of physicochemical (salinity, temperature, pH, etc.) and biological parameters. As items of...",
+        "start_index": 34093,
+        "end_index": 34360
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "plastics travel along waterways, they become colonized by algae and bacteria creating biofilms. This biofouling can affect the density of particles, causing them to sink faster. Another factor that can affect the biofouling and sinking of particles is salinity \\textsuperscript{16,33,44}",
+        "start_index": 34360,
+        "end_index": 34647
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Factors such as the hydrology of the surrounding estuary, wind, tidal regimes and sedimentation rates, which are beyond the scope of this study may also play an important role in the movement and transport of microplastics \\textsuperscript{45-47}",
+        "start_index": 34647,
+        "end_index": 34895
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The removal of biofilms caused by disturbances (bioturbation, wave action, tidal movement) of the upper surface of the benthos also affects the vertical migration of microplastics \\textsuperscript{48} altering the rates of sedimentation, resuspension and removal of particles. Although the exact mechanisms are unknown, we hypothesize the removal of microplastic particles to be linked with an increased volume of freshwater in coastal areas.",
+        "start_index": 34895,
+        "end_index": 35339
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Rainfall has been reported as an influential source of input, where microplastics concentrations differed in both mass and count with seasonality \\textsuperscript{16} and the occurrence of storms \\textsuperscript{49}. Run-off after rainfall introduces microplastics from the land into waterways which flow into the ocean to contribute to the inputs and behaviour of microplastics in coastal areas \\textsuperscript{43}",
+        "start_index": 35339,
+        "end_index": 35756
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". For surface water a positive relationship was seen, which suggest high inputs of floating microplastics in coastal areas following rainfall. However, a negative relationship was observed between sediment microplastic concentration and rainfall which is consistent with the reverse trend observed for microplastic concentration in sediment and the proportion of river water at the sampling site",
+        "start_index": 35756,
+        "end_index": 36151
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Thus, the behaviour of microplastics particles changes based on the increased volume of water post rainfall where resuspension and relocation occurs relative to the hydrology of the estuarine area \\textsuperscript{45,46,50}.",
+        "start_index": 36151,
+        "end_index": 36377
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The polymers identified for microplastics cannot be traced to a definitive source but can be attributed to a range of land-based and maritime activities. PE and PP were found to be the dominant polymer in both matrices and are ubiquitous in the ocean \\textsuperscript{51} but also on land \\textsuperscript{52}",
+        "start_index": 36377,
+        "end_index": 36686
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". These polymers are also the most commercially produced polymers and are largely used in packaging and other single-use applications \\textsuperscript{53} and are widely found in wastewater leakage \\textsuperscript{54}, highlighting the direct relation between plastic use and leak in the environment",
+        "start_index": 36686,
+        "end_index": 36986
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Moreover, the population of the metropolitan area, which often encompasses the whole watershed was found to be positively correlated with sediment microplastic concentrations, while the total population agglomeration for coastal areas had a negative correlation with surface water microplastic concentration",
+        "start_index": 36986,
+        "end_index": 37295
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Therefore, as rivers are a major input source of microplastics into the ocean \\textsuperscript{20}, the integrated watershed management practices employed and waste management systems available should be considered for both inland areas along waterways and coastal settlements \\textsuperscript{5}.",
+        "start_index": 37295,
+        "end_index": 37594
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-crmbc ORCID: https://orcid.org/0009-0003-7256-9765 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 37594,
+        "end_index": 37741
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Characteristics of land use practices (urban agriculture ratio) within river basins were found to be correlated to the microplastics concentrations in Japanese rivers. The waste management practices of rural coastal communities must also be considered since larger metropolitan agglomerations may have more effective waste management systems than coastal areas, as reflected by the positive and negative correlations shown in our data for metropolitan and coastal areas.",
+        "start_index": 37741,
+        "end_index": 38211
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Marine activities are a non-negligeable source of plastics pollution in the ocean, with 86% of the mega plastics found in the Great Pacific Garbage Patch estimated to originate from fishing nets. Aquaculture was the third and first predictor of microplastic concentration in surface water and sediment, respectively. Fragmentation from larger items such as buoys, nets and other derelict gear may influence the microplastic concentrations within an area where such activity is prevalent",
+        "start_index": 38211,
+        "end_index": 38697
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". As maritime activities such as fishing, aquaculture and shipping are predicted to increase, there is an urgent need for legislation regarding removal and recycling of derelict gear for both the fishing and aquaculture industries. This is particularly true in rural coastal areas where waste management of derelict gear from these activities may be left unmanned. From our observations during sample collection in some areas it was noted that large quantities of equipment were left exposed, which increases the likelihood of weathering and fragmentation over time",
+        "start_index": 38697,
+        "end_index": 39262
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ".",
+        "start_index": 39262,
+        "end_index": 39263
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "The ubiquitous nature of microplastics in the marine environment has been reported globally for both sediment and surface waters. However, few studies have reported on the present status of microplastics pollution in coastal areas of Japan",
+        "start_index": 39263,
+        "end_index": 39502
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The inconsistency in sampling techniques, methods of extraction, and units of reporting microplastic concentrations prove to be a major challenge in this emerging field, especially for microplastics in marine sediments, highlighting the need for reproducible methods and data to assess the extent of microplastic pollution in the marine environment, understand their dynamics and design management strategies to tackle this environmental problem",
+        "start_index": 39502,
+        "end_index": 39949
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". This study encompasses a large geographic range with diverse socio-economic context and provides baseline data on microplastics in coastal waters and sediment around Japan. The data obtained showed higher concentrations of microplastics in sediments than in surface water suggesting a high rate of sedimentation occurring in coastal areas, especially for the larger-sized and denser plastic particles. Thus, sediment may represent an important sink for microplastics in coastal areas",
+        "start_index": 39949,
+        "end_index": 40434
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". The investigation of socio-economic and environmental factors influencing microplastic concentrations in both surface water and sediment highlighted rainfall, population, aquaculture",
+        "start_index": 40434,
+        "end_index": 40618
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "and fisheries to be major inputs of microplastics into the environment. However, greater work is necessary to fully understand the sources and pathways of microplastics from land to prevent leakages into the environment. This will require the quantification of anthropogenic activities along coastal areas, the assessment of waste management systems and the detailed recording of integrated watershed use along associated waterways. Nevertheless, our study shows the importance of both land and maritime activities as sources of microplastic particularly in rural areas",
+        "start_index": 40618,
+        "end_index": 41187
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Now more than ever, there exists an urgent need for legislation to improve waste management for both land and maritime activities to stop plastic entering the ocean.",
+        "start_index": 41187,
+        "end_index": 41354
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 41354,
+        "end_index": 41370
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Special thanks to the Tara Ocean Foundation, Tara Ocean Japan and the Japanese Association for Marine Biology (JAMBIO). We are keen to thank the commitment of the people and the following institutions for their financial and scientific support that made the Tara Jambio Microplastic Joint Survey possible: agn\u00e8s b",
+        "start_index": 41370,
+        "end_index": 41683
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Japan, Veolia Japan, Marubeni Fashion Link, Prof Kazuo Inaba (President of JAMBIO), Shimoda Marine Research Center, University of Tsukuba, Etienne Bourgois (President of Tara Ocean Foundation and Tara Ocean Japan), Yuki Ozawa (Tara Ocean Japan), the directors, private donators and all volunteers of Tara Ocean Japan, and all supporters of the crowdfunding campaign",
+        "start_index": 41683,
+        "end_index": 42050
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Field surveys were performed thanks to the support of the following marine stations and their technical staffs: Sadaharu Iwasaki and Prof",
+        "start_index": 42050,
+        "end_index": 42189
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Susumu Ohtsuka (Director), Fisheries Laboratory, Blue Innovation Division, Seto Inland Sea Carbon-neutral Research Center; Shoichi Hamamo and Hidenori Katsuragawa, Akkeshi Marine Station, Field Science Center For Northern Biosphere, Hokkaido University; Shouzo Ogiso, and Prof Nobuo Suzuki (Director), Noto Marine Laboratory, Kanazawa University; Prof",
+        "start_index": 42189,
+        "end_index": 42542
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Hajime Matsubara (Director) Noto Center For Fisheries Science And Technology, Kanazawa University; Kentaro Tanaka and Prof. Mutsunori Tokeshi (Director), Amakusa Marine Biological Laboratory, Kyushu University; Masashi Fukuoka and Prof. Gohta Goshima (Director), Sugashima Biological Marine Laboratory, Nagoya University; Toyokazu Shimotani and Prof",
+        "start_index": 42542,
+        "end_index": 42893
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Hironori Ando (Director), Marine Biological Station, Sado Island Center for Ecological Sustainability, Niigata University; Ryuta Yoshida and Prof. Masato Kiyomoto (Director), Tateyama Marine Laboratory, Institute for Marine And Coastal Research, Ochanomizu University; Waichiro Godo, Kazuhiro Saito and Prof",
+        "start_index": 42893,
+        "end_index": 43202
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Tatsuya Sakamoto (Director), Ushimado Marine Institute, Okayama University; Erina Kawai, OIST Marine Science Station, Okinawa Institute Of Science And Technology; Masanori Nishizaki and Dr Masa-aki Yoshida (Director), Oki Marine Biological Station, Shimane University; Masahiko Washio, Hirokazu Abe and Prof",
+        "start_index": 43202,
+        "end_index": 43511
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Gaku Kumano (Director), Asamushi Research Center for Marine Biology, Tohoku University; Prof. Minoru Ikeda (Director), Onagawa Field Center, Tohoku University; Mori Jinza and Prof",
+        "start_index": 43511,
+        "end_index": 43692
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Shunichi Takahashi (Director), Sesoko Station, Tropical Biosphere Research Center, University of The Ryukyus; Manabu Ooue, Jiro Takano, Daisuke Shibata, Chika Nakamura, George Northen, and Prof . Yasunori Sasakura (Director), Shimoda Marine Research Center, University f Tsukuba",
+        "start_index": 43692,
+        "end_index": 43972
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Finally, we would like to thank the following Fisheries agencies: Shimoda, Shizuoka; Onna, Okinawa; Yomitan, Okinawa; Sawata,",
+        "start_index": 43972,
+        "end_index": 44099
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Sado, Niigata; Mano, Sado, Niigata; Futami, Sado, Niigata; Kanaizumi South, Sado, Niigata; Himezu, Niigata and the Aomori Coast Guard Office",
+        "start_index": 44099,
+        "end_index": 44239
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Author contributions",
+        "start_index": 44239,
+        "end_index": 44259
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "J.J.R took the lead in writing the manuscript with input from all authors, conducted surveys, processed all samples for sediment and some for surface water, ImageJ analysis of all photos, data analysis, polymer identification using FTIR, produced graphs and images and designed the protocols for extraction of microplastics. KS conducted surveys and processed surface water samples. SP assisted with the polymer identification using \u03bc-FTIR and produced the graphical abstract",
+        "start_index": 44259,
+        "end_index": 44734
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". TJC conducted surveys, provided technical knowledge of locations at each sampling location. YP conducted surveys, management, conceptualization and provided funding. CKL provided funding and provided machinery for FTIR analysis. SA supervised all aspects of the conceptualization, planning and design of this work as well as conducted surveys, secured funding, oversaw the data analysis and produced maps used in this study.",
+        "start_index": 44734,
+        "end_index": 45160
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Data availability\nThe datasets used in this study can be found at the Zenodo repository (https://doi.org/10.5281/zenodo.1482995) and photo datasets can be found at the Dryad repository (https://doi.org/10.5061/dryad.mgqnk9992).\nReferences",
+        "start_index": 45160,
+        "end_index": 45398
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "1. Plastics Europe. Plastics \u2013 the fast Facts 2023. Plastics Europe https://plasticseurope.org/knowledge-hub/plastics-the-fast-facts-2023/ (2023).\n2. Jambeck, J. R. et al. Plastic waste inputs from land into the ocean. Science 347, 768\u2013771 (2015).",
+        "start_index": 45398,
+        "end_index": 45645
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "3. Auta, H. S., Emenike, C. U. & Fauziah, S. H. Distribution and importance of microplastics in the marine environment: A review of the sources, fate, effects, and potential solutions. Environ. Int. 102, 165\u2013176 (2017).",
+        "start_index": 45645,
+        "end_index": 45864
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "4. Zhou, C., Bi, R., Su, C., Liu, W. & Wang, T. The emerging issue of microplastics in marine environment: A bibliometric analysis from 2004 to 2020. Mar. Pollut. Bull. 179, 113712 (2022).",
+        "start_index": 45864,
+        "end_index": 46052
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "5. Lin, C.-T., Chiu, M.-C. & Kuo, M.-H. A Mini-Review of Strategies for Quantifying Anthropogenic Activities in Microplastic Studies in Aquatic Environments. Polymers 14, 198 (2022).\n6. Isobe, A. The fate of missing ocean plastics: Are they just a marine environmental problem? Sci. Total Environ. 13 (2022).",
+        "start_index": 46052,
+        "end_index": 46360
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "7. Isobe, A. et al. Selective transport of microplastics and mesoplastics by drifting in coastal waters. Mar. Pollut. Bull. 89, 324\u2013330 (2014).\n8. C\u00f3zar, A. et al. Plastic debris in the open ocean. Proc. Natl. Acad. Sci. 111, 10239\u201310244 (2014).",
+        "start_index": 46360,
+        "end_index": 46605
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "9. Cole, M., Lindeque, P., Halsband, C. & Galloway, T. S. Microplastics as contaminants in the marine environment: A review. Mar. Pollut. Bull. 62, 2588\u20132597 (2011).\n10. Andrady, A. L. Microplastics in the marine environment. Mar. Pollut. Bull. 62, 1596\u20131605 (2011).",
+        "start_index": 46605,
+        "end_index": 46871
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "11. Thompson, R. C. et al. Lost at Sea: Where Is All the Plastic? Science 304, 838\u2013838 (2004).",
+        "start_index": 46871,
+        "end_index": 46965
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "12. Masura, J., Baker, J., Foster, G. & Arthur, C. Laboratory Methods for the Analysis of Microplastics in the Marine Environment: Recommendations for Quantifying Synthetic Particles in Waters and Sediments. https://repository.oceanbestpractices.org/handle/11329/1076 (2015) doi:10.25607/OBP-604.",
+        "start_index": 46965,
+        "end_index": 47261
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "13. Arthur, C., Baker, J. & Bamford, H. Proceedings of the International Research Workshop on the Occurrence, Effects, and Fate of Microplastic Marine Debris, September 9-11, 2008.\nUniversity of Washington Tacoma, Tacoma, WA, USA. in (United States, National Ocean Service., Office of Response and Restoration, 2009).",
+        "start_index": 47261,
+        "end_index": 47578
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "14. Liu, L., Xu, M., Ye, Y. & Zhang, B. On the degradation of (micro)plastics: Degradation methods, influencing factors, environmental impacts. Sci. Total Environ. 806, 151312 (2022).",
+        "start_index": 47578,
+        "end_index": 47761
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "15. Manzoor, S., Naqash, N., Rashid, G. & Singh, R. Plastic Material Degradation and Formation of Microplastic in the Environment: A Review. Mater. Today Proc. 56, 3254\u20133260 (2022).",
+        "start_index": 47761,
+        "end_index": 47942
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "16. Kataoka, T., Nihei, Y., Kudou, K. & Hinata, H. Assessment of the sources and inflow processes of microplastics in the river environments of Japan. Environ. Pollut. 244, 958\u2013965 (2019).",
+        "start_index": 47942,
+        "end_index": 48130
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "17. Thompson, R. C. Microplastics in the Marine Environment: Sources, Consequences and Solutions. in Marine Anthropogenic Litter (eds. Bergmann, M., Gutow, L. & Klages, M.) 185\u2013200 (Springer International Publishing, Cham, 2015). doi:10.1007/978-3-319-16510-3_7.",
+        "start_index": 48130,
+        "end_index": 48392
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "18. Browne, M. A. Sources and Pathways of Microplastics to Habitats. in Marine Anthropogenic Litter (eds. Bergmann, M., Gutow, L. & Klages, M.) 229\u2013244 (Springer International Publishing, Cham, 2015). doi:10.1007/978-3-319-16510-3_9.",
+        "start_index": 48392,
+        "end_index": 48625
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "19. Lebreton, L. C. M. et al. River plastic emissions to the world\u2019s oceans. Nat. Commun. 8, 15611 (2017).",
+        "start_index": 48625,
+        "end_index": 48731
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "20. Meijer, L. J. J., van Emmerik, T., van der Ent, R., Schmidt, C. & Lebreton, L. More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Sci. Adv. 7, eaaz5803 (2021).",
+        "start_index": 48731,
+        "end_index": 48934
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "21. Isobe, A. et al. A multilevel dataset of microplastic abundance in the world\u2019s upper ocean and the Laurentian Great Lakes. Microplastics Nanoplastics 1, 16 (2021).\n\n22. Pedrotti, M. L. et al. An integrative assessment of the plastic debris load in the Mediterranean Sea. Sci. Total Environ. 838, 155958 (2022).",
+        "start_index": 48934,
+        "end_index": 49248
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "23. Morales-Caselles, C. et al. An inshore\u2013offshore sorting system revealed from global classification of ocean litter. Nat. Sustain. 4, 484\u2013493 (2021).\n\n24. Nakano, H. & Arakawa, H. Oceanic microplastics in Japan: A brief review on research protocol and present pollution. Reg. Stud. Mar. Sci. 51, 102201 (2022).",
+        "start_index": 49248,
+        "end_index": 49561
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "25. Hidalgo-Ruz, V., Gutow, L., Thompson, R. C. & Thiel, M. Microplastics in the Marine Environment: A Review of the Methods Used for Identification and Quantification. Environ. Sci. Technol. 46, 3060\u20133075 (2012).",
+        "start_index": 49561,
+        "end_index": 49774
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "26. Gerlach, R., Dobb, D., Raab, G. & Nocerino, J. Gy sampling theory in environmental studies. 1. Assessing soil splitting protocols. *J. Chemom.* **16**, 321\u2013328 (2002).\n27. R Core Team. R: A Language and Environment for Statistical Computing. https://www.r-project.org/ (2024).",
+        "start_index": 49774,
+        "end_index": 50054
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "28. Wickham, H. *et al.* Welcome to the Tidyverse. *J Open Source Softw* **4**, 1686 (2019).\n29. Kassambara, A. ggpubr: \u2018ggplot2\u2019 Based Publication Ready Plots. (2020).\n30. Pedersen, T. L. patchwork: The Composer of Plots. (2020).",
+        "start_index": 50054,
+        "end_index": 50284
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "31. Oksanen, J. *et al.* vegan: Community Ecology Package. https://vegandevs.github.io/vegan/ (2024).\n32. Bates, D., M\u00e4chler, M., Bolker, B. & Walker, S. Fitting Linear Mixed-Effects Models Using lme4. *J. Stat. Softw.* **67**, 1\u201348 (2015).",
+        "start_index": 50284,
+        "end_index": 50524
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "33. Nakano, H., Arakawa, H. & Tokai, T. Microplastics on the sea surface of the semi-closed Tokyo Bay. *Mar. Pollut. Bull.* **162**, 111887 (2021).",
+        "start_index": 50524,
+        "end_index": 50671
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "34. Sagawa, N., Kawaai, K. & Hinata, H. Abundance and size of microplastics in a coastal sea: Comparison among bottom sediment, beach sediment, and surface water. *Mar. Pollut. Bull.* **133**, 532\u2013542 (2018).",
+        "start_index": 50671,
+        "end_index": 50879
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "35. Matsuguma, Y. *et al.* Microplastics in sediment cores from Asia and Africa as indicators of temporal trends in plastic pollution. *Arch. Environ. Contam. Toxicol.* **73**, 230\u2013239 (2017).",
+        "start_index": 50879,
+        "end_index": 51071
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "36. Claessens, M., Meester, S. D., Landuyt, L. V., Clerck, K. D. & Janssen, C. R. Occurrence and distribution of microplastics in marine sediments along the Belgian coast. *Mar. Pollut. Bull.* **62**, 2199\u20132204 (2011).",
+        "start_index": 51071,
+        "end_index": 51289
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "37. Isobe, A. & Iwasaki, S. The fate of missing ocean plastics: Are they just a marine environmental problem? *Sci. Total Environ.* **825**, 153935 (2022).",
+        "start_index": 51289,
+        "end_index": 51444
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "38. Osorio, E. D., Tanchuling, M. A. N. & Diola, Ma. B. L. D. Microplastics Occurrence in Surface Waters and Sediments in Five River Mouths of Manila Bay. *Front. Environ. Sci.* **9**, (2021).",
+        "start_index": 51444,
+        "end_index": 51636
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "39. Maes, T. *et al.* Microplastics Baseline Surveys at the Water Surface and in Sediments of the North-East Atlantic. *Front. Mar. Sci.* **4**, (2017).\n40. Yakushev, E. *et al.* Microplastics distribution in the Eurasian Arctic is affected by Atlantic waters and Siberian rivers. *Commun. Earth Environ.* **2**, 1\u201310 (2021).",
+        "start_index": 51636,
+        "end_index": 51961
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "41. Vianello, A. *et al.* Microplastic particles in sediments of Lagoon of Venice, Italy: First observations on occurrence, spatial patterns and identification. *Estuar. Coast. Shelf Sci.* **130**, 54\u201361 (2013).\n42. Li, Y. et al. Microplastics in Surface Waters and Sediments from Guangdong Coastal Areas, South China. *Sustainability* **13**, 2691 (2021).",
+        "start_index": 51961,
+        "end_index": 52317
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "43. Wang, T. et al. The processes and transport fluxes of land-based macroplastics and microplastics entering the ocean via rivers. *J. Hazard. Mater.* **466**, 133623 (2024).",
+        "start_index": 52317,
+        "end_index": 52492
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "44. Choy, C. A. et al. The vertical distribution and biological transport of marine microplastics across the epipelagic and mesopelagic water column. *Sci. Rep.* **9**, 7843 (2019).\n45. Cheng, Z. et al. Historical behaviors of microplastic in estuarine and riverine reservoir sediment. *Mar. Pollut. Bull.* **202**, 116331 (2024).",
+        "start_index": 52492,
+        "end_index": 52822
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "46. Hurley, R., Woodward, J. & Rothwell, J. J. Microplastic contamination of river beds significantly reduced by catchment-wide flooding. *Nat. Geosci.* **11**, 251\u2013257 (2018).",
+        "start_index": 52822,
+        "end_index": 52998
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "47. Kowalski, N., Reichardt, A. M. & Waniek, J. J. Sinking rates of microplastics and potential implications of their alteration by physical, biological, and chemical factors. *Mar. Pollut. Bull.* **109**, 310\u2013319 (2016).",
+        "start_index": 52998,
+        "end_index": 53219
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "48. Fan, S. et al. Biological effects on the migration and transformation of microplastics in the marine environment. *Mar. Environ. Res.* **185**, 105875 (2023).\n49. Hitchcock, J. N. Storm events as key moments of microplastic contamination in aquatic ecosystems. *Sci. Total Environ.* **734**, 139436 (2020).",
+        "start_index": 53219,
+        "end_index": 53529
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "50. Harris, P. T. The fate of microplastic in marine sedimentary environments: A review and synthesis. *Mar. Pollut. Bull.* **158**, 111398 (2020).",
+        "start_index": 53529,
+        "end_index": 53676
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "51. Medina Faull, L. E., Zaliznyak, T. & Taylor, G. T. From the Caribbean to the Arctic, the most abundant microplastic particles in the ocean have escaped detection. *Mar. Pollut. Bull.* **202**, 116338 (2024).",
+        "start_index": 53676,
+        "end_index": 53887
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "52. Geyer, R., Jambeck, J. R. & Law, K. L. Production, use, and fate of all plastics ever made. *Sci. Adv.* **3**, e1700782 (2017).\n53. Landrigan, P. J. et al. The Minderoo-Monaco Commission on Plastics and Human Health. *Ann. Glob. Health* **89**, (2023).",
+        "start_index": 53887,
+        "end_index": 54143
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "54. He, P., Chen, L., Shao, L., Zhang, H. & L\u00fc, F. Municipal solid waste (MSW) landfill: A source of microplastics? -Evidence of microplastics in landfill leachate. *Water Res.* **159**, 38\u201345 (2019).",
+        "start_index": 54143,
+        "end_index": 54343
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "55. Lebreton, L. et al. Evidence that the Great Pacific Garbage Patch is rapidly accumulating plastic. *Sci. Rep.* **8**, 4666 (2018).\n56. Richardson, K., Hardesty, B. D., Vince, J. & Wilcox, C. Global estimates of fishing gear lost to the ocean each year. *Sci. Adv.* **8**, eabq0135 (2022).",
+        "start_index": 54343,
+        "end_index": 54635
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "57. Jang, M. et al. A close relationship between microplastic contamination and coastal area use pattern. *Water Res.* **171**, 115400 (2020).",
+        "start_index": 54635,
+        "end_index": 54777
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "58. *Opportunities and Challenges*. (Rome, 2014).\nConsortium Authors: Tara Jambio Microplastic Consortium *",
+        "start_index": 54777,
+        "end_index": 54884
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Yusuke Kondo1, Masahiro Nakaoka2, Hajime Matsubara3, Nobou Suzuki4, Seiji Arakaki5, Gotha Goshima6, Akihito Omori7, Masato Kiyomoto8, Tatsuya Sakamoto9, Masa-aki Yoshida10, Minoru Ikeda11, Toyonobu Fujii12, Gaku Kumano13, Shunichi",
+        "start_index": 54884,
+        "end_index": 55114
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Takahashi14, Timothy Ravasi15, Erina Kawaii16, Jonathan J",
+        "start_index": 55114,
+        "end_index": 55171
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": ". Ramtahal17, Sylvain Agostini18,19",
+        "start_index": 55171,
+        "end_index": 55206
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "Affiliations:\n\n1 Fisheries Laboratory, Blue Innovation Division, Seto Inland Sea Carbon-neutral Research Center, Hiroshima University, 5-8-1 Minatomachi, Takehara, Hiroshima 725-0024, Japan\n\n2 Field Science Center for Northern Biosphere, Hokkaido University, Aikappu, Akkeshi, Hokkaido 088-1113, JAPAN",
+        "start_index": 55206,
+        "end_index": 55507
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "3 Noto Center for Fisheries Science and Technology, Kanazawa University, Ossaka, Noto-cho, Ishikawa 927-0552, Japan\n\n4 Noto Marine Laboratory, Division of Marine Environmental Studies, Institute of Nature and Environmental Technology, Kanazawa University, Ogi, Noto-cho, Housu-gun, Ishikawa 927-0553, Japan",
+        "start_index": 55507,
+        "end_index": 55813
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "5 Amakusa Marine Biological Laboratory, 2231 Tomioka, Reihoku, Amakusa, Kumamoto 863-2507, Japan\n\n6 Sugashima Marine Biological Laboratory, 429-63 Sugashima, Toba, Mie Prefecture 517-0004, Japan",
+        "start_index": 55813,
+        "end_index": 56007
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "7 Marine Biological Station, Sado Island Center for Ecological Sustainability, Niigata University, 87 Tassha, Sado, Niigata 952-2135, Japan\n\n8 Tateyama Marine Laboratory, Institute for Marine and Coastal Research, Ochanomizu University, Kouyatsu 11, Tateyama, Chiba 294-0301, Japan",
+        "start_index": 56007,
+        "end_index": 56288
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "9 Ushimado Marine Institute, 130-17, Kashino, Ushimado, Setouchi, 701-4303, Japan\n\n10 Marine Biological Science Section, Education and Research Center for Biological Resources, Faculty of Life and Environmental Science, Shimane University, Oki, Shimane, 685-0024, Japan",
+        "start_index": 56288,
+        "end_index": 56557
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "11 Laboratory of Marine & Coastal Ecosystem Science, Onagawa Field Center, Graduate School of Agriculture, Tohoku University, 2-10-1, Konori, Onagawa, Oshika, Miyagi 986-2248, Japan",
+        "start_index": 56557,
+        "end_index": 56738
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "12 Laboratory of Marine & Coastal Ecosystem Science, Onagawa Field Center, Graduate School of Agriculture, Tohoku University, 2-10-1, Konori, Onagawa, Oshika, Miyagi 986-2248, Japan\n\n13 Asamushi Research Center for Marine Biology, Graduate School of Life Sciences, Tohoku University, 9 Sakamoto, Asamushi, Aomori, 039-3501 JAPAN",
+        "start_index": 56738,
+        "end_index": 57066
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "14 Sesoko Station, Tropical Biosphere Research Center, University of the Ryukyus, 3422 Sesoko, Motobu, Okinawa 905-0227, Japan\n\n15 Marine Climate Change Unit, Okinawa Institute of Science and Technology Graduate University, 1919-1 Tancha, Onna-son, Kunigami-gun, Okinawa, Japan 904-0495, Japan",
+        "start_index": 57066,
+        "end_index": 57359
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "16 Evolutionary Genomics Unit, Okinawa Institute of Science and Technology Graduate University, 1919-1 Tancha, Onna-son, Kunigami-gun, Okinawa, Japan 904-0495, Japan\n\n17 Shimoda Marine Research Center, University of Tsukuba, Shimoda 5-10-1, Shizuoka, 415-0025, Japan.",
+        "start_index": 57359,
+        "end_index": 57626
+    },
+    {
+        "document_name": "53.txt",
+        "chunk_text": "18 UMR-Entropie,IRD New Caledonia, Noumea, New Caledonia\n\nhttps://doi.org/10.26434/chemrxiv-2025-crmbc ORCID: https://orcid.org/0009-0003-7256-9765 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 57626,
+        "end_index": 57831
+    }
+]

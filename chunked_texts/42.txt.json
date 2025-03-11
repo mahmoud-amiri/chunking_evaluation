@@ -1,0 +1,1316 @@
+[
+    {
+        "document_name": "42.txt",
+        "chunk_text": "One-dimensional Metallicity and \u03c0-band Superconductivity in Roh-dizonate Radical Pancakes\n\nAlvaro Lobato, Fernando Izquierdo-Ruiz, and Martin Rahm*\n\nDepartment of Chemistry and Chemical Engineering, Chalmers University of Technology \u2013 SE-412 96 Gothenburg, Sweden.\n\nKEYWORDS. oxocarbon anions, organic conductors, organic superconductors, structure prediction, oxidation states, chemical bonding",
+        "start_index": 0,
+        "end_index": 395
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "ABSTRACT: Computational exploration of condensed phases made of potassium and carbon monoxide leads to predictions of stable salts composed of cyclic six-membered oxocarbon anions and K\u207a cations, K\u2083(C\u2086O\u2086)\u2098. The states of reduction in these systems are wide ranging, with C\u2086O\u2086 molecules formally reduced by -2, -3, -3.5 and -6, in semi-conducting and metallic phases",
+        "start_index": 395,
+        "end_index": 760
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Special attention is paid to K\u2083C\u2086O\u2086, in which triply charged radical anions stack closely and equidistantly in one-dimension. Equidistant interactions of radicals are exceedingly rare and typically unstable due to spontaneous symmetry breaking, Peierls or Jahn-Teller distortion. The notable exception of K\u2083C\u2086O\u2086 is explained by inter-ring multi-center bonding, also known as pancake bonding in combination with large ionic repulsion",
+        "start_index": 760,
+        "end_index": 1194
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". This fascinating interplay of interactions facilitates an exceptionally high density of states at the Fermi level and leads us to predictions of extreme metallicity, a negative temperature coefficient of resistivity, and rare \u03c0-band superconductivity at ambient conditions of pressure. These predictions reinvigorate the search for new organic conductors and superconductors using molecular design of metallic salts.",
+        "start_index": 1194,
+        "end_index": 1612
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "INTRODUCTION",
+        "start_index": 1612,
+        "end_index": 1624
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "In this computational study, we address materials composed formally of K and CO, and focus especially on K\u2083C\u2086O\u2086, a material we predict to feature oxocarbon radical anions, extreme metallicity and the potential for rare \u03c0-band superconductivity. Our study is in part motivated by the possibility of producing metallic organic salts, i.e., compounds where ionic and covalent bonding situations are mixed in a metallic solid-state structure",
+        "start_index": 1624,
+        "end_index": 2061
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Such compounds can exhibit a range of properties needed in, for example, spintronics, superconductors, optoelectronic devices, and electrochemical sensors.",
+        "start_index": 2061,
+        "end_index": 2218
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "CO is a common ligand useful for probing electronic structure in part due to its ability to engage in \u03c0-backdonation. However, CO can also react with itself. The thermodynamic ground state of CO in the condensed phase is experimentally uncertain. Predictions (at T\u21920K) indicate that the ground state is not molecular, but akin to a lactone-like polymer",
+        "start_index": 2218,
+        "end_index": 2570
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". A variety of CO-based polymeric structures, both metallic and narrow band gap semiconductors, have been observed at elevated pressures. The reactivity of CO is increased by reduction, which allows it to undergo homoligation reactions, forming oxocarbon anions. Such processes constitute potent C-C coupling routes and synthesis of oxocarbon-based materials have been pursued over a century",
+        "start_index": 2570,
+        "end_index": 2961
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The first attempts were probably made by Berzelius, Wohler, and Kindl in 1823, who reacted potassium hydroxide with carbon to form dipotassium croconate (K\u2082C\u2086O\u2086). Around the same time, Liebig circulating CO through molten potassium and made what was much later identified as a mixture of potassium ethylenediolate and potassium benzenexololate",
+        "start_index": 2961,
+        "end_index": 3306
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Since then, a variety of s-, p-, d- and f-block elements have been used to reduce CO yielding different oxocarbon compounds (see e.g., ref 9 and references therein). Some oxocarbon compounds are stabilized by extensive \u03c0-conjugation, and anions tend to adopt cyclic structures with all carbon atoms bonded to a carbonyl or an enolic oxygen atom",
+        "start_index": 3306,
+        "end_index": 3652
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Interest in such materials has various motivations: Materials such as oxocarbon squarate, Li\u2083C\u2086O\u2086 are promising anode materials. Others, such as M\u2083C\u2086O\u2086 (M=Li, Na and K), are ultra-high capacitors and cathode materials",
+        "start_index": 3652,
+        "end_index": 3871
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Pb\u2083C\u2086O\u2086 is a potential photovoltaic material, while M(C\u2086O\u2086) (M=Fe, Co, Mn), Mn\u2083(C\u2086O\u2086)\u2082 and Cu\u2083(C\u2086O\u2086)\u2082 are examples of narrow-band-gap metal organic frameworks. Some oxocarbon anions facilitate the production of hydrocarbons through Fischer\u2013Tropsch-type processes.",
+        "start_index": 3871,
+        "end_index": 4136
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Several studies have focused on the properties of these molecular anions, including, for example, how the aromaticity (or anti-aromaticity) of anions may vary with charge. In contrast, relatively little attention have been paid to the bonding situation in the solid state, where ionic, covalent and van der Waals interactions can combine to create unique extended chemical structures [see e.g., 33\u201335]",
+        "start_index": 4136,
+        "end_index": 4537
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". In what follows, we outline predictions of the solid-state phase diagram of K\u2086(CO)\u2086 at ambient conditions of pressure. We then focus on explaining the unusual Ps/mmm ground state of K\u2083C\u2086O\u2086, which we predict to be both highly ionic, metallic, and",
+        "start_index": 4537,
+        "end_index": 4784
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "superconducting. Finally, we propose K$_x$C$_6$O$_6$ as a design template for a family of conductors and superconductors, and we outline rationales for engineering their electronic structure.",
+        "start_index": 4784,
+        "end_index": 4975
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**RESULTS AND DISCUSSION**",
+        "start_index": 4975,
+        "end_index": 5001
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We rely on structure prediction algorithms coupled to large-scale Density Functional Theory (DFT) calculations to explore the possible chemistry between K and CO. The procedures underlying these efforts are detailed in the computational methods section. Our predictions of the thermodynamic stability of various K:CO stoichiometries are summarized by a convex hull diagram in Figure 1",
+        "start_index": 5001,
+        "end_index": 5385
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". In this representation, stable compounds lie on the solid line, whereas those phases that are unstable or metastable with respect to decomposition into neighboring stoichiometries lie above the line. Our reference of pure CO, i.e., where x$_{CO}$=1 in Figure 1, is a chain-like Pna2$_1$ phase identical to the predictions by Xia et al",
+        "start_index": 5385,
+        "end_index": 5721
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Structural details (Section S2) and phonon band structures of all ground state phases (Section S4) used to construct the convex hull are provided in the Supporting Information.",
+        "start_index": 5721,
+        "end_index": 5899
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Figure 1.** Convex hull of the K:CO system showing formation enthalpies at T\u21920K and ambient conditions of pressure. Structures predicted to be of lowest enthalpy at a given stoichiometry are indicated by filled squares for stable phases, and open squares for thermodynamically or dynamically unstable or metastable phases. Crossed circles indicate higher enthalpy structures",
+        "start_index": 5899,
+        "end_index": 6275
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The experimentally known Fddd phase of K$_3$C$_6$O$_6$ is indicated by a black star.",
+        "start_index": 6275,
+        "end_index": 6361
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Our calculations predict a clear preference for homologation of CO into a variety of molecules and extended phases that are stable with respect to elemental K and pure CO. These structures range from one- and three-dimensional polymers to three-, four- and six-membered oxocarbon anions rings (see Figure S2 for some selected examples of these structures). One way to rationalize the potential for unconventional K-OC coordination chemistry in such phases is to view K as a transition metal",
+        "start_index": 6361,
+        "end_index": 6851
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Experiments and calculations support a 4s-3d electronic configurational reordering of K at high pressure (ca 30-50 GPa). That such electronic transmutation might occur at lower \u2013 even ambient \u2013 pressure conditions can be argued in terms of chemical precompression, the notion that chemical bonding effectively compress the constituent atoms of molecules and materials",
+        "start_index": 6851,
+        "end_index": 7220
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". We do not predict K 3d orbital participation in bonding in any of the ground state phases of our study, but we did not exhaustively analyze predicted metastable phases.",
+        "start_index": 7220,
+        "end_index": 7390
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Compounds in which molecular CO remains distinct as a ligand coordinated to K are here exclusively calculated to be unstable or metastable with respect to decomposition into other phases. We note, however, that Wu et al. have detected eight-coordinate carbonyl complexes with Ca, Ba and Sr in low temperature matrix isolation experiments",
+        "start_index": 7390,
+        "end_index": 7727
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". We predict six-membered oxocarbon anions to be the most thermodynamically favored, as was also calculated by Yamashita et al with Na as counterions, and Li and Lian et al",
+        "start_index": 7727,
+        "end_index": 7899
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". We refer to these six-membered cyclic C$_6$O$_6^{2-}$ as rhodizonates but note that they could alternatively be called ciclohexanecarboxylates, hexaketoctocyclooctane, triquinoylates, or tetrahydroxybenzoquinones (THBQ). Several rhodizonate-based salts have been previously synthesized (see e.g",
+        "start_index": 7899,
+        "end_index": 8195
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "., ), and we will return to discuss some of them in what follows.",
+        "start_index": 8195,
+        "end_index": 8260
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "All ground states featured on the K:CO convex hull shown in Figure 1 are based on differently charged rhodizonate anions (Figure 2a-d). Rhodizonates have a remarkable ability to hold different charges, and while a formal charge of $-2$ is most common in experimental structures, -4 and -3 have been inferred",
+        "start_index": 8260,
+        "end_index": 8567
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". One of these, the Fddd phase of K$_3$C$_6$O$_6$, is the only pure K:oxocarbon material in the Cambridge structural database (Figure 2a). Because of its size (28 atoms in the primitive cell) the Fddd phase could not be identified by our structure search. However, and encouragingly, our predicted lowest energy phase for the same stoichiometry calculates as only 48 meV/u.c. (1",
+        "start_index": 8567,
+        "end_index": 8945
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".1 kcal/mol) above the experimental structure (Figure 1). We note that whereas our structure search has been extensive it cannot be exhaustive in part due to practical limitations in the sizes of unit cells described. Nonetheless, any missing ground state phase is likely to also feature rhodizonate ions.",
+        "start_index": 8945,
+        "end_index": 9250
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "In the Fddd phase of K$_3$C$_6$O$_6$, formally doubly charged (C$_6$O$_6^{2-}$) rhodizonates orient in layers (Figure 2a). The anions in this experimental structure are slightly distorted from planarity with a C-C-C-C dihedral angle of 10.9\u00b0, an angle in good agreement with our DFT predictions of 12.2\u00b0",
+        "start_index": 9250,
+        "end_index": 9553
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The K$^+$ counterions are situated in-between layers of anions in such a way as to closely coordinate six oxygens. The identification of what is formally (C$_6$O$_6^{2-}$) and K$^+$ is confirmed by a topological analysis of the electron density (Table 1), which indicate a highly ionic bonding contribution in this material. Our calculations reveal that this phase is a semiconductor with a band gap of 1",
+        "start_index": 9553,
+        "end_index": 9959
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".2 eV (Figure 2 and S6), a possible overestimation due to the level of theory.",
+        "start_index": 9959,
+        "end_index": 10037
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "On the other side of the hull in Figure 1 sits the predicted C2/m phase of K$_x$C$_6$O$_6$ (Figure 2b). This material is remarkable in terms of the large charges it permits on the relatively small rhodizonate ions. Our estimates of -4.9 (Table 1) is close to the formal reduction by six electrons provided by a stochiometric amount of K",
+        "start_index": 10037,
+        "end_index": 10373
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". We emphasize that such highly charged organic anions are exceedingly rare, even exceeding the alkali metal $-4$ reduction of corannulene. The (C$_6$O$_6^{2-}$) rhodizonates in this phase are subtly distorted from planarity: we predict them to be D$_3$ symmetric and feature two different C-C distances (1.443\u00c5 and 1",
+        "start_index": 10373,
+        "end_index": 10690
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".442\u00c5) and a C-C-C-C dihedral angle of 2.32\u00b0. Rhodizonates in the C2/m phase arrange in rows with each highly charged anion bridged by two K$^+$ cations (Figure 2b). The different rows of anions are offset relative to each other such that the bridging cations of one row also coordinate exactly in the middle of a neighboring anion",
+        "start_index": 10690,
+        "end_index": 11021
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The band gap of this semiconducting phase exceeds 1.5 eV (Figure S3).",
+        "start_index": 11021,
+        "end_index": 11092
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The structural relationship to the origin of this work and we will return to discuss its close structural relationship to the PI phase of K\\(_{3.5}\\)C\\(_6\\)O\\(_6\\).",
+        "start_index": 11092,
+        "end_index": 11256
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "### The Unusual Structure of K\\(_2\\)C\\(_6\\)O\\(_6\\)",
+        "start_index": 11256,
+        "end_index": 11306
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The PI phase of K\\(_2\\)C\\(_6\\)O\\(_6\\) (hereafter only K\\(_2\\)C\\(_6\\)O\\(_6\\)) contrasts sharply with all other compounds identified on the K-CO phase diagram, and it even conflicts with chemical expectations. The rhodizones are in this material formally radicals carrying three negative charges (-2.6 by our analysis, c.f. Table 1)",
+        "start_index": 11306,
+        "end_index": 11636
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The anions are predicted to be perfectly planar, D\\(_{6h}\\) symmetric, with equidistant C-C (1.46 \u00c5) and C-O (1.27 \u00c5) bonds. Instead of arranging themselves in an alternating fashion with respect to their K\\(^+\\) counterions, these rhodizones prefer to be close, stacking face-to-face directly and equidistantly on top of each other (Figure 2b)",
+        "start_index": 11636,
+        "end_index": 11982
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". One-dimensional chains of radicals are expected to be unstable with respect to a spontaneous symmetry breaking\\(^{50}\\) Such deformations, which occur to avoid degeneracy of electronic levels, are known as Peierls and Jahn-Teller distortions in physics and chemistry, respectively.",
+        "start_index": 11982,
+        "end_index": 12265
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The equidistant structure we predict in K\\(_2\\)C\\(_6\\)O\\(_6\\) does not appear to be an artefact of the level of theory. The inter-ring distances in K\\(_2\\)C\\(_6\\)O\\(_6\\) calculates as 3.38 \u00c5 at the PBE-D3(BJ) level of theory and closer still, 3.34 \u00c5, in a HSE06-D3(BJ) calculation",
+        "start_index": 12265,
+        "end_index": 12545
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". This distance is considerably shorter than the sum of C or O van der Waals radii, and remarkable considering it is between triply charged (hence electrostatically repelling) anions. The effect of the vdW correction in our calculations is also only responsible for an inter-ring shortening of 0.09 \u00c5",
+        "start_index": 12545,
+        "end_index": 12845
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The K\\(^+\\) counterions in this structure cubically coordinated to oxygen and are positioned in concentric circles around each stack of anions (Figure 2c). The same equidistant stacking is also recreated when HSE06-D3(BJ) optimization commences from a symmetry broken starting point. Our level of theory is clearly capable of converging to non-equidistant stackings of rhodizones, as evident from the PI phase of K\\(_{3",
+        "start_index": 12845,
+        "end_index": 13266
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".5}\\)C\\(_6\\)O\\(_6\\) (Figure 2d). In the latter",
+        "start_index": 13266,
+        "end_index": 13312
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Table 1. Partial charges of atoms and molecular fragments in identified ground state structures.**",
+        "start_index": 13312,
+        "end_index": 13412
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "|       | K\\(_2\\)C\\(_6\\)O\\(_6\\) (Fddd) | K\\(_3\\)C\\(_6\\)O\\(_6\\) (P\\(_n\\)/mmm) | K\\(_{3",
+        "start_index": 13412,
+        "end_index": 13497
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".5}\\)C\\(_6\\)O\\(_6\\) (P\\(_1\\)) | K\\(_2\\)C\\(_6\\)O\\(_6\\) (C\\(_2\\)/m) |",
+        "start_index": 13497,
+        "end_index": 13564
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "|-------|-----------------------------|-----------------------------------|----------------------------------|----------------------------------|\n| K     | +0.87                       | +0.86                             | -0.84                            | +0.81                            |\n| C     | +0.83                       | +0.74                             | +0.70                            | +0.42                            |",
+        "start_index": 13564,
+        "end_index": 14001
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "| O     | -1.12                       | -1.16                             | -1.19                            | -1.23                            |\n| (C\\(_6\\)O\\(_6\\)) | -1.74                     | -2.58                             | -2.94                            | -4.86                            |",
+        "start_index": 14001,
+        "end_index": 14301
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "\\(^{a}\\) predicted from the topology of the electron density using the quantum theory of atoms in molecules (QTAIM).",
+        "start_index": 14301,
+        "end_index": 14417
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The remaining two identified ground states, a P\\(_n\\)/mmm phase of K\\(_3\\)C\\(_6\\)O\\(_6\\) (Figure 2c) and a P\\(_1\\) phase of K\\(_{3.5}\\)C\\(_6\\)O\\(_6\\) (Figure 2d), are both predicted to be metallic and feature perfectly planar rhodizones that are stacked without any cations in-between them",
+        "start_index": 14417,
+        "end_index": 14706
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The P\\(_n\\)/mmm phase of K\\(_2\\)C\\(_6\\)O\\(_6\\) is the focus of the remainder of this work and we will return to discuss its close structural relationship to the PI phase of K\\(_{3.5}\\)C\\(_6\\)O\\(_6\\).",
+        "start_index": 14706,
+        "end_index": 14907
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "phase, symmetry is broken into alternating pairs of rhodizonates, still organized in one-dimensional stacks (Figure 2d). We note that while K$_2$CaO$_6$ has been previously predicted by Lian et al.,$^{46}$ the phase has only been discussed in terms of its potential performance as an anode (K$^+$ storage) material, while its metallic nature and unusual structure have been overlooked",
+        "start_index": 14907,
+        "end_index": 15291
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Lian et al have also predicted a different phase of K$_3$CaO$_6$ with $Pmmn$ symmetry, which feature dimeric stacking of rhodizonates. We have identified the $Pmmn$ phase in our structure search, but predict it to lie 0.1 eV/f.u above the PI phase.",
+        "start_index": 15291,
+        "end_index": 15541
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "To the best of our knowledge, there are only a few reported structures of rhodizionate salts in which the anion might carry a charge of -3. The crystal structures of MnRbCaO$_6$ and MnCsCaO$_6$ both feature face-to-face stacking of distorted (non-planar) anions, $^{27}$where in the latter structure the closest carbon atoms of adjacent anions are only 2.69\u00c5 apart",
+        "start_index": 15541,
+        "end_index": 15905
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The reported MOFs FeCaO$_6$ and Cu$_3$(CaO)$_2$ similarly contains dimers of distorted anions only 2.847 \u00c5 and 2.75 \u00c5 apart, respectively.$^{29, 30}$ An important distinction from our predictions of K$_2$CaO$_6$ is that these experimental structures do not feature equidistant stacking of anions",
+        "start_index": 15905,
+        "end_index": 16202
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". These experimental structures furthermore all contain some amount of water, and they are all based on transition metal cations that appear to induce magnetic interactions (we will discuss magnetism in a later section).",
+        "start_index": 16202,
+        "end_index": 16422
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Why do some rhodizonates neighbor one another despite such glaringly unfavorable electrostatics? And why do these anions, which are radicals, resist both Peierls and Jahn-Teller in K$_2$CaO$_6$ to align equidistantly instead of pairing up? Conventional face-to-face $\\pi$-stacking interactions are not strong enough to overcome the electrostatic repulsion of neighboring highly charged anions",
+        "start_index": 16422,
+        "end_index": 16814
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".$^{51, 52}$ In fact, $\\pi$-interactions (between closed shell ring systems) are only weakly attractive or repulsive, and typically result in T-shaped or parallel displaced configurations.$^{53, 54}$",
+        "start_index": 16814,
+        "end_index": 17013
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Electronic Structure of K$_2$CaO$_6$**",
+        "start_index": 17013,
+        "end_index": 17053
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "To understand the preference for face-to-face stacking of rhodizonates carrying a charge near -3, we first look at the highest occupied Molecular Orbital (MO) levels of the isolated anion. The $\\pi$-MO ordering in the neutral (D$_0h$) CaO$_6$ molecule has been extensively studied theoretically (see e.g.,$^{31, 55-57}$)",
+        "start_index": 17053,
+        "end_index": 17373
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Figure 3 shows a schematic subset, the highest occupied MOs, which suffices to highlight the major electronic differences between the rhodizonates we study",
+        "start_index": 17373,
+        "end_index": 17530
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Whereas (CaO)$_2$$^{6-}$ and (CaO)$_2$$^{2-}$ are both closed shell anions, the singly occupied $e_{1g}$ molecular orbital (SOMO) of the (CaO)$_3$$^{3-}$ radical anion permits us to rationalize some of the unusual electronic \u2013 and through them structural \u2013 properties of K$_2$CaO$_6$.",
+        "start_index": 17530,
+        "end_index": 17816
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Figure 4 explains how the $e_{1g}$ SOMO of (CaO)$_3$$^{3-}$ shown in Figure 3 can spread into highly dispersed $\\pi$-bands along the stacking direction of the rhodizonates, and how the partial occupation of these bands renders them exclusively bonding",
+        "start_index": 17816,
+        "end_index": 18067
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Our band structure calculation (Figure 5a) shows that these two frontier $\\pi$-bands are not always degenerate across the Brillouin zone, but that they are on average one quarter occupied, reflecting the $(e_{1g})^1$ configuration of the (CaO)$_3$$^{3-}$ rhodizonates SOMO.",
+        "start_index": 18067,
+        "end_index": 18342
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Density of state (DOS) calculations show K$_2$CaO$_6$ to be distinctly metallic (Figure 5b). And as expected, the DOS near the Fermi level share a distinct similarity to that we expect from a one-dimensional system.$^{58, 59}$\n\n![Figure 3](image)",
+        "start_index": 18342,
+        "end_index": 18588
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Figure 3.** Top view of frontier ($\\pi$)-MOs of isolated rhodizonates, (CaO)$_n$$^{n-}$. Electronic configurations are shown for (CaO)$_2$$^{6-}$ in blue, (CaO)$_2$$^{2-}$ in red and (CaO)$_3$$^{3-}$ in yellow",
+        "start_index": 18588,
+        "end_index": 18799
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The singly occupied $e_{1g}$ orbital of the (CaO)$_3$$^{3-}$ anion is key to understanding the structural and electronic properties of K$_2$CaO$_6$.",
+        "start_index": 18799,
+        "end_index": 18949
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "![Figure 4](image)",
+        "start_index": 18949,
+        "end_index": 18967
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Figure 4.** Intermolecular multi-center bonding explains the face-to-face stacking of triply charged rhodizonates. Figure depicts one of two degenerate frontier $\\pi$-bands formed from the $e_{1g}$ orbitals shown in Figure 3 running in one-dimension",
+        "start_index": 18967,
+        "end_index": 19218
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The $(e_{1g})^1$ origin of these bands ensures an 1/4-band occupation and exclusively inter-anion bonding levels below the Fermi level, $e_f$. Dashed blue lines highlight bonding interactions between C and O on neighboring anions. K$^+$ ions are omitted for clarity",
+        "start_index": 19218,
+        "end_index": 19485
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". This sketch is illustrative of all paths through the 1$^{st}$ Brillouin zone of the $Pm/mmm$ space group that corresponds to the real space lattice vector $c$, i.e., the anion stacking direction. Examples of such directions in K$_2$CaO$_6$ are $A \\rightarrow \\Gamma$, $\\Gamma \\rightarrow K$, and $L \\rightarrow M$ in later figures",
+        "start_index": 19485,
+        "end_index": 19817
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". However, in the real material the frontier $\\pi$-bands are only 1/4-occupied on average.",
+        "start_index": 19817,
+        "end_index": 19907
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "This electronic structure give rise to clear Van Hove singularities at the band edges at $\\Gamma$, $A$, $L$, $M$, $H$, and $K$, which explain the sizable DOS just below the Fermi level, and the inherent metallicity of the material. Figure 5 provides an example of how weaker bonding interactions orthogonal to the stacking direction can give rise to flatter band regions",
+        "start_index": 19907,
+        "end_index": 20277
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". A Crystal Orbital Hamilton Population (COHP) analysis shown in Figure 5c also confirms that the interactions between stacked anions are indeed exclusively, and substantially, bonding. Using COHP, we can estimate the bonding interaction between neighboring anions in K$_2$CaO$_6$ to -0.44 eV (-10.2 kcal mol$^{-1}$).",
+        "start_index": 20277,
+        "end_index": 20594
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The type of bonding we describe in Figures 4-5 is a kind of inter-molecular multi-center bonding but infinitely extended along the face-to-face stacking direction of rhodizonates anions. The closest molecular analogy to this kind of extended intersection is the sharing of electrons between face-to-face stacked planar radicals, often referred to as pancake bonds.",
+        "start_index": 20594,
+        "end_index": 20958
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Pancake bonds are distinct from van der Waals interactions and \u03c0-stacking both in terms of structure and bond strength. These kinds of spin-pairing interactions are covalent in nature, and are formed between planar radicals with a ring-to-ring distance smaller than the sum of van der Waals radii of neighboring atoms",
+        "start_index": 20958,
+        "end_index": 21275
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Our COHP estimate of the inter-rhodizonate interaction energy (Figure 5c) is, possible fortuitously, in good agreement with expectations for strong pancake bonded dimers, which range from -0.52 to 0.78 eV (-12 to -18 kcal mol\u207b\u00b9). The rhodizonates we study also orient close to the shortest molecular pancake bonds, ca. 2.93 \u00c5.",
+        "start_index": 21275,
+        "end_index": 21603
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Pancakes and Organic Conductors**",
+        "start_index": 21603,
+        "end_index": 21638
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Pancake bonding has almost exclusively been discussed in terms of dimers of \u03c0-delocalized systems, such as tetracyanoquinodimethane or phenalenyls. In the solid state the structural diversity is richer and pancake bonded systems can be structurally characterized as either: (i) dimers in which the radicals exhibit slight distortions from planarity or (ii) equidistant face-to-face stacking of planar radicals, i.e",
+        "start_index": 21638,
+        "end_index": 22052
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "., similar to the case we predict in K\u2082C\u2086O\u2086. However, equidistant stacking is rare and such examples are in general composed of neutral radicals (or diradicals, e.g., in compounds containing CN:CN [E=S, Se] groups) that are semiconducting",
+        "start_index": 22052,
+        "end_index": 22290
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Aside from the rhodizonate-based materials already mentioned (which are distorted and dimeric), the closest experimentally known analog to our predicted P\u209c/mmm phase of K\u2082C\u2086O\u2086 is probably potassium tetracyanoquinodimethane (K'TCNQ-).",
+        "start_index": 22290,
+        "end_index": 22525
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The radicals in K'TCNQ- are equidistantly stacked above 396 K, but undergo a Peierls distortion (dimerization) below this temperature. Salts of TCNQ are important historically, as they helped trigger a substantial interest in organic conduction in the 1970s and onwards.",
+        "start_index": 22525,
+        "end_index": 22795
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Several different TCNQ-based salts share a common electronic feature with K\u2082C\u2086O\u2086: all have one quarter populated frontier bands. For TCNQ salts, such band occupation allows for conductivities of up to 1-10\u207b\u00b2 S cm\u207b\u00b9 at high temperature. However, most related TCNQ-based materials that feature dimeric structures are semiconducting",
+        "start_index": 22795,
+        "end_index": 23124
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". For comparison, known semiconducting rhodizonate-based MOPs, such as Fe\u2083C\u2086O\u2086, have conductivities in the mS range or below near ambient conditions.",
+        "start_index": 23124,
+        "end_index": 23273
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "In contrast, both K\u2082C\u2086O\u2086 and the PI phase of K\u2083C\u2086O\u2086 are predicted to be distinctly metallic regardless of if they stack equidistantly or not. Owing to this robustness of metallicity, which is ensured by favorable frontier orbital topology (Figures 3-5), we suggest that rhodizonates with a charge near -3 can be considered design templates for one-dimensional conductors.",
+        "start_index": 23273,
+        "end_index": 23644
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "One reason behind this suggestion is the unusually large number of electrons at the Fermi level, N, in K\u2082C\u2086O\u2086: it is approximately 0.19 - 0.27 states/eV/atom, depending on the level of theory (Figure S3). Such high values are to the best of our knowledge unprecedented for a molecular conductor. For comparison, elemental Cu has 0.29 states/eV/atom at the Fermi Level",
+        "start_index": 23644,
+        "end_index": 24011
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Meanwhile superconductors like MgB\u2082 and SH\u2087\u2087 show corresponding values of 0.24 and 0.13 states/eV/atoms, respectively, the latter requiring a pressure of around 200 GPa. Our prediction for the Fermi level DOS is sensitive to levels of theory (Figure S8). However, regardless of the exact value of the Fermi level DOS, the distance between stacked anions offers a means for rationally controlling electrical conductivity",
+        "start_index": 24011,
+        "end_index": 24432
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". If the stacking distance is increased, the dispersion of the frontier \u03c0-bands decreases. Because the Van Hove singularities lie just below the Fermi level (Figure 5b), a lower dispersion will increase N. Raising the temperature induces lattice expansion, which is why we expect K\u2082C\u2086O\u2086 to exhibit the rare phenomenon of a negative temperature coefficient of resistivity",
+        "start_index": 24432,
+        "end_index": 24802
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". In other words, at higher temperatures K\u2082C\u2086O\u2086 should maskerade as a semi-conductor.",
+        "start_index": 24802,
+        "end_index": 24887
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Besides physical manipulation, such as raising temperatures or subjecting the material to strain or pressure, electrical conductivity might through the same argument be modulated by replacing counter cations. For example, by substituting K\u207a for larger ions such as Rb\u207a or Cs\u207a higher values of N are expected. We aim to explore this hypothesis in forthcoming work.\n\n**A Note on Magnetism**",
+        "start_index": 24887,
+        "end_index": 25275
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Materials composed of equidistantly stacked planar radicals can exhibit long range magnetic order. Often, such order is antiferromagnetic and present in semiconducting phases, although ferromagnetic and diamagnetic states have been observed. Our spin polarized calculations performed on a doubled unit cell of K\u2082C\u2086O\u2086 predict the material to be diamagnetic (i.e., not magnetic). However, accurately predicting subtle",
+        "start_index": 25275,
+        "end_index": 25690
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "magnetic couplings is challenging. While we consider more detailed analysis of magnetism to lie outside the scope of this work, we emphasize the need for careful characterization of such properties following the anticipated synthesis of these materials.",
+        "start_index": 25690,
+        "end_index": 25943
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Superconductivity of K$_2$Co$_3$O$_8$**",
+        "start_index": 25943,
+        "end_index": 25984
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The unique structural and electronic properties of K$_2$Co$_3$O$_8$ merits us to consider it a potential superconductor. One reason$^{10}$ behind this suspicion is again the large number of states $N$ near the Fermi level. A characteristic of the K$_2$Co$_3$O$_8$ DOS near the Fermi level is its peaked shape",
+        "start_index": 25984,
+        "end_index": 26292
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Such DOS topologies are rare, and reminiscent of what can be found in some high pressure materials such as the 150 GPa 1m-3m phase of SH$_2$, which features a critical superconducting temperature, $T_c$, of 203 K. Nature tend to abhor such electronic features at ambient conditions of pressure, where they are usually avoided through structural symmetry breaking that causes the formation of electronic gaps or pseudo gaps",
+        "start_index": 26292,
+        "end_index": 26716
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". K$_2$Co$_3$O$_8$ is different because the levels near its Fermi level are all bonding, and responsible for covalent interactions along the direction of rhodizonates stacking (Figure 5a). Meanwhile, structural symmetry breaking is resisted by electrostatic repulsions between equally (and largely) charged neighboring anions.",
+        "start_index": 26716,
+        "end_index": 27042
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The covalent nature and the sharpness of the DOS near the Fermi level in K$_2$Co$_3$O$_8$ suggests to us a potential for large electron-phonon coupling. To see why, we remind that the dispersion of the frontier \u03c0-bands, and hence the number of states at the Fermi level are sensitive to the distance between rhodizonates",
+        "start_index": 27042,
+        "end_index": 27362
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". We can, therefore, anticipate electron phonon coupling to be driven largely by low-frequency motions of rhodizonates with respect to each other. Figure 6 shows the frequency resolved Eliashberg spectral function along with the cumulative electron phonon coupling parameter, $\\lambda$",
+        "start_index": 27362,
+        "end_index": 27647
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". As expected, a majority (twothirds) of the $\\lambda$ value derives from inner-ring displacement modes (at ~330 cm$^{-1}$) that couple to electrons involved in inter-ring (or pancake) bonding.",
+        "start_index": 27647,
+        "end_index": 27840
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Electron phonon coupling is the mechanism by which Cooper pairs are formed in conventional superconductors. Under this assumption, we can proceed to estimate a critical superconducting temperature, $T_c$, of 0.5 K (see methods section). This low temperature corresponds to an estimated superconducting gap of 0.03 meV, and a relatively low electron-phonon coupling constant $\\lambda$ of 0.3, which places this material in the weak coupling limit",
+        "start_index": 27840,
+        "end_index": 28285
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".",
+        "start_index": 28285,
+        "end_index": 28286
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "![Figure 6](https://doi.org/10.26434/chemrxiv-2025-qmvbf)",
+        "start_index": 28286,
+        "end_index": 28343
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Figure 6.** Frequency resolved Eliashberg spectral function $\\alpha^2F(\\omega)$ of the $P_4/mmm$ phase of K$_2$Co$_3$O$_8$ (grey) along with the cumulative contribution of the electron-phonon coupling strength $\\lambda$ (blue line). The majority of the electron phonon coupling is associated with soft modes that alter distances between stacked rhodizonate anions.",
+        "start_index": 28343,
+        "end_index": 28709
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We note several caveats associated with our specific $T_c$ prediction. For one, the location of the Van Hove singularities responsible for the large DOS near the Fermi level are affected by the level of theory (Figure S8). Partly for this reason, we have not investigated the effects of anharmonicity on $T_c$",
+        "start_index": 28709,
+        "end_index": 29018
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Organic superconductors are furthermore not always of the conventional variety, and there are reasons to suspect that other coupling mechanism may be in play in a real material. Because rhodizionate anions can sustain multiple different charge states (Table 1), Cooper pair formation in K$_2$Co$_3$O$_8$ and related materials might, for example, be driven by red-ox lattice instabilities",
+        "start_index": 29018,
+        "end_index": 29407
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Other possibilities is electronic coupling via polaron and bipolaron, and polarization waves arising in a localized core-electron framework. The latter models or mechanisms, which we are not able to evaluate computationally, imply an importance of polarizability. Large organic anions of high charge are amongst the most polarizable material constituents possible.",
+        "start_index": 29407,
+        "end_index": 29773
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**A Roadmap to New Superconductors**",
+        "start_index": 29773,
+        "end_index": 29809
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We think that K$_2$Co$_3$O$_8$ is important also because it can be thought of as a template for discovering (and engineering) a new family of one-dimensional \u03c0-based superconductors. \u03c0-band superconductors are rare$^{85,86}$ and great efforts have been dedicated to their study",
+        "start_index": 29809,
+        "end_index": 30086
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Two-dimensional superconductors such as the experimentally known, LiC$_6$ and CaC$_6$ or the theoretically predicted LiC$_{12}$, AlC$_6$, and HPC$_3$ have shown that intralayer \u03c0-systems can couple to in-plane vibrational phonon modes associated with covalent bonds, resulting in strong electron-phonon coupling and $T_c$ values up to 30 K",
+        "start_index": 30086,
+        "end_index": 30427
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". K$_2$Co$_3$O$_8$ is different as superconductivity in it is predicted to be predominantly mediated through inter-, and not intra-, molecular \u03c0-interactions.",
+        "start_index": 30427,
+        "end_index": 30585
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "![Figure 7](https://doi.org/10.26434/chemrxiv-2025-qmvbf)",
+        "start_index": 30585,
+        "end_index": 30642
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Figure 7.** The Fermi surface of the $P_4/mmm$ phase of K$_2$Co$_3$O$_8$ is dominated by two frontier \u03c0-bands that are degenerate in the direction of rhodizionate stacking (e.g. $\\Gamma$\u2013A, K\u2013H). High-symmetry points in the 1$\\times$ Brillouin zone are indicated for reference",
+        "start_index": 30642,
+        "end_index": 30920
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Modification of this surface by chemical or physical means allows tailoring of electron phonon coupling, and superconductivity.",
+        "start_index": 30920,
+        "end_index": 31049
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We attribute the low $T_c$ calculated for K$_2$Co$_3$O$_8$ to two main factors: A low electron phonon coupling strength $\\lambda$, and a low average phonon frequency, $\\omega$. The mathematical relationships that connect $\\lambda$, $\\omega$, and the number of states $N$ near the Fermi level, to $T_c$ are provided elsewhere",
+        "start_index": 31049,
+        "end_index": 31373
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".$^{80,82,93}$ What is essential for our discussion is that these parameters can be rationally altered (we want them to increase) through chemical and physical manipulation of K$_2$Co$_3$O$_8$. We wish to open the door to such manipulation by sharing a collection of rationales.",
+        "start_index": 31373,
+        "end_index": 31651
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Superconductivity in K$_2$C$_6$O$_6$ is intricately linked to a single pair of frontier $\\pi$-bands. This simplicity, which results from the quasi-one-dimensional nature of the material, allows for relatively straightforward band engineering. The Fermi surface shown in Figure 1 is the subset of the frontier $\\pi$-bands that correspond to the highest occupied orbitals, resolved in reciprocal space. These levels are essential for superconductivity",
+        "start_index": 31651,
+        "end_index": 32100
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The electron phonon coupling strength $\\lambda$ reflects the average movement of these levels (or levels near them) upon phonon perturbation.$^{80,92,93}$",
+        "start_index": 32100,
+        "end_index": 32256
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Doping is one direct way of changing the electron phonon coupling strength $\\lambda$, and we can qualitatively predict how without calculations. If K$_2$C$_6$O$_6$ were to be negatively doped, its Fermi level would move up. The effects of this are clear from our COHP bonding analysis (Figure 5c): with $n$-doping the orbitals near the Fermi level becomes less bonding",
+        "start_index": 32256,
+        "end_index": 32624
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". At half-filling, levels at the Fermi level would be effectively non-bonding, i.e., be equally bonding and anti-bonding. Such situations are characteristic of transition states, phase instability, and we would expect electron phonon coupling to increase. If $n$-doped K$_2$C$_6$O$_6$ were to become unstable it is likely to undergo a Peierls distortion that dimerizes the rhodizonates",
+        "start_index": 32624,
+        "end_index": 33009
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Such dimerization would split the two frontier $\\pi$-bands into two sets, separated by a gap",
+        "start_index": 33009,
+        "end_index": 33103
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The predicted $P1$ phase of K$_2$C$_6$O$_6$ is one such example, in which the lowest pair of $\\pi$-bands are filled by three quarters (2 electrons due to dimerization in K$_2$C$_6$O$_6$ and 1 electron from the doping) instead of one quarter as in K$_2$C$_6$O$_6$",
+        "start_index": 33103,
+        "end_index": 33367
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". With such band filling we expect the Fermi surface to be dominated by antibonding states (Figure 4c and 5a). Antibonding levels will naturally respond stronger than bonding levels to changing orbital overlap and should therefore be coupled stronger to low frequency phonon modes that compress and extend the rhodizionate stacks",
+        "start_index": 33367,
+        "end_index": 33696
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Unfortunately, the ground state we predict for K$_2$C$_6$O$_6$ is much too large, and of too low symmetry, to permit meaningful electron-phonon calculations that would test this hypothesis.",
+        "start_index": 33696,
+        "end_index": 33887
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The rhodizionate stacking distance is a second parameter that can be directly controlled beside the band filling. As already mentioned, one way to do so is by ion substitution. Provided that the ground state structure is retained following such manipulation, the bonding character of the frontier bands will not change. However, increased rhodizionate distances should decrease their in-stack bond strength, which would result in the softening of some phonon modes.",
+        "start_index": 33887,
+        "end_index": 34352
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Increasing the average phonon frequency $\\omega$ by chemical substitution is a third approach for engineering a higher $T_c$ in K$_2$C$_6$O$_6$-derived materials. One way to effect such change is to select cations that contain strong covalent bonds to light elements, preferably hydrogen",
+        "start_index": 34352,
+        "end_index": 34639
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Hydrogen bonding between such cations and the rhodizionate anions they bridge could couple high frequency R-H stretching modes to the metallic states of the rhodizonates.",
+        "start_index": 34639,
+        "end_index": 34811
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Our suggestions for modulating conductivity and enhancing $\\pi$-based superconductivity are challenging to verify computationally. While we plan to theoretically explore the effects of some chemical modifications in future work, we encourage experimental pursuit and characterization of these systems.\n\n### CONCLUSIONS",
+        "start_index": 34811,
+        "end_index": 35129
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The chemistry and history of oxocarbon materials is rich, both in terms of structure and their utility. Here, a thorough computational exploration of the KCO phase diagram shows that six membered oxocarbon anions, rhodizonates, dominate the thermodynamic landscape",
+        "start_index": 35129,
+        "end_index": 35393
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Rhodizonates possess a fascinating ability to hold different oxidation states, predicted to range from -2 in the semiconducting F$dddd$ phase of K$_2$C$_6$O$_6$ to -6 in the C$2/m$ phase of K$_2$C$_6$O$_6$, a likely record for small organic anions",
+        "start_index": 35393,
+        "end_index": 35642
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Interactions in the semiconducting phases appear dominated by electrostatics, with ions packed in an alternating fashion so to maximize K-O interactions. In contrast, the predicted strongly metallic P$_6/mmm$ phase of K$_2$C$_6$O$_6$ and P$1$ phase of K$_3$C$_6$O$_6$ exhibit face-to-face stacking of rhodizonates",
+        "start_index": 35642,
+        "end_index": 35957
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The structure of K$_2$C$_6$O$_6$ is especially unusual, even unique, for several reasons. Particularly noteworthy is the equidistant stacking of highly charged, i.e., electrostatically repelling, anions. Metallic organic salts are rare, and equidistant $\\pi$-stacking in them even more so.",
+        "start_index": 35957,
+        "end_index": 36248
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We rationalize these structural and electronic features using molecular orbital theory, showing that the topology of the singly occupied molecular orbital is uniquely suited to extend into exclusively bonding $\\pi$-bands along the stacking direction. This type of multi-center interaction is reminiscent of so-called pancake bonds, where, however, equidistant stacking is typically avoided by Peierls (or Jahn-Teller) distortion",
+        "start_index": 36248,
+        "end_index": 36676
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The reason for the unexpected absence of symmetry breaking in the (T $\\rightarrow$ 0K) ground state of K$_2$C$_6$O$_6$ is argued to be a combination of both inter-ring covalent bonding and large electrostatic repulsion. The P$_6/mmm$ phase of K$_2$C$_6$O$_6$ would, if made, be amongst the most ionic pancake-bonded systems known",
+        "start_index": 36676,
+        "end_index": 37007
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". And despite being highly charged, the distance between rhodizonates anions calculates as 3.34 \u00c5, much below the sum of the van der Waals radii. Density of States near the Fermi level of K$_2$C$_6$O$_6$ is predicted to be exceptionally high, almost on par with elemental Cu and possibly exceeding that of superconductors like MgB$_2$ and high pressure H$_3$",
+        "start_index": 37007,
+        "end_index": 37365
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". This prediction is sensitive to the precise stacking distance, a parameter that will increase with temperature, leading us to expect a negative temperature coefficient of resistivity.",
+        "start_index": 37365,
+        "end_index": 37550
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "The quasi-one-dimensional nature of K$_2$C$_6$O$_6$ makes it especially suitable to build-engineering, which otherwise can be challenging. We therefore suggest that K$_2$C$_6$O$_6$ can act as a prototype for a new family of conductors, and potentially superconductors. Such materials could be organic by suitable choice of counterion. While we predict a low critical superconducting temperature of 0",
+        "start_index": 37550,
+        "end_index": 37949
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".5 K, we also outline a series of design rationale for enhancing this number through physical and chemical modification of the number of states at the Fermi level, the average phonon frequency, and the electron phonon coupling strength. We offer these predictions to encourage experimental synthesis, as well as further computational exploration.",
+        "start_index": 37949,
+        "end_index": 38295
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "### COMPUTATIONAL DETAILS",
+        "start_index": 38295,
+        "end_index": 38320
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Structure Prediction:** Structure searches were performed using a particle swarm optimization (PSO) algorithm implemented in the Crystal structure Analysis by Particle Swarm Optimization (CALYPSO) software. Our search considered K:CO stoichiometries 2:1, 1:1, 1:2, 1:3 1:4, 2:3, 5:6, 5:12 and 7:12:2",
+        "start_index": 38320,
+        "end_index": 38621
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". For most stoichiometries, we performed a scan over the number of formula units per unit cell, ranging from 1 to 6. The exceptions are the larger 5:6, 5:12 and 7:12 ratios, where only one formula unit was considered. For each structure prediction, 30 generations of 30 structures were generated. 60% of these structures were generated by PSO, while 40% were created by random placement of atoms",
+        "start_index": 38621,
+        "end_index": 39016
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". In total, we have structurally optimized approximately 35000 unit cells.",
+        "start_index": 39016,
+        "end_index": 39090
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "**Electronic Structure Theory:** Structural relaxations were performed using periodic DFT implemented in VASP version 6.1.0.$^{97,98}$ For structure prediction we relied on the",
+        "start_index": 39090,
+        "end_index": 39266
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "Predew\u2013Burke\u2013Ernzerhof (PBE) generalized gradient approximation (GGA) exchange correlation functional \\(^{100,101}\\) combined with a D3(BJ) dispersion correction.\\(^{100,101}\\) Numerical integrations were made over Gamma-centered \\(k\\)-meshes with a reciprocalspace resolution of 2\\(\\times\\)0.016 \\(\\AA\\)^{-1}",
+        "start_index": 39266,
+        "end_index": 39575
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Our calculations relied on hard projectortaugmented wave (PAW) pseudopotentials,\\(^{102,103}\\) that include the following valence electrons: \\(K\\) (3s\\(^3\\)3p\\(^4\\)4s\\(^1\\)), \\(C\\) (2s\\(^2\\)2p\\(^2\\)), \\(O\\) (2s\\(^2\\)2p\\(^4\\))",
+        "start_index": 39575,
+        "end_index": 39802
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The plane wave basis set expansion was limited to 900\\(\\times\\)eV. Convergence criteria for electronic energies and forces were 10\\(\\times\\)eV and 1 meV/\\(\\AA\\), respectively",
+        "start_index": 39802,
+        "end_index": 39978
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". The structure of \\(K_2\\text{CO}_3\\) was additionally investigated using the Heyd\u2013Scuseria\u2013Ernzerhof (HSE06) screened hybrid functional,\\(^{104,105}\\) combined with the D3(BJ) dispersion correction, in which we relied on standard PAW potentials for \\(C\\) and \\(O\\)",
+        "start_index": 39978,
+        "end_index": 40243
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Dynamic Stability: Phonon spectra were calculated for the lowest energy phases of \\(K_2\\text{CO}_3\\) (where \\(n=3, 4, 5\\) and 6) using the finite displacement (2\\(\\times\\)2\\(\\times\\)2) supercell method. Finite displacements were calculated with the Partlinski\u2013Li\u2013Kawazoe methodology\\(^ {106}\\) implemented in PHONOPY version 2.10",
+        "start_index": 40243,
+        "end_index": 40574
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".\\(^ {107}\\) These calculations relied on \\(k\\)-mesh densities of 2\\(\\times\\)0.03 \\(\\AA\\)^{-1} and a kinetic energy cutoff of 800\\(\\times\\)eV. While no imaginary frequencies were found for \\(K_2\\text{CO}_3\\), small ones, attributable to numerical error, are present for \\(K_3\\text{CO}_3\\)",
+        "start_index": 40574,
+        "end_index": 40862
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". In contrast, the lowest energy phases of \\(K_4\\text{CO}_3\\) and \\(K_5\\text{CO}_3\\) proved dynamically unstable. The discussed \\(K_2\\text{CO}_3\\) phase is unfortunately of too low symmetry and has a too large unit cell to be feasibly calculated by us (the super cell contains 294 atoms). Phonon spectra are reproduced in Figures S4\u2013S7",
+        "start_index": 40862,
+        "end_index": 41197
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Chemical Bonding Analysis: COH analysis was carried out using LOBSTER version 4.1\\(^ {100,112}\\) and plane wave projections onto PbeVaspFit2015 atomic basis functions. Topological analyses of electron densities were made with Critic2.\\(^ {113}\\) Electron density and volume integrals were relied on the Yu-Trinkle algorithm",
+        "start_index": 41197,
+        "end_index": 41522
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".\\(^ {113,114}\\) Superconductivity: Calculations were performed at the PBE-D3(BJ) level with a kinetic energy cutoff of 120\\(\\times\\)Ry (ca 1632\\(\\times\\)eV), on a geometry relaxed with Quantum Espresso version 7.3.\\(^ {115}\\) with PAW potentials comparable to those used in VASP",
+        "start_index": 41522,
+        "end_index": 41801
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Electronic energies were converged to 10\\(\\times\\)Ry and forces to 5\\(\\times\\)a.u. For structural relaxation, a 12\\(\\times\\)12\\(\\times\\)24 Monkhorst-Pack \\(k\\)-mesh\\(^ {116}\\) was used with a first order Methfessel\u2013Paxton smearing of 0.005\\(\\times\\)Ry",
+        "start_index": 41801,
+        "end_index": 42054
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Phonons were computed using density-functional perturbation theory on a 4\\(\\times\\)4\\(\\times\\)8 \\(\\eta\\)-mesh. The EPW code version 5.5",
+        "start_index": 42054,
+        "end_index": 42191
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".\\(^ {117,118}\\) was employed to calculate electron phonon coupling and \\(\\tilde{T}_\\nu\\), with the latter estimated using the McMillan\u2013Allen\u2013Dynes approximation to the Eliashberg equations\\(^ {90,92}\\) and a Coulomb pseudopotential parameter \\(\\mu^\\ast=0.1\\)",
+        "start_index": 42191,
+        "end_index": 42450
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Electronic energies, phonon frequencies and electron-phonon matrix elements were evaluated on interpolated \\(8\\times8\\times16\\ \\)\\(k\\)- and \\(\\eta\\)-grids. \\(\\tilde{T}_\\nu\\), \\(\\lambda\\), and the superconducting gap were carefully converged with respect to electronic smearing (Table S2).",
+        "start_index": 42450,
+        "end_index": 42740
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "ASSOCIATED CONTENT\n\nStructural details, phonon spectra, atomic partial charges, and DOS of selected low-energy phases. Convergence with respect to thermal smearing. This material is available free of charge via the Internet at http://pubs.acs.org.\n\nAUTHOR INFORMATION\n\nCorresponding Author\n\n*martin.rahm@chalmers.se\n\nPresent Addresses",
+        "start_index": 42740,
+        "end_index": 43074
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "\u2020AL and FIR: MALTA-Consolider Team and Departamento de Qu\u00edmica-F\u00edsica, University Complutense de Madrid, Madrid, Spain.\n\nAuthor Contributions\n\nConceptualization: MR\n\nInvestigation & Formal Analysis: AL, MR, FIR\n\nWriting - review and editing: AL, MR\n\nFunding Sources",
+        "start_index": 43074,
+        "end_index": 43339
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "We acknowledge financial support from the \u00c5Forske Foundation (grant 20-330) and Swedish governmental agency for innovation systems (Vinnova) (grant. 2021-02045)",
+        "start_index": 43339,
+        "end_index": 43499
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". Our research relied on computational resources provided by the Swedish National Infrastructure for Computing (SNIC) at C3SE, NSC and PDC partially funded by the Swedish research council through grant agreement no 2018-05973 and by the National Academic Infrastructure for Supercomputing in Sweden (NAISS) at C3SE and NSC partially funded by the Swedish research council through grant agreement no. 2022-06725",
+        "start_index": 43499,
+        "end_index": 43909
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". F-I-R acknowledges the Government of Principado de Asturias for its support through FICYT grant number AYUD/2021/58773.",
+        "start_index": 43909,
+        "end_index": 44030
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "REFERENCES",
+        "start_index": 44030,
+        "end_index": 44040
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "1. Paulsen, B. D.; Tybrandt, K.; Stavrinidou, E.; Rivnay, J., Organic mixed ionic\u2013electronic conductors. Nat. Mater. 2020, 19 (1), 13\u201326.",
+        "start_index": 44040,
+        "end_index": 44177
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "2. Fratini, S.; Nikolka, M.; Salleo, A.; Schweicher, G.; Sirringhaus, H., Charge transport in high-mobility conjugated polymers and molecular semiconductors. Nat. mater. 2020, 19 (5), 491\u2013502.",
+        "start_index": 44177,
+        "end_index": 44369
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "3. Moser, M.; Savva, A.; Thorley, K.; Paulsen, B. D.; Hidalgo, T. C.; Ohayon, D.; Chen, H.; Giovannetti, A.; Marks, A.; Gasparini, N.; Wadsworth, A.; Rivnay, J.; Inal, S.; McCulloch, I",
+        "start_index": 44369,
+        "end_index": 44553
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".; Polaron delocalization in donor\u2013acceptor polymers and its impact on organic electrochemical transistor performance. Angew. Chem. Int. Ed. Engl. 2021, 60 (14), 7777\u20137785.",
+        "start_index": 44553,
+        "end_index": 44725
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "4. Rivnay, J.; Inal, S.; Salleo, A.; Owens, R. M.; Berggren, M.; Malliaras, G. G., Organic electrochemical transistors. Nat. Rev. Mater. 2018, 3(2), 17086.",
+        "start_index": 44725,
+        "end_index": 44880
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "5. Sun, J.; Klug, D. D.; Pickard, C. J.; Needs, R. J., Controlling the bonding and band gaps of solid carbon monoxide with pressure. Phys. Rev. Lett. 2011, 106 (14), 145502.",
+        "start_index": 44880,
+        "end_index": 45053
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "6. Xia, K.; Sun, J.; Pickard, C. J.; Klug, D. D.; Needs, R. J., Ground state structure of high-energy-density polymeric carbon monoxide. Phys. Rev. B 2017, 95 (14), 144102.",
+        "start_index": 45053,
+        "end_index": 45225
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "7. Lipp, M.; Evans, W. J.; Garc\u00eda-Baonza, V.; Lorenzana, H., Carbon monoxide: Spectroscopic characterization of the high-pressure polymerized phase. J. Low Temp. Phys. 1998, 111 (3), 247\u2013256.",
+        "start_index": 45225,
+        "end_index": 45416
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "8. Ryu, Y.-J.; Kim, M.; Lim, J.; Dias, R.; Klug, D.; Yoo, C., Dense carbon monoxide to 160 GPa: Stepwise polymerization to two-dimensional layered solid. J. Phys. Chem. C 2016, 120 (48), 27548\u201327554.",
+        "start_index": 45416,
+        "end_index": 45615
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "9. Kong, R. Y.; Crimmin, M. R., Cooperative strategies for CO homolysis. Dalton Trans. 2020, 49 (46), 16587\u201316597.",
+        "start_index": 45615,
+        "end_index": 45729
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "10. Paparo, A.; Yuvaraj, K.; Mathews, A. J. R.; Douair, I.; Maron, L.; Jones, C., Reductive hexametallization of CO involving cooperativity between magnesium(I) reductants and [Mo(CO)\\(_x\\)]\\(_{y}\\) synthesis of well-defined magnesium benzenehexolate complexes. Angew. Chem. Int. Ed",
+        "start_index": 45729,
+        "end_index": 46011
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ". 2021, 60 (2), 630\u2013634.",
+        "start_index": 46011,
+        "end_index": 46035
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "11. Yuvaraj, K.; Douair, I.; Paparo, A.; Maron, L.; Jones, C., Reductive trimerization of CO to the deltan ianion using activated magnesium(I) compounds. J. Am. Chem. Soc. 2019, 141 (22), 8764\u20138768.",
+        "start_index": 46035,
+        "end_index": 46233
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "12. Yuvaraj, K.; Douair, I.; Jones, D. D. L.; Maron, L.; Jones, C., Sterically controlled reductive oligomerisation of CO by activated magnesium(I) compounds: deltan vs. ethenediolate formation. Chem. Sci. 2020, 11 (13), 3516\u20133522.",
+        "start_index": 46233,
+        "end_index": 46464
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "13. Fromm, K. M., Chemistry of alkaline earth metals: It is not all ionic and definitely not boring! *Coord. Chem. Rev.* 2020, 408, 213193.",
+        "start_index": 46464,
+        "end_index": 46603
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "14. Liu, H.-Y.; Schwamm, R. J.; Neale, S. E.; Hill, M. S.; McMullin, C. L.; Mahon, M. F., Reductive dimerization of CO by a Na/Mg(l) diamide. *J. Am. Chem. Soc.* 2021, 143(42), 17851-17856.",
+        "start_index": 46603,
+        "end_index": 46792
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "15. West, R., History of the oxocarbons. In *Oxocarbons*, West, R., Ed. Academic Press: 1980; pp 1-14.\n\n16. Liebig, J., *Ann. Chem.* 1834, 11, 182.",
+        "start_index": 46792,
+        "end_index": 46939
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "17. Quino\u00f1ero, D.; Garau, C.; Frontera, A.; Ballester, P.; Costa, A.; Dey\u00e1, P. M., Quantification of aromaticity in oxocarbons: The problem of the fictitious \u201cnonaromatic\u201d reference system. *Chem. Eur. J.* 2002, 8(2), 433-438.",
+        "start_index": 46939,
+        "end_index": 47165
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "18. Ranganathan, A.; Kulkarni, G. U., An experimental electron density investigation of squarate and croconate diions. *J. Phys. Chem. A* 2002, 106(34), 7813-7819.",
+        "start_index": 47165,
+        "end_index": 47328
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "19. Puebla, C.; Ha, T.-k., A quantum chemical study of the cyclic oxocarbon diions C(O)\u2082\u207b (n = 3,4,5 and 6): I. Ground state properties. *J. Mol. Struct.* 1986, 137(1), 171-181.",
+        "start_index": 47328,
+        "end_index": 47505
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "20. Ghosh, A.; Mitra, S., In Situ Surface Coating of Square Acid with Conductive Polyaniline for a High-Capacity and Sustainable Lithium Battery Anode. *ChemElectroChem* 2018, 5(1), 159-165.",
+        "start_index": 47505,
+        "end_index": 47695
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "21. Zhou, Q.; Wang, J.; Lu, Y.; Li, Y.; Liang, G.; Chen, J., Oxocarbon salts for fast rechargeable batteries. *Angew. Chem. Int. Ed.* 2016, 55(44), 12528-12532.",
+        "start_index": 47695,
+        "end_index": 47855
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "22. Wang, X.; Zhang, P.; Tang, X.; Guan, J.; Lin, X.; Wang, Y.; Dong, X.; Yue, B.; Yan, J.; Li, K.; Zheng, H.; Mao, H.-k., Structure and electrical performance of Na\u2083C\u2086O\u2084 under high pressure. *J. Phys. Chem. C* 2019, 123(28), 17163-17169.",
+        "start_index": 47855,
+        "end_index": 48093
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "23. Madsen, K. E.; Shin, M.; Gewirth, A. A., Pressure-dependent electrochemical behavior of di-lithium rhodizone cathodes. *Chem. Mater.* 2021, 33(14), 5738-5747.",
+        "start_index": 48093,
+        "end_index": 48255
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "24. Stott, A. C.; Vaid, T. P.; Bylaska, E. J.; Dixon, D. A., Tuning band gap energies in Pd\u2088(C\u2261N)\u2084 extended solid-state structures. *J. Phys. Chem. C* 2018, 122(15), 8370-8378.",
+        "start_index": 48255,
+        "end_index": 48431
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "25. Turner, D. L.; Vaid, T. P.; Stephens, P. W.; Stone, K. H.; DiPasquale, A. G.; Rheingold, A. L., Semiconducting lead\u2013sulfur\u2013organic network solids. *J. Am. Chem. Soc.* 2008, 130(1), 14-15.",
+        "start_index": 48431,
+        "end_index": 48622
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "26. Wu, X.; Qiu, Y.; Chen, Z.; Guan, B.; Hao, R.; Rykov, A. I.; Sun, Y.; Liu, L.; Zou, Y.; Sun, J.; Xu, W.; Zou, D., Paramagnetic Conducting Metal\u2013Organic Frameworks with Three-Dimensional Structure. *Angew. Chem. Int. Ed.* 2020, 59(47), 20873-20878.",
+        "start_index": 48622,
+        "end_index": 48872
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "27. Wu, X.; Wu, H.; Wu, S.; Sun, Y.; Zou, J.; Zou, Y.; Xu, W.; Zou, D., Chemical structure modulation in conductive MOFs by adjusting the oxidation state of the ligand and inducing alkali metal ions. *Chem. Commun.* 2022, 58(16), 2702-2705.",
+        "start_index": 48872,
+        "end_index": 49112
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "28. Park, J.; Hinckley, A. C.; Huang, Z.; Feng, D.; Yakovenko, A. A.; Lee, M.; Chen, S.; Zou, X.; Bao, Z., Synthetic Routes for a 2D Semiconducting Copper Hexahydroxybenzene Metal\u2013Organic Framework. *J. Am. Chem. Soc.* 2018, 140(44), 14533-14537.",
+        "start_index": 49112,
+        "end_index": 49358
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "29. Meng, Z.; Jones, C. G.; Farid, S.; Khan, I. U.; Nelson, H. M.; Mirica, K. A., Unraveling the Electrical and Magnetic Properties of Layered Conductive Metal-Orgaonic Framework With Atomic Precision. *Angew. Chem. Int. Ed.* 2022, 61(6), e202113569.",
+        "start_index": 49358,
+        "end_index": 49608
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "30. Chen, G.; Gee, L. B.; Wu, X.; Zou, Y.; Lezama-Pacheco, J. S.; Huang, Z.; Li, Z.; Babic, J. T., r.; Choudhury, S.; Chang, T.-H.; Reed, E.; Solomon, E. I.; Bao, Z",
+        "start_index": 49608,
+        "end_index": 49772
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "., Valence-Dependent Electrical Conductivity in a 3D Tetrahydroxyquinone-Based Metal\u2013Organic Framework. *J. Am. Chem. Soc.* 2020, 142(51), 21243-21248.",
+        "start_index": 49772,
+        "end_index": 49923
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "31. Aihara, J., Are the oxocarbon diions really aromatic? *J. Am. Chem. Soc.* 1981, 103(7), 1633-1635.\n\n32. Matsuo, Y.; Maruyama, M., The chemistry of four-membered aromatics. *Chem. Commun.* 2012, 48(75), 9334-9342.",
+        "start_index": 49923,
+        "end_index": 50139
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "33. Wang, C.-C.; Kuo, C.-T.; Chou, P.-T.; Lee, G.-H., Rhodizone metal complexes with a 2D chairlike M\u2086 metal\u2013organic framework: [M(CO)\u2086]\u2082[pbymp][H\u2082O]\u00b7nH\u2082O. *Angew. Chem. Int. Ed.* 2004, 43(34), 4507-4510.",
+        "start_index": 50139,
+        "end_index": 50343
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "34. Yamashita, T.; Momida, H.; Oguchi, T., Crystal structure predictions of Na\u2083C\u2086O\u2084 for sodium-ion batteries: First-principles calculations with an evolutionary algorithm. *Electrochem. Acta* 2016, 195, 1-8.",
+        "start_index": 50343,
+        "end_index": 50550
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "35. Yamashita, T.; Momida, H.; Oguchi, T., First-principles investigation of a phase transition in Na\u2083C\u2086O\u2084 as an organic cathode material for Na-ion batteries: Role of intermolecular bonding of C(O)\u2086. *J. Phys. Soc. Japan* 2015, 84(7), 074703.",
+        "start_index": 50550,
+        "end_index": 50793
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "36. Cowan, J. A.; Howard, J. A. K., Dipotassium rhodizate. *Acta Cryst.* F 2004, 60(4), m511-m513.\n\n37. Sternheimer, R., On the compressibility of metallic cesium. *Phys. Rev.* 1950, 78(3), 235-243.",
+        "start_index": 50793,
+        "end_index": 50991
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "38. Parker, L. J.; Atou, B.; Badding, J. V., Transition Element-Like Chemistry for Potassium Under Pressure. *Science* 1996, 273 (5271), 95-97.",
+        "start_index": 50991,
+        "end_index": 51134
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "39. Rahman, M.; Cammi, R.; Ashcroft, N. W.; Hoffmann, R., Squeezing all elements in the periodic table: Electron configuration and electronegativity of the atoms under compression. *J. Am. Chem. Soc.* 2019, 141(26), 10253-10271.",
+        "start_index": 51134,
+        "end_index": 51362
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "40. Dong, X.; Oganov Artem, R.; Cui, H.; Zhou, X.-F.; Wang, H.-T., Electronegativity and chemical hardness of elements under pressure. *Proc. Natl. Acad. Sci. U.S.A.* 2022, 119(10), 1-8.",
+        "start_index": 51362,
+        "end_index": 51548
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "41. Cammi, R.; Rahm, M.; Hoffmann, R.; Ashcroft, N. W., Varying electronic configurations in compressed atoms: From the role of the spatial extension of atomic orbitals to the change of electronic configuration as an isobaric transformation. *J. Chem. Theory Comput.* 2020, 16(8), 5047-5056.",
+        "start_index": 51548,
+        "end_index": 51839
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "42. Ashcroft, N. W., Hydrogen Dominant Metallic Alloys: High Temperature Superconductors? *Phys. Rev. Lett.* 2004, 92(18), 187002.",
+        "start_index": 51839,
+        "end_index": 51969
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "43. Wu, X.; Zhao, L.; Jin, J.; Pan, S.; Li, W.; Jin, X.; Wang, G.; Zhou, M.; Fenringk, G., Observation of alkaline earth complexes M(CO)\u2089 (M = Ca, Sr, or Ba) that mimic transition metals. *Science 2018, 361 (6405), 912-916.*\nGraphical Abstract",
+        "start_index": 51969,
+        "end_index": 52212
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "A Design Template for Pancake-Based (Super) Conductors\n\nWavefunctions and application to chemical-bonding analysis in solids. J. Comput. Chem. 2013, 34 (29), 2557-2567.",
+        "start_index": 52212,
+        "end_index": 52380
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "111. Nelson, R.; Erturul, C.; George, J.; Deringer, V. L.; Hautier, G.; Dronskowsi, R., LOBSTER: Local orbital projections, atomic charges, and chemical-bonding analysis from projector-augmented-wave-based density-functional theory. J. Comput. Chem. 2020, 41 (21), 1931-1940.",
+        "start_index": 52380,
+        "end_index": 52655
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "112. Maintz, S.; Deringer, V. L.; Tchougareff, A. L.; Dronskowsi, R., LOBSTER: A tool to extract chemical bonding from plane-wave-based DFT. J. Comput. Chem. 2016, 37, 1030-1035.",
+        "start_index": 52655,
+        "end_index": 52833
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "113. Otero-de-la-Roza, A.; Johnson, E. R.; Lau\u00f1a, V., Critic2: A program for real-space analysis of quantum chemical interactions in solids. Comput. Phys. Commun. 2014, 185 (3), 1007-1018.",
+        "start_index": 52833,
+        "end_index": 53021
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "114. Yu, M.; Trinkle, D. R., Accurate and efficient algorithm for Bader charge integration. J. Chem. Phys. 2011, 134 (6), 064111.",
+        "start_index": 53021,
+        "end_index": 53150
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "115. Giannozzi, P.; Baroni, S.; Bonini, N.; Calandra, M.; Car, R.; Cavazzoni, C.; Ceresoli, D.; Chiarotti, G. L.; Cococcioni, M.; Dabo, I.; Dal Corso, A.; de Gironcoli, S.; Fabris, S.; Fratesi, G.; Gebauer, R.; Gerstmann, U",
+        "start_index": 53150,
+        "end_index": 53373
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".; Gougoussis, C.; Kokalj, A.; Lazzeri, M.; Martin-Samos, L.; Marzari, N.; Mauri, F.; Mazzarello, R.; Paolini, S.; Pasquarello, A.; Paulatto, L.; Sbraccia, C.; Scandolo, S.; Schlafer, G.; Seitsonen, A. P.; Smogunov, A.; Umari, P",
+        "start_index": 53373,
+        "end_index": 53601
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": ".; Wentzcovitch, R. M., QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials. J. Phys. Condens. Matter 2009, 21 (39), 395502.",
+        "start_index": 53601,
+        "end_index": 53771
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "116. Monkhorst, H. J.; Pack, J. D., Special points for Brillouin-zone integrations. Phys. Rev. B 1976, 13 (12), 5188-5192.\n\n117. Giustino, F.; Cohen, M. L.; Louie, S. G., Electron-phonon interaction using Wannier functions. Phys. Rev. B 2007, 76 (16), 165108.",
+        "start_index": 53771,
+        "end_index": 54030
+    },
+    {
+        "document_name": "42.txt",
+        "chunk_text": "118. Ponce, S.; Margine, E. R.; Verdi, C.; Giustino, F., EPW: Electron-phonon coupling, transport and superconducting properties using maximally localized Wannier functions. Comput. Phys. Commun. 2016, 209, 116-133.",
+        "start_index": 54030,
+        "end_index": 54245
+    }
+]

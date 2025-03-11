@@ -1,0 +1,1742 @@
+[
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**71Ga NMR Signatures of Lewis and Br\u00f8nsted Acid Sites in Gallium Silicates Evidenced and Deciphered upon Interaction with Probe Molecules**\n\nScott R. Docherty\u2021, Laura A. V\u00f6lker\u2021, Alexander V. Yakimov, Ren\u00e9 Verel, Christophe Cop\u00e9ret*",
+        "start_index": 0,
+        "end_index": 233
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Department of Chemistry and Applied Biosciences, ETH Z\u00fcrich, Vladimir Prelog Weg 1-5, CH-8093 Zurich, Switzerland\n\nKEYWORDS Gallium, Main Group, NMR Spectroscopy, Heterogeneous Catalysis",
+        "start_index": 233,
+        "end_index": 419
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**ABSTRACT:** Determining the structure of Ga surface sites in Ga-based materials, used in catalysis, is critical for understanding their reactivity. However, obtaining molecular-level insights into their structure remains challenging",
+        "start_index": 419,
+        "end_index": 653
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Here, using solid state Nuclear Magnetic Resonance (NMR) spectroscopy (71Ga, 31P and 15N), two different families of acid sites are identified in a gallosilicate material (Ga@SiO2), prepared via Surface Organometallic Chemistry and used as an efficient heterogeneous propane dehydrogenation catalyst or catalyst support",
+        "start_index": 653,
+        "end_index": 974
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Through probe molecule studies using pyridine (Py) and triphenylphosphine oxide (TPPO), coupled with the synthesis of well-defined molecular analogs of surface sites and computational modelling on related cluster models using density functional theory, the 71Ga NMR signatures and the molecular structure of two types of sites, namely Br\u00f8nsted acid sites and Lewis Acid sites, are identified",
+        "start_index": 974,
+        "end_index": 1367
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". These tetra-coordinate sites can be described as Ga sites bound to three anionic siloxide surface ligands along with a silanol or a siloxane bridge, respectively, each associated with specific NMR parameters, which change markedly upon interaction with Py or TPPO, thereby enabling their structural characterization.",
+        "start_index": 1367,
+        "end_index": 1685
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Introduction**",
+        "start_index": 1685,
+        "end_index": 1701
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Gallium-containing materials are employed as catalysts in an array of industrially-relevant reactions, including alkane dehydrogenation and dehydroaromatization, amongst others.1\u20139 However, the role and the structures of Ga sites in these materials are often debated, with an array of oxidation states, geometries and charge states invoked across the existing literature",
+        "start_index": 1701,
+        "end_index": 2071
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".3\u20136,9\u201313 This apparent ambiguity is due, in part, to the fact that direct insights into the distribution and geometry of Ga surface sites using conventional spectroscopic techniques remains challenging. One technique that has been widely used for understanding Ga-containing oxide materials is X-ray absorption spectroscopy (XAS), which can be used to provide insights into the coordination environment of Ga in materials",
+        "start_index": 2071,
+        "end_index": 2493
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Correlations have been drawn between oxidation state, coordination number, and number of oxygen atom neighbors, and the corresponding effect on both edge features and edge energy for an array of molecules and materials in recent years.7,8,13\u201318 However, XAS provides in most instances only limited insight regarding the precise geometry at Ga because many species possess similar edge energies and consequently, the broad, featureless edge jump for both tetra- and hexa-coordinate species can only be leveraged to",
+        "start_index": 2493,
+        "end_index": 3008
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "distinguish the two most common coordination numbers, rather than specifics regarding electronic structure, and distortions from classical tetra- and hexacoordinate sites.",
+        "start_index": 3008,
+        "end_index": 3179
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "For example, in the context of developing selective hydrogenation/dehydrogenation catalysts based on single-sites or supported bimetallic nanoparticles, \\textsuperscript{12,16,19,20} \\(\\text{Ga@SiO}_2\\), prepared \\textit{via} Surface organometallic chemistry (SOMC), has been shown to consist of site-isolated tetra-coordinated Ga-species dispersed uniformly across the surface of the silica support",
+        "start_index": 3179,
+        "end_index": 3578
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "according to X-ray absorption near-edge structure (XANES), extended X-ray absorption fine structure (EXAFS) fitting, and wavelet transform (WT-)EXAFS (Figure 1a)",
+        "start_index": 3578,
+        "end_index": 3739
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". While the immediate coordination environment of the Ga centres is known to consist of three anionic siloxide groups, the nature of the additional fourth neutral donor ligand remains unknown, and can be an adjacent siloxane bridge or silanol group (Figure 1a).",
+        "start_index": 3739,
+        "end_index": 4000
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\textbf{Figure 1.} (a) Current model for the structure of \\(\\text{Ga@SiO}_2\\) based on characterization by X-ray techniques; (b) Overview of this work \u2013NMR-based approach for identification of Ga-surface species found in \\(\\text{Ga@SiO}_2\\), encompassing the use of well-defined molecular analogs, probe molecule studies and DFT models.",
+        "start_index": 4000,
+        "end_index": 4336
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Towards this end, solid state $^{69/71}$Ga solid-stateNMR, would be the method of choice to extract coordination geometry, ultimately providing insights into the immediate coordination sphere of the Ga sites within a material. In most instances, $^{69/71}$Ga NMR is used to identify the geometry and distribution of Ga sites on the basis of chemical shift alone (in an analogous fashion to that employed for $^{27}$Al NMR)",
+        "start_index": 4336,
+        "end_index": 4758
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{7,15,21-23}$ For example, hexa-coordinate Ga$^{\\text{III}}$ sites ([6]-Ga) are expected to fall within the chemical shift range of 0-50 ppm, with penta- ([5]-Ga) and tetra-coordinate ([4]-Ga) sites having chemical shift in the 50-100 ppm and 75-250 ppm range, respectively $^{21,24}$ However, direct insights into the precise structure and",
+        "start_index": 4758,
+        "end_index": 5101
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "coordination environment of surface sites are challenging to extract, not least because the dominant signals arising from bulk structures are typically associated with lower quadrupolar coupling constants ($C_Q$) and are thereby more easily detected",
+        "start_index": 5101,
+        "end_index": 5350
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".",
+        "start_index": 5350,
+        "end_index": 5351
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Moving beyond identification of sites purely on the basis of chemical shift, $^{69/71}$Ga NMR has been successfully used to probe the nature of sites in minerals and molecules, where NMR, often in combination with density functional theory (DFT) methods, is used for direct structural characterization of Ga sites",
+        "start_index": 5351,
+        "end_index": 5664
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{24-28}$ However, the application of $^{69/71}$Ga NMR for direct structural characterization of catalytically-relevant surface sites is hampered by poor sensitivity, due to low Ga weight-loadings as well as the distorted nature of surface sites, resulting in signal broadening associated with a distribution of quadrupolar couplings",
+        "start_index": 5664,
+        "end_index": 5999
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{29}$ Nevertheless, $^{69/71}$Ga NMR would be a valuable tool for obtaining structural insights into surface Ga-sites in heterogeneous catalysts. For this purpose, the favourable Larmor frequency and lower electric quadrupole moment mean that $^{71}$Ga is the nucleus of choice for such studies, in spite of the lower isotopic abundance of $^{71}$Ga with respect to $^{69}$Ga.$^{24,28}$",
+        "start_index": 5999,
+        "end_index": 6388
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Here, using $^{71}$Ga ss-NMR in combination with probe molecule studies, complemented by synthesis of molecular analogs and DFT calculations, the structure of Br\u00f8nsted acidic and Lewis acid surface sites in a Ga-based alkane dehydrogenation catalyst are elucidated (Figure 1b). Concurrently, the influence of probe molecules on the $^{71}$Ga NMR spectroscopic signature is investigated, and interactions with specific probe molecules are rationalized.",
+        "start_index": 6388,
+        "end_index": 6839
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Results and Discussion\n\nStructural characterization of silica-supported Ga species",
+        "start_index": 6839,
+        "end_index": 6921
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "First, we turned to $^{15}$N-enriched pyridine ($^{15}$N-py) as a probe molecule to examine the types of surface sites present in Ga@SiO$_2$",
+        "start_index": 6921,
+        "end_index": 7061
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{8,30-33}$ $^{15}$N dynamic nuclear polarization surface-enhanced NMR spectroscopy (DNP-SENS) on Ga@SiO$_2$ contacted with $^{15}$N-enriched pyridine ($^{15}$N-py/Ga@SiO$_2$) shows three signals with distinct isotropic nitrogen-15 chemical shifts: $\\delta_{\\text{iso}(15N)} = 290, 236$ and 205",
+        "start_index": 7061,
+        "end_index": 7357
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "ppm (Figure 2a), indicating the presence of pyridine interacting with silanol groups on SiO$_2$ ($\\delta_{\\text{iso}(15N)}$",
+        "start_index": 7357,
+        "end_index": 7480
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "...",
+        "start_index": 7480,
+        "end_index": 7483
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "pyridine bound to strong Lewis acidic Ga sites \\((^{15}\\text{N-py/Ga}_{\\text{LA}})\\) \\((\\delta_{\\text{iso}}(15\\text{N}) = 236 \\text{ ppm})\\) (Figure 2b(i)) and pyridinium \\((\\delta_{\\text{iso}}(15\\text{N}) = 205 \\text{ ppm})\\), indicating the presence of",
+        "start_index": 7483,
+        "end_index": 7737
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Br\u00f8nsted acidic sites, likely associated with pseudo-bridging silanols interacting with adjacent Ga sites, Si-OH\u00b7\u00b7\u00b7Ga \\((^{15}\\text{N-py/Ga}_{\\text{BA}}\\) Figure 2b(ii))",
+        "start_index": 7737,
+        "end_index": 7906
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{21,34} All fitting of the chemical shift anisotropy (CSA) can be found in SI S7. Note that in earlier studies, it was not possible to observe appreciable amounts of pyridinium in Ga@SiO\\(_2\\) by FT-IR at room temperature, suggesting that \\(^{15}\\text{N-py NMR}\\) is a privileged probe for Bronsted acid sites in these materials",
+        "start_index": 7906,
+        "end_index": 8251
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{12}",
+        "start_index": 8251,
+        "end_index": 8272
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Another common class of probe molecules used in NMR are phosphine oxides, which provide insight into the Lewis acidity of both molecules and materials.\\textsuperscript{35\u201337} Thus, we chose to use triphenyl phosphine oxide (TPPO) as a probe molecule to explore the Lewis acid sites of Ga@SiO\\(_2\\)",
+        "start_index": 8272,
+        "end_index": 8569
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Adsorption of TPPO on Ga@SiO\\(_2\\) results in a phosphorus-31 \\((^{31}\\text{P})\\) spectrum containing two dominant signals centered at 46 and 32 ppm (See SI S7)",
+        "start_index": 8569,
+        "end_index": 8731
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The signal at 46 ppm is assigned to the interaction of TPPO with Ga\\(_{\\text{LA}}\\) (TPPO/Ga\\(_{\\text{LA}}\\)) \u2013 confirming the presence of Lewis acidic Ga sites; the other signal at 32 ppm is ascribed to TPPO interacting with surface OH groups via H-bonding, e.g. Si-OH\u00b7\u00b7\u00b7Ga (TPPO/Ga\\(_{\\text{BA}}\\)) or Si-OH",
+        "start_index": 8731,
+        "end_index": 9042
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{38} In contrast to earlier reports, a CSA is observed for all species, suggesting a specific interaction with surface sites rather than highly mobile species reported previously (See SI S7 for fitting).\\textsuperscript{39}",
+        "start_index": 9042,
+        "end_index": 9282
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Having identified the presence of two distinct families of Ga surface sites in Ga@SiO\\(_2\\) using probe molecules, we then turned to \\(^{71}\\text{Ga NMR}\\), first investigating Ga@SiO\\(_2\\) at 14.1 and 21.15 T to gain further insights into the structure and distribution of the Ga sites present",
+        "start_index": 9282,
+        "end_index": 9576
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Using WURST-QCPMG detection, in combination with a frequency-stepped approach, the NMR spectrum of Ga@SiO\\(_2\\) was obtained",
+        "start_index": 9576,
+        "end_index": 9702
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{40\u201342} The broad and continuous nature of the \\(^{71}\\text{Ga NMR}\\) signal obtained (Figure 2c) illustrates that there are, most likely, no large domains of Ga-oxides, which would result in signals with smaller \\(C_Q\\) values and intense maxima, in addition to evidence for [6]-Ga species \\((\\delta_{\\text{iso}} = 0-75 \\text{",
+        "start_index": 9702,
+        "end_index": 10046
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "ppm})\\)",
+        "start_index": 10046,
+        "end_index": 10053
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{21,23,43} The shape of the spectrum is consistent with a Czjzek distribution, with an average \\(\\eta\\) of 0.61.\\textsuperscript{44}",
+        "start_index": 10053,
+        "end_index": 10202
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Figure 2. (a) DNP-enhanced $^{15}$N CP-MAS NMR spectrum of $^{15}$N-py/Ga@SiO$_2$. Isotropic chemical shifts are shown. Additional CP-MAT experiments on the material and analysis of CSA can be found in SI S7. Spectrum acquired at 14.1 T, 100 K, 8 kHz MAS",
+        "start_index": 10202,
+        "end_index": 10456
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". (b) Proposed species formed upon exposure to $^{15}$N-pyridine, for (i) Lewis acid sites (Ga$_{LA}$, $^{15}$N-py/Ga$_{LA}$) and (ii) Br\u00f8nsted acid sites (Ga-O(H)-Si), $^{15}$N-py/Ga$_{BA}$)",
+        "start_index": 10456,
+        "end_index": 10647
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". (c) Czjzek analysis of $^{71}$Ga NMR spectra of (i) of Ga@SiO$_2$ and (ii) $^{15}$N-py/Ga@SiO$_2$ (14.1 and 21.15 T)",
+        "start_index": 10647,
+        "end_index": 10765
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The Czjzek spectra for a range of possible Czjzek parameters $\\sigma_c$ and resulting second moments of the quadrupolar product $\\sqrt{\\langle \\sigma_Q^2 \\rangle}$ are plotted as colored lines on top of the experimental data",
+        "start_index": 10765,
+        "end_index": 10991
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". For Ga@SiO$_2$ best agreement of Czjzek and experimental lineshapes is obtained using $\\sqrt{\\langle \\sigma_Q^2 \\rangle} \\approx 52$ MHz the significantly narrower spectra of $^{15}$N-py/Ga@SiO$_2$ are best reproduced using $\\sqrt{\\langle \\sigma_Q^2 \\rangle} \\approx 12$ MHz.",
+        "start_index": 10991,
+        "end_index": 11268
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Notably, when the $^{71}$Ga NMR was recorded on $^{15}$N-py/Ga@SiO$_2$, (Figure 2c); the resulting spectra display significantly narrower lineshape (i.e. a lineshape dominated by a distribution with, on average,",
+        "start_index": 11268,
+        "end_index": 11479
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "a lower C0) than Ga@SiO2, suggesting that the adsorption of pyridine generates sites with more symmetric environment.45 The large change of the lineshape upon adsorption of py indicates that the observed Ga sites in Ga@SiO2 all reside at the surface (or very close to the surface) of the material. Again, a simple Czjzek line could, in principle, be utilized to approximate reproduce the spectral shapes (Figure 2c)",
+        "start_index": 11479,
+        "end_index": 11894
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".44,46 However, since the Czjzek distribution is a model of maximum entropy, it does not allow for a refinement of structural parameters of the material. In order to correlate spectral lineshape and structural parameters, an extended Czjzek model which considers local, well-defined EFG parameters and a long-range Czjzek-type noise, has to be utilized",
+        "start_index": 11894,
+        "end_index": 12246
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".47,48 However, to build such a model, educated guesses of the EFG parameters for the local structures are required (vide infra). To supplement structural analysis by NMR, XANES was used to gain insights into the local structure of Ga@SiO2",
+        "start_index": 12246,
+        "end_index": 12485
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The edge energy of around 10372 eV in the XANES spectrum is characteristic of tetra-coordinate Ga species (see SI S8),13,17 while comparison of the corresponding molecular analogs shows in general, [4]-Ga sites generally possess very similar white line profiles (SI S8). Notably there is no evidence in XANES for [6]-Ga species that would be expected for domains of GaOx",
+        "start_index": 12485,
+        "end_index": 12857
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".8 Notably, there are no features observed at 10367 eV (characteristic of tri-coordinate Ga) for Ga@SiO2, indicating that tri-coordinate species are not present in appreciable concentrations in this material at room temperature.13,17,18",
+        "start_index": 12857,
+        "end_index": 13093
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "![Synthesis of 1-py and 1-TPPO from 1-THF, alongside crystal structures for the synthesized molecules (ellipsoids shown at 50% probability, methyl groups and protons omitted for clarity).](image)\n\n**Molecular models for Ga sites: Ga(OSi(OtBu)3)3(L)**",
+        "start_index": 13093,
+        "end_index": 13343
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "In order to further probe experimentally how the interaction of probe molecules affect the spectroscopic signature of Ga sites in gallosilicate species, we next looked into a series of molecular analogs for surface sites. Well-defined molecular Ga siloxides coordinated with probe molecule were prepared from Ga(OSi(OtBu)3)3(THF) (1-THF, THF = tetrahydrofuran).12,21",
+        "start_index": 13343,
+        "end_index": 13709
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Leveraging the weak interaction of GaIII and THF in 1-THF, it was possible to stoichiometrically exchange THF with TPPO or py, to generate the corresponding well-defined, crystalline molecular",
+        "start_index": 13709,
+        "end_index": 13901
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "species that possess structures tangible with probe molecule adducts of Lewis acidic Ga-surface species (Figure 3). Treatment of 1-THF with py (3.8 equiv.) results in the displacement of 1 equivalent of THF (Figure 3). The product, Ga(OSi(OtBu)\u2083)\u2083(py) (1-py), was isolated in 71% yield",
+        "start_index": 13901,
+        "end_index": 14186
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Characterization by single-crystal X-ray diffraction (XRD) reveals that the unit cell of the obtained structure contains a single pseudo-tetrahedral Ga motif, consisting of Ga bound to 3 siloxide ligands (Ga-O(Si): 1.782-1.794 \u00c5), with the pyridinic\u2013N found in an axial position (Ga-N: 2.008 \u00c5)",
+        "start_index": 14186,
+        "end_index": 14482
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The O-Ga-O (\u03b8_O-Ga-O) and O-Ga-N (\u03b8_O-Ga-L) bond angles fall in the range 110.4-114.0\u00b0 and 103.7-109.5\u00b0, respectively",
+        "start_index": 14482,
+        "end_index": 14601
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". \u03b4_iso(15N) of 15N-py (247 ppm, C\u2086D\u2086), is shifted 70 ppm to lower frequency than that of free pyridine, consistent with the interaction of pyridine with Ga.\u2078",
+        "start_index": 14601,
+        "end_index": 14759
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "The solid state \u03b4_iso(15N) (246 ppm), is consistent with the chemical shift assigned to pyridine interacting with a Lewis acidic Ga site in Ga@SiO\u2082 (15N-py/GaLA, \u03b4_iso(15N) = 236 ppm, vide supra), further supporting the assignment for 15N-py/GaLA. The difference in \u03b4_iso (ca",
+        "start_index": 14759,
+        "end_index": 15034
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". 10 ppm) found for 15N-1-py and 15N-py/GaLA indicates an increased Lewis acidity for the surface species.\u00b3\u00b9 The increased Lewis acidity of 15N-py/GaLA vs. 1-py likely arises from increased strain in the surface species",
+        "start_index": 15034,
+        "end_index": 15253
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Furthermore, fitting of the CSA for the molecular species 15N-1-py, gives a span (\u03a9) of 440 ppm, and a skew (\u03ba) of 0.74., which also aligns well with fitting of the CSA for 15N-py/GaLA (SI S7).",
+        "start_index": 15253,
+        "end_index": 15448
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Similarly, treatment of 1-THF with TPPO (1.2 equiv.) results in the liberation of THF. The product, Ga(OSi(OtBu)\u2083)\u2083(TPPO) (1-TPPO), was isolated in 83% yield",
+        "start_index": 15448,
+        "end_index": 15605
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Characterization XRD reveals that unit cell of the obtained structure contains a single pseudo-tetrahedral Ga motif, consisting of a Ga bound to 3 siloxide ligands (Ga-O(Si): 1.794 \u00c5) and TPPO interacting with the Ga centre (Ga-O(P): 1.890 \u00c5). For 1-TPPO, the O-Ga-O bond angles (\u03b8_O-Ga-O) are found to be 111",
+        "start_index": 15605,
+        "end_index": 15916
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".4\u00b0, and the O-Ga-O(P) bond angle (\u03b8_O-Ga-L) is found to be 107.5\u00b0. The 3\u00b9P solution chemical shift of 1-TPPO is shifted by around 14 ppm compared to TPPO (40.1 vs. 25.7 ppm), indicating that TPPO is bound to Ga in solution",
+        "start_index": 15916,
+        "end_index": 16139
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\u2074\u2079,\u2075\u2070 Furthermore the \u00b9J_C-P coupling of 111 Hz is consistent with reported coupling constants for related Al silsequioxane TPPO adducts (110.5 Hz) \u2013 larger than the reported \u00b9J_C-P (104.6 Hz) for TPPO (SI S7)",
+        "start_index": 16139,
+        "end_index": 16349
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\u2075\u2070,\u2075\u00b9 Analysis of the 3\u00b9P ss-NMR spectrum of 1-TPPO indicates that in the solid state there is a single species with an isotropic chemical shift of 42 ppm. Fitting of the CSA gives a span (\u03a9) of 92 ppm, and a skew (\u03ba) of 1.00, which aligns well with fitting of the CSA for TPPO/GaLA.",
+        "start_index": 16349,
+        "end_index": 16633
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2 ORCID: https://orcid.org/0000-0002-8605-3669 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 16633,
+        "end_index": 16783
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Figure 4. $^{71}$Ga Solid-state NMR characterization of the molecular species (a) 1-THF, (b) 1-py and (c) 1-TPPO. Top, Middle: Experimental solid state NMR data (grey) acquired at a magnetic field strength of 14.1 T (top) and 21",
+        "start_index": 16783,
+        "end_index": 17011
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".5 T (middle) are shown together with the DFT simulated spectra (green lines) and, for 1-py and 1-TPPO, fitted spectra (pink). Bottom: Comparison of the fit results and goodness of fit for the different fitting routines. The position of the spheres encodes the fit results while the colour indicates the fitting mode",
+        "start_index": 17011,
+        "end_index": 17327
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The size of the spheres is proportional to the $\\chi^2$ values of the fit, normalized to the $\\chi^2$ value for the DFT calculated simulation for each individual compound.",
+        "start_index": 17327,
+        "end_index": 17500
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Comparison of the crystal structures for the three molecular species (1-THF, 1-py, and 1-TPPO) illustrates that all 3 possess similar pseudo-tetrahedral geometries, with subtle differences amongst the series",
+        "start_index": 17500,
+        "end_index": 17707
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In particular, 1-TPPO possesses a C\u2083 axis in the solid state, while 1-py possesses lower symmetry and differing O-Ga-O bond angles ($\\theta_{O-Ga-O}$) O-Ga-L bond angles ($\\theta_{O-Ga-L}$); and the reported crystal structure of 1-THF contains 4 non-equivalent Ga motifs in the unit cell, with varying O-Ga-O bond angles",
+        "start_index": 17707,
+        "end_index": 18029
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "($\\theta_{O-Ga-O}$) (119",
+        "start_index": 18029,
+        "end_index": 18053
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".1-111.6\u00b0) amongst the four sites. To assess the geometry of the various gallosilicate species studied, $\\tau_4'$ was calculated for each of the Ga motifs found in the crystal structures (a description of $\\tau_4'$ can be found in SI S3)",
+        "start_index": 18053,
+        "end_index": 18290
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". $^{52}$ $\\tau_4'$ of compounds 1-THF, 1-py and 1-TPPO gives $\\tau_4'(THF)$ in the range of 0.88-0.90 for the 4 sites in the unit cell, $\\tau_4'(py)$ of 0.93 for 1-py, and $\\tau_4'(TPPO)$ of 0",
+        "start_index": 18290,
+        "end_index": 18483
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".97 for the C\u2083-symmetric 1-TPPO. On this basis, 1-TPPO is the closest to a tetrahedron, while for 1-THF adduct, the position of the siloxide ligands is closer to lying in the plane orthogonal to the M-",
+        "start_index": 18483,
+        "end_index": 18684
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "L axis. Qualitatively $\\tau_4'$ correlates with the strength of interaction of the L-type ligands with the empty 4p$_z$ orbital found on Ga (vide infra) \u2013 an observation which is supported by the ease of THF displacement by py or TPPO.",
+        "start_index": 18684,
+        "end_index": 18919
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**DFT-modelling and $^{71}$Ga Solid-state NMR characterization of molecules of general structure Ga(OSi(OrBu)$_3$)$_3$(L)**",
+        "start_index": 18919,
+        "end_index": 19042
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Due to their highly-ordered, crystalline nature, the three molecular analogs provide an ideal platform for studying the influence of local coordination and identity of ligand on the $^{71}$Ga NMR signature in gallosilicate materials",
+        "start_index": 19042,
+        "end_index": 19274
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In order to understand in more detail the relationship between structures and NMR signatures, DFT calculations were performed on the molecular systems $^{1}$-THF, $^{1}$-py and $^{1}$-TPPO (for details see SI S6), and their $^{71}$Ga NMR spectra were obtained at the two different magnetic fields (14.1 and 21.15 T, Figure 4)",
+        "start_index": 19274,
+        "end_index": 19601
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{40,41,53}$ The $^{71}$Ga solid-state NMR of $^{1}$-THF possesses a broad, complex lineshape consistent with Ga sites having large quadrupolar coupling constants (ca. 40 MHz) and different environments (Figure 4a)",
+        "start_index": 19601,
+        "end_index": 19817
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{54}$ Indeed, the crystal structure of $^{1}$-THF contains four crystallographically-distinct Ga moieties (vide supra), which are expected to have unique NMR parameters.",
+        "start_index": 19817,
+        "end_index": 19989
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "DFT calculations for each of the Ga sites indicate that $\\delta_{\\text{iso}}$ for the 4 sites falls into a narrow range (149-156 ppm), while $C_Q$ values vary between 34.9 and 39.7 MHz, with $\\eta$ between 0.09 and 0.14 (Table 1), illustrating the sensitivity of $C_Q$ and $\\eta$ to the immediate coordination environment",
+        "start_index": 19989,
+        "end_index": 20310
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{19,21}$ Notably, simulation of the lineshape from calculated values for the $C_Q$ and $\\eta$ (i.e. the sum of 4 equally-weighted sub-spectra) reproduce the lineshape of the experimental spectra well, (Figure 4a).",
+        "start_index": 20310,
+        "end_index": 20526
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "In contrast $^{1}$-py and $^{1}$-TPPO display simpler $^{71}$Ga NMR lineshapes, that are well-described by a single coordination environment possessing a high axial symmetry (i.e. low $\\eta$, Figure 4b,c). Again, the DFT calculated parameters \u2013 $\\delta_{\\text{iso}}$ (171ppm), $C_Q$ (25.2 MHz) and $\\eta$ (0",
+        "start_index": 20526,
+        "end_index": 20833
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".07) for $^{1}$-py and $\\delta_{\\text{iso}}$ (124 ppm), $C_Q$ (26.6 MHz) and $\\eta$ (0.005) for $^{1}$-TPPO \u2013 reproduce the experimental data well (Figure 4b, c, Table 1).",
+        "start_index": 20833,
+        "end_index": 21004
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "A more precise extraction of the quadrupolar parameters from the experimental data was achieved through the simultaneous fitting of the spectra acquired at 14.1 and 21.15 T using a routine which treats the quadrupolar interaction in an exact fashion (for details on data analysis see SI). In principle, CSA parameters (i.e. the span and the skew, as well as the Euler angles relating CSA and EFG principal axes frames) could be extracted simultaneously",
+        "start_index": 21004,
+        "end_index": 21456
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". However, the resulting increase in the number of fitting parameters precludes meaningful fitting of both, EFG and CSA values. To determine the optimal routine for extraction of EFG parameters, three separate fitting approaches were compared for $^{1}$-py and $^{1}$-TPPO. In addition to the simultaneous fitting of all EFG and CSA parameters, $C_Q$, $\\eta$ and $\\delta_{\\text{iso}}$",
+        "start_index": 21456,
+        "end_index": 21840
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "were also extracted while constraining additional CSA parameters. In each case, the CSA parameters were either set to the DFT-calculated values or assumed to be zero. Although the achievable goodness of fit (i.e. $\\chi^2$ values) are distinct for the different fitting routines, the numerical fit results for $C_Q$ and $\\eta$ are very similar for all routines and only $\\delta_{\\text{iso}}$ is significantly influenced by the constraints applied",
+        "start_index": 21840,
+        "end_index": 22285
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Hence, though 1-py and 1-TPPO possess the smallest $C_Q$ values within the studied molecular analogs, the dominance of $C_Q$ over CSA enables fitting of quadrupolar parameters while neglecting additional CSA parameters",
+        "start_index": 22285,
+        "end_index": 22505
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". For 1-py and 1-TPPO, further analysis focuses on extracted values for $\\delta_{\\text{iso}}$, $C_Q$ and $\\eta$ obtained when fitting EFG and $\\delta_{\\text{iso}}$ while setting CSA parameters to zero. For 1-py, this yields a $\\delta_{\\text{iso}}$ of 158 ppm, a $C_Q$ of 24",
+        "start_index": 22505,
+        "end_index": 22778
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".2 MHz, with an asymmetry parameter ($\\eta$) of 0.08 (Table 1). Thus, $\\delta_{\\text{iso}}$ falls into the range expected for a tetracoordinate Ga species (vide infra). The low value of $\\eta$ indicates a high axial symmetry (i.e",
+        "start_index": 22778,
+        "end_index": 23007
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". $V_{YY} \\approx V_{XX}$), while the large $C_Q$ is consistent with the presence of a large principal component of the EFG tensor ($V_{ZZ}$) \u2013 consistent with the obtained crystal structure and the non-equivalence of the ligands found in the first coordination sphere (Py vs \u2013OSi(OtBu)$_3$, vide supra)",
+        "start_index": 23007,
+        "end_index": 23310
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". For 1-TPPO, $\\delta_{\\text{iso}}$ of 121 ppm and a $C_Q$ of 27.7 MHz are obtained, with an $\\eta$ of 0.006 (Figure 4c, Table 1). Again, the fitted $\\delta_{\\text{iso}}$ is consistent with values expected for a 4-coordinate Ga$^{\\text{III}}$ site",
+        "start_index": 23310,
+        "end_index": 23557
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The high axial symmetry, which arises from the presence of a C$_3$ symmetry axis, as observed in the crystal structure (SI S3), results in a low $\\eta$ (i.e. an axially-symmetric distribution of electrical charge perpendicular to $V_{ZZ}$, SI S6).",
+        "start_index": 23557,
+        "end_index": 23806
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "For 1-THF, simultaneous fitting of EFG and CSA values was not attempted due to the increased number of free parameters and only fitting routines with fixed CSA parameters (based on the DFT-calculated values (See SI S6)) were taken into account. Both the achievable goodness of fit as well as the numerical fit-results are comparable for both routines, in contrast to the findings for 1-py and 1-TPPO",
+        "start_index": 23806,
+        "end_index": 24205
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In the case of 1-THF, which possesses the largest $C_Q$ value within the studied molecular analogs, the dominance of EFG over CSA is sufficient to ignore CSA parameters during extraction of the EFG parameters. Also, due to the increased complexity of the lineshape in the case of 1-THF, the fitted values do not reproduce the lineshape significantly better than the DFT-calculated values. For",
+        "start_index": 24205,
+        "end_index": 24599
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "further analysis of 1-THF the DFT calculated values for $\\delta_{\\text{iso}}$, $C_Q$ and $\\eta$ are used in place of fitted values.",
+        "start_index": 24599,
+        "end_index": 24730
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Table 1.** DFT-calculated $^{71}\\text{Ga}$ parameters for 1-py, 1-TPPO, and 1-THF, and fitted values for 1-py and 1-TPPO.",
+        "start_index": 24730,
+        "end_index": 24853
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "| Compound       | $C_Q$ / MHz | $\\eta$ / a.u. | $\\delta_{\\text{iso}}$ / ppm |\n|----------------|-------------|---------------|-----------------------------|\n| 1-py (DFT)     | 25.2        | 0.07          | 171                         |",
+        "start_index": 24853,
+        "end_index": 25089
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "| 1-py (fitted)\\[a]\\ | 24.2        | 0.08          | 158                         |\n| 1-TPPO (DFT)   | 26.6        | 0.006         | 124                         |\n| 1-TPPO (fitted)\\[b]\\ | 27.7        | 0.006         | 121                         |",
+        "start_index": 25089,
+        "end_index": 25335
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "| 1-THF (DFT)\\[b]\\ | 34.9        | 0.091         | 149                         |\n|                | 35.8        | 0.088         | 155                         |\n|                | 36.1        | 0.141         | 155                         |\n|                | 39.7        | 0.101         | 155                         |",
+        "start_index": 25335,
+        "end_index": 25652
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\[a\\] Fitted values with CSA parameters set to 0. \\[b\\] calculated values for each of the 4 Ga sites found in the crystal structure of 1-THF.",
+        "start_index": 25652,
+        "end_index": 25793
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Overall, comparison of measured and calculated NMR parameters offer near-perfect agreement for each of the 3 molecules, 1-py, 1-TPPO and 1-THF. $\\delta_{\\text{iso}(^{71}\\text{Ga})}$ values reflect those expected for tetra-coordinate Ga-species containing oxygen-based ligands",
+        "start_index": 25793,
+        "end_index": 26068
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\[24\\] The narrow chemical shift range illustrates that $\\delta_{\\text{iso}}$ offers insights into coordination number of Ga sites, but provides limited information about the additional neutral ligands when comparing subtle differences amongst structurally-related sites (vide supra). In contrast, $C_Q (V_{ZZ})$ varies markedly within the series (Figure 4, Table 1)",
+        "start_index": 26068,
+        "end_index": 26435
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The calculated $V_{ZZ}$ values obtained for 1-py, 1-TPPO, and 1-THF differ markedly and rank as follows 1-THF (1.37 a.u.) > 1-TPPO (1.03 a.u.) > 1-py (0.96 a.u.) (n.b. only one of the sites for 1-THF is considered here)",
+        "start_index": 26435,
+        "end_index": 26656
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In all cases, $V_{ZZ}$ is oriented along the M-L axis, where L is the neutral donor, and perpendicular to the plane containing the siloxide ligands (SI S6). Thus, modulation of the magnitude of $V_{ZZ}$ is related to the extent of donation from the neutral donor to the Ga nucleus",
+        "start_index": 26656,
+        "end_index": 26938
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". By comparing the contributions arising from the neutral donor (M-L is aligned along $V_{ZZ}$), $V_{ZZ}$ correlates with the $\\sigma$-donor ability of L (i.e. how available the lone pair is within the bonding interaction).",
+        "start_index": 26938,
+        "end_index": 27161
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "To gain further insights into the differences between the structural analogs, Natural bond orbital (NBO) analysis was performed.\\[56,57\\] By transforming a given wave function into localized form (i.e. a molecular orbital), NBOs describe electronic structures in terms of localized two-centre bonds and lone pairs, relating computed values to Lewis structure representations. The NBO contribution to $V_{ZZ}$ from the Ga-N bonding orbital of py in 1-py (-1",
+        "start_index": 27161,
+        "end_index": 27617
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".49 a.u.) is significantly more negative than the NBO contribution to $V_{ZZ}$ arising from the interaction of the oxygen atom of TPPO with the Ga centre in 1-",
+        "start_index": 27617,
+        "end_index": 27776
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "TPPO (-1.29 a.u.), which is more negative than the NBO contribution to $V_{ZZ}$ from the lone pair of oxygen of the THF moiety of 1-THF (-1.08 a.u)",
+        "start_index": 27776,
+        "end_index": 27923
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". This highlights the correlation between the extent of donation from the neutral donor and the magnitude of $V_{ZZ}$, while the variation in $V_{ZZ}$ found for the series of molecules show the pronounced effect of small changes in immediate coordination environment on the EFG tensors (vide infra), highlighting that $C_Q$ and $\\eta$ provide unique tools to distinguish similar coordination environments.",
+        "start_index": 27923,
+        "end_index": 28328
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Having established that DFT calculations can accurately obtain the NMR parameters of Ga sites in well-defined molecular structures, we then turned our attention to modelling possible surface species and their associated NMR signatures",
+        "start_index": 28328,
+        "end_index": 28562
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". On the basis of observations from XANES and fitting of EXAFS, tetra-coordinate sites, containing 3 siloxide ligands and an adjacent neutral donor, that can be either a siloxane bridge (Ga_{La}) or a silanol group (Ga_{Ba}), were chosen as models (See Figure 5 or SI S6)",
+        "start_index": 28562,
+        "end_index": 28833
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Note that while tri-coordinate Lewis acid sites are not considered to be present in large concentrations in Ga@SiO$_2$ based on analysis of XAS (vide supra), the NMR parameters of these species were also calculated for reference (vide infra).",
+        "start_index": 28833,
+        "end_index": 29077
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Figure 5.** (a) Plot of calculated $C_Q$ vs. $\\delta_{iso}$ for models ascribed to Lewis acid sites (filled blue squares), Br\u00f8nsted acid sites (Filled red circles), Lewis acid sites interacting with probe molecules (hollow blue squares), and Br\u00f8nsted acid sites interacting with probe molecules (hollow red circles). Numbers shown next to filled points represent $R_{Ga-O}$ in \u00c5 for adjacent neutral oxygen donors",
+        "start_index": 29077,
+        "end_index": 29492
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Ga_{Ba} and Ga_{La} represent ground state structures for Br\u00f8nsted acid sites and Lewis acid sites, respectively. (b) Plot of $\\delta_{iso}$ vs",
+        "start_index": 29492,
+        "end_index": 29637
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". $C_Q$ for cluster models of Lewis acid sites and Lewis acid sites interacting with imposed probe molecules (hollow squares), and calculated (filled triangles) and fitted (filled squares) values for 1-py (purple), 1-TPPO (red), and 1-THF (blue).",
+        "start_index": 29637,
+        "end_index": 29883
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "For Ga_{La}, the calculated $\\delta_{iso}/C_Q$ are 142 ppm/39 MHz while the calculated $\\delta_{iso}/C_Q$ for Ga_{Ba} are 137 ppm/42 MHz (Figure 6, Ga-L distances are summarized in SI S6). The $C_Q$ values are comparable to",
+        "start_index": 29883,
+        "end_index": 30106
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2 ORCID: https://orcid.org/0000-0002-8605-3669 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 30106,
+        "end_index": 30256
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "$\\text{1-THF}$, illustrating the parallels between the molecular analogs and the surface species, and demonstrating that it is difficult to distinguish both sites solely from their Ga NMR parameters.",
+        "start_index": 30256,
+        "end_index": 30455
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Figure 6.** (a) Schematic depiction of Lewis acid sites in Ga@SiO$_2$ (Ga$_{\\text{LA}}$) and corresponding cluster model used for DFT-modelling of Ga$_{\\text{LA}}$",
+        "start_index": 30455,
+        "end_index": 30620
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". (a) Schematic depiction of Br\u00f8nsted acid sites in Ga@SiO$_2$ (Ga$_{\\text{BA}}$) and corresponding cluster model used for DFT-modelling of Ga$_{\\text{BA}}$. In both cases, the bond shown in blue represents interaction for which distance was screened ($R_{\\text{Ga-O}}$)",
+        "start_index": 30620,
+        "end_index": 30890
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". For cluster models, hydrogen, oxygen, silicon and gallium are shown in white, red, yellow and pink, respectively.",
+        "start_index": 30890,
+        "end_index": 31005
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "We next explored the influence of the distance between the Ga centre and adjacent neutral donor ligand for both Ga$_{\\text{LA}}$ and Ga$_{\\text{BA}}$ to establish how the neutral donor affects $\\delta_{\\text{iso}}$ and $C_Q$ (Figure 6, SI S6)",
+        "start_index": 31005,
+        "end_index": 31247
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In both cases the general trend is the same \u2013 the shortening of the Ga-O bond distance results in an increase $\\delta_{\\text{iso}}$, alongside a decrease in $C_Q$ \u2013 aligning well with earlier observations regarding the role of neutral donors within the molecular series.",
+        "start_index": 31247,
+        "end_index": 31519
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "For both Ga$_{\\text{LA}}$ and Ga$_{\\text{BA}}$, when the distance between Ga and the neutral donor ($R_{\\text{Ga-O}}$) is increased above 0.25 \u00c5 longer than the ground state structure (i.e. $R_{\\text{Ga-O}} > 2.3$ \u00c5), a rapid convergence towards $C_Q$ expected for a tri-coordinate Ga site (61 MHz) is observed",
+        "start_index": 31519,
+        "end_index": 31829
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Collectively these data illustrate that $\\delta_{\\text{iso}}$ and $C_Q$ values for neutral, tetra-coordinate Ga sites consisting of 3 anionic siloxy ligands and an adjacent neutral donor, depend heavily on the $R_{\\text{Ga-O}}$; and in the absence of exogenous probe molecules the NMR parameters make the two types of site (Ga$_{\\text{LA}}$ and Ga$_{\\text{BA}}$) challenging",
+        "start_index": 31829,
+        "end_index": 32205
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "to distinguish by $^{71}$Ga NMR spectroscopy alone",
+        "start_index": 32205,
+        "end_index": 32255
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".",
+        "start_index": 32255,
+        "end_index": 32256
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "We then computed how the $^{71}$Ga NMR parameters are influenced by the presence of py and TPPO probe molecules, for both Ga$_{\\text{LA}}$ and Ga$_{\\text{BA}}$ (Figure 6b, Ga-L distances are summarized in SI S6)",
+        "start_index": 32256,
+        "end_index": 32467
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The calculated NMR parameters of the Ga$_{\\text{LA}}$ pyridine adduct ($\\text{py/Ga}_{\\text{LA}}$, Figure 7), $\\delta_{\\text{iso}}/C_Q$ are 144 ppm/22 MHz, a significant drop in $C_Q$ upon the replacement of siloxane bridge donor ligand by pyridine, paralleling what is observed experimentally, while the chemical shift does not change markedly.",
+        "start_index": 32467,
+        "end_index": 32814
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "With $\\text{GaBA}$, the pyridine can deprotonate the silanol to generate an anionic $[\\text{Ga(OSi)}_4]^- \\text{core}$ associated with pyridinium countercation ($\\text{py/GaBA}$, Figure 7)",
+        "start_index": 32814,
+        "end_index": 33002
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In this case, the calculated NMR parameters for $\\text{py/GaBA}$ $\\delta_{\\text{iso}}/C_Q$ are 128 ppm/15 MHz, also illustrating a dramatic reduction in the magnitude of $C_Q$ and indicating a more symmetrical environment around Ga",
+        "start_index": 33002,
+        "end_index": 33235
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{33}$ Moreover, the $C_Q$ falls into the typical range for Ga tetrahedra in bulk structures, and is commensurate with values reported for $[\\text{Ga(OSi)}_4^-]$ tetrahedra, such as those found in Ga-Gehlenite ($C_Q > 13.5 \\text{ MHz}$)",
+        "start_index": 33235,
+        "end_index": 33473
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{24}$ While both $\\text{GaLA}$ and $\\text{GaBA}$ sites show a significant drop in $C_Q$ (40-60%), a comparatively small differences in $\\delta_{\\text{iso}}$ ($\\Delta\\delta_{\\text{iso}} = 16 \\text{ ppm}$) is observed",
+        "start_index": 33473,
+        "end_index": 33691
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The change in $C_Q$ is significantly larger for $\\text{GaBA}$ than $\\text{GaLA}$, indicating that both sites should be distinguishable upon adsorption of Py.",
+        "start_index": 33691,
+        "end_index": 33850
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "![Figure 7](image-url)",
+        "start_index": 33850,
+        "end_index": 33872
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Figure 7.** (a) Schematic depiction of py interacting with $\\text{GaLA}$ and $\\text{GaBA}$ alongside corresponding cluster models. (b) depiction of TPPO interacting with $\\text{GaLA}$ and $\\text{GaBA}$ alongside corresponding cluster models. In both cases, the bond shown in blue represents interaction for which distance was screened ($R_{\\text{Ga-O}}$)",
+        "start_index": 33872,
+        "end_index": 34228
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". For cluster models, hydrogen, carbon, nitrogen, oxygen, silicon, phosphorus and gallium are shown in white, gray, blue, red, yellow, purple and pink, respectively.",
+        "start_index": 34228,
+        "end_index": 34393
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Similarly, interaction of TPPO with $\\text{GaLA}$ results in the formation of an adduct ($\\text{TPPO/GaLA}$, Figure 7) analogous to $1\\text{-TPPO}$ with calculated NMR parameters $\\delta_{\\text{iso}}/C_Q$ = 113 ppm/23 MHz, which represents a significantly lower $C_Q$ than $\\text{GaLA}$",
+        "start_index": 34393,
+        "end_index": 34679
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In contrast to Py, interaction of TPPO with $\\text{GaBA}$ only results in the formation of an H-bonded TPPO, with Ga-(\u03bc-O(H))-Si core ($\\text{TPPO/GaBA}$, Figure 7), for which the calculated $\\delta_{\\text{iso}}/C_Q$ are 128 ppm/23 MHz",
+        "start_index": 34679,
+        "end_index": 34916
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The calculated $\\delta_{\\text{iso}}$ for $\\text{TPPO/GaLA}$ and $\\text{TPPO/GaBA}$ differs by a comparable amount ($\\Delta\\delta_{\\text{iso}} = 16 \\text{ ppm}$) to the py adducts",
+        "start_index": 34916,
+        "end_index": 35096
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". In contrast to py, however, $\\text{TPPO/GaLA}$ and $\\text{TPPO/GaBA}$ are not expected to be distinguishable on the basis of $C_Q$",
+        "start_index": 35096,
+        "end_index": 35228
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Comparison of the relative changes to $^{71}$Ga NMR parameters induced by each of the probe molecules highlights that the adsorption of a probe molecule to a surface Ga site mostly results in a drop in $C_Q$ with a marginal change of $\\delta_{\\text{iso}}$; the significant differences in $C_Q$ between $\\text{GaLA}$ and $\\text{GaBA}$ interacting with py make it possible to distinguish these two sites by $^{71}$Ga",
+        "start_index": 35228,
+        "end_index": 35644
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "NMR",
+        "start_index": 35644,
+        "end_index": 35647
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".$^{58,59}$",
+        "start_index": 35647,
+        "end_index": 35658
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Refining $^{71}$Ga NMR data and assignment of surface structures",
+        "start_index": 35658,
+        "end_index": 35722
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Using insights obtained from probe molecule studies and analysis of molecular analogs, supplemented by the additional information arising from DFT calculations, we turned back our attention to understanding the NMR signal of the supported materials ($^{15}$N-py/Ga@SiO$_2$ and Ga@SiO$_2$). We thus chose to model the NMR spectra with the extended Czjzek model (ECM) considering the presence of two sites",
+        "start_index": 35722,
+        "end_index": 36125
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{44,46\u201348} The ECM is characterized by three parameters: $\\eta_0$ and $C_{Q,0}$ which define the local geometry of the site, and $\\epsilon$, a measure for the perturbation of the well-defined site by Czjzek-noise",
+        "start_index": 36125,
+        "end_index": 36354
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Considering that there are two chemically-distinct sites based on the probe molecule studies, two families of sites with distinct EFG parameters, $\\eta_0^i$ and $C_{Q,0}^i$, and independent degrees $\\epsilon^i (i = 1,2)$ of Czjzek-noise are incorporated into the ECM. To reflect the relative amounts of Br\u00f8nsted vs",
+        "start_index": 36354,
+        "end_index": 36670
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Lewis acid sites found from the $^{15}$N NMR studies on the material contacted with py, the weighting of signals was constrained to a 6:4 ratio for the respective sites.",
+        "start_index": 36670,
+        "end_index": 36841
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "While modelling of the lineshape of the $^{71}$Ga NMR spectrum for $^{15}$N-py/Ga@SiO$_2$ based on the DFT-calculated $C_Q$ values for the two sites \u2013 $C_{1,Q,0} = 22$ MHz for ($^{15}$N-py)/Ga\\textsubscript{LA} and $C_{2,Q,0} = 15$ MHz for",
+        "start_index": 36841,
+        "end_index": 37080
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "($^{15}$N-py)/Ga\\textsubscript{BA} \u2013 does not reproduce the lineshape well (See SI S6), modelling the spectrum using one species with a lower $C_Q$ ($C_{Q,0} \\sim 8$ MHz) in place of the calculated value for ($^{15}$N-py)/Ga\\textsubscript{BA} (15 MHz) results in an improved agreement between the modelled lineshape and the experimental spectrum at",
+        "start_index": 37080,
+        "end_index": 37428
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "both fields (Figure 8)",
+        "start_index": 37428,
+        "end_index": 37450
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Overall, the $C_Q$ values used are consistent with the presence of two types of sites, attributed to ($^{15}$N-py)/Ga\\textsubscript{LA} ($C_{1,Q,0} = 22$ MHz) and ($^{15}$N-py)/Ga\\textsubscript{BA} ($C_{1,Q,0} = 8$ MHz); the latter having a significantly reduced $C_Q$ compared to the calculated value for",
+        "start_index": 37450,
+        "end_index": 37757
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Ga\\textsubscript{BA}",
+        "start_index": 37757,
+        "end_index": 37777
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". This finding parallels what has been found for the structurally-related aluminosilicate materials, for which a low $C_Q$ species was required to take into account Br\u00f8nsted acid sites upon deprotonation",
+        "start_index": 37777,
+        "end_index": 37980
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{33,45,60\u201364} In these cases, the lower observed $C_Q$ value compared to DFT calculations for the BAS has been ascribed to residual dynamics, consistent with what is observed in Ga\\textsubscript{BA}",
+        "start_index": 37980,
+        "end_index": 38195
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\textsuperscript{61,62,65\u201367} For the larger $C_Q$ species, assigned to ($^{15}$N-py)/Ga\\textsubscript{LA} ($C_{1,Q,0} = 22$ MHz), the magnitude of $C_Q$ matches well the experimentally obtained value of the corresponding molecular structure Ga(OSi(OrBu)$_3$)$_3$(py) ($C_Q = 24$ MHz),",
+        "start_index": 38195,
+        "end_index": 38481
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2 ORCID: https://orcid.org/0000-0002-8605-3669 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 38481,
+        "end_index": 38631
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "indicating that \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{LA}}\\) can be described as a Ga motif with three anionic siloxide ligands and one N-bound pyridine.",
+        "start_index": 38631,
+        "end_index": 38784
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Figure 8. Extended Czjzek Model (ECM) analysis of obtained \\(^{71}\\text{Ga} \\) NMR spectra recorded at 14.1 and 21.2 Tesla, using two structural families for \\(^{15}\\text{N-py}/\\text{Ga@SiO}_2\\) (Parameters: \\(C_1^{Q,0} = 22 \\text{ MHz}, \\eta_0^1 = 0",
+        "start_index": 38784,
+        "end_index": 39034
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".6\\), \\(\\varepsilon^1 = 0.6\\) and \\(\\delta_{\\text{iso}} = 140 \\text{ ppm}\\) and \\(C_2^{Q,0} = 8 \\text{ MHz}, \\eta_0^2 = 0.9\\), \\(\\varepsilon^2 = 0.2\\) and \\(\\delta_{\\text{iso}} = 195 \\text{ ppm}\\) )",
+        "start_index": 39034,
+        "end_index": 39232
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The overlay of experimental data and ECM lineshape show reasonable agreement. For exhaustive analysis see SI S6.",
+        "start_index": 39232,
+        "end_index": 39346
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "While modelling of the lineshape of the \\(^{71}\\text{Ga} \\) NMR spectrum for \\(^{15}\\text{N-py}/\\text{Ga@SiO}_2\\) based on the DFT-calculated \\(C_Q\\) values for the two sites \u2013 \\(C_1^{Q,0} = 22 \\text{ MHz}\\) for",
+        "start_index": 39346,
+        "end_index": 39557
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\((^{15}\\text{N-py})/\\text{Ga}_{\\text{LA}}\\) and \\(C_2^{Q,0} = 15 \\text{ MHz}\\) for \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{BA}}\\) \u2013 does not reproduce the lineshape well (See SI S6), modelling the spectrum using one species with a lower \\(C_Q\\) (\\(C_{Q,0}",
+        "start_index": 39557,
+        "end_index": 39811
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\approx 8 \\text{ MHz}\\)) in place of the calculated value for \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{BA}}\\) (15 MHz) results in an improved agreement between the modelled lineshape and the experimental spectrum at both fields (Figure 8)",
+        "start_index": 39811,
+        "end_index": 40046
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Overall, the \\(C_Q\\) values used are consistent with the presence of two types of sites, attributed to \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{LA}}\\) \\((C_1^{Q,0} = 22 \\text{ MHz})\\) and \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{BA}}\\) \\((C_1^{Q,0} = 8",
+        "start_index": 40046,
+        "end_index": 40294
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\text{ MHz})\\); the latter having a significantly reduced \\(C_Q\\) compared to the calculated value for \\(\\text{Ga}_{\\text{BA}}\\)",
+        "start_index": 40294,
+        "end_index": 40422
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". This finding parallels what has been found for the structurally-related aluminosilicate materials, for which a low \\(C_Q\\) species was required to take into account Br\u00f8nsted acid sites upon deprotonation",
+        "start_index": 40422,
+        "end_index": 40627
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\(^{33,45,60-64}\\) In these cases, the lower observed \\(C_Q\\) value compared to DFT calculations for the BAS has been ascribed to residual dynamics, consistent with what is observed in \\(\\text{Ga}_{\\text{BA}}\\)",
+        "start_index": 40627,
+        "end_index": 40838
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".\\(^{61,62,65-67}\\) For the larger \\(C_Q\\) species, assigned to \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{LA}}\\) \\((C_1^{Q,0} = 22 \\text{ MHz})\\), the magnitude of \\(C_Q\\) matches well the experimentally obtained value of the corresponding molecular structure \\(\\text{Ga(OSi(OtBu)_3)(py)}\\)",
+        "start_index": 40838,
+        "end_index": 41124
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "\\((C_Q = 24 \\text{ MHz})\\), indicating that \\((^{15}\\text{N-py})/\\text{Ga}_{\\text{LA}}\\) can be described as a Ga motif with three anionic siloxide ligands and one N-bound pyridine",
+        "start_index": 41124,
+        "end_index": 41304
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".",
+        "start_index": 41304,
+        "end_index": 41305
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Similarly to what was found for \\(^{15}\\text{N-py}/\\text{Ga@SiO}_2\\), modelling of experimental \\(^{71}\\text{Ga} \\) NMR data for \\(\\text{Ga@SiO}_2\\) (SI S6) requires introduction of species that possess a smaller \\(C_Q\\) \\((C_{Q,0}^i = 15 \\text{ MHz})\\) than expected from computations (vide supra),",
+        "start_index": 41305,
+        "end_index": 41604
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "as well as a large \\(C_{Q,0}^i\\) species, in order to reproduce the",
+        "start_index": 41604,
+        "end_index": 41671
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "lineshape accurately (SI S6), indicating that dynamics may also play a role in decreasing the $C_Q$ value of some Ga species present. The sites with lower $C_Q$ can be putatively assigned $\\text{Ga}_{\\text{BA}}$, where proton dynamics could induce a decrease in $C_Q$, while the sites with significantly higher $C_Q$ could be associated with $\\text{Ga}_{\\text{LA}}$",
+        "start_index": 41671,
+        "end_index": 42036
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". However, further analysis would require alternative experimental approaches, such as the use of ultra-high field NMR, to corroborate this assignment, further highlighting the challenges of Ga NMR of high $C_Q$ sites.",
+        "start_index": 42036,
+        "end_index": 42254
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "![Diagram of Ga sites](https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2)",
+        "start_index": 42254,
+        "end_index": 42325
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Figure 9.** Depiction of the two families of Ga sites identified ($\\text{Ga}_{\\text{LA}}$ and $\\text{Ga}_{\\text{BA}}$)",
+        "start_index": 42325,
+        "end_index": 42445
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". (a) in the pristine material (Ga@SiO$_2$), (b) in the presence of pyridine (py/Ga@SiO$_2$), and (c) in the presence of TPPO (TPPO/Ga@SiO$_2$).",
+        "start_index": 42445,
+        "end_index": 42589
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Conclusions**",
+        "start_index": 42589,
+        "end_index": 42604
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "To summarize, we have demonstrated a strategy to characterize Ga surface species in a gallosilicate material (Ga@SiO$_2$), known for their notable catalytic properties in propane dehydrogenation and their use as starting material to prepare supported nanoparticles with tailored interface and composition",
+        "start_index": 42604,
+        "end_index": 42908
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". This strategy, based on a combined computational and experimental approach, consists of understanding the change of $^{71}$Ga NMR signatures of Ga surface sites and the corresponding molecular analogs depending on the interaction of the Ga sites with different probe molecules (Py and TPPO)",
+        "start_index": 42908,
+        "end_index": 43200
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Analyses of the $^{15}$N and $^{31}$P NMR spectra of Ga@SiO$_2$ contacted with $^{15}$N-Py and TPPO, respectively, made it possible to resolve the immediate coordination environment of Ga surface sites in Ga@SiO$_2$.",
+        "start_index": 43200,
+        "end_index": 43418
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(Figure 9), revealing the presence of two sites, namely \\textbf{GaBA} and \\textbf{GaLA}, which respond differently upon addition of probe molecules and are expected to display distinct reactivity in catalysis.",
+        "start_index": 43418,
+        "end_index": 43627
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Analysis of the $^{71}$Ga spectrum of $^{15}$N-py/Ga@SiO$_2$ further supports the presence of two families of sites:",
+        "start_index": 43627,
+        "end_index": 43743
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(i) A family of site with lower $C_Q$ when compared to the DFT calculated cluster models (8 vs. 15 MHz), assigned to \\textbf{GaBA}, a tetra-coordinated Ga site bound by 3 anionic siloxy ligands and an adjacent -OH group that is deprotonated upon adsorption of pyridine",
+        "start_index": 43743,
+        "end_index": 44011
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". The $C_Q$ of these sites is likely affected by the dynamic of the pyridium counter cation, thus explaining the lower observed $C_Q$.",
+        "start_index": 44011,
+        "end_index": 44145
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(ii) A second family of sites, associated with large $C_Q$, assigned to \\textbf{GaLA}. For these sites, the experimental $C_Q$ value (22 MHz) matches well with the corresponding molecular model ($1$-py, 24 MHz), with 3 anionic siloxy ligands and an N-bound pyridine.",
+        "start_index": 44145,
+        "end_index": 44411
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "For Ga@SiO$_2$, distinguishing between sites in the absence of probe molecules using $^{71}$Ga NMR is more challenging, and the spectrum is dominated by one species, associated with a small $C_Q$ (15 MHz), suggesting the presence of residual dynamics considering that molecular model $1$-THF displays significantly larger $C_Q$ ($C_Q = 35$-$40$ MHz from calculations and experiment), and that DFT-calculated structures for Lewis acid",
+        "start_index": 44411,
+        "end_index": 44844
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Br\u00f8nsted acid sites also show large $C_Q$ (\\textbf{GaLA}: $C_Q = 39$ MHz, \\textbf{GaBA}: $C_Q = 42$ MHz, tri-coordinate Ga sites: $C_Q = 61$ MHz)",
+        "start_index": 44844,
+        "end_index": 44989
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Considering the presence of two sites identified by interaction with probe molecules, the likely dynamics expected for the \\textbf{GaBA} and the large $C_Q$ for \\textbf{GaLA}, a possible interpretation is that these two species with low and high $C_Q$ are assigned to \\textbf{GaBA} and \\textbf{GaLA}, respectively.",
+        "start_index": 44989,
+        "end_index": 45305
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "This work demonstrates the challenges in characterizing Ga surface sites, such as those found in Ga@SiO$_2$, directly from $^{71}$Ga NMR in the absence of probe molecules",
+        "start_index": 45305,
+        "end_index": 45475
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Furthermore, this work also shows that probe molecules are not only useful for indirectly observing Ga sites by, for example, $^{15}$N or $^{31}$P NMR, but significantly affect the $C_Q$ of surface sites, enabling extraction of valuable structural information directly from the $^{71}$Ga NMR signature",
+        "start_index": 45475,
+        "end_index": 45778
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Yet, in the absence of probe molecule, obtaining informative spectra remains a challenge, motivating development of alternative methods aiming at revealing highly-distorted surface sites, in order to assess and distinguish their coordination environments.",
+        "start_index": 45778,
+        "end_index": 46035
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**AUTHOR INFORMATION**\n\n**Corresponding Author**\n\n*Christophe Cop\u00e9ret: ccoperet@ethz.ch",
+        "start_index": 46035,
+        "end_index": 46122
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Author Contributions**",
+        "start_index": 46122,
+        "end_index": 46146
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "These authors contributed equally. S.D., L.V. and C.C. conceived the project, S.D. and L.V. synthesized all molecules/materials and performed routine characterization, S.D., L.V., A.Y. and R.V. designed and performed the ss-NMR experiments. L.V., A.Y., S.D. and R.V. fitted the data, L.V. and A.Y. performed DFT calculations. Results were analyzed by S.D., L.V., A.Y",
+        "start_index": 46146,
+        "end_index": 46512
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "., R.V. and C.C. Initial drafts were written by S.D. Further editing of the manuscript was conducted by S.D., L.V., A.Y., R.V. and C.C. All authors have given approval to the final version of the manuscript.",
+        "start_index": 46512,
+        "end_index": 46719
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**Funding Sources**\n\nThis work was supported in part by the Swiss National Science Foundation (Grant Nos. 200021_169134, 200020B_192050, and CRSII5_183495). C.C. and A.Y. thank the ETH+ program (SynMatLab) for financial support.\n\n**Notes**\n\nAny additional relevant notes should be placed here.\n\n**ACKNOWLEDGMENT**",
+        "start_index": 46719,
+        "end_index": 47032
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "The authors wish to acknowledge ETH Z\u00fcrich for funding. The authors thank the group of Prof. Dr. Lyndon Emsley for access to the 21.15 T (900 MHz) DNP spectrometer at EPFL. In addition, the authors thank Dr. Pierrick Berruyer, Dr Laura Piveteau and Philipp Sch\u00e4rz for insightful discussions and support during experiments conducted at 21.15 T. Dr",
+        "start_index": 47032,
+        "end_index": 47378
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Darryl Nater is thanked for help with single crystal X-ray diffraction.",
+        "start_index": 47378,
+        "end_index": 47451
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "**REFERENCES**\n\n(1) Bhan, A.; Delgass, W. N. Propane Aromatization over HZSM-5 and Ga/HZSM-5 Catalysts. *Catalysis Reviews* 2008, 50, 19\u2013151.",
+        "start_index": 47451,
+        "end_index": 47592
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(2) Docherty, S. R.; Rochlitz, L.; Payard, P.-A.; Cop\u00e9ret, C. Heterogeneous Alkane Dehydrogenation Catalysts Investigated via a Surface Organometallic Chemistry Approach. *Chem Soc Rev* 2021, 50, 5806\u20135822.",
+        "start_index": 47592,
+        "end_index": 47798
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(3) Pidko, E. A.; Hensen, E. J. M.; van Santen, R. A. Dehydrogenation of Light Alkanes over Isolated Gallyl Ions in Ga/ZSM-5 Zeolites. *The Journal of Physical Chemistry C* 2007, 111, 13068\u201313075.",
+        "start_index": 47798,
+        "end_index": 47994
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(4) Rane, N.; Overweg, A. R.; Kazansky, V. B.; van Santen, R. A.; Hensen, E. J. M. Characterization and Reactivity of Ga+ and GaO+ Cations in Zeolite ZSM-5. *J Catal* 2006, 239, 478\u2013485.",
+        "start_index": 47994,
+        "end_index": 48180
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(5) Meitzner, G. D.; Iglesia, E.; Baumgartner, J. E.; Huang, E. S. The Chemical State of Gallium in Working Alkane Dehydrocyclodimerization Catalysts. In Situ Gallium K-Edge X-Ray Absorption Spectroscopy. *J Catal* 1993, 140, 209\u2013225.",
+        "start_index": 48180,
+        "end_index": 48414
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(6) Phadke, N. M.; Van der Mynsbrugge, J.; Mansoor, E.; Getsoian, A. B.; Head-Gordon, M.; Bell, A. T. Characterization of Isolated Ga^{3+} Cations in Ga/H-MFI Prepared by Vapor-Phase Exchange of H-MFI Zeolite with GaCl\u2083",
+        "start_index": 48414,
+        "end_index": 48633
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *ACS Catal* 2018, 8, 6106\u20136126.",
+        "start_index": 48633,
+        "end_index": 48666
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(7) Zhou, Y.; Thirumalai, H.; Smith, S. K.; Whitmire, K. H.; Liu, J.; Frenkel, A. I.; Grabow, L. C.; Rimer, J. D. Ethylene Dehydroaromatization over Ga-ZSM-5 Catalysts: Nature and Role of Gallium Speciation",
+        "start_index": 48666,
+        "end_index": 48872
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *Angewandte Chemie International Edition* **2020**, *59*, 19592\u201319601.",
+        "start_index": 48872,
+        "end_index": 48944
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(8) Castro-Fern\u00e1ndez, P.; Mance, D.; Liu, C.; Moroz, I. B.; Abdala, P. M.;Pidko, E. A.; Cop\u00e9ret, C.; Fedorov, A.; M\u00fcller, C. R. Propane Dehydrogenation on Ga2O3-Based Catalysts: Contrasting Performance with Coordination Environment and Acidity of Surface Sites",
+        "start_index": 48944,
+        "end_index": 49204
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *ACS Catal* **2021**, *12*, 986\u2013995.",
+        "start_index": 49204,
+        "end_index": 49242
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(9) Huang, M.; Yasumura, S.; Li, L.; Toyao, T.; Maeno, Z.; Shimizu, K. High-Loading Ga-Exchanged MFI Zeolites as Selective and Coke-Resistant Catalysts for Nonoxidative Ethane Dehydrogenation. *Catal. Sci. Technol.* **2022**, *12*, 986\u2013995.",
+        "start_index": 49242,
+        "end_index": 49482
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(10) Mansoor, E.; Head-Gordon, M.; Bell, A. T. Computational Modeling of the Nature and Role of Ga Species for Light Alkane Dehydrogenation Catalyzed by Ga/H-MFI. *ACS Catal* **2018**, *8*, 6146\u20136162.",
+        "start_index": 49482,
+        "end_index": 49682
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(11) Chen, Z.; Zimmerli, N. K.; Zubair, M.; Yakimov, A. V; Bj\u00f6rgvinsd\u00f3ttir, S.; Alan\u00edva, N.; Willinger, E.; Barnes, A. B.; Bedford, N. M.; Cop\u00e9ret, C.; *et al.* Nature of GaOx Shells Grown on Silica by Atomic Layer Deposition",
+        "start_index": 49682,
+        "end_index": 49907
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *Chemistry of Materials* **2023**, *35*, 7475\u20137490.",
+        "start_index": 49907,
+        "end_index": 49960
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(12) Searles, K.; Siddiqi, G.; Safonova, O. V; Cop\u00e9ret, C. Silica-Supported Isolated Gallium Sites as Highly Active, Selective and Stable Propane Dehydrogenation Catalysts. *Chem. Sci.* **2017**, *8*, 2661\u20132666.",
+        "start_index": 49960,
+        "end_index": 50171
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(13) Getsoian, A. \u201cBean\u201d; Das, U.; Camacho-Bunquin, J.; Zhang, G.; Gallagher, J. R.; Hu, B.; Cheah, S.; Schaidle, J. A.; Ruddy, D. A.; Hensley, J. E.; Krause, T. R.; Curtiss, L. A.; Miller, J. T.; Hock, A. S",
+        "start_index": 50171,
+        "end_index": 50378
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Organometallic Model Complexes Elucidate the Active Gallium Species in Alkane Dehydrogenation Catalysts Based on Ligand Effects in Ga K-Edge XANES. *Catal. Sci. Technol.* **2016**, *6*, 6339\u20136353.",
+        "start_index": 50378,
+        "end_index": 50576
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(14) Nishi, K.; Shimizu, K.; Takamatsu, M.; Yoshida, H.; Satsuma, A.; Tanaka, T.; Yoshida, S.; Hattori, T. Deconvolution Analysis of Ga K-Edge XANES for Quantification of Gallium Coordinations in Oxide Environments. *J Phys Chem B* **1998**, *102*, 10190\u201310195.",
+        "start_index": 50576,
+        "end_index": 50837
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(15) Castro-Fern\u00e1ndez, P.; Blanco, M. V; Verel, R.; Willinger, E.; Fedorov, A.; Abdala, P. M.; M\u00fcller, C. R. Atomic-Scale Insight into the Structure of Metastable \u03b3-Ga2O3 Nanocrystals and Their Thermally-Driven Transformation to \u03b2-Ga2O3",
+        "start_index": 50837,
+        "end_index": 51073
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *The Journal of Physical Chemistry C* **2020**, *124*, 20578\u201320588.",
+        "start_index": 51073,
+        "end_index": 51142
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(16) Docherty, S. R.; Phongprueksathat, N.; Lam, E.; Noh, G.; Safonova, O. V.; Urakawa, A.; Cop\u00e9ret, C.; Coperet, C.; Cop\u00e9ret, C. Silica-Supported PdGa Nanoparticles: Metal Synergy for Highly Active and Selective CO2-to-CH3OH Hydrogenation",
+        "start_index": 51142,
+        "end_index": 51381
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *JACS Au* **2021**, *1*(4), 450\u2013458.",
+        "start_index": 51381,
+        "end_index": 51419
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(17) Rochlitz, L.; Searles, K.; Nater, D. F.; Docherty, S. R.; Gioffr\u00e8, D.; Cop\u00e9ret, C. A Molecular Analogue of the C\u2013H Activation Intermediate of the Silica-Supported Ga(III) Single-Site Propane Dehydrogenation Catalyst: Structure and XANES Signature. *Helv Chim Acta* **2021**, *104*, e2100078",
+        "start_index": 51419,
+        "end_index": 51714
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ".",
+        "start_index": 51714,
+        "end_index": 51715
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(18) Groden, K.; Vila, F. D.; Li, L.; Bare, S. R.; Scott, S. L.; McEwen, J.-S. First-Principles Approach to Extracting Chemical Information from X-Ray Absorption Near-Edge Spectra of Ga-Containing Materials. *The Journal of Physical Chemistry C* **2021**, *125*, 27901\u201327908.",
+        "start_index": 51715,
+        "end_index": 51990
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2 ORCID: https://orcid.org/0000-0002-8605-3669 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 51990,
+        "end_index": 52140
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Searles, K.; Wing Chan, K.; Augusto Mendes Burak, J.; Zemlyanov, D.; Safonova, O.; Cop\u00e9ret, C. Highly Productive Propane Dehydrogenation Catalyst Using Silica-Supported Ga\u2013Pt Nanoparticles Generated from Single-Sites. *J Am Chem Soc* 2018, 140, 11674\u201311679.",
+        "start_index": 52140,
+        "end_index": 52397
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Lam, E.; Noh, G.; Chan, K. W.; Larmier, K.; Lebedev, D.; Searles, K.; Wolf, P.; Safonova, O. V.; Cop\u00e9ret, C. Enhanced CH$_3$OH Selectivity in CO$_2$ Hydrogenation Using Cu-Based Catalysts Generated via SOMC from Ga$^{III}$ Single-Sites",
+        "start_index": 52397,
+        "end_index": 52632
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *Chem Sci* 2020, 11, 7593\u20137598.",
+        "start_index": 52632,
+        "end_index": 52665
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Dombrowski, J. P.; Johnson, G. R.; Bell, A. T.; Tilley, T. D. Ga[OSi(O$tBu$)$_3$]$_3$\u2022THF, a Thermo-lytic Molecular Precursor for High Surface Area Gallium-Containing Silica Materials of Controlled Dispersion and Stoichiometry. *Dalton Trans.* 2016, 45, 11025\u201311034.",
+        "start_index": 52665,
+        "end_index": 52931
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Castro-Fern\u00e1ndez, P.; Kaushik, M.; Wang, Z.; Mance, D.; Kountoupi, E.; Willinger, E.; Abdala, P. M.; Cop\u00e9ret, C.; Lesage, A.; Fedorov, A.; et al",
+        "start_index": 52931,
+        "end_index": 53075
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Uncovering Selective and Active Ga Surface Sites in Gallia\u2013Alumina Mixed-Oxide Propane Dehydrogenation Catalysts by Dynamic Nuclear Polarization Surface Enhanced NMR Spectroscopy. *Chem. Sci.* 2021, 12, 15273\u201315283.",
+        "start_index": 53075,
+        "end_index": 53292
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Vivian, A.; Soumoy, L.; Fusaro, L.; Louette, P.; Felten, A.; Fiorilli, S.; Debecker, D. P.; Aprile, C. The High Activity of Mesoporous Ga-SiO$_2$ Catalysts in the Upgrading of Glycerol to Sol-ketal Explained by in-Depth Characterization. *J Catal* 2021, 400, 83\u201392.",
+        "start_index": 53292,
+        "end_index": 53557
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Massiot, D.; Vosegaard, T.; Magneron, N.; Trumeau, D.; Montouillout, V.; Berthet, P.; Loiseau, T.; Bujoli, B. 71GaNMR of Reference Ga$^{IV}$, Ga$^{V}$, and Ga$^{VI}$ Compounds by MAS and QPASS, Extension of Gallium/Aluminum NMR Parameter Correlation",
+        "start_index": 53557,
+        "end_index": 53806
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *Solid State Nucl Magn Reson* 1999, 15, 159\u2013169.",
+        "start_index": 53806,
+        "end_index": 53856
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Perras, F. A.; Bryce, D. L. Direct Characterization of Metal\u2013Metal Bonds between Nuclei with Strong Quadrupolar Interactions via NMR Spectroscopy. *J Phys Chem Lett* 2014, 5, 4049\u20134054.",
+        "start_index": 53856,
+        "end_index": 54041
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Chang, B. S.; Thomas, B.; Chen, J.; Tevis, I. D.; Karanja, P.; \u00c7\u0131nar, S.; Venkatesh, A.; Rossini, A. J.; Thuo, M. M. Ambient Synthesis of Nanomaterials by in Situ Heterogeneous Metal/Ligand Reactions. *Nanoscale* 2019, 11, 14060\u201314069.",
+        "start_index": 54041,
+        "end_index": 54276
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Fredoueil, F.; Bujoli, B.; Fredoueil, F.; Massiot, D.; Poojary, D.; Clearfield, A.; Bujoli-Doeuff, M. 71Ga and $^{31}$P Solid State NMR: A Powerful Tool for the Characterization of the First Gallium Phosphonates. *Chem. Commun.* 1998, No. 2, 175\u2013176.",
+        "start_index": 54276,
+        "end_index": 54526
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Massiot, D.; Farnan, I.; Gautier, N.; Trumeau, D.; Trokiner, A.; Coutures, J. P. 71Ga and $^{69}$Ga Nuclear Magnetic Resonance Study of \u03b2-Ga$_2$O$_3$: Resolution of Four- and Six-Fold Coordinated Ga Sites in Static Conditions. *Solid State Nucl Magn Reson* 1995, 4, 241\u2013248.",
+        "start_index": 54526,
+        "end_index": 54800
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Piveteau, L.; Morad, V.; Kovalenko, M. V. Solid-State NMR and NQR Spectroscopy of Lead-Halide Perovskite Materials. *J Am Chem Soc* 2020, 142, 19413\u201319437.",
+        "start_index": 54800,
+        "end_index": 54955
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Gunther, W. R.; Michaelis, V. K.; Griffin, R. G.; Rom\u00e1n-Leshkov, Y. Interrogating the Lewis Acidity of Metal Sites in Beta Zeolites with $^{15}$N Pyridine Adsorption Coupled with MAS NMR Spectroscopy. *The Journal of Physical Chemistry C* 2016, 120, 28533\u201328544.",
+        "start_index": 54955,
+        "end_index": 55217
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "Moroz, I. B.; Larmier, K.; Liao, W.-C.; Cop\u00e9ret, C. Discerning \u03b3-Alumina Surface Sites with Nitrogen-$^{15}$ Dynamic Nuclear Polarization Surface Enhanced NMR Spectroscopy of Adsorbed Pyridine. *The Journal of Physical Chemistry C* 2018, 122, 10871\u201310882.",
+        "start_index": 55217,
+        "end_index": 55472
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(32) Moroz, I. B.; Lund, A.; Kaushik, M.; Severy, L.; Gajan, D.; Fedorov, A.; Lesage, A.; Cop\u00e9ret, C. Specific Localization of Aluminum Sites Favors Ethene-to-Propene Conversion on (Al)MCM-41-Supported Ni(II) Single Sites. ACS Catal 2019, 7476\u20137485.",
+        "start_index": 55472,
+        "end_index": 55721
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(33) Yakimov, A. V; Ravi, M.; Verel, R.; Sushkevich, V. L.; van Bokhoven, J. A.; Cop\u00e9ret, C. Structure and Framework Association of Lewis Acid Sites in MOR Zeolite. J Am Chem Soc 2022, 144, 10377\u201310385.",
+        "start_index": 55721,
+        "end_index": 55923
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(34) Larmier, K.; Chizallet, C.; Maury, S.; Cadran, N.; Abboud, J.; Lamic-Humblot, A.-F.; Marceau, E.; Lauron-Pernot, H. Isopropanol Dehydration on Amorphous Silica\u2013Alumina: Synergy of Br\u00f8nsted and Lewis Acidities at Pseudo-Bridging Silanols",
+        "start_index": 55923,
+        "end_index": 56164
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". Angewandte Chemie International Edition 2017, 56 230\u2013234.",
+        "start_index": 56164,
+        "end_index": 56223
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(35) Baltusis, Laima.; Frye, J. S.; Maciel, G. E. Phosphine Oxides as NMR Probes for Adsorption Sites on Surfaces. J Am Chem Soc 1986, 108, 7119\u20137120.",
+        "start_index": 56223,
+        "end_index": 56373
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(36) Gutmann, V. Solvent Effects on the Reactivities of Organometallic Compounds. Coord Chem Rev 1976, 18, 225\u2013255.",
+        "start_index": 56373,
+        "end_index": 56488
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(37) Beckett, M. A.; Strickland, G. C.; Holland, J. R.; Sukumar Varma, K. A Convenient n.m.r. Method for the Measurement of Lewis Acidity at Boron Centres: Correlation of Reaction Rates of Lewis Acid Initiated Epoxide Polymerizations with Lewis Acidity. Polymer (Guildf) 1996, 37, 4629\u20134631.",
+        "start_index": 56488,
+        "end_index": 56779
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(38) Hilliard, C. R.; Kharel, S.; Cluff, K. J.; Bhuvanesh, N.; Gladysz, J. A.; Bl\u00fcmel, J. Structures and Unexpected Dynamic Properties of Phosphine Oxides Adsorbed on Silica Surfaces. Chemistry \u2013 A European Journal 2014, 20, 17292\u201317295.",
+        "start_index": 56779,
+        "end_index": 57016
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(39) Hubbard, P. J.; Benzie, J. W.; Bakhmutov, V. I.; Bl\u00fcmel, J. Disentangling Different Modes of Mobility for Triphenylphosphine Oxide Adsorbed on Alumina. J Chem Phys 2020, 152, 54718.",
+        "start_index": 57016,
+        "end_index": 57202
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(40) O\u2019Dell, L. A.; Rossini, A. J.; Schurko, R. W. Acquisition of Ultra-Wideline NMR Spectra from Quadrupolar Nuclei by Frequency Stepped WURST\u2013QCPMG. Chem Phys Lett 2009, 468, 330\u2013335.",
+        "start_index": 57202,
+        "end_index": 57387
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(41) O\u2019Dell, L. A.; Schurko, R. W. QCPMG Using Adiabatic Pulses for Faster Acquisition of Ultra-Wideline NMR Spectra. Chem Phys Lett 2008, 464, 97\u2013102.",
+        "start_index": 57387,
+        "end_index": 57538
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(42) Hung, I.; Altenhof, A. R.; Schurko, R. W.; Bryce, D. L.; Han, O. H.; Gan, Z. Field-Stepped Ultra-Wideline NMR at up to 36 T: On the Inequivalence between Field and Frequency Stepping. Magnetic Resonance in Chemistry 2021, 59, 951\u2013960.",
+        "start_index": 57538,
+        "end_index": 57777
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(43) Hyun Lim, Y.; Kim, H.; Lee, H.; Nam, K.; Won Ryu, H.; Heui Kim, D. Application of HCl Treatment to Tailor the Ga Species and Propane Aromatization Performance of Various Ga Incorporated MFI Catalysts. J Catal 2023, 422, 24\u201335.",
+        "start_index": 57777,
+        "end_index": 58008
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(44) d\u2019Espinose de Lacaillerie, J.-B.; Fretigny, C.; Massiot, D. MAS NMR Spectra of Quadrupolar Nuclei in Disordered Solids: The Czjzek Model. Journal of Magnetic Resonance 2008, 192, 244\u2013251.",
+        "start_index": 58008,
+        "end_index": 58200
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(45) Parker, W. O.; Wegner, S. Aluminum in Mesoporous Silica\u2013Alumina. Microporous and Mesoporous Materials 2012, 158, 235\u2013240.",
+        "start_index": 58200,
+        "end_index": 58326
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(46) Czjzek, G.; Fink, J.; G\u00f6tz, F.; Schmidt, H.; Coey, J. M. D.; Rebouillat, J.-P.; Li\u00e9nard, A. Atomic Coordination and the Distribution of Electric Field Gradients in Amorphous Solids. Phys Rev B 1981, 23, 2513\u20132530.",
+        "start_index": 58326,
+        "end_index": 58544
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(47) Ca\u00ebr, G. Le; Bureau, B.; Massiot, D. An Extension of the Czjzek Model for the Distributions of Electric Field Gradients in Disordered Solids and an Application to NMR Spectra of $^{71}$Ga in Chalcogenide Glasses. Journal of Physics: Condensed Matter 2010, 22, 65402.",
+        "start_index": 58544,
+        "end_index": 58815
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(48) Vasconcelos, F.; Cristol, S.; Paul, J.-F.; Delevoye, L.; Mauri, F.; Charpentier, T.; Le Ca\u00ebr, G. Extended Czjzek Model Applied to NMR Parameter Distributions in Sodium Metaphosphate Glass. Journal of Physics: Condensed Matter 2013, 25, 255402.",
+        "start_index": 58815,
+        "end_index": 59063
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(49) Tatebe, C. J.; Tong, Z.; Kiernicki, J. J.; Coughlin, E. J.; Zeller, M.; Bart, S. C. Activation of Triphenylphosphine Oxide Mediated by Trivalent Organouranium Species. Organometallics 2018, 37, 934\u2013940.",
+        "start_index": 59063,
+        "end_index": 59270
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(50) Feher, F. J.; Budzichowski, T. A.; Weller, K. J. Polyhedral Aluminosilsesquioxanes: Soluble Organic Analogs of Alumino-silicates. J Am Chem Soc 1989, 111, 7288\u20137289.",
+        "start_index": 59270,
+        "end_index": 59440
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(51) Zhang, X.; Liu, H.; Hu, X.; Tang, G.; Zhu, J.; Zhao, Y. Ni(II)/Zn Catalyzed Reductive Coupling of Aryl Halides with Diphenylphosphine Oxide in Water. Org Lett 2011, 13, 3478\u20133481.",
+        "start_index": 59440,
+        "end_index": 59624
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(52) Okuniewski, A.; Rosiak, D.; Chojnacki, J.; Becker, B. Coordination Polymers and Molecular Structures among Complexes of Mercury(II) Halides with Selected 1-Benzoylthioureas. Polyhedron 2015, 90, 47\u201357.",
+        "start_index": 59624,
+        "end_index": 59830
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(53) Schurko, R. W. Ultra-Wideline Solid-State NMR Spectroscopy. Acc Chem Res 2013, 46, 1985\u20131995.",
+        "start_index": 59830,
+        "end_index": 59928
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(54) Tang, J. A.; Masuda, J. D.; Boyle, T. J.; Schurko, R. W. Ultra-Wideline $^{27}$Al NMR Investigation of Three- and Five-Coordinate Aluminum Environments. ChemPhysChem 2006, 7, 117\u2013130.",
+        "start_index": 59928,
+        "end_index": 60116
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(55) O\u2019Dell, L. A.; Savin, S. L. P.; Chadwick, A. V; Smith, M. E. Multinuclear MAS NMR Investigation of Sol-Gel and Ball-Milled Nanocrystalline Ga$_2$O$_3$. Appl Magn Reson 2007, 32, 527.",
+        "start_index": 60116,
+        "end_index": 60303
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(56) Glendening, E. D.; Landis, C. R.; Weinhold, F. NBO 7.0: New Vistas in Localized and Delocalized Chemical Bonding Theory. J Comput Chem 2019, 40, 2234\u20132241.",
+        "start_index": 60303,
+        "end_index": 60463
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(57) Weinhold, F.; Landis, C. R.; Glendening, E. D. What Is NBO Analysis and How Is It Useful? Int Rev Phys Chem 2016, 35, 399\u2013440.",
+        "start_index": 60463,
+        "end_index": 60594
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(58) Haake, Paul.; Cook, R. Douglas.; Hurst, G. H. Evaluation of the Basicity of Phosphine Oxides and Phosphine Sulfides by Measurements of Chemical Shift in Sulfuric Acid Solutions. J Am Chem Soc 1967, 89, 2650\u20132654.",
+        "start_index": 60594,
+        "end_index": 60811
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(59) Hunter, E. P. L.; Lias, S. G. Evaluated Gas Phase Basicities and Proton Affinities of Molecules: An Update. J Phys Chem Ref Data 1998, 27, 413\u2013656.",
+        "start_index": 60811,
+        "end_index": 60963
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(60) Fechtelkord, M. Influence of Sodium Ion Dynamics on the $^{23}$Na Quadrupolar Interaction in Sodalite: A High-Temperature $^{23}$Na MAS NMR Study. Solid State Nucl Magn Reson 2000, 18, 70\u201388.",
+        "start_index": 60963,
+        "end_index": 61159
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-mp1r9-v2 ORCID: https://orcid.org/0000-0002-8605-3669 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 61159,
+        "end_index": 61309
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(61) Ehresmann, J. O.; Wang, W.; Herreros, B.; Luigi, D.-P.; Venkatraman, T. N.; Song, W.; Nicholas, J. B.; Haw, J. F. Theoretical and Experimental Investigation of the Effect of Proton Transfer on the $^{27}$Al MAS NMR Line Shapes of Zeolite\u2013Adsorbate Complexes: An Independent Measure of Solid Acid Strength",
+        "start_index": 61309,
+        "end_index": 61618
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *J Am Chem Soc* **2002**, *124*, 10868\u201310874.",
+        "start_index": 61618,
+        "end_index": 61665
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(62) Jiao, J.; Kanellopoulos, J.; Behera, B.; Jiang, Y.; Huang, J.; Reddy Marthala, V. R.; Ray, S. S.; Wang, W.; Hunger, M. Effects of Adsorbate Molecules on the Quadrupolar Interaction of Framework Aluminum Atoms in Dehydrated Zeolite H,Na-Y",
+        "start_index": 61665,
+        "end_index": 61907
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". *J Phys Chem B* **2006**, *110*, 13812\u201313818.",
+        "start_index": 61907,
+        "end_index": 61954
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(63) Koller, H.; Meijer, E. L.; van Santen, R. A. $^{27}$Al Quadrupole Interaction in Zeolites Loaded with Probe Molecules\u2014a Quantum-Chemical Study of Trends in Electric Field Gradients and Chemical Bonds in Clusters. *Solid State Nucl Magn Reson* **1997**, *9*, 165\u2013175.",
+        "start_index": 61954,
+        "end_index": 62225
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(64) Jiao, J.; Wang, W.; Sulikowski, B.; Weitkamp, J.; Hunger, M. $^{29}$Si and $^{27}$Al MAS NMR Characterization of Non-Hydrated Zeolites Y upon Adsorption of Ammonia. *Microporous and Mesoporous Materials* **2006**, *90*, 246\u2013250.",
+        "start_index": 62225,
+        "end_index": 62458
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(65) Kao, H.-M.; Grey, C. P. Probing the Br\u00f8nsted and Lewis Acidity of Zeolite HY: A $^1$H/$^{27}$Al and $^{15}$N/$^{27}$Al TRAPDOR NMR Study of Monomethylamine Adsorbed on HY. *J Phys Chem* **1996**, *100*, 5105\u20135117.",
+        "start_index": 62458,
+        "end_index": 62676
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(66) Penner, G. H.; Polson, J. M.; Daleman, S. I.; Reid, K",
+        "start_index": 62676,
+        "end_index": 62734
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": ". A Deuterium NMR Study of Molecular Dynamics and Geometry in Two Classes of Onium Salts: $(\\text{CH}_3)_3\\text{E}^+\\text{X}^\u2212$ and $\\text{C}_6\\text{H}_5\\text{M}(\\text{CH}_3)_3^\\text{I}$ . *Can J Chem* **1993**, *71*, 417\u2013426.",
+        "start_index": 62734,
+        "end_index": 62960
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(67) Keeler, E. G.; Michaelis, V. K.; Griffin, R. G. $^{17}$O NMR Investigation of Water Structure and Dynamics. *J Phys Chem B* **2016**, *120*, 7851\u20137858.",
+        "start_index": 62960,
+        "end_index": 63116
+    },
+    {
+        "document_name": "110.txt",
+        "chunk_text": "(68) Phadke, N. M.; Mansoor, E.; Head-Gordon, M.; Bell, A. T. Mechanism and Kinetics of Light Alkane Dehydrogenation and Cracking over Isolated Ga Species in Ga/H-MFI. *ACS Catal* **2021**, *11*, 2062\u20132075.",
+        "start_index": 63116,
+        "end_index": 63322
+    }
+]

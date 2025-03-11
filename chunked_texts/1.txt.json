@@ -1,0 +1,1226 @@
+[
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Tailorable nanoparticles for magnetic water cleaning of polychlorinated biphenyls (PCBs)\n\nLukas M\u00fcller1,*, Anna Zehetmeier1, Anna H\u00f6fling1, Henrik Ga\u00df1, Johannes Vo\u00df1, Daniel Krappmann2, Linda Rockmann1, Elias Harrer3, Dirk Zahn3, Andreas Hirsch2 and Marcus Halik1,*",
+        "start_index": 0,
+        "end_index": 266
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "1 Organic Materials & Devices, Institute of Polymer Materials, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg, Interdisciplinary Center for Nanostructured Films (IZNF), Cauerstra\u00dfe 3, 91058 Erlangen, Germany\n\n2 Chair of Organic Chemistry II, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg, Nikolaus-Fiebiger-Stra\u00dfe 10, 91058 Erlangen, Germany",
+        "start_index": 266,
+        "end_index": 614
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "3 Computer Chemistry Center & Chair of Theoretical Chemistry, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg, N\u00e4gelsbachstra\u00dfe 25, 91052 Erlangen, Germany\n\n*shared corresponding authors: lukas.lm.mueller@fau.de, marcus.halik@fau.de\nAbstract",
+        "start_index": 614,
+        "end_index": 857
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Anthropogenic persistent organic pollutants pose a pressing threat to the environment and human health. They can be found in water bodies all around the world at low but hazardous concentrations. Typical representatives of this contaminant class are polychlorinated biphenyls (PCBs). Here, we present nanoparticulate core-shell water cleaning agents, which are able to remove PCBs of various chlorination degree from water",
+        "start_index": 857,
+        "end_index": 1279
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The core consists of superparamagnetic iron oxide nanoparticles (SPIONs) providing large surface area that can be tuned via self-assembled monolayers (SAMs) composed of phosphonic acid derivates. This shell binds the pollutants non-covalently enabling facile magnetic water remediation. By employing positively charged or hydrophobic SAMs different PCBs can be preferentially removed. Furthermore, these orthogonal functionalities can be integrated in one SPION system",
+        "start_index": 1279,
+        "end_index": 1749
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". By combining charged and hydrophobic phosphonic acid derivates in so-called binary SAMs the removal preference can be convoluted, which works just as well in real river water. The cost-efficient availability of the base materials for these tailorable nanoparticles is complemented with recyclability laying the foundation for a sustainable water cleaning process.",
+        "start_index": 1749,
+        "end_index": 2114
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Table of contents graphic\n\nKeywords\n\nwater remediation, persistent organic pollutants, polychlorinated biphenyls, self-assembled monolayers, superparamagnetic iron oxide nanoparticles, tailored adsorption\n\nSynopsis\n\nPolychlorinated biphenyls (PCBs) are omnipresent in the hydrosphere. This study presents magnetic cleaning agents that can remove such contaminants from water with adjustable preference for most concerning compounds.\nIntroduction",
+        "start_index": 2114,
+        "end_index": 2559
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "According to the *United Nations Environment Programme* persistent organic pollutants (POPs) \u2013 despite being known for decades \u2013 are an increasing threat to humankind.\\(^1\\) They include anthropogenic molecules that, once entered, remain in the environment for a long time and get distributed around the world. Due to their hydrophobicity they accumulate in living organisms while being toxic not only to wildlife but also to us humans",
+        "start_index": 2559,
+        "end_index": 2994
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".\\(^2,3\\) For this reason the *Stockholm Convention on Persistent Organic Pollutants* or short just *Stockholm Convention* hosted by the *United Nations* was put into action in 2004 as an international measure against POPs.\\(^4\\) Among the twelve initial pollutants of concern are the so-called polychlorinated biphenyls (PCBs)",
+        "start_index": 2994,
+        "end_index": 3321
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Consisting of two phenyl rings, which can be chlorinated at up to ten positions, they form a group of 209 congeners typically occurring in mixtures. Due to their chemical stability, temperature resistance and dielectric properties they had been widely used, for example, in closed electrical equipment but also openly as plasticizers in polymers and paints.\\(^5,6\\) It was estimated that between 1 and 1",
+        "start_index": 3321,
+        "end_index": 3726
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".5 million tons of PCBs were produced worldwide since the 1920s until being mostly banned in the 1980s and 90s",
+        "start_index": 3726,
+        "end_index": 3836
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".\\(^7\\) Because of improper discharge and high environmental mobility, they are not only found around urban industrialized places like Munich in Germany,\\(^8\\) the San Francisco Bay in the United States\\(^9\\) or megalopolises in China,\\(^10\\) but also in more rural areas like the Himalayan riverine network in Pakistan\\(^11\\) or down at the Mariana trench in the Pacific Ocean",
+        "start_index": 3836,
+        "end_index": 4213
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".\\(^12\\) The omnipresence is particularly concerning as it is known that PCBs negatively influence early childhood development\\(^13,14\\) and are declared carcinogenic\\(^15\\) among other harmful effects.\\(^16\\) In the river Nile in Egypt concentrations of PCBs between 14 and 20 \\(\\mu\\)g L\\(^{-1}\\) were measured\\(^17\\), while the *United States Environmental Protection Agency* enforces a maximum contaminant level of 0",
+        "start_index": 4213,
+        "end_index": 4632
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".5 \\(\\mu\\)g L\\(^{-1}\\) with the declared goal of zero residues in their national primary drinking water regulations.\\(^18\\) In fact, the *Stockholm Convention* set the sophisticated aim of complete and environmentally-friendly elimination of PCBs until 2028 to obey the sustainable development goals (SDGs) of the *United Nations*.\\(^19\\)",
+        "start_index": 4632,
+        "end_index": 4970
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Therefore, it is necessary to efficiently clean waste water from PCBs at very low concentrations, so-called trace concentrations. In Germany more than 96 % of waste water is treated by conventional waste water treatment plants (WWTPs), which typically consist of a mechanical, a biological and a precipitation stage.\\(^20\\) However, even state-of-the-art WWTPs having an additional fourth stage comprised of oxidation via ozonation and/or activated carbon filters cannot remove all trace contaminants sufficiently",
+        "start_index": 4970,
+        "end_index": 5483
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".\\(^21\\) Consequently, advanced water cleaning is an active field of research. One way to classify approaches is by their biological,",
+        "start_index": 5483,
+        "end_index": 5616
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "chemical and physical (or combined) nature. Microbial remediation of PCBs, i.e., degradation by microorganisms like \\textit{A. xylosoxidans}, is a low energy-consuming and environmentally-friendly approach. However, it takes long time and works less effective for stable chlorination at ortho-positions on the phenyl rings",
+        "start_index": 5616,
+        "end_index": 5938
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Therefore, oxidation processes like the aforementioned ozonation or treatment with Fenton\u2019s reagent (Fe\u00b2\u207a/H\u2082O\u2082) as well as dechlorination by reduction as shown with zero-valent iron provide more versatile degradation strength. Here, cost and environmental impact of the treatment itself are the issues of concern. Next to membrane filtration, which is inherently limited for large water volumes, POPs-attractive adsorbents providing large surface areas resemble a simple and cost-effective concept",
+        "start_index": 5938,
+        "end_index": 6437
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". As mentioned before, activated carbon is one of the most studied and already employed adsorbents for water remediation today providing high surface area but type-dependent PCB adsorption efficiencies. Therefore, costly modification processes are necessary to target specific pollutants",
+        "start_index": 6437,
+        "end_index": 6724
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Another elegant approach is to use superparamagnetic iron oxide nanoparticles (SPIONs), known for their theranostic medical applications or as precursors for Fischer-Tropsch catalysts, as adsorbents to enable removal from the water phase by applying a magnetic field gradient. Examples show SPIONs coated with complex molecules like \u03b2-cyclodextrins or tediously synthesized polymeric shells to make them attractive for PCBs.",
+        "start_index": 6724,
+        "end_index": 7150
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Here, we present ton-scale produced SPIONs coated with PCB-attractive self-assembled monolayers (SAMs) consisting of simple, commercially available and strongly binding phosphonic acid derivates. Comparable core-shell SPION systems have previously been shown to be not only non-toxic, but also very efficient for removing a broad range of simple hydrocarbons, charged dyes as well as micro- and nanoplastics of various sizes from water",
+        "start_index": 7150,
+        "end_index": 7585
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". As \\textbf{Figure 1 a)} illustrates, the via molecular self-assembly functionalized nanoparticles can be added to aqueous PCB solutions so that the large functional surface can interact non-covalently with the pollutants",
+        "start_index": 7585,
+        "end_index": 7807
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The superparamagnetism of the cores enables facile magnetic PCB extraction from the aqueous solution, which is quantified by washing the contaminant carrying SPIONs in hexane and analyzing the PCB concentration via gas chromatography coupled to mass spectrometry (GC-MS)",
+        "start_index": 7807,
+        "end_index": 8079
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Representative for the 209 congeners, non-chlorinated 1,1\u2032-biphenyl (biphenyl), once-chlorinated 3-chloro-1,1\u2032-biphenyl (PCB 2), twice-chlorinated 3,5-dichloro-1,1\u2032-biphenyl (PCB 14) and four times-chlorinated",
+        "start_index": 8079,
+        "end_index": 8290
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "3,3\u2032,4,4\u2032-tetrachloro-1,1\u2032-biphenyl (PCB 77) are removed individually, but also competitively in mixtures in dependence of the functional surface of the SPIONs (see Figure 1 b)",
+        "start_index": 8290,
+        "end_index": 8466
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".",
+        "start_index": 8466,
+        "end_index": 8467
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Figure 1: Schematic approach of magnetically removing PCBs from water via surface-functionalized SPIONs. a) An aqueous PCB solution i) is treated with functionalized SPIONs, onto which the contaminants adsorb ii). The SPIONs can be magnetically collected carrying the PCBs iii)",
+        "start_index": 8467,
+        "end_index": 8744
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". b) Scope of investigated PCBs (Biphenyl, PCB 2, PCB 14 and PCB 77) as well as SPION surface modifications (PAC$_{16}$, PAC$_{10}$Ph, PAC$_3$Imi+, PAC$_3$Imi+/PAC$_{16}$ and PAC$_3$Imi+/PAC$_{10}$Ph) tailored to address the PCBs non-covalently",
+        "start_index": 8744,
+        "end_index": 8988
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The electrostatic potential maps were calculated for electron density isovalue surfaces as described in the supplementary information and range from -0.8 V (blue) to +0.8 V (red) for all molecules except PAC$_3$Imi+ where red indicates +5.3 V.",
+        "start_index": 8988,
+        "end_index": 9233
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "The SPION surface is complementary decorated with three different phosphonic acid derivates to address the PCBs. 1-Methyl-3-(propylphosphonic acid) imidazolium bromide (simplified as the cation only PAC$_3$Imi+) is used to provide positive charges on the SPION surface for attractive electrostatic interactions with the electronegative chlorine atoms",
+        "start_index": 9233,
+        "end_index": 9583
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". On the other hand, n-hexadecylphosphonic acid (PAC$_{16}$) and 10-phenyldecylphosphonic acid (PAC$_{10}$Ph) provide hydrophobic interaction sites combined with, in the latter case, an additional electron-rich phenyl ring to interact with the electron-deficient rings of the chlorinated pollutants",
+        "start_index": 9583,
+        "end_index": 9881
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The electronic properties of the molecules are featured in Figure 1 b) by means of electrostatic potential maps, which were calculated by density functional theory (see supplementary information)",
+        "start_index": 9881,
+        "end_index": 10078
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". In suitable contaminant-to-SPION ratios that enable quantitative comparison between the systems, preferred interaction of biphenyl, PCB 2 and PCB 14 with hydrophobic PAC$_{16}$@SPIONs and PAC$_{10}$Ph@SPIONs is shown, while PCB 77 \u2013 despite being less water soluble than the other pollutants \u2013 is more efficiently extracted by the positively charged...",
+        "start_index": 10078,
+        "end_index": 10432
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Moreover, these orthogonal surface functionalities can be combined on the SPION surface by a mixed (binary) SAM comprising PAC3Imi+ and PAC16 or PAC10Ph translating into tailorable adsorption behavior between the extrema. These nanoparticulate water cleaning agents do not only remove the investigated PCBs just as well from river water (Regnitz in Erlangen, Germany), but can be recycled without any sign of degradation and only small performance losses for three out of four pollutants.",
+        "start_index": 10432,
+        "end_index": 10920
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Results and discussion\n\nSPION characterization",
+        "start_index": 10920,
+        "end_index": 10966
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "In this study, SPIONs (primary diameter of about 10.7 nm providing large specific surface area of 115.1 m\u00b2 g\u207b\u00b9) were decorated with three different phosphonic acid derivates",
+        "start_index": 10966,
+        "end_index": 11139
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". PAC3Imi+, PAC16 and PAC10Ph bind to the nanoparticle surface covalently forming SAMs in the process as shown in Figure S1 and Figure S2 (see supplementary information) via attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR) and thermogravimetric analysis",
+        "start_index": 11139,
+        "end_index": 11423
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". PAC3Imi+ renders the SPION surface more positively charged in comparison to uncoated particles as indicated by an increase in \u03b6-potential at pH 7, while the other two molecules reduce it (see Figure S3, supplementary information). However, these positive charges repel each other leading to a lower grafting density on the surface of 1.21 \u00b1 0.08 nm\u00b2 compared to the hydrophobic-rendering PAC16 (2",
+        "start_index": 11423,
+        "end_index": 11821
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".25 \u00b1 0.06 nm\u00b2) and PAC10Ph (2.17 \u00b1 0.11 nm\u00b2). This less dense packing is exploited by a second self-assembly step with the alkyl molecules in order to form binary SAMs on the nanoparticle surface",
+        "start_index": 11821,
+        "end_index": 12017
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". These systems, PAC3Imi+/PAC16@SPIONs and PAC3Imi+/PAC10Ph@SPIONs, combine the orthogonal properties of the individually modified SPIONs (increasing vs. decreasing \u03b6-potential, less vs. more dense) on one surface (see Figures S1-S3, supplementary information).",
+        "start_index": 12017,
+        "end_index": 12278
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Magnetic biphenyl and PCB extraction",
+        "start_index": 12278,
+        "end_index": 12314
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "All magnetic extractions were performed at neutral pH with a fixed pollutant-SPIONs ratio (7 mL \u00e0 1 \u00b5M of PCB, i.e., 7 nmol were treated with 5.0 \u00b1 0.1 mg of SPIONs). This ratio was deliberately chosen to enable quantitative comparison between the systems. Such low concentrations require robust analytical quantification",
+        "start_index": 12314,
+        "end_index": 12635
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Based on recommendations by the United States Environmental Protection Agency on quantification of PCBs, this was achieved by washing the adsorbent systems after magnetic water cleaning with hexane to resolubilize all non-covalently collected pollutants followed by analysis via GC-MS. To each sample an",
+        "start_index": 12635,
+        "end_index": 12940
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "internal standard (decachloro-1,1'-biphenyl, PCB 209) at a fixed concentration was added. Representative chromatograms and calibration series of varying analyte to standard concentrations are given in Figure S4 (see supplementary information).",
+        "start_index": 12940,
+        "end_index": 13183
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "The two hydrophobically-rendered systems, PAC16@SPIONs and PAC10Ph@SPIONs, the positively charged PAC3Imi+@SPIONs as well as their orthogonal binary SAM adsorbent systems (all in reference to uncoated SPIONs) were applied to aqueous biphenyl and PCB solutions. The magnetically extracted biphenyl and PCB amounts at the fixed pollutant-SPION ratio are summarized in Figure 2",
+        "start_index": 13183,
+        "end_index": 13557
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Firstly, the molecular SAMs enable efficient magnetic collection overall. The uncoated SPIONs (reference) peak at 0.80 \u00b1 0.47 nmol removal for PCB 77 while only extracting 0.20 \u00b1 0.11 nmol for biphenyl. On the other hand, PAC16@SPIONs is able to remove 3.00 \u00b1 0.42 nmol of biphenyl up to 5.10 \u00b1 0",
+        "start_index": 13557,
+        "end_index": 13855
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".17 nmol for PCB 14 with a strong drop in performance for PCB 77. While PAC10Ph@SPIONs behaves similarly, PAC3Imi+@SPIONs shows as low removal as uncoated SPIONs for biphenyl, however, the highest magnetic extraction performance at all for PCB 77 of 4.86 \u00b1 0.91 nmol",
+        "start_index": 13855,
+        "end_index": 14121
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". PAC3Imi+/PAC16@SPIONs has the same trend as PAC16@SPIONs while extracting biphenyl, PCB 2 and PCB 14 less and PCB 77 better. Furthermore, PAC3Imi+/PAC10Ph@SPIONs follows this trend even more pronounced.",
+        "start_index": 14121,
+        "end_index": 14325
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "These results indicate an interplay of hydrophobic effect driven segregation (i.e., hydrophobic segregation) and electrostatic interaction as the two major non-covalent interaction motifs between the investigated pollutants and the functionalized adsorbent surface. PCBs are less water soluble with increasing chlorination degree. For biphenyl, PCB 2 and PCB 14 a respective increase in removal amounts is seen for all adsorbent systems corresponding to their decreasing water solubility",
+        "start_index": 14325,
+        "end_index": 14812
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". This in combination with the performance of PAC16@SPIONs and PAC10Ph@SPIONs supports a strong hydrophobic segregation on the nanoparticle surface for these pollutants. These adsorbents, however, lose a lot of performance for PCB 77 despite it being least water-soluble. Here, PAC3Imi+@SPIONs works best",
+        "start_index": 14812,
+        "end_index": 15116
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". This may be due to the positive charges on the surface that can attract electron-rich chlorine atoms, of which PCB 77 comprises the most among the investigated molecules.",
+        "start_index": 15116,
+        "end_index": 15288
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Figure 2: Magnetically removed amounts of biphenyl and PCBs depending on the molecular coating of the SPIONs. Aqueous solutions of 7 mL initially contained 7 nmol (1 \u00b5M) of pollutant at neutral pH and were treated with 5.0 \u00b1 0.1 mg of SPIONs",
+        "start_index": 15288,
+        "end_index": 15529
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Hydrophobic PAC\u2081\u2086@SPIONs and PAC\u2081\u2080Ph@SPIONs remove biphenyl, PCB 2 and PCB 14 more efficiently with a trending increase for less water solubility, while PAC\u2083Im\u207a@SPIONs drastically outperforms them for PCB 77 despite it being least water-soluble. Binary SAMs on SPIONs show performances in between the extrema. Data are represented as mean \u00b1 standard deviation.",
+        "start_index": 15529,
+        "end_index": 15891
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "For the binary SAM coated SPIONs, the characterized combination of orthogonal properties of charged PAC\\textsubscript{3}Imi\\textsuperscript{+}/@SPIONs and hydrophobic PAC\\textsubscript{16}@SPIONs or PAC\\textsubscript{10}Ph@SPIONs translates into their interaction with the pollutant molecules",
+        "start_index": 15891,
+        "end_index": 16183
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The extraction is dominated by the properties of the alkyl part of the SAM, however, complemented with the influence of PAC\\textsubscript{3}Imi\\textsuperscript{+} (compare $\\zeta$-potentials in Figure S3, supplementary information) enabling average removal amounts in between the unitary SAMs",
+        "start_index": 16183,
+        "end_index": 16477
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". As mentioned before, PAC\\textsubscript{10}Ph was used not only to serve hydrophobic interaction sites, but also to provide electron-rich phenyl rings for potential interaction with electron-deficient, chlorinated phenyl rings of the PCBs",
+        "start_index": 16477,
+        "end_index": 16716
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". While the magnetic extraction performance of PAC\\textsubscript{16}@SPIONs and PAC\\textsubscript{10}Ph@SPIONs differs only insignificantly, PAC\\textsubscript{3}Imi\\textsuperscript{+}/PAC\\textsubscript{10}Ph@SPIONs shows on average a worse performance for biphenyl and PCB 2, a comparable one for PCB 14 and an increase for PCB 77 (with",
+        "start_index": 16716,
+        "end_index": 17052
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "large variation in between multiplicates) in reference to the other binary coated system",
+        "start_index": 17052,
+        "end_index": 17140
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". This points to a potential second, weaker instance of electrostatic interaction: repulsion between electron-rich rings of biphenyl and PCB 2 and the electron-rich phenyl ring in PAC\\textsubscript{10}Ph as well as attraction of electron-deficient rings in PCB 77 towards these.",
+        "start_index": 17140,
+        "end_index": 17418
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Magnetic extraction of biphenyl and PCB mixtures**",
+        "start_index": 17418,
+        "end_index": 17470
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "In the environment PCBs usually occur in mixtures.\\textsuperscript{5} Therefore, also mixtures of the investigated biphenyl and PCBs were magnetically treated with SPION systems (now containing 1 $\\mu$M of each pollutant, i.e., 28 nmol overall) as presented in Figure 3",
+        "start_index": 17470,
+        "end_index": 17739
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". In addition to the removed amounts (top), the normed shares of each pollutant in the removed amount are given (bottom) enabling better pollutant interaction preference discussion between the systems. Overall, the combined magnetically removed amounts are increased for treatment of mixtures. PAC\\textsubscript{3}Imi\\textsuperscript{+}@SPIONs extracts a sum of 7.98 \u00b1 1.13 nmol of pollutants with the highest share of 42",
+        "start_index": 17739,
+        "end_index": 18160
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".9 \u00b1 6.4 % coming from PCB 77, 34.5 \u00b1 7.8 % from PCB 14, 12.5 \u00b1 6.3 % from biphenyl and 10.0 \u00b1 2.0 % from PCB 2. Again, PAC\\textsubscript{16}@SPIONs and PAC\\textsubscript{10}Ph@SPIONs behave similarly by extracting 16.55 \u00b1 1",
+        "start_index": 18160,
+        "end_index": 18384
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".71 and 15.69 \u00b1 1.45 nmol respectively with highest share stemming from PCB 14 (about 33 % in both cases) and no significant deviation between the shares of biphenyl, PCB 2 and PCB 77 (about 21-23 % each). In general, multiplicates show relatively large variations for PCB 14",
+        "start_index": 18384,
+        "end_index": 18659
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". With the binary coated PAC\\textsubscript{3}Imi\\textsuperscript{+}/PAC\\textsubscript{16}@SPIONs and PAC\\textsubscript{3}Imi\\textsuperscript{+}/PAC\\textsubscript{10}Ph@SPIONs overall 14.62 \u00b1 1.65 and 13.34 \u00b1 1.55 nmol of pollutants are removed",
+        "start_index": 18659,
+        "end_index": 18902
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Here, PCB 14 also makes the biggest share of about 37 % in both cases, while the share of PCB 77 is estimated to 26.5 \u00b1 3.2 and 28.5 \u00b1 5.0 % respectively. The shares of",
+        "start_index": 18902,
+        "end_index": 19072
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-v6tn8 ORCID: https://orcid.org/0000-0001-9566-5897 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 19072,
+        "end_index": 19219
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "biphenyl removed by PAC\u2083Imi+/PAC\u2081\u2086@SPIONs and PAC\u2083Imi+/PAC\u2081\u2080Ph@SPIONs are 17.0 \u00b1 4.4 and 15.0 \u00b1 2.9 % and, therefore, being lower than about 20% for PCB 2.",
+        "start_index": 19219,
+        "end_index": 19374
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Figure 3:** Magnetically removed amounts of biphenyl and PCBs from mixtures depending on the molecular coating of the SPIONs. Aqueous solutions of 7 mL initially contained 7 nmol (1 \u00b5M) of each pollutant, i.e., 28 nmol in sum, at neutral pH and were treated with 5.0 \u00b1 0.1 mg of SPIONs",
+        "start_index": 19374,
+        "end_index": 19661
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The top graph shows magnetically removed amounts and the bottom graph the respective normed shares of biphenyl and each PCB. Overall, PCB 14 is removed best by the hydrophobic adsorbents",
+        "start_index": 19661,
+        "end_index": 19849
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The preference of PAC\u2083Imi+@SPIONs for PCB 77 can be integrated in the behavior of the hydrophobic systems as results with PAC\u2083Imi+/PAC\u2081\u2086@SPIONs and PAC\u2083Imi+/PAC\u2081\u2080Ph@SPIONs show. Data are represented as mean \u00b1 (Gaussian error propagated) standard deviation.",
+        "start_index": 19849,
+        "end_index": 20107
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "At the previously introduced maximum contaminant level of 0.5 \u00b5g L\u207b\u00b9 set by the United States Environmental Protection Agency every liter contains about 2.3 nmol of PCBs calculated with the average molar mass of the here investigated pollutants. The SPIONs could be able to adsorb this amount in a single treatment",
+        "start_index": 20107,
+        "end_index": 20421
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The performances of the different adsorbent systems for treatment of mixtures of biphenyl and PCBs mostly resemble the trends of the separate extractions. The overall higher removal amounts need to be considered under the influence of in sum higher starting amounts. Hydrophobic segregation leads to PAC\u2081\u2086@SPIONs and PAC\u2081\u2080Ph@SPIONs extracting the highest amounts of pollutants with biggest share of PCB 14.",
+        "start_index": 20421,
+        "end_index": 20829
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "PCB 77 is not significantly worse extracted than biphenyl and PCB 2 by these systems in contrast to the separate treatments indicating potential interaction among the pollutants. Adsorbed electron-rich phenyl rings, e.g., of biphenyl, may interact with the deficient rings of PCB 77 leading to better magnetic extraction",
+        "start_index": 20829,
+        "end_index": 21149
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". PAC3Imi+/@SPIONs extracted the smallest sum of contaminant molecules overall, but show a higher preference for PCB 77 despite it being the least water-soluble as mentioned before, which should lead to highest preference for adsorption onto hydrophobic surfaces instead. This confirms the previously identified electrostatic interaction as second major interaction force at play. The electronegative chlorine atoms are attracted by the imidazolium cations",
+        "start_index": 21149,
+        "end_index": 21605
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The binary coated systems, PAC3Imi+/PAC16@SPIONs and PAC3Imi+/PAC10Ph@SPIONs, again integrate both results in one system. The overall higher extraction amounts with peak in PCB 14 observed for the hydrophobic adsorbents are maintained while incorporating the higher affinity for PCB 77 in comparison to biphenyl and PCB 2 coming from the electrostatic interaction sites provided by PAC3Imi+",
+        "start_index": 21605,
+        "end_index": 21997
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Here, the electron-rich phenyl ring in PAC10Ph provides no further significant interaction motif. The preference for removing PCB 77 is of particular interest as it is coplanar, substituted in both para and two meta positions while being non-ortho-substituted representing the most toxic PCBs.49",
+        "start_index": 21997,
+        "end_index": 22294
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Approaching more realistic cleaning conditions and constraints",
+        "start_index": 22294,
+        "end_index": 22356
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "In realistic applications mixtures of biphenyl and PCBs would not be present in a matrix of deionized (DI) water, but in much more complex, natural water matrices",
+        "start_index": 22356,
+        "end_index": 22518
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". As investigated before on other examples38,50, the performance of the presented adsorbent systems, represented by PAC3Imi+/PAC10Ph@SPIONs, was tested on biphenyl and PCB mixtures in actual river water collected from the Regnitz in Erlangen, Germany (49\u00b035'14.2'' N 10\u00b058'51.9'' E) as illustrated in Figure 4 a) and b)",
+        "start_index": 22518,
+        "end_index": 22837
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Removing about 15-16 nmol of pollutants both from DI and river water matrices with an adsorption share of about 37-38 % for PCB 14 and about 34 % for the most toxic PCB 77, the PAC3Imi+/PAC10Ph@SPIONs work just as well in this more realistic scenario. The differences in comparison to Figure 3 are likely due to strong influences of minor concentration fluctuations in the starting solutions",
+        "start_index": 22837,
+        "end_index": 23230
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The data in Figure 3 was averaged across twice as many multiplicates. So far, all extractions were performed with the same employed mass of SPIONs to identify the role of the different functional coatings. In Figure 4 c) the employed mass is varied for constant starting amounts of 7 nmol each of biphenyl and PCBs in mixtures. Next to the removed amounts, this time also the efficiencies are given. While with the previously tested mass of 5",
+        "start_index": 23230,
+        "end_index": 23674
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".0 \u00b1 0.1 mg of PAC3Imi+/PAC10Ph@SPIONs about",
+        "start_index": 23674,
+        "end_index": 23718
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "16 nmol of PCBs are removed, decreasing the mass by a factor of five to $1.00 \\pm 0.02$ mg still removes about 13 nmol overall. By increasing the mass to $15.0 \\pm 0.1$ mg about 20 nmol are removed",
+        "start_index": 23718,
+        "end_index": 23915
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Overall, the removal efficiencies of biphenyl, PCB 2 and PCB 14 can be increased by employing more SPIONs with a peak for PCB 14 of $97.6 \\pm 0.9$ % removal using $15.0 \\pm 0",
+        "start_index": 23915,
+        "end_index": 24091
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".1$ mg of $\\text{PAC}_3\\text{Imi}^+/\\text{PAC}_{10}\\text{Pc}\\text{Ph} @ \\text{SPIONs}$. In contrast, the efficiency for PCB 77 remains constant for all employed masses around 80%. It should be mentioned that the removal efficiency is found being non-linearly dependent on the employed mass, which makes extrapolation hardly possible",
+        "start_index": 24091,
+        "end_index": 24423
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The values should be regarded as proof-of-concept only.",
+        "start_index": 24423,
+        "end_index": 24480
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "![Figure 4](https://doi.org/10.26434/chemrxiv-2025-v6tn8)",
+        "start_index": 24480,
+        "end_index": 24537
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Figure 4**: Magnetically removed amounts of biphenyl and PCBs from mixtures in DI vs. river water as well as efficiency dependence on the employed mass on the example of $\\text{PAC}_3\\text{Imi}^+/\\text{PAC}_{10}\\text{Pc}\\text{Ph} @ \\text{SPIONs}$.",
+        "start_index": 24537,
+        "end_index": 24786
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "a) Photograph of river water sampling site, in which the decorated SPIONs work as well as in DI water as seen in b). Aqueous solutions of 7 mL initially contained 7 nmol (1 \u00b5M) of each pollutant, i.e., 28 nmol in sum. In DI water the pH was neutral, while the natural value of 7.95 was maintained in river water",
+        "start_index": 24786,
+        "end_index": 25097
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The employed mass of $\\text{PAC}_3\\text{Imi}^+/\\text{PAC}_{10}\\text{Pc}\\text{Ph} @ \\text{SPIONs}$ in b) was $5.0 \\pm 0.1$ mg.",
+        "start_index": 25097,
+        "end_index": 25224
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "c) Variation of the employed mass of these SPIONs for treatment of DI water spiked with equally concentrated PCB mixtures as in b) shows that more SPIONs yield higher removal efficiencies of up to $97.6 \\pm 0.9$ % as demonstrated for PCB 14. Data are represented as mean \u00b1 standard deviation.",
+        "start_index": 25224,
+        "end_index": 25516
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Another aspect to be considered is recyclability of the adsorbent. Again, with the same surrogate SPION system repeated water treatments of biphenyl and PCB mixtures were conducted. As ATR-FTIR spectra and thermogravimetric analyses show, no degradation of the binary SAM on the SPIONs can be observed after three cycles, nor do any pollutants remain on the particle surface after hexane washing (see Figure S5, supplementary information)",
+        "start_index": 25516,
+        "end_index": 25954
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". In terms of removal performance, the removed amount of $15.34 \\pm 0.82$ nmol in the first cycle drops by about 38% for the second and another 12% for third cycle mostly by decrease in the removed amount of PCB 77 (see Figure S6, supplementary information). This could be due to remaining traces of hexane in the shell from the washing process that compete with adsorption of PCB 77",
+        "start_index": 25954,
+        "end_index": 26337
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Nevertheless, the surrogate SPIONs are found to be recyclable.",
+        "start_index": 26337,
+        "end_index": 26401
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Conclusion**",
+        "start_index": 26401,
+        "end_index": 26415
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "In this study we presented nanoparticulate water cleaning agents based on ton-scale produced SPIONs covered with SAMs composed of commercially available phosphonic acid derivates. These simple and non-toxic adsorbents enable magnetic extraction of POP-representative biphenyl, mono-chlorinated PCB 2, di-chlorinated PCB 14 and tetra-chlorinated PCB 77 from aqueous solutions at low concentrations",
+        "start_index": 26415,
+        "end_index": 26811
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". An interplay of hydrophobic segregation and electrostatic interactions cause the non-covalent attraction of the pollutants to the functionalized nanoparticle surface. The nature of this surface is tailorable by choice of the phosphonic acid derivate SAM",
+        "start_index": 26811,
+        "end_index": 27066
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". PAC$_3$Imi+@SPIONs provides positively charged interaction sites, while PAC$_{16}$@SPIONs and PAC$_{10}$Ph@SPIONs equip the adsorbent surface with a hydrophobic interface, which translates into corresponding interactions with the pollutants",
+        "start_index": 27066,
+        "end_index": 27308
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Since the water solubility of PCBs decreases with increasing degree of chlorination, an increasing segregation from biphenyl to PCB 14 onto PAC$_{16}$@SPIONs and PAC$_{10}$Ph@SPIONs is observed. Counterintuitively, this inverts for the least water-soluble PCB 77, which is removed best by PAC$_3$Imi+@SPIONs",
+        "start_index": 27308,
+        "end_index": 27617
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". This is attributed to electrostatic interactions between the cationic imidazolium and electronegative chlorine atoms. The orthogonal properties of these SAMs can be integrated into single adsorbent systems with binary SAMs comprising PAC$_3$Imi+ and PAC$_{16}$ or PAC$_{10}$Ph on one surface. These systems show magnetic extraction performances in between the extrema, while being dominated by the influence of the uncharged molecules",
+        "start_index": 27617,
+        "end_index": 28053
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Since PCBs usually occur in mixtures, the pollutants were also removed in competition. Here, the described trends continue with PAC$_3$Imi+@SPIONs showing highest affinity to PCB 77, while the hydrophobic adsorbents extract PCB 14 best. A convolution of",
+        "start_index": 28053,
+        "end_index": 28308
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "both behaviors is found for the binary SAM-coated systems providing highest removal amounts for PCB 14, while having preference for PCB 77 over biphenyl and PCB 2, which is of particular interest as PCB 77 is among the most toxic PCBs. With PAC$_3$Imi+/PAC$_{10}$Ph@SPIONs as surrogate, it was shown that magnetic extraction of PCB mixtures works just as well in a natural water matrix, i.e",
+        "start_index": 28308,
+        "end_index": 28698
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "., river water collected from the Regnitz in Erlangen, Germany. By employing more SPIONs higher removal efficiencies can be achieved approaching up to 97.6 \u00b1 0.9 % removal in a single treatment as demonstrated for PCB 14. Furthermore, recyclability of these adsorbents was shown. The binary SAM does not degrade over three cycles of application",
+        "start_index": 28698,
+        "end_index": 29042
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Ultimately, we believe that the demonstrated approach of magnetic water cleaning of PCBs is very promising as efficiently removing POPs at low concentrations from water remains a challenge. Being able to address individual components of pollutant molecule mixtures preferentially by tailoring the molecular shell on large surface area providing nanoadsorbents may be beneficial in the future considering the majority of pollutants is still out there.",
+        "start_index": 29042,
+        "end_index": 29494
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Experimental procedures**\n\n**Materials**",
+        "start_index": 29494,
+        "end_index": 29536
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Superparamagnetic iron oxide nanoparticles (SPIONs) were provided by Comar Chemicals (Pty). These particles show the crystal structure of maghemite ($\\gamma$-Fe$_2$O$_3$) as determined previously and have an average primary diameter of 10",
+        "start_index": 29536,
+        "end_index": 29774
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".7 nm assuming maghemite bulk density and spherical shape calculated from their Brunauer-Emmett-Teller (BET) specific surface area ($SSA_{SPIONs}$) of 115.1 m$^2$ g$^{-1}$ measured via N$_2$ gas adsorption with a Nova 4000e from Quantachrome. More details can be found in the supplementary information",
+        "start_index": 29774,
+        "end_index": 30075
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Phosphonic acid derivates 1-methyl-3-(propylphosphonic acid) imidazolium bromide (simplified as the cation only PAC$_3$Imi+; \u2265 95 %) and 10-phenyldecylphosphonic acid (PAC$_{10}$Ph; \u2265 95 %) were purchased from SiK\u00c9MIA, while n-hexadecylphosphonic acid",
+        "start_index": 30075,
+        "end_index": 30328
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "(PAC$_{16}$) was obtained from PCI Synthesis",
+        "start_index": 30328,
+        "end_index": 30372
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The contaminants 1,1\u2019-biphenyl (biphenyl; 99",
+        "start_index": 30372,
+        "end_index": 30418
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".5 %), 3-chloro-1,1\u2019-biphenyl (polychlorinated biphenyl 2 (PCB 2); analytical standard), 3,5-dichloro-1,1\u2019-biphenyl (PCB 14; analytical standard) as well as the quantification internal standard decachloro-1,1\u2019-biphenyl (PCB 209; analytical standard) stem from",
+        "start_index": 30418,
+        "end_index": 30677
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Sigma-Aldrich",
+        "start_index": 30677,
+        "end_index": 30690
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". 3,3\u2019,4,4\u2019-Tetrachloro-1,1\u2019-biphenyl (PCB 77; 99.8 %) was purchased from LGC Standards. As solvents methanol (\u2265 99 %), acetone (\u2265 99",
+        "start_index": 30690,
+        "end_index": 30823
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".5 %) and hexane (\u2265 99 %) from Carl Roth as well as deionized (DI) water from the DI tap of the Interdisciplinary Center for Nanostructured Films building were used. The",
+        "start_index": 30823,
+        "end_index": 30992
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "River water was taken from the Regnitz in Erlangen, Germany (49\u00b035'14.2\" N 10\u00b058'51.9\" E) on April 3, 2024. After removing coarse sediments by decanting, it was filtered twice through a nylon stocking (30 DEN, 33 dtex) and stored in a brown glass bottle.",
+        "start_index": 30992,
+        "end_index": 31246
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**SPIONs functionalization**",
+        "start_index": 31246,
+        "end_index": 31274
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Methanol solutions \u00e0 5 mM for PAC\u2083Imi\u207a or 10 mM for PAC\u2081\u2086 and PAC\u2081\u2080Ph were added to dispersions of SPIONs (3 mg mL\u207b\u00b9) also in methanol at a volumetric ratio of 3:10 respectively. These concentrations were determined to saturate the surface beforehand. The mixture was sonicated for 30 min at 25 \u00b0C in a Sonocool 255 from Bandelin",
+        "start_index": 31274,
+        "end_index": 31603
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Unbound phosphonic acid molecules were removed by two washing cycles consisting of sedimenting the functionalized SPIONs with a Multifuge X1R from Heraeus (13,000 rpm at 5 \u00b0C) followed by redispersion in fresh methanol. Finally, the coated SPIONs were sedimented again and dried at 60 \u00b0C overnight",
+        "start_index": 31603,
+        "end_index": 31902
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". For binary shells, the PAC\u2083Imi\u207a functionalized SPIONs (PAC\u2083Imi\u207a@SPIONs) were not dried in the last step but redispersed in the initial methanol volume and then mixed with solutions of PAC\u2081\u2086 or PAC\u2081\u2080Ph \u00e0 10 mM in the same ratio as for the first iteration. Sonication as well as both washing cycles were repeated and the particles finally dried at 60 \u00b0C over-night",
+        "start_index": 31902,
+        "end_index": 32266
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".",
+        "start_index": 32266,
+        "end_index": 32267
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**SPIONs characterization**",
+        "start_index": 32267,
+        "end_index": 32294
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "The functionalization of the SPIONs was qualitatively confirmed by attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR) recorded with an IR Prestige 21 from Shimadzu between 650 and 4000 cm\u207b\u00b9 at a resolution of 4 cm\u207b\u00b9. The data was corrected with the internal atmospheric correction (Shimadzu IRsolution 1",
+        "start_index": 32294,
+        "end_index": 32626
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".60) removing residual H\u2082O and CO\u2082 vibration bands and normed to the interval borders 650 and 4000 cm\u207b\u00b9. Quantitatively, the particles were thermogravimetrically analyzed with a TG 209 F1 Libra from Netzsch",
+        "start_index": 32626,
+        "end_index": 32832
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The temperature was continuously increased to 1000 \u00b0C at 30 \u00b0C min\u207b\u00b9 while being exposed to a gas flow of 10 mL min\u207b\u00b9 of O\u2082 and 40 mL min\u207b\u00b9 of N\u2082. The measured curves were smoothed with the software Netzsch Proteus Thermal Analysis 8.0.3",
+        "start_index": 32832,
+        "end_index": 33071
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The grafting densities of the phosphonic acids (GD_{PA}) on the SPIONs\u2019 surface were estimated via **Equation 1**",
+        "start_index": 33071,
+        "end_index": 33186
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". wt is the relative mass loss between 150 and 700 \u00b0C in percent, \\( N_A \\) is Avogadro\u2019s constant, \\( MW_{PA} \\) is the molar mass of the respective phosphonic acid derivate (or of PAC\u2081\u2086/PAC\u2081\u2080Ph respectively for the binary coated SPIONs as they make up the majority of the coating as determined by ATR-FTIR) corrected by the staying anchor group\u2075\u00b9 and \\(",
+        "start_index": 33186,
+        "end_index": 33541
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "SS_{SPIONs} \\) the specific surface area of the SPIONs",
+        "start_index": 33541,
+        "end_index": 33595
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".",
+        "start_index": 33595,
+        "end_index": 33596
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "\\[ GD_{PA} = \\frac{wt}{100 - wt} \\cdot \\frac{N_A}{MW_{PA} \\cdot SSA_{SPIONS}} \\] (1)",
+        "start_index": 33596,
+        "end_index": 33680
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Hydrodynamic diameters (given as Z-average) and \\( \\zeta \\)-potentials of particles in dispersion were determined via dynamic and electrophoretic light scattering respectively with a Zetasizer Nano ZS running software version 7.13 from Malvern. Here, the SPIONs were not dried after functionalization, but redispersed in DI water. A reservoir of DI water was titrated to the desired pH with aqueous 0",
+        "start_index": 33680,
+        "end_index": 34080
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".25 M NaOH and HCl solutions and spiked with the SPION dispersion. The obtained pH value was noted afterwards. Measurements were conducted in DTS1070 cells. The \\( \\zeta \\)-potential at pH 7 was obtained via fitting the data points with a Boltzmann function (sigmoidal curve) in Origin 2024b with standard settings.",
+        "start_index": 34080,
+        "end_index": 34395
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Magnetic biphenyl and PCB extraction**",
+        "start_index": 34395,
+        "end_index": 34435
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Biphenyl and PCBs were dissolved in acetone at concentrations of 100 \\( \\mu \\)M followed by dilution with DI water to obtain 1 \\( \\mu \\)M solutions in DI water with 1 vol\\% of acetone (this ensures solubility especially for the low-soluble PCB 77).\\(^{52,53}\\) These were titrated to pH 7 with aqueous 0",
+        "start_index": 34435,
+        "end_index": 34738
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ".25 M NaOH and HCl solutions. Respectively, 7 mL of contaminant solution were given to 5.0 \u00b1 0.1 mg (except when the mass was varied) of SPIONs, which were predispersed in 50 \\( \\mu \\)L of acetone. These dispersions were put in a vortex mixer for 10 min at 500 rpm followed by 30 min of magnetic separation of the SPIONs carrying the contaminants",
+        "start_index": 34738,
+        "end_index": 35084
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". For the competitive extraction of biphenyl and the PCBs equal volumes each of 400 \\( \\mu \\)M solutions in acetone were mixed. The resulting solution containing each contaminant at 100 \\( \\mu \\)M was diluted accordingly with DI water to obtain an aqueous solution with 1 vol\\% of acetone containing each molecule at 1 \\( \\mu \\)M. This solution was titrated to pH 7 and treated with SPIONs as described before",
+        "start_index": 35084,
+        "end_index": 35493
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". For the magnetic extraction from river water, the contaminants containing acetone solution was diluted with river water instead. Here, no titration was conducted to maintain the natural pH, which was measured at 7.95. For recycling the SPIONs were magnetically separated from the hexane solution that was later quantified, washed with fresh hexane and dried in the oven at 80 \u00b0C",
+        "start_index": 35493,
+        "end_index": 35873
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". These particles were then wetted with 50 \\( \\mu \\)L of acetone again and iteratively applied to contaminant-spiked DI water. All magnetic extractions of individual biphenyl and PCBs as well as the competitive study containing all four contaminants were conducted in hexaplicates",
+        "start_index": 35873,
+        "end_index": 36153
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Comparison of DI to river water as well as the study of varying starting mass of SPIONs were done in triplicates, while recycling was done in quintuplicates but one multiplicate was lost in the last step for characterization purposes.",
+        "start_index": 36153,
+        "end_index": 36389
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Quantification of magnetically extracted biphenyl and PCBs",
+        "start_index": 36389,
+        "end_index": 36447
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "After magnetically collecting the SPIONs from water, they were transferred to 10 mL of hexane and sonicated for 10 min at 25 \u00b0C in a Sonocool 255 from Bandelin to wash off any biphenyl or PCB. Aliquots of 1.5 mL were centrifuged at 15,000 rpm at 20 \u00b0C for 10 min in a Mikro 200R from Hettich to remove any SPIONs",
+        "start_index": 36447,
+        "end_index": 36759
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". 1.125 mL of the contaminant (i.e., analyte) hexane solution where mixed with 0.375 mL of PCB 209 (referred to as internal standard) \u00e0 4 \u00b5M in hexane to result in an analyte solution containing 1 \u00b5M of internal standard. This solution was investigated by gas chromatography coupled to mass spectrometry (GC-MS)",
+        "start_index": 36759,
+        "end_index": 37070
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Based on method recommendations by the United States Environmental Protection Agency on quantification of PCBs,47 2 \u00b5L were splitlessly injected at 270 \u00b0C via a AOC 20i autosampler into a GC-MS-QP2010 SE all from Shimadzu",
+        "start_index": 37070,
+        "end_index": 37293
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Via helium as carrier gas at a total flow rate of 10 mL min\u207b\u00b9 the analytes were separated by a Zebron ZB-5Plus column from Phenomenex (30 m length, 0.25 mm diameter and 0.25 \u00b5m coating thickness)",
+        "start_index": 37293,
+        "end_index": 37490
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The column oven was heated from 80 \u00b0C (held for 1 min) to 300 \u00b0C (held for 5 min) at a rate of 22 \u00b0C min\u207b\u00b9. Finally, m/z ratios between 30 and 600 were recorded with a detector voltage of 0.99 \u00b1 0.3 kV",
+        "start_index": 37490,
+        "end_index": 37693
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". The unknown analyte concentrations were determined by referring the respective peak areas in the specifically ion-filtered chromatograms (quantifier m/z ratios: 154 Da (biphenyl), 188 Da (PCB 2), 222 Da (PCB 14) and 292 Da (PCB 77)) to the peak area of the internal standard PCB 209 (quantifier m/z ratios: 497 or 498 Da)",
+        "start_index": 37693,
+        "end_index": 38016
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Previously, internal calibration series of varying analyte (1.5, 1, 0.75, 0.5, 0.25 and 0.1 \u00b5M) and constant internal standard (1 \u00b5M) concentrations were established in triplicates (see Figure S4, supplementary information). All analyses including linear regression were performed via GCMSsolution 4.44 from Shimadzu.",
+        "start_index": 38016,
+        "end_index": 38335
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Abbreviations",
+        "start_index": 38335,
+        "end_index": 38348
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "| Abbreviation | Definition                                           |\n|--------------|------------------------------------------------------|\n| ATR-FTIR     | attenuated total reflectance Fourier transform infrared spectroscopy |\n| BET          | Brunauer-Emmett-Teller                               |\n| biphenyl     | 1,1'-biphenyl                                       |\n| DI           | deionized                                           |\n| GC-MS        | gas chromatography coupled to mass spectrometry      |",
+        "start_index": 38348,
+        "end_index": 38865
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "| GD_{PA}      | grafting density of a phosphonic acid                |\n| MW_{PA}      | molar mass of a phosphonic acid                      |\n| N_A          | Avogadro\u2019s constant                                 |\n| PA           | phosphonic acid                                      |\nPAC_{10}Ph  10-phenyloctadecylphosphonic acid  \nPAC_{16}   n-hexadecylphosphonic acid",
+        "start_index": 38865,
+        "end_index": 39237
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "PAC_{3}Imi+ 1-methyl-3-(propylphosphonic acid) imidazolium bromide  \nPCB       polychlorinated biphenyl  \nPCB 2      3-chloro-1,1\u2032-biphenyl  \nPCB 14     3,5-dichloro-1,1\u2032-biphenyl",
+        "start_index": 39237,
+        "end_index": 39416
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "PCB 77     3,3\u2032,4,4\u2032-tetrachloro-1,1\u2032-biphenyl  \nPCB 209    decachloro-1,1\u2032-biphenyl  \nPOP        persistent organic pollutant  \nSAM        self-assembled monolayer  \nSDG        sustainable development goal  \nSPION      superparamagnetic iron oxide nanoparticle",
+        "start_index": 39416,
+        "end_index": 39677
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "SSA_{SPIONs} specific surface area of the SPIONs  \nw\\text{t} relative mass loss between 150 and 700 \u00b0C  \nWWTP       waste water treatment plant",
+        "start_index": 39677,
+        "end_index": 39820
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Supplementary information**",
+        "start_index": 39820,
+        "end_index": 39849
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "The manuscript comes with supporting explanations and figures in the document \u201cESI_Tailorable nanoparticles for magnetic water cleaning of polychlorinated biphenyls\u201d. There, details for the calculation of the electrostatic potential maps in Figure 1 are provided. The SPIONs are characterized, representative chromatograms of biphenyl and all PCBs as well as their calibrations are given. Furthermore, characterization as well as magnetic extraction results of recycled SPIONs can be found.",
+        "start_index": 39849,
+        "end_index": 40339
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "**Acknowledgements**",
+        "start_index": 40339,
+        "end_index": 40359
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "The authors acknowledge financial support by the Graduate School Molecular Sciences (GSMS). Lukas M\u00fcller received scholarship funding by the German Federal Environmental Foundation (Deutsche Bundesstiftung Umwelt DBU; funding number 20021/713). The authors thank the German Research Foundation (Deutsche Forschungsgemeinschaft DFG) for providing funding for project HA 2952-15-1",
+        "start_index": 40359,
+        "end_index": 40737
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". Also, the authors thank Sandra Wittphahl from the Chair of Particle Technology at Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg for performing the gas adsorption experiments on the nanoparticles.",
+        "start_index": 40737,
+        "end_index": 40938
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Data availability statement",
+        "start_index": 40938,
+        "end_index": 40965
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "All source and measurement data supporting this study are available at the Figshare data repository (DOI 10.6084/m9.figshare.26496859).54\n\nAuthor contributions",
+        "start_index": 40965,
+        "end_index": 41124
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Conceptualization, L.M. and M.H.; Methodology, L.M., A.Z., H.G. and D.K.; Formal Analysis, L.M., H.G. and E.H.; Investigation, L.M., A.Z., A. H\u00f6fling and J.V.; Resources, L.R., D.Z., A. Hirsch and M.H.; Writing \u2013 Original Draft, L.M.; Writing \u2013 Review & Editing, L.M., A.Z., A",
+        "start_index": 41124,
+        "end_index": 41400
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": ". H\u00f6fling, H.G., J.V., D.K., L.R., E.H., D.Z., A. Hirsch and M.H.; Visualization, L.M. and E.H.; Supervision, D.Z., A. Hirsch and M.H.; Project Administration, L.M. and M.H., Funding Acquisition, L.M. and M.H.",
+        "start_index": 41400,
+        "end_index": 41609
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "Conflict of interest\n\nThe authors declare no conflict of interest.\n\nReferences",
+        "start_index": 41609,
+        "end_index": 41687
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "1. United Nations Environment Programme. Why do persistent organic pollutants matter? https://www.unep.org/topics/chemicals-and-pollution-action/pollution-and-health/persistent-organic-pollutants-pops/why.\n2. Jones, K. C. & de Voogt, P. Persistent organic pollutants (POPs): state of the science. Environ. Pollut. 100, 209\u2013221 (1999).",
+        "start_index": 41687,
+        "end_index": 42021
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "3. Jones, K. C. Persistent Organic Pollutants (POPs) and Related Chemicals in the Global Environment: Some Personal Reflections. Environ. Sci. Technol. 55, 9400\u20139412 (2021).\n4. United Nations. Stockholm Convention on Persistent Organic Pollutants. (2001).",
+        "start_index": 42021,
+        "end_index": 42276
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "5. Fiedler, H., Lau, C., Schulz, S., Wagner, C. & Hutzinger, O. Stoffbericht Polychlorierte Biphenyle (PCB). vol. 16/95 (Landesanstalt f\u00fcr Umweltschutz Baden-W\u00fcrttemberg, 1995).",
+        "start_index": 42276,
+        "end_index": 42453
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "6. Erickson, M. D. & Kaley II, R. G. Applications of polychlorinated biphenyls. Environ. Sci. Pollut. Res. 18, 135\u2013151 (2011).\n7. United Nations Environment Programme. Report on progress towards the elimination of polychlorinated biphenyls. UNEP/POPS/COP.9/INF/10. (2019).",
+        "start_index": 42453,
+        "end_index": 42725
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "8. Weber, R. et al. Biomonitoring of polychlorinated biphenyls in Bavaria/Germany\u2014\nlong-term observations and standardization. *Environ. Sci. Pollut. Res.* 25, 16344\u201316354 (2018).",
+        "start_index": 42725,
+        "end_index": 42904
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "9. Davis, J. A., Hetzel, F., Oram, J. J. & McKee, L. J. Polychlorinated biphenyls (PCBs) in\nSan Francisco Bay. *Environ. Res.* 105, 67\u201386 (2007).\n10. Zhu, M. et al. Environmental contamination and human exposure of polychlorinated",
+        "start_index": 42904,
+        "end_index": 43134
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "biphenyls (PCBs) in China: A review. *Sci. Total Environ.* 805, 150270 (2022).\n11. Ullah, R. et al. Assessment of polychlorinated biphenyls (PCBs) in the Himalayan\nRiverine Network of Azad Jammu and Kashmir. *Chemosphere* 240, 124762 (2020).",
+        "start_index": 43134,
+        "end_index": 43375
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "12. Jamieson, A. J., Malkocs, T., Piertney, S. B., Fujii, T. & Zhang, Z. Bioaccumulation of\npersistent organic pollutants in the deepest ocean fauna. *Nat. Ecol. Evol.* 1, 0051 (2017).\n13. Walkowiak, J. et al. Environmental exposure to polychlorinated biphenyls and quality",
+        "start_index": 43375,
+        "end_index": 43648
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "of the home environment: Effects on psychodevelopment in early childhood. *Lancet*\n358, 1602\u20131607 (2001).\n14. Jacobson, J. L. & Jacobson, S. W. Intellectual impairment in children exposed to\npolychlorinated biphenyls in utero. *N. Engl. J. Med.* 335, 783\u2013789 (1996).",
+        "start_index": 43648,
+        "end_index": 43914
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "15. Lauby-Secretan, B. et al. Carcinogenicity of polychlorinated biphenyls and\npolybrominated biphenyls. *Lancet Oncol.* 14, 287\u2013288 (2013).\n16. United States Department of Health and Human Services. *Toxicological Profile for\nPolychlorinated Biphenyls (PCBs).* (2000).",
+        "start_index": 43914,
+        "end_index": 44183
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "17. Megahed, A. M. et al. Polychlorinated biphenyls water pollution along the River Nile,\nEgypt. *Sci. World J.* 389213 (2015) doi:10.1155/2015/389213.\n18. United States Environmental Protection Agency. *National Primary Drinking Water\nRegulations.* EPA 816-F-09-004. (2009).",
+        "start_index": 44183,
+        "end_index": 44458
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "19. United Nations Environment Programme. *PCB - A Forgotten Legacy?.\nUNEP/POPS/PCB/TOR/PEN/2017.* (2017).\n20. Federal Ministry for the Environment; Nature Conservation; Nuclear Safety and\nConsumer Protection. Sewage Treatment Plant. https://www.bmuv.de/en/topics/water-\nmanagement/overview-water-management/wastewater/sewage-treatment-plant (2024).",
+        "start_index": 44458,
+        "end_index": 44807
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "21. M\u00fcller, J. et al. Schlussbericht Pilotprojekt 4. Reinigungsstufe auf der Kl\u00e4ranlage\nWei\u00dfenburg. Erfahrungen im Regelbetrieb. (Lehrstuhl f\u00fcr Siedlungswasserwirtschaft,\nTechnische Universit\u00e4t M\u00fcnchen, 2021).\n22. \u0160r\u00e9dlov\u00e1, K. & Cajthaml, T. Recent advances in PCB removal from historically",
+        "start_index": 44807,
+        "end_index": 45097
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "contaminated environmental matrices. *Chemosphere* 287, 132096 (2022).\n23. Jing, R., Fusi, S. & Kjellerup, B. V. Remediation of Polychlorinated Biphenyls (PCBs) in contaminated soils and sediment: State of knowledge and perspectives. *Front. Environ. Sci.* 6, 79 (2018).",
+        "start_index": 45097,
+        "end_index": 45367
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "24. Vijaya Bhaskar Reddy, A., Moniruzzaman, M. & Aminabhavi, T. M. Polychlorinated biphenyls (PCBs) in the environment: Recent updates on sampling, pretreatment, cleanup technologies and their analysis. *Chem. Eng. J.* 358, 1186\u20131207 (2019).",
+        "start_index": 45367,
+        "end_index": 45608
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "25. Dudasova, H., Derco, J., Sumegova, L., Dercova, K. & Laszlova, K. Removal of polychlorinated biphenyl congeners in mixture Delor 103 from wastewater by ozonation vs and biological method. *J. Hazard. Mater.* 321, 54\u201361 (2017).",
+        "start_index": 45608,
+        "end_index": 45838
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "26. Ma, X. H., Zhao, L., Dong, Y. H., Chen, H. & Zhong, M. Enhanced Fenton degradation of polychlorinated biphenyls in capacitor-oil-contaminated soil by chelating agents. *Chem. Eng. J.* 333, 370\u2013379 (2018).",
+        "start_index": 45838,
+        "end_index": 46046
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "27. Wu, Y. et al. Zerovalent iron in conjunction with surfactants to remediate sediments contaminated by polychlorinated biphenyls and nickel. *Chemosphere* 189, 479\u2013488 (2017).",
+        "start_index": 46046,
+        "end_index": 46223
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "28. Ighalo, J. O. et al. Adsorption of persistent organic pollutants (POPs) from the aqueous environment by nano-adsorbents: A review. *Environ. Res.* 212, 113123 (2022).",
+        "start_index": 46223,
+        "end_index": 46393
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "29. McDonough, K. M., Fairey, J. L. & Lowry, G. V. Adsorption of polychlorinated biphenyls to activated carbon: Equilibrium isotherms and a preliminary assessment of the effect of dissolved organic matter and biofilm loadings. *Water Res.* 42, 575\u2013584 (2008).",
+        "start_index": 46393,
+        "end_index": 46652
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "30. Beless, B., Rifai, H. S. & Rodrigues, D. F. Efficacy of carbonaceous materials for sorbing polychlorinated biphenyls from aqueous solution. *Environ. Sci. Technol.* 48, 10372\u201310379 (2014).",
+        "start_index": 46652,
+        "end_index": 46844
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "31. Bhatnagar, A., Hogland, W., Marques, M. & Sillanp\u00e4\u00e4, M. An overview of the modification methods of activated carbon for its water treatment applications. *Chem. Eng. J.* 219, 499\u2013511 (2013).",
+        "start_index": 46844,
+        "end_index": 47038
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "32. Duli\u0144ska-Litewka, J. et al. Superparamagnetic iron oxide nanoparticles-current and prospective medical applications. *Materials* 12, 617 (2019).\n\n33. Park, J. Y. et al. Alumina-supported iron oxide nanoparticles as Fischer-Tropsch catalysts: Effect of particle size of iron oxide. *J. Mol. Catal. A Chem.* 323, 84\u201390 (2010).",
+        "start_index": 47038,
+        "end_index": 47366
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "34. Jahangiri, H., Bennett, J., Mahjoubi, P., Wilson, K. & Gu, S. A review of advanced catalyst development for Fischer-Tropsch synthesis of hydrocarbons from biomass derived syn-gas. *Catal. Sci. Technol.* 4, 2210\u20132229 (2014).",
+        "start_index": 47366,
+        "end_index": 47593
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "35. Wang, M. et al. Core-shell superparamagnetic Fe3O4@\u03b2-CD composites for host-guest adsorption of polychlorinated biphenyls (PCBs). *J. Colloid Interf. Sci.* **447**, 1\u20137 (2015).",
+        "start_index": 47593,
+        "end_index": 47773
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "36. Gutierrez, A. M. et al. Novel magnetic core-shell nanoparticles for the removal of polychlorinated biphenyls from contaminated water sources. *Mater. Chem. Phys.* **223**, 68\u201374 (2019).",
+        "start_index": 47773,
+        "end_index": 47962
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "37. Klein, S. et al. Enhanced In Vitro Biocompatibility and Water Dispersibility of Magnetite and Cobalt Ferrite Nanoparticles Employed as ROS Formation Enhancer in Radiation Cancer Therapy. *Small* **14**, 1704111 (2018).",
+        "start_index": 47962,
+        "end_index": 48184
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "38. Sarcletti, M. et al. The remediation of nano-/microplastics from water. *Mater. Today* **48**, 38\u201346 (2021).\n39. Sarcletti, M. et al. Superoleophilic Magnetic Iron Oxide Nanoparticles for Effective Hydrocarbon Removal from Water. *Adv. Funct. Mater.* **29**, 1805742 (2019).",
+        "start_index": 48184,
+        "end_index": 48462
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "40. Ga\u00df, H. et al. A Sustainable Method for Removal of the Full Range of Liquid and Solid Hydrocarbons from Water Including Up- and Recycling. *Adv. Sci.* **10**, 2302495 (2023).\n41. Eigen, A. et al. Remediation of charged organic pollutants\u2014binding motifs for highly efficient water cleaning with nanoparticles. *Nano Select* **5**, 2300130 (2024).",
+        "start_index": 48462,
+        "end_index": 48811
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "42. Ga\u00df, H. et al. Magnetic Removal of Micro- and Nanoplastics from Water\u2014from 100 nm to 100 \u00b5m Debris Size. *Small* **20**, 2305467 (2024).",
+        "start_index": 48811,
+        "end_index": 48951
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "43. Shiu, W. Y. & Mackay, D. A Critical Review of Aqueous Solubilities, Vapor Pressures, Henry\u2019s Law Constants, and Octanol\u2013Water Partition Coefficients of the Polychlorinated Biphenyls. *J. Phys. Chem. Ref. Data* **15**, 911\u2013929 (1986).",
+        "start_index": 48951,
+        "end_index": 49188
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "44. Portilla, L. & Halik, M. Smoothly Tunable Surface Properties of Aluminum Oxide Core\u2013Shell Nanoparticles By A Mixed-Ligand Approach. *ACS Appl. Mater. Interfaces* **6**, 5977\u20135982 (2014).",
+        "start_index": 49188,
+        "end_index": 49378
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "45. Eigen, A. et al. Tunable Composition of Mixed Self-Assembled Shell-by-Shell Structures on Nanoparticle Surfaces. *Adv. Mater. Interfaces* **9**, 2201471 (2022).",
+        "start_index": 49378,
+        "end_index": 49542
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "46. Vivod, D., Vo\u00df, J., Halik, M. & Zahn, D. Tailoring the Wetting Behavior of Self-Assembled Monolayers by Surface Charge. *J. Phys. Chem. C* **128**, 8498\u20138504 (2024).",
+        "start_index": 49542,
+        "end_index": 49711
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "47. United States Environmental Protection Agency. *Method 8082A: Polychlorinated biphenyls (PCBs) by gas chromatography*. (2007).",
+        "start_index": 49711,
+        "end_index": 49841
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "48. Liu, F., Pignatello, J. J., Sun, R., Guan, X. & Xiao, F. A Comprehensive Review of Novel Adsorbents for Per- and Polyfluoroalkyl Substances in Water. *ACS EST Water* **4**, 1191\u20131205 (2024).",
+        "start_index": 49841,
+        "end_index": 50035
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "49. Giesy, J. P. & Kannan, K. Dioxin-like and non-dioxin-like toxic effects of polychlorinated biphenyls (PCBs): Implications for risk assessment. *Crit. Rev. Toxicol.* **28**, 511\u2013569 (1998).",
+        "start_index": 50035,
+        "end_index": 50227
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "50. Park, H. *et al.* Magnetite nanoparticles as efficient materials for removal of glyphosate from water. *Nat. Sustain.* **3**, 129\u2013135 (2020).\n\n51. Wan, X. *et al.* Thermal Stability of Phosphonic Acid Self-Assembled Monolayers on Alumina Substrates. *J. Phys. Chem. C* **124**, 2531\u20132542 (2020).",
+        "start_index": 50227,
+        "end_index": 50526
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "52. Li, A. & Andren, A. W. Solubility of Polychlorinated Biphenyls in Water/Alcohol Mixtures. 1. Experimental Data. *Environ. Sci. Technol.* **28**, 47\u201352 (1994).",
+        "start_index": 50526,
+        "end_index": 50688
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "53. Zhan, Z. *et al.* Sorption of 3,3\u2032,4,4\u2032-tetrachlorobiphenyl by microplastics: A case study of polypropylene. *Mar. Pollut. Bull.* **110**, 559\u2013563 (2016).",
+        "start_index": 50688,
+        "end_index": 50846
+    },
+    {
+        "document_name": "1.txt",
+        "chunk_text": "54. M\u00fcller, L. *et al.* Source and measurement data \u2018Tailorable nanoparticles for magnetic water cleaning of polychlorinated biphenyls (PCBs)\u2019. *Figshare* (2025) doi:10.6084/m9.figshare.26496859.",
+        "start_index": 50846,
+        "end_index": 51041
+    }
+]

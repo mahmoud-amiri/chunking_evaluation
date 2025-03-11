@@ -1,0 +1,704 @@
+[
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Deriving the Isoelectric Point of Amino Acids from Acid-Base Equilibria\n\nGayan Senavirathne\u00b9,*\n\n\u00b9Brooklyn, NY 11218",
+        "start_index": 0,
+        "end_index": 115
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "*Correspondence may also be addressed to: G. Senavirathne (senavirathne.83@gmail.com)\nAbstract\nThis paper presents a refined method for calculating the isoelectric point (pI) of amino acids, focusing on the dominant zwitterionic form in solution. The approach improves pI calculations and extends to predicting pH values in amphoteric solutions, including titrations of polyprotic acids and bases.",
+        "start_index": 115,
+        "end_index": 512
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Introduction",
+        "start_index": 512,
+        "end_index": 524
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The isoelectric point (pI) of a molecule, such as an amino acid or protein, is the pH at which the molecule carries no net electrical charge (1-7). At this pH, the molecule exhibits no net movement in an electric field, a principle that underlies isoelectric focusing electrophoresis (1-3)",
+        "start_index": 524,
+        "end_index": 813
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". For a simple amino acid like glycine, which contains two ionizable groups (\u03b1-COOH with $pK_{a1}$, and \u03b1-NH$_3^+$ with $pK_{a2}$, Figure 1), the predominant species at the pI is the amphoteric zwitterion (HA)",
+        "start_index": 813,
+        "end_index": 1022
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". This zwitterion is in equilibrium with small amounts of its conjugate acid (H$_2$A$^+$) and conjugate base (A$^-$). At the pI, the H$_2$A$^+$ and A$^-$ concentrations are equal, resulting in a zero net charge across all glycine species (4-6)",
+        "start_index": 1022,
+        "end_index": 1265
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". Most pI estimates based on $pK_a$ values are derived by averaging the corresponding $pK_a$ values (e.g., for glycine, $pI = (pK_{a1} + pK_{a2})/2$), assuming the zwitterion is positioned between the two ionization equilibria (1-3, 7). However, previous derivations often overlook essential details regarding the underlying assumptions (4-6)",
+        "start_index": 1265,
+        "end_index": 1607
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The method presented here offers a more precise derivation of pI values using acid-base equilibria with additional considerations. This approach can be extended to more complex amino acids containing acidic or basic side chains and to determine the pH of solutions containing amphoteric species.",
+        "start_index": 1607,
+        "end_index": 1904
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Derivation of theIsoelectric Point (pI) for Glycine\nBefore deriving the pI of glycine, consider the following reaction scheme: glycine undergoes two deprotonation steps as the solution pH transitions from acidic (low) to basic (high) conditions.",
+        "start_index": 1904,
+        "end_index": 2149
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "At very low pH, the $\\alpha$-NH$_2$ and $\\alpha$-COO$^-$ groups are protonated, resulting in an overall +1 charge on the molecule. For simplicity, this protonated form is denoted as H$_2$A$^+$",
+        "start_index": 2149,
+        "end_index": 2341
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". As the pH increases, the carboxyl group, which has the lower pK$_a$ (higher acidity), begins to lose its proton, establishing the first equilibrium between the H$_2$A$^+$ and HA forms. According to the Henderson-Hasselbalch equation, when the pH equals pK$_{a1}$, the H$_2$A$^+$ and HA concentrations are equal. As the pH continues to rise, the HA form becomes predominant",
+        "start_index": 2341,
+        "end_index": 2715
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". At the pI, virtually all glycine exists as the zwitterionic form (HA), where the molecule has no net charge.",
+        "start_index": 2715,
+        "end_index": 2825
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "As the pH moves further into the basic range, the $\\alpha$-NH$_3^+$ group begins to lose its proton, forming the A$^-$ species. The HA and A$^-$ concentrations are equal at pH = pK$_{a2}$. Beyond this point, the A$^-$ form predominates, and at a very high pH, the molecule exists almost entirely in the A$^-$ form.",
+        "start_index": 2825,
+        "end_index": 3139
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Consider the possible set of interconnected acid-base equilibria that may occur in solution at pI. The corresponding equilibrium constants (K$_{eq}$) for the forward reactions are also provided (3-5,7).\n\n**First equilibrium:** HA can act as an acid, transferring a proton to water:",
+        "start_index": 3139,
+        "end_index": 3420
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\\text{HA (aq)} + \\text{H}_2\\text{O (aq)} \\rightleftharpoons \\text{A}^- \\text{(aq)} + \\text{H}_3\\text{O}^+ \\text{(aq)}$$\n\n$$K_{a2} = 10^{-9.60}$$",
+        "start_index": 3420,
+        "end_index": 3566
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "(Figure 1). For simplicity, this protonated form is denoted as H$_2$A$^+$. As the pH increases, the carboxyl group, which has the lower pK$_a$ (higher acidity), begins to lose its proton, establishing the first equilibrium between the H$_2$A$^+$ and HA forms",
+        "start_index": 3566,
+        "end_index": 3824
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". According to the Henderson-Hasselbalch equation, when the pH equals pK$_{a1}$, the H$_2$A$^+$ and HA concentrations are equal. As the pH continues to rise, the HA form becomes predominant. At the pI, virtually all glycine exists as the zwitterionic form (HA), where the molecule has no net charge.",
+        "start_index": 3824,
+        "end_index": 4123
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "As the pH moves further into the basic range, the $\\alpha$-NH$_3^+$ group begins to lose its proton, forming the A$^-$ species. The HA and A$^-$ concentrations are equal at pH = pK$_{a2}$. Beyond this point, the A$^-$ form predominates, and at a very high pH, the molecule exists almost entirely in the A$^-$ form.\n\n---",
+        "start_index": 4123,
+        "end_index": 4442
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**Figure 1. Sequential deprotonation of glycine as the solution pH transitions from acidic to basic.** The acidic groups and their corresponding pK$_a$ values are shown in the same color, with each pK$_a$ value dictating the extent of the respective deprotonation step",
+        "start_index": 4442,
+        "end_index": 4710
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The different forms of glycine\u2014H$_2$A$^+$, HA, and A$^-$\u2014are depicted below, with water (H$_2$O) and hydronium ions (H$_3$O$^+$) omitted for clarity to simplify the derivation.",
+        "start_index": 4710,
+        "end_index": 4888
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**Second equilibrium:** HA can also act as a base, hydrolyzing water. For the derivation of the equilibrium constant, see Appendix B:",
+        "start_index": 4888,
+        "end_index": 5021
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n\\frac{K_w}{K_{a1}} = 10^{-11.66}\n\\]\n\n\\[\n\\text{HA (aq)} + \\text{H}_2\\text{O (aq)} \\rightleftharpoons \\text{H}_2\\text{A}^+ (aq) + \\text{OH}^- (aq)\n\\]\n\n(2)",
+        "start_index": 5021,
+        "end_index": 5176
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**Third equilibrium:** Instead of reacting with \\(\\text{H}_2\\text{O}\\), HA can also react with the \\(\\text{H}_3\\text{O}^+\\) produced by the first equilibrium:\n\n\\[\n\\frac{1}{K_{a1}} = 10^{2.34}\n\\]",
+        "start_index": 5176,
+        "end_index": 5370
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n\\text{HA (aq)} + \\text{H}_3\\text{O}^+ (aq) \\rightleftharpoons \\text{H}_2\\text{A}^+ (aq) + \\text{H}_2\\text{O (aq)}\n\\]\n\n(3)\n\n**Fourth equilibrium:** HA can undergo autoprotolysis. For the derivation of the equilibrium constant, refer to Appendix C:",
+        "start_index": 5370,
+        "end_index": 5619
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n2\\text{HA (aq)} \\rightleftharpoons \\text{H}_2\\text{A}^+ (aq) + \\text{A}^- (aq)\n\\]\n\n\\[\n\\frac{K_{a2}}{K_{a1}} = 10^{-7.26}\n\\]\n\n(4)\n\n**Fifth equilibrium:** Autoprotolysis of water:",
+        "start_index": 5619,
+        "end_index": 5799
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n2\\text{H}_2\\text{O (l)} \\rightleftharpoons \\text{H}_3\\text{O}^+ (aq) + \\text{OH}^- (aq)\n\\]\n\n\\[\nK_w = 10^{-14}\n\\]\n\n(5)",
+        "start_index": 5799,
+        "end_index": 5919
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The question of which equilibria will occur in the solution to determine the pI depends on thermodynamic and kinetic feasibility. Based on these factors, the autoprotolysis of HA (the fourth equilibrium) is likely to dominate, followed by the acidic and basic reactions of HA (the first and second equilibria, respectively)",
+        "start_index": 5919,
+        "end_index": 6242
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The third equilibrium, which involves the interaction between HA and \\(\\text{H}_3\\text{O}^+\\), is the least likely to occur and can be excluded from further consideration (see Appendix D)",
+        "start_index": 6242,
+        "end_index": 6431
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The fifth equilibrium, governing the autoionization of water, operates in any aqueous solution by default, ensuring that the product of the concentrations of \\(\\text{H}_3\\text{O}^+\\) and \\(\\text{OH}^-\\) remains constant at a given temperature (e.g., \\(10^{-14}\\) at 25\u00b0C) (3,5). However, it does not directly affect the pI of glycine.",
+        "start_index": 6431,
+        "end_index": 6767
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The equilibrium constant for the most prevailing reaction from equation (4) can be written as:",
+        "start_index": 6767,
+        "end_index": 6861
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\\frac{K_{a2}}{K_{a1}} = \\frac{[H_2A^+ (aq)] [A^- (aq)]}{[HA (aq)]^2}$$  \\hspace{1cm} (6)\n\nAt the pI, the $H_2A^+$ and $A^-$ concentrations are equal (Appendix D). That is:",
+        "start_index": 6861,
+        "end_index": 7034
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$[H_2A^+ (aq)] = [A^- (aq)]$$  \\hspace{1cm} (7)\n\nSubstituting this relationship into equation (6) results in:",
+        "start_index": 7034,
+        "end_index": 7144
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\\frac{K_{a2}}{K_{a1}} = \\frac{[A^- (aq)]^2}{[HA (aq)]^2} = \\frac{[H_2A^+ (aq)]^2}{[HA (aq)]^2}$$  \\hspace{1cm} (8)\n\nThis simplifies to:",
+        "start_index": 7144,
+        "end_index": 7281
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\\frac{[A^- (aq)]}{[HA (aq)]} = \\frac{[H_2A^+ (aq)]}{[HA (aq)]} = \\sqrt{\\frac{K_{a2}}{K_{a1}}}$$  \\hspace{1cm} (9)",
+        "start_index": 7281,
+        "end_index": 7396
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The fourth equilibrium does not directly consume or produce $H_3O^+$ or $OH^-$. However, its components\u2014$HA$, $H_2A^+$, and $A^-$\u2014participate in the first and second equilibria, which adjust the concentrations of $H_3O^+$ and $OH^-$, respectively",
+        "start_index": 7396,
+        "end_index": 7642
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". At the pI, the relationship in equation (7) holds, ensuring that the $H_2A^+$ and $A^-$ concentrations are equal, thereby influencing the overall acid-base balance. We can now use equation (9) to determine how the autoprotolysis of $HA$ influences $H_3O^+$ in the first equilibrium or $OH^-$ in the second equilibrium, and thus the pH of the solution at the isoelectric point.",
+        "start_index": 7642,
+        "end_index": 8020
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "From equation (1), the equilibrium constant for the second equilibrium can be written as:\n\n$$K_{a2} = \\frac{[A^- (aq)] [H_3O^+ (aq)]}{[HA (aq)]}$$  \\hspace{1cm} (10)\n\nSolving for the concentration of $H_3O^+$ the equation becomes:",
+        "start_index": 8020,
+        "end_index": 8250
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$[H_3O^+ (aq)] = K_{a2} \\frac{[HA (aq)]}{[A^- (aq)]}$$  \\hspace{1cm} (11)",
+        "start_index": 8250,
+        "end_index": 8324
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Equation (11) demonstrates that the ratio of concentrations \\([HA \\text{ (aq)}]/[A^- \\text{ (aq)}]\\) directly determines the \\(H_3O^+\\) concentration in the solution. Equation (9) shows that this ratio is a direct result of the autoprotolysis of HA.",
+        "start_index": 8324,
+        "end_index": 8573
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "To determine the \\(H_3O^+\\) concentration at equilibrium, equations (9) and (11) can be combined:\n\n\\[\n[H_3O^+(aq)] = K_{a2} \\sqrt{\\frac{K_{a1}}{K_{a2}}}\n\\]  \n\n(12)\n\nThis simplifies to:",
+        "start_index": 8573,
+        "end_index": 8757
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n[H_3O^+(aq)] = \\sqrt{K_{a1}K_{a2}}\n\\]  \n\n(13)\n\nTaking the negative logarithm (base 10) of both sides of equation (13):",
+        "start_index": 8757,
+        "end_index": 8878
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n-\\log_{10}[H_3O^+(aq)] = -\\log_{10}(\\sqrt{K_{a1}K_{a2}}) = \\frac{1}{2} [(-\\log_{10}K_{a1}) + (-\\log_{10}K_{a2})]\n\\]  \n\n(14)\n\nThis becomes:",
+        "start_index": 8878,
+        "end_index": 9019
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\npI = \\frac{pK_{a1} + pK_{a2}}{2}\n\\]  \n\n(15)\n\nThus, the pH at the isoelectric point (pI) is the average of the pK\u2090 values for the \\(\\alpha\\)-COOH and \\(\\alpha\\)-NH\u2083\u207a groups.",
+        "start_index": 9019,
+        "end_index": 9194
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Alternatively, an expression for the concentration of \\(OH^-\\) can be derived from equation (2) as follows:\n\n\\[\n[OH^- (aq)] = \\frac{K_w [HA \\text{ (aq)}]}{K_{a1} [H_2A^+ \\text{ (aq)}]}\n\\]  \n\n(16)",
+        "start_index": 9194,
+        "end_index": 9389
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Equation (16) demonstrates that the ratio \\([HA \\text{ (aq)}]/[H_2A^+ \\text{ (aq)}]\\) directly determines the \\(OH^-\\) concentration in the solution. Furthermore, equation (9) shows that this ratio is also a direct result of the autoprotolysis of HA.",
+        "start_index": 9389,
+        "end_index": 9639
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Combining equations (9) and (16) to determine the \\(OH^-\\) concentration at equilibrium:\n\\[\n[\\text{OH}^-(\\text{aq})] = \\frac{K_w}{K_{a1}} \\sqrt{\\frac{K_{a1}}{K_{a2}}} \n\\]  \\hspace{1cm} (17)",
+        "start_index": 9639,
+        "end_index": 9828
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n[\\text{OH}^-(\\text{aq})] = K_w \\sqrt{\\frac{1}{K_{a1}K_{a2}}} \n\\]  \\hspace{1cm} (18)\n\nTaking the negative logarithm (base 10) of both sides of equation (18):",
+        "start_index": 9828,
+        "end_index": 9987
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n-\\log_{10}[\\text{OH}^-(\\text{aq})] = -\\log_{10}K_w (\\sqrt{\\frac{K_{a1}K_{a2}}{K_{a1}K_{a2}}}) - \\frac{1}{2} [(-\\log_{10}K_{a1}) + (-\\log_{10}K_{a2})]",
+        "start_index": 9987,
+        "end_index": 10139
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\]  \\hspace{1cm} (19)",
+        "start_index": 10139,
+        "end_index": 10160
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "This simplifies to:\n\n\\[\npOH = pK_w - \\left(\\frac{pK_{a1} + pK_{a2}}{2}\\right)\n\\]  \\hspace{1cm} (20)\n\nFrom the fifth equilibrium and by definition:\n\n\\[\npK_w = pH + pOH\n\\]  \\hspace{1cm} (21)",
+        "start_index": 10160,
+        "end_index": 10348
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "By combining equations (20) and (21), the same expression as equation (15) is obtained.\n\nApplying equation (15) to the values for glycine from its pKa values (7):\n\n\\[\npI_{\\text{Gly}} = \\frac{2.34 + 9.60}{2} = 5.97\n\\]  \\hspace{1cm} (22)",
+        "start_index": 10348,
+        "end_index": 10583
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**pI Calculation for Amino Acids with Acidic Side Chains**",
+        "start_index": 10583,
+        "end_index": 10641
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The pI calculation for amino acids with acidic side chains can be illustrated using aspartic acid, which has an acidic \\(\\beta\\)-COOH side chain in addition to its \\(\\alpha\\)-NH\\(_3^+\\) and \\(\\alpha\\)-COOH groups (Figure 2)",
+        "start_index": 10641,
+        "end_index": 10864
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". As the pH of the solution increases, Aspartic acid undergoes three deprotonation reactions, starting from the fully protonated form \\(H_3A^+\\). The \\(\\alpha\\)-COOH group, with the lowest pKa, initially releases its proton, forming the zwitterionic species \\(H_2A\\). As the pH rises, the \\(\\beta\\)-COOH side chain deprotonates, forming the \\(HA^-\\) species",
+        "start_index": 10864,
+        "end_index": 11221
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". Finally, the \\(\\alpha\\)-NH\\(_3^+\\) group loses its proton, producing the \\(A^{2-}\\) form. These deprotonation steps are shown in Figure 2.",
+        "start_index": 11221,
+        "end_index": 11361
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Like the derivation for glycine, the process can be applied to the amphoteric zwitterionic species \\(H_2A\\), and it can be shown that the pI of aspartic acid is the average of the pKa values for...\nthe two ionizable groups involved in the protonation and deprotonation of $H_2A$. These groups are",
+        "start_index": 11361,
+        "end_index": 11657
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "the $\\alpha$-COOH ($pK_{a1}$) and the $\\beta$-COOH ($pK_{a2}$).",
+        "start_index": 11657,
+        "end_index": 11720
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Therefore, the pI of Aspartic acid is calculated $pK_a$ values as:\n\n$$pI_{\\text{Asp}} = \\frac{pK_{a1} + pK_{a2}}{2} = \\frac{1.88 + 3.56}{2} = 2.72$$  \\hspace{1cm} (23)",
+        "start_index": 11720,
+        "end_index": 11887
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The $\\beta$-COOH side chain shifts the pI of Aspartic acid to a more acidic region than glycine, which has a neutral side chain and a pI of 5.97.",
+        "start_index": 11887,
+        "end_index": 12032
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "![Figure 2. Sequential deprotonation of aspartic acid as the solution pH transitions from acidic to basic.](image)",
+        "start_index": 12032,
+        "end_index": 12146
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The acidic groups and their corresponding $pK_a$ values are shown in the same color, with each $pK_a$ value dictating the extent of the respective deprotonation step",
+        "start_index": 12146,
+        "end_index": 12311
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The different forms of aspartic acid\u2014$H_3A^+$, $H_2A$, $HA^-$ and $A^{2-}$\u2014are depicted below, with water ($H_2O$) and hydronium ions ($H_3O^+$) omitted for clarity to simplify the derivation.",
+        "start_index": 12311,
+        "end_index": 12505
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**pI Calculation for Amino Acids with Basic Side Chains**",
+        "start_index": 12505,
+        "end_index": 12562
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Consider the amino acid histidine, which contains a basic imidazole ring as its side chain, in addition to the $\\alpha$-NH$_3^+$ and $\\alpha$-COOH groups (Figure 3). As the pH increases, histidine undergoes three deprotonation reactions, starting from the fully protonated form, $H_3A^{2+}$",
+        "start_index": 12562,
+        "end_index": 12852
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". Initially, the $\\alpha$-COOH group with the lowest pKa releases its proton, forming the species $H_2A^+$. As the pH rises, the imidazole side chain and $\\alpha$-NH$_3^+$ groups sequentially lose their protons, forming the zwitterionic $HA$ and $A^-$ forms, respectively. These deprotonation steps are shown in Figure 3.",
+        "start_index": 12852,
+        "end_index": 13173
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Using the derivation for the amphoteric zwitterionic species $HA$, it can be demonstrated that the isoelectric point (pI) of histidine is determined by averaging the pKa values of the two\nionizable groups involved in protonation and deprotonation of HA: the imidazole ($pK_{a2}$) and $\\alpha$-NH$_3^+$ ($pK_{a3}$) groups (7).",
+        "start_index": 13173,
+        "end_index": 13498
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\np_{I_{\\text{His}}} = \\frac{pK_{a2} + pK_{a3}}{2} = \\frac{6.00 + 9.17}{2} = 7.59\n\\]  \n\n(24)\n\nHaving the extra basic side chain moves the isoelectric point of Histidine to a higher pH value compared to aspartic and glycine.",
+        "start_index": 13498,
+        "end_index": 13722
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**Figure 3. Sequential deprotonation of histidine as the solution pH transitions from acidic to basic.** The acidic groups and their corresponding $pK_a$ values are shown in the same color, with each $pK_a$ value dictating the extent of the respective deprotonation step",
+        "start_index": 13722,
+        "end_index": 13992
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The different forms of histidine\u2014H$_3$A$^{2+}$, H$_2$A$^+$, HA and A$^-$\u2014are depicted below, with water (H$_2$O) and hydronium ions (H$_3$O$^+$) omitted for clarity to simplify the derivation.",
+        "start_index": 13992,
+        "end_index": 14186
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "In conclusion, the derivation presented here detailed a simple mathematical approach for determining the isoelectric point (pI) of any amino acid. The zwitterionic form of the amino acid, which is electrically neutral, behaves as an amphoteric species and autoprotonolysis equilibrium that thermodynamically and kinetically dominates and determines the pI in solution, provided the corresponding equilibrium constant is higher than other possible acid-base equilibria",
+        "start_index": 14186,
+        "end_index": 14653
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". Additionally, this approach can be applied to theoretically calculate the pH values of amphoteric solutions, such as the equivalence points in the titration of polyprotic acids (e.g., H$_3$PO$_4$) or polyprotic bases (e.g., Na$_2$CO$_3$) (3-6).",
+        "start_index": 14653,
+        "end_index": 14899
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "For example, consider the titration of H$_3$PO$_4$ with NaOH. At the first equivalence point, all the H$_3$PO$_4$ is converted to H$_2$PO$_4^-$, and at the second equivalence point, all H$_2$PO$_4^-$ is converted...",
+        "start_index": 14899,
+        "end_index": 15114
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "to HPO$_4^{2-}$. These two amphoteric species can then establish the following equilibria at their respective equivalence points, which determine the pH values:",
+        "start_index": 15114,
+        "end_index": 15274
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "**At the first equivalence point:**\n\n$$\n\\frac{K_{a2, H_2PO_4}}{K_{a1, H_3PO_4}} 2H_2PO_4 (aq) \\rightleftharpoons H_3PO_4 (aq) + HPO_4^{2-} (aq)\n$$\n\n**At the second equivalence point:**",
+        "start_index": 15274,
+        "end_index": 15458
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\n\\frac{K_{a3, H_3PO_4}}{K_{a2, H_2PO_4}} 2HPO_4^{2-} (aq) \\rightleftharpoons H_2PO_4 (aq) + PO_4^{3-} (aq)\n$$",
+        "start_index": 15458,
+        "end_index": 15569
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "By applying a derivation like that used for glycine (equations 1\u201322), the pH at the equivalence points, denoted as $pH_{IP1}$ and $pH_{IP2}$, can be easily calculated using the following: relationships:\n\n$$\npH_{IP1} = \\frac{pK_{a1, H_3PO_4} + pK_{a2, H_3PO_4}}{2}\n$$",
+        "start_index": 15569,
+        "end_index": 15835
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$\npH_{IP2} = \\frac{pK_{a2, H_2PO_4} + pK_{a3, H_3PO_4}}{2}\n$$\n\n**References**",
+        "start_index": 15835,
+        "end_index": 15913
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "1. Nelson, David L.; Cox, Michael M. *Lehninger Principles of Biochemistry* (8th ed.); W.H. Freeman and Company: New York, 2021.\n2. Berg, Jeremy M.; Tymoczko, John L.; Gatto, Gregory J.; Stryer, Lubert. *Biochemistry* (9th ed.); W.H. Freeman and Company: New York, 2021.",
+        "start_index": 15913,
+        "end_index": 16183
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "3. Skoog, Douglas A. *Fundamentals of Analytical Chemistry*; Cengage - Brooks/Cole: Belmont, CA, 2012.\n4. Segel, Irwin H. *Biochemical Calculations* (2nd ed.); Wiley: New York, 1993.\n5. Harris, Daniel C.; Lucy, Charles A. *Quantitative Chemical Analysis*; Macmillan Learning: Austin, 2020.",
+        "start_index": 16183,
+        "end_index": 16472
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "6. Hawkes, S. J. (2000). Easy derivation of pH \u2248 (pKa$_1$ + pKa$_2$)/2 using autoprotolysis of HA$^-$. Doubtful value of the supposedly more rigorous equation. *Journal of Chemical Education*, 77(9), 1183. [https://doi.org/10.1021/ed077p1183](https://doi.org/10",
+        "start_index": 16472,
+        "end_index": 16733
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ".1021/ed077p1183).",
+        "start_index": 16733,
+        "end_index": 16751
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "7. Lide, D. R. *Handbook of Chemistry and Physics*, 72nd ed.; CRC Press: 1991.\n8. Senavirathne G, On the thermodynamic feasibility of acid-base equilibria. *ChemRxiv*. 2024; doi:10.26434/chemrxiv-2024-ms4fs-v2.",
+        "start_index": 16751,
+        "end_index": 16961
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "9. Atkins, Peter W.; De Paula, Julio; Keeler, James. *Atkins' Physical Chemistry*; Oxford University Press: New York, NY, 2023.\nAppendix A: List of Terms",
+        "start_index": 16961,
+        "end_index": 17114
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "1. **Zwitterion** \u2013 A molecule or ion with both a positive and negative charge but is electrically neutral overall.\n\n2. **Amphoteric species** \u2013 A substance that can act as an acid and base, depending on the environment.\n\n3. **$K_a$** \u2013 The equilibrium acid dissociation constant.\n\n4. **$K_b$** \u2013 The equilibrium base dissociation constant.",
+        "start_index": 17114,
+        "end_index": 17454
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "5. **$K_w$** \u2013 The ionization constant for water ($1.0 \\times 10^{-14}$ at 25\u00b0C)\n\n6. **pK** \u2013 The negative logarithm of the equilibrium constant ($K_{eq}$) for a given reaction, expressed as $pK = -\\log_{10} K_{eq}$\n\nAppendix B: The derivations for the equilibrium constant for the second equilibrium",
+        "start_index": 17454,
+        "end_index": 17754
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The equilibriums constant for this reaction ($K_{eq}(2)$) can be written as,\n\n$$K_{eq}(2) = \\frac{[H_2A(aq)][OH^-](aq)}{[HA(aq)]} \\quad (B1)$$\n\nBy multiplying the nominator and denominator by $[H_3O^+(aq)]$ and by rearranging the terms,",
+        "start_index": 17754,
+        "end_index": 17990
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$K_{eq}(2) = \\frac{[H_2A(aq)][OH^-](aq)}{[HA(aq)]} \\times \\frac{[H_3O^+](aq)}{[H_3O^+(aq)]} \\quad (B2)$$",
+        "start_index": 17990,
+        "end_index": 18095
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "$$K_{eq}(2) = [H_3O^+(aq)][OH^-](aq) \\times \\frac{[H_2A(aq)]}{[HA(aq)][H_2O^+](aq)} \\quad (B3)$$\n\n$$K_{eq}(2) = K_w/K_a \\quad (B4)$$",
+        "start_index": 18095,
+        "end_index": 18227
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Since $K_w = K_{a1}K_{b1}$, where $K_{b1}$ is the dissociation constant of amphoteric HA when it acts as a base,\n\n$$K_{eq}(2) = K_{b1} \\quad (B5)$$\n\nAppendix C: The derivations for the equilibrium constant for the fourth equilibrium",
+        "start_index": 18227,
+        "end_index": 18459
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The equilibriums constant for this reaction ($K_{eq}(3)$) can be written as,\n\\[ K_{eq}(3) = \\frac{[H_2A^+(aq)] [A^- (aq)]}{[HA(aq)]^2} \\]  \n\nBy multiplying the nominator and denominator by \\([H_3O^+(aq)]\\) and by rearranging the terms,",
+        "start_index": 18459,
+        "end_index": 18694
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[ K_{eq}(3) = \\frac{[H_2A^+(aq)] [A^- (aq)]}{[HA(aq)]^2} \\times \\frac{[H_3O^+(aq)]}{[H_3O^+(aq)]} \\]",
+        "start_index": 18694,
+        "end_index": 18795
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[ K_{eq}(3) = \\frac{[A^- (aq)] [H_2O^+(aq)]}{[HA(aq)]} \\times \\frac{[H_2A^+(aq)] [H_3O^+(aq)]}{[H_3O^+(aq)] [HA(aq)]} \\]  \n\n\\[ K_{eq}(3) = K_{a_2}/K_{a_1} \\]",
+        "start_index": 18795,
+        "end_index": 18953
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Appendix D: Thermodynamic and Kinetic Feasibility of the Reactions at the pI",
+        "start_index": 18953,
+        "end_index": 19029
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "The second, third, and fourth equilibria appear to be competing reactions (with \\(H_2O, H_3O^+\\), and \\(HA\\) acting as competing acids to protonate \\(HA\\)). The question, then, is which of these reactions is likely to occur in solution based on thermodynamic and kinetic feasibility \\((8,9)\\)",
+        "start_index": 19029,
+        "end_index": 19321
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The third equilibrium is the most thermodynamically favorable (with the most prominent equilibrium constant), provided that sufficient \\(H_3O^+\\) is available. However, at the isoelectric point (pI), the third reaction strictly depends on the \\(H_3O^+\\) produced in the first equilibrium",
+        "start_index": 19321,
+        "end_index": 19610
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". The coupling between the two dampens the overall equilibrium constant from \\(1/K_{a_1}\\), reducing it to \\(K_{a_2}/K_{a_1}\\). Moreover, the coupled first and third reactions resemble the autoprotolysis of \\(HA\\) (equation (4) from the fourth equilibrium), meaning that the third and fourth equilibria have the same thermodynamic feasibility",
+        "start_index": 19610,
+        "end_index": 19952
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". Based on thermodynamic feasibility, the third and fourth reactions are much more favorable than the second.",
+        "start_index": 19952,
+        "end_index": 20061
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Although previous derivations of pI considered the coupled reactions rather than the HA autoprotolysis, it is easy to prove that both are equivalent using basic thermodynamics \\((8,9)\\). First, consider the relationship between the equilibrium constants and the standard Gibbs free energy change \\((\\Delta G^0)\\) of the first, second, and third reactions:\n\n\\[ \\Delta G^0(1) = -RT \\ln K_{a_2} \\]",
+        "start_index": 20061,
+        "end_index": 20455
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[ \\Delta G^0(3) = -RT \\ln (1/K_{a_1}) \\]\n\\[ \\Delta G^0(4) = -RT \\ln \\left( \\frac{K_{a_2}}{K_{a_1}} \\right) \\] (D3)",
+        "start_index": 20455,
+        "end_index": 20570
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Since Gibbs free energy is a state function (9), the \\( \\Delta G^0 \\) for the coupled first and third equilibria can be found by adding equations (D1) and (D2) as follows:",
+        "start_index": 20570,
+        "end_index": 20741
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n\\Delta G^0(1+3) = \\Delta G^0(1) + \\Delta G^0(3) = -RT \\ln K_{a_2} + -RT \\ln \\left( \\frac{1}{K_{a_1}} \\right)\n\\] (D4)",
+        "start_index": 20741,
+        "end_index": 20860
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\n\\Delta G^0(1+3) = -RT \\ln \\left( \\frac{K_{a_2}}{K_{a_1}} \\right)\n\\] (D5)",
+        "start_index": 20860,
+        "end_index": 20935
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Since equation (D3) is equivalent to equation (D5), regardless of their actual mechanisms, this shows that the net coupled reaction is equivalent to the autoprotolysis of HA in terms of the products and the extent. Both reactions are plausible for deriving \\( pI \\), although previous derivations completely ignored the latter (4,5).",
+        "start_index": 20935,
+        "end_index": 21268
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "However, to understand which mechanism is more plausible, let us consider the kinetic aspect. For this, assume a solution of 0.1 M total glycine reaching the isoelectric point. Equation (10) can be used to estimate the concentration of \\( H_3O^+ \\), assuming no other reactions occur",
+        "start_index": 21268,
+        "end_index": 21551
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". That is, the first equilibrium will produce equal amounts of \\( H_3O^+ \\) and \\( A^- \\), which is set to \\( x \\) in the following:",
+        "start_index": 21551,
+        "end_index": 21683
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "From equation (10):\n\n\\[\n10^{-9.60} = \\frac{x^2}{0.1-x}\n\\] (D6)\n\nSince \\( x \\ll 0.1 \\), \\( 0.1-x \\) can be approximated as 0.1. Therefore:\n\n\\[\nx = \\sqrt{10^{-10.60}}\n\\] (D7)",
+        "start_index": 21683,
+        "end_index": 21855
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "\\[\nx = \\sqrt{10^{-10.60}} \\approx 5 \\times 10^{-6}\n\\] (D8)",
+        "start_index": 21855,
+        "end_index": 21913
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "For a 0.1 M glycine solution, the first equilibrium alone will produce approximately 5 \\( \\mu \\)M \\( H_3O^+ \\). Ignoring the autoprotolysis of HA (equation (4)), if the first equilibrium is coupled with the third equilibrium, both reactions will proceed until the pH settles at the pl. As a result, the maximum",
+        "start_index": 21913,
+        "end_index": 22223
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "concentration of H$_3$O$^+$ sustained at equilibrium through this coupling is approximately 1 \u00b5M (since the pI of glycine is ~6, this corresponds to ~1 \\times 10^{-6} M H$_3$O$^+$ in the solution).",
+        "start_index": 22223,
+        "end_index": 22420
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Once the HA autoprotolysis begins to dominate the total equilibrium, the higher concentrations of A$^-$ and H$_2$A$^+$ (~74 \u00b5M, see equations (D9) and (D10)) produced will begin suppressing the forward reaction of the first three equilibria, according to Le Chatelier's principle",
+        "start_index": 22420,
+        "end_index": 22699
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ". This explains how the isoelectric solution maintains its pH and equal concentrations of A$^-$ and H$_2$A$^+$, which, in turn, guarantees the average electrical neutrality of glycine (3-6).",
+        "start_index": 22699,
+        "end_index": 22889
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "A similar calculation using equation (6) can be used to estimate the equilibrium concentration of HA (set as 0.1 \u2013 x; x is the H$_2$A$^+$ and A$^-$ concentrations) when a 0.1 M glycine solution reaches isoelectric equilibrium.\n\nFrom equation (6):\n\n$$10^{-7.26} = \\frac{x^2}{0.1 - x} \\quad \\text{(D9)}$$",
+        "start_index": 22889,
+        "end_index": 23191
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Solving for x without assuming $x \\ll 0.1$ and $0.1 - x \\approx 0.10$:\n\n$$x = 7.41 \\times 10^{-5} \\quad \\text{(D10)}$$",
+        "start_index": 23191,
+        "end_index": 23309
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "Even without the assumption that x is negligible compared to 0.1 M, it can be shown that the concentration of HA at equilibrium is still close to 0.1 M. Additionally, the concentration of water in an aqueous solution is ~55.5 M. Now, with these numbers in hand and assuming the reactions occur by thermal diffusion limited collision between reactants (9), it can be argued that there is a much higher chance that ~0",
+        "start_index": 23309,
+        "end_index": 23724
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ".1 M HA will react with ~55.5 M H$_2$O (as described in equations (1) and (2) from the first and second equilibria) than that it will react with ~1-5 \u00b5M H$_3$O$^+$ (as in equation (3) of the third equilibrium). Furthermore, there is a much higher likelihood that ~0",
+        "start_index": 23724,
+        "end_index": 23989
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": ".1 M HA will react with itself (autoprotolysis equilibrium, equation (4)). Thus, from a kinetic perspective, it can be argued that the first, second, and fourth equilibria are more plausible than the third. Therefore,",
+        "start_index": 23989,
+        "end_index": 24206
+    },
+    {
+        "document_name": "71.txt",
+        "chunk_text": "the third equilibrium was ignored from the derivation of $p_l$, although one may use the coupled reactions to arrive at the same conclusion (4-6).",
+        "start_index": 24206,
+        "end_index": 24352
+    }
+]

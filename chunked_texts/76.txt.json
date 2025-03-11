@@ -1,0 +1,1046 @@
+[
+    {
+        "document_name": "76.txt",
+        "chunk_text": "A Cobalt-Iron Double-Atom Catalyst for the Oxygen Evolution Reaction\n\nLichen Bai,1 Chia-Shuo Hsu,2 Duncan T.L. Alexander,3,4 Hao Ming Chen,2,* Xile Hu1,*",
+        "start_index": 0,
+        "end_index": 153
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "1 Laboratory of Inorganic Synthesis and Catalysis, Institute of Chemical Sciences and Engineering, Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL), EPFL-ISIC-LSCI, BCH 3305, Lausanne, CH 1015 Switzerland.\n\n2 Department of Chemistry, National Taiwan University, Taipei 10617, Taiwan",
+        "start_index": 153,
+        "end_index": 434
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "3 Interdisciplinary Centre for Electron Microscopy (CIME), Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland\n\n4 Electron Spectrometry and Microscopy Laboratory (LSME), Institute of Physics, Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland",
+        "start_index": 434,
+        "end_index": 731
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "*Correspondence to: haomingchen@ntu.edu.tw; xile.hu@epfl.ch;\n\nAbstract.",
+        "start_index": 731,
+        "end_index": 802
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Single atom catalysts exhibit well-defined active sites and potentially maximum atomic efficiency. However, they are unsuitable for reactions that benefit from bimetallic promotion such as the oxygen evolution reaction (OER) in alkaline medium. Here we show that a single atom Co precatalyst can be in-situ transformed into a Co-Fe double atom catalyst for OER. This catalyst exhibits one of the highest turnover frequencies among metal oxides",
+        "start_index": 802,
+        "end_index": 1245
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Electrochemical, microscopic, and spectroscopic data including those from operando X-ray absorption spectroscopy, reveal a dimeric Co-Fe moiety as the active site of the catalyst. This work demonstrates double-atom catalysis as a promising approach for the development of defined and highly active OER catalysts.",
+        "start_index": 1245,
+        "end_index": 1559
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "TOC Graphic\nIntroduction",
+        "start_index": 1559,
+        "end_index": 1583
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The water splitting reaction provides a promising method to store intermittent renewable energy resources in the form of hydrogen fuel.\\(^1,2\\) Currently the bottleneck of water splitting is its oxidative half reaction, the oxygen evolution reaction (OER), which has a high thermodynamic potential and is kinetically sluggish due to the involvement of four consecutive electrons and protons transfer steps.\\(^3-5\\) Considerable efforts have been devoted to develop heterogeneous OER catalysts composed of earth-abundant metals",
+        "start_index": 1583,
+        "end_index": 2109
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\\(^4-7\\) However, the heterogeneous nature of these catalysts makes it difficult to probe the nature of their active sites.",
+        "start_index": 2109,
+        "end_index": 2233
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Single-atom catalysis has emerged as a novel approach to combine the single-site nature of homogeneous catalysis with the robustness and technical readiness of heterogeneous catalysis.\\(^8-10\\) The so-called single-atom catalysts are mono-dispersed metal atoms/ions stabilized by a specific support, often via coordination to carbon and heteroatoms such as O, N, P, S, etc",
+        "start_index": 2233,
+        "end_index": 2605
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\\(^8,9,11,12\\) These catalysts are attractive because they exhibit maximum atomic efficiency and possess well-defined active sites, which facilitate mechanistic understanding. Although a number of single-atom catalysts have been developed for electrochemical reactions,\\(^11,12\\) only few single-atom OER catalysts are reported.\\(^13-16\\)",
+        "start_index": 2605,
+        "end_index": 2944
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "OER in alkaline medium is an archetypical electrochemical reaction for which bimetallic catalysts are often more active than monometallic catalysts.\\(^4,5,17-20\\) Based on time-resolved spectroscopic measurements of intermediates in a photochemical OER catalyzed by Co\\(_3\\)O\\(_4\\), Frei and co-workers proposed that an oxygen-bridged Co-Co moiety reacted much faster than a single Co site",
+        "start_index": 2944,
+        "end_index": 3333
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\\(^17\\) Moreover, benchmark works showed that the nickel-iron oxide (NiFeO\\(_x\\)) and cobalt-iron oxide (CoFeO\\(_x\\)) are among the most active OER catalysts in alkaline solutions",
+        "start_index": 3333,
+        "end_index": 3513
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\\(^4,5,18,19\\) Incorporation of a trace amount of iron will significantly enhance the activity of pure NiO\\(_x\\) and CoO\\(_x\\), while pure FeO\\(_x\\) has low activity.\\(^21,22\\) It follows that instead of single-atom catalysts, a so-called double-atom catalyst would be more active for OER",
+        "start_index": 3513,
+        "end_index": 3802
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Recently, some double-atom catalysts were reported to exhibit higher activity than single-atom catalysts for electrocatalytic oxygen reduction reaction (ORR),\\(^23\\) CO\\(_2\\) reduction,\\(^24\\) and cocatalyst for photoanode.\\(^25\\) However, double atom OER electrocatalysts composed of only earth-abundant elements are hitherto unknown",
+        "start_index": 3802,
+        "end_index": 4138
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Herein, we report such a Co-Fe double-atom catalyst, which exhibits turnover frequencies (TOFs) comparable to state-of-the-art OER catalysts. This double-atom catalyst is generated from a single-atom Co pre-catalyst (Co-N-C) via an in-situ electrochemical method. The work presents, to our knowledge, the first example of double-atom electrocatalyst that is highly efficient for OER.",
+        "start_index": 4138,
+        "end_index": 4523
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Synthesis and Characterization of Pre-catalyst",
+        "start_index": 4523,
+        "end_index": 4569
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Mg(OH)\\(_2\\) is a support material that is appropriate for dispersing the single atoms through a moderate interaction of Mg(OH)\\(_2\\) with the metal species as well as its inertness towards the reaction with metal ions during high temperature pyrolysis process",
+        "start_index": 4569,
+        "end_index": 4829
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\\(^26\\) The single-atom Co pre-catalyst dispersed on a N-doped carbon support (Co-N-C) was synthesized by calcining a mixture of a Co(II) complex of phenanthroline (Phen), extra Phen ligands, and Mg(OH)\\(_2\\) followed by acid-washing of MgO (Scheme 1, detailed synthetic procedure is provided in Supporting Information)",
+        "start_index": 4829,
+        "end_index": 5149
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The Mg(OH)\\(_2\\) served as a template and dispersing reagent. The X-ray diffraction (XRD) pattern of Co-N-C showed only broad peaks at 26.2\u00b0 and 42.9\u00b0, corresponding to the (002) and (004) planes of graphitic carbon (Fig. S1). No peaks from either crystalline metal oxides or metallic",
+        "start_index": 5149,
+        "end_index": 5435
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "species were present. Raman spectrum of Co-N-C showed only two bands characteristic of graphite carbon (G band at 1600 cm\\(^{-1}\\)) and defective carbon (D band at 1350 cm\\(^{-1}\\), Fig. S2), respectively,\\(^{14,26-28}\\) while no peaks corresponding to metallic cobalt or cobalt oxide were observed",
+        "start_index": 5435,
+        "end_index": 5733
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". According to the physical adsorption-desorption measurement, the Co-N-C exhibits a high BET (Brunauer-Emmett-Teller) surface area of 496 m\\(^2\\)/g and a mesoporous feature (type IV isotherm with a hysteresis loop),\\(^{29}\\) with a pore size distribution centered at 3.7 nm and a large pore volume of 0.478 cm\\(^3\\)/g (Fig",
+        "start_index": 5733,
+        "end_index": 6056
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S3).",
+        "start_index": 6056,
+        "end_index": 6062
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Scheme 1.** Synthesis of Co-N-C.",
+        "start_index": 6062,
+        "end_index": 6096
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Fig. 1 Characterization of Co-N-C pre-catalysts. (a) HR-TEM and (b) HAADF-STEM image of Co-N-C; (c) the corresponding elemental EDXS mapping of Co-N-C; (d) spherical aberration corrected HAADF-STEM image of Co-N-C: single atoms are seen as bright spots on the background contrast from the carbon support",
+        "start_index": 6096,
+        "end_index": 6399
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". High resolution XPS of Co-N-C: (e) Co 2p, (f) N 1s region.",
+        "start_index": 6399,
+        "end_index": 6459
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Transmission electron microscopy (TEM) images further showed that Co-N-C is multilayered and porous (Fig. S4). The corresponding selected area electron diffraction (SAED) pattern (Fig. S4 inset) indicated poor crystallinity, which was in accordance with the XRD results. The high-resolution (HR-)TEM image also revealed a mostly amorphous carbon support, with only some irregular lattice fringes (Fig. 1a)",
+        "start_index": 6459,
+        "end_index": 6864
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Neither CoOx nor metallic Co nanoparticles were observed. Elemental energy dispersive X-ray spectroscopy (EDXS) mapping images recorded in high-angular annular dark field scanning transmission electron microscopy (HAADF-STEM) mode showed the material is composed of C, N, O, and Co (Fig. 1b and 1c, S5), in which Co is homogeneously distributed across the whole material. Spherical aberration corrected HAADF-STEM images (Fig",
+        "start_index": 6864,
+        "end_index": 7291
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 1d and Fig. S6) showed many well-dispersed bright dots, each having a size of below 0.2 nm. These dots are attributed to single Co atoms dispersed on the carbon support. Neither CoOx nor metallic Co nanoparticles were observed.",
+        "start_index": 7291,
+        "end_index": 7520
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Note that as the Co atoms are distributed through a carbon support that is amorphous, multilayered, and not flat, only the Co atoms which are at the focal height of the electron probe appear sharp, while Co atoms at other heights are imaged as blurry spots.",
+        "start_index": 7520,
+        "end_index": 7777
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "X-ray photoelectron spectroscopy (XPS) reveals the chemical composition and oxidation states of Co-N-C. In Co 2p region, the Co2p3/2 (780.7 eV) and Co2p1/2 (796.3 eV) subpeaks and two satellite peaks at 785.1 and 801.3 eV suggested that the oxidation state of Co is +2 (Fig. 1e)",
+        "start_index": 7777,
+        "end_index": 8055
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The high-resolution N 1s XPS spectrum (Fig. 1f) was deconvoluted into four different types of N species including pyridinic N (398.6 eV), pyrrolic N (399.7 eV), graphitic N (401.1 eV), and oxidized N (402.9 eV). The peak at 406",
+        "start_index": 8055,
+        "end_index": 8284
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".2 eV indicates the existence of a little amount of adsorbed nitrate anions caused by nitric acid post-treatment. A large proportion of pyridinic and pyrrolic N provide sufficient sites for anchoring and stabilizing Co single atoms. The subpeaks at 286.1, 287.8, 289.9 eV in C1s region (Fig",
+        "start_index": 8284,
+        "end_index": 8574
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S7a) suggested that the material contains hydroxyl (C-OH), carbonyl (C=O), C=N, and carboxylic functional groups. The O 1s spectrum was",
+        "start_index": 8574,
+        "end_index": 8711
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "deconvoluted into two peaks at 531.5 and 533.2 eV, which were attributed to C=O and C\u2013OH groups, respectively (Fig. S7b). The oxygen groups were inadvertently introduced during the synthetic process.",
+        "start_index": 8711,
+        "end_index": 8910
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Electrocatalytic activity for OER**",
+        "start_index": 8910,
+        "end_index": 8947
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The Co-N-C was initially deposited on glassy carbon (GC) electrode to evaluate its OER activity. An activation process was observed during consecutive cyclic voltammetry (CV) scans (Fig. S8a). Both chronoamperometry and chronopotentiometry could also be employed to activate the catalytic material (Fig. S8b, S8c), but chronopotentiometry led to better activity (Fig. S8d)",
+        "start_index": 8947,
+        "end_index": 9319
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Carbon-cloth (CC) electrode was adopted in order to further improve the catalytic performance due to its higher surface area and better conductivity. After activation (Fig. S9), Co-N-C on CC exhibited an overpotential of 321 mV to reach 10 mA/cm\u00b2, with a Tafel slope of 40 mV/dec (Fig. 2a; Fig. S10)",
+        "start_index": 9319,
+        "end_index": 9620
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Measurements on multiple samples resulted in good data reproducibility on both GC and CC electrodes (Fig. S11, Table S1). To evaluate the stability of the catalyst, accelerated degradation measurements were performed using continuous fast CV scans. The polarization curve of the catalyst obtained after 3000 CVs exhibited a negligible increase in overpotential (4 mV) for 10 mA/cm\u00b2 compared to the initial curve, indicating excellent stability (Fig. 2a)",
+        "start_index": 9620,
+        "end_index": 10075
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Moreover, a galvanostatic measurement was conducted at a current density of 10 mA/cm\u00b2. No significant overpotential increase was observed during 16 h of electrolysis (Fig. 2b). The Faradaic efficiency of OER was determined as 98%, implying almost all of the current was in charge of catalytic water oxidation (Fig. S12).",
+        "start_index": 10075,
+        "end_index": 10397
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The activation process of Co-N-C led to incorporation of Fe ions, as confirmed by inductively coupled plasma atomic emission spectroscopy (ICP-AES). In a typical sample, the loadings of Co and Fe were 9.4(\u00b11.4) \u00d710\u207b\u2078 mol/cm\u00b2 and 8.6(\u00b11.6) \u00d710\u207b\u2079 mol/cm\u00b2 after activation, respectively",
+        "start_index": 10397,
+        "end_index": 10680
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". According to previous reports, trace amount of iron ions are essential for the high activity of NiO\u2093 and CoO\u2093 pre-catalysts. To verify the role of Fe in the activity of Co-N-C, a number of experiments have been conducted (Fig. 2c and 2d)",
+        "start_index": 10680,
+        "end_index": 10919
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". First, the Co-N-C was tested in an iron-free KOH solution (1 M, obtained by treating with Ni(OH)\u2082, see Supporting Information for details), the initial activity was low, with an overpotential of 495 mV at 10 mA/cm\u00b2 and a Tafel slope of 72 mV/dec",
+        "start_index": 10919,
+        "end_index": 11166
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The activity could be improved by prolonged electrolysis to reach an overpotential of 443 mV at 10 mA/cm\u00b2 and a Tafel slope of 58 mV/dec. The activities are much lower than that of the activated Co-N-C in a \"normal\" KOH solution which contains a trace amount of iron ions (0.18 ppm)",
+        "start_index": 11166,
+        "end_index": 11450
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Addition of 10 ppm of Fe(NO\u2083)\u2083\u22199H\u2082O into the \"normal\" KOH further improved the activity. The overpotential at 10 mA/cm\u00b2 was decreased to 309 mV. These results (Fig. 2c, 2d,) support the hypothesis that iron incorporation is essential for the high activity of Co-N-C. A new reduction peak at 1",
+        "start_index": 11450,
+        "end_index": 11744
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".189 V emerged after activation in Fe-containing \"normal\" KOH, while the corresponding oxidation peak was hidden by background capacitive current (Fig. S13). This feature was absent for the catalyst activated in Fe-free KOH. This new redox feature indicates the presence of a new Co species formed upon Fe incorporation. The activated Co-N-C catalyst is then labeled as Co-Fe-N-C.",
+        "start_index": 11744,
+        "end_index": 12124
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Figure 2. Electrocatalytic performance for OER. (a) Polarization curve of Co-N-C on CC electrode before (red) and after (black) 3000 CVs. (b) Long-time galvanostatic curve of the Co-N-C ($j = 10 \\text{ mA/cm}^2$)",
+        "start_index": 12124,
+        "end_index": 12336
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". (c) LSVs of the Co-N-C at different kinds of KOH (with different concentration of Fe3+) and (d) corresponding Tafel slope derived from (c). The summary of the performance is in Table S2.",
+        "start_index": 12336,
+        "end_index": 12524
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Characterization of Activated Catalyst",
+        "start_index": 12524,
+        "end_index": 12562
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The HR-TEM image of Co-Fe-N-C revealed a morphology similar to Co-N-C and with no obvious aggregated nanoparticles (Fig. 3a). Many atomically dispersed metal atoms were observed in spherical aberration corrected HAADF-STEM images (Fig. 3b, Fig. S14). Elemental EDXS mapping spectra (Fig. 3c, 3d, S15) showed that both Co and Fe were homogeneously distributed throughout the material",
+        "start_index": 12562,
+        "end_index": 12944
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Some possible double-atom pairs were visible in HAADF-STEM imaging (Fig. S16). While it is tempting to assign them to the Co-Fe dimer, unambiguous confirmation is not possible because, as such images correspond to a 2D projection of a 3D structure, they might also originate from Co atoms that are separated by height in the amorphous carbon but which nearly overlap in the imaging projection. Unequivocal imaging of first-row transition metal double-",
+        "start_index": 12944,
+        "end_index": 13397
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "atom pairs supported in a 3D substrate remains a fundamental challenge to be addressed in the future.",
+        "start_index": 13397,
+        "end_index": 13498
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Fig. 3 Characterization of Co-Fe-N-C. (a) HR-TEM and (b) spherical aberration corrected HAADF-STEM image of Co-N-C after activation in Fe containing KOH (Co-Fe-N-C). Detailed analysis of the possible double-atoms is in Fig. S16. (c) HAADF-STEM image of Co-Fe-N-C and (d) the corresponding elemental EDXS mapping of (c).",
+        "start_index": 13498,
+        "end_index": 13817
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Only a very small amount of Co-containing nanoparticles were observed in Co-Fe-N-C (Fig. S17). However, nearly no Fe species were observed within these nanoparticles. Their tiny quantity and large size suggested that they are unlikely to be the active species for OER. To better evaluate the activity of these Co-containing nanoparticles, they were purposely prepared at a high pyrolysis temperature of 900 \u00b0C (see Supporting Information for preparation and Fig",
+        "start_index": 13817,
+        "end_index": 14278
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S18-S20 for characterization). The resulting material, termed Co-N-C-900, exhibited much lower activity than Co-N-C after the same activation process, despite similar Co loadings compared to Co-N-C (Fig. S21). This result further supports the hypothesis that the active sites of Co-Fe-N-C are atomically dispersed reaction centers.",
+        "start_index": 14278,
+        "end_index": 14611
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The activity of Co-Fe-N-C depends critically on the number of iron sites. The current density at 1.55 V vs. RHE is roughly proportional to the loadings of Fe (Fig. S22). The loadings of Fe could be roughly controlled by changing the activation time and the Fe concentration in KOH. Interestingly, the absorption of Fe ions from Fe-containing solution is reversible",
+        "start_index": 14611,
+        "end_index": 14975
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". When OER electrolysis was conducted over a long period of time (2 h) using Co-Fe-N-C in a Fe-free KOH solution, the amount of Fe in the catalyst decreased, and the OER activity also became worse. The activity could be recovered in KOH solutions containing even a trace amount of Fe ions, suggesting a fast equilibrium between absorption and desorption of Fe ions (Fig. S23).",
+        "start_index": 14975,
+        "end_index": 15351
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Determination of active site by operando XAS and comparison of turnover frequencies**",
+        "start_index": 15351,
+        "end_index": 15438
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "To probe the changes of the structures of the catalytic sites during activation and catalysis, operando X-ray absorption spectroscopy (XAS) was applied to both the as-prepared material and the activated catalyst under OER conditions. Fig",
+        "start_index": 15438,
+        "end_index": 15675
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 4a shows the operando Co K-edge X-ray absorption near edge spectra (XANES) of the as-prepared Co-N-C, the activated Co-Fe-N-C, and with various OER duration, together with reference samples of cobalt oxides and CoOOH. The spectroscopic features of Co-N-C and Co-Fe-N-C are significantly different from those of Co foil, all cobalt oxides and CoOOH",
+        "start_index": 15675,
+        "end_index": 16024
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The oxidation state of Co ion in Co-N-C is close to +2, since the energy of main absorption edge coincides with that of Co(2+)O and is slightly lower than that of Co3(8/3+)O4 (Fig. 4b). This result is consistent with the observation from the XPS study (see above). After activation, the absorption edge increased, indicating the formation of Co(3+)",
+        "start_index": 16024,
+        "end_index": 16374
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The structural evolution and the formation of Co-Fe double-atomic catalyst are further revealed by operando Extended X-ray Absorption Fine Structure (EXAFS) spectra at the Co K-edge (Fig. 4c and S24, Table 1 and S3). The first coordinated shell ranging from 1",
+        "start_index": 16374,
+        "end_index": 16635
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".5\u20132 \u00c5 is attributed to the single scattering paths of closest C, N, and O, while the second coordinated shell with a range from 2\u20133 \u00c5 results from the single scattering paths of outer neighboring C and metal (i.e., Fe) surrounding the absorbing Co ions. In the dry sample of Co-N-C, the Co ions are five-coordinated and are surrounded by about three N, one C, and one O atoms (Fig. 4d and Fig",
+        "start_index": 16635,
+        "end_index": 17028
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S25). The O atom likely came from an absorbed hydroxyl or water group. Once the Co-N-C sample is in contact with the electrolyte (1M KOH), two of the coordinated N atoms, or one N and one C atom, were replaced by three new O atoms, as indicated by the extracted structural parameters (Fig. 4d and Table 1). A proposed structural model is shown in Fig",
+        "start_index": 17028,
+        "end_index": 17380
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 4d, where the coordinated oxygen groups are assigned as OH- and H2O from the electrolyte. Apparent distances of all paths are slightly shorter than those of the as-prepared Co-N-C (dry powder), which might be ascribed to the oxidation of Co ions. Most interestingly, after activation and Fe incorporation a new scattering",
+        "start_index": 17380,
+        "end_index": 17703
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "path (Co-Fe) was observed at 2.51 \u00c5 with a CN value of ~ 0.25. This apparent distance is significantly shorter than that of Co-Fe in spinel oxide and slightly larger than the atomic radius of Co(0)-Fe(0), indicating a newly formed Co-Fe interaction with a specific geometry. A structural model is shown in Fig. 4c and 4d. The CN value of 0",
+        "start_index": 17703,
+        "end_index": 18042
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".25 suggests only one-fourth Co ions interact with Fe ions in Co-Fe-N-C.",
+        "start_index": 18042,
+        "end_index": 18114
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "To probe the structures of the active site in Co-Fe-N-C during OER, operando XAS is conducted (Fig. 4c). Even after OER for 180 min, no significant structural change was found in all interaction paths except for a minor change in the Co-Fe path, indicating the present double-atom electrocatalyst is robust",
+        "start_index": 18114,
+        "end_index": 18420
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". As compared to that of activation sample, the apparent distance of Co-Fe path during OER increases by approximately 0.12 \u00c5, while the CN value of Co-Fe path also increases slightly, probably due to more Fe incorporation from the electrolyte. The increase in the bond length of the Co-Fe path might be due to the enhanced interaction of OH-/H2O with Co ions during OER, which weakens the Co-Fe interaction.",
+        "start_index": 18420,
+        "end_index": 18827
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The observed CN value of Co-Fe path after OER for 180 min suggests that one-third Co ions form a Co-Fe interaction. This ratio is higher than the Fe:Co ratio determined by post-catalytic ICP-AES. The discrepancy is attributed to the higher surface sensitivity of the fluorescence-yield XAS (< 100 nm) compared to ICP-AES (bulk)",
+        "start_index": 18827,
+        "end_index": 19154
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". It is noted that the first coordinated shell of Co-Fe-N-C remains nearly identical during OER, indicating that the in-situ formed Co-Fe-N-C double-atomic structure is stable during extended OER. Notably, the possibilities of the formation of CoOOH and any type of cobalt oxides can be excluded even after reacting for 5 h, since the spectroscopic features of Co-N-C and Co-Fe-N-C are evidently different from those cases (Fig",
+        "start_index": 19154,
+        "end_index": 19581
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S26).",
+        "start_index": 19581,
+        "end_index": 19588
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "As illustrated in Fig. 4b, the oxidation state of Co is significantly higher than +3 after 45 min of OER and it reaches an even higher value after 180 min of OER. This observation would be consistent with a Co(IV)=O species acting as the intermediate of OER",
+        "start_index": 19588,
+        "end_index": 19845
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Because of the fundamental challenge to obtain in-situ the XAS spectrum of Fe ions in Co-Fe-N-C due to the extreme low Fe amount, XAS analysis of Fe K edge was conducted on the post-catalytic samples of Co-Fe-N-C. Both the XANES and EXAFS spectra are characteristic of a divergent feature from those of reference cases including the FeOOH, metal oxides and metallic foil (Fig",
+        "start_index": 19845,
+        "end_index": 20222
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S27 and S28), while the oxidation state of Fe is approximately +3. The major coordinated element in the first shell is oxygen. The presence of a rather weak peak at the second scattering shell is attributed to the single-scattering path of Fe-Co, in which the CN and the apparent distance is ~0.96 and 2.69 \u00c5, respectively (Fig. S28). The CN value (~0",
+        "start_index": 20222,
+        "end_index": 20575
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".9) indicates that most Fe ions are bonded with Co ions to form the double-atom moiety as proposed in Fig. 4d. The distance of Fe-Co obtained from the Fe K edge data is consistent with that obtained from the Co K edge data.",
+        "start_index": 20575,
+        "end_index": 20798
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Summing up, the XAS data reveal the following structural evolution of the single-atom Co precatalyst during activation and OER (Fig",
+        "start_index": 20798,
+        "end_index": 20929
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 4d): the as-prepared sample comprised of atomically dispersed Co atoms stabilized by three N and one C atoms from the N-doped carbon support and one oxygen from OH-/H2O; upon immersion into an alkaline electrolyte, the ligand environment of Co ions changes significantly, and the Co ions are now coordinated to 1 C and 1 N from the support and 4 OH-/OH2 groups coming from the electrolyte",
+        "start_index": 20929,
+        "end_index": 21319
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". After electrochemical activation, Fe is incorporated and a dimeric Co-Fe moiety is formed, probably through one or two bridging OHs. This structure remains stable during OER. Taking into consideration of the essential role of Fe in",
+        "start_index": 21319,
+        "end_index": 21552
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "catalysis and the activity scales with the amount of Fe, we attribute this dimeric, Co-Fe double-atom site as the active site of Co-Fe-N-C.",
+        "start_index": 21552,
+        "end_index": 21691
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Fig. 4. Operando X-ray absorption spectroscopy. (a) XANES spectra, (b) K-edge energies (at 50% level) of XANES spectra in Fig. (a) and cobalt references compounds containing Co(0), Co(II), or Co(III)",
+        "start_index": 21691,
+        "end_index": 21890
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". (c) Fourier transform of Co K-edge EXAFS spectra w/o phase correction for as-prepared Co-N-C and the catalyst after activation as well as under OER for various durations. (d) Proposed model for the formation of Co-Fe double-atom catalyst; after immersing the pre-catalyst in the electrolyte solution, either two N or one N and one C were replaced by O. For simplicity, only the model where two N were replaced is shown",
+        "start_index": 21890,
+        "end_index": 22310
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". (e) Potential dependent TOFs of Co-Fe-N-C (blue curve) and comparison with selected state-of-the-art catalysts.",
+        "start_index": 22310,
+        "end_index": 22423
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Table 1. Structural parameters of Co-N-C extracted from in-situ Co K-edge EXAFS refinement for as-prepared Co-N-C and after activation as well as under OER for various duration.",
+        "start_index": 22423,
+        "end_index": 22600
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "| condition        | path | R (\u00c5)  | N   | \u03c3\u00b2 (\u00c5\u00b2) | R factor |\n|------------------|------|--------|-----|---------|----------|\n| As-prepared      | Co-C | 1.61(2)| 1.1(1)| 0.0097(3)|          |",
+        "start_index": 22600,
+        "end_index": 22794
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "|                  | Co-N | 1.89(1)| 3.36(2)| 0.0085(1)|          |\n|                  | Co-O | 2.15(2)| 0.75(2)| 0.0039(4)| 9.899    |\n|                  | Co-Fe| -      | -    | -       | -        |",
+        "start_index": 22794,
+        "end_index": 22994
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "| In electrolyte   | Co-C | 1.36(3)| 0.43(1)| 0.0090(9)|          |\n|                  | Co-N | 1.64(1)| 1.53(1)| 0.0099(1)|          |\n|                  | Co-O | 1.86(1)| 3.21(1)| 0.0055(1)| 3.962    |",
+        "start_index": 22994,
+        "end_index": 23197
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "As the XAS results above indicated the active site of Co-Fe-N-C is the Co-Fe dimeric unit, the turnover frequencies (TOFs) of the catalyst could be calculated using the total amount of such units (Fig. 4e)",
+        "start_index": 23197,
+        "end_index": 23402
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". With TOFs of higher than 1 s\u207b\u00b9 at 300 mV and about 12 s\u207b\u00b9 at 350 mV, the Co-Fe-N-C has activity comparable to the most active nanomaterials based on transition metals (Table S4)",
+        "start_index": 23402,
+        "end_index": 23581
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".\u00b2\u00b9,\u00b3\u2079\u207b\u2074\u2076 It is noteworthy that the Co-Fe-N-C also exhibited the best OER performance compared to previously reported OER catalysts consisted of single atoms or sub-nano clusters (Table S5).\u00b9\u2074,\u00b9\u2076,\u2074\u2077",
+        "start_index": 23581,
+        "end_index": 23779
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Conclusions**",
+        "start_index": 23779,
+        "end_index": 23794
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "In summary, electrochemical activation of Co species atomically dispersed on nitrogen-doped carbon (Co-N-C) in Fe-containing alkaline electrolyte led to incidental Fe-incorporation and the formation of a Co-Fe double-atom catalyst (Co-Fe-N-C). Fe is essential for the enhanced activity of Co-Fe-N-C compared to Co-N-C, and the activity of the former scales with the amount of Fe",
+        "start_index": 23794,
+        "end_index": 24172
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". **Operando** XAS data indicate that Co-N-C undergo major structural changes upon immersion into an alkaline electrolyte, followed by Fe incorporation during electrochemical activation to yield a dimeric Co-Fe structural motif that is the active site for OER. This double-atom active site appears to be stable during OER. Its TOF is among the highest for non-precious OER catalysts",
+        "start_index": 24172,
+        "end_index": 24554
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". This work introduces an easily accessed, molecularly defined, and earth-abundant bimetallic electrocatalysts for OER. Such double-atom catalyst bridges the transitionally separated molecular and solid-sate catalysts, thereby offering an attractive platform for the fundamental studies of metal oxides in OER.",
+        "start_index": 24554,
+        "end_index": 24864
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Experimental Section",
+        "start_index": 24864,
+        "end_index": 24884
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Synthesis.\n\nAll the chemicals (including metal salts and organic ligands) were purchased from Sigma-Aldrich unless otherwise noted. The solvents include ultra-pure water (18.2 M\u03a9/cm), ethanol (Fluka), and isopropanol (Fluka).",
+        "start_index": 24884,
+        "end_index": 25109
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Synthesis of the Co-N-C pre-catalyst.** 0.5 mmol Co(OAc)$_2$\u00b74H$_2$O (125 mg, Ac = acetate) was dissolved in 40 mL ethanol. An ethanol solution (10 mL) of 1,10-phenanthroline (Phen, 1.0 mmol, 180 mg) was added dropwise and the reaction mixture was sonicated for 30 min",
+        "start_index": 25109,
+        "end_index": 25379
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 90 mg of Phen and 4 g of Mg(OH)$_2$ were then added and the reaction mixture was further sonicated for 30 min. The mixture was then refluxed at 60 \u00b0C for 4 h. The ethanol solvent was removed by rotary evaporation and the remaining solids were dried overnight in air and finely ground. The powder was calcinated at 700 \u00b0C for 2 h under a nitrogen atmosphere (ramping rate: 2 \u00b0C/min)",
+        "start_index": 25379,
+        "end_index": 25762
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". A black solid was obtained. It was stirred in a 1 M HNO$_3$ solution at room temperature for 2 h to remove the MgO support and residual cobalt nanoparticles. The solid was further washed with ultra-pure water until the filtrate became neutral. The solid was dried in air at room temperature overnight (see Scheme S1 for illustration).",
+        "start_index": 25762,
+        "end_index": 26098
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Synthesis of the Co-N-C-900C reference.** 0.5 mmol Co(OAc)$_2$\u00b74H$_2$O (125 mg) was dissolved in 40 mL ethanol. An ethanol solution (10 mL) of 1,10-phenanthroline (Phen, 1.0 mmol, 180 mg) was added dropwise and the reaction mixture was sonicated for 30 min",
+        "start_index": 26098,
+        "end_index": 26356
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 90 mg of Phen and 4 g of Mg(OH)$_2$ were then added and the reaction mixture was further sonicated for 30 min. The mixture was then refluxed at 60 \u00b0C for 4 h. The ethanol solvent was removed by rotary evaporation and the remaining solids were dried overnight in air and finely ground. The powder was calcinated at 900 \u00b0C for 2 h under a nitrogen atmosphere (ramping rate: 2 \u00b0C/min)",
+        "start_index": 26356,
+        "end_index": 26739
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". A black solid was obtained. It was stirred in a 1 M HNO$_3$ solution at room temperature for 2 h to remove the MgO support. The solid was further washed with ultra-pure water until the filtrate became neutral. The solid was dried in air at room temperature overnight.",
+        "start_index": 26739,
+        "end_index": 27008
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Preparation of Fe-free (Ni-containing) KOH.** The Fe impurities in normal KOH solutions can be removed by treating with high-purity Ni(OH)$_2$. In a clean 50 mL polypropylene centrifuge tube, 2 g of Ni(NO$_3$)$_2$\u00b76H$_2$O (99.99%) was dissolved in 5 mL of ultrapure water",
+        "start_index": 27008,
+        "end_index": 27281
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". 20 mL of 1 M KOH solution was added to give a Ni(OH)$_2$ precipitate. The suspension was agitated and centrifuged, and the supernatant was decanted. The Ni(OH)$_2$ precipitate was washed with ultrapure water for three times by centrifugation. The solid was dispersed in 10 mL of 1 M KOH by centrifugation, and the supernatant was decanted",
+        "start_index": 27281,
+        "end_index": 27621
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". This solid was used as the Fe-absorber. The normal KOH solutions could be cleaned by adding to this Ni(OH)$_2$. The cleaning procedure involves dispersing Ni(OH)$_2$ in the KOH solution, mechanically agitated over-night, followed by at least 3 h of resting.",
+        "start_index": 27621,
+        "end_index": 27880
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Physical Characterizations",
+        "start_index": 27880,
+        "end_index": 27906
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Powder X-ray diffraction (XRD) measurements were carried out on an X'Pert Philips diffractometer in Bragg-Brentano geometry with monochromatic Cu$_{K\\alpha}$ radiation (0.1541 nm) and a fast Si-PIN multi-strip detector. The step size was 0.02 degree s$^{-1}$. Transmission electron microscopy (TEM) was performed on an FEI Talos-S operated at 200 kV high tension",
+        "start_index": 27906,
+        "end_index": 28268
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Elemental energy dispersive X-ray spectroscopy (EDXS) mapping was used for elemental characterization, with simultaneously acquired high-angular annular dark field scanning transmission electron microscopy (HAADF-STEM) images showing atomic number and thickness contrast. For atomic",
+        "start_index": 28268,
+        "end_index": 28552
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "resolution imaging, the measurements were performed on an FEI Titan Themis 60-300 operated at 200 kV with an aberration-corrected electron probe and using HAADF-STEM conditions. Samples for TEM were prepared by drop-drying the samples from their diluted ethanol suspensions onto carbon-coated copper grids",
+        "start_index": 28552,
+        "end_index": 28857
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". X-ray photoelectron spectroscopy (XPS) measurements were performed on a PHI5000 VersaProbe II XPS system by Physical Electronics (PHI) with a detection limit of 1 atomic percent. Monochromatic X-rays were generated by an Al Ka source (1486.7 eV). The diameter of the analyzed area is 10 \u03bcm. Raman spectrum was recorded on a LabRAM high resolution Raman spectrometer",
+        "start_index": 28857,
+        "end_index": 29224
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The power of laser was set as 0.1% in order to alleviate the damage of carbon matrix caused by stronger laser beam. ICP-AES (Inductively coupled plasma \u2013 Atomic Emission Spectroscopy) results were obtained by a NexIon 350 (Perkin Elmer) machine",
+        "start_index": 29224,
+        "end_index": 29470
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Before dissolving in ultra-pure nitric acid (65%, Merck KGaA), all the samples were put in muffle oven and then heated at 600 \u00b0C for 12 h in air to remove carbon support and make sure all of the metal ions were exposed to be digested by nitric acid. N2-physisorption measurements were performed on a Micromeritics 3Flex apparatus at liquid nitrogen temperature between 10\\(^{-5}\\) and 0",
+        "start_index": 29470,
+        "end_index": 29858
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".99 relative N2 pressure. Samples (ca. 100 mg) were dried at 120\u00b0C under vacuum (< 10\\(^{-3}\\) mbar) for 4 h and a leak test was performed prior to analysis.",
+        "start_index": 29858,
+        "end_index": 30015
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Operando X-ray Absorption Spectroscopy (XAS)**",
+        "start_index": 30015,
+        "end_index": 30063
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The operando XAS were recorded at SP8 (Japan) 12B2 Taiwan beamline of National Synchrotron Radiation Research Center (NSRRC), the electron storage ring was operated at 8.0 GeV with a constant current of ~100 mA. The operando XAS measurement was performed at the desired condition with a special cell designed for these experiments, and the data were collected in fluorescence mode.",
+        "start_index": 30063,
+        "end_index": 30444
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**XAS data analysis.** An E\\(^0\\) values of 7709.0 eV was used to calibrate all data with respect to the first inflection point of the absorption K-edge of Co foil, respectively. The backscattering amplitude and phase shift functions for specific atom pairs were calculated ab initio using the FEFF8 code",
+        "start_index": 30444,
+        "end_index": 30748
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". X-ray absorption data were analyzed using standard procedures, including pre-edge and post-edge background subtraction, normalization with respect to edge height, Fourier transformation, and nonlinear least-squares curve fitting. The normalized \\(k^3\\)-weighted Extended X-ray Absorption Fine Structure (EXAFS) spectra, \\(k^2\\times(k)\\), were Fourier- transformed in a \\(k\\) range from 1",
+        "start_index": 30748,
+        "end_index": 31137
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".5 to 11 \u00c5\\(^{-1}\\), to evaluate the contribution of each bond pair to the Fourier transform (FT) peak. The experimental Fourier-filtered spectra were obtained by performing an inverse Fourier transformation with a Hanning window function with \\(r\\) between 0.8\u20132 for first coordinated shell and 1.8\u20133.1 \u00c5 for second coordinated shell",
+        "start_index": 31137,
+        "end_index": 31471
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The \\(S_0^2\\) (amplitude reduction factor) values of the Co was fixed at 0.88, to determine the structural parameters of each bond pair.",
+        "start_index": 31471,
+        "end_index": 31609
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "**Electrochemical Characterizations**",
+        "start_index": 31609,
+        "end_index": 31646
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The catalyst ink was prepared by mixing of 1 mL water, 0.25 mL isopropanol, 0.01 mL 5 wt% Nafion solution and 3 mg catalysts. The ink was sonicated for at least 2 h. Then 10 or 40 \u03bcL of the ink was uniformly loaded onto a glassy carbon electrode (GC, freshly polished, 0",
+        "start_index": 31646,
+        "end_index": 31916
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".07065 cm\\(^2\\)) or a carbon cloth electrode (CC, plasma treated, 0.25 cm\\(^2\\)), respectively. The electrodes were dried in a 75 \u00b0C oven for 30 mins before measurements.",
+        "start_index": 31916,
+        "end_index": 32086
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The electrochemical measurements were performed in a three-electrode electrochemical cell, in which Pt wire and Ag/AgCl electrode were used as counter and reference electrode, respectively. The working electrode and reference electrode were separated with counter electrode by a glass...",
+        "start_index": 32086,
+        "end_index": 32373
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "frit. 1M KOH standard solution (Merck KGaA, pH = 13.6) and polypropylene beakers were adapted in order to make our measurements rigorous. All potentials were reported versus the reversible hydrogen electrode (RHE) unless otherwise specified by using the follow equation:",
+        "start_index": 32373,
+        "end_index": 32643
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "$$E(\\text{RHE}) = E(\\text{Ag/AgCl}) + 0.197 \\text{V} + 0.0592 \\times 13.6 \\text{V}.$$",
+        "start_index": 32643,
+        "end_index": 32728
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "The solution was stirred by a magnetic stirring bar in all of the electrochemical measurements. All of the electrochemical results were compensated with solution resistance. The polarization curves were recorded by the linear scan voltammetry (LSV), the scan rate was 2 mV/s and 0.5 mV/s for GC and CC electrode, respectively. To investigate redox peaks, the scan rate was set to 50 mV/s in order to obtain higher signal to background ratio",
+        "start_index": 32728,
+        "end_index": 33168
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The activation curves were measured in chronopotential mode with a current density of 2 mA/cm\u00b2, via the stability test were measured at a current density of 10 mA/cm\u00b2. Five cyclic voltammetry (CV) scans should be carried out before galvanic static activation in case to oxidize the carbon surface (vide infra)",
+        "start_index": 33168,
+        "end_index": 33479
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Accelerated degradation studies were performed in continuous CV scans at a scan rate of 50 mV/s for 3000 cycles (electrochemical window: 0.2\u20130.6 V vs. Ag/AgCl). The TOF could be calculated as Eq",
+        "start_index": 33479,
+        "end_index": 33675
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S1, where $J$ is the anodic current density at certain overpotential, $A$ is the geometrical surface area of the electrode, $F$ is the Faraday constant (96485 C/mol), and $m$ is the loadings of dimeric active sites (see main text for the details). Faradaic efficiency were determined in a gas-tight H-type electrochemical cell",
+        "start_index": 33675,
+        "end_index": 34003
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". The cell was filled with 1M KOH solution until the headspace of the compartment containing the working electrode was about 9.2 ml. The oxygen probe was inserted into this headspace. The quantification of oxygen was performed using an Ocean Optics Multifrequency Phase Fluorimeter (MFPF-100) with a FOXY-OR 125 probe. A linear two-point calibration curve was created using air (20",
+        "start_index": 34003,
+        "end_index": 34384
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".9% O\u2082) and the headspace purged with N\u2082 for more than 1 h (0% O\u2082). A constant oxidation current of 2.5 mA (corresponding to a current density of 10 mA/cm\u00b2) was passed for 300 min. It should be mentioned that the final volume increased to 12 mL due to the increased pressure. The Faradaic yield was calculated from Eq",
+        "start_index": 34384,
+        "end_index": 34701
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". S2, where $P$ is the pressure of atmosphere (1.013\u00d710\u2075 Pa), $V$ is the volume of the headspace, $R$ is the universal gas constant (8.314 J/(mol K)), $T$ is the environmental temperature (298.15K), $w(O\u2082)$ is the volume concentration of oxygen measured by the oxygen sensor, $I$ is the constant current (2",
+        "start_index": 34701,
+        "end_index": 35007
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ".5 mA), $t$ is the time (s) for the galvanic static electrolysis, and $F$ is the Faraday constant. The volume of the head space was assumed to increase linearly with the concentration of oxygen, that is $w(O\u2082)/0.232\u00d7(12.0-9.2)+9.2$ (23.2% was the final oxygen concentration).",
+        "start_index": 35007,
+        "end_index": 35282
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "$$\\text{TOF} = \\frac{J \\times A}{4 \\times F \\times m} \\quad \\text{(Eq. 1)}$$\n\n$$\\text{FE\\%} = \\frac{P \\times V \\times w(O\u2082) \\times 4F}{RT \\times Qt} \\times 100\\% \\quad \\text{(Eq. 2)}$$\n\n**ACKNOWLEDGMENTS**",
+        "start_index": 35282,
+        "end_index": 35487
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "This work is supported by the European Research Council (no.681292) and the Ministry of Science and Technology, Taiwan (Contracts No. MOST 106-2119-M-002-031). We thank the following individuals from EPFL for experimental assistance: Dr. Fang Song (TEM and Raman) Dr. Lucas-Alexandre Stern (TEM), Mr. Weiyan Ni (XRD), Dr. Florent E. H\u00e9roguel (N\u2082 adsorption), Dr",
+        "start_index": 35487,
+        "end_index": 35848
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": ". Pierre Mettraux (XPS), Dr. Natalia Gasilova (ICP-AES). Dr. Yen-Fa Liao (NSRRC) is",
+        "start_index": 35848,
+        "end_index": 35931
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "acknowledged for help with operando XAS. We thank Mr. Yongpeng Liu (EPFL) for help with graphics.",
+        "start_index": 35931,
+        "end_index": 36028
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Notes\nThe authors declare no competing financial interests.\n\nReferences",
+        "start_index": 36028,
+        "end_index": 36099
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "1. Cook, T. R. et al. Solar Energy Supply and Storage for the Legacy and Non legacy Worlds. *Chem. Rev.* **110**, 6474-6502 (2010).\n2. Walter, M. G. et al. Solar Water Splitting Cells. *Chem. Rev.* **110**, 6446-6473 (2010).",
+        "start_index": 36099,
+        "end_index": 36323
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "3. Dau, H. et al. The Mechanism of Water Oxidation: From Electrolysis via Homogeneous to Biological Catalysis. *ChemCatChem* **2**, 724-761 (2010).",
+        "start_index": 36323,
+        "end_index": 36470
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "4. Song, F. et al. Transition Metal Oxides as Electrocatalysts for the Oxygen Evolution Reaction in Alkaline Solutions: An Application-Inspired Renaissance. *J Am Chem Soc* **140**, 7748-7759 (2018).\n5. Suen, N. T. et al. Electro catalysis for the oxygen evolution reaction: recent development and future perspectives. *Chem Soc Rev* **46**, 337-365 (2017).",
+        "start_index": 36470,
+        "end_index": 36827
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "6. Hunter, B. M., Gray, H. B. & Muller, A. M. Earth-Abundant Heterogeneous Water Oxidation Catalysts. *Chem Rev* **116**, 14120-14136 (2016).\n7. Li, P. et al. Recent Advances in the Development of Water Oxidation Electrocatalysts at Mild pH. *Small* **15**, e1805103 (2019).",
+        "start_index": 36827,
+        "end_index": 37101
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "8. Yang, X.-F. et al. Single-atom catalysts: a new frontier in heterogeneous catalysis. *Acc Chem Res* **46**, 1740-1748 (2013).\n9. Liu, J. Catalysis by Supported Single Metal Atoms. *ACS Catal.* **7**, 34-59 (2016).",
+        "start_index": 37101,
+        "end_index": 37317
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "10. Flytzani-Stephanopoulos, M. & Gates, B. C. Atomically Dispersed Supported Metal Catalysts. *Annu. Rev. Chem. Biomol. Eng.* **3**, 545-574 (2012).",
+        "start_index": 37317,
+        "end_index": 37466
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "11. Zhu, C., Fu, S., Shi, Q., Du, D. & Lin, Y. Single-Atom Electrocatalysts. *Angew Chem Int Ed* **56**, 13944-13960 (2017).",
+        "start_index": 37466,
+        "end_index": 37590
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "12. Bayatsarmadi, B., Zheng, Y., Vasileff, A. & Qiao, S. Z. Recent Advances in Atomic Metal Doping of Carbon-based Nanomaterials for Energy Conversion. *Small* **13**, 1700191 (2017).",
+        "start_index": 37590,
+        "end_index": 37773
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "13. Chen, P. et al. Atomically Dispersed Iron-Nitrogen Species as Electrocatalysts for Bifunctional Oxygen Evolution and Reduction Reactions. *Angew Chem Int Ed* **56**, 610-614 (2017).",
+        "start_index": 37773,
+        "end_index": 37958
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "14. Wang, J. et al. Heterogeneous Electrocatalyst with Molecular Cobalt Ions Serving as the Center of Active Sites. *J Am Chem Soc* **139**, 1878-1884 (2017).",
+        "start_index": 37958,
+        "end_index": 38116
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "15. Zheng, Y. et al. Molecule-Level g-C3N4 Coordinated Transition Metals as a New Class of Electrocatalysts for Oxygen Electrode Reactions. *J Am Chem Soc* **139**, 3336-3339 (2017).",
+        "start_index": 38116,
+        "end_index": 38298
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "16. Fei, H. et al. General synthesis and definitive structural identification of MN4C4 single-atom catalysts with tunable electrocatalytic activities. *Nat Catal* **1**, 63-72 (2018).",
+        "start_index": 38298,
+        "end_index": 38481
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "17. Zhang, M., de Respinis, M. & Frei, H. Time-resolved observations of water oxidation intermediates on a cobalt oxide nanoparticle catalyst. *Nat Chem* **6**, 362-367 (2014).",
+        "start_index": 38481,
+        "end_index": 38657
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "18. McCrory, C. C., Jung, S., Peters, J. C. & Jaramillo, T. F. Benchmarking heterogeneous electrocatalysts for the oxygen evolution reaction. *J Am Chem Soc* **135**, 16977-16987 (2013).",
+        "start_index": 38657,
+        "end_index": 38843
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "19. Morales-Guio, C. G., Liardet, L. & Hu, X. Oxidatively Electrodeposited Thin-Film Transition Metal (Oxy)hydroxides as Oxygen Evolution Catalysts. *J Am Chem Soc* **138**, 8946-8957 (2016).",
+        "start_index": 38843,
+        "end_index": 39034
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Wang, J. et al. Recent Progress in Cobalt-Based Heterogeneous Catalysts for Electrochemical Water Splitting. *Advanced materials* **28**, 215-230 (2016).",
+        "start_index": 39034,
+        "end_index": 39187
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Burke, M. S., Kast, M. G., Trotochaud, L., Smith, A. M. & Boettcher, S. W. Cobalt-iron (oxy)hydroxide oxygen evolution electrocatalysts: the role of structure and composition on activity, stability, and mechanism. *J Am Chem Soc* **137**, 3638-3648 (2015).",
+        "start_index": 39187,
+        "end_index": 39443
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Trotochaud, L., Young, S. L., Ranney, J. K. & Boettcher, S. W. Nickel-iron oxyhydroxide oxygen-evolution electrocatalysts: the role of intentional and incidental iron incorporation. *J Am Chem Soc* **136**, 6744-6753 (2014).",
+        "start_index": 39443,
+        "end_index": 39667
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Wang, J. et al. Design of N-Coordinated Dual-Metal Sites: A Stable and Active Pt-Free Catalyst for Acidic Oxygen Reduction Reaction. *J Am Chem Soc* **139**, 17281-17284 (2017).\n\nJiao, J. et al. Copper atom-pair catalyst anchored on alloy nanowires for selective and efficient electrochemical reduction of CO2. *Nat Chem*, 222-228 (2019).",
+        "start_index": 39667,
+        "end_index": 40005
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Zhao, Y. et al. Stable iridium dinuclear heterogeneous catalysts supported on metal-oxide substrate for solar water oxidation. *Proc Natl Acad Sci USA* **115**, 2902-2907 (2018).\n\nLiu, W. et al. Single-atom dispersed Co\u2013N\u2013C catalyst: structure identification and performance for hydrogenative coupling of nitroarenes. *Chem. Sci.*, 5758-5764 (2016).",
+        "start_index": 40005,
+        "end_index": 40354
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Li, X. et al. Exclusive Ni\u2013N4 Sites Realize Near-Unity CO Selectivity for Electrochemical CO2 Reduction. *J. Am. Chem. Soc.* **139**, 14889-14892 (2017).",
+        "start_index": 40354,
+        "end_index": 40507
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Chen, Y. et al. Isolated Single Iron Atoms Anchored on N - Doped Porous Carbon as an Efficient Electrocatalyst for the Oxygen Reduction Reaction. *Angew. Chem. Int. Ed.* **56**, 6937-6941 (2017).",
+        "start_index": 40507,
+        "end_index": 40702
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Cychosz, K. A., Guillet-Nicolas, R., Garcia-Martinez, J. & Thommes, M. Recent advances in the textural characterization of hierarchically structured nanoporous materials. *Chem Soc Rev* **46**, 389-414 (2017).",
+        "start_index": 40702,
+        "end_index": 40911
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Zhang, L. et al. Co\u2013N\u2013C Catalyst for C\u2013C Coupling Reactions: On the Catalytic Performance and Active Sites. *ACS Catal.* **5**, 6563-6572 (2015).\n\nFei, H. et al. Atomic cobalt on nitrogen-doped graphene for hydrogen generation. *Nat Commun* **6**, 8668 (2015).",
+        "start_index": 40911,
+        "end_index": 41171
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Dash, K. C., Folkesson, B., Larsson, R. & Mohapatra, M. An XPS investigation on a series of schiff base dioxime ligands and cobalt complexes. *J Electron Spectrosc Relat Phenom* **49**, 343-357 (1989).",
+        "start_index": 41171,
+        "end_index": 41372
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Wang, G. et al. Solid - state supercapacitor based on activated carbon cloths exhibits excellent rate capability. *Adv. Mater.* **26**, 2676-2682 (2014).",
+        "start_index": 41372,
+        "end_index": 41525
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Lu, X., Yim, W. L., Suryanto, B. H. & Zhao, C. Electrocatalytic oxygen evolution at surface-oxidized multiwall carbon nanotubes. *J Am Chem Soc* **137**, 2901-2907 (2015).",
+        "start_index": 41525,
+        "end_index": 41696
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Hsu, C. S. et al. Valence- and element-dependent water oxidation behaviors: in situ X-ray diffraction, absorption and electrochemical impedance spectroscopies. *Phys. Chem. Chem. Phys.* **19**, 8681-8693 (2017).",
+        "start_index": 41696,
+        "end_index": 41907
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Wang, H. Y. et al. In Operando Identification of Geometrical-Site-Dependent Water Oxidation Activity of Spinel Co3O4. *J. Am. Chem. Soc.* **138**, 36-39 (2016).",
+        "start_index": 41907,
+        "end_index": 42067
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Aquilanti, G., Cognigni, A. & Anis-ur-Rehman, M. Cation Distribution in Zn Doped Cobalt Nanoferrites Determined by X-ray Absorption Spectroscopy. *J Supercond Novel Magn* **24**, 659-663 (2010).\n\nPearson, W. B. *Crystal chemistry and physics of metals and alloys*. (Wiley, 1972).",
+        "start_index": 42067,
+        "end_index": 42346
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Gong, L., Chng, X. Y. E., Du, Y., Xi, S. & Yeo, B. S. Enhanced Catalysis of the Electrochemical Oxygen Evolution Reaction by Iron(III) Ions Adsorbed on Amorphous Cobalt Oxide. *ACS Catal* **8**, 807-814 (2018).",
+        "start_index": 42346,
+        "end_index": 42556
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "Song, F. et al. An Unconventional Iron Nickel Catalyst for the Oxygen Evolution Reaction. *ACS Central Science* **5**, 558-568 (2019).\n41 Huang, J. et al. CoOOH Nanosheets with High Mass Activity for Water Oxidation. *Angew Chem Int Ed* **54**, 8722-8727 (2015).",
+        "start_index": 42556,
+        "end_index": 42818
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "42 Fominykh, K. et al. Iron-doped nickel oxide nanocrystals as highly efficient electrocatalysts for alkaline water splitting. *ACS Nano* **9**, 5180-5188 (2015).",
+        "start_index": 42818,
+        "end_index": 42980
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "43 Long, X. et al. A strongly coupled graphene and FeNi double hydroxide hybrid as an excellent electrocatalyst for the oxygen evolution reaction. *Angew Chem Int Ed* **53**, 7584-7588 (2014).\n44 Gong, M. et al. An advanced Ni-Fe layered double hydroxide electrocatalyst for water oxidation. *J Am Chem Soc* **135**, 8452-8455 (2013).",
+        "start_index": 42980,
+        "end_index": 43314
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "45 Song, F. & Hu, X. Exfoliation of layered double hydroxides for enhanced oxygen evolution catalysis. *Nat Commun* **5**, 4477 (2014).\n46 Roy, C. et al. Impact of nanoparticle size and lattice oxygen on water oxidation on NiFeOxHy. *Nat Catal* **1**, 820-829 (2018).",
+        "start_index": 43314,
+        "end_index": 43581
+    },
+    {
+        "document_name": "76.txt",
+        "chunk_text": "47 Dou, S. et al. Atomic-Scale CoOx Species in Metal-Organic Frameworks for Oxygen Evolution Reaction. *Adv Funct Mater* **27**, 1702546 (2017).",
+        "start_index": 43581,
+        "end_index": 43725
+    }
+]

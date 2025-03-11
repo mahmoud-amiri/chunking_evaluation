@@ -1,0 +1,1376 @@
+[
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Metaverse For Battery Manufacturing: Connecting Students From Different Geographical Locations To Solve Battery Manufacturing Problems In The Virtual Reality Space",
+        "start_index": 0,
+        "end_index": 163
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Soorya Saravanan[a][b], Utkarsh Vijay[a][b][c], Sophie Tran[a], Maris Minna Mathew[d], Desislava Yordanova Apostolova[d], Inaki Gandarias[e], Aubin Leclere[f], Romain Lelong[f], and Alejandro A. Franco*[a][b][c][g]",
+        "start_index": 163,
+        "end_index": 377
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[a] S. Saravanan, U.Vijay, S. Tran, Prof. Dr. Alejandro A Franco\nLaboratoire de R\u00e9activit\u00e9 et Chimie des Solides (LRCS), UMR CNRS 7314\nUniversit\u00e9 de Picardie Jules Verne\n15 rue Baudelocque, 80039 Amiens Cedex, France\nE-mail: alejandro.franco@u-picardie.fr",
+        "start_index": 377,
+        "end_index": 632
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[b] S. Saravanan, U.Vijay, S. Tran, Prof. Dr. A. A. Franco,\nR\u00e9seau sur le Stockage Electrochimique de l\u2019Energie (RS2E)\nFR CNRS 3459, Hub de l\u2019Energie\n15 rue Baudelocque, 80039 Amiens Cedex, France",
+        "start_index": 632,
+        "end_index": 828
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[c] U. Vijay, Prof. Dr. A. A. Franco\nALISTORE-European Research Institute, FR CNRS 3104\nHub de l\u2019Energie\n15 rue Baudelocque, 80039 Amiens Cedex, France",
+        "start_index": 828,
+        "end_index": 979
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[d] M. M. Mathew, D. Apostolova\nFaculty of Chemistry and Chemical Technology\nUniversity of Ljubljana\nVe\u010dna pot 113, SI-1000 Ljubljana, Slovenia",
+        "start_index": 979,
+        "end_index": 1122
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[e] I. Gandarias\nChemical and Environmental Engineering Department,\nBilbao School of Engineering, University of Basque Country (UPV/EHU),\nPlaza Ingeniero Torres Quevedo 1, E-48013, Bilbao, Spain",
+        "start_index": 1122,
+        "end_index": 1316
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[f] A. Leclere, R. Lelong\nReviatech SAS\nParc Technologique des Rives de l\u2019Oise\nRue les Rives de l\u2019Oise - 60280 Venette, France\n\n[g] Prof. Dr. A. A. Franco\nInstitut Universitaire de France\n103 Boulevard Saint Michel, 75005 Paris, France",
+        "start_index": 1316,
+        "end_index": 1551
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Abstract: Laboratory practices are essential to prepare students and professionals to drive future innovations in the field of energy storage and conversion. However, universities and industries working in the battery field encounter challenges such as effective and efficient training on complex concepts related to battery production, mostly due to the lack of access to battery prototyping facilities or the limited availability of battery manufacturing pilot lines for training purposes. This Concept introduces an innovative educational platform in Virtual Reality (VR) named Battery Manufacturing Metaverse (BMM)",
+        "start_index": 1551,
+        "end_index": 2169
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". BMM promotes accessibility, inclusion and collaborative learning of Lithium Ion Battery (LIB) manufacturing through an interactive and flexible VR representation of a LIB manufacturing pilot line. It enables collaboration among students and researchers from different geographical locations. Users can explore electrode and cell chemistries and adjust manufacturing parameters with informative feedback from a cell\u2019s composition to the functioning of the manufacturing equipment. BMM does it with real-time collaboration using avatars and voice chat",
+        "start_index": 2169,
+        "end_index": 2720
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". This platform aims to connect universities of i-MESC (Interdisciplinarity in Materials for Energy Storage and Conversion, previously MESC+), an Erasmus+ MSc. Program, enabling seamless knowledge sharing and training. BMM represents a transformative step in battery research and education, offering an immersive, interactive environment without geographical barriers to pave the way towards global education and safe training in the energy sector.",
+        "start_index": 2720,
+        "end_index": 3168
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "1. Introduction\n\n1.1. Context",
+        "start_index": 3168,
+        "end_index": 3197
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Batteries have become one of the most essential technological solutions to combat climate change [1\u20133]. Considering environmentally associated applications, high energy-density batteries, such as Lithium Ion Batteries (LIBs), have proven to be both commercially successful and highly suitable for Electric Vehicles (EVs). The manufacturing of LIBs is expanding to meet the rising demand for EVs and renewable energy storage.",
+        "start_index": 3197,
+        "end_index": 3621
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Simultaneously, new materials are being developed to enhance current LIBs or create more sustainable alternatives. However, scaling up LIB manufacturing presents significant challenges, including material shortages, quality control issues, and labour shortages, which often delay operations and disrupt product delivery timelines\\cite{7,10\u201313}. The rapid expansion of manufacturing capacity often outpaces the availability of a skilled workforce to address sudden demand increases",
+        "start_index": 3621,
+        "end_index": 4101
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Adequate training for both new and existing employees is therefore critical to ensure quality control and maintain safety standards. Laboratory and process engineering-focused training plays a particularly vital role in equipping workers with the knowledge to understand material properties, optimise processes, and minimise risks in manufacturing environments. The training objectives range from understanding manufacturing complexities to producing application-specific optimised LIB electrodes and cells. Training also bridges the gap between theoretical knowledge and practical application, empowering researchers and workers to address the evolving demands of this critical industry",
+        "start_index": 4101,
+        "end_index": 4790
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In this context, digital technologies based, for example, on numerical simulation can offer transformative approaches for efficient battery education.\\cite{8,9,7}.",
+        "start_index": 4790,
+        "end_index": 4955
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Immersive digital technologies such as Virtual Reality (VR), Augmented Reality (AR) and Mixed Reality (MR) enable interactive and engaging experiences, transforming education and industries such as healthcare and entertainment\\cite{6,9}. To the best of our knowledge, our group at Universit\u00e9 de Picardie Jules Verne has pioneered the development and use of these immersive digital technologies for battery education and research\\cite{7,10\u201313}",
+        "start_index": 4955,
+        "end_index": 5397
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". These immersive technologies have made a significant impact on the way we educate and perform research in our laboratory\\cite{7}. For example, we have already applied them for immersive and interactive practices with university students, for reskilling the workforce of Gigafactory operators, and even for battery science popularisation\\cite{10\u201313}",
+        "start_index": 5397,
+        "end_index": 5747
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Furthermore, we have demonstrated innovative VR and MR applications that allow users to explore the battery manufacturing pilot line of our laboratory at Universit\u00e9 de Picardie Jules Verne in an interactive manner\\cite{10\u201313}.",
+        "start_index": 5747,
+        "end_index": 5975
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Our previously reported serious game, Simubat 4.0, allows a user wearing a VR Head Mounted Device (HMD) to immerse himself/herself in a virtual room containing a VR replica of our pilot line. The user can then virtually manufacture electrodes and cells by sequentially following pre-defined steps (e.g. slurry mixing, coating and drying, calendering).",
+        "start_index": 5975,
+        "end_index": 6326
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "In Simubat 4.0, the user has to follow a pre-defined and fixed manufacturing recipe to achieve a target energy for the cell being prepared. Simubat 4.0 guides the user by specifying parameter values to choose for each process step. At each step, users had to select correct parameter values among three options (e.g",
+        "start_index": 6326,
+        "end_index": 6641
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". among three pre-defined slurry drying temperatures) to be allowed to proceed further in the manufacturing, ensuring accuracy as the values were derived from real-world experimental data. Furthermore, Simubat 4.0 supports only one single user, and it allows the production of only one cell (NMC vs. graphite) every time it is used",
+        "start_index": 6641,
+        "end_index": 6972
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Additionally, this tool is coupled with an MR post-processing tool, which combines real-world and digital content to provide another user wearing a HoloLens headset with an interactive visualisation of the electrode microstructure produced by the first user in the VR environment. This triggers collaboration between the user evolving in the VR environment and the one wearing the MR headset, the latter providing oral feedback to the first one about the properties of the electrodes in order to allow further optimisation of the process\\cite{10}",
+        "start_index": 6972,
+        "end_index": 7520
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ".",
+        "start_index": 7520,
+        "end_index": 7521
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Motivated by the success in terms of learning efficiency and engagement of our previous VR and MR educational tools, in this Concept, we present our Battery Manufacturing Metaverse (BMM), an innovative educational tool designed to promote accessibility, inclusion and collaborative learning of the manufacturing process of battery electrodes and cells in an interactive and very flexible VR representation of a battery pilot line",
+        "start_index": 7521,
+        "end_index": 7950
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The BMM has been designed for integration and collaborative learning between the universities (Figure 1) under the i-MESC (Interdisciplinarity in Materials for Energy Storage and Conversion) MSc. program\\cite{14}. The BMM enables interactive knowledge sharing and collaborative practices across different geographical locations in order to engage, include and learn effectively",
+        "start_index": 7950,
+        "end_index": 8329
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". i-MESC is a 2-year Erasmus Mundus Joint Master program (2023\u20132029) designed to prepare professionals to address energy challenges. It focuses on a variety of energy technologies such as rechargeable batteries, supercapacitors and fuel cells, offering interdisciplinary training in materials, device manufacturing, battery engineering, Artificial Intelligence (AI), and digital twins, alongside soft skills, with the support of innovative learning methods based on VR, MR and the BMM in particular.",
+        "start_index": 8329,
+        "end_index": 8828
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Figure 1. Location of participating universities of the i-MESC program and the geographical locations (in red) of the universities that utilise the Battery Manufacturing Metaverse (BMM) application for the study described in this Concept.",
+        "start_index": 8828,
+        "end_index": 9066
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "BMM pushes very significantly the boundaries of Simubat 4.0. Building on its foundation, the BMM introduces three significant advancements. Firstly, users can now select the chemistry of their cell, providing greater flexibility and customisation. Secondly, the platform enables multiple users to join the same instance of the pilot line environment, allowing real-time collaboration in VR through virtual avatars and voice chat. Thirdly, users have the freedom to adjust the process parameter values of any machine",
+        "start_index": 9066,
+        "end_index": 9581
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Then, it uses this information to predict the resulting electrode properties and cell performance, such as the electrode mass loading and thickness and the corresponding gravimetric cell energy density. It also generates a Galvanostatic Cycling with Potential Limitation (GCPL) curve for the chemistry selected.",
+        "start_index": 9581,
+        "end_index": 9894
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "which helps the users understand how the chemistry affects the charge-discharge characteristics of the cell. To ensure maximum flexibility in educational and research scenarios, the BMM also enables the creation of virtual half cells and unconventional full cells containing identical electrode materials on both sides. This openness allows students and researchers to intentionally try \u201cincorrect\u201d configurations for maximal flexibility in possible pedagogic scenarios, fostering a deeper insight into battery manufacturing principles",
+        "start_index": 9894,
+        "end_index": 10429
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Additionally, the application offers detailed feedback based on the chosen parameter values, enriching the learning and experimentation process. These very significant advancements empower users to experiment with new recipes and observe the effects of different parameter combinations, marking a significant step forward in virtual battery manufacturing education, training, and research.",
+        "start_index": 10429,
+        "end_index": 10820
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "1.2. How to optimise cell energy density from manufacturing parameters?\n\nThe BMM empowers users to explore and optimise manufacturing parameters that influence the energy density of the virtually produced battery cells. Thus, the BMM allows understanding of the intricate relationships between manufacturing processes and cell performance, a critical aspect of optimised battery cell development.",
+        "start_index": 10820,
+        "end_index": 11216
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "A typical LIB cell is made up of a positive electrode, a negative electrode and an electrolyte. The positive electrode contains an active material (AM) that has a high reduction potential, and the negative electrode contains an AM that has a reduction potential lower than the positive side. The electrodes are ionically connected to each other by the electrolyte. An electric load is given to discharge, and a source is given to charge the cell",
+        "start_index": 11216,
+        "end_index": 11661
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". During charge, lithium is removed from the positive electrode (due to oxidation) and moves into the electrolyte, and simultaneously, lithium ions from the electrolyte are then \u2018stored\u2019 in the negative electrode (through reduction of negative AM). During discharge, this process is reversed. It is also necessary for either the positive electrode or the negative electrode to initially contain lithium, which can be electrochemically removed.",
+        "start_index": 11661,
+        "end_index": 12104
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Ideally, a hypothetically perfect cell should consist of a positive electrode and a negative electrode, both made of 100 % of AM and should hold the same electrode capacity with a thin layer of solid electrolyte separating them, which allows ions to be transferred between the two electrodes (Figure 2). But practically, a significant amount of \u201cdeadweight\u201d is added to the cell due to physical limitations while designing a cell[19]",
+        "start_index": 12104,
+        "end_index": 12537
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In reality, the AMs are, generally, not conductive enough to enable efficient charge (ionic and electronic) transport to and from the electrode. So, an electronic conductive additive, an appropriate AM particle size, and a current collector are required to ensure sufficient electronic transport in the electrode[16,17]",
+        "start_index": 12537,
+        "end_index": 12858
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Similarly, to ensure sufficient ionic transport, the electrode requires a minimum porosity to ensure complete liquid electrolyte percolation and a suitable AM particle size is required to have sufficient reaction kinetics[18,19]. Also, a porous separator impregnated with a liquid electrolyte is required to ionically connect the two electrodes, and it should be thick enough to improve safety[20] and have sufficient mechanical strength to withstand the manufacturing operations of the cells[21]",
+        "start_index": 12858,
+        "end_index": 13356
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Further, binders and current collectors are required to hold the electrode components together and distribute current uniformly through the electrode, respectively[22,23]. Also, a higher amount of AM and electrolyte than the theoretical requirement is needed to account for the initial Solid Electrolyte Interphase (SEI) formation and achieve the desired cell capacity[24]",
+        "start_index": 13356,
+        "end_index": 13730
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Additionally, a slightly higher capacity of AM in the negative electrode is necessary to prevent lithium plating in the negative electrode during the cell\u2019s life cycle[25].",
+        "start_index": 13730,
+        "end_index": 13904
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Aside from the limitations posed by the material properties, there are also limitations set by the process parameters. For the wet processing of the electrodes, the electrode formulation and the thickness are also limited by the rheology of the slurry[26]. The final electrode porosity is controlled by the calendering step, where reducing the roll gap makes it increasingly hard to compress the material further[27]",
+        "start_index": 13904,
+        "end_index": 14320
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Apart from maximising energy density, it is also important to maximise the power density of the cell. This further limits the maximum achievable energy density of the cell since the optimal parameter values required for high power density are usually diametrically opposed to the values required for high power density[27]. One such example is the thickness of the electrode. For achieving high-power density, the electrode should be thin, whereas, for optimising energy density, thicker electrodes are preferred",
+        "start_index": 14320,
+        "end_index": 14834
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Thinner electrodes require the electrodes to be longer to achieve the same capacity as a thicker electrode, which increases the weight of electrochemically inactive materials, such as the current collector and separator in the final cell, reducing the final gravimetric cell energy density. The aim of our BMM is to enable students (and users in general) to learn and understand all these complex concepts in an immersive, interactive and collaborative environment.",
+        "start_index": 14834,
+        "end_index": 15301
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Our Concept is organised as follows: first, we discuss the BMM application, including its layout, followed by a description of the\nembedded mathematical modelling, which allows the evaluation of the influence of manufacturing parameters on the electrodes and cells' properties. Next, we describe a usage scenario and preliminary results, and finally, we provide a summary and outlook of our work.\n\n2. Metaverse Application Description\n\n2.1. BMM application",
+        "start_index": 15301,
+        "end_index": 15757
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Before using the BMM, users can create their avatar that will be visible in the application by going through a weblink service provided by Ready Player Me\\(^{(23)}\\) (Figure 3a). A user entering the application sees a screen where she/he can view her/his avatar and the eight rooms available on the server (Figure 3b). Each room is an instance of the BMM",
+        "start_index": 15757,
+        "end_index": 16111
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". This feature allows multiple individual sets of virtual \"classrooms\" which can be hosted simultaneously. Any number of users can join a particular room, and any number of rooms can be created if necessary, as the main limitation is determined by the server's hardware capacity. However, considering optimal ergonomics, the number of users is limited to six. This limitation is designed to maintain a comfortable and manageable environment for all participants",
+        "start_index": 16111,
+        "end_index": 16572
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". A balanced number of users helps maintain clear communication and engagement, ensuring everyone has the chance to learn and contribute meaningfully. Once a user enters any room, the virtual pilot line and the other users present in the room become visible. The lab contains various products, machines and equipment required to manufacture 18650-format full cells, but it is also possible to produce half cells or symmetric cells (i.e. cells having the same type of electrode as positive and negative electrode)",
+        "start_index": 16572,
+        "end_index": 17084
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The users can use voice chat to talk to each other in the VR environment and exchange virtual products and equipment with each other by simply handing them over (Videos in Supporting Information). They can freely move around the room with a virtual teleportation interaction available through their hand controller.",
+        "start_index": 17084,
+        "end_index": 17401
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The users can freely choose the control parameter values for machines. For example, the speed (in Rotations Per Minute \u2013 RPM-), the time (in minutes -min-), the temperature (\u00b0C) or the line speed (in meters/min), etc",
+        "start_index": 17401,
+        "end_index": 17617
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". To assemble the prepared electrodes, there is an electrode slitting machine, a winding machine, a welding machine, and a machine to finally degas, fill the cell with the liquid electrolyte and seal the cell (Figure 4h-Figure 4k). The latter machines (Figure 4h-Figure 4k) do not have any manufacturing parameters associated with them in the current version of the BMM application",
+        "start_index": 17617,
+        "end_index": 17998
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". If the user wishes to fabricate a half cell (with Lithium metal), they can pick the prefabricated lithium metal electrodes available on the shelves, which they can directly use in the winding machine along with the working electrode.",
+        "start_index": 17998,
+        "end_index": 18233
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "2.2. Layout of the virtual reality battery manufacturing pilot line",
+        "start_index": 18233,
+        "end_index": 18300
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The room in the BMM is a dry room and contains shelves with various products and objects to use for manufacturing the LIB cells. Figure 4a shows virtual shelves containing various active materials, additives, binders, solvent containers, slurry mixing pots and lithium metal electrodes (used to fabricate cells). Users can then choose the materials they wish to use among the available products, depending on the type of cell they wish to make (half-cell, full cell, symmetric cell)",
+        "start_index": 18300,
+        "end_index": 18782
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The users can select any combination of AM for the two sides of the cell, even similar active materials. The corresponding performance is output during the virtual characterisation. The various currently available materials are listed in Table 1 of the Supporting Information document. It is important to note, that this list is continuously being expanded, i.e. the BMM is a dynamic environment capable to easily integrate and account for new materials and properties.",
+        "start_index": 18782,
+        "end_index": 19253
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "To proceed with the virtual manufacturing, the users first need to make a slurry. The virtual pilot line is equipped with a powder dispensing machine, where the users can place a mixing pot to add the materials they wish to use in their electrode (Figure 4b). The screen in front of the machine can be used to select the total amount of materials and the percentage of each material that the users want to use",
+        "start_index": 19253,
+        "end_index": 19662
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". By clicking the green button at the bottom of the screen, the process of filling the pot with the powders begins. Then, the powder premixing machine can be used to achieve a homogenous mixture of dry mass (Figure 4c). However, users have the freedom not to use this machine. Similar to the powder-filling machine, there is a solvent-filling machine where the users can control the weight of the solvent added (Figure 4d)",
+        "start_index": 19662,
+        "end_index": 20084
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Additionally, there are two slurry mixing machines (Figure 4e), a roll-to-roll coating machine with a reverse roll coater and a two-part drying oven (Figure 4f), and a calendering machine (Figure 4g). The manufacturing process parameters of all the concerned machines are mentioned in Table 2 of the Supporting Information document.",
+        "start_index": 20084,
+        "end_index": 20418
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The manufactured slurry can then be coated on the electrodes to make (half-cell, full cell, symmetric cell). The users can select any combination of AM for the two sides of the cell, even similar active materials. The corresponding performance is output during the virtual characterisation. The various currently available materials are listed in Table 1 of the Supporting Information document. It is important to note, that this list is continuously being expanded, i.e",
+        "start_index": 20418,
+        "end_index": 20888
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". the BMM is a dynamic environment capable to easily integrate and account for new materials and properties.",
+        "start_index": 20888,
+        "end_index": 20996
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The users can freely choose the control parameter values for machines. For example, the speed (in Rotations Per Minute \u2013 RPM-), the time (in minutes -min-), the temperature (\u00b0C) or the line speed (in meters/min), etc",
+        "start_index": 20996,
+        "end_index": 21212
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". To assemble the prepared electrodes, there is an electrode slitting machine, a winding machine, a welding machine, and a machine to finally degas, fill the cell with the liquid electrolyte and seal the cell (Figure 4h-Figure 4k). The latter machines (Figure 4h-Figure 4k) do not have any manufacturing parameters associated with them in the current version of the BMM application",
+        "start_index": 21212,
+        "end_index": 21593
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". If the user wishes to fabricate a half cell (with Lithium metal), they can pick the prefabricated lithium metal electrodes available on the shelves, which they can directly use in the winding machine along with the working electrode.",
+        "start_index": 21593,
+        "end_index": 21828
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Figure 4. Various process steps that are possible to undertake in our Battery Manufacturing Metaverse. The orange labels correspond to electrode manufacturing processes, and the blue labels correspond to the final cell manufacturing processes; The result shows the gravimetric cell energy density of the fabricated cell, along with the typical GCPL curve associated with the chosen chemistry combination of the electrodes, and a feedback on the parameters chosen during the fabrication. Each machine requires an input object (product/material) to start the process.",
+        "start_index": 21828,
+        "end_index": 22393
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "To perform the formation step and evaluate the performance of the manufactured cells, an electrochemical testing machine (potentiostat) for 18650 format cells is also present in the virtual environment (Figure 41). The potentiostat can simultaneously accommodate up to nine cells (both half or full). This helps to compare the cells manufactured using different manufacturing parameters",
+        "start_index": 22393,
+        "end_index": 22779
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Upon testing, the gravimetric energy density, a GCPL curve corresponding to the chemistry used, and feedback are displayed for each cell in the potentiostat (Figure 4m). The feedback shows other key properties of the cell, such as the mass loading of each of the electrodes, and also comments regarding all the mistakes made by the users during the fabrication procedure, if any",
+        "start_index": 22779,
+        "end_index": 23159
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The feedback is provided at the end since it is helpful to perform evaluations of the user\u2019s performance if required.",
+        "start_index": 23159,
+        "end_index": 23278
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "There are also machines in the room to deposit the final full cells/half cells to save the fabricated cells' performance or discard them if the cells have failed (Figure 5a). All the processes are simulated with realistic time, and when desired, time can be accelerated using a time control panel, allowing to jump 20 minutes, 1 hour, 4 hours or 8 hours in the future (Figure 5d)",
+        "start_index": 23278,
+        "end_index": 23657
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". This gives users a realistic sense of time and helps them understand the bottlenecks in production speed. The application stores the sequence of processes performed and their corresponding parameter values during the simulation. The instructor has the capability to save the room\u2019s state using an observation mode within the application, ensuring continuity and convenience in the training sessions",
+        "start_index": 23657,
+        "end_index": 24057
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The application is also equipped with features like virtual notebooks, Easter eggs, and virtual labels to enhance engagement, interactivity and functionality (Figure 5b, c, and e, respectively).",
+        "start_index": 24057,
+        "end_index": 24253
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "![Figure 5](https://example.com/figure5.png)",
+        "start_index": 24253,
+        "end_index": 24297
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Figure 5. (a) Machines to deposit the finished cells/half cells or a recycling bin to reset the objects used for the cell; (b) Notebooks in which instructors can prepare the instructions/tips to be given during the class; (c) One of the Easter Eggs in the application honouring the late Professor Dr. John B",
+        "start_index": 24297,
+        "end_index": 24604
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Goodenough; (d) Control panel to accelerate time when desired; (e) Expanded virtual labels which show the state of the product (or the intermediate product).",
+        "start_index": 24604,
+        "end_index": 24763
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The virtual notebooks enable the instructor to pre-define a series of steps for students to follow, offering a structured and guided approach to learning. These predefined instructions streamline the process and ensure consistency and accuracy during the student\u2019s interaction with the virtual pilot line environment. Virtual labels are strategically placed at every stage of the electrode preparation and at the cell level, providing detailed insights into both the specifications and the state of the sample cell before and after each step",
+        "start_index": 24763,
+        "end_index": 25304
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". For example, a virtual label present on the electrode after the calendering process contains the sequence of processes performed to reach the current state and the parameter values chosen during each process. This feature ensures that users, whether instructors or students, can readily access critical data in real-time, enhancing their understanding of the process and its outcomes. The inclusion of Easter eggs serves as an engaging and educational addition",
+        "start_index": 25304,
+        "end_index": 25766
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". These hidden features are designed to familiarise users with the virtual battery pilot line environment, improve their proficiency with the controllers, and promote an ergonomic workflow within the BMM. By incorporating such elements, the application supports skill development and fosters an enjoyable and intuitive learning experience. Easter eggs include pictures from the recent alumni graduation ceremony of the MSc. program, pictures of individuals who have contributed to the development of this tool, and Nobel Laureate Prof. Dr. John B",
+        "start_index": 25766,
+        "end_index": 26312
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Goodenough, a battery pioneer, along with a key message. Furthermore, instructors can customise these Easter eggs to personalise them according to the end users before the VR session.",
+        "start_index": 26312,
+        "end_index": 26497
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "When the electrochemical testing machine is activated, the resulting data corresponding to the final manufactured cell is used to calculate the gravimetric cell energy density of the cell. The parameters are used in two different ways. Only certain parameters, such as chemistry, electrode composition, amount of dry mass, slurry solid content, comma gap, and calender roll gap, are directly utilised in the equations for the calculation. Also, certain assumptions are made to simplify the calculations",
+        "start_index": 26497,
+        "end_index": 26999
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Based on these assumptions, a set of simplified mathematical equations that use these parameters is employed to derive the final output properties, which help streamline the calculation process. However, these parameters affect the cell energy density in ways other than how they are used in the cell energy density calculation, but they are too complex to represent their effects mechanistically. For example, mass loading is directly proportional to the comma gap",
+        "start_index": 26999,
+        "end_index": 27466
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". However, if the slurry\u2019s dynamic yield stress is exceeded during roll coating, variations in mass loading can occur due to the slurry dripping back into the roll[29,30]. Therefore, all the chosen parameter values, including those not used for calculating cell energy density, are addressed by defining their minimum and maximum values (thresholds). These thresholds are set such that a reasonably processible product is achieved at every step of the manufacturing process",
+        "start_index": 27466,
+        "end_index": 27939
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". If the values the user selects do not fall within these thresholds of the different parameters, then feedback about that choice is provided to the user when the user tests the cell. These equations and assumptions are carefully selected to provide a general trend of the effects of various parameters considered. Their derivation is explained in the following sections.",
+        "start_index": 27939,
+        "end_index": 28310
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "2.3. Mathematical modelling of the manufacturing parameter thresholds",
+        "start_index": 28310,
+        "end_index": 28379
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "When formulating an electrode, it is crucial to carefully consider the minimum required amounts of binder and carbon black to",
+        "start_index": 28379,
+        "end_index": 28504
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "ensure proper functionality. The carbon black needs to be sufficiently high to reach the electronic conductivity percolation threshold\\textsuperscript{[31]}, and the binder should be sufficiently high to give mechanical strength, adhesion to the current collector and flexibility to the electrode. The percolation threshold also depends on the AM\u2019s type, morphology and the particle size, and the amount of binder",
+        "start_index": 28504,
+        "end_index": 28917
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". However, here, a minimum content of carbon black and binder is simply taken, depending on the type of AM used in the electrode\\textsuperscript{[22,33]}. These values offer a reasonable margin, ensuring that the selected values in the application do not reach limiting thresholds",
+        "start_index": 28917,
+        "end_index": 29197
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". For the premixing process\\textsuperscript{[34,36]}, the chosen thresholds for the premixing time depend on the total dry mass used and the interfacial energies between the particles in the mixture\\textsuperscript{[36]}. Sufficient time should be taken to ensure homogenous premixing, but premixing for a longer duration can degrade the AM\\textsuperscript{[37]}",
+        "start_index": 29197,
+        "end_index": 29559
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". For calculating the thresholds for premixing, the effects of dry mass and their properties are neglected, and the criteria are simplified to reported minimum and maximum premixing time values.\\textsuperscript{[35,37]}",
+        "start_index": 29559,
+        "end_index": 29778
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Further solvent addition is an important parameter that impacts slurry processing and utilisation, such as mixing, coating, and drying. The amount of solvent that can be used mainly depends on the solvent-binder combination and the AM used\\textsuperscript{[23,38\u201340]}. If the value of the corresponding solid content does not fall within this range, feedback is given to the user during the characterisation of the cell",
+        "start_index": 29778,
+        "end_index": 30197
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". If the solid content is too low, then the slurry does not have sufficient particle network structures capable of withstanding the weight of the coated slurry, leading to an unstable slurry that flows too much upon coating\\textsuperscript{[40,41]}. If the solid content is too high, then the slurry takes more time to homogenise during mixing, which can lead to agglomeration-related defects during coating",
+        "start_index": 30197,
+        "end_index": 30604
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It can also lead to a highly viscous slurry, which will need more advanced coating techniques than the traditional wet processing, which are still in development\\textsuperscript{[42]}. After solvent addition, the premixed dry mass is dispersed in the solvent by a mixer. The geometry of the mixer, the number and type of blades, and the volume of the slurry used need to be considered for the determination of the mixing speed and time thresholds",
+        "start_index": 30604,
+        "end_index": 31052
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In this case, the BMM contains a planetary mixer consisting of dual twisted agitator blades and a dispersion blade. The revolution of the blades and the rotational speed of the agitators are taken to be constant. The users can input different dispersion speeds. The edge speed of the dispersion blade and the clearance of its tip from the walls and the agitator blades provide a reasonable estimate of the maximum shear rate inside the mixer",
+        "start_index": 31052,
+        "end_index": 31495
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The maximum edge speed \\(v_{\\text{max}}\\) (meters/second -m/s-) of the dispersion blade, can be estimated from the formula,",
+        "start_index": 31495,
+        "end_index": 31620
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[\nv_{\\text{max}} = 2\\pi \\times (\\omega_d r_d + \\omega_p r_p)\n\\]\n\n(1)",
+        "start_index": 31620,
+        "end_index": 31689
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\(r_d\\) and \\(r_p\\) are the radius and \\(\\omega_d\\) and \\(\\omega_p\\) are the rotational speed of the dispersion blade and the planetary revolution speed, respectively. With the maximum edge speed, the maximum shear rate needs to be estimated since a high shear rate can cause polymer chain breakage of the binder\\textsuperscript{[43,44]}",
+        "start_index": 31689,
+        "end_index": 32032
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Also, high mixing speed can destroy the formation of favourable slurry-stabilising particle network structure, leading to an unstable slurry\\textsuperscript{[44]}. Since the distance, \\(d\\) (in meters), between the walls of the mixer to the edge of the dispersion blade is always constant, the approximate maximum shear rate \\(\\dot{\\gamma}_{\\text{max}}\\) (Hz) can be found,",
+        "start_index": 32032,
+        "end_index": 32407
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[\n\\dot{\\gamma}_{\\text{max}} = \\frac{v_{\\text{max}}}{d}\n\\]\n\n(2)",
+        "start_index": 32407,
+        "end_index": 32470
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Here, the thresholds are simplified to represent to only two cases, CMC-based slurries, and PVDF-based slurries, and the effects of AM content and solid content are ignored. From previously reported studies\\textsuperscript{[43,45]}, the approximate value of the maximum possible shear rate for both PVDF-based and CMC/SBR-based slurries can be found, from which the maximum mixing speed is chosen",
+        "start_index": 32470,
+        "end_index": 32866
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Similarly, to find minimum mixing speeds and times, the dimensionless mixing time needs to be found. The dimensionless mixing time constant is determined using the equation\\textsuperscript{[46,47]},",
+        "start_index": 32866,
+        "end_index": 33066
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[\n\\omega_d \\times t_m = A \\times (Re)^b = \\text{constant}\n\\]\n\n(3)",
+        "start_index": 33066,
+        "end_index": 33132
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\(t_m\\) (in seconds) is the mixing time where \\(m\\) % of the mixture is homogenised, \\(Re\\) is the Reynolds number of the flow, \\(A\\) and \\(b\\) are the parameters which are dependent on the type and geometry, of the mixer. For turbulent flow (high Reynolds number), \\(b = 0\\text{[48]}.\\) If so, then the relation between mixing speed and time can be simplified to an inverse relation",
+        "start_index": 33132,
+        "end_index": 33521
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Since the dispersion blade rotates at high RPM, turbulent flow can be assumed here. The constant can be estimated using optimised mixing time (where we assume \\(m\\) is close to 100%) and mixing speed data from previous reports\\textsuperscript{[43,48]}. This estimation allows for interpolation to determine minimum mixing time thresholds for specific mixing speeds. Here we assume that there is no maximum mixing time limit for mixing for a speed that is less than the maximum permitted mixing speed",
+        "start_index": 33521,
+        "end_index": 34022
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". More complex effects that are associated with mixing time and speed in LIB electrode production are ignored for the sake of simplification. For example, prolonged mixing times and elevated speeds can lead to the disruption stable slurry networks, potentially compromising the uniformity and quality of the electrode slurry\\textsuperscript{[41,49]}",
+        "start_index": 34022,
+        "end_index": 34371
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". There is also the effect of mixing sequence\\textsuperscript{[50\u201352]}, which is not considered here currently, but that can be considered in the future, given the flexibility of the BMM environment design.",
+        "start_index": 34371,
+        "end_index": 34577
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The slurry is coated using a reverse roll coating process\\textsuperscript{[29,30]}. For the purpose of simplicity, it is assumed that the coating thickness is accurately provided by the comma gap parameter in the machine",
+        "start_index": 34577,
+        "end_index": 34797
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The value of the final coating thickness ranges from 30 \\(\\mu\\)m to 200 \\(\\mu\\)m since higher coating thickness can lead to high mass loading, which can reduce effective energy density by reducing the maximum achievable capacity from the active material due to poor Lithium ion diffusion kinetics within the electrode\\textsuperscript{[29]}",
+        "start_index": 34797,
+        "end_index": 35138
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The effect of line speed on the coating thickness is ignored in the BMM script since the reverse coating machine can be controlled to allow for uniform coating at moderate to high line speeds\\textsuperscript{[29,30]}. The line speed can be varied from 0.1 to 2 meters/minute (m/min)",
+        "start_index": 35138,
+        "end_index": 35422
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". So, a minimum temperature of 85\u00b0C for NMP-based slurries and a minimum of 60\u00b0C is given as a threshold for the temperature of the ovens to ensure sufficient drying before the electrode exits the oven. A maximum of 160\u00b0C for NMP and 80\u00b0C for water is given as the maximum threshold\\textsuperscript{[54\u201356]}. For the calendering process, the effect of line speed and temperature is ignored",
+        "start_index": 35422,
+        "end_index": 35811
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The virtual calendering machine has a line speed of 0.1 to 1 meters/minute (m/min). For these range of values, it has been reported that no significant effect of speed on the resulting electrode property (porosity) is observed\\textsuperscript{[57]}. The roll temperature effects on the final electrode properties highly depend on the formulation and binder distribution and are not",
+        "start_index": 35811,
+        "end_index": 36194
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "represented in this version of the BMM[26,58,59]. The maximum threshold for the roll gap is the sum of the thickness of the current collector and the dry electrode thickness since no calendering takes place with a roll gap larger than this. The minimum threshold is taken considering the particle fracture in the electrode, which leads to poor cycling performance[60\u201367]",
+        "start_index": 36194,
+        "end_index": 36564
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It is assumed that the virtual calendering machine has ideal calendering rolls that are not susceptible to deformation. So, the roll gap is taken to be the actual gap through which the electrode is passed through. The AM particles are taken to be brittle, so fracture is assumed if a roll gap less than the height that can accommodate the AM particle is reached. So, the minimum roll gap is taken to be the point at which the minimum AM skeletal porosity of 20 % is reached",
+        "start_index": 36564,
+        "end_index": 37039
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It is assumed here that the carbon binder domain is flexible enough to reorganise itself under high pressure, allowing the AM to reach this skeletal porosity. The value of 20 % for the minimum skeletal porosity is also assumed since it is dependent on a variety of factors such as particle size distribution, roughness, etc[83]. The equation for finding the AM skeletal porosity is as follows,",
+        "start_index": 37039,
+        "end_index": 37434
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ \\varepsilon_{skeletal} = 1 - \\frac{m_t}{\\rho_{AM} \\times (h - \\varepsilon_{cC})} \\]",
+        "start_index": 37434,
+        "end_index": 37520
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( m_t \\) is the mass loading (in mg/cm\\(^2\\)), \\( \\rho_{AM} \\) is the AM density (in g/cm\\(^3\\)), \\( h \\) (in \u00b5m) is the roll gap input in the virtual calendering machine, and \\( \\varepsilon_{cC} \\) is the thickness of the current collector (in \u00b5m)",
+        "start_index": 37520,
+        "end_index": 37775
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It is possible that the critical stress to cause particle fracture might have been reached before or later in real experiments, so the minimum roll gap and the minimum possible AM skeletal porosity are just estimates to evaluate the user\u2019s performance.",
+        "start_index": 37775,
+        "end_index": 38029
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "2.4. Calculating the Gravimetric Cell Energy Density",
+        "start_index": 38029,
+        "end_index": 38081
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Since this article aims to demonstrate the functionalities of the BMM application, a simple script is presented here to calculate the gravimetric cell energy density. The script is written in Python by taking approximations so that the computations are fast. However, physics-based and/or data-driven models, as reported in our previous works[60\u201364\u201367], can also be used to predict the output properties of products of each process more accurately in the near future",
+        "start_index": 38081,
+        "end_index": 38547
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In this script, the energy density at the cell level is taken to be dependent on the format of the cell, the chemistry, formulation, and the electrode properties, such as thickness, density, and porosity. However, it might also be that other cell properties affect the cell energy density, such as the extent of ionic and electronic percolation in each electrode, surface area for SEI formation and so on, which are not considered in the current version of the BMM",
+        "start_index": 38547,
+        "end_index": 39013
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Again, the latter aspects can be included later because of the flexibility of the BMM environment design.",
+        "start_index": 39013,
+        "end_index": 39120
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "After choosing the chemistry, formulation of the dry mass and the solvent content, the approximate volume of the slurry is calculated. Here, it is assumed that no considerable change in the volume of the mixture occurs due to solvation and solvent-solute-particle interaction effects[86]. So, the volume of the slurry is calculated by,",
+        "start_index": 39120,
+        "end_index": 39455
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ V_{slurry} (ml) = \\frac{m_{AM} + m_{ADD} + m_{BIN} + m_{SOL}}{\\rho_{AM/ADD/BIN/SOL}} \\]",
+        "start_index": 39455,
+        "end_index": 39545
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( m_{AM/ADD/BIN/SOL} \\) is the mass of AM, conductive additive, binder, or solvent used (in g), respectively, and similarly \\( \\rho_{AM/ADD/BIN/SOL} \\) is the corresponding density (in g/cm\\(^3\\)). Here, the skeletal density of the components is used",
+        "start_index": 39545,
+        "end_index": 39802
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Then, assuming the slurry is stable under the coating shear rate, it is taken that the thickness of the coated slurry is the same as the comma gap minus the thickness of the current collector[86]. The total length of the electrode that is coated is then calculated as,",
+        "start_index": 39802,
+        "end_index": 40072
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ l(mm) = \\frac{V_{slurry}(in ml) \\times 1,000,000}{coating \\, width (mm) \\times thickness \\, of \\, coated \\, slurry \\, (um)} \\]  \n\nOnce the electrode is coated, it is dried in the oven. The mass loading of the electrode is now calculated,",
+        "start_index": 40072,
+        "end_index": 40312
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ m_1 = \\frac{m_{AM} \\times 100,000}{x \\times coating \\, width} \\]",
+        "start_index": 40312,
+        "end_index": 40379
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "It is assumed that the porosity is 55 % for all electrodes just after drying to streamline the calculation. In reality, the porosity of the dried electrode depends on the coated slurry thickness, the electrode formulation, the slurry solid content and the drying rate[43,48]. Generally, physics-based simulations provide an accurate estimate of the effects of these factors",
+        "start_index": 40379,
+        "end_index": 40752
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". However, the calculation of porosity through physics-Based models is time-consuming to perform for all the different parameters[81], so it is not used in this context. With the assumption of porosity and the mass loading, the dried electrode thickness is calculated as below,",
+        "start_index": 40752,
+        "end_index": 41029
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ t_d = \\frac{m_1 \\times 10}{(1-0.55) \\times x_{AM} \\times \\rho_0} \\]  \n\nwhere \\( t_d \\) is the dry electrode thickness (in \u00b5m), \\( x_{AM} \\) is the mass fraction of the AM, \\( \\rho_0 \\) is the maximum theoretical density of the electrode (in g/cm\\(^3\\)) and is defined as,",
+        "start_index": 41029,
+        "end_index": 41303
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ \\rho_0 = \\frac{m_{AM} \\times \\rho_{ADD} + m_{BIN} \\times \\rho_{BIN}}{m_{AM} \\times \\rho_{ADD} + m_{BIN} \\times \\rho_{BIN} + m_{SOL} \\times \\rho_{SOL}} \\]",
+        "start_index": 41303,
+        "end_index": 41459
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "For the calendering process[26,57,58,64,69], the roll gap, line speed, and temperature of the rolls are provided as input parameters. The effect of calendering is described in terms of porosity as an output, which in turn is described by the roll gap and the mass loading of the electrode. The roll gap is used in the form of calendering degree (\\( \\varepsilon_d \\)), which is described in the following relation.",
+        "start_index": 41459,
+        "end_index": 41872
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ \\varepsilon_d = \\frac{t_d - h + t_c}{t_d} \\]  \n\nAn inverse sigmoid relation is used, as shown below, which includes the influence of mass loading.",
+        "start_index": 41872,
+        "end_index": 42021
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ \\frac{\\varepsilon - \\varepsilon_{min}}{\\varepsilon_{min} - \\varepsilon} = \\frac{1}{1 + e^{\\left(\\frac{1}{(A + B \\times \\varepsilon_d \\times \\rho)}\\right)}} \\]",
+        "start_index": 42021,
+        "end_index": 42182
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( \\varepsilon \\) is the porosity (in fraction) after calendering, \\( \\varepsilon_{min} \\) is the minimum achievable porosity (in fraction), \\( \\varepsilon_d \\) is the initial porosity (=0.55), A is the compressibility factor (dimensionless), b is the compressibility coefficient of mass loading, and B is a fitting parameter",
+        "start_index": 42182,
+        "end_index": 42513
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The equation is fitted with reported values[26,70] and modified to provide a general trend of the calendering process. Particularly, the equation for various electrode chemistries is simplified by taking only two cases of electrodes: a soft electrode (such as graphite) and a hard electrode (such as NMC, LTO)",
+        "start_index": 42513,
+        "end_index": 42824
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Each case has a different compressibility factor and different minimum porosities (18 % for soft electrodes and 25 % for hard electrodes), but the values for b and B are kept the same for both cases. It is important to note that the minimum achievable porosity is also affected by the mass loading and temperature, which are not accounted for in this calculation. The final electrode thickness",
+        "start_index": 42824,
+        "end_index": 43219
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Once all the required electrode processes are performed for both positive and negative electrodes, the process of winding is evaluated. During the winding process, the stack of the cell components (Figure 6) is wound on a mandrel to form a jelly roll. The virtual pilot line makes cylindrical cells with dimensions diameter = 18 mm and height = 65 mm (18650 format). The positive and negative electrodes are wound on a rod called a mandrel (diameter = 2 mm)",
+        "start_index": 43219,
+        "end_index": 43676
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". To accommodate the cap of the cell and the swelling of the jelly roll during electrolyte filling and cycling, the volume of the jelly roll should be less than the volume of the cell. So, the maximum volume that can be occupied by the jelly roll is,",
+        "start_index": 43676,
+        "end_index": 43926
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ V_{\\text{max}} = \\frac{1}{4} \\pi (d_j^2 - d_m^2) b \\]",
+        "start_index": 43926,
+        "end_index": 43982
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( d_j \\) is the maximum diameter of the jelly roll, \\( d_m \\) is the diameter of the mandrel, and \\( b \\) is the height of the jelly roll. The volume of the jelly roll is equivalent to the volume of the stack of electrodes and separators, as shown in Figure 6",
+        "start_index": 43982,
+        "end_index": 44248
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Looking at the sequence of the battery manufacturing process, it is seen that the final thickness is reached only when they are trimmed by a semi-automatic winding machine to fit the maximum volume. So, once the final electrode thickness is calculated, the maximum electrode length that can fit in the casing can be found with the equation.",
+        "start_index": 44248,
+        "end_index": 44590
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ a (\\text{in mm}) = \\frac{1000}{4 \\pi} \\times (d_j^2 - d_m^2) \\]  \n\nwhere \\( t (\\mu m) \\) is the total thickness of the electrode-separatorcurrent collector stack (Figure 6).",
+        "start_index": 44590,
+        "end_index": 44766
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ t = 2 \\times t_{\\text{sep}} + t_{(e)} + t_{(-)} + t_{c(c)} + t_{c(c)} \\]",
+        "start_index": 44766,
+        "end_index": 44841
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( t_{\\text{sep}} \\) is the thickness of separator, positive electrode, negative electrode, current collector of the positive electrode, and current collector of the negative electrode, respectively. However, if the electrodes are smaller than the maximum possible length, the length of the stack can simply be taken to be the length of the shortest electrode.",
+        "start_index": 44841,
+        "end_index": 45207
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Once the length and the thickness of the electrodes are determined, the volume of the electrolyte \\( (V_{\\text{electrolyte}}) \\) in mm\u00b3, is estimated by finding the volume of the pores in the electrode stack with an additional 10% of electrolyte to ensure that the electrode is properly soaked.",
+        "start_index": 45207,
+        "end_index": 45501
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ V_{\\text{electrolyte}} = 1.1 \\times (e^+ \\times V^+ + e^- \\times V^- + 2 \\times e^{sep} \\times V^{sep}) \\]",
+        "start_index": 45501,
+        "end_index": 45610
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( V^{+/\u2212} \\) is the volume of the positive electrode, negative electrode and separator, respectively, in mm\u00b3, and similarly, \\( e^{+/\u2212} \\), is the porosity (in fraction). Finally, to calculate the gravimetric energy density of the cell, the mass of each component of the cell and the energy of the cell need to be calculated",
+        "start_index": 45610,
+        "end_index": 45941
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". To find the mass of each component, the corresponding density of the component is taken, and the volume of the specific component is used. For example,",
+        "start_index": 45941,
+        "end_index": 46094
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ m_{\\text{electrode}} = \\rho_{\\text{electrode}} \\times \\frac{V_{\\text{electrolyte}}}{1000} \\]",
+        "start_index": 46094,
+        "end_index": 46189
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( m_{\\text{electrode}} \\) is the mass (in g) and \\( \\rho_{\\text{electrode}} \\) is the density (g/cm\u00b3) of the electrolyte. To calculate the energy of the cell, the electrode with the lowest capacity needs to be found since this will be the limiting electrode\u2019s capacity",
+        "start_index": 46189,
+        "end_index": 46464
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The capacity, \\( Q_{\\text{electrode}} \\) (in mAh) of each electrode is,",
+        "start_index": 46464,
+        "end_index": 46537
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ Q_{\\text{electrode}} = Q^o \\times m_{\\text{AM\u2212final}} \\]",
+        "start_index": 46537,
+        "end_index": 46596
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( Q^o \\) is the specific capacity (in mAh/g) of the AM in the electrode and \\( m_{\\text{AM\u2212final}} \\) is the mass of the AM (in g) in the final cut electrode. Once the limiting capacity is found, the energy that can be stored in the cell can be calculated with the equation,",
+        "start_index": 46596,
+        "end_index": 46877
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ E_{\\text{cell}} = \\frac{Q_{\\text{electrode}}}{1000} \\times (V^+ \u2212 V^-) \\]",
+        "start_index": 46877,
+        "end_index": 46953
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( E_{\\text{cell}} \\) is the energy of the cell (in Wh), and \\( V^{+/\u2212} \\) is the average reduction potential (in V) of the positive AM and negative AM, respectively. Finally, the gravimetric cell energy density, \\( e \\) (in Wh/kg), with the equation,",
+        "start_index": 46953,
+        "end_index": 47210
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "\\[ e = \\frac{E_{\\text{cell}} \\times 1000}{m_L + m_{\\text{elec}} + m_{\\text{sep}} + m_{\\text{cell}} + 2 \\times m_{\\text{sep}} + m_{\\text{can}}} \\]",
+        "start_index": 47210,
+        "end_index": 47355
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "where \\( m_{\\text{cell}} \\) is the mass (in g) of components of the cell such as the positive electrode, negative electrode, current collector of the positive and negative electrodes, electrolyte, separator, and the can enclosing the components, respectively. It has been verified that the resulting electrode property values yield accurate final cell densities by validating the results against a reported commercial 18650 cell database[73]",
+        "start_index": 47355,
+        "end_index": 47796
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Further, the data concerning the different materials used are collected from various sources and can be found in Supporting Information Table 1.",
+        "start_index": 47796,
+        "end_index": 47942
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "3. Using the Application\n\n3.1. Set up of the pedagogical activity",
+        "start_index": 47942,
+        "end_index": 48007
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "For configuring and customising the application, instructors have access to a configuration panel (Figure 7). The configuration panel is a Graphical User Interface (GUI) that can be accessed by authorized users connected to the server by entering the assigned server address in a browser window. From the GUI, one",
+        "start_index": 48007,
+        "end_index": 48320
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "can manage each room (instances) and reset/load/save their state. A state contains the memory of all the actions performed in the application and the current position and time of all objects in the application at any instant. The GUI also includes five notebooks within the application. The instructor can write in them to provide advice, instructions, or recommendations, and users can consult them as needed",
+        "start_index": 48320,
+        "end_index": 48729
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". By typing the instructions/tips and pressing the \u201capply\u201d button, the instructor can send the new text to the particular notebook instantly (Figure S1 in Supporting Information). This feature allows users to search for entities (such as machines, users, or interactable objects like bottles and electrodes) in the room, each represented as a small rectangle",
+        "start_index": 48729,
+        "end_index": 49087
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". By hovering over one of the rectangles, the instructor can see more information about the entity, such as its name, processes performed on it, its availability, and so on. To get the most recent state, the instructor has to press \u2018refresh\u2019 in the GUI. By pressing \u2018Export digest\u2019, one can generate an HTML file with the results of the work of the users evolving in the BMM.",
+        "start_index": 49087,
+        "end_index": 49462
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "To set up the sessions/classes, the save state option can be used from the GUI. The instructor can prepare any notes or instructions beforehand by typing them in the notebook. The information in the notebook can also be modified at any point in time to provide additional information. Thanks to this function, the level of difficulty can be adjusted, or tips can be provided based on each student\u2019s knowledge, ensuring that the BMM practice is customised to suit everyone",
+        "start_index": 49462,
+        "end_index": 49933
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It is also possible to perform some processes in the application beforehand and save the current state through the GUI window. This allows the instructors to set up the courses so that a specific set of processes can be studied instead of performing the entire process steps every time. To use the saved state, the instructor needs to click on the load button in the GUI window. This is also useful in cases when the classes have to be done in multiple sessions",
+        "start_index": 49933,
+        "end_index": 50396
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The instructor can save the state of the application before ending the session and continue the instructions from where the previous session was stopped.",
+        "start_index": 50396,
+        "end_index": 50551
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Before the session, all technical checks must be conducted to ensure all parts of the application are functioning correctly. This includes verifying the calibration of VR HMDs, bases (external position locators, if present) and controllers. The BMM can be accessed from both HTC\u00ae and Oculus\u00ae (now Meta Quest\u00ae) VR HMDs. Each HMD needs to be connected to one PC, whose recommended specification needs to be satisfied[72,73]",
+        "start_index": 50551,
+        "end_index": 50972
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". On the server side, the server is hosted on a desktop computer, with an Intel\u00ae core i5-6400 CPU with 16 GB of RAM and an Intel\u00ae Dual Band Wireless-AC 3165 network adaptor. Similar to setting up the VR environment beforehand, it is also important to set up the physical environment for the session. The physical space from the session should be spacious and free from obstacles. The instructor should have his own space to monitor the session",
+        "start_index": 50972,
+        "end_index": 51415
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". They should also be in a position to ensure the user is in their dedicated space to avoid the danger of colliding with other physical objects. It is also suggested that the instructors prepare some materials to be distributed before the session, including instructions on using the VR equipment and materials providing an overview of the session\u2019s objectives. The GUI, along with the application, provides a unique organisational toolkit, which can be used to conduct the session with optimal conditions",
+        "start_index": 51415,
+        "end_index": 51920
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". It also means that digital obstacles can be limited, and the player environment can be controlled without the need to interrupt the VR session.",
+        "start_index": 51920,
+        "end_index": 52065
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Since the application is highly customisable, it is necessary to prepare a well-structured educational or training program to maximise knowledge transfer and retention. It should be prepared, considering the user\u2019s prior experience (students/trainees) in battery manufacturing as well as with VR. The lectures with VR sessions are usually where students learn with fun and still be at the centre of knowledge[10,12,13]",
+        "start_index": 52065,
+        "end_index": 52483
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". One advantage of this application is that it allows the students to try and test things based on their knowledge and lets them be more autonomous, then reflect and understand the outcomes of their choices based on the results. Then, they can ask questions if they do not know or understand. A preliminary session was organised with the students of the MESC+ program, the previous version of the i-MESC Erasmus Mundus Master\u2019s Program[14]",
+        "start_index": 52483,
+        "end_index": 52922
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". To avoid confusion between MESC+ and i-MESC, the latter name will be used to refer to both program versions hereafter",
+        "start_index": 52922,
+        "end_index": 53041
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In this session, a total of 19 students from three different universities joined the BMM, from their respective universities located in Amiens in France (University of Picardie Jules Verne, 6 students); in Bilbao in Spain (University of the Basque Country, 6 students) and in Ljubljana in Slovenia (University of Ljubljana, 6 students) (Figure 8).",
+        "start_index": 53041,
+        "end_index": 53390
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "![Figure 7. GUI of the server, which is accessible from a browser window.](image)\n\n![Figure 8. Users from different universities working together in the virtual pilot line.](image)\n\n3.2. Preliminary Session and Results",
+        "start_index": 53390,
+        "end_index": 53608
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The students were given an initial anonymous questionnaire, in accordance with the General Data Protection Regulation (GDPR), which came into force in 2018, to determine the students\u2019 prior knowledge about manufacturing lithium-ion cells and their familiarity with VR. This questionnaire was distributed using the software Wooclap[74]. After the first questionnaire, a practice session was organised with the BMM, during which the pilot line manufacturing steps of lithium-ion cells were first explained to the students",
+        "start_index": 53608,
+        "end_index": 54127
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Then, instructions on how to use the BMM software were provided. Since it was the first time that most of the users",
+        "start_index": 54127,
+        "end_index": 54244
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "were using VR, some time was given to the students to familiarise themselves with the VR commands and the BMM environment. Then, they were instructed to perform various process steps to fabricate a LIB cell and to learn about the manufacturing procedure. After the session, the students were given a similar questionnaire to understand how much they had learned from the session and feedback on what has to be improved for future sessions with the BMM.",
+        "start_index": 54244,
+        "end_index": 54696
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "From the first questionnaire, it can be observed that most students possessed prior experience in fabricating experimentally LIB cells at the laboratory scale (Figure 9a). This can be credited to their participation in the i-MESC MSc. program, which specialises in materials for energy storage and conversion. Furthermore, their completion of the first year of the MSc program provided them with theoretical knowledge of LIB cells exceeding the basic requirements",
+        "start_index": 54696,
+        "end_index": 55159
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". However, very few have manufactured cells in a battery pilot line facility (Figure 9b). In fact, the pilot line scale facilities are complex and hazardous to train in, mainly because of the complexity of the machines and because of the scale of hazardous materials to handle, which increases the need to continuously monitor every student individually. Furthermore, in general, pilot lines might not be easy to get access to for training purposes because they are generally intensively used for research and/or technology transfer activities",
+        "start_index": 55159,
+        "end_index": 55702
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Therefore, in our BMM, students can get trained on the process at any time and by using complex machinery and large quantities of materials without physical risk.",
+        "start_index": 55702,
+        "end_index": 55866
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The practical part of the BMM VR session lasted 1 hour and 15 minutes. In this part of the session, the students made a positive impression of performing the activities. Each instructor helped his or her group of students with the various controller functions for moving around, picking up objects, etc., as well as with the equipment on the prototype lines.",
+        "start_index": 55866,
+        "end_index": 56224
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The vast majority of students could try out the application within the time allocated for this activity. Only 5 out of the 18 participating students could not try out the application due to lack of time and also because some were hesitant to use VR. These students seemed hesitant, possibly because they felt intimidated by the prospect of performing in front of the class",
+        "start_index": 56224,
+        "end_index": 56596
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Therefore, to provide an equal amount of engagement to the remaining students who could not or did not want to try, they were provided with a worksheet and a sheet with equations to note down the values of the complexity of the machines and because of the scale of the manufacturing process parameters chosen by the VR users",
+        "start_index": 56596,
+        "end_index": 56922
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". With this, they could perform calculations and guide the VR users on the set of values to choose depending on the goal, as well as try to calculate the final predicted values such as the gravimetric cell energy density, mass loading and N/P ratio in the application. To assess the students\u2019 knowledge concerning battery manufacturing before and after the VR session, students were asked the question, \u201cWhat are the different steps involved in electrode manufacturing?\u201d in both questionnaires",
+        "start_index": 56922,
+        "end_index": 57415
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The result shows the students already have a high initial level of understanding (Figure 10). Furthermore, post-session results indicate a reduction in errors among the student cohort.",
+        "start_index": 57415,
+        "end_index": 57601
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The vast majority of students could try out the application within the time allocated for this activity. Only 5 out of the 18 participating students could not try out the application due to lack of time and also because some were hesitant to use VR. These students seemed hesitant, possibly because they felt intimidated by the prospect of performing in front of the class",
+        "start_index": 57601,
+        "end_index": 57973
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Therefore, to provide an equal amount of engagement to the remaining students who could not or did not want to try, they were provided with a worksheet and a sheet with equations to note down the values of the complexity of the machines and because of the scale of the manufacturing process parameters chosen by the VR users",
+        "start_index": 57973,
+        "end_index": 58299
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". With this, they could perform calculations and guide the VR users on the set of values to choose depending on the goal, as well as try to calculate the final predicted values such as the gravimetric cell energy density, mass loading and N/P ratio in the application. To assess the students\u2019 knowledge concerning battery manufacturing before and after the VR session, students were asked the question, \u201cWhat are the different steps involved in electrode manufacturing?\u201d in both questionnaires",
+        "start_index": 58299,
+        "end_index": 58792
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The result shows the students already have a high initial level of understanding (Figure 10). Furthermore, post-session results indicate a reduction in errors among the student cohort.",
+        "start_index": 58792,
+        "end_index": 58978
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The practical part of the BMM VR session lasted 1 hour and 15 minutes. In this part of the session, the students made a positive impression of performing the activities. Each instructor helped his or her group of students with the various controller functions for moving around, picking up objects, etc., as well as with the equipment on the prototype lines.",
+        "start_index": 58978,
+        "end_index": 59336
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The vast majority of students could try out the application within the time allocated for this activity. Only 5 out of the 18 participating students could not try out the application due to lack of time and also because some were hesitant to use VR. These students seemed hesitant, possibly because they felt intimidated by the prospect of performing in front of the class",
+        "start_index": 59336,
+        "end_index": 59708
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Therefore, to provide an equal amount of engagement to the remaining students who could not or did not want to try, they were provided with a worksheet and a sheet with equations to note down the values of the complexity of the machines and because of the scale of the manufacturing process parameters chosen by the VR users",
+        "start_index": 59708,
+        "end_index": 60034
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". With this, they could perform calculations and guide the VR users on the set of values to choose depending on the goal, as well as try to calculate the final predicted values such as the gravimetric cell energy density, mass loading and N/P ratio in the application. To assess the students\u2019 knowledge concerning battery manufacturing before and after the VR session, students were asked the question, \u201cWhat are the different steps involved in electrode manufacturing?\u201d in both questionnaires",
+        "start_index": 60034,
+        "end_index": 60527
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The result shows the students already have a high initial level of understanding (Figure 10). Furthermore, post-session results indicate a reduction in errors among the student cohort.",
+        "start_index": 60527,
+        "end_index": 60713
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "**Figure 9.** Survey concerning (a) if students have fabricated a Li-ion Battery previously, and (b) if students have used prototyping or pilot lines previously.\n\n**Figure 10.** Responses to the questionnaire related to steps in electrode manufacturing before (Questionnaire 1) and after (Questionnaire 2) the metaverse session (the correct answers are highlighted with the green boxes).",
+        "start_index": 60713,
+        "end_index": 61100
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "During the post-session feedback questionnaire, for the \u201cWhat could be improved?\u201d question, students responded mostly positively, giving their feedback on the VR session with statements such as \u201cThat was great!\u201d, \u201cGood\u201d, \u201cIt was interesting\u201d",
+        "start_index": 61100,
+        "end_index": 61341
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". A few of them also suggested that more training hours would be useful to give them time to do all the activities, to assimilate all the information passed on to them, but also to give them more time to practice and get to know the different functions of the VR equipment controls. In real life, it is time-consuming to fabricate and test a single batch of cells",
+        "start_index": 61341,
+        "end_index": 61704
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Usually, it is necessary to practice the fabrication of different cells repeatedly to get an intuitive understanding of how and why to perform these processes. Currently, if students wish to learn this, they can choose an internship in their fourth semester, which would provide them with more duration of training on prototyping and fabrication. However, it can be more difficult to train them as a part of the course because battery electrode and cell manufacturing is time-consuming in practice",
+        "start_index": 61704,
+        "end_index": 62203
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The BMM shows a strong potential to enable students to practice fabricating cells anytime they wish without much safety and handling requirements and with less time. The BMM has multiple functions to permit students to practice until they feel that they fully understand the concepts. One student mentioned that he/she/they felt some motion sickness with the use of the HMDs, which had been reported before",
+        "start_index": 62203,
+        "end_index": 62611
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ".[10,12] This can be mitigated by using lighter HMDs and headphones that allow pass-through so that users can take a break if they feel sick.[75,76]",
+        "start_index": 62611,
+        "end_index": 62759
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "### 4. Summary and Outlook",
+        "start_index": 62759,
+        "end_index": 62785
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Our BMM, described in this Concept, offers an innovative immersive environment in which users from the same or different geographical locations can get training in battery cell manufacturing. The current version is a significant leap forward with its features. It is now possible for multiple users from around the world to join the application simultaneously and interact with each other through avatars and voice. It also allows the instructor of the classes to guide users directly by being present in the application",
+        "start_index": 62785,
+        "end_index": 63305
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The application consists of several independent rooms, which can be accessed by the users where a virtual...",
+        "start_index": 63305,
+        "end_index": 63415
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "battery pilot line is present. The pilot line includes all the equipment required to fabricate a complete 18650-format cell using the chemistry selected by the user(s). The application provides the users with the freedom to choose any value for manufacturing parameters and observe its effects on final electrode/cell properties such as mass loading or gravimetric cell energy density. Students can track the process and sequence they have chosen by using the virtual labels embedded in the virtual products of the process",
+        "start_index": 63415,
+        "end_index": 63937
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The application also includes functions that speed up time, like a kind of \"time machine\". This makes it possible to fast-forward through time-consuming steps in the process.",
+        "start_index": 63937,
+        "end_index": 64113
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The manufacturing parameters chosen by the users are handled and evaluated in terms of the processability of the components used, and feedback is provided during the electrochemical testing step on whether any of the manufacturing parameter values adopted during the manufacturing process do not fall within the expected range. Moreover, for the calculation of final electrode and cell properties, simple mechanistic equations that capture the effects of key parameters are used, which provide the main trends of the particular process",
+        "start_index": 64113,
+        "end_index": 64648
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". In the future, more complex models can be directly incorporated into the application to evaluate the electrode properties, accounting for the effects of all the parameters. To elaborate further, in general, a process such as coating and drying begins with an initial component (e.g., slurry) (Figure 11). The process parameters (e.g., line speed, drying rate) are then chosen based on the input component's properties (e.g., viscosity, solid content) and the process history (e",
+        "start_index": 64648,
+        "end_index": 65127
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ".g., storage time of slurry[77]), which leads to an operation on the component, thus producing a processed component, such as a dried electrode. This process A (cf. Figure 11) can be modelled using mechanistic equations, as demonstrated in this Concept, along with physics-based modelling[78,79], and/or with deep learning models[80]",
+        "start_index": 65127,
+        "end_index": 65460
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Moreover, transfer learning could be used to apply these models to the different chemistries present in the BMM environment[81].",
+        "start_index": 65460,
+        "end_index": 65590
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "![Flowchart illustrating the sequence of parameter choices for a general process 'A'.](https://example.com/flowchart.png)",
+        "start_index": 65590,
+        "end_index": 65711
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "The BMM features a configuration panel accessible via a browser, allowing instructors to manage virtual rooms, save/load states, and provide additional instructions and tips through a GUI. This interface supports unlimited student practice by saving the state of all actions and objects, enables instructors to prepare the session beforehand, modify notes while instructing to better suit the individual student\u2019s capabilities, set up the room to study specific processes, and pause and continue sessions seamlessly.",
+        "start_index": 65711,
+        "end_index": 66227
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "A preliminary session with i-MESC MSc. program students demonstrated its effectiveness in providing an immersive learning experience in battery manufacturing. To analyse the effectiveness of the tool, questionnaires were distributed to the students before and after the VR session. During a 1 hour and 15-minute VR session, students practised the different battery manufacturing steps. Post-session feedback was positive, with suggestions for more training hours. After training, a greater number of students have reduced their errors in the follow-up questionnaire",
+        "start_index": 66227,
+        "end_index": 66792
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". One student experienced motion sickness, which can be mitigated by using lighter headsets and passthrough features, allowing for safe, repeated practice without the risks associated with handling large quantities of hazardous materials. These features are present in newer versions of HMDs. Current technological advancements focus on developing HMDs that reduce cybersickness and are more economically accessible[82]",
+        "start_index": 66792,
+        "end_index": 67211
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". As a result, it is expected that this technology will be increasingly adopted, making training for students and employees in such environments more appealing. The intuitive and immersive nature of these technologies can greatly enhance the learning experience, making it both more enjoyable and effective.",
+        "start_index": 67211,
+        "end_index": 67518
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "It is important to note that the results of the session presented here are proof of concept due to the small group size. To achieve more representative results, extending the study to a larger number of participants over a longer period would allow for the observation of more significant changes.",
+        "start_index": 67518,
+        "end_index": 67815
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Our BMM introduces a radically new way of engaging students from different geographical locations in the important field of electrochemical energy storage, particularly battery manufacturing. We plan to expand our platform by adding new materials and enabling the manufacturing of other battery technologies, such as Na-ion and solid-state batteries, as well as by adding dry processing methods. Our BMM concept can also be adapted for manufacturing and experimentation in other fields",
+        "start_index": 67815,
+        "end_index": 68300
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". The BMM will be used to train the students enrolled in the i-MESC MSc. Program for their battery manufacturing courses. In the future, we also plan to open the utilisation of the BMM platform for users from outside our i-MESC program network to maximise the community's accessibility to pilot line concepts and practice.",
+        "start_index": 68300,
+        "end_index": 68622
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "Supporting Information\n\nThe supporting information[81\u201395] consists of a document, a video with clips from the VR session, and a video showing each machine in the virtual pilot line.\n\nAcknowledgements",
+        "start_index": 68622,
+        "end_index": 68821
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "A.A.F. acknowledges the European Union's Horizon Europe research and innovation program under grant agreement No. 101069686 (PULSEION). A.A.F. and S.S. acknowledge the funding support of the French National Research Agency under the France 2030 program (Grant ANR-22-PEBA-0002, PEPER project \"BATMAN\"). All the authors acknowledge the M.Sc. students from the MESC+ program for their active and",
+        "start_index": 68821,
+        "end_index": 69214
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "enthusiastic participation in the VR sessions. The authors acknowledge Emmanuel Yermou for helping prepare the schematic of the jelly roll. U.V. and A.A.F. as a part of the DESTINY Ph.D. program acknowledge funding from the European Union\u2019s Horizon2020 research and innovation program under the Marie Sk\u0142odowska-Curie Actions COFUND - Grant Agreement No: 945357. A.A.F",
+        "start_index": 69214,
+        "end_index": 69582
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". acknowledges the European Research Council for the funding support through the ERC Proof-of-Concept Grant No. 101069244 (SMARTISTIC project). IG acknowledges the University of the Basque Country (UPV/EHU) for the resources. M.M.M. and D.Y.A acknowledge Prof. Dr",
+        "start_index": 69582,
+        "end_index": 69845
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Bo\u0161tjan Genorio (i-MESC coordinator for University of Ljubljana) for his support and the financial support of the Slovenian Research and Innovation Agency (ARIS) through grants P2-0423, P1-0447, J7\u20134636, J2\u201350086, and J7\u201350227. A.A.F. acknowledges the Institut Universitaire de France for the support.",
+        "start_index": 69845,
+        "end_index": 70148
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "**Keywords:** Lithium Ion Batteries, Battery Manufacturing, Pilot Line, Virtual Reality, Digital Twins.\n\n**References**",
+        "start_index": 70148,
+        "end_index": 70267
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[1] M. Armand, P. Aymar, D. Bresser, M. Copley, K. Edstr\u00f6m, C. Elberg, D. Guyomard, B. Lestriez, P. Nov\u00e1k, M. Petran\u00edkov\u00e1, W. Porcher, S. Trabesinger, M. Wohlfahrt-Mehrens, H",
+        "start_index": 70267,
+        "end_index": 70441
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": ". Zhang, Journal of Power Sources 2020, 479, 228708.",
+        "start_index": 70441,
+        "end_index": 70493
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[2] B. Dunn, H. Kamath, J.-M. Tarascon, Science 2011, 334, 928\u2013935.\n\n[3] D. Bresser, A. Moretti, A. Varzi, S. Passerini, Encyclopedia of Electrochemistry: Batteries, 2020, 3\u201311.",
+        "start_index": 70493,
+        "end_index": 70670
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[4] T. Cotterman, E. R. H. Fuchs, K. S. Whitefoot, C. Combemale, Energy Policy 2024, 218, 119454.",
+        "start_index": 70670,
+        "end_index": 70767
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[5] B. Ludwig, J. Liu, M.-C. Chen, T.-J. Liu, T. Fan, E.-Y. Tsou, C. Tsu, S. Li, ACS Energy 2020, 20, 49, 515\u2013528.",
+        "start_index": 70767,
+        "end_index": 70881
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[6] G. S. Lalotra, V. Kumar, in Informatics for Students with Disabilities (Eds.: R. Kaluri, M. Mahmud, T.R. Flood, 2022, pp. 71\u201394.",
+        "start_index": 70881,
+        "end_index": 71013
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[7] J. F. Troncoso, F. M. Zanotto, D. Z. Dominguez, E. Ayerbe, I. Boyano, C. Burmeister, J. Combemale, Powder Technology 2024, 370, 64\u201369.",
+        "start_index": 71013,
+        "end_index": 71151
+    },
+    {
+        "document_name": "36.txt",
+        "chunk_text": "[8] G. Guo, P. Arora, Z. (John) Zhang, Chem. Rev. 2004, 104, 4419\u20134462.\n\n[9] Y.-M. Zhao, F.-S. Yue, S.-C. Li, Y. Zhang, Z.-R. Tian, Q. Xu, S. Xin, Y.-G. Guo, Infomat 2021, 3, 460\u2013501.",
+        "start_index": 71151,
+        "end_index": 71334
+    }
+]

@@ -1,0 +1,812 @@
+[
+    {
+        "document_name": "75.txt",
+        "chunk_text": "A Closer Look at the Substituent Effects on the Copolymerization of Thionolactones by Radical Ring-Opening Polymerization\n\nBastien Luzel,a Lucas Raggio,b Eytan Benharrous,a Julien Monot,b Didier Bourissou,b Didier Siri,a Didier Gigmes,c Catherine Lefay,a Blanca Martin-Vaca,b,* Yohann Guillaneufa,*",
+        "start_index": 0,
+        "end_index": 298
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "a Aix-Marseille Univ, CNRS, Institut de Chimie Radicalaire, UMR 7273, F-13397 Marseille, France.\nb Toulouse University, CNRS, Lab Heterochim Fondamentale & Appl UMR 5069, F-31062 Toulouse, France.",
+        "start_index": 298,
+        "end_index": 494
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "ABSTRACT: The negative impact of plastic waste on the environment is a serious issue for the future. Adding cleavable bonds in the polymer backbone can help to impart degradability properties. To this end, radical ring opening polymerization (rROP) offers a very attractive way through radical copolymerization with vinyl monomers",
+        "start_index": 494,
+        "end_index": 824
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Thionolactones, one of the various cyclic monomers that can be used in rROP, are promising structures due to the efficiency of the C=S bond in acting as a radical acceptor",
+        "start_index": 824,
+        "end_index": 997
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In this work, we used DFT calculations to better understand the effects of different substituents on the radical reactivity of thionolactones (dibenzo[c,e]oxepane-5-thione DOT derivatives) already described as more or less effective for copolymerization with vinyl monomers in order to adjust the reactivity of these thionolactones",
+        "start_index": 997,
+        "end_index": 1330
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". To carry out these calculations, we focused on the value of the transfer constant $k_0$ and its relationship to the propagation constant $k_p$ of the vinyl monomer",
+        "start_index": 1330,
+        "end_index": 1495
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The calculations performed subsequently on 7-phenyloxepane-2-thione (POT) derivatives highlighted that electron-donating groups inserted in para-position on the phenyl ring should improve the copolymerization efficiency with acrylate derivatives and in contrary electron-withdrawing groups should lead to more important compositional drift during styrene and acrylate copolymerization",
+        "start_index": 1495,
+        "end_index": 1881
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Although POT derivatives bearing electron-donating groups could not be prepared, the preparation of those with CF$_3$ and NO$_2$ groups was successfully achieved. Experimental copolymerization of these two thionolactones with styrene and isobornyl acrylate are in good agreement with the calculations. This result confirmed the versatility and relevance of our calculation approach to account for the reactivity of thionolactones.",
+        "start_index": 1881,
+        "end_index": 2313
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "INTRODUCTION",
+        "start_index": 2313,
+        "end_index": 2325
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The integration of a low number of cleavable bonds into polymers backbone via a comonomer approach is a promising way for meeting the contemporary challenges of polymer durability. Indeed, this allows to conserve the polymer main structure so that there is no need to investigate or modify the main mechanical, thermal, etc. properties of the new designed durable materials, which is important for their practical use",
+        "start_index": 2325,
+        "end_index": 2742
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Thus, combining already known and registered materials with the possibility to fragmentate the polymer chain at a molecular level opens new prospects for the design of polymers with improved end of life options, i.e. biodegradation and chemical recyclability. Such approach is today applied to all polymerization techniques from ionic polymerization to ring-opening metathesis polymerization (ROMP)",
+        "start_index": 2742,
+        "end_index": 3142
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In the radical polymerization field, the radical ring-opening polymerization (rROP) of a cyclic monomer with a common vinyl monomer is the main technique for producing this kind of \u201csmart\u201d materials. Among the various families of cyclic monomers used in rROP, cyclic ketene acetics (CKA), which were proposed and extensively studied by Bailey et al",
+        "start_index": 3142,
+        "end_index": 3492
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". in the 1980s are maybe the most famous but suffered from important drawbacks such as low stability in the presence of protic compounds and low reactivity with more active monomers (MAM) that could lead to compositional drift during the polymerization process. In 2019, the Roth and Gutekunst groups introduced thionolactones as efficient cyclic monomer for rROP",
+        "start_index": 3492,
+        "end_index": 3855
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In particular they both showed that dibenzo[c,e]oxepane-5-thione (DOT) is efficient in copolymerization with acrylate and acrylamide derivatives as well as with acrylonitrile. Few years later, the Guillaneuf and Johnson groups showed that the same monomers could be applied to styrene copolymerization (Figure 1)",
+        "start_index": 3855,
+        "end_index": 4169
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Although DOT is compatible with styrene and acrylate-based copolymerization, the reactivity ratios between these comonomer pairs is not ideal whatever the feed composition. A slight difference in reactivity ratios has an impact on the random incorporation of the cleavable bonds in the polymer backbone and thus will have an impact on the molar mass distribution of the degraded oligomers",
+        "start_index": 4169,
+        "end_index": 4559
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Designing new structures to tune the reactivity ratios between thionolactones and vinyl monomers is highly desirable to improve the results in this field.",
+        "start_index": 4559,
+        "end_index": 4715
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Figure 1. Preparation of degradable polymers by rROP with thionolactones substituted with electron-donating/electron-withdrawing groups.",
+        "start_index": 4715,
+        "end_index": 4851
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "We previously proposed to investigate the reactivity of thionolactones in radical copolymerization with various vinyl monomers using DFT calculations combined with the calculation of some kinetic rate constant such as \\( k_p/k_{tr} \\) (defined below)",
+        "start_index": 4851,
+        "end_index": 5101
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".\\(^{16,18}\\) With this approach we found first better experimental conditions for the copolymerization of DOT and styrene and later developed a new thionolactone, the 7-phenyloxepane-2-thione (POT) able to copolymerize with styrene with reactivity ratios close to 1.\\(^{18}\\)",
+        "start_index": 5101,
+        "end_index": 5377
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Since both DOT and POT have aromatic moieties, they are prone to modification via insertion of electron-withdrawing or electron-donating groups that are expected to slightly affect the reactivity of the monomers. In this work, we thus focused on DOT and POT-functional structures and compared their theoretical and experimental reactivity in the radical copolymerization of styrene and acrylate derivatives.\n\n**RESULTS AND DISCUSSION**\n\n**DFT Calculations**",
+        "start_index": 5377,
+        "end_index": 5834
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The first part of this study aimed at better understanding the effects of substituents on the reactivity of certain thionolactones reported in the literature through DFT calculations. Our method relies on evaluating the rate constants of various steps in the rROP process",
+        "start_index": 5834,
+        "end_index": 6105
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This methodology has been previously described\\(^{16,18}\\) and includes the addition of propagating vinyl radicals onto the C=\\(S\\) bond (\\(k_{add}\\)) (1), the reverse addition that releases the same radical along with the initial thionolactone (\\(k_{add}^{-1}\\)) (1), and the \\(\\beta\\)-scission constant (\\(k_p\\)) (2) of the radical intermediate (Scheme 1)",
+        "start_index": 6105,
+        "end_index": 6464
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This final step results in the incorporation of the thioester linkage into the polymer chain and the formation of a new propagating alkyl radical.",
+        "start_index": 6464,
+        "end_index": 6612
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "\\[\n\\begin{align*}\nR^+ + \\text{DOT} & \\xrightarrow{k_{add}} R^+\\text{DOT} \\quad (1) \\\\\nR^+\\text{DOT} & \\xrightleftharpoons{\\text{transf.}} k_{add}^{-1} R^+ + \\text{DOT} \\quad (1) \\\\",
+        "start_index": 6612,
+        "end_index": 6792
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "X + \\beta\\text{-scission} & \\xrightarrow{k_p} \\text{macroradicals} \\quad (2)\n\\end{align*}\n\\]",
+        "start_index": 6792,
+        "end_index": 6884
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**Scheme 1.** Elementary steps relevant to the rROP of substituted thionolactones with vinyl monomers and the corresponding rate constants, with \\(k_{add}\\) (1) as the addition rate constant, \\(k_{add}^{-1}\\) (1) as the reverse addition rate constant, \\(k_p\\) (2) as the fragmentation rate constant, and \\(k_{tr}\\) as the propagation rate constant.",
+        "start_index": 6884,
+        "end_index": 7232
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "In previous studies, we used the transfer rate constant \\(k_{tr}\\) (3) as identified in scheme 2. It integrates the three steps of the addition-fragmentation process and follows the equation (Scheme 2).\\(^{16,18}\\) This constant was compared to the theoretical vinyl monomer propagation rate constant computed with similar level of theory to precisely assess the reactivity of the comonomer pair by determining the reactivity ratio \\(R_{vinyl}\\)",
+        "start_index": 7232,
+        "end_index": 7677
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In these systems, the thionolactone is typically added as a minor comonomer or an additive (less than 10 mol%), meaning that the growing macroradicals are predominantly polyvinyl radicals. Therefore, the most likely event is the competition of the vinyl radical addition either to the vinyl monomer \\(k_p\\) or to the thionolactone \\(k_{tr}\\)",
+        "start_index": 7677,
+        "end_index": 8020
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This method allowed us to reduce computation time and avoid determining the thionolactone reactivity ratios \\(R_{thionolactone}\\).",
+        "start_index": 8020,
+        "end_index": 8152
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "\\[\nk_{tr} = \\frac{k_{add} \\times k_p}{k_p^{-1} + k_{-add}}\n\\]\n\n**Scheme 2.** Transfer rate constant \\(k_{tr}\\) and the corresponding equation.",
+        "start_index": 8152,
+        "end_index": 8294
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "In one of their publications, the Johnson group\\(^{17}\\) studied the effect of substituents on a thionolactone, DOT, during its copolymerization with styrene at 70\u00b0C in toluene, initiated by AIBN",
+        "start_index": 8294,
+        "end_index": 8489
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". They specifically examined how electron-withdrawing and/or electron-donating groups at the \\(\\alpha\\) and \\(\\delta\\) positions of DOT influence the reactivity of this thionolactone during copolymerization. To achieve this, several X-Y-DOT compounds were investigated (Figure 2).\\(^{17}\\)",
+        "start_index": 8489,
+        "end_index": 8778
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**Figure 2.** Conversion of various X-Y-DOTs as a function of total conversion during copolymerization with styrene presented by Johnson and coworkers. Reprinted with permission from Ref.\\(^{17}\\) Copyright 2022 American Chemical Society.",
+        "start_index": 8778,
+        "end_index": 9016
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "They plotted the conversion of each X-Y-DOT as a function of total monomer conversion. The consumption of unmodified DOT (in black) follows a trajectory similar to, albeit slightly higher than that of a random copolymerization depicted by a dashed line. In contrast, fluorine and thioether substituents increase the reactivity of X-Y-DOT relative to styrene, whereas methoxy substituents decrease its reactivity",
+        "start_index": 9016,
+        "end_index": 9427
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". We thus employed our computational method to verify the correlation between the experimental values obtained by the Johnson group\\(^{17}\\) and our results, and thus to validate that our approach effectively captures the trend of substituent effects on the reactivity of this thionolactone with styrene.",
+        "start_index": 9427,
+        "end_index": 9731
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Comparison of the different values of $k_p/k_n$ obtained for the various X-Y-DOTs.",
+        "start_index": 9731,
+        "end_index": 9813
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The $k_p/k_n$ computed values for the different X-Y-DOT are reported on Figure 3. Using our DFT computational method, theoretical values that follow the same trend as the experimental ones were obtained.",
+        "start_index": 9813,
+        "end_index": 10016
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The electronic nature of the substituent at the para positions of the aryl groups influences the reactivity of the thionolactones. Among the various X-Y-DOT structures, Johnson et al. prepared functional derivatives bearing one or two functional groups that could not be used to discriminate the effect of the substituent on either the aromatic group in $\\alpha$ position of the thiocarbonyl moiety or on the group that stabilizes the ring-opened radical",
+        "start_index": 10016,
+        "end_index": 10470
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In order to decorrelate the effects, we performed various DFT calculations by substituting either side with different groups having distinct electronic effects and determined the various kinetic rate constants in the case of copolymerization with styrene. These results are presented in Figure 4. We first observed different effects depending on whether the substitution is made on the aromatic group in the $\\alpha$ position of the thiocarbonyl moiety or on the group that stabilizes the ring-opened product",
+        "start_index": 10470,
+        "end_index": 10980
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Specifically, focusing on the aromatic group in the $\\alpha$ position of the thiocarbonyl moiety (Figure 4a), we see that substitution influences both addition/reverse addition and $\\beta$-scission. Regarding the addition rate constant, the more electron-withdrawing the substituent, the more the radical addition is favored. This is in good agreement with the data already observed on RAFT agents",
+        "start_index": 10980,
+        "end_index": 11379
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Conversely, a lower reverse addition rate constant is observed when the substituent is an electron-withdrawing group. For $\\beta$-scission, we also notice a significant effect: the more electron-donating the substituent, the more $\\beta$-scission is favored. If we focus on the group stabilizing the ring-opened radical, we observe that only the beta-scission rate constant is affected, also in agreement with the reactivity of RAFT agents",
+        "start_index": 11379,
+        "end_index": 11820
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Specifically, the rate constant $k_\\beta$ increases with a more electron-withdrawing substituent. Conversely, the addition rate constant is hardly affected.",
+        "start_index": 11820,
+        "end_index": 11978
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "We can thus separate the impact of substituents based on whether they are on the aromatic at the $\\alpha$ position of the thiocarbonyl moiety or on the aromatic at the site that stabilizes the ring-opened radical. For example, the superior reactivity of SPt-F-DOT compared to other molecules can be explained by the additive effect of its two substituents.",
+        "start_index": 11978,
+        "end_index": 12334
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Both the fluorine and SPt groups increase $\\beta$-scission without significantly reducing the addition rate constant. This leads to a higher transfer rate constant and a lower $k_p/k_n$ ratio, making this molecule more reactive in copolymerization. It can also be explained that the F$_2$-DOT molecule is slightly less reactive in copolymerization with styrene than the SPt-F-DOT molecule",
+        "start_index": 12334,
+        "end_index": 12722
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". By substituting the aromatic ring in the $\\alpha$ position of the thiocarbonyl with an F instead of an SPt, beta-scission rate slightly decreases, which reduces the transfer constant and results in a higher $k_p/k_n$ ratio for F$_2$-DOT compared to SPt-F-DOT",
+        "start_index": 12722,
+        "end_index": 12982
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Similarly, it can be explained that the SPt-DOT molecule is more reactive than F-DOT, and that F-DOT is more reactive than DOT in copolymerization with styrene.",
+        "start_index": 12982,
+        "end_index": 13144
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The beta-scission rate constant increases with the introduction of these groups on the aromatic ring in the \\( \\alpha \\) position of the thiocarbonyl: the \\( k_\\beta \\) value of SPr is higher than the one of F-DOT, which is itself higher than the one of DOT",
+        "start_index": 13144,
+        "end_index": 13401
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This leads to an increase in the transfer rate constant in this order (SPr-DOT > F-DOT > DOT), and therefore a higher reactivity of SPr-DOT. Similarly, the low reactivity of the OMe-DOT molecule is explained by the additive effect of the two electron-donating groups in the \\( \\alpha \\) position of the aromatic rings",
+        "start_index": 13401,
+        "end_index": 13720
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The effect of the OMe group in the \\( \\alpha \\) position of the thiocarbonyl fraction increases \\( \\beta \\)-scission but decreases the addition rate constant and significantly increases the reverse addition constant. For the group stabilizing the ring-opened product, the OMe group does not significantly change the addition constant and does not increase \\( \\beta \\)-scission, which remains low",
+        "start_index": 13720,
+        "end_index": 14117
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Overall, beta-scission slightly increases, the addition rate constant slightly decreases, and the reverse addition constant increases significantly. This resulted in a lower \\( k_\\beta \\) than that of DOT and a higher \\( k_p/k_\\alpha \\) ratio, making OMe-DOT less reactive in copolymerization with styrene.",
+        "start_index": 14117,
+        "end_index": 14425
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The good agreement between our theoretical results and the experimental findings of Johnson\u2019s group\\(^7\\) prompted us to apply this DFT computational method to adjust the structure of another thionolactone, POT, and thus its reactivity in copolymerization with vinyl monomers (styrene and acrylate), using electron-withdrawing or electron-donating groups",
+        "start_index": 14425,
+        "end_index": 14779
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Several groups on the para position of the aromatic ring with distinct electronic effects, ranging from highly electron-donating to highly electron-withdrawing according to their Hammett parameters,\\(^20\\) were compared using this DFT computational method at 80\u00b0C without solvent. Different trends can be distinguished when dealing with an electron-withdrawing group versus an electron-donating group.",
+        "start_index": 14779,
+        "end_index": 15182
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Firstly, Figure 5a depicts the various results obtained for the copolymerization of substituted POT with styrene. For the addition of the styrene radical onto the C=S bond (\\( k_{\\text{add}} \\)), it is observed that substitution with electron-withdrawing groups increases the rate constant of addition",
+        "start_index": 15182,
+        "end_index": 15483
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The stronger the electronic effect of the group, the greater the value: CF\\(_3\\)-POT < CN-POT < NO\\(_2\\)-POT. The opposite trend is observed for electron-donating groups. The OMe group leads to the lowest rate constant of addition. In contrast, the effects of the Me and \\( t \\)-Bu groups are nearly identical",
+        "start_index": 15483,
+        "end_index": 15794
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The impact of electron-withdrawing groups on the rate constant of addition is more pronounced compared to electron-donating substituents. The opposite phenomenon is observed for the rate constant of reverse addition (\\( k_{\\text{add}} \\)); the more electron-donating the substituent, the higher the rate constant of reverse addition.",
+        "start_index": 15794,
+        "end_index": 16129
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "In the case of the rate constant of \\( \\beta \\)-scission (\\( k_\\beta \\)), an increase is observed with the presence of an electron-withdrawing substituent, with the highest constant computed for the NO\\(_2\\)-substituted POT. It appears that electron-donating substituents, on the other hand, do not have a significant influence on the \\( \\beta \\)-scission of the reaction intermediate related to the non-substituted POT.",
+        "start_index": 16129,
+        "end_index": 16549
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Thus, if we compare the rate constant of propagation of the styrene monomer (\\( k_p \\)) with the rate constant of transfer (\\( k_\\alpha \\)), we observe that when POT is substituted at the \\( \\alpha \\) group of the ary1 group with an electron-withdrawing group, the reactivity of the thionolactone in copolymerization with styrene increases significantly, and this effect is more pronounced with stronger electron-withdrawing groups",
+        "start_index": 16549,
+        "end_index": 16980
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The \\( k_p/k_\\alpha \\) values thus indicate the polymerization of the thionolactones first, followed by the polymerization of styrene with a strong compositional drift. Conversely, adding an electron-donating group does not appear to have a major influence on the reactivity of the thionolactones.",
+        "start_index": 16980,
+        "end_index": 17279
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "![Figure 5](https://example.com/figure5.png)",
+        "start_index": 17279,
+        "end_index": 17323
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**Figure 5.** DFT calculations showing the effect of substituting an electron-withdrawing/electron-donating group in the para position of the ary1 group of POT during copolymerization a) with styrene and b) with methyl acrylate.",
+        "start_index": 17323,
+        "end_index": 17551
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Similarly, when we examine Figure 5b, which describes the results obtained using our DFT calculation method for the copolymerization of substituted POT with methyl acrylate, we obtain results comparable to those for styrene. Indeed, the addition rate constant increases with the electron-withdrawing effect of the substituent",
+        "start_index": 17551,
+        "end_index": 17876
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The reverse addition rate constant is higher when the substituent is electron-donating, and the \u03b2-scission rate constant \\( k_p \\) increases in the presence of an electron-withdrawing substituent.",
+        "start_index": 17876,
+        "end_index": 18074
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Thus, the conclusions for the copolymerization of substituted POT with acrylate are similar to the ones with styrene. The \\( k_p/k_a \\) value decreases when POT is substituted at the \\( \\alpha \\) para position of the aryl group with an electron-withdrawing group, making the thionolactone much more reactive in copolymerization with acrylate compared to unsubstituted POT",
+        "start_index": 18074,
+        "end_index": 18445
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The notable difference in the copolymerization with acrylate, compared to styrene, is a stronger decrease in the \\( k_p/k_a \\) value when an electron-withdrawing group is added. This suggests that, during copolymerization with acrylate, POT substituted with an electron-withdrawing group will be even more reactive than during its copolymerization with styrene.",
+        "start_index": 18445,
+        "end_index": 18808
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Since unmodified POT exhibits reactivity close to that of styrene and a slight difference with acrylate, indicating a random insertion of the thionolactone for the former and a slight deviation in the insertion of the thionolactone during copolymerization for the latter, it is expected that substituting the POT thionolactone with an electron-withdrawing group will make this insertion less random and thus less effective in the context of degradable polymers",
+        "start_index": 18808,
+        "end_index": 19268
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Indeed, the substituted thionolactone is likely to exhibit increased reactivity compared to POT with both styrene and acrylate. Therefore, the next part of this study focuses on the synthesis and copolymerization with vinyl monomers of substituted POT containing groups with significant electronic effects, aiming to validate the theoretical study with experimental data.",
+        "start_index": 19268,
+        "end_index": 19641
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**Synthesis of the Thionolactone Monomers**\n\nAfter validating our theoretical model through the study of experimental results reported by Johnson et al. on substituted DOT and simulating the substitution of various EWG/EDG on POT thionolactone, the next step consisted in the preparation of a selection of these thionolactones. NO2 and CF3 were chosen as EWG, and OMe and t-Bu as EDG.",
+        "start_index": 19641,
+        "end_index": 20025
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "7-(4-trifluoromethylphenyl) oxepane-2-thione (POT-CF3) and 7-(4-nitrophenyl) oxepane-2-thione (POT-NO2) were prepared in three steps from cyclohexanone (Scheme 2)",
+        "start_index": 20025,
+        "end_index": 20187
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Starting from 4-bromobenzotrifluoride, 1-CF3 was obtained (64% yield) by Pd catalyzed \u03b1-arylation. The presence of the NO2 group hampered this reaction for 1-NO2, but metal-free \u03b1-arylation under aerobic conditions in the presence of NaOtBu enabled its preparation, although in lower yield (37%)",
+        "start_index": 20187,
+        "end_index": 20484
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".21 Baeyer-Villiger oxidation was next performed to obtain the corresponding lactones 2-CF3 and 2-NO2, in good to excellent yields (yield of 62 and 94%, respectively). The final critical step is the thionation of the lactones. Using Lawesson\u2019s reagent in anhydrous toluene, yielded POT-CF3 with a yield of 35% (Scheme 2)",
+        "start_index": 20484,
+        "end_index": 20804
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The same procedure did not allow the isolation of POT-NO2 due to purifications issues. Utilization of PdS10 in HMDO/CH3CN rendered purification easier and POT-NO2 could be obtained in a 29% yield that is in line with those typically reported for this type of compounds.17, 22",
+        "start_index": 20804,
+        "end_index": 21081
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**Scheme 2.** a) Synthesis of POT-CF3 and POT-NO2. d) Example of DOTs with donor groups",
+        "start_index": 21081,
+        "end_index": 21168
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The Pd catalyzed \u03b1-arylation followed by Baeyer-Villiger reaction was used for the preparation of lactones bearing OMe and t-Bu groups (2-OMe and 2-t-Bu). However, all the thionation conditions investigated using Lawesson\u2019s reagent or PdS10 were unsuccessful to yield the targeted thionolactones",
+        "start_index": 21168,
+        "end_index": 21463
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The lactones are rapidly converted but only complex mixtures are formed containing low amounts of the targeted thionolactone but also dithiolactone. It was already reported in the literature that there is a substituent dependance in this reaction.24 Moreover, Johnson and coworkers also noticed that attempts to synthesize the para-methoxy bDOT variant (Scheme 2) were unsuccessful and the preparation of the para-methyl bDOT derivatives was achieved with only 4% yield",
+        "start_index": 21463,
+        "end_index": 21934
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The experimental polymerization studies were thus carried out exclusively with POT-CF3 and POT-NO2.",
+        "start_index": 21934,
+        "end_index": 22035
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Copolymerization behavior",
+        "start_index": 22035,
+        "end_index": 22060
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "We first investigated the copolymerization of POT-CF$_3$, which is supposed to lead to less homogeneous copolymerizations with the two selected comonomers than the pristine POT. Indeed, for styrene, the $k_p/k_i$ ratio of POT-CF$_3$ is lower than that of POT, which corresponds to random incorporation ($r_{POT} = 0.878$; $r_S = 0.838$)",
+        "start_index": 22060,
+        "end_index": 22396
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The $k_p/k_i$ values are 3.61 for POT and 1.74 for POT-CF$_3$ with styrene. Secondly, we also anticipated poor random incorporation of POT-CF$_3$ into isobornyl acrylate chains. The $k_p/k_i$ ratio is considerably lower than that of unmodified POT, which already exhibits some compositional drift ($r_{POT} = 1",
+        "start_index": 22396,
+        "end_index": 22708
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".4$ and $r_{IBA} = 0.3$). Specifically, the $k_p/k_i$ values are 3.24 for POT and 0.42 for POT-CF$_3$ with acrylate. Reactivity ratios were experimentally determined by fitting the feed ratio evolution against overall molar conversion using the Skeist equation and a nonlinear least squares method (Meyer-Lowry method).",
+        "start_index": 22708,
+        "end_index": 23027
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The copolymerizations of POT-CF$_3$ with styrene and with isobornyl acrylate, to determine the reactivity ratios, were carried out in anisole (50 mol%) at 80\u00b0C, initiated with 0.05 equivalents of AIBN (Figure 6).",
+        "start_index": 23027,
+        "end_index": 23239
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "![Figure 6. Experimental (symbols) and theoretical (lines) POT-CF$_3$ monomer composition versus overall molar conversion during the solution copolymerization at 80\u00b0C with styrene with $r_S = 0.29$ and $r_{POT-CF_3} = 1.15$. Green, red and blue colors correspond to 0.05, 0.1 and 0",
+        "start_index": 23239,
+        "end_index": 23520
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".2 $f_{POT-CF_3}$ respectively.](image)",
+        "start_index": 23520,
+        "end_index": 23559
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "The reactivity ratios of POT-CF$_3$ with styrene confirmed the trend predicted by DFT calculations. We obtained reactivity ratios of $r_{POT-CF_3} = 1.15$ and $r_S = 0.29$, indicating a less favorable situation than with the unmodified POT for achieving random polymerization. Thus, POT-CF$_3$ shows higher reactivity than POT during copolymerization with styrene",
+        "start_index": 23559,
+        "end_index": 23922
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The reactivity ratios of POT-CF$_3$ with isobornyl acrylate confirmed this trend, with values of $r_{POT-CF_3} = 70$ and $r_{IBA} = 0.25$ (Figure 7)",
+        "start_index": 23922,
+        "end_index": 24072
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This demonstrates that the reactivity of POT-CF$_3$ is in this case significantly higher than that of POT during copolymerization with isobornyl acrylate, hampering its use with acrylate derivatives due to compositional drift.",
+        "start_index": 24072,
+        "end_index": 24300
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "To further corroborate this trend, we also investigated the copolymerization behavior of POT-NO$_2$, which is supposed to be even more reactive than POT-CF$_3$ in these systems. We carried out the copolymerization of POT-NO$_2$ ($f_{POT-NO_2} = 0.05$, 0.1 and 0",
+        "start_index": 24300,
+        "end_index": 24561
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".2) with styrene and observed that the copolymerization was not possible with $f_{POT-NO_2} = 0.05$ above 0.1, and that for $f_{POT-NO_2} = 0.1$, the copolymerization was drastically slowed down, reaching an overall conversion of only 20% after 5h at 80\u00b0C.",
+        "start_index": 24561,
+        "end_index": 24817
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Considering only the copolymerization at $f_{POT-NO_2} = 0.05$, reactivity ratios of $r_{POT-NO_2} = 8.0$ and $r_S = 0.2$ were obtained. With these values, the copolymerization with $f_{POT-NO_2} = 0.1$ cannot be fitted perfectly (Figure 8)",
+        "start_index": 24817,
+        "end_index": 25057
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Here, the assumption that both the vinyl and cyclic monomers can be processed via an irreversible propagation mechanism is probably no longer valid and thus the reversibility of the addition reaction on thionolactone is important and cannot be only considered as a part of the $k_i$ value.",
+        "start_index": 25057,
+        "end_index": 25348
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "![Figure 7. Experimental (symbols) and theoretical (lines) POT-CF$_3$ monomer composition versus overall molar conversion during the solution copolymerization at 80\u00b0C with isobornyl acrylate with $r_{IBA} = 0.25$ and $r_{POT-CF_3} = 70$. Green, red and blue colors correspond to 0.05, 0.1 and 0",
+        "start_index": 25348,
+        "end_index": 25642
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".2 $f_{POT-CF_3}$ respectively.](image)",
+        "start_index": 25642,
+        "end_index": 25681
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "![Figure 8. Experimental (symbols) and theoretical (lines) POT-NO$_2$ monomer composition versus overall molar conversion during the solution copolymerization at 80\u00b0C with styrene with $r_S = 0.2$ and $r_{POT-NO_2} = 8$. Red and blue colors correspond to 0.05 and 0.1 $f_{POT-NO_2}$ respectively.](image)",
+        "start_index": 25681,
+        "end_index": 25985
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Recently Johnson\\textsuperscript{23} and coworkers highlighted that using common methods to determine reactivity ratios in the case of systems whose one or two monomers undergo reversible propagation cannot be fitted properly",
+        "start_index": 25985,
+        "end_index": 26210
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In the case of isobornyl acrylate \u2013 POT-NO\\textsubscript{2} copolymerization, only copolymerizations with low amount of POT-NO\\textsubscript{2} was possible ($r_{\\text{POT-NO}_2} \\leq 0.1$), similarly to the copolymerization of styrene",
+        "start_index": 26210,
+        "end_index": 26447
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Using $r_{\\text{POT-NO}_2} \\leq 0.1$, the conversion of the thionolactone was very rapid and occurred with very low conversion of IBA (< 5% for 70% conversion of POT-NO\\textsubscript{2}), confirming its incompatibility with acrylate derivatives (see ESI for details) as suspected from the DFT calculations.",
+        "start_index": 26447,
+        "end_index": 26755
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "With the rapid consumption of POT-NO\\textsubscript{2} in these two copolymerization systems, we decided to investigate the homopolymerization of this thionolactone since we previously observed only very sluggish homopolymerization for POT.\\textsuperscript{18} Operating at 80 or 120\u00b0C, we cannot observe any conversion ruling out the possibility to obtain a pure polythioester",
+        "start_index": 26755,
+        "end_index": 27131
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". To explain this phenomenon, we calculated the different kinetic rate constants and also the $k_{\\text{add}}$ value for the radical addition of open POT-NO\\textsubscript{2} radical on POT-NO\\textsubscript{2} (Figure 9)",
+        "start_index": 27131,
+        "end_index": 27350
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". First, the open radical derived from POT-NO\\textsubscript{2} was found to add more rapidly than a styryl radical onto the POT-NO\\textsubscript{2} which confirms the extreme reactivity once this radical is generated",
+        "start_index": 27350,
+        "end_index": 27566
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The most striking result concerns the selectivity of the $\\beta$-scission that is totally shifted towards the release of the alkyl radical and the thionolactone (reverse addition) rather than 3% of ring-opening when the styryl radical resulting from reverse addition is NO\\textsubscript{2} substituted vs 90% for the unsubstituted styryl radical, Figure 9)",
+        "start_index": 27566,
+        "end_index": 27924
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Whatever the comonomer, the low rate of ring-opening impedes its use in copolymerization. Lastly, the homopropagation rate constant ($k_{\\text{prop}}$) value is two times lower than for POT.\\textsuperscript{18} All these calculations are in good agreement with the experiments. At very low loading of POT-NO\\textsubscript{2} ($r_{\\text{POT-NO}_2} = 0",
+        "start_index": 27924,
+        "end_index": 28276
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".05$), the copolymerization occurred with the cross-propagation between the ring-opened POT-NO\\textsubscript{2} radical and styrene, and its addition on POT-NO\\textsubscript{2} is not considered. In that case reactivity ratios are $r_{\\text{POT-NO}_2} = 8.0$ and $r_{S} = 0.2$",
+        "start_index": 28276,
+        "end_index": 28552
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". At $r_{\\text{POT-NO}_2} \\geq 0.1$, the higher concentration of POT-NO\\textsubscript{2} makes the addition of the POT-NO\\textsubscript{2} radical on POT-NO\\textsubscript{2} and the reverse addition becoming predominant, inhibiting the consumption of both monomers",
+        "start_index": 28552,
+        "end_index": 28816
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Consistently, with such a low homopropagation rate constant, POT-NO\\textsubscript{2} cannot be homopolymerized efficiently.",
+        "start_index": 28816,
+        "end_index": 28941
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "**CONCLUSION**",
+        "start_index": 28941,
+        "end_index": 28955
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "In this work, we demonstrate that the estimation of the $k_{\\text{add}}/k_{\\beta}$ ratio using DFT calculations helps understand the effects of substituents on the reactivity of thionolactones, based on previously reported experimental results for a series of thionolactones (DOT-X-Y) substituted with electron-withdrawing and electron-donating groups",
+        "start_index": 28955,
+        "end_index": 29306
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This improved understanding allowed us to design a new, more reactive thionolactone by adding electron-donating-donating and electron-withdrawing groups to a molecule previously described by our group, POT",
+        "start_index": 29306,
+        "end_index": 29513
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". The synthesis of such functionalized POT thionolactones (POT-CF\\textsubscript{3} and POT-NO\\textsubscript{2}) was only possible with electron-withdrawing groups since the thionation of the corresponding lactones containing electron-donating groups was not selective",
+        "start_index": 29513,
+        "end_index": 29780
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". Calculations predicted an increased reactivity of these POT-CF\\textsubscript{3} and POT-NO\\textsubscript{2} substituted thionolactone during copolymerization with styrene and isobornyl acrylate. An experimental study revealed a reactivity trend consistent with the calculations. The detailed kinetic analysis revealed reactivity ratios of $r_{\\text{POT-CF}_3} = 1",
+        "start_index": 29780,
+        "end_index": 30145
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".15$ and $r_{S} = 0.29$ for the POT-CF\\textsubscript{3}-Styrene monomers, and $r_{\\text{POT-NO}_2} = 70$ and $r_{\\text{IBA}} = 0",
+        "start_index": 30145,
+        "end_index": 30273
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ".25$ for the POT-CF\\textsubscript{3}-isobornyl acrylate monomers, for solution copolymerization at 80 \u00b0C in anisole (50 mol %) initiated with 0.5 mol % AIBN. In the case of POT-NO\\textsubscript{2}, only copolymerization with initial $r_{\\text{POT-NO}_2}$ feed ratio of 0.05 was possible",
+        "start_index": 30273,
+        "end_index": 30559
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". In this condition, reactivity ratios of $r_{\\text{POT-NO}_2} = 8.0$ and $r_{S} = 0.2$ was determined",
+        "start_index": 30559,
+        "end_index": 30661
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". At higher feed ratios, the POT-NO\\textsubscript{2} acted as an inhibitor of the polymerization since the opened POT-NO\\textsubscript{2} derived radical selectively adds on the POT-NO\\textsubscript{2} thionolactone, but reversibly, impeding the polymerization",
+        "start_index": 30661,
+        "end_index": 30921
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": ". This work thus confirms the value of our approach combining theoretical and experimental studies to rationally identify the effects of substituents on the reactivity of thionolactones reported in the literature. In light of the challenges often encountered during the synthesis of the monomers, the utilization of a systematic design approach to identify the most appropriate substitution pattern emerges as a significant asset.",
+        "start_index": 30921,
+        "end_index": 31351
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "![Figure 9](https://example.com/f9.png)\n\n**Figure 9.** Propagation steps relevant to the rROP of POT-NO\\textsubscript{2} thionolactone and the corresponding rate constants, with $k_{\\text{add}}$ as the addition rate constant, $k_{\\beta}$ as the reverse addition rate constant, $k_i$ as the fragmentation rate constant.\nASSOCIATED CONTENT",
+        "start_index": 31351,
+        "end_index": 31688
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Supporting Information\nThe Supporting Information is available free of charge on the ACS Publications website. \u00b9H NMR and \u00b9\u00b3C NMR spectra of the various polymers, kinetic rate constants used in the modeling part.\n\nAUTHOR INFORMATION\n\nCorresponding Author\n* vohann.guillaneuf@univ-amu.fr ; blanca-maria.martinvaca@univ-lshtm.fr",
+        "start_index": 31688,
+        "end_index": 32014
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "Author Contributions\nThe manuscript was written through contributions of all authors.",
+        "start_index": 32014,
+        "end_index": 32099
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "ACKNOWLEDGMENT\nWe thank the French National Research Agency (ANR-22-CE06-0017) for the PhD funding of Bastien Luzel and Lucas Raggio. This work was also supported by the \u2018Centre R\u00e9gional de Comp\u00e9tences en Mod\u00e9lisation Mol\u00e9culaire de Marseille\u2019. The Centre National de la Recherche Scientifique and Aix-Marseille Universit\u00e9 are acknowledged for financial support.",
+        "start_index": 32099,
+        "end_index": 32461
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "REFERENCES\n(1) Lefay, C.; Guillaneuf, Y. Progress in Polymer Science 2023, 147, 101764.\n(2) Uchiyama, M.; Murakami, Y.; Satoh, K.; Kamigaito, M. Angew Chem Int Ed Engl 2023, 62, e202215021.",
+        "start_index": 32461,
+        "end_index": 32650
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(3) Worm, M.; Leibig, D.; Dingels, C.; Frey, H. ACS Macro Lett 2016, 5, 1357-1363.\n(4) Shieh, P.; Nguyen, H. V. T.; Johnson, J. A. Nature Chemistry 2019, 11, 1124-1132.",
+        "start_index": 32650,
+        "end_index": 32818
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(5) Sun, H.; Liang, Y. F.; Thompson, M. P.; Gianneschi, N. C. Progress in Polymer Science 2021, 120.\n(6) Tardy, A.; Nicolas, J.; Gignmes, D.; Lefay, C.; Guillaneuf, Y. Chem. Rev. 2017, 117, 1319-1406.",
+        "start_index": 32818,
+        "end_index": 33018
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(7) Pesenti, T.; Nicolas, J. J. Macromol Letters 2020, 9, 1812-1835.\n(8) Agarwal, S. Polym. Chem. 2010, 1, 953\u2013964.",
+        "start_index": 33018,
+        "end_index": 33133
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(9) Bailey, W. J.; Ni, Z.; Wu, S.-R. Journal of Polymer Science: Polymer Chemistry Edition 1982, 20, 3021-3030.\n(10) Mothe, S. R.; Chennamaneni, L. R.; Tan, J.; Lim, F. C. H.; Zhao, W.; Thoniyou, P. Macromolecular Chemistry and Physics 2023, 224.",
+        "start_index": 33133,
+        "end_index": 33379
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(11) Tardy, A.; Honore, J. C.; Tran, J.; Siri, D.; Delplace, V.; Bataille, I.; Letourneur, D.; Perrier, J.; Nicoletti, C.; Maresca, M.; et al. Angewandte Chemie-International Edition 2017, 56, 16515-16520.",
+        "start_index": 33379,
+        "end_index": 33584
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(12) Gignmes, D.; Van Steenberge, P. H. M.; Siri, D.; DHooghe, D. R.; Guillaneuf, Y.; Lefay, C. Macromolecular Rapid Communications 2018, 39, 1800193.",
+        "start_index": 33584,
+        "end_index": 33734
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(13) Lundberg, D. J.; Ko, K.; Kilgallon, L. J.; Johnson, J. A. ACS Macro Lett 2024, 13, 521-527.\n(14) Bingham, N. M.; Roth, P. J. Chemical Communications 2019, 55, 55-58.",
+        "start_index": 33734,
+        "end_index": 33904
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(15) Smith, R. A.; Fu, G. Y.; McAtee, O.; Xu, M. Z.; Gutekunst, W. R. Journal of the American Chemical Society 2019, 141, 1446-1451.",
+        "start_index": 33904,
+        "end_index": 34036
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(16) Gil, N.; Caron B.; Siri, D.; Roche, J.; Hadiouch, S.; Khedaioui, D.; Ranque, S.; Cassagne, C.; Montarnal, D.; Gignmes, D.; et al. Macromolecules 2022, 55, 6680-6694.",
+        "start_index": 34036,
+        "end_index": 34206
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(17) Kiel, G. R.; Lundberg, D. J.; Prince, E.; Husted, K. E. L.; Johnson, A. M.; Lensch, V.; Li, S. P.; Shieh, P.; Johnson, J. A. J. Am. Chem. Soc. 2022, 144, 12979\u201312988.",
+        "start_index": 34206,
+        "end_index": 34377
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(18) Luzel, B.; Gil, N.; Desiree, P.; Monot, J.; Bourissou, D.; Siri, D.; Gignmes, D.; Martin-Vaca, B.; Lefay, C.; Guillaneuf, Y. J Am Chem Soc 2023, 145, 27437-27449.",
+        "start_index": 34377,
+        "end_index": 34544
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(19) Moard, G.; Rizzardo, E.; Thang, S. H. Australian Journal of Chemistry 2012, 65.\n(20) Yet, A.; Rablen, P. R. Journal of Physical Organic Chemistry 2022, 36.",
+        "start_index": 34544,
+        "end_index": 34704
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(21) Xu, Q. L.; Gao, H.; Yousufuddin, M.; Ess, D. H.; Kurti, L. J Am Chem Soc 2013, 135, 14048-14051.\n(22) Ko, K.; Lundberg, D. J.; Johnson, A. M.; Johnson, J. A. J Am Chem Soc 2024, 146, 9142-9154.",
+        "start_index": 34704,
+        "end_index": 34902
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(23) Lv, C.; Xu, G.; Yang, R.; Zhou, L.; Wang, Q. Polymer Chemistry 2020, 11, 4203-4207.\n(24) Baxter, S. L.; Bradshaw, J. S. J. Org. Chem. 1981, 46, 831-832.",
+        "start_index": 34902,
+        "end_index": 35059
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "(25) Lundberg, D. J.; Kilgallon, L. J.; Cooper, J. C.; Starvaggi, F.; Xia, Y.; Johnson, J. A. Macromolecules 2024, 57, 6727-6740.",
+        "start_index": 35059,
+        "end_index": 35188
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-cfz52 ORCID: https://orcid.org/0000-0002-5390-1553 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nR\u2081/R\u2082/R\u2083: EDG or EWG?\n\nSubstituent Effects on the Copolymerization",
+        "start_index": 35188,
+        "end_index": 35402
+    },
+    {
+        "document_name": "75.txt",
+        "chunk_text": "REACTIVITY IN RADICAL COPOLYMERIZATION WITH VINYL MONOMER\n\nRAMDOM POLYMERIZATION\n\nhttps://doi.org/10.26434/chemrxiv-2025-cfz52 ORCID: https://orcid.org/0000-0002-5390-1553 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 35402,
+        "end_index": 35631
+    }
+]

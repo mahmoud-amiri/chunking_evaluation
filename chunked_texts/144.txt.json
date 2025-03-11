@@ -1,0 +1,1220 @@
+[
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction\n\nAkshat Shirish Zalte,\u2020 Hao-Wei Pang,\u2020 Anna Doner,\u2020 and William H. Green*,\u2020,\u2021\n\n\u2020Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA\n\u2021MIT Energy Initiative, Massachusetts Institute of Technology, Cambridge, MA 02139, USA\n\nE-mail: whgreen@mit.edu\n\nAbstract",
+        "start_index": 0,
+        "end_index": 384
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Graph neural networks, which rely on Lewis structure representations, have emerged as a powerful tool for predicting molecular and reaction properties. However, a key limitation arises with molecules exhibiting resonance, where multiple valid Lewis structures represent the same species. This causes inconsistent predictions for the same molecule based on the chosen resonance form in common property prediction frameworks like Chemprop, which implements a directed message-passing neural network (D-MPNN) architecture on the input molecular graph",
+        "start_index": 384,
+        "end_index": 931
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". To address this issue of resonance variance, we introduce the Resonance Invariant Graph Representation (RIGR) of molecules that ensures, by construction, that all resonance structures are mapped to a single representation, eliminating the need to choose from or generate multiple resonance structures. Implemented with the D-MPNN architecture, RIGR is evaluated on a large dataset with resonance-exhibiting radicals and closed-shell molecules, comparing it against the Chemprop featurizer",
+        "start_index": 931,
+        "end_index": 1421
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Using 60% fewer features, RIGR demonstrates comparable or superior prediction performance. Alternative approaches, such as data augmentation",
+        "start_index": 1421,
+        "end_index": 1563
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "with resonance forms, are assessed, and their limitations are explored. Available open-source as an optional featurization scheme in Chemprop, RIGR is benchmarked across a wide range of property prediction tasks, showcasing its potential as a general graph featurizer beyond resonance handling.\n1 Introduction",
+        "start_index": 1563,
+        "end_index": 1872
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Machine learning (ML), especially deep learning, has become a powerful tool for accurately predicting molecular properties and chemical reactivity. Fast and accurate property prediction is of great interest to pharmaceutical and materials research, where it can significantly accelerate the discovery of novel drugs and materials. Deep learning models fundamentally seek to learn a mapping from the molecular input to the target property by optimizing its parameters. The choice of molecular representation is critical for capturing the useful relationship between the molecule and the target property to achieve generalizable models.",
+        "start_index": 1872,
+        "end_index": 2506
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Many approaches have been developed to represent molecules for property prediction, utilizing a variety of molecular representations, such as graphs, strings, precomputed feature vectors like Morgan fingerprint, and atomic coordinate sets. While traditional methods often rely on fixed molecular representations crafted by experts, many recent works have used graph-based ML techniques that generate learned representations. These models can learn two types of mappings: one from the input molecular graph to a latent embedding and one from the latent embedding to the final target property",
+        "start_index": 2506,
+        "end_index": 3096
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". State-of-the-art deep learning architectures for molecular property prediction, particularly directed message-passing neural networks (D-MPNNs), which are used in the open-source Chemprop software package, have shown success in predicting various chemical properties, including solvation thermodynamics, critical properties, reaction barriers, and infrared spectra, among others. Learned representations have been shown to enhance performance, scalability, adaptability, robustness, and generalizability in various applications.",
+        "start_index": 3096,
+        "end_index": 3626
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "The input to 2D graph neural networks (GNNs) for learning the molecular embedding is often a molecular graph. A Simplified Molecular Input Line Entry System (SMILES) string is a convenient way to encode a Lewis structure in a linear text format, making it the standard input for most of the cheminformatics packages and chemical data sets. While Lewis structures are intuitive and easily encoded using SMILES, they only represent local-",
+        "start_index": 3626,
+        "end_index": 4062
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "ized electronic configurations. This limitation becomes apparent in the cases of electron delocalization, where a single Lewis structure cannot fully represent the molecule. The delocalization of electrons across multiple structures, commonly observed in organic chemistry, is defined as resonance or mesomerism. While multiple resonance structures can represent the same molecule, it is a single physical entity with a unique value for each property",
+        "start_index": 4062,
+        "end_index": 4512
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". In most machine learning packages for property prediction, such as Chemprop, if a different resonance structure of the same molecule is provided as input, it is interpreted as a different molecule, leading to varying predictions. This inconsistency introduces ambiguity for users who must choose which resonance form to pick for representing a species, with each form leading to different predictions",
+        "start_index": 4512,
+        "end_index": 4914
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The number of choices is compounded for tasks involving chemical reactions, such as reaction enthalpy or rate-constant prediction, where both reactants and products may exhibit resonance, such as for resonance-stabilized radical reactions common in thermal or oxidative kinetics. One way to implicitly learn resonance invariance is by generating and including all possible resonance structures in the training data set with the same target values",
+        "start_index": 4914,
+        "end_index": 5362
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". This data augmentation approach significantly increases training costs, but more critically, reliable generation of resonance structures is a complex task. There is no universal method for accurately producing these structures for all molecule types. It often requires manual effort to add custom resonance pathways or modify existing ones, which can be time-consuming and prone to errors. Some 3D GNNs, such as SchNet and PhysNet, which rely solely on atomic coordinates and identities, are invariant to different resonance forms",
+        "start_index": 5362,
+        "end_index": 5894
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". However, they incur high computational costs and depend on the availability of high-quality 3D data, which can be challenging to obtain for many molecules. As machine learning tools become integral to chemistry, there is a need to develop innovative methods to handle chemical resonance more effectively. To overcome these problems, we present Resonance Invariant Graph Representation (RIGR), a method for featurizing graphs in a resonance-invariant manner",
+        "start_index": 5894,
+        "end_index": 6352
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". RIGR ensures a consistent molecular representation by generating only the resonance-invariant features or descriptors of the input molecule. While",
+        "start_index": 6352,
+        "end_index": 6500
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "this concept can be applied to most deep learning packages for molecular property prediction, in this work, we focus on Chemprop due to its popularity in the community.",
+        "start_index": 6500,
+        "end_index": 6668
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RIGR is adapted from Chemprop\u2019s native featurizer by eliminating resonance-variant features such as bond order and formal charge, which results in treating all resonance structures of a molecule as identical. The motivation behind RIGR stems from a fundamental understanding of quantum chemistry, which abstracts the concept of chemical bonds and relies on a set of atomic coordinates and a guess geometry to solve for electronic densities that are used to determine contributions to molecular properties",
+        "start_index": 6668,
+        "end_index": 7172
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". On the other hand, ML approaches utilize graphs with additional atom and bond features that provide extra information to assist the model. However, the extra features are not strictly necessary for representing the underlying molecule and can make the representation inaccurate for molecules with resonance. In this paper, we provide a comprehensive comparison of the chemistry-abiding RIGR against Chemprop\u2019s native featurizer for predicting the standard heat of formation on a dataset primarily consisting of resonance-active molecules, including both radicals and closed-shell species",
+        "start_index": 7172,
+        "end_index": 7761
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". We evaluate and compare three types of models: those trained with the RIGR featurizer (RIGR), those trained with the native featurizer (Native), and those trained using the native featurizer on training set augmented with multiple resonance structures (Native + Aug). We discuss challenges related to data augmentation and introduce metrics that quantify the variance in property prediction across different resonance structures and its effect on model performance",
+        "start_index": 7761,
+        "end_index": 8227
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". We ultimately establish RIGR as a suitable featurizer that is applicable across a wide variety of property prediction tasks, both with and without resonance.",
+        "start_index": 8227,
+        "end_index": 8386
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2 Methods\n\nWe begin by describing the construction of the RIGR featurizer and the machine learning architecture used in this study. Following that, we discuss the details of data preparation\nand augmentation, model training, and the Shapley value analysis.\n\n2.1 RIGR Featurizer",
+        "start_index": 8386,
+        "end_index": 8663
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RIGR is implemented as a featurizer in the recently released Chemprop v2.\\textsuperscript{20} We first give a brief overview of the Chemprop architecture. The input is a SMILES string, which is converted into a molecular graph, $\\mathcal{G}(V, E)$, using RDKit,\\textsuperscript{27} where atoms are vertices $V$ and bonds are edges $E$",
+        "start_index": 8663,
+        "end_index": 8997
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Atoms and bonds are separately featurized using atom-level and bond-level features derived from their identity and topology. The architecture employs a directed message-passing neural network (D-MPNN), where messages are passed between directed edges instead of between nodes as in traditional MPNNs. The learned atomic embeddings are aggregated into a molecular embedding, which can be optionally concatenated with additional molecule-level features",
+        "start_index": 8997,
+        "end_index": 9449
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Finally, a feed-forward neural network (FFNN) predicts target molecular properties $y$ using the molecular embedding as the input.",
+        "start_index": 9449,
+        "end_index": 9581
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "The implementation of RIGR involves modifying the graph featurization step within the Chemprop architecture. Only the atom and bond features that are independent of resonance are retained. In its simplest implementation, the RIGR featurizer is constructed by deleting the resonance-variant features without introducing any new ones.",
+        "start_index": 9581,
+        "end_index": 9913
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Given $\\mathcal{G}(V, E)$, for each vertex $v$, initial feature vectors $\\{x_v \\mid v \\in V\\}$ are derived from one-hot encodings of the atomic number, the number of bonds linked to each atom, the number of bonded hydrogens, and the atomic mass (scaled by dividing by 100). Notably, formal charge, hybridization, and aromaticity are excluded as they vary between resonance structures",
+        "start_index": 9913,
+        "end_index": 10296
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". For each edge $e$, initial feature vectors $\\{e_{vw} \\mid \\{v, w\\} \\in E\\}$ are based solely on whether the bond is part of a ring, omitting features like bond type and whether the bond is conjugated",
+        "start_index": 10296,
+        "end_index": 10497
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The initial directed edge features $e_{dv}^{\\text{dir}}$ are obtained by concatenating the atom features of the first atom in the bond $x_v$ with the corresponding undirected bond features $e_{vw}$. For two different",
+        "start_index": 10497,
+        "end_index": 10715
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "resonance structures of the same molecule, featurized as $G_{\\text{rigr}}$ and $G^*_{\\text{rigr}}$, Equation (1) holds.",
+        "start_index": 10715,
+        "end_index": 10834
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "$$G_{\\text{rigr}} \\simeq G^*_{\\text{rigr}} \\implies y(G_{\\text{rigr}}) = y(G^*_{\\text{rigr}})$$",
+        "start_index": 10834,
+        "end_index": 10929
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Figure 1: Schematic of the D-MPNN architectures used in this study. (a) The RIGR featurizer maps all resonance forms to a single graph representation. Additional molecular descriptors can be incorporated before the FFNN. (b) Baseline methods use the native featurizer, which includes additional features. In this case, either a single resonance form is selected (Native), or all forms are featurized and used for training (Native + Aug).",
+        "start_index": 10929,
+        "end_index": 11366
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Since the formal charge is removed from the atom featurizer, a molecular-level feature for the net charge of the molecule can be added to distinguish free radicals from cationic or...",
+        "start_index": 11366,
+        "end_index": 11549
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "anionic species. This addition is essential when molecules with a net charge, like ions, are present in the dataset. The net charge descriptor $q_m$ is incorporated by concatenating it with the aggregated molecular embedding $h_{agg}$ (as shown in Equation (2)). Figure 1 shows the Chemprop architecture using the RIGR and native featurizers.",
+        "start_index": 11549,
+        "end_index": 11891
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "$$h_m = \\text{cat}(h_{agg}, q_m)$$  \n\n(2)\n\n### 2.2 Data Preparation\n\nIn this section, we describe the datasets used in this study. We introduce the primary dataset and discuss the methods for augmenting the dataset with multiple resonance forms. Various other datasets are also incorporated to test the broader applicability of RIGR.\n\n#### 2.2.1 Primary Dataset",
+        "start_index": 11891,
+        "end_index": 12252
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For this study, it is essential to use a dataset with a significant portion of resonance-exhibiting molecules to avoid conducting a mere ablation test of atom and bond features. We selected a subset of the QuantumPioneer (QP) dataset generated in-house, which includes a large number of resonance-exhibiting radicals as well as closed-shell molecules",
+        "start_index": 12252,
+        "end_index": 12602
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". QP is among the largest and most diverse open-source quantum chemistry databases, containing over 350,000 small organic molecules with up to 21 heavy atoms, including elements like H, C, N, O, F, Si, P, S, Cl, Br, and I",
+        "start_index": 12602,
+        "end_index": 12823
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The QP dataset provides molecular geometries and vibrational frequencies optimized at the $\\omega$-B97X-D/def2-SVP level of theory and single-point energies calculated at the DLPNO-CCSD(T)-F12a/def2-TZVP level of theory. The dataset also includes thermodynamic properties, such as enthalpies of formation, that are derived via advanced atom-energy and bond-additivity correction schemes",
+        "start_index": 12823,
+        "end_index": 13211
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". For our analysis, we sampled 50,000 molecules, limiting our selection to those containing only H, C, N, and O atoms. Canonicalized SMILES were used to ensure that each molecule has a unique SMILES",
+        "start_index": 13211,
+        "end_index": 13409
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "representation. For species with equivalent resonance structures, such as benzene, canonicalized SMILES provide a single representation, effectively imposing a resonance invariant representation in these systems. For the target property, we selected standard heat of formation ($\\Delta H^\\circ_f$). The distribution of different species in the final dataset is shown in Table 1. There are no species with a net charge in the dataset. Additional data statistics are provided in Section S1 of the Supporting Information (SI).",
+        "start_index": 13409,
+        "end_index": 13932
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Table 1: Number of molecules in each subset of the dataset.\n\n| Subset               | Number of molecules |\n|----------------------|---------------------|\n| Resonance radical    | 20,000              |\n| Resonance closed shell| 20,000              |\n| No resonance$^a$     | 10,000              |\n| **Total**            | **50,000**          |",
+        "start_index": 13932,
+        "end_index": 14275
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "$^a$ This also includes species with only equivalent resonance structures that can be represented using a single canonicalized SMILES.\n\n### 2.2.2 Data Augmentation",
+        "start_index": 14275,
+        "end_index": 14438
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Augmenting the data with all possible resonance structures for each species provides an implicit way to learn resonance invariance, which has been shown to improve performance on tasks such as barrier height prediction for radical reactions. This approach involves generating a set of representative non-equivalent resonance structures for each molecule and assigning them the same target value. While several automated methods for chemical resonance generation exist, each has its limitations. For instance, RDKit has a native resonance generation function, `Chem",
+        "start_index": 14438,
+        "end_index": 15002
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ".ResonanceMolSupplier`, but it is not designed for radicals, which comprise a large part of our dataset.",
+        "start_index": 15002,
+        "end_index": 15106
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "A more suitable method was developed by Grinberg Dana et al., which efficiently generates representative resonance structures for a wide range of chemical species, including radicals and biradicals, consisting of elements H, C, O, N, and S. This method accounts",
+        "start_index": 15106,
+        "end_index": 15367
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "for both localized resonance pathways, which apply to two- and three-atom systems, and global approaches for aromatic species. However, the number of localized structures generated can be excessive due to the combinatorial nature of resonance pathways. Grinberg Dana\u2019s method also includes filtering the generated structures by using the octet rule and formal charge heuristics to obtain a more representative selection of resonance forms",
+        "start_index": 15367,
+        "end_index": 15805
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The algorithm has been implemented in both the Reaction Mechanism Generator (RMG) and the Reaction Data and Molecular Conformer (RDMC) software packages. We chose RMG as it has better aromaticity determination, an important factor given the prevalence of aromatic molecules in our dataset. While the generation of resonance molecules is generally accurate, we encountered issues when converting them into SMILES strings, particularly for heteroatomic aromatic radicals in the dataset",
+        "start_index": 15805,
+        "end_index": 16290
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The algorithm implemented in RMG sometimes generated resonance SMILES that corresponded to multi-radical species. To resolve this, we leveraged the fact that the spin multiplicity is conserved across different resonance structures of the same molecule. We used the fix.mol function from RDMC to fix the resonance forms by saturating bi-radicals and carbene systems to ensure that the spin multiplicity corresponding to all resonance SMILES is the same as the input molecule",
+        "start_index": 16290,
+        "end_index": 16765
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Finally, all the SMILES strings are canonicalized to remove the redundant equivalent resonance forms. Figure 2 shows the distribution of resonance structures for resonance-exhibiting radicals and closed-shell molecules. As expected, most of the species with a large number of resonance forms are radicals, not closed-shell molecules.",
+        "start_index": 16765,
+        "end_index": 17100
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.2.3 Other Datasets",
+        "start_index": 17100,
+        "end_index": 17120
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "To evaluate the broader applicability of the RIGR featurizer beyond its resonance invariance capabilities, we conducted comparative tests across a wide range of tasks using models trained with both RIGR and the native Chemprop featurizer. Chemprop v2.0.3 has previously been benchmarked on various regression and classification tasks. We replicated all the benchmarks using RIGR to identify any performance differences between the two. Table 2",
+        "start_index": 17120,
+        "end_index": 17563
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Figure 2: Distribution of the number of non-equivalent resonance forms generated using our method for radicals and closed-shell species in the dataset. The maximum number of resonance structures for any molecule in the dataset is 24.",
+        "start_index": 17563,
+        "end_index": 17796
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Table 2: Summary of the benchmarking datasets.",
+        "start_index": 17796,
+        "end_index": 17842
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| Dataset/Category     | Property/Data type                        | Type     | N tasks | N data          | Metric(s) | Ref.     |\n|----------------------|------------------------------------------|----------|---------|-----------------|-----------|----------|\n| MoleculeNet & OGB    | HIV (HIV replication inhibition)          | Class.   | 1       | 41,127          | ROC-AUC   | [8]      |",
+        "start_index": 17842,
+        "end_index": 18233
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "|                      | PCBA (biological activities)              | Class.   | 128     | 437,929         | PRC-AUC, AP | [35,36]  |\n|                      | QM9 (DFT calculated properties)           | Regr.    | 12      | 133,885         | MAE, RMSE | [35,37]  |",
+        "start_index": 18233,
+        "end_index": 18496
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| SAMPL                | logP                                      | Regr.    | 1       | 23,469          | RMSE      | [38,39]  |\n| Reaction barrier heights | E2                                      | Regr.    | 1       | 1264            | MAE       | [15,16,40,41] |",
+        "start_index": 18496,
+        "end_index": 18764
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "|                      | S<sub>2</sub>                             | Regr.    | 1       | 2361            | MAE       | [15,16,40,41] |\n|                      | Cycloaddition                            | Regr.    | 1       | 5269            | MAE       | [42]     |",
+        "start_index": 18764,
+        "end_index": 19029
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "|                      | RDB7                                     | Regr.    | 1       | 23,852<sup>d</sup> | MAE     | [43]     |\n|                      | RGD1-CNHO                                | Regr.    | 1       | 353,984<sup>d</sup> | MAE     | [44]     |",
+        "start_index": 19029,
+        "end_index": 19291
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| UV/Vis Absorption    | UV/Vis peak absorption wavelength         | Regr.    | 1       | 26,395          | MAE, RMSE, R<sup>2</sup> | [45,46] |\n| PCQM4MV2             | HOMO-LUMO gap                            | Regr.    | 1       | 3,452,151       | MAE, RMSE | [19]     |",
+        "start_index": 19291,
+        "end_index": 19565
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "* The metric(s) originally reported in the Chemprop paper.\n*<sup>a</sup> References for the data and data splits.\n*<sup>b</sup> The size of the training set. The SAMPL6, SAMPL7, and SAMPL9 data are used as a test set.\n*<sup>c</sup> Reverse reactions are included, ensuring that each forward-reverse pair is assigned to the same set, train, validation, or test.",
+        "start_index": 19565,
+        "end_index": 19925
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.3 Model Training",
+        "start_index": 19925,
+        "end_index": 19943
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "This study spans three types of models: those trained with the RIGR featurizer (RIGR), those trained with the native featurizer (Native), and those trained with the native featurizer alongside data augmentation (Native + Aug). Figure 1 shows the D-MPNN architecture used for training the models. In this section, we first outline the data splitting methods,",
+        "start_index": 19943,
+        "end_index": 20300
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "then describe the training and evaluation of models on these splits, and introduce new metrics to assess model performance in the context of resonance.",
+        "start_index": 20300,
+        "end_index": 20451
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.3.1 Data Splits",
+        "start_index": 20451,
+        "end_index": 20468
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "To test interpolative performance, we used random splitting to allocate 80% of the data to training, 10% to validation, and 10% to testing. While random splits are common in the literature, they primarily assess performance on relatively simple interpolation tasks. However, a major application of property prediction models is to predict properties for molecules and reactions that are very different from those already studied. Therefore, evaluating model performance on more challenging extrapolative tasks is crucial to assess generalizability",
+        "start_index": 20468,
+        "end_index": 21015
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". While scaffold splitting is a common approach, it is unsuitable for our dataset as most molecules lack assigned scaffolds. Instead, we used a K-Means clustering-based method to create chemically dissimilar training, validation, and test sets. We first generated 2048-bit Morgan fingerprints with a radius of 4 for each molecule using RDKit, then applied principal component analysis (PCA) to reduce the dimensionality of these sparse vectors",
+        "start_index": 21015,
+        "end_index": 21458
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". K-Means clustering is then used to group the molecules into 18 clusters, with each cluster assigned to one of the training, validation, and test sets to achieve an approximate 80:10:10 split. A detailed description for the method used for generating extrapolative cluster splits is provided in Section S2 of the SI. The clusters are randomly shuffled between the training and validation sets five times while keeping the test set constant to generate five splits",
+        "start_index": 21458,
+        "end_index": 21922
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". For models trained on datasets augmented with resonance structures, the training, validation, and test sets are augmented independently to prevent data leakage. We assigned weights in the augmented training set that are inversely proportional to the number of resonance structures, ensuring that molecules with more resonance structures are not unfairly prioritized.",
+        "start_index": 21922,
+        "end_index": 22290
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.3.2 Ensemble Training and Hyperparameter Optimization",
+        "start_index": 22290,
+        "end_index": 22345
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For both random and K-Means splitting, we trained an ensemble model for each split with five different weight initializations and averaged the predictions for all molecules across the ensemble. We report the average performance metric across the five splits, using the standard deviation to estimate the uncertainty in the reported metric. To compare the performance of models trained with the RIGR and native featurizers, we performed a two-tailed paired t-test with a significance level $\\alpha$ of 0",
+        "start_index": 22345,
+        "end_index": 22847
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ".05 to assess any significant differences. For comparisons involving more than two models, pairwise t-tests are conducted with a Bonferroni correction to control for familywise error rate (FWER). More information about model comparisons using statistical tests is given in Section S4.1 of the SI.",
+        "start_index": 22847,
+        "end_index": 23143
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Hyperparameter optimization was performed without ensembling on a single data split. During tuning, we optimized the number of message-passing steps, the hidden size of the message-passing layers, the number of layers, the hidden size of the feed-forward neural network, and the dropout ratio. Both tuning and production models utilized summation to aggregate atomic features into molecular feature vectors, with the optimized hyperparameters summarized in Table S1",
+        "start_index": 23143,
+        "end_index": 23608
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Furthermore, molecular graphs with explicit hydrogens were used as input for all models to clearly distinguish between keto and enol tautomers when employing the RIGR featurizer.",
+        "start_index": 23608,
+        "end_index": 23788
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "To evaluate the impact of data set size on model performance, we downsamled the training and validation sets to create training sets containing 200, 500, 1,000, 2,000, 5,000, 10,000, and 20,000 unique molecules. For the downsamled datasets, we used a single data split for both random and K-Means splitting and trained five-ensemble models without any hyperparameter re-optimization.",
+        "start_index": 23788,
+        "end_index": 24171
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.3.3 Resonance Metrics",
+        "start_index": 24171,
+        "end_index": 24194
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For the test set augmented with multiple resonance SMILES, we introduce two additional metrics: Resonance Range (RR), which captures the variation in predicted values across different resonance structures of the same molecule, and Maximum Resonance Deviation (MRD), which quantifies the maximum deviation between a single resonance structure and the ground truth",
+        "start_index": 24194,
+        "end_index": 24556
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". We penalized the outliers using root-mean-square (RMS) versions of these metrics, with the mathematical equations provided in Equation (3) and Equation (4), where $X$ is the target property, $N$ is the number of molecules, and $j$ counts over the resonance forms.",
+        "start_index": 24556,
+        "end_index": 24821
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "\\[\n\\text{RMSRR}(X) = \\sqrt{\\frac{1}{N} \\sum_{i=1}^{N} \\left( \\max_j (X_{i,j}^{\\text{pred}}) - \\min_j (X_{i,j}^{\\text{pred}}) \\right)^2}\n\\]  \n\\[",
+        "start_index": 24821,
+        "end_index": 24964
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "\\text{RMSMRD}(X) = \\sqrt{\\frac{1}{N} \\sum_{i=1}^{N} \\left( \\max_j (X_{i,j}^{\\text{true}} - X_{i,j}^{\\text{pred}}) \\right)^2}\n\\]",
+        "start_index": 24964,
+        "end_index": 25091
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "From Equation (3), it is evident that for models trained using RIGR, the value of RMSRR would be zero by design, as all resonance forms will have the same prediction (Equation (1)). The RMSMRD metric for an augmented test set will always be greater than or equal to the RMSE calculated on the test set without augmentation, with equality holding for RIGR",
+        "start_index": 25091,
+        "end_index": 25445
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". This metric is intended to capture the worst-case performance of a model calculated by selecting the resonance form with the maximum deviation from the true value. This metric assesses the model robustness for resonance-related uncertainties, quantifying how much the choice of resonance form can affect the overall performance.",
+        "start_index": 25445,
+        "end_index": 25775
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "2.4 Shapley Analysis",
+        "start_index": 25775,
+        "end_index": 25795
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Shapley values are one of the most widely used approaches for model explainability, offering insights into how individual features contribute to the final output of an ML model.\\[54-59\\]",
+        "start_index": 25795,
+        "end_index": 25981
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "This method assesses the relative impact of each input feature by comparing its contribution to the overall prediction, relative to an average baseline prediction. In this work, we utilized Chemprop v2\u2019s implementation of Shapley value analysis, which is based on the popular SHAP (SHapley Additive exPlanations) Python package and builds on the work by Li et al.\\textsuperscript{60}, who performed Shapley analysis for additional quantum mechanical descriptors",
+        "start_index": 25981,
+        "end_index": 26442
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". This analysis enabled us to quantify the marginal contribution of individual atom and bond features to the final prediction. For further theoretical background on SHAP, we refer readers to the foundational work by Lundberg and Lee.\\textsuperscript{61}",
+        "start_index": 26442,
+        "end_index": 26695
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "We conducted the Shapley analysis using the primary dataset without any data augmentation. This analysis was performed for ML models trained on 80% of the dataset, using both the full native featurizer and the RIGR featurizer",
+        "start_index": 26695,
+        "end_index": 26920
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". To compute the Shapley values for each molecule in the test set, we used the \\texttt{PermutationExplainer} from SHAP to calculate the expected Shapley value of each feature, sampling 1,000 different combinations of included and excluded features during inference. This process was repeated for every molecule, and we then averaged the absolute Shapley values of each feature across all molecules to determine the expected average effect of each feature on the model\u2019s output",
+        "start_index": 26920,
+        "end_index": 27396
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Since we have an ensemble of five models, we report averaged results to account for variations between different model initializations. Finally, we assessed the relative importance of the features by comparing the magnitudes of their corresponding Shapley values for the models trained using native and RIGR featurizers.",
+        "start_index": 27396,
+        "end_index": 27718
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "## 3 Results and Discussion\n\nIn this section, we first discuss the performance of RIGR against key baselines on the primary dataset, followed by a summary of the benchmarking results across all the other datasets. A Shapley value analysis is also presented to understand feature importance in Chemprop.\n3.1 Detailed Comparison between RIGR and Baselines",
+        "start_index": 27718,
+        "end_index": 28071
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "We first compare the models trained with RIGR and native featurizers on the unaugmented test set to gauge the impact of feature reduction on model performance for both interpolative and extrapolative tasks. Root mean square error (RMSE) is used as the evaluation metric as it penalizes the outliers to give a realistic estimate of model performance",
+        "start_index": 28071,
+        "end_index": 28419
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Figure 3 presents the results for the K-Means split, demonstrating that there is no performance loss; in fact, RIGR consistently outperforms Native across all subsets of the test set, including species that do not exhibit resonance. The paired t-test confirms that the difference in performance between models is statistically significant (RMSE and p-values tabulated in Table S3)",
+        "start_index": 28419,
+        "end_index": 28801
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The trends are identical for the random split, with similar test RMSE indicating that the model trained using RIGR generalizes well.",
+        "start_index": 28801,
+        "end_index": 28935
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For a comprehensive comparison between the RIGR, Native, and Native + Aug models and to quantify the effect of resonance on model performance, we tested these models on a test set augmented with multiple resonance forms. In addition to RMSE, we used RMSRR and RMSMRD (described in Section 2.3) metrics to assess both resonance variance and overall model performance. Figure 4 shows the performance on the K-Means split, and the trends",
+        "start_index": 28935,
+        "end_index": 29369
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Figure 3: Results showing the test set RMSE values for the entire test set and its subsets, comparing models trained using RIGR and native featurizers on K-Means split. The RMSE is reported as the mean across five folds, with error bars representing the standard deviation. RIGR significantly outperforms Native across all subsets.\nare similar for the random split (results tabulated in Table S4).",
+        "start_index": 29369,
+        "end_index": 29766
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For each metric on every subset, a pairwise comparison of the three models was conducted to assess statistical significance using the paired t-test with Bonferroni correction. Firstly, Native consistently performs significantly worse than both RIGR and Native + Aug across all subsets, considering all metrics",
+        "start_index": 29766,
+        "end_index": 30075
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Based on the RMSRR values for Native, the average range of predictions for the same radical with multiple resonance structures is around 3 kcal mol$^{-1}$, with the maximum RMSRR being greater than 25 kcal mol$^{-1}$. The substantial difference in predicted enthalpy, depending on which resonance structure is chosen as the input, reveals the inconsistency in predictions caused by resonance and underscores the necessity of RIGR",
+        "start_index": 30075,
+        "end_index": 30506
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Comparing Native with Native + Aug shows that training on augmented data improves performance across all three metrics. Native + Aug achieves a slightly lower RMSE than RIGR on the entire set; however, this difference is not statistically significant. A similar trend is observed for RMSMRD, where RIGR and Native + Aug show comparable values, both significantly lower than Native",
+        "start_index": 30506,
+        "end_index": 30888
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Notably, RMSMRD provides a more pessimistic error estimate than RMSE and weighs each molecule in the test set equally. While data augmentation reduces the RMSRR for both resonance radicals and closed-shell molecules, the models are not fully resonance invariant. By design, the RMSRR for RIGR is 0, whereas Native + Aug fails to achieve near-zero values, even with the large dataset",
+        "start_index": 30888,
+        "end_index": 31272
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". In summary, using RIGR as a featurizer without augmentation or employing the full native featurizer with augmentation leads to similar improvements in test RMSE. While RIGR is fully resonance invariant, Native + Aug, despite resulting in lower RMSRR and RMSMRD compared to Native, remains resonance-variant due to its implicit handling of resonance, in contrast to the more rigorous approach of RIGR.",
+        "start_index": 31272,
+        "end_index": 31674
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "While augmenting the dataset with multiple resonance structures does improve consistency and performance, it is important to note that its implementation can be challenging, depending on the types of chemical species in the dataset. This process may require meticulously...",
+        "start_index": 31674,
+        "end_index": 31947
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "modifying existing algorithms or extending them by incorporating additional templates and filters to obtain a representative set of valid resonance structures, particularly for species with elements beyond C, H, O, and N. For example, the resonance generation algorithm used in this work is inadequate for species with a net charge, such as ions. Even if generating resonance forms were assumed universally feasible, the training costs could become significantly higher depending on the prevalence of resonance-active species in the dataset",
+        "start_index": 31947,
+        "end_index": 32487
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". For the training set with 40,000 unique molecules and roughly 2.5 resonance structures per molecule, using RIGR instead of performing data augmentation leads to a 56% reduction in training time and a 42% improvement in maximum RAM usage while training. Table 3 shows the exact data for these training cost metrics",
+        "start_index": 32487,
+        "end_index": 32802
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". Therefore, in addition to being consistent with our knowledge of chemistry, RIGR offers a much easier alternative to data augmentation, eliminating the need for additional resonance generation and data pruning, thereby saving time during both data processing and model training.",
+        "start_index": 32802,
+        "end_index": 33082
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "The results from the downsampled training sets, as depicted in Figure 5, exhibit trends consistent with those observed for the largest training set. The RMSRR and RMSMRD\nTable 3: Training cost benchmark results using the default Chemprop v2 hyperparameters, with training conducted for 100 epochs. The training set contains 40,000 unique molecules. A local cluster equipped with an RTX 4090 24GB GPU was utilized for the training.",
+        "start_index": 33082,
+        "end_index": 33512
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| Training time (s) | Max. RAM usage (GB) |\n|-------------------|---------------------|\n| RIGR Native       | RIGR Native + Aug   |\n| 641               | 1460                |\n|                  | 2.16                |\n| RIGR Native + Aug | RIGR Native + Aug   |\n| 1460              | 3.75                |",
+        "start_index": 33512,
+        "end_index": 33818
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "were calculated for all resonance-active species in the test set, with detailed results for the random split provided in the SI. The goal of this downsampling was to test whether a threshold exists for the minimum number of molecules required for a model trained with a reduced featurizer to perform comparably to one trained with the full featurizer. These additional features could potentially help the model maintain similar performance as the size of the training set decreases",
+        "start_index": 33818,
+        "end_index": 34299
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". However, based on the results, RIGR consistently outperforms Native, even when the training set includes as few as 200 molecules.",
+        "start_index": 34299,
+        "end_index": 34430
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "![Figure 5](https://doi.org/10.26434/chemrxiv-2025-qgfp\t)",
+        "start_index": 34430,
+        "end_index": 34487
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Figure 5: Plots showing the augmented test set (a) RMSE, (b) RMSRR, and (c) RMSMRD values for RIGR, Native and Native + Aug models trained on K-Means split downsampled subsets. The x-axis denotes the number of unique molecules in the training set, which is different from the actual training set size for Native + Aug",
+        "start_index": 34487,
+        "end_index": 34804
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The performance loss in RMSE and RMSMRD due to decreasing training set size for RIGR is similar to other models.",
+        "start_index": 34804,
+        "end_index": 34918
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "For RMSE, Native + Aug outperforms RIGR on smaller datasets, but when the training set includes more than 5,000 molecules, both models show comparable performance. The",
+        "start_index": 34918,
+        "end_index": 35085
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RMSRR results indicate that data augmentation increasingly reduces resonance variance as the dataset size increases. The trends for RMSMRD show similar performance for RIGR and Native + Aug, both significantly outperforming Native. In conclusion, there appears to be no lower limit on dataset size for using RIGR, as no critical information seems to be lost through the feature reduction employed by RIGR, for this dataset",
+        "start_index": 35085,
+        "end_index": 35507
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". This is further validated by using Shapley value analysis for the two featurizers, discussed in Section 2.4.",
+        "start_index": 35507,
+        "end_index": 35617
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "### 3.2 Shapley Value Analysis\n\nThe Shapley value analysis of the model trained with the native featurizer reveals that some features contribute far more significantly than others. Figure 6 shows the results from the analysis for Native and RIGR models on K-Means split. The results for the random split are presented in Section S4.3 of the SI.",
+        "start_index": 35617,
+        "end_index": 35961
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Atom-level features such as aromaticity and bond-level features like conjugation insignificantly contribute to the final prediction of the model, making their absence in the RIGR featurizer inconsequential. Interestingly, based on the Shapley analysis of the native featurizer, some of the most important features, like hybridization, bond type, and formal charge, are absent in RIGR",
+        "start_index": 35961,
+        "end_index": 36344
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". However, models trained using RIGR perform equally well and have a very similar overall distribution of predictions. This result suggests a redundancy of information inherent in Chemprop\u2019s native featurizer and the Lewis structures it is based on.",
+        "start_index": 36344,
+        "end_index": 36593
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "The essential information from the features omitted in RIGR is indirectly encoded by a combination of atom identity (atomic number and mass), degree, number of attached hydrogen atoms, and the overall charge and multiplicity of the molecule. This becomes more evident from the Shapley value analysis of models trained using RIGR featurizer. The contributions from the features removed to create RIGR are simply redistributed among the remaining features",
+        "start_index": 36593,
+        "end_index": 37046
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". RIGR can potentially serve as a general featurizer beyond its resonance invariance capabilities. Models with fewer, more relevant features can maintain or even improve predic-",
+        "start_index": 37046,
+        "end_index": 37223
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Figure 6: Histogram showing mean absolute Shapley values for models trained on K-Means split using (a) Native and (b) RIGR featurizers. The values are reported for a single split, averaged over 5 model initializations. Features removed from the native featurizer are shown in red, with their contribution compensated by the remaining features in RIGR to maintain overall performance.",
+        "start_index": 37223,
+        "end_index": 37606
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RIGR offers this alternative for molecular property prediction.\n\n3.3 RIGR beyond Resonance",
+        "start_index": 37606,
+        "end_index": 37696
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "We next evaluate RIGR\u2019s potential as a general featurizer by testing it on a range of molecular property datasets that were used for benchmarking Chemprop. A summary of the datasets used for this analysis is provided in Table 2. For general usage, RIGR incorporates net charge as a molecule-level descriptor",
+        "start_index": 37696,
+        "end_index": 38003
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The same training procedure and hyperparameter tuning, as implemented for benchmarking the performance of Chemprop v2, were applied to train models with RIGR to ensure a fair comparison. The results show a consistent per-",
+        "start_index": 38003,
+        "end_index": 38226
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "formance between the models trained with RIGR and native featurizer across all property prediction benchmarks. Table 4 and Table 5 present some of the results from this benchmarking, highlighting the performance similarity between RIGR and Native. Other results are tabulated in Table S6, Table S7, and Table S8 and the optimized hyperparameters for each task are listed in Table S9 under Section S4.4 of the SI",
+        "start_index": 38226,
+        "end_index": 38637
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". All the results show that the models trained with RIGR exhibit performance comparable to those using the native featurizer.",
+        "start_index": 38637,
+        "end_index": 38762
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "Table 4: Comparison of model performance on the test set, trained with RIGR and Native featurizer, for regression tasks, including UV/Vis peak absorption wavelength, logP for the SAMPL6 challenge, barrier height of organic reactions (Sn2 and RGD1-CNHO datasets), and thermochemical properties in the QM9 dataset including Internal energy at 0 K (U0) and Enthalpy at 298.15 K (H298).",
+        "start_index": 38762,
+        "end_index": 39144
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "|                | RIGR          | Native        |\n|----------------|---------------|---------------|\n|                | MAE | RMSE | R\u00b2  | MAE | RMSE | R\u00b2  |\n| UV/Vis         | 15.9| 30.6 | 0.915 | 16.9| 31.1 | 0.913 |",
+        "start_index": 39144,
+        "end_index": 39363
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| SAMPL6         | 0.32| 0.39 | 0.656 | 0.34| 0.46 | 0.525 |\n| Sn2            | 2.53| 3.48 | 0.921 | 2.62| 3.48 | 0.921 |",
+        "start_index": 39363,
+        "end_index": 39484
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| RGD1-CNHO\u2079     | 6.19| 10.40| 0.877 | 5.75| 9.60 | 0.896 |\n| QM9 (U0)\u2078      | 1.08| 2.43 | 1.000 | 1.02| 2.39 | 1.000 |",
+        "start_index": 39484,
+        "end_index": 39605
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| QM9 (H298)\u2078    | 1.75| 3.11 | 1.000 | 1.90| 3.26 | 1.000 |",
+        "start_index": 39605,
+        "end_index": 39665
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "\u2079 Bond stereochemistry and atom chirality are included in the featurizer.\n\u2078 Individual training.\n\u2078 Multi-task training.\n\nTable 5: Comparison of model performance on the test set, trained with RIGR and Native featurizer, for classification task on HIV and PCBA datasets. Both models are trained on random splits.",
+        "start_index": 39665,
+        "end_index": 39976
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "|       | RIGR          | Native        |\n|-------|---------------|---------------|\n|       | ROC-AUC | PRC-AUC | AP   | ROC-AUC | PRC-AUC | AP   |\n| HIV   | 0.8045  | 0.3090  | 0.3114 | 0.7713  | 0.3048  | 0.3067 |",
+        "start_index": 39976,
+        "end_index": 40191
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "| PCBA  | 0.9027  | 0.2068  | 0.2127 | 0.9085  | 0.2146  | 0.2200 |\n4 Conclusion",
+        "start_index": 40191,
+        "end_index": 40271
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "In this work, we introduced RIGR, a 2D molecular graph featurizer that, by construction, ensures all resonance forms of a chemical species share the same representation. RIGR achieves this by using only the resonance-invariant subset of atom and bond features from the Chemprop package. Despite utilizing 60% fewer features, RIGR matches or even outperforms native Chemprop on several property prediction tasks, including on smaller datasets",
+        "start_index": 40271,
+        "end_index": 40712
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". We present a detailed comparison between models trained using RIGR and those trained with the native Chemprop featurizer, both with and without augmenting the data with resonance forms. While data augmentation was found to be useful, in many cases, generating a valid set of resonance structures is complicated and error-prone",
+        "start_index": 40712,
+        "end_index": 41040
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". RIGR offers a convenient and fast solution for ensuring resonance invariance and is demonstrated to have value as a general graph featurizer for wider applications, with robust performance on various property prediction tasks.",
+        "start_index": 41040,
+        "end_index": 41268
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "5 Data and Software Availability",
+        "start_index": 41268,
+        "end_index": 41300
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "RIGR is open source on GitHub, with a detailed user guide available at https://github.com/akshatzalte/chemprop/tree/rigr_home. The repository includes all scripts, datasets, data splits, best hyperparameters, and model files needed to reproduce the results in this paper. RIGR is available as an option for the multi-hot atom featurization scheme in Chemprop version 2.1.2 or above. Example scripts and Jupyter notebooks are also provided",
+        "start_index": 41300,
+        "end_index": 41738
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The primary dataset, with a detailed description, is available on Zenodo, along with the corresponding data splits, at https://zenodo.org/records/14942335. The datasets used for benchmarking are the same as Chemprop v2 and can be accessed via Zenodo at https://zenodo.org/records/10078142.",
+        "start_index": 41738,
+        "end_index": 42029
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "6 Supporting Information",
+        "start_index": 42029,
+        "end_index": 42053
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "The supporting information includes additional dataset analysis, a detailed procedure for creating extrapolative data splits, statistical significance tests with corresponding p-values, and the hyperparameter settings for all Chemprop models used in this study.\n\n7 Acknowledgements",
+        "start_index": 42053,
+        "end_index": 42334
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "This project was funded by BASF under MIT award number 88803720. A.S.Z. gratefully acknowledges fellowship support from MathWorks. Additional financial support for this project was provided by the Machine Learning for Pharmaceutical Discovery and Synthesis Consortium (MLPDS) at MIT. We thank Prof. Connor Coley, Angiras Menon, Shih-Cheng Li, Xiaorui Dong, Sayandeep Biswas, and Haoyang Wu for their valuable discussions on this work",
+        "start_index": 42334,
+        "end_index": 42767
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". We also appreciate Jackson Burns and Nathan Morgan for their contributions to implementing RIGR as a featurizer in Chemprop. Additionally, we thank Kariana Moreno Sader for her immense efforts in improving the clarity and quality of the figures in this research paper. Finally, the authors thank Prof. Markus Kraft for his thorough review and feedback on the manuscript.",
+        "start_index": 42767,
+        "end_index": 43139
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "References",
+        "start_index": 43139,
+        "end_index": 43149
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(1) Morgan, H. L. The Generation of a Unique Machine Description for Chemical Structures \u2013 A Technique Developed at Chemical Abstracts Service. *Journal of Chemical Documentation* **1965**, *5*, 107\u2013113.\n\n(2) Rogers, D.; Hahn, M. Extended-Connectivity Fingerprints. *Journal of Chemical Information and Modeling* **2010**, *50*, 742\u2013754.",
+        "start_index": 43149,
+        "end_index": 43486
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(3) Pattanaik, L.; Coley, C. W. Molecular Representation: Going Long on Fingerprints. *Chem* **2020**, *6*, 1204\u20131207.",
+        "start_index": 43486,
+        "end_index": 43604
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(4) Wu, Z.; Ramsundar, B.; Feinberg, E. N.; Gomes, J.; Geniesse, C.; Pappu, A. S.; Leswing, K.; Pande, V. MoleculeNet: A Benchmark for Molecular Machine Learning. *Chemical Science* **2018**, *9*, 513\u2013530.",
+        "start_index": 43604,
+        "end_index": 43809
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(5) Struble, T. J.; Coley, C. W.; Jensen, K. F. Multitask Prediction of Site Selectivity in Aromatic C\u2013H Functionalization Reactions. *Reaction Chemistry & Engineering* **2020**, *5*, 896\u2013902.",
+        "start_index": 43809,
+        "end_index": 44001
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(6) Guo, J.; Sun, M.; Zhao, X.; Shi, C.; Su, H.; Guo, Y.; Pu, X. General Graph Neural Network-Based Model to Accurately Predict Cocrystal Density and Insight from Data Quality and Feature Representation. *Journal of Chemical Information and Modeling* **2023**, *63*, 1143\u20131156.",
+        "start_index": 44001,
+        "end_index": 44278
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(7) Yang, K.; Swanson, K.; Jin, W.; Coley, C.; Eiden, P.; Gao, H.; Guzman-Perez, A.; Hopper, T.; Kelley, B.; Mathea, M. Analyzing Learned Molecular Representations for Property Prediction. *Journal of Chemical Information and Modeling* **2019**, *59*, 3370\u20133388.",
+        "start_index": 44278,
+        "end_index": 44540
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(8) Heid, E.; Greenman, K. P.; Chung, Y.; Li, S.-C.; Graff, D. E.; Vermeire, F. H.; Wu, H.;\nGreen, W. H.; McGill, C. J. Chemprop: A Machine Learning Package for Chemical Property Prediction. *Journal of Chemical Information and Modeling* 2023, 64, 9\u201317.",
+        "start_index": 44540,
+        "end_index": 44793
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(9) Boobier, S.; Hose, D. R. J.; Blacker, A. J.; Nguyen, B. N. Machine Learning with Physicochemical Relationships: Solubility Prediction in Organic Solvents and Water. *Nature Communications* 2020, 11, 5753.",
+        "start_index": 44793,
+        "end_index": 45001
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(10) Fowles, D. J.; Palmer, D. S.; Guo, R.; Price, S. L.; Mitchell, J. B. O. Toward Physics-Based Solubility Computation for Pharmaceuticals to Rival Informatics. *Journal of Chemical Theory and Computation* 2021, 17, 3700\u20133709.",
+        "start_index": 45001,
+        "end_index": 45229
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(11) Chung, Y.; Vermeire, F. H.; Wu, H.; Walker, P. J.; Abraham, M. H.; Green, W. H. Group Contribution and Machine Learning Approaches to Predict Abraham Solute Parameters, Solvation Free Energy, and Solvation Enthalpy. *Journal of Chemical Information and Modeling* 2022, 62, 433\u2013446.",
+        "start_index": 45229,
+        "end_index": 45515
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(12) Vermeire, F. H.; Chung, Y.; Green, W. H. Predicting Solubility Limits of Organic Solutes for a Wide Range of Solvents and Temperatures. *Journal of the American Chemical Society* 2022, 144, 10785\u201310797.",
+        "start_index": 45515,
+        "end_index": 45722
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(13) Biswas, S.; Chung, Y.; Ramirez, J.; Wu, H.; Green, W. H. Predicting Critical Properties and Acentric Factors of Fluids Using Multitask Machine Learning. *Journal of Chemical Information and Modeling* 2023, 63, 4574\u20134588.",
+        "start_index": 45722,
+        "end_index": 45947
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(14) Grambow, C. A.; Pattanaik, L.; Green, W. H. Deep Learning of Activation Energies. *The Journal of Physical Chemistry Letters* 2020, 11, 2992\u20132997.",
+        "start_index": 45947,
+        "end_index": 46098
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(15) Heid, E.; Green, W. H. Machine Learning of Reaction Properties via Learned Representations of the Condensed Graph of Reaction. *Journal of Chemical Information and Modeling* 2022, 62, 2101\u20132110.",
+        "start_index": 46098,
+        "end_index": 46297
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(16) Heinen, S.; von Rudorff, G. F.; von Lilienfeld, O. A. Toward the Design of Chemical Reactions: Machine Learning Barriers of Competing Mechanisms in Reactant Space. *The Journal of Chemical Physics* **2021**, *155*, 064105.",
+        "start_index": 46297,
+        "end_index": 46524
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(17) Jorner, K.; Brinck, T.; Norrby, P.-O.; Buttar, D. Machine Learning Meets Mechanistic Modelling for Accurate Prediction of Experimental Activation Energies. *Chemical Science* **2021**, *12*, 1163\u20131175.",
+        "start_index": 46524,
+        "end_index": 46730
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(18) Spiekermann, K. A.; Pattanaik, L.; Green, W. H. Fast Predictions of Reaction Barrier Heights: Toward Coupled-Cluster Accuracy. *The Journal of Physical Chemistry A* **2022**, *126*, 3976\u20133986.",
+        "start_index": 46730,
+        "end_index": 46927
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(19) Spiekermann, K. A.; Dong, X.; Menon, A.; Green, W. H.; Pfeiffe, M.; Sandfort, F.; Welz, O.; Bergeler, M. Accurately Predicting Barrier Heights for Radical Reactions in Solution Using Deep Graph Networks. *The Journal of Physical Chemistry A* **2024**, *128*, 8384\u20138403.",
+        "start_index": 46927,
+        "end_index": 47201
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(20) McGill, C.; Forsuelo, M.; Guan, Y.; Green, W. H. Predicting Infrared Spectra with Message Passing Neural Networks. *Journal of Chemical Information and Modeling* **2021**, *61*, 2594\u20132609.",
+        "start_index": 47201,
+        "end_index": 47394
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(21) Aldeghi, M.; Coley, C. W. A Graph Representation of Molecular Ensembles for Polymer Property Prediction. *Chemical Science* **2022**, *13*, 10486\u201310498.\n\n(22) Weininger, D. SMILES, a Chemical Language and Information System. 1. Introduction to Methodology and Encoding Rules. *Journal of Chemical Information and Computer Sciences* **1988**, *28*, 31\u201336.",
+        "start_index": 47394,
+        "end_index": 47753
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(23) Weininger, D.; Weininger, A.; Weininger, J. L. SMILES. 2. Algorithm for Generation of Unique SMILES Notation. *Journal of Chemical Information and Computer Sciences* **1989**, *29*, 97\u2013101.",
+        "start_index": 47753,
+        "end_index": 47947
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(24) Sch\u00fctz, K. T.; Sauceda, H. E.; Kindermans, P.-J.; Tkatchenko, A.; M\u00fcller, K.-R. SchNet \u2013 A Deep Learning Architecture for Molecules and Materials. The Journal of Chemical Physics 2018, 148, 241722.",
+        "start_index": 47947,
+        "end_index": 48149
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(25) Unke, O. T.; Meuwly, M. PhysNet: A Neural Network for Predicting Energies, Forces, Dipole Moments, and Partial Charges. Journal of Chemical Theory and Computation 2019, 15, 3678\u20133693.",
+        "start_index": 48149,
+        "end_index": 48337
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(26) Greenman, K. P.; Graff, D.; Morgan, N.; Zheng, J.; Pang, H.-W.; Li, S.-C.; Zalite, A.; Wu, O.; Burns, J.; Doner, A.; Menon, A.; Coley, C.; Green, W. H. Chemprop v2.0.3. https://github.com/chemprop/chemprop, 2024.",
+        "start_index": 48337,
+        "end_index": 48554
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(27) RDKit: Open-Source Cheminformatics. https://www.rdkit.org, Accessed: 2024-10-09.",
+        "start_index": 48554,
+        "end_index": 48639
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(28) Wu, H.; Pang, H.-W.; Dong, X.; Burns, J. W.; Spiekermann, K.; Menon, A.; Zheng, J.; Biswas, S.; Li, S.-C.; Green, W. Quantumpioneer: Self-Evolving Machine for High-Throughput Automated Potential Energy Surface Exploration and Closed-Loop Chemical Reactivity Discovery. Proceedings of the AIChE 2023 Annual Meeting. 2023.",
+        "start_index": 48639,
+        "end_index": 48964
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(29) Wu, H.; Payne, A. M.; Pang, H.-W.; Menon, A.; Grambow, C. A.; Ranasinghe, D. S.; Dong, X.; Grinberg Dana, A.; Green, W. H. Toward Accurate Quantum Mechanical Thermochemistry: (1) Extensible Implementation and Comparison of Bond Additivity Corrections and Isodesmic Reactions",
+        "start_index": 48964,
+        "end_index": 49243
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ". The Journal of Physical Chemistry A 2024, 128, 4335\u20134352.",
+        "start_index": 49243,
+        "end_index": 49302
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(30) Wu, H.; Doner, A. C.; Pang, H.-W.; Green, W. H. Toward Accurate Quantum Mechanical Thermochemistry: (2) Optimal Methods for Enthalpy Calculations from Comprehensive Benchmarks of 284 Model Chemistries. 2025; Preprint, https://chemrxiv.org/engage/chemrxiv/article-details/67953191fa469535b9d8f826.",
+        "start_index": 49302,
+        "end_index": 49603
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(31) Grinberg Dana, A.; Liu, M.; Green, W. H. Automated Chemical Resonance Generation and Structure Filtration for Kinetic Modeling. *International Journal of Chemical Kinetics* **2019**, *51*, 760\u2013776.",
+        "start_index": 49603,
+        "end_index": 49805
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(32) Liu, M.; Grinberg Dana, A.; Johnson, M. S.; Goldman, M. J.; Jocher, A.; Payne, A. M.; Grambow, C. A.; Han, K.; Yee, N. W.; Mazeau, E. J.; Blodnal, K.; West, R. H.; Goldsmith, C. F.; Green, W. H. Reaction Mechanism Generator v3",
+        "start_index": 49805,
+        "end_index": 50036
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ".0: Advances in Automatic Mechanism Generation. *Journal of Chemical Information and Modeling* **2021**, *61*, 2686\u20132696.",
+        "start_index": 50036,
+        "end_index": 50157
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(33) Johnson, M. S.; Dong, X.; Grinberg Dana, A.; Chung, Y.; Farina, D. J.; Gillis, R. J.; Liu, M.; Yee, N. W.; Blodnal, K.; Mazeau, E.; Grambow, C. A.; Payne, A. M.; Spiekermann, K. A.; Pang, H.-W.; Goldsmith, C. F.; West, R. H",
+        "start_index": 50157,
+        "end_index": 50385
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": ".; Green, W. H. RMG Database for Chemical Property Prediction. *Journal of Chemical Information and Modeling* **2022**, *62*, 4906\u20134915.",
+        "start_index": 50385,
+        "end_index": 50521
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(34) Dong, X.; Pattanaik, L.; Li, S.-C.; Spiekermann, K.; Pang, H.-W.; Green, W. H. RDMC: Reaction Data and Molecular Conformer Software Package, version 0.1.0. [https://github.com/xiaoruiDong/RDMC](https://github.com/xiaoruiDong/RDMC), 2023.",
+        "start_index": 50521,
+        "end_index": 50763
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(35) Wu, Z.; Ramsundar, B.; Feinberg, E. N.; Gomes, J.; Geniesse, C.; Pappu, A. S.; Leswing, K.; Pande, V. MoleculeNet: A Benchmark for Molecular Machine Learning. *Chemical Science* **2018**, *9*, 513\u2013530.",
+        "start_index": 50763,
+        "end_index": 50969
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(36) Hu, W.; Fey, M.; Zitnik, M.; Dong, Y.; Ren, H.; Liu, B.; Catasta, M.; Leskovec, J. Open Graph Benchmark: Datasets for Machine Learning on Graphs. 2021; Preprint, [https://arxiv.org/abs/2005.00687](https://arxiv.org/abs/2005.00687).",
+        "start_index": 50969,
+        "end_index": 51205
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(37) Ramakrishnan, R.; Dral, P. O.; Rupp, M.; Von Lilienfeld, O. A. Quantum Chemistry Structures and Properties of 134 kilo Molecules. *Scientific Data* **2014**, *1*, 140022.\n(38) The SAMPL Challenges. https://github.com/samplchallenges. Accessed: 2024-08-02.",
+        "start_index": 51205,
+        "end_index": 51465
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(39) Koscher, B.; Canty, R. B.; McDonald, M. A.; Greenman, K. P.; McGill, C. J.; Bilodeau, C. L.; Jin, W.; Wu, H.; Vermeire, F. H.; Jin, B. Autonomous, Multi-Property-Driven Molecular Discovery: From Predictions to Measurements and Back. Science 2023, 382, eadi1407.",
+        "start_index": 51465,
+        "end_index": 51731
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(40) von Rudorff, G. F.; Heinen, S. N.; Bragato, M.; von Lilienfeld, O. A. Thousands of Reactants and Transition States for Competing E2 and S2 Reactions. Machine Learning: Science and Technology 2020, 1, 045026.",
+        "start_index": 51731,
+        "end_index": 51943
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(41) Stuyver, T.; Coley, C. W. Quantum Chemistry-Augmented Neural Networks for Reactivity Prediction: Performance, Generalizability, and Explainability. The Journal of Chemical Physics 2022, 156, 084104.",
+        "start_index": 51943,
+        "end_index": 52146
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(42) Stuyver, T.; Jorner, K.; Coley, C. W. Reaction Profiles for Quantum Chemistry-Computed [3+2] Cycloaddition Reactions. Scientific Data 2023, 10, 66.",
+        "start_index": 52146,
+        "end_index": 52298
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(43) Spiekermann, K.; Pattanaik, L.; Green, W. H. High Accuracy Barrier Heights, Enthalpies, and Rate Coefficients for Chemical Reactions. Scientific Data 2022, 9, 417.",
+        "start_index": 52298,
+        "end_index": 52466
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(44) Zhao, Q.; Vaddadi, S. M.; Woulfe, M.; Ogunfowora, L. A.; Garimella, S. S.; Isayev, O.; Savoie, B. M. Comprehensive Exploration of Graphically Defined Reaction Spaces. Scientific Data 2023, 10, 145.",
+        "start_index": 52466,
+        "end_index": 52668
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(45) Joung, J. F.; Han, M.; Jeong, M.; Park, S. Experimental Database of Optical Properties of Organic Compounds. Scientific Data 2020, 7, 1\u20136.",
+        "start_index": 52668,
+        "end_index": 52811
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(46) Ju, C.-W.; Bai, H.; Li, B.; Liu, R. Machine Learning Enables Highly Accurate Predictions of Photophysical Properties of Organic Fluorescent Materials: Emission Wave-\nlengths and Quantum Yields. *Journal of Chemical Information and Modeling* 2021, 61, 1053\u20131065.",
+        "start_index": 52811,
+        "end_index": 53077
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(47) Venkatraman, V.; Raju, R.; Oikonomopoulos, S. P.; Alsberg, B. K. The Dye-Sensitized Solar Cell Database. *Journal of Cheminformatics* 2018, 10, 1\u20139.",
+        "start_index": 53077,
+        "end_index": 53230
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(48) Venkatraman, V.; Kallidanthiyil Chellappan, L. An Open Access Data Set Highlighting Aggregation of Dyes on Metal Oxides. *Data* 2020, 5, 45.",
+        "start_index": 53230,
+        "end_index": 53375
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(49) Nakata, M.; Shimazaki, T. PubChemQC Project: A Large-Scale First-Principles Electronic Structure Database for Data-Driven Chemistry. *Journal of Chemical Information and Modeling* 2017, 57, 1300\u20131308.",
+        "start_index": 53375,
+        "end_index": 53580
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(50) Spiekermann, K. A.; Stuyver, T.; Pattanaik, L.; Green, W. H. Comment on \u2018physics-based representations for machine learning properties of chemical reactions\u2019. *Machine Learning: Science and Technology* 2023, 4, 048001.",
+        "start_index": 53580,
+        "end_index": 53803
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(51) Bradshaw, J.; Zhang, A.; Mahjour, B.; Graff, D. E.; Segler, M. H.; Coley, C. W. Challenging reaction prediction models to generalize to novel chemistry. 2025; Preprint, https://arxiv.org/abs/2501.06669.",
+        "start_index": 53803,
+        "end_index": 54010
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(52) Bemis, G. W.; Murcko, M. A. The Properties of Known Drugs. 1. Molecular Frameworks. *Journal of Medicinal Chemistry* 1996, 39, 2887\u20132893.\n\n(53) Goeman, J. J.; Solari, A. Comparing Three Groups. *The American Statistician* 2022, 76, 168\u2013176.",
+        "start_index": 54010,
+        "end_index": 54255
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(54) Pelegrina, G. D.; Siraj, S. Shapley Value-Based Approaches to Explain the Quality of Predictions by Classifiers. *IEEE Transactions on Artificial Intelligence* 2024, 5, 4217\u20134231.",
+        "start_index": 54255,
+        "end_index": 54439
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(55) Beechey, D.; Smith, T. M. S.; \u015eim\u015fek, Explaining Reinforcement Learning with Shapley\nValues. Proceedings of the 40th International Conference on Machine Learning. 2023; pp 2003\u20132014.",
+        "start_index": 54439,
+        "end_index": 54626
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(56) Zheng, Q.; Wang, Z.; Zhou, J.; Lu, J. Shap-CAM: Visual Explanations for Convolutional Neural Networks Based on Shapley Value. Computer Vision \u2013 ECCV 2022. 2022; pp 459\u2013474.",
+        "start_index": 54626,
+        "end_index": 54803
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(57) Dewi, C.; Tsai, B.-J.; Chen, R.-C. Shapley Additive Explanations for Text Classification and Sentiment Analysis of Internet Movie Database. Recent Challenges in Intelligent Information and Database Systems. 2022; pp 69\u201380.",
+        "start_index": 54803,
+        "end_index": 55030
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(58) Mastropietro, A.; Pasculli, G.; Feldmann, C.; Rodr\u00edguez-P\u00e9rez, R.; Bajorath, J. EdgeSHAPer: Bond-centric Shapley Value-based Explanation Method for Graph Neural Networks. *iScience* 2022, 25, 105043.",
+        "start_index": 55030,
+        "end_index": 55234
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(59) Rodr\u00edguez-P\u00e9rez, R.; Bajorath, J. Interpretation of Machine Learning Models Using Shapley Values: Application to Compound Potency and Multi-Target Activity Predictions. *Journal of Computer-Aided Molecular Design* 2020, 34, 1013\u20131026.",
+        "start_index": 55234,
+        "end_index": 55473
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(60) Li, S.-C.; Wu, H.; Menon, A.; Spiekermann, K. A.; Li, Y.-P.; Green, W. H. When Do Quantum Mechanical Descriptors Help Graph Neural Networks to Predict Chemical Properties? *Journal of the American Chemical Society* 2024, 146, 23103\u201323120.",
+        "start_index": 55473,
+        "end_index": 55716
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(61) Lundberg, S.; Lee, S.-I. A Unified Approach to Interpreting Model Predictions. 2017; Preprint, [http://arxiv.org/abs/1705.07874](http://arxiv.org/abs/1705.07874)",
+        "start_index": 55716,
+        "end_index": 55882
+    },
+    {
+        "document_name": "144.txt",
+        "chunk_text": "(62) Guyon, I.; Elisseeff, A. An Introduction to Variable and Feature Selection. *Journal of Machine Learning Research* 2003, 3, 1157\u20131182.\nTOC Graphic",
+        "start_index": 55882,
+        "end_index": 56033
+    }
+]

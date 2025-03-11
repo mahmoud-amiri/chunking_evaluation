@@ -1,0 +1,974 @@
+[
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Abstract: The oxygen evolution reaction (OER) is a key process that enables the storage of renewable energies in the form of chemical fuels. Although numerous transition metal oxides have been explored as OER catalysts, the scaling relationship of the binding energies of various surface-bound intermediates imposes a limit on the maximum activity of these oxides. While previous computational studies have suggested bifunctional catalysts might be capable of overcoming this limit, stable and non-precious catalysts of this type remain elusive",
+        "start_index": 0,
+        "end_index": 544
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Here, we describe a catalyst that exhibits activity significantly higher than current state-of-the-art catalysts that operate in alkaline solutions, including the benchmark nickel iron oxide. This new catalyst is both easy to prepare and stable for many hours. Operando X-ray absorption spectroscopic data reveal that the catalyst is made of nanoclusters of $\\gamma$-FeOOH covalently linked to the edge sites of a $\\gamma$-NiOOH support",
+        "start_index": 544,
+        "end_index": 982
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". According to density functional theory computations, this structure allows a reaction path involving iron as the oxygen evolving center and a nearby terrace O site on the $\\gamma$-NiOOH support oxide as a hydrogen acceptor. This bifunctional mechanism circumvents the aforementioned maximum activity limit associated with the scaling relationship and leads to superior OER activity.",
+        "start_index": 982,
+        "end_index": 1366
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The water splitting reaction provides a convenient process through which intermittent renewable energies are stored in the form of chemical fuels, namely hydrogen and oxygen",
+        "start_index": 1366,
+        "end_index": 1539
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Although numerous transition metal oxides have been explored as catalysts for the oxygen evolution reaction (OER, \\(2\\text{H}_2\\text{O} \\rightarrow \\text{O}_2 + 4\\text{H}^+ + 4\\text{e}^-\\)), this reaction remains a bottleneck in the water splitting reaction",
+        "start_index": 1539,
+        "end_index": 1798
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". While only precious IrO\\(_x\\), RuO\\(_x\\), and their composites have sustained OER activity in acidic solutions, a number of non-precious metal oxides are reported to have higher activity than IrO\\(_x\\) in alkaline solutions.",
+        "start_index": 1798,
+        "end_index": 2024
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "On metal oxides, the OER proceeds via multiple surface-bound intermediates including M-OH, M-OOH, and M=O (M denotes a metallic active site). A commonly proposed mechanism for OER in alkaline solutions consists of the following four steps:",
+        "start_index": 2024,
+        "end_index": 2263
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "\\[\n\\begin{align*}\n\\text{OH}^- + \\text{M} & \\rightarrow \\text{M-OH} + \\text{e}^- \\quad (1) \\\\\n\\text{M-OH} + \\text{OH}^- & \\rightarrow \\text{M}=\\text{O} + \\text{H}_2\\text{O} + \\text{e}^- \\quad (2) \\\\",
+        "start_index": 2263,
+        "end_index": 2460
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "\\text{M}=\\text{O} + \\text{OH}^- & \\rightarrow \\text{M-OOH} + \\text{e}^- \\quad (3) \\\\\n\\text{M-OOH} + \\text{OH}^- & \\rightarrow \\text{O}_2 + \\text{H}_2\\text{O} + \\text{M} + \\text{e}^- \\quad (4)",
+        "start_index": 2460,
+        "end_index": 2651
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "\\end{align*}\n\\]",
+        "start_index": 2651,
+        "end_index": 2666
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Figure 1 | Volcano plots assuming mono-nuclear (black) and bifunctional OER mechanisms (green). A denotes an arbitrary H acceptor site. \\(\\gamma\\)-FeOOH has been computed in this work while all other oxides were taken from literature",
+        "start_index": 2666,
+        "end_index": 2899
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Mn\\(_3\\)O\\(_4\\), NiO, RhO\\(_2\\); \\(\\beta\\)-CoOOH; Mn\\(_2\\)O\\(_3\\), \\(\\alpha\\)-MnO\\(_2\\), \\(\\beta\\)-MnO\\(_2\\); NiFeO\\(_x\\), \\(\\gamma\\)-NiOOH.",
+        "start_index": 2899,
+        "end_index": 3041
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The potential determining step is either the formation of M=O (step 2) or the step forming the O-O bond by hydroxide attack of the M=O species (step 3) depending on their respective potentials (black slopes in Fig. 1). The adsorption energies of OH, O, and OOH are correlated",
+        "start_index": 3041,
+        "end_index": 3316
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". In particular, the difference in the surface adsorption energy of OH and OOH is, according to Density Functional Theory (DFT) computations, independent of the catalyst and approximately 3.2 eV. Because of this scaling relationship, the minimal theoretical overpotential \\((\\eta)\\) for an oxide catalyst is about 0.4 V",
+        "start_index": 3316,
+        "end_index": 3635
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". According to computations, on catalysts like NiO, \\(\\gamma\\)-NiOOH, and RhO\\(_2\\), O binds too weakly which causes the formation of M=O to become potential determining and the overpotential increases beyond 0.4 V",
+        "start_index": 3635,
+        "end_index": 3849
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". For catalysts like Mn\\(_3\\)O\\(_4\\), \\(\\alpha\\)-MnO\\(_2\\), \\(\\beta\\)-MnO\\(_2\\), IrO\\(_2\\), and \\(\\beta\\)-CoOOH, O is too strongly bound and the formation of M=O occurs below 1.6 V. The potential determining step is the O-O bond formation, which requires more than 1.6 V",
+        "start_index": 3849,
+        "end_index": 4119
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The theoretical overpotential is again larger than 0.4 V. For NiFeO\\(_x\\), both steps 2 and 3 occur at about 1.6 V, putting it near the top of a Sabatier-type Volcano-plot (Fig. 1)",
+        "start_index": 4119,
+        "end_index": 4301
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Thus, NiFeO\\(_x\\) is predicted to be among the \u201cmost active\u201d OER catalysts, far superior to NiOOH, CoO\\(_x\\), and MnO\\(_x\\). This prediction agrees well with experimental results. To date, the scaling relationship has proven to govern the majority",
+        "start_index": 4301,
+        "end_index": 4550
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "of metal oxide catalysts, including all the known \u201cmost active\u201d mixed oxide catalysts such as NiFeOx, CoFeOx, and FeCoW oxyhydroxide\\textsuperscript{15-17}.",
+        "start_index": 4550,
+        "end_index": 4706
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "In order to overcome the performance limit of OER catalysts imposed by the scaling relationship, catalysts that operate by unconventional mechanisms need to be developed. Through DFT-based computational analysis, Rossmeisl and co-workers proposed that introducing proton acceptor-donor sites might lead to a bifunctional pathway for O-O bond formation, thereby circumventing the volcano limit in the OER\\textsuperscript{18-20}",
+        "start_index": 4706,
+        "end_index": 5132
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Analogous bifunctional mechanisms have been reported for highly active catalysts in ammonium synthesis from nitrogen\\textsuperscript{21} and methanol synthesis from CO\\textsubscript{2} \\textsuperscript{22}. For the OER, however, there is yet no experimental report of non-precious bifunctional catalysts that outperform the best conventional catalysts",
+        "start_index": 5132,
+        "end_index": 5485
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Here, we describe a new OER catalyst that significantly surpasses the current performance limit of all known metal oxides in alkaline solutions, including the current state-of-the-art NiFeOx catalyst. This catalyst is stable and can be easily prepared from nickel foam (NF), a readily available and commonly used substrate in OER",
+        "start_index": 5485,
+        "end_index": 5816
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Operando X-ray absorption spectroscopy reveals the unique structure of this catalyst consisting of nanoclusters of \u03b3-FeOOH covalently linked to the edge sites of a \u03b3-NiOOH support, which is formed in situ on NF. DFT computations suggest that this structure allows for a bifunctional mechanism facilitating the O-O bond formation, leading to exceptional catalytic activity.",
+        "start_index": 5816,
+        "end_index": 6190
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "NF is widely used as a 3-dimensional support for OER catalysts\\textsuperscript{15,23}, but its intrinsic activity is modest (Fig. 2a). Since it has been shown that iron incorporation is required to enhance the OER activity of NiOx-based catalysts\\textsuperscript{10,16,24,25}, we hypothesized that the activity of NF might be increased in a similar way by iron incorporation",
+        "start_index": 6190,
+        "end_index": 6564
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Fe ions were incorporated by potential cycling in commercial KOH, as it was previously shown that such a process led to the incorporation of Fe ions into NiOx films\\textsuperscript{16}. Indeed when NF was subjected to 100 repetitive cyclic voltammetric (CV) scans from 1.21 to 1.54 V vs. RHE in a 1 M commercial KOH solution (with a Fe concentration of 0",
+        "start_index": 6564,
+        "end_index": 6920
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".18 mg L\\textsuperscript{-1} according to measurements using Inductively Coupled Plasma Mass Spectrometry (ICP-MS)), a layer of Fe-containing nickel oxide (NiOx-Fe) was formed. A NF-NiOx-Fe electrode (loading of iron oxide: 4.3 \u03bcg cm\\textsuperscript{-2}) exhibits much higher OER activity than NF (Fig. 2a)",
+        "start_index": 6920,
+        "end_index": 7226
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The as-received NF was then immersed into a solution containing 10 wt% hydrochloric acid (HCl) for 30 minutes, which resulted in a NF-AC (AC = acid cleaned) electrode with a rougher surface than NF according to the scanning electron microscopy images (Supplementary Fig. 1). After repetitive CV or linear sweep voltammetric (LSV) scans from 1.21 to 1.54 V vs",
+        "start_index": 7226,
+        "end_index": 7586
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". RHE in a 1 M commercial KOH solution, NF-AC-NiOx-Fe electrodes were prepared. According to ICP-MS, the iron oxide loadings were in the range of 1.0-14.1 \u03bcg cm\\textsuperscript{-2} depending on the preparation procedure (details are provided in Supplementary Information).",
+        "start_index": 7586,
+        "end_index": 7858
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The NF-AC-NiOx-Fe electrodes exhibit excellent OER activity (Fig. 2a and Supplementary Fig. 2a). To reach 10 mA cm\\textsuperscript{-2}, a NF-AC-NiOx-Fe electrode (loading of iron oxide: 14",
+        "start_index": 7858,
+        "end_index": 8046
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".1 \u03bcg cm\\textsuperscript{-2}) requires an overpotential of 245 mV, lower than NF-NiOx-Fe (266 mV) and NF (311 mV). The Tafel slopes are 34, 36, and 45 mV dec\\textsuperscript{-1} for NF-AC-NiOx-Fe, NF-NiOx-Fe, and NF, respectively (Supplementary Fig",
+        "start_index": 8046,
+        "end_index": 8294
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". 3). The activity of the NF-AC-NiOx-Fe electrode is stable: the overpotential for a current density of 10 mA cm\\textsuperscript{-2} remained at 245 mV during an electrolysis of 18 hours (Fig. 2b)",
+        "start_index": 8294,
+        "end_index": 8490
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". When NF-AC was subjected to 100 CV scans in a 1 M KOH solution that was stripped of Fe ions by sequestration with an excess of nickel hydroxides for 12 h (the Fe concentration is below the detection limit of ICP-MS after the treatment), the resulting Fe-free NF-AC-NiOx exhibited much lower OER activity (Supplementary Fig. 4)",
+        "start_index": 8490,
+        "end_index": 8818
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Thus, Fe incorporation was essential for the high OER activity of the NF-AC-NiOx-Fe and NF-NiOx-Fe electrodes.",
+        "start_index": 8818,
+        "end_index": 8930
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "By using commercial KOH solution which contained only a trace amount of Fe ions, the maximum amount of Fe incorporation into NF-AC electrodes was limited to about 14 \u03bcg.",
+        "start_index": 8930,
+        "end_index": 9099
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "cm$^2$. Although this method of Fe incorporation seemed to be important for the optimal distribution of Fe active sites and the corresponding site-averaged activity (see below), the geometrically averaged activity might benefit from a higher loading of Fe. Such activity is relevant to practical applications, especially because Fe is cheap. To incorporate more Fe in NF-AC, we dipped the latter into a FeCl$_3$ solution (0",
+        "start_index": 9099,
+        "end_index": 9522
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".01 M) for 15 minutes and then dried it in an oven at 70 \u00b0C. The resulting electrode, NF-AC-FD (FD = Fe dipping), has hierarchical nanoporous structures at the surface (Supplementary Fig. 5). NF-AC-FD was subjected to 100 repetitive cyclic voltammetric (CV) scans from 1.21 to 1.53 V vs",
+        "start_index": 9522,
+        "end_index": 9808
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". RHE in a 1 M commercial KOH solution to yield the NF-AC-FD-NiO$_x$-Fe electrode. This electrode has much better net activity than NF-AC-NiO$_x$-Fe, reaching 10 mA cm$^{-2}$ and 100 mA cm$^{-2}$ at only 215 mV and 248 mV (Fig. 2a), respectively. The activity is stable for 36 h at least (Fig",
+        "start_index": 9808,
+        "end_index": 10100
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". 2b).",
+        "start_index": 10100,
+        "end_index": 10106
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "**Figure 2 | Activity and stability of catalysts.** a, Polarization curves of NF (black), NF-NiO$_x$-Fe (magenta), NF-AC-NiO$_x$-Fe (blue) and NF-AC-FD-NiO$_x$-Fe (green)",
+        "start_index": 10106,
+        "end_index": 10276
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Loadings of iron oxide in NF-NiO$_x$-Fe, NF-AC-NiO$_x$-Fe, and NF-AC-FD-NiO$_x$-Fe are 4.3, 14.1, and 68.0 \u00b5g cm$^{-2}$, respectively. Backward scan; Scan rate: 1 mV s$^{-1}$; IR corrected",
+        "start_index": 10276,
+        "end_index": 10466
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". b, Chronopotentiometric measurements of OER at 10 mA cm$^{-2}$ for 18 h using NF-AC-NiO$_x$-Fe (bottom) as catalyst and at 10 mA cm$^{-2}$ and 100 mA cm$^{-2}$ for 36 h using NF-AC-FD-NiO$_x$-Fe (top) as catalyst",
+        "start_index": 10466,
+        "end_index": 10680
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". c, The $J_s$ at different loadings of Fe$_2$O$_3$ for GC-NiO$_x$-Fe (blue spheres) and GC-NiFeO$_x$ (black triangles). d, Comparison of polarization curves between NF-AC-NiO$_x$-Fe and NF-NiFeO$_x$ at similar loading.",
+        "start_index": 10680,
+        "end_index": 10899
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Table 1. Comparison of TOFs and $J_s$ of selected state-of-the-art OER catalysts in alkaline solutions.$^a$",
+        "start_index": 10899,
+        "end_index": 11006
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| Catalysts                  | Electrode | Overpotential | Reference |\n|----------------------------|-----------|---------------|-----------|\n|                            |           | $270 \\text{ mV}$ | $300 \\text{ mV}$ |         |",
+        "start_index": 11006,
+        "end_index": 11238
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                            |           | TOF ($s^{-1}$) | $J_s$ (mA cm$^{-2}$) | TOF ($s^{-1}$) | $J_s$ (mA cm$^{-2}$) |          |",
+        "start_index": 11238,
+        "end_index": 11371
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| NF-AC-NiO$_x$-Fe           | NF        | 0.78\u00b10.27     | 0.041\u00b10.018     | 3.4\u00b11.1       | 0.18\u00b10.08       | This work |",
+        "start_index": 11371,
+        "end_index": 11493
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| NF-AC-FD-NiO$_x$-Fe        | NF        | 0.82\u00b10.13     | 0.051\u00b10.008     | n/a           | n/a              | This work |",
+        "start_index": 11493,
+        "end_index": 11616
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| Au-NiO$_x$-Fe              | Au        | 0.73\u00b10.23     | 0.17\u00b10.03       | 3.5\u00b11.3       | 0.81\u00b10.17       | This work |",
+        "start_index": 11616,
+        "end_index": 11738
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| GC-NiO$_x$-Fe              | GC        | 0.48\u00b10.10     | 0.10\u00b10.03       | 2.5\u00b10.44      | 0.54\u00b10.09       | This work |",
+        "start_index": 11738,
+        "end_index": 11860
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| NF-NiFeO$_x$              $^b$ | NF        | 0.06\u00b10.02     | 0.012\u00b10.002     | 0.33\u00b10.06     | 0.05\u00b10.01       | This work |",
+        "start_index": 11860,
+        "end_index": 11986
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| GC-NiFeO$_x$              $^b$ | GC        | 0.10\u00b10.02     | 0.03\u00b10.01       | 0.44\u00b10.05     | 0.13\u00b10.04       | This work |",
+        "start_index": 11986,
+        "end_index": 12112
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| NiFeO$_x$                 $^c$ | GC/Au     | 0.072\u00b10.02    | 0.011$^c$       | 0.52\u00b10.16     | 0.084           | $^8,16$  |",
+        "start_index": 12112,
+        "end_index": 12237
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| NiFeO$_x$                 $^c$ | Au        | n/a           | 0.015\u00b10.010$^c$ | n/a           | 0.11\u00b10.07$^c$  | $^7$      |\n| NiFe LDH                  | GC        | 0.036         | n/a             | 0.21          | n/a             | $^6$      |",
+        "start_index": 12237,
+        "end_index": 12484
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| G-FeCoW                   | GC        | n/a           | n/a             | 0.93          | n/a             | $^{15}$   |\n| IrO$_2$                   | Au        | ~0.002$^e$    | 0.004$^e$       | ~0.01         | 0.02            | $^5,7$    |",
+        "start_index": 12484,
+        "end_index": 12727
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "$^a$ For multiple samples, the averaged values with standard deviations are given. For NF-AC-NiO$_x$-Fe, Au-NiO$_x$-Fe, and GC-NiO$_x$-Fe, each sample is measured 2-3 times and the raw data are shown in Supplementary Table 1-3",
+        "start_index": 12727,
+        "end_index": 12953
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". For all iron-containing samples except G-FeCoW, iron is assumed as the active species; for G-FeCoW, Co is taken as the active species. n/a is the abbreviation for the phrase of not available due to lack of data or influence by mass transfer.",
+        "start_index": 12953,
+        "end_index": 13196
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "$^b$ NiFeO$_x$ was prepared according to the method reported in literature $^{16}$ (Supplementary Methods). Each sample is measured 2 times and the raw data are shown in Supplementary Table 4.",
+        "start_index": 13196,
+        "end_index": 13388
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "$^c$ TOFs were taken from the samples on GC reported in literature$^{16}$. $J_s$ are taken from the continuously deposited film on Au reported in literature$^8$ (calculation of $J_s$ see in Supplementary Methods).  \n\n$^d$ TOFs are taken from literature$^8$ and $J_s$ are taken from literature$^7$.",
+        "start_index": 13388,
+        "end_index": 13685
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "$^e$ TOFs and $J_s$ at these potentials are extrapolated using the reported Tafel slopes ($\\sim 35 \\text{ mV dec}^{-1}$ for NiFeO$_x$, $\\sim 40 \\text{ mV dec}^{-1}$ for IrO$_2$).",
+        "start_index": 13685,
+        "end_index": 13863
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Three figures of merits including turnover frequency (TOF), surface area averaged specific activity, and overpotential for 10 mA cm$^{-2}$, are commonly used to compare OER catalysts$^7$. The first two parameters focus on the intrinsic activity of catalysts, while the third one is oriented towards device performance",
+        "start_index": 13863,
+        "end_index": 14180
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". These three parameters were determined for the catalyst reported here and compared to the best performing OER catalysts in alkaline solutions (Table 1, Supplementary Table 5-7). It appears that this catalyst outperforms all other catalysts for at least 2 of these parameters and competes very well for all of them.",
+        "start_index": 14180,
+        "end_index": 14496
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "As electrochemical, spectroscopic and computational data (see below) indicate that the active site of our catalyst is Fe, the apparent TOFs of the NF-AC-NiO$_x$-Fe electrodes were calculated according to the total amount of Fe ions, as determined by ICP-MS (Supplementary Fig. 6; Supplementary Tables 1; Supplementary Methods)",
+        "start_index": 14496,
+        "end_index": 14822
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". TOFs were calculated for 10 different electrodes with a Fe (Fe oxide) loading in the range of 1.4 to 14.1 \u03bcg cm$^{-2}$, and were found to be similar. Table 1 compares the averaged TOFs of NF-AC-NiO$_x$-Fe with several state-of-the-art catalysts, and Supplementary Table 5 lists the comparison with an extended number of known catalysts",
+        "start_index": 14822,
+        "end_index": 15159
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". All TOFs were calculated according to the total amounts of active metal ions. NF-AC-NiO$_x$-Fe and NF-AC-FD-NiO$_x$-Fe have similar TOFs. Their TOFs are the highest among all solid-state catalysts reported to date. With an average TOF of 0",
+        "start_index": 15159,
+        "end_index": 15400
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".78 s$^{-1}$ at $\\eta = 270$ mV, NF-AC-NiO$_x$-Fe is about an order of magnitude more active than state-of-the-art NiFeO$_x$ and NiFe LDH catalysts$^{6,16}$ and more than 200 times higher than IrO$_2$",
+        "start_index": 15400,
+        "end_index": 15600
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Recently a gelled FeCoW oxyhydroxide (G-FeCoW) was reported to be the hitherto most active OER catalyst in alkaline solutions$^{15}$. NF-AC-NiO$_x$-Fe has a TOF 3.6 times higher than G-FeCoW",
+        "start_index": 15600,
+        "end_index": 15792
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". To alleviate the uncertainty using literature values when comparing TOFs, direct comparison of NF-AC-NiO$_x$-Fe with NiFeO$_x$ deposited on NF was conducted (Supplementary Table 4 and Table 5). The TOFs of NF-AC-NiO$_x$-Fe are again 10-13 times higher than those of NF-NiFeO$_x$.",
+        "start_index": 15792,
+        "end_index": 16073
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "In the above calculation of TOFs for NF-AC-NiO$_x$-Fe and NF-AC-FD-NiO$_x$-Fe, the NiO$_x$ component was treated as a support for the active Fe centers. For this assumption to be valid, the TOFs should be independent of the quantity of NiO$_x$",
+        "start_index": 16073,
+        "end_index": 16316
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". To verify this assumption, thin layers of NiO$_x$ were first electrodeposited on Au and glassy carbon (GC) electrodes, followed by iron-incorporation using the same method as for the synthesis of NF-AC-NiO$_x$-Fe. On these two electrodes, the quantity of NiO$_x$ could be varied and measured",
+        "start_index": 16316,
+        "end_index": 16609
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The activity of the resulting catalysts, Au-NiO$_x$-Fe and GC-NiO$_x$-Fe, were measured by LSV (Supplementary Fig. 7). Notwithstanding a small difference, both Au-NiO$_x$-Fe and GC-NiO$_x$-Fe exhibit activities and TOFs (Table 1, Supplementary Fig",
+        "start_index": 16609,
+        "end_index": 16858
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". 7 and Supplementary Tables 1-3) similar to NF-AC-NiO$_x$-Fe. The small difference is likely due to the electrical contact between the NiO$_x$ film and the electrodes rather than the intrinsic activity of the catalyst. The TOFs of Au-NiO$_x$-Fe and GC-NiO$_x$-Fe are largely independent of the quantity of NiO$_x$ (Supplementary Fig. 8)",
+        "start_index": 16858,
+        "end_index": 17195
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". These data validate the treatment of NiO$_x$ as a support in the calculation of TOFs of our catalysts and show that it outperforms all alkaline OER catalysts reported so far.",
+        "start_index": 17195,
+        "end_index": 17371
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The specific activity ($J_s$), which is the current density averaged by the electrochemical surface area, is a parameter that is complementary to TOF in evaluating the intrinsic activity of electrocatalysts.$^7$ To make a direct comparison, the specific activities of our NiO$_x$-Fe catalyst and NiFeO$_x$ deposited on the same supports (NF and GC) were measured (Supplementary Methods)",
+        "start_index": 17371,
+        "end_index": 17757
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". It was previously reported that NiFeO$_x$ had the highest specific activity among various transition metal oxides$^7$. On both electrodes, our catalyst has 3-4 times higher specific activity than NiFeO$_x$ (Fig. 2c, Table 1 and Supplementary Table 6)",
+        "start_index": 17757,
+        "end_index": 18009
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The specific activity on GC is higher than on NF for both catalysts because electrochemical surface areas correspond only to those of the catalysts due to the GC\u2019s flat surface, while on NF the areas correspond to those of the porous NF electrodes. The values on GC are therefore representative of the true activity of the catalysts",
+        "start_index": 18009,
+        "end_index": 18343
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". For the NiFeO$_x$ catalyst, our value is similar to those determined in the literature$^{7,8}$, confirming that the NiFeO$_x$ catalyst used in the direct comparison exhibits the same activity as the state-of-the-art samples. The intrinsic activity of the bifunctional NiO$_x$-Fe catalysts is therefore superior to all known catalysts for which an intrinsic activity have been reported.",
+        "start_index": 18343,
+        "end_index": 18730
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Another important parameter of catalytic activity is the overpotential for a given current density, e.g., 10 mA cm$^{-2}$ (Supplementary Table 7). In direct comparison and at similar loadings, the present NiO$_x$-Fe catalyst has overpotentials of about 74-80 mV lower than NiFeO$_x$ (Fig. 2d, and Supplementary Fig. 9)",
+        "start_index": 18730,
+        "end_index": 19048
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". A striking improvement of more than 160 mV in overpotential is",
+        "start_index": 19048,
+        "end_index": 19112
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "obtained when comparing NF-AC-NiO\\textsubscript{x}-Fe with IrO\\textsubscript{2}, the benchmark noble metal catalyst, at a similar loading",
+        "start_index": 19112,
+        "end_index": 19249
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". A small number of high-surface-area electrodes coated with a large amount of catalysts are reported to have overpotentials close to 200 mV for 10 mA cm\\textsuperscript{-2}, making them interesting for device performance (Supplementary Table 8\\textsuperscript{15,23,26})",
+        "start_index": 19249,
+        "end_index": 19520
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". With an overpotential of only 215 mV, a stable activity, and an easy and economical preparation from earth abundant components, the NF-AC-FD-NiO\\textsubscript{x}-Fe electrode described above is also very competitive in this category.",
+        "start_index": 19520,
+        "end_index": 19755
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The NiO\\textsubscript{x}-Fe catalyst was subjected to a variety of characterization methods. X-ray photoelectron spectroscopy (XPS) data are consistent with the presence of iron oxide on the surface of the electrode (Supplementary Fig. 10\\textsuperscript{27})",
+        "start_index": 19755,
+        "end_index": 20014
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". In the Raman spectra, the peaks corresponding to $\\gamma$-NiOOH, initially absent in the catalyst before OER, emerged after subjecting the catalyst to OER conditions (Supplementary Fig. 11). This lamellar structure has already been shown to be the active phase in nickel containing OER catalysts under oxidative potentials",
+        "start_index": 20014,
+        "end_index": 20338
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".\\textsuperscript{28} No peak from an iron oxide species was, however, observed in the Raman spectra, probably because of the low iron concentration. To obtain further structural information on the catalyst, X-ray absorption spectroscopy (XAS) was applied, both on the post-catalytic material and under operating conditions.",
+        "start_index": 20338,
+        "end_index": 20662
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "Figure 3a shows the Fe K-edge X-ray absorption near edge spectra (XANES) of NF-AC-NiO\\textsubscript{x}-Fe, together with iron oxide references\\textsuperscript{39}. The oxidation state of as-prepared NF-AC-NiO\\textsubscript{x}-Fe is close to the value of +3, since the main absorption edge position coincides with that of $\\gamma$-Fe(3+)OOH",
+        "start_index": 20662,
+        "end_index": 21001
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Spinel iron oxides (maghemite and magnetite) and hematite contain both octahedral and tetrahedral sites. Tetrahedral iron sites have a well-defined signature in Fe K-edge with an intense peak at low energies (ca. 7114 eV)\\textsuperscript{30,31}. From the pre-edge intensity and position (inset of Fig. 3a), the tetrahedrally coordinated Fe ions can therefore be ruled out",
+        "start_index": 21001,
+        "end_index": 21374
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". This result is confirmed by Extended X-ray Absorption Fine Structure (EXAFS) spectra at the Fe K-edge (as depicted in Fig. 3b), which further describes the local geometry of Fe. The first peak at apparent distances 1.5 \u00c5 and the second and third peaks at 2.5 and 3",
+        "start_index": 21374,
+        "end_index": 21640
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".1 \u00c5, are attributed to the single scattering path of the closest oxygen (that is, Fe-O) and the second/third neighboring iron metals (that is, Fe-Fe) surrounding the absorbing Fe ions\\textsuperscript{32,33}, respectively",
+        "start_index": 21640,
+        "end_index": 21861
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". These results clearly reveal the Fe-Fe bonds with octahedrally coordinated Fe ions in NF-AC-NiO\\textsubscript{x}-Fe, which are more similar to those of $\\gamma$-FeOOH or NiFe-LDH and Fe-doped $\\gamma$-NiOOH\\textsuperscript{24}, as opposed to hematite or spinel structures",
+        "start_index": 21861,
+        "end_index": 22134
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Most interestingly, a new peak (Fe-Ni\\textsubscript{outside}) was observed at 3.98 \u00c5 (Fig. 3b, Supplementary Table 9 and Supplementary Fig. 12 - Fig. 14); this value is significantly larger than those of both Fe-Fe(Td) and Fe-Fe(Oh) in hematite or spinel structures, as well as that of Fe-Ni in NiFe LDH (~3",
+        "start_index": 22134,
+        "end_index": 22443
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".1 \u00c5), indicating that there is a Fe-Ni path with a specific long distance in NF-AC-NiO\\textsubscript{x}-Fe (~4.0 \u00c5). This specific path is attributed to an interfacial interaction between the octahedrally oxygen-coordinated Fe and the underlying closest NiO\\textsubscript{x} through an oxygen bridge",
+        "start_index": 22443,
+        "end_index": 22743
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Notably, the coordination number (CN) of Fe-Fe is remarkably smaller than those of Lepidocrocite ($\\gamma$-FeOOH) or NiFe-LDH. This result reveals small size clusters (~1-2 nm), where the Fe ions at the edges have fewer Fe-Fe interactions than in the center (Supplementary Table 9 and Supplementary Fig. 13 - Fig. 14), thus decreasing the overall mean Fe-Fe coordination numbers",
+        "start_index": 22743,
+        "end_index": 23123
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Accordingly, the NF-AC-NiO\\textsubscript{x}-Fe catalyst can be described as discrete nanoclusters of $\\gamma$-FeOOH covalently linked to the NiO\\textsubscript{x} support (with a $\\gamma$-NiOOH structure under OER, see Raman data above and XAS data below) via bridging oxygens (Fig. 3c). The lack of Fe-Ni path at about 3",
+        "start_index": 23123,
+        "end_index": 23445
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".1 \u00c5 as found in NiFe LDH (Supplementary Fig. 14) indicates that the FeO\\textsubscript{6} octahedron and the NiO\\textsubscript{6} octahedron are not edge-sharing as in NiFe LDH, but corner-sharing which leads to a Ni-O-Fe distance of about 4 \u00c5",
+        "start_index": 23445,
+        "end_index": 23688
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Therefore, the interface between the FeOOH clusters and the $\\gamma$-NiOOH support occurs at the edge, but not terrace, sites of $\\gamma$-NiOOH (Fig. 3c).",
+        "start_index": 23688,
+        "end_index": 23844
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "**In-situ X-ray absorption spectroscopy** was employed to reveal the structural evolution of the catalyst during OER (Fig. 3d, Table 2 and Supplementary Table 10)\\textsuperscript{34,35}",
+        "start_index": 23844,
+        "end_index": 24029
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". In order to collect Ni K-edge data, the catalysts deposited on Au-coated FTO (Au-NiO\\textsubscript{x}-Fe) were used instead of NF-AC-NiO\\textsubscript{x}-Fe due to the strong background Ni signal from NF",
+        "start_index": 24029,
+        "end_index": 24234
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The Fe K-edge data of Au-NiO\\textsubscript{x}-Fe are similar to those of NF-AC-NiO\\textsubscript{x}-Fe, confirming the similar nature of catalysts on both supports. Prior to OER (when no bias or $\\eta = 0.22$ V are applied), slight decreases in apparent distance are observed compared to the dry sample. These changes might be attributed to a specific interaction with the electrolyte",
+        "start_index": 24234,
+        "end_index": 24620
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Once the applied voltage is further increased above $\\eta = 0.27$ V, the apparent distance of Fe-Fe path is reduced by approximately 0.15 \u00c5. This decrease in Fe-Fe path is due to the oxidation of Fe, as observed before in other systems\\textsuperscript{24,33}. Likewise, **in-situ** Ni K-edge XAS (Fig. 3d, Supplementary Fig",
+        "start_index": 24620,
+        "end_index": 24945
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". 15 and Supplementary Table 10) shows that the apparent distances of the Ni-Ni path is reduced by about 0.24-0.27 \u00c5 under OER potentials, indicating the oxidation of Ni ions. The potential dependent edge energies (Supplementary Fig",
+        "start_index": 24945,
+        "end_index": 25177
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". 16) indicate the transformation of the NiO\\textsubscript{x} support from $\\alpha$-Ni(OH)\\textsubscript{2} to $\\gamma$-NiOOH under OER conditions\\textsuperscript{24,28}, in agreement with the result of the Raman study (see above).",
+        "start_index": 25177,
+        "end_index": 25408
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The distance of Fe-Ni\\textsubscript{outside} path changes dramatically, from 3.98 \u00c5 in the dry sample to 3.80 \u00c5 at no bias and $\\eta = 0.22$ V to 3.34 \u00c5 at $\\eta = 0.27$ V and further to 3.21 \u00c5 at $\\eta = 0.37$ V",
+        "start_index": 25408,
+        "end_index": 25620
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". This result indicates strong structural changes at the interface of the $\\gamma$-FeOOH clusters and the $\\gamma$-NiOOH support. From the dry sample to the catalyst at the beginning of OER ($\\eta = 0",
+        "start_index": 25620,
+        "end_index": 25820
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".27$ V), the structural change can be accounted for by considering a 52\u00b0 tilt of the FeO\\textsubscript{6} octahedron relative to the NiO\\textsubscript{6} octahedron (Fig 3c). A further 3.6\u00b0 tilt of the FeO\\textsubscript{6} octahedron can account for the structural change from $\\eta = 0",
+        "start_index": 25820,
+        "end_index": 26106
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".27$ V to $\\eta = 0.37$ V. While the more than 50\u00b0 tilt is significant, it seems feasible since the FeO\\textsubscript{6} octahedrons in pure $\\gamma$-FeOOH are tilted at about 23\u00b0 degree one over the other (Supplementary Fig. 17). Notably, this significant structural change only occurs on NF-AC-NiO\\textsubscript{x}-Fe catalyst",
+        "start_index": 26106,
+        "end_index": 26434
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The NiFe LDH reference sample, which is considered as the active form of NiFeO\\textsubscript{x}, exhibits no such structural changes according to **operando** XAS (Supplementary Fig. 18)",
+        "start_index": 26434,
+        "end_index": 26622
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". This comparison further underscores the unique nature of the present NF-AC-NiO\\textsubscript{x}-Fe catalyst relative to NiFeO\\textsubscript{x} and the peculiar role of the interaction between the NiOOH support and the discrete FeOOH clusters.",
+        "start_index": 26622,
+        "end_index": 26866
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "**Figure 3** | *in-situ* X-ray absorption spectroscopy. **a,** XANES spectra, inset shows the pre-edge features of all spectra. **b,** Fourier transform of Fe K-edge EXAFS spectra for NF-AC-NiO\u2093-Fe and the corresponding references. **c,** Proposed model of \u03b3-FeOOH onto NiOOH surface with geometric tilt",
+        "start_index": 26866,
+        "end_index": 27169
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Inset shows the illustrative side view of the tilt (\u03b1 is the tilt degree). **d,** *in-situ* FT-EXAFS spectra of Fe K-edge and Ni K-edge for Au-NiO\u2093-Fe during OER.",
+        "start_index": 27169,
+        "end_index": 27333
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "**Table 2** | Structural parameters of Au-NiO\u2093-Fe sample extracted from *in-situ* Fe K-edge EXAFS refinement during OER.\n| condition       | path    | R (\u00c5)  | CN    | \u0394E (eV) | \u03c3\u00b2 (\u00c5\u00b2) | R-value (%) |\n|-----------------|---------|--------|-------|---------|---------|-------------|",
+        "start_index": 27333,
+        "end_index": 27615
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| Dry sample      | Fe-O    | 1.98(1)| 4.8(2)| 1.4(8)  | 0.0095(2)| 0.798       |\n|                 | Fe-Fe   | 3.06(2)| 2.3(2)| 1.3(6)  | 0.0071(1)|             |",
+        "start_index": 27615,
+        "end_index": 27778
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Nioutside | 3.98(4)| 3.6(4)| 3.2(7)  | 0.0080(6)|             |\n| No bias         | Fe-O    | 1.93(1)| 5.3(3)| -1.7(3)| 0.0023(2)| 4.915       |",
+        "start_index": 27778,
+        "end_index": 27945
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Fe   | 2.97(1)| 4.5(5)| -7.3(4)| 0.0055(3)|             |\n|                 | Fe-Nioutside | 3.83(2)| 4.3(9)| 1.2(9)  | 0.0058(5)|             |",
+        "start_index": 27945,
+        "end_index": 28112
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| \u03b7 = 0.22        | Fe-O    | 1.98(4)| 5.9(3)| 4.8(3)  | 0.0054(1)| 5.906       |\n|                 | Fe-Fe   | 3.03(5)| 4.0(8)| -1.6(5)| 0.0073(2)|             |",
+        "start_index": 28112,
+        "end_index": 28274
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Nioutside | 3.80(7)| 4.2(9)| -2.4(7)| 0.0049(3)|             |\n| \u03b7 = 0.27        | Fe-O    | 1.91(1)| 4.3(4)| -4.0(1)| 0.0103(1)| 3.800       |",
+        "start_index": 28274,
+        "end_index": 28440
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Fe   | 2.87(3)| 2.3(3)| -4.4(1)| 0.0120(4)|             |\n|                 | Fe-Nioutside | 3.34(4)| 2.1(7)| -1.6(3)| 0.0138(9)|             |",
+        "start_index": 28440,
+        "end_index": 28606
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "| \u03b7 = 0.32        | Fe-O    | 1.93(1)| 4.9(1)| -1.7(3)| 0.0103(2)| 1.907       |\n|                 | Fe-Fe   | 2.88(2)| 2.3(6)| -2.9(3)| 0.0108(4)|             |",
+        "start_index": 28606,
+        "end_index": 28767
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Nioutside | 3.22(6)| 2.2(9)| -3.2(5)| 0.0123(7)|             |\n| \u03b7 = 0.37        | Fe-O    | 1.91(1)| 4.7(4)| -2.9(8)| 0.0103(1)| 11.580      |",
+        "start_index": 28767,
+        "end_index": 28933
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "|                 | Fe-Fe   | 2.86(2)| 3.1(2)| 2.7(7)  | 0.0118(1)|             |\n|                 | Fe-Nioutside | 3.21(5)| 1.9(7)| 1.0(1)  | 0.0135(4)|             |",
+        "start_index": 28933,
+        "end_index": 29101
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "The DFT computations shown in Figs. 1 and 4 assist in understanding how NF-AC-NiO\u2083-Fe can significantly outperform the state of the art NiFeO\u2093 catalyst. Here, a generic isolated \u03b3-FeOOH was constructed. This model contains the key features of the active catalyst, i.e., the brucite type structure and the octahedral coordination by six oxygen ligands (Fig. 4b)",
+        "start_index": 29101,
+        "end_index": 29461
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Computationally, this model has the advantage of representing potentially active Fe sites while avoiding complications resulting from interfacing the cluster with the \u03b3-NiOOH support. As shown in Fig. 1, \u03b3-FeOOH binds O too strongly and is placed on the strong binding side of the Sabatier volcano (Fig. 1). The formation of Fe=O has an equilibrium potential of only about 1.2 V",
+        "start_index": 29461,
+        "end_index": 29841
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The potential determining step is the hydroxide attack on M=O, which has a potential of 1.7 V and results in a theoretical overpotential of 0.5 V (Fig. 4a). Thus, \u03b3-FeOOH alone is only a modest catalyst",
+        "start_index": 29841,
+        "end_index": 30045
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". However, if the O-O bond forming step on \u03b3-FeOOH can proceed through an alternative pathway, such as a bifunctional mechanism that avoids the potential limiting formation of M-OOH, the overpotential can be reduced. The bifunctional mechanism assumes the direct formation of O\u2082 through a nucleophilic attack of OH\u207b coupled with a concerted H transfer to an adjacent acceptor site, A\u2081\u2078,\u2081\u2079:",
+        "start_index": 30045,
+        "end_index": 30434
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "\\[\nM=O + OH^- + A \\rightarrow M + O_2 + A-H + e^- \\quad (5)\n\\]",
+        "start_index": 30434,
+        "end_index": 30496
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "As the Fe ions in NF-AC-NiO\u2083-Fe are located on the edges of the \u03b3-NiOOH support, we explored the H transfer to various nearby sites on \u03b3-NiOOH as potential hydrogen acceptors. It was found that an Ni\u2083O site at a terrace plane of \u03b3-NiOOH was a suitable hydrogen acceptor, with a potential of 1",
+        "start_index": 30496,
+        "end_index": 30788
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ".3 V for Ni\u2083O + H\u207a + e\u207b to Ni\u2083OH (Fig. 4c). Such a site is abundantly present at the proximity of the Fe center (Fig. 4d). Incorporation of the Ni\u2083O hydrogen acceptor completely alters the energy landscape of the OER on \u03b3-FeOOH (Fig. 4a and 4d)",
+        "start_index": 30788,
+        "end_index": 31032
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The O-O bond forming step now only has a potential of about 1.3 V, resulting in a theoretical overpotential of only 0.1 V. This bifunctional catalysis avoids the high-energy OOH intermediate and introduces two new slopes for a revisited Volcano plot (green curves in Fig. 1; see also Supplementary Fig. 19). The left slope represents a region where the O-O bond formation through a bifunctional mechanism determines the overpotential",
+        "start_index": 31032,
+        "end_index": 31467
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". A narrow plateau is found at the top of this Volcano plot, where the formation energy of M=O ranges from 1.1 to 1.3 eV. At this plateau the overpotential is determined by the recovery of the H acceptor site and the theoretical overpotential is at its minimum value of 0.1 V",
+        "start_index": 31467,
+        "end_index": 31742
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". The \u03b3-FeOOH-Ni\u2083O bifunctional catalyst, which is proposed to be the active component of NF-AC-NiO\u2083-Fe, sits exactly at the top of the \u201cbifunctional Volcano\u201d and represents a new benchmark for metal oxide OER catalysts.",
+        "start_index": 31742,
+        "end_index": 31962
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "According to computations, the availability of \u03b3-FeOOH sites, with an equilibrium potential of about 1.2 V for the formation of Fe=O, is a pre-requisite for the proposed bifunctional catalysis. In NiFeO\u2093, the Fe ions are incorporated into an extended lattice of \u03b3-NiOOH. The resulting structural and electronic change shifts the Fe=O formation potential to",
+        "start_index": 31962,
+        "end_index": 32318
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "about 1.6 V\\(^{24}\\) and as a consequence, the theoretical overpotential is 0.4 V with or without a suitable hydrogen acceptor.",
+        "start_index": 32318,
+        "end_index": 32445
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "In summary, an oxygen evolution catalyst based on earth abundant elements with an \u201coff the scale\u201d activity in alkaline solutions has been discovered. This catalyst not only significantly out-competes the most active current state-of-the-art NiFeO\\(_x\\) catalyst, but it is also easily prepared and exhibits long-term stability",
+        "start_index": 32445,
+        "end_index": 32771
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Applications can be envisioned for both alkaline electrolysers and photoelectrochemical water splitting devices, which often employ thin layers of nickel oxide as catalysts, heterojunction, or protection layers\\(^{36-40}\\). The experimental demonstration that bifunctional catalysis in the OER can lead to activity superior to the best conventional catalysts showcases its potential",
+        "start_index": 32771,
+        "end_index": 33155
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". A further implication of this work is that other bifunctional systems comprised of an active site with an equilibrium potential close to 1.23 V for the formation of M=O and a support with an equilibrium potential close to -1.23 V for hydrogen addition might also exhibit superior OER activity",
+        "start_index": 33155,
+        "end_index": 33449
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Thus, this work should inspire numerous follow-up studies employing bifunctional catalysis as a new design strategy, leading to the next generation of OER catalysts that perform beyond the Volcano limits.",
+        "start_index": 33449,
+        "end_index": 33655
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "REFERENCES AND NOTES",
+        "start_index": 33655,
+        "end_index": 33675
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "1. Lewis, N. S. & Nocera, D. G. Powering the planet: Chemical challenges in solar energy utilization. *Proc. Natl. Acad. Sci. USA* **103**, 15729\u201315735 (2006).\n\n2. Dau, H. *et al.* The mechanism of water oxidation: from electrolysis via homogeneous to biological catalysis. *ChemCatChem* **2**, 724-761 (2010).",
+        "start_index": 33675,
+        "end_index": 33985
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "3. Han, L., Dong, S. & Wang, E. Transition-metal (Co, Ni, and Fe)-based electrocatalysts for the water oxidation reaction. *Adv. Mater.* **28**, 9266-9291 (2016).",
+        "start_index": 33985,
+        "end_index": 34147
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "4. Suntivich, J., May, K. J., Gasteiger, H. A., Goodenough, J. B. & Shao-Horn, Y. A perovskite oxide optimized for oxygen evolution catalysis from molecular orbital principles. *Science* **334**, 1383-1385 (2011).",
+        "start_index": 34147,
+        "end_index": 34360
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "5. Trotochaud, L., Ranney, J. K., Williams, K. N. & Boettcher, S. W. Solution-cast metal oxide thin film electrocatalysts for oxygen evolution. *J. Am. Chem. Soc.* **134**, 17253-17261 (2012).",
+        "start_index": 34360,
+        "end_index": 34552
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "6. Song, F. & Hu, X. Exfoliation of layered double hydroxides for enhanced oxygen evolution catalysis. *Nat. Commun.* **5**, 4477 (2014).",
+        "start_index": 34552,
+        "end_index": 34689
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "7. McCrory, C. C. L., Jung, S. H., Peters, J. C. & Jaramillo, T. F. Benchmarking heterogeneous electrocatalysts for the oxygen evolution reaction. *J. Am. Chem. Soc.* **135**, 16977-16987 (2013).",
+        "start_index": 34689,
+        "end_index": 34884
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "8. Batchelor, A. S. & Boettcher, S. W. Pulse-electrodeposited Ni-Fe (oxy)hydroxide oxygen evolution electrocatalysts with high geometric and intrinsic activities at large mass loadings. *Acs Catal.* **5**, 6680-6689 (2015).",
+        "start_index": 34884,
+        "end_index": 35107
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "9. Man, I. C. *et al.* Universality in oxygen evolution electrocatalysis on oxide surfaces. *ChemCatChem* **3**, 1159-1165 (2011).",
+        "start_index": 35107,
+        "end_index": 35237
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "10. Diaz-Morales, O., Ledezma-Yanez, I., Koper, M. T. M. & Calle-Vallejo, F. Guidelines for the rational design of Ni-based double hydroxide electrocatalysts for the oxygen evolution reaction. *Acs Catal.* **5**, 5380-5387 (2015).",
+        "start_index": 35237,
+        "end_index": 35467
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "11. Rossmeisl, J., Logadottir, A. & Norskov, J. K. Electrolysis of water on (oxidized) metal surfaces. *Chem. Phys.* **319**, 178-184 (2005).",
+        "start_index": 35467,
+        "end_index": 35608
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "12. Bajdich, M., Garcia-Mota, M., Vojvodic, A., Norskov, J. K. & Bell, A. T. Theoretical investigation of the activity of cobalt oxides for the electrochemical oxidation of water. *J. Am. Chem. Soc.* **135**, 13521-13530 (2013).",
+        "start_index": 35608,
+        "end_index": 35836
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "13. Lehtimaki, M. *et al.* Targeted design of alpha-MnO2 based catalysts for oxygen reduction. *Electrochim. Acta* **191**, 452-461 (2016).\n\n14. Koper, M. T. M. Thermodynamic theory of multi-electron transfer reactions: Implications for electrocatalysis. *J. Electroanal. Chem.* **660**, 254-260 (2011).",
+        "start_index": 35836,
+        "end_index": 36139
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "15. Zhang, B. *et al.* Homogeneously dispersed multimetal oxygen-evolving catalysts. *Science* **352**, 333-337 (2016).",
+        "start_index": 36139,
+        "end_index": 36258
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "16. Trotochaud, L., Young, S. L., Ranney, J. K. & Boettcher, S. W. Nickel-iron oxyhydroxide oxygen-evolution electrocatalysts: The role of intentional and incidental iron incorporation. *J. Am. Chem. Soc.* **136**, 6744-6753 (2014).",
+        "start_index": 36258,
+        "end_index": 36490
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "17. Morales-Guio, C. G., Liardet, L. & Hu, X. Oxidatively electrodeposited thin-film transition metal (oxy)hydroxides as oxygen evolution catalysts. *J. Am. Chem. Soc.* **138**, 8946\u20138957 (2016).",
+        "start_index": 36490,
+        "end_index": 36685
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "18. Busch, M. *et al.* Beyond the top of the volcano? \u2013 A unified approach to electrocatalytic oxygen reduction and oxygen evolution. *Nano Energy* **29**, 126-135 (2016).",
+        "start_index": 36685,
+        "end_index": 36856
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "19. Halck, N. B., Petrykin, V., Krtil, P. & Rossmeisl, J. Beyond the volcano limitations in electrocatalysis - oxygen evolution reaction. *Phys. Chem. Chem. Phys.* **16**, 13682-13688 (2014).",
+        "start_index": 36856,
+        "end_index": 37047
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "20. Frydendal, R. *et al.* Enhancing activity for the oxygen evolution reaction: The beneficial interaction of gold with manganese and cobalt oxides. *ChemCatChem* **7**, 149-154 (2015).",
+        "start_index": 37047,
+        "end_index": 37233
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "21. Wang, P. K. *et al.* Breaking scaling relations to achieve low-temperature ammonia synthesis through LiH-mediated nitrogen transfer and hydrogenation. *Nat. Chem.* **9**, 64-70 (2017).\n\n22. Graciani, J. *et al.* Highly active copper-ceria and copper-ceria-titania catalysts for methanol synthesis from CO2. *Science* **345**, 546-550 (2014).",
+        "start_index": 37233,
+        "end_index": 37578
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "23. Luo, J. S. *et al.* Water photolysis at 12.3% efficiency via perovskite photovoltaics and Earth-abundant catalysts. *Science* **345**, 1593-1596 (2014).\nCharacterization Platform at EPFL for assistance in electron microscopy measurements, and the Material Characterization Platform at EPFL for assistance in Raman spectroscopic measurements. A\n\nACKNOWLEDGMENTS",
+        "start_index": 37578,
+        "end_index": 37942
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "This work is supported by the EPFL, the European Research Council (no.681292), the Zeno Karl Schindler Foundation, and The National Center of Competence in Research (NCCR) \u201cMaterials\u2019 Revolution: Computational Design and Discovery of Novel Materials (MARVEL)\u201d of the Swiss National Science Foundation (SNSF). We also acknowledge support from the Ministry of Science and Technology, Taiwan (Contracts No. MOST 106-2119-M-002-031)",
+        "start_index": 37942,
+        "end_index": 38370
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". Dr. Solenn Reguer, beamline scientist on the DIFFABS beamline at the SOLEIL Synchrotron is acknowledged for providing XAS spectra of reference samples. We thank Lucas-Alexandre Stern (EPFL) for discussion in synthesis, the Interdisciplinary Center for Electron Microscopy at EPFL for assistance in electron microscopic measurements, and the Materials Characterization Platform at EPFL for assistance in Raman spectroscopic measurements. A",
+        "start_index": 38370,
+        "end_index": 38810
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "European priority patent application (no. 16189000.9) titled \u201cMethod of synthesis of an electrode for use as a catalyst of oxygen evolution reaction\u201d was filed by EPFL with X.L. Hu, F. Song, and E. Petkucheva as inventors.",
+        "start_index": 38810,
+        "end_index": 39032
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "**Author contributions**",
+        "start_index": 39032,
+        "end_index": 39056
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": "X.L.H and F.S. designed the experiments. C.C., X.L.H., and M.M.B designed the computations. F.S performed the majority of the synthesis, characterization, and electrochemical tests. M.M.B made the DFT computations. B.L-K and CSH measured the ex-situ X-ray absorption data. C.S.H performed the in-situ X-ray absorption experiments. E.P made supplementary electrochemical tests. M.P. measured the ICP-MS data",
+        "start_index": 39056,
+        "end_index": 39462
+    },
+    {
+        "document_name": "113.txt",
+        "chunk_text": ". F.S., M.M.B., B.L-K, CSH, HMC, C.C. and X.L.H analyzed the data. X.L.H wrote the paper, with inputs from all other co-authors. H.M.C, C.C and X.L.H directed the research.",
+        "start_index": 39462,
+        "end_index": 39634
+    }
+]

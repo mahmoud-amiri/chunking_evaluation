@@ -1,0 +1,734 @@
+[
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Chemspyd: An Open-Source Python Interface for Chemspeed Robotic Chemistry and Materials Platforms\n\nMartin Seifrid, Felix Strieth-Kalthoff, Mohammad Haddadnia, Tony C. Wu, Emre Alca, Al\u00e1n Aspuru-Guzik",
+        "start_index": 0,
+        "end_index": 199
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Department of Materials Science and Engineering, North Carolina State University, Raleigh, NC, USA.\nDepartment of Chemistry, University of Toronto, Toronto, Ontario M5S 3H6, Canada\nDepartment of Computer Science, University of Toronto, Toronto, ON M5S 3H6, Canada\nVector Institute for Artificial Intelligence, Toronto, ON M5S 1M1, Canada\nUniversity of Toronto Schools, Toronto, ON M5S 2R7, Canada",
+        "start_index": 199,
+        "end_index": 595
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Acceleration Consortium, University of Toronto, Toronto, Ontario M5S 3H6, Canada\nDepartment of Chemical Engineering & Applied Chemistry, University of Toronto, Toronto, ON M5S 3E5, Canada\nDepartment of Materials Science, University of Toronto, Toronto, Ontario M5S 3E4, Canada\nLebovic Fellow, Canadian Institute for Advanced Research, Toronto, ON M5S 1M1, Canada\nAuthors contributed equally",
+        "start_index": 595,
+        "end_index": 985
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Present address: Department of Systems Biology, Harvard Medical School, Boston, MA, USA",
+        "start_index": 985,
+        "end_index": 1072
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Abstract: We introduce Chemspyd, a lightweight, open-source Python package for operating the popular laboratory robotic platforms from Chemspeed Technologies. As an add-on to the existing proprietary software suite, Chemspyd enables dynamic communication with the automated platform, laying the foundation for its modular integration into customizable, higher-level laboratory workflows. We show the applicability of Chemspyd in a set of case studies from chemistry and materials science",
+        "start_index": 1072,
+        "end_index": 1559
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". We demonstrate how the package can be used with large language models to provide a natural language interface. By providing an open-source software interface for a commercial robotic platform, we hope to inspire the development of open interfaces that facilitate the flexible, adaptive integration of existing laboratory equipment into automated laboratories.",
+        "start_index": 1559,
+        "end_index": 1920
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1920,
+        "end_index": 1932
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Laboratory automation has been identified as a key strategy for increasing the rate at which new discoveries are made in chemistry and materials science. Automation serves two central purposes: 1) to increase the experimental throughput via continuous and/or parallel execution of otherwise repetitive, manual tasks, and 2) to foster more standardized and reproducible results",
+        "start_index": 1932,
+        "end_index": 2308
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". While the history of automation in chemistry traces back to the mid-20th century, recent years have seen a \u201crenaissance\u201d of automation in both academic and industrial laboratories. Advances in robotics and engineering have enabled the automation of increasingly challenging laboratory operations such as thin-film fabrication, sample handling under inert gas, or dosing of powders, gels and slurries. Integrating such automated modules into larger workflows has demonstrated the potential to tackle increasingly complex scientific challenges in an automated fashion",
+        "start_index": 2308,
+        "end_index": 2875
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". This surge in automated experimentation has produced a growing market of instruments, particularly platform solutions consisting of multiple experimental modules. Arguably, the most prominent such systems have come from companies such as Chemspeed.",
+        "start_index": 2875,
+        "end_index": 3125
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Technologies and Unchained Labs, and have shown the enormous potential to enable highly complex discovery workflows across various fields in chemistry and materials science. Examples include the discovery of battery electrolytes, new catalysts, organic laser materials, polymer formulations, or stereoselective synthesis.",
+        "start_index": 3125,
+        "end_index": 3446
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "The current phase in the evolution of automated laboratories involves the transition from static, predefined automation workflows to modular and flexible labs where decisions about the next experimental steps are adaptively made in real time (Fig. 1a). Particularly with recent strides in data-driven design and machine learning, this has the potential to optimize the use of automated resources, and thereby accelerate scientific discoveries",
+        "start_index": 3446,
+        "end_index": 3888
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Especially against the background of modularity and adaptive decision making, the availability of open software interfaces (application programming interfaces, APIs) for automated platforms are essential for the seamless incorporation into flexible, customizable workflows. At the same time, such dynamic APIs are often not provided by instrument manufacturers, whose software tends to follow a workflow- and instrument-centric philosophy. In fact, available APIs are often constrained to the configuration and post-run evaluation of static workflows",
+        "start_index": 3888,
+        "end_index": 4440
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". This presents a major barrier to integrating further instruments into the workflow, or to making adaptive data-driven decisions in real time.",
+        "start_index": 4440,
+        "end_index": 4583
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Figure 1: The Chemspyd API enables dynamic control of Chemspeed Technologies platforms. a) Dynamic instrument control is needed for adaptive decision-making and SDLs. b) Schematic overview of the integration of Chemspyd with the existing software and hardware framework from Chemspeed Technologies.",
+        "start_index": 4583,
+        "end_index": 4881
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "To address these gaps, we introduce *Chemspyd*, an open-source Python API specifically designed for Chemspeed platforms. This API enables real-time, adaptive control of Chemspeed instruments, empowering researchers to seamlessly integrate these robotic platforms into custom workflows and automated or self-driving laboratories (SDLs). We use three experimental case studies to demonstrate how *Chemspyd* can be used for experiments in the chemical and materials sciences",
+        "start_index": 4881,
+        "end_index": 5352
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Most importantly, *Chemspyd* is designed as a modular and expandable open-source project, and can therefore serve as a blueprint for the development of similar interfaces that meet the evolving demands of modern, flexible, and customizable automated laboratories.",
+        "start_index": 5352,
+        "end_index": 5617
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "\u201cUnder the Hood\u201d: The Design of *Chemspyd*",
+        "start_index": 5617,
+        "end_index": 5659
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "*Chemspyd*\u2019s architecture is guided by three core design principles: 1) dynamic and fine-grained control over the robot\u2019s actions; 2) easy installation and usage with existing Chemspeed setups; 3) modular, extendable open-source architecture, facilitating continuous development by the community, and enabling effortless integration with experiment planning and scheduling workflows",
+        "start_index": 5659,
+        "end_index": 6041
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Because of 2) and 3), *Chemspyd* comes as a lightweight Python package that dynamically interacts with Chemspeed\u2019s proprietary AutoSuite software.",
+        "start_index": 6041,
+        "end_index": 6189
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "*Chemspyd* is organized following object-oriented design principles and is structured into two main classes: the **Controller** and the **Executor**. Whereas the **Executor** handles the communication with the instrument\u2019s control software (for details, vide infra), the **Controller** provides a standardized, public API for users to develop customizable, adaptive workflows in Python",
+        "start_index": 6189,
+        "end_index": 6574
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". For this purpose, it houses an extensive catalog of elementary actions that encompass a wide range of the functionalities that the Chemspeed robotic platforms offer. These elementary actions enable dynamic and fine-grained control over the action space. A full list of elementary actions is provided in the Supplementary Information, as well as the detailed package documentation.",
+        "start_index": 6574,
+        "end_index": 6956
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "*Chemspyd* communicates with *AutoSuite* through the **Executor**, which read and writes shared CSV files, providing a standardized means of communication that is human-readable and supported by both Python and *AutoSuite* (Figure 1b). This enables bidirectional communication between *AutoSuite* (and thereby, the Chemspeed robotic platform) and *Chemspyd*, containing the instrument status, execution commands and parameters, instrument return values, and general metadata",
+        "start_index": 6956,
+        "end_index": 7430
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". A full description of the communication protocol is provided in the Supplementary Information.",
+        "start_index": 7430,
+        "end_index": 7526
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "To enable dynamic control on the Chemspeed side, we created a dedicated *AutoSuite* application file, referred to as the **Manager**, that listens for command files, and executes actions based on the provided keywords and parameters. Each elementary **Controller** method has an execution counterpart in the **Manager**. As a result, *Chemspyd* allows users to perform individual actions (helpful during development and troubleshooting) or perform different routines without needing to restart the platform.",
+        "start_index": 7526,
+        "end_index": 8033
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Beyond the fine-grained control over elementary actions, we developed *Chemspyd* to contain a series of optional tools to assist with operation safety, accurate resource management, and standardized data collection. These safety checks include, for example, a simulation mode for testing software before deployment in a \u201cdigital-twin\u201d-like scenario. In addition, operations or workflows can be validated prior to execution to ensure that liquids or solids can be added or removed from the specified wells",
+        "start_index": 8033,
+        "end_index": 8537
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". At a higher level, *Chemspyd*\u2019s resource management features also allow users to ensure that wells won\u2019t be overfilled or depleted by accident. The herefore required attributes of each well (type, volume, ...) are automatically extracted from the instrument configuration, avoiding manual input by the user (see section \u201cInstallation and Usage\u201d for further details).",
+        "start_index": 8537,
+        "end_index": 8905
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "To streamline workflow development and enhance convenience for the user, we have organized common experimental routines within the *routines* sub-package. Examples of such routines include the priming of syringe pumps, evacuate\u2013backfill cycles (i.e., \u201cSchlenk cycles\u201d), filtration and collection steps, and injection to on-deck HPLC ports",
+        "start_index": 8905,
+        "end_index": 9243
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Notably, the *routines* sub-package provides a framework for implementing further custom experimental routines, highlighting the modular, open-source nature of *Chemspyd*, and fostering continued active development by the community.",
+        "start_index": 9243,
+        "end_index": 9477
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "![Diagram](image.png)\n\n**Figure 2:** Installing and using the *Chemspyd* Python library. a) During initial installation, *Chemspyd* can read the platform\u2019s configuration and convert it into the necessary configuration file. b) Example *Chemspyd* workflow showing how both routines and individual actions can be access through the API.\n\n**Installation and Usage**",
+        "start_index": 9477,
+        "end_index": 9839
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "The *Chemspyd* Python package can be installed from the PyPI repository (Figure 2a). The source code repository can be accessed at its GitLab page under the Apache 2.0 license, and provides extensive documentation, including installation instructions, usage guides and tutorial examples. Once installed, *Chemspyd* code can be written entirely in Python (versions \u2265 3.9), and, thus, enables users to developed and test their code on any platform.",
+        "start_index": 9839,
+        "end_index": 10285
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "The process of setting up *Chemspyd* on any local platform involves two stages: 1) creating a custom, local *Manager* and 2) extracting the platform\u2019s hardware configuration. In the first stage, users should create a new *Manager* application file in *AutoSuite* whose instrument configuration matches that of their platform",
+        "start_index": 10285,
+        "end_index": 10609
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". All pre-defined commands, which are provided as part of *Chemspyd* (see package documentation for further details) should be copied into this application file. Second, for extracting the hardware configuration from the *Manager* and making it accessible to *Chemspyd*, we provide an automated solution to ease the installation process. For this purpose, *Chemspyd* interacts with *AutoSuite*\u2019s .NET API. For user convenience, this process is fully wrapped in the",
+        "start_index": 10609,
+        "end_index": 11073
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "chemspyd.autosuite.get_config() function (Figure 2a, see package documentation for further details). As a result, the installation of Chemspyd is largely automated, and does not require a tedious configuration procedure, but is designed for the seamless integration with existing robotic setups. Should the API not be accessible, the resulting configuration file can also be created manually.",
+        "start_index": 11073,
+        "end_index": 11465
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Figure 3: Experimental use cases of Chemspyd. a) Condition screening for silver nanoparticle formation. Left: 48 parallel experiments for silver nanoprisms formation were conducted using different stoichiometric ratios of the ingredients, followed by analysis via optical spectroscopy. Center: A t-SNE plot shows the colors and extinction coefficients (depicted by marker size) of obtained nanoprisms. Right: Optical absorption spectra of selected nanoprisms",
+        "start_index": 11465,
+        "end_index": 11923
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". b) Condition screening for Buchwald\u2013Hartwig couplings. Left: A combinatorial screen of 48 Buchwald\u2013Hartwig coupling conditions was performed by automated reaction execution, followed by filtration and direct HPLC injection. Right: Heatmap of relative HPLC yields for all 48 reactions. c) Kinetic monitoring of an amide coupling reaction",
+        "start_index": 11923,
+        "end_index": 12261
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Left: A two-step amide coupling was performed on the Chemspeed platform, and aliquots were automatically derivatized and submitted to an in-line HPLC at defined time intervals. Right: Relative quantities of reactants, intermediates and products, as determined by HPLC-UV.",
+        "start_index": 12261,
+        "end_index": 12534
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Once the Python package and the corresponding AutoSuite Manager have been properly set up, executing Chempyd code on a Chemspeed platform requires the following two steps: (1) start the Manager in AutoSuite, (2) execute one or multiple Chempyd scripts, an example of which is shown in Figure 2b.",
+        "start_index": 12534,
+        "end_index": 12829
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Experimental Use Cases\n\nIn order to showcase the different features of Chempyd, we demonstrate a set of experiments from inorganic and organic chemistry as possible use cases of the software in automated laboratories. All experiments were performed on the Chemspeed SWING XL robot available in our laboratory at the Matter Lab at the University of Toronto.",
+        "start_index": 12829,
+        "end_index": 13185
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "As a first use case, we performed a systematic evaluation of reaction conditions for the formation of silver nanoprisms. The size distribution of the nanoprisms \u2013 and thereby, their absorption properties \u2013 are determined by the stoichiometric ratios of the silver source (AgNO\u2083), the reductive component (NaBH\u2084), the oxidative component (H\u2082O\u2082), the buffer (sodium citrate) and the silver concentration mediator (KBr)",
+        "start_index": 13185,
+        "end_index": 13601
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". We selected a representative set of conditions from this five-dimensional continuous parameter space through Latin hypercube sampling. Using Chempyd, we were able to quickly write the execution code, simply looping over all hypercube samples, and the required liquid transfer and stirring operations were performed automatically. Optical absorption measurements were carried out on our spectroscopic characterization platform. The resulting dataset of spectroscopic properties of the obtained nanoprisms is shown in Figure 3a.",
+        "start_index": 13601,
+        "end_index": 14129
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Our second use case targeted the screening of experimental conditions for the Buchwald\u2013Hartwig coupling reaction, one of the most prominent reaction classes in organic and medicinal chemistry. Specifically, we created a combinatorial dataset by varying three categorical parameters, namely the palladium precursor, ligand, and base",
+        "start_index": 14129,
+        "end_index": 14460
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Exploiting our platform's capacity to perform reactions under an inert gas atmosphere, all synthesis (inertization, reagent addition, temperature control, vortex stirring), workup (filtration) and analysis (injection to an HPLC) were encoded in Chempyd, and run without manual intervention. Notably, the modular design of Chempyd was crucial for the software-level integration with our group\u2019s HPLC-MS instrument and its Python control code",
+        "start_index": 14460,
+        "end_index": 14902
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Relative yields (with respect to an internal standard) for each reaction are visualized in the heatmap in Figure 3b.",
+        "start_index": 14902,
+        "end_index": 15020
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "The dynamic nature of the communication between Chempyd and the instrument is emphasized in a third experiment, in which we perform a two-step amide coupling with continuous reaction monitoring. Here, a Python script dynamically orchestrates the execution of the individual reaction steps, the timed preparation and derivatization of aliquots, and their injection to our HPLC system. At the same time, the script interacts with the HPLC instrument to ensure synchronization of both instrument operations",
+        "start_index": 15020,
+        "end_index": 15523
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". The kinetic traces of both reagents, the proposed intermediate, and the reaction product are shown in Fig. 3c, and are in good agreement with the traces obtained by Liu et al. in their dedicated reaction monitoring platform.",
+        "start_index": 15523,
+        "end_index": 15749
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Simplified Adoption through a Natural Language Interface",
+        "start_index": 15749,
+        "end_index": 15805
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "To further facilitate the adoption of Chempyd and its rapid implementation into new laboratory routines, we provide a natural language interface for generating Chempyd code. Such interfaces have recently proven to be powerful enabling technologies for automated or self-driving laboratories. Similar to our recent work, we provide a web interface that uses a large language model to convert the natural language inputs into structured Chempyd output.",
+        "start_index": 15805,
+        "end_index": 16255
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "In our implementation, all Chemspyd functions, along with their natural language documentation and all parameters, are organized in an associative array. Incoming natural language instructions are segmented into structured commands, which are then matched to the classes and functions in the associative array based on cosine distance. Subsequently, OpenAI\u2019s GPT-4 is employed to translate the instructions into the corresponding code. Command-by-command, each section of the generated",
+        "start_index": 16255,
+        "end_index": 16740
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "![Web Interface for Natural Language Translation](image1)\n\n**Figure 4: Natural language interface for generating Chemspyd code.** a) Web interface for interactively translating natural language input to usable Chemspyd code. b) Schematic overview of the software architecture.",
+        "start_index": 16740,
+        "end_index": 17016
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Chemspyd code is sent back to the user for feedback and validation. This match-translate cycle is repeated iteratively until satisfactory Chemspyd code is reached (Figure 4b). Eventually, the outcome is a responsive interface that effectively bridges the gap between user intent and the correct Chemspyd code, showcasing the power of NLP in user\u2013system interactions, and providing a useful tool for non-expert programmers to generate experiments with Chemspyd.\n\n**Summary and Outlook**",
+        "start_index": 17016,
+        "end_index": 17501
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "We have introduced Chemspyd as a simple, lightweight and easy-to-use Python API for Chemspeed platforms. In contrast to existing software interfaces, Chemspyd allows for fine-grained, dynamic instrument control, thereby facilitating the usage of Chemspeed instruments in custom workflows and SDLs",
+        "start_index": 17501,
+        "end_index": 17797
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". With the rapid spread of Chemspeed platforms across academic and industrial laboratories across the world, we envision widespread adoption of this package, particularly in those scenarios where dynamic control and flexible integration with third-party software or hardware is required. Importantly, Chemspyd is an open-source project. Therefore, we encourage feedback and contributions from the community, and hope to inspire development of further functionality based on the needs of users outside our laboratory.",
+        "start_index": 17797,
+        "end_index": 18313
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Beyond extending the package\u2019s functionality, the next critical steps will be to integrate Chemspyd with open-source standards for laboratory instrumentation, such as the XDL standard for encoding synthesis procedures, the SiLA2 standard for inter-device communication, and operating frameworks for...",
+        "start_index": 18313,
+        "end_index": 18614
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "orchestrating self-driving laboratories.\\textsuperscript{27} We are convinced that such open, community-driven standards will be key for reusable, open-source software development.\\textsuperscript{28} Eventually, we believe that \\textit{Chemspyd} can serve as an inspiration and blueprint for instrument manufacturers to provide the open APIs necessary for operating experimental modules in self-driving labs.",
+        "start_index": 18614,
+        "end_index": 19023
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "\\textbf{Author Contributions}",
+        "start_index": 19023,
+        "end_index": 19052
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Conceptualization: M.S., F. S.-K., A. A.-G.\nData curation: M.S., F. S.-K., L. B.\nFormal analysis: M.S., F. S.-K.\nFunding acquisition: A. A.-G.\nInvestigation: M.S., F. S.-K., M. H., T. C. W., E. A., L. B., R. K.",
+        "start_index": 19052,
+        "end_index": 19262
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Methodology: M.S., F. S.-K., M. H., T. C. W., L. B., N. Y., M. Sk., R. K.\nProject administration: M.S., F. S.-K.\nResources: A. A.-G.\nSoftware: M.S., F. S.-K., M.H., T. C. W., E. A., S. A.-R., N. Y., M. Sk.",
+        "start_index": 19262,
+        "end_index": 19467
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Supervision: M.S., F. S.-K., A. A.-G.\nValidation: M.S., F. S.-K., M. H., L. B., R. K.\nVisualization: F. S.-K., M. H.\nWriting (original draft): M.S., F. S.-K., M. H., N. Y.",
+        "start_index": 19467,
+        "end_index": 19638
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "Writing (review and editing): M.S., F. S.-K., M. H., A. A.-G.",
+        "start_index": 19638,
+        "end_index": 19699
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "\\textbf{Acknowledgements}",
+        "start_index": 19699,
+        "end_index": 19724
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "The authors acknowledge the Defense Advanced Research Projects Agency (DARPA) under the Accelerated Molecular Discovery Program under Cooperative Agreement No. HR00111920027 dated August 1, 2019. The content of the information presented in this work does not necessarily reflect the position or the policy of the Government. F.S.-K. is a postdoctoral fellow in the Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship Program, a program by Schmidt Futures. A.A.-G",
+        "start_index": 19724,
+        "end_index": 20195
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". thanks Anders G. Fr\u00f8seth for his generous support. A. A.-G. also acknowledges funding by Natural Resources Canada and the Canada 150 Research Chairs program.",
+        "start_index": 20195,
+        "end_index": 20354
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "\\textbf{References}",
+        "start_index": 20354,
+        "end_index": 20373
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "1. R. J. Spinrad, \\textit{Science}, 1967, \\textbf{158}, 55\u201360.\n2. J. Boyd, \\textit{Science}, 2002, \\textbf{295}, 517\u2013518.",
+        "start_index": 20373,
+        "end_index": 20494
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "3. R. D. King, J. Rowland, S. G. Oliver, M. Young, W. Aubrey, E. Byrne, M. Liakata, M. Markham, P. Pir, L. N. Soldatova, A. Sparkes, K. E. Whelan and A. Clare, \\textit{Science}, 2009, \\textbf{324}, 85\u201389.",
+        "start_index": 20494,
+        "end_index": 20698
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "4. M. Christensen, L. P. E. Yunker, P. Shiri, T. Zepel, T. Prieto, S. Grunert, F. Bork and J. E. Hein, \\textit{Chem. Sci.}, 2021, \\textbf{12}, 15473\u201315490.",
+        "start_index": 20698,
+        "end_index": 20853
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "5 J. Bai, L. Cao, S. Mosbach, J. Akroyd, A. A. Lapkin and M. Kraft, JACS Au, 2022, 2, 292\u2013309.",
+        "start_index": 20853,
+        "end_index": 20947
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "6 R. L. Greenaway, K. E. Jelfs, A. C. Spivey and S. N. Yaliraki, Nat. Rev. Chem., 2023, 7, 527\u2013528.",
+        "start_index": 20947,
+        "end_index": 21046
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "7 B. P. MacLeod, F. G. L. Parlane, T. D. Morrissey, F. Hase, L. M. Roch, K. E. Dettelbach, R. Moreira, L. P. E. Yunker, M. B. Rooney, J. R. Deeth, V. Lai, G. J. Ng, H. Situ, R. H. Zhang, M. S. Elliott, T",
+        "start_index": 21046,
+        "end_index": 21249
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". H. Haley, D. J. Dvorak, A. Aspuru-Guzik, J. E. Hein and C. P. Berlinguette, Sci. Adv., 2020, 6, eaaz8867.",
+        "start_index": 21249,
+        "end_index": 21356
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "8 V. Fasano, R. C. Mykura, J. M. Fordham, J. J. Rogers, B. Banecki, A. Noble and V. K. Aggarwal, Nat. Synth., 2022, 1, 902\u2013907.",
+        "start_index": 21356,
+        "end_index": 21483
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "9 N. L. Bell, F. Boser, A. Bubliauskas, D. R. Willcox, V. S. Luna and L. Cronin, Nat. Chem. Eng., 2024, 1, 180\u2013189.",
+        "start_index": 21483,
+        "end_index": 21598
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "10 A. M. Lunt, H. Fakhruldeen, G. Pizzuto, L. Longley, A. White, N. Rankin, R. Clowes, B. Alston, L. Gigli, G. M. Day, A. I. Cooper and S. Y. Chong, arXiv, 2023, DOI:10.48550/arXiv.2309.00544.",
+        "start_index": 21598,
+        "end_index": 21790
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "11 N. J. Szymanski, B. Rendy, Y. Fei, R. E. Kumar, T. He, D. Milsted, M. J. McDermott, M. Gallant, E. D. Cubuk, A. Merchant, H. Kim, A. Jain, C. J. Bartel, K. Persson, Y. Zeng and G",
+        "start_index": 21790,
+        "end_index": 21971
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Ceder, Nature, 2023, 624, 86\u201391.",
+        "start_index": 21971,
+        "end_index": 22005
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "12 G. Tom, S. P. Schmid, S. G. Baird, Y. Cao, K. Darvish, H. Hao, S. Lo, S. Pablo-Garcia, E. M. Rajaonson, M. Skreta, N. Yoshikawa, S. Corapi, G. D. Akkoc, F. Strieth-Kalthoff, M. Seifrid and A",
+        "start_index": 22005,
+        "end_index": 22198
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Aspuru-Guzik, ChemRxiv, 2024, DOI:10.26434/chemrxiv-2024-rj946.",
+        "start_index": 22198,
+        "end_index": 22263
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "13 F. Rahmanian, M. Vogler, C. W\u00f6lke, P. Yan, S. Fuchs, M. Winter, I. Cekic-Laskovic and H. S. Stein, Sci. Data, 2023, 10, 43.",
+        "start_index": 22263,
+        "end_index": 22389
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "14 B. Burger, P. M. Maffettone, V. V. Gusev, C. M. Aitchison, Y. Bai, X. Wang, X. Li, B. M. Alston, B. Li, R. Clowes, N. Rankin, B. Harris, R. S. Sprick and A. I. Cooper, Nature, 2020, 583, 237\u2013241.",
+        "start_index": 22389,
+        "end_index": 22587
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "15 A. Ramirez, E. Lam, D. Pacheco, Y. Hou, H. Tribukait, L. Roch, C. Cop\u00e9ret and P. Laveille, ChemRxiv, 2023, DOI:10.26434/chemrxiv-2023-kmd91.",
+        "start_index": 22587,
+        "end_index": 22730
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "16 P. Laveille, P. Mi\u00e9ville, S. Chatterjee, E. Clerc, J.-C. Cousty, F. de Nanteuil, E. Lam, E. Mariano, A. Ramirez, U. Randrianarisoa, K. Villat, C. Cop\u00e9ret and N. Cramer, Chimia, 2023, 77, 154\u2013158.",
+        "start_index": 22730,
+        "end_index": 22928
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "17 T. C. Wu, A. Aguilar-Granda, K. Hotta, S. A. Yazdani, R. Pollice, J. Vestfrid, H. Hao, C. Lavigne, M. Seifrid, N. Angello, F. Bencheikh, J. E. Hein, M. Burke, C. Adachi and A. Aspuru-Guzik, Adv. Mater",
+        "start_index": 22928,
+        "end_index": 23131
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "., 2023, 35, 2207070.",
+        "start_index": 23131,
+        "end_index": 23152
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "18 F. Strieth-Kalthoff, H. Hao, V. Rathore, J. Derasp, T. Gaudin, N. H. Angello, M. Seifrid, E. Trushina, M. Guy, J. Liu, X. Tang, M. Mamada, W. Wang, T. Tsagaantsouj, C. Lavigne, R. Pollice, T. C. Wu, K",
+        "start_index": 23152,
+        "end_index": 23355
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Hotta, L. Bodo, S. Li, M. Haddadnia, A. Wolos, R. Roszak, C.-T. Ser, C. Bozal-Ginesta, R. J. Hickman, J. Vestfrid, A. Aguilar-Granda, E. L. Klimareva, R. C. Sigerson, W. Hou, D. Gahler, S. Lach, A",
+        "start_index": 23355,
+        "end_index": 23553
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Warzybok, O. Borodin, S. Rohrbach, B. Sanchez-Lengeling, C. Adachi, B. A. Grzybowski, L. Cronin, J. E. Hein, M. D. Burke and A. Aspuru-Guzik, ChemRxiv, 2023, DOI:10.26434/chemrxiv-2023-wqp0d.",
+        "start_index": 23553,
+        "end_index": 23746
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "19 C. Guerrero-Sanchez, R. Ya\u00f1ez-Macias, M. Rosales-Guzm\u00e1n, M. A. De Jesus-Tellez, C. Pi\u00f1on-Balderrama, J. J. Haven, G. Moad, T. Junkers and U. S. Schubert, in RAFT Polymerization, John Wiley & Sons, Ltd, 2021, pp. 1051\u20131076.",
+        "start_index": 23746,
+        "end_index": 23971
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "20 T. Schuett, J. Kimmig, S. Zechel and U. S. Schubert, Polymers, 2022, 14, 292.\n21 A. Vriza, H. Chan and J. Xu, Chem. Mater., 2023, 35, 3046\u20133056.",
+        "start_index": 23971,
+        "end_index": 24118
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "22 F. H\u00e4se, L. M. Roch and A. Aspuru-Guzik, Trends Chem., 2019, 1, 282\u2013291.\n23 B. P. MacLeod, F. G. L. Parlane, A. K. Brown, J. E. Hein and C. P. Berlinguette, Nat. Mater., 2022, 21, 722\u2013726.",
+        "start_index": 24118,
+        "end_index": 24309
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "24 R. El-khawaldeh and J. E. Hein, Trends Chem., 2024, 6, 1\u20134.",
+        "start_index": 24309,
+        "end_index": 24371
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "25 H. Wang, T. Fu, Y. Du, W. Gao, K. Huang, Z. Liu, P. Chandak, S. Liu, P. Van Katwyk, A. Deac, A. Anandkumar, K. Bergen, C. P. Gomes, S. Ho, P. Kohli, J. Lasenby, J. Leskovec, T.-Y. Liu, A. Manrai, D",
+        "start_index": 24371,
+        "end_index": 24571
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Marks, B. Ramsundar, L. Song, J. Sun, J. Tang, P. Veli\u010dkovi\u0107, M. Welling, L. Zhang, C. W. Coley, Y. Bengio and M. Zitnik, Nature, 2023, 620, 47\u201360.",
+        "start_index": 24571,
+        "end_index": 24720
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "26 L. M. Roch, F. H\u00e4se, C. Kreisbeck, T. Tamayo-Mendoza, L. P. E. Yunker, J. E. Hein and A. Aspuru-Guzik, PLOS One, 2020, 15, e0229862.",
+        "start_index": 24720,
+        "end_index": 24855
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "27 M. Sim, M. G. Vakili, F. Strieth-Kalthoff, H. Hao, R. Hickman, S. Miret, S. Pablo-Garc\u00eda and A. Aspuru-Guzik, ChemRxiv, 2023, DOI:10.26434/chemrxiv-2023-v2khf.",
+        "start_index": 24855,
+        "end_index": 25017
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "28 S. Lehtola, The Journal of Chemical Physics, 2023, 159, 180901.\n29 Chemspyd Package Documentation, https://aspuru-guzik-group.gitlab.io/self-driving-lab/instruments/chemspyd/.\n30 Chemspyd (on the Python Package Index), https://pypi.org/project/chemspyd/.",
+        "start_index": 25017,
+        "end_index": 25274
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "31 Chemspyd: An Open-Source Python Interface for Chemspeed Robotic Platforms, https://gitlab.com/aspuru-guzik-group/self-driving-lab/instruments/chemspyd.\n32 G. S. M\u00e9traux and C. A. Mirkin, Adv. Mater., 2005, 17, 412\u2013415.",
+        "start_index": 25274,
+        "end_index": 25495
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "33 J. E. Millstone, S. J. Hurst, G. S. M\u00e9treaux, J. I. Cutler and C. A. Mirkin, Small, 2009, 5, 646\u2013664.\n34 A. J. Frank, N. Cathcart, K. E. Maly and V. Kitaev, J. Chem. Ed., 2010, 87, 1098\u20131101.",
+        "start_index": 25495,
+        "end_index": 25689
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "35 D. G. Brown and J. Bostr\u00f6m, J. Med. Chem., 2016, 59, 4443\u20134458.\n36 D. T. Ahneman, J. G. Estrada, S. Lin, S. D. Dreher and A. G. Doyle, Science, 2018, 360, 186\u2013190.",
+        "start_index": 25689,
+        "end_index": 25855
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "37 J. Liu, Y. Sato, F. Yang, A. J. Kukor and J. E. Hein, Chemistry Methods, 2022, 2, e202200009.",
+        "start_index": 25855,
+        "end_index": 25951
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "38 A. M. Bran, S. Cox, O. Schilter, C. Baldassari, A. D. White and P. Schwaller, arXiv, 2023, DOI:10.48550/arXiv.2304.05376.\n39 D. A. Boiko, R. MacKnight, B. Kline and G. Gomes, Nature, 2023, 624, 570\u2013578.",
+        "start_index": 25951,
+        "end_index": 26156
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "40 N. Yoshikawa, M. Skreta, K. Darvish, S. Arellano-Rubach, Z. Ji, L. Bj\u00f8rn Kristensen, A. Z. Li, Y. Zhao, H. Xu, A. Kuramshin, A. Aspuru-Guzik, F. Shkurti and A. Garg, Auton. Robot., 2023, 47, 1057\u20131086",
+        "start_index": 26156,
+        "end_index": 26359
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ".",
+        "start_index": 26359,
+        "end_index": 26360
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "41 CLAIRIFY-Chemspeed: A natural language interface for Chemspyd code generation, https://github.com/acrad-clarify-chemspeed/.",
+        "start_index": 26360,
+        "end_index": 26486
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "42 J. Achiam, S. Adler, S. Agarwal, L. Ahmad, I. Akkaya, F. L. Aleman, D. Almeida, J. Altenschmidt, S. Altman, S. Anadkat, R. Avila, I. Babuschkin, S. Balaji, V. Balcom, P. Baltescu, H. Bao, M. Bavarian, J. Belgum, I",
+        "start_index": 26486,
+        "end_index": 26702
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Bello, J. Berdine, G. Bernadett-Shapiro, C. Berner, L. Bogdonoff, O. Boiko, M. Boyd, A.-L. Brakman, G. Brockman, T. Brooks, M. Brundage, K. Button, T. Cai, R. Campbell, A. Cann, B. Carey, C. Carlson, R. Carmichael, B. Chan, C. Chang, F",
+        "start_index": 26702,
+        "end_index": 26939
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Chantzis, D. Chen, S. Chen, R. Chen, J. Chen, M. Chen, B. Chess, C. Cho, C. Chu, H. W. Chung, D. Cummings,",
+        "start_index": 26939,
+        "end_index": 27047
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "J. Currier, Y. Dai, C. Decareaux, T. Degry, N. Deutsch, D. Deville, A. Dhar, D. Dohan, S. Dowling, S. Dunning, A. Ecollet, A. Eleti, T. Eloundou, D. Farhi, L. Fedus, N. Felix, S. P. Fishman, J. Forte, I. Fulford, L",
+        "start_index": 27047,
+        "end_index": 27261
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Gao, E. Georges, C. Gibson, V. Goel, T. Gogineni, G. Goh, R. Gontijo-Lopes, J. Gordon, M. Graefstein, S. Gray, R. Greene, J. Gross, S. S. Gu, Y. Guo, C. Hallacy, J. Han, J. Harris, Y. He, M. Heaton, J. Heidecke, C",
+        "start_index": 27261,
+        "end_index": 27476
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Heske, W. Hickey, P. Hoeschele, B. Houghton, K. Hsu, S. Hu, X. Hu, J. Huizenga, S. Jain, S. Jain, J. Jang, A. Jiang, R. Jiang, H. Jin, D. Jin, S. Jomoto, B. Jonn, H. Jun, T. Kaftan, L. Kaiser, A",
+        "start_index": 27476,
+        "end_index": 27672
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Kamali, I. Kanitscheider, N. S. Keskar, T. Khan, L. Kilpatrick, J. W. Kim, C. Kim, Y. Kim, H. Kirchner, J. Kiros, M. Knight, D. Kokotajlo, L. Kondraciuk, A. Kondrich, A. Konstantinidis, K. Kosic, G. Krueger, V. Kuo, M",
+        "start_index": 27672,
+        "end_index": 27891
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Lampe, I. Lan, T. Lee, J. Leike, J. Leung, D. Levy, C. M. Li, R. Lim, M. Lin, S. Lin, M. Litwin, T. Lopez, R. Lowe, P. Lue, A. Makanju, K. Malfacini, S. Manning, T. Markov, Y. Markovski, B. Martin, K. Mayer, A",
+        "start_index": 27891,
+        "end_index": 28102
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Mayne, B. McGrew, S. M. McKinney, C. McLeavey, P. McMillan, J. McNeil, D. Medina, A. Mehta, J. Menick, L. Metz, A. Mishchenko, P. Mishkin, V. Monaco, E. Morikawa, D. Mosing, T. Mu, M. Murati, O. Murk, D. M\u00e9ly, A",
+        "start_index": 28102,
+        "end_index": 28315
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Nair, R. Nakano, R. Nayak, A. Neelakantan, R. Ngo, H. Noh, L. Ouyang, C. O\u2019Keefe, J. Pachocki, A. Paino, J. Palermo, A. Pantuliano, G. Parascandolo, J. Parish, E. Parparita, A. Passos, M. Pavlov, A. Peng, A",
+        "start_index": 28315,
+        "end_index": 28523
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Perelman, F. de A. B. Peres, M. Petrov, H. P. de O. Pinto, Michael, Pokorny, M. Pokrass, V. Pong, T. Powell, A. Power, B. Power, E. Proehl, R. Puri, A. Radford, J. Rae, A. Ramesh, C. Raymond, F. Real, K. Rimbach, C",
+        "start_index": 28523,
+        "end_index": 28739
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Ross, B. Rotsted, H. Roussez, N. Ryder, M. Saltarelli, T. Sanders, S. Santurkar, G. Sastry, H. Schmidt, D. Schmurr, J. Schulman, D. Selsam, K. Sheppard, T. Sherbakov, J. Shieh, S. Shoker, P. Shym, S. Sidor, E. Sigler, M",
+        "start_index": 28739,
+        "end_index": 28960
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Simens, J. Sitkin, K. Slama, I. Sohl, B. Sokolowsky, Y. Song, N. Staudacher, F. P. Such, N. Summers, I. Sutskover, J. Tang, N. Tezak, M. Thompson, P. Tillet, A. Tootoonchian, E. Tseng, P. Tuggle, N. Turley, J",
+        "start_index": 28960,
+        "end_index": 29170
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Tworek, J. F. C. Uribe, A. Vallone, A. Vijayvergiya, C. Voss, C. Wainwright, J. J. Wang, A. Wang, B. Wang, J. Ward, J. Wei, C. J. Weinnmann, A. Welli, P. Welinder, J. Weng, L. Weng, M. Wiethoff, D. Willner, C",
+        "start_index": 29170,
+        "end_index": 29380
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Winter, S. Wolrich, H. Wong, L. Workman, S. Wu, J. Wu, M. Wu, K. Xiao, T. Xu, S. Yoo, K. Yu, Q. Yuan, W. Zaremba, R. Zellers, C. Zhang, M. Zhang, S. Zhao, T. Zheng, J. Zhuang, W. Zhuk and B",
+        "start_index": 29380,
+        "end_index": 29571
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": ". Zoph, *arXiv*, 2023, DOI:10.48550/arXiv.2303.08774.",
+        "start_index": 29571,
+        "end_index": 29624
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "43 S. H. M. Mehr, M. Craven, A. I. Leonov, G. Keenan and L. Cronin, *Science*, 2020, **370**, 101\u2013108.",
+        "start_index": 29624,
+        "end_index": 29726
+    },
+    {
+        "document_name": "60.txt",
+        "chunk_text": "44 L. Bromig, D. Leiter, A.-V. Mardale, N. von den Eichen, E. Bieringer and D. Weuster-Bozt, *SoftwareX*, 2022, DOI:10.1016/j.softx.2022.100991.",
+        "start_index": 29726,
+        "end_index": 29870
+    }
+]

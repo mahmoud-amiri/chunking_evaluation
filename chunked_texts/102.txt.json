@@ -1,0 +1,3110 @@
+[
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$^{31}$P NMR chemical shift anisotropy in paramagnetic lanthanide phosphide complexes",
+        "start_index": 0,
+        "end_index": 85
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Jack Baldwin,$^1$ Katherine L. Bonham,$^2$ Toby R. C. Thompson,$^1$ Gemma K. Gransbury,$^1$ George F. S. Whitehead,$^1$ I\u00f1igo J. Vitorica-Yrezabal,$^1$ Daniel Lee,$^2$,* Nicholas F. Chilton$^{1,3,*}$ and David P. Mills$^{1,*}$",
+        "start_index": 85,
+        "end_index": 311
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$^1$Department of Chemistry, The University of Manchester, Oxford Road, Manchester, M13 9PL, U.K.\n\n$^2$Department of Chemical Engineering, The University of Manchester, Oxford Road, Manchester, M13 9PL, U.K.\n\n$^3$Research School of Chemistry, The Australian National University, Sullivans Creek Road, Canberra, ACT, 2601, Australia.",
+        "start_index": 311,
+        "end_index": 643
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "*Email: daniel.lee@manchester.ac.uk; nicholas.chilton@anu.edu.au; david.mills@manchester.ac.uk\nAbstract",
+        "start_index": 643,
+        "end_index": 746
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Lanthanide (Ln) magnetic resonance imaging and chiral shift reagents generally exploit $^1$H NMR shifts, as paramagnetic broadening tends to preclude the use of heavier, less sensitive nuclei",
+        "start_index": 746,
+        "end_index": 937
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Here we report the solution and solid-state $^{31}$P NMR shifts of an isostructural series of distorted trigonal bipyramidal Ln(III) tris-silylphosphide complexes, [Ln{P(SiMe$_3$)$_2$}$_3$(THF)$_2$] (1-Ln; Ln = La, Ce, Pr, Nd, Sm); 1-Ln were also characterized by elemental analysis, single crystal and powder",
+        "start_index": 937,
+        "end_index": 1248
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "X-ray diffraction, multinuclear NMR, EPR, ATR-IR, and UV-Vis-NIR spectroscopy, and SQUID magnetometry",
+        "start_index": 1248,
+        "end_index": 1349
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Breaking assumptions, we observed paramagnetically broadened $^{31}$P NMR spectra for the Ln-bound P atoms for the 1-Ln family; in solution, 1-Nd showed the most downfield chemical shift ($\\delta^{^{31}P} = 2570.14$ ppm) and 1-Sm the most upfield value ($\\delta^{^{31}P} = -259.21$ ppm)",
+        "start_index": 1349,
+        "end_index": 1637
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". We determined the span of the chemical shift anisotropies (CSA) for solid 1-Ln using magic angle spinning NMR spectroscopy; the CSA was largest for 1-Pr ($\\Omega^{^{31}P} \\approx 2000$ ppm), consistent with a combination of paramagnetism and the relatively large differences in pyramidalization of the three P atoms in the solid-state",
+        "start_index": 1637,
+        "end_index": 1973
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Density functional theory calculations for 1-La were in excellent agreement with the experimentally-determined $^{31}$P NMR parameters",
+        "start_index": 1973,
+        "end_index": 2109
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". We find good agreement of experimental $^1$H NMR chemical shifts with ab initio-calculated values for paramagnetic 1-Ln, whilst the shifts of heavier $^{13}$C, $^{29}$Si and $^{31}$P nuclei are not well-reproduced due to the current limitations of paramagnetic NMR calculations for nuclei with large contact shifts.",
+        "start_index": 2109,
+        "end_index": 2426
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Introduction",
+        "start_index": 2426,
+        "end_index": 2438
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The unique magnetic and luminescent behavior of lanthanide (Ln) complexes\\(^1\\) has been exploited in emissive probes,\\(^2\\)-\\(^{10}\\) magnetic resonance imaging PARASHIFT tags,\\(^11\\)-\\(^{13}\\) chiral shift reagents,\\(^14\\)-\\(^{16}\\) and the determination of spin-spin coupling between metal ions",
+        "start_index": 2438,
+        "end_index": 2735
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\(^17\\)-\\(^{19}\\) Magnetic properties may be probed by nuclear magnetic resonance (NMR) spectroscopy, which can also provide information on sample purity, thermodynamic and kinetic parameters, dynamic processes, and exchange coupling.\\(^20\\) Signals in the NMR spectra of most Ln complexes typically exhibit low resolutions and large paramagnetic chemical shifts due to nuclear hyperfine interactions with unpaired 4f electrons",
+        "start_index": 2735,
+        "end_index": 3163
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\(^21\\)-\\(^{23}\\) As \\(^1\\)H nuclei have the highest sensitivity, the \\(^1\\)H NMR spectra of paramagnetic Ln complexes can often be fully assigned and correlated to benchmark electronic structures,\\(^21\\) but spectra are often intractable for less receptive NMR-active nuclei and attempts to calculate chemical shifts are scarce.\\(^24\\),\\(^25\\)",
+        "start_index": 3163,
+        "end_index": 3508
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Ln amide (NR\\(_2\\)) chemistry is mature,\\(^26\\)-\\(^{28}\\) but the corresponding phosphide (PR\\(_2\\)) chemistry is underdeveloped\\(^29\\),\\(^30\\) due to the preference for hard Lewis acidic Ln ions to bind with charge-dense Lewis basic ligands",
+        "start_index": 3508,
+        "end_index": 3749
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\(^1\\) This is exemplified by Ln bis(trimethylsilyl)amide (\\{N(SiMe\\(_3\\))\\}_2) chemistry, which has burgeoned\\(^28\\) since the landmark trigonal pyramidal Ln(III) complexes [Ln{N(SiMe\\(_3\\))\\}_2] were reported by Bradley in the early 1970s,\\(^31\\) whilst there are only a limited number of structurally authenticated group",
+        "start_index": 3749,
+        "end_index": 4073
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "3 and f-block metal bis(trimethylsilyl)phosphide (\\{P(SiMe\\(_3\\))\\}_2) complexes: [Sc{C(PPh\\(_2\\)S)\\}_2]{P(SiMe\\(_3\\))\\}_2(py)\\_2] (py = pyridine),\\(^32\\)",
+        "start_index": 4073,
+        "end_index": 4227
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[Y\\{P(SiMe\\(_3\\))\\}_2\\{\u00b5-P(SiMe\\(_3\\))\\}_2]\\_2,\\(^33\\) [Ln{P(SiMe\\(_3\\))\\}_3(THF)\\_2] (Ln = Tm,\\(^34\\) Nd\\(^35\\),",
+        "start_index": 4227,
+        "end_index": 4340
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Sm{P(SiMe\\(_3\\))\\}_2\\{\u00b5-P(SiMe\\(_3\\))\\}_2Sm(THF)\\_3,\\(^36\\) {[Ln{P(SiMe\\(_3\\))\\}_3(THF)\\_2(\u00b5-I)K\\_3(THF)] (Ln = Sm, Eu),\\(^37\\)",
+        "start_index": 4340,
+        "end_index": 4467
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[KYb{P(SiMe\\(_3\\))\\}_2\\{\u00b5-K[P(SiMe\\(_3\\))\\}_2]\\_2}],\\(^37\\) trans-[Ln{P(SiMe\\(_3\\))\\}_2(\u00b5-I)K\\_3(THF)] (Ln = Sm, Eu, Yb),\\(^37\\)",
+        "start_index": 4467,
+        "end_index": 4595
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[Ln{P(SiMe\\(_3\\))\\}_2(18-crown-6)] (Ln = Sm, Eu, Yb),\\(^37\\) [An{P(SiMe\\(_3\\))\\}_2(Cp*)\\_2(Cl)] (An = Th, U; Cp* = C\\(_5\\)Me\\(_5\\)),\\(^38\\)",
+        "start_index": 4595,
+        "end_index": 4734
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[An(Tren\\(_{DMBS}\\)){P(SiMe\\(_3\\))\\}_2]] (An = Th, U; Tren\\(_{DMBS}\\) =",
+        "start_index": 4734,
+        "end_index": 4805
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-q2v5h ORCID: https://orcid.org/0000-0003-1575-7754 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 4805,
+        "end_index": 4952
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "N(CH\u2082CH\u2082NSiMe\u2082tBu)\u2083 and [An(TrenTIPS){P(SiMe\u2083)\u2082}] (An = Th, U; TrenTIPS = N(CH\u2082CH\u2082NSiPr\u2083)\u2082).\u00b3\u2079",
+        "start_index": 4952,
+        "end_index": 5046
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "In a recent \u00b2\u2079Si paramagnetic NMR (pNMR) study of a family of locally $D_{3h}$-symmetric early f-block M(III) silanide complexes, [M{Si(SiMe\u2083)\u2083}(THF)\u2082] (M = La, Ce, Pr, Nd, U), the metal-bound Si atoms were not observed in solid-state (ss) \u00b2\u2079Si NMR spectra for",
+        "start_index": 5046,
+        "end_index": 5306
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "paramagnetic examples due to line broadening, and dynamic THF equilibria in solution complicated the interpretation of solution \u00b2\u2079Si DEPT90 NMR shifts",
+        "start_index": 5306,
+        "end_index": 5456
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\u00b2\u2075 Here we present a \u00b3\u00b9P NMR study of a structurally analogous series of distorted trigonal bipyramidal Ln(III) phosphide complexes, [Ln{P(SiMe\u2083)\u2082}\u2083(THF)\u2082] (1-Ln; Ln = La, Ce, Pr, Nd, Sm)",
+        "start_index": 5456,
+        "end_index": 5644
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Contravening previous assumptions,\u00b3\u2075 we observe \u00b3\u00b9P NMR signals for all 1-Ln in the solid-state, allowing us to determine the chemical shift anisotropy (CSA) using a magic angle spinning (MAS) approach. Furthermore, 1-Ln do not exhibit dynamic structural behavior in solution, allowing correlation of \u00b3\u00b9P solution and ssNMR data",
+        "start_index": 5644,
+        "end_index": 5974
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Complexes 1-Ln were additionally characterized by elemental analysis, single crystal X-ray diffraction, multinuclear NMR, electron paramagnetic resonance (EPR), ATR-IR, and UV-Vis-NIR spectroscopy, SQUID magnetometry, density functional theory (DFT) and complete active space self-consistent field spin-orbit (CASSCF-SO) calculations",
+        "start_index": 5974,
+        "end_index": 6309
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". We find excellent agreement of experimental data with DFT-computed NMR parameters of \u00b3\u00b9P nuclei for 1-La, when local dynamics are accounted for, whilst CASSCF-SO-calculated NMR chemical shifts only showed good agreement with experimental values for \u00b9H nuclei for paramagnetic 1-Ln; \u00b9\u00b3C, \u00b2\u2079Si and \u00b3\u00b9P resonances are not well-reproduced due to the current limitations of pNMR shift calculations",
+        "start_index": 6309,
+        "end_index": 6703
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "for nuclei with larger contact shifts",
+        "start_index": 6703,
+        "end_index": 6740
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".",
+        "start_index": 6740,
+        "end_index": 6741
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Results and Discussion",
+        "start_index": 6741,
+        "end_index": 6763
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Synthesis",
+        "start_index": 6763,
+        "end_index": 6772
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Complexes 1-Ln were prepared by adapting literature procedures\\cite{25,35} for the salt metathesis reactions of [Ln(THF)\\textsubscript{x}] (Ln = La, Ce, Pr, x = 4; Ln = Nd, Sm, x = 3.5)\\cite{40} with 3 eq",
+        "start_index": 6772,
+        "end_index": 6976
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". KP(SiMe\\textsubscript{3})\\textsubscript{2}\\cite{41} in diethyl ether (Scheme 1). We were not able to isolate significant quantities of 1-Ln by following the previously reported conditions for the synthesis of 1-Nd using THF as the reaction solvent.\\cite{35} Upon noting that reaction mixtures tended to darken over time at room temperature we hypothesized that decomposition pathways involving THF (e.g",
+        "start_index": 6976,
+        "end_index": 7380
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". ring opening) were occurring. We therefore changed the reaction solvent to diethyl ether and maintained reaction mixtures at \u201378 \u00b0C for 1 hour before briefly allowing to return to room temperature with stirring; all volatiles were then removed under vacuum and products were extracted into hexane. Filtration and concentration of hexane extracts and storage at \u201330 \u00b0C overnight reproducibly gave 1-Ln in low crystalline yields (14\u201350%) under these optimized conditions",
+        "start_index": 7380,
+        "end_index": 7850
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Overlapping absorption features were observed in the ATR-IR spectra of microcrystalline 1-Ln (see Supporting Information Figures S1\u2013S6), indicating that they exhibit similar bulk structural features. Elemental analyses performed on 1-Ln reproducibly gave carbon values that were lower than those predicted. This observation was previously made for 1-Nd even when combustion agents were added, and was attributed to carbide formation",
+        "start_index": 7850,
+        "end_index": 8284
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\cite{35} Whilst this could be interpreted as an intrinsic feature for the 1-Ln family, we note that low carbon values were also obtained for [M{Si(SiMe\\textsubscript{3})\\textsubscript{3}}\\textsubscript{2}](THF)\\textsubscript{2},\\cite{25} and this can be a general feature depending on experimental set-up",
+        "start_index": 8284,
+        "end_index": 8590
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\cite{42} However, all other analytical data collected for 1-Ln are in accord with their bulk purities (see below).",
+        "start_index": 8590,
+        "end_index": 8706
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Scheme 1. Synthesis of 1-Ln.\nX-ray Crystallography",
+        "start_index": 8706,
+        "end_index": 8756
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Single crystal XRD studies were performed on 1-Ln; as these complexes show similar structural features only 1-Ce is depicted in Figure 1 (see Table 1 for selected bond lengths and angles and Supporting Information Figures S7\u2013S10 and Tables S1\u2013S3 for other structures and crystallographic parameters). We provide an improved dataset for 1-Nd, which is similar to the previously reported structure but with more precise metrical parameters",
+        "start_index": 8756,
+        "end_index": 9193
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Powder XRD studies performed on 1-Ln were in accord with samples showing bulk phase purities (See Supporting Information Figures S11\u2013S20 and Table S4).",
+        "start_index": 9193,
+        "end_index": 9346
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Figure 1. Solid-state structure of 1-Ce. Displacement ellipsoids set at 50% probability level, hydrogen atoms omitted for clarity.\nTable 1. Selected mean bond lengths and angles for 1-Ln.",
+        "start_index": 9346,
+        "end_index": 9533
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Parameter               | 1-La   | 1-Ce   | 1-Pr   | 1-Nd   | 1-Sm   |\n|-------------------------|--------|--------|--------|--------|--------|\n| Ln\u2013P/\u00c5                  | 2.886(2) | 2.849(3) | 2.837(3) | 2.818(2) | 2.789(3) |",
+        "start_index": 9533,
+        "end_index": 9761
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Ln\u2013O/\u00c5                  | 2.503(4) | 2.482(3) | 2.443(6) | 2.439(4) | 2.408(4) |",
+        "start_index": 9761,
+        "end_index": 9843
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P(1)\u2013Ln(1)\u2013P(2)/\u00b0      | 129.46(3) | 128.99(4) | 129.30(4) | 128.90(3) | 128.80(5) |",
+        "start_index": 9843,
+        "end_index": 9929
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P(1)\u2013Ln(1)\u2013P(3)/\u00b0      | 117.85(3) | 118.23(4) | 118.30(4) | 118.66(4) | 119.44(6) |",
+        "start_index": 9929,
+        "end_index": 10015
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P(2)\u2013Ln(1)\u2013P(3)/\u00b0      | 112.39(3) | 112.58(4) | 112.06(4) | 112.22(4) | 111.52(6) |",
+        "start_index": 10015,
+        "end_index": 10101
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| O(1)\u2013Ln(1)\u2013O(2)/\u00b0      | 175.14(8) | 175.6(6) | 175.58(13) | 175.68(9) | 175.36(13) |",
+        "start_index": 10101,
+        "end_index": 10188
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Ln\u00b7\u00b7\u00b7P\u2083                 | 0.0901(7) | 0.0732(8) | 0.0957(11) | 0.0761(8) | 0.0781(10) |",
+        "start_index": 10188,
+        "end_index": 10277
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| \u03a3 angles about P/\u00b0      | 320.45(8) | 331.58(12) | 323.81(14) | 331.9(3) | 330.4(5) |\n|                         | 353.38(8) | 351.06(11) | 353.47(13) | 351.12(9) | 351.34(14) |",
+        "start_index": 10277,
+        "end_index": 10455
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|                         | 358.66(8) | 359.28(11) | 358.76(13) | 359.03(10) | 358.95(14) |",
+        "start_index": 10455,
+        "end_index": 10546
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "All 1-Ln exhibit distorted trigonal bipyramidal geometries, with three equatorial phosphide ligands adopting a \u201cpropeller\u201d arrangement and two axial THF molecules, in common with the structures of 1-Tm and 1-Nd; individual P\u2013Ln\u2013P and O\u2013Ln\u2013P angles vary by up to 11\u00b0 from 120\u00b0 and 90\u00b0, respectively",
+        "start_index": 10546,
+        "end_index": 10843
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The O\u2013Ln\u2013O angles lie in a narrow range from 175.14(8)\u2013175.68(9)\u00b0, and the Ln centers are all located < 0.1 \u00c5 from the P\u2083 planes; there are no obvious trends in these parameters between larger and smaller Ln, thus these discrepancies can be attributed to crystal packing effects",
+        "start_index": 10843,
+        "end_index": 11123
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The large deviation of the central LnP\u2083O\u2082 cores from ideal polyhedra is shown by their \u03c4\u2085 values (1-La: 0.76, 1-Ce: 0.78, 1-Pr: 0.77, 1-Nd: 0.78, 1-Sm: 0",
+        "start_index": 11123,
+        "end_index": 11278
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".78), where \u03c4\u2085 = 1 is a trigonal bipyramid and \u03c4\u2085 = 0 is a square based pyramid (\u03c4\u2085 = (\u03b2 \u2212 \u03b1)/60, where \u03b2 is the largest and \u03b1 the second-largest angle in the coordination sphere)",
+        "start_index": 11278,
+        "end_index": 11457
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". As the Ln series is traversed for 1-Ln the mean Ln\u2013P and Ln\u2013O bond lengths decrease, consistent with the decrease in Ln(III) ionic radii with increasing atomic number, the range of mean Ln\u2013P (2.886(2) \u00c5 for 1-La vs. 2.278(9) \u00c5 for 1-Sm) and Ln\u2013O",
+        "start_index": 11457,
+        "end_index": 11704
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "(2.503(4) \u00c5 for \\textbf{1-La} vs. 2.408(4) \u00c5 for \\textbf{1-Sm}) bond lengths for \\textbf{1-Ln} reported herein are longer than the respective distances previously reported for \\textbf{1-Tm} (Tm\u2013P: 2.705(3) \u00c5; Tm\u2013O: 2.315(3) \u00c5)",
+        "start_index": 11704,
+        "end_index": 11930
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{34} Complexes \\textbf{1-Ln} are analogous to [Ln\\{Si(SiMe$_3$)$_3$\\}$_3$(THF)$_2$] (Ln = La, Ce, Pr, Nd), which show $\\tau_5$ values between 0.98 and 1.00 because each silanide ligand bears three trimethylsilyl groups, leading to relatively long Ln\u2013Si bonds (3",
+        "start_index": 11930,
+        "end_index": 12208
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".131(2)\u20133.197(3) \u00c5) and smaller distortions from ideal local D$_{3h}$ geometries in the solid state due to lower metal coordination sphere saturation",
+        "start_index": 12208,
+        "end_index": 12357
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{25} By contrast, the related Ln(III) silylamide complexes [Ln\\{N(SiMe$_3$)$_2$\\}$_3$] are solvent-free and trigonal pyramidal in the solid-state due to their relatively short Ln\u2013N bonds and strong agostic-type electrostatic interactions between Ln(III) ions and $\\beta$-Si\u2013C bonds providing electronic and steric saturation",
+        "start_index": 12357,
+        "end_index": 12698
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{28,31} The structures of \\textbf{1-Ln} are similar to the Ln(III) silylamide complexes [Ln\\{N(SiMe$_2$H)$_2$\\}$_3$(THF)$_2$],\\textsuperscript{46-48} which show more bent O\u2013Ln\u2013O angles (\\textit{ca",
+        "start_index": 12698,
+        "end_index": 12911
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".} 162\u00b0) and mean Ln\u2013N distances that are \\textit{ca.} 0.4 \u00c5 shorter than the Ln\u2013P bonds in \\textbf{1-Ln} for the corresponding metal; the mean Ln\u2013O distances of [Ln\\{N(SiMe$_2$H)$_2$\\}$_3$(THF)$_2$] are \\textit{ca.} 0",
+        "start_index": 12911,
+        "end_index": 13129
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".1 \u00c5 longer than their \\textbf{1-Ln} analogues.\\textsuperscript{46-48} The smaller ligand substituents and donor atoms in [Ln\\{N(SiMe$_2$H)$_2$\\}$_3$(THF)$_2$] lead to mean Ln\u2013N distances that are approximately 0",
+        "start_index": 13129,
+        "end_index": 13341
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".4 \u00c5 shorter than the corresponding Ln\u2013P bonds in \\textbf{1-Ln} for the same metal, which is not entirely accounted for by the sum of the Pyykk\u00f6 covalent radii (Ln\u2013N = 0.278 \u00c5; Ln\u2013P = 0.314 \u00c5)",
+        "start_index": 13341,
+        "end_index": 13533
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{49} The resultant saturation of the metal coordination spheres in [Ln\\{N(SiMe$_2$H)$_2$\\}$_3$(THF)$_2$] leads to their mean Ln\u2013O distances being \\textit{ca.} 0.1 \u00c5 longer than those of the corresponding \\textbf{1-Ln} analogue.",
+        "start_index": 13533,
+        "end_index": 13777
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The pyramidalization of P atoms in \\textbf{1-Ln}, defined here as the deviation from 360\u00b0 of the sum of Si\u2013P\u2013Si and Ln\u2013P\u2013Si angles, is different for all three phosphide ligands in \\textbf{1-Ln}; one P center is close to planarity, one deviates only slightly, and the other shows a more pronounced difference",
+        "start_index": 13777,
+        "end_index": 14084
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Both \\textbf{1-La} and \\textbf{1-Pr} show the widest gamut of pyramidalization values (320.45(8)\u2013358.66(8)\u00b0 and 323.81(14)\u2013358.76(13)\u00b0, respectively), whilst \\textbf{1-Ce} (331.58(12)\u2013359.28(11)\u00b0) \\textbf{1-Nd} (331",
+        "start_index": 14084,
+        "end_index": 14301
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".9(3)\u2013359.03(10)\u00b0) and \\textbf{1-Sm} (330.4(5)\u2013358.95(14)\u00b0) show narrower ranges. This observation is attributed to saturation of the metal coordination spheres and appears to manifest",
+        "start_index": 14301,
+        "end_index": 14485
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "in differences in the spread of chemical shift anisotropies (CSA) in solid-state $^{31}$P NMR spectra (see below)",
+        "start_index": 14485,
+        "end_index": 14598
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". This feature is not seen for $[\\text{Ln}\\{\\text{N(SiMe}_2\\text{H})_2\\}_3(\\text{THF})_2]$, where all N atoms are planar; this is likely due to their sp$^2$-hybridised lone pairs interacting with $\\sigma^*$ orbitals associated with the Si\u2013C bonds of the trimethylsilyl groups by negative hyperconjugation",
+        "start_index": 14598,
+        "end_index": 14902
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{46-48}$",
+        "start_index": 14902,
+        "end_index": 14913
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Pyramidalization of P centers in terminal Ln phosphides has frequently been observed and commented upon, e.g",
+        "start_index": 14913,
+        "end_index": 15021
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". for $[\\text{La(P}^3\\text{Bu}_2)_2(\\mu-\\text{P}^3\\text{Bu}_2)_2\\text{Li(THF)}]$$^{50}$ $[\\text{Ln(PPh}_2)_2(\\text{THF})_4]$ (Ln = Sm, Yb),$^{51}$",
+        "start_index": 15021,
+        "end_index": 15167
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$[\\text{Sm(PPh}_2)_2(\\text{N-MeIm})_4]$ ($\\text{N-MeIm} = \\text{N-methylimidazole}$),$^{52}$ and $[\\text{Ln}\\{\\text{P(H)(Mes}*\\}_2(\\text{THF})_4]$ (Ln = Eu, Yb; Mes* =",
+        "start_index": 15167,
+        "end_index": 15334
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "C$_6$H$_3$Me$_3$-2,4,6)",
+        "start_index": 15334,
+        "end_index": 15357
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{52}$ Conversely, near-planar P atoms were observed for $[\\text{Ln}\\{\\text{P(Mes)}_2\\}_2(\\text{THF})_4]$ (Ln = Sm, Yb; Mes = C$_6$H$_3$Me$_3$-2,4,6); this was ascribed to the sterically demanding phosphide substituents.$^{53}$",
+        "start_index": 15357,
+        "end_index": 15586
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Solution NMR spectroscopy**",
+        "start_index": 15586,
+        "end_index": 15615
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The $^1$H, $^{13}$C{$^1$H}, $^{29}$Si DEPT90 and $^{31}$P{$^1$H} NMR spectra collected for solutions of 1-Ln in C$_6$D$_6$ were all fully assigned (see Table 2 for chemical shifts, coupling constants and selected FWHM for broad signals, and Supporting Information Figures S21\u2013S40 for all spectra)",
+        "start_index": 15615,
+        "end_index": 15911
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For diamagnetic 1-La, three resonances were observed in both the $^1$H and $^{13}$C{$^1$H} NMR spectra at expected chemical shifts for the magnetically equivalent SiMe$_3$ groups and the two THF $^1$H and $^{13}$C environments",
+        "start_index": 15911,
+        "end_index": 16139
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". These results contrast with the related M(III) silanide complexes $[\\text{M}\\{\\text{Si(SiMe}_3\\}_3(\\text{THF})_2]$ (M = La, Ce, Pr, Nd, U), where the bound THF molecules were found to dissociate in aromatic solvents, leading to rapid decomposition at room temperature in the absence of excess THF",
+        "start_index": 16139,
+        "end_index": 16437
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{25}$ There is no evidence of THF dissociation in neat C$_6$D$_6$ solutions of 1-Ln, which were shown to be stable for several days at room temperature by multinuclear NMR spectroscopy, thus we posit that the solid-state structures are essentially maintained in solution but with dynamic averaging of equivalent nuclear environments. The $^{29}$Si DEPT90 NMR spectrum of 1-La contains a doublet at 2",
+        "start_index": 16437,
+        "end_index": 16839
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".66 ppm ($^1$J$_{\\text{SiP}} = 22.4$ Hz), as",
+        "start_index": 16839,
+        "end_index": 16883
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "expected from coupling of $^{29}\\text{Si}$ nuclei to 100\\% abundant $I = \\frac{1}{2} ^{31}\\text{P}$ nuclei; the coupling constant is typical for a P\u2013Si bond, e.g. $^{1}J_{\\text{SiP}} = 18",
+        "start_index": 16883,
+        "end_index": 17070
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".1$ Hz for the pentacoordinate silirane [Si(CH$_2$CH$_2$)(Ph){norbornene-(NDipp)-1-(PPh$_2$)-2}] (Dipp = C$_6$H$_3$Pr$_2$-2,6)",
+        "start_index": 17070,
+        "end_index": 17196
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{54}$ A broad and asymmetric signal was observed in the $^{31}\\text{P}[^{1}\\text{H}]$ NMR spectrum of 1-La at $\u2013113.0$ ppm (FWHM $\\approx 1150$ Hz), where coupling constants could not be readily extracted due to quadrupolar broadening caused by $^{139}\\text{La}$ nuclei (abundance = 99",
+        "start_index": 17196,
+        "end_index": 17484
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".95\\%; $I = \\frac{7}{2}$). This observation is typical for La(III) phosphide complexes, e.g. [La(P$^3$Bu$_2$)$_2$(\u00b5-P$^3$Bu$_2$)$_2$Li(THF)] in C$_6$D$_6$ ($\\delta^{31}\\text{P} = 158$ ppm, FWHM = 3,000 Hz)",
+        "start_index": 17484,
+        "end_index": 17689
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{50}$",
+        "start_index": 17689,
+        "end_index": 17697
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Table 2.** $^{1}\\text{H}$, $^{13}\\text{C}[^{1}\\text{H}]$, $^{29}\\text{Si}$ DEPT90 and $^{31}\\text{P}[^{1}\\text{H}]$ NMR chemical shifts ($\\delta$), coupling constants (Hz), and selected FWHM values for 1-Ln in C$_6$D$_6$.",
+        "start_index": 17697,
+        "end_index": 17920
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Complex | $^{1}\\text{H}$ ($\\delta$) | $^{13}\\text{C}[^{1}\\text{H}]$ ($\\delta$) | $^{29}\\text{Si}$ DEPT90 ($\\delta$) | $^{31}\\text{P}[^{1}\\text{H}]$ ($\\delta$) |\n|---------|----------------|----------------|----------------|----------------|",
+        "start_index": 17920,
+        "end_index": 18162
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-La    | 0.54 (s, CH$_3$) | 7.49 (CH$_3$)  | 2.66 (d, SiMe$_3$) | $\u2013113.0$ (br, P-La) |",
+        "start_index": 18162,
+        "end_index": 18252
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | 1.46 (m, THF-\u03b2-H) | 25.37 (THF-\u03b2-C) | $^{1}J_{\\text{SiP}} = 22.4$ Hz | FWHM $\\approx 1150$ Hz |\n|         | 4.37 (m, THF-\u03b1-H) | 73.20 (THF-\u03b1-C) |                      |                      |",
+        "start_index": 18252,
+        "end_index": 18455
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | $\u20132.17$ (s, CH$_3$) |                      |                      |                      |\n| 1-Ce    | 1.02 (br, THF-\u03b2-H) |                      |                      | 616.7 (br, P-Ce) |",
+        "start_index": 18455,
+        "end_index": 18655
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | FWHM $\\approx 70$ Hz | 7.93 (CH$_3$) | 5.30 (SiMe$_3$) | FWHM $\\approx 350$ Hz |\n|         | 8.33 (br, THF-\u03b1-H) |                      |                      |                      |\n|         | FWHM $\\approx 180$ Hz |                      |                      |                      |",
+        "start_index": 18655,
+        "end_index": 18954
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Pr    | $\u20136.83$ (s, CH$_3$) |                      |                      |                      |\n|         | 23.50 (br, THF-\u03b2-H) |                      |                      | 1894.2 (br, P-Pr) |",
+        "start_index": 18954,
+        "end_index": 19156
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | FWHM $\\approx 450$ Hz | 11.17 (CH$_3$) | 15.65 (SiMe$_3$) | FWHM $\\approx 550$ Hz |\n|         | 48.12 (br, THF-\u03b1-H) |                      |                      |                      |",
+        "start_index": 19156,
+        "end_index": 19354
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "In the previous report of 1-Nd, only one signal was observed in the \u00b9H NMR spectrum of a C\u2086D\u2086 solution at \u20132",
+        "start_index": 19354,
+        "end_index": 19462
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".24 ppm and this was assigned to the SiMe\u2083 groups; THF resonances were not observed in the \u00b9H NMR spectrum and no signals were seen in the \u00b9\u00b3C{\u00b9H}, \u00b2\u2079Si{\u00b9H} and \u00b3\u00b9P{\u00b9H} NMR spectra collected due to paramagnetic broadening of resonances into the baseline",
+        "start_index": 19462,
+        "end_index": 19715
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". However, cryogenic NMR probes can provide drastically increased sensitivity for NMR experiments by reducing thermal noise, and as we have this facility we were able to observe resonances in the \u00b9H, \u00b9\u00b3C{\u00b9H}, \u00b2\u2079Si DEPT90 and \u00b3\u00b9P{\u00b9H} NMR spectra for all paramagnetic 1-Ln reported herein following experimental optimizations (see Supporting Information Tables S5 and S6 for parameters used)",
+        "start_index": 19715,
+        "end_index": 20104
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The expected three resonances were seen in the \u00b9H NMR spectra for all 1-Ln, with paramagnetic shifts and the extent of broadening varying with the magnetic anisotropy of the Ln(III) ion",
+        "start_index": 20104,
+        "end_index": 20291
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". However, the expected three signals in the \u00b9\u00b3C{\u00b9H} NMR spectra were only seen for 1-Sm (and diamagnetic 1-La), where the Sm(III) ion shows diminished paramagnetic behavior as expected due to its low magnetic",
+        "start_index": 20291,
+        "end_index": 20500
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Compound | FWHM | \u00b9H | \u00b9\u00b3C | \u00b3\u00b9P |\n|----------|------|----|-----|-----|\n| 1-Nd     | ~960 Hz | 23.94 (CH\u2083) | 42.94 (SiMe\u2083) | 2570.3 (br, P-Nd) |",
+        "start_index": 20500,
+        "end_index": 20646
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|          | ~130 Hz | 23.52 (br, THF-\u03b1-H) | | |\n| 1-Sm     | ~10 Hz | 26.15 (THF-\u03b2-C) | 0.52 (SiMe\u2083) | ~1500 Hz |\n|          | ~20 Hz | 78.89 (THF-\u03b1-C) | | |",
+        "start_index": 20646,
+        "end_index": 20804
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "FWHM \u2248 960 Hz\n\n-2.24 (s, CH\u2083)\n\n11.75 (br, THF-\u03b2-H)\n\n2.35 (br, THF-\u03b2-H)\n\n5.47 (CH\u2083)\n\n5.47 (br, THF-\u03b1-H)\n\n78.89 (THF-\u03b1-C)\n\n6.11 (br, THF-\u03b1-H)",
+        "start_index": 20804,
+        "end_index": 20943
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "2570.3 (br, P-Nd)\n\n23.52 (br, THF-\u03b1-H)\n\n26.15 (THF-\u03b2-C)\n\n78.89 (THF-\u03b1-C)\n\n0.52 (SiMe\u2083)\n\n259.2 (br, P-Sm)\n\nFWHM \u2248 1100 Hz\n\nFWHM \u2248 360 Hz\n\nFWHM \u2248 1500 Hz",
+        "start_index": 20943,
+        "end_index": 21094
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "FWHM \u2248 20 Hz\n\nFWHM \u2248 130 Hz",
+        "start_index": 21094,
+        "end_index": 21121
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "FWHM \u2248 10 Hz",
+        "start_index": 21121,
+        "end_index": 21133
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "moment. Only SiMe$_3$ signals were observed in the $^{13}$C{$^{1}$H} NMR spectra of other paramagnetic 1-Ln, in accord with these groups experiencing a smaller paramagnetic shift than the THF $^{13}$C NMR nuclei and assuming that the these effects are similar to those observed for the corresponding $^{1}$H resonances",
+        "start_index": 21133,
+        "end_index": 21451
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The $^{29}$Si DEPT90 NMR spectra of paramagnetic 1-Ln show similar trends in paramagnetic shifts, but we were unable to extract $^{1}$J$_{PSi}$ coupling constants.",
+        "start_index": 21451,
+        "end_index": 21616
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Metal-bound phosphide resonances were observed by $^{31}$P{$^{1}$H} NMR spectroscopy for all paramagnetic 1-Ln (Figure 2), together with trace amounts of either KP(SiMe$_3$)$_2$ ($\\delta^{31}$P = \u2013296 ppm),$^{41}$ (Me$_3$Si)$_2$P\u2013P(SiMe$_3$)$_2$ ($\\delta^{31}$P = \u2013216",
+        "start_index": 21616,
+        "end_index": 21884
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "ppm),$^{56}$ HP(SiMe$_3$)$_2$ ($\\delta^{31}$P = \u2013237",
+        "start_index": 21884,
+        "end_index": 21936
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".4 ppm),$^{57}$ and/or H$_2$PSiMe$_3$ ($\\delta^{31}$P = \u2013239.0 ppm)",
+        "start_index": 21936,
+        "end_index": 22003
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{57}$ In contrast to the sharp metal-bound silanide resonances seen in the $^{29}$Si DEPT90 NMR spectra of [Ln{Si(SiMe$_3$)$_3$}]$_3$(THF)$_2$,$^{25}$ the signals in $^{31}$P{$^{1}$H} NMR spectra of 1-Ln for Ln = Ce, Pr, Nd and Sm were all subject to significant broadening by the respective",
+        "start_index": 22003,
+        "end_index": 22297
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Ln(III) ion, and the large paramagnetic shifts required the acquisition of multiple spectra to cover a wide range of chemical shifts",
+        "start_index": 22297,
+        "end_index": 22429
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". To the best of our knowledge $\\delta^{31}$P values have not been reported for any other paramagnetic molecular Ln silylphosphide complex to date however, there has been a reported chemical shift of 2055.21 ppm for the U(IV) complex [U(Tren$^{DMBS}$){P(SiMe$_3$)$_2$}]",
+        "start_index": 22429,
+        "end_index": 22698
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{39}$ We attribute the increased intensities of signals for 1-Ln here to a combination of the use of a cryoprobe and the presence of three symmetry-related $^{31}$P nuclei in solution.$^{30}$",
+        "start_index": 22698,
+        "end_index": 22892
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "For 1-Ce ($\\delta_P = 616.7$ ppm), 1-Pr ($\\delta_P = 1894.2$ ppm) and 1-Nd ($\\delta_P = 2570",
+        "start_index": 22892,
+        "end_index": 22984
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".3$ ppm) these resonances show a downfield trend in isotropic chemical shift with increasing paramagnetism of the Ln(III) ion from Ce-Nd; a search of the literature indicated that 1-Nd exhibits the most deshielded $\\delta_P$ value that has been observed for any Ln complex to date.$^{30}$ By contrast, 1-Sm shows a broad resonance at $\\delta_P = \u2013259",
+        "start_index": 22984,
+        "end_index": 23334
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".2$ ppm that is upfield of diamagnetic 1-La, as the less paramagnetic Sm(III) ion does not induce as large a shift, and the ordering of $m_j$ states is expected to be the opposite of Ce(III), Pr(III) and Nd(III) in the same ligand environment.$^{58}$",
+        "start_index": 23334,
+        "end_index": 23584
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Figure 2.** Signals observed in the $^{31}$P{$^1$H} NMR spectra of 1-Ln.",
+        "start_index": 23584,
+        "end_index": 23658
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Solid-state NMR spectroscopy**",
+        "start_index": 23658,
+        "end_index": 23690
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "To get a fuller appreciation of the effect of the magnetic anisotropy of 1-Ln, $^{31}$P and $^1$H MAS NMR spectra were recorded of the pure solids (Figure 3 and Supporting Information Figures S41\u2013S46)",
+        "start_index": 23690,
+        "end_index": 23890
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Unlike for the analogous $^{29}$Si MAS NMR of [Ln{Si(SiMe$_3$)$_3$}$_3$(THF)$_2$],$^{25}$ the $^{31}$P resonances from the metal-bound nuclear spins can be observed for all 1-Ln: this is owing to the much greater NMR receptivity of $^{31}$P compared to $^{29}$Si (~180 times greater)",
+        "start_index": 23890,
+        "end_index": 24175
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For diamagnetic 1-La it is evident that on top of the spinning side band pattern that can be used to determine the CSA parameters (Table 3), there are some underlying features (see Figure S41 for the calculated fit). The $J$-coupling of the $^{31}$P spins to $^{139}$La (abundance = 99",
+        "start_index": 24175,
+        "end_index": 24462
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".95%; $I = \\frac{7}{2}$) results in a splitting of the resonance into an eight-line multiplet, each line of which has a different broadening dependent on the unequal lifetimes of the $^{139}$La Zeeman states and the $^1J_{LaP}$ value (~500 Hz). Here, the broadening is such that this multiplet cannot be resolved but",
+        "start_index": 24462,
+        "end_index": 24778
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "its effect on the lineshape can be observed. There are also small, relatively narrow resonances detected at $\\delta^{31}\\text{P} = -251$ and $-235$ ppm, which correspond to P(SiMe$_3$)$_3$ ($\\delta^{31}\\text{P} = -251",
+        "start_index": 24778,
+        "end_index": 24995
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".2$ ppm) and HP(SiMe$_3$)$_2$ and/or H$_2$PSiMe$_3$ degradation product(s), respectively",
+        "start_index": 24995,
+        "end_index": 25083
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". There is only a small difference in the isotropic chemical shift between the solid ($\\delta_{\\text{iso-ss}}^{31}\\text{P} = -123$ ppm) and the solution NMR spectra ($\\delta_{\\text{iso-sol}}^{31}\\text{P} = -113$ ppm), indicating that the solution and solid structures of 1-La are similar",
+        "start_index": 25083,
+        "end_index": 25370
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The span, $\\Omega$, describes the breadth of the observed powder pattern to provide a measure of the \u201cmagnitude\u201d of the CSA (and associated tensor), whilst the skew, $\\kappa$, describes the asymmetry of the CSA (and tensor); an axially symmetric tensor has $\\kappa = \\pm 1$",
+        "start_index": 25370,
+        "end_index": 25645
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For 1-La, the $^{31}\\text{P}$ chemical shift tensor is not axially symmetric ($\\kappa \\neq \\pm 1$). The span of almost 300 ppm, as well as the downfield isotropic $^{31}\\text{P}$ chemical shift compared to HP(SiMe$_3$)$_2$, highlights a large deshielding of the $^{31}\\text{P}$ nucleus due to bonding to La.",
+        "start_index": 25645,
+        "end_index": 25954
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "As with diamagnetic 1-La, the isotropic $^{31}\\text{P}$ chemical shifts in the MAS NMR spectra of paramagnetic 1-Ln are similar to those seen in solution $^{31}\\text{P}$/$^1\\text{H}$ NMR spectra (Table 3)",
+        "start_index": 25954,
+        "end_index": 26158
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For paramagnetic 1-Ln, the analysis becomes more complex owing to the (hyperfine) interaction between the unpaired electron spins of Ce(III), Pr(III), Nd(III), and Sm(III) and the nuclear spins",
+        "start_index": 26158,
+        "end_index": 26353
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The paramagnetic shifts observed can stem from three components, the through-bond Fermi-contact shift (FCS), the through-space electron-nuclear dipolar interaction (pseudo-contact shift, PCS), and the paramagnetic spin-orbit (PSO) coupling",
+        "start_index": 26353,
+        "end_index": 26594
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Since there is a direct bond between the paramagnetic Ln and $^{31}\\text{P}$ nuclei, then none of the aforementioned terms can be neglected; conversely, for the shifts of $^1\\text{H}$ nuclei in paramagnetic 1-Ln, the PCS term will dominate",
+        "start_index": 26594,
+        "end_index": 26835
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The $^1\\text{H}$ shifts observed for solid 1-Ln are very similar to those in solution ($|\\delta_{\\text{iso-ss}}^{1}\\text{H} - \\delta_{\\text{iso-sol}}^{1}\\text{H}| < 0.1$ ppm for 1-La and 1-Sm, and $< 2",
+        "start_index": 26835,
+        "end_index": 27038
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".2$ ppm for 1-Nd and 1-Pr), but the $^1\\text{H}$ MAS NMR spectra are substantially broadened by paramagnetism (see Figure S46)",
+        "start_index": 27038,
+        "end_index": 27164
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The $^{31}\\text{P}$ MAS NMR spectra of 1-Ce, 1-Pr, and 1-Nd in Figure 3 have substantial spans ($\\Omega \\approx 700$, 2000, and 1300 ppm, respectively, see Table 3), whereas that of 1-Sm is much less ($\\Omega \\approx 400$",
+        "start_index": 27164,
+        "end_index": 27387
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "ppm. The magnitude of the $\\Omega$ values is generally consistent with the relative extents of paramagnetism of Ln ions; 1-Pr has a larger span than expected, which we ascribe to the greater differences in geometries of P atoms of this complex in the solid-state compared to 1-Ce, and 1-Nd (Table 1)",
+        "start_index": 27387,
+        "end_index": 27686
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The orientation of the asymmetry (skew, $\\kappa$) for 1-Nd and 1-Sm is opposite to that of 1-Ce and 1-Pr, which could indicate a change in the anisotropy of the magnetic susceptibility of the Ln or a change in ambient structural motion owing to the shorter Ln\u2013P bonds of 1-Nd and 1-Sm compared to 1-Ce and 1-Pr",
+        "start_index": 27686,
+        "end_index": 27998
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The $^{31}$P MAS NMR spectra of 1-Ce and 1-Nd have two components, one major and one minor (see Supplementary Information Figures S42 and S44)",
+        "start_index": 27998,
+        "end_index": 28142
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". This can be attributed to the 2 : 1 ratio of planar : pyramidal $^{31}$P environments of 1-Ln in the solid-state (Figure 1); only one environment is observed in solution $^{31}$P{\u00b9H} NMR spectra of 1-Ln due to dynamic structural motion",
+        "start_index": 28142,
+        "end_index": 28379
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". This is validated by the isotropic $^{31}$P chemical shifts, where the weighted average is similar to that seen in solution ($\\delta_{\\text{iso,avg}}^{\\text{ss}}{^{31}P} = 628$ ppm and $\\delta_{\\text{iso-sol}}^{\\text{ss}}{^{31}P} = 617$ ppm for 1-Ce;",
+        "start_index": 28379,
+        "end_index": 28631
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$\\delta_{\\text{iso,avg}}^{\\text{ss}}{^{31}P} = 2326$ ppm and $\\delta_{\\text{iso-sol}}^{\\text{ss}}{^{31}P} = 2570$ ppm for 1-Nd)",
+        "start_index": 28631,
+        "end_index": 28758
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".",
+        "start_index": 28758,
+        "end_index": 28759
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Figure 3. $^{31}$P MAS NMR spectra for 1-Ln recorded at ambient temperature using the indicated magnetic field strength and MAS frequencies. Fitting of the spinning sideband manifolds can be found in the Supplementary Information Figures S41\u2013S45.",
+        "start_index": 28759,
+        "end_index": 29005
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Table 3. $^{31}$P MAS NMR parameters for 1-Ln",
+        "start_index": 29005,
+        "end_index": 29050
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $\\delta_{\\text{iso}}$ = isotropic shift; $\\delta_{11}$, $\\delta_{22}$, $\\delta_{33}$ = principal components of chemical shift tensor; $\\Omega = \\text{span} = \\delta_{11} - \\delta_{33}$; $\\kappa = \\text{skew} = 3(\\delta_{22} - \\delta_{\\text{iso}})/\\Omega$",
+        "start_index": 29050,
+        "end_index": 29306
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". These are not definitive due to large relative errors in the fitting. Recorded $^a$ at 9.4 T or $^b$ at 16.5 T.",
+        "start_index": 29306,
+        "end_index": 29419
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Complex | MAS / kHz | $^{31}$P $\\delta_{\\text{iso}}$ / ppm | $^{31}$P $\\delta_{11}$ / ppm | $^{31}$P $\\delta_{22}$ / ppm | $^{31}$P $\\delta_{33}$ / ppm | $^{31}$P $\\Omega$ / ppm | $^{31}$P $\\kappa$ |",
+        "start_index": 29419,
+        "end_index": 29620
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|---------|-----------|-------------------------------------|-----------------------------|-----------------------------|-----------------------------|----------------|----------|\n| 1-La$^a$ | 7         | -123                                | 32                          | -139                        | -262                        | 295            | -0.16    |",
+        "start_index": 29620,
+        "end_index": 29980
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Ce P(1,2)$^a$ | 8     | 561                                 | 1017                        | 415                         | 252                         | 765            | -0.57    |\n| 1-Ce P(3)$^a$ | 8     | 763                                 | 1108                        | 753                         | 428                         | 680            | -0.04    |",
+        "start_index": 29980,
+        "end_index": 30345
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Pr$^a$ | 11       | 1686                                | 2882                        | 1271                        | 906                         | 1976           | -0.63    |\n| 1-Nd P(1,2)$^b$ | 20    | 2147                                | 2708                        | 2224                        | 1507                        | 1201           | 0.19     |",
+        "start_index": 30345,
+        "end_index": 30708
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Nd P(3)$^b$ | 20    | 2685                                | 3238                        | 2983                        | 1835                        | 1403           | 0.64     |\n| 1-Sm$^a$ | 8        | -245                                | -86                         | -183                        | -464                        | 376            | 0.49     |",
+        "start_index": 30708,
+        "end_index": 31069
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "UV-Vis-NIR Spectroscopy",
+        "start_index": 31069,
+        "end_index": 31092
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Complexes 1-Ln vary in color, with solutions ranging from pale yellow (1-La) to deep purple (1-Sm). To study these electronic transitions further, the UV-Vis-NIR spectra of 2 mM toluene solutions of 1-Ln were recorded at room temperature (compiled in Figure 4; see Supporting Information Figures S48\u2013S52 for individual spectra)",
+        "start_index": 31092,
+        "end_index": 31419
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". All spectra exhibited an intense charge transfer (CT) absorption tailing into the visible spectrum from the UV region",
+        "start_index": 31419,
+        "end_index": 31538
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For 1-Ce two shoulders were seen at $\\tilde{\\nu}_{\\text{max}} = 22,000$ cm$^{-1}$ ($\\varepsilon = 750$ M$^{-1}$ cm$^{-1}$) and 19,500 cm$^{-1}$ ($\\varepsilon = 180$ M$^{-1}$ cm$^{-1}$); the lower energy absorption may be due to a",
+        "start_index": 31538,
+        "end_index": 31769
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "4f$^1$\u21925d$^1$ transition, as assigned previously for [Ce{Si(SiMe$_3$)$_3$}]$_3$(THF)$_2$] ($\\tilde{\\nu}_{\\text{max}} = 23,300$ cm$^{-1}$, $\\varepsilon = 240$ M$^{-1}$ cm$^{-1}$)",
+        "start_index": 31769,
+        "end_index": 31946
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{25}$ The electronic spectrum of 1-Nd has a weak absorption at $\\tilde{\\nu}_{\\text{max}} = 18,650$ cm$^{-1}$ ($\\varepsilon = 50$ M$^{-1}$ cm$^{-1}$) as well as a set of absorptions in the visible region ($\\tilde{\\nu}_{\\text{max}} = 16,100-17,300$ cm$^{-1}$;",
+        "start_index": 31946,
+        "end_index": 32206
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$\\varepsilon = 190$ M$^{-1}$ cm$^{-1}$)",
+        "start_index": 32206,
+        "end_index": 32245
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".",
+        "start_index": 32245,
+        "end_index": 32246
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "cm$^{-1}$) that are assigned as f-f transitions arising from the $^4$I$_{9/2}$ $\\rightarrow$ $^4$G$_J$ states;\\textsuperscript{59} a similar feature was previously observed for [Nd{Si(SiMe$_3$)$_3$}]$_3$(THF)$_2$",
+        "start_index": 32246,
+        "end_index": 32458
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{35} For 1-Sm, there is a broad and relatively intense absorption in the visible region ($\\tilde{\\nu}_{\\text{max}} = 17,800$ cm$^{-1}$; $\\varepsilon = 500$ M$^{-1}$ cm$^{-1}$). This is unusual as Sm(III) complexes typically only show weak f-f transitions in this region",
+        "start_index": 32458,
+        "end_index": 32744
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{59} However, we have noted previously that the CT band tends to tail in further into the visible region for Sm(III) homologues of a structurally analogous series of light Ln(III) complexes, and that more axial ligand fields can effect a greater blue-shift for the CT bands of similar Sm(III) complexes",
+        "start_index": 32744,
+        "end_index": 33063
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{60} We therefore assign this feature to a ligand metal charge transfer (LMCT) that arises due to significant orbital mixing of the 4f and 5d orbitals and vibronic coupling occurring in 1-Sm",
+        "start_index": 33063,
+        "end_index": 33270
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{1} A similar strong absorbance has been observed in the spectrum of [Eu(N\u2019\u2019)$_3$] at approximately 16,000 cm$^{-1}$, which was ascribed to a LMCT.\\textsuperscript{31}",
+        "start_index": 33270,
+        "end_index": 33454
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "![UV-Vis-NIR spectra of 1-Ln](image)\n\n**Figure 4.** UV-Vis-NIR spectra of 1-Ln (2 mM in toluene) between 9,000\u201327,000 cm$^{-1}$ (1,111\u2013370 nm). Legend: M = La (block), Ce (red), Pr (blue), Nd (green), Sm (purple).\n\n**Magnetism**",
+        "start_index": 33454,
+        "end_index": 33682
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The molar magnetic susceptibility ($\\chi_M$) of powders of paramagnetic 1-Ln suspended in eicosane were examined by variable-temperature DC SQUID magnetometry (compiled in",
+        "start_index": 33682,
+        "end_index": 33853
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Figure 5 with selected parameters in Table 4; see Supporting Information Figures S53\u2013S60 for all magnetic data), and CASSCF-SO calculations (see below)",
+        "start_index": 33853,
+        "end_index": 34004
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". There is excellent agreement between measured and calculated susceptibility values for 1-Sm; at 300 K these are slightly higher than the free ion value (Sm(III) 4f\u2075 \u2076H\u2085/\u2082) due to mixing of low-lying \u2076H_J excited terms with the ground term",
+        "start_index": 34004,
+        "end_index": 34244
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The magnetization data for 1-Sm are slightly lower than the CASSCF-SO-calculated values but given their small magnitude they are more susceptible to experimental uncertainties",
+        "start_index": 34244,
+        "end_index": 34421
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The absolute values of \u03c7_MT and magnetization are alternately under- (1-Ce, 4f\u2074 \u00b2F\u2085/\u2082) and over-predicted (1-Pr, 4f\u00b2 \u00b3H\u2084; 1-Nd, 4f\u2074 \u2074I\u2089/\u2082) by CASSCF-SO calculations; at 300 K the largest discrepancy is seen for 1-Nd (ca. 0",
+        "start_index": 34421,
+        "end_index": 34645
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".4 cm\u00b3 K mol\u207b\u00b9), which should be investigated in future. However, the shapes of the variable temperature \u03c7_MT and variable field M traces of all 1-Ln are accurately reproduced by CASSCF-SO-predicted values, showing a gradual decrease in \u03c7_MT with T due to thermal depopulation of excited crystal field states",
+        "start_index": 34645,
+        "end_index": 34953
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For 1-Pr the sharp drop in \u03c7_MT < 5 K can be attributed to Pr(III) being a non-Kramers ion and subsequent polarization of the ground state at low temperatures.",
+        "start_index": 34953,
+        "end_index": 35114
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Figure 5. Temperature dependence of \u03c7_T for 1-Ln (symbols) along with CASSCF calculated curves (solid lines).",
+        "start_index": 35114,
+        "end_index": 35223
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Table 4. Product of the molar susceptibility and temperature, $\\chi M T$ (cm$^3$ mol$^{-1}$ K), of 1-Ce, 1-Pr, 1-Nd and 1-Sm determined by SQUID magnetometry at 1.8 and 300 K, calculated CASSCF-SO values at 2 K and 300 K, and free ion calculated values at 300 K.",
+        "start_index": 35223,
+        "end_index": 35485
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Complex | SQUID | CASSCF-SO Magnetometry | Calculations | Free ion$^1$ |\n|---------|-------|------------------------|--------------|--------------|\n|         | 1.8 K | 300 K | 2 K | 300 K | $\\chi M T$ |",
+        "start_index": 35485,
+        "end_index": 35689
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Ce    | 0.39  | 0.88  | 0.39| 0.72 | 0.81        |\n| 1-Pr    | 0.70  | 1.45  | 1.15| 1.54 | 1.60        |",
+        "start_index": 35689,
+        "end_index": 35798
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Nd    | 0.91  | 1.24  | 1.10| 1.62 | 1.64        |\n| 1-Sm    | 0.02  | 0.31  | 0.04| 0.30 | 0.09        |",
+        "start_index": 35798,
+        "end_index": 35907
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "EPR Spectroscopy",
+        "start_index": 35907,
+        "end_index": 35923
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The electronic structures of the Kramers ion complexes 1-Ce and 1-Nd were further investigated by c.w. X-band (ca. 9.4 GHz) EPR spectroscopy on ground polycrystalline samples, using EasySpin$^{61}$ to model the data (Figure 6; see Supporting Information Table S7 for full details of simulations)",
+        "start_index": 35923,
+        "end_index": 36218
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Attempts were made to collect spectra of 1-Sm but the results were not reproducible, consistent with decomposition occurring upon sample grinding. The spectra are highly axial, with $g_z$ values of 3.598 (1-Ce) and 5.969 (1-Nd), indicating that ground states are dominated by the highest $m_J$ component of the ground $J$ multiplet; these are very close to those predicted by CASSCF-SO calculations (3",
+        "start_index": 36218,
+        "end_index": 36621
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".498 and 5.874, respectively, Tables S15 and S17).",
+        "start_index": 36621,
+        "end_index": 36671
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Figure 6. CW X-band EPR spectra of (a) 1-Ce powder at 7 K, (b) 1-Nd powder at 12\u201316 K. Two perpendicular orientations of powder spectra are shown in black and blue. Simulations using parameters from ESI Table S7 are shown in red.",
+        "start_index": 36671,
+        "end_index": 36900
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "DFT Calculations",
+        "start_index": 36900,
+        "end_index": 36916
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The electronic structure of 1-La was calculated with a variety of DFT methods using ORCA v.5.0 (see Experimental Section for details). The models of 1-La used included the XRD-determined atomic positions with and without geometry-optimized H-positions, and fully geometry-optimized structures starting from the XRD structure (see Supporting Information Tables S8\u2013S12 for geometry-optimized atomic positions)",
+        "start_index": 36916,
+        "end_index": 37323
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^{31}$P NMR chemical shielding tensors were calculated in all cases. A variety of methods were used, including BP86 and B3LYPHFXX with exact exchange contributions ranging from 20% to 50% (see Supporting Information Table S13 for full results). Whilst PBE0$^{62-70}$ and SAOP$^{71-73}$ functionals have been most extensively used to date to calculate NMR chemical shifts of f-block metal complexes,",
+        "start_index": 37323,
+        "end_index": 37724
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "calculations with B3LYPHF20-50 hybrid-functionals have also provided good correlation of $^{13}$C, $^{15}$N, $^{29}$Si and $^{31}$P NMR parameters when these atoms are bonded to f-block ions.$^{25,75-77}$ B3LYPHF50 was previously found to be optimal for predicting chemical shifts of thorium-bound phosphorus atoms.$^{76}$",
+        "start_index": 37724,
+        "end_index": 38046
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "In this case, optimization of H-positions gave the best agreement with experiment (Table 5). B3LYPHF20, corresponding to Becke\u2019s popular three-parameter fit of the hybrid exchange-correlation functional,$^{78}$ achieved close agreement with the experimental isotropic shifts, but the span of the anisotropy was larger than that observed experimentally (in all calculations, see Table S13) and the predicted skew was more negative",
+        "start_index": 38046,
+        "end_index": 38475
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". However, these were of the correct order of magnitude and the skew had the correct sign. Selecting the optimal Hartree-Fock exchange contribution to best match the experimental solid-state isotropic shift suggested 30%. The agreement achieved with this functional is most likely due to cancellation of errors, however, especially from the neglect of dynamics in our calculations; B3LYPHF30 should not be expected to give an improved description of the electronic structure of the complex",
+        "start_index": 38475,
+        "end_index": 38964
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". This interpretation is supported by the very different optimal exact exchange contribution found by the previous fit to f-element bound $^{31}$P NMR data.$^{75}$",
+        "start_index": 38964,
+        "end_index": 39127
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The DFT-calculated $^{31}$P NMR parameters are those of a static 1-La structure. However, at ambient temperature, where the experimental NMR measurements were recorded, there will be dynamic averaging owing to local motions, if these are present. For instance, librational motion of the La\u2013P bond will reduce the effective $^{31}$P shielding span",
+        "start_index": 39127,
+        "end_index": 39473
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Simulating a fast (on the NMR time-scale) librational motion of the calculated $^{31}$P shielding tensor with amplitude of \u00b132\u00b0 gives an averaged spectrum (see Figure S47) that corresponds to the spectrum measured experimentally. Note that this librational motion is one of many possible solutions but highlights that 1-La is not static.",
+        "start_index": 39473,
+        "end_index": 39812
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Table 5. Experimental and calculated $^{31}$P chemical shifts ($\\delta_{\\text{iso}}$ vs. 85% H$_3$PO$_4$) and anisotropy parameters for 1-La, using both XRD and optimized structures with different DFT methods",
+        "start_index": 39812,
+        "end_index": 40020
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $\\delta_{11}$, $\\delta_{22}$, $\\delta_{33}$ = principal components of chemical shift tensor; Span, $\\Omega$ = $\\delta_{11}$\u2013$\\delta_{33}$; Skew, $\\kappa = [3(\\delta_{22}\u2013\\delta_{\\text{iso}})]/|\\delta_{11}\u2013\\delta_{33}|$.",
+        "start_index": 40020,
+        "end_index": 40241
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Method   | Structure | $^{31}$P (exp) $\\delta_{\\text{iso}}$ (ppm)$^c$ | $^{31}$P $\\delta_{11}$ (ppm)$^c$ | $^{31}$P $\\delta_{22}$ (ppm)$^c$ | $^{31}$P $\\delta_{33}$ (ppm)$^c$ | Span, $\\Omega$ (ppm) | Skew,",
+        "start_index": 40241,
+        "end_index": 40448
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$\\kappa$ $^c$ |",
+        "start_index": 40448,
+        "end_index": 40463
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|----------|-----------|-----------------------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------|------------------|\n| Experimental | -         | $-123^a, -113^b$                               | 32                              | $-139$                          | $-262$                          | 295                 | $-0.16$          |",
+        "start_index": 40463,
+        "end_index": 40899
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| B3LYPHF20  | XRD       | $-85.6$                                       | 232.5                           | $-192.6$                       | $-296.7$                       | 529.2               | $-0.61$          |",
+        "start_index": 40899,
+        "end_index": 41114
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|           | H-Opt     | $-109.0$                                      | 196.6                           | $-203.5$                       | $-320.2$                       | 516.8               | $-0.55$          |",
+        "start_index": 41114,
+        "end_index": 41328
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|           | Opt       | $-66.5$                                       | 251.1                           | $-87.5$                        | $-363.2$                       | 614.3               | $-0.10$          |",
+        "start_index": 41328,
+        "end_index": 41542
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| B3LYPHF30  | XRD       | $-97.5$                                       | 212.8                           | $-199.9$                       | $-305.4$                       | 518.2               | $-0.59$          |",
+        "start_index": 41542,
+        "end_index": 41757
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|           | H-Opt     | $-121.0$                                      | 177.9                           | $-214.2$                       | $-326.6$                       | 504.5               | $-0.55$          |",
+        "start_index": 41757,
+        "end_index": 41971
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|           | Opt       | $-56.5$                                       | 170.4                           | $-38.8$                        | $-301.3$                       | 471.7               | 0.11             |",
+        "start_index": 41971,
+        "end_index": 42185
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$^a$Solid-state $^{31}$P MAS NMR data. $^b$Solution $^{31}$P{$^1$H} NMR data. $^c$Only one value obtained upon averaging.",
+        "start_index": 42185,
+        "end_index": 42306
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Natural bond orbital (NBO) analysis was carried out using the NBO 6.0 software in Orca, with the aim of characterizing the Ln-P bonds. The results presented in Table 6 use B3LYPHF20 with optimized H-positions (see Supporting Information Table S14 for results from other methods). These data indicate relatively weak covalent bonding that is slightly stronger for phosphorus atoms with a lower degree of pyramidalization",
+        "start_index": 42306,
+        "end_index": 42725
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The bonding interaction can be split into $\\sigma$ and $\\pi$ components, and as expected, the $\\sigma$ NBO has significant contributions form phosphorus 3s and 3p orbitals and lanthanum 4f, 5d and 6s orbitals, with the 5d contribution being most significant from lanthanum. The $\\pi$ NBO is similar but without significant contributions from the s orbitals",
+        "start_index": 42725,
+        "end_index": 43083
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The NBOs are significantly polarized towards phosphorus. This",
+        "start_index": 43083,
+        "end_index": 43146
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "polarisation occurs to a greater degree than in related hypersilanide complexes, consistent with phosphorus being more electronegative than silicon.",
+        "start_index": 43146,
+        "end_index": 43294
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Table 6: Mayer bond order and NBO analysis of the P-La bonds in 1-La. Contributions from phosphorus d and f orbitals are not shown as they are always insignificant.",
+        "start_index": 43294,
+        "end_index": 43458
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Atom | Mayer bond order | $\\sigma$ NBO | $\\pi$ NBO |\n|------|------------------|--------------|-----------|\n|      | %La | %s/p/d/f | %P | %s/p | %La | %s/p/d/f | %P | %s/p |",
+        "start_index": 43458,
+        "end_index": 43634
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P$_1$ | 0.7209 | 6.78 | 17.59/0.55/51.22/30.65 | 93.22 | 53.99/45.71 | 6.69 | 5.20/1.25/66.23/27.33 | 93.31 | 0.63/99.08 |",
+        "start_index": 43634,
+        "end_index": 43758
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P$_2$ | 0.7396 | 6.55 | 16.68/1.48/68.19/13.65 | 93.45 | 52.23/47.67 | 7.49 | 0.56/0.69/58.07/40.68 | 92.51 | 0.36/99.55 |",
+        "start_index": 43758,
+        "end_index": 43882
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| P$_3$ | 0.8001 | 7.11 | 22.16/2.3/69.67/5.87 | 92.89 | 50.48/49.45 | 8.24 | 0.17/0.59/67.81/31.43 | 91.76 | 0.02/99.90 |",
+        "start_index": 43882,
+        "end_index": 44004
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Ab initio Calculations",
+        "start_index": 44004,
+        "end_index": 44026
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Minimal active space CASSCF-SO calculations were performed on all paramagnetic 1-Ln using OpenMolcas and the molecular structures from single crystal XRD data, in order to probe their electronic structures (see Experimental Section for details, Supporting Information Figures S61\u2013S64 and Tables S15\u2013S18). The active spaces consist of seven 4f orbitals with the appropriate number of electrons in each case",
+        "start_index": 44026,
+        "end_index": 44431
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". A mixed ground state is observed for 1-Ce ($g_z = 3.498$, 78\\% $m_J = \\pm 5/2$), as $g_z$ is tilted away from the O\u2013Ce\u2013O pseudo-axis; the calculated $g$-value is in good agreement with that determined by EPR spectroscopy (see above)",
+        "start_index": 44431,
+        "end_index": 44665
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". By contrast, the ground state for 1-Pr is a more pure 97\\% $m_J = \\pm 4$ and $\\mp 4$ pseudo-doublet, with a splitting of 0.9 cm$^{-1}$ and the principal magnetic axis approximately coincident with O\u2013Pr\u2013O",
+        "start_index": 44665,
+        "end_index": 44870
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Similarly, the $g_z$ axis of 1-Nd is aligned along O\u2013Nd\u2013O and the ground state is quite pure ($g_z = 5.874$, 89\\% $m_J = \\pm 9/2$), in good agreement with experiment (see above)",
+        "start_index": 44870,
+        "end_index": 45049
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Finally, for 1-Sm the ground state is calculated to be 87\\% $m_J = \\pm 5/2$, with $g_z$ almost perpendicular to O\u2013Sm\u2013O. The variation in principal g-axis orientation shows that there is significant competition between the two hard neutral O-donors of THF and three",
+        "start_index": 45049,
+        "end_index": 45315
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-q2v5h ORCID: https://orcid.org/0000-0003-1575-7754 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 45315,
+        "end_index": 45462
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "soft formally negatively charged P-donors of \\{P(SiMe_3)_2\\} in defining the anisotropy of the complexes;\\(^{79,80}\\) for the more magnetic \\textbf{1-Pr} and \\textbf{1-Nd} the O-atoms dominate, while this is less clear-cut for \\textbf{1-Ce} and \\textbf{1-Sm}.",
+        "start_index": 45462,
+        "end_index": 45721
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**pNMR Calculations**",
+        "start_index": 45721,
+        "end_index": 45742
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The paramagnetic contributions to the experimental isotropic pNMR shifts of \\textbf{1-Ce}, \\textbf{1-Pr}, \\textbf{1-Nd} and \\textbf{1-Sm} were approximated by subtracting the shifts of the diamagnetic complex \\textbf{1-La} (see Table 7 and Experimental Section for details and Supporting Information Tables S19\u2013S21)",
+        "start_index": 45742,
+        "end_index": 46057
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". To calculate the paramagnetic shifts, a variety of methods have been employed. Firstly, the common approach of assuming the nuclei are all in the long-range limit compared to the well-localized magnetic moment of the paramagnetic ion has been considered, and hence we employ the point-dipolar model for calculating pseudocontact shift.\\(^{81}\\) In the general case of low-symmetry structures, this takes the form:",
+        "start_index": 46057,
+        "end_index": 46472
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "\\[",
+        "start_index": 46472,
+        "end_index": 46474
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "\\delta_{\\text{PCS}} = \\frac{1}{N_A r^3} \\left( \\chi_{zz} - \\frac{\\text{tr}(\\chi)}{3} \\right) \\frac{2z^2 - x^2 - y^2}{2r^2} + \\left( \\chi_{xx} - \\chi_{yy} \\right) \\frac{x^2 - y^2}{2r^2}",
+        "start_index": 46474,
+        "end_index": 46658
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "+ \\chi_{xy} \\frac{2xy}{r^2} + \\chi_{xz} \\frac{2xz}{r^2} + \\chi_{yz} \\frac{2yz}{r^2}",
+        "start_index": 46658,
+        "end_index": 46741
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "\\]",
+        "start_index": 46741,
+        "end_index": 46743
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "where \\(\\chi\\) is the magnetic susceptibility tensor in c.g.s. e.m.u",
+        "start_index": 46743,
+        "end_index": 46811
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". \\((\\text{cm}^3 \\text{mol}^{-1})\\), \\(x\\), \\(y\\) and \\(z\\) are the Cartesian coordinates of the nucleus in question (in meters, where the Ln ion defines the origin), \\(r\\) is the distance between the nucleus and the lanthanide ion (in meters), and \\(\\text{tr}()\\) indicates a matrix trace",
+        "start_index": 46811,
+        "end_index": 47100
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". We approximate \\(\\chi\\) by using CASSCF-SO calculations in OpenMolcas.\\(^{77}\\) The resulting calculated shifts are reasonably accurate for all \\(^1\\text{H}\\) resonances, which are indeed significantly distal (3 or 4 bonds) to the Ln ions, suggesting that their contact shifts are effectively zero",
+        "start_index": 47100,
+        "end_index": 47399
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Calculated shifts for other nuclei are less accurate, although the calculated \\(^{13}\\text{C}\\) shifts of \\textbf{1-Sm} are in reasonable agreement with experiment.",
+        "start_index": 47399,
+        "end_index": 47565
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "A second method, intended to overcome the limitations of the first method and achieve a better agreement with experimental chemical shifts, is one where we can implicitly account for the non-point-dipolar nature of the spin system (i.e. the spatial delocalization of 4f spin density) and the spin density at the nuclei of interest (i.e",
+        "start_index": 47565,
+        "end_index": 47900
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". including the contact contribution): here, we employ the van den Heuvel and Soncini method\\(^{82}\\) in the Hyperion program.\\(^{83}\\) Using the existing CASSCF-SO calculations from",
+        "start_index": 47900,
+        "end_index": 48082
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "---",
+        "start_index": 48082,
+        "end_index": 48085
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "\\(\\text{https://doi.org/10.26434/chemrxiv-2024-q2v5h}\\) ORCID: \\(\\text{https://orcid.org/0000-0003-1575-7754}\\) Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 48085,
+        "end_index": 48254
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "above with the 4f-only active space, we observe only small changes in the calculated shifts (Table S15). This clearly indicates that while the 4f-only active space is sufficient to effectively approximate the localized magnetic anisotropy of the metal ion, it fails to model the electronic structure of the ligands well enough to accurately describe the contact shift or the effect of the spatial distribution of the unpaired electron density on the pseudocontact shift",
+        "start_index": 48254,
+        "end_index": 48723
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The former of these issues is expected to be more significant for the $^{31}$P nuclei, which are directly bonded to the Ln ions.",
+        "start_index": 48723,
+        "end_index": 48853
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Various more sophisticated active spaces were developed, focusing on the phosphorus atoms, in an attempt to improve calculated shifts by incorporating the phosphorus valence orbitals, however only minor improvements to calculated $^{31}$P shifts were achieved (Table S17)",
+        "start_index": 48853,
+        "end_index": 49124
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The calculation in closest agreement with experiment was a restricted active space configuration interaction spin-orbit (RASCI-SO) calculation using the orbitals generated by the above minimal CASSCF-SO calculations, where the phosphorus 1s, 2s, 3s and 3p orbitals were placed in RAS1, the Ln 4f orbitals defined RAS2, and the 13 lowest-energy virtual orbitals comprised RAS3: this is just about",
+        "start_index": 49124,
+        "end_index": 49521
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "the computational limit of CASSCF/RASSCF methods",
+        "start_index": 49521,
+        "end_index": 49569
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Nonetheless, these calculations deliver $^{31}$P shifts that are still far from experiment, highlighting the difficulty of capturing the details of electronic structure that pNMR shifts are so sensitive to. It can also be noted that solution $^{31}$P NMR spectroscopy is particularly sensitive to factors such as temperature as well as various stereoelectronic effects, which are often not captured in the calculation of $^{31}$P chemical shifts when starting from the crystal structure",
+        "start_index": 49569,
+        "end_index": 50057
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{84,85} Therefore, small differences in structure both in solution and solid-state can lead to significant changes in chemical shifts.",
+        "start_index": 50057,
+        "end_index": 50208
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Surprisingly, we found large changes in the calculated shifts of other non-$^{31}$P nuclei when performing these calculations with larger active spaces on the phosphorus atoms. The RASCI-SO method that improved shifts for $^{31}$P also improved shifts for $^{13}$C and $^{29}$Si, having a larger effect relative to the magnitude of the experimental shift than for $^{31}$P",
+        "start_index": 50208,
+        "end_index": 50580
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". A potential explanation is that the carbon and silicon atoms, separated from the central ion by more bonds than the phosphorus atoms in all cases,",
+        "start_index": 50580,
+        "end_index": 50728
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "have a smaller contact shift contribution relative to their total pNMR shift than for phosphorus. Hence, any improvement in the modelling of the spin-dipolar interaction (i.e. of the spatial variation of the unpaired electron density that leads to the pseudocontact shift with a $1/r^3$ dependence) may be having a significant effect in these cases",
+        "start_index": 50728,
+        "end_index": 51076
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". This is consistent with $^1$H being considerably more distal, the only nucleus for which the point-dipole assumption seems to hold in 1-Ln, showing no significant changes upon increasing the active space.",
+        "start_index": 51076,
+        "end_index": 51282
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Table 7. Experimental and calculated isotropic paramagnetic NMR shifts for paramagnetic 1-Ln.",
+        "start_index": 51282,
+        "end_index": 51375
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| Nucleus | Complex | Environment | Experimental Paramagnetic Shift (ppm) | Calculated Paramagnetic Shift (ppm) |\n|---------|---------|-------------|--------------------------------------|-----------------------------------|\n|         |         |             | Magnetic Susceptibility Method | van den Heuvel Method with CASSCF-SO | van den Heuvel Method with RASCI-SO |",
+        "start_index": 51375,
+        "end_index": 51745
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Ce    | CH\u2083     | -2.17       | -2.34                                | -2.39                             | -2.70                             |\n|         | THF-\u03b2   | 1.02        | 8.01                                 | 8.09                              | 9.42                              |",
+        "start_index": 51745,
+        "end_index": 52038
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | THF-\u03b1   | 8.33        | 15.30                                | 15.12                             | 17.72                             |\n| 1-Pr    | CH\u2083     | -6.83       | -10.16                               | -10.13                            | -11.95                            |",
+        "start_index": 52038,
+        "end_index": 52331
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | THF-\u03b2   | 23.50       | 32.71                                | 32.59                             | 37.41                             |\n|         | THF-\u03b1   | 48.12       | 61.38                                | 60.75                             | 69.77                             |",
+        "start_index": 52331,
+        "end_index": 52624
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Nd    | CH\u2083     | -2.24       | -3.87                                | -3.92                             | -4.51                             |\n|         | THF-\u03b2   | 11.75       | 12.07                                | 12.02                             | 14.54                             |",
+        "start_index": 52624,
+        "end_index": 52917
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | THF-\u03b1   | 23.52       | 21.91                                | 21.12                             | 25.89                             |\n| 1-Sm    | CH\u2083     | 0.09        | -0.54                                | -0.53                             | -0.52                             |",
+        "start_index": 52917,
+        "end_index": 53210
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | THF-\u03b2   | 2.35        | 1.69                                 | 1.68                              | 1.70                              |\n|         | THF-\u03b1   | 6.11        | 2.53                                 | 2.52                              | 2.54                              |",
+        "start_index": 53210,
+        "end_index": 53503
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 3\u00b9H     | CH\u2083     | 7.93        | -2.90                                | -6.51                             | -2.39                             |\n|         | THF-\u03b2   | -          | 12.05                                | 10.41                             | -9.94                             |\n|         | THF-\u03b1   | -          | 24.96                                | 25.48                             | 25.93                             |",
+        "start_index": 53503,
+        "end_index": 53941
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Ce    | CH\u2083     | 11.17       | -12.64                               | -13.31                            | -10.88                            |\n|         | THF-\u03b2   | -          | 48.50                                | 47.82                             | 54.83                             |\n|         | THF-\u03b1   | -          | 100.18                               | 95.78                             | 105.23                            |",
+        "start_index": 53941,
+        "end_index": 54379
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Pr    | CH\u2083     | 23.94       | -4.87                                | -8.22                             | -0.36                             |\n|         | THF-\u03b2   | -          | 18.41                                | 15.20                             | 21.29                             |\n|         | THF-\u03b1   | -          | 37.15                                | 27.24                             | 30.96                             |",
+        "start_index": 54379,
+        "end_index": 54817
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Nd    | CH\u2083     | 5.47        | -0.65                                | -0.58                             | -1.08                             |\n|         | THF-\u03b2   | 26.15       | 2.47                                 | 2.57                              | 2.50                              |",
+        "start_index": 54817,
+        "end_index": 55110
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | THF-\u03b1   | 78.89       | 4.61                                 | 5.11                              | 5.25                              |\n| 3\u00b9\u00b3C    | SiMe\u2083   | 5.30        | -5.74                                | -9.94                             | -1.93                             |",
+        "start_index": 55110,
+        "end_index": 55403
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 2\u2070Si    | SiMe\u2083   | 15.65       | -26.19                               | -35.12                            | -15.27                            |\n| 1-Ce    | SiMe\u2083   | 42.94       | -9.84                                | -20.09                            | 4.88                              |",
+        "start_index": 55403,
+        "end_index": 55696
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Pr    | SiMe\u2083   | 0.52        | -1.14                                | -0.46                             | -1.36                             |\n| 1-Nd    | P-Ln    | 616.7       | -27.2                                | -52.7                             | -1.5                              |",
+        "start_index": 55696,
+        "end_index": 55989
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "| 1-Sm    | P-Ln    | 1894.2      | -107.8                               | -201.3                            | -96.0                             |\n| 3\u00b9\u00b9P    | P-Ln    | 2570.1      | -40.8                                | -172.8                            | -40.6                             |",
+        "start_index": 55989,
+        "end_index": 56282
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "|         | P-Ln    | -259.2      | -4.4                                 | -0.5                              | -6.1                              |",
+        "start_index": 56282,
+        "end_index": 56428
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Conclusions",
+        "start_index": 56428,
+        "end_index": 56439
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "We have modified synthetic protocols for the preparation of solvated Ln(III) tris-(bis-trimethylsilyl)phosphide complexes to expand the [Ln{P(SiMe\u2083)\u2082}\u2083(THF)\u2082] series to Ln = La, Ce, Pr, Nd, Sm, Tm",
+        "start_index": 56439,
+        "end_index": 56635
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The unexpected observation of resonances in both the solution and solid-state \u00b3\u00b9P NMR spectra for this family of complexes for Ln = La, Ce, Pr, Nd and Sm has enabled the first systematic study of \u00b3\u00b9P chemical shifts for paramagnetic f-block ions. Single crystal XRD showed that these complexes adopt distorted trigonal bipyramidal coordination.",
+        "start_index": 56635,
+        "end_index": 56981
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "geometries in the solid-state, with three equatorial phosphides and two axially-bound THF molecules, and NMR data obtained on solutions of these complexes in aromatic solvents indicated that these structures are retained in solution",
+        "start_index": 56981,
+        "end_index": 57213
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Uniquely, we were able to extract the chemical shift anisotropies from signals observed in $^{31}$P MAS NMR spectra of solid-state samples, and correlate these data with the paramagnetism of the Ln and pyramidalization of the P atoms",
+        "start_index": 57213,
+        "end_index": 57448
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". While DFT calculations on the diamagnetic La(III) complex predicted $^{31}$P chemical shift parameters that were in excellent agreement with the values extracted from $^{31}$P MAS NMR spectra, CASSCF-SO calculations on paramagnetic Ce(III), Pr(III), Nd(III) and Sm(III) homologs could only effectively reproduce $^1$H NMR chemical shifts for these complexes",
+        "start_index": 57448,
+        "end_index": 57807
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". We find diminishing agreement with experiment for calculated $^{13}$C, $^{29}$Si and $^{31}$P pNMR chemical shifts as the distances between Ln(III) ions and ligands decrease across the 1-Ln series; this highlights the current limitations of these methods for nuclei where contact shift contributions dominate.",
+        "start_index": 57807,
+        "end_index": 58118
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Experimental**",
+        "start_index": 58118,
+        "end_index": 58134
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**General.** All manipulations were conducted under argon with the strict exclusion of oxygen and water by using Schlenk line and glove box techniques. [LnI$_3$(THF)$_x$]$^{40}$ and KP(SiMe$_3$)$_2$$^{41}$ were synthesized according to literature procedures, and 1-Nd was prepared by modification of literature procedures",
+        "start_index": 58134,
+        "end_index": 58455
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".$^{35}$ Diethyl ether and toluene were purged with nitrogen and passed through columns containing alumina catalyst and molecular sieves, and hexane was dried by refluxing over potassium; these solvents were degassed, refilled with argon and stored over a potassium mirror before use. For NMR spectroscopy, C$_6$D$_6$ was dried by refluxing over K, and vacuum transferred and degassed by three freeze-pump-thaw cycles before use",
+        "start_index": 58455,
+        "end_index": 58883
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Elemental analysis (C, H) was carried out by Mr Martin Jennings and Mrs Anne Davies at the Microanalytical service, Department of Chemistry, the University of Manchester. ATR-IR",
+        "start_index": 58883,
+        "end_index": 59062
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "spectra were recorded on microcrystalline powders on a Bruker Alpha spectrometer with a Platinum-ATR module. UV-Vis-NIR spectra were recorded on a Perkin Elmer Lambda 750 spectrometer on 2 mM toluene solutions in 1 cm path length Youngs tap-appended cuvettes and were corrected to a toluene reference cell.",
+        "start_index": 59062,
+        "end_index": 59368
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Single crystals suspended in Fomblin\u00ae on a Micromount\u2122 were examined by using Rigaku FR-X, Rigaku Synergy-S and Rigaku Supernova diffractometers variously equipped with HE6000Hypix and CCD Eos detectors and graphite-monochromated Cu K\u03b1 (\u03bb = 1.54178 \u00c5) or Mo K\u03b1 radiation (\u03bb = 0.71073 \u00c5)",
+        "start_index": 59368,
+        "end_index": 59654
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Intensities were integrated from data recorded on 1\u00b0 (1-Ln) frames by \u03c9 rotation. Cell parameters were refined from the observed positions of all strong reflections in each data set. A Gaussian grid face-indexed was used to correct for X-ray absorption",
+        "start_index": 59654,
+        "end_index": 59908
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The structures were solved using SHELXT; the datasets were refined by full-matrix least-squares on all unique F\u00b2 values, with anisotropic displacement parameters for all non-hydrogen atoms, and with constrained riding hydrogen geometries; Uiso(H) was set at 1.2 (1.5 for methyl groups) times Ueq of the parent atom. The largest features in final difference syntheses were close to heavy atoms and were of no chemical significance",
+        "start_index": 59908,
+        "end_index": 60339
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". CrysAlisPro was used for control and integration, and SHELX was employed through OLEX2 for structure solution and refinement. ORTEP-3 and POV-Ray were employed for molecular graphics.",
+        "start_index": 60339,
+        "end_index": 60524
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Powder XRD data were obtained on small batches of microcrystalline 1-Ln that were suspended in Fomblin\u00ae oil to prevent sample decomposition from oxygen and water. These samples were mounted on a Micromount\u2122 and placed on a goniometer head under a cryostream to cool the sample to 100 K, freezing the Fomblin\u00ae to suspend the crystallites for the duration of the experiment",
+        "start_index": 60524,
+        "end_index": 60895
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The PXRD data were measured on a Rigaku FR-X diffractometer, operating in powder diffraction mode using Cu K\u03b1 radiation (\u03bb = 1.5418 \u00c5) with a Hypix-6000HE detector and an Oxford Cryosystems nitrogen flow gas system. Data were collected between 3\u201370 \u00b00, with a detector distance of 150 mm and a beam divergence of",
+        "start_index": 60895,
+        "end_index": 61209
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "1.0 mRad. X-ray data were collected using CrysAlisPro. For data processing the instrument was calibrated using LaB\u2086 as standard. Then, X-ray data were reduced and integrated using CrysAlisPro. Peak hunting and unit cell indexing was performed using TOPAS software. Le Bail profile analysis was performed using JANA2020 software",
+        "start_index": 61209,
+        "end_index": 61536
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Some samples suffer from high background scatter from the Fomblin YR-1800 oil used, due to the ratio of powder to oil. Qualitatively, the Le Bail refinements match well with the experimental data.",
+        "start_index": 61536,
+        "end_index": 61734
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Solution NMR spectra were recorded on a Bruker AVIII HD 400 spectrometer operating at 400.07 (\u00b9H), 100.60 (\u00b9\u00b3C{\u00b9H}), 79.48 (\u00b2\u2079Si DEPT90), and 161.98 (\u00b3\u00b9P{\u00b9H}) MHz. Solid-state NMR spectra were recorded using a Bruker AVIII 9.4 T spectrometer equipped with a 4 mm HFXY MAS probe (162",
+        "start_index": 61734,
+        "end_index": 62016
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".03 (\u00b3\u00b9P) MHz) as well as with a Bruker NEO 16.5 T spectrometer equipped with a 3.2 mm HX MAS probe (284.13 (\u00b3\u00b9P) MHz). Experiments were acquired at ambient temperature using various MAS frequencies. For the frequencies employed (7 to 20 kHz), the sample temperature was determined using an external reference of KBr to be 300 \u00b1 9 K",
+        "start_index": 62016,
+        "end_index": 62348
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Samples were packed into 4 or 3.2 mm o.d. zirconia rotors in a glovebox, and were sealed with Kel-F or Vespel rotor caps, respectively. The \u00b3\u00b9P (\u03c0/2)-pulse durations were 4 and 5 \u03bcs for the 4 and 3.2 mm rotors, respectively. Spectral simulations were performed in the solid line-shape analysis (SOLA) module v2.2",
+        "start_index": 62348,
+        "end_index": 62662
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".4 in Bruker TopSpin v3.6.3 and using EXPRESS 2.0 and WSolids1 ver 1.21.7. \u00b9H, \u00b9\u00b3C, and \u00b2\u2079Si NMR spectra were referenced to SiMe\u2084, and \u00b3\u00b9P NMR spectra were referenced to 85% H\u2083PO\u2084.",
+        "start_index": 62662,
+        "end_index": 62842
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Magnetic data were collected on a Quantum Design MPMS3 superconducting quantum interference device (SQUID) magnetometer using doubly recrystallized powdered samples. Samples were prepared in an NMR tube containing a finely ground material, with eicosane as a restraint, which was then flame-sealed under vacuo. The ampules were mounted in plastic straws, held in place with diamagnetic tape",
+        "start_index": 62842,
+        "end_index": 63232
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Samples were carefully checked for purity and data reproducibility between several independently prepared batches for each compound examined. For 1-Ce, slow thermalization was",
+        "start_index": 63232,
+        "end_index": 63409
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "observed below 50 K, and care was taken to ensure complete thermalization of the sample before each data point was measured. Measurements were corrected for the contribution of the blank sample holders (flame-sealed Wilmad NMR tube and straw) and eicosane matrix, corrected for the shape of the sample using the MPMS3 Geometry Simulator (correction factors 0.974\u20131",
+        "start_index": 63409,
+        "end_index": 63773
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".075) and corrected for the diamagnetic contribution, approximated as the molecular weight multiplied by $0.5 \\times 10^{-6}$ cm$^3$ K mol$^{-1}$. Variable temperature magnetic susceptibility was collected under an applied field (1-Ce: 0.5 T, 1-Pr: 0.1 T, 1-Nd: 0",
+        "start_index": 63773,
+        "end_index": 64036
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".1 T, 1-Sm: 1 T) using either DC scan mode with 40 mm scan length and 6 s scan time (1-Ce, 1-Nd) or VSM mode with 5 mm amplitude and 2 s averaging time (1-Pr, 1-Sm). Isothermal magnetization measurements were performed in DC scan mode with 40 mm scan length and 6 s scan time for all samples.",
+        "start_index": 64036,
+        "end_index": 64328
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Continuous Wave (CW) X-band EPR spectra were recorded with a Bruker EMXPlus spectrometer with 1.8 T electromagnet and Stinger closed-cycle helium gas cryostat",
+        "start_index": 64328,
+        "end_index": 64486
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Polycrystalline samples of 1-Ce and 1-Nd were sealed in quartz X-band EPR tubes under vacuum; samples were lightly ground with a mortar and pestle under inert atmosphere to reduce the amount of sample decomposition, but we note that some effects due to polycrystallinity remain in the 1-Nd spectra (identified by comparing two sample rotations at ~90 degrees to one another)",
+        "start_index": 64486,
+        "end_index": 64862
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Spectra were obtained at base temperature (7\u201316 K). The field was corrected using a strong pitch sample ($g = 2.0028$). Spectra were simulated in EasySpin 6.0.0-dev.48 using the pepper function",
+        "start_index": 64862,
+        "end_index": 65057
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The ground doublet was simulated as an effective $S = \\frac{1}{2}$ with axial g-values ($g = [g_z, g_{xy}, g_{xy}]$) and g-strains to phenomenologically account for all anisotropic line broadening effects",
+        "start_index": 65057,
+        "end_index": 65263
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For Nd, a hyperfine coupling on the $z$-component was included in the model ($A = [A_z, 0, 0]$), with the $A$ axis assumed to be collinear with the $g$-axis. The hyperfine coupling constants are defined for the most abundant isotopes and scaled for other isotopes based on nuclear g-factors. Values used in the simulation are reported in Table S7.",
+        "start_index": 65263,
+        "end_index": 65612
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "DFT calculations for 1-La were performed using ORCA v5.0. NMR parameter calculations and geometry optimizations were performed using a variety of DFT methods,",
+        "start_index": 65612,
+        "end_index": 65770
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "starting from the XRD structure. Reference chemical shielding was found from an optimized structure of H$_3$PO$_4$ using each method. In all cases scalar relativistic ZORA$^{98}$ was employed alongside the GD3 dispersion correction$^{99}$ and the def2-TZVP basis set$^{100}$ in its relativistically contracted form. The SARC form$^{101}$ of this basis set was used for La",
+        "start_index": 65770,
+        "end_index": 66141
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The DFT methods used were BP86,$^{102,103}$ and B3LYP$^{104,105}$ with a range of exact exchange contributions. The PCM solvent model$^{106}$ was investigated, but was found to be ineffective (see Supporting Information Table S13). NBO calculations used NBO 6.0$^{107}$ in Orca",
+        "start_index": 66141,
+        "end_index": 66420
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". They were carried out using the DFT methodology described above with B3LYPHF20 and B3LYPHF30.",
+        "start_index": 66420,
+        "end_index": 66515
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Multi-configurational electronic structure theory calculations were performed on 1-Ce, 1-Pr, 1-Nd and 1-Sm in OpenMolcas version 23.02.$^{77}$ The molecular geometries from single crystal XRD structures were used with no optimization, selecting a single molecule from the asymmetric unit and taking the largest disorder component only",
+        "start_index": 66515,
+        "end_index": 66849
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Integrals were performed in the SEWARD module using basis sets from the ANO-RCC library$^{108,109}$ with VTZP quality on the metal atom, VDZP quality on the P and O atoms and VDZ quality on all other atoms, employing the second-order DKH transformation. Cholesky decomposition of the two-electron integrals with a threshold of $10^{-8}$ was performed to save disk space and reduce computational demand",
+        "start_index": 66849,
+        "end_index": 67252
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The molecular orbitals (MOs) were optimized in state-averaged CASSCF calculations in the RASSCF module, with a CAS($n$,7) calculation (1-Ce: $n = 1$; 1-Pr: $n = 2$; 1-Nd: $n = 3$; 1-Sm: $n = 5$) where the active space was the seven 4f orbitals",
+        "start_index": 67252,
+        "end_index": 67497
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For 1-Ce the MOs were averaged over the lowest seven doublets. For 1-Pr, the MOs were averaged over the lowest 21 triplets and the lowest 28 singlets. For 1-Nd, the MOs were averaged over the lowest 35 quartets and the lowest 112 doublets",
+        "start_index": 67497,
+        "end_index": 67737
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". For 1-Sm, the MOs were averaged over the lowest 21 sextets, the lowest 224 quartets and the lowest 490 doublets",
+        "start_index": 67737,
+        "end_index": 67850
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The wavefunctions obtained from these CASSCF calculations were then mixed by spin orbit coupling in the RASSI module, where all states were included for 1-Ce, 1-Pr and 1-Nd, and for 1-Sm all 21 sextets, 128 of the quartets, and 130",
+        "start_index": 67850,
+        "end_index": 68083
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "of the doublets were included. SINGLE_ANISO was used to decompose the resulting spin-orbit wave functions into the CF Hamiltonian formalism.\\textsuperscript{110} Diamond was employed for molecular graphics.\\textsuperscript{111}",
+        "start_index": 68083,
+        "end_index": 68310
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "For pNMR calculations, a temperature of 297 K was used for all analysis, and shifts were averaged over all atoms in each environment. An ANO-RCC-VTZP basis set was employed for the lanthanide ion, an ANO-RCC-VDZP basis set for the ligand atoms directly coordinated to the lanthanide ion and an ANO-RCC-VDZ basis set for all other atoms",
+        "start_index": 68310,
+        "end_index": 68645
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{112} Two-electron integrals were decomposed using the Cholesky method with a threshold of $10^{-8}$. The PCM solvent model\\textsuperscript{113} was used for some calculations using the magnetic susceptibility method\\textsuperscript{81} but was found to have an insignificant effect (Table S19)",
+        "start_index": 68645,
+        "end_index": 68956
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Geometry optimizations for 1-Ln were carried out in Gaussian 16\\textsuperscript{14} using density functional theory, starting from XRD structures. These used the PBE exchange-correlation functional\\textsuperscript{115} with the GD3 dispersion correction\\textsuperscript{99} and a cc-pVDZ basis set.\\textsuperscript{116} An f-in-core pseudopotential was used for the lanthanide ion",
+        "start_index": 68956,
+        "end_index": 69338
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".\\textsuperscript{117} Calculated shifts for the XRD and optimized geometries, found using the magnetic susceptibility method, are compared in Table S19. These differed, but neither gave reliably better agreement with experiment than the other. The XRD structures were used for all further calculations.",
+        "start_index": 69338,
+        "end_index": 69641
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Initially, CASSCF-SO calculations were performed on each molecule, with the relevant number of electrons in the seven 4f orbitals as the active space. The RAS method was used for further calculations, with RAS2 always being the same as the initial CAS active space. The CASSCF-SO orbitals were used for RASCI-SO calculations with different active spaces",
+        "start_index": 69641,
+        "end_index": 69994
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". RAS1 was varied, with RAS3 always being the 13 lowest-energy virtual orbitals. The results of these RASCI-SO calculations are summarized in Table S20, with the implementation of the van den Heuvel equation\\textsuperscript{82} in the Hyperion\\textsuperscript{83} software being used to calculated paramagnetic shifts",
+        "start_index": 69994,
+        "end_index": 70311
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The phosphorous 1s and 2s orbitals were core-like and easily identified, but the 3s and 3p orbitals were involved in bonding. The molecular orbitals used to represent these were those with the largest contribution from them. In all cases these had a significantly larger contribution from the relevant atomic orbital than from any other atomic",
+        "start_index": 70311,
+        "end_index": 70656
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "orbital. There were also no other molecular orbitals with such a large contribution from that atomic orbital, making the identification unambiguous.",
+        "start_index": 70656,
+        "end_index": 70804
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "RASSCF-SO calculations were then carried out with RAS1 as the 3 highest-energy phosphorus 3p orbitals and RAS3 as the 3 lowest-energy virtual orbitals. These suffered from rotation of the RAS1 orbitals during the SCF procedure to become metal 4d and 5p orbitals",
+        "start_index": 70804,
+        "end_index": 71065
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Further RASSCF-SO calculations were carried out with RAS1 as all 9 phosphorus 3p orbitals and RAS 3 as the 9 lowest-energy virtual orbitals. These saw significantly less rotation to metal orbitals, and in the case of 1-Nd all RAS1 orbitals remained predominantly phosphorus 3p in character",
+        "start_index": 71065,
+        "end_index": 71356
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The orbitals from the 1-Nd RASSCF-SO were used for a RASCI-SO calculation, with RAS1 as the phosphorus 3s and 3p orbitals and RAS3 as the 12 lowest-energy virtual orbitals",
+        "start_index": 71356,
+        "end_index": 71529
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". pNMR shifts calculated from the results of the RASSCF-SO calculations with all of the phosphorus 3p orbitals as RAS1 and this RASCI-SO calculation are shown in Table S21.",
+        "start_index": 71529,
+        "end_index": 71701
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**General procedure for the synthesis of 1-La.** To a precooled (\u221278 \u00b0C) suspension of [LnI\u2083(THF)\u2093] (Ln = La, Ce, Pr, x = 4; Ln = Nd, Sm, x = 3.5) in diethyl ether (10 mL), a suspension of KP(SiMe\u2083)\u2082 (3 eq.) in diethyl ether (10 mL) was added dropwise",
+        "start_index": 71701,
+        "end_index": 71952
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". The resultant reaction mixture was stirred for 1 hour at \u221278 \u00b0C before being allowed to warm to room temperature over 20 mins. All volatiles were removed in vacuo, the solid was extracted with hexane (30 mL) and filtered. The filtrate was concentrated to ca. 5 mL and stored at \u221230 \u00b0C to yield crystals, which were isolated and dried in vacuo to afford the title compound.",
+        "start_index": 71952,
+        "end_index": 72326
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[La(P(SiMe\u2083)\u2083)(THF)\u2082] (1-La). Prepared according to the general procedure with [LaI\u2083(THF)\u2084] (0.8083 g, 1.00 mmol) and KP(SiMe\u2083)\u2082 (0.6494 g, 3.00 mmol) to give orange crystals of 1-La. Yield = 0.2470 g, 0",
+        "start_index": 72326,
+        "end_index": 72529
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".37 mmol, 37%. Anal calcd (%) for C\u2082\u2086H\u2087\u2080O\u2082P\u2083Si\u2086La: C, 38.31 H, 8.66. Found (%): C, 37.05; H, 8.23. \u00b9H NMR (400 MHz, C\u2086D\u2086, 298 K): \u03b4 0",
+        "start_index": 72529,
+        "end_index": 72662
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".30 (s, 54H, PSi(CH\u2083)\u2083), 1.22 (br m, 8H, THF-CH\u2082), 4.14 (br m, 8H, THF-CH\u2082O). \u00b9\u00b3C{\u00b9H} NMR (101",
+        "start_index": 72662,
+        "end_index": 72756
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "MHz, C$_6$D$_6$, 298 K): \u03b4 7.25 (PSi(CH$_3$)$_3$), 25.13 (THF-CH$_2$), 72.96 (THF-CH$_2$O). $^{29}$Si DEPT90 NMR (79 MHz, C$_6$D$_6$, 298 K): \u03b4 2",
+        "start_index": 72756,
+        "end_index": 72901
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".66, (d, $^1$J$_{SiP} = 22.4$ Hz, SiMe$_3$). $^{31}$P{$^1$H} NMR (162 MHz, C$_6$D$_6$, 298 K): \u03b4 \u2212113.0 (br, FWHM \u2248 1150 Hz, P-La)",
+        "start_index": 72901,
+        "end_index": 73031
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". FTIR (ATR, microcrystalline) $\\bar{\\nu}$/cm$^{-1}$: 2945 (m), 2887 (m), 1441 (w), 1397 (m), 1239 (s), 1013 (s), 815 (s). NIR-UV-Vis (2 mM, toluene) $\\bar{\\nu}$/cm$^{-1}$: no maxima observed.",
+        "start_index": 73031,
+        "end_index": 73223
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$[{\\text{Ce}}]P(SiMe_3)_2j_3(THF)_2] \\ (I-\\text{Ce})$. Prepared according to the general procedure with [CeI$_3$(THF)$_4$] (0.8095 g, 1.00 mmol) and KP(SiMe$_3$)$_2$ (0.6494 g, 3",
+        "start_index": 73223,
+        "end_index": 73401
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".00 mmol) to give yellow/green crystals of $I$-Ce. Yield = 0.3449 g, 0.51 mmol, 51%. Anal calcd (%) for C$_{26}$H$_{70}$O$_2$P$_3$SiCe: C, 38.25; H, 8.64. Found (%): C, 37.52; H, 8.94",
+        "start_index": 73401,
+        "end_index": 73584
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^1$H NMR (400 MHz, C$_6$D$_6$, 298 K): \u03b4 \u22122.17 (s, 54H, PSi(CH$_3$)$_3$), 1.02 (br, 8H, FWHM \u2248 70 Hz, THF-CH$_2$), 8",
+        "start_index": 73584,
+        "end_index": 73703
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".33 (br, 8H, FWHM \u2248 180 Hz, THF-CH$_2$O). $^{13}$C{$^1$H} NMR (101 MHz, C$_6$D$_6$, 298 K): \u03b4 7.93 (PSi(CH$_3$)$_3$), THF resonances not observed",
+        "start_index": 73703,
+        "end_index": 73848
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^{29}$Si DEPT90 NMR (79 MHz, C$_6$D$_6$, 298 K): \u03b4 5.30, (br, SiMe$_3$). $^{31}$P{$^1$H} NMR (162 MHz, C$_6$D$_6$, 298 K): \u03b4 616.7 (br, FWHM \u2248 350 Hz, P-Ce)",
+        "start_index": 73848,
+        "end_index": 74007
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". FTIR (ATR, microcrystalline) $\\bar{\\nu}$/cm$^{-1}$: 2945 (m), 2887 (m), 1442 (w), 1397 (m), 1239 (s), 1015 (s), 819 (s)",
+        "start_index": 74007,
+        "end_index": 74128
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". NIR-UV-Vis (2 mM, toluene) $\\bar{\\nu}$/cm$^{-1}$: 22,000 ($\\epsilon = 750$ M$^{-1}$ cm$^{-1}$), 19,500 ($\\epsilon = 180$ M$^{-1}$ cm$^{-1}$).",
+        "start_index": 74128,
+        "end_index": 74271
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "$[{\\text{Pr}}]P(SiMe_3)_2j_3(THF)_2] \\ (I-\\text{Pr})$. Prepared according to the general procedure with [PrI$_3$(THF)$_4$] (0.8130 g, 1.00 mmol) and KP(SiMe$_3$)$_2$ (0.6494 g, 3",
+        "start_index": 74271,
+        "end_index": 74449
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".00 mmol) to give yellow/green crystals of $I$-Pr. Yield = 0.2671 g, 0.33 mmol, 33%. Anal calcd (%) for C$_{26}$H$_{70}$O$_2$P$_3$SiPr: C, 38.22; H, 8.63. Found (%): C, 36.82; H, 8.62",
+        "start_index": 74449,
+        "end_index": 74632
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^1$H NMR (400 MHz, C$_6$D$_6$, 298 K): \u03b4 \u22126.83 (s, 54H, PSi(CH$_3$)$_3$), 23.50 (br, 8H, FWHM \u2248 450 Hz, THF-CH$_2$), 48",
+        "start_index": 74632,
+        "end_index": 74754
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".12 (br, 8H, FWHM \u2248 960 Hz, THF-CH$_2$O). $^{13}$C{$^1$H} NMR (101 MHz, C$_6$D$_6$, 298 K): \u03b4 11.17 (PSi(CH$_3$)$_3$), THF resonances not observed",
+        "start_index": 74754,
+        "end_index": 74900
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^{29}$Si DEPT90 NMR (79 MHz, C$_6$D$_6$, 298 K): \u03b4 15.65, (br, SiMe$_3$). $^{31}$P{$^1$H} NMR (162 MHz, C$_6$D$_6$, 298 K): \u03b4 1894.2 (br, FWHM \u2248 550 Hz, P-Pr)",
+        "start_index": 74900,
+        "end_index": 75061
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". FTIR (ATR, microcrystalline) $\\bar{\\nu}$/cm$^{-1}$: 2947 (m), 2887 (m), 1446 (w), 1395 (m), 1237 (s), 1013 (s), 813 (s). NIR-UV-Vis (2 mM, toluene) $\\bar{\\nu}$/cm$^{-1}$: no maxima observed.",
+        "start_index": 75061,
+        "end_index": 75253
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[Nd\\{P(\\text{SiMe}_3)\\}_2\\}_3(\\text{THF})_2] \\ (1-Nd).^{35} \\text{Prepared according to the general procedure with [NdI}_3(\\text{THF})_{3.5}] (0.7774 g, 1 mmol) and KP(\\text{SiMe}_3)_2 (0",
+        "start_index": 75253,
+        "end_index": 75440
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".6494 g, 3 mmol) to give large green crystals of 1-Nd. Yield = 0.5085 g, 0.7500 mmol, 75%. Anal calcd (%) for C_{26}H_{70}O_2P_3Si_6Nd: C, 38.06; H, 8.60. Found (%): C, 36.30; H, 8.79",
+        "start_index": 75440,
+        "end_index": 75623
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". \\textsuperscript{1}H NMR (400 MHz, C_6D_6, 298 K): \u03b4 \u20132.24 (s, 54H, PSi(CH_3)_3), 11.75 (br, 8H, FWHM \u2248 130 Hz, THF-CH_2), 23",
+        "start_index": 75623,
+        "end_index": 75750
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".52 (br, 8H, FWHM \u2248 360 Hz, THF-CH_2O). \\textsuperscript{13}C{\\textsuperscript{1}H} NMR (101 MHz, C_6D_6, 298 K): \u03b4 23.94 (PSi(CH_3)_3), THF resonances not observed",
+        "start_index": 75750,
+        "end_index": 75914
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". \\textsuperscript{29}Si DEPT90 NMR (79 MHz, C_6D_6, 298 K): \u03b4 42.94 (s, SiMe_3).",
+        "start_index": 75914,
+        "end_index": 75995
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "\\textsuperscript{31}P{\\textsuperscript{1}H} NMR (162 MHz, C_6D_6, 298 K): \u03b4 2570.1 (br, FWHM \u2248 1100 Hz, P-Nd)",
+        "start_index": 75995,
+        "end_index": 76104
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". FTIR (ATR, microcrystalline) \u0305\u03c5/cm\\(^{-1}\\): 2947 (m), 2887 (m), 1438 (w), 1399 (m), 1237 (s), 1087 (s), 813 (s)",
+        "start_index": 76104,
+        "end_index": 76218
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". NIR-UV-Vis (2 mM, toluene) \u0305\u03c5/cm\\(^{-1}\\): 18,650 (\u03b5 = 50 M\\(^{-1}\\) cm\\(^{-1}\\)), 16,100-17,300 (\u03b5 = 190 M\\(^{-1}\\) cm\\(^{-1}\\)).",
+        "start_index": 76218,
+        "end_index": 76350
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "[Sm\\{P(\\text{SiMe}_3)\\}_2\\}_3(\\text{THF})_2] \\ (1-Sm). \\text{Prepared according to the general procedure with [SmI}_3(\\text{THF})_{3.5}] (0.8200 g, 1 mmol) and KP(\\text{SiMe}_3)_2 (0",
+        "start_index": 76350,
+        "end_index": 76532
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".6494 g, 3 mmol) to give pink/purple crystals of 1-Sm. Yield = 0.2338 g, 0.2780 mmol, 28%. Anal calcd (%) for C_{26}H_{70}O_2P_3Si_6Sm: C, 37.78; H, 8.54. Found (%): C, 36.37; H, 8.50",
+        "start_index": 76532,
+        "end_index": 76715
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". \\textsuperscript{1}H NMR (400 MHz, C_6D_6, 298 K): \u03b4 0.09 (s, 54H, PSi(CH_3)_3), 2.35 (br, 8H, FWHM \u2248 10 Hz, THF-CH_2), 6",
+        "start_index": 76715,
+        "end_index": 76838
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".11 (br, 8H, FWHM \u2248 20 Hz, THF-CH_2O). \\textsuperscript{13}C{\\textsuperscript{1}H} NMR (101 MHz, C_6D_6, 298 K): \u03b4 5.47 (PSi(CH_3)_3), 26.15 (THF-CH_2), 78",
+        "start_index": 76838,
+        "end_index": 76993
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".89 (THF-CH_2O). \\textsuperscript{29}Si DEPT90 NMR (79 MHz, C_6D_6, 298 K): \u03b4 0.52, (s, SiMe_3). \\textsuperscript{31}P{\\textsuperscript{1}H} NMR (162 MHz, C_6D_6, 298 K): \u03b4 \u2013259",
+        "start_index": 76993,
+        "end_index": 77170
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".2 (br, FWHM \u2248 1500 Hz, P-Sm). FTIR (ATR, microcrystalline) \u0305\u03c5/cm\\(^{-1}\\): 2949 (m), 2887 (m), 1448 (w), 1399 (m), 1237 (s), 1013 (s), 816 (s)",
+        "start_index": 77170,
+        "end_index": 77313
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". NIR-UV-Vis (2 mM, toluene) \u0305\u03c5/cm\\(^{-1}\\): 17,800 (\u03b5 = 500 M\\(^{-1}\\) cm\\(^{-1}\\)).",
+        "start_index": 77313,
+        "end_index": 77398
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "**Associated Content**\n\n**Supporting Information**\n\n37\nAdditional experimental details, materials, methods, and data associated with this manuscript are compiled in the Supporting Information.\n\nAdditional Information\n\nResearch data files supporting this publication are available from FigShare at https://figshare.com/doi/10.6084/m9.figshare.26004523.\n\nAccession Codes",
+        "start_index": 77398,
+        "end_index": 77766
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "CCDC 2284755\u20132284759 contain the supplementary crystallographic data for this paper. These data can be obtained free of charge via www.ccdc.cam.ac.uk/data_request/cif, or by emailing data_request@ccdc.cam.ac.uk, or by contacting The Cambridge Crystallographic Data Centre, 12 Union Road, Cambridge, CB2 1EZ, UK; fax: +44 1223 336033.\n\nNotes",
+        "start_index": 77766,
+        "end_index": 78106
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "The authors declare no competing financial interest.\n\nAcknowledgements",
+        "start_index": 78106,
+        "end_index": 78176
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "We thank the European Research Council (CoG-816268 and StG-851504) and the U.K. Engineering and Physical Sciences Research Council (EPSRC) (EP/P001386/1, EP/V007580/1) for funding. We thank the EPSRC UK National Electron Paramagnetic Resonance Service for access to the EPR facility and SQUID magnetometer (EP/S033181/1). K.L",
+        "start_index": 78176,
+        "end_index": 78501
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".B thanks EPSRC for a PhD studentship (EP/T517823/1, project reference 2671814). We thank The University of Manchester for access to the Computational Shared Facility.",
+        "start_index": 78501,
+        "end_index": 78668
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Author Contributions",
+        "start_index": 78668,
+        "end_index": 78688
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "J.B. and D.P.M. conceptualized the original idea. J.B. designed the synthetic conditions and performed the synthesis and standard characterization of all complexes. J.B. solved the crystallographic data for all complexes and G.F.S.W. and I.V-Y. collected and finalized the crystallographic data. G.K.G. collected and interpreted SQUID and EPR data and performed ab initio calculations. T.R.C.T",
+        "start_index": 78688,
+        "end_index": 79081
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". performed ab initio calculations relating to the pNMR chemical shifts. K.L.B. and D.L. collected, interpreted and finalized the solid-state NMR data. D.P.M. supervised the synthetic work, N.F.C. supervised magnetic measurements, EPR spectroscopy and calculations, and D.L. supervised solid-state NMR spectroscopy. J.B. wrote the first draft of the manuscript and supporting information. D.P.M., N.F.C. and D.L",
+        "start_index": 79081,
+        "end_index": 79492
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". revised the article for submission, with input from all co-authors.",
+        "start_index": 79492,
+        "end_index": 79561
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "References\n\n1. The Lanthanides and Actinides, Liddle, S. T.; Mills, D. P.; Natrajan, L. S. Eds. World Scientific Publishing Europe Ltd.: Singapore, 2022.",
+        "start_index": 79561,
+        "end_index": 79714
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "2. Butler, S. J.; Delbianco, M.; Lamarque, L.; McMahon, B. K.; Neil, E. R.; Pal, R.; Parker, D.; Walton, J. W.; Zwier, J. M. EuroTracker\u00ae dyes: design, synthesis, structure and photophysical properties of very bright europium complexes and their use in bioassays and cellular optical imaging. Dalton Trans",
+        "start_index": 79714,
+        "end_index": 80019
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". 2015, 44, 4791\u20134803.",
+        "start_index": 80019,
+        "end_index": 80041
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "3. Delbianco, M.; Sadovnikova, V.; Bourrier, E.; Mathis, G.; Lamarque, L.; Zwier, J. M.; Parker, D. Bright, Highly Water-Soluble Triazacyclononane Europium Complexes To Detect Ligand Binding with Time-Resolved FRET Microscopy. Angew. Chem. Int. Ed. 2014, 53 (40), 10718\u201310722.",
+        "start_index": 80041,
+        "end_index": 80317
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "4. Shuvaev, S.; Starck, M.; Parker, D. Responsive, Water-Soluble Europium(III) Luminescent Probes. Chem. Eur. J. 2017, 23 (42), 9974\u20139989.",
+        "start_index": 80317,
+        "end_index": 80455
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "5. M\u00fcntener, T.; Kottelat, J.; Huber, A.; H\u00e4ussinger, D. New Lanthanide Chelating Tags for PCS NMR Spectroscopy with Reduction Stable, Rigid Linkers for Fast and Irreversible Conjugation to Proteins. Bioconjugate Chem. 2018, 29 (10), 3344\u20133351.",
+        "start_index": 80455,
+        "end_index": 80699
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "6. Nitsche, C.; Otting, G. Pseudocontact shifts in biomolecular NMR using paramagnetic metal tags. *Prog. Nucl. Magn. Reson. Spectrosc.* **2017**, *98\u201399*, 20\u201349.",
+        "start_index": 80699,
+        "end_index": 80861
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "7. Pan, B.-B.; Yang, F.; Ye, Y.; Wu, Q.; Li, C.; Huber, T.; Su, X.-C. 3D structure determination of a protein in living cells using paramagnetic NMR spectroscopy. *Chem. Commun.* **2016**, *52*, 10237\u201310240.",
+        "start_index": 80861,
+        "end_index": 81068
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "8. Suturina, E. A.; Kuprov, I. Pseudocontact shifts from mobile spin labels. *Phys. Chem. Chem. Phys.* **2016**, *18*, 26412\u201326422.",
+        "start_index": 81068,
+        "end_index": 81199
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "9. Lee, M. D.; Dennis, M. L.; Swarbrick, J. D.; Graham, B. Enantiomeric two-armed lanthanide-binding tags for complementary effects in paramagnetic NMR spectroscopy. *Chem. Commun.* **2016**, *52*, 7954\u20137957.",
+        "start_index": 81199,
+        "end_index": 81407
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "10. Ravera, E.; Parigi, G.; Luchinat, C. Perspectives on paramagnetic NMR from a life sciences infrastructure. *J. Magn. Reson.* **2017**, *282*, 154\u2013169.",
+        "start_index": 81407,
+        "end_index": 81561
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "11. Finney, K.-L. N. A.; Harnden, A. C.; Rogers, N. J.; Senanayake, P. K.; Blamire, A. M.; O\u2019Hogain, D.; Parker, D. Simultaneous Triple Imaging with Two PARASHIFT Probes: Encoding Anatomical, pH and Temperature Information using Magnetic Resonance Shift Imaging. *Chem. Eur. J",
+        "start_index": 81561,
+        "end_index": 81837
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* **2017**, *23* (33), 7976\u20137989.",
+        "start_index": 81837,
+        "end_index": 81871
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "12. Senanayake, P. K.; Rogers, N. J.; Finney, K.-L. N. A.; Harvey, P.; Funk, A. M.; Wilson, J. I.; O\u2019Hogain, D.; Maxwell, R.; Parker, D.; Blamire, A. M. A new paramagnetically shifted imaging probe for MRI. *Magn. Reson. Med",
+        "start_index": 81871,
+        "end_index": 82095
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* **2017**, *77* (3), 1307\u20131317.",
+        "start_index": 82095,
+        "end_index": 82128
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "13. Harnden, A. C.; Parker, D.; Rogers, N. J. Employing paramagnetic shift for responsive MRI probes. *Coord. Chem. Rev.* **2019**, *383*, 30\u201342.",
+        "start_index": 82128,
+        "end_index": 82273
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "14. Aspinall, H. C. Chiral Lanthanide Complexes: Coordination Chemistry and Applications. *Chem. Rev.* **2002**, *102* (6), 1807\u20131850.",
+        "start_index": 82273,
+        "end_index": 82407
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "15. Clark, R. L.; Wenzel, B. T.; Wenzel, T. J. Diamagnetic lanthanide tris \u03b2-diketonate complexes with aryl-containing ligands as chiral NMR discriminating agents. *Tetrahedron: Asymmetry* **2013**, *24* (5-6), 297\u2013304.",
+        "start_index": 82407,
+        "end_index": 82626
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "16. Wenzel, T. J.; Patton, W. R. Chapter 10. Advances in the use of lanthanide enolates as nuclear magnetic resonance shift reagents, in *The Chemistry of Metal Enolates, Volume 2*, Zabicky, J. Ed. in *Patai\u2019s Chemistry of Functional Groups*, Rappoport, Z. Ed.; John Wiley & Sons, Ltd., Chichester, 2018; pp",
+        "start_index": 82626,
+        "end_index": 82933
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". 399\u2013420.",
+        "start_index": 82933,
+        "end_index": 82943
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "17. Dietel, A. M.; Tok, O.; Kempe, R. f-Block-Element\u2013f-Block-Element NMR Spin\u2013Spin Coupling. *Eur. J. Inorg. Chem.* **2007**, *4583\u20134586*.",
+        "start_index": 82943,
+        "end_index": 83082
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "18. Dietel, A. M.; D\u00f6ring, C.; Glatz, G.; Butovskii, M. V.; Tok, O.; Schappacher, F. M.; P\u00f6ttgen, R.; Kempe, R. Bimetallic Complexes of Ytterbium and Europium Stabilized by StericallyDemanding Dipyridylamides. *Eur. J. Inorg. Chem",
+        "start_index": 83082,
+        "end_index": 83312
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* **2009**, *1051\u20131059*.",
+        "start_index": 83312,
+        "end_index": 83337
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "19. V\u00edcha, J.; Novotn\u00fd, J.; Komorovsky, S.; Straka, M.; Kaupp, M.; Marek, R. Relativistic Heavy-Neighbor-Atom Effects on NMR Shifts: Concepts and Trends across the Periodic Table. *Chem. Rev.* **2020**, *120* (15), 7065\u20137103.",
+        "start_index": 83337,
+        "end_index": 83562
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "20. Iggo, J. A.; Luzyanin, K. *NMR Spectroscopy in Inorganic Chemistry*, Second Edition; Oxford University Press, Oxford, 2020.",
+        "start_index": 83562,
+        "end_index": 83689
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "21. Parker, D.; Suturina, E. A.; Kuprov, I.; Chilton, N. F. How the Ligand Field in Lanthanide Coordination Complexes Determines Magnetic Susceptibility Anisotropy, Paramagnetic NMR Shift, and Relaxation Behavior. *Acc. Chem. Res.* **2020**, *53* (8), 1520\u20131534.",
+        "start_index": 83689,
+        "end_index": 83951
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "22. Autillo, M.; Guerin, L.; Bolvin, H.; Moisy, P.; Berthon, C. Magnetic susceptibility of actinide(iii) cations: an experimental and theoretical study. *Phys. Chem. Chem. Phys.* **2016**, *18*, 6515\u20136525.",
+        "start_index": 83951,
+        "end_index": 84156
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "23. Pell, A. J.; Pintacuda, G.; Grey, C. P. Paramagnetic NMR in solution and the solid state. *Prog. Nucl. Magn. Reson. Spectrosc.* **2019**, *111*, 1\u2013271.",
+        "start_index": 84156,
+        "end_index": 84311
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "24. Fusaro, L.; Casella, G.; Bagno, A. Direct Detection of $^{17}$O in [Gd(DOTA)]$^-$ by NMR Spectroscopy. \nChem. Eur. J. 2015, 21, 1955\u20131920.",
+        "start_index": 84311,
+        "end_index": 84453
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "25. R\u00e9ant, B. L. L.; Mackintosh, F. J.; Gransbury, G. K.; Mattei, C.-A.; Alnami, B.; Atkinson, B.; Bonham, K. L.; Baldwin, J.; Woolles, A. J.; Vitorica-Yrezabal, I. J.; Lee, D.; Chilton, N. F.; Liddle, S. T.; Mills, D. P",
+        "start_index": 84453,
+        "end_index": 84673
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Tris-Silanide f-Block Complexes: Insights into Paramagnetic Influence on NMR Chemical Shifts. JACSAu, 2024, DOI: 10.1021/jacsau.4c00466.",
+        "start_index": 84673,
+        "end_index": 84811
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "26. Anwander, R. Lanthanide amides, in Organolanthoid Chemistry: Synthesis, Structure, Catalysis, Herrmann W. A. Ed. in Topics in Current Chemistry, Springer-Verlag Berlin Heidelberg, 1996, Vol. 179, pp. 33\u2013112.",
+        "start_index": 84811,
+        "end_index": 85022
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "27. Roesky, P. W. Bulky Amido Ligands in Rare Earth Chemistry \u2014 Syntheses, Structures, and Catalysis. Z. Anorg. Allg. Chem. 2003, 629 (11), 1881\u20131894.",
+        "start_index": 85022,
+        "end_index": 85172
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "28. Goodwin, C. A. P.; Mills, D. P. Silylamides: Towards a Half-Century of Stabilising Remarkable f-Element Chemistry. In Specialist Periodical Reports: Organometallic Chemistry, Fairlamb, I. J. S.; Lynam, J.; Patmore, N. J.; Elliott, P. Eds. RSC Publishing: Cambridge, 2017, Vol. 41, pp",
+        "start_index": 85172,
+        "end_index": 85459
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". 123\u2013156.",
+        "start_index": 85459,
+        "end_index": 85469
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "29. Li, T.; Kaercher S.; Roesky, P. W. Synthesis, structure and reactivity of rare-earth metal complexes containing anionic phosphorus ligands. Chem. Soc. Rev. 2014, 43 (1), 42\u201357.",
+        "start_index": 85469,
+        "end_index": 85649
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "30. Du, J.; Cobb, P. J.; Ding, J.; Mills, D. P.; Liddle, S. T. f-Element heavy pnictogen chemistry. Chem. Sci. 2024, 15, 13\u201345.",
+        "start_index": 85649,
+        "end_index": 85776
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "31. Bradley, D. C.; Ghotra, J. S.; Hart, F. A. Low co-ordination numbers in lanthanide and actinide compounds. Part I. The preparation and characterization of tris[bis(trimethylsilyl)-amido]lanthanides. J. Chem. Soc., Dalton Trans. 1973, 10, 1021\u20131023.",
+        "start_index": 85776,
+        "end_index": 86028
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "32. Fustier, M.; Le Goff, X.-F.; Lutz, M.; Slootweg, J. C.; M\u00e9zailles, N. Scandium Carbene Complexes: Synthesis of Mixed Alkyl, Amido, and Phosphido Derivatives. Organometallics 2015, 34 (1), 63\u201372.",
+        "start_index": 86028,
+        "end_index": 86226
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "33. Westerhausen, M.; Schneiderbauer, S.; Hartmann, M.; Warchhold, M.; N\u00f6th, H. Synthese und Strukturen von Yttrium-tris[trimethylsilyl]phosphid und 1,1\u2032,3,3\u2032-Tetrakis(trimethylsilyl)yttrocene-tri(tert-butyl)silylphosphid. Z. Anorg",
+        "start_index": 86226,
+        "end_index": 86457
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Allg. Chem. 2002, 628 (2), 330\u2013332.",
+        "start_index": 86457,
+        "end_index": 86494
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "34. Rabe, G. W.; Riede, J.; Schier, A. Synthesis and structural characterization of the first lanthanide tris(phosphido) complex: Tm[SiMe\u2083]\u2083(thf)\u2082. J. Chem. Soc., Chem. Commun. 1995, 577\u2013578.",
+        "start_index": 86494,
+        "end_index": 86685
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "35. Rabe, G. W.; Ziller, J. W. Phosphido Complexes of the Lanthanides. Synthesis and X-ray Crystal Structure Determination of a Tris(phosphido) Species of Neodymium: Nd[SiMe\u2083]\u2083(thf)\u2082. Inorg. Chem. 1995, 34 (21), 5378\u20135379.",
+        "start_index": 86685,
+        "end_index": 86907
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "36. Rabe, G. W.; Riede, J.; Schier, A. Structural Diversity in Lanthanide Phosphido Complexes. Formation and X-ray Crystal Structure Determination of an Unusual Dinuclear Phosphido Complex of Divalent Samarium: [(Me\u2083Si)\u2082P]\u2082\u03bc-P(SiMe\u2083)\u2082;Sm(thf)\u2083\u00b7C\u2087H\u2088",
+        "start_index": 86907,
+        "end_index": 87155
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Organometallics 1996, 15 (1), 439\u2013441.",
+        "start_index": 87155,
+        "end_index": 87195
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "37. Baldwin, J.; Brookfield, A.; Whitehead, G. F. S.; Natrajan, L. S.; McInnes, E. J. L.; Oakley, M. S.; Mills, D. P. Isolation and electronic structures of lanthanide(II) bis(trimethylsilyl)phosphide complexes. ChemRxiv 2024, DOI:10.26434/chemrxiv-2024-bl9lf.",
+        "start_index": 87195,
+        "end_index": 87455
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "38. Hall, S. W.; Huffman, J. C.; Miller, M. M.; Avens, L. R.; Burns, C. J.; Arney, D. S. J.; England, A. F.; Sattelberger, A. P",
+        "start_index": 87455,
+        "end_index": 87582
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Synthesis and characterization of bis(pentamethylcyclopentadienyl)uranium(IV) and -thorium(IV) compounds containing the bis(trimethylsilyl)phosphide ligand. Organometallics 1993, 12 (3), 752\u2013758.",
+        "start_index": 87582,
+        "end_index": 87779
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "39. Rookes, T. M.; Wildman, E. P.; Bal\u00e1zs, G.; Gardner, B. M.; Woolves, A. J.; Gregson, M.; Tuna, F.; Scheer, M.; Liddle, S. T",
+        "start_index": 87779,
+        "end_index": 87905
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Actinide\u2013Pnictide (An\u2013Pn) Bonds Spanning Non-Metal, Metalloid, and Metal Combinations (An = U, Th; Pn = P, As, Sb, Bi). Angew. Chem. Int. Ed. 2018, 57, 1332\u20131336.",
+        "start_index": 87905,
+        "end_index": 88069
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "40. Izod, K.; Liddle, S. T.; Clegg, W. A Convenient Route to Lanthanide Triiodide THF Solvates. Crystal Structures of LnI$_3$(THF)$_4$ [Ln = Pr] and LnI$_3$(THF)$_{3.5}$ [Ln = Nd, Gd, Y]. *Inorg. Chem.* **2004**, *43* (1), 214\u2013218",
+        "start_index": 88069,
+        "end_index": 88299
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".",
+        "start_index": 88299,
+        "end_index": 88300
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "41. Hummeltenberg, R.; Uhlig, F. Eine einfache Methode zur Darstellung von Alkalimetall-bis(trimethylsilyl)-phosphiden. *J. Organomet. Chem.* **1993**, *452* (1\u20132), C9\u2013C10.",
+        "start_index": 88300,
+        "end_index": 88472
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "42. Kuveke, R. E. H.; Barwise, L.; van Ingen, Y.; Vashisth, K.; Roberts, N.; Chitnis, S. S.; Dutton, J. L.; Marti, C. D.; Melen, R. L. An International Study Evaluating Elemental Analysis. *ACS Cent. Sci.* **2022**, *8*, 855\u2013863.",
+        "start_index": 88472,
+        "end_index": 88701
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "43. Cruz-Cabeza, A. J.; Bernstein, J. Conformational Polymorphism. *Chem. Rev.* **2014**, *114* (4), 2170\u20132191.",
+        "start_index": 88701,
+        "end_index": 88812
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "44. Addison, A. W.; Rao, T. N.; Reedijk, J.; Van Rijn, J.; Verschoor, G. C",
+        "start_index": 88812,
+        "end_index": 88886
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Synthesis, structure, and spectroscopic properties of copper(II) compounds containing nitrogen\u2013sulphur donor ligands; the crystal and molecular structure of aqua[1,7-bis(N-methylbenzimidazol-2\u2019-yl)-2,6-dithiaheptane]copper(II) perchlorate. *J. Chem. Soc. Dalton Trans.* **1984**, *7*, 1349\u20131356.",
+        "start_index": 88886,
+        "end_index": 89183
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "45. Shannon, R. D. Revised Effective Ionic Radii and Systematic Studies of Interatomic Distances in Halides and Chalcogenides. *Acta Crystallogr. Sect. A* **1976**, *32*, 751\u2013767.",
+        "start_index": 89183,
+        "end_index": 89362
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "46. Herrmann, W. A.; Anwander, R.; Munck, F. C.; Scherer, W.; Dufaud, V.; Huber, N. W.; Artus, G. R. J. Lanthanoiden-Komplexe, IX [1]",
+        "start_index": 89362,
+        "end_index": 89495
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Reaktivit\u00e4tsbestimmender Einflu\u00df der Ligandenkonstitution bei Seltenerdamiden: Herstellung und Struktur sterisch \u00fcberladener Alkoxid-Komplexe. *Z. Naturforsch. B* **1994**, *49* (12), 1789\u20131797.",
+        "start_index": 89495,
+        "end_index": 89691
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "47. Anwander, R.; Runte, O.; Eppinger, J.; Gerstberger, G.; Herdtweck, E.; Spiegler, M. Synthesis and structural characterisation of rare-earth bis(dimethylsilyl)amides and their surface organometallic chemistry on mesoporous MCM-41. *J. Chem. Soc., Dalton Trans.* **1998**, *847*\u2013858.",
+        "start_index": 89691,
+        "end_index": 89976
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "48. Bienfait, A. M.; Sch\u00e4dle, C.; Maichle-M\u00f6ssmer, C.; T\u00f6rnroos, K. W.; Anwander, R. Europium bis(dimethylsilyl)amides including mixed-valent Eu$_3$[N(SiHMe$_2$)$_2$]$_6$[\u03bc-N(SiHMe$_2$)$_2$]$_2$. *Dalton Trans",
+        "start_index": 89976,
+        "end_index": 90185
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".*, 2014, 43, 17324\u201317332.",
+        "start_index": 90185,
+        "end_index": 90211
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "49. Pyykk\u00f6, P. *J. Phys. Chem.* A. Additive covalent radii for single-, double-, and triple-bonded molecules and tetrahedrally bonded crystals: a summary. 2015, 119 (11), 2326\u20132337.",
+        "start_index": 90211,
+        "end_index": 90392
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "50. Rabe, G. W.; Riede, J.; Schier, A",
+        "start_index": 90392,
+        "end_index": 90429
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Synthesis, X-ray Crystal Structure Determination, and NMR Spectroscopic Investigation of Two Homoleptic Four-Coordinate Lanthanide Complexes: Trivalent (tBu$_2$P)$_2$La[\u03bc-PBu$_2$]$_2$Li(thf)] and Divalent Yb[\u03bc-PBu$_2$]$_2$Li(thf)]$_2$. *Inorg. Chem",
+        "start_index": 90429,
+        "end_index": 90679
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* 1996, 35 (1), 40\u201345.",
+        "start_index": 90679,
+        "end_index": 90702
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "51. Rabe, G. W.; Yap, G. P. A.; Rheingold, A. L. Divalent Lanthanide Chemistry: Three Synthetic Routes to Samarium(II) and Ytterbium(II) Bis(phosphido) Species Including the Structural Characterization of Yb[PPh$_2$]$_2$(thf)$_4$ and Sm[PPh$_2$]$_2$(N-MeIm)$_4$",
+        "start_index": 90702,
+        "end_index": 90963
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". *Inorg. Chem.* 1995, 34 (18), 4521\u20134522.",
+        "start_index": 90963,
+        "end_index": 91005
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "52. Rabe, G. W.; Guzei, I. A.; Rheingold, A. L. Synthesis and X-ray Crystal Structure Determination of the First Lanthanide Complexes Containing Primary Phosphide Ligands: Ln[P(H)Mes*]$_2$(thf)$_4$ (Ln = Yb, Eu). *Inorg. Chem.* 1997, 36 (22), 4914\u20134915.",
+        "start_index": 91005,
+        "end_index": 91258
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "53. Nief, F.; Ricard, L. New examples of lanthanide(II) phosphides and arsenides with planar coordination at the heteroatom: Crystal structures of [(Mesityl)$_2$P]$_2$Sm(THF)$_4$ and of [(Mesityl)$_2$As]$_2$ Sm(THF)$_4$. *J. Organomet. Chem",
+        "start_index": 91258,
+        "end_index": 91498
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* 1997, 529 (1\u20132) 357\u2013360.",
+        "start_index": 91498,
+        "end_index": 91525
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "54. Rodriguez, R.; Gau, D.; Kato, T.; Saffon-Merceron, N.; De C\u00f3zar, A.; Coss\u00edo, F. P.; Baceiredo, A. Reversible Binding of Ethylene to Silylene\u2013Phosphine Complexes at Room Temperature. *Angew. Chem. Int. Ed.* 2011, 50 (44), 10414\u201310416.",
+        "start_index": 91525,
+        "end_index": 91762
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "55. Kovacs, H.; Moskau, D. Cryogenic NMR Probes, in *Encyclopedia of Biophysics*, Roberts, G. C. K. Ed. Springer-Verlag Berlin Heidelberg, 2013, pp 392\u2013396.",
+        "start_index": 91762,
+        "end_index": 91918
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "56. Schumann, H.; Fischer, R. Trimethylsilyldiphosphane. *J. Organomet. Chem.* 1975, 88 (2), C13\u2013C14.",
+        "start_index": 91918,
+        "end_index": 92019
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "57. Fluck, E.; B\u00fcrger, H.; Goetze, U. Untersuchungen der kernmagnetisdien Resonanz von Phosphorverbindungen, XVII. $^{31}$P- und $^1$H-Kernresonanzuntersuchungen an Trimethylsilylphosphinen. Isotopeneffekt in der $^{31}$P-Kernresonanzspektroskopie. Z",
+        "start_index": 92019,
+        "end_index": 92269
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Naturforschg. B 1967, 22, 912\u2013915.",
+        "start_index": 92269,
+        "end_index": 92305
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "58. Abragam, A.; Bleaney, B. Electron Paramagnetic Resonance of Transition Ions, Oxford University Press: Oxford, 1970.",
+        "start_index": 92305,
+        "end_index": 92424
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "59. Volkovich, V. A.; Ivanov, A. B.; Yakimov, S. M.; Tsarevskii, D. V.; Golovanova, O. A.; Sukhikh, V. V.; Griffiths, T. R. Electronic absorption spectra of rare earth (III) species in NaCl\u20132CsCl eutectic based melts. AIP Conf. Proc. 2016, 1767, 020023.",
+        "start_index": 92424,
+        "end_index": 92677
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "60. Liu, J.; Reta, D.; Cleghorn, J. A.; Yeoh, Y. X.; Ortu, F.; Goodwin, C. A. P.; Chilton, N. F.; Mills, D. P. Light lanthanide metallocenium cations exhibiting weak equatorial anion interactions. Chem. Eur. J. 2019, 25 (32), 7749\u20137758.",
+        "start_index": 92677,
+        "end_index": 92913
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "61. Stoll, S.; Schweiger, A. EasySpin, a Comprehensive Software Package for Spectral Simulation and Analysis in EPR. J. Magn. Reson. 2006, 178 (1), 42\u201355.\n\n62. Neese, F. Software update: the ORCA program system, version 4.0 (WIREs Comput. Mol. Sci. 2018, 8, e1327.",
+        "start_index": 92913,
+        "end_index": 93177
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "63. Hrob\u00e1rik, P.; Hrob\u00e1rikov\u00e1, V.; Greif, A. H.; Kaupp, M. Giant Spin-Orbit Effects on NMR Shifts in Diamagnetic Actinide Complexes: Guiding the Search of Uranium(VI) Hydride Complexes in the Correct Spectral Range. Angew. Chem. Int. Ed. 2012, 51 (43), 10884\u201310888.",
+        "start_index": 93177,
+        "end_index": 93442
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "64. Seaman, L. A.; Hrob\u00e1rik, P.; Schettini, M. F.; Fortier, S.; Kaupp, M.; Hayton, T. W. A Rare Uranyl(VI)-Alkyl Ate Complex [Li(DME)$_{1",
+        "start_index": 93442,
+        "end_index": 93579
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".5}$]$_2$[UO$_2$(CH$_2$SiMe$_3$)$_3$] and Its Comparison with a Homoleptic Uranium(VI)-Hexaalkyl. Angew. Chem. Int. Ed. 2013, 52 (11), 3259\u20133263.",
+        "start_index": 93579,
+        "end_index": 93724
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "65. Smiles, D. E.; Wu, G.; Hrob\u00e1rik, P.; Hayton, T. W",
+        "start_index": 93724,
+        "end_index": 93777
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". Use of $^{77}$Se and $^{125}$Te NMR Spectroscopy to Probe Covalency of the Actinide-Chalcogen Bonding in [Th(En)[N(SiMe$_3$)$_2$)$_3$] (E = Se, Te; N = 1, 2) and Their Oxo-Uranium(VI) Congeners. J. Am. Chem. Soc",
+        "start_index": 93777,
+        "end_index": 93990
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". 2016, 138 (3), 814\u2013825.",
+        "start_index": 93990,
+        "end_index": 94015
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "66. Smiles, D. E.; Wu, G.; Hrob\u00e1rik, P.; Hayton, T. W. Synthesis, Thermochemistry, Bonding, and $^{13}$C NMR Chemical Shift Analysis of a Phosphorano-Stabilized Carbene of Thorium. *Organometallics* **2017**, 36 (23), 4519\u20134524.",
+        "start_index": 94015,
+        "end_index": 94243
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "67. Wu, W.; Rehe, D.; Hrob\u00e1rik, P.; Kornienko, A. Y.; Emge, T. J.; Brennan, J. G. Molecular Thorium Compounds with Dichalcogenide Ligands: Synthesis, Structure, $^{77}$Se NMR Study, and Thermolysis. *Inorg. Chem.* **2018**, 57, 14821\u201314833.",
+        "start_index": 94243,
+        "end_index": 94483
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "68. Staun, S. L.; Sergentu, D. C.; Wu, G.; Autschbach, J.; Hayton, T. W. Use of $^{15}$N NMR Spectroscopy to Probe Covalency in a Thorium Nitride. *Chem. Sci.* **2019**, 10 (26), 6431\u20136436.",
+        "start_index": 94483,
+        "end_index": 94672
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "69. Mullane, K. C.; Hrob\u00e1rik, P.; Cheisson, T.; Manor, B. C.; Carroll, P. J.; Schelter, E. J. $^{13}$C NMR Shifts as an Indicator of U-C Bond Covalency in Uranium(VI) Acetylide Complexes: An Experimental and Computational Study. *Inorg. Chem.* **2019**, 58 (7), 4152\u20134163.",
+        "start_index": 94672,
+        "end_index": 94944
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "70. Panetti, G. B.; Sergentu, D. -C.; Gau, M. R.; Carroll, P. J.; Autschbach, J.; Walsh, P. J.; Schelter, E. J. Isolation and characterization of a covalent Ce$^{IV}$-Aryl complex with an anomalous $^{13}$C chemical shift. *Nat. Commun.* **2021**, 12, 21766-4.",
+        "start_index": 94944,
+        "end_index": 95204
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "71. Schipper, P. R. T.; Gritsenko, O. V.; Van Gisbergen, S. J. A.; Baerends, E. J. Molecular Calculations of Excitation Energies and (Hyper)Polarizabilities with a Statistical Average of Orbital Model Exchange-Correlation Potentials. *J. Chem. Phys.* **2000**, 112 (3), 1344\u20131352.",
+        "start_index": 95204,
+        "end_index": 95484
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "72. Gritsenko, O. V.; Schipper, P. R. T.; Baerends, E. J. Approximation of the Exchange-Correlation Kohn-Sham Potential with a Statistical Average of Different Orbital Model Potentials. *Chem. Phys. Lett.* **1999**, 302 (3\u20134), 199\u2013207.",
+        "start_index": 95484,
+        "end_index": 95719
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "73. R\u00e9ant, B. L. L.; Berryman, V. E. J.; Basford, A. R.; Nodaraki, L. E.; Wooles, A. J.; Tuna, F.; Kaltsoyannis, N.; Mills, D. P.; Liddle, S. T",
+        "start_index": 95719,
+        "end_index": 95862
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". $^{29}$Si NMR Spectroscopy as a Probe of s- and f-Block Metal(II)-Silanide Bond Covalency. *J. Am. Chem. Soc.* **2021**, 143 (26), 9813\u20139824.",
+        "start_index": 95862,
+        "end_index": 96005
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "74. Du, J.; Seed, J. A.; Berryman, V. E. J.; Kaltsoyannis, N.; Adams, R. W.; Lee, D.; Liddle, S. T. Exceptional uranium(VI)-nitride triple bond covalency from $^{15}$N nuclear magnetic resonance spectroscopy and quantum chemical analysis. *Nat. Commun.* **2021**, *12*, 5649.",
+        "start_index": 96005,
+        "end_index": 96280
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "75. Du, J.; Hurd, J.; Seed, J. A.; Bal\u00e1zs, G.; Scheer, M.; Adams, R. W.; Lee, D.; Liddle, S. T. $^{31}$P Nuclear Magnetic Resonance Spectroscopy as a Probe of Thorium\u2013Phosphorus Bond Covalency: Correlating Phosphorus Chemical Shift to Metal\u2013Phosphorus Bond Order. *J. Am. Chem. Soc",
+        "start_index": 96280,
+        "end_index": 96561
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* **2023**, *145* (40), 21766\u201321784.",
+        "start_index": 96561,
+        "end_index": 96598
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "76. Baker, C. F.; Seed, J. A.; Adams, R. W.; Lee, D.; Liddle, S. T. $^{13}$C$_{\\text{carbene}}$ nuclear magnetic resonance chemical shift analysis confirms Ce$^{IV}=\\text{C}$ double bonding in cerium(IV)\u2013diphosphonioalkylidene complexes. *Chem. Sci",
+        "start_index": 96598,
+        "end_index": 96846
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".* **2024**, *15* (1), 238\u2013249.",
+        "start_index": 96846,
+        "end_index": 96877
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "77. Li Manni, G.; Fdez. Galv\u00e1n, I.; Alavi, A.; Aleotti, F.; Aquilante, F.; Autschbach, J.; Avagliano, D.; Baiardi, A.; Bao, J. J.; Battaglia, S.; Birnoschi, L.; Blanco-Gonz\u00e1lez, A.; Bokarev, S. I.; Broer, R.; Cacciari, R",
+        "start_index": 96877,
+        "end_index": 97097
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Calio, P. B.; Carlson, R. K.; Carvalho Couto, R.; Cerd\u00e1n, L.; Chibotaru, L. F.; Chilton, N. F.; Church, J. R.; Conti, I.; Coriani, S.; Cu\u00e9llar-Zaquin, J.; Daoud, R. E.; Dattani, N.; Decleva, P.; de Graaf, C.; Delcey, M",
+        "start_index": 97097,
+        "end_index": 97318
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". G.; De Vico, L.; Dobrutz, W.; Dong, S. S.; Feng, R.; Ferr\u00e9, N.; Filatov(Gulak), M.; Gagliardi, L.; Garavelli, M.; Gonz\u00e1lez, L.; Guan, Y.; Guo, M.; Hennefarth, M. R.; Hermes, M. R.; Hoyer, C. E.; Huix-Rotllant, M",
+        "start_index": 97318,
+        "end_index": 97531
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Jaiswal, V. K.; Kaiser, A.; Kaliakin, D. S.; Khamesian, M.; King, D. S.; Kochetov, V.; Kro\u015bnicki, M.; Kumaar, A. A.; Larsson, E. D.; Lehtola, S.; Lepetit, M.-B.; Lischka, H.; L\u00f3pez R\u00edos, P.; Lundberg, M.; Ma, D",
+        "start_index": 97531,
+        "end_index": 97744
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Mai, S.; Marquetand, P.; Merritt, I. C. D.; Montorsi, F.; M\u00f6rchen, M.; Menov, A.; Nguyen, V. H. A.; Nishimoto, Y.; Oakley, M. S.; Olivucci, M.; Oppel, M.; Padula, D.; Pandharkar, R.; Phun, Q. M.; Plasser, F.; Raggi, G",
+        "start_index": 97744,
+        "end_index": 97964
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Rebolini, E.; Reihe, M.; Rivalta, I.; Roca-Sanju\u00e1n, D.; Romig, T.; Safari, A. A.; S\u00e1nchez-Mansilla, A.; Sand, A. M.; Schapiro, I.; Scott, T. R.; Segarra-Mart\u00ed, J.; Segatta, F.; Sergentu, D.-C.; Sharma, P.; Shepard, R.; Shu, Y.; Staab, J",
+        "start_index": 97964,
+        "end_index": 98203
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". K.; Straatsma, T. P.; S\u00f8rensen, L. K.; Cabral Tenorio, B. N.; Truhlar, D. G.; Ungur, L.; Vacher, M.; Veryazov, V.; Vo\u00df, T. A.; Weser, O.; Wu, D.; Yang, X.; Yarkony, D.;",
+        "start_index": 98203,
+        "end_index": 98373
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "Zhou, C.; Zobel, J. P.; Lindh, R. The OpenMolcas Web: A Community-Driven Approach to Advancing Computational Chemistry. *J. Chem. Theory Comput.* **2023**, *19*(20), 6933\u20136991.",
+        "start_index": 98373,
+        "end_index": 98549
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "78. Becke, A. D. Density-functional thermochemistry. III. The role of exact exchange. *J. Chem. Phys.* **1993**, *98*, 5648-5652.\n\n79. Sievers, J. Asphericity of 4f-shells in their Hund's rule ground states. *Z. Physik B* **1982**, *45*, 289\u2013296.",
+        "start_index": 98549,
+        "end_index": 98795
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "80. Rinehart, J. D.; Long, J. R. Exploiting Single-Ion Anisotropy in the Design of f-Element Single-Molecule Magnets. *Chem. Sci.* **2011**, *2*(11), 2078\u20132085.",
+        "start_index": 98795,
+        "end_index": 98955
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "81. Bertini, I.; Luchinat, C.; Parigi, G. Magnetic susceptibility in paramagnetic NMR. *Prog. Nucl. Magn. Reson. Spectrosc.* **2002**, *40*(3), 249\u2013273.",
+        "start_index": 98955,
+        "end_index": 99107
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "82. van den Heuvel, W.; Soncini, A. NMR chemical shift as analytical derivative of the Helmholtz free energy. *J. Chem. Phys.* **2013**, *138*, 054113.",
+        "start_index": 99107,
+        "end_index": 99258
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "83. Birnoschi, L.; Chilton, N. F. HYPERION: A New Computational Tool for Relativistic Ab Initio Hyperfine Coupling. *J. Chem. Theory Comput.* **2022**, *18*(8), 4719\u20134732.",
+        "start_index": 99258,
+        "end_index": 99429
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "84. Gorenstein, D. G. Chapter 1 - Phosphorus-31 Chemical Shifts: Principles and Empirical Observations. In Phosphorus-31 NMR Principles and Applications. Gorenstein, D. G. Ed.; Academic Press, 1984; pp 7\u201336.",
+        "start_index": 99429,
+        "end_index": 99636
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "85. Gordon, M. D.; Quin, L. D. Temperature dependence of $^{31}$P NMR chemical shifts of some trivalent phosphorus compounds. *J. Magn. Reson.* **1976**, *22*(1), 149\u2013153.\n\n86. CrysAlis PRO, Agilent Technologies Ltd. Yarnton, England, 2014.",
+        "start_index": 99636,
+        "end_index": 99876
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "87. Sheldrick, G. M. SHELXT - Integrated Space-Group and Crystal-Structure Determination. *Acta Crystallogr., Sect. A* **2015**, *71*, 3\u20138.",
+        "start_index": 99876,
+        "end_index": 100015
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "88. Sheldrick, G. M. Crystal Structure Refinement with SHELXL. *Acta Crystallogr., Sect. C* **2015**, *71*, 3\u20138.",
+        "start_index": 100015,
+        "end_index": 100127
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "89. Dolomanov, O. V.; Bourhis, L. J.; Gildea, R. J.; Howard, J. A. K.; Puschmann, H. OLEX2: A Complete Structure Solution, Refinement and Analysis Program. *J. Appl. Cryst.* **2009**, *42*(2), 339\u2013341.",
+        "start_index": 100127,
+        "end_index": 100328
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "90. Farrugia, L. J. WinGX and ORTEP for Windows: An Update. *J. Appl. Cryst.* **2012**, *45*(4), 849\u2013854.\n\n91. *Persistence of Vision Raytracer*, v.3.7, Persistence of Vision Raytracer Pty. Ltd., 2013.",
+        "start_index": 100328,
+        "end_index": 100529
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "92. Kabova, E. A.; Blundell, C. D.; Muryn, C. A.; Whitehead, G. F. S.; Vitorica-Yrezabal, I. J.; Ross, M. J.; Shankland, K. SDPD-SX: Combining a Single Crystal X-Ray Diffraction Setup with Advanced Powder Data Structure Determination for Use in Early Stage Drug Discovery",
+        "start_index": 100529,
+        "end_index": 100800
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ". *CrystEngComm* **2022**, 24, 4337\u20134340.",
+        "start_index": 100800,
+        "end_index": 100841
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "93. Coelho, A. A. An Indexing Algorithm Independent of Peak Position Extraction for X-Ray Powder Diffraction Patterns. *J. Appl. Cryst.* **2017**, *50*(5), 1323\u20131330.",
+        "start_index": 100841,
+        "end_index": 101007
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "94. Pet\u0159\u00ed\u010dek, V.; Du\u0161ek, M.; Palatinus, L. Crystallographic Computing System JANA2006: General Features. *Z. Kristallogr. - Cryst. Mater.* **2014**, 229(5), 345\u2013352.",
+        "start_index": 101007,
+        "end_index": 101172
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "95. Vold, R. L.; Hoatson, G. L. Effects of jump dynamics on solid state nuclear magnetic resonance line shapes and spin relaxation times. *2009*, *198*(1), 57\u201372.\n\n96. *WSolids1 ver. 1.21.7*, K. Eichele, Universit\u00e4t T\u00fcbingen, 2021.",
+        "start_index": 101172,
+        "end_index": 101403
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "97. Bain, G. A.; Berry, J. F. Diamagnetic Corrections and Pascal\u2019s Constants. *J. Chem. Ed.* **2008**, *85*(4), 532.",
+        "start_index": 101403,
+        "end_index": 101519
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "98. van Lenthe, E.; Baerends, E. J.; Snijders, J. G. Relativistic Total Energy Using Regular Approximations. *J. Chem. Phys.* **1994**, *101*(11), 9783\u20139792.",
+        "start_index": 101519,
+        "end_index": 101676
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "99. Grimme, S.; Antony, J.; Ehrlich, S.; Krieg, H. A consistent and accurate *ab initio* parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu. *J. Chem. Phys.* **2010**, *132*(15), 154104.",
+        "start_index": 101676,
+        "end_index": 101904
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "100. Weigend, F.; Ahlrichs, R. Balanced basis sets of split valence, triple zeta valence and quadruple zeta valence quality for H to Rn: Design and assessment of accuracy. *Phys. Chem. Chem. Phys.* **2005**, *7* (18), 3297\u20133305.",
+        "start_index": 101904,
+        "end_index": 102132
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "101. Pantazis, D. A.; Chen, X.-Y.; Landis, C. R.; Neese, F. All-Electron Scalar Relativistic Basis Sets for Third-Row Transition Metal Atoms. *J. Chem. Theory Comput.* **2008**, *4* (6), 908\u2013919.",
+        "start_index": 102132,
+        "end_index": 102327
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "102. Perdew, J. P. Density-functional approximation for the correlation energy of the inhomogeneous electron gas. *Phys. Rev. B* **1986**, *33* (12), 8822\u20138824.\n\n103. Becke, A. D. Density-functional exchange-energy approximation with correct asymptotic behavior. *Phys. Rev. A* **1988**, *38* (6), 3098\u20133100.",
+        "start_index": 102327,
+        "end_index": 102635
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "104. Becke, A. D. Density-functional thermochemistry. III. The role of exact exchange. *J. Chem. Phys.* **1993**, *98* (7), 5648\u20135652.",
+        "start_index": 102635,
+        "end_index": 102769
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "105. Lee, C.; Yang, W.; Parr, R. G. Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density. *Phys. Rev. B* **1988**, *37* (2), 785\u2013789.",
+        "start_index": 102769,
+        "end_index": 102952
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "106. Miertus, S.; Scrocco, E.; Tomasi, J. Electrostatic interaction of a solute with a continuum. A direct utilization of ab initio molecular potentials for the prevision of solvent effects. *Chem. Phys.* **1981**, *55* (1), 117\u2013129.",
+        "start_index": 102952,
+        "end_index": 103185
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "107. Glendening, E. D.; Landis, C. R.; Weinhold, F. NBO6.0: Natural bond orbital analysis program. *J. Comp Chem.* **2013**, *34* (16), 1429\u20131437.",
+        "start_index": 103185,
+        "end_index": 103331
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "108. Roos, B. O.; Lindh, R.; Malmqvist, P. \u00c5.; Veryazov, V.; Widmark, P. O. Main Group Atoms and Dimers Studied with a New Relativistic ANO Basis Set. *J. Phys. Chem. A* **2004**, *108* (15), 2851\u20132858.",
+        "start_index": 103331,
+        "end_index": 103533
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "109. Roos, B. O.; Lindh, R.; Malmqvist, P.-\u00c5.; Veryazov, V.; Widmark, P.-O.; Borin, A. C. New Relativistic Atomic Natural Orbital Basis Sets for Lanthanide Atoms with Applications to the Ce Diatom and LuF3. *J. Phys. Chem. A* **2008**, *112* (45), 11431\u201311435.",
+        "start_index": 103533,
+        "end_index": 103793
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "110. Chibotaru, L. F.; Ungur, L. Ab Initio Calculation of Anisotropic Magnetic Properties of Complexes. I. Unique Definition of Pseudospin Hamiltonians and Their Derivation. *J. Chem. Phys.* 2012, 137 (6), 064112. https://doi.org/10.1063/1.4739763.",
+        "start_index": 103793,
+        "end_index": 104041
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "111. *Diamond-Crystal and Molecular Structure Visualization;* Crystal Impact v.4.6.8. Putz, H.; Brandenburg, H., Bonn, Germany, 2022.",
+        "start_index": 104041,
+        "end_index": 104174
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "112. Roos, B. O.; Lindh, R.; Malmqvist, P.-\u00c5.; Veryazov, V.; Widmark, P.-O. New Relativistic ANO Basis Sets for Transition Metal Atoms. *J. Phys. Chem. A* 2005, 109 (29), 6575\u20136579.",
+        "start_index": 104174,
+        "end_index": 104355
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "113. Miertu\u0161, S.; Scrocco, E.; Tomasi, J. Electrostatic interaction of a solute with a continuum. A direct utilization of *Ab initio* molecular potentials for the previson of solvent effects. *Chem. Phys.* 1981, 55 (1), 117\u2013129.",
+        "start_index": 104355,
+        "end_index": 104583
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "114. Gaussian 16, Revision C.01, Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.; Robb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Petersson, G. A.; Nakatsuji, H.; Li, X.; Caricato, M.; Marenich, A. V",
+        "start_index": 104583,
+        "end_index": 104806
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Bloino, J.; Janesko, B. G.; Gomperts, R.; Mennucci, B.; Hratchian, H. P.; Ortiz, J. V.; Izmaylov, A. F.; Sonnenberg, J. L.; Williams-Young, D.; Ding, F.; Lipparini, F.; Egidi, F.; Goings, J.; Peng, B.; Petrone, A.; Henderson, T",
+        "start_index": 104806,
+        "end_index": 105036
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Ranasinghe, D.; Zakrzewski, V. G.; Gao, J.; Rega, N.; Zheng, G.; Liang, W.; Hada, M.; Ehara, M.; Toyota, K.; Fukuda, R.; Hasegawa, J.; Ishida, M.; Nakajima, T.; Honda, Y.; Kitao, O.; Nakai, H.; Vreven, T.; Throssell, K",
+        "start_index": 105036,
+        "end_index": 105257
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Montgomery, J. A., Jr.; Peralta, J. E.; Ogliaro, F.; Bearpark, M. J.; Heyd, J. J.; Brothers, E. N.; Kudin, K. N.; Staroverov, V. N.; Keith, T. A.; Kobayashi, R.; Normand, J.; Raghavachari, K.; Rendell, A. P.; Burant, J. C",
+        "start_index": 105257,
+        "end_index": 105481
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": ".; Iyengar, S. S.; Tomasi, J.; Cossi, M.; Millam, J. M.; Klene, M.; Adamo, C.; Cammi, R.; Ochterski, J. W.; Martin, R. L.; Morokuma, K.; Farkas, O.; Foresman, J. B.; Fox, D. J. Gaussian, Inc., Wallingford CT, 2016.",
+        "start_index": 105481,
+        "end_index": 105695
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "115. Perdew, J. P.; Burke, K.; Ernzerhof, M. Generalized Gradient Approximation Made Simple (PBE0). *Phys. Rev. Lett.* 1996, 77, 3865\u20133868.",
+        "start_index": 105695,
+        "end_index": 105834
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "116. Dunning, T. H. J. Gaussian Basis Sets for Use in Correlated Molecular Calculations. I. The Atoms Boron through Neon and Hydrogen. *J. Chem. Phys.* **1989**, *90*, 1007\u20131023.",
+        "start_index": 105834,
+        "end_index": 106012
+    },
+    {
+        "document_name": "102.txt",
+        "chunk_text": "117. Dolg, M.; Stoll, H.; Preuss, H. Energy-Adjusted Ab Initio Pseudopotentials for the Rare Earth Elements. *J. Chem. Phys.* **1989**, *90*(3), 1730\u20131734.",
+        "start_index": 106012,
+        "end_index": 106167
+    }
+]

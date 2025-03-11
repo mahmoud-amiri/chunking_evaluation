@@ -1,0 +1,1166 @@
+[
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Title: Molecular orientation and stratification revealed in RNA-lipid nanoparticles using Cryogenic Orbitrap Secondary Ion Mass Spectrometry (Cryo-OrbiSIMS) depth profiling",
+        "start_index": 0,
+        "end_index": 172
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Anna M Kotowska\u00b9, Michael Fay\u00b2, Julie A Watts\u00b2, Ian Gilmore\u2076, David J. Scurr\u00b9, Alaina Howe\u2076, Vladimir Capka\u2075, Corey Perez\u2075, Devin Doud\u2075, Siddharth Patel\u2075, Mark Umbarger\u2075, Robert Langer\u00b3,\u2074, Morgan R Alexander\u00b9",
+        "start_index": 172,
+        "end_index": 380
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "1. School of Pharmacy, University of Nottingham, Nottingham, UK.\n2. Nanoscale and Microscale Research Centre, University of Nottingham, Nottingham NG7 2QL, UK.\n3. Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA.\n4. Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA.\n5. Sail Biomedicines, Cambridge, MA, USA.",
+        "start_index": 380,
+        "end_index": 789
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "6. National Physical Laboratory, Hampton Rd, Teddington TW11 0LW, UK.",
+        "start_index": 789,
+        "end_index": 858
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Abstract",
+        "start_index": 858,
+        "end_index": 866
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Lipid nanoparticle RNA (LNP-RNA) formulations are used for the delivery of vaccines and other therapies. RNA molecules are encapsulated within their interior through electrostatic interactions with positively charged lipids. The identity of the lipids that present at their surface play a role in how they interact with and are perceived by the body and their resultant potency",
+        "start_index": 866,
+        "end_index": 1243
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Here, we use a model formulation to develop cryogenic sample preparation for molecular depth profiling Orbitrap secondary ion mass spectrometry (Cryo-OrbiSIMS) preceded by morphological characterisation using cryogenic transmission electron microscopy (Cryo-TEM). It is found that the depth distribution of individual lipid components is revealed relative to the surface and the RNA cargo defining the core",
+        "start_index": 1243,
+        "end_index": 1651
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". A preferential lipid orientation can be determined for the 1,2-Dimyristoyl-glycero-3-methoxypolyethylene glycol 2000 (DMG-PEG2k) molecule, by comparing the profiles of PEG to DMG fragments. PEG fragments are found immediately during analysis of the LNP surface, while the DMG fragments are deeper, coincident with RNA ions located in the core, in agreement with established models of LNPs",
+        "start_index": 1651,
+        "end_index": 2041
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This laboratory-based de novo analysis technique requires no labelling, providing advantages over large facility neutron scattering characterisation.",
+        "start_index": 2041,
+        "end_index": 2192
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Graphical abstract\nIntroduction",
+        "start_index": 2192,
+        "end_index": 2223
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Billions of doses of mRNA-loaded lipid nanoparticle (LNP) vaccines represent a spectacular recent example of the utility of therapeutic nanomaterials. The molecules presented on the surface of such LNPs influence how the material interacts with the environment inside the body, including which biomolecules it adsorbs to form the biomolecular corona",
+        "start_index": 2223,
+        "end_index": 2572
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This biointerface is critical in determining nanoparticle trafficking, potency and immunological reaction, yet uncertainties surrounding LNP structural organisation, such as the location of ionisable lipids either in the core or in the exterior shell, remain. Such structural details likely have implications on nanoparticle behaviour, including the critical stage of endosomal escape in transfection, for which efficiencies are estimated to be as low as 2%.",
+        "start_index": 2572,
+        "end_index": 3032
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Synthetic LNPs are commonly composed of four components; an ionizable lipid, a helper lipid, cholesterol and a poly(ethylene glycol)ylated (PEG) lipid. Ionisable lipids interact electrostatically with the negatively charged mRNA facilitating its encapsulation within the LNP. These also enable endosomal escape by appropriate pKa choice",
+        "start_index": 3032,
+        "end_index": 3368
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Helper lipids, such as the phospholipids distearoylphosphatidylcholine (DSPC) and dioleoylphosphatidylethanolamine (DOPE), contribute to the structural integrity and stability of LNPs. Cholesterol is incorporated into LNPs to modulate their fluidity and rigidity, enhancing particle stability and membrane fusion capabilities and also helps maintain the structural integrity of LNPs, allowing for delivery and release of mRNA into target cells",
+        "start_index": 3368,
+        "end_index": 3813
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The inclusion of PEG-lipids on the LNP surface contributes to both formulation stability, and the \u2018stealth\u2019 properties of the nanoparticles, with longer fatty acids allowing them to circulate in the bloodstream longer and increasing the chances of reaching their target cells whilst shorter fatty acids are shed faster enabling the lipid surface to be exposed and absorb the serum proteins.",
+        "start_index": 3813,
+        "end_index": 4205
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The study of the structural, compositional, and functional aspects of LNPs for drug delivery has employed various analytical and imaging techniques. Cryo-EM allows for the observation of the nanoparticle morphology and internal structure, providing insights into the lipid organization, but without information on molecular identity. Small-angle neutron scattering (SANS) combined with deuteration of components at large scale facilities has been used to quantify the lipid distribution at the surface of LNPs using isotopic contrast variation",
+        "start_index": 4205,
+        "end_index": 4748
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Small-angle X-ray scattering (SAXS) using synchrotron sources, has been used to probe bulk phase structures. Dynamic light scattering (DLS) is used to rapidly measure the size distribution and polydispersity index (PDI) of LNPs, offering insights into their",
+        "start_index": 4748,
+        "end_index": 5007
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "homogeneity and stability. NMR spectroscopy provides information on the molecular structure, dynamics, and interactions within LNPs. It can be used to study the composition of the lipid core, the conformation of PEG chains, and the interaction between PEG and other components of LNPs, however the structural analysis of LNPs is limited by NMR sensitivity.",
+        "start_index": 5007,
+        "end_index": 5363
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "To provide a method that can address these uncertainties, here we show that molecular depth profiling of LNPs is possible using cryogenic OrbiTrap secondary ion mass spectrometry (Cryo-OrbiSIMS). We find this laboratory-based direct analysis method can identify the molecular structure of the LNP surface, revealing the relative depths of lipid and RNA components. Furthermore, the orientation of certain molecules can even be discerned where fragments resulting from different portions of the molecule are detected",
+        "start_index": 5363,
+        "end_index": 5878
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This information relies on retention of the native hydrated structure within the vacuum of the Cryo-OrbiSIMS instrument, verified by analysis using cryo-transmission electron microscopy (Cryo-TEM) on the same sample.",
+        "start_index": 5878,
+        "end_index": 6096
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Vacuum-based surface chemical analysis techniques such as X-ray photoelectron spectroscopy (XPS) or time of flight secondary ion mass spectrometry (ToF-SIMS) have the capability to analysis the nanoparticle surface to describe it in elemental or molecular terms respectively. A recent study reported the possibility of evaluating the surface chemistry of lipid nanoparticles using XPS, necessitating cryogenic conditions, including the detection of PEG on the surface",
+        "start_index": 6096,
+        "end_index": 6563
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Extracellular lipid vesicles have also be imaged using ToF-SIMS, however the chemical information obtained from the spectra is not sufficient to identify the different component molecules. While ToF-SIMS depth profiling has previously been employed to characterize the internal structure of giant (10-30 \u00b5m) liposomes, its application toward depth-profiling of lipid particle molecular identification at the nanoscale has not been reported",
+        "start_index": 6563,
+        "end_index": 7004
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The development of OrbiSIMS addresses the limitations of ToF-SIMS in analysing high-mass biomolecules with high mass resolving power, whilst utilising gas clusters as an analysis beam provides improved detection of high molecule weight species and preserves molecular information when depth profiling.",
+        "start_index": 7004,
+        "end_index": 7307
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Results",
+        "start_index": 7307,
+        "end_index": 7314
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "A cryogenic preparation protocol was first developed to examine LNPs in vitreous ice sequentially on different areas of the same sample by Cryo-TEM and then Cryo-OrbiSIMS",
+        "start_index": 7314,
+        "end_index": 7484
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". To test the capability of Cryo-OrbiSIMS depth profiling for the characterisation of the surface and subsurface chemistry of the LNPs, we analysed a model formulation comprising mRNA and 4 lipids; DMG-PEG2k, cholesterol, Dlin-MC3-DMA as the ionisable lipid and DSPC as the helper lipid (Table 1) formed using microfluids",
+        "start_index": 7484,
+        "end_index": 7805
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The nanoparticle suspension in phosphate buffered saline (PBS) was deposited onto a plasma etched 10 nm thick amorphous carbon film with regularly spaced 2.4 \u00b5m diameter holes supported by copper TEM grids. These were blotted to modulate thickness before plunging into liquid ethane, after which they were transferred under liquid nitrogen for Cryo-TEM imaging (-172\u00b0C)",
+        "start_index": 7805,
+        "end_index": 8176
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The particles were found by Cryo-TEM to be relatively monodisperse, with their diameters distributed around a mean of 60-80 nm (Figure 1a) while with DLS they were estimated to be slightly larger with a mean diameter of 91 nm and a PDI of 0.03 (Figure S1).",
+        "start_index": 8176,
+        "end_index": 8434
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Samples were transferred to the OrbiSIMS instrument under liquid nitrogen after TEM imaging for molecular depth profiling under cryogenic conditions (-170\u00b0C). An Ar$_{3000}^+$ gas cluster source was used both as a primary ion analysis and depth profiling beam. Data was acquired from an ensemble of particles simultaneously over a 400 \u00b5m x 400 \u00b5m area",
+        "start_index": 8434,
+        "end_index": 8785
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Since the lateral resolution of the analysis beam is not sufficient to resolve individual LNPs, this approach aimed to maximise the secondary ion count from the LNPs available from such a limited amount of material. Secondary ions diagnostic of lipids were observed in the first spectrum acquired from each sample, consistent with the view of frozen particles supported by the 10 nm thick amorphous carbon support film, rather than particles embedded in ice (Figure S1)",
+        "start_index": 8785,
+        "end_index": 9256
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Water clusters from the aqueous suspension are not seen in the OrbiSIMS spectra, a phenomenon common across all frozen hydrated analysis, rationalised as the instability of the water clusters prior to Orbitrap analysis",
+        "start_index": 9256,
+        "end_index": 9476
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". A ToF-SIMS analysis from the surface of the sample before etching (Figure S1d) shows water clusters, confirming the hydration of the LNPs, consistent with the model of frozen hydrated LNPs sitting on the carbon support, rather than the embedded alternative shown in Figure S1c",
+        "start_index": 9476,
+        "end_index": 9754
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Secondary ion assignments were guided by the individual component reference spectra (Figure S2), although in the case of this LNP formulation, all observed fragments were unique to one component and definitively linked to the lipid molecular structures.",
+        "start_index": 9754,
+        "end_index": 10009
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Cryo-OrbiSIMS molecular profiles: DMG-PEG**",
+        "start_index": 10009,
+        "end_index": 10054
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Since the exterior orientation of the PEG group is well established in the literature for LNPs containing DMG-PEG2k, we first examine the secondary ions from this molecule. Both DMG fragments and sodiated PEG2k fragment ions defined in the standards (Figure S2) were detected in the SIMS spectra and are plotted as a function of etch time and estimated depth in Figure 1b (2 further replicates are presented in Figure S4)",
+        "start_index": 10054,
+        "end_index": 10475
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The PEG ion fragments in the LNPs are all sodiated and of the form Na[O-CH\u2082-CH\u2082]\u2082\u207a, Na[O-CH\u2082-CH\u2082]\u2082-O-CH\u2082\u207a or NaCH\u2082[O-CH\u2082-CH\u2082]\u2082-O-CH\u2082-CH\u2082\u207a",
+        "start_index": 10475,
+        "end_index": 10614
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The DMG anchor is detected as the whole molecular fragment: C\u2083\u2081H\u2085\u2089O\u2084\u207a, and by ions representing its FA14:0 moiety: C\u2081\u2084H\u2082\u2087O\u2082\u207a, C\u2081\u2084H\u2082\u2087O\u2082Na\u207a. A complete list is provided in Table S1.",
+        "start_index": 10614,
+        "end_index": 10795
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "There was a high intensity of PEG signal at the beginning of the analysis which decreased with etching, consistent with the expectation that the PEG portion of the molecule orients outwards for the LNPs. Notably the PEG profile, which is constructed from sodiated PEG ions, does not correlate with the chloride profile derived from the Na\u2082Cl\u207a ion (Figure 1b)",
+        "start_index": 10795,
+        "end_index": 11153
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This suggests that the sodiated-PEG adduct ions are reflective of an ionic association in the hydrated sample which is an established phenomenon for PEG, and that the intensity of these ions is reflective of the amount of PEG in the sample, rather than the Na\u2082Cl\u207a distribution. Cationization of PEG through doping prior to SIMS analysis has previously been used to increase the secondary ion yield of oligomers",
+        "start_index": 11153,
+        "end_index": 11565
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". However, in our experiments the sodium from the PBS particle suspension has enhanced the yield of the PEG from the frozen sample and represents the actual hydrated sample chemistry rather than an artefact of preparation. Notably the PEG in the DMG-PEG2k component spectra in Figure S2 is also dominated by sodiated secondary ion adducts.",
+        "start_index": 11565,
+        "end_index": 11904
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "There is near zero intensity of the DMG molecules in the first spectrum acquired, represented in the first data point of the profile indicating that the fatty acid hydrocarbon chains are not present at the outermost surface, fitting the standard description that they are oriented inwards. The PEG and FA14:0 profiles cross at approximately the middle of each ion intensity range at 4 - 7 nm depth. This measurement can provide an estimate of the thickness of the PEG2k shell",
+        "start_index": 11904,
+        "end_index": 12379
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The value is similar to the SANS estimate of a 4 nm thick surface layer of PEG2k assumed to be in a mushroom conformation for similar PEG2k containing particles",
+        "start_index": 12379,
+        "end_index": 12541
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". A direct comparative analysis of SANS on the same particles would be needed to make a more accurate comparison, but for the purpose of this method development study, the similarity of the value acquired from Cryo-OrbiSIMS depth profiling to that from SANS value reported in previous studies provides a degree of cautious confidence in the secondary ion profile estimated depth values.",
+        "start_index": 12541,
+        "end_index": 12927
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The adenine profile is presented to reveal the location of the mRNA molecules in Figure 1b. Guanine and cytosine are also seen to follow similar profiles as adenine (Figure S3), although uracil was not detected, most likely due to significantly lower secondary ion formation probability. The adenine ion intensity had near zero intensity at the surface, which increased at a constant rate until ca 8 nm depth when it plateaued",
+        "start_index": 12927,
+        "end_index": 13353
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". We interpret the depth at which the adenine signal plateaus to represent the depth at which the core of the particles has been reached. The observation of adenine intensity before 8 nm is reached, rather than a sharp step up from zero to the value in the core, is interpreted as reflecting a range of PEG overlayer coverage, with the thinner coverage being ablated by sputtering more quickly, whilst thicker areas take longer to sputter through to reach the adenine",
+        "start_index": 13353,
+        "end_index": 13820
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This results in the RNA intensity from the core increasing gradually over a range of depths. The DMG ions were equally seen to be revealed gradually, rather than as a step change, consistent with the PEG profile. Since this is an ensemble measurement, this range in PEG coverage may either be within individual particles, or it may represent different particles with different PEG thickness. It is not possible using this approach to determine which of these scenarios is occurring",
+        "start_index": 13820,
+        "end_index": 14303
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The molecular orientation findings are summarised in a simplified schematic of the molecular structure for DMG-PEG2k in Figure 1c to illustrate the interpretation of the data, but this does not depict the PEG thickness variation inferred from the profile breadth.",
+        "start_index": 14303,
+        "end_index": 14568
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Figure 1** Comparison of the morphology (Cryo-TEM) and chemical composition (Cryo-OrbiSIMS). a) TEM of the LNP formulation with histograms of particle size. b) Cryo-OrbiSIMS depth profiles with cross sectional schematics of LNP component distribution. The intensity has been normalised to total ion count and the summed FA14:0 ions are presented on secondary intensity scale (indicated by arrow) for the depth profile clarity",
+        "start_index": 14568,
+        "end_index": 14995
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The secondary x axis presents depth estimated from comparison with organic standards. Further replicates are included in Figure S4. c) Simplified schematic of DMG-PEG2k to show the relative molecular orientations.",
+        "start_index": 14995,
+        "end_index": 15210
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Ionisable lipid, helper lipid and Cholesterol**",
+        "start_index": 15210,
+        "end_index": 15259
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "In Figure 2, we present profiles for the DSPC, Dlin-MC3-DMA and Cholesterol lipid components. All DSPC fragments were seen to monotonically increase from the analysis of",
+        "start_index": 15259,
+        "end_index": 15428
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "the outermost surface as profiling was undertaken, although not from zero intensity (Figure 2a). Adenine representing the RNA core also increased but begins at zero, suggesting that DSPC is present in the shell as well as the core. There is no clear orientation indicated by comparing the headgroup and fatty acid fragments which have similar profiles.",
+        "start_index": 15428,
+        "end_index": 15780
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The profile of the ionisable lipid Dlin-MC3-DMA (Figure 2b) indicated that it was strongly represented at depths less than 3 nm where PEG is also present (< 8 nm), thereafter decreasing in intensity and recovering at depths greater than 6 nm. This may represent a propensity for surface segregation, or an association of Dlin-MC3-DMA with the PEG at the exterior, similar to the sodium and chloride ions from the PBS.",
+        "start_index": 15780,
+        "end_index": 16197
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Examining the cholesterol ion profiles showed that the positively charged molecular ion after the loss of its hydroxyl group \\([\\text{M-OH}]^+\\) was seen to be most intense at the outer surface and decreased within the first 3 nm before reaching a relatively constant value in the interior of the particles (Figure 2c)",
+        "start_index": 16197,
+        "end_index": 16515
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". This is consistent with cholesterol molecules sitting at the lipid surface with their hydroxyl groups oriented into the hydrophilic region occupied by the PEG, and would be consistent with there being areas with only a thin PEG coverage that allow this \\([\\text{M-OH}]^+\\) ion to be present in the earliest analyses.",
+        "start_index": 16515,
+        "end_index": 16833
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The intact sodiated molecular ion \\([\\text{M+Na}]^+\\) appears to follow a profile which would be expected from an ion generated from the sum of the profiles containing sodium chloride (\\(\\text{Na}_2\\text{Cl}^+\\)) and cholesterol \\([\\text{M-OH}]^+\\), at a low intensity at the outermost surface and increases to a plateau at approximately the same depth of 3 nm",
+        "start_index": 16833,
+        "end_index": 17193
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Therefore, we interpret this as an analytical artefact rather than indicating the distribution of a molecular component in the LNP formulation. The cholesterol-Na adduct secondary ion may have formed at the surface during the collision cascade generating secondary ions from both of these species. This is in contrast to the PEG sodium adducts that we did not consider artefactual since their profile that could result from a combination of the profiles of the separate components (the sodium and the PEG).",
+        "start_index": 17193,
+        "end_index": 17701
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "We note that previous work on pure cholesterol samples prepared without water and without the complicating presence of salts, showed depth profile data of the molecular ion after losing the hydroxyl group \\([\\text{M-OH}]^+\\) at the outermost surface and the molecular ion \\([\\text{M-H}]^+\\) below it, consistent with an inward molecular orientation of the hydroxyl group",
+        "start_index": 17701,
+        "end_index": 18071
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ".\\(^{27}\\) In this LNP system, we do not see an intense \\([\\text{M-H}]^+\\) ion, most likely due to adduct formation from sodium present in the PBS. While these two systems are very different and cannot be compared directly, the observation of the different cholesterol fragments suggests molecular",
+        "start_index": 18071,
+        "end_index": 18368
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "orientation in a model pure crystalline system. This is consistent with our observation of molecular orientation of the larger PMG-PEG2k using GCIB etching in this LNP system, suggesting that the orientation of small molecules such as cholesterol may be detectable in some systems.",
+        "start_index": 18368,
+        "end_index": 18649
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Figure 2 OrbiSIMS depth profiles of different component fragment ions in Formulation 1. a) DSPC, b) Dlin-MC3-DMA and c) Cholesterol",
+        "start_index": 18649,
+        "end_index": 18780
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The intensity has been normalised to total ion count and the ions: C$_5$H$_6$N$_5^+$, C$_6$H$_{12}$NO$_2^+$, C$_{37}$H$_{67}^+$ and C$_{27}$H$_{45}^+$ are presented on secondary intensity scale (indicated by arrows) for clarity due to the difference in overall peak intensities.",
+        "start_index": 18780,
+        "end_index": 19060
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Discussion\n\nRNA-Lipid Nanoparticles",
+        "start_index": 19060,
+        "end_index": 19095
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "A state of the art in LNP structural determination method is small angle neutron scattering (SANS) with contrast-variation to give information on the 3D compositional distribution of different lipids and RNA. Small angle X-ray scattering (SAXS) is used to probe the internal phase of LNPs and the interactions between RNA and ionisable lipids in the LNP core. NMR is also used to provide structural insights",
+        "start_index": 19095,
+        "end_index": 19502
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The Cryo-OrbiSIMS depth profiling capability presented here is complementary to these techniques. It is a de novo approach that does not require a preconceived model, knowledge of the identity of the lipids or deuterium labelling of components. These attributes would be particularly useful in the analysis of organic nanoparticles comprising more complex component mixtures derived from natural products. This also makes it amenable to the analysis of real-world over model formulations requiring labelling",
+        "start_index": 19502,
+        "end_index": 20011
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The analysis throughput can be of the order of 20 depth profiles per hour, making this compatible with high throughput LNP formulation structure-activity investigations and discovery campaigns.",
+        "start_index": 20011,
+        "end_index": 20206
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Recent advancements in artificial intelligence (AI) that connect lipid chemistry to in vivo performance in high throughput LNP discovery campaigns can be enhanced by incorporating insights on surface structure and composition. These advances in analytics and AI have the potential to facilitate LNP prediction based on formulation composition, which can subsequently inform in vivo efficacy and clinical effectiveness.",
+        "start_index": 20206,
+        "end_index": 20624
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Gaining insight into the relative positions of each component within lipid nanoparticles (LNPs) is essential. Such knowledge can help clarify the intricate behaviour of LNPs and contribute to the design of more efficient and safer formulations. Furthermore, it can play a vital role in quality control during the scale-up of manufacturing processes, thereby enhancing the translation of LNPs from the laboratory to clinical applications",
+        "start_index": 20624,
+        "end_index": 21060
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Examining the Dlin-MC3-DMA profile suggests that it is located at the surface, with molecular and fragment ions exhibiting a drop in signal intensity from the surface (Figure 2b). This is mirrored by fragments from all parts of the molecule, headgroup and fatty acid tails. Towards the core, these same ion intensities begin to increase, suggesting that it is also at an elevated amount in the core of the particle",
+        "start_index": 21060,
+        "end_index": 21476
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Notably, the depth in the profile where the intensity decreases is at",
+        "start_index": 21476,
+        "end_index": 21547
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "the same position that the fatty acid intensities increase in the DMG PEG molecule, suggesting the presence of a potential hydrophobic barrier layer that could be envisaged as separating molecules like the ionisable lipid from the particle core. Molecules will partition based on their molecular properties, such as charge state and hydrophilicities, as exhibited at the pH of particle formulation in the formation of this hydrophobic barrier layer",
+        "start_index": 21547,
+        "end_index": 21995
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". As the molecular assembly of LNPs contributes to the determination of LNP structure and thereby function, further experimentation systematically varying the pH of formulation could enable the assessment of this hydrophobic barrier and its impact on molecular distribution.",
+        "start_index": 21995,
+        "end_index": 22269
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Development of Cryo-OrbiSIMS method**",
+        "start_index": 22269,
+        "end_index": 22308
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The biointerface at the surface of LNPs, comprising the surface lipids identified here and bioadsorbate molecules from the biological milieu in service, is thin and can therefore be regarded as an ideal opportunity for calibration of SIMS for quantification since the matrix effect may be controllable. It has been has shown that in model organic systems the matrix effect is insignificant for thickness < 5 nm",
+        "start_index": 22308,
+        "end_index": 22718
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ".\\(^{25}\\) Furthermore, undertaking the analysis in frozen hydrated state is analogous to implantation of oxygen in semiconductors where SIMS is routinely used to quantify dopants, by implanting oxygen to \u2018normalise\u2019 the matrix, providing opportunity for quantification in future.\\(^{26}\\) Importantly, the presence of frozen hydrated water also increases the sensitivity to many species compared to dehydrated samples by up to \\(\\times 10,000\\)",
+        "start_index": 22718,
+        "end_index": 23163
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ".\\(^{35}\\) Using standard mixtures to map the relationship between Orbitrap counts, secondary ion yield (counts/nm\\(^3\\))\\(^{36,37}\\) and molar molecular concentrations, may allow biointerface molecular quantification, so long as sufficiently large sets of calibration data can be generated and appropriately analysed to produce useful sensitivity factors and to monitor for matrix effects",
+        "start_index": 23163,
+        "end_index": 23552
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Control of salts and characterisation of their effects in such calibration datasets will be important since they are unavoidable for real-world samples in vitro and in vivo.",
+        "start_index": 23552,
+        "end_index": 23727
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Depth profiles of organic delta layer standards show that the depth accuracy and resolution is dependent on the secondary ions used as well as the primary ions and their energy.\\(^{38}\\) Without standard samples comprising molecules from the LNPs, it is difficult to differentiate broadening due to sputter effects from actual concentration gradients representing component intermixing or heterogeneous particle chemistries",
+        "start_index": 23727,
+        "end_index": 24150
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Therefore, the depth resolution expected on these spherical, real-world frozen hydrated LNP samples is difficult to estimate, although sputter profiling of nano particulate geometries has been studied for well-defined gold and silica particles where the degradation of the depth content was quantified, this is likely not to transfer directly to the organic self-assembled particles considered here.\\(^{39}\\) We have therefore been cautious in our quantitative interpretation of the LNP depth profiles.",
+        "start_index": 24150,
+        "end_index": 24654
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "While standards for depth profile resolution estimation for LNP components are not readily available, supported lipid bi-layers could be envisaged which would have the advantage of being flat, or multi-component micelles, which would well represent the particulate geometry and approximate dimensions. This would allow the variability in PEG overlayer thickness inferred from the broadness of profiles seen herein to be ascribed to actual or experimental depth resolution limits",
+        "start_index": 24654,
+        "end_index": 25132
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The new analytical insights this novel method can achieve can be paired with endosomal mimics to examine the influence on LNP components in endosomal escape, offering a powerful framework for to improve therapeutic formulations.",
+        "start_index": 25132,
+        "end_index": 25362
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**In summary,** we find that Cryo-OrbiSIMS depth profiling offers a valuable methodology for label free characterisation of the native LNP surface molecular structure and stratification in the frozen hydrated state. In addition to this high-fidelity insight into the surface molecular stratification of the individual components, the orientation of the PEG-lipid can be identified, consistent with models form neutron scattering and well-established models of similar LNPs",
+        "start_index": 25362,
+        "end_index": 25834
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". It is anticipated that this approach will find application in the rapidly developing RNA-LNP therapeutics space, as well as have utility more broadly in the organic biomaterials space where capturing native hydrated surface chemistry and characterising its molecular constituents and their orientation is critical for engineering their performance.",
+        "start_index": 25834,
+        "end_index": 26184
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Methods",
+        "start_index": 26184,
+        "end_index": 26191
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "LNP Preparation",
+        "start_index": 26191,
+        "end_index": 26206
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "LNPs were formulated via microfluidic mixing using a Precision Nanosystems NanoAssembler Ignite instrument with a formulation were composed of Dlin-MC3-DMA/DSPC/DMG-PEG2k/Cholesterol at a molar ratio of (50/10/1.5/38.5) with an N:P ratio of 6. Lipids were solubilized in ethanol",
+        "start_index": 26206,
+        "end_index": 26484
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The RNA cargo was comprised of a 1:1 molar ratio of mRNA reporter cargo and formulated in a 50mM citrate buffer at pH 3.0. After mixing, nanoparticles were transferred to Slide-A-lyzer G2 dialysis cassettes (10k MWCO) and dialyzed into PBS in at least 200x excess buffer for two hours at room temperature followed by overnight dialysis with gentle stirring in refreshed buffer at 4\u00b0C",
+        "start_index": 26484,
+        "end_index": 26869
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". LNP size and polydispersity were determined using a Zetasizer Ultra Malvern Panalytical instrument and are presented in Figure 1a. LNP encapsulation efficiencies were evaluated using the Invitrogen\u2122 Quant-it\u2122 RiboGreen Reagent and RNA Assay Kit (Thermo Fisher).",
+        "start_index": 26869,
+        "end_index": 27132
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Cryo-TEM",
+        "start_index": 27132,
+        "end_index": 27140
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Quantifoil R2/1 Cu 300 TEM grids (Agar Scientific Ltd, Essex UK) were glow discharged prior to use to render them hydrophilic. LNP suspensions were automatically blotted with contact between the TEM grid surface and filter paper was pre-set to 3 or 6 s. They were then frozen in vitrified ice on these grids in liquid ethane using a Leica EM GP2 automatic plunge freezer and maintained under liquid nitrogen until required for analysis",
+        "start_index": 27140,
+        "end_index": 27575
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". A blotting time of 6s yielded satisfactory results for samples the 4mg/mL concentration samples presented in this paper.",
+        "start_index": 27575,
+        "end_index": 27697
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Samples were maintained at cryogenic temperatures during transfer and analysis using an Elsa\u2122 cryo-transfer holder and temperature controller (Gatan). Imaging was performed on a JEOL 2100F FEG-TEM operating at 200kV and recorded on a K3 direct electron detection camera (Gatan), nominal defocus was applied and an objective aperture inserted to improve image quality. A sample temperature of \u2013172\u00b0C (\u00b10.5\u00b0C) was maintained during imaging",
+        "start_index": 27697,
+        "end_index": 28134
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Images in this document were binned and converted to JPEG format to improve clarity, raw data is available online.",
+        "start_index": 28134,
+        "end_index": 28250
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Cryo-OrbiSIMS Analysis\nThe samples post Cryo-TEM were retained in frozen hydrated state and transferred into the Leica VCM bath filled with liquid nitrogen. The samples were fixed to the Leica cryogenic block and introduced into the airlock on the cryo-sample holder via the Leica vacuum\ntransfer system. The analysis was carried out at \u2212170\u00b0C using a closed-loop liquid nitrogen pumping system (IONTOF GmbH).",
+        "start_index": 28250,
+        "end_index": 28659
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "For the acquisition of the OrbiSIMS depth profiles, a 20 keV Ar\\textsubscript{3000}\\textsuperscript{+} analysis beam of 20 \u00b5m diameter, was used as primary ion beam. The distribution is shown in Figure S5. OrbiSIMS profiles were acquired from 3 replicates from the same LNP batch",
+        "start_index": 28659,
+        "end_index": 28938
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Ar\\textsubscript{3000}\\textsuperscript{+} with duty cycle set to 4.2% and GCIB current was 220 pA. The Q-Exactive depth profile was run on the area of 400 \u00b5m \u00d7 400 \u00b5m using random raster mode with crater size 498 \u00d7 498 \u00b5m. The cycle time was set to 400 \u00b5s",
+        "start_index": 28938,
+        "end_index": 29195
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Optimal target potential was set to -57 V in negative polarity and +57 V in positive polarity. Argon gas flooding was in operation in order to aid charge compensation, pressure in the main chamber was maintained at 9.0 \u00d7 10\\textsuperscript{-7} mbar. The spectra were collected in positive polarity, in mass range \\textit{m/z} 75\u22121125",
+        "start_index": 29195,
+        "end_index": 29530
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The injection time was set to 500 ms and each area analysed lasted 1000 scans, the total ion dose per measurement was 2.62 \u00d7 10\\textsuperscript{14} ions/cm\\textsuperscript{2}",
+        "start_index": 29530,
+        "end_index": 29706
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The static limit of primary ion dose, commonly used for primary beams which result in the build-up of sample damage (10\\textsuperscript{12} ions/cm\\textsuperscript{2}) is reached at the third scan. Mass-resolving power was set to 240,000 at \\textit{m/z} 200",
+        "start_index": 29706,
+        "end_index": 29965
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Etching removes the particle strata which are sampled sequentially as primary ion bombardment proceeds, with the exception of shadowing and preferential sputter yields discussed in the Yang et al. 39",
+        "start_index": 29965,
+        "end_index": 30166
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Calibration of the Orbitrap analyser was performed on the silver sample, using silver clusters following the method described by Passarelli \\textit{et al.} using the Bi\\textsubscript{1}\\textsuperscript{+} liquid metal ion gun as a primary ion beam. 40",
+        "start_index": 30166,
+        "end_index": 30417
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "We have used information from a published depth profiling organic molecular standard (Irganox) to estimate the depth from the primary ion dose, which is displayed as a secondary x axis (red) in Figure 1b",
+        "start_index": 30417,
+        "end_index": 30620
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". 41 The sputter yield from 20keV Ar\\textsubscript{3000}\\textsuperscript{+} on Irganox was corrected for the reduced temperature (\u2212170\u00b0C) used in this work compared to the literature values 42 using the calculations developed by Seah \\textit{et al.}",
+        "start_index": 30620,
+        "end_index": 30869
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Each depth profile was acquired from the full thickness of the sample. An initial nanoparticle components region was first seen, followed by a complex mixture of inorganic ions (not shown) interpreted to be from the surface of the carbon support substrate were found, appearing in the profile below the particles before the substrate was reached. We do not interpret the relative positions of these ions, instead focussing on the organics which represent the lipids.",
+        "start_index": 30869,
+        "end_index": 31335
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "While depth profiling is commonly used in SIMS for the analysis of layered systems, it is limited to assessing depth distributions below half of the particle diameter due to the cumulative development of topography in the etching process. Therefore the data in this paper that is interpreted is limited to a primary ion dose of $3 \\times 10^{13}$ ions/cm$^2$.",
+        "start_index": 31335,
+        "end_index": 31694
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Time of flight secondary ion mass spectrometry (ToF SIMS)**",
+        "start_index": 31694,
+        "end_index": 31755
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "For the acquisition of liquid metal ion gun (LMIG) ToF-SIMS spectra of the lipid nanoparticle formulation, a 30 keV Bi$_3^+$ primary beam was used. LMIG current was 0.03 pA. The acquisition was run on the area of 500 \u00b5m \u00d7 500 \u00b5m using random raster mode. Optimal target potential was set to +58 V. The total ion dose per measurement was $7",
+        "start_index": 31755,
+        "end_index": 32094
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ".36 \\times 10^9$. The analysis was carried out at \u2212170\u00b0C using a closed-loop liquid nitrogen pumping system (IONTOF GmbH).",
+        "start_index": 32094,
+        "end_index": 32216
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 32216,
+        "end_index": 32232
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "The OrbiSIMS facility was funded by the EPSRC Strategic Equipment Grant \u20183D OrbiSIMS: Label free chemical imaging of materials, cells and tissues\u2019 EP/P029868/1. The CryoTEM holder and detector were funded by the EPSRC Research Grant \u2018A New Correlative Approach for Structure Determination & Imaging of Molecular Materials\u2019 EP/W006413/1. Reece Franklin of University of Nottingham assisted with cryogenic sample preparation of replicate analyses",
+        "start_index": 32232,
+        "end_index": 32676
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". Kerry Benenato of Sail Biomedicines read and commented on the manuscript during its drafting.",
+        "start_index": 32676,
+        "end_index": 32771
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Data Availability",
+        "start_index": 32771,
+        "end_index": 32788
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Data include in this manuscript are available at https://rdmc.nottingham.ac.uk/\n|                  |                                                                 |\n|------------------|-----------------------------------------------------------------|\n| **Cholesterol**  | ![Cholesterol Structure](https://example.com/structure.png)    |\n| **Dlin-MC3-DMA** | ![Dlin-MC3-DMA Structure](https://example.com/structure.png)   |",
+        "start_index": 32788,
+        "end_index": 33213
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| **DSPC**        | ![DSPC Structure](https://example.com/structure.png)          |\n| **DMG-PEG2K**   | ![DMG-PEG2K Structure](https://example.com/structure.png)      |",
+        "start_index": 33213,
+        "end_index": 33381
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Table 1 Individual component structures.\n**Supplementary Figures**\n\n|    | Size (nm) | PDI  | %EE  |\n|----|----------|------|------|\n| LNP Formulation | 91.1 | 0.03 | 92.5 |",
+        "start_index": 33381,
+        "end_index": 33554
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Figure S1** Characterization of LNPs. a) z-average size (nm), PDI, and encapsulation efficiency (%EE) as described in the experimental methods. b) DLS size distribution curves. c) Frozen nanoparticle schematic for the Cryo-OrbiSIMS analysis. d) LMIG ToF spectra of the LNP formulation acquired in cryogenic conditions",
+        "start_index": 33554,
+        "end_index": 33873
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": ". The repetitive pattern represents water cluster peaks, the first 3 water cluster peaks are assigned in the spectrum, with the other indicated by asterisk.",
+        "start_index": 33873,
+        "end_index": 34029
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "**Figure S2** Positive polarity Cryo-OrbiSIMS spectra of individual lipid component samples (m/z 75\u20131125). All spectra are normalised to total ion count and presented on individual intensity scales for clarity.",
+        "start_index": 34029,
+        "end_index": 34239
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Figure S3 Cryo-OrbiSIMS profiles of Formulation 1 displaying profiles from RNA fragments from adenine, guanine and cytosine along with the PEG ions. Uracil was not seen in the spectra. The intensities have been normalised to total ion count and all RNA fragment ions are presented on secondary intensity scale for clarity.",
+        "start_index": 34239,
+        "end_index": 34561
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Figure S4 Cryo-OrbiSIMS profiles acquired from on different samples from the same batch of LNPs on different occasions as the data in Figure 1b. The intensity has been normalised to total ion count and the summed FA14:0 ions are presented on secondary intensity scale for both depth profiles for clarity.\nFigure S5 Cluster size distribution of the Ar$_{3000}^+$ primary ion beam used for Cryo-OrbiSIMS analysis.",
+        "start_index": 34561,
+        "end_index": 34972
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "Table S1 DMG-PEG2k fragments containing both DMG and PEG fragments. The PEG component, which were summed in the depth profiles.",
+        "start_index": 34972,
+        "end_index": 35099
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| m/z     | SIMS assignment | Atomic composition | Structural formula               |\n|---------|----------------|--------------------|---------------------------------|\n| 227.2016 | C_{14}H_{22}O_{2}* | H(CH_{2})_{13}C(=O)O* | [FA(14:0)]*                     |",
+        "start_index": 35099,
+        "end_index": 35360
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 251.1983 | C_{14}H_{22}O_{2}Na* | H(CH_{2})_{13}C(=O)ONa* | [FA(14:0)]Na*                   |",
+        "start_index": 35360,
+        "end_index": 35455
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 493.2618 | C_{21}H_{42}O_{11}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 35455,
+        "end_index": 35552
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 495.4408 | C_{31}H_{59}O_{4}* | DMG*               | [FA(14:0)]_{2}C_{3}H_{5}*       |",
+        "start_index": 35552,
+        "end_index": 35640
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 507.2775 | C_{22}H_{44}O_{11}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}]x*          |",
+        "start_index": 35640,
+        "end_index": 35738
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 537.2881 | C_{23}H_{46}O_{12}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 35738,
+        "end_index": 35835
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 551.3037 | C_{24}H_{48}O_{12}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 35835,
+        "end_index": 35932
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 565.3193 | C_{25}H_{50}O_{12}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 35932,
+        "end_index": 36029
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 567.2985 | C_{24}H_{48}O_{13}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36029,
+        "end_index": 36126
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 581.3142 | C_{25}H_{50}O_{13}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36126,
+        "end_index": 36223
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 609.3454 | C_{27}H_{54}O_{13}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36223,
+        "end_index": 36320
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 625.3403 | C_{27}H_{54}O_{14}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36320,
+        "end_index": 36417
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 653.3717 | C_{29}H_{58}O_{14}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36417,
+        "end_index": 36514
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 669.3665 | C_{29}H_{58}O_{15}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36514,
+        "end_index": 36611
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 697.3978 | C_{31}H_{62}O_{15}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36611,
+        "end_index": 36708
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 713.3928 | C_{31}H_{62}O_{16}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36708,
+        "end_index": 36805
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 741.4242 | C_{33}H_{66}O_{16}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36805,
+        "end_index": 36902
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 757.4189 | C_{33}H_{66}O_{17}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36902,
+        "end_index": 36999
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 785.4502 | C_{35}H_{70}O_{17}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 36999,
+        "end_index": 37096
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 801.4452 | C_{35}H_{70}O_{18}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37096,
+        "end_index": 37193
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 829.4766 | C_{37}H_{74}O_{18}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37193,
+        "end_index": 37290
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 845.4713 | C_{37}H_{74}O_{19}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37290,
+        "end_index": 37387
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 873.5026 | C_{39}H_{78}O_{19}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37387,
+        "end_index": 37484
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 889.4975 | C_{39}H_{78}O_{20}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37484,
+        "end_index": 37581
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 917.5291 | C_{41}H_{82}O_{20}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37581,
+        "end_index": 37678
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 933.5238 | C_{41}H_{82}O_{21}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37678,
+        "end_index": 37775
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 961.5549 | C_{43}H_{86}O_{21}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37775,
+        "end_index": 37872
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 977.5498 | C_{43}H_{86}O_{22}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37872,
+        "end_index": 37969
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 1005.581 | C_{45}H_{90}O_{22}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 37969,
+        "end_index": 38066
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 1021.576 | C_{45}H_{90}O_{23}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 38066,
+        "end_index": 38163
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 1049.608 | C_{47}H_{94}O_{23}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |",
+        "start_index": 38163,
+        "end_index": 38260
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| 1065.602 | C_{47}H_{94}O_{24}Na* | C_{2n+1}H_{4n+2}O_{x+1}Na* | Na[O-CH_{2}-CH_{2}],O-CH_{2}* |\n| Formula 1 | Formula 2 | Formula 3 |\n|-----------|-----------|-----------|",
+        "start_index": 38260,
+        "end_index": 38433
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| \\(\\text{C}_{49}\\text{H}_{90}\\text{O}_{24}\\text{Na}^+\\) | \\(\\text{C}_{2x+3}\\text{H}_{4x+6}\\text{O}_{x+1}\\text{Na}^+\\) |",
+        "start_index": 38433,
+        "end_index": 38553
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "\\(\\text{NaCH}_2\\text{O}-\\text{CH}_2\\text{CH}_2\\text{O}-\\text{CH}_2\\text{CH}_2^+\\) |",
+        "start_index": 38553,
+        "end_index": 38636
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "| \\(\\text{C}_{49}\\text{H}_{90}\\text{O}_{25}\\text{Na}^+\\) | \\(\\text{C}_{2x+1}\\text{H}_{4x+2}\\text{O}_{x+1}\\text{Na}^+\\) |",
+        "start_index": 38636,
+        "end_index": 38756
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "\\(\\text{Na}[\\text{O-CH}_2\\text{CH}_2\\text{O}]^x-\\text{O-CH}_2^+\\) |",
+        "start_index": 38756,
+        "end_index": 38823
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "References",
+        "start_index": 38823,
+        "end_index": 38833
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "1. Hou, X., Zaks, T., Langer, R. & Dong, Y. Lipid nanoparticles for mRNA delivery. *Nat Rev Mater* 6, 1078\u20131094 (2021).",
+        "start_index": 38833,
+        "end_index": 38952
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "2. Dilliard, S. A., Cheng, Q. & Siegwart, D. J. On the mechanism of tissue-specific mRNA delivery by selective organ targeting nanoparticles. *Proc Natl Acad Sci U S A* 118, (2021).",
+        "start_index": 38952,
+        "end_index": 39133
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "3. Francia, V. *et al.* A magnetic separation method for isolating and characterizing the biomolecular corona of lipid nanoparticles. *Proceedings of the National Academy of Sciences* 121, (2024).",
+        "start_index": 39133,
+        "end_index": 39329
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "4. Tam, Y. Y. C., Chen, S. & Cullis, P. R. Advances in Lipid Nanoparticles for siRNA Delivery. *Pharmaceutics* 5, 498\u2013507 (2013).",
+        "start_index": 39329,
+        "end_index": 39458
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "5. Arteta, M. Y. *et al.* Successful reprogramming of cellular protein production through mRNA delivered by functionalized lipid nanoparticles. *Proc Natl Acad Sci U S A* 115, E3351\u2013E3360 (2018).",
+        "start_index": 39458,
+        "end_index": 39653
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "6. Blakney, A. K., McKay, P. F., Yus, B. I., Aldon, Y. & Shattock, R. J. Inside out: optimization of lipid nanoparticle formulations for exterior complexation and in vivo delivery of saRNA. *Gene Therapy* 2019 26:9 26, 363\u2013372 (2019).",
+        "start_index": 39653,
+        "end_index": 39887
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "7. Kulkarni, J. A. *et al.* Spontaneous, solvent-free entrapment of siRNA within lipid nanoparticles \u2020. *Nanoscale* 12, 23959 (2020).",
+        "start_index": 39887,
+        "end_index": 40020
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "8. Tenchov, R., Bird, R., Curtze, A. E. & Zhou, Q. Lipid Nanoparticles from Liposomes to mRNA Vaccine Delivery, a Landscape of Research Diversity and Advancement. *ACS Nano* 15, 16982\u201317015 (2021).",
+        "start_index": 40020,
+        "end_index": 40217
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "9. Hamilton, A. G., Swingle, K. L. & Mitchell, M. J. Biotechnology: Overcoming biological barriers to nucleic acid delivery using lipid nanoparticles. *PLoS Biol* 21, e3002105 (2023).",
+        "start_index": 40217,
+        "end_index": 40400
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "10. Wang, M. M. *et al.* Elucidation of lipid nanoparticle surface structure in mRNA vaccines. *Scientific Reports* 2023 13:1 13, 1\u20138 (2023).\n11. Gref, R. *et al.* Biodegradable Long-Circulating Polymeric Nanospheres. *Science (1979)* 263, 1600\u20131603 (1994).",
+        "start_index": 40400,
+        "end_index": 40657
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "12. Tenchov, R., Bird, R., Curtze, A. E. & Zhou, Q. Lipid Nanoparticles from Liposomes to mRNA Vaccine Delivery, a Landscape of Research Diversity and Advancement. *ACS Nano* 15, 16982\u201317015 (2021).",
+        "start_index": 40657,
+        "end_index": 40855
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "13. Heyes, J., Hall, K., Tailor, V., Lenz, R. & MacLachlan, I. Synthesis and characterization of novel poly(ethylene glycol)-lipid conjugates suitable for use in drug delivery. *Journal of Controlled Release* 112, 280\u2013290 (2006).",
+        "start_index": 40855,
+        "end_index": 41084
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "14. Kulkarni, J. A. *et al.* On the Formation and Morphology of Lipid Nanoparticles Containing Ionizable Cationic Lipids and siRNA. *ACS Nano* 12, 4787\u20134795 (2018).",
+        "start_index": 41084,
+        "end_index": 41248
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "15. Eygeris, Y., Patel, S., Jozic, A., Sahay, G. & Sahay, G. Deconvoluting Lipid Nanoparticle Structure for Messenger RNA Delivery. *Nano Lett* 20, 4543\u20134549 (2020).",
+        "start_index": 41248,
+        "end_index": 41413
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "16. Philipp, J. *et al.* pH-dependent structural transitions in cationic ionizable lipid mesophases are critical for lipid nanoparticle function. *Proceedings of the National Academy of Sciences* 120, (2023).\n17. Wang, M. M. et al. Elucidation of lipid nanoparticle surface structure in mRNA vaccines. Sci Rep 13, 16744 (2023).",
+        "start_index": 41413,
+        "end_index": 41740
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "18. Viger-Gravel, J. et al. Structure of Lipid Nanoparticles Containing siRNA or mRNA by Dynamic Nuclear Polarization-Enhanced NMR Spectroscopy. Journal of Physical Chemistry B 122, 2073\u20132081 (2018).",
+        "start_index": 41740,
+        "end_index": 41939
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "19. Cant, D. J. H. et al. Cryo-XPS for Surface Characterization of Nanomedicines. J Phys Chem A 127, 8220\u20138227 (2023).\n20. Bamford, S. E. et al. High resolution imaging and analysis of extracellular vesicles using mass spectral imaging and machine learning. Journal of Extracellular Biology 2, (2023).",
+        "start_index": 41939,
+        "end_index": 42240
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "21. Lovri\u0107, J. et al. Analysis of liposome model systems by time-of-flight secondary ion mass spectrometry. Surface and Interface Analysis 46, 74\u201378 (2014).\n22. Passarelli, M. K. et al. The 3D OrbiSIMS - Label-free metabolic imaging with subcellular lateral resolution and high mass-resolving power. Nat Methods 14, 1175\u20131183 (2017).",
+        "start_index": 42240,
+        "end_index": 42573
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "23. Yu, M., Kang, X. & Qian, L. Interactions between monovalent cations and polyethylene glycol: A study at micro level. Colloids Surf A Physicochem Eng Asp 680, 132731 (2024).",
+        "start_index": 42573,
+        "end_index": 42749
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "24. Fuji, M., Shishido, R., Satoh, T., Suzuki, S. & Matsuo, J. Effects of molecular weight and cationization agent on the sensitivity of Bi cluster secondary ion mass spectrometry. Rapid Communications in Mass Spectrometry 30, 1722\u20131726 (2016).",
+        "start_index": 42749,
+        "end_index": 42993
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "25. Shard, A. G., Spencer, S. J., Smith, S. A., Havelund, R. & Gilmore, I. S. The matrix effect in organic secondary ion mass spectrometry. Int J Mass Spectrom 377, 599\u2013609 (2015).",
+        "start_index": 42993,
+        "end_index": 43173
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "26. Seah, M. P., Havelund, R., Spencer, S. J. & Gilmore, I. S. Quantifying SIMS of Organic Mixtures and Depth Profiles\u2014Characterizing Matrix Effects of Fragment Ions. J Am Soc Mass Spectrom 30, 309\u2013320 (2019).",
+        "start_index": 43173,
+        "end_index": 43382
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "27. Rakowska, P. D., Seah, M. P., Vorng, J. L., Havelund, R. & Gilmore, I. S. Determination of the sputtering yield of cholesterol using Ar: N+ and C60+(+) cluster ions. Analyst 141, 4893\u20134901 (2016).",
+        "start_index": 43382,
+        "end_index": 43582
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "28. Gilbert, J. et al. Evolution of the structure of lipid nanoparticles for nucleic acid delivery: From in situ studies of formulation to colloidal stability. J Colloid Interface Sci 660, 66\u201376 (2024).",
+        "start_index": 43582,
+        "end_index": 43784
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "29. Sebastiani, F. et al. Apolipoprotein E Binding Drives Structural and Compositional Rearrangement of mRNA-Containing Lipid Nanoparticles. ACS Nano 15, 6709\u20136722 (2021).\n30. Philipp, J. et al. pH-dependent structural transitions in cationic ionizable lipid mesophases are critical for lipid nanoparticle function. Proceedings of the National Academy of Sciences 120, (2023).",
+        "start_index": 43784,
+        "end_index": 44160
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "31. Iravani, S. & Varma, R. S. Plant-Derived Edible Nanoparticles and miRNAs: Emerging Frontier for Therapeutics and Targeted Drug-Delivery. ACS Sustain Chem Eng 7, 8055\u20138069 (2019).",
+        "start_index": 44160,
+        "end_index": 44342
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "32. Kanasty, R., Dorkin, J. R., Vegas, A. & Anderson, D. Delivery materials for siRNA therapeutics. Nature Materials 2013 12:11 12, 967\u2013977 (2013).\n33. Witten, J. et al. Artificial intelligence-guided design of lipid nanoparticles for pulmonary gene therapy. Nature Biotechnology (in press) (2024).",
+        "start_index": 44342,
+        "end_index": 44640
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "34. Aliakbarinodehi, N. et al. Time Resolved Inspection of Ionizable-Lipid Facilitated Lipid Nanoparticle Disintegration and Cargo Release at an\nEndosomal Membrane Mimic. ACS Nano 22989\u201323000 (2024)\ndoi:10.1101/2024.02.22.580934.",
+        "start_index": 44640,
+        "end_index": 44869
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "35. Zhang, J. et al. Cryo-OrbiSIMS for 3D Molecular Imaging of a Bacterial Biofilm in Its Native State. Anal Chem 92, 9008\u20139015 (2020).",
+        "start_index": 44869,
+        "end_index": 45004
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "36. Gilmore, I. & Keenan, M. Orbitrap noise structure and method for noise-unbiased multivariate analysis. Preprint (responding to reviewers) (2024) doi:10.21203/RS.3.RS-3911895/V1.\n\n37. Zhou, Y. et al. OrbiSIMS depth profiling of semiconductor materials\u2014Useful yield and depth resolution. Journal of Vacuum Science & Technology A 42, (2024).",
+        "start_index": 45004,
+        "end_index": 45346
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "38. Havelund, R., Seah, M. P., Tiddia, M. & Gilmore, I. S. SIMS of Organic Materials\u2014Interface Location in Argon Gas Cluster Depth Profiles Using Negative Secondary Ions. J Am Soc Mass Spectrom 29, 774\u2013785 (2018).",
+        "start_index": 45346,
+        "end_index": 45559
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "39. Yang, L. et al. Depth Profiling and Melting of Nanoparticles in Secondary Ion Mass Spectrometry (SIMS). The Journal of Physical Chemistry C 117, 16042\u201316052 (2013).",
+        "start_index": 45559,
+        "end_index": 45727
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "40. Passarelli, M. K. et al. The 3D OrbiSIMS - Label-free metabolic imaging with subcellular lateral resolution and high mass-resolving power. Nat Methods 14, 1175\u20131183 (2017).\n\n41. Seah, M. P. Universal Equation for Argon Gas Cluster Sputtering Yields. The Journal of Physical Chemistry C 117, 12622\u201312632 (2013).",
+        "start_index": 45727,
+        "end_index": 46041
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "42. Seah, M. P., Havelund, R. & Gilmore, I. S. Systematic Temperature Effects in the Argon Cluster Ion Sputter Depth Profiling of Organic Materials Using Secondary Ion Mass Spectrometry. J Am Soc Mass Spectrom 27, 1411\u20131418 (2016).",
+        "start_index": 46041,
+        "end_index": 46272
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "43. Bailey, J. et al. 3D ToF-SIMS Imaging of Polymer Multilayer Films Using Argon Cluster Sputter Depth Profiling. 3\u20138 (2015) doi:10.1021/am507663v.",
+        "start_index": 46272,
+        "end_index": 46420
+    },
+    {
+        "document_name": "39.txt",
+        "chunk_text": "44. Seah, M. P. Topography effects and monatomic ion sputtering of undulating surfaces, particles and large nanoparticles: Sputtering yields, effective sputter rates and topography evolution. Surface and Interface Analysis 44, 208\u2013218 (2012).",
+        "start_index": 46420,
+        "end_index": 46662
+    }
+]

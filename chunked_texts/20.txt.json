@@ -1,0 +1,1454 @@
+[
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Efficient Ethane Production via SnCl\u2084 Lewis Acid-Enhanced CO\u2082 Electroreduction in a Flow Cell Electrolyser\n\nSankeerthana Bellamkonda\u00b9,\u00b2*, Ian Brewis\u00b9, Venkateswar Rao Gedela\u00b9, Rana Faisal Shahzad\u00b9, Mohamed Mamlouk\u00b2, Shahid Rasul\u00b9",
+        "start_index": 0,
+        "end_index": 229
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "\u00b9School of Engineering and Environment, Northumbria University, Newcastle upon Tyne, United Kingdom\n\u00b2School of Engineering, Newcastle University, Newcastle upon Tyne, United Kingdom\n\nABSTRACT",
+        "start_index": 229,
+        "end_index": 420
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The development of efficient and selective catalysts for electrochemical CO\u2082 reduction (CO\u2082RR) is critical for advancing sustainable energy solutions. Here, we report a unique catalyst system based on SnCl\u2084 Lewis acid-modified Cu\u2082O, demonstrating enhanced performance in CO\u2082 electroreduction to ethane",
+        "start_index": 420,
+        "end_index": 721
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The SnCl\u2084 modification introduces chloride ions directly onto the Cu\u2082O surface, creating a synergistic interaction between Sn, Cl, and Cu active sites that optimizes the electronic environment for CO\u2082RR. The catalyst was coated onto a gas diffusion electrode (GDE) and tested in a flow cell electrolyser, with a Fumasep bipolar membrane and a platinum (Pt) foil as the anode. This system achieved a peak Faradaic efficiency of 34",
+        "start_index": 721,
+        "end_index": 1152
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".8% for ethane production at -1.0 V vs. RHE, along with 11.3% efficiency for ethylene. Electrochemical studies revealed that the SnCl\u2084-modified Cu\u2082O exhibits low charge transfer resistance and high stability during prolonged electrolysis, with total current densities reaching 74.8 mA cm\u207b\u00b2 with a Tafel slope of 92.3 mV/dec at 0.4 V overpotential",
+        "start_index": 1152,
+        "end_index": 1498
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Mechanistic investigations, supported by density functional theory, Raman, XRD, and electrochemical Impedance spectroscopy analyses, highlight the critical role of chloride ions in stabilizing CO intermediates and facilitating C-C bond formation, essential for C\u2082 product generation. Operating in a flow cell configuration, the system demonstrated high energy efficiency and selectivity, establishing the SnCl\u2084-modified Cu\u2082O (CTC) as a promising catalyst for CO\u2082RR",
+        "start_index": 1498,
+        "end_index": 1964
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These findings offer a scalable and economically viable pathway for renewable hydrocarbon production, paving the way for practical applications in carbon-neutral energy cycles.",
+        "start_index": 1964,
+        "end_index": 2142
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Keywords: Cuprous oxide, tin (IV) chloride pentahydrate Lewis acid, CO\u2082 electrolysis, ethane, flow-cell electrolyser.",
+        "start_index": 2142,
+        "end_index": 2259
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "*Corresponding author; Tel.: +91 9445435743; +44 7471042866;\nE-mail address: sankeerthana999@gmail.com (Sankeerthana B.); and\nshahid.rasul@northumbria.ac.uk (Shahid Rasul).\n1. INTRODUCTION",
+        "start_index": 2259,
+        "end_index": 2447
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Concerns about global warming and a potential energy crisis have driven the search for innovative methods to convert CO$_2$, a prominent greenhouse gas emitted by fossil fuel combustion, back into fuels or other valuable molecules.\\textsuperscript{1} Reducing CO$_2$ emissions is critical in addressing the challenges of climate change. Carbon capture, utilization, and storage (CCUS) technologies are gaining traction to achieve net-zero emissions by converting CO$_2$ into useful products",
+        "start_index": 2447,
+        "end_index": 2937
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{2-4} CO$_2$ electrolysis is particularly promising, using renewable energy to turn CO$_2$ into chemicals and fuels, offering a sustainable route to carbon neutrality. This approach has the potential to significantly reduce emissions and facilitate the transition to a greener future.\\textsuperscript{5} A key strategy to achieve a carbon-neutral energy cycle involves powering electrochemical CO$_2$ reduction (ECR) using renewable energy sources",
+        "start_index": 2937,
+        "end_index": 3401
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{6} However, ECR faces significant energy barriers due to the strong chemical inertness of CO$_2$ molecules and the complex multi-electron transfer processes involved",
+        "start_index": 3401,
+        "end_index": 3584
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{7-9} ECR can yield various C1 products, including CO and CH$_4$, as well as C$_2$ products such as ethylene (C$_2$H$_4$), ethanol (C$_2$H$_5$OH), and ethane (C$_2$H$_6$).\\textsuperscript{10,11} Ethane, in particular, stands out for its high energy density of approximately 1",
+        "start_index": 3584,
+        "end_index": 3876
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".43 MJ mol$^{-1}$, making it a highly desirable product for energy storage and other applications.\\textsuperscript{12,13}",
+        "start_index": 3876,
+        "end_index": 3997
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "However, achieving high selectivity for ethane in electrochemical CO$_2$ reduction is challenging, primarily due to the intricate control required for C-C bond formation and subsequent hydrogenation processes. The selective production of ethane is particularly difficult because it requires not only the formation of C-C bonds but also precise control over the hydrogenation steps to avoid over-reduction to methane or under-reduction, leading to less valuable products",
+        "start_index": 3997,
+        "end_index": 4466
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{14,15} Therefore, the development of high-performance electrocatalysts that can steer the reaction pathways towards ethane while minimising the production of undesired byproducts is crucial. Despite significant advancements,\\textsuperscript{16-19} directing reaction pathways toward desirable products like ethane and reducing reaction potentials remain substantial challenges, necessitating the development of advanced electrocatalysts with improved product selectivity and catalytic activity.",
+        "start_index": 4466,
+        "end_index": 4978
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "One established strategy for enhancing ECR performance is the modifying catalyst surfaces with functional additives.\\textsuperscript{19} This can be achieved either by directly altering the electronic properties of the catalyst surface or indirectly by affecting binding strengths through adsorbate-adsorbate interactions. For example, Kim et al.\\textsuperscript{20} demonstrated that the CO selectivity and reduced overpotential of Ag nanoparticles on carbon substrates could be enhanced using different anchoring agents",
+        "start_index": 4978,
+        "end_index": 5499
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". They suggested that the improved CO selectivity was due to the",
+        "start_index": 5499,
+        "end_index": 5563
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "localized unpaired electrons of anchoring agent at the surface state of the Ag. Additionally, Au surfaces functionalized with imidazolium ions and thiol-tethered ligands have been investigated for their ability to control the selectivity of ECR products.\\textsuperscript{21} Anion adsorption on metal catalysts has also been shown to improve ECR performance",
+        "start_index": 5563,
+        "end_index": 5920
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Numerous studies have demonstrated that the presence of chloride anions enhances CO selectivity while suppressing the hydrogen evolution reaction (HER).\\textsuperscript{21,22,23} Jihun Oh revealed that chloride-adsorbed Au electrodes exhibited four times the CO selectivity at -0.39 V compared to bare Au",
+        "start_index": 5920,
+        "end_index": 6226
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{24} Their studies, both theoretical and experimental, elucidated the role of adsorbed chloride on the Au surface in influencing ECR activity and selectivity. Similarly, adsorbed chloride on Ag surfaces has been shown to boost ECR intrinsic activity and selectivity by minimizing side reactions associated with HER.\\textsuperscript{25} Zn-based catalysts\\textsuperscript{26} have also been extensively investigated in chloride anion-containing electrolytes",
+        "start_index": 6226,
+        "end_index": 6699
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". It has been hypothesized that the increased CO Faradaic efficiency results from chloride anion adsorption on the electrode surface, which preferentially facilitates electron transfer from CO\\textsubscript{2} to intermediates,\\textsuperscript{26} thereby enhancing CO generation selectivity. For instance, a chloride anion-linked Ag nanocoral structure exhibited 32 times greater ECR activity compared to pure Ag",
+        "start_index": 6699,
+        "end_index": 7112
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{27} While halide adsorption on Cu-based catalysts has been explored, the role of chloride ions in tuning ECR pathways for selective ethane formation remains underexplored, particularly when introduced via direct catalyst modification rather than electrolyte-based approaches.",
+        "start_index": 7112,
+        "end_index": 7405
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "To address this gap, this study employs a novel surface modification strategy using SnCl\\textsubscript{4} as a Lewis acid to enhance the ECR performance of Cu\\textsubscript{2}O",
+        "start_index": 7405,
+        "end_index": 7581
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Unlike previous studies that introduce halide-based salts into the electrolyte to investigate halide adsorption effects,\\textsuperscript{28-31} this work directly anchors SnCl\\textsubscript{4} onto the electrode surface rather than relying on dissolved Cl\\textsuperscript{-} ions",
+        "start_index": 7581,
+        "end_index": 7862
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This approach ensures controlled and localized chloride adsorption, avoiding the fluctuations in Cl\\textsuperscript{-} concentration associated with electrolyte-based methods, which can lead to uncontrolled adsorption-desorption behavior, unpredictable competitive interactions with reaction intermediates, and potential electrode degradation",
+        "start_index": 7862,
+        "end_index": 8206
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". By modifying Cu\\textsubscript{2}O with SnCl\\textsubscript{4}, chloride ions are directly bound to the catalyst surface, providing a stable and reproducible environment for systematically investigating their role in CO\\textsubscript{2} reduction. This method allows for a more precise understanding of the impact of chloride species on catalytic performance, particularly in steering the reaction pathway toward ethane formation.",
+        "start_index": 8206,
+        "end_index": 8636
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "In this study, we systematically investigate the role of chloride ions on Cu-Sn electrodes (copper tin chloride, CTC) for ECR. First, we experimentally evaluate the influence of",
+        "start_index": 8636,
+        "end_index": 8813
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "adsorbed chloride by functionalizing the Cu$_2$O surface via SnCl$_4$ deposition and analyse its effect on ECR activity and product selectivity. Special attention is given to ethane formation, examining how chloride anions influence C-C bond formation and hydrogenation pathways. We then propose an ECR mechanism highlighting the significance of chloride ions in selectively driving CO$_2$ reduction toward hydrocarbons, particularly enhancing ethane production",
+        "start_index": 8813,
+        "end_index": 9274
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The findings from this work provide key insights into catalyst design strategies for optimizing electrochemical CO$_2$ reduction to C$_2$ hydrocarbons, offering a scalable pathway for sustainable fuel synthesis.",
+        "start_index": 9274,
+        "end_index": 9487
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2. EXPERIMENTAL SECTION",
+        "start_index": 9487,
+        "end_index": 9510
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.1 Materials: Cuprous oxide (Cu$_2$O, Merck), a carbon gas diffusion layer (Fuel Cell Systems), and tin (IV) chloride pentahydrate (Merck) were used as precursors for the Sn and Cl deposition on the Cu$_2$O-coated gas diffusion electrode. Potassium hydroxide (KOH, Merck) was used to prepare the electrolytes",
+        "start_index": 9510,
+        "end_index": 9819
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Deionized water was used to prepare all solutions and to rinse the samples and glassware.",
+        "start_index": 9819,
+        "end_index": 9910
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.2 Electrode fabrication:",
+        "start_index": 9910,
+        "end_index": 9936
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.2.1 Preparation of Cu$_2$O/GDL electrodes: The Cu$_2$O-GDL was prepared by brush-coating commercial Cu$_2$O particles (EPRUI Nanoparticles & Microspheres Co. Ltd.) onto the surface of a 1cm\u00d71cm commercial GDL (Fuel cell systems). Specifically, 15 mg of Cu$_2$O was dispersed in 200 \u03bcL of isopropanol (>99",
+        "start_index": 9936,
+        "end_index": 10242
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".8%, VWR Chemicals) and 66 \u03bcL of a 5 wt% Nafion suspension (Sigma-Aldrich) to create the catalyst ink. This mixture was sonicated for 20 minutes, and the ink was then coated to a 1 cm$^2$ GDL surface by brush, using a layer-by-layer coating technique. After each layer, the coating was dried at 40-50\u00b0C for 1-3 minutes",
+        "start_index": 10242,
+        "end_index": 10560
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This process was repeated until the target catalyst loading of 4-5 mg cm$^{-2}$ was achieved.",
+        "start_index": 10560,
+        "end_index": 10655
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.2.2 Preparation of Cu$_2$O/SnCl$_4$/GDL (CTC) electrodes: The CTC electrodes are finally prepared by loading 20-80 \u03bcL of SnCl$_4$ Lewis acid onto the Cu$_2$O coated GDL using a micropipette, and these CTC electrodes were dried at room temperature for one minute",
+        "start_index": 10655,
+        "end_index": 10918
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These electrodes were then directly used as cathodes for CO$_2$ electrolysis in a flow cell electrolyser. The Cu$_3$Sn (Sn deposited Cu$_2$O) catalyst has been synthesised using in-situ electrochemical simultaneous deposition method, as shown in Figure S1 in supporting information.",
+        "start_index": 10918,
+        "end_index": 11202
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.3 Electrode characterization: Scanning electron microscopy (SEM, Hitachi S-4800) was used to examine the morphologies of the synthesized catalysts. Elemental composition and mapping of samples were analysed with energy-dispersive X-ray spectroscopy (EDS, Oxford",
+        "start_index": 11202,
+        "end_index": 11465
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Instruments). X-ray diffraction (XRD) characterization was performed in a Rigaku Miniflex 600 benchtop sixth-generation X-ray diffractometer. The X-ray photoelectron spectroscopy (XPS) spectra were recorded using ESCA+ (Omicron nanotechnology, Oxford Instrument, Germany) equipped with monochromatic aluminum source (Al K\u03b1 radiation hv =1486.6 eV), operated at 15 kV and 20 mA",
+        "start_index": 11465,
+        "end_index": 11841
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The C 1s binding energy 284.6 eV is taken as a reference. The Raman measurements were obtained at room temperature by BRUKER RFS 27 with a 627 nm laser as source.",
+        "start_index": 11841,
+        "end_index": 12005
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.4 Electrochemical Measurements: The electrochemical measurements were performed using an Autolab potentiostat/galvanostat (Metrohm Autolab PGSTAT302N). The Ag/AgCl and Pt foil were used as the reference and counter electrodes, respectively. The reference electrode was converted to RHE using the following equation:\n\n\\[ ERHE = E_{Ag/AgCl} + 0.1976 + 0.0591 \\times pH \\]",
+        "start_index": 12005,
+        "end_index": 12376
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "We investigated the ECR catalysts using a lab-customised 3D-printed electrolyser flow cell, as shown in Figure S2 in the Supplementary Information. The catalysts were deposited on a carbon paper GDL substrate, with Ag/AgCl and Pt foil serving as the reference and counter electrodes, respectively. CO\u2082 gas was introduced into the gas chamber via a gas inlet and diffused across the GDL to reach the catalyst layer",
+        "start_index": 12376,
+        "end_index": 12789
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The CO\u2082 gas flow rate was maintained at a constant 50 mL min\u207b\u00b9 using a flow meter (Cole-Parmer TMR1-010462). A Fumasem FBM bipolar membrane was used between the cathodic and anodic compartments to allow the transfer of cations. Platinum foil was used as the anode",
+        "start_index": 12789,
+        "end_index": 13054
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". After 30 minutes of CO\u2082 electrolysis, the gas products were collected from the gas outlet for GC measurements, and the catholyte was collected for liquid product analysis using ion chromatography. To investigate the ECR behaviour of CTC-65 electrodes, we conducted chronoamperometry (CA) tests for 1 hour at potentials of -0.5 V, -0.65 V, -0.75 V, -0.85 V, and -1",
+        "start_index": 13054,
+        "end_index": 13419
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".00 V vs. RHE. The Faradaic efficiency (FE) of the electrochemical reaction was estimated from the CA measurements by considering the input charge, the duration of the electrochemical process, and the quantification of the gaseous/liquid products and their molar masses.",
+        "start_index": 13419,
+        "end_index": 13689
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.5 CO\u2082 Reduction Measurements and Product Analyses: In the CO\u2082 recycling tests, a lab-customized electrochemical cell with three compartments (for the working, reference, and counter electrodes) was used. Each cathodic and anodic compartment contained 6 mL of 1 M KOH electrolyte. The CO\u2082 reduction reaction was performed at various potentials in CO\u2082-saturated 1 M KOH (pH = 13",
+        "start_index": 13689,
+        "end_index": 14067
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".8, measured with an Accumet AB15 pH meter) for 60 minutes, with the electrolyte remaining static (no peristaltic pump was used). After electrolysis, a 1 mL",
+        "start_index": 14067,
+        "end_index": 14223
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "gas sample was taken through a septum port using a gas-tight syringe and injected into a gas chromatograph (GC) (Shimadzu 2014) to quantify the amounts of CO, H\u2082, and hydrocarbons. Ion chromatography (Thermo-Fisher Dionex ICS-1600) was used to analyse the liquid products. The FE was calculated after quantifying the formate as follows:",
+        "start_index": 14223,
+        "end_index": 14559
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "\\[ FE = \\frac{(2 \\times F \\times n)}{Q} \\]",
+        "start_index": 14559,
+        "end_index": 14601
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "where \\( F \\) represents the Faraday constant (96485 C/mol), \\( n \\) is the concentration of formate (mol), and \\( Q \\) is the total charge during the reaction time. The gaseous products were quantified using a gas chromatograph (Shimadzu 2014) equipped with a thermal conductivity detector (TCD) and a flame ionization detector (FID) with a methanizer",
+        "start_index": 14601,
+        "end_index": 14953
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The TCD was used to detect hydrogen (H\u2082), while the FID was used to detect carbon monoxide (CO) and other carbon-based gaseous products. Argon gas was used as the carrier gas. Prior to the CO\u2082 reduction studies, the GC was calibrated with known concentrations of both CO, CH\u2084, C\u2082H\u2084, C\u2082H\u2086 and H\u2082",
+        "start_index": 14953,
+        "end_index": 15249
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". After quantification of the gaseous products, the faradaic efficiency was calculated using the following equation:\u00b3\u00b2",
+        "start_index": 15249,
+        "end_index": 15367
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "\\[ FE(g) = \\frac{(n \\times x \\times F \\times \\nu \\times P)}{(R \\times T \\times I)} \\]",
+        "start_index": 15367,
+        "end_index": 15452
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "where \\( n \\) = number of electrons required to convert 1 mol of a particular product, \\( x \\) = concentration of obtained gaseous products, \\( F \\) = Faraday constant (96485 C/mol), \\( \\nu \\) = volumetric flow rate, \\( P \\) = 101325 Pa, \\( R \\) = gas constant (8",
+        "start_index": 15452,
+        "end_index": 15715
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".314 J/mol K), \\( T \\) = 298 K, and \\( I \\) = average current density after steady state (A).",
+        "start_index": 15715,
+        "end_index": 15808
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "2.6 Computational Methods",
+        "start_index": 15808,
+        "end_index": 15833
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "First principles, plane wave self-consistent field calculations were executed using the generalized gradient approximation (GGA) method using QUANTUM ESPRESSO.\u00b3\u00b3 Perdew-Burke-Ernzerhof (PBE) exchange-correlation functional with projector-augmented wave type pseudopotentials were used to treat electron core interactions in all the atoms. A kinetic energy and charge density cut-off of 30 Ry and 300 Ry, respectively, were applied for better convergence",
+        "start_index": 15833,
+        "end_index": 16286
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The slab models for Cu contained four atomic layers with the bottom two layers fixed, while the slab models for CTC contained 1 Sn atom and 2 Cl atoms on the surface of 5 nuclear layers of Cu with the bottom two layers fixed. In the aperiodic directions, at least 15 \u00c5 vacuum space was added to each model to avoid interactions between neighbouring images",
+        "start_index": 16286,
+        "end_index": 16643
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The structural coordinates of the relaxed Cu, CTC, CTC-CO and CTC-CO-K slabs are given in the supporting information. Complete structural relaxation with }",
+        "start_index": 16643,
+        "end_index": 16800
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "mesh of $6 \\times 6 \\times 1$ was performed until the total energy was converged to $10^{-5}$ eV and the residual forces on all unconstrained atoms were less than $0.02$ eV \u00c5$^{-1}$. The conducting nature of the system was incorporated through the method of tetrahedra in calculating the electronic properties",
+        "start_index": 16800,
+        "end_index": 17109
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".$^{33b}$ The binding energy of CO and K was computed as the difference between the energy of the composite system and the sum of the energies of the clean surface and uncoordinated adsorbate.",
+        "start_index": 17109,
+        "end_index": 17301
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3. RESULTS AND DISCUSSION",
+        "start_index": 17301,
+        "end_index": 17326
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3.1 Electrochemical CO$_2$ reduction in an electrolyser flow cell: We analysed loading-dependent CO$_2$ER performance by drop-casting various amounts (20 -80 \u03bcL) of SnCl$_4$.5H$_2$O Lewis acid onto Cu$_2$O GD electrodes, and electrodes are presented as CTC-20, CTC-42, CTC-65, and CTC-80",
+        "start_index": 17326,
+        "end_index": 17613
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The electrodes are named based on the volume of SnCl$_4$ deposited onto Cu$_2$O GDEs. Briefly, the electrochemical performance of the CTC electrodes is done by bubbling CO$_2$ into the cathode compartment electrolyte (catholyte) at a flow rate of 50 mL min$^{-1}$, and a constant potential was applied to the SnCl$_4$/Cu$_2$O cathodes with a potentiostat",
+        "start_index": 17613,
+        "end_index": 17969
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The effluent gas stream was collected, and the reaction products were analysed every 30 min with gas and ion chromatography.",
+        "start_index": 17969,
+        "end_index": 18095
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The distribution of the gaseous products obtained during the CO$_2$ electrochemical reduction electrode at cathodic potentials ranging from -0.5 to -1.0 V vs. RHE is shown in Figure 1. It is evident that only minor differences exist in the Faradaic efficiency (FE) of the gaseous products between the electrodes deposited with different loadings of SnCl$_4$",
+        "start_index": 18095,
+        "end_index": 18452
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Carbon monoxide (CO), methane (CH$_4$), ethylene (C$_2$H$_4$) and some ethane (C$_2$H$_6$) were gaseous products observed of CO$_2$ electrochemical reduction. CO desorbs from the surface and is a well-known intermediate for the formation of C$_2$H$_6$, C$_2$H$_4$ and CH$_4$",
+        "start_index": 18452,
+        "end_index": 18728
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Ethane is the major product among the hydrocarbons for CTC-65 and CTC-80 electrodes with a small variation in ethane/methane ratio observed. Ethane formation was detected with low FE for CTC-65 investigated at -0.75 V vs. RHE.",
+        "start_index": 18728,
+        "end_index": 18956
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Figure 1A demonstrates that as the CTC-65 electrode potential becomes more negative, the FE for C$_2$H$_4$ and C$_2$H$_6$, increases, while the efficiencies for CH$_4$, formic acid (HCOOH), and CO decline or remain relatively constant",
+        "start_index": 18956,
+        "end_index": 19190
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Figures 1B and 1C further explains the decreasing selectivity for CO and HCOOH, respectively, with more negative potentials, emphasizing that lower SnCl$_4$ loading on Cu$_2$O GDE led to a more pronounced decrease in selectivity. Figure 1D shows the declining trend of the CH$_4$ FE selectivity as the potential becomes more negative, specifically at higher loadings of SnCl$_4$ Lewis acid",
+        "start_index": 19190,
+        "end_index": 19581
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In contrast, Figure 1E demonstrates that C$_2$H$_4$ selectivity increases with more negative potentials, particularly at the SnCl$_4$ loading",
+        "start_index": 19581,
+        "end_index": 19724
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "volume of 65 \u03bcL. Finally, Figure 1F illustrates a decline in ethane selectivity with more negative potentials for both reagent volumes, although selectivity is higher at the lower volume (65 \u03bcL). Overall, the optimal loading of SnCl\u2084 for the electrochemical reduction of CO\u2082 is 65 \u03bcL; which serves as the basis for the exploration of the CTC-65 GDE",
+        "start_index": 19724,
+        "end_index": 20072
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In contrast, the bare Cu\u2082O GDE primarily produces C1 products such as CO and CH\u2084, and the Cu\u2083Sn (Sn deposited Cu\u2082O) GDE shows improved selectivity for HCOOH and CO due to the presence of Sn, which favours formate formation. The FEIs of bare Cu\u2082O and Cu\u2083Sn GDEs are given in Figure S3.",
+        "start_index": 20072,
+        "end_index": 20358
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "**Figure 1",
+        "start_index": 20358,
+        "end_index": 20368
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".** Faradaic efficiency of different products (C\u2082H\u2084, C\u2082H\u2086, HCOOH, CH\u2084, CO) as a function of potential for the electrode CTC-65 during electrochemical reduction using flow cell electrolyser; and Faradaic selectivity of CO (B), HCOOH (C), CH\u2084 (D), C\u2082H\u2084 (E), C\u2082H\u2086 (F) as a function of potential for the",
+        "start_index": 20368,
+        "end_index": 20667
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "electrodes loaded with different volumes of SnCl\u2084 Lewis acid on Cu\u2082O GDE",
+        "start_index": 20667,
+        "end_index": 20739
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".",
+        "start_index": 20739,
+        "end_index": 20740
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "**Figure 2.** Photographs of the appearance of Cu\u2082O and CTC-65 and post CO\u2082 electrolysed CTC-65 coated on gas diffusion layer (GDL) electrodes.",
+        "start_index": 20740,
+        "end_index": 20883
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The Cu$_2$O/SnCl$_4$ GDE electrodes are fabricated by drop casting 65 \u03bcL of SnCl$_4$\u00b75H$_2$O liquid on Cu$_2$O GDE and named it as CTC-65. The photographs of the as-fabricated Cu$_2$O, pre-electrolysed CTC-65 and post CO$_2$ electrolysed CTC-65 electrodes are shown in Figure 2",
+        "start_index": 20883,
+        "end_index": 21160
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The CTC-65 electrode gets whitish coloured after coating the brick-reddish Cu$_2$O which reveals the deposition of chloride on the electrode.",
+        "start_index": 21160,
+        "end_index": 21303
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3.2 Morphological, structural and electrochemical analysis:\n\n![Figure 3](image-url)\n\n**Figure 3.** Scanning electron microscopic images for Cu$_2$O and pre-CO$_2$ electrolysed CTC-65; and its elemental mapping.",
+        "start_index": 21303,
+        "end_index": 21513
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "As shown in Figure 3, the SEM images and EDS analysis provide insight into the structural and compositional characteristics of the Cu$_2$O and pre-electrolysed. The SEM images and EDS analysis of the post-electrolysed CTC catalysts are given in Figure S4 and S5. The SEM image of Cu$_2$O reveals a relatively smooth surface morphology, which serves as the initial substrate for further modifications",
+        "start_index": 21513,
+        "end_index": 21912
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In contrast, the pre-electrolysed CTC-65 exhibits a more complex, roughened surface with well-defined nanoscale structures, suggesting an increased surface area and enhanced active sites, which are beneficial for catalytic performance. The post-electrolysed CTC morphology in Figure S4 shows the retention of these structural features, although some aggregation and possible morphology changes are visible, indicating that the catalyst has",
+        "start_index": 21912,
+        "end_index": 22353
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "undergone structural adjustments due to electrochemical CO$_2$ cycling. The elemental mapping from EDS confirms the presence of Cu, Sn, and Cl as the primary components in the fresh CTC-65 catalyst, with high concentrations of Sn and Cl distributed evenly, suggesting successful incorporation of these elements into the catalyst structure. The EDS spectrum further corroborates the composition, showing peaks for Sn, Cl, Cu, and O, consistent with the intended CTC structure",
+        "start_index": 22353,
+        "end_index": 22827
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Additionally, the EDS analysis of the post-CO$_2$ electrolysed CTC-65 (Figure S5) confirms the retention of Sn and Cl species, suggesting the structural stability of the catalyst under electrolysis conditions, reinforcing its suitability for sustained CO$_2$ reduction.",
+        "start_index": 22827,
+        "end_index": 23098
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "![Figure 4](https://doi.org/10.26434/chemrxiv-2025-8fxq)\n\n**Figure 4.** (A) Powder XRD patterns and (B) Raman signals of CTC-65 electrodes recorded at room temperature.",
+        "start_index": 23098,
+        "end_index": 23266
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "In order to find the crystallization transformation of CTC-65 electrodes, we performed XRD characterization to study the electrode before electrochemical measurements. Figure 4A shows XRD patterns of CTC-65 before the CO$_2$ electrolysis treatment. The XRD profiles of bare Cu$_2$O GDE, GDL, and post CO$_2$ electrolysed CTC-65 are given in Figure S6",
+        "start_index": 23266,
+        "end_index": 23616
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". For Cu$_2$O, the peaks at 29.49\u00b0, 36.48\u00b0, 42.55\u00b0, 61.42\u00b0, and 73.69\u00b0 correspond to (110), (111), (200), (220), and (311) planes, respectively",
+        "start_index": 23616,
+        "end_index": 23759
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". After adding SnCl$_4$ on Cu$_2$O, the peaks corresponding to (111) and (200) planes of Cu$_2$O are diminished and shifted to 35.86\u00b0 and 40.16\u00b0 with the disappearance of the remaining corresponded Cu$_2$O peaks. This demonstrates that the exposure of Cu$_2$O layer is decreased due to the addition of SnCl$_4$.5H$_2$O over its surface",
+        "start_index": 23759,
+        "end_index": 24094
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Furthermore, the shift in the peaks indicates that there is an interaction between Cu$_2$O and Cl or Sn, which is in accordance with the appearance of additional sharp peaks related to the mixed phases of SnCl$_2$.2H$_2$O, Sn(OH)Cl, Sn$_2$(OH)$_2$O, CuCl and Cu$_2$(OH)$_3$Cl.",
+        "start_index": 24094,
+        "end_index": 24372
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-8fxq",
+        "start_index": 24372,
+        "end_index": 24415
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "ORCID: https://orcid.org/0000-0002-5271-9717\nContent not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 24415,
+        "end_index": 24517
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "As SnCl\u2084\u00b75H\u2082O is highly hygroscopic, it readily absorbs atmospheric moisture, leading to spontaneous hydrolysis and the formation of hydrolysed tin and chloride species. Upon exposure to air, SnCl\u2084 undergoes hydrolysis, forming compounds such as Sn(OH)Cl\u2083 and Sn(OH)\u2082Cl",
+        "start_index": 24517,
+        "end_index": 24786
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". When deposited onto the Cu\u2082O surface, these hydrolysed species interact with Cu, resulting in the formation of Sn-O-Cu and Cu-Cl bonds, which modify the electronic environment of the electrode. This is evident in the XRD patterns, where multiple phases coexist within the same compound, indicating the structural and compositional changes induced by SnCl\u2084 modification. The possible mechanisms leading to the formation of these phases are as follows:",
+        "start_index": 24786,
+        "end_index": 25238
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "\\[\n\\text{SnCl}_4 + H_2O \\rightarrow \\text{Sn(OH)Cl}_3 + HCl\n\\]\n\n\\[\n\\text{Sn(OH)Cl}_3 + H_2O \\rightarrow \\text{Sn(OH)}_2\\text{Cl}_2 + HCl\n\\]",
+        "start_index": 25238,
+        "end_index": 25377
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "\\[\n\\text{Cu}_2O + 3H_2O + Cl \\rightarrow \\text{Cu}_2(\\text{OH})_3Cl + H^+\n\\]",
+        "start_index": 25377,
+        "end_index": 25453
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "These structural transformations are further confirmed from Raman analysis, as shown in Figure 4B, stipulating the formation of Cu-Cl, Sn-OH-Cl, and Cu-OH-Cl bonds on the surface of CTC-65 electrode. The prominent peak at 235",
+        "start_index": 25453,
+        "end_index": 25678
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".15 cm\\(^{-1}\\) in Raman spectrum corresponds to the Sn(II)Cl\\(^{3-}\\) species, suggesting the presence of tin chloride complexes that are essential for catalytic performance",
+        "start_index": 25678,
+        "end_index": 25852
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\(^{38,41}\\) Additional peaks around 400-600 cm\\(^{-1}\\) are attributed to CuCl and Cu\u2082(OH)\u2083Cl phases,\\(^{42}\\) as well as Cu\u2082O, indicating that copper species are present in different oxidation states and environments within the CTC-65 GDE. The observed Cu\u2082O signals suggest the incorporation of copper oxides, which may contribute to the stability and activity of the catalyst",
+        "start_index": 25852,
+        "end_index": 26231
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The peaks around 800-1000 cm\\(^{-1}\\) correspond to Sn(OH)_4 and Sn-O vibrations,\\(^{43}\\) demonstrating that tin is integrated in both hydroxylated and oxide forms, which may play a role in facilitating CO\u2082 adsorption and activation",
+        "start_index": 26231,
+        "end_index": 26466
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The weak D and G bands observed at higher Raman shifts (~1300-1600 cm\\(^{-1}\\)) are associated with carbonaceous materials, possibly originating from the carbon GDL. This indicates the presence of multiple active species, including CuCl, Cu\u2082O, and Sn(OH)_4, which together create a mixed catalytic surface that supports the electrochemical reduction of CO\u2082 by providing various active sites for intermediate stabilization and electron transfer",
+        "start_index": 26466,
+        "end_index": 26911
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The results from powder XRD and Raman confirm that chemical transformations occurred on the surface of the Cu\u2082O GDE immediately after drop casting 65\u00b5L of SnCl\u2084\u00b75H\u2082O Lewis acid. We speculate that due to its hygroscopic nature, SnCl\u2084\u00b75H\u2082O rapidly reacted with nearby species upon contact, resulting in the formation",
+        "start_index": 26911,
+        "end_index": 27227
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "of hydroxychloride, metal chloride, and metal hydroxides. The presence of tin and chloride ions on the CTC-65 electrode surface is further corroborated with SEM analysis and elemental mapping, as shown in Figure 3. The Raman signal at 235",
+        "start_index": 27227,
+        "end_index": 27465
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".15 cm\u207b\u00b9 in the Raman spectrum of the post-CO\u2082-electrolyzed CTC-65 electrode (Figure S7) confirms the stability and retention of Cl and Sn on the CTC-65 surface after electrolysis.",
+        "start_index": 27465,
+        "end_index": 27645
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The XPS spectra presented in Figure 5 reveal detailed insights into the chemical state changes of Cu, Sn, Cl, and other elements on the CTC-65 catalysts before and after CO\u2082 electrolysis",
+        "start_index": 27645,
+        "end_index": 27831
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Figures 5A and B show the Cu 2p spectra, where the shift in lower binding energies and the reduced intensity of the satellite peaks after electrolysis indicate the reduction of Cu\u00b2\u207a to Cu\u2070, confirming the transformation of Cu\u2082O to a more metallic Cu state. This change in oxidation state suggests enhanced electronic conductivity and improved CO adsorption on metallic Cu sites, promoting C-C coupling",
+        "start_index": 27831,
+        "end_index": 28234
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In Figure 5C, the Sn 3d spectra show minimal shift in binding energy, indicating the stability of Sn species during CO\u2082 reduction. The presence of Sn in the +4-oxidation state before and after electrolysis suggests that Sn acts as an electronic modulator, maintaining a consistent electronic environment that stabilizes CO intermediates, thereby enhancing C\u2082 product selectivity",
+        "start_index": 28234,
+        "end_index": 28614
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Figure 5D displays the Cl 2p spectra, where the consistent binding energies before and after electrolysis confirm that chloride ions remain anchored to the catalyst surface, preventing leaching during prolonged CO\u2082 reduction. This stable Cl environment is crucial for suppressing hydrogen evolution (HER) and increasing the local CO concentration, favoring C-C coupling",
+        "start_index": 28614,
+        "end_index": 28985
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The C 1s spectra in Figure 5E reveal the presence of C\u2013C/C=C and C\u2013F species of PTFE coated GDL, and C-F species are from PTFE coated GDL.",
+        "start_index": 28985,
+        "end_index": 29125
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Figure 5F shows the K 2s spectra of the post-CO\u2082 electrolysed CTC-65, confirming the adsorption of K\u207a ions from the KOH electrolyte, which likely contribute to electrostatic stabilisation of CO\u2082 reduction intermediates. The presence of K\u207a ions emphasize the significance of the KOH electrolyte in facilitating CO\u2082 electrolysis using CTC-type halide-based electrocatalysts",
+        "start_index": 29125,
+        "end_index": 29496
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These observations collectively demonstrate the synergistic roles of Sn and Cl in stabilising key intermediates and optimising the electronic structure of the CTC catalysts, leading to enhanced selectivity and efficiency for C\u2082 hydrocarbon production. The XPS analysis further confirms the successful incorporation of Cu, Sn, and Cl species into the Cu\u2082O/SnCl\u2084 GDE which is in correspondence with the SEM elemental mapping.",
+        "start_index": 29496,
+        "end_index": 29921
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3.3 Electrochemical CO\\textsubscript{2} reduction activity: To explore the electrochemical properties of the Cu\\textsubscript{2}O and CTC-65 electrodes, cyclic voltammetry was employed in a three-electrode system (Figures 6A and 6B)",
+        "start_index": 29921,
+        "end_index": 30153
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The cyclic voltammograms of Cu\\textsubscript{2}O and CTC-65 was recorded in 1 M KOH electrolyte in the potential range from \u22122.5 V to +1.0 V (vs. Ag/AgCl) with a scan rate of 50 mV s\\textsuperscript{\u22121}",
+        "start_index": 30153,
+        "end_index": 30357
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". From figure 6B, the Cu\\textsubscript{2}O shows two reduction peaks with cathodic peak potential (E\\textsubscript{pc}) values of \u22120.45 and \u22120.98 V vs. Ag/AgCl, which can be assigned to the reduction of Cu\\textsuperscript{2+}/Cu\\textsuperscript{+} and Cu\\textsuperscript{+}/Cu, respectively",
+        "start_index": 30357,
+        "end_index": 30647
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".\\textsuperscript{56} During the reverse scan, two oxidation peaks of \u22120.36 and \u22120.05 V vs. Ag/AgCl were observed. The first anodic peak (E\\textsubscript{pa} \u22120.37 V) is associated with the oxidation peak of Cu/Cu\\textsuperscript{+} while the second peak (\u22120",
+        "start_index": 30647,
+        "end_index": 30905
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".05 V) is associated with the Cu\\textsuperscript{+}/Cu\\textsuperscript{2+}",
+        "start_index": 30905,
+        "end_index": 30979
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". For CTC-65 electrode, more pronounced cathodic peaks related to Cu\\textsuperscript{2+}/Cu\\textsuperscript{+} and Cu\\textsuperscript{+}/Cu and anodic peaks related to Cu/Cu\\textsuperscript{+} and Cu\\textsuperscript{+}/Cu\\textsuperscript{2+} are positively shifted with an additional peak at \u22120.74 V vs",
+        "start_index": 30979,
+        "end_index": 31281
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Ag/AgCl corresponding to reduction of Sn (Sn\\textsuperscript{2+}/Sn).\\textsuperscript{56} The positive shift in the redox peaks of Cu in CTC-65 can be ascribed to the interaction of Cl\\textsuperscript{\u2212} ions with the Cu electrode.",
+        "start_index": 31281,
+        "end_index": 31514
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The electrochemical CO\\textsubscript{2} reduction activity of CTC-65 was evaluated using CV in 1 M KOH aqueous electrolyte, providing insights into its superior catalytic performance. As shown in the CV curves collected in CO\\textsubscript{2}- and N\\textsubscript{2}-saturated electrolytes (Figure 6A), CTC-65 exhibits\n\n---",
+        "start_index": 31514,
+        "end_index": 31837
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "**Figure 5.** X-Ray photoelectron spectra of C1s, Cu2p, Sn3d, Cl2p and survey of CTC-65 GDE.",
+        "start_index": 31837,
+        "end_index": 31929
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "significantly higher current density (232 mA cm$^{-2}$ at -1.0 V$_{RHE}$) compared to the Cu$_2$O GDE, demonstrating its enhanced activity for CO$_2$ER. In the CO$_2$-saturated electrolyte, a pronounced increase in current density is observed for CTC-65, highlighting its efficient catalytic activity toward CO$_2$ER",
+        "start_index": 31929,
+        "end_index": 32245
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The reduction activity was further evaluated as the potential was scanned toward negative values. A reduced current density was initially observed, attributed to the competition between the hydrogen evolution reaction (HER) and CO$_2$ER. However, a sharp increase in current density was recorded at potentials more negative than -0.45 V (vs. RHE), confirming the activation of CO$_2$ER on the CTC-65 electrode. Notably, the current density significantly increased at potentials beyond -0",
+        "start_index": 32245,
+        "end_index": 32734
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".75 V (vs. RHE), where CO$_2$ER becomes dominant, as Cl$^-$ ions play a dual role. At lower overpotentials, Cl$^-$ suppresses competing reactions such as HER, delaying the onset of reduction activity, but at higher overpotentials, it enhances the reduction of CO$_2$, enabling the formation of hydrocarbons.",
+        "start_index": 32734,
+        "end_index": 33041
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "This is corroborated by the low Tafel slopes for ethane and ethylene production (Figures 6C and D), which indicate efficient charge transfer kinetics and high catalytic activity, aligning well with the Faradaic efficiency (FE) results from Figure 1. The addition of SnCl$_4$ to Cu$_2$O significantly boosts CO$_2$ reduction activity by improving the electronic environment of the catalyst and creating active sites conducive to C-C bond formation",
+        "start_index": 33041,
+        "end_index": 33487
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Furthermore, the higher electrochemical double-layer capacitance ($C_{dl}$) of 21.2 mF/cm$^2$ (Figures 6E and F) reflects a larger electrochemical surface area, which facilitates enhanced adsorption and activation of CO$_2$ intermediates",
+        "start_index": 33487,
+        "end_index": 33726
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These properties drive the selective production of valuable C$_2$ hydrocarbons, such as ethane and ethylene, confirming the superior performance of CTC-65 as a catalyst for CO$_2$ER. This systematic progression of activity, selectivity, and surface area contributions creates a cohesive understanding of the role of SnCl$_4$ in transforming Cu$_2$O into an efficient and selective catalyst for CO$_2$ reduction.",
+        "start_index": 33726,
+        "end_index": 34139
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Figure 6. (A) CV polarization curves of Cu$_2$O and CTC-65 electrodes scanned from potential range of -2.0 to +0",
+        "start_index": 34139,
+        "end_index": 34251
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".5 V$_{RHE}$ with a 50 mV s$^{-1}$ scan rate under N$_2$ and CO$_2$ flow in 1 M KOH electrolyte; and (B) cyclic voltammogram of CTC-65 under N$_2$ flow; (C), (D) Dependence of partial current density of ethane and ethylene on overpotential; (E) Electrochemical active surface area of CTC-65; and",
+        "start_index": 34251,
+        "end_index": 34546
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "(F) Electrochemical double layer capacity of CTC-65 GDE",
+        "start_index": 34546,
+        "end_index": 34601
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Constant potential electrolysis was performed on Cu$_2$O and all CTC electrodes at potentials of -0.5 V, -0.65 V, -0.75 V, -0.85 V and -1.0 V (vs RHE) in a gastight three-electrode CO$_2$ electrolyser flow cell, with their total current densities ($I_{tot}$) presented in Figure 7A. The",
+        "start_index": 34601,
+        "end_index": 34887
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Electrocatalytic CO\u2082 reduction results for the CTC-65 electrodes at various potentials are shown in Figure 7B. Initially, the CTC-65 electrodes exhibited a high geometric current density, with a recorded total current density (j_{tot}) of 74.8 mA cm\u207b\u00b2 for 3600 seconds at \u22121 V vs. RHE, corresponding to the reduction of Cu\u2082O/SnCl\u2084 into CuSn structures",
+        "start_index": 34887,
+        "end_index": 35238
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Following this transformation, the electrode achieved a stable current density during electrolysis. At a potential of \u22120.5 V vs. RHE, the CTC-65 electrode demonstrated a stable j_{tot} with a FE of 41.8% for CO and 1.6% for HCOOH production. At a more negative potential of \u22120.65 V vs. RHE, j_{tot} increased, with corresponding FEs of 27",
+        "start_index": 35238,
+        "end_index": 35578
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".6% for CO, 2.2% for HCOOH, and 13.7% for CH\u2084 production. At \u22120.75 V vs. RHE, ethane production became significant, with an FE of 16.4% alongside FEs of 24%, 22.9%, and 3.7% for CO, CH\u2084, and HCOOH, respectively, at an increased current density",
+        "start_index": 35578,
+        "end_index": 35821
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Notably, a peak FE of 34.8% for C\u2082H\u2086 production was observed at \u22121 V vs. RHE, accompanied by an FE of 11.3% for C\u2082H\u2084 production (Figure 1A). This corresponds to an overpotential of only 40 mV relative to the equilibrium potential for the CO\u2082/C\u2082H\u2086 reaction (0.554 V vs. RHE)",
+        "start_index": 35821,
+        "end_index": 36096
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Additionally, the FE for C\u2082H\u2086 production on the CTC-65 electrode remained relatively stable over time, indicating consistent catalytic activity for CO\u2082 reduction. These results highlight the efficiency and stability of the CTC-65 electrode in selectively converting CO\u2082 into C\u2082 hydrocarbons during electrocatalysis",
+        "start_index": 36096,
+        "end_index": 36412
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Figure 7C illustrates the FEs of C\u2082 products, including both C\u2082H\u2086 and C\u2082H\u2084, generated during CO\u2082 electrolysis at negative potentials of 0.75 V, 0.85 V, and 1.00 V vs. RHE, along with their corresponding partial current densities. At \u22121.00 V vs. RHE, the partial current density for C\u2082 products reaches 34",
+        "start_index": 36412,
+        "end_index": 36718
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".48 mA cm\u207b\u00b2, indicating that C\u2082H\u2086 and C\u2082H\u2084 production accounts for nearly half of the total current density (74.8 mA cm\u207b\u00b2). This demonstrates that higher negative potentials significantly enhance the formation of C\u2082 products during CO\u2082 reduction on CTC electrodes",
+        "start_index": 36718,
+        "end_index": 36981
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These results emphasize the favorable role of more negative potentials in facilitating C\u2013C bond formation, which is crucial for achieving selective and efficient conversion of CO\u2082 into valuable C\u2082 hydrocarbons.",
+        "start_index": 36981,
+        "end_index": 37193
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The EIS in figure 7D provides insights into charge transfer resistance (R_{ct}) and interfacial properties during CO\u2082 electroreduction at various cathodic potentials of CTC-65. The Nyquist plots exhibit a clear trend of decreasing R_{ct} as the applied potential becomes more negative, indicating enhanced charge transfer kinetics facilitated by the presence of surface-bound chloride species. At lower potentials (-0.55 V to -0",
+        "start_index": 37193,
+        "end_index": 37621
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".65 V), higher R_{ct} values suggest initial limitations in electron transfer, likely due to the adsorbed chloride layer restructuring the electrode interface. As the potential shifts more negative (-0.85 V to -1.00 V), R_{ct} significantly decreases, corresponding to an improved catalytic process where chloride ions stabilize CO\u2082",
+        "start_index": 37621,
+        "end_index": 37953
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "reduction intermediates, particularly CO, and promote C-C coupling reactions essential for C\u2082 hydrocarbon formation. The equivalent circuit model (inset) includes a constant phase element (C_{CPE}), which accounts for surface heterogeneity introduced by Sn and Cl modifications",
+        "start_index": 37953,
+        "end_index": 38230
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The excellent fit between experimental data and the modeled impedance response further confirms that the preloaded chloride layer modulates the electrode-electrolyte interface, reduces hydrogen evolution side reactions, and enhances CO\u2082 electroreduction selectivity toward ethane and ethylene. These findings corroborate with Faradaic efficiency trends and structural characterizations (XRD, XPS, Raman), reinforcing the role of SnCl\u2084-derived chloride in stabilizing active sites and improving long-term catalytic performance.",
+        "start_index": 38230,
+        "end_index": 38758
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "**Figure 7",
+        "start_index": 38758,
+        "end_index": 38768
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".** (A) Total current density profiles for Cu\u2082O, CTC-20, CTC-42, CTC-65, and CTC-80 electrodes at various potentials; (B) Constant potential electrolysis of CTC-65 at various potentials over 3600 seconds; (C) Faradaic efficiencies of C\u2082 products at various potentials with their corresponding partial current densities; and (D) Electrochemical Impedance spectra of CTC-65 GDE at various",
+        "start_index": 38768,
+        "end_index": 39154
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "potentials after CO\u2082 electrolysis",
+        "start_index": 39154,
+        "end_index": 39187
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".",
+        "start_index": 39187,
+        "end_index": 39188
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3.4 Mechanism involved in CO$_2$ reducing to hydrocarbons:",
+        "start_index": 39188,
+        "end_index": 39246
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "From XRD, Raman, SEM, XPS and EIS analyses, it is confirmed that the Cu$_2$O/GDE electrodes contain Sn and Cl species in the form of metal oxychlorides and metal hydroxy chlorides. These chloride ions are physically adsorbed on the surface of CTC-65 electrodes, significantly influencing CO$_2$ electoreduction in an alkaline environment, as shown in Figure 8",
+        "start_index": 39246,
+        "end_index": 39605
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These adsorbed Cl$^-$ ions create a more negative electrode environment, facilitating electron transfer to the CO$_2$ molecule and stabilizing the CO$_2$ radical. Additionally, the large ionic radius of Cl$^-$ (0.181 nm) effectively inhibits proton adsorption, minimizing hydrogen evolution side reactions",
+        "start_index": 39605,
+        "end_index": 39912
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".$^{22,57}$ This aligns with the established role of M-X bonds (X = halogen, M = metal) in enhancing electron transport to CO$_2$ while limiting proton adsorption. This mechanism is further supported by EIS measurements, showing increased charge transfer at varying potentials",
+        "start_index": 39912,
+        "end_index": 40188
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In CO$_2$-saturated 1 M KOH electrolyte, Cl$^-$ ions promote a nucleophilic reaction with CO$_2$, enhancing local electron density and enabling CO$_2$ activation",
+        "start_index": 40188,
+        "end_index": 40351
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". According to the double-layer model, Cl$^-$ resides on the inner Helmholtz plane, while solvated K$^+$ ions (Figure 5F) occupy the outer Helmholtz plane, facilitating unidirectional electron flow from Cl$^-$ to CO$_2$ and then to K$^+$. This unique double-layer configuration enhances CO$_2$ activation and reduction, facilitating efficient C-C coupling for hydrocarbon formation",
+        "start_index": 40351,
+        "end_index": 40732
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The nucleophilic attack by Cl$^-$ weakens the C-O bond, chemically activating CO$_2$ and influencing subsequent electrochemical reduction steps. This strategic modulation of the electronic environment explains the enhanced selectivity towards C$_2$ hydrocarbons such as ethane and ethylene, demonstrating the pivotal role of adsorbed Cl$^-$ ions in driving CO$_2$ electoreduction on CTC-based electrodes.",
+        "start_index": 40732,
+        "end_index": 41138
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "![Schematic representation of CO activation on CTC catalysts in KOH electrolyte.](https://doi.org/10.26434/chemrxiv-2025-8fxq)\n\n**Figure 8.** Schematic representation of CO activation on CTC catalysts in KOH electrolyte.",
+        "start_index": 41138,
+        "end_index": 41358
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The C$_2$ hydrocarbon formation pathway on the CTC catalysts is primarily governed by the CO intermediate, as supported by the Faradaic efficiency trends and Tafel slope analysis. The FE results in Figure 1 reveal that at lower potentials, CO is the dominant product, but its concentration decreases at more negative potentials, coinciding with a rise in C$_2$ hydrocarbon formation, including ethane and ethylene. This trend suggests that CO is consumed as an",
+        "start_index": 41358,
+        "end_index": 41818
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "intermediate in C\u2082 product formation. The simultaneous decrease in CO and increase in C\u2082 hydrocarbons indicates a CO dimerization mechanism, where CO molecules couple to form C\u2082 intermediates that subsequently undergo hydrogenation to produce ethane and ethylene. The constant concentration of HCOOH across all potentials confirms that the HCOOH pathway is independent and does not contribute to C\u2082 hydrocarbon formation, further validating the CO dimerization pathway as the primary route for C\u2082 product formation",
+        "start_index": 41818,
+        "end_index": 42332
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".",
+        "start_index": 42332,
+        "end_index": 42333
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Tafel slope analysis (Figure 7D) provides additional mechanistic insights by revealing distinct rate-determining steps (RDS) for ethane and ethylene. Specifically, the Tafel slopes for ethane (92.3 mV/dec) and ethylene (108.8 mV/dec) on the CTC-65 catalyst indicate efficient charge transfer kinetics but distinct RDS for each C\u2082 product",
+        "start_index": 42333,
+        "end_index": 42670
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The lower Tafel slope for ethane suggests that the RDS is the protonation of CO dimers, which aligns with a hydrogenation pathway. This is facilitated by Cl ions that stabilise CO intermediates, enhancing the local CO concentration and promoting hydrogenation to ethane.\u2075\u2078 Conversely, the higher Tafel slope for ethylene suggests that C-C coupling is the RDS, involving CO dimerization followed by dehydrogenation",
+        "start_index": 42670,
+        "end_index": 43085
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This aligns with the role of Sn species, which enhance CO binding strength and promote C-C coupling through electronic modifications of the Cu surface.\u2075\u2079,\u2076\u2070",
+        "start_index": 43085,
+        "end_index": 43243
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "These observations indicate a CO dimerization mechanism facilitated by Cl ions, which stabilise CO intermediates and enhance local CO concentration, promoting C-C coupling. The presence of Sn species modifies the electronic structure of Cu, influencing CO binding strength and promoting hydrogenation to ethane",
+        "start_index": 43243,
+        "end_index": 43553
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The distinct Tafel slopes for ethane and ethylene emphasize different rate-determining steps, confirming that ethane formation is governed by the protonation of CO dimers, while ethylene formation involves C-C coupling followed by dehydrogenation. The synergistic effects of Cu, Sn, and Cl enable efficient CO stabilisation, C-C coupling, and selective hydrogenation, leading to enhanced selectivity and efficiency for C\u2082 hydrocarbon formation on the CTC-65 catalyst",
+        "start_index": 43553,
+        "end_index": 44021
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This coherent mechanistic pathway not only elucidates the role of CO dimerization in driving C\u2082 hydrocarbon formation but also underlines the strategic interplay between adsorbed Cl\u207b ions and Sn species in modulating the electronic and catalytic properties of the CuSn-based system.",
+        "start_index": 44021,
+        "end_index": 44305
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Figure 9. PDOS spectra of CTC (A), CTC-CO (B), CTC-CO-K (C); and charge density profiles of CTC (D), CTC-CO (E), CTC-CO-K (F)",
+        "start_index": 44305,
+        "end_index": 44430
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Figure 9 compares the Projected Density of States (PDOS) of the CTC electrode under three conditions: without CO, with adsorbed CO, and with CO and additional potassium (K) from the KOH electrolyte, revealing key electronic structure modifications relevant to CO$_2$ reduction",
+        "start_index": 44430,
+        "end_index": 44706
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". In the absence of CO, the PDOS is dominated by the d-orbitals of Cu and the p-orbitals of Sn and Cl near the Fermi level, indicating good electron transfer capabilities but lacking sharp features indicative of strong adsorbate interactions (Figure 9A)",
+        "start_index": 44706,
+        "end_index": 44959
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Upon CO adsorption, from Figure 9B, significant shifts occur in the density of states, with new peaks emerging from p-orbitals of CO, interacting with d- and p-orbitals of Cu and Cl, respectively, signifying strong binding and electronic restructuring. The addition of K further modifies the PDOS, introducing new states near the Fermi level and enhancing CO stabilization, which is crucial for promoting hydrocarbon formation (Figure 9C)",
+        "start_index": 44959,
+        "end_index": 45399
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This electronic modulation facilitates selective C\u2013C coupling and hydrogenation, optimizing the catalytic efficiency of the CuSnCl electrode for CO$_2$ electroreduction toward ethylene and ethane.",
+        "start_index": 45399,
+        "end_index": 45597
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The charge densities for CuSnCl without adsorbates, with adsorbed CO, and with both CO and K from the KOH electrolyte reveal a progression in electron density localization indicating the role of each adsorbate in enhancing the catalytic activity of CuSnCl for CO$_2$ reduction. In the",
+        "start_index": 45597,
+        "end_index": 45881
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "bare CuSnCl profile (Figure 9D), the electron density is uniformly distributed across the surface, indicating no specific regions of high charge concentration, which suggests limited interaction sites for catalytic intermediates. With the addition of CO (Figure 9E), a pronounced increase in charge density is observed around the adsorbed CO molecule, indicating strong charge transfer between the CO and the CuSnCl (CTC) surface",
+        "start_index": 45881,
+        "end_index": 46310
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This localized electron density around CO stabilizes it as an intermediate, essential for further reduction steps. However, in Figure 9F, where both CO and K are adsorbed over CTC surface, an even greater concentration of electron density appears around the CO molecule and the K-CO interaction region. The presence of K enhances the stabilization of CO by further increasing electron density at the active site, which favors subsequent hydrogenation and C-C coupling steps",
+        "start_index": 46310,
+        "end_index": 46785
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". This sequential increase in charge density from CTC alone to CTC with CO and then with CO and K demonstrates how CO and K together create an optimized electronic environment, crucial for effective CO$_2$ reduction to hydrocarbons on the catalyst surface.",
+        "start_index": 46785,
+        "end_index": 47041
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "![Graph](https://example.com/graph.png)\n\n**Figure 10.** 24-Hour stability and ethane faradaic efficiency of CTC-65 GDE at -1 V vs. RHE.",
+        "start_index": 47041,
+        "end_index": 47176
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "From figure 10, the stability test for the CTC-65 electrode demonstrates remarkable durability and consistent catalytic performance for CO$_2$ electroreduction to ethane over a 24-hour period. As shown in the figure 10, the $J_{\\text{total}}$ remains stable at approximately $-75$ mA cm$^{-2}$ without significant fluctuations, indicating sustained catalytic activity under continuous electrolysis conditions",
+        "start_index": 47176,
+        "end_index": 47584
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Simultaneously, the FE for ethane remains consistently above 30%, fluctuating slightly between 31% and 35% throughout the 24-hour duration. This steady FE suggests that the active sites on the CTC-65 electrode are stable and resist deactivation, thereby maintaining high selectivity toward ethane formation.",
+        "start_index": 47584,
+        "end_index": 47893
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Collectively, the presence of Cu\u2082O, SnO\u2082, SnCl\u2082\u00b72H\u2082O, CuCl, and Sn(OH)Cl from XRD indicates that the electrode consists of multiple phases, each contributing uniquely to the catalytic process. The Cu\u2082O phase, supported by both XRD and XPS results, plays a significant role in C\u2013C coupling reactions, which is consistent with the electronic states depicted in the Figure 3",
+        "start_index": 47893,
+        "end_index": 48264
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". These states are likely associated with the Cu 3d orbitals, which are known to be crucial in stabilizing the *CO intermediates necessary for forming multi-carbon products like ethylene (C\u2082H\u2084) and ethane (C\u2082H\u2086). Raman spectroscopy further supports the presence of these phases and provides additional insights into the vibrational properties of the catalyst",
+        "start_index": 48264,
+        "end_index": 48622
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The identification of [SnCl\u2085]\u00b2\u207b complexes in the Raman spectrum suggests that chlorine, likely introduced through the SnCl\u2084\u00b75H\u2082O precursor, modifies the electronic environment of the catalyst. This modification is reflected in the Figure, where the interaction between the orbitals of tin, chlorine, and copper is shown to influence the distribution of electronic states",
+        "start_index": 48622,
+        "end_index": 48994
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The role of chlorine in stabilizing specific intermediates and potentially lowering the energy barriers for certain reaction pathways is crucial for the selectivity observed in CO\u2082 reduction.",
+        "start_index": 48994,
+        "end_index": 49187
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "The XPS data complement these findings by confirming the presence of both Sn\u00b2\u207a and Sn\u2074\u207a oxidation states and a predominance of Cu\u207a in Cu\u2082O. The electronic structure likely reflects these oxidation states, showing how they contribute to the overall catalytic mechanism",
+        "start_index": 49187,
+        "end_index": 49454
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Tin's dual oxidation states might explain the initial preference for single-carbon products like CO and formate (HCOOH) at less negative potentials, as these states can stabilize different reaction intermediates through electronic interactions with Cu and Cl. As the potential becomes more negative, the electronic states shift, favoring the formation of C-C bonds, leading to increased hydrocarbon production, as observed in the Faradaic efficiency data.",
+        "start_index": 49454,
+        "end_index": 49911
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "4. CONCLUSION",
+        "start_index": 49911,
+        "end_index": 49924
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "In conclusion, this work demonstrates the significant potential of SnCl\u2084 Lewis acid-modified Cu\u2082O as a highly efficient and selective catalyst for electrochemical CO\u2082 reduction in a flow cell electrolyser configuration. By introducing chloride ions directly onto the Cu\u2082O surface, the synergistic interactions between Sn, Cl, and Cu active sites were optimized, facilitating the stabilization of CO intermediates and promoting C-C bond formation for the selective production of C\u2082 hydrocarbons",
+        "start_index": 49924,
+        "end_index": 50417
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". The system achieved a peak Faradaic efficiency of 34.8% for ethane and 11.3% for ethylene at \u22121.0 V vs. RHE, with a stable total current density of 74.8 mA cm\u207b\u00b2. Supported by detailed mechanistic insights from PDOS, Raman, XPS, and EIS analyses, the study highlights the critical role of chloride ions in enhancing the catalytic",
+        "start_index": 50417,
+        "end_index": 50747
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "performance. Using a Fumasep bipolar membrane and a Pt mesh anode in the flow cell electrolyser, this scalable and economically viable catalyst design paves the way for sustainable CO$_2$ utilization and renewable hydrocarbon production, offering a promising pathway for carbon-neutral energy systems.",
+        "start_index": 50747,
+        "end_index": 51048
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "ASSCIATED CONTENT\n\nSupporting Information\n\n3D drawing of CO$_2$ electrolyser, synthesis and faradaic efficiencies of Cu$_3$Sn and Cu$_2$O, XRD, XPS, Raman, SEM analysis of Cu$_2$O and post CO$_2$ electrolysed CTC-65, and simulated band structures are available in supporting information.\n\nAUTHOR INFORMATION",
+        "start_index": 51048,
+        "end_index": 51355
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "Corresponding Authors\nTel.: +44 7471042866, +91 9445435743; E-mail address: sankeerthana999@gmail.com (Sankeerthana B.); and shahid.rasul@northumbria.ac.uk (Shahid Rasul).\n\nCONFLICT OF INTEREST\n\nThe authors declare no competing financial interest.\n\nACKNOWLEDGEMENT",
+        "start_index": 51355,
+        "end_index": 51619
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "This project has received funding from the Engineering & Physical Sciences Research Council - EP/X527257/1, Royce at Manchester Reference: MCAP072.\n\nREFERENCES",
+        "start_index": 51619,
+        "end_index": 51778
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "1. De Luna, P. et al. Science, 2019, 364, 350.\n2. AR6 Synthesis Report: Climate Change 2023, 2023.",
+        "start_index": 51778,
+        "end_index": 51876
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "3. S. J. Davis, N. S. Lewis, M. Shaner, S. Aggarwal, D. Arent, I. L. Azevedo, S. M. Benson, T. Bradley, J. Brouwer, Y. M. Chiang, C. T. M. Clack, A. Cohen, S. Doig, J. Edmonds, P. Fennell, C. B. Field, B",
+        "start_index": 51876,
+        "end_index": 52079
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Hannegan, B. M. Hodge, M. I. Hoffert, E. Ingersoll, P. Jaramillo, K. S. Lackner, K. J. Mach, M. Mastrandrea, J. Ogden, P. F. Peterson, D. L. Sanchez, D. Sperling, J. Stagner, J. E. Trancik, C. J. Yang, K. Caldeira, et al",
+        "start_index": 52079,
+        "end_index": 52301
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "., Science, 2018, 360(6396), eaas9793.",
+        "start_index": 52301,
+        "end_index": 52339
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "4. Climate.gov, Climate Change: Atmospric Carbon Dioxide (2024).\n5. European Environment Agency, Climate Change Mitigation: reducing emissions, 2024.",
+        "start_index": 52339,
+        "end_index": 52488
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "6. D. L. McCollum, W. Zhou, C. Bertram, H.-S. de Boer, V. Bosetti, S. Busch, J. Despr\u00e9s, L. Drouet, J. Emmerling, M. Fay, O. Fricko, S. Fujimori, M. Gidden, M. Harmsen, D. Huppmann, G. Iyer, V",
+        "start_index": 52488,
+        "end_index": 52680
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Krey, E. Kriegler, C. Nicolas, S. Pachauri, S. Parkinson, M. Poblete-Cazenave, P. Rafaj, N. Rao, J. Rozenberg, A. Schmitz, W. Schoepp, D. van Vuuren and K. Riahi, Nat. Energy, 2018, 3, 589\u2013599.",
+        "start_index": 52680,
+        "end_index": 52875
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "7. O. S. Bushuyev, P. De Luna, C. T. Dinh, L. Tao, G. Saur, J. van de Lagemaat, S. O. Kelley and E. H. Sargent, Joule, 2018, 2, 825\u2013832.",
+        "start_index": 52875,
+        "end_index": 53011
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "8. A. S. Agarwal, Y. Zhai, D. Hill and N. Sridhar, ChemSusChem, 2011, 4, 1301\u20131310.\n9. D. Higgins, C. Hahn, C. Xiang, T. F. Jaramillo and A. Z. Weber, ACS Energy Lett., 2019, 4, 317\u2013324.",
+        "start_index": 53011,
+        "end_index": 53197
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "10. M. Zhong, K. Tran, Y. Min, C. Wang, Z. Wang, C. T. Dinh, P. D. Luna, Z. Yu, A. S. Rasouli, P. Brodersen, S. Sun, O. Voznyy, C. S. Tan, M. Askerka, F. Che, M. Liu, A. Seifitokaldani, Y. Pang, S",
+        "start_index": 53197,
+        "end_index": 53393
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". C, Lo, A. Ip, Z. Ulissi, H. S. Edward, Nature, 2020, 581, 178\u2013183.",
+        "start_index": 53393,
+        "end_index": 53461
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "11. S. Man, W. Jiang, X. Guo, O. Ruzimuradov, S. Mamatkulov, S. Mamatkulov, Chem. Mater., 2024, 36, 1793\u20131809.\n12. D. W. Green, R. H. Perry, Perry\u2019s Chemical Engineer\u2019s Handbook, Eighth Edition, McGraw-Hill Education, 2007.",
+        "start_index": 53461,
+        "end_index": 53684
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "13. A.D. Handoko, K. W. Chan, B. S. Yeo, ACS Energy Lett., 2017, 2, 2103-2109.\n14. M. Ma, K. Djanashvili, W. A. Smith, Angew. Chem. Int. Ed., 2016, 55, 6680-6684.",
+        "start_index": 53684,
+        "end_index": 53846
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "15. A. Dutta, M. Rahaman, N. C. Luedi, P. Broekman, ACS Catal., 2016, 6, 3804-3814",
+        "start_index": 53846,
+        "end_index": 53928
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "16. K. D. Yang, W. R. Ko, J. H. Lee, S. J. Kim, H. Lee, M. H. Lee, K. T. Nam, Angew. Chem. Int. Ed., 2017, 56, 796-800.\n17. J. Hussain, H. Jonsson, E. Skulason, ACS Catal., 2018, 8, 5240-5249.",
+        "start_index": 53928,
+        "end_index": 54120
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "18. A. Vasileff, Y. Zhu, X. Zhi, Y. Zhao, L. Ge, H. M. Chen, Y. Zheng, S. Qiao, Angew. Chem. Int. Ed., 2020, 59, 19649-19653.",
+        "start_index": 54120,
+        "end_index": 54245
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "19. P. Chen, P. Zhang, X. Kang, L. Zheng, G. Mo, R. Wu, J. Tai, B. Han, J. Am. Chem. Soc. 2022, 144, 14769\u201314777.",
+        "start_index": 54245,
+        "end_index": 54358
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "20. C. Kim, T. Eom, M. S. Jee, H. Jung, H. Kim, B. K. Min, Y. J. Hwang, ACS Catal. 2017, 7, 779\u2013785.\n21. T. Chen, J. Hu, K. Wang, K. Wang, G. Gan, J. Shi, Energy Fuels, 2021, 35, 17784\u201317790.",
+        "start_index": 54358,
+        "end_index": 54549
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-8fxq ORCID: https://orcid.org/0000-0002-5271-9717 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 54549,
+        "end_index": 54695
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "22. M. Zhao, H. Tang, Q. Yang, Y. Gu, H. Zhu, S. Yan, Z. Zou, *ACS Appl. Mater. Interfaces* 2020, **12**, 4565\u20134571.",
+        "start_index": 54695,
+        "end_index": 54811
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "23. J. J. Masana, B. Peng, Z. Shuai, M. Qiu, Y. Yu, *J. Mater. Chem. A*, 2022, **10**, 1086-1104.\n\n24. M. Cho, J. T. Song, S. Back, Y. Jung, J. Oh, *ACS Catal.*, 2018, **8**, 1178\u20131185.",
+        "start_index": 54811,
+        "end_index": 54996
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "25. S. Li, X. Dong, Y. Zhao, J. Mao, W. Chen, A. Chen, Y. Song, G. Li, Z. Jiang, W. Wei, Y. Sun, *Angew. Chem.*, 2022, **134**, e202210432.",
+        "start_index": 54996,
+        "end_index": 55135
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "26. M. Zhao, H. Tang, Q. Yang, Y. Gu, H. Zhu, S. Yan, Z. Zou, *ACS Appl. Mater. Interfaces* 2020, **12**, 4565\u20134571.",
+        "start_index": 55135,
+        "end_index": 55251
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "27. Y. C. Hsieh, S. D. Senanayake, Y. Zhang, W. Xu, D. E. Polyansky, *ACS Catal.* 2015, **5**, 5349\u20135356.\n\n28. A. S. Varela, W. Ju, T. Reier, P. Strasser, *ACS Catal.*, 2016, **6**, 2136\u20132144.",
+        "start_index": 55251,
+        "end_index": 55443
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "29. S. Nitopi, E. Bertheussen, S. B. Scott, X. Liu, A. K. Engstfeld, S. Horch, B. Seger, I. E. L. Stephens, K. Chan, C. Hahn, J. K. N\u00f8rskov, T. F. Jaramillo, I. Chorkendorff, *Chem. Rev",
+        "start_index": 55443,
+        "end_index": 55628
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ".* 2019, **119**, 7610\u20137672.",
+        "start_index": 55628,
+        "end_index": 55656
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "30. D. Gao, F. Scholten, B. R. Cuena, *ACS Catal.* 2017, **7**, 5112\u20135120.",
+        "start_index": 55656,
+        "end_index": 55730
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "31. T. Yuan, T. Wang, G. Zhang, W. Deng, D. Cheng, H. Gao, J. Zhao, J. Yu, P. Zhang, J. Gong, *Chem. Sci.*, 2022, **13**, 8117\u20138123.\n\n32. T. Burdyny, W. A. Smith, *Energy Environ. Sci.*, 2019, **12**, 1442-1453.",
+        "start_index": 55730,
+        "end_index": 55941
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "33. (a) P. Giannozzi, S. Baroni, N. Bonini, M. Calandra, R. Car, C. Cavazzoni, D. Ceresoli, G. L. Chiarotti, M. Cococcioni, I. Dabo, A. Dal Corso, S. Fabris, G. Fratesi, S. De Gironcoli, R. Gebauer, U. Gerstmann, C",
+        "start_index": 55941,
+        "end_index": 56155
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Gougoussis, A. Kokalj, M. Lazzeri, L. Martin-Samos, N. Marzari, F. Mauri, R. Mazzarello, S. Paolini, A. Pasquarello, L. Paulatto, C. Sbraccia, S. Scandolo, G. Scilauzero, A. P. Seitsonen, A. Smogunov, P",
+        "start_index": 56155,
+        "end_index": 56359
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": ". Umari, R. M. Wentzcovitch, *J. Phys.: Condens. Matter* 2009, **21**, 395502. (b) F. Molani, S. Jalili, J. Schofield, *J. Mol. Model.* 2015, **21**, 4.",
+        "start_index": 56359,
+        "end_index": 56511
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "34. T. Zou, F.L.P. Veenstra, E. I.Al\u00e9, R. G.Muelas, G. Zichittella, A.J. Mart\u00edn, N. L\u00f3pez, J. P. Ram\u00edrez, *Cell Rep Phys Sci.*, 2023, **4**, 101294.",
+        "start_index": 56511,
+        "end_index": 56659
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "35. Q. Zhang, L. Huang, S. Kang, C. Yin, Z. Ma, L. Cui, Y. Wang, *RSC Adv.*, 2017, **7**, 43642.",
+        "start_index": 56659,
+        "end_index": 56755
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "36. H. Xiang, S. Rasul, B. Hu, J. Portoles, P. Cumson, E. H. Yu, *ACS Appl. Mater. Interfaces* 2020, **12**, 601\u2013608.",
+        "start_index": 56755,
+        "end_index": 56872
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "37. C. Akyil, G. Akdas, P. Afsin, M. Urgen, *Mater. Chem. Phys.*, 2019, **221**, 263\u2013271.",
+        "start_index": 56872,
+        "end_index": 56961
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "38. T. Wang, J. Chen, X. Ren, J. Zhang, J. Ding, Y. Liu, K. H. Lim, J. Wang, X. Li, H. Yang, Y. Huang, S. Kawi, and B. Liu, Angew. Chem. Int. Ed., 2023, 62, e202211174.",
+        "start_index": 56961,
+        "end_index": 57129
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "39. J. Wang, S. Liu, X. Cao, Z. Wang, Y. Guo, X. Li, C. Liu, W. Jiang, H. Wang, N. Wang, S. Wu, H. Tao, W. Ding, Appl. Phys. A. 2020, 126:44, 1-7.",
+        "start_index": 57129,
+        "end_index": 57275
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "40. M. Chmielov\u00e1, J. Seidlerov\u00e1, Z. Weiss, Corros. Sci., 2003, 45, 883\u2013889.\n41. A. F. Shihada, A. S. Abushamlesh, F. Weller, Z. Anorg., Allg. Chem. 2004, 630, 841-847.",
+        "start_index": 57275,
+        "end_index": 57442
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "42. X. D. Liu, X. G. Zheng, D. D. Meng, X. L. Xu, Q. X. Guo, J. Phys.: Condens. Matter, 2013, 25, 256003.\n43. I. M. Chou, R. Wang, J. Fang, Geochem, Persp. Let., 2021, 20, 1\u20135.",
+        "start_index": 57442,
+        "end_index": 57618
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "44. C. S. Gopinath, J. Chem. Soc., Faraday Trans., 1996, 92, 3605-3610.",
+        "start_index": 57618,
+        "end_index": 57689
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "45. Y. A. Teterin, M. I. Sosulnikov, V. I. Ozhogin, T. M. Senchenkova, N. S. Tolmacheva, L.D. Shustov, Physiea C, 1991, 185-189, 837-838.",
+        "start_index": 57689,
+        "end_index": 57826
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "46. D. Ferrah, A. R. Haines, R. P. Galhenage, J. P. Bruce, A. D. Babore, A. Hunt, I. Waluyo, J. C. Hemminger, ACS Catal. 2019, 9, 6783\u20136802.",
+        "start_index": 57826,
+        "end_index": 57966
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "47. M. Li, X. Tian, S. Garg, T. E. Rufford, P. Zhao, Y. Wu, A. J. Yago, L. Ge, V. Rudolph, G. Wang, ACS Appl. Mater. Interfaces 2020, 12, 22760\u201322770.",
+        "start_index": 57966,
+        "end_index": 58116
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "48. E. Castillo, A. F. Pasha, Z. I. Larson, N. Dimitrov, Mater. Adv., 2024, 5, 2285-2295.",
+        "start_index": 58116,
+        "end_index": 58205
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "49. S. Go, W. Kwon, D. Hong, T. Lee, S. H. Oh, D. Bae, J. H. Kim, S. Lim, Y. C. Joo, D. H. Nam, Nanoscale Horiz., 2024, Advance Article.",
+        "start_index": 58205,
+        "end_index": 58341
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "50. L. Yu, X. Ba, M. Qiu, Y. Li, L. Shuai, W. Zhang, Z. Ren, Y. Yu, Nano Energy, 2019, 60, 576\u2013582.\n51. B. Sankeerthana, R. Shanmugam, G. Ranga Rao, J. Mater. Chem. A, 2019, 7, 3757-3771.",
+        "start_index": 58341,
+        "end_index": 58528
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "52. G. Cunge, B. Pelissier, O. Joubert, R. Ramos, C. Maurice, Plasma Sources Sci. Technol., 2005, 14, 599\u2013609.\n53. G. H. Yang, Y. Zhang, E. T. Kang, K. G. Neoh, Phys. Chem. B, 2003, 107, 2780-2787.",
+        "start_index": 58528,
+        "end_index": 58725
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "54. K. Yang, R. Kas, W. A. Smith, T. Burdyny, ACS Energy Lett. 2021, 6, 33\u201340.\n55. A. Pramanik, A. G. Manche, R. Clulow, P. Lightfoot, A. R. Armstrong, Dalton Trans., 2022, 51, 12467-12475.",
+        "start_index": 58725,
+        "end_index": 58914
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "56. A. L.S. Eh, J. Chen, S. H. Yu, G. Thangavel, X. Zhou, G. Cai, S. Li, D. H. C. Chua, P. S. Lee, Adv. Sci., 2020, 7, 1903198.",
+        "start_index": 58914,
+        "end_index": 59041
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "57. J.O\u2019M. Bockris, B.E. Conway, E. Yeager, Plenum Press, New York, 1980.\n58. O. van der Heijden, S. Park, R. E. Vos, J. J. J. Eggebeen, M. T. M. Koper, *ACS Energy Lett.* 2024, 9, 1871\u20131879.",
+        "start_index": 59041,
+        "end_index": 59232
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "59. Nicholas B. Watkins, Zachary J. Schiffer, Yungchieh Lai, Charles B. Musgrave III, Harry A. Atwater, William A. Goddard III, Theodor Agapie, Jonas C. Peters, John M. Gregoire, *ACS Energy Lett.* 2023, 8, 2185\u20132192.",
+        "start_index": 59232,
+        "end_index": 59449
+    },
+    {
+        "document_name": "20.txt",
+        "chunk_text": "60. M. K. Birhanu, B. \u00dcnvero\u011flu Abdioglu, A. U\u00e7ar, *Catal. Sci. Technol.*, 2025, 15, 262-317.",
+        "start_index": 59449,
+        "end_index": 59542
+    }
+]

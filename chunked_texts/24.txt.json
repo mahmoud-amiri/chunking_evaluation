@@ -1,0 +1,752 @@
+[
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Electrochemical Synthesis of Size-Tuned Carbon-Coated Stanene Quantum Dots at Room Temperature for High-Performance Lithium-Ion Batteries\n\nBikash Ranjan Isaac, S. Sreedee, Sankeerth Satish, Subbiah Alwarappan, and Vijayamohan K. Pillai",
+        "start_index": 0,
+        "end_index": 235
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "[a] Bikash Ranjan Isaac, S. Sreedee, Sankeerth Satish and Vijayamohan K. Pillai\nDepartment of Chemistry, Indian Institute of Science Education and Research, Tirupati\nKarakambadi Road, Ramireddy Nagar, Mangalam, Tirupati, Andhra Pradesh 517507, India\nEmail: vijay@iisertirupati.ac.in",
+        "start_index": 235,
+        "end_index": 517
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "[b] Subbiah Alwarappan\nElectrodics and Electro catalysis Division, CSIR-Central Electrochemical Research Institute, Karaikudi, Tamilnadu,630003, India\nEmail: alwarappan@cecri.res.in\n\nAUTHOR INFORMATION\n\nCorresponding Author\nVijayamohan K. Pillai\nDepartment of Chemistry, Indian Institute of Science Education and Research, Tirupati\nABSTRACT",
+        "start_index": 517,
+        "end_index": 857
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Quantum Dots have received extensive attention recently, paving the way for exploring their utility due to their intriguing size-dependent properties, solubility manipulation, and susceptibility to surface modification/doping. Among all types of quantum dots, Stanene is a topological insulator exhibiting enhanced spin-orbit coupling, making it a promising zero-dimensional material with augmented optical and electrical properties. Given these exceptional characteristics, the development of efficient methods to synthesize Stanene quantum dots with precise size distribution is of significant interest",
+        "start_index": 857,
+        "end_index": 1461
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". We report the electrochemical transformation of Tin powder to carbon-coated stanene quantum dots at room temperature in a non-aqueous media. Ultraviolet-visible and photoluminescence spectroscopy results confirm the size-dependent properties of stanene quantum dots. Transmission electron micrographs, powder X-ray diffraction, and Fourier transform infrared analysis further supplement the size-dependent properties of these quantum dots, which are potential candidates for applications in catalysis, sensors, energy storage and medical imaging",
+        "start_index": 1461,
+        "end_index": 2008
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". For example, a Li-ion battery fabricated using the anode reveals a stable capacity of 260 mAh g\\(^{-1}\\) consistently after coupling with a standard cathode like lithium in an electrolyte of LiPF\\(_6\\) in ethylene carbonate (EC) and dimethyl carbonate (DMC).",
+        "start_index": 2008,
+        "end_index": 2268
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "**Keywords:** Electrochemical Synthesis, Size-Dependent, Stanene Quantum Dots, Tin, Energy Storage, Band-Gap Engineering",
+        "start_index": 2268,
+        "end_index": 2388
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "The quest for novel materials with exceptional electronic properties continues to drive innovation and exploration in the rapidly evolving nanotechnology landscape. Among these materials, quantum dots have emerged as a subject of intense investigation, captivating researchers with their intriguing electronic properties and potential applications in next-generation electronic devices.\\(^1\\) Quantum dots (QDs) are semiconducting nanoparticles, only a few nanometers in size (2 to 15 nanometers in diameter), having optical and electronic properties that differ from that of the bulk",
+        "start_index": 2388,
+        "end_index": 2972
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\(^2\\) QDs can emit light of various colors depending on their size/shape and possess promising diverse applications across multiple fields, driven by their unique properties derived from quantum confinement",
+        "start_index": 2972,
+        "end_index": 3180
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Moreover, the compatibility of tin with existing semiconductor technologies opens avenues for integrating SnQDs into electronic circuits, potentially enabling the development of faster, more energy-efficient devices, which trigger innovations in emerging fields like flexible electronics, biomedicine, energy storage, electrocatalysis, QLEDs, solar cells, and sensors.\\(^3\\)\u2013\\(^8\\).",
+        "start_index": 3180,
+        "end_index": 3564
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Tin exists as a tetragonal (\u03b2-Sn) or a cubic (\u03b1-Sn) allotrope at temperatures above and below approximately 13 \u00b0C, respectively.\\(^9\\) In addition to these well-known phases, tin has been reported",
+        "start_index": 3564,
+        "end_index": 3760
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "to have a transition from \u03b2-Sn to \u03b3-Sn (a simple hexagonal lattice) at 450 K. The band structure of tin varies significantly depending on its crystalline phase and the degree of dimensional confinement. For example, bulk Tin (White Tin or \u03b2-Tin) exhibits a tetragonal crystal structure and features partially filled conduction bands, allowing free movement of electrons, which accounts for its high electrical conductivity whereas gray Tin (\u03b1-Tin) behaves as a zero-gap semiconductor",
+        "start_index": 3760,
+        "end_index": 4243
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Its band structure is similar to that of silicon or germanium but with the conduction and valence bands nearly touching at the \u0393 point. This unique property arises from strong spin-orbit coupling and can ensue a transition to a topological insulator under certain conditions. Stanene, a 2-D monolayer of tin (ideal case) with a honeycomb lattice, exhibits remarkable properties",
+        "start_index": 4243,
+        "end_index": 4622
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The band structure of stanene depends on the degree of strain and the presence of substrates or functionalization. Intrinsically, stanene is predicted to be a topological insulator with a bandgap induced by spin-orbit coupling. In a pristine state, stanene exhibits a Dirac-like band structure near the Fermi level, resembling graphene",
+        "start_index": 4622,
+        "end_index": 4959
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". From the first principle study, the electrons are reported to be confined along the edges of stanene quantum dots which results in layer-dependent morphological, optical, and electronic properties. However, Tin nanoparticles of sizes below 11 nm can only be stable as \u03b3-Sn or \u03b2-Sn at any temperature as the large surface energy contributions stabilize these phases",
+        "start_index": 4959,
+        "end_index": 5325
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". For example, Tin nanoparticles have gained increasing attention in Li-based batteries as an anode material as Sn has a much higher capacity and confining to its nano dimension can also help mitigating the volume expansion than currently cripples the successful deployment of graphite-based anodes. However, 3-D materials like traditional tin and tin-based anode materials suffer from the limitations like tedious synthetic procedures, high costs and low yields",
+        "start_index": 5325,
+        "end_index": 5787
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Stanene, a two-dimensional allotrope of tin, exhibits remarkable properties making it an ideal candidate for exploring quantum confinement effects. As a finite arrangement of tin atoms,",
+        "start_index": 5787,
+        "end_index": 5974
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "stanene quantum dots (SnQDs), not only are relatively unexplored, but also offer a platform for studying and harnessing quantum phenomena in confined geometries exhibiting unique electronic and optical properties, and providing opportunities for tailoring their behaviour through precise control over size, shape, and composition. SnQDs have been synthesized by Zhang et al. by in-situ electrochemical self-assembly",
+        "start_index": 5974,
+        "end_index": 6389
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{19} Although this method for producing SnQDs is interesting, this ultrasonic-assisted self-assembly method combined with a fluid-flow control system is onerous for scalability and hence there is a need for a simpler form of synthesis of SnQDs using elemental tin as the starting material. Electrochemical methods are performed at room temperature, which makes the technique notable, and potentiostatic control aids in the variation of different sizes of QDs",
+        "start_index": 6389,
+        "end_index": 6864
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Bulk tin (\\(\\beta\\)-Sn) as a pellet prepared from tin powder (\\(\\alpha\\)-Sn) is inexpensive as a suitable material for this exfoliation in 0.5 M LiClO\\(_4\\) in Acetonitrile as the electrolyte. The choice of electrolyte is also supported by the simulation and experimental data where LiClO\\(_4\\) is more dissociated in acetonitrile",
+        "start_index": 6864,
+        "end_index": 7196
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". For example, Acetonitrile-based electrolytes have a higher conductivity (>30 mS/cm) and lower viscosity values (~0.346 cP) that are suitable for this type of synthesis.\\textsuperscript{20,21}",
+        "start_index": 7196,
+        "end_index": 7389
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Here, we investigate the size-dependent electrochemical transformation of the bulk tin to SnQDs at room temperature using 0.5 M LiClO\\(_4\\) in Acetonitrile. The UV and PL results indicate the size-dependent optical properties while the morphological structure of SnQDs is revealed from transmission electron microscopy (TEM) based on their size distribution (band-gap engineering)",
+        "start_index": 7389,
+        "end_index": 7769
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". This is the first report on the synthesis of size-dependent SnQDs and their remarkable applications for energy storage.",
+        "start_index": 7769,
+        "end_index": 7890
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Scheme 1 illustrates the transformation of the bulk tin into stanene quantum dots (QDs) of various sizes using 0.5 M LiClO$_4$ in acetonitrile at a constant potential of -7 V at different intervals. Although, -7 V is beyond the thermodynamic stability window of this system (-2.8 to +2.5 V), the electrolyte decomposition aids in better yield than its previous potentials",
+        "start_index": 7890,
+        "end_index": 8261
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". On this basis, the potential is selected and acetonitrile decomposition forms various products after crossing its potential threshold. For example, brief electrolysis at -3.3 V primarily yielded 3-aminocrotonitrile (diacetonitrile) as the main product, while prolonged electrolysis produced 2,4,6-trimethyl-1,3,5-triazine, a trimer of acetonitrile",
+        "start_index": 8261,
+        "end_index": 8610
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". In the presence of water, electrolysis at -2.2 V predominantly forms acetamide. A cyclic voltammogram is shown in S4 to understand the preliminary process of this exfoliation. The initial step involves intercalating the ions and further",
+        "start_index": 8610,
+        "end_index": 8848
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "exfoliation of the bulk tin under an inert atmosphere. After complete exfoliation, the product is quickly transferred to the deaerated ethanol solution, where the dissolution and precipitation mechanism with rapid effervescence of CO$_2$/CO is seen as indicated in reaction (3). The dissolved products from bulk tin leads to the formation of carbon-coated stanene quantum dots, as confirmed by TEM and XPS although the exact mechanism is unclear",
+        "start_index": 8848,
+        "end_index": 9293
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". There is also a phase change in the transformation to quantum dots i.e., for particles less than 10 nm, \u03b3-Sn is more stable at room temperature. The significant surface energy contributions for smaller particle sizes stabilise the \u03b3 phase",
+        "start_index": 9293,
+        "end_index": 9533
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The \u03b3 phase has a hexagonal zero-dimensional, graphite-like planar structure with \u03c0-conjugated systems fragmented at different times of 6, 12, and 16 h, respectively, resulting in SnQDs forming an interlayer distance of 0.326 nm. The carbon coating on the SnQDs imparts stability following a tentative mechanism given below.",
+        "start_index": 9533,
+        "end_index": 9859
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "\\[\n\\text{CH}_3\\text{CH}_2\\text{O} - \\text{H} \\rightarrow \\text{CH}_3\\text{CH}_2\\text{O(ad)} + \\text{H(ad)} \\quad \\Delta G^o = -84.85 \\text{ kJ/mol} \\quad (1)\n\\]\n\\[",
+        "start_index": 9859,
+        "end_index": 10022
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "\\text{CH}_3\\text{CH}_2\\text{O(ad)} - \\text{SnQDs} \\rightarrow \\text{CH}_3\\text{CHO} + \\text{H(ad)} - \\text{SnQDs} \\quad \\Delta G^o = -179.12 \\text{ kJ/mol} \\quad (2)\n\\]\n\\[",
+        "start_index": 10022,
+        "end_index": 10193
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "\\text{C}_x\\text{H}_y\\text{O}_z \\text{(ad)} + \\text{O}_2 \\rightarrow a\\text{CO} + b\\text{CO}_2 + c\\text{H}_2\\text{O} \\quad (3)\n\\]\n\\[",
+        "start_index": 10193,
+        "end_index": 10324
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "\\text{C}_x\\text{H}_y \\text{(ad)} + \\text{H(ad)} - \\text{SnQDs} \\rightarrow \\text{C}_x\\text{SnQDs} + \\text{CH}_4 \\quad (4)\n\\]",
+        "start_index": 10324,
+        "end_index": 10448
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "In reaction (1), the O\u2013H bond of ethanol breaks apart, leading to the adsorption of H and CH$_3$CH$_2$O. The adsorbed CH$_3$CH$_2$O undergoes a hydride shift reaction in (2) and desorbs as CH$_3$CHO (acetaldehyde)",
+        "start_index": 10448,
+        "end_index": 10661
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". In reaction (3), a combustion reaction produces CO, CO$_2$, and H$_2$O, causing effervescence in the ethanol solution. Finally, in reaction (6), elemental carbon coated over SnQDs and CH$_4$ are formed.",
+        "start_index": 10661,
+        "end_index": 10865
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 1. Transmission Electron Micrographs of a) blue SnQDs of average size 2.2 nm, b) cyan SnQDs of average size 5.2 nm, c) yellow SnQDs of average size 6.7 nm, at 6, 12, and 16 h, respectively, during the electrochemical synthesis d) SnQDs electro-synthesized at 12 h, e) SnQD showing a diameter of 5",
+        "start_index": 10865,
+        "end_index": 11168
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".5 nm at 12h, f) SnQD showing a diameter of 7 nm at 16 h.",
+        "start_index": 11168,
+        "end_index": 11225
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 1 represents the Transmission Electron Micrographs (TEM) illustrating the size evolution and structure of stanene quantum dots (SnQDs) synthesized via an electrochemical process at a constant potential of -7 V with various duration. The micrographs of a), b), and c) depict the size progression of SnQDs at different synthesis times, with the blue SnQDs averaging 2.2 nm after 6 hours, cyan SnQDs reaching an average size of 5",
+        "start_index": 11225,
+        "end_index": 11658
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".2 nm after 12 hours, and yellow SnQDs growing to an average size of 6.7 nm after 16 hours. Figure d) shows a group of SnQDs synthesised at 12 h with an average size of 5.3 nm. Figures e), and f) highlight the formation of SnQDs, also synthesized at 12 and 16 hours. Specifically, Figure e) shows a SnQD with a diameter of",
+        "start_index": 11658,
+        "end_index": 11980
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "approximately 5.5 nm, while Figure f) depicts a SnQD with a slightly larger diameter of 7 nm, which is smaller on average as compared to a size 8.5 nm reported by Zhang et al.\\textsuperscript{19} Both the examples display sizes close to the average sizes of the SnQDs synthesized for 12 and 16 h, respectively",
+        "start_index": 11980,
+        "end_index": 12289
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". These micrographs emphasize the tunable nature of SnQD size and shell thickness through controlled synthesis duration, which is crucial for tailoring their optical and electronic properties for various applications.",
+        "start_index": 12289,
+        "end_index": 12506
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "![XRD Profiles](https://doi.org/10.26434/chemrxiv-2025-gqz38)\n\n**Figure 2.** A comparison of Powder XRD profiles of SnQDs of different sizes.",
+        "start_index": 12506,
+        "end_index": 12647
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 2 presents a comparison of the SnQDs of different sizes. There is a prominent carbon plane at (002) retaining crystalline moiety due to the coating of the carbon on the stanene surface, leading to the arrangement of a crystalline unit and compression of amorphous planes. The diffraction peak, observed at 19.7 \u00b0, corresponds to the (002) crystal plane",
+        "start_index": 12647,
+        "end_index": 13006
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{25} This higher packing density is attributed due to the defects in the stanene lattice, which enhance their morphology as seen in TEM images. Two diffraction peaks are observed at 26.19 and 33.18 \u00b0, corresponding to the (110) and...",
+        "start_index": 13006,
+        "end_index": 13257
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(101) crystal planes respectively.\\textsuperscript{26,27} This is analogous to the structural packing of SnO\\textsubscript{2}/Sn confirming the presence of the QDs having defects when the exfoliated bulk Sn is dropped in ethanol. Additionally, for the QDs electrosynthesized at 6 h, the (110) plane is missing revealing the fact that lesser defects were introduced during the synthesis. Moreover, the (101) plane at 33",
+        "start_index": 13257,
+        "end_index": 13675
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".18\u00b0 (SnQDs c) shifts to 33.72\u00b0 (SnQDs a) suggesting the incorporation of a carbon coating on the stanene core. The major peak corresponding to the tin is still retained in the QDs of crystal faces (200), (101), (220), and (221) in the system. The major broadening of peaks is observed at 30.77\u00b0 corresponding to the crystal face (200) confirming SnQDs",
+        "start_index": 13675,
+        "end_index": 14027
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{28}",
+        "start_index": 14027,
+        "end_index": 14048
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "In order to prove that the formation of the carbon coating occurs during the ethanol washing step and, not during the previous electrochemical exfoliation, the SnQDs are separated by freeze-drying. The obtained samples are analyzed by FT-IR spectroscopy and Powder X-Ray Diffraction as shown in Figure S5 and S6 respectively",
+        "start_index": 14048,
+        "end_index": 14372
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". S5 shows the XRD pattern of the SnQDs synthesized from 6 h and 12 h respectively, which are obtained from the electrolyte solution containing the SnQDs without the ethanol washing. Four major peaks of (110), (101), (211) and (112) are observed which are in agreement with the rutile phase of SnO\\textsubscript{2}",
+        "start_index": 14372,
+        "end_index": 14686
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{32} This is indicative that the Carbon coating occurs during the ethanol washing step during the separation process. S6 presents the FTIR spectrum of as prepared SnQDs verifying the presence of SnO\\textsubscript{2}. The bands at 937 and 573 cm\\textsuperscript{-1} are assigned to the Sn\u2013O and O\u2013Sn\u2013O stretching and bending modes of SnO\\textsubscript{2}, respectively",
+        "start_index": 14686,
+        "end_index": 15070
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{29} There is a clear lack of peaks due to the C=C stretching frequencies which were prominent in the FT-IR spectrum shown in Figure S1. The spectrum also shows the vibrational modes of O-H-O at 1398 cm\\textsuperscript{-1} and O-H at 3429 and 1642 cm\\textsuperscript{-1} respectively",
+        "start_index": 15070,
+        "end_index": 15370
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Therefore, the ethanol washing step is a pre-requisite for the carbon coating on the surface of the SnQDs, the lack of which leads to the undesirable oxidation of the SnQDs resulting in SnO\\textsubscript{2} QDs.",
+        "start_index": 15370,
+        "end_index": 15583
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 7. Deconvoluted Sn 3d a) 6 and b) 12 h and C 1s c) 12 and d) 16 h core level spectra of SnQDs.",
+        "start_index": 15583,
+        "end_index": 15684
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "X-ray photoelectron spectroscopy (XPS) is an essential analytical method for examining the surface chemistry of materials. In Figures 7 a) and b), the deconvoluted Sn spectra reveal peaks at 486.78 eV and 495.22 eV after electrochemical exfoliation for 6 h, corresponding to Sn 3d_{5/2} and Sn 3d_{3/2} of Sn^{4+} in SnQDs, respectively",
+        "start_index": 15684,
+        "end_index": 16020
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".\\textsuperscript{27,35} The intensity of the deconvoluted Sn spectra after the interval of 12 h is lower than that of 6 h and a minor shift of 0.22 eV is observed in case of the binding energies after exfoliation for 12 h. This is due to the deposition of Carbon over Sn which is confirmed by the increase of atomic percentage for carbon in C 1s spectra from 37.29 % to 41",
+        "start_index": 16020,
+        "end_index": 16393
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".03 % and also from TEM. The high-resolution C 1s spectrum in Figure 7 c) presents two peaks",
+        "start_index": 16393,
+        "end_index": 16485
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "at 285.09 and 289.80 eV, corresponding to C-C and C=CO bonds, respectively after exfoliation for 12 h. Similarly, the C 1s signal in Figure 7 d) of the deconvoluted spectrum shows four components with binding energies of 284.79, 286, 289.57, and 289",
+        "start_index": 16485,
+        "end_index": 16734
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".80 eV, attributed to C-C/C=C, COOH, C=O and C=O in the system after exfoliation for 16 h, respectively. A comparison of the XPS survey spectra for different sizes of SnQDs is provided in SI-2. This analysis suggests that the size of the SnQDs can be controlled by adjusting the reaction time.",
+        "start_index": 16734,
+        "end_index": 17027
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 3. a) SnQDs under the presence of visible light, b) SnQDs under the presence of U.V. radiation c) UV-vis absorption spectra obtained for blue, cyan, and yellow SnQDs formed at 6, 12, and 16 h respectively, c) Photoluminescence spectra for blue SnQDs, d) Photoluminescence spectra for cyan SnQDs, e) Photoluminescence spectra for yellow SnQDs.",
+        "start_index": 17027,
+        "end_index": 17376
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 3 a) displays SnQDs of varying sizes without U.V. irradiation and Figure 3 b) represents SnQDs influenced by U.V. irradiation. From left to right, the image represents a blank sample (without Q.D.s) (Figure 3 a), followed by blue, cyan, and yellow-emitting 0-D materials (Figure 3 b)",
+        "start_index": 17376,
+        "end_index": 17666
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". In Figure 3 c), three distinct excitation wavelengths 299, 250, and 257 nm are shown, corresponding to different sizes synthesized at 6, 12, and 16 h, respectively. These wavelengths are associated with $\\pi-\\pi^*$ transitions in C=C within the sp2 domain of carbon. Photoluminescence (P.L.) serves as an effective method for optical characterization",
+        "start_index": 17666,
+        "end_index": 18018
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Figures 3 d), 3 e), and 3 f) illustrate emission wavelengths at 408, 420, and 450 nm, corresponding to excitation wavelengths of 340 (for blue SnQDs), 350 (for cyan SnQDs), and 400 nm (for yellow SnQDs) respectively",
+        "start_index": 18018,
+        "end_index": 18235
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". In this case, the excitation dependence indicates the presence of carbon coating on the QDs which suggests the possibility of surface defects causing a redshift with increasing the excitation wavelength. The different size distributions of the three types of SnQDs result in distinct P.L. spectra, highlighting the size-dependent optical properties of the QDs.",
+        "start_index": 18235,
+        "end_index": 18597
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Figure 4. (a) Potential vs. time plot (b) Charge-discharge curve for SnQD a and SnQD (a, b, c)_RGO; (c) charge-discharge curves at different cycle numbers for SnQD a_RGO; (d) cycle number vs. capacity plot for SnQD a and SnQD (a, b, and c)_RGO.",
+        "start_index": 18597,
+        "end_index": 18841
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "The as-synthesized SnQDs have been used as an anode material for Lithium-ion batteries (LIBs). According to the following reversible reaction, huge volume changes and aggregation of Sn particles occur during the alloying/dealloying process which pose serious obstacles for practical applications.",
+        "start_index": 18841,
+        "end_index": 19137
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "\\[\n\\text{Sn} + x\\text{Li}^+ + xe^{-} \\leftrightarrow \\text{Li}_x\\text{Sn} \\quad (0 \\leq x \\leq 4.4) \\quad E^0 = 0.5 \\text{ V} \\quad (5)\n\\]",
+        "start_index": 19137,
+        "end_index": 19275
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "The volume expansion also occurs in the case of SnQDs during charge-discharge leading to poor cycle stability and coulombic efficiency.\\(^{17}\\) To alleviate the adverse effect of volume expansion and to enhance the electrochemical stability in SnQDs, composites have been prepared by combining SnQD with RGO (reduced graphene oxide) at specific ratio. Accordingly, Figure 4a shows a",
+        "start_index": 19275,
+        "end_index": 19658
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "potential vs. time plot for the pristine SnQDs a and their composites. The galvanostatic charge-discharge (GCD) studies of SnQD a and SnQDs a \u2013 c _RGO have been conducted within the potential window of 0.005 \u2013 1 V at a current density of 100 mA g\u207b\u00b9",
+        "start_index": 19658,
+        "end_index": 19906
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". From the GCD plots as shown in Figure 4b, it can be observed that the SnQDs_RGO exhibits better discharge capacity of 261, 187, and 159 mAh g\u207b\u00b9, respectively for SnQDs a_RGO, SnQDs b_RGO, and SnQDs c_RGO, while the pristine SnQDs a exhibits a low discharge capacity of 75 mAh g\u207b\u00b9",
+        "start_index": 19906,
+        "end_index": 20187
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Although large irreversibility has been observed in the initial cycle of SnQD_RGO due to volume expansion (Figure 4d), which is inevitable in the case of Sn-based anodes, stable cycling has been observed as the cycling progresses with capacity retentions (excluding the 1\u02e2\u1d57 cycle) of 55, 78, and 47%, respectively, for SnQDs a_RGO, SnQDs b_RGO, and SnQDs",
+        "start_index": 20187,
+        "end_index": 20543
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "c_RGO after 100 cycles as can be observed in Figure 4c",
+        "start_index": 20543,
+        "end_index": 20597
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". On the other hand, SnQDs a exhibits poor capacity retention after 100 cycles. The large irreversibility occurring in the case of SnQD_RGO can be attributed to the electrolyte decomposition by the RGO component in the SnQDs_RGO leading to the formation of a solid electrolyte interface (SEI), however, this gets alleviated as the cycling progresses due to reduction of volume expansion of SnQD by RGO, forming a stable SEI layer",
+        "start_index": 20597,
+        "end_index": 21026
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". On the other hand, the volume expansion persists in the case of SnQD leading to the breaking and building of the SEI layer as the cycling progresses causing larger irreversibility.",
+        "start_index": 21026,
+        "end_index": 21208
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "CONCLUSIONS",
+        "start_index": 21208,
+        "end_index": 21219
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "In this study, the successful synthesis and characterization of stanene quantum dots (SnQDs) via an electrochemical method at room temperature using 0.5 M LiClO\u2084 in acetonitrile is reported. The size and morphology of the SnQDs could be precisely controlled by varying the synthesis duration, as evidenced by TEM, XRD, FT-IR, and XPS analyses",
+        "start_index": 21219,
+        "end_index": 21561
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The electrochemical exfoliation results in the formation of SnQDs with sizes ranging from 2.2 nm to 6.7 nm, depending on the",
+        "start_index": 21561,
+        "end_index": 21687
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "time intervals of 6, 12, and 16 hours. The study also reveals a phase change to the $\\gamma$-Sn phase, stabilized by significant surface energy contributions in smaller particles. The optical properties of the SnQDs are shown to be size-dependent, as demonstrated by UV-vis and photoluminescence spectroscopy, with distinct excitation wavelengths corresponding to different SnQD sizes",
+        "start_index": 21687,
+        "end_index": 22071
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The electrochemical studies indicate that SnQDs, especially when combined with reduced graphene oxide (RGO), exhibit potential as anode materials for lithium-ion batteries (LIBs). Although large irreversibility was observed in the initial cycles due to volume expansion, the SnQD_RGO composites showed enhanced cycle stability and discharge capacity, with significant capacity retention as cycling progressed",
+        "start_index": 22071,
+        "end_index": 22481
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The electrochemical impedance spectra (EIS) further confirm that the presence of RGO in the SnQD_RGO composites increased the charge-transfer resistance (RCT) due to the formation of a stable solid electrolyte interface (SEI) layer, leading to more stable cycling performance compared to pristine SnQDs. Overall, the findings highlight the promising potential of SnQDs, particularly in energy storage applications",
+        "start_index": 22481,
+        "end_index": 22896
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Further research could explore optimizing the synthesis process and evaluating the long-term stability of these nanostructures in practical applications.",
+        "start_index": 22896,
+        "end_index": 23051
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "**EXPERIMENTAL SECTION**\n\n**Electrochemical Synthesis**",
+        "start_index": 23051,
+        "end_index": 23106
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "1.31 g of tin pellet (from tin powder) was made using a hydraulic press. Electrosynthesis was performed to produce three different sizes by applying constant potentials of -7 V for 6, 12, and 16 h respectively, using an inert platinum wire as the counter electrode and a silver wire as the quasi-reference electrode using 0.5 M LiClO$_4$ in Acetonitrile as electrolyte",
+        "start_index": 23106,
+        "end_index": 23474
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". After the time interval, it was kept in ethanol for 12 h until the effervescence settled down. Optical properties",
+        "start_index": 23474,
+        "end_index": 23589
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "corresponding to the size variations were analyzed using UV-Vis and photoluminescence (PL) spectroscopy at room temperature in ethanol. Structural characteristics and changes in size were investigated with Fourier transform infrared (FT-IR) spectroscopy, powder X-ray diffraction (PXRD), and X-ray photoelectron spectroscopy (XPS), while the sizes were confirmed through transmission electron microscopy (TEM).",
+        "start_index": 23589,
+        "end_index": 23999
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "**Cell fabrication and electrochemical testing**",
+        "start_index": 23999,
+        "end_index": 24047
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "The active material SnQD_RGO was prepared by mixing the SnQD and RGO in a weight ratio of 60:40. The electrode preparation was carried out by mixing the active material, conductive carbon (Acetylene black, Alfa-Aeser), and binder (Teflonized acetylene black, TAB-2) in a weight ratio of 5:1:1 using ethanol. The mixing was continued until a free-standing film was obtained",
+        "start_index": 24047,
+        "end_index": 24419
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The as-obtained film was pressed onto a stainless steel (Goodfellow) mesh, which act as a current collector, using a hydraulic press. To remove the moisture content, the electrode was kept overnight at 75 \u00b0C in a vacuum oven. The electrode was then inserted into an Argon-filled glove box with O\u2082 < 0.1 ppm and H\u2082O < 0.1 ppm",
+        "start_index": 24419,
+        "end_index": 24745
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". For the half-cell fabrication, the electrode was kept in a CR2016 coin-cell setup with Lithium as a counter electrode, both electrodes were separated from contact using a glass microfibre separator (Whatman, 1825-047, GF/F), and the electrolyte (1M LiPF\u2086 in ethylene carbonate (EC) and dimethyl carbonate (DMC) (1:1 weight ratio, LIPASTE, Tomiyama) with 10 % (by",
+        "start_index": 24745,
+        "end_index": 25109
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "volume) of fluoroethylene carbonate (FEC) as additive) was added to the separator followed by sealing the cell",
+        "start_index": 25109,
+        "end_index": 25219
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". The as-prepared cell was then subjected to galvanostatic charge-discharge studies using a battery tester (Biologic) at a current density of 100 mA g\u207b\u00b9 within a potential window of 0.005 \u2013 1 V.",
+        "start_index": 25219,
+        "end_index": 25413
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "**Conflicts of interest**\nThere is no conflict to declare.\n\n**Supporting Information**",
+        "start_index": 25413,
+        "end_index": 25499
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "Table: Various synthetic methods for SnQDs; FT-IR Spectra of carbon coated SnQDs with that of Sn powder; Raman Spectra of carbon coated SnQDs; X-ray Photoelectron spectra of different sizes of SnQDs; Cyclic Voltammogram of Tin powder in comparison to the blank in the electrolyte; Comparison of PXRD before ethanol addition; Comparison of FT-IR before ethanol addition; EIS of SnQD and SnQD_RGO",
+        "start_index": 25499,
+        "end_index": 25893
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "composites; Diffusion coefficient of SnQD and SnQD_RGO composites; Diffusion coefficient of SnQD and SnQD_RGO calculated from the EIS plot",
+        "start_index": 25893,
+        "end_index": 26031
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".",
+        "start_index": 26031,
+        "end_index": 26032
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "**Acknowledgements**\n\nThe authors gratefully acknowledge the financial assistance and infrastructure received from IISER Tirupati for carrying out this study. V.K.P. would like to thank SERB, New Delhi, for the J C Bose Fellowship (JCB/2020/000018). Authors acknowledge CIF@CSIR-CECRI for Raman, XPS and TEM analysis.\n\n**Notes and references**",
+        "start_index": 26032,
+        "end_index": 26375
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(1) Choi, M. K.; Yang, J.; Hyeon, T.; Kim, D.-H. Flexible Quantum Dot Light-Emitting Diodes for next-Generation Displays. *npj Flexible Electronics* **2018**, *2*, 1\u201314. https://doi.org/10.1038/s41528-018-0023-3.",
+        "start_index": 26375,
+        "end_index": 26587
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(2) Park, H.; Shin, D. J.; Yu, J. Categorization of Quantum Dots, Clusters, Nanoclusters, and Nanodots. *J. Chem. Educ.* **2021**, *98* (3), 703\u2013709. https://doi.org/10.1021/acs.jchemed.0c01403.",
+        "start_index": 26587,
+        "end_index": 26781
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(3) Abdellatif, A. A. H.; Younis, M. A.; Alsharidah, M.; Al Rugaie, O.; Tawfeek, H. M. Biomedical Applications of Quantum Dots: Overview, Challenges, and Clinical Potential. *Int. J. Nanomedicine* **2022**, *17*, 1951\u20131970. https://doi.org/10.2147/ijnn.s357980.",
+        "start_index": 26781,
+        "end_index": 27042
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(4) Xu, Q.; Niu, Y.; Li, J.; Yang, Z.; Gao, J.; Ding, L.; Ni, H.; Zhu, P.; Liu, Y.; Tang, Y.; Lv, Z.-P.; Peng, B.; Hu, T. S.; Zhou, H.; Xu, C. Recent Progress of Quantum Dots for Energy Storage Applications. *Carb Neutrality* **2022**, *2*, (1)",
+        "start_index": 27042,
+        "end_index": 27286
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". https://doi.org/10.1007/s43979-022-00002-y.",
+        "start_index": 27286,
+        "end_index": 27331
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(21) Hilbig, P.; Ibing, L.; Streipert, B.; Wagner, R.; Winter, M.; Cekic-Laskovic, I. Acetonitrile-Based Electrolytes for Lithium-Ion Battery Application. *Current Topics in Electrochemistry* **2018**, *20*, 1. https://doi.org/10.31300/ctec.20.2018.1-13.",
+        "start_index": 27331,
+        "end_index": 27585
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(22) Li, J.; Liu, W.; Chen, C.; Zhao, X.; Qiu, Z.; Xu, H.; Sheng, F.; Hu, Q.; Zheng, Y.; Lin, M.; Pennycook, S. J.; Su, C.; Lu, J. High Yield Electrochemical Exfoliation Synthesis of Tin Selenide Quantum Dots for High-Performance Lithium-Ion Batteries. *J. Mater. Chem. A Mater",
+        "start_index": 27585,
+        "end_index": 27862
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". Energy Sustain.* **2019**, *7*, 23958\u201323963. https://doi.org/10.1039/c9ta04643g.",
+        "start_index": 27862,
+        "end_index": 27944
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(23) Foley, J. K.; Korzeniewski, C.; Pons, S. Anodic and Cathodic Reactions in Acetonitrile/Tetra-n-Butylammonium Tetrafluoroborate: An Electrochemical and Infrared Spectroelectrochemical Study. *Can. J. Chem.* **1988**, *66*(1), 201\u2013206. https://doi.org/10.1139/v88-033.",
+        "start_index": 27944,
+        "end_index": 28215
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(24) Kim, W. J.; Lee, S. W.; Sohn, Y. Metallic Sn Spheres and SnO2@C Core-Shells by Anaerobic and Aerobic Catalytic Ethanol and CO Oxidation Reactions over SnO2 Nanoparticles. *Sci. Rep.* **2015**, *5*(1), 13448. https://doi.org/10.1038/srep13448.",
+        "start_index": 28215,
+        "end_index": 28462
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(25) Bhaisare, M. L.; Talib, A.; Khan, M. S.; Pandey, S.; Wu, H.-F. Synthesis of Fluorescent Carbon Dots via Microwave Carbonization of Citric Acid in Presence of Tetraoctylammonium Ion, and Their Application to Cellular Bioimaging. *Mikrochim. Acta* **2015**, *182*(13\u201314), 2173\u20132181",
+        "start_index": 28462,
+        "end_index": 28746
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". https://doi.org/10.1007/s00604-015-1541-5.",
+        "start_index": 28746,
+        "end_index": 28790
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(26) Akram, M.; Saleh, A. T.; Ibrahim, W. A. W.; Awan, A. S.; Hussain, R. Continuous Microwave Flow Synthesis (CMFS) of Nano-Sized Tin Oxide: Effect of Precursor Concentration. *Ceram. Int.* **2016**, *42*(7), 8613\u20138619. https://doi.org/10.1016/j.ceramint.2016",
+        "start_index": 28790,
+        "end_index": 29050
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".02.092.",
+        "start_index": 29050,
+        "end_index": 29058
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(27) Xia, W.; Wang, H.; Zeng, X.; Han, J.; Zhu, J.; Zhou, M.; Wu, S. High-Efficiency Photocatalytic Activity of Type II SnO/Sn3O4 Heterostructures via Interfacial Charge Transfer. *CrystEngComm* **2014**, *16*(30), 6841\u20136847. https://doi.org/10.1039/c4ce00884g",
+        "start_index": 29058,
+        "end_index": 29318
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".",
+        "start_index": 29318,
+        "end_index": 29319
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(28) Holder, C. F.; Schaak, R. E. Tutorial on Powder X-Ray Diffraction for Characterizing Nanoscale Materials. *ACS Nano* **2019**, *13*(7), 7359\u20137365. https://doi.org/10.1021/acsnano.9b05157.",
+        "start_index": 29319,
+        "end_index": 29511
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(29) Elci, A.; Demirtas, O.; Ozturk, I. M.; Bek, A.; Nalbant Esenturk, E. Synthesis of Tin Oxide-Coated Gold Nanostars and Evaluation of Their Surface-Enhanced Raman Scattering Activities. *J. Mater. Sci.* **2018**, *53*(24), 16345\u201316356. https://doi.org/10",
+        "start_index": 29511,
+        "end_index": 29768
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".1007/s10853-018-2792-4.",
+        "start_index": 29768,
+        "end_index": 29792
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(30) Petrov, T.; Markova-Deneva, I.; Chauvet, O.; Nikolov, R.; Denev, I. SEM AND FT-IR SPECTROSCOPY STUDY OF Cu, Sn AND Cu-Sn NANOPARTICLES. *Journal of the University of Chemical Technology and Metallurgy* **2012**, 47, 2.",
+        "start_index": 29792,
+        "end_index": 30015
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(31) Luque, P. A.; Nava, O.; Soto-Robles, C. A.; Garrafa-Galvez, H. E.; Mart\u00ednez-Rosas, M. E.; Chinchillas-Chinchillas, M. J.; Vilchis-Nestor, A. R.; Castro-Beltr\u00e1n, A. SnO2 Nanoparticles Synthesized with Citrus Aurantifolia and Their Performance in Photocatalysis",
+        "start_index": 30015,
+        "end_index": 30279
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ". *J. Mater. Sci.: Mater. Electron.* **2020**, *31*(19), 16859\u201316866. https://doi.org/10.1007/s10854-020-04242-5.",
+        "start_index": 30279,
+        "end_index": 30392
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(32) Liu, J.; Zhang, Q.; Xue, W.; Zhang, H.; Bai, Y.; Yu, L.; Zhai, Z.; Jin, G. Fluorescence Characteristics of Aqueous Synthesized Tin Oxide Quantum Dots for the Detection of Heavy Metal Ions in Contaminated Water. *Nanomaterials (Basel)* **2019**, *9*(9), 1294. https://doi.org/10",
+        "start_index": 30392,
+        "end_index": 30674
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".3390/nano9091294.",
+        "start_index": 30674,
+        "end_index": 30692
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(33) Ferrari, A. C. Raman Spectroscopy of Graphene and Graphite: Disorder, Electron\u2013Phonon Coupling, Doping and Nonadiabatic Effects. *Solid State Commun.* **2007**, *143*(1\u20132), 47\u201357. https://doi.org/10.1016/j.ssc.2007.03.052.",
+        "start_index": 30692,
+        "end_index": 30919
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(34) Ca\u00f1amares, M. V.; Sanchez-Cortes, S.; Martinez-Ramirez, S. Structural Characterization of a Third-generation Commercial Cement Superplasticizer by Raman Spectroscopy and DFT Calculations. *J. Raman Spectrosc.* **2012**, *43*(11), 1623\u20131629. https://doi.org/10.1002/jrs.4082.",
+        "start_index": 30919,
+        "end_index": 31198
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(35) Biswas, P. K.; De, A.; Dua, L. K.; Chkoda, L. Surface Characterization of Sol-Gel Derived Indium Tin Oxide Films on Glass. *Bull. Mater. Sci. (India)* **2006**, *29*(3), 323\u2013330. https://doi.org/10.1007/bf02706504.",
+        "start_index": 31198,
+        "end_index": 31417
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(36) Dolgov, A.; Lopaev, D.; Lee, C. J.; Zoethout, E.; Medvedev, V.; Yakushev, O.; Bijkerk, F. Characterization of Carbon Contamination under Ion and Hot Atom Bombardment in a Tin-Plasma Extreme Ultraviolet Light Source. *Appl. Surf. Sci.* **2015**, *353*, 708\u2013713. https://doi.org/10",
+        "start_index": 31417,
+        "end_index": 31701
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": ".1016/j.apsusc.2015.06.079.",
+        "start_index": 31701,
+        "end_index": 31728
+    },
+    {
+        "document_name": "24.txt",
+        "chunk_text": "(37) Alarfaj, N. A.; El-Tohamy, M. F.; Oraby, H. F. CA 19-9 Pancreatic Tumor Marker Fluorescence Immunosensing Detection via Immobilized Carbon Quantum Dots Conjugated Gold Nanocomposite. *Int. J. Mol. Sci.* **2018**, *19*(4). https://doi.org/10.3390/ijms19041162.",
+        "start_index": 31728,
+        "end_index": 31992
+    }
+]

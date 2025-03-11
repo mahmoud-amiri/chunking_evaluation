@@ -1,0 +1,620 @@
+[
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Photo-induced Metal-to-Metal Electron Transfer in a Cyanido bridged [FeCo] Chain: Role of Bridging Cyanide and Solvent\n\nSakshi Mehta, a Sujit Kamila, a Subrata Ghosh, a Pierre Dechambenoit, b Mathieu Rouzi\u00e8res, b Corine Mathoni\u00e8re, b Rodolphe Cl\u00e9rac, b and Abhishake Mondal b",
+        "start_index": 0,
+        "end_index": 275
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "We report two cyanido-bridged [FeCo] chains, \n\\[\n\\{[\\text{Fe}^{II} \\text{(TP)}(\\text{CN})_2][\\text{Co}^{II}(\\text{vim})_2](\\text{BF}_4)^-\\text{H}_2\\text{O} \\cdot \\text{CH}_2\\text{CN}] \\quad (1),",
+        "start_index": 275,
+        "end_index": 469
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[\n\\{[\\text{Fe}^{II} \\text{(TP)}(\\text{CN})_2][\\text{Co}^{III}(\\text{vim})_2](\\text{BF}_4)^-\\text{CH}_2\\text{CN}] \\quad (2),\n\\end{eqnarray}\n\\[",
+        "start_index": 469,
+        "end_index": 626
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\text{TP: trispyrazolylbororate}, \\text{vim: 1-Vinylimidazole}) \\text{ containing diamagnetic } [\\text{Fe}^{III} \\text{(S=0)-Co}^{III}(\\text{S=0})] \\text{ units in 2-300 K range",
+        "start_index": 626,
+        "end_index": 803
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". 1 undergoes photo-induced metal-to-metal-electron-transfer under light irradiation at low temperature with thermal relaxation around 80 K, whereas 2 is photo inactive.}",
+        "start_index": 803,
+        "end_index": 973
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[",
+        "start_index": 973,
+        "end_index": 990
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The advancement in high-performance electronic devices demands low cost, robust, and non-volatile memory components. The research in the field of electronics and switches has put credence in molecular systems for their usage in various devices,1-6 involving the design and characterization of molecular materials having exciting physical properties. The ability to fine-tune the physical properties (optical, electronic, magnetic and structural) with mild external stimuli such as light, temperature, pressure, magnetic and electric field, etc",
+        "start_index": 990,
+        "end_index": 1533
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". makes these systems feasible for technological applications.5-8",
+        "start_index": 1533,
+        "end_index": 1598
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[",
+        "start_index": 1598,
+        "end_index": 1615
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "One of the synthetic advantages of well-known cyanido-based precursors is the predictability of the geometries and properties of the resulting self-assembled architectures. With a rational choice of cyanido-based building blocks, various molecule-based polymeric coordination clusters and networks have been synthesized.9-12 The ambidentate cyanide ligand stabilizes numerous oxidation states of transition-metal units and can form a linear bridge between metal centers",
+        "start_index": 1615,
+        "end_index": 2084
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".13, 14 Low-dimensional heterobimetallic complexes with varying structures and topologies have been achieved using tailored cyanometallate building blocks.14 These systems can exhibit fascinating physical properties, such as behaving as Single-Molecule Magnets (SMMs)15, Single-Chain Magnets (SCMs)16, or exhibiting Spin Crossover (SCO)17,20 and Metal-to-Metal Electron-Transfer (MMET)21-25, etc.",
+        "start_index": 2084,
+        "end_index": 2480
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[\nIncreasing interest in iron-cobalt photomagnetic Prussian Blue Analogues (PBAs) following the investigation by Hashimoto et al.,26 scientists have been motivated to broaden the class of PBAs and investigate the origin of MMET properties deeply.27\n\\end{eqnarray}\n\\[",
+        "start_index": 2480,
+        "end_index": 2762
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The reversible interconversion of the diamagnetic [Fe^{II} \\text{(S=0)-Co}^{III}(\\text{S=0})] and paramagnetic [Fe^{III} \\text{(S=1/2)-Co}^{III}(\\text{S=3/2})] pairs in Fe/Co PBAs could be triggered by light or thermal variations",
+        "start_index": 2762,
+        "end_index": 2991
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". The electronic properties of the (Fe^{III},Co^{III}) pair precisely depends upon the linearity of the bridging cyanide linkers18-20 and the redox potential difference between the donor and acceptor units",
+        "start_index": 2991,
+        "end_index": 3196
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".12, 31,32 These parameters can be fine-tuned by controlling the coordination sphere of the metal ions by a rational choice of the building blocks and capping ligands on both sides of the cyanide bridge to promote the reversible photo- and thermo-induced MMET between the (Fe^{III},Co^{III}) pair near ambient temperature.13, 14",
+        "start_index": 3196,
+        "end_index": 3524
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[",
+        "start_index": 3524,
+        "end_index": 3541
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Herein, the syntheses, crystal structures, optical, magnetic, and photomagnetic properties of two cyanido-bridged heterobimetallic 1D coordination networks with repeating (Fe-CN-Co) units are reported",
+        "start_index": 3541,
+        "end_index": 3741
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Treatment of (TBA)[Fe^{III}\\text{(TP)}(\\text{CN})_2] (TBA = tetrabutylammonium cation, TP = trispyrazolylbororate), Co(BF_4)^- \\cdot 6H_2O and vim (vim = 1-Vinylimidazole) ligand (ratio: 1:1:4) in CH_2CN formed a dark green solution,",
+        "start_index": 3741,
+        "end_index": 3976
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "which upon slow diffusion of diethyl ether yielded dark green plate-like crystals of",
+        "start_index": 3976,
+        "end_index": 4060
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\[\n\\{[\\text{Fe}^{III}\\text{(TP)}(\\text{CN})_2][\\text{Co}^{III}(\\text{vim})_2](\\text{BF}_4)^-\\text{H}_2\\text{O} \\cdot \\text{CH}_2\\text{CN}] \\quad (1), \\quad \\text{while, slow evaporation of the dark green solution gave green needle-like crystals of }",
+        "start_index": 4060,
+        "end_index": 4309
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}\n\\[",
+        "start_index": 4309,
+        "end_index": 4326
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\{[\\text{Fe}^{III}\\text{(TP)}(\\text{CN})_2][\\text{Co}^{III}(\\text{vim})_2](\\text{BF}_4)^-\\text{CH}_2\\text{CN}] \\quad (2). \\quad \\text{The purity and thermal stability of 1 and 2 have been determined by elemental analysis and thermogravimetric analysis (TGA)",
+        "start_index": 4326,
+        "end_index": 4583
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". 1 is stable up to 340 K, and a gradual weight loss between 340 \u2013 400 K (ca. 4%) (Fig. S1, ESI), corresponding to the release of one acetonitrile molecule as interstitial solvents is observed, whose presence is confirmed by single-crystal structure analysis (vide infra). 2 undergoes weight loss between 330 \u2013 365 K (ca",
+        "start_index": 4583,
+        "end_index": 4903
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". 4%) before decomposition, corresponding to the release of one acetonitrile molecule as an interstitial solvent. Single crystal X-ray diffraction analyses were performed at 85 K (1) and 200 K (2) (Fig. 1, S2-S8; Tables S1-S3, ESI)",
+        "start_index": 4903,
+        "end_index": 5134
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". 1 crystallizes in the orthorhombic P2_12_12_1 space group, while the orthorhombic P2_2_2_2 space group was observed for 2. In both compounds, similar surroundings for iron and cobalt centers were observed",
+        "start_index": 5134,
+        "end_index": 5340
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "\\end{eqnarray}",
+        "start_index": 5340,
+        "end_index": 5354
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "and bridged consecutively by cyanide group give rise to a cationic [([Fe(Tp)(CN)]_3(\u03bc-CN))]_n~ repeating unit forming a 1D chain with zig-zag and wave like appearance (Fig. 1), in 1 and 2 respectively. Both cationic chains have tetrafluoroborate as counter anion and different lattice solvent molecules",
+        "start_index": 5354,
+        "end_index": 5656
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". One water and one acetonitrile molecule were present as crystallizing solvent molecules in 1, while 2 has one acetonitrile molecule in the structure",
+        "start_index": 5656,
+        "end_index": 5806
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". The coordination geometry around each iron center is best defined as slightly distorted octahedron with FeC_2N_2 surrounding using Continuous Shape Measures (CSHM) analysis (Table S4, ESI), in which the iron center is coordinated to the three nitrogen donor atoms of the Tp\u201d ligand and three carbon donor atoms of two bridging and one terminal cyanide ligand",
+        "start_index": 5806,
+        "end_index": 6166
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Each cobalt center is in a distorted octahedral geometry coordinated by four nitrogen donor atoms from vic ligand, and two nitrogen from two bridging cyanide ligands, which occupy the trans-positions (Table S4, ESI) matches well with the CSHM analysis.",
+        "start_index": 6166,
+        "end_index": 6420
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The Fe-C bond lengths are in the range of 1.837(8)\u20131.901(9) \u00c5 (for 1) and 1.870(7)\u20131.920(9) \u00c5 (for 2), whereas the Fe-N bond lengths are lying in the range of 1.995(6)\u20132.004(6) \u00c5 (for 1) and 2.007(6)\u20132",
+        "start_index": 6420,
+        "end_index": 6621
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".027(7) \u00c5 (for 2) respectively (Table S2, ESI), which are in agreement with the LS Fe(II) ion in a FeC_2N_2 distorted octahedral coordination environment.^{22, 23, 34} The average Co-N bond lengths in 1 and 2 are 1.913(6) \u00c5 and 1",
+        "start_index": 6621,
+        "end_index": 6850
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".926(3) \u00c5 respectively (Table S2, ESI), lying in the range expected for the LS Co(III) ions in a CoN_2 distorted octahedral coordination environment.^{13, 33} All these results indicate [Fe(CN)_4] and [Co(NCN)_4] moieties in 1 and 2 at measured temperatures. The cyanido-bridged Fe-C=N angles are almost linear in 1 (177",
+        "start_index": 6850,
+        "end_index": 7170
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".7(6)\u00b0) and 2 (171.05(4)\u00b0) (Table S2, ESI). In contrast, a significant difference is observed in cyanido-bridged Co-N=C angle and hence the Fe-CN-Co bridging unit, which is largely deviated from the linearity in 2 with a value of 157.13(3)\u00b0, while this angle is 173",
+        "start_index": 7170,
+        "end_index": 7435
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".8(6)\u00b0 in 1 (Table S2, ESI). The shortest intrachain Fe-Fe distance via Co(vim) is 9.678 \u00c5 in 1 and 9.582 \u00c5 in 2",
+        "start_index": 7435,
+        "end_index": 7547
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Interestingly, despite the similarities around the iron and cobalt centers in 1 and 2, the cyanido-bridged Co-N=C angle makes noticeable structural differences, where 1D chain in 1 gives the appearance of a zig-zag nature, whereas a wave-like nature is observed in 2, both extending along b direction. The iron and cobalt centers are separated by 4.900(1) and 4",
+        "start_index": 7547,
+        "end_index": 7910
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".789(1) \u00c5 for 1 and 2, respectively. The interstitial water molecule in 1 is involved in forming hydrogen bonding with the terminal cyanide from the [Fe(Tp)(CN)]_2~ unit (Fig. S3, ESI), whereas such interactions are absent in 2, producing different cooperativity in 1 and 2.",
+        "start_index": 7910,
+        "end_index": 8184
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Both compounds were characterized by solid-state FT-IR spectroscopy at room temperature (Figs. S9 and S10, ESI)",
+        "start_index": 8184,
+        "end_index": 8295
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". IR spectrum of 1 shows three cyanide stretching frequencies at 2110 cm\u207b\u00b9, 2088 cm\u207b\u00b9, and 2066 cm\u207b\u00b9, which are attributed to the bridging \u03bdCN of [Fe(CN)_4] and \u03bdCN of a H-bonded and free terminal Fe(CN)_4 and Fe(CN)_3~ unit, respectively.^{35, 36}",
+        "start_index": 8295,
+        "end_index": 8543
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "For 2, peaks at 2090 cm\u207b\u00b9 and 2049 cm\u207b\u00b9 correspond to \u03bdCN of bridging cyanide in [Fe(CN)_4] and free terminal cyanide in Fe(CN)_3~ group, respectively",
+        "start_index": 8543,
+        "end_index": 8693
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". In addition, the peaks at 2486 cm\u207b\u00b9 and 2490 cm\u207b\u00b9 in 1 and 2 respectively are ascribed to the B-H stretching coming from the Tp\u207b ligand on the Fe(II) building block unit. The presence of four characteristic peaks in the range 1040 \u2013 1105 cm\u207b\u00b9 indicates the presence of Fe(CN)\u2083\u207b counter anion in 1 and 2",
+        "start_index": 8693,
+        "end_index": 8997
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". The broad band at 3415 cm\u207b\u00b9 in 1 corresponds to the presence of O-H stretch coming from water of crystallisation and stretching vibration at 2250 cm\u207b\u00b9 in 1 and 2 signifies the presence of acetonitrile in the crystal structure.",
+        "start_index": 8997,
+        "end_index": 9225
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "UV/vis/NIR spectroscopic measurements were performed in solid and in solution state for 1 and 2 at room temperature (Figs. S11-S12)",
+        "start_index": 9225,
+        "end_index": 9356
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Both compounds showed two broad band centered around 430 nm and 630 nm which correspond to a metal-to-ligand charge transfer (MLCT) transition (Fe(CN)_4\u2192cyanide) and a metal-to-metal charge transfer (MMCT) transition from Fe(CN)_3\u2192Co(CN)_4 unit, respectively.^{37, 38}",
+        "start_index": 9356,
+        "end_index": 9626
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The temperature-dependent magnetic susceptibility measurements were performed on polycrystalline samples in the temperature range of 2 - 300 K at 10000 Oe (Fig. S13 - S15, ESI) external magnetic field",
+        "start_index": 9626,
+        "end_index": 9826
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". At 300 K, for both 1 and 2, the measured \u03c7(T) (\u03c7 is magnetic susceptibility equal to M/H; where, M=magnetization and H = external magnetic field) value is close to 0 cm\u00b3mol\u207b\u00b9K\u207b\u00b9, which remains constant upon lowering the temperature down to 2 K, confirming the presence of diamagnetic [Fe(CN)_4(S=0)-Co(CN)_4(S=0)] unit in",
+        "start_index": 9826,
+        "end_index": 10149
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "the entire experimental range (Fig",
+        "start_index": 10149,
+        "end_index": 10183
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". S14, ESI) for both 1 and 2.",
+        "start_index": 10183,
+        "end_index": 10212
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Solid-state optical reflectivity measurements for 1 and 2 were carried out in the temperature range of 10 - 280 K to study the evolution of absolute reflectivity as a function of temperature (Figs. 2, S16 - S17, ESI), where no significant changes were observed for both compounds apart from the slight changes in absolute reflectivity due to temperature variation of the sample",
+        "start_index": 10212,
+        "end_index": 10589
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Both compounds were cooled in the dark down to 10 K and optical response was studied before and after irradiation with white light at 10 K. For 1, the spectrum resulting upon",
+        "start_index": 10589,
+        "end_index": 10765
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "irradiation of the sample with white light (0.4 mW/cm\u00b2) for 30 minutes shows a significant change in the absolute reflectivity ca. 500 nm and also in the range of 650 nm to 890 nm than the spectra obtained in the dark at 10 K and 280 K (Fig",
+        "start_index": 10765,
+        "end_index": 11005
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". 2) indicating the probability of photo-induced electron transfer and thus the formation of metastable paramagnetic (FeIII_{LS}-CN-CoII_{HS}) state from the diamagnetic (FeIII_{LS}-CN-CoII_{LS}) ground state. However, for 2, the spectra recorded at 10 K in the dark and after irradiation of the sample with white light (0.4 mW/cm\u00b2) for 30 minutes perfectly overlapped (Fig",
+        "start_index": 11005,
+        "end_index": 11378
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". S18), ruling out the possibility of photo-induced electron transfer in 2. For 1, the evolution of absolute reflectivity as a function of time was studied under white light irradiation at 10 K, and the saturation effect was observed after irradiation ca. 200 min (Fig. 2, Inset). The evolution of absolute reflectivity at 780 nm shows a rise in the absolute reflectivity value, reaching a saturation value of 0",
+        "start_index": 11378,
+        "end_index": 11789
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".66 after 200 min of irradiation, on the other hand, evaluation of absolute reflectivity at 532 nm leads to a fall in the absolute reflectivity value from 0.42 to 0.32 (Figs. 2, S19, S21, ESI).",
+        "start_index": 11789,
+        "end_index": 11982
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Thermal stability of the photo-induced state was studied by heating the sample after reaching the saturation value with white light irradiation, which showed a decrease in the absolute reflectivity value due to the thermal relaxation of the photo-induced metastable state. A complete relaxation was observed at 88 K (T_{relax}) (Fig. S20, ESI), further confirmed by photomagnetic measurements (vide infra)",
+        "start_index": 11982,
+        "end_index": 12387
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". The absolute reflectivity data obtained beyond this temperature exhibited the same behavior as in the dark. In addition to the above experiments, a set of 14 LEDs (385 nm to 1050 nm) were used to conduct the photoexcitation experiments at 10 K to find the most efficient wavelength for irradiation for the photomagnetic measurement (Figs. S22 - S23, ESI)",
+        "start_index": 12387,
+        "end_index": 12743
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". All 14 LEDs show some increase in the absolute reflectivity value for 1, in agreement with the white light\u2019s efficiency, where the maximum efficiency was observed for the 830 nm region. The LED irradiations induced changes were plotted as the difference of absolute reflectivity (\u0394AR) at 780 nm (Fig. S22, ESI). This set of data shows the most efficient irradiations for 1 lie in the 780 - 940 nm range",
+        "start_index": 12743,
+        "end_index": 13147
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". The photo-induced electron transfer in 1 was explored further by the photomagnetic studies at 10 K using 830 nm laser light (4 mW/cm\u00b2). Under 830 nm laser light irradiation, the \u03c7T value at 10 K increases rapidly and attains a value of 3.66 cm\u00b2mol\u207b\u00b9K after 12 h (Fig. 3 and S24)",
+        "start_index": 13147,
+        "end_index": 13427
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". This value lies close to the expected value for [FeIII_{LS}(S=1/2, g = 2.6)-CoII_{HS}(S = 3/2, g = 2.45)] with significant orbital contribution, thereby signifying the transformation of diamagnetic (FeIII_{LS}-CN-CoII_{LS}) state to photo-induced metastable paramagnetic (FeIII_{LS}-CN-CoII_{HS}) state",
+        "start_index": 13427,
+        "end_index": 13731
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".15 In dark, upon increasing the temperature from 2 K to 10 K (sweep rate 0.4 K min\u207b\u00b9), measured \u03c7T value raised from 2.0 cm\u00b2K mol\u207b\u00b9 to 3",
+        "start_index": 13731,
+        "end_index": 13868
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".66 cm\u00b2K mol\u207b\u00b9 which could be ascribed due to the Spin-orbit coupling, magnetic anisotropy coming from the CoII and FeIII pairs of FeIII_{LS}-CoII_{HS} unit and/or intermolecular antiferromagnetic interactions.13,18 With increasing the temperature from 10 K \u2013 60 K, \u03c7T values decrease slightly to reach a plateau with a value of 2.78 cm\u00b2K mol\u207b\u00b9",
+        "start_index": 13868,
+        "end_index": 14212
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Upon further increasing the temperature, the photo-induced paramagnetic metastable state relaxes back to the thermodynamic diamagnetic ground state at 80 K consistent with optical reflectivity studies (vide supra).",
+        "start_index": 14212,
+        "end_index": 14428
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The magnetization dynamics on the photo-induced metastable state were also investigated, and the ac susceptibility measurement was performed under different applied dc field up to 10000 Oe external dc field and using the frequency ranging from 1 Hz to 1500 Hz at 1.9 K (Fig. S25)",
+        "start_index": 14428,
+        "end_index": 14707
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". No slow relaxation of magnetization was detected for 1 after light irradiation, although such fascinating magnetization dynamics involving slow relaxation of magnetization have been reported in a similar photo-induced metastable state for some Fe-Co chain.35,39",
+        "start_index": 14707,
+        "end_index": 14970
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "In conclusion, using [FeIII(Tp)(CN)3]\u2212 as a building block, and 1-vinylimidazole as a blocking ligand on Co(II) side, two cyano-bridged Fe-Co 1D diamagnetic chains (1 and 2) are reported. Photo-induced metal-to-metal electron transfer strongly depends upon the geometry of the bridging cyanide linkers and...",
+        "start_index": 14970,
+        "end_index": 15278
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "the cooperativity coming from the hydrogen bonding interaction. Despite a similar chemical environment around iron and cobalt sites, i.e., FeC\u2085N\u2084 and CoN\u2086, 1 showed photo-induced MMET coupled with spin state change, whereas 2 was photo-inactive. The conversion of diamagnetic state to paramagnetic state is successfully established under light-irradiation and the photo-induced metastable state is thermally stable up to 80 K.",
+        "start_index": 15278,
+        "end_index": 15704
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Acknowledgments",
+        "start_index": 15704,
+        "end_index": 15719
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "The research work reported here is funded by the Indian Institute of Science (IISc), Bangalore, India and the Science & Engineering Research Board (SERB) (Project No: CRG/2023/003081), Government of India. S.M., S.K. and S.G. are thankful to the IISc for the support. P.D. thanks the Institut Universitaire de France. P.D., C.M. and R.C",
+        "start_index": 15719,
+        "end_index": 16055
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". thank the University of Bordeaux and the CNRS.",
+        "start_index": 16055,
+        "end_index": 16103
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "Conflicts of interest\n\nThe authors hereby declare no conflicts of interest.\n\nNotes and references",
+        "start_index": 16103,
+        "end_index": 16200
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "1. O. Kahn, Molecular Magnetism, VCH, New York, 1993.\n2. E. Coronado, Nat. Rev. Mater., 2020, 5, 87-104.",
+        "start_index": 16200,
+        "end_index": 16304
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "3. P. Perlepe, I. Oyarzabal, A. Mailman, M. Yquel, M. Platunov, I. Dovgaliuk, M. Rouzi\u00e8res, P. N\u00e9grier, D. Mondieig, E. A. Suturina, M.-A. Bourges, S. Bonhommeau, R. A. Musgrave, K. S. Pedersen, D",
+        "start_index": 16304,
+        "end_index": 16500
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Chernyshov, F. Wilhelm, A. Rogalev, C. Mathoni\u00e8re and R. Cl\u00e9rac, Science, 2020, 370, 587-592.",
+        "start_index": 16500,
+        "end_index": 16595
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "4. N. F. Chilton, Annu. Rev. Mater. Res., 2022, 52, 79-101.\n5. K. Kaushik, S. Mehta, D. Das, S. Ghosh, S. Kamilya and A. Mondal, Chem. Commun., 2023, 59, 13107-13124.",
+        "start_index": 16595,
+        "end_index": 16761
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "6. S. Kamilya, B. Dey, K. Kaushik, S. Shukla, S. Mehta and A. Mondal, Chem. Mater., 2024, DOI: 10.1021/acs.chemmater.3c02654.\n7. O. Kahn and C. J. Martinez, Science, 1998, 279, 44-48.",
+        "start_index": 16761,
+        "end_index": 16944
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "8. K. Senthil Kumar and M. Ruben, Coord. Chem. Rev., 2017, 346, 176-205.\n9. S. Wang, X.-H. Ding, J.-L. Zuo, X.-Z. You and W. Huang, Coord. Chem. Rev., 2011, 255, 1713-1732.",
+        "start_index": 16944,
+        "end_index": 17116
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "10. Y.-H. Li, W.-R. He, X.-H. Ding, S. Wang, L.-F. Cui and W. Huang, Coord. Chem. Rev., 2012, 256, 2795-2815.\n11. K. S. Pedersen, J. Bendix and R. Cl\u00e9rac, Chem. Commun., 2014, 50, 4396-4415.",
+        "start_index": 17116,
+        "end_index": 17306
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "12. S. Chorazy, J. I. Zarkowski, M. Magott, T. Korzeniak, B. Nowicka, D. Pinkowicz, R. Podgajny and B. Sieklucka, Chem. Soc. Rev., 2020, 49, 5945-6001.",
+        "start_index": 17306,
+        "end_index": 17457
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "13. E. S. Koumousi, I.-R. Jeon, Q. Gao, P. Dechambenoit, D. N. Woodruff, P. Merzeau, L. Buisson, X. Jia, D. Li, F. Volatort, C. Mathoni\u00e8re and R. Cl\u00e9rac, J. Am. Chem. Soc., 2014, 136, 15461-15464",
+        "start_index": 17457,
+        "end_index": 17652
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ".",
+        "start_index": 17652,
+        "end_index": 17653
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "14. A. Daguil\u00e0, Y. Prado, E. S. Koumousi, C. Mathoni\u00e8re and R. Cl\u00e9rac, Chem. Soc. Rev., 2016, 45, 203-224.\n15. G. A. Craig and M. Murrie, Chem. Soc. Rev., 2015, 44, 2135-2147.",
+        "start_index": 17653,
+        "end_index": 17828
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "16. C. Coulon, H. Miyasaka and R. Cl\u00e9rac, Single-Chain Magnets: Theoretical Approach and Experimental Systems, Springer, Berlin, Heidelberg, 2006.\n17. J.-F. L\u00e9tard, P. Guiouneux and L. Goux-Capes, Towards Spin Crossover Applications, Springer Berlin Heidelberg, Berlin, Heidelberg, 2004.",
+        "start_index": 17828,
+        "end_index": 18115
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "18. S. Kamilya, S. Mehta, R. Lescou\u00ebzec, Y. Li, J. Pechousek, M. Semwal and A. Mondal, Dalton Trans., 2023, 52, 10700-10707.",
+        "start_index": 18115,
+        "end_index": 18239
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "19. S. Kamilya, S. Mehta, M. Semwal, R. Lescou\u00ebzec, Y. Li, J. Pechousek, V. R. Reddy, E. Riviere, M. Rouzi\u00e8res and A. Mondal, Inorg. Chem., 2023, 62, 8794-8802.",
+        "start_index": 18239,
+        "end_index": 18399
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "20. K. Kaushik, S. Ghosh, S. Kamilya, M. Rouzi\u00e8res, S. Mehta and A. Mondal, Inorg. Chem., 2021, 60, 7545-7552.\n21. X.-Y. Wang, C. Avenda\u00f1o and K. R. Dunbar, Chem. Soc. Rev., 2011, 40, 3213-3238.",
+        "start_index": 18399,
+        "end_index": 18593
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "22. S. Kamilya, S. Ghosh, Y. Li, P. Dechambenoit, M. Rouzi\u00e8res, R. Lescou\u00ebzec, S. Mehta and A. Mondal, Inorg. Chem., 2020, 59, 11879-11888.",
+        "start_index": 18593,
+        "end_index": 18732
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "23. S. Kamilya, S. Ghosh, S. Mehta and A. Mondal, J. Phys. Chem. A, 2021, 125, 4775-4783.",
+        "start_index": 18732,
+        "end_index": 18821
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "24. Y. B. Huang, J.-Q. Li, W. H. Xu, W. Zheng, X. Zhang, K. G. Gao, T. J., T. Ikeda, T. Nakashini, S. Kanegawa, S. Q. Wu, S. Q. Su and O. Sato, J. Am. Chem. Soc., 2024, 1601, 209-209.",
+        "start_index": 18821,
+        "end_index": 19004
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "25. C. Mathoni\u00e8re, D. Mitcov, E. Koumousi, D. Amorin-Rosario, P. Dechambenoit, S. Fatima Jafri, P. Sainctavit, C. Cartier dit Moulin, L. Toupet, E. Trzop, E. Collet, M.-A. Arrio, A. Rogalew, F. Wilhelm and R",
+        "start_index": 19004,
+        "end_index": 19211
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": ". Cl\u00e9rac, Chem. Commun., 2022, 58, 12098-12101.",
+        "start_index": 19211,
+        "end_index": 19258
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "26. O. Sato, T. Iyoda, A. Fujishima and K. Hashimoto, Science, 1996, 272, 704.",
+        "start_index": 19258,
+        "end_index": 19336
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "27. M. Herv\u00e9, B. Marekha, S. Mazera, T. Mallah, M. Cammarata, S. F. Matar, S. Haake, J. L\u00e9onard and E. Collet, Mater. Adv., 2024, DOI: 10.1039/D3MA01072D.",
+        "start_index": 19336,
+        "end_index": 19490
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "28. C. Cartier Dit Moulin, G. Champion, J.-D. Cufan, M.-A. Arrio and A. Bleuzen, Angew. Chem., 2007, 46, 1287-1289.",
+        "start_index": 19490,
+        "end_index": 19605
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "29. J.-D. Cufan, G. Champion, M.-A. Arrio, C. C. dit Moulin and A. Bleuzen, J. Am. Chem. Soc., 2010, 132, 11528-11552.",
+        "start_index": 19605,
+        "end_index": 19723
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "30. C. Q. Jiao, Y. S. Meng, Y. Yu, W. J. Jiang, W. Wen, H. Oshio, Y. Luo, C. Y. Duan and T. Liu, Angew. Chem. Int. Ed. Engl., 2019, 58, 17009-17015.",
+        "start_index": 19723,
+        "end_index": 19871
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "31. C. Mathoni\u00e8re, Eur. J. Inorg. Chem., 2018, 2018, 248-258.\n32. M. Parthey and M. Kaupp, Chem. Soc. Rev., 2014, 43, 5067-5088.",
+        "start_index": 19871,
+        "end_index": 19999
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "33. A. Mondal, Y. Li, M. Seuleiman, M. Julve, L. Toupet, M. Buron-Le Cointe and R. Lescou\u00ebzec, J. Am. Chem. Soc., 2013, 135, 1653-1656.",
+        "start_index": 19999,
+        "end_index": 20134
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "34. A. Mondal, Y. Li, L.-M. Chamoreau, M. Seuleiman, L. Rechignat, A. Bousseksou, M.-L. Boilot and R. Lescou\u00ebzec, Chem. Commun., 2014, 50, 2893-2895.",
+        "start_index": 20134,
+        "end_index": 20283
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "35. D.-P. Dong, T. Liu, S. Kanegawa, S. Kang, O. Sato, C. He and C.-Y. Duan, Angew. Chem. Int. Ed., 2012, 51, 5119-5123.",
+        "start_index": 20283,
+        "end_index": 20403
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "36. T. Liu, D.-P. Dong, S. Kanegawa, S. Kang, O. Sato, Y. Shiotai, K. Yoshizawa, S. Hayami, S. Wu, C. He and C.-Y. Duan, Angew. Chem. Int. Ed., 2012, 51, 4367-4370.",
+        "start_index": 20403,
+        "end_index": 20567
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "37. Y. Zhang, D. Li, R. Cl\u00e9rac, M. Kalisz, C. Mathoni\u00e8re and S. M. Holmes, Angew. Chem. Int. Ed., 2010, 49, 3752-3756.",
+        "start_index": 20567,
+        "end_index": 20685
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "38. D. Siretanu, D. Li, L. Buisson, D. M. Bassani, S. M. Holmes, C. Mathoni\u00e8re and R. Cl\u00e9rac, Chem. - Eur. J., 2011, 17, 11704-11708.",
+        "start_index": 20685,
+        "end_index": 20818
+    },
+    {
+        "document_name": "44.txt",
+        "chunk_text": "39. N. Hoshino, F. Iijima, G. N. Newton, N. Yoshida, T. Shiga, H. Nojiri, A. Nakao, R. Kumai, Y. Murakami and H. Oshio, Nat. Chem., 2012, 4, 921-926.",
+        "start_index": 20818,
+        "end_index": 20967
+    }
+]

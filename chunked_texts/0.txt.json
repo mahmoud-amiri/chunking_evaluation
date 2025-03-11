@@ -1,0 +1,578 @@
+[
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Sustainable and Efficient Extraction of Furfural from Bagasse: A Quantitative Analysis and Feasibility Study for Rural Economies\n\nMuhammad Asif\u00b9*, Sana Sultan\u00b9, Subhan Ishaq\u00b9\n\n\u00b9Department of Chemistry, The Islamia University of Bahawalpur, Rahim Yar Khan Campus, Rahim Yar Khan, Pakistan\n\nCorresponding Author:\nMuhammad Asif\nEmail: masifshahbaz35@gmail.com\nAbstract",
+        "start_index": 0,
+        "end_index": 365
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural, a valuable platform chemical produced from lignocellulosic biomass, has a wide range of commercial applications, including biofuels, polymers, and medicines. Sugarcane bagasse, an abundant agricultural waste, is a viable feedstock for furfural production because of its high cellulose and hemicellulose content. This study investigated the optimization of furfural extraction using sugarcane bagasse collected from sugar mills in Rahim Yar Khan, Pakistan",
+        "start_index": 365,
+        "end_index": 829
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". The extraction process used sulfuric acid hydrolysis with sodium chloride followed by distillation. Furfural yield was determined colorimetrically and verified by UV, FTIR, and NMR spectroscopy. The findings showed that furfural yields ranged from 7.5% to 10%, with a particular sample yielding the maximum amount. Economic feasibility was also determined by calculating the costs of raw materials, labor, and equipment",
+        "start_index": 829,
+        "end_index": 1250
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". This study suggests that sugarcane bagasse from the region offers a sustainable and cost-effective feedstock for furfural production, contributing to rural economic development while reducing the environmental impact through green chemical techniques.",
+        "start_index": 1250,
+        "end_index": 1503
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Keywords: Furfural Extraction, Sugarcane Bagasse, Lignocellulosic Biomass, Green Chemistry, Economic Feasibility.\n\n1. Introduction",
+        "start_index": 1503,
+        "end_index": 1633
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural, a crucial platform chemical made from lignocellulosic biomass, is essential to advancing environmentally friendly industrial processes. It is used in various industries, including plastics, medicines, and fuel additives, as a precursor to biofuels and fine chemicals. Its derivatives, including tetrahydrofuran and furfuryl alcohol, are crucial ingredients in the manufacturing of adhesives, polymers, and other valuable products",
+        "start_index": 1633,
+        "end_index": 2072
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Because of their abundant availability, agricultural leftovers are the feedstock of choice for furfural production. Furfural is synthesized only from lignocellulosic biomass through pentose dehydration. The most commonly used raw materials for commercial furfural manufacturing enterprises are corncobs and sugarcane bagasse.[1-4]. Furfural future prospects is shown in Fig1.1.",
+        "start_index": 2072,
+        "end_index": 2451
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Why Sugarcane Bagasse is Important?",
+        "start_index": 2451,
+        "end_index": 2486
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Because of its high hemicellulose content, which acts as a precursor for pentose sugars, sugarcane bagasse stands out among lignocellulosic feedstocks as a promising option for the synthesis of",
+        "start_index": 2486,
+        "end_index": 2679
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Bagasse is produced in significant amounts as agricultural waste in areas such as Rahim Yar Khan, where sugarcane growth is predominant. By producing value-added goods, using this biomass not only solves waste management issues but also provides a path for economic expansion. Incorporating bagasse-based furfural manufacturing into regional economies can boost income, create jobs, and support sustainable growth in rural communities.[3, 5].",
+        "start_index": 2679,
+        "end_index": 3121
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "![Furfural Manufacturing from Bagasse](image)\n\nDespite the tremendous prospects for furfural synthesis from sugarcane bagasse, there are few studies on the region-specific optimization of extraction techniques, particularly in regions such as Rahim Yar Khan. Furthermore, integrating green chemistry concepts to meet global sustainability goals has not been a complete subject of many studies.\n\n### Study Goals\n\nThe purpose of this study is to:",
+        "start_index": 3121,
+        "end_index": 3565
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Evaluate the feasibility of extracting furfural from sugarcane bagasse in Rahim Yar Khan, emphasizing its potential for implementation in rural economies.\n- Optimize the extraction process to maximize yields while reducing energy consumption, waste generation, and environmental impact.\n- Analyze the quantitative aspects of furfural production to assess its scalability and practicality for widespread adoption.",
+        "start_index": 3565,
+        "end_index": 3979
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "By tackling these goals, this study aims to close significant gaps, advance environmentally friendly chemical companies, and stimulate rural economic growth by effectively using agricultural waste.\n\n### 2. Literature Review\n\n**Furfural: A Historical and Synthetic Approach**",
+        "start_index": 3979,
+        "end_index": 4253
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural, a crucial platform chemical, is produced when pentoses, including xylose, break down in an acidic environment at high temperatures. It was first industrially synthesized by the Quaker",
+        "start_index": 4253,
+        "end_index": 4446
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Oats company, which used diluted sulfuric acid to convert agricultural waste from the grain industry into valuable products. This groundbreaking endeavor established the basis for furfural manufacturing as a renewable chemical resource[6, 7]. One of the most straightforward and well-researched processes is the conversion of xylose to furfural. Traditional techniques that use strong acids in aqueous media at high temperatures have major limitations including low yields (often less than 50%) and environmental problems",
+        "start_index": 4446,
+        "end_index": 4967
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". These limitations are caused by polymerization and sugar degradation under severe circumstances. Furfural, for example, is only 30% produced when hydrochloric acid is used in water at 170 \u00b0C, but diluted sulfuric acid produces even lower yields of 17% at 135 \u00b0C. Biphasic systems have been investigated to address these issues",
+        "start_index": 4967,
+        "end_index": 5295
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Adding methyl isobutyl ketone to a weak hydrochloric acid solution enhanced furfural yields by 80%, minimizing side reactions and stabilizing the product. Similarly, toluene and diluted sulfuric acid combined with sodium chloride produced high yields, proving the effectiveness of solvent partitioning techniques[8, 9]. Solid acid catalysts have been developed as appealing alternatives to typical corrosive acids",
+        "start_index": 5295,
+        "end_index": 5710
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Remarkably, furfural was produced by H-mordenite in a water-toluene medium with 98% yield, and the catalyst was recyclable, albeit with a slight decrease in activity[10, 11]",
+        "start_index": 5710,
+        "end_index": 5885
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Ionic liquid methods, such as 1-ethyl-3-methylimidazolium hydrogen sulfate [EMIM][HSO\\(_4\\)], offer environmentally benign alternatives with moderate yields of 62% [12], while graphene derivatives also produce satisfactory yields (62%), facilitating the conversion of xylose to furfural[13]. The solvent is a significant factor in determining the effectiveness of furfural synthesis",
+        "start_index": 5885,
+        "end_index": 6269
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". For example, acidic mesoporous silica catalysts in water generate only 14% furfural, whereas the same catalyst in DMSO achieves a substantially greater yield of 75% [14, 15]. Water-toluene and other biphasic systems improve the conversion and selectivity even more, producing up to 76% furfural[16]",
+        "start_index": 6269,
+        "end_index": 6569
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Furthermore, xylose can be converted to furfural by DMSO alone at 150 \u00b0C in 25% yield; however, considerable pressure is sometimes required to maintain the liquid reaction media[17].",
+        "start_index": 6569,
+        "end_index": 6753
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "**Furfural from Xylan and Lignocellulosic Biomass**",
+        "start_index": 6753,
+        "end_index": 6804
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural is comparatively easy to synthesize from xylose, but Xylan, a more complicated polymer, poses extra difficulties because depolymerization is required. Metal catalysts have demonstrated efficacy for these applications",
+        "start_index": 6804,
+        "end_index": 7029
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". For example, when exposed to microwave radiation at 200 \u00b0C, chromium trichloride in ionic liquid [BMIM]Cl produced a furfural yield of 63%[3] Similarly, under microwave conditions, the aluminum chloride content in the THF/H\\(_2\\)O system was 80% at 150 \u00b0C. These techniques demonstrate the ability of sophisticated catalytic systems to increase efficiency and shorten reaction time[18]",
+        "start_index": 7029,
+        "end_index": 7416
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". Lignocellulosic biomass such as bagasse is a sustainable method of producing furfural, which capitalizes on hemicellulose-rich agricultural waste[19]. Two primary approaches have been investigated: one-pot conversion techniques and separation of biomass components before transformation. Steam explosion and ethanol precipitation are separation processes that remove non-sugar components including lignin and ash, leading to cleaner sugar processing[3]",
+        "start_index": 7416,
+        "end_index": 7870
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". However, one-pot systems, which do not require pretreatment, provide operational ease and improve resource utilization. For instance, bagasse is converted by silicoaluminophosphate (SAPO-44) in a biphasic water-toluene system, yielding an astounding 90% furfural yield at 170 \u00b0C[20].",
+        "start_index": 7870,
+        "end_index": 8155
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Table 1.1. Furfural Synthesis from Lignocellulosic Biomass",
+        "start_index": 8155,
+        "end_index": 8213
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Substrate | Solvent       | Catalyst       | Temperature/Power | Yield (%) | Reference |\n|-----------|---------------|----------------|-------------------|-----------|-----------|\n| Xylose    | H\u2082O/toluene   | H-mordenite    | 260 \u00b0C            | 98        | [10]      |",
+        "start_index": 8213,
+        "end_index": 8485
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Xylan     | [BMIM]Cl\u207a     | CrCl\u2083\u00b76H\u2082O     | Microwave         | 63        | [21]      |\n| Bagasse   | H\u2082O/toluene   | SAPO-44        | 170 \u00b0C            | 90        | [22]      |",
+        "start_index": 8485,
+        "end_index": 8666
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "*Butylmethylimidazolium chloride*",
+        "start_index": 8666,
+        "end_index": 8699
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Despite major technological developments, problems with energy-intensive procedures, byproduct generation, and environmental effects still exist in classic furfural extraction methods. Ionic liquids, biphasic solvent systems, and solid acid catalysis are among the most recent developments that have alleviated these problems. These greener approaches promise increased yields, lower carbon footprints, and scalability, making them especially important for rural economies that rely on agricultural waste such as bagasse.[23, 24].\n\n3. Material and Method",
+        "start_index": 8699,
+        "end_index": 9253
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Sample Collection\n\nBagasse samples were obtained from various sugarcane mills in Rahim Yar Khan District, Pakistan.\n\n- Sample A: Etihad Sugar Mills, Karmabad\n- Sample B: Jamal Din Wali Sugar Mills, Jamal Din Wali\n- Sample C: Hamza Sugar Mills Ltd., Jetha Bhutta Khanpur\n- Sample D: RYK Sugar Mills Ltd., Mouza Puraran Sharif, Janpur, Liaquatpur",
+        "start_index": 9253,
+        "end_index": 9597
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "These samples were selected to represent bagasse from various rural mills, reflecting their potential for widespread application in the local economies.\n\nIdentification of the Sample\n\nThe collected bagasse samples (A-D) were crushed into a fine powder for further processing after drying in an oven at 60\u00b0C to remove moisture [3].\n\nTable 3.1: Physical and Chemical Properties of Bagasse Samples from Four Sugar Mills",
+        "start_index": 9597,
+        "end_index": 10013
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Property            | Sample A | Sample B | Sample C | Sample D |\n|---------------------|----------|----------|----------|----------|\n| Hemicellulose Content (%) | 22%      | 24%      | 20%      | 23%      |\n| Moisture Content (%)  | 48%      | 52%      | 45%      | 50%      |",
+        "start_index": 10013,
+        "end_index": 10292
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Cellulose Content (%)  | 42%      | 40%      | 43%      | 41%      |\n| Lignin Content (%)   | 22%      | 21%      | 23%      | 25%      |\n### Chemicals and Reagents",
+        "start_index": 10292,
+        "end_index": 10458
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sulfuric acid (H\u2082SO\u2084, 98%) \u2013 Sigma-Aldrich (USA)\n- Sodium chloride (NaCl, 99%) \u2013 Merck (Germany)\n- Furfural (98% purity) \u2013 Fluka (Switzerland)\n- Other chemicals were of analytical grade and sourced locally.\n\n### Chemical Apparatus",
+        "start_index": 10458,
+        "end_index": 10690
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The apparatus used in this study, based on the method described by Gebre et al. (2015) for furfural extraction from bagasse, includes a grinder, sieve, tube and condenser, round-bottomed flask, beaker, stirrer, burette, thermometer, measuring cylinder, and oil bath[25].\n\n### Method of Experimentation",
+        "start_index": 10690,
+        "end_index": 10991
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "In a 500 mL round-bottomed flask, 15 g of dried powdered bagasse, 150 mL of 2% sulfuric acid (H\u2082SO\u2084), and 15 g of NaCl were combined using a sustainable extraction technique. The mixture was agitated to maintain consistency before being attached to a tube and a water condenser. The reaction mixture was heated in an oil bath, with the flame intensity regulated to maintain a constant distillation rate",
+        "start_index": 10991,
+        "end_index": 11393
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". The distillation process was continued until the furfural production reached a plateau. A 1:1 (v/v) mixture of ethyl acetate was then added to the distillate. The ethyl acetate and furfural layers were separated after shaking the mixture and allowed to settle",
+        "start_index": 11393,
+        "end_index": 11654
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". To obtain pure furfural, a brownish-yellow liquid, the furfural layer was dried using anhydrous sodium sulfate (Na\u2082SO\u2084), filtered, and distilled at 110\u00b0C. This procedure was designed to use as little energy and chemicals as possible.",
+        "start_index": 11654,
+        "end_index": 11889
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "![Figure 3.1: Experimental setup for furfural formation](https://doi.org/10.26434/chemrxiv-2025-7bwqn ORCID: https://orcid.org/0009-0005-7046-4358 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0)\nAnalysis of Furfural\n\nFurfural was analyzed using the following techniques:\n\nColorimetric Furfural-Aniline Test",
+        "start_index": 11889,
+        "end_index": 12206
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The furfural distillate was mixed with aniline (25:2, v/v) and treated with 2 mL of concentrated hydrochloric acid (HCl). The appearance of a reddish-orange color indicated the presence of furfural.\n\nAnalytical Methods\n\nFurther confirmation of furfural was achieved through:",
+        "start_index": 12206,
+        "end_index": 12480
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- **UV Spectroscopy**: The absorption spectra were measured, and the peaks were compared with standard values to confirm furfural presence.\n- **FTIR Spectroscopy**: Functional groups in the sample were identified, particularly the aldehyde group associated with furfural.\n- **\u00b9H NMR Spectroscopy**: Proton NMR spectra were analyzed, and the results were compared with known furfural data.\n\nData Analysis",
+        "start_index": 12480,
+        "end_index": 12883
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The percentage yield of furfural was calculated using the following formula:\n\n\\[\n\\text{Percentage Yield} = \\left( \\frac{\\text{Mass of Furfural Obtained}}{\\text{Mass of Raw Material}} \\right) \\times 100\n\\]\n\nStatistical analysis was performed to ensure data reliability and consistency. Calibration and standardization were used to minimize experimental errors and optimize extraction efficiency.\n\nFeasibility of Furfural Extraction",
+        "start_index": 12883,
+        "end_index": 13313
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The cost of raw materials, labor, and equipment, together with the market price of furfural, were taken into account while assessing the economic feasibility of furfural extraction from sugarcane bagasse.\n\n4. RESULTS AND DISCUSSION\n\nIdentification of Furfural\n\nColorimetric Furfural-Aniline Test",
+        "start_index": 13313,
+        "end_index": 13608
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The presence of furfural in the distillates was initially confirmed by a colorimetric Furfural-Aniline test, which produced an orange-red color. The result is shown in Table 4.1\nTable 4.1: Furfural-Aniline Test Results of Samples",
+        "start_index": 13608,
+        "end_index": 13837
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Sample | Colour     | Result |\n|--------|------------|--------|\n| A      | Orange Red | Positive |\n| B      | Orange Red | Positive |\n| C      | Orange Red | Positive |\n| D      | Orange Red | Positive |\n\nAnalytical Techniques\n\nThe following table outlines the key peaks and their interpretations for the UV, FTIR, and $^1$H NMR spectra, which are used for the structural validation of furfural.",
+        "start_index": 13837,
+        "end_index": 14234
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "UV Spectroscopy\n\nFurfural was identified by the clear absorption peaks in the processed samples' UV absorption spectra. Particularly, in the 270\u2013300 nm range, saturated aldehydes and ketones containing carbonyl groups usually show considerable absorption\\[26\\]. The presence of furfural was supported by the absorption peaks of every sample, as shown in Figure 4.1.\n\n![UV Spectra of Samples A, B, C, and D](image)",
+        "start_index": 14234,
+        "end_index": 14647
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "**Fig. 4.1. UV spectra of bagasse samples A, B, C, and D**",
+        "start_index": 14647,
+        "end_index": 14705
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- A carbonyl group was present in Sample A evidenced by a peak at 283.6 nm.\n- The peak at 279 nm in Sample B indicated the presence of an aldehyde functional group.\n\u2022 Sample C confirmed the existence of a carbonyl group, with a peak at 277 nm.\n\u2022 Sample D had a peak consistent with an aldehyde functional group at 276.9 nm.\n\nFTIR Analysis",
+        "start_index": 14705,
+        "end_index": 15043
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The presence of functional groups in furfural distillates was verified by recording the FTIR spectra",
+        "start_index": 15043,
+        "end_index": 15143
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". FTIR spectra of all samples showed the characteristic furfural vibrational bands, such as the aromatic C=C stretch (1620-1560 cm\u207b\u00b9), the aldehyde C-H stretch (2900-2700 cm\u207b\u00b9), the C=O stretch (1740-1620 cm\u207b\u00b9), and the C-O-C stretch (1140-1070 cm\u207b\u00b9)[27]",
+        "start_index": 15143,
+        "end_index": 15397
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". The following is a summary of the unique absorption bands of each sample:",
+        "start_index": 15397,
+        "end_index": 15472
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample A: C-H stretch at 2840 cm\u207b\u00b9, C=O stretch at 1696 cm\u207b\u00b9, C=C stretch at 1587 cm\u207b\u00b9, C-H aromatic stretch at 3046 cm\u207b\u00b9, C-O-C stretch at 1110 cm\u207b\u00b9.",
+        "start_index": 15472,
+        "end_index": 15624
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample B: C-H stretch at 2847 cm\u207b\u00b9, C=O stretch at 1699 cm\u207b\u00b9, C=C stretch at 1591 cm\u207b\u00b9, C-H aromatic stretch at 3037 cm\u207b\u00b9, C-O-C stretch at 1137 cm\u207b\u00b9.",
+        "start_index": 15624,
+        "end_index": 15776
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample C: C-H stretch at 2854 cm\u207b\u00b9, C=O stretch at 1706 cm\u207b\u00b9, C=C stretch at 1594 cm\u207b\u00b9, C-H aromatic stretch at 3023 cm\u207b\u00b9, C-O-C stretch at 1121 cm\u207b\u00b9.",
+        "start_index": 15776,
+        "end_index": 15928
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample D: C-H stretch at 2843 cm\u207b\u00b9, C=O stretch at 1691 cm\u207b\u00b9, C=C stretch at 1601 cm\u207b\u00b9, C-H aromatic stretch at 3017 cm\u207b\u00b9, C-O-C stretch at 1096 cm\u207b\u00b9.",
+        "start_index": 15928,
+        "end_index": 16080
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Fig4.2. FTIR spectra of Sample A  \nFig4.3. FTIR spectra of sample B",
+        "start_index": 16080,
+        "end_index": 16147
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample C: C-H stretch at 2854 cm\u207b\u00b9, C=O stretch at 1706 cm\u207b\u00b9, C=C stretch at 1594 cm\u207b\u00b9, C-H aromatic stretch at 3023 cm\u207b\u00b9, C-O-C stretch at 1121 cm\u207b\u00b9.",
+        "start_index": 16147,
+        "end_index": 16299
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "- Sample D: C-H stretch at 2843 cm\u207b\u00b9, C=O stretch at 1691 cm\u207b\u00b9, C=C stretch at 1601 cm\u207b\u00b9, C-H aromatic stretch at 3017 cm\u207b\u00b9, C-O-C stretch at 1096 cm\u207b\u00b9.",
+        "start_index": 16299,
+        "end_index": 16451
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Fig4.4. FTIR spectra of Sample C  \nFig 4.5. FTIR spectra of Sample D\nNMR Analysis",
+        "start_index": 16451,
+        "end_index": 16532
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "NMR spectroscopy was used to further confirm the furfural structure, and results were compared to information published in the literature. Signals corresponding to the aromatic protons (6.6-7.7 ppm), aldehyde proton (9.5-10.0 ppm), and methylene protons (4.0-4.5 ppm) connected to the oxygen in the C-O-C group were detected in the proton NMR (\u00b9H NMR) spectra",
+        "start_index": 16532,
+        "end_index": 16891
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". These spectra verified the furfural presence in the distillates and were in good accord with the levels reported in the literature[28].",
+        "start_index": 16891,
+        "end_index": 17028
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural Yield\n\nFurfural yields were calculated from all bagasse samples (A-D) as described in the experimental section. The yields of furfural are displayed in Table 4.2.",
+        "start_index": 17028,
+        "end_index": 17199
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Table 4.2: Percentage Yield of Furfural from Different Bagasse Samples |\n|---|---|---|---|\n| Sample | Bagasse (g) | Yield (g) | Furfural Yield (%) |\n| A | 10 | 0.75 | 7.5 |\n| B | 10 | 1.0 | 10 |",
+        "start_index": 17199,
+        "end_index": 17395
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| C | 10 | 0.85 | 8.5 |\n| D | 10 | 0.9 | 9.0 |",
+        "start_index": 17395,
+        "end_index": 17441
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The furfural yield ranged from 0.75 to 1.0 g, with Sample B having the highest yield (1.0 g) and Sample A having the lowest yield (0.75 g). These findings imply that although the yield may differ from sample to sample, bagasse can be a feasible source for the synthesis of furfural.\n\nA Visual Display of Furfural Yield",
+        "start_index": 17441,
+        "end_index": 17759
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Furfural yields from all four bagasse samples are shown in Figure 4.6. The yield ranged from 7.5% to 10%, with Sample B producing the most yield (10%) and Sample A producing the least (7.5%).\nFurfural Yield from Samples A, B, C and D\n\nFurfural Extraction from Bagasse: A Feasible Option in Rahim Yar Khan\n\nRaw Material Availability",
+        "start_index": 17759,
+        "end_index": 18090
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "Sugarcane bagasse is widely available in Rahim Yar Khan District Pakistan, where over 193,000 hectares of land are dedicated to sugarcane growth, yielding approximately 77.75 tons of sugarcane per hectare each year. This contributes to the sustainability of the furfural extraction process by making the raw material affordable and plentiful.\n\nEconomic Analysis",
+        "start_index": 18090,
+        "end_index": 18451
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "For a small-scale plant processing 100 kg of bagasse per day with a 10% yield, the following costs and revenue were calculated.",
+        "start_index": 18451,
+        "end_index": 18578
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Component                                             | Value (PKR) | Value (USD) |\n|-------------------------------------------------------|-------------|-------------|\n| Cost of Raw Materials                                 |             |             |\n| Bagasse (per day)                                     | 280         | 1.00        |\n| Other Raw Materials (H\u2082SO\u2084, NaCl, etc.)                | 81,220      | 290.07      |\n| Operational Costs                                     |             |             |",
+        "start_index": 18578,
+        "end_index": 19094
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| Labor, utilities, and maintenance (per day)           | 7,500       | 26.79       |\n| Total Cost per Day                                    | 89,000      | 317.86      |\n| Total Cost per Year (325 working days)                | 28,925,000  | 103,107.14  |\n| Revenue from Furfurural Production                    |             |             |",
+        "start_index": 19094,
+        "end_index": 19437
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| **Furfural Production (per day)** | 10 kg |\n|---------------------------------|-------|\n| **Market Price of Furfural (per kg)** | 10,000 \u2013 12,000 |\n| **Revenue per Day** | 100,000 | 428.57 |\n| **Revenue per Year (325 working days)** | 32,500,000 | 139,285.71 |",
+        "start_index": 19437,
+        "end_index": 19699
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| **Net Profit (NP) per Year** | 3,575,000 | 36,042.86 |\n| **Total Investment** | 33,925,000 | 121,964.29 |\n| **Infrastructure and Land Cost** | 2,000,000 | 7,142.86 |\n| **Equipment Cost** | 3,000,000 | 10,714.29 |",
+        "start_index": 19699,
+        "end_index": 19913
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "| **Return on Investment (ROI)** | 10.54% | 10.54% |",
+        "start_index": 19913,
+        "end_index": 19965
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "The economic analysis indicates that the furfural extraction process is commercially feasible, with a net yearly profit of 3,575,000 PKR (36,042.86 USD). However, it is critical to address the consequences of this process for rural economies, sustainability, and future scaling.\n\n**Linking Economic Analysis to Rural Economies**",
+        "start_index": 19965,
+        "end_index": 20293
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "This small-scale furfural extraction activity could have a direct economic impact on the surrounding rural community, notably Rahim Yar Khan, where sugarcane growth is common. The availability of bagasse as a byproduct from neighboring sugar mills lowers the cost of raw materials, generating a steady source of income for residents and increasing job prospects in rural areas. Furthermore, local sugar mills could benefit from a more sustainable waste management strategy that converts bagasse into a valuable byproduct rather than discarding it",
+        "start_index": 20293,
+        "end_index": 20839
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ".",
+        "start_index": 20839,
+        "end_index": 20840
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "**Sustainability as a Priority**\n\nBagasse, a byproduct of the regional sugarcane industry, is used to cut waste and lessen the environmental effect of acquiring raw materials. This approach reduces dependency on virgin raw materials and aligns with environmental aims by using an agricultural waste product, which helps to make the furfural extraction process more sustainable overall. This sustainable approach reduces the environmental impact of furfural production while providing an eco-friendly alternative to standard raw material sourcing.",
+        "start_index": 20840,
+        "end_index": 21386
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "**Explaining the ROI Consequences**",
+        "start_index": 21386,
+        "end_index": 21421
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "It is crucial that the ROI of 10.54% simply represents the project's early phases, even though it indicates a small return. ROI may be improved with higher production, improved operating efficiency, and additional investment in process enhancements, which would make the project even more appealing for future expansion. Long-term production capacity expansion, yield\noptimization, and cost reduction are examples of innovations in the extraction process that could significantly increase profitability and return on investment.\n\n**Conclusion**",
+        "start_index": 21421,
+        "end_index": 21965
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "This study shows that sugarcane bagasse from Rahim Yar Khan has the potential to be a sustainable and economically feasible feedstock for furfural synthesis. The optimal extraction procedure, which used minimal energy and chemicals, yielded 7.5% to 10% across diverse bagasse samples. The feasibility study demonstrates that furfural extraction can be a profitable and sustainable way to manage agricultural waste in rural areas. Green chemistry concepts and eco-friendly extraction methods support the objectives of global sustainability",
+        "start_index": 21965,
+        "end_index": 22503
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": ". These results demonstrate how bagasse-based furfural manufacturing can be implemented in rural areas to promote sustainable industrial practices and economic prosperity.",
+        "start_index": 22503,
+        "end_index": 22674
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "5. References",
+        "start_index": 22674,
+        "end_index": 22687
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "1. Jaswal, A., P.P. Singh, and T. Mondal, *Furfural\u2014a versatile, biomass-derived platform chemical for the production of renewable chemicals*. Green Chemistry, 2022. 24(2): p. 510-551.",
+        "start_index": 22687,
+        "end_index": 22871
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "2. Kabbour, M. and R. Luque, *Furfural as a platform chemical: From production to applications*. Biomass, biofuels, biochemicals, 2020: p. 283-297.\n3. Yong, K.J., et al., *Furfural production from biomass residues: Current technologies, challenges and future prospects*. Biomass and Bioenergy, 2022. 161: p. 106458.",
+        "start_index": 22871,
+        "end_index": 23186
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "4. Singh, M., et al., *Valorization of Lignocellulosic Biomass into High-Value Chemicals: Forging a Route towards the Circular Economy*, in *Energy Materials*. 2024, CRC Press. p. 98-133.",
+        "start_index": 23186,
+        "end_index": 23373
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "5. Afghan, S., et al., *Economic importance and yield potential of sugarcane in Pakistan*, in *Sugarcane: Its products and sustainability*. 2023, IntechOpen.\n6. Binder, J.B., et al., *Synthesis of furfural from xylose and xylan*. ChemSusChem, 2010. 3(11): p. 1268.",
+        "start_index": 23373,
+        "end_index": 23637
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "7. Brownlee, H.J. and C.S. Miner, *Industrial development of furfural*. Industrial & Engineering Chemistry, 1948. 40(2): p. 201-204.\n8. Weingarten, R., et al., *Kinetics of furfural production by dehydration of xylose in a biphasic reactor with microwave heating*. Green Chemistry, 2010. 12(8): p. 1423-1429.",
+        "start_index": 23637,
+        "end_index": 23945
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "9. Rong, C., et al., *Production of furfural from xylose at atmospheric pressure by dilute sulfuric acid and inorganic salts*. Carbohydrate Research, 2012. 350: p. 77-80.",
+        "start_index": 23945,
+        "end_index": 24115
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "10. Lessard, J., et al., *High yield conversion of residual pentoses into furfural via zeolite catalysis and catalytic hydrogenation of furfural to 2-methylfuran*. Topics in Catalysis, 2010. 53: p. 1231-1234.",
+        "start_index": 24115,
+        "end_index": 24323
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "11. Sato, O., et al., *Effect of extraction on furfural production by solid acid-catalyzed xylose dehydration in water*. The Journal of Supercritical Fluids, 2019. 144: p. 14-18.",
+        "start_index": 24323,
+        "end_index": 24501
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "12. Ocreto, J.B., et al., *Ionic liquid dissolution utilized for biomass conversion into biofuels, value-added chemicals and advanced materials: A comprehensive review*. Chemical Engineering Journal, 2022. 445: p. 136733.",
+        "start_index": 24501,
+        "end_index": 24722
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "13. Tinh, N.T., et al., *Green process prorogue by xylanase enzyme and cellulose-derived sulfonated graphene oxide-like reinforcement in xylose and furfural production from corncob biomass*. Renewable Energy, 2024. 232: p. 121039.",
+        "start_index": 24722,
+        "end_index": 24952
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "14. Lee, C.B.T.L. and T.Y. Wu, *A review on solvent systems for furfural production from lignocellulosic biomass*. Renewable and Sustainable Energy Reviews, 2021. 137: p. 110172.\nAcknowledgement",
+        "start_index": 24952,
+        "end_index": 25146
+    },
+    {
+        "document_name": "0.txt",
+        "chunk_text": "My profound appreciation goes to the Chemistry Department of the Islamia University Bahawalpur, Rahim Yar Khan Campus, for all the tools and assistance I needed to finish my research paper. I am grateful to the faculty members for their advice, support, and insightful criticism throughout the research project. Their support significantly contributed to the success of this research project.",
+        "start_index": 25146,
+        "end_index": 25538
+    }
+]

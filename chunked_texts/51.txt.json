@@ -1,0 +1,500 @@
+[
+    {
+        "document_name": "51.txt",
+        "chunk_text": "An Approach to Alkyl Azetidines for Medicinal Chemistry\n\nOleksandr P. Datsenko, a Andrii Bazieievskyi, a Iryna Sadkova, a Bismarck Campos, b James T. Brewster II, a,b John Kowalski, b Ronald J. Hinklin, a,b and Pavel K. Mykhailiuk a",
+        "start_index": 0,
+        "end_index": 232
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "a Enamine Ltd, Winston Churchill St. 78, 02094 Kyiv, Ukraine. E-mail: Pavel.Mykhailiuk@gmail.com; Web: https://www.mykhailiukchem.org\nb Pfizer Boulder Research and Development, 3200 Walnut St., Boulder, CO 80023, USA. Email: jmsbrewster2@gmail.com, ronhinklin@yahoo.com",
+        "start_index": 232,
+        "end_index": 501
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "ABSTRACT: Alkyl azetidines have been prepared by photochemical modifications of azetidine-2-carboxylic acids in batch and in flow. The reaction has been realized in mg-, g-, and even multigram quantities. The obtained azetidines are valuable building blocks for drug discovery.",
+        "start_index": 501,
+        "end_index": 778
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Introduction. The azetidine ring has gained significant popularity in drug discovery campaigns over the past decade. Today, at least seven approved drugs contain the residue of azetidine (Figure 1), and dozens of other azetidine-containing bioactive molecules are now at different stages of clinical trials.1 Continued adoption of this motif requires new synthetic methodologies enabling access to building blocks with more diverse functionalities.",
+        "start_index": 778,
+        "end_index": 1226
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "It is thus not surprising that significant efforts have been put toward the preparation of substituted azetidines.2 Most of these approaches, however, focus on the preparation of 3-substituted azetidines,2,3 whereas 2-substituted isomers are rare.4\n\nScheme 1. Preparation of 2-substituted azetidines for medicinal chemistry: previous and this study. NHPI: N-hydroxyphtalimide.",
+        "start_index": 1226,
+        "end_index": 1602
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Our laboratories have been interested in applying different strategies towards accessing diversely substituted azetidines for medicinal chemistry. For example, in 2022, Pfizer reported on the [Ni]-catalyzed decarboxylative (hetero)arylation of the azetidine-containing redox-active ester to form 2-(hetero)aryl-azetidines (Scheme 1)",
+        "start_index": 1602,
+        "end_index": 1934
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ".5 In 2023, Enamine developed the practical synthesis of 2-spiro cyclic azetidines employing the formal [2+2]-cycloaddition between Graf isocyanate and exocyclic alkenes (Scheme 1).6",
+        "start_index": 1934,
+        "end_index": 2116
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Here, we present our collaborative studies between Enamine and Pfizer aimed at the direct photochemical modifications of azetidine-2-carboxylic acids with alkenes. This reaction has been realized in batch and in flow, enabling the preparation of alkyl azetidines for medicinal chemistry in mg-, g-, and even multigram quantities.",
+        "start_index": 2116,
+        "end_index": 2445
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "This is the first systematic study on the topic.",
+        "start_index": 2445,
+        "end_index": 2493
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Results and Discussion. Optimization. The photochemical reaction between amino acids and alkenes was known. However, azetidine-containing substrates were not present in those studies. On the other hand, rare azetidine-containing compounds non-systematically occurred in various radical reactions",
+        "start_index": 2493,
+        "end_index": 2788
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". We thus initiated our studies by pursuing conditions for the direct photochemical reaction between the commercially available N-Boc azetidine-2-carboxylic acid (1) with a commercially available Michael acceptor - 4-vinyl pyridine (2). Optimal reaction conditions were found by varying base, photocatalyst, and light wavelength (Scheme 1)",
+        "start_index": 2788,
+        "end_index": 3127
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". We found that utilizing [Ir(df(CF<sub>3</sub>)/pppy)]<sup>+</sub> in dimethylformamide under irradiation with 450 nm, azetidine 1 underwent the reaction with vinyl pyridine in the presence of multiple bases, such as potassium carbonate (entry 1, Scheme 2), 2-tert-butyl-1,1,1,3,3-tetramethylguanidine (entry",
+        "start_index": 3127,
+        "end_index": 3436
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "2), potassium phosphate tribasic (entry 3), and lithium hydroxide monohydrate (entry 4) in 39%, 30%, &lt;25%, and 76% yield, respectively",
+        "start_index": 3436,
+        "end_index": 3573
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". The use of 2,4,6-collidine failed to give the product (entry 5). Changing the metal-containing photocatalyst to the organic one, 4CzIPN, and performing the reaction at 365 nm (entry 6) also provided product 3 with a reasonable 66% yield",
+        "start_index": 3573,
+        "end_index": 3811
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Attempts to further change the photocatalyst to TiO<sub>2</sub> anatase (entry 7), Ru(bppy)<sub>3</sub>Cl<sub>2</sub> (entry 8), acridinium photocatalysts (entry 9-11), and osmium(II) photocatalysts (entry 12-13) yielded little to no isolable product",
+        "start_index": 3811,
+        "end_index": 4063
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". A solvent screen aimed at replacing dimethylformamide gave varying results with tetrahydrofuran and acetonitrile resulting in decreased yields (please, see SI for full details of the optimization). Control experiments revealed that without light the reaction did not proceed (entries 14, 15).",
+        "start_index": 4063,
+        "end_index": 4357
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Scaled-up synthesis. Previously, we used the photochemistry in flow for the multigram scale preparation of bicyclo[1.1.1]pentanes for medicinal chemistry. Here, we wanted to use this knowledge for the multigram scale preparation of azetidines for medicinal chemistry. Therefore, having identified optimal batch reaction conditions (entries 4 and 6), we next performed the reaction in flow using the cheaper organic catalyst - 4CzIPN (entry 17)",
+        "start_index": 4357,
+        "end_index": 4800
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Pleasingly, under these conditions, 48 g of product 3 was easily obtained in 61% yield in one run (Scheme 2).",
+        "start_index": 4800,
+        "end_index": 4911
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Scheme 3. Reaction scope: variation of alkenes, and substitution at the azetidine ring. Isolated yields. Reaction conditions:",
+        "start_index": 4911,
+        "end_index": 5036
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "a | Azetidine carboxylic acid (1.0 equiv), alkene (2.0 equiv), (Ir[dF(CF\u2083)ppy]\u2082(dtbpy))PF\u2086 (2.5 mol%), LiOH\u00b7H\u2082O (1.1 equiv) in DMF [0.2 M], 450 nm, 18h, rt, batch",
+        "start_index": 5036,
+        "end_index": 5198
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". | 3, 76%<sup>g</sup>, 66%<sup>l</sup>, 61%<sup>i</sup> | [48 g scale] | 4, 74%<sup>i</sup>, 59%<sup>i</sup> | 5, 55%<sup>i</sup> | 6, 57%<sup>i</sup> | 7,",
+        "start_index": 5198,
+        "end_index": 5354
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "61%<sup>i</sup> |",
+        "start_index": 5354,
+        "end_index": 5371
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "b | Azetidine carboxylic acid (1.0 equiv), alkene (2.0 equiv), 4CzIPN (2.5 mol%), LiOH\u00b7H\u2082O (1.1 equiv) in DMF [0.2 M], 365 nm, 18-24h, rt, batch",
+        "start_index": 5371,
+        "end_index": 5515
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". | 8, 59%<sup>i</sup> | 9 (C), 61%<sup>i</sup> | 10 (Br), 42%<sup>i</sup> | 11, 49%<sup>i</sup> | 12, 34%<sup>i</sup> | 13, 28%<sup>ad</sup> |",
+        "start_index": 5515,
+        "end_index": 5658
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "linker for PROTAC",
+        "start_index": 5658,
+        "end_index": 5675
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>ad</sup> | CS\u2082CO\u2083 instead of LiOH. | 14, 62%<sup>i</sup> | 15 (d.r = 1:1), 65%<sup>i</sup> | 16 (d",
+        "start_index": 5675,
+        "end_index": 5778
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ".r = 1:1), 65%<sup>i</sup> | 17, 55%<sup>i</sup> | 18, 47%<sup>i</sup> | 19, 70%<sup>i</sup> |",
+        "start_index": 5778,
+        "end_index": 5872
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>i</sup> | X-ray crystal structure of compound 24 (carbon \u2013 grey, nitrogen \u2013 blue, oxygen \u2013 red, sulfur - orange). Ellipsoids are shown at a 50% probability level. | 20 (d",
+        "start_index": 5872,
+        "end_index": 6047
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". r = 1:1), 59%<sup>i</sup> | 21, 39%<sup>i</sup> | 22, 53%<sup>i</sup> | 23, 41%<sup>i</sup> | 24, 36%<sup>b</sup> |",
+        "start_index": 6047,
+        "end_index": 6164
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>b</sup> | CS\u2082CO\u2083 instead of LiOH. | 25, 52%<sup>i</sup> | 26, 29%<sup>i</sup> | 27, 46%<sup>i</sup> | 28, 45%<sup>b</sup> | 29 (d. r = 1:1), 34%<sup>b</sup> |",
+        "start_index": 6164,
+        "end_index": 6327
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>b</sup> | P(O)(OMe)\u2082-substituent | 30, 29%<sup>i</sup> | 31, 29%<sup>i</sup> | 32, 62%<sup>i</sup> | 33, 36%<sup>i</sup> | 34, 36%<sup>i</sup> |",
+        "start_index": 6327,
+        "end_index": 6476
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>i</sup> | 35, 69%<sup>i</sup> | 36, 78%<sup>i</sup> | 37, 96%<sup>b</sup> | 38, 92%<sup>i</sup> |",
+        "start_index": 6476,
+        "end_index": 6578
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>b</sup> | 36 examples | + | FG tolerance | + | aromatic | + | heteroaromatic | + | aliphatic | + | products for medchem | + | linkers for PROTAC | + | multigram scale |",
+        "start_index": 6578,
+        "end_index": 6751
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "<sup>a</sup> | 36 examples | + |FG tolerance | + | aromatic | + | heteroaromatic | + | aliphatic | + | products for medchem | + | linkers for PROTAC | + | multigram scale |",
+        "start_index": 6751,
+        "end_index": 6923
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Scope. With optimized conditions in hand, we explored the utility of this chemistry in accessing diversely substituted azetidines (Scheme 3). In studying the reaction scope, we allowed some flexibility using both metal-containing [Ir] and organic (4CzIPN) catalysts in batch. Many azetidine products were also subsequently prepared on scale in flow using the organic catalyst.",
+        "start_index": 6923,
+        "end_index": 7299
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "A variety of heteroaryl styrenes, such as 2-vinylpyridine, 2-vinylpyrimidine, 2-vinylpyrazine, and the corresponding vinyl thiazole underwent the addition giving azetidines 4-7 in 55-74% yield. Reaction with substituted styrenes also worked well to provide the corresponding azetidines 8-12 in good yields",
+        "start_index": 7299,
+        "end_index": 7604
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". As a demonstration of the potential utility of this chemistry, we also explored the reaction with 5-vinylthiadiol, which yielded a new E3 ubiquitin ligase recruiter building block 13 in 28% yield. More traditional Michael acceptors (methyl acrylate, methyl vinyl ketone, etc.) furnished azetidines 14-20 in 47-70% yield",
+        "start_index": 7604,
+        "end_index": 7925
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Reaction with CH$_3$=CHOCH$_2$F gave product 21. To the best of our knowledge, this is the first example of preparing sulfonyl fluoride directly from non-activated amino acids.\\textsuperscript{12}",
+        "start_index": 7925,
+        "end_index": 8123
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Reaction with vinyl sulfones, acrylonitrile, and a PO(OEt)$_2$-containing alkene gave the corresponding azetidines 22-26 in 29-53% yield. The MeSO$_2$-moiety is common within approved drugs,\\textsuperscript{13} and in this context, the MeSO$_2$-substituted product 22 is especially interesting",
+        "start_index": 8123,
+        "end_index": 8416
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". The structure of sulfone 24 was proven by X-ray analysis.\\textsuperscript{14} It is also worth noting the synthesis of PO(O)Me$_2$-substituted azetidine 27. In 2016, the FDA approved the anticancer drug Brigatinib,\\textsuperscript{15} and since then the PO(O)Me$_2$-containing building blocks have become common in medchem campaigns",
+        "start_index": 8416,
+        "end_index": 8750
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ".\\textsuperscript{16}",
+        "start_index": 8750,
+        "end_index": 8771
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Reaction with vinyl boronates gave the Bpin-substituted azetidines 28 and 29 in 34-45% yield.",
+        "start_index": 8771,
+        "end_index": 8864
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Various substituted N-Boc azetidine-2-carboxylic acids having aliphatic and ethereal functionalities also proved suitable in the reaction giving azetidines 30-36 in 36%-80% yield. Interestingly, quaternary azetidine-2-carboxylic acids underwent direct decarboxylative reaction with 4-vinyl pyridine to smoothly yield products 37 and 38 in 96% and 92%, respectively.",
+        "start_index": 8864,
+        "end_index": 9229
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Limitations. The developed approach towards 2-alkyl azetidines was not without limitations",
+        "start_index": 9229,
+        "end_index": 9319
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Our conditions failed to give good yield with (a) intrinsically sterically hindered \\( \\beta \\)-substituted acrylates (MeCH=CHCO$_2$Me, Me$_2$C=CHCO$_2$Me), (b) non-polarized alkenes (N-Bn maleimide, butadiene sulfone), and (c) electron-rich alkenes (EtOCH=CH$_2$,",
+        "start_index": 9319,
+        "end_index": 9585
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "2-thiophene-CH=CH$_2$)",
+        "start_index": 9585,
+        "end_index": 9607
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". For a full list of non-reactive alkenes, please, see SI, p 29. The lack of reactivity of the electron-rich alkenes suggests a nucleophilic character of the intermediate N-Boc azetidine radical.\\textsuperscript{17}",
+        "start_index": 9607,
+        "end_index": 9822
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Functionalizations. With a practical and scalable protocol toward 2-alkyl azetidines in hand, we converted various products into value-added, multi-functional azetidine-containing building blocks (compounds with one or two functional groups) for use in medicinal chemistry. The standard acidic N-Boc deprotection gave amines \u201ca\u201d (Scheme 4). The structure of amine 22a was proven by X-ray analysis",
+        "start_index": 9822,
+        "end_index": 10218
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ".\\textsuperscript{18} Reduction of the pyridine/pyrazine ring with H$_2$/Pd in methanol under heating provided diamines \u201cb.\u201d",
+        "start_index": 10218,
+        "end_index": 10342
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Saponification of the ester group resulted in the formation of interesting amino acids \u201cc.\u201d The reaction of the Bpin-compounds with potassium fluoride in an acetone/water mixture smoothly gave trifluoroborates \u201cd.\u201d The reaction of compound 19 with Me$_2$NCH(OMe)$_2$ led to the formation of a mixture of two\n\n### Scheme 4. Synthesis of azetidine-containing building blocks for medicinal chemistry.",
+        "start_index": 10342,
+        "end_index": 10739
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "isomeric products 19e:19f=3:1, from which the pure isomer 19e was isolated in 74% yield by column chromatography. The cyclization of 19e with hydrazine hydrate provided pyrazole 39 in 75% yield",
+        "start_index": 10739,
+        "end_index": 10932
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". We also obtained the isomeric pyrazole 40 via the reaction of 19e+19f with hydrazine hydrate and the separation of the isomeric products by column chromatography. The structure of compound 40 was proven by X-ray analysis.\\textsuperscript{14} Acidic deprotection of the N-Boc group formed unique isomeric scaffolds 41 and 42",
+        "start_index": 10932,
+        "end_index": 11257
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Cyclization of 19e with hydroxylamine allowed isolating isoxazole 43 in 87% yield. Acidic N-Boc...",
+        "start_index": 11257,
+        "end_index": 11357
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "deprotection of the latter provided scaffold 44. Condensation of compound 19e with guanidine smoothly afforded pyrimidine 45 in 83% yield.",
+        "start_index": 11357,
+        "end_index": 11495
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "**Conclusions.** We have developed a unified set of conditions for the direct photochemical functionalization of azetidine-2-carboxylic acids with alkynes. The reaction has been realized in batch and in flow allowing the rapid preparation of alkyl azetidines in mg-, g-, and even multigram quantities",
+        "start_index": 11495,
+        "end_index": 11795
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". The obtained products, - sulfonyle fluorides, borinapatoclates, potassium, trifluoroborates, P(O)Me_2-derivatives, PROTAC-linkers, *etc* - are valuable building blocks for drug discovery.",
+        "start_index": 11795,
+        "end_index": 11984
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "**Conflicts of interest.** OPD, AB, IS and PKM are employees of Enamine. JTB, BC, JK, and RJH were employees of Pfizer.\n\n**Acknowledgments.** This work was sponsored by Enamine and Pfizer.\n\n**References**\n\n1 The search was performed at [https://go.drugbank.com](https://go.drugbank.com) on 30 January 2025.",
+        "start_index": 11984,
+        "end_index": 12290
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "2 (a) H. Mughal, M. Szostak. Recent advances in the synthesis and reactivity of azetidines: strain-driven character of the four-membered heterocycle. *Org. Biomol. Chem.* 2021, 19, 3274-3286. (b) T. W. Reidl, L. L. Anderson",
+        "start_index": 12290,
+        "end_index": 12513
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Divergent Functionalizations of Azetidines and Unsaturated Azetidines, *Asian J. Org. Chem.* 2019, 8, 931-945. (c) A. Brandi, S. Cicci, F. M. Cordero. Novel Syntheses of Azetidines and Azetidinones. *Chem. Rev.* 2008, 108, 3988-4035.",
+        "start_index": 12513,
+        "end_index": 12748
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "3 For recent examples, see: (a) R. Gianatassio, D. Kadish. Direct Arylation of 1-Azabicyclo[1.1.0]butanes. *Org. Lett.* 2019, 21, 2060-2063. (b) A. Favcett, A. Murtaza, C. H. U. Gregson, V. K. Aggarwal",
+        "start_index": 12748,
+        "end_index": 12949
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Cross-Dehydrogenative Coupling Reaction of Boronic Esters: Application to the Modular Synthesis of Azetidines. *J. Am. Chem. Soc.* 2019, 141, 4573-4578. (c) A. Kirichok, I. Shtou, M. Klachyna, I. Pishel, P. K. Mykhailiuk",
+        "start_index": 12949,
+        "end_index": 13171
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". 1-Substituted 2-Azaspiro[3.3]heptanep. (b) C. Bosset, R. A. Korzh, G. Alisifforova, Y. Holota, V. Zomak, I. Bodenchuk, V. Kosach, P. Borysko, R. A. Korzh, G. Al-Maali, V. Kubynshik, H. S",
+        "start_index": 13171,
+        "end_index": 13359
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Rzepa, P. K. Mykhailiuk. \u201cAngular\u201d Spirocyclic Azetidines: Synthesis, Characterization, and Evaluation in Drug Discovery. *Angew. Chem. Int. Ed.* 2025, e202418850.",
+        "start_index": 13359,
+        "end_index": 13524
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "4 Non-systematic occurrence of azetidine-2-carboxylic acids in radical reactions: (a) C. P. Johnston, R. T. Smith, S. Allmendinger. Decarboxylative Coupling of Carboxylic Acids with Alkyl Halides. *Nature* 2016, 536, 322. (b) R. S. Mega, V. K. Duong, A. Noble, V. K",
+        "start_index": 13524,
+        "end_index": 13789
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Aggarwal. Decarboxylative Conjugate Cross-Coupling of Vinyl Boron Esters Rapid Access to a-Amino Boronic Esters. *Angew. Chem. Int. Ed.* 2018, 57, 2155-2159.",
+        "start_index": 13789,
+        "end_index": 13948
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "5 Review: D. M. Kitcat, S. Nicolle, A.-L. Lee. Direct decarboxylative Giese reactions. *Chem. Soc. Rev.* 2022, 51, 1415-1453.",
+        "start_index": 13948,
+        "end_index": 14073
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "6 (a) A. A. Kirichok, H. Tkachuk, Y. Kozyriev, O. Shablykin, O. Datsenko, D. Granat, T. Yegorova, Y. P. Bas, V. Semirenko, I. Pishel, V. Kubynshik, D. Lesyk, O. Klymenko-Ulianov, P. K. Mykhailiuk",
+        "start_index": 14073,
+        "end_index": 14268
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". 1-Azaspiro[3.3]heptane as a Bios fistere of Pip eridine. *Angew. Chem. Int. Ed.* 2023, 62, e202311583. (b) A. Kirichok, H. Tkachuk, K. Levec hen, D. Granat, T. Yegorova, D. Lesyk, A. Anisiforova, Y. Holota, V",
+        "start_index": 14268,
+        "end_index": 14478
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Zomak, I. Bodenchuk, V. Kosach, P. Borysko, R. A. Korzh, G. Al-Maali, V. Kubynshik, H. S. Rzepa, P. K. Mykhailiuk. \u201cAngular\u201d Spirocyclic Azetidines: Synthesis, Characterization, and Evaluation in Drug Discovery.",
+        "start_index": 14478,
+        "end_index": 14691
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Kuetha. Photoredox-Catalyzed Giese Reactions: Decarboxylative Additions to Cyclic Vinylogous Amides and Esters. *Molecules* 2022, 27, 417 (2 examples). (c) S. Paul, D. Filippini, M. Silvi. Polarity Transduction Enables the Formal Electronically Mismatched Radical Addition to Alkenes. *J. Am. Chem",
+        "start_index": 14691,
+        "end_index": 14988
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Soc.* 2023, 145, 2773\u20132778 (1 example).",
+        "start_index": 14988,
+        "end_index": 15029
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "11 V. Ripenko, V. Sham, V. Levchenko, S. Holovchuk, D. Vysochyn, I. Klymov, D. Kysliy, S. Veselovych, S. Zhersh, Y. Dmytriv, A. Tolmachev, I. Sadkova, I. Pishel, K. Horbatok, V. Kosach, Y. Nikandrova, P",
+        "start_index": 15029,
+        "end_index": 15231
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". K. Mykhailiuk. Light-enabled scalable synthesis of bicyclo[1.1.1]pentane halides and their functionalizations. *Nat. Synth.* 2024, 3, 1538\u20131549.",
+        "start_index": 15231,
+        "end_index": 15377
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "12 Previously, synthesis of sulfonyl fluorides was realized only from NHPI-activated amino acids: R. Xu, T. Xu, M. Yang, T. Cao, S. Liao. A rapid access to aliphatic sulfonyl fluorides. *Nature Commun.* 2019, 10, 3752.",
+        "start_index": 15377,
+        "end_index": 15595
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "13 Y. Poplavskyi, V. Ripenko, S. Bova, A. Biitseva, Y. V. Dmitriv, A. A. Tolmachev, I. V. Sadkova, I. Pishel, O. Grygorov, V. Q. H. Phan, H. V. R. Dias, P. K. Mykhailiuk. A reagent to access methyl sulfones. *Nat",
+        "start_index": 15595,
+        "end_index": 15807
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Commun.* 2025, 16, 1132.",
+        "start_index": 15807,
+        "end_index": 15833
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "14 CCDC numbers: 2410323 (for 24), 2410324 (for 22a) and 2410325 (for 40).",
+        "start_index": 15833,
+        "end_index": 15907
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "15 W. -S. Huang, S. Liu, D. Zou, M. Thomas, Y. Wang, T. Zhou, J. Romero, A. Kohlmann, F. Li, J. Qi, L. Cai, T. A. Dwight, Y. Xu, R. Xu, R. Dodd, A. Toms, L. Parillon, X. Lu, R. Anjum, S. Zhang, F. Wang, J",
+        "start_index": 15907,
+        "end_index": 16111
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Keats, S. D. Wardwell, Y. Ning, Q. Xu, L. E. Moran, Q. K. Mohemmad, H. G. Jang, T. Clackson, N. I. Narasimhan, V. M. Rivera, X. Zhu, D. Dalgarno, W. C. Shakespeare",
+        "start_index": 16111,
+        "end_index": 16276
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": ". Discovery of Brigatinib (AP26113), a Phosphine Oxide-Containing, Potent, Orally Active Inhibitor of Anaplastic Lymphoma Kinase. *J. Med. Chem.* 2016, 59, 4948\u20134964.",
+        "start_index": 16276,
+        "end_index": 16442
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "16 P. Finkbeiner, J. P. Hehn, C. Gnamm. Phosphine Oxides from a Medicinal Chemist\u2019s Perspective: Physicochemical and in Vitro Parameters Relevant for Drug Discovery. *J. Med. Chem.* 2020, 63, 7081\u20137107.",
+        "start_index": 16442,
+        "end_index": 16644
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "17 J. J. A. Garwood, A. D. Chen, D. A. Nagib. Radical Polarity. *J. Am. Chem. Soc.* 2024, 146, 28034\u201328059.",
+        "start_index": 16644,
+        "end_index": 16751
+    },
+    {
+        "document_name": "51.txt",
+        "chunk_text": "Alkyl azetidines have been prepared by photochemical modifications of azetidine-2-carboxylic acids in batch and in flow. The reaction has been realized in mg-, g-, and even multigram quantities. The obtained azetidines are valuable building blocks for drug discovery.",
+        "start_index": 16751,
+        "end_index": 17018
+    }
+]

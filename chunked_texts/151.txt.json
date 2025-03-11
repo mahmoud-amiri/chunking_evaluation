@@ -1,0 +1,1214 @@
+[
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Spontaneous Trisulfide Metathesis in Polar Aprotic Solvents",
+        "start_index": 0,
+        "end_index": 59
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Harshal D. Patel,1\u2020 Alfrets D. Tikoalu,1\u2020 James N. Smith,1\u2020 Zhipeng Pei,1\u2020 Ryan Shapter,1 Samuel J. Tonkin,1 Peiyao Yan,2 Witold M. Bloch1, Martin R. Johnston,1 Jeffrey R. Harmer,3 Christopher T. Gibson,4,5 Michael V. Perkins,1 Tom Hasell,2 Michelle L",
+        "start_index": 59,
+        "end_index": 310
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Coote,1,* Zhongfan Jia,1,* and Justin M. Chalker1,*",
+        "start_index": 310,
+        "end_index": 363
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "\u2020 These authors contributed equally to this work\n\n1 College of Science and Engineering, Flinders University, Bedford Park, South Australia 5042, Australia\n\n2 Department of Chemistry, University of Liverpool, Liverpool L69 7ZD, United Kingdom\n\n3 Centre for Advanced Imaging, University of Queensland, Brisbane, Queensland 4072, Australia\n\n4 Flinders Microscopy and Microanalysis, College of Science and Engineering, Flinders University, Bedford Park, South Australia 5042, Australia",
+        "start_index": 363,
+        "end_index": 844
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "5 Adelaide Microscopy, The University of Adelaide, Adelaide, South Australia 5000, Australia\n\nE-mail:\nmichelle.coote@flinders.edu.au\nzhongfan.jia@flinders.edu.au\njustin.chalker@flinders.edu.au",
+        "start_index": 844,
+        "end_index": 1036
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Abstract: Sulfur-sulfur bonds are ubiquitous across broad classes of natural products, peptides and proteins, drug molecules, and synthetic polymers and materials. The ability to make and break these bonds in a controlled manner is critical for their many scientific and technological applications. In this study, we report the discovery of a new and unusual S-S metathesis reaction of linear organic trisulfides",
+        "start_index": 1036,
+        "end_index": 1448
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". When exposed to certain polar aprotic solvents, trisulfides were found to undergo spontaneous metathesis, with equilibrium established in seconds in some cases. No exogenous reagents, heat, light, or other stimuli were required to provoke this reaction",
+        "start_index": 1448,
+        "end_index": 1702
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Understanding the scope and mechanism of this reaction enabled diverse applications of this chemistry in dynamic combinatorial library synthesis, covalent modification of complex natural products, and S-S metathesis polymerization and depolymerization as a platform for chemically recyclable plastics.",
+        "start_index": 1702,
+        "end_index": 2005
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Introduction: The S-S bond is integral to the structure and function of diverse classes of natural products,1,2 peptides and proteins,3,4 drug molecules,5 and polymers",
+        "start_index": 2005,
+        "end_index": 2172
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".6,7 The utility of the S-S bond stems from its ability to break and reform in response to diverse stimuli including heat,8 nucleophilic or basic catalysts,9-11 oxidants and reductants,12 electrochemical potentials,13 light,14 ball milling,15,16 pressure,17 or sonication",
+        "start_index": 2172,
+        "end_index": 2443
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".18 The dynamic nature of the S-S bond has been leveraged in many applications such as peptide and protein modification,19 drug delivery,20 combinatorial chemistry,21 and self-healing materials.22 Organic disulfides (R-S-S-R, where R = carbon) are the most widely explored linkages in these applications, and radical14,18 or ionic9,11 intermediates are commonly invoked in mechanistic descriptions of these S-S exchange reactions (Figure 1A)",
+        "start_index": 2443,
+        "end_index": 2884
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Uncatalyzed disulfide metathesis at room temperature, without the aforementioned energy inputs or chemical stimuli, is extremely rare.23",
+        "start_index": 2884,
+        "end_index": 3022
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Organic trisulfides (R-S-S-S-R), while less widely studied than disulfides, are intriguing functional groups found in several natural products,1,2,24,25 anti-tumor compounds,5,26 and vulcanized rubber.27,28 Trisulfides have also found recent use as cathode materials for rechargeable batteries",
+        "start_index": 3022,
+        "end_index": 3315
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".29 Thermally induced S-S exchange reactions of trisulfides have been investigated for more than 50 years, with foundational insights provided by Coran30 and Tobolksy.31 These studies established the ability of organic trisulfides to undergo S-S exchange in benzene, nitrobenzene or solvent-free conditions at temperatures ranging from 80 to 150 \u00b0C",
+        "start_index": 3315,
+        "end_index": 3663
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Under such conditions, the S-S exchange required hours or days to reach equilibrium (Figure 1B).30,31 Evidence for radical intermediates and the production of di-, tri- and tetrasulfides was provided in these thermally-induced S-S exchange reactions.30,31",
+        "start_index": 3663,
+        "end_index": 3920
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Recently, we encountered an unusually fast trisulfide metathesis reaction while investigating the processing and recycling of polymers containing polysulfide crosslinks. Specifically, we discovered that simple linear trisulfides underwent rapid exchange at room temperature in either pyridine32 or amide-containing solvents such as dimethylformamide (DMF), dimethylacetamide (DMA), and N-methyl-2-pyrroldione (NMP)",
+        "start_index": 3920,
+        "end_index": 4334
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".33 In these reactions, the exchange reaction was complete within minutes at room temperature and only trisulfides were formed: no disulfides or tetrasulfides were observed",
+        "start_index": 4334,
+        "end_index": 4506
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".32,33 Mechanistically, tentative hypotheses were proposed that rationalized pyridine as a nucleophilic catalyst that provoked an ionic S-S exchange reaction;32 DMF, DMA, and NMP were proposed to coordinate to sulfur, weaken the trisulfide S-S bond, and accelerate homolytic cleavage for S-S exchange via radical intermediates.33 In this study, we reveal that neither of these previously reported mechanisms fully account for these trisulfide exchange reactions",
+        "start_index": 4506,
+        "end_index": 4967
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Instead, a novel trisulfide metathesis mechanism is proposed that features neither ionic nor radical intermediates, and accounts for the exclusive formation of trisulfide exchange products. Detailed examination of solvent effects, substrate scope, mechanistic probes, reaction inhibitors, and computational insights revealed a new reaction manifold for S-S exchange that is unique to organic trisulfides. This understanding enabled wide-ranging applications of this chemistry in dynamic combinatorial library synthesis, direct",
+        "start_index": 4967,
+        "end_index": 5495
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "modification of complex natural products, and S-S metathesis polymerization and depolymerization as a platform for recyclable plastics (Figure 1C).",
+        "start_index": 5495,
+        "end_index": 5642
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Figure 1. A) Disulfide metathesis widely used in synthetic and biological chemistry\n\n\\[ \\text{Me}_2\\text{SSSMe} + \\text{Me}_2\\text{SSSMe} \\xrightarrow{\\text{stimuli}} \\text{Me}_2\\text{SSSMe} + \\text{Me}_2\\text{SSSMe} \\]",
+        "start_index": 5642,
+        "end_index": 5861
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Stimuli = chemical reagent, catalyst, heat, light, force, sonication, electrochem\n\nB) Thermally-induced trisulfide metathesis is slow (Trivette, Coran 1965)",
+        "start_index": 5861,
+        "end_index": 6017
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "\\[ \\text{S}_3\\text{S} + \\text{S}_3\\text{S} \\xrightarrow{\\text{C}_{6}\\text{H}_{6}, 130 \\degree \\text{C}} \\text{S}_3\\text{S} + \\text{S}_3\\text{S} \\]\n\nhours\n\nC) This work: spontaneous trisulfide metathesis in polar, aprotic solvents",
+        "start_index": 6017,
+        "end_index": 6246
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "\\[ \\text{Me}_2\\text{SSSMe} + \\text{Me}_2\\text{SSSMe} \\xrightarrow{\\text{DMF, 20 \\degree \\text{C}}} \\text{Me}_2\\text{SSSMe} + \\text{Me}_2\\text{SSSMe} \\]\n\nseconds\n\nResults and Discussion:",
+        "start_index": 6246,
+        "end_index": 6431
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Solvent effects. A model reaction between dimethyl trisulfide and di-\\(n\\)-propyl trisulfide was used to assess the influence of solvent on this unusual S-S exchange process (Figure 2)",
+        "start_index": 6431,
+        "end_index": 6615
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Control reactions in which no solvent was used (both trisulfides are liquids) resulted in no reaction after 24 hours, and only trace amounts of metathesis product (MeS\\(_n\\)Pr) were observed over 7 days at room temperature, as assessed by gas chromatography-mass spectrometry (GC-MS) analysis (S7-S8). Heating the neat reaction to 80 \u00b0C led to no reaction over 24 hours",
+        "start_index": 6615,
+        "end_index": 6986
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In contrast, rapid S-S metathesis was observed when the trisulfides were treated with 1 molar equivalent of DMF. The result was the same in ambient light and when light was excluded from the reaction (S9-S10). The amount of DMF was",
+        "start_index": 6986,
+        "end_index": 7219
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "important with no reaction observed when only 5% of the reaction volume was comprised of DMF (~0.2 molar equivalents relative to trisulfide) and increasing reaction rates were observed with increasing amounts of DMF. When >50% of the reaction volume was DMF (>3.6 molar equivalents DMF relative to trisulfide), equilibrium was reached in less than 2 minutes at room temperature (S11-S24)",
+        "start_index": 7219,
+        "end_index": 7606
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Rapid S-S metathesis was also observed in other amide containing solvents (DMA, NMP), urea-based solvents, phosphoramides and DMSO (Figure 2, Category 1 solvents). In all cases, equilibrium was reached in seconds when the reaction was run in an excess of these polar, aprotic solvents (S25-S29)",
+        "start_index": 7606,
+        "end_index": 7902
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Interestingly, the rate of S-S metathesis in these solvents was reduced when water or acetic acid was added to the reaction. For this reason, it was important to dry the solvents to promote rapid metathesis (S30-S35).",
+        "start_index": 7902,
+        "end_index": 8121
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Several other solvents were screened in this reaction to gain insights into how the reaction medium influences trisulfide metathesis (S36-S57). Pyridine, \u03b5-caprolactone, and propylene carbonate led to moderate rates, with equilibrium established within hours at room temperature (Figure 2, Category 2 solvents). All other solvents tested led to very slow reactions or no reaction (Figure 2, Category 3 solvents)",
+        "start_index": 8121,
+        "end_index": 8532
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Two exceptions in this group of solvents were nitromethane and nitrobenzene, which promoted S-S metathesis over 24 hours at room temperature. In general, the trisulfide metathesis was very slow or did not occur in non-polar solvents, or solvents that contain hydrogen bond donating groups such as alcohols and acids.",
+        "start_index": 8532,
+        "end_index": 8850
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Triethylamine, diethylamine and n-butylamine were also tested in the trisulfide metathesis reaction as nucleophilic solvents (S48-S54). The reaction in triethylamine was relatively slow, with minor amounts of the crossover product formed after an hour of reaction at room temperature. Similarly, S-S metathesis was slow in diethylamine, requiring 24 hours to reach equilibrium",
+        "start_index": 8850,
+        "end_index": 9226
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In contrast, n-butylamine promoted S-S exchange in minutes, but many other products also formed, including di- and tetrasulfide products. Together these results suggest that the rapid reaction and exclusive formation of trisulfides in the Category 1 solvents is not simply due to solvent nucleophilicity or contaminant amines.",
+        "start_index": 9226,
+        "end_index": 9554
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Finally, mixed solvent systems were evaluated to determine if the addition of a Category 1 solvent such as DMF led to an otherwise unreactive mixture can promote the trisulfide metathesis (S56-57). In mixtures of DMF and THF at room temperature, only trace S-S metathesis was observed when the volume of DMF was 25% or less. For higher proportions of DMF, the S-S metathesis reactivity was recovered",
+        "start_index": 9554,
+        "end_index": 9953
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In mixtures of DMF and chlorobenzene, trace reaction was observed when only 5% of the solvent volume was DMF. However, at solvent compositions of 10% DMF and 90% chlorobenzene, S-S metathesis was observed in minutes at room temperature.",
+        "start_index": 9953,
+        "end_index": 10191
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Figure 2.** Influence of solvent on the rate of S-S metathesis between dimethyl trisulfide and di-n-propyl trisulfide at 20 \u00b0C. Reactions were monitored by GC-MS. The trisulfide metathesis was fastest in polar, aprotic solvents (Category 1 and 2)",
+        "start_index": 10191,
+        "end_index": 10439
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Slower reactions or no reaction was observed in less polar solvents, alcohols, or acids (Category 3).",
+        "start_index": 10439,
+        "end_index": 10542
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Inhibition of trisulfide metathesis.** We next turned our attention to potential inhibitors of the reaction that could, perhaps, provide mechanistic clues (S58-S77). For example, water was found to slow trisulfide metathesis in DMF and Category 1 solvents that otherwise promote rapid S-S exchange",
+        "start_index": 10542,
+        "end_index": 10841
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". First, the (2,2,6,6-tetramethylpiperidin-1-yl)oxyl (TEMPO) radical was added to the reaction as a potential radical scavenger or redox inhibitor. Indeed, S-S metathesis of dimethyl trisulfide and di-n-propyl trisulfide in DMF was inhibited by the addition of as little as 0.05 mol% TEMPO",
+        "start_index": 10841,
+        "end_index": 11130
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". While it was challenging to determine the fate of TEMPO, it was clear from electron paramagnetic resonance (EPR) and nuclear magnetic resonance (NMR) spectroscopy that the radical of TEMPO was consumed in the reaction (S65 and S82-S83)",
+        "start_index": 11130,
+        "end_index": 11367
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Other radical scavengers such as 2,6-di-tert-butyl-4-methylphenol (BHT) did not inhibit the reaction, so we tentatively attributed the TEMPO inhibition to a redox reaction, rather than trapping a putative radical intermediate. Next, it was found that 10 mol% 1,4-benzoquinone inhibited S-S metathesis, as did maleic anhydride and succinic anhydride",
+        "start_index": 11367,
+        "end_index": 11717
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The trisulfide did not appear to form any detectable adduct with these inhibitors. This result potentially indicates that the inhibition proceeds by reaction of these electrophilic species with a reactive intermediate formed in low concentration.",
+        "start_index": 11717,
+        "end_index": 11965
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Electron paramagnetic resonance spectroscopy.** The inhibition studies tentatively pointed to a reactive intermediate that is non-radical and quenched through a redox reaction with TEMPO or by reaction with electrophiles such as acids and anhydrides. Further evidence against radical intermediates in the metathesis reaction was provided by EPR spectroscopy (S78-S87)",
+        "start_index": 11965,
+        "end_index": 12334
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". No significant signal for thiyl radicals was detected in solutions of dimethyl trisulfide in DMF. Similarly, no significant signal for thiyl radicals was detected in the crossover reaction mixture of dimethyl trisulfide and di-\\(n\\)-propyl trisulfide in DMF",
+        "start_index": 12334,
+        "end_index": 12593
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Furthermore, the proradical spin trap 5,5-dimethyl-1-pyrroline-N-oxide (DMPO) did not react with dimethyl trisulfide in DMF and no radicals were detected by EPR, providing further evidence against a radical mechanism.",
+        "start_index": 12593,
+        "end_index": 12812
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Evaluation of thiols, thiolates, and thiyl radicals as potential intermediates.** The rapid metathesis of trisulfides observed in DMF and related solvents could, in principle, involve intermediate thiols, thiolates or thiyl radicals. However, the key metathesis reaction reliably and selectively generated trisulfides only: no disulfides and no tetrasulfides were formed",
+        "start_index": 12812,
+        "end_index": 13184
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". This was a curious result, and an unlikely outcome if thiolates or thiyl radicals were intermediates. To test whether these species were involved in the reaction, thiols, thiolates and thiyl radicals were independently generated and reacted with a trisulfide (S88-S94 and Figure 3). In the first case, 1-propane thiol (0.1 equivalents) was reacted with di-\\(n\\)-propyl trisulfide",
+        "start_index": 13184,
+        "end_index": 13565
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". While the reaction was slow, di-\\(n\\)-propyl disulfide and di-\\(n\\)-propyl tetrasulfide were detected in the first minute of reaction by GC-MS, with increasing formation over 24 hours",
+        "start_index": 13565,
+        "end_index": 13750
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". If 1-propane thiol was first deprotonated with sodium hydride to form the corresponding thiolate, reaction with di-\\(n\\)-propyl trisulfide in DMF led to rapid formation of a mixture of di-, tri-, and tetrasulfides (Figure 3A)",
+        "start_index": 13750,
+        "end_index": 13977
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Because the trisulfide metathesis in DMF provides only trisulfides, it is therefore unlikely to involve thiol and thiolate intermediates. Similarly, when di-\\(n\\)-propyl trisulfide was subjected to photolysis in DMF using a 254 nm light source, formation of the corresponding disulfide was observed within minutes by GC-MS (Figure 3B)",
+        "start_index": 13977,
+        "end_index": 14313
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". As this reaction presumably generates thiyl (\\(RS\\\u2022\\)) and perthiyl (\\(RSS\\\u2022\\)) radicals by homolytic cleavage of the S-S bond of the trisulfide, it is unlikely that such intermediates are featured in the trisulfide metathesis reaction of interest. This experiment also indicates that the trisulfide metathesis is unlikely to be a photochemical process",
+        "start_index": 14313,
+        "end_index": 14667
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Finally, it was found that rapid metathesis was observed between dimethyl trisulfide and di-\\(n\\)-propyl trisulfide using \\(N,N\\)-dimethylacrylamide as the solvent (Figure 3C and S95). Only trisulfide products were observed in the metathesis reaction and no reaction with \\(N,N\\)-dimethylacrylamide was observed",
+        "start_index": 14667,
+        "end_index": 14980
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". This solvent would be expected to react if thiolates or thiyl radicals were intermediates, but no polymerization or addition to the alkene of \\(N,N\\)-dimethylacrylamide was observed. Together, these results suggest that the S-S metathesis of trisulfides in DMF and related solvents features neither thiolate nor radical intermediates.",
+        "start_index": 14980,
+        "end_index": 15316
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Comparing S-S metathesis reactivity of di-, tri-, and tetrasulfides.** The S-S metathesis reaction promoted by DMF and related solvents is unique to trisulfides: the same reactivity was not observed",
+        "start_index": 15316,
+        "end_index": 15516
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "for disulfides or tetrasulfides (Figure 3D-E and S96-S123)",
+        "start_index": 15516,
+        "end_index": 15574
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". When dimethyl disulfide was treated with DMF in the presence of di-\\textit{n}-propyl disulfide, di-\\textit{n}-hexyl disulfide, di-\\textit{iso}-butyl disulfide, di-\\textit{iso}-propyl disulfide, or di-\\textit{tert}-butyl disulfide, no more than trace reaction was observed at room temperature over 24 hours",
+        "start_index": 15574,
+        "end_index": 15881
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". One interesting exception was dibenzyl disulfide, which did undergo rapid metathesis with dimethyl disulfide in DMF, NMP, or DMSO. In these cases, dibenzyl disulfide is a uniquely reactive substrate, perhaps activated by neighboring group participation of the aryl group",
+        "start_index": 15881,
+        "end_index": 16153
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Nonetheless, the reactivity of dibenzyl disulfide appears to be an exception; in general, spontaneous S-S metathesis of alkyl disulfides does not occur at room temperature in polar, aprotic solvents. The non-reactivity of tetrasulfides was also a surprise",
+        "start_index": 16153,
+        "end_index": 16410
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The central S-S bond in the tetrasulfide is less than half the strength of the S-S bond of disulfides, as confirmed by high-level computations (S194-S195)",
+        "start_index": 16410,
+        "end_index": 16566
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Nevertheless, when di-\\textit{n}-propyl tetrasulfide and dibenzyl tetrasulfide were combined in an equimolar ratio in deuterated DMF, no reaction was observed by $^1$H NMR spectroscopy for up to 12 hours (Figure 3E). Even heating this mixture to 80 \u00b0C for 1 hour did not provoke a reaction",
+        "start_index": 16566,
+        "end_index": 16857
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Reaction was only observed when the mixture was heated to 100 \u00b0C, which is consistent with radical S-S exchange of tetrasulfides. A similar result was observed in the attempted metathesis of di-\\textit{n}-propyl tetrasulfide and bis(4-methoxybenzyl) tetrasulfide in DMF. In contrast, trisulfides exhibited very rapid metathesis in DMF at room temperature",
+        "start_index": 16857,
+        "end_index": 17213
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Together, these results point to a unique reaction pathway of trisulfides that is not accessible to the corresponding di- or tetrasulfide substrates.",
+        "start_index": 17213,
+        "end_index": 17364
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| Observations with bearing on the mechanism of trisulfide metathesis |\n|---------------------------------------------------------------|\n| **A)** Thiolates convert trisulfides into di- and tetrasulfides in DMF |\n| $\\text{S}_3\\text{S} \\quad (0.05 \\text{ eq.}) \\quad \\text{DMF, RT, 1 min}$ |",
+        "start_index": 17364,
+        "end_index": 17654
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| $\\text{S}_2\\text{S} \\quad $ |\n| $\\text{S}_3\\text{S} \\quad $ |\n| $\\text{S}_4\\text{S} \\quad $ |\n| $\\text{S}_5\\text{S} \\quad $ |\n| **B)** Photolysis of a trisulfide in DMF generates a mixture of di- and trisulfides |",
+        "start_index": 17654,
+        "end_index": 17869
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| $\\text{S}_3\\text{S} \\quad h\\nu (254 \\text{ nm}) \\quad \\text{DMF, RT, 30 min}$ |\n| $\\text{S}_2\\text{S} \\quad $ |\n| $\\text{S}_3\\text{S} \\quad $ |\n| $\\text{S}_4\\text{S} \\quad $ |",
+        "start_index": 17869,
+        "end_index": 18046
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| **C)** Rapid trisulfide metathesis in $\\text{N,N}$-dimethylacrylamide (no reaction at alkene) |\n| $\\text{Me}_2\\text{S}_3\\text{S} \\quad (1.0 \\text{ eq.}) \\quad \\text{RT, minutes}$ |\n| $\\text{Me}_2\\text{S}_3\\text{S} \\quad $ |",
+        "start_index": 18046,
+        "end_index": 18271
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| **D)** Disulfides do not generally undergo spontaneous S-S metathesis in DMF |\n| $\\text{S}_2\\text{S} \\quad \\text{DMF (1.0 eq)} \\quad \\text{RT, 24 h}$ |\n| $\\text{S}_2\\text{S} \\quad $ |\n| **E)** Tetrasulfides do not generally undergo spontaneous S-S metathesis in DMF |",
+        "start_index": 18271,
+        "end_index": 18540
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "| $\\text{S}_4\\text{S} \\quad \\text{DMF} \\quad \\text{RT, 12 h}$ |\n| $\\text{S}_4\\text{S} \\quad $ |",
+        "start_index": 18540,
+        "end_index": 18635
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Figure 3.** Mechanistically relevant observations and control experiments. **A)** Thiolates rapidly convert trisulfides into di- and tetrasulfides at room temperature in DMF. **B)** Photolysis of di-\u03b1-propyl trisulfide in DMF rapidly generates a mixture of disulfide and trisulfide products. For both A and B, the composition was determined by GC-MS peak areas",
+        "start_index": 18635,
+        "end_index": 18997
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". **C)** Trisulfide metathesis occurs rapidly in N,N-dimethylacrylamide. No reaction at the alkene such as addition or polymerization was observed. **D)** The S-S metathesis of disulfides does not generally occur at room temperature in DMF. **E)** The S-S metathesis of tetrasulfides was not observed in DMF at room temperature, despite containing a weaker S-S bond than trisulfides.",
+        "start_index": 18997,
+        "end_index": 19380
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Substrate scope of trisulfide metathesis in DMF.** A variety of linear trisulfides were synthesized to assess the influence of the steric bulk and functional group compatibility on S-S metathesis in DMF (S124-S160). In general, rapid S-S metathesis was observed in 1 or 10 equivalents of DMF for a variety of combinations of alkyl, allyl, and benzyl trisulfides (Fig",
+        "start_index": 19380,
+        "end_index": 19748
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". 4A), as determined by GC-MS or 1H NMR spectroscopy (S161-S185). Equilibrium was generally established within 1 hour at room temperature when 10 equivalents of DMF was used and no disulfides or tetrasulfides were ever observed, even after 24 hours of reaction. No metathesis was observed in the neat control reactions in which no DMF was added to the two liquid trisulfides",
+        "start_index": 19748,
+        "end_index": 20122
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Slightly slower reaction rates were observed for larger alkyl groups (iPr and iBu) when only 1 equivalent of DMF was used. For trisulfides containing 1 or 2 very large groups such as tert-butyl or adamantyl groups, no S-S metathesis was observed at room temperature due to steric hindrance (Figure 4B)",
+        "start_index": 20122,
+        "end_index": 20425
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". However, the metathesis of BnS\u2086Bu and MeS\u2086Me could be promoted in DMF at 100 \u00baC, while there was no reaction at the same temperature when no solvent was used (Figure 4B). Interestingly, the diol in Figure 4C was unreactive in the S-S metathesis in DMF, but its corresponding trimethylsilyl (TMS) ether underwent rapid S-S metathesis",
+        "start_index": 20425,
+        "end_index": 20759
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". This result highlights the sensitivity of the reaction to OH groups which may attenuate the reactivity of the trisulfide or an intermediate species (see below). Finally, the ability to manipulate the equilibrium composition of the reversible S-S metathesis reaction was demonstrated (Figure 4D)",
+        "start_index": 20759,
+        "end_index": 21055
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". When an excess of dimethyl trisulfide (50 equivalents) and DMF were added to dibenzyl trisulfide, S-S metathesis provided the unsymmetric product (BnS\u2086Me). This product could be isolated in 92% yield after extraction into pentane and distillation of the excess dimethyl trisulfide, demonstrating the preparative potential of this reaction in synthesis",
+        "start_index": 21055,
+        "end_index": 21408
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". As a further demonstration of the reversibility of the S-S metathesis reaction, BnS\u2086Me was re-subjected to DMF and observed to undergo spontaneous S-S metathesis within minutes, generating a mixture of BnS\u2086Me, BnS\u2086Bn, and MeS\u2086Me (Figure 4E).",
+        "start_index": 21408,
+        "end_index": 21651
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "A final series of experiments was carried out to assess the reaction of cyclic trisulfides. Specifically, it was found that cyclic trisulfides contained in 5-member rings do not react with themselves and undergo ring-opening S-S metathesis in DMF (S186-S189)",
+        "start_index": 21651,
+        "end_index": 21909
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". However, a linear trisulfide can react with such cyclic trisulfides to form a mixture of polysulfides and ring-opened products (S189-S191), which suggests that the linear trisulfide can form a reactive intermediate that is not accessible to the trisulfides contained in 5-member rings.",
+        "start_index": 21909,
+        "end_index": 22196
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "A) Rapid S-S metathesis was observed in DMF within minutes for a variety of alkyl, allyl, and benzyl trisulfide substrates.",
+        "start_index": 22196,
+        "end_index": 22319
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "B) Trisulfides containing bulky groups such as tert-butyl or adamantanyl do not undergo S-S metathesis at room temperature in DMF. DMF does promote S-S metathesis of MeS\u2083Me and BnS\u2083Bn at 100 \u00baC.\n\nC) Trisulfide metathesis in DMF can be inhibited by substrates with hydroxy groups.",
+        "start_index": 22319,
+        "end_index": 22598
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "D) The equilibrium of the reversible trisulfide metathesis can be altered by using an excess of one of the trisulfides. This strategy can be used to prepare unsymmetrical trisulfides in excellent isolated yields.\n\nE) The spontaneous conversion of BnS\u2083Me to MeS\u2083Me and BnS\u2083Bn is further demonstration of the reversibility of this S-S metathesis process.",
+        "start_index": 22598,
+        "end_index": 22950
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Mechanistic hypothesis and computational and kinetic insights.** The results summarized in Figures 2-4 provide several clues regarding the mechanism of this intriguing S-S metathesis reaction.",
+        "start_index": 22950,
+        "end_index": 23144
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "First, the high rates in polar, aprotic solvents suggest a rate determining step involving a polar intermediate or transition state. Second, the extraordinary selectivity for trisulfide products means that thiolate or thiol radical intermediates are unlikely because such species lead to the formation of other polysulfides such as disulfides and tetrasulfides. The lack of a significant EPR signal for the reaction is consistent with a non-radical pathway",
+        "start_index": 23144,
+        "end_index": 23600
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Computational insights also predict that the formation of thiol radicals or thiolate anions would lead to mixtures of disulfides, trisulfides, and tetrasulfides under the reaction conditions (S194-S198), but such mixtures are not observed",
+        "start_index": 23600,
+        "end_index": 23840
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Third, the reaction seems to be unique to linear trisulfides, as the corresponding process does not occur with either disulfides, tetrasulfides, or 5-member cyclic trisulfides under the conditions examined.",
+        "start_index": 23840,
+        "end_index": 24048
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Kinetic analysis of the reaction of Me2S3 and Pr2S3 in varying concentrations of DMF was also carried out (S11-S24 and S192-S193). This analysis revealed the reaction did not adhere to simple zero-, first-, or second-order rate laws. Because the rate law is not first-order or pseudo first-order, mechanisms involving an irreversible, unimolecular generation of an active species can be ruled out",
+        "start_index": 24048,
+        "end_index": 24444
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Because a second-order rate law is not operative, a concerted bimolecular metathesis event between two linear trisulfides is unlikely. Therefore, alternative mechanisms were considered such as the reversible formation of a (non-radical, non-ionic) reactive intermediate that could provoke the key S-S metathesis reaction, as described below.",
+        "start_index": 24444,
+        "end_index": 24787
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "A tentative mechanistic proposal is provided in Figure 5 to account for these experimental and theoretical insights (see also S194-S202). In this mechanistic proposal, the trisulfide first undergoes a reversible rearrangement to a thiosulfoxide reactive intermediate (a non-linear isomer of the trisulfide containing an S=S bond) (Figure 5)",
+        "start_index": 24787,
+        "end_index": 25127
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Calculations indicate the thiosulfoxide is 59 kJ/mol higher in energy and therefore more reactive than the linear trisulfide (S202). The polar structure of the thiosulfoxide intermediate is expected to be more favored in polar solvents such as DMF than in non-polar solvents",
+        "start_index": 25127,
+        "end_index": 25403
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The calculated charge densities of the thiosulfoxide (S201) are consistent with the polar structure suggested by the charge-separated resonance form depicted in Figure 5. The thiosulfoxide intermediate is proposed to then react directly with a linear trisulfide in the key biomolecular metathesis step. Two pathways are considered in Figure 5. In pathway A, the thiosulfoxide reacts with a linear trisulfide in a six-member ring transition state",
+        "start_index": 25403,
+        "end_index": 25850
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". This concerted process provides two crossover products: one linear trisulfide and another thiosulfoxide. The thiosulfoxide could then react with another trisulfide and propagate the S-S metathesis in a chain reaction. In pathway B, the thiosulfoxide is shown to react with a linear trisulfide in a 5-member ring transition state, providing two linear trisulfide crossover products",
+        "start_index": 25850,
+        "end_index": 26232
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Of these pathways, our theoretical calculations suggest that pathway B is preferred and this currently serves as our working hypothesis for the mechanism of this unusual reaction. Additional mechanistic hypotheses and a summary of supporting or opposing evidence is provided in the Supporting Information (S194-S202).",
+        "start_index": 26232,
+        "end_index": 26551
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "It should be noted that thiosulfoxides have been invoked previously in a number of mechanisms involving reactions of di-, tri-, and tetrasulfides,1,25,37-42 While these reactive intermediates are challenging to observe directly, there is spectroscopic evidence for the S=S bond in",
+        "start_index": 26551,
+        "end_index": 26831
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "sulfur monofluoride (F\u2082S), which can exist as both the linear disulfide (FSSF) and the thiosulfoxide isomer (F\u2082S=S). The S=S bond of a cyclic thiosulfite has also been characterized by X-ray crystallography. Previous theoretical studies by Steudel have indicated thiosulfoxides are highly polar, and should be stabilized in polar solvents",
+        "start_index": 26831,
+        "end_index": 27169
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Invoking a thiosulfoxide intermediate may also help explain the metathesis inhibition by water, alcohols, and acids: these species may hydrogen bond to the thiosulfoxide and attenuate its reactivity. Inhibition of metathesis by anhydrides and TEMPO might also be due to reaction with the thiosulfoxide by acylation and oxidation, respectively",
+        "start_index": 27169,
+        "end_index": 27513
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". We also note that the thiosulfoxide isomer of the 5-member cyclic trisulfide would be strained in its conversion to a 4-member ring, which explains why these substrates do not undergo spontaneous ring-opening S-S metathesis in DMF (S186-S189).",
+        "start_index": 27513,
+        "end_index": 27758
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "With a working understanding of the scope and mechanism of this unusual trisulfide metathesis reaction, it was next applied to several high value applications that take advantage of its selectivity, high rate, and reversibility.",
+        "start_index": 27758,
+        "end_index": 27986
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Figure 5.** Mechanistic hypothesis of the trisulfide metathesis reaction featuring a polar thiosulfoxide intermediate and a concerted S-S metathesis event. The thiosulfoxide is proposed to be a reactive intermediate that can be formed in polar solvents. **Pathway A** illustrates a proposal for a 6-member ring transition state that generates one thiosulfoxide and one linear trisulfide",
+        "start_index": 27986,
+        "end_index": 28374
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In pathway A, the newly generated thiosulfoxide can react with another linear trisulfide, propagating a chain reaction. **Pathway B** illustrates a proposal for a 5-member ring transition state in the S-S metathesis step, generating two linear trisulfides. Neither pathway in this proposal invokes radical or ionic intermediates and accounts for the exclusive formation of trisulfides, rather than disulfides or tetrasulfides.",
+        "start_index": 28374,
+        "end_index": 28802
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Direct modification of the complex natural product, Calicheamicin.** Calicheamicin \u03b3\u2081 is a member of a class of enediyne antibiotics with potent anti-tumor activity. Calicheamicin\u2019s intriguing structure contains a linear trisulfide, as well as potentially reactive functional groups such as its enediyne, an \u03b1,\u03b2-unsaturated ketone, and a thioester (Figure 6)",
+        "start_index": 28802,
+        "end_index": 29162
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Clinically, calicheamicin is conjugated to antibodies that target the drug to diseased tissue. The conjugation chemistry requires...",
+        "start_index": 29162,
+        "end_index": 29296
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "selective manipulation of the trisulfide domain of calicheamicin, so we thought that our newly discovered metathesis chemistry might be adaptable to the modification of this important anti-tumor medicine. We also regarded calicheamicin as a good testing ground for the selectivity and scope of our trisulfide metathesis chemistry. In particular, its complex structure would be an advance in substrate scope far beyond the substrates tested in Figure 4",
+        "start_index": 29296,
+        "end_index": 29747
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Furthermore, our working hypothesis of the mechanism of the trisulfide metathesis in Figure 5 does not invoke thiolate or thiyl radical intermediates\u2014species that would otherwise cleave calicheamicin\u2019s sensitive trisulfide and provoke Bergman cyclization of the enediyne",
+        "start_index": 29747,
+        "end_index": 30019
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".\\textsuperscript{47} In this way, attempting the trisulfide metathesis on calicheamicin would also provide potential mechanistic insight and corroboration of our mechanistic hypothesis.",
+        "start_index": 30019,
+        "end_index": 30205
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "As a model metathesis, calicheamicin was treated with excess dibenzyl trisulfide (35 equivalents) in deuterated DMF (Figure 6). Excess dibenzyl trisulfide was used to drive the equilibrium in favor of the benzyl calicheamicin trisulfide derivative",
+        "start_index": 30205,
+        "end_index": 30452
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Analysis by \\textsuperscript{1}H NMR revealed clean conversion to the benzylated calicheamicin product and the MeS\\textsubscript{3}Bn co-product over a period of 10 minutes (S203-S208). The calicheamicin derivative was precipitated and triturated with pentane",
+        "start_index": 30452,
+        "end_index": 30713
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". \\textsuperscript{1}H NMR and LC-MS analysis of the purified benzyl calicheamicin trisulfide clearly indicated the formation of the trisulfide metathesis product without any reaction at the potentially sensitive enediyne. The formation of the MeS\\textsubscript{3}Bn co-product was further confirmed by GC-MS and \\textsuperscript{1}H NMR spectroscopy after its extraction",
+        "start_index": 30713,
+        "end_index": 31084
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Similar results and selectivity were observed in the trisulfide metathesis of calicheamicin with di-\\textit{n}-propyltrisulfide (S209-S210). These results illustrate the exquisite selectivity and functional group compatibility of the novel S-S metathesis reaction. In contrast, a control experiment in which calicheamicin was treated with propane thiol resulted in a complex mixture of products (S211-S213)",
+        "start_index": 31084,
+        "end_index": 31492
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". As a final example of calicheamicin modification, self-metathesis in DMF was demonstrated with the formation of a calicheamicin dimer and dimethyl trisulfide. Because of the steric bulk of calicheamicin, this reaction was slower than the previous examples but could be accelerated by running the reaction at 40 \u00b0C",
+        "start_index": 31492,
+        "end_index": 31807
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". \\textsuperscript{1}H NMR spectroscopy clearly showed the formation of MeS\\textsubscript{3}Me, and LC-MS showed clean equilibration of calicheamicin with its dimer (S214-S216)",
+        "start_index": 31807,
+        "end_index": 31983
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The cross-metathesis and self-metathesis of the calicheamicin trisulfide highlights the remarkable selectivity of the metathesis reaction, which proceeds under mild conditions and does not compromise the other potentially reactive functional groups such as the enediyne, thioester, or the \\(\\alpha,\\beta\\)-unsaturated ketone. The reaction is also selective for trisulfide formation; disulfides or other sulfur species were not formed",
+        "start_index": 31983,
+        "end_index": 32418
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". These methods may also be useful in the preparation of calicheamicin conjugates and other derivatives required for its clinical applications.",
+        "start_index": 32418,
+        "end_index": 32561
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Figure 6. A) Calicheamicin \u03b3\u2081 was reacted with excess dibenzyl- or di-n-propyl trisulfide in DMF. Full conversion to the S-S metathesis product was observed. B) LC-MS data of the benzyl trisulfide derivative of calicheamicin \u03b3\u2081 after trituration to remove excess dibenzyl trisulfide and the methylbenzyl trisulfide co-product",
+        "start_index": 32561,
+        "end_index": 32886
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". C) The formation of the methylbenzyl trisulfide co-product was confirmed by GC-MS. D) 1H NMR data highlighting the key changes resulting from the S-S metathesis reaction. The methyl group from the starting material was no longer observed, as it was transferred to the methylbenzyl trisulfide co-product. The benzylic peaks of the modified calicheamicin \u03b3\u2081 were clearly observed.",
+        "start_index": 32886,
+        "end_index": 33266
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Dynamic combinatorial library synthesis.** The rapid and reversible nature of the trisulfide metathesis in DMF motivated us to explore this chemistry in the preparation of a dynamic combinatorial library. Such libraries have been explored extensively in drug discovery and supramolecular chemistry. Disulfide exchange has been used previously in these dynamic covalent systems, but it often suffers from low reaction rates and sensitivity to pH",
+        "start_index": 33266,
+        "end_index": 33712
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In contrast, S-S metathesis of trisulfides in DMF is extremely fast and can generate a dynamic covalent library in minutes at room temperature. No exogenous reagent or initiator is required: DMF was simply added to a mixture of trisulfides, and all expected trisulfide permutations were formed within 5 minutes (Figure 7 and S217-S223)",
+        "start_index": 33712,
+        "end_index": 34049
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". This dynamic covalent system showcases the high rate and reversibility of the novel trisulfide metathesis, as well as its fidelity in generating only trisulfide products under these conditions.",
+        "start_index": 34049,
+        "end_index": 34244
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Figure 7. A) The rapid S-S metathesis of trisulfides in DMF allows generation of a dynamic combinatorial library in minutes. B) The 8 initial trisulfides do not react when mixed neat, without any solvent. The GC trace shows all unreacted trisulfides after 24 hours at room temperature",
+        "start_index": 34244,
+        "end_index": 34528
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". C) All 29 expected trisulfides were generated with in 5 minutes from the 8 starting substrates when DMF was added, as shown by GC-MS. Compound 4 (Bu\u2082S\u2083) does not react due to its steric bulk and therefore appears in higher abundance in the GC trace of the product mixture.",
+        "start_index": 34528,
+        "end_index": 34802
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Platform for chemically recyclable polymers. The rapid and reversible nature of the featured trisulfide metathesis also prompted us to apply this reaction to the synthesis of poly(trisulfide) polymers. It was envisioned that polymerization of a monomer containing two trisulfide groups could be favored by formation of a volatile co-product (such as dimethyl trisulfide) along with the target polymer",
+        "start_index": 34802,
+        "end_index": 35202
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". We were also excited by the prospect of depolymerizing the polymer by the same S-S metathesis reaction. Such chemically recyclable polymer systems are becoming increasingly important in the effort to make plastics and other macromolecular materials more sustainable and aligned with the principles of a circular economy.",
+        "start_index": 35202,
+        "end_index": 35524
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "First, a bis(trisulfide) monomer (Figure 8A) was prepared on a multi-gram scale in 3 steps from commercially available 1,12-dibromododecane using a series of high-yielding substitution reactions (S224-S233). This liquid substance was stable when stored neat and did not react in nonpolar solvents such as toluene, even when heated to 100 \u00b0C (S234-S236)",
+        "start_index": 35524,
+        "end_index": 35876
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". In contrast, polymerization could be induced by simply dissolving the monomer in NMP. To drive the reversible reaction to polymer product, the mixture was heated to 60 \u00b0C and a vacuum (1 mbar) was applied to remove the dimethyl trisulfide co-product by distillation (Figure 8A and S236-S250)",
+        "start_index": 35876,
+        "end_index": 36169
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The formation of MeS\u2083Me was verified by \u00b9H and \u00b9\u00b3C NMR spectroscopy and GC-MS analysis of the material collected in the cold-trap. The poly(trisulfide) product precipitated from the reaction and was collected by centrifugation and washed with methanol and dried",
+        "start_index": 36169,
+        "end_index": 36432
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Comparison of the \u00b9H and \u00b9\u00b3C NMR spectra of the monomer and polymer clearly showed the expected reduction of the signal for the methyl end groups (Figure 8B-C). Gel permeation chromatography (GPC) and comparison to polystyrene standards indicated a M\u2098 = 46,750 g/mol and a relatively narrow molecular weight distribution (\u0110 = 1.7, Figure 8D)",
+        "start_index": 36432,
+        "end_index": 36775
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Differential scanning calorimetry (DSC) revealed the semi-crystalline nature of the",
+        "start_index": 36775,
+        "end_index": 36860
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "polymer, with melting transitions detected at 41.5 and 46.9 \u00b0C (Figure 8E). This semi-crystalline nature reflects the regular, unbranched structure of the polymer, which can be considered an analogue of high-density polyethylene (HDPE). The infrared spectrum (Figure 8F) is also very similar to that of HDPE",
+        "start_index": 36860,
+        "end_index": 37167
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Importantly, Raman spectroscopy revealed high fidelity propagation of the trisulfide structure throughout the polymer, with a characteristic signal for the trisulfide at 487 cm$^{-1}$ (Figure 8G). Comparison of the Raman spectra of authentic disulfide or tetrasulfide reference samples revealed that no disulfides and no tetrasulfides were detectable in the polymer (S240)",
+        "start_index": 37167,
+        "end_index": 37541
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Energy-dispersive X-ray spectroscopy (EDX) indicated a uniform distribution of sulfur across the surface of the polymer (S244). The poly(trisulfide) could also be readily processed by injection molding to provide free-standing objects (S251).",
+        "start_index": 37541,
+        "end_index": 37785
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "With the synthesis and characterization of the poly(trisulfide) polymer established, its depolymerization was investigated next (Figure 8A). Accordingly, the polymer was suspended in anhydrous DMF and then excess dimethyl trisulfide was added (~40 equivalents relative to the number of trisulfides in the polymer)",
+        "start_index": 37785,
+        "end_index": 38098
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The reaction was stirred for 5 minutes, but 1 minute of reaction time was sufficient for GPC analysis to indicate complete depolymerization (S252-S254). The re-generated monomer was extracted and the excess dimethyl trisulfide recovered by distillation. The monomer was recovered in excellent purity and in 91% yield.",
+        "start_index": 38098,
+        "end_index": 38417
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "The S-S metathesis polymerization and depolymerization in Figure 8 constitutes a new and efficient route to poly(trisulfide) polymers, complementing previously reported ring-opening polymerizations of cyclic trisulfides. More generally, this S-S metathesis polymerization provides access to sulfur-rich polymers, which have seen a resurgence due to the development of inverse vulcanization and related polymerizations by Pyun, and the many applications of these intriguing polymers",
+        "start_index": 38417,
+        "end_index": 38898
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". The reliable and high-yielding S-S metathesis polymerization and depolymerization is also a promising advance in developing analogs of commodity plastics that can be chemically recycled with high fidelity and efficiency",
+        "start_index": 38898,
+        "end_index": 39119
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". We have presented the poly(trisulfide) in Figure 8 as a chemically recyclable analog of HDPE, but the concept could be applied in principle to many other polymer classes where the trisulfide serves as uniquely reactive end groups of monomers, oligomers, or pre-formed polymers. We envision using the metathesis of these trisulfide end groups as a platform technology that can be used to make and un-make a wide variety of useful macromolecules",
+        "start_index": 39119,
+        "end_index": 39564
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".",
+        "start_index": 39564,
+        "end_index": 39565
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Figure 8. A) Trisulfide metathesis polymerization and depolymerization in NMP and DMF, respectively. The liquid monomer is converted into the solid polymer product, which is a structural analog of high-density polyethylene (HDPE). Exposing the polymer to excess dimethyltrisulfide (~40 equivalents relative to trisulfides in the polymer) causes rapid depolymerization in excellent yield",
+        "start_index": 39565,
+        "end_index": 39951
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". B-C) $^1$H and $^{13}$C NMR spectra of the monomer and polymer. The highlighted region shows the methyl end group in the monomer, and the reduction of this signal in the polymer product. D) GPC analysis showing the apparent molecular weight of the polymer and its relatively narrow molecular weight distribution. E) DSC analysis of the poly(trisulfide), indicating melting transitions which are consistent with its regular semi-crystalline structure",
+        "start_index": 39951,
+        "end_index": 40402
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". F) Infrared spectrum of the polymer, which is similar to HDPE. G) Raman spectrum of monomer and polymer, showing the distinctive trisulfide peak at 487 cm$^{-1}$. No signals corresponding to disulfides or tetrasulfide were observed.",
+        "start_index": 40402,
+        "end_index": 40636
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Conclusion: A novel S-S metathesis reaction of trisulfides was discovered and investigated. The S-S metathesis is unique in that it happens spontaneously in polar aprotic solvents such as DMF and NMP, without the need for any other reagents, catalysts or stimuli. The reaction is rapid and highly selective for the formation of trisulfides",
+        "start_index": 40636,
+        "end_index": 40975
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". A mechanistic hypothesis was developed, which invokes a thiosulfoxide as a reactive intermediate in the S-S metathesis. The rapid, reversible and selective nature of this reaction enabled its ready deployment into a variety of high-value applications.",
+        "start_index": 40975,
+        "end_index": 41228
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "including the covalent modification of the anti-tumor drug calicheamicin, the synthesis of a dynamic combinatorial library, and a novel S-S metathesis polymerization and depolymerization as a platform for chemically recyclable plastics.",
+        "start_index": 41228,
+        "end_index": 41464
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Methods:** All computational and experimental methods and characterization data are provided in the online Supplementary Information.\n\n**References:**\n\n1) Steudel, R. The Chemistry of Organic Polysulfanes R\u2013Sn\u2013R (n > 2). *Chem. Rev.* **102**, 3905-3946 (2002).",
+        "start_index": 41464,
+        "end_index": 41726
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "2) Jiang, C.-S., M\u00fcller, W. E. G., Schr\u00f6der, H. C. & Guo, Y.-W. Disulfide- and Multisulfide-Containing Metabolites from Marine Organisms. *Chem. Rev.* **112**, 2179-2207 (2012).",
+        "start_index": 41726,
+        "end_index": 41903
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "3) Wedemeyer, W. J., Welker, E., Narayan, M. & Scheraga, H. A. Disulfide Bonds and Protein Folding. *Biochemistry* **39**, 4207-4216 (2000).",
+        "start_index": 41903,
+        "end_index": 42043
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "4) G\u00f3ngora-Ben\u00edtez, M., Tulla-Puche, J. & Albericio, F. Multifaceted Roles of Disulfide Bonds. Peptides as Therapeutics. *Chem. Rev.* **114**, 901-926 (2014).",
+        "start_index": 42043,
+        "end_index": 42201
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "5) Zein, N., Sinha, A. M., McGahren, W. J. & Ellestad, G. A. Calicheamicin \u03b31: an Antitumor Antibiotic That Cleaves Double-Stranded DNA Site Specifically. *Science* **240**, 1198-1201 (1988).",
+        "start_index": 42201,
+        "end_index": 42392
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "6) Zhang, R., Nie, T., Fang, Y., Huang, H. & Wu, J. Poly(disulfide): From Synthesis to Drug Delivery. *Biomacromolecules* **23**, 1-19 (2022).",
+        "start_index": 42392,
+        "end_index": 42534
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "7) Lee, T., Dirlam, P. T., Njardarson, J. T., Glass, R. S. & Pyun, J. Polymerizations with Elemental Sulfur: From Petroleum Refining to Polymeric Materials. *J. Am. Chem. Soc.* **144**, 5-22 (2022).",
+        "start_index": 42534,
+        "end_index": 42732
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "8) Canadell, J., Goossens, H. & Klumperman, B. Self-Healing Materials Based on Disulfide Links. *Macromolecules* **44**, 2536-2541 (2011).",
+        "start_index": 42732,
+        "end_index": 42870
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "9) Houk, J. & Whitesides, G. M. Structure-Reactivity Relations for Thiol-Disulfide Interchange. *J. Am. Chem. Soc.* **109**, 6825-6836 (1987).",
+        "start_index": 42870,
+        "end_index": 43012
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "10) Sarma, R. J., Otto, S. & Nitschke, J. R. Disulfides, Imines, and Metal Coordination within a Single System: Interplay between Three Dynamic Equilibria. *Chem. Eur. J.* **13**, 9542-9546 (2007).",
+        "start_index": 43012,
+        "end_index": 43209
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "11) Caraballo, R., Rahm, M., Vongvilai, P., Brinck, T. & Ramstr\u00f6m, O. Phosphine-catalyzed disulfide metathesis. *Chem. Commun.*, 6603-6605 (2008).",
+        "start_index": 43209,
+        "end_index": 43355
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "12) Alcock, L. J., Perkins, M. V. & Chalker, J. M. Chemical methods for mapping cysteine oxidation. *Chem. Soc. Rev.* **47**, 231-268 (2018).",
+        "start_index": 43355,
+        "end_index": 43496
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "13) Sattler, L. E., Otten, C. J. & Hilt, G. Alternating Current Electrolysis for the Electrocatalytic Synthesis of Mixed Disulfide via Sulfur\u2013Sulfur Bond Metathesis towards Dynamic Disulfide Libraries. *Chem. Eur. J.* **26**, 3129-3136 (2020).",
+        "start_index": 43496,
+        "end_index": 43739
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "14) Otsuka, H., Nagano, S., Kobashi, Y., Maeda, T. & Takahara, A. A dynamic covalent polymer driven by disulfide metathesis under photoirradiation. *Chem. Commun.* **46**, 1150-1152 (2010).",
+        "start_index": 43739,
+        "end_index": 43928
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "15) Belenguer, A. M., Fri\u0161\u010di\u0107, T., Day, G. M. & Sanders, J. K. M. Solid-state dynamic combinatorial chemistry: reversibility and thermodynamic product selection in covalent mechanosynthesis. *Chem. Sci.* **2**, 696-700 (2011).",
+        "start_index": 43928,
+        "end_index": 44154
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "16) Belenguer, A. M., Lampronti, G. I., Wales, D. J. & Sanders, J. K. M. Direct Observation of Intermediates in a Thermodynamically Controlled Solid-State Dynamic Covalent Reaction. *J. Am. Chem. Soc.* **136**, 16156-16166 (2014).",
+        "start_index": 44154,
+        "end_index": 44384
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "17) Sobczak, S. *et al.* Dynamic Covalent Chemistry under High-Pressure: A New Route to Disulfide Metathesis. *Chem. Eur. J.* **24**, 8769-8773 (2018).",
+        "start_index": 44384,
+        "end_index": 44535
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "18) Fritze, U. F. & von Delius, M. Dynamic disulfide metathesis induced by ultrasound. *Chem. Commun.* **52**, 6363-6366 (2016).",
+        "start_index": 44535,
+        "end_index": 44663
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "19) Chalker, J. M., Bernardes, G. J. L., Lin, Y. A. & Davis, B. G. Chemical Modification of Proteins at Cysteine: Opportunities in Chemistry and Biology. *Chem. Asian J.* **4**, 630-640 (2009).",
+        "start_index": 44663,
+        "end_index": 44856
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "20) Saito, G., Swanson, J. A. & Lee, K.-D. Drug delivery strategy utilizing conjugation via reversible disulfide linkages: role and site of cellular reducing activities. *Adv. Drug Deliv. Rev.* **55**, 199-215 (2003).",
+        "start_index": 44856,
+        "end_index": 45073
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "21) Corbett, P. T. *et al.* Dynamic Combinatorial Chemistry. *Chem. Rev.* **106**, 3652-3711 (2006).\n\n22) Yang, Y. & Urban, M. W. Self-healing polymeric materials. *Chem. Soc. Rev.* **42**, 7446-7467 (2013).",
+        "start_index": 45073,
+        "end_index": 45280
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "23) Rekondo, A. *et al.* Catalyst-free room-temperature self-healing elastomers based on aromatic disulfide metathesis. *Mater. Horiz.* **1**, 237-240 (2014).",
+        "start_index": 45280,
+        "end_index": 45438
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "24) Block, E. The Organosulfur Chemistry of the Genus Allium \u2013 Implications for the Organic Chemistry of Sulfur. *Angew. Chem., Int. Ed. Engl.* **31**, 1135-1178 (1992).",
+        "start_index": 45438,
+        "end_index": 45607
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "25) Clennan, E. L. & Stensaas, K. L. Recent Progress in the Synthesis, Properties and Reactions of Trisulfanes and Their Oxides. *Org. Prep. Proced. Int.* **30**, 551-600 (1998).",
+        "start_index": 45607,
+        "end_index": 45785
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "26) Nicolaou, K. C., Smith, A. L. & Yue, E. W. Chemistry and biology of natural and designed endiynes. *Proc. Natl. Acad. Sci. USA* **90**, 5881-5888 (1993).",
+        "start_index": 45785,
+        "end_index": 45942
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "27) Bertozzi, E. R. Chemistry and Technology of Elastomeric Polysulfide Polymers. *Rubber Chem. Technol.* **41**, 114-160 (1968).\n\n28) Morrison, N. J. & Porter, M. Temperature Effects on the Stability of Intermediates and Crosslinks in Sulfur Vulcanization. *Rubber Chem. Technol.* **57**, 63-85 (1984).",
+        "start_index": 45942,
+        "end_index": 46245
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "29) Wu, M. *et al.* Organotrisulfide: A High Capacity Cathode Material for Rechargeable Lithium Batteries. *Angew. Chem. Int. Ed.* **55**, 10027-10031 (2016).",
+        "start_index": 46245,
+        "end_index": 46403
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "30) Trivette Jr., C. D. & Coran, A. Y. Polysulfide Exchange Reactions. I. Kinetics and Mechanism of the Thermal Exchange between Diethyl Trisulfide and Di-n-propyl Trisulfide. *J. Org. Chem.* **31**, 100-104 (1966).",
+        "start_index": 46403,
+        "end_index": 46618
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "31) Pickering, T. L., Saunders, K. J. & Tobolsky, A. V. Disproportionation of Organic Polysulfides. *J. Am. Chem. Soc.* **89**, 2364-2367 (1967).",
+        "start_index": 46618,
+        "end_index": 46763
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "32) Tonkin, S. J. *et al.* Chemically induced repair, adhesion, and recycling of polymers made by inverse vulcanization. *Chem. Sci.* **11**, 5537-5546 (2020).\n\n33) Yan, P. *et al.* Stretchable and Durable Inverse Vulcanized Polymers with Chemical and Thermal Recycling. *Chem. Mater.* **34**, 1167-1178 (2022).",
+        "start_index": 46763,
+        "end_index": 47074
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "34) Lundquist, N. A. *et al.* Reactive compression molding post-inverse vulcanization: A method to assemble, recycle, and repurpose sulfur polymers and composites. *Chem. Eur. J.* **26**, 10035-10044 (2020).",
+        "start_index": 47074,
+        "end_index": 47281
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "35) Kende, I., Pickering, T. L. & Tobolsky, A. V. The Dissociation Energy of the Tetrasulfide Linkage. *J. Am. Chem. Soc.* **87**, 5582-5586 (1965).",
+        "start_index": 47281,
+        "end_index": 47429
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "36) Chauvin, J.-P. R., Griesser, M. & Pratt, D. A. The antioxidant activity of polysulfides: it's radical! *Chem. Sci.* **10**, 4999-5010 (2019).\n\n37) Steudel, R. Homocyclic sulfur molecules. *Topp. Curr. Chem.* **102**, 149-176 (1982).",
+        "start_index": 47429,
+        "end_index": 47665
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "38) H\u00f6fle, G. & Baldwin, J. E. Thiosulfoxides. The Intermediates in Rearrangement and Reduction of Allylic Disulfides. *J. Am. Chem. Soc.* **93**, 6307-6308 (1971).",
+        "start_index": 47665,
+        "end_index": 47829
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "39) Baechler, R. D., Hummel, J. P. & Mislow, K. Reaction of Allylic Thioethers with Elemental Sulfur. *J. Am. Chem. Soc.* **95**, 4442-4444 (1973).\n\n40) Kutney, G. W. & Turnbull, K. Compounds Containing the S=S Bond. *Chem. Rev.* **82**, 333-357 (1982).",
+        "start_index": 47829,
+        "end_index": 48082
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "41) Harpp, D. N. in *Perspectives in the Organic Chemistry of Sulfur* (eds B. Zwanenburg & A. J. H. Klunder) 1-22 (Elsevier, 1987).",
+        "start_index": 48082,
+        "end_index": 48213
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "42) Schilling, D. *et al.* Commonly Used Alkylating Agents Limit Persulfide Detection by Converting Protein Persulfides into Thioethers. *Angew. Chem. Int. Ed.* **61**, e202203684 (2022).",
+        "start_index": 48213,
+        "end_index": 48400
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "43) Kuczkowski, R. L. The Mass and Microwave Spectra, Structures, and Dipole Moments of the Isomers of Sulfur Monofluoride. *J. Am. Chem. Soc.* **86**, 3617-3621 (1964).",
+        "start_index": 48400,
+        "end_index": 48569
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "44) Harpp, D. N., Steliou, K. & Cheer, C. J. Synthesis and X-ray crystal structure of O,O-bicyclohexyl-1,1'-diyl thiosulphite. *J. Chem. Soc., Chem. Commun.*, 825-826 (1980).",
+        "start_index": 48569,
+        "end_index": 48743
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "45) Steudel, R., Drozdova, Y., Miaskiewicz, K., Hertwig, R. H. & Koch, W. How Unstable are Thiosulfoxides? An ab Initio MO Study of Various Disulfanes RSSR (R = H, Me, Pr, All), Their Branched Isomers R:SS, and the Related Transition States. *J. Am. Chem. Soc",
+        "start_index": 48743,
+        "end_index": 49002
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".* **119**, 1990-1996 (1997).",
+        "start_index": 49002,
+        "end_index": 49031
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "46) Jabbour, E., Paul, S. & Kantarjian, H. The clinical development of antibody\u2013drug conjugates \u2014 lessons from leukaemia. *Nat. Rev. Clin. Oncol.* **18**, 418-433 (2021).",
+        "start_index": 49031,
+        "end_index": 49201
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "47) Myers, A. G., Cohen, S. B. & Kwon, B. M. A Study of the Reaction of Calicheamicin \u03b31 with Glutathione in the Presence of Double-Stranded DNA. *J. Am. Chem. Soc.* **116**, 1255-1271 (1994).",
+        "start_index": 49201,
+        "end_index": 49393
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Ramstr\u00f6m, O. & Lehn, J.-M. Drug discovery by dynamic combinatorial libraries. Nat. Rev. Drug Discov. 1, 26-36 (2002).",
+        "start_index": 49393,
+        "end_index": 49510
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Black, S. P., Sanders, J. K. M. & Stefankiewicz, A. R. Disulfide exchange: exposing supramolecular reactivity through dynamic covalent chemistry. Chem. Soc. Rev. 43, 1861-1872 (2014).\n\nVidal, F. et al. Designing a circular carbon and plastics economy for a sustainable future. Nature 626, 45-57 (2024).",
+        "start_index": 49510,
+        "end_index": 49812
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Clark, R. A. & Shaver, M. P. Depolymerization within a Circular Plastics System. Chem. Rev. 124, 2617-2650 (2024).",
+        "start_index": 49812,
+        "end_index": 49926
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Baran, T., Duda, A. & Penczek, S. Anionic Polymerization of Norbornene Trisulfide (exo-3,4,5-Trithia-Tricyclo[5.2.1.0\u00b2,6]decane). J. Polym. Sci. 22, 1085-1095 (1984).",
+        "start_index": 49926,
+        "end_index": 50092
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Baran, T., Duda, A. & Penczek, S. Anionic polymerization of exo-3,4,5-trithiatetrayclo[5.5.1.O\u00b2,6.O\u2078,12]tridec-10-ene (dicyclopentadiene trisulfide). Makromol. Chem. 185, 2337-2346 (1984).",
+        "start_index": 50092,
+        "end_index": 50280
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Pople, J. M. M. et al. Electrochemical Synthesis of Poly(trisulfides). J. Am. Chem. Soc. 145, 11798\u201311810 (2023).\n\nMann, M. et al. Integrated methods for gold leaching and recovery from ore and electronic waste. ChemRxiv. DOI: 10.26434/chemrxiv-2024-1xd84 (2024).",
+        "start_index": 50280,
+        "end_index": 50543
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Chung, W. J. et al. The use of elemental sulfur as an alternative feedstock for polymeric materials. Nat. Chem. 5, 518-524 (2013).",
+        "start_index": 50543,
+        "end_index": 50673
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Pyun, J. & Norwood, R. A. Infrared Plastic Optics and Photonic Devices using Chalcogenide Hybrid Inorganic/Organic Polymers via Inverse Vulcanization of Elemental Sulfur. Prog. Polym. Sci. 156, 101865 (2024).",
+        "start_index": 50673,
+        "end_index": 50881
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "H\u00e4u\u00dfler, M., Eck, M., Rothauer, D. & Mecking, S. Closed-loop recycling of polyethylene-like materials. Nature 590, 423\u2013427 (2021).\n\nEck, M. & Mecking, S. Closed-Loop Recyclable and Nonpersistent Polyethylene-like Polyesters. Acc. Chem. Res. 57, 971-980 (2024).",
+        "start_index": 50881,
+        "end_index": 51141
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "**Acknowledgements:** The authors thank the Australian Research Council for funding (DP200100090, DP230100587, DP240100555 and FT220100054), generous allocations on the National Facility of the Australian National Computational Infrastructure, and support from the Flinders University High Impact Collaborative Research Development Fund. The authors acknowledge the equipment and technical expertise provided by Flinders Microscopy and Microanalysis (FMMA)",
+        "start_index": 51141,
+        "end_index": 51597
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". Dr Jiangtao Xu and Dr Karen Hakobyan are thanked for technical assistance in polymer analysis. Prof Jon Beves is acknowledged for useful suggestions regarding dynamic covalent chemistry.",
+        "start_index": 51597,
+        "end_index": 51785
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-fnhdd ORCID: https://orcid.org/0000-0002-7504-5508 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 51785,
+        "end_index": 51932
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Author contributions. H.D.P. led the metathesis mechanism and substrate scope studies, the calicheamicin modifications, and contributed to the S-S metathesis polymerization experiments. A.D.T. contributed to the metathesis mechanism and substrate scope studies, and the dynamic combinatorial library synthesis. J.N.S. contributed to monomer synthesis and S-S metathesis polymerization experiments. Z.P. contributed to mechanistic analysis and computational studies. R.S",
+        "start_index": 51932,
+        "end_index": 52401
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ". contributed to studies of solvent effects. S.J.T. and P.Y. discovered the original S-S metathesis phenomenon. W.M.B. and M.R.J. contributed to structural characterization and mechanistic analysis. J.R.H. led EPR studies, supervising H.D.P. and A.D.T. in these experiments. C.T.G. contributed to spectroscopic studies and characterization. M.V.P. and T.H. contributed mechanistic hypotheses, analysis, and supervision. M.L",
+        "start_index": 52401,
+        "end_index": 52824
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": ".C. led computational studies, kinetic studies, mechanistic analysis, and contributed to the polymerization studies and supervision. Z.J. and J.M.C. directed the project and supervised students. The project was conceived by J.M.C. who wrote the manuscript in close collaboration with Z.J. and M.L.C. All authors contributed to analysis, critical review, and revision of the manuscript.",
+        "start_index": 52824,
+        "end_index": 53209
+    },
+    {
+        "document_name": "151.txt",
+        "chunk_text": "Competing interests: Provisional patent applications have been filed that cover applications of the trisulfide metathesis disclosed in this study (AU2024900381 and AU2025900199).\n\nMaterials & Correspondence: Inquiries should be directed to michelle.coote@flinders.edu.au, zhongfan.jia@flinders.edu.au, and justin.chalker@flinders.edu.au.",
+        "start_index": 53209,
+        "end_index": 53546
+    }
+]

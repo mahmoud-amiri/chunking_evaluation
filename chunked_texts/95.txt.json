@@ -1,0 +1,494 @@
+[
+    {
+        "document_name": "95.txt",
+        "chunk_text": "11B NMR Together with IR Spectroscopy Provides Insight into Structural Elucidation of Quadrivalent Diazaborines & Cyclic Boronate Esters: The Chemist\u2019s Perspective\n\nAshley L. Dey, (*) (\uf076)\u2020",
+        "start_index": 0,
+        "end_index": 188
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Chemistry Research Laboratory, Department of Chemistry, University of Oxford, 12 Mansfield Road, Oxford, OX1 3TA, United Kingdom\n\u2020 Electronic supplementary information (ESI) available online\n\uf076 uccaald@ucl.ac.uk\n\nAbstract",
+        "start_index": 188,
+        "end_index": 408
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Imidazo-fused diazaborines which serve as intermediary structures somewhat along benzene and borazine had been of particular interest to Dewar and Snyder more than 60 years ago. To this end, Dewar utilised his \u2018\u03c0-complex theory\u2019 so as to represent \u2018borazaro\u2019 as \u2018quadrivalent\u2019 species; however, sadly modern representations have deviated and leapt into \u2018trivalent\u2019 counterparts",
+        "start_index": 408,
+        "end_index": 785
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". Inasmuch as bonding in boron species has never been straightforward to such an extent that the orthodox \u2018ethane\u2019 like diborane i.e",
+        "start_index": 785,
+        "end_index": 917
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". H3B\u2013BH3 which conferred to the paradigmatic rules of molecular structure, in particular, hybridisation and electronegativity was later evolved to a more realistic \u20183-centre 2-electron\u2019 bonding, so as to give the lie to the purported diborane structures of X-ray diffractors, herein 11B NMR together with IR spectroscopy sheds light on the nature of bonding in borazaro and \u2018caged\u2019 cyclic oxazaboronos so",
+        "start_index": 917,
+        "end_index": 1322
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "as to reenforce and reinvigorate the old literature which could be of interests to the synthetic and medicinal chemist alike",
+        "start_index": 1322,
+        "end_index": 1446
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ".",
+        "start_index": 1446,
+        "end_index": 1447
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Keywords\n\n11B NMR, IR spectroscopy, borazaro, oxazaboron derivatives, in crystallo, caged cyclic boronate esters, 2-formylphenylboronic acid (2-FPBA), heterocycles, synthetic and medicinal chemistry.\n\nIntroduction",
+        "start_index": 1447,
+        "end_index": 1660
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Unlike 1H and 13C with a \u2018nuclear spin\u2019 I = \u00bd, both naturally occurring isotopes of boron i.e. 10B (I = 3) and 11B (I = 5/2) are NMR active; however, the latter is more versatile than the erstwhile for NMR investigations by virtue of the fact that 10B has a natural abundance of only 19",
+        "start_index": 1660,
+        "end_index": 1946
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ".6%, whereas 11B exhibits a natural abundance of 80.4%, as such 10B comes with a much lower receptivity i.e. receiver gain, and quadrupole moment almost thrice as much as that for 11B, which broadens 10B NMR signals. Moreover, the Larmor frequency of 10B is almost three times lower than that for 11B, resulting in a much lower signal resolution and coupling constants i.e",
+        "start_index": 1946,
+        "end_index": 2318
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". J (in Hz) in 10B NMR spectra. Despite these drawbacks 10B NMR can be particularly useful in niche mechanistic studies such as rearrangements.3",
+        "start_index": 2318,
+        "end_index": 2462
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "NMR spectroscopy much to contemporary efforts has proved exceptionally advantageous in elucidating structures of boron compounds, and their behaviour in solutions. The extrapolation of NMR activities of other common NMR active nuclei such as 1H, 13C, 15N, 31P etc., to 11B NMR suggests that the following factors should determine chemical shifts (\u03b4) in 11B NMR spectra:",
+        "start_index": 2462,
+        "end_index": 2831
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "- Electron density\n- Coordination number\n- Hybridisation\n- Ring current",
+        "start_index": 2831,
+        "end_index": 2902
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "However, the above is found not to be true for many $^{11}$B NMR spectra. For example, the signals from $B^1$ and $B^2$ in the $^{11}$B NMR spectrum of $n$-$B_9H_{15}$ are $\\sim 64",
+        "start_index": 2902,
+        "end_index": 3082
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ".7$ ppm apart, such that $B^2$ resonates at the highest field and $B^1$ at the lowest field in the aforementioned $^{11}$B NMR spectrum, in spite of both $B^1$ and $B^2$ in $n$-$B_9H_{15}$ exhibiting identical connectivity, hybridisation and even immediate bonding environment (Fig. 1).",
+        "start_index": 3082,
+        "end_index": 3368
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Figure 1. Despite having identical coordination and chemical environment the signals from $B^1$ & $B^2$ are the furthest apart from each other in $^{11}$B NMR spectrum of $n$-$B_9H_{15}$",
+        "start_index": 3368,
+        "end_index": 3554
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". Both $B^1$ & $B^2$ are connected to five other boron atoms and one proton in the capped Archimedean antiprism $n$-$B_9H_{15}$; *nota bene*: for simplicity protons are omitted from the borane cluster.",
+        "start_index": 3554,
+        "end_index": 3755
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "On the other hand, in stark contrast to other NMR active nuclei, electron density does not appear to preponderate over other factors in determining the position of chemical shifts in $^{11}$B NMR spectra, as the boron atoms of higher electron density in $B_7H_7^2$ are less shielded than their counterparts of lower electron density in the same cluster",
+        "start_index": 3755,
+        "end_index": 4107
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". To this end, there are no hard and fast rules as yet to fully predict or explain some of the anomalies that have been observed for $^{11}$B NMR spectra, and each and every single boron compound can give rise to distinctive and unexpected $^{11}$B NMR spectra, which have been observed for the novel boronate esters herein, and forms the basis of the discussions below.",
+        "start_index": 4107,
+        "end_index": 4477
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "**Results and Discussion**",
+        "start_index": 4477,
+        "end_index": 4503
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Recent protein-directed dynamic combinatorial chemistry studies of $L$-cysteine derivatives with 2-formylphenylboronic acid (2-FPBA) on the surface *i.e. in crystallo* of oxacilllases e.g. OXA-10 brought home to us an intriguing quadrivalent cyclic boronate ester *i.e.* 12 (unpublished) (Fig",
+        "start_index": 4503,
+        "end_index": 4795
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". 2), given that the same observed \u2018tetracyclic caged\u2019 structure for 12 has been reported in solution elsewhere, it is conceivable that based on the observed spectroscopic and X-ray crystallographic data, boronate esters 11 & 13\u201318 (Fig. 3) should also follow suit.",
+        "start_index": 4795,
+        "end_index": 5060
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "![Figure 2](https://doi.org/10.26434/chemrxiv-2023-jkfwv-v2)",
+        "start_index": 5060,
+        "end_index": 5120
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "**Figure 2.** a) *in crystallo* Dynamic combinatorial chemistry of $L$-cysteine methyl ester with 2-FPBA on the surface of OXA-10; b) X-ray crystal structure of the boronate ester 12 on OXA-10 (courtesy of Dr J\u00fcrgen Brem).\nFigure 3. Benzodiazaborines, diazaborines & boronate esters.",
+        "start_index": 5120,
+        "end_index": 5403
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Inasmuch as, both the diazaborines and boronate esters herein presumably, almost certainly feature \u2018quadrivalent\u2019 boron species, a comparison of chemical shifts (vide infra) in $^{11}$B NMR spectra of the thus obtained diazaborines and boronate esters (Fig",
+        "start_index": 5403,
+        "end_index": 5659
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". 3) not only provides structural insight into these intriguing scaffolds, but also paves the way for a better understanding of bonding in such boron species, and salient factors in their $^{11}$B NMR resonance frequencies.",
+        "start_index": 5659,
+        "end_index": 5882
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Reference has already been made to the unpredictability and irregularity of trends in $^{11}$B NMR resonance frequencies (vide supra); however, typically, though it need not of necessity, the vacant 2$p_z$ orbital of boron plays a crucial role in the position of chemical shifts in $^{11}$B NMR spectra. Strictly speaking, trivalent boron species resonate at much lower fields than their quadrivalent counterparts",
+        "start_index": 5882,
+        "end_index": 6295
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". For instance, trimethyl borane as a true trivalent boron species resonates at the lowest field, whereas trimethyl borate as a somewhat quadrivalent boron species with considerable $\\pi$-bonding character resonates at much higher fields in $^{11}$B NMR",
+        "start_index": 6295,
+        "end_index": 6548
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". The belief that the determinant factor in the position of chemical shifts in $^{11}$B NMR spectra is the $\\pi$-donating ability of substituents on boron, implies that diethylamino substituents on boron should bring about upfield shifts for the $^{11}$B signals in their NMR spectra, relative to that from \u2013OMe by virtue of the fact that \u2013NEt$_2$ is mesmerically more",
+        "start_index": 6548,
+        "end_index": 6916
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "$\\pi$-donating than \u2013OMe",
+        "start_index": 6916,
+        "end_index": 6940
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". However, this effect appears to be reversed in aliphatic boron species, as such B(NEt$_2$)$_3$ resonates at a much lower field in $^{11}$B NMR than that observed for B(OMe)$_3$.",
+        "start_index": 6940,
+        "end_index": 7119
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "The chemical shift $\\delta_R^C$ (in ppm) between a compound C and reference R is given by the following equation:\n\n$$\\delta_R^C = 10^6 (H_C - H_R) / H_R \\approx 10^6 (\\sigma_C - \\sigma_R)$$",
+        "start_index": 7119,
+        "end_index": 7308
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Where $H_C$ and $H_R$ are the resonance frequencies of the applied magnetic field for compounds C and R, respectively, and $\\sigma_C$ and $\\sigma_R$ are the resulting shielding tensors. Ramsey$^{10,11}$ devised an expression for calculating the NMR shielding tensor $\\sigma$, as such for most solution NMR applications the shielding tensor $\\sigma$ can be replaced by a scalar quantity $\\sigma$ to give the following equation:",
+        "start_index": 7308,
+        "end_index": 7734
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "$$\\sigma = \\frac{e^2}{2mc^2} \\langle 0 | \\sum_j (x_j^2 + y_j^2) / r_j^3 | 0 \\rangle$$\n\nNeglecting the deferential overlaps of the above expression can lead to the following simplified expression for the chemical shift $\\delta_i$ of the nucleus of atom $i$: $^{12}$",
+        "start_index": 7734,
+        "end_index": 7998
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "$$\\delta_i = Aq_i + \\sum_j Bq_j / r_{ij}^3$$",
+        "start_index": 7998,
+        "end_index": 8042
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Where $q_i$ is the $\\pi$-electron density of atom $i$, $r_{ij}$ is the internuclear distance between atom $i$ and $j$, and $A$ and $B$ are constants",
+        "start_index": 8042,
+        "end_index": 8190
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". To this end, another salient factor other than the $\\pi$-donating capabilities of the substituents attached to boron in $^{11}$B NMR, would be the \u2018electronic cloud\u2019 of the substituents attached to boron i.e. the availability of lone pairs above and below of the plane of the $\\pi$-bond. As exemplified by the last equation above (Eq",
+        "start_index": 8190,
+        "end_index": 8525
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". III), atoms $j$ with lone pairs orthogonal to the plane of the covalent bond would have a significant impact on the chemical shift by virtue of a large $q_j$ and small $r_{ij}$ (Table 1).",
+        "start_index": 8525,
+        "end_index": 8714
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Table 1. $^1$H, $^{13}$C, $^{11}$B and IR Data for 2-FPBA, Diazaborines & Boronate Esters",
+        "start_index": 8714,
+        "end_index": 8803
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| Entry | $^{11}$B$^\\dagger$ | CHO/$\\gamma$-CH/$\\delta$-CH$^\\ddagger$ | CHO/$\\gamma$-C/$\\delta$-C$^\\\u00a5$ | IR: C=O$^\\\u00b6$ |\n|-------|-----------------|-----------------|-----------------|-----------------|",
+        "start_index": 8803,
+        "end_index": 9004
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 2-FPBA | 29.9            | 10.05           | 197.0           |                  |\n| 1     | 29.8            | 8.08            | 142.7           | 1673s           |\n| 2     | 29.8            | 7.96            | 146.9           | 1687s           |",
+        "start_index": 9004,
+        "end_index": 9251
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 3     | 16.2$^*$        | 8.35$^\\ddagger$ | 175.5$^\\\u00b6$     | 1682s           |\n| 4     | 28.3            | 8.20            | 140.0           | 1698s           |",
+        "start_index": 9251,
+        "end_index": 9413
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 5     | 28.6            | 8.15            | 145.0           | 1700s           |\n| 6     | 28.8            | 146.9           | 1698s           |                  |\n| 7     | 29.9            | 8.13            | 144.0           |                  |",
+        "start_index": 9413,
+        "end_index": 9660
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 8     | 11.4            | 6.16            | 65.6            | 1730s           |\n| 9     | 11.3            | 6.25            | 71.2            | 1713s           |\n| 10    | 11.1            | 8.13            | 144.0           |                  |",
+        "start_index": 9660,
+        "end_index": 9906
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 11$^*$| 11.5            | 76.2            | 1723s           |                  |\n| 13$^*$| 11.4            | 146.9           | 1698s           |                  |\n| 15$^*$| 11.3            | 71.2            | 1713s           |                  |",
+        "start_index": 9906,
+        "end_index": 10154
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "| 17$^*$| 11.1            | 66.8            | 1715s           |                  |",
+        "start_index": 10154,
+        "end_index": 10236
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "*; Boronate esters 11, 13, 15 and 17 are enantiomers of 12, 14, 16 and 18, respectively, with identical spectroscopic data. $^\\dagger$; 193 MHz, acetonitrile-$d_3$. $^\\ddagger$; 600 MHz, acetonitrile-$d_3$",
+        "start_index": 10236,
+        "end_index": 10441
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". $^\\\u00a5$; 151 MHz, acetonitrile-$d_3$. benzodiazaborine 4 is much less soluble in acetonitrile-$d_3$, its NMR spectra were recorded in methanol-$d_4$ instead. $^\\\u00b6$; $\\nu_{\\text{max}}$/cm$^{-1}$ (ATR), s stands for sharp.",
+        "start_index": 10441,
+        "end_index": 10661
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Analysis of the $^1$H, $^{13}$C and $^{11}$B NMR data above (Table 1), on looking more closely, reveals that whilst the boron in 2-FPBA has a much greater trivalent character, less shielded and non-aromatic relative to that of quadrivalent diazaborines which should be more shielded, they all absorb at about the same field in their $^{11}$B NMR; on the other",
+        "start_index": 10661,
+        "end_index": 11020
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "hand, the proton of the formyl group in 2-FPBA, resonates at a much lower field than that from $\\gamma$-CH of the benzofused-imadazo ring in their $^1$H NMR by virtue of greater shielding that the $\\gamma$-CH moieties of benzofused-imadazo rings experience, which is in marked contrast to that observed for $^{11}$B NMR",
+        "start_index": 11020,
+        "end_index": 11339
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". The same is also true for $^{13}$C NMR data, the $\\gamma$-CH and $\\gamma$-CMe of the imidazo rings are significantly upshifted compared to the non-ring carbon of the formyl group in 2-FPBA (Table 1)",
+        "start_index": 11339,
+        "end_index": 11539
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". Intriguingly, the solvation effects of methanol-$d_4$ on benzodiazaborine 4 (vide infra) relative to that of acetonitrile-$d_3$, for its closely related benzodiazaborine 5 has clearly been echoed by both the upshifted and downshifted signals from boron and $\\gamma$-CH of benzodiazaborine 4 in its $^{11}$B and $^{13}$C",
+        "start_index": 11539,
+        "end_index": 11860
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "NMR spectra, respectively",
+        "start_index": 11860,
+        "end_index": 11885
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". The $^{11}$B chemical shifts from the boronate esters, in comparison with those from the diazaborines, exhibit a whopping three-fold upfield shift in their spectra, in spite of the fact that both species are quadrivalent, and potentially negatively charged.",
+        "start_index": 11885,
+        "end_index": 12144
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Whilst the aromaticity of diazaborines can play a crucial role in the observed data, as illustrated above (Eq. III) the electronic cloud of heteroatoms with available lone pairs adjacent to the boron centre in question can account for the aforementioned large upfield shift of almost 20 ppm in their $^{11}$B NMR spectra (Fig. 4).\n\nTypical Aromatic Diazaborine Structure\n\nTypical Tetracyclic Boronate Ester",
+        "start_index": 12144,
+        "end_index": 12550
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "![Typical Aromatic Diazaborine Structure](https://doi.org/10.26434/chemrxiv-2023-jkfwv-v2)\n\n![Typical Tetracyclic Boronate Ester](https://doi.org/10.26434/chemrxiv-2023-jkfwv-v2)",
+        "start_index": 12550,
+        "end_index": 12728
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Figure 4. The accessible electronic cloud of the oxygens on boron can account for the upfield shift in $^{11}$B NMR of the \u2018tetracyclic caged\u2019 boronate esters.",
+        "start_index": 12728,
+        "end_index": 12887
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "In view of the above, it is conceivable that the boronate esters are tetracyclic and \u2018ring-closed\u2019, as if they were \u2018ring-open\u2019 and tricyclic, the thus $C_{3h}$ boron species, would be less shielded, and would absorb at about the expected field in $^{11}$B NMR, just like that of 2-FPBA with similar chemical environment and shielding effects (Fig. 5)",
+        "start_index": 12887,
+        "end_index": 13238
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ".",
+        "start_index": 13238,
+        "end_index": 13239
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "![2-Formyl Phenyl Boronic Acid]\n\n2-Formyl Phenyl Boronic Acid\n\n![Ring-Open Tricyclic Boronate Ester]\n\nRing-Open Tricyclic Boronate Ester",
+        "start_index": 13239,
+        "end_index": 13375
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Figure 5. Both $^{11}$B centres i.e. $D_{3h}$ in 2-FPBA, and that i.e",
+        "start_index": 13375,
+        "end_index": 13444
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". $C_{3h}$ in the \u2018ring-open\u2019 boronate esters should resonate with similar frequencies in $^{11}$B NMR by virtue of similar bonding and shielding effects; however, the boron signal is upshifted in $^{11}$B NMR spectra of \u2018ring-closed\u2019 boronate esters (Table 1).",
+        "start_index": 13444,
+        "end_index": 13705
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "The effects of electronic cloud of adjacent substituents on boron (Fig. 4) is further evident from the upshifted signal of the boron in benzodiazaborine 4 in its $^{11}$B NMR spectrum in methanol-$d_4$ i.e. $\\delta_B$ 16.2 (Fig. 6), relative to that obtained in acetonitrile-$d_3$ for benzodiazaborine 5 i.e",
+        "start_index": 13705,
+        "end_index": 14012
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". $\\delta_B$ 28.3 (Table 1).",
+        "start_index": 14012,
+        "end_index": 14040
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "![Benzodiazaborine 4](Fig6)\n\nFigure 6. No matter what the hybridisation of boron, the solvation effect of methanol-$d_4$ is sufficient to significantly shield the boron centres in benzodiazaborine 4.",
+        "start_index": 14040,
+        "end_index": 14239
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Further support for the assertion that the aforementioned boronate esters (Fig. 3) are \u2018ring-closed\u2019 and tetracyclic is provided by the upfield shift of their $\\delta$-CH and $\\delta$-CMe signals in $^{13}$C NMR, relative to that observed for the $C=O$ of their precursors i.e",
+        "start_index": 14239,
+        "end_index": 14515
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". 2-FPBA and 2-acetylphenylboronic acid (2-APBA), which suggests that the $D_{3h}$ carbon of the formyl or acyl moieties, is now a $T_d$ centre, bonded to four substituents, and fully saturated",
+        "start_index": 14515,
+        "end_index": 14708
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". This arrangement brings the carboxyl moiety in the \u2018ring-open\u2019 structure in close proximity to the boronic acid so as to further cyclise, close the ring and form a \u2018tetracyclic caged\u2019 structure. This is in agreement with the observed IR frequencies i.e. $\\sim 1730$\u2013$1710$ cm$^{-1}$ expected for esters (Table 1), as the parent carboxyl moieties should resonate at lower frequencies i",
+        "start_index": 14708,
+        "end_index": 15094
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ".e. $\\sim 1600$\u2013$1550$ cm$^{-1}$.",
+        "start_index": 15094,
+        "end_index": 15127
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Conclusion",
+        "start_index": 15127,
+        "end_index": 15137
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "Gao and coworkers$^8$ have reported that on reacting 2-FPBA and 2-APBA with L-cysteine in 0.10 M phosphate-buffered saline (PBS) buffer at physiological pH, bicyclic or tricyclic heterocycles form, which led to the survey of an array of borazaros and oxazaborons described herein (Fig",
+        "start_index": 15137,
+        "end_index": 15421
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". 3); however, in this work such reactions exclusively furnished tetracyclic and heteroaromatic structures",
+        "start_index": 15421,
+        "end_index": 15527
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". Whilst almost all the diazaborines as well as boronate ester 12 described in this work have, one way or another, been reported in the literature, by all means, this work is a first-of-its-kind to delineate a \u2018tetracyclic caged\u2019 structure for novel boronate esters 11 & 13\u201318, and report full chemical characterisation i.e",
+        "start_index": 15527,
+        "end_index": 15850
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". mp, optical rotation, IR, NMR ($^1$H, $^{13}$C & $^{11}$B), LC-MS and HRMS of the aforementioned benzodiazaborines, diazaborines and novel boronate esters cf",
+        "start_index": 15850,
+        "end_index": 16009
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": ". ESI S4\u2013S21 & S24\u2013S26\u2020 for which so far as this work is concerned there are no known precedents, and the specific applications, and of the broad implications of these intriguing heterocycles may, hopefully, be of interests to the synthetic and medicinal chemist alike.",
+        "start_index": 16009,
+        "end_index": 16278
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-jkfwv-v2\nORCID: https://orcid.org/0009-0001-5920-2286\nContent not peer-reviewed by ChemRxiv, License: CC BY 4.0\nConflicts of Interest\n\nThe author declares no conflicts of any kind.\n\nAcknowledgements",
+        "start_index": 16278,
+        "end_index": 16515
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "This work was supported by the Biotechnology and Biological Sciences Research Council (Grant No. BB/P504373/1) and GlaxoSmithKline. In addition, the author would like to extend sincere gratitude to the Royal Society of Chemistry for their generous donations facilitated by Kim Sutton. Special thanks are also due to Professors Mark G. Moloney and Jeremy Robertson for helpful discussions.\n\nReferences",
+        "start_index": 16515,
+        "end_index": 16915
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "1. R. Schaeffer, *Prog. Boron Chem.*, 1964, 1, 417.\n2. L. J. Todd and A. R. Siedle, *Prog. NMR Spectrosc.*, 1979, **13**, 87.",
+        "start_index": 16915,
+        "end_index": 17040
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "3. T. Jelinek, J. Plesek, F. Mares, S. Helnfinck and B. Stibor, *Polyhedron*, 1987, **6**, 1981.\n4. T. L. Venable, W. C. Hutton and R. N. Grimes, *J. Am. Chem. Soc.*, 1984, **106**, 29.",
+        "start_index": 17040,
+        "end_index": 17225
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "5. N. W. Alcock, J. G. Taylor and M. G. H. Wallbridge, *J. Chem. Soc., Chem. Commun.* 1983, 1168.\n6. D. Reed, *J. Chem. Res.*, 1984, 198.\n7. P. M. Tucker and T. Onak, *J. Am. Chem. Soc.*, 1969, **91**, 6869.",
+        "start_index": 17225,
+        "end_index": 17432
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "8. A. Bandyopadhyay, S. Cambray and J. Gao, *Chem. Sci.*, 2016, 7, 4589.\n9. J. K. Ruff, *J. Org. Chem.*, 1962, **27**, 1020.\n10. N. F. Ramsey, *Phys. Rev.*, 1950, **77**, 567.",
+        "start_index": 17432,
+        "end_index": 17607
+    },
+    {
+        "document_name": "95.txt",
+        "chunk_text": "11. N. F. Ramsey, *Phys. Rev.*, 1951, **78**, 699.\n12. F. A. Davis, M. J. S. Dewar and R. Jones, *J. Am. Chem. Soc.*, 1968, **90**, 706.",
+        "start_index": 17607,
+        "end_index": 17743
+    }
+]

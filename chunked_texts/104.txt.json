@@ -1,0 +1,1100 @@
+[
+    {
+        "document_name": "104.txt",
+        "chunk_text": "3D Printable Modular Soft Elastomers from Physically Crosslinked Homogeneous Associative Polymers\n\nMyeoum Kim\u00b9, \u2020, Shifeng Nian\u00b9, \u2020, Daniel A. Rau\u00b9, \u2020, Baiqiang Huang\u00b9, Jinchang Zhu\u00b9, Guillaume Freychet\u00b9, Mikhail Zhernenkov\u2074, Li-Heng Cai\u00b9,\u00b2,\u00b3,*",
+        "start_index": 0,
+        "end_index": 244
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "\u00b9Soft Biomatter Laboratory, Department of Material Science and Engineering, University of Virginia, Charlottesville, VA 22904, USA\n\u00b2Department of Chemical Engineering, University of Virginia, Charlottesville, VA 22904, USA\n\u00b3Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22904, USA\n\u2074National Synchrotron Light Source-II, Brookhaven National Laboratory, Upton, NY 11973, USA",
+        "start_index": 244,
+        "end_index": 652
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "* Corresponding author. Email: liheng.cai@virginia.edu; ORCID: 0000-0002-6806-0566\n\u2020 Equal contribution",
+        "start_index": 652,
+        "end_index": 755
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Corresponding author contact:\nDr. Li-Heng Cai\n228 Wilsdorf Hall\nUniversity of Virginia\n395 McCormick Road\nCharlottesville, VA 22904\nTel: 434-924-2512\nFax: 434-982-5660",
+        "start_index": 755,
+        "end_index": 922
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Abstract: Three-dimensional (3D) printing of elastomers enables the fabrication of many technologically important structures and devices. However, there remains a critical need for the development of reprocessable, solvent-free soft elastomers that can be printed without the need for post-treatment. Here, we report modular soft elastomers suitable for direct ink write (DIW) printing by physically crosslinking associative polymers with a high fraction of reversible bonds",
+        "start_index": 922,
+        "end_index": 1396
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". We design and synthesize linear-associative-linear (LAL) triblock copolymers; the middle block is an associative polymer carrying amide groups that form double hydrogen bonding, and the end blocks aggregate to hard glassy domains that effectively act as physical crosslinks",
+        "start_index": 1396,
+        "end_index": 1671
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The amide groups do not aggregate to form nanoscale clusters and only slow polymer dynamics without changing the shape of the linear viscoelastic spectra; this enables molecular control over energy dissipation by varying the fraction of the associative groups. Exploiting the more ordered microstructures afforded by block copolymer self-assembly increases the network stiffness by >100 times without significantly compromising extensibility",
+        "start_index": 1671,
+        "end_index": 2114
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". We use a high-temperature DIW printing platform to print these LAL polymers and manufacture complex, highly deformable 3D structures. Our printing process uses melt processing and is solvent-free, and the printed parts do not require any post-print processing. We create elastomers with Young\u2019s moduli ranging from 8 kPa to 8 MPa while maintaining tensile breaking strain around 150%. Our elastomers represent the softest melt reprocessable materials for DIW printing",
+        "start_index": 2114,
+        "end_index": 2583
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The developed LAL polymers synergize emerging homogeneous associative polymers with high fraction of reversible bonds and classical block copolymer self-assembly to form a dual-crosslinked network, providing a versatile platform for the modular design and development of soft, melt reprocessable elastomeric materials for practical applications.",
+        "start_index": 2583,
+        "end_index": 2930
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Keywords: 3D printing; associative polymers; soft elastomers; modular control; block copolymers\n1. **Introduction**",
+        "start_index": 2930,
+        "end_index": 3045
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Three-dimensional (3D) printing of elastomers enables the fabrication of various technologically important structures and devices, such as soft robots\\(^1,^2\\), stretchable electronics\\(^3\\), sensors\\(^4,^5\\), actuators\\(^6,^7\\), and dissipative structures\\(^8,^9\\)",
+        "start_index": 3045,
+        "end_index": 3310
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Among various kinds of 3D printing methods, direct ink write (DIW) and stereolithography (SLA) are two of the most used techniques for printing elastomers\\(^10,^11\\).",
+        "start_index": 3310,
+        "end_index": 3478
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "In SLA printing, a thin layer of liquid photopolymer is selectively solidified by ultraviolet (UV) activated photopolymerization. After the layer is cured, the build platform moves vertically, exposing the cured layer to a new layer of liquid resin. The process is repeated, with each subsequent layer being selectively photocured until the entire object is formed",
+        "start_index": 3478,
+        "end_index": 3842
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". To be suitable for SLA printing, the liquid resin must be photocurable and of low viscosity\\(^12\\); these requirements limit the materials available for SLA printing. Despite SLA\u2019s ability to produce objects with relatively high resolution and smooth surface finishes, the materials used in this process tend to be glassy, rigid, and brittle.",
+        "start_index": 3842,
+        "end_index": 4186
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "In contrast, DIW is based on materials extrusion and offers great versatility in material selection as long as the materials exhibit the rheological properties for extrusion and deposition\\(^13\\). For successful DIW, materials should be liquid-like during extrusion to readily flow through the nozzle and then transition to solid-like after exiting the nozzle to retain their as-deposited shape",
+        "start_index": 4186,
+        "end_index": 4580
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Thermoplastics, a kind of polymer that undergoes reversible solid-to-liquid like transitions triggered by solvents and/or heat, are a commonly utilized feedstock for DIW\\(^14,^15\\). However, most thermoplastics are inherently stiff with Young\u2019s modulus greater than \\(10^6\\) Pa\\(^16\\), which restricts the range of applications for 3D printable elastomers",
+        "start_index": 4580,
+        "end_index": 4937
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". To overcome this limitation, leveraging the self-assembly of responsive bottlebrush-based triblock copolymers, we previously developed a class of soft elastomers suitable for DIW printing\\(^17\\). However, making these elastomers suitable for DIW",
+        "start_index": 4937,
+        "end_index": 5184
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "requires dissolving the polymers into solvent. After deposition, the solvent evaporates, leading to volumetric shrinkage and warping in the printed structures and ultimately reducing print fidelity. The need of solvent can be circumvented using photocurable bottlebrush polymer melts as inks, which can be solidified by UV after deposition\\textsuperscript{18}. However, the materials design requires sophisticated chemistry, and the printed parts are not reprocessable",
+        "start_index": 5184,
+        "end_index": 5652
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Additionally, the photo-crosslinking process is sensitive to the intensity of light, which inevitably diminishes as the size of printed objects increases. This may result in uncontrollable crosslinking and mechanical properties. Moreover, in a bottlebrush polymer, the highly overlapping side chains undergo steric repulsion, generating tension that pre-strains the bottlebrush backbone. Consequently, bottlebrush elastomers are often brittle\\textsuperscript{19}",
+        "start_index": 5652,
+        "end_index": 6116
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". It is highly desirable to develop DIW printable elastomers that provide modular control over stiffness and toughness and can be printed without the need for solvents or post-print treatment.",
+        "start_index": 6116,
+        "end_index": 6308
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Recently, we developed a new class of associative polymers that carry an unprecedentedly high fraction of stickers. The stickers are amide groups that can form pairwise double hydrogen bonds without microphase separation.\\textsuperscript{20} This starkly contrasts with the behavior observed in most existing associative polymers, where sticker interactions often result in nanoscale aggregations or even microphase separation",
+        "start_index": 6308,
+        "end_index": 6734
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".\\textsuperscript{21-22} In our homogeneous associative polymers, the reversible bonds significantly slow down the polymer dynamics without creating a rubbery network. This finding highlights the potential of using associative polymers with high fractions of stickers to control energy dissipation, an important mechanism for toughening elastomers.\\textsuperscript{20}",
+        "start_index": 6734,
+        "end_index": 7102
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Here, we develop a new class of DIW printable and reprocessable elastomers with modular controllable stiffness and toughness by physically crosslinking associative polymers with high",
+        "start_index": 7102,
+        "end_index": 7284
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "fractions of stickers. This is achieved by designing a linear-associative-linear (LAL) triblock copolymer, consisting of linear polymer end blocks with a glass transition temperature $T_g$ above room temperature and an associative polymer middle block with a $T_g$ below room temperature (Fig. 1a). At room temperature, the distinct blocks microphase separate into a network with the associative polymer being crosslinked by hard, glassy nodules (Fig",
+        "start_index": 7284,
+        "end_index": 7734
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". 1b). At relatively low temperatures, the glassy nodules effectively act as strong crosslinks to maintain the material\u2019s integrity during deformation, while the associative bonds break and reform to dissipate energy and increase material toughness (Fig. 1c). The stiffness of the network is enhanced by increasing the volume fraction of the glassy nodules. At elevated temperatures, the glassy nodules dissociate, allowing the polymers to be suitable for DIW printing (Fig",
+        "start_index": 7734,
+        "end_index": 8207
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". 1d, e). The LAL polymers represent a modular elastomeric ink for DIW printing: The fraction of stickers controls network toughness, and the volume fraction of the glassy domains determines network stiffness.",
+        "start_index": 8207,
+        "end_index": 8416
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Figure 1. Design concept of DIW printable modular soft elastomers. (a) Illustration of a linear-reversible-linear (LAL) triblock copolymer, in which the end blocks are a linear polymer with relatively high glass transition temperature ($T_g$) and the middle block is a low $T_g$ polymer carrying many stickers that can form pairwise reversible bonds without aggregating to nanoscale clusters",
+        "start_index": 8416,
+        "end_index": 8807
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (b) At relatively low temperatures, the LAL triblock copolymer self-assembles into a microstructure, in which the middle block forms an associative polymer network and the end blocks form hard, glassy domains. Open circles: open",
+        "start_index": 8807,
+        "end_index": 9037
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-km904 ORCID: https://orcid.org/0009-0002-0463-2737 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 9037,
+        "end_index": 9184
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "stickers; filled circles: bonded stickers. (c) In the network, the glassy domains effectively act as strong crosslinks and maintain the material integrity upon deformation, whereas the reversible bonds break and reform to dissipate energy and enable high toughness. The volume fraction $f$ of glassy domains is adjusted to tune the network stiffness",
+        "start_index": 9184,
+        "end_index": 9533
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Thus, the self-assembled network represents a modular elastomeric ink for DIW printing: (1) the fraction of stickers determines the efficiency of energy dissipation or network toughness; (2) the volume fraction of glassy domains determines network stiffness. (d) The glassy domains and reversible bonds dissociate at high temperatures, resulting in a yield-stress fluid suitable for DIW printing. (e) An optical image of extruding the LAL elastomer at 170 \u00b0C",
+        "start_index": 9533,
+        "end_index": 9993
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".",
+        "start_index": 9993,
+        "end_index": 9994
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "2. Results and Discussion",
+        "start_index": 9994,
+        "end_index": 10019
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We denote a LAL triblock copolymer as $A_y(B_1-\\lambda C_\\lambda)_x A_y$, in which $y$ is the number of chemical monomers $A$ per end block, and $x$ is the degree of polymerization per middle block, which is a random copolymer consisting of monomers $B$ and $C$",
+        "start_index": 10019,
+        "end_index": 10280
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". In our polymer design, the end $A$ blocks are poly(benzyl methacrylate) (PBNMA), which has a $T_{g,PBNMA}$ at 54\u00b0C and a melting temperature, $T_{m,PBNMA}$, at 200\u00b0C",
+        "start_index": 10280,
+        "end_index": 10447
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". For the middle block $(B_1-\\lambda C_\\lambda)_x$, we use hexyl acrylate (HA) as a spacer monomer $B$, and 5-acetamido-1-pentyl acrylate (AAPA) as a sticky monomer $C$, which is separately synthesized by extending previous methods $^{23,24}$ (Step 1 in Scheme 1 and Polymer synthesis and characterization in SI Materials and Methods)",
+        "start_index": 10447,
+        "end_index": 10781
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". $B$ and $C$ are essentially the same except that $C$ carries an amide group. Thus, the size of a Kuhn monomer of the middle block does not change with the fraction $\\lambda$ of reversible groups. Moreover, an amide-amide hydrogen bond has a strength of $\\epsilon_b \\approx 20k_B T$, $^{25}$ which is weak enough to dissociate at laboratory time scales at room temperature yet strong enough for efficient energy dissipation",
+        "start_index": 10781,
+        "end_index": 11205
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Such a balance between dissociation and association is critical to achieving a combination of high toughness and rapid self-healing, as both theoretically $^{26}$ predicted and experimentally $^{27}$ demonstrated in previous studies. Furthermore, the reversible blocks explored in this study have a $T_g$ below -40 \u00b0C$^{20}$ and remain elastomeric at room temperature.",
+        "start_index": 11205,
+        "end_index": 11575
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Scheme 1. Synthesis of LAL triblock copolymers. Step 1: Synthesis of the sticky monomer that carries an amide group. Step 2: Activators-regenerated-by-electron-transfer (ARGET) atom transfer radical polymerization (ATRP) of the sticky and non-sticky spacer monomers to form a middle block carrying amide groups. Step 3: ARGET-ATRP polymerization of linear PBnMA blocks.",
+        "start_index": 11575,
+        "end_index": 11944
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We develop a procedure for synthesizing LAL triblock copolymers with precisely controlled molecular architecture (Step 2 and 3 in Scheme 1 and Polymer synthesis and characterization in SI Materials and Methods) By adjusting the molar ratio between the sticky monomer AAPA and the spacer monomer HA, we can control the fraction of reversible groups $\\lambda$ (Step 2)",
+        "start_index": 11944,
+        "end_index": 12310
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". By adjusting the molar ratio of the initiator to the spacer and sticky monomers, we can control the absolute molecular",
+        "start_index": 12310,
+        "end_index": 12430
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "weight (MW) of the reversible middle block, $M_R$. Furthermore, tuning the amount of feed BnMA monomers controls the MW or the volume fraction $f$ of the end PBnMA blocks (Step 3). The synthesis method, therefore, allows precise control over $f$, $\\lambda$, and $M_R$, three of the most important molecular parameters of LAL triblock copolymers.",
+        "start_index": 12430,
+        "end_index": 12775
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "![Figure 2. Characterization of LAL polymers.](image)",
+        "start_index": 12775,
+        "end_index": 12828
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "**Figure 2. Characterization of LAL polymers.** (a) Dependence of the fraction of reversible groups $\\lambda_f$ in a polymer on the initial feed ratio between AAPA sticky monomers and hexyl acrylate (HA) spacer monomers. (b) Dependence of conversion on the reaction time for different fractions of sticky AAPA monomers",
+        "start_index": 12828,
+        "end_index": 13146
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (c) Gel permeation chromatography (GPC) of the reversible middle blocks (GPC characterization in SI Materials and Methods). (d, e) GPC traces of triblock copolymers: d) fixed end block volume fraction ($f \\approx 0.10$) but various fractions of reversible bonds ($\\lambda=0$, $0.09$, and $0.25$); e) fixed $\\lambda=0",
+        "start_index": 13146,
+        "end_index": 13464
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".25$ but increasing $f$ from 0.10 to 0.33.",
+        "start_index": 13464,
+        "end_index": 13506
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We start with quantifying the reaction kinetics of the spacer and the sticky monomers using proton nuclear magnetic resonance spectroscopy ($^1$H NMR characterization in SI Materials and Methods). Because both monomers have the same acrylate functional group and similar molecular structure, they exhibit the same reaction rate, as shown by the same fraction of sticky monomers before and after polymerization (Fig. 2a)",
+        "start_index": 13506,
+        "end_index": 13925
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The conversion rate increases linearly with reaction time regardless of the fraction of reversible groups explored in this study (Fig. 2b). This informs the",
+        "start_index": 13925,
+        "end_index": 14083
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "successful synthesis of a set of LAL triblock polymers with fixed $f \\approx 0.10$ but various $\\lambda = 0, 0.09,$ and 0.25 (Fig. 2c, d, and synthesis conditions in Table S1), which respectively corresponds to an average of 0, 0.8, and 2.2 amide groups per Kuhn segment$^{20}$, as well as fixed $\\lambda = 0",
+        "start_index": 14083,
+        "end_index": 14391
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".25$ but various $f \\approx 0.10, 0.13, 0.27,$ and 0.32 (Fig. 2e). Importantly, the MW of all polymers is fixed near 40 kg/mol which is below the critical MW of poly(hexyl acrylate) (PHA) and will limit the effects of entanglements",
+        "start_index": 14391,
+        "end_index": 14622
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". This set of triblock polymers allows exploring the effects of reversible bonds on the properties of unentangled polymer networks.",
+        "start_index": 14622,
+        "end_index": 14753
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Figure 3. Introducing reversible bonds enhances the stiffness and extensibility of polymer networks. (a) A representative optical image of an LAL polymer (sample TV 1, Table 1). (b) Radially averaged one-dimensional small-angle X-ray scattering (SAXS) scattering intensity $I$ as a function of the magnitude of wavevector $q$",
+        "start_index": 14753,
+        "end_index": 15078
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The triblock polymers have nearly the same end block volume fraction, $f \\approx 10\\%$, but various fractions of amide groups, $\\lambda = 0, 0.09,$ and 0.25. Dashed lines: melts of middle block polymer; solid lines: polymer networks self-assembled by triblock copolymers",
+        "start_index": 15078,
+        "end_index": 15350
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (c) Frequency dependence of storage (solid symbols, $G'$) and loss (empty symbols, $G''$) moduli of the self-assembled polymer networks measured at 20 \u00b0C at a fixed strain of 0.5%. The slope 1/2 corresponds to the Rouse dynamics of the network strands",
+        "start_index": 15350,
+        "end_index": 15603
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (d) The contribution to shear storage modulus from reversible bonds, $(G' - G'_x)/G'_x$, in which $G'_x$ is shear storage modulus of the polymer without reversible bonds. (e) Dependence of engineering stress, $\\sigma_{eng}$, on...",
+        "start_index": 15603,
+        "end_index": 15835
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "strain, $\\epsilon$, at a fixed strain rate of 0.01/sec. (f) Dependence of the tensile toughness on the fraction of amide bonds. Error bar: standard deviation from measurements for the same sample reprocessed using solvents ($n=3$).",
+        "start_index": 15835,
+        "end_index": 16066
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "At room temperature, the LAL polymers form a colorless and optically transparent solid (Fig. 3a). Yet, small-angle X-ray scattering (SAXS) reveals pronounced primary peaks characteristic of microstructural ordering, as shown by the radially integrated one-dimensional intensity profiles in Fig. 3b. The SAXS patterns are consistent with the classical block copolymer self-assembly that forms a sphere microstructure at $f$ lower than 0.18",
+        "start_index": 16066,
+        "end_index": 16504
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".29 Interestingly, as $\\lambda$ increases, the position of the primary scattering peak, $q^*$, moves towards higher wavevector numbers. This indicates that the distance between two neighboring spherical domains decreases at higher concentration of reversible bonds (see Table 1 and SAXS measurements in SI Materials and Methods)",
+        "start_index": 16504,
+        "end_index": 16832
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". By contrast, in a sphere microstructure self-assembled by conventional triblock copolymers without reversible bonds, to balance the interfacial repulsion between incompatible blocks, the middle block is stretched to a size $R$ that is determined by its MW $M_R$ and the end block volume fraction $f: R \\sim f^{2/9} M_R^{2/3}$",
+        "start_index": 16832,
+        "end_index": 17159
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".30 Such a difference is likely attributed to the inter- and intra-molecular interactions of stickers on the middle block, which help balance the interfacial repulsion between the incompatible ends and middle blocks to result in less stretched network strands. Further understanding of the effects of reversible bonds on block copolymer self-assembly is beyond the scope of this paper and will be subjected to future explorations",
+        "start_index": 17159,
+        "end_index": 17588
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Nevertheless, the LAL polymers self-assemble into an elastomer consisting of a strong network crosslinked by glassy nodules and an associative polymer network crosslinked by hydrogen bonds.",
+        "start_index": 17588,
+        "end_index": 17779
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Table 1. Molecular parameters of linear-associative-linear triblock copolymers",
+        "start_index": 17779,
+        "end_index": 17857
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". \\( n_{HA} \\), number of hexyl acrylate repeating units per middle block; \\( n_{AAPA} \\), number of AAPA repeating units per middle block; \\( n_{tot} \\), total number of repeating units per middle block; \\( n_{BnMA} \\), number of BnMA repeating units for each end linear PBnMA blocks; \\( \\lambda \\), fraction of AAPA repeating units per middle block; \\(",
+        "start_index": 17857,
+        "end_index": 18211
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "f_{BnMA} \\), volume fraction of PBnMA end blocks; PDI, polydispersity index; \\( G \\), equilibrium shear modulus; \\( q^* \\), wavenumber of the primary scattering peak; \\( d^* = 2\\pi/q^* \\), characteristic length associated with the primary scattering peak; \\( d \\), domain distance calculated from SAXS data; \\( d_b \\), bridging distance calculated from SAXS data using methods detailed",
+        "start_index": 18211,
+        "end_index": 18596
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "previously\\(^{31}\\); \\( L_{max} \\), contour length of middle block; S, sphere; C, hexagonal cylinder; L, lamellae",
+        "start_index": 18596,
+        "end_index": 18709
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".",
+        "start_index": 18709,
+        "end_index": 18710
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| Sample | Middle block | Triblock | G (Pa) | Tensile fracture strain | SAXS |\n|--------|--------------|----------|--------|-------------------------|------|",
+        "start_index": 18710,
+        "end_index": 18867
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "|        | \\( n_{HA} \\) | \\( n_{AAPA} \\) | \\( n_{tot} \\) | \\( \\lambda \\) | PDI | \\( n_{BnMA} \\) | \\( f_{BnMA} \\) (\\%) | PDI | \\( q^* \\) (nm\\(^{-1}\\)) | \\( d^* \\) (nm) | \\( d \\)",
+        "start_index": 18867,
+        "end_index": 19043
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(nm) | \\( d_b \\) (nm) | \\( L_{max} \\) (nm) | Type |",
+        "start_index": 19043,
+        "end_index": 19094
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TR1    | 251          | 0         | 251    | 0                       | 1.26 | 30    | 10.4  | 1.28 | 2,524 | 1.22\u00b10.02 | 0.172 | 36.5 | 44.7 | 20.8 | 64.3 | S |",
+        "start_index": 19094,
+        "end_index": 19256
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TR2    | 239          | 23        | 262    | 0.09                    | 1.19 | 36    | 11.5  | 1.23 | 4,072 | 1.39\u00b10.05 | 0.171 | 36.7 | 44.9 | 20.1 | 67.1 | S |",
+        "start_index": 19256,
+        "end_index": 19418
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TR3    | 180          | 60        | 240    | 0.25                    | 1.22 | 32    | 10.8  | 1.26 | 10,546 | 1.57\u00b10.05 | 0.194 | 32.4 | 39.7 | 18.2 | 61.4 | S |",
+        "start_index": 19418,
+        "end_index": 19581
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TV1    | 180          | 60        | 240    | 0.25                    | 1.22 | 40    | 13.2  | 1.28 | 12,144 | 1.60\u00b10.17 | 0.218 | 28.8 | 35.3 | 14.8 | 61.4 | S |",
+        "start_index": 19581,
+        "end_index": 19744
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TV2    | 188          | 62        | 250    | 0.25                    | 1.22 | 102   | 27.3  | 1.35 | 67,245 | 0.95\u00b10.15 | 0.160 | 39.2 | 45.3 | 20.4 | 64.0 | C |",
+        "start_index": 19744,
+        "end_index": 19907
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "| TV3    | 188          | 62        | 250    | 0.25                    | 1.22 | 132   | 32.7  | 1.33 | 2,730,000 | 0.82\u00b10.06 | 0.168 | 37.4 | 37.4 | 25.2 | 64.0 | L |",
+        "start_index": 19907,
+        "end_index": 20073
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2023-km904 ORCID: https://orcid.org/0009-0002-0463-2737 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 20073,
+        "end_index": 20220
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We use a stress-controlled rheometer to quantify the dynamic mechanical properties of the polymer networks. At room temperature, the shear storage modulus $G'$ of polymer networks is nearly constant at low frequency, as shown by solid symbols in Fig. 3c. Therefore, we take the value of $G'$ at the lowest oscillatory shear frequency, 0.1 rad/sec, as the equilibrium shear modulus $G$",
+        "start_index": 20220,
+        "end_index": 20604
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The shear modulus for the network without reversible bonds, $\\lambda = 0$, $G$ is 2.7 kPa. As $\\lambda$ increases from 0 to 0.25, corresponding to on average 2.2 amide groups per Kuhn segment, $G$ increases by nearly 4 times from 2.7 kPa to 10.8 kPa",
+        "start_index": 20604,
+        "end_index": 20855
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". This increase suggests that at relatively high fraction of associative groups, the contribution to the network stiffness from reversible bonds dominates that from glassy nodules.",
+        "start_index": 20855,
+        "end_index": 21035
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Unlike typical glassy nodules that are permanent at room temperature, the reversible hydrogen bonds can break and reform, slowing down the dynamics of polymer networks. As the fraction of associative groups increases, the relaxation time of the network strand increases. This effect is evident in the reduction of the crossover frequency $\\omega_c$, below which $G'$ becomes nearly a constant and higher than $G''$, as denoted by the arrow in Fig. 3c and shown in Fig. S6",
+        "start_index": 21035,
+        "end_index": 21506
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". To quantify the contribution of reversible bonds to the network stiffness, we introduce a parameter, $(G' - G_x')/G_x'$, in which $G_x'$ is the shear storage modulus for the network without reversible bonds. As expected, $(G' - G_x')/G_x'$ becomes higher as $\\lambda$ increases from 0.09 to 0.25 because of the contribution from reversible bonds",
+        "start_index": 21506,
+        "end_index": 21853
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Interestingly, the value of $(G' - G_x')/G_x'$ exhibits a non-monotonic dependence on the probing frequency (Fig. 3d). This behavior is characteristic of reversible polymer networks, in which the fraction of unrelaxed reversible bonds increases at higher frequency or shorter probing time scales. This trend ends at time scales shorter than the lifetime of a reversible association, as the contribution from reversible bonds to network modulus is maximized and exhausted.26",
+        "start_index": 21853,
+        "end_index": 22328
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Surprisingly, when $\\lambda$ increases from 0.09 to 0.25, the extent of the increase for $(G' - G'_x)/G'_x$ with frequency remains the same up to $\\omega_{\\text{max}}$, at which $(G' - G'_x)/G'_x$ is maximized, as shown by the two nearly parallel curves in Fig. 3d",
+        "start_index": 22328,
+        "end_index": 22592
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". This behavior is attributed to the similar relaxation dynamics of the associative polymers despite different fractions of reversible groups. Because the two polymers carry high fractions of associative groups that are no less than one per Kuhn monomer, they can be considered as a homopolymer consisting of renormalized Kuhn monomers",
+        "start_index": 22592,
+        "end_index": 22927
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Thus, all polymers follow the same Rouse dynamics, and the only difference is that the basic time scale \u2014 the relaxation time of a renormalized Kuhn monomer $\\tau_s$ \u2014 increases with $\\lambda$",
+        "start_index": 22927,
+        "end_index": 23121
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Recently we experimentally showed that at room temperature $\\tau_s$ increases exponentially with the fraction of associative groups: $\\tau_s = \\tau_0 \\exp(\\alpha \\lambda)$, in which $\\tau_0$ is the monomer relaxation time without associative groups, and $\\alpha$ is a constant of 8.6\u00b11.2",
+        "start_index": 23121,
+        "end_index": 23410
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". It is expected that the Rouse dynamics of a polymer with $\\lambda$ reversible groups slow down by a factor of $\\exp(\\alpha \\lambda)$. Consistent with this understanding, the crossover frequency $\\omega_c$ inversely scales with the monomer relaxation time: $\\omega_c(\\lambda) = \\omega_c(0) \\exp(-9 \\lambda)$, as shown by the solid line in Fig. S6",
+        "start_index": 23410,
+        "end_index": 23757
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Together, our results demonstrate that the addition of reversible bonds slows down polymer dynamics and makes the polymer networks more dissipative.",
+        "start_index": 23757,
+        "end_index": 23907
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "The enhanced energy dissipation is further confirmed by uniaxial tensile tests. Introducing associative groups increases the network breaking strain from 1.22\u00b10.02 to 1.57\u00b10.05 (Fig. 3e) and the network tensile toughness by nearly 5 times from 5.90\u00b10.66 to 28\u00b12.42 kJ/m$^3$ (Fig. 3f)",
+        "start_index": 23907,
+        "end_index": 24190
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". However, we acknowledge that the absolute values of stiffness and toughness are relatively low compared to existing double-network or interpenetrating-network elastomers, which approximately have stiffness of $10^6$ Pa and tensile toughness of $10^6$ J/m$^3$.",
+        "start_index": 24190,
+        "end_index": 24451
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Figure 4. Increasing the volume fraction of glassy domains dramatically enhances polymer stiffness and toughness. (a) SAXS patterns for the triblock polymers with the same MW of the middle block and fraction of amide groups ($\\lambda=0.25$) but various end block volume fraction, $f \\approx 0.11, 0.13, 0.27, $ and $0.33$",
+        "start_index": 24451,
+        "end_index": 24772
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (b) In situ tensile/SAXS test of the sample with $f = 0.33$ and $\\lambda = 0.25$. $\\epsilon$ is the tensile strain. (c) Frequency dependence of storage (solid symbols, $G'$) and loss (empty symbols, $G''$) moduli of the self-assembled polymer networks measured at 20 \u00b0C at a fixed strain of 0.5%",
+        "start_index": 24772,
+        "end_index": 25069
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (d) Dependence of equilibrium shear modulus $G$ on $f$. (e) Stress-strain curves for polymer networks at room temperature. (f) Tensile toughness of polymer",
+        "start_index": 25069,
+        "end_index": 25226
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "networks with different fractions of amide groups. Error bar: standard deviation from measurements for the same sample reprocessed using solvents \\((n=3)\\).",
+        "start_index": 25226,
+        "end_index": 25382
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "To further improve the network mechanical properties, we exploit the morphology afforded by block copolymer assembly to tune the network stiffness. Unlike conventional polymer networks of an amorphous morphology, the networks self-assembled by LAL triblock copolymers can have various kinds of ordered morphology. As the morphology transitions from sphere to lamellae, the glassy domains percolate throughout the whole microstructure to result in a high stiffness\\(^{33,34}\\)",
+        "start_index": 25382,
+        "end_index": 25857
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". To this end, we use the middle block with the highest fraction of reversible bonds \\((\\lambda=0.25)\\) and increase \\(f\\) from 0.11 to 0.33. Microscopically, for \\(f = 0.33\\), the polymer self-assembles to a lamellar microstructure, as revealed by SAXS measurements in **Fig. 4a**",
+        "start_index": 25857,
+        "end_index": 26138
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". **In situ** SAXS/tensile measurements reveal the increase of the distance between two neighboring glassy domains along the direction of stretching (**Fig. 4b**). Yet, the polymer remains transparent because of small characteristic length scales, \\(~37\\) nm, much below the wavelength of visible light (**Table 1**). Macroscopically, as \\(f\\) increases, \\(G'\\) becomes much larger than \\(G''\\) over a wide range of shear frequency (**Fig",
+        "start_index": 26138,
+        "end_index": 26576
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". 4c**) and the loss factor becomes smaller (**Fig. S7**), suggesting that the network becomes less dissipative. However, the network stiffness increases by more than two orders of magnitude from \\(~10\\) kPa to \\(~3\\) MPa (**Fig. 4d**). As a result, although the network becomes less stretchable (**Fig. 4e**), the tensile toughness increases by nearly 40 times from \\(28\\pm2",
+        "start_index": 26576,
+        "end_index": 26951
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".42\\) kJ/m\\(^3\\) to \\(1.2\\pm0.12\\) MJ/m\\(^3\\) (**Fig. 4f**).",
+        "start_index": 26951,
+        "end_index": 27011
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Figure 5. Direct ink write printing of LAL polymers to produce highly deformable 3D structures. (a) Stress-strain behavior of 3D printed and molded tensile bars of LAL polymers tested at room temperature and 0.01/s strain rate. (b) Photos of 3D printed honeycomb (upper) and gyroid structures printed with LAL polymer ($f = 0.31$, $\\lambda = 0.25$)",
+        "start_index": 27011,
+        "end_index": 27359
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The light yellowish color is attributed to reprocessing the polymers at high temperatures and contamination from the extruder. Scale bars, 5 mm. (c) Compression stress-strain behavior of the 3D printed gyroid in (b). The compression strain rate is 0.003/s. Inset: cyclic compression-release profile exhibits a hysteresis for the deformation of 20%. Error bar, standard deviation for $n=4$",
+        "start_index": 27359,
+        "end_index": 27749
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". (d) Ashby-type plot comparing elastomers for solvent-free DIW printing based on tensile breaking strain and Young\u2019s modulus. Filled green circles: our modular soft elastomers; other symbols: literature data (Table S2).",
+        "start_index": 27749,
+        "end_index": 27969
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Unlike conventional elastomers that are crosslinked by permanent covalent bonds, LAL polymers are a kind of thermoplastic-like elastomer physically crosslinked by nodules of glassy polymers.",
+        "start_index": 27969,
+        "end_index": 28159
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Similar to the melting of traditional thermoplastics, these nodules easily dissociate at high temperatures. We explore the effects of temperature for two polymers with nearly the same end block volume fraction of $f \\approx 0.31$ but with a fraction of associative groups of $\\lambda = 0$ and $\\lambda = 0.25$. At room temperature, these two polymers exhibit shear moduli of 48 kPa and 375 kPa, respectively (Fig",
+        "start_index": 28159,
+        "end_index": 28571
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". S8). An end block volume fraction of 0.31 is close to the highest value explored in this study (Table 1) and corresponds to the LAL polymer possessing the strongest glassy domains which provides the greatest challenge for extrusion. Despite possessing strong glassy domains, the LAL polymer readily exhibits a yield-stress behavior at 170 \u00b0C (Fig. S11). The measured yield stresses of 829 Pa ($\\lambda = 0",
+        "start_index": 28571,
+        "end_index": 28978
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".25$) and 459 Pa ($\\lambda = 0$) are low enough that the material can be readily extruded but high enough that the material will retain it\u2019s as-deposited shape. As the material cools after exiting the nozzle, the glassy domains will reform to further increase the material strength. This yield-stress behavior makes the material suitable for high-temperature DIW printing (Fig. 1d).",
+        "start_index": 28978,
+        "end_index": 29360
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "To enable DIW printing of the LAL polymer at elevated temperatures, we integrate a heated extruder into a customized linear driving stage (DIW Printing in SI Materials and Methods). The heated extruder consists primarily of a metal syringe surrounded by a heating jacket and a stepper motor that mechanically drives the syringe plunger to control the rate of extrusion",
+        "start_index": 29360,
+        "end_index": 29728
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". We directly load chunks of the solid LAL polymer into the syringe barrel, heat the syringe to 170 \u00b0C, and extrude the polymer onto the build plate that is maintained at 80 \u00b0C. The combination of precise control over extrusion speed and temperature produces smooth and continuous extrusion of LAL filaments",
+        "start_index": 29728,
+        "end_index": 30035
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The extruded filament rapidly resolidifies after exiting the nozzle due to a combination of cooling and the material\u2019s yield-stress behavior, as shown by a representative image in Fig. 1e.",
+        "start_index": 30035,
+        "end_index": 30225
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "To evaluate the quality of DIW printing, we compare the mechanical properties of the printed tensile bars to their molded counterparts. The printed specimens exhibit tensile moduli of 652.5 kPa and 89.7 kPa for $\\lambda = 0.25$ and $\\lambda = 0$, respectively (Fig. 5a, Table S3)",
+        "start_index": 30225,
+        "end_index": 30504
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". The tensile moduli are lower than the cast specimens, likely attributed to the imperfect welding between neighboring filaments, a caveat common to filament based DIW printing. As expected, introducing associative groups significantly enhances the mechanical properties of printed tensile bars, increasing the tensile breaking strain from 1.15 to 1",
+        "start_index": 30504,
+        "end_index": 30853
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".25 and the tensile strength from 239 kPa to 1190 kPa with the corresponding tensile toughness increasing from 132 to 939 kJ/m$^3$.",
+        "start_index": 30853,
+        "end_index": 30984
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Using the same printing parameters, we successfully transform the LAL polymer ($f = 0.31, \\lambda = 0.25$) into more complex 3D structures. Specifically, we print a 3D honeycomb structure with a layer thickness of 300 $\\mu$m (Fig. 5b, upper panel; Movie S1)",
+        "start_index": 30984,
+        "end_index": 31241
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Due to the melt-based processing approach, there is no observable volumetric shrinkage in the printed structure, contrasting to the significant shrinkage of ~50% in prior solvent-assisted DIW printing of elastomers. Leveraging the inherent reprocessability of the LAL polymers, we recycle the printed honeycomb structure and use it as the feedstock for printing a gyroid, a type of 3D structure with a complex internal feature that is typically not possible to create by conventional molding",
+        "start_index": 31241,
+        "end_index": 31734
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Because the printing process is solvent-free and the deposited material does not shrink or warp significantly, we can create a gyroid with good fidelity, as shown in the lower panel of Fig 5b and Movie S2.",
+        "start_index": 31734,
+        "end_index": 31941
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Remarkably, the printed gyroid is repeatedly compressed up to $\\epsilon_c$ of 60%, the highest value due to the instrumentation limit in measuring stress, without noticeable damage or plastic deformation, as shown by the cyclic compression test in Fig 5c and Movie S3. Interestingly, the stress-compression",
+        "start_index": 31941,
+        "end_index": 32247
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "profile reveals two distinct regimes. At compressive strains below ~30\\%, the compressive stress increases nearly linearly with strain and corresponds to an apparent elastic modulus of 18 kPa at $\\varepsilon_c = 30\\%$. Above 30\\% strain, the stress begins to increase more rapidly with a maximum stress of 325 kPa reached at 60\\% strain",
+        "start_index": 32247,
+        "end_index": 32583
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". When comparing the loading and unloading cycles, the printed gyroid exhibits a hysteresis associated with 25\\% energy dissipation (inset, Fig. 5c). This energy dissipation is primarily attributed to the breakage and reformation of the reversible hydrogen bonds. The corresponding energy dissipation efficiency of 62\\% is remarkably high, which is determined by the difference between the absorbed energy during loading and unloading",
+        "start_index": 32583,
+        "end_index": 33017
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". This highlights the potential of printing LAL polymers to produce dissipative structures. Taken together, our results demonstrate that the LAL elastomers are amenable to the solvent-free DIW printing of complex, reprocessable, deformable, and dissipative 3D structures without the need for sacrificial supporting matrix or post-curing.",
+        "start_index": 33017,
+        "end_index": 33354
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "3. Conclusion",
+        "start_index": 33354,
+        "end_index": 33367
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We have developed melt reprocessable and DIW printable modular soft elastomers by introducing a dual-network polymer that leverages both the self-assembly of block copolymers and the use of associative polymers. The developed LAL system synergizes the emerging homogeneous associative polymers and existing success of block copolymer self-assembly (ref",
+        "start_index": 33367,
+        "end_index": 33719
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". 36 and references therein) to produce elastomers that span three orders of magnitude in Young\u2019s modulus from ~8 kPa to 8 ~MPa while maintaining tensile breaking strain around 150\\% (Fig. 5d). At elevated temperatures, the self-assembled glassy nodules and reversible bonds dissociate, leading to a reversible solid-like to liquid-like transition under shear stress",
+        "start_index": 33719,
+        "end_index": 34085
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". This property makes the LAL polymers suitable for DIW without the need for any additional solvents. The lower limit of stiffness for our elastomers is more than three times lower than the softest solvent-free DIW elastomers in",
+        "start_index": 34085,
+        "end_index": 34313
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "literature (Fig. 5d)\\textsuperscript{18}, about 20 times softer than the solvent-free DIW printable polymer composites (Fig. S12)\\textsuperscript{3}, and more than 6 times softer than the currently available thermoplastic polymers printed using other additive manufacturing techniques (Fig. S13)\\textsuperscript{37}",
+        "start_index": 34313,
+        "end_index": 34628
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Moreover, because the networks are physically crosslinked by glassy nodules, they are intrinsically reprocessable with heating or by using solvents such as dichloromethane, as visualized by the optical images in Fig. S9a. Compared to the original polymer, the reprocessed polymer exhibits nearly the same mechanical properties (Fig. S9b)",
+        "start_index": 34628,
+        "end_index": 34967
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". Despite their inherent melt reprocessability, these polymers are mechanically stable up to a relatively high temperature of 150 \u00baC (Fig. S10). The exceptional combination of a wide range of accessible mechanical properties, reprocessability, and thermostability highlights the potential of LAL polymers as a new class of soft DIW printable elastomers.",
+        "start_index": 34967,
+        "end_index": 35320
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "We note a few open questions worthy of future explorations. Our polymers explored here are limited in stretchability up to 150\\%. This is likely attributed to the relatively low MW of the associative polymers, which are chosen to ensure the middle blocks remain unentangled. Using longer associative polymers would enhance the stretchability of the elastomers\\textsuperscript{38}",
+        "start_index": 35320,
+        "end_index": 35699
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". In the context of polymer science, the influence of the reversible associations on block copolymer self-assembly has yet to be understood. Despite these unanswered questions, the introduced LAL polymers provide a promising platform for the modular design and development of reprocessable polymeric elastomers for practical applications.",
+        "start_index": 35699,
+        "end_index": 36037
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Supporting Information: Procedures for the synthesis of middle block and triblock polymers. Methods of using $^1$H NMR to determine the degree of polymerization of middle block and triblock polymers. Methods for GPC measurement, rheological measurement, tensile test and reprocessability test. SAXS measurements and discussion. $^1$H NMR spectra of all middle block and triblock polymers. Movies for 3D printing and characterization",
+        "start_index": 36037,
+        "end_index": 36469
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". List and references of existing solvent-free polymers for DIW printing.",
+        "start_index": 36469,
+        "end_index": 36542
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Acknowledgements: L.H.C. acknowledges the support from NSF (CAREER DMR-1944625) and ACS Petroleum Research Fund (PRF) (6132047-DNI). This research used the SMI beamline (12-ID) of the National Synchrotron Light Source II, a U.S. Department of Energy (DOE) Office of Science User Facility operated for the DOE Office of Science by Brookhaven National Laboratory under contract no",
+        "start_index": 36542,
+        "end_index": 36920
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". DE-SC0012704. We thank Prof. Rachel Letteri at the University of Virginia for providing the GPC system and Zixian Cui for performing some of the GPC measurements, as well as Prof. Shiwang Cheng from Michigan State University for helpful discussions.",
+        "start_index": 36920,
+        "end_index": 37171
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Author contributions: L.H.C., S.N., M.K., and D.R designed the research. S.N., M.K, D.R., and L.H.C. performed the research. S.N., L.H.C., M.K., and D.R. analyzed data. B.H., G.F. and M.Z. helped with SAXS/WAXS measurements and data analysis. L.H.C. and M.K. wrote the paper. All authors reviewed and commented on the paper. L",
+        "start_index": 37171,
+        "end_index": 37497
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".H.C. conceived and supervised the study.",
+        "start_index": 37497,
+        "end_index": 37538
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Competing interests: L.H.C. and S.N. have filed a patent application (U.S. Provisional Patent Application Serial No. 63/345,749) based on linear-associative-linear polymers.\nReferences",
+        "start_index": 37538,
+        "end_index": 37722
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(1) Skylar-Scott, M. A.; Mueller, J.; Visser, C. W.; Lewis, J. A. Voxelated Soft Matter via Multimaterial Multinozzle 3D Printing. *Nature 2019*, 575 (7782), 330\u2013335. https://doi.org/10.1038/s41586-019-1736-8.",
+        "start_index": 37722,
+        "end_index": 37931
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(2) Kim, Y.; Yuk, H.; Zhao, R.; Chester, S. A.; Zhao, X. Printing Ferromagnetic Domains for Untethered Fast-Transforming Soft Materials. *Nature 2018*, 558 (7709), 1\u20136. https://doi.org/10.1038/s41586-018-0185-0.",
+        "start_index": 37931,
+        "end_index": 38142
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(3) Zhou, L.; Fu, J.; Gao, Q.; Zhao, P.; He, Y. All-Printed Flexible and Stretchable Electronics with Pressing or Freezing Activatable Liquid-Metal\u2013Silicone Inks. *Adv. Funct. Mater. 2020*, 30 (3), 1906683. https://doi.org/https://doi.org/10.1002/adfm.201906683.",
+        "start_index": 38142,
+        "end_index": 38404
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(4) Muth, J. T.; Vogt, D. M.; Truby, R. L.; Meng\u00fc\u00e7, Y.; Kolesky, D. B.; Wood, R. J.; Lewis, J. A. Embedded 3D Printing of Strain Sensors within Highly Stretchable Elastomers. *Adv. Mater. 2014*, 26 (36), 6307\u20136312. https://doi.org/10.1002/adma",
+        "start_index": 38404,
+        "end_index": 38647
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".201400334.",
+        "start_index": 38647,
+        "end_index": 38658
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(5) Emon, M. O. F.; Alkadi, F.; Philip, D. G.; Kim, D.-H.; Lee, K.-C.; Choi, J.-W. Multi-Material 3D Printing of a Soft Pressure Sensor. *Addit. Manuf. 2019*, 28, 629\u2013638. https://doi.org/https://doi.org/10.1016/j.addma.2019.06.001.",
+        "start_index": 38658,
+        "end_index": 38890
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(6) Schaffner, M.; Faber, J. A.; Pianegonda, L.; R\u00fchs, P. A.; Coulter, F.; Studart, A. R. 3D Printing of Robotic Soft Actuators with Programmable Bioinspired Architectures. *Nat. Commun. 2018*, 9 (1), 1\u20139. https://doi.org/10",
+        "start_index": 38890,
+        "end_index": 39114
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".1038/s41467-018-03216-w.",
+        "start_index": 39114,
+        "end_index": 39139
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(7) Kotikian, A.; Truby, R. L.; Boley, J. W.; White, T. J.; Lewis, J. A. 3D Printing of Liquid Crystal Elastomeric Actuators with Spatially Programmed Nematic Order. *Adv. Mater. 2018*, 30 (10), 1\u20136. https://doi.org/10.1002/adma.201706164.",
+        "start_index": 39139,
+        "end_index": 39378
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(8) Luo, C.; Chung, C.; Traugutt, N. A.; Yakacki, C. M.; Long, K. N.; Yu, K. 3D Printing of Liquid Crystal Elastomer Foams for Enhanced Energy Dissipation Under Mechanical Insult. *ACS Appl. Mater. Interfaces 2021*, 13 (11), 12698\u201312708. https://doi.org/10.1021/acsami.1c017538",
+        "start_index": 39378,
+        "end_index": 39655
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".",
+        "start_index": 39655,
+        "end_index": 39656
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(9) Ge, Q.; Chen, Z.; Cheng, J.; Zhang, B.; Zhang, Y. F.; Li, H.; He, X.; Yuan, C.; Liu, J.; Magdassi, S.; Qu, S. 3D Printing of Highly Stretchable Hydrogel with Diverse UV Curable Polymers. *Sci. Adv. 2021*, 7 (2), 1\u201311. https://doi.org/10",
+        "start_index": 39656,
+        "end_index": 39896
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".1126/sciadv.aba4261.",
+        "start_index": 39896,
+        "end_index": 39917
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(10) Zhou, L.; Fu, J.; He, Y. A Review of 3D Printing Technologies for Soft Polymer Materials. *2020*, 2000187, 1\u201338. https://doi.org/10.1002/adfm.202000187.",
+        "start_index": 39917,
+        "end_index": 40074
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(11) Hamachi, L. S.; Rau, D. A.; Arrington, C. B.; Sheppard, D. T.; Fortman, D. J.; Long, T. E.; Williams, C. B.; Dichtel, W. R. Dissociative Carbamate Exchange Anneals 3D Printed Acrylates. *ACS Appl. Mater. Interfaces 2021*, 13 (32), 38680\u201338687",
+        "start_index": 40074,
+        "end_index": 40321
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ". https://doi.org/10.1021/acsami.1c09373.",
+        "start_index": 40321,
+        "end_index": 40362
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(12) Rau, D. A.; Reynolds, J. P.; Bryant, J. S.; Bortner, M. J.; Williams, C. B. A Rheological Approach for Measuring Cure Depth of Filled and Unfilled Photopolymers at Additive Manufacturing Relevant Length Scales. *Addit. Manuf. 2022*, 60, 103207. https://doi.org/10.1016/j.addma.2022",
+        "start_index": 40362,
+        "end_index": 40648
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".103207.",
+        "start_index": 40648,
+        "end_index": 40656
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(13) Truby, R. L.; Lewis, J. A. Printing Soft Matter in Three Dimensions. *Nature 2016*, 540 (7633), 371\u2013378. https://doi.org/10.1038/nature21003.",
+        "start_index": 40656,
+        "end_index": 40802
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(14) Lugger, S. J. D.; Verbroekken, R. M. C.; Mulder, D. J.; Schenning, A. P. H. J. Direct Ink Writing of Recyclable Supramolecular Soft Actuators. *ACS Macro Lett. 2022*, 11 (7), 935\u2013940. https://doi.org/10.1021/acsmacrolett.2c00359.",
+        "start_index": 40802,
+        "end_index": 41036
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(15) Zhang, B.; Chung, S. H.; Barker, S.; Craig, D.; Narayan, R. J.; Huang, J. Direct Ink Writing of Polycaprolactone / Polyethylene Oxide Based 3D Constructs. *Prog. Nat. Sci. Mater. Int. 2021*, 31 (2), 180\u2013191.",
+        "start_index": 41036,
+        "end_index": 41248
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Spoerk, M.; Holzer, C.; Gonzalez-Gutierrez, J. Material Extrusion-Based Additive Manufacturing of Polypropylene: A Review on How to Improve Dimensional Inaccuracy and Warpage. J. Appl. Polym. Sci. 2020, 137 (12), 48545. https://doi.org/10.1002/app.48545.",
+        "start_index": 41248,
+        "end_index": 41502
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Nian, S.; Zhu, J.; Zhang, H.; Gong, Z.; Freychet, G.; Zhernenkov, M.; Xu, B.; Cai, L. H. Three-Dimensional Printable, Extremely Soft, Stretchable, and Reversible Elastomers from Molecular Architecture-Directed Assembly. Chem. Mater. 2021, 33 (7), 2436\u20132445. https://doi.org/10.1021/acs.chemmater",
+        "start_index": 41502,
+        "end_index": 41797
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".0c04659.",
+        "start_index": 41797,
+        "end_index": 41806
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Xie, R.; Mukherjee, S.; Levi, A. E.; Reynolds, V. G.; Wang, H.; Chabinyc, M. L.; Bates, C. M. Room Temperature 3D Printing of Super-Soft and Solvent-Free Elastomers. Sci. Adv. 2020, 6 (46), eabc6900. https://doi.org/10.1126/sciadv.abc6900.",
+        "start_index": 41806,
+        "end_index": 42045
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Cai, L. H. Molecular Understanding for Large Deformations of Soft Bottlebrush Polymer Networks. Soft Matter 2020, 16 (27), 6259\u20136264. https://doi.org/10.1039/d0sm00759e.",
+        "start_index": 42045,
+        "end_index": 42214
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Nian, S.; Patil, S.; Zhang, S.; Kim, M.; Chen, Q.; Zhernenkov, M.; Ge, T.; Cheng, S.; Cai, L. H. Dynamics of Associative Polymers with High Density of Reversible Bonds. Phys. Rev. Lett. 2023, 130 (22), 228101. https://doi.org/10.1103/PhysRevLett.130.228101.",
+        "start_index": 42214,
+        "end_index": 42471
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Wei, M.-H.; Li, B.; David, R. L. A.; Jones, S. C.; Sarohia, V.; Schmitigal, J. A.; Kornfield, J. A. Megasupramolecules for Safer, Cleaner Fuel by End Association of Long Telechelic Polymers. Science. 2015, 350 (6256), 72\u201375. https://doi.org/10.1126/science",
+        "start_index": 42471,
+        "end_index": 42727
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".aab0642.",
+        "start_index": 42727,
+        "end_index": 42736
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Ge, S.; Tress, M.; Xing, K.; Cao, P. F.; Saito, T.; Sokolov, A. P. Viscoelasticity in Associating Oligomers and Polymers: Experimental Test of the Bond Lifetime Renormalization Model. Soft Matter 2020, 16 (2), 390\u2013401. https://doi.org/10.1039/c9sm01930h.",
+        "start_index": 42736,
+        "end_index": 42990
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Zhao, B.; Xu, S.; Zheng, S. Synthesis, Self-Assembly and Self-Healing Properties of Organic\u2013Inorganic ABA Triblock Copolymers with Poly(POSS Acrylate) Endblocks. Polym. Chem. 2019, 10 (19), 2424\u20132435. https://doi.org/10.1039/C9PY00094A.",
+        "start_index": 42990,
+        "end_index": 43226
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Chen, Y. L.; Kushner, A. M.; Williams, G. A.; Guan, Z. B. Multiphase Design of Autonomic Self-Healing Thermoplastic Elastomers. Nat. Chem. 2012, 4 (6), 467\u2013472. https://doi.org/10.1038/nchem.1314.",
+        "start_index": 43226,
+        "end_index": 43422
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Doig, A. J.; Williams, D. H. Binding-Energy of an Amide-Amide Hydrogen Bond in Aqueous and Nonpolar Solvents. J. Am. Chem. Soc. 1992, 114 (1), 338\u2013343. https://doi.org/10.1021/Ja00027a044.",
+        "start_index": 43422,
+        "end_index": 43610
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Stukalin, E. B.; Cai, L.-H.; Kumar, N. A.; Leibler, L.; Rubinstein, M. Self-Healing of Unentangled Polymer Networks with Reversible Bonds. Macromolecules 2013, 46 (18), 7525\u20137541. https://doi.org/10.1021/ma401111n.",
+        "start_index": 43610,
+        "end_index": 43824
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Wu, J.; Cai, L. H.; Weitz, D. A. Tough Self-Healing Elastomers by Molecular Enforced Integration of Covalent and Reversible Networks. Adv. Mater. 2017, 29 (38), 1702616. https://doi.org/10.1002/adma.201702616.",
+        "start_index": 43824,
+        "end_index": 44033
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Matyjaszewski, K.; Jakubowski, W.; Min, K.; Tang, W.; Huang, J.; Braunecker, W. A.; Tsarevsky, N. V. Diminishing Catalyst Concentration in Atom Transfer Radical Polymerization with Reducing Agents. Proc. Natl. Acad. Sci. U. S. A. 2006, 103 (42), 15309\u201315314. https://doi.org/10",
+        "start_index": 44033,
+        "end_index": 44310
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": ".1073/pnas.0602675103.",
+        "start_index": 44310,
+        "end_index": 44332
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Matsen, M. W. Equilibrium Behavior of Symmetric ABA Triblock Copolymer Melts. J. Chem. Phys. 2000, 113 (13), 5539\u20135544. https://doi.org/10.1063/1.1289889.",
+        "start_index": 44332,
+        "end_index": 44486
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Nian, S.; Lian, H.; Gong, Z.; Zhernenkov, M.; Qin, J.; Cai, L.-H. Molecular Architecture Directs Linear-Bottlebrush-Linear Triblock Copolymers to Self-Assemble to Soft",
+        "start_index": 44486,
+        "end_index": 44653
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "Reprocessable Elastomers. *ACS Macro Lett.* 2019, 8 (11), 1528\u20131534. https://doi.org/10.1021/acsmacrolett.9b00721.",
+        "start_index": 44653,
+        "end_index": 44767
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(31) Nian, S.; Fan, Z.; Freychet, G.; Zhernenkov, M.; Redemann, S.; Cai, L.-H. Self-Assembly of Flexible Linear\u2013Semiflexible Bottlebrush\u2013Flexible Linear Triblock Copolymers. *Macromolecules* 2021, 54 (20), 9361\u20139371. https://doi.org/10.1021/acs.macromol.1c01911.",
+        "start_index": 44767,
+        "end_index": 45029
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(32) Ducrot, E.; Chen, Y.; Bulters, M.; Sijbesma, R. P.; Creton, C. Toughening Elastomers with Sacrificial Bonds and Watching Them Break. *Science* 2014, 344 (6180), 186\u2013189. https://doi.org/10.1126/science.1248494.",
+        "start_index": 45029,
+        "end_index": 45244
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(33) Honeker, C. C.; Thomas, E. L. Impact of Morphological Orientation in Determining Mechanical Properties in Triblock Copolymer Systems. *Chem. Mater.* 1996, 8 (8), 1702\u20131714. https://doi.org/10.1021/cm960146q.",
+        "start_index": 45244,
+        "end_index": 45456
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(34) Nian, S.; Cai, L.-H. Dynamic Mechanical Properties of Self-Assembled Bottlebrush Polymer Networks. *Macromolecules* 2022, 55 (18), 8058\u20138066.",
+        "start_index": 45456,
+        "end_index": 45602
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(35) Ko, Y. S.; Herrmann, D.; Tolar, O.; Elspass, W. J.; Br\u00e4ndli, C. Improving the Filament Weld-Strength of Fused Filament Fabrication Products through Improved Interdiffusion. *Addit. Manuf.* 2019, 29, 100815. https://doi.org/10.1016/j.addma.2019.100815.",
+        "start_index": 45602,
+        "end_index": 45858
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(36) Bates, C. M.; Bates, F. S. 50th Anniversary Perspective: Block Polymers\u2014Pure Potential. *Macromolecules* 2017, 50 (1), 3\u201322. https://doi.org/10.1021/acs.macromol.6b02355.",
+        "start_index": 45858,
+        "end_index": 46033
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(37) Georgopoulou, A.; Egloff, L.; Vanderborght, B.; Clemens, F. A Sensorized Soft Pneumatic Actuator Fabricated with Extrusion-Based Additive Manufacturing. *Actuators*. 2021. https://doi.org/10.3390/act10050102.",
+        "start_index": 46033,
+        "end_index": 46246
+    },
+    {
+        "document_name": "104.txt",
+        "chunk_text": "(38) Kim, J.; Zhang, G.; Shi, M.; Suo, Z. Fracture, Fatigue, and Friction of Polymers in Which Entanglements Greatly Outnumber Cross-Links. *Science* 2021, 374 (6564), 212\u2013216. https://doi.org/10.1126/science.abg6320.",
+        "start_index": 46246,
+        "end_index": 46463
+    }
+]

@@ -1,0 +1,746 @@
+[
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Towards carbon-free cathodes for fluoride ion batteries: deconvoluting effects of active material and conductive additive on charging and cyclic stability\n\nTommi Aalto\\textsuperscript{a}, Roham Talei\\textsuperscript{b}, Guido Schmitz\\textsuperscript{b}, Oliver Clemens\\textsuperscript{a,}\\textsuperscript{*}",
+        "start_index": 0,
+        "end_index": 307
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "\\textsuperscript{a} University of Stuttgart, Institute for Materials Science, Department of Chemical Materials Synthesis, Heisenbergstra\u00dfe 3, 70569 Stuttgart, Germany\n\n\\textsuperscript{b} University of Stuttgart, Institute for Materials Science, Department of Materials Physics, Synthesis, Heisenbergstra\u00dfe 3, 70569 Stuttgart, Germany\n\n* Corresponding Author:\n\nProf. Dr. Oliver Clemens",
+        "start_index": 307,
+        "end_index": 692
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Email: oliver.clemens@imw.uni-stuttgart.de\n\nFax: +49 711 685 51933\nAbstract",
+        "start_index": 692,
+        "end_index": 767
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "In this study, conductive, fluorine and antimony co-doped tin oxide nanoparticles (FATO-NPs) are highlighted as a possible alternative for conductive carbon additives in fluoride ion batteries, successfully circumventing oxidative side reactions. Since good cyclability with high and stable discharge capacities was achieved with both types of conductive additive, it was concluded that conductive carbon is well suitable for high-voltage fluoride ion batteries, contrary to prior assumptions",
+        "start_index": 767,
+        "end_index": 1259
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". The utilization of almost completely side-reaction free FATO-NPs as the conductive additive enables the deconvolution of other side reactions in initial cycles.",
+        "start_index": 1259,
+        "end_index": 1421
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Keywords\n\nsolid-state batteries; fluoride-ion batteries; nanoparticles; percolation;\n1 Introduction",
+        "start_index": 1421,
+        "end_index": 1520
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "All-solid-state fluoride-ion batteries (ASS-FIBs) are a promising candidate for post-lithium-ion battery technologies. Many possible combinations of conversion-based anode and cathode materials could outperform current lithium-ion batteries in terms of gravimetric capacity and volumetric energy density \\(^1\\)",
+        "start_index": 1520,
+        "end_index": 1830
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". However, conversion-based materials suffer from rapid capacity fading and bad rate capability due to high volume change and large overpotentials associated with the reorganization of the crystal structure upon conversion \\(^2\\). Therefore, intercalation-based materials as they are also employed in current state-of-the-art lithium-ion batteries appear to be the way forward to achieve high cyclic stability for ASS-FIBs.",
+        "start_index": 1830,
+        "end_index": 2253
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Earlier publications on intercalation cathode materials for fluoride ion batteries have highlighted fluorination of the conductive carbon additive as a parasitic side reaction leading to rapid deterioration of the cell performance \\(^3\\). Since the fluorination of materials such as La\\(_2\\)(Ni/Co)O\\(_4\\) is happening at potentials very similar to carbon fluorination, the two materials fluorinate simultaneously",
+        "start_index": 2253,
+        "end_index": 2666
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Since carbon monofluoride (CF)\\(_n\\), PTFE (CF\\(_2\\))\\(_n\\) and other analogous highly fluorinated carbons are all electronically insulating, the fluorination of the carbon additive was assumed to cause rapid capacity fading observed by Nowroozi et. al. \\(^3-4\\) and Wissel et. al. \\(^5\\), in agreement with observed changes in the carbon oxidation state from XPS studies",
+        "start_index": 2666,
+        "end_index": 3039
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".",
+        "start_index": 3039,
+        "end_index": 3040
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "To differentiate the fluorination of La\\(_2\\)(Ni/Co)O\\(_4\\) from the conductive additive, one option is to replace carbon by other conductive materials which show higher oxidative stability. Conductive oxides could serve the purpose, since the metals contained are already oxidized to their highest oxidation state, leaving no option for further oxidation by electrochemical fluorination apart from the oxidation of lattice oxygen",
+        "start_index": 3040,
+        "end_index": 3470
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Especially SnO\\(_2\\)-based conductive oxides are prominent due to vast amounts of literature on those materials due to their application as transparent conductive oxides for touchscreens or solar cells.",
+        "start_index": 3470,
+        "end_index": 3674
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "However, easy utilization of conductive oxides by ball-milling - in a similar manner to how carbon-based cathode composites are prepared - did not yield a conductive composite \\(^6\\),...\nindicating that a carefully designed microstructure is necessary to successfully use conductive oxides as the electronically conductive additive in ASS-FIBs.",
+        "start_index": 3674,
+        "end_index": 4018
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "All types of carbon which are typically used in electrode composites, Super P, carbon nanofibers or carbon nanotubes, display a low percolation threshold due to their morphologies. Carbon nanofibers and nanotubes have a very large aspect ratio of length to diameter, which enables them to easily interconnect between powder particles",
+        "start_index": 4018,
+        "end_index": 4351
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Super P however consists of amorphous carbon particles with diameters between 30-40 nm\\(^7\\) which allows them to occupy the pore space provided by solid electrolyte/active material particles. This large particle size ratio between active particles and carbon has been shown to also give rise to a low percolation threshold in powder mixtures \\(^8\\).",
+        "start_index": 4351,
+        "end_index": 4703
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Due to the small percolation threshold of nanoparticles, it was chosen to pursue the substitution of carbon in electrode composites by conductive F- and Sb co-doped SnO\\(_2\\) nanoparticles, to deconvolute the effect of the conductive additive from the properties of the active material upon the cyclability of La\\(_2\\)(Ni/Co)O\\(_4\\) in all-solid-state fluoride-ion battery cathode composites.\n\n2 Experimental",
+        "start_index": 4703,
+        "end_index": 5111
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2.1 Synthesis\n\n2.1.1 Synthesis of Fluorine and Antimony-doped Tin Oxide (FATO) Nanoparticles",
+        "start_index": 5111,
+        "end_index": 5203
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Fluorine and/or Antimony (co-)doped SnO\\(_2\\) nanoparticles (FATO NPs) were synthesized mechanochemically. Anhydrous tin chloride was chosen as a precursor and Na\\(_2\\)CO\\(_3\\) was added stoichiometrically as a reactant to achieve the reaction:",
+        "start_index": 5203,
+        "end_index": 5447
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "\\[\n\\text{SnCl}_2 + \\text{Na}_2\\text{CO}_3 \\rightarrow 4 \\text{NaCl} + 2 \\text{CO}_2 + \\text{SnO}\n\\]",
+        "start_index": 5447,
+        "end_index": 5546
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "In addition, a large excess of NaCl was added as a dispersant. Antimony doping was achieved by substituting 5 mol. % of SnCl\\(_2\\) for SbCl\\(_3\\) while fluorine doping was carried out with the addition of a 1:1 ratio of NH\\(_4\\)F to metal ions. The mass of NaCl was chosen such that the total volume fraction of SnO after the reaction will be \\(\\sim\\)3 vol",
+        "start_index": 5546,
+        "end_index": 5902
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". %. All precursors were ball milled for",
+        "start_index": 5902,
+        "end_index": 5942
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2 hours without intermediate rest in a 50 ml stainless steel ball milling jar with 100 g of 5 mm\ndiameter stainless steel balls in argon atmosphere. After milling, the powder was heated to",
+        "start_index": 5942,
+        "end_index": 6130
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "600 \u00b0C for 4 h with a heating/cooling rate of 3 \u00b0C min\u207b\u00b9 under 10 sscm pure oxygen flow to oxidize the SnO formed after ball-milling to SnO\u2082 and decompose the ammonium fluoride to enable fluorination using the gaseous HF obtained in the process. The calcined powder mixture was then dispersed in deionized water to dissolve the sodium chloride and the remaining solid was centrifuged out",
+        "start_index": 6130,
+        "end_index": 6517
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". After decanting the clear supernatant and adding fresh deionized water, the dispersion was sonicated using a Hielscher 200S ultrasonic probe to disperse the particles. This process was repeated until the supernatant after centrifuging was not clear, indicating dispersed particles. This supernatant was then kept as the sample while the sediment was discarded. This allows to separate contaminants formed by abrasion of the ball milling jar and balls (see Figure S 1)",
+        "start_index": 6517,
+        "end_index": 6986
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". For characterization and determination of the mass loading of the dispersion, 10 ml were dried in a petri dish at 100 \u00b0C and the dry powder was weighed, used for XRD and EIS to determine purity, crystallinity and conductivity.",
+        "start_index": 6986,
+        "end_index": 7214
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2.1.2 Battery manufacturing\n\nThe solid electrolyte barium-doped lanthanum fluoride (La\u2080.\u2089Ba\u2080.\u2081F\u2082.\u2089, 10% Barium content) and anode composite of lead, lead fluoride and carbon were synthesized as described elsewhere [\u2079].",
+        "start_index": 7214,
+        "end_index": 7432
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "La\u2082NiO\u2084\u207a\u03b4 was prepared according to Wissel et al [\u00b9\u2070], while La\u2082CoO\u2084\u207a\u03b4 was synthesized as described by Nowroozi et al. [\u00b3].",
+        "start_index": 7432,
+        "end_index": 7555
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "FATO-based cathode composites were prepared by first ball milling La\u2080.\u2089Ba\u2080.\u2081F\u2082.\u2089 and La\u2082(Ni/Co)O\u2084 in a 2:1 ratio at 250 rpm for 2 hours using 10 pieces of 10 mm ZrO\u2082 balls in a 50 ml ZrO\u2082 jar in argon atmosphere",
+        "start_index": 7555,
+        "end_index": 7766
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". This powder was then added to a 100ml round bottom flask with 20ml of isopropanol, which was then sonicated in an ultrasonic bath for 10 minutes. To this flask, FATO nanoparticles in aqueous dispersion directly after sonication on a Hielscher 400S ultrasonic probe were added before the dispersants were removed using a rotary",
+        "start_index": 7766,
+        "end_index": 8094
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The volume of nanoparticle dispersion was chosen such that the final composite would be of a FATO NPs:La$_{0.9}$Ba$_{0.1}$F$_{2.9}$: La$_2$(Ni/Co)O$_4$ 1:2:1 weight ratio. After removing the dispersants, the composite was further dried at 170 \u00b0C in vacuum for 15 h before being stored in a glovebox",
+        "start_index": 8094,
+        "end_index": 8392
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Composites of FATO nanoparticles with exclusively La$_{0.9}$Ba$_{0.1}$F$_{2.9}$ were prepared by the same method, using as-synthesized La$_{0.9}$Ba$_{0.1}$F$_{2.9}$ instead of the mixture of La$_{0.9}$Ba$_{0.1}$F$_{2",
+        "start_index": 8392,
+        "end_index": 8610
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".9}$ and La$_2$(Ni/Co)O$_4$ in a weight ratio of 75 wt. % solid electrolyte and 25 wt. % FATO NPs.",
+        "start_index": 8610,
+        "end_index": 8708
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "A cathode composite of La$_2$(Ni/Co)O$_4$, La$_{0.9}$Ba$_{0.1}$F$_{2.9}$ and Super P was prepared by ball-milling 30 wt. % La$_2$(Ni/Co)O$_4$, 60 wt. % solid electrolyte and 10 wt",
+        "start_index": 8708,
+        "end_index": 8887
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". % Super P for 2 hours at 250 rpm in a 50 ml ZrO$_2$ jar with 10 pieces of 10 mm zirconia balls in argon atmosphere. A composite of La$_{0.9}$Ba$_{0.1}$F$_{2.9}$ and Super P was prepared by ball-milling 90 wt. % solid electrolyte with 10 wt. % Super P with the same parameters and ball-milling equipment.",
+        "start_index": 8887,
+        "end_index": 9192
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Batteries were assembled by pressing 5 mg of the cathode composite and 20 mg of the anode composite on either side of a 200 mg layer of the solid electrolyte at 460 MPa for 90s. For FATO-based composites, a piece of gold leaf (24 carat) was then pressed onto the cathode surface to reduce the contact resistance between the pellet and the stainless-steel current collector",
+        "start_index": 9192,
+        "end_index": 9564
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". In case of the cells operated with applied stack pressure, gold leaf was also applied to cathodes of the FATO- and the Super P-based cells to avoid corrosion of the current collector as observed in an earlier publication [9].",
+        "start_index": 9564,
+        "end_index": 9791
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2.2 X-ray diffraction",
+        "start_index": 9791,
+        "end_index": 9812
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "X-Ray diffraction was carried out on a Rigaku SmartLab Diffractometer equipped with a HyPix-3000 detector and a Cu-K$_\u03b1$ tube. No monochromator was used, but the detector had a Ni-filter installed to absorb the Cu-K$_\u03b2$ radiation. While FATO NPs were measured in air, cathode composites and charged cell pellets were measured in airtight sample holders which were sealed in an argon-filled glovebox",
+        "start_index": 9812,
+        "end_index": 10210
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Rietveld analysis (including determination of lattice parameter changes as well as phase quantification) was carried out using the Bruker TOPAS Software.",
+        "start_index": 10210,
+        "end_index": 10365
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2.3 Electron Microscopy",
+        "start_index": 10365,
+        "end_index": 10388
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Bright-field TEM images of the FATO Nanoparticles were acquired using a Phillips FEG CM200 transmission electron microscope with an accelerating voltage of 200 kV and equipped with a field emission gun. Samples were prepared by diluting 50 \u00b5l of the as-prepared FATO-NP dispersion in 2ml of water, and then placing one drop of this dilute dispersion on a lacey-carbon coated copper TEM grid, which was subsequently dried at 100 \u00b0C",
+        "start_index": 10388,
+        "end_index": 10818
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Particle sizes were analyzed using ImageJ. Measurements were taken measuring the longest axis of the chosen particle.",
+        "start_index": 10818,
+        "end_index": 10937
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "2.4 Electrochemical measurements",
+        "start_index": 10937,
+        "end_index": 10969
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Electrochemical Impedance Spectroscopy (EIS) as well as Galvanostatic measurements were conducted on a BioLogic VMP-300 potentiostat",
+        "start_index": 10969,
+        "end_index": 11101
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Galvanostatic charging and cycling was conducted in Swagelok-type cells which are assembled in an argon-filled glovebox and sealed using PTFE seals which have been confirmed via helium-leak testing to show a leak rate smaller than \\(10^{-9}\\) mbar l s\\(^{-1}\\). Cycling with stack pressure was conducted in a hot-press as described elsewhere \\([9]\\)",
+        "start_index": 11101,
+        "end_index": 11452
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Inert atmosphere for these pressure cells was not ensured by sealing, but by operation inside an argon-glovebox.",
+        "start_index": 11452,
+        "end_index": 11566
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "For the measurement of conductivity of the FATO nanoparticles, the dried powder from 10 ml of nanoparticle dispersion was pressed into a 7.3 mm diameter pellet of approximate thickness of 1 mm at 460 MPa for 1 hour before being sputtered with platinum. The conductivity was then determined via potentiostatic electrochemical impedance spectroscopy between 1 MHz and 100 mHz.\n\n2.5 Dynamic Light Scattering",
+        "start_index": 11566,
+        "end_index": 11970
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Before the particle size was determined via DLS, the nanoparticles were deagglomerated using a Hielscher 400S ultrasonic probe. Afterwards, a single drop of the dispersion was diluted in 1.5 ml of deionized water, which was then used to determine the particle or agglomerate size using a Zen3600 Zetasizer from Malvern Panalytical.\n3 Results and Discussions\n\n3.1 Characterization of FATO Nanoparticles",
+        "start_index": 11970,
+        "end_index": 12371
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Fluorine and antimony co-doped nanoparticles have been prepared with a F/Sn ratio of 1/1 and an antimony doping level of 5 %, their X-Ray Diffractogram (XRD) after drying is shown in Figure 1. The pattern could nicely be fitted with SnO$_2$ in the space group $P4_2/mnm$ and lattice parameters of $a = 4",
+        "start_index": 12371,
+        "end_index": 12674
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".7526(3)$ \u00c5 and $c = 3.1959(2)$ \u00c5. After pressing into a pellet for 1 hour at 460 MPa and sputtered with platinum, they showed a conductivity of $1.3 \\times 10^{-3}$ S cm$^{-1}$.",
+        "start_index": 12674,
+        "end_index": 12852
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 2 shows a TEM micrograph of the FATO NPs with the corresponding particle size distribution measured on 120 particles as well as the particle size distribution as measured by dynamic light scattering after deagglomeration with a Hielscher 400S ultrasonic probe. The TEM image implies a particle size with a median value of 7.7 nm whereas the DLS measurement shows a median size of 42 nm, due to its sensitivity towards agglomeration",
+        "start_index": 12852,
+        "end_index": 13290
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Even the size of agglomerates remaining after sonication is fully within the range of particle...",
+        "start_index": 13290,
+        "end_index": 13389
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "sizes expected for Super P [7], which should allow the conductive nanoparticles to form a percolating network at similar volume fractions as was previously used for Super P.",
+        "start_index": 13389,
+        "end_index": 13562
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 2: (a) TEM micrograph of FATO nanoparticles and (b) particle size distribution by DLS and TEM for FATO Nanoparticles\n\n3.1.1 Electrochemical stability of FATO Nanoparticles",
+        "start_index": 13562,
+        "end_index": 13740
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Cyclovoltammetry of the prepared conductive oxide nanoparticles was performed in a cell of the composition $\\text{La}_{0.9}\\text{Ba}_{0.1}\\text{F}_{2.9}$/FATO NPs \u2013 $\\text{La}_{0.9}\\text{Ba}_{0.1}\\text{F}_{2",
+        "start_index": 13740,
+        "end_index": 13947
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".9}$ \u2013 Pb/PbF$_2$/C as well as on a cell with a cathode made of a composite of $\\text{La}_{0.9}\\text{Ba}_{0.1}\\text{F}_{2.9}$ and Super P. Both cells had gold leaf pressed on top of the cathode side for better comparability, the resulting voltammograms are shown in Figure 3.",
+        "start_index": 13947,
+        "end_index": 14222
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The CVs of the FATO nanoparticle composites show a significant difference between the first and subsequent cycles. The first cycle shows an irreversible cathodic peak between 1-1.5 V against Pb/PbF$_2$, likely due to the oxidation of not fully oxidized Sn$^{2+}$ or Sb$^{3+}$ species. Above 1.7 V against Pb/PbF$_2$, another much larger oxidative peak starts",
+        "start_index": 14222,
+        "end_index": 14580
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". While the large cathodic current above 2.2 V against Pb/PbF$_2$ can be attributed to the fluorination of gold (compare Figure S 2), the current between 1.7 and 2.2 V must originate from other side reactions including the FATO NPs like substitutive fluorination by oxygen evolution from oxidation of lattice oxide ions",
+        "start_index": 14580,
+        "end_index": 14899
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". After the first cathodic scan, the FATO nanoparticles show a small reversible current around 0 \u2013 1 V against Pb/PbF$_2$, which remains consistent through subsequent cycles, indicating a stable reversible capacity in the range of 3 \u2013 5 mAh/g (see Figure S 3). The oxidative current above 1.7 V also remains unchanged through all five cycles.",
+        "start_index": 14899,
+        "end_index": 15241
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The CV of Super P shows an oxidative peak of nearly 15 \u00b5A in the first cycle around 1.5 V against Pb/PbF$_2$ with no corresponding anodic peak. This peak is due to irreversible fluorination of carbon as previously discussed by Nowroozi et al. [4a]. In subsequent cycles the peak current decreases continuously, as well as the current due to gold fluorination above 2.3 V against Pb/PbF$_2$",
+        "start_index": 15241,
+        "end_index": 15630
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". The continuous decrease in the peak current can be either interpreted as a saturation of the carbon fluorination by a passivating effect, or as a deterioration of the conductivity of the cathode composite, due to carbon fluorination.",
+        "start_index": 15630,
+        "end_index": 15865
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Unlike Super P, FATO nanoparticles form a stable conductive matrix after the first cycle, as judged by the stable performance in the cyclovoltammogram from the second cycle onwards, not showing decreasing currents which would imply a deterioration of the additive\u2019s conductivity.",
+        "start_index": 15865,
+        "end_index": 16144
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "3.2 Comparison of FATO-based composites to carbon-based composites\n\n3.2.1 Galvanostatic fluorination",
+        "start_index": 16144,
+        "end_index": 16244
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 4: charging curves of (a) $\\text{La}_2\\text{CoO}_4$ and (b) $\\text{La}_2\\text{NiO}_4$ in FATO- and Super P-based composites and the corresponding XRDs of the FATO-based composites for (c) $\\text{La}_2\\text{CoO}_4$ and (d)",
+        "start_index": 16244,
+        "end_index": 16472
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "$\\text{La}_2\\text{NiO}_4$",
+        "start_index": 16472,
+        "end_index": 16497
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 4 compares the charging curves and corresponding XRDs (after mostly scratching off the gold current collector) of $\\text{La}_2(\\text{Co,Ni})\\text{O}_4$ FATO-based composites and Super P-based composites charged to 1.7 V. For both active materials, the FATO-based composites show a slightly higher plateau potential compared to the Super P-based composites, due to the lower",
+        "start_index": 16497,
+        "end_index": 16877
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "conductivity of the FATO-NPs. While this difference is about 200 mV for La$_2$CoO$_4$, it is only about 100-150 mV for La$_2$NiO$_4$.",
+        "start_index": 16877,
+        "end_index": 17010
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Remarkably, for La$_2$CoO$_4$ an increase in the cell\u2019s potential can be observed very close to the theoretical capacity of 133 mAh g$^{-1}$ of the active material La$_2$CoO$_4$ for the FATO-based composite, reaching the cut-off potential below 170 mAh g$^{-1}$, while the Super P-based composite shows no distinct feature around this capacity value",
+        "start_index": 17010,
+        "end_index": 17359
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Therefore, the final capacity until the cut-off voltage of 1.7 V is reached is much larger for the Super P-based composite. This displays that irreversible fluorination of the conductive additive is massively reduced in the FATO-based composites and agrees with the previous findings that C-fluorination is a side-reaction during the first oxidative fluorination. This can also clearly be seen by comparing the initial charging capacities of FATO-NPs and Super P in a La$_0",
+        "start_index": 17359,
+        "end_index": 17834
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".9$Ba$_{0.1}$F$_{2.9}$ composite without any active material (see Figure S 3).",
+        "start_index": 17834,
+        "end_index": 17912
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "For La$_2$NiO$_4$ the FATO-based composite also reaches the cut-off potential much closer to the theoretical capacity than the Super P-based composite, again demonstrating the higher oxidative stability of the FATO NPs in comparison to carbon. However, with about 220 mAh g$^{-1}$, the FATO-based composite of La$_2$NiO$_4$ takes significantly more capacity to reach 1",
+        "start_index": 17912,
+        "end_index": 18280
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".7 V than the FATO-La$_2$CoO$_4$ composite. This implies another, unknown kind of side reaction taking place with La$_2$NiO$_4$ specifically.",
+        "start_index": 18280,
+        "end_index": 18421
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Although the charging capacity is lower for the FATO-based composites, Rietveld-refinements of the charged cells reveal that similar degrees of fluorination have been achieved in both composites. For, La$_2$CoO$_4$ full conversion into the monoclinic fluorinated phase was achieved, as reported before by Nowroozi et al. [3], showing that the cathode composites prepared as described in Section 2.1",
+        "start_index": 18421,
+        "end_index": 18819
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".2 allow all particles of the chosen active material to participate in the electrochemical reaction and that the particle size obtained by ball-milling is sufficiently small to fully fluorinate the respective powder particles.",
+        "start_index": 18819,
+        "end_index": 19045
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "For La$_2$NiO$_4$, Nowroozi et al. did not report a full conversion to the fluorinated phase, as they could only achieve ~70 % conversion to the fluorinated with a c-lattice parameter of",
+        "start_index": 19045,
+        "end_index": 19231
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-0mhwm ORCID: https://orcid.org/0009-0006-5023-1909 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 19231,
+        "end_index": 19378
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "~15.25 \u00c5 [4a]. A similar observation is present for La$_2$NiO$_4$ in a FATO-based composite, as only ~60% of the active material were fully fluorinated. Even though, the remaining La$_2$NiO$_4$ in the space group $I4/mmm$ shows an expansion of the c-axis ($c = 12.73$ \u00c5) as compared to the pristine material ($c = 12",
+        "start_index": 19378,
+        "end_index": 19694
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".68$ \u00c5) which is indicative of an oxidative fluorination as also reported by Nowroozi et al. [4a]. Therefore, even though not all the La$_2$NiO$_4$ present in the composite could be fully fluorinated, all powder particles participate in the electrochemical reaction also for this composite.",
+        "start_index": 19694,
+        "end_index": 19984
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "3.3 Electrochemical cycling",
+        "start_index": 19984,
+        "end_index": 20011
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Cells of La$_2$(Ni/Co)O$_4$ in FATO- and Super P-based composites have been prepared to cycle at a rate of C/16 between 0-2 V against Pb/PbF$_2$ with a charging cutoff of 133 mAh g$^{-1}$ to account for the theoretical capacity of the cathode active material",
+        "start_index": 20011,
+        "end_index": 20269
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". The discharge capacities of these cells are displayed in Figure 5 while the full charging and discharging curves can be seen in Figure S 4.",
+        "start_index": 20269,
+        "end_index": 20410
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The cyclic performance of both active materials was significantly improved by using FATO-NPs instead of Super P. While both Super P-based cells failed before reaching 10 cycles, the FATO-NP based cells cycled with much better stability, still supplying significant discharge capacities of ~20 mAh g$^{-1}$ after 50 or 60 cycles for La$_2$CoO$_4$ and La$_2$NiO$_4$ respectively.",
+        "start_index": 20410,
+        "end_index": 20787
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "![Figure 5: Galvanostatic cycling of La$_2$NiO$_4$ (a) and La$_2$CoO$_4$ (b) FATO- and Super P-based composites.](https://doi.org/10.26434/chemrxiv-2025-0mhwm ORCID: https://orcid.org/0009-0006-5023-1909 Content not peer-reviewed by ChemRxiv",
+        "start_index": 20787,
+        "end_index": 21028
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". License: CC BY 4.0)",
+        "start_index": 21028,
+        "end_index": 21049
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "However, the maximum discharge capacity for La$_2$NiO$_4$ was 60 mAh g$^{-1}$ and 65 mAh g$^{-1}$ for La$_2$CoO$_4$ which is only about half of the theoretical capacity of 133 mAh g$^{-1}$ for both materials. Further, the cells were only able to support this capacity for a few cycles, before starting to fade",
+        "start_index": 21049,
+        "end_index": 21358
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Apart from carbon-based side reactions, an additional origin for the capacity decay is the volume change of the active materials upon fluorination and defluorination. Even though these materials display an intercalation mechanism upon fluorination, the volume change of ~15 % upon fluorination (see Table S 1) is not negligible as even much smaller volume changes have been reported to lead to contact loss-induced capacity fading \\[^{[11]}\\].",
+        "start_index": 21358,
+        "end_index": 21803
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "3.3.1 Cycling with applied stack pressure",
+        "start_index": 21803,
+        "end_index": 21844
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "To further deconvolute the effects of microstructure, conductive additive and active material on the cyclic performance of these intercalation-type fluoride ion cathode composites, it was chosen to operate them with 180 MPa stack pressure at a rate of C/16 between 0-2 V against Pb/PbF$_2$. The cycling data of these cells is shown in Figure 7 and 7",
+        "start_index": 21844,
+        "end_index": 22193
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Unfortunately, it was not possible to remove the gold current collector from the cathode surface of these cells, which makes recording an XRD of the cycled cathodes infeasible due to the very strong scattering and absorbance of gold. As it can be seen, both La$_2$NiO$_4$ and La$_2$CoO$_4$ were able to cycle with high coulombic efficiency at the theoretical capacity of 133",
+        "start_index": 22193,
+        "end_index": 22569
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".4 mAh g$^{-1}$ after some initial activation cycles, far surpassing the discharge capacity and cyclic stability which has been reported before for these materials \\[^{[3-4]}\\]. This stable discharge capacity was independent of the conductive additive used",
+        "start_index": 22569,
+        "end_index": 22825
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". This revelation highlights again the importance of stack pressure for solid-state-batteries, while it also shows that intercalation cathodes for fluoride-ion batteries can operate at high potential, high capacity and high coulombic efficiency even if conductive carbon additives are used. This is in stark contrast to previous assumptions",
+        "start_index": 22825,
+        "end_index": 23165
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Further, this indicates that the difference in cyclic stability without stack pressure as displayed in Figure 5 might also stem from the different microstructure of the composites and their response to volume change upon cycling, as compared to chemical stability of the additives.",
+        "start_index": 23165,
+        "end_index": 23448
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 7: Cycling curves of La$_2$NiO$_4$ in (a) FATO- and (b) Super P-based composites at 180 MPa stack pressure with a charge cut-off of 133.4 mAh g$^{-1}$ at a rate of C/16 between 0-2 V vs Pb/PbF$_2$ with the corresponding coulombic and energetic efficiencies (c) and discharge capacities (d).",
+        "start_index": 23448,
+        "end_index": 23745
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Figure 6: Cycling curves of La$_2$CoO$_4$ in (a) FATO- and (b) Super P-based composites at 180 MPa stack pressure with a charge cut-off of 133.4 mAh g$^{-1}$ at a rate of C/16 between 0-2 V vs Pb/PbF$_2$ with the corresponding coulombic and energetic efficiencies (c) and discharge capacities (d).",
+        "start_index": 23745,
+        "end_index": 24042
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Some small differences in the charging behavior and the resulting energy efficiencies are visible between the different cells. While for \\( \\text{La}_2\\text{NiO}_4 \\), Super P was able provide lower overpotentials and therefore higher energy efficiency, the opposite is the case for \\( \\text{La}_2\\text{CoO}_4 \\), where the FATO-based composite resulted in better energy efficiency",
+        "start_index": 24042,
+        "end_index": 24423
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". This demonstrates that even though Super P did not inhibit good cyclic stability, carbon fluorination did most likely take place and thereby affect the overpotential",
+        "start_index": 24423,
+        "end_index": 24590
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". The extend of carbon fluorination also seems to be different for \\( \\text{La}_2\\text{NiO}_4 \\) and \\( \\text{La}_2\\text{CoO}_4 \\), where \\( \\text{La}_2\\text{NiO}_4 \\) shows to have better compatibility with carbon additives, similar to what was shown before by Nowroozi et al",
+        "start_index": 24590,
+        "end_index": 24866
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". for cycling with limited cut-off capacities at ambient pressure \\(^{[3-4]}\\).",
+        "start_index": 24866,
+        "end_index": 24945
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "While similar discharge capacities with high cyclic stability has been reported before for materials such as \\( \\text{Sr}_3\\text{Fe}_2\\text{O}_5\\text{F}_2 \\) \\(^{[12]}\\) or \\( \\text{La}_{1.2}\\text{Sr}_{1",
+        "start_index": 24945,
+        "end_index": 25148
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ".8}\\text{Mn}_2\\text{O}_{7-\\delta}\\text{F}_x \\) \\(^{[13]}\\), both of these materials were discharged to -1.5 V vs. Pb/PbF\\(_2\\), which sets the data presented in this work apart, since all capacity was able to be provided in a well expressed plateau at ~0.6 V vs Pb/PbF\\(_2\\).",
+        "start_index": 25148,
+        "end_index": 25423
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "While the oxidation of carbon by electrochemical fluorination has certainly been shown by XPS and Raman spectroscopy \\(^{[4a, 5]}\\), an assignment of this being the only source of fading could not be made. On the contrary, the results shown in this publication indicate that the observed carbon fluorination might not be affecting the overall performance of the battery if inter-particle contact is preserved.",
+        "start_index": 25423,
+        "end_index": 25832
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "It also has to be noted, that the fact that this pressure setup is exposed to the inert atmosphere in a glovebox seems to be influential for the cell performance, as an attempt to cycle these compounds in modified Swagelok-Cells (see Figure S 5) in order to apply stack pressure resulted in bad reproducibility and mostly decreased cell performance (see Figure S 6).\n\n### 4 Conclusions and Outlook",
+        "start_index": 25832,
+        "end_index": 26229
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The results presented in this study highlight the suitability of carbon-based conductive additives in high-voltage fluoride-ion battery cathode materials despite their instability towards",
+        "start_index": 26229,
+        "end_index": 26416
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "oxidative fluorination in early cycles. This has been demonstrated by manufacturing carbon-free cathode composites using FATO nanoparticles instead of carbon as the conductive additive. Even though FATO-based composites showed much lower irreversible charging capacity in the first cycle when charged to 1.7 V against Pb/PbF$_2$, cyclic stability was not significantly improved",
+        "start_index": 26416,
+        "end_index": 26793
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". Only application of stack pressure was able to provide good coulombic efficiency at high discharge capacities for both types of conductive additives, showing that conductive-carbon additives are well suitable even though they likely undergo partial irreversible fluorination. These results demonstrate the potential of La$_2$(Ni/Co)O$_4$ as intercalation-based high-voltage cathode materials for fluoride ion batteries.",
+        "start_index": 26793,
+        "end_index": 27214
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Even though the substitution of carbon for FATO-nanoparticles did reduce irreversible side reactions in the first charging cycles drastically, it did not eliminate them entirely. The nature of the remaining side reactions was hinted at by the difference in cyclic performance between static and dynamic argon atmosphere, indicating outgassing and/or gas evolution. This will certainly be investigated in future research.\n\n5 Conflicts of Interest\n\nThere are no conflicts of interest to declare.\n\n6 Acknowledgements",
+        "start_index": 27214,
+        "end_index": 27727
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "The authors express their gratitude to Hong Chen for helpful discussions during the scope of this work.\n\n7 References",
+        "start_index": 27727,
+        "end_index": 27844
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[1] Gschwind, F., Rodriguez-Garcia, G., Sandbeck, D.J.S., Gross, A., Weil, M., Fichtner, M., H\u00f6rmann, N., Journal of Fluorine Chemistry, 2016. 182, 76-90;",
+        "start_index": 27844,
+        "end_index": 27998
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[2] Nowroozi, M.A., Mohammad, I., Molaiyan, P., Wissel, K., Munnangi, A.R., Clemens, O., Journal of Materials Chemistry A, 2021. 9, 5980-6012;",
+        "start_index": 27998,
+        "end_index": 28140
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[3] Nowroozi, M.A., Ivlev, S., Rohrer, J., Clemens, O., Journal of Materials Chemistry A, 2018. 6, 4658-4669;",
+        "start_index": 28140,
+        "end_index": 28249
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[4] a) Nowroozi, M.A., Wissel, K., Donzelli, M., Hosseinpourkahvaz, N., Plana-Ruiz, S., Kolb, U., Schoch, R., Bauer, M., Malik, A.M., Rohrer, J., Ivlev, S., Kraus, F., Clemens, O.,",
+        "start_index": 28249,
+        "end_index": 28429
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "Communications Materials, 2020. 1; b) Nowroozi, M.A., Wissel, K., Rohrer, J., Munnangi, A.R., Clemens, O., Chemistry of Materials, 2017. 29, 3441-3453;",
+        "start_index": 28429,
+        "end_index": 28580
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[5] Wissel, K., Schoch, R., Vogel, T., Donzelli, M., Matveeva, G., Kolb, U., Bauer, M., Slater, P.R., Clemens, O., Chemistry of Materials, 2021. 33, 499-512;",
+        "start_index": 28580,
+        "end_index": 28737
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[6] Nowroozi, M.A., On the Development of Intercalation-Based Cathode Materials for All-Solid-State Fluoride Ion Batteries, Technische Universit\u00e4t Darmstadt 2020.",
+        "start_index": 28737,
+        "end_index": 28899
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[7] a) Cho, I., Choi, J., Kim, K., Ryou, M.-H., Lee, Y.M., RSC Advances, 2015. 5, 95073-95078; b) Gnanamuthu, R.M., Lee, C.W., Materials Chemistry and Physics, 2011. 130, 831-834;",
+        "start_index": 28899,
+        "end_index": 29078
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[8] He, D., Ekere, N.N., Journal of Physics D: Applied Physics, 2004. 37, 1848-1852;\n[9] Chen, H., Aalto, T., Vanita, V., Clemens, O., Small Structures, 2024. 6, 2300570;",
+        "start_index": 29078,
+        "end_index": 29248
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[10] Wissel, K., Heldt, J., Groszewicz, P.B., Dasgupta, S., Breitzke, H., Donzelli, M., Waidha, A.I., Fortes, A.D., Rohrer, J., Slater, P.R., Bunktowsky, G., Clemens, O., Inorganic Chemistry, 2018. 57, 6549-6560;",
+        "start_index": 29248,
+        "end_index": 29460
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[11] a) Gregory, G.L., Gao, H., Liu, B., Gao, X., Rees, G.J., Pasta, M., Bruce, P.G., Williams, C.K., Journal of the American Chemical Society, 2022. 144, 17477-17486; b) Liu, B., Pu, S.D., Doerrer, C., Spencer Jolly, D., House, R.A., Melvin, D.L.R",
+        "start_index": 29460,
+        "end_index": 29708
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "., Adamson, P., Grant, P.S., Gao, X., Bruce, P.G., SusMat, 2023. 3, 721-728; c) Yamamoto, M., Terauchi, Y., Sakuda, A., Kato, A., Takahashi, M., Journal of Power Sources, 2020. 473, 228595;",
+        "start_index": 29708,
+        "end_index": 29897
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[12] Wang, Y., Takami, T., Li, Z., Yamamoto, K., Matsunaga, T., Uchiyama, T., Watanabe, T., Miki, H., Inoue, T., Iba, H., Mizutani, U., Sato, H., Maeda, K., Kageyama, H., Uchimoto, Y., Chemistry of Materials, 2022",
+        "start_index": 29897,
+        "end_index": 30110
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": ". 34, 10631-10638;",
+        "start_index": 30110,
+        "end_index": 30128
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "[13] Miki, H., Yamamoto, K., Nakaki, H., Yoshinari, T., Nakanishi, K., Nakanishi, S., Iba, H., Miyawaki, J., Harada, Y., Kuwabara, A., Wang, Y., Watanabe, T., Matsunaga, T., Maeda, K., Kageyama, H., Uchimoto, Y",
+        "start_index": 30128,
+        "end_index": 30338
+    },
+    {
+        "document_name": "6.txt",
+        "chunk_text": "., Journal of the American Chemical Society, 2024. 146, 3844-3853;",
+        "start_index": 30338,
+        "end_index": 30404
+    }
+]

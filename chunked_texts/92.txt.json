@@ -1,0 +1,1310 @@
+[
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Amino acid appended supramolecular self-associating amphiphiles demonstrate dual activity against both MRSA and ovarian cancer\u2020",
+        "start_index": 0,
+        "end_index": 127
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Precious I. A. Popoola, Thomas L. Allam, Rebecca J. Lilley, Chandni Manwani, Olivia B. Keers, Junyang Tan, Kylie Yang, Yifan Long, Lisa J. White, Kira L. F. Hilton, Jennifer Rankin, Jennifer Baker, Charlotte Bennett, Hollie B. Wilson, Evelyn R. Morton, Alvaro Keskk\u00fcla, J. Mark Sutton, Charlotte K. Hind, Michelle D",
+        "start_index": 127,
+        "end_index": 442
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Garrett, Cally J. E. Haynes and Jennifer R. Hiscock",
+        "start_index": 442,
+        "end_index": 495
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "\u2020 Electronic Supplementary Information (ESI) available: This includes experimental details and computational modelling, DLS, zeta potential, tensiometry, mass spectrometry, NMR spectroscopy, circular dichroism, crystallography, molecular characterisation, patch clamp, vesicle ion transport and biological data. CCDC 1997675, 2022536, 2023004, 2033371 and 2106928.",
+        "start_index": 495,
+        "end_index": 859
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Abstract: Differences in the lipid composition of prokaryotic and eukaryotic cell membranes are well understood and can be exploited to produce novel antimicrobials. However, what is less well recognised is that alteration in the phospholipid composition of the cell membrane is also one of the first phenotypic changes when a cell becomes cancerous. In addition, changes in phospholipid cell membrane composition are a known cause of drug resistance in both microbial disease and cancer",
+        "start_index": 859,
+        "end_index": 1346
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here we present a series of chiral, amino acid appended supramolecular self-associating amphiphiles that suggest membrane active technologies can be used to simultaneously produce novel drugs in the fight against two of the greatest global health threats facing us today, antimicrobial resistant infections and cancer diseases. We demonstrate the antimicrobial and anticancer efficacy of this membrane active amphiphile technology against susceptible and resistant Staphylococcus aureus and ovarian cancer cells",
+        "start_index": 1346,
+        "end_index": 1859
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We hypothesise a mode of action, building on a previous body of evidence, through a combination of vesicle, NMR spectroscopy and patch clamp experiments. We also provide evidence that supports the potential for this class of compound to be developed as pharmaceutical agents against these diseases through in vitro drug metabolism and pharmacokinetics experiments alongside in vivo Galleria mellonella toxicity experiments.",
+        "start_index": 1859,
+        "end_index": 2284
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Introduction",
+        "start_index": 2284,
+        "end_index": 2296
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "The rise of antimicrobial resistant (AMR) bacterial infections and cancer are two of the greatest health threats facing humanity today. A report generated in 2014 attributed 8.8 million deaths to cancer in that year alone, while simultaneously predicting that by the year 2050, ten million people per year will die from the primary effects of AMR.\u00b9 The present impact of AMR was confirmed by a recent study, which reported 4.95 million and 1",
+        "start_index": 2296,
+        "end_index": 2737
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".27 million deaths from the indirect and direct effects of AMR respectively during 2019.\u00b2 This means that over this time period, AMR was directly responsible for the same number, if not more deaths than those directly attributed to either HIV/AIDs or malaria.\u00b2 This rise in AMR has traditionally been attributed to the misuse of antimicrobial agents, including antibiotics, across multiple sectors",
+        "start_index": 2737,
+        "end_index": 3134
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\u00b3\u2013\u2076 In addition, although we do not yet truly understand the impacts of the COVID-19 pandemic on increased rate of AMR infections, there was a high level of AMR bacterial co-infections confirmed within patients suffering from COVID-19 over the first 18 months of the pandemic.\u2077",
+        "start_index": 3134,
+        "end_index": 3412
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Given the serious health threat that antimicrobial resistance (AMR) poses now and in the future, there has been a focused effort to develop new antimicrobial agents.\u2078 This has led to the approval of 12 new antibiotics for use within the clinic (2017-2021), with a further 45 in the clinical development pipeline, 27 of which target WHO priority pathogens.\u2079 However, this level of innovation still does not fulfil current or future global need",
+        "start_index": 3412,
+        "end_index": 3854
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\u2078,\u2079",
+        "start_index": 3854,
+        "end_index": 3858
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "In 2020, there were an estimated 19.3 million new cancer cases identified and almost 10 million cancer-related deaths worldwide.\u00b9\u2070 There is no doubt that the burden of cancer is growing globally,\u00b9\u2070 due to the aging population, types of risk factors,\u00b9\u00b9\u2013\u00b9\u00b3 and rise of resistance to commonly marketed therapeutic agents.\u00b9\u2074 In 2020, 313,959 new ovarian cancer cases were reported globally",
+        "start_index": 3858,
+        "end_index": 4243
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". The number of ovarian cancer-related deaths in this same year was 207,252 (2.1 % of all cancer deaths).\u00b9\u2070 The high mortality figures for ovarian cancer are in part due to the fact that approximately 70 % of all diagnoses occur at an advanced stage of the disease, reducing patient survival rates",
+        "start_index": 4243,
+        "end_index": 4540
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\u00b9\u2075 The high mortality figures are also due to the common use of platinum and taxane-based chemotherapeutic agents, which often lead to complications and resistance, causing 70 % of patients to develop disease recurrence with resistance to these therapeutic agents.\u00b9\u2076\u2013\u00b9\u2078",
+        "start_index": 4540,
+        "end_index": 4810
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Due to the expense associated with developing novel drugs, there is much interest in repurposing currently approved therapies to treat different diseases. Interestingly, a number of antimicrobial agents are reported to have off target activity for the treatment of cancer e.g. tetracyclines and fluoroquinolones",
+        "start_index": 4810,
+        "end_index": 5121
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\u00b9\u2079 However, as well as providing a novel route for the low cost identification of novel cancer agents, the identification of agents with both antimicrobial and anticancer activity may have other advantages for the treatment of cancer patients.\u00b2\u2070 Microbial infection is a significant cause of morbidity and mortality in cancer patients, due to general",
+        "start_index": 5121,
+        "end_index": 5472
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "immunosuppression including febrile neutropenia, caused by the effect of the cancer on the human body and/or induced by cancer drug treatment, tumour obstruction or surgery. Of the chemotherapy regimens used to treat ovarian cancer, topotecan, docetaxel and paclitaxel all place a patient at significant risk of febrile neutropenia",
+        "start_index": 5472,
+        "end_index": 5803
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Therefore, the gold standard treatment here should be one that treats the cancer, treats infectious disease and can overcome resistance in both diseases simultaneously.",
+        "start_index": 5803,
+        "end_index": 5973
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "The field of supramolecular chemistry, although young in comparison to the field of medicinal chemistry, is making a considerable effort to exploit our understanding of molecular interactions in the production of next-generation approaches to the design of anticancer and antimicrobial technologies. Supramolecular self-associating amphiphiles (SSAs) are a class of amphiphilic salts (Figure 1) and structurally related compounds that are capable of undergoing intermolecular hydrogen bonding events",
+        "start_index": 5973,
+        "end_index": 6472
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". These events not only influence SSA self-associative properties and any resultant material formation (hydrogels or spherical aggregate), but also the interaction of this class of compounds with other molecular species, such as cell surfaces, in particular phospholipid membranes",
+        "start_index": 6472,
+        "end_index": 6752
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We have previously shown SSAs to demonstrate activity as both antimicrobial agents against Gram-positive methicillin resistant Staphylococcus aureus (MRSA) USA300 and Gram-negative Escherichia coli, as well as against A2780 ovarian cancer cells",
+        "start_index": 6752,
+        "end_index": 6998
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". In addition, we have shown that members from this family of compounds have a druggable profile when administered intravenously to mice, although Caco-2 permeability studies have suggested to date that SSAs may only be developed as therapeutic agents to be administered intravenously.",
+        "start_index": 6998,
+        "end_index": 7283
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "![Figure 1](https://doi.org/10.26434/chemrxiv-2025-bjgl9)\n\n**Figure 1** Structures of five amino acid incorporated SSAs (1, 3, 5, 7 and 9) and precursors (2, 4, 6 and 8). Each SSA was prepared as the tetrabutylammonium (TBA) salt.",
+        "start_index": 7283,
+        "end_index": 7513
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Data from previous studies has led us to hypothesise SSAs arrive at the target cell surface as self-associated species, either hydrogel fibres, or more commonly, spherical self-associated aggregates, hydrodynamic diameter ($d_H$) $\\approx$ 100-550 nm. These spherical structures then morph into a coating that covers the...",
+        "start_index": 7513,
+        "end_index": 7836
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "surface of the target cells, permeating through the cell membrane, with selectivity provided, at least in part, through preferential interactions with polar phospholipid headgroups present on the extracellular leaflet of the cell membrane. It is principally these phospholipid selective interactions, followed by critical membrane permeation and/or disruption events, due to increases in SSA concentration at the cell surface, that we believe results in the biological activity observed",
+        "start_index": 7836,
+        "end_index": 8322
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Finally, we have also shown that SSAs can act as Na\\(^+\\)/K\\(^+\\) transporters across synthetic phospholipid membranes when working cooperatively with a known anionophore. This leads us to explore the possibility that SSAs may also mediate cell death through ion transport, as well as membrane disruption events, depending on the concentration of SSA present at the cell surface.",
+        "start_index": 8322,
+        "end_index": 8703
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Herein, we present a series of four novel amino acid appended SSAs (Figure 1 \u2013 3, 5, 7, and 9) designed to selectively increase the activity of this class of compound against drug susceptible and resistant *S. aureus* and ovarian cancer cells",
+        "start_index": 8703,
+        "end_index": 8945
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". The design of these next generation SSAs: (i) builds on current structure activity relationship analysis, which suggests that the presence of a carboxylate functionality within the structure of the SSA anion increases the strength of preferential intermolecular interactions; (ii) explores the effects of chirality on SSA (host) biological activity, as phospholipid headgroups can act as chiral guest species, during initial biological membrane interaction events; (iii) use the presence of a",
+        "start_index": 8945,
+        "end_index": 9439
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "hydrophobic amino acid R-group to increase the stability of any SSA transmembrane structures within the hydrophobic portions of the phospholipid bilayer through shielding of the SSA anion hydrophilic moieties (3, 5, 7, 9), and/or introducing \u03c0-\u03c0 stacking interactions (7 and 9)",
+        "start_index": 9439,
+        "end_index": 9716
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".",
+        "start_index": 9716,
+        "end_index": 9717
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Results and Discussion**",
+        "start_index": 9717,
+        "end_index": 9743
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Synthesis:** SSA 1, which acts as a structural control, was synthesised through previously published methods. Compounds 2, 4, 6 and 8 were synthesised through the reaction of the appropriate tert-butyl protected amino acid with 1-isocyanato-4-(trifluoromethyl) benzene in pyridine, producing white solids in yields of 53 %, 75 %, 61 %, and 62 % respectively",
+        "start_index": 9743,
+        "end_index": 10102
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". SSAs 3, 5, 7 and 9 were synthesised through the deprotection of 2, 4, 6 and 8 using zinc bromide in DCM, followed by the addition of tetrabutylammonium (TBA) hydroxide in methanol",
+        "start_index": 10102,
+        "end_index": 10283
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". SSAs 3, 5, 7 and 9 were isolated as light brown solids in yields of 62 %, 68 %, 54 %, and 54 % respectively.",
+        "start_index": 10283,
+        "end_index": 10393
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Physicochemical and self-associative properties:** The physicochemical characterisation of SSA systems requires the use of multiple complimentary techniques. The self-associative properties of the SSAs, alongside their tert-butyl protected precursors (Figure 1) were first explored in the solid state, using single crystal X-ray diffraction techniques",
+        "start_index": 10393,
+        "end_index": 10746
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here, structures obtained from the slow evaporation of solutions containing SSA precursors 2, 4, 6 and 8 demonstrate intermolecular hydrogen bond formation between the urea NH hydrogen bond donor",
+        "start_index": 10746,
+        "end_index": 10943
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "groups to either the urea or ester C=O functionality, as shown in Figure 2a. However, although homogeneous single crystals of 3, 5, 7 and 9 were not obtained, a single crystal of 3 and 5, supplied as a 1:1 enantiomeric mixture was generated",
+        "start_index": 10943,
+        "end_index": 11183
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". The structure elucidated (Figure 2b) shows the alternate incorporation of the SSA anion enantiomers into a urea-anion hydrogen bonded tape.",
+        "start_index": 11183,
+        "end_index": 11324
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "![Figure 2](image)\n\n**Figure 2** Single crystal X-ray structure of (a) 2 and (b) the 1:1 enantiomeric mixture of 3 and 5. The TBA counter cations have been omitted for clarity. Grey = carbon, blue = nitrogen, red = oxygen green = fluorine, white = hydrogen, red dashed lines = hydrogen bonds.",
+        "start_index": 11324,
+        "end_index": 11616
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Moving into solution, the self-associative properties of this sub-class of amino acid appended SSAs were first explored in DMSO-$d_6$ (Table 1), as within this polar organic solvent, SSAs have been shown to produce hydrogen bonded anionic dimers",
+        "start_index": 11616,
+        "end_index": 11861
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This enables the quantification of parameters such as SSA anion dimerization constant to be established, which we have shown to correlate with critical aggregation concentration (CAC) values obtained from aqueous solutions of that same SSA.\\textsuperscript{30} Here, an increase in SSA anionic dimerization constant was shown to correlate with a decreasing CAC, when weighted by a calculated LogP value, obtained for the SSA anion hydrophilic moiety.",
+        "start_index": 11861,
+        "end_index": 12313
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Initially, quantitative (Q) $^1$H NMR spectroscopy experiments were undertaken in DMSO-$d_6$ 1% DCM, in which the DCM was used as an internal standard to identify",
+        "start_index": 12313,
+        "end_index": 12475
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "the presence of either low or high order SSA self-associated aggregates. Here, low-order SSA self-associated aggregates are defined as those directly observable using traditional solution state \\(^1\\)H NMR spectroscopy (such as the formation of hydrogen bonded anionic dimers), whereas high-order SSA self-associated aggregates are defined as the exact opposite",
+        "start_index": 12475,
+        "end_index": 12836
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". To determine the presence of low or high-order SSA aggregates, signals corresponding to the anionic or cationic component of the SSA are integrated against those of the internal DCM standard. An apparent \u2018loss\u2019 of signal indicates the presence of larger, NMR silent aggregates, which exhibit solid-like properties and are therefore no longer visible using this experimental technique",
+        "start_index": 12836,
+        "end_index": 13221
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". As summarised in Table 1, at concentrations \u2264 112 mM, SSAs 3, 5, 7 and 9 form low order self-associated aggregates in polar organic DMSO-\\(d_6\\) solutions only. This is supported by the results of complimentary \\(^1\\)H NMR DOSY experiments, here the \\(d_H\\) of the SSA anion, was calculated between 0.9-1.7 nm",
+        "start_index": 13221,
+        "end_index": 13532
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". However, 1:1 enantiomeric mixtures of 3 + 5 and 7 + 9 also confirm the presence of higher order aggregates, providing evidence to support the hypothesis that the interaction of SSA anion enantiomers influences molecular self-association events in DMSO-\\(d_6\\) 1 % DCM",
+        "start_index": 13532,
+        "end_index": 13801
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We hypothesise that this is driven by the preferential heterogeneous hydrogen bonded complex formation between the SSA anionic components, such as those shown in Figure 2b. Here, the difference in amino acid side chain was also found to influence the relative proportion of the SSA to become incorporated into these higher order SSA aggregates",
+        "start_index": 13801,
+        "end_index": 14146
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". As the hydrogen bond mediated dimerization constant (\\(K_{\\text{dim}}\\), Table 1) calculated for the SSA anion from homogenous DMSO-\\(d_6\\) 0",
+        "start_index": 14146,
+        "end_index": 14289
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".5 % H\\(_2\\)O solutions of 3, 5, 7 and 9 was found to be lower for 7 and 9 when compared to 3 and 5, we can discount the strength of hydrogen bonding from influencing the increase in the proportion of SSA to become incorporated into these higher order structures at this concentration",
+        "start_index": 14289,
+        "end_index": 14573
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Instead, we hypothesise that this increase in SSA to become incorporated into higher order aggregates is due to a combination of favourable \u03c0-\u03c0 stacking interactions and decreased steric hinderance, afforded by the change in amino acid R-group.",
+        "start_index": 14573,
+        "end_index": 14819
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Table 1  Physicochemical data produced to characterise SSA self-association events in a DMSO-d$_6$ 1 % DCM (Q $^1$H NMR spectroscopy) or DMSO-d$_6$ 0.5 % H$_2$O ($^1$H NMR DOSY or dilution study) solution",
+        "start_index": 14819,
+        "end_index": 15023
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Where the SSAs are supplied as an enantiomeric mixture, they are present in a 1:1 ratio. Concentrations reported represent total molecular concentration of SSA present. All Q $^1$H NMR spectroscopy experiments were conducted with a delay time (d$_1$) of 60 s at 298 K and a concentration of 112 mM, and DCM was used as the internal standard",
+        "start_index": 15023,
+        "end_index": 15365
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". The values given in % represent the observed proportion of compound to become $^1$H NMR spectroscopy silent. The d$_H$ of the SSA species present in DMSO-d$_6$ 0.5 % H$_2$O were obtained through $^1$H NMR DOSY at a total molecular concentration of 112 mM (298 K)",
+        "start_index": 15365,
+        "end_index": 15629
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". K$_{dim}$ values are calculated via $^1$H NMR spectroscopy dilution study, followed by subsequent fitting of these data to the equal K/dimerization self-associative binding isotherm model using Bindfit v0.5",
+        "start_index": 15629,
+        "end_index": 15837
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Electrostatic surface potential energy maximum ($E_{\\text{max}}$) and minimum ($E_{\\text{min}}$) values were calculated using Spartan '20, while consensus LogP values were calculated using the Swiss ADME platform.",
+        "start_index": 15837,
+        "end_index": 16052
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| SSA | SSA NMR (%) | d$_H$ (nm) | PDI | Zeta potential (mV) | CAC (mM) | Surface tension (mN m$^{-1}$) |\n|-----|-------------|------------|-----|---------------------|---------|-----------------------------|\n|     | SSA anion   | SSA cation | a   | a                   | a       | a                          |",
+        "start_index": 16052,
+        "end_index": 16362
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 1   | 68$^{30}$   | a$^{30}$   | 220$^{30}$ | a$^{30}$ | a$^{30}$ | -37$^{30}$ | 11.2$^{30}$ | 39.33$^{30}$ |",
+        "start_index": 16362,
+        "end_index": 16473
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 3   | 50          | 44         | 266  | 19                  | 0.038   | 0.0028 | -55 (\u00b1 3.64) | b | 40.92$^c$ |",
+        "start_index": 16473,
+        "end_index": 16586
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 5   | 52          | 48         | 174  | 13                  | 0.033   | 0.0042 | -58 (\u00b1 1.50) | b | 40.92$^c$ |",
+        "start_index": 16586,
+        "end_index": 16699
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 7   | 51          | 48         | 167  | 19                  | 0.029   | 0.0150 | -58 (\u00b1 1.64) | b | 39.83$^c$ |",
+        "start_index": 16699,
+        "end_index": 16812
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 9   | 58          | 53         | 181  | 53                  | 0.026   | 0.0120 | -66 (\u00b1 0.78) | b | 39.64$^c$ |",
+        "start_index": 16812,
+        "end_index": 16925
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 3+5 | 31          | 33         | 238  | 3                   | 0.047   | 0.0034 | -57 (\u00b1 0.65) | b | 38.67$^c$ |",
+        "start_index": 16925,
+        "end_index": 17038
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 7+9 | 56          | 51         | 146  | 14                  | 0.019   | 0.0025 | -65 (\u00b1 0.31) | b | 39.25$^c$ |",
+        "start_index": 17038,
+        "end_index": 17151
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "a \u2013 Not calculated due to SSA heterogeneity.",
+        "start_index": 17151,
+        "end_index": 17195
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Further comparative analysis of these K$_{dim}$ values showed the K$_{dim}$ calculated for 7 and 9 to be comparative in magnitude to the K$_{dim}$ calculated for 1. We reason that this similarity in K$_{dim}$ to be due to the effect that the R-group substitution has on hydrogen bond donor/acceptor spatial positioning and the comparative basicity and acidity of the carboxylate and urea functionalities respectively",
+        "start_index": 17195,
+        "end_index": 17611
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". It has been shown that electrostatic surface potential values, calculated by low level computational modelling programs such as Spartan, using semi-empirical PM6 molecular modelling methods, can be used to estimate the hydrogen donor/acceptor activity, and thus estimate hydrogen bonding strength",
+        "start_index": 17611,
+        "end_index": 17909
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". For the SSA anionic component of 1, 3, 5, 7 and 9, $E_{\\text{max}}$ and $E_{\\text{min}}$ values obtained from electrostatic potential maps were found to correlate with the urea NH and carboxylate residues respectively (Table 1, ESI Section S24, Table S20\u2020)",
+        "start_index": 17909,
+        "end_index": 18167
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Comparison of these data reveal $E_{\\text{max}}$ values to remain comparable across the series of SSAs tested. When comparing the $E_{\\text{min}}$ values, 1, 3 and 5 were found to exhibit values similar to each other and lower in magnitude than that of 7 and 9",
+        "start_index": 18167,
+        "end_index": 18429
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This difference in $E_{\\text{min}}$ indicates the basicity of these carboxylate groups to be enhanced in the former compared to the latter, which corresponds to the increased strength of K$_{dim}$ observed for 3 and 5 over 7 and 9.",
+        "start_index": 18429,
+        "end_index": 18662
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "However, this does not explain the difference in $K_{\\text{dim}}$ observed between 1 and 3 or 5. We believe that this difference is due to the increased steric bulk of 3 and 5 in comparison to 1, which may pre-organise the SSA anion of 3 and 5 towards dimer formation, resulting in increased $K_{\\text{dim}}$ values.",
+        "start_index": 18662,
+        "end_index": 18978
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Moving from a polar organic DMSO solution to an aqueous environment, the presence of lower and higher order self-associated SSA aggregates was confirmed using quantitative $^1$H NMR spectroscopy in a D$_2$O/5% EtOH solution, at a total SSA concentration of 5.56 mM, as shown in Table 2",
+        "start_index": 18978,
+        "end_index": 19263
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here EtOH was used as the internal standard, and confirmed the presence of higher order aggregates, demonstrating solid like properties for homogenous solutions of 1, 3, 5, 7 and 9. As expected, the proportion of the SSA incorporated into higher order aggregates remained comparable for homogenous solutions of both enantiomers, with no significant difference in the proportion of SSA to be incorporated into the higher order aggregates of 3, 5, 7 and 9",
+        "start_index": 19263,
+        "end_index": 19718
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". However, when supplied as a 1:1 enantiomeric mixture, although the trend in increased incorporation of 7 + 9 over 3 + 5 into the higher order aggregate structure was retained from previous observations in polar organic solvents, the proportion of SSA incorporated into these higher order structures was approximately 20 % lower for the 1:1 enantiomeric mixture of 3 + 5 over the homogenous solution of those same SSAs",
+        "start_index": 19718,
+        "end_index": 20137
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This supports the hypothesis that, as observed within a DMSO-d$_6$ 1% DCM solution (Table 1), the combination of SSA enantiomers influences SSA self-association events, causing the amino acid R-group to play a greater role in influencing higher order SSA aggregation events.",
+        "start_index": 20137,
+        "end_index": 20413
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Table 2 Physicochemical data produced to characterise SSA self-association events in a H$_2$O 5% EtOH or D$_2$O 5 % EtOH (1H NMR spectroscopy only) solution. Where the SSAs are supplied as an enantiomeric mixture, they are present in a 1:1 ratio",
+        "start_index": 20413,
+        "end_index": 20658
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Aggregate stability and $d_H$ were obtained via zeta potential and DLS measurements respectively, at a concentration of 5.56 mM and a temperature of 298 K, following an annealing process. The $d_H$ of the aggregates listed were obtained from intensity distribution peak maxima. CAC was derived at approximately 291 K from surface tension measurements",
+        "start_index": 20658,
+        "end_index": 21010
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". All $^1$H NMR spectroscopy experiments were conducted with a delay time ($d_1$) of 60 s at 298 K and a concentration of 5.56 mM, EtOH was used as the internal standard. The values given in % represent the observed proportion of compound to become $^1$H NMR spectroscopy silent.",
+        "start_index": 21010,
+        "end_index": 21289
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| SSA | Q NMR (%) | $d_H$ (nm) | Error | PDI | Error | Zeta potential (mV) | CAC (mM) | Surface tension (mN m$^{-1}$) |\n|-----|-----------|------------|-------|-----|-------|---------------------|---------|-------------------------------|",
+        "start_index": 21289,
+        "end_index": 21527
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 1   | 68$^{30}$ | a$^{30}$   | 220$^{30}$ | a$^{30}$ | a$^{30}$ | -37$^{30}$ | 11.2$^{30}$ | 39.33$^{30}$ |",
+        "start_index": 21527,
+        "end_index": 21636
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 3   | 50        | 44         | 266    | 19  | 0.038 | 0.0028  | -55 (\u00b1 3.64) | b     | 40.92$^{c}$ |",
+        "start_index": 21636,
+        "end_index": 21738
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 5   | 52        | 48         | 174    | 13  | 0.033 | 0.0042  | -58 (\u00b1 1.50) | b     | 40.92$^{c}$ |",
+        "start_index": 21738,
+        "end_index": 21840
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 7   | 51        | 48         | 167    | 19  | 0.029 | 0.0150  | -58 (\u00b1 1.64) | b     | 39.83$^{c}$ |",
+        "start_index": 21840,
+        "end_index": 21942
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 9   | 58        | 53         | 181    | 53  | 0.026 | 0.0120  | -66 (\u00b1 0.78) | b     | 39.64$^{c}$ |",
+        "start_index": 21942,
+        "end_index": 22044
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 3+5 | 31        | 33         | 238    | 3   | 0.047 | 0.0034  | -57 (\u00b1 0.65) | b     | 38.67$^{c}$ |",
+        "start_index": 22044,
+        "end_index": 22146
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "| 7+9 | 56        | 51         | 146    | 14  | 0.019 | 0.0025  | -65 (\u00b1 0.31) | b     | 39.25$^{c}$ |",
+        "start_index": 22146,
+        "end_index": 22248
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "a \u2013 Data not available. b \u2013 Solubility prevented data acquisition. c \u2013 Data collected at limit of SSA solubility = 5.56 mM.",
+        "start_index": 22248,
+        "end_index": 22371
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "The size and stability of those self-associated structures present were confirmed through a combination of dynamic light scattering (DLS) and zeta potential measurements respectively (Table 2). The $d_H$ of the higher order species present at 5.56 mM, calculated from intensity distributions, were found to exhibit similar properties to those SSA self-associated species previously published",
+        "start_index": 22371,
+        "end_index": 22762
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".$^{30,34}$ The aggregated species produced from 3, 5, 7, 9 and their 1:1 enantiomeric mixtures under these experimental conditions exhibited zeta potential values between -66 to -55 mV, confirming the stability of the self-associated species present to be greater than those of 1 at the same molecular concentration",
+        "start_index": 22762,
+        "end_index": 23078
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Therefore, the presence of the alkyl/aromatic R-groups within the amino acid appended SSA are confirmed to increase higher order self-associated aggregate stability.",
+        "start_index": 23078,
+        "end_index": 23245
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Here, the CAC is defined as the concentration at which any additional SSA added to a solution will result in the production of high-order self-associated species, such as the spherical aggregates previously described. However, it does not mean that these larger self-associated aggregates do not exist in solution below the CAC, these species will instead exist in equilibria with those species present at the solution interface",
+        "start_index": 23245,
+        "end_index": 23673
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".$^{46}$ To define CAC, we used the pendant drop method to elucidate the surface tension of H$_2$O 5% EtOH solutions of 1, 3, 5, 7, 9 and 1:1 SSA enantiomeric...",
+        "start_index": 23673,
+        "end_index": 23834
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "mixtures at 291 K (Table 2). Although the $^1$H NMR spectroscopy, DLS and zeta potential measurements confirmed the presence of higher order aggregated species at 5.56 mM, and a decrease in surface tension with respect to increasing SSA concentration confirmed surfactant properties in all cases, a CAC could not be determined for solutions of 3, 5, 7 or 9 due to compound solubility.",
+        "start_index": 23834,
+        "end_index": 24218
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Biological activity:** SSAs have been previously reported to exhibit weak antimicrobial properties against both Gram-positive clinically relevant *S. aureus* \u2013 MRSA USA300 and Gram-negative *E. coli* DH10B bacteria. As previously discussed, next generation SSAs 3, 5, 7 and 9 have been specifically designed to increase the activity of SSAs against both drug susceptible and resistant *S. aureus* and ovarian cancer cells",
+        "start_index": 24218,
+        "end_index": 24641
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Figure 3 reports the MIC values obtained for previously reported 1 and novel SSAs 3, 5, 7 and 9, provided as single agents or 1:1 enantiomeric mixture against four different strains of *S. aureus*",
+        "start_index": 24641,
+        "end_index": 24839
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". These strains include: (i) USA300, a common clinically relevant, methicillin resistant strain; (ii) ATCC 9144, a fully genome sequenced, \u03b2-lactamase negative and penicillin susceptible strain; (iii) NCTC 13616, a clinically relevant methicillin resistant strain; (iv) 1199B, which over expresses the NorA efflux pump that has a wide range of substrates including fluoroquinolone",
+        "start_index": 24839,
+        "end_index": 25219
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "antibiotics, antiseptics, and quaternary ammonium compounds, causing this strain to be classed as multidrug resistant",
+        "start_index": 25219,
+        "end_index": 25336
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".",
+        "start_index": 25336,
+        "end_index": 25337
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "![Figure 3](https://example.com/figure3.png)",
+        "start_index": 25337,
+        "end_index": 25381
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "*Figure 3 MIC values determined for 1, 3, 5, 7 and 9, and 1:1 enantiomeric mixtures of 3 + 5 and 7 + 9 against four different *S. aureus* strains: red = ATCC 9144; orange = NCTC 13616; yellow = USA300; grey = 1199B",
+        "start_index": 25381,
+        "end_index": 25595
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Where a range of MIC values were identified (9 against 1199B), data reports the greatest possible MIC value. Where SSAs are supplied as mixtures, the concentrations reported represent the total molecular concentration. The values calculated represent absolute values, obtained from two biological repeat experiments, each containing three technical repeats, after 900 mins. Please see ESI Section S18 for MIC data, specifically summary Table S15.\u2020*",
+        "start_index": 25595,
+        "end_index": 26045
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Previous to this study, the lowest MIC$_{50}$ (the minimum amount of a compound required to inhibit bacterial growth by 50 %) reported for an SSA against MRSA USA300 was 0.25 mM. Here, 7, 9 and the 1:1 enantiomeric mixture of 7 and 9 exhibited an MIC (a complete absence of any detectable bacterial growth) of 87 \u00b5M,",
+        "start_index": 26045,
+        "end_index": 26361
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "against this same strain of *S. aureus*, making these phenylalanine incorporated SSAs by far the most active SSA antimicrobial agents reported against MRSA USA300 to date",
+        "start_index": 26361,
+        "end_index": 26531
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". When compared to 1 (the glycine appended SSA where R = H), the substitution of this R-group for either an isobutane (3 and 5, leucine) or a benzyl (7 and 9, phenylalanine) derivative resulted in an overall enhancement of antimicrobial activity",
+        "start_index": 26531,
+        "end_index": 26776
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This activity is hypothesised to be due to the additional hydrophobicity and/or \u03c0\u2013\u03c0 stacking interactions provided by these functionalities, increasing the membrane permeability properties of these agents, alongside alteration in the strength of molecular self-association interactions (3 and 5, Table 1), in particular the formation of hydrogen bonded SSA anion complexes as previously described",
+        "start_index": 26776,
+        "end_index": 27174
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".30,33 Interestingly, the presence of unnatural D-amino acids within the SSA structure (3 and 7), led to an enhanced activity against the methicillin susceptible ATCC 9144 strain, over their L-substituted counterparts (5 and 9). MIC values determined for the different SSA enantiomers support the hypothesis that these SSAs are interacting with a chiral target (e.g. specific phospholipid headgroups)",
+        "start_index": 27174,
+        "end_index": 27574
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". An enhancement in activity where there is a 1:1 ratio of enantiomers present suggests that an alteration in SSA self-associative complex and/or high-order aggregate formation (see Figure 2 and Tables 1 and 2) also contributes to enhanced antimicrobial activity, e.g. through stabilisation of cell membrane permeation events",
+        "start_index": 27574,
+        "end_index": 27899
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This is exemplified when comparing the antimicrobial activity of the 1:1 enantiomeric mixture of 3 and 5 against USA300 (MIC = 174 \u00b5M), to that of either 3 or 5 alone (MIC = 10 mM)",
+        "start_index": 27899,
+        "end_index": 28081
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Finally, the antimicrobial activity of 3, 7 and 9 against 1199B, provides supporting evidence towards the hypothesis that the SSA anion is integral to the activity of these SSAs, as this strain of *S. aureus* overexpresses the NorA efflux pump, which specifically targets quaternary ammonium species, such as TBA, the SSA counter cation",
+        "start_index": 28081,
+        "end_index": 28419
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This hypothesis is further supported through the change in antimicrobial efficacy of 1, 3, 5, 7 and 9, which is a direct result of the modification in structure of the SSA anionic component.",
+        "start_index": 28419,
+        "end_index": 28611
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "We then moved to establish the efficacy for this series of SSAs and their 1:1 enantiomeric mixtures towards cisplatin sensitive and resistant ovarian cancer cells. We have previously determined the GI_{50} (the concentration of a compound needed to inhibit 50 % of cellular growth) values for a series of sulfonate appended SSAs against cisplatin sensitive A2780 ovarian cancer cells",
+        "start_index": 28611,
+        "end_index": 28994
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".36 Here GI_{50} values between 45 \u00b1 19 \u00b5M and 451 \u00b1 38 \u00b5M were reported",
+        "start_index": 28994,
+        "end_index": 29066
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". As summarised in Figure 4, the GI_{50} values recorded for this series of carboxylate SSAs range from 87 \u00b1 1 \u00b5M (7 and 9) to 231 \u00b1 9 \u00b5M (5), showing the carboxylate based SSAs to report similar activities against this cancer cell line as the sulfonate SSAs",
+        "start_index": 29066,
+        "end_index": 29324
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here 9, and the 1:1 enantiomeric mixture of 7 and 9, demonstrated the greatest activity against A2780 ovarian cancer cells. This indicates anticancer activity to be influenced by the amino acid R-group present, chirality and SSA self-associative complexation processes, as previously observed when establishing the antimicrobial activity of these same agents",
+        "start_index": 29324,
+        "end_index": 29684
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". These observations are retained when investigating the activity of these same SSAs against the cisplatin resistant A2780 CisR cell line. Therefore, 9 shows the greatest",
+        "start_index": 29684,
+        "end_index": 29854
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "anticancer activity against both cisplatin susceptible and resistant cancer cell lines, with an increased efficacy demonstrated when supplying 7 and 9 as a 1:1 enantiomeric mixture, as the 1:1 enantiomeric mixture of 7 and 9 was found to disproportionately increase activity of 9 against these cancer cells, as the effective concentration of 9 present is decreased by 50%",
+        "start_index": 29854,
+        "end_index": 30225
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This suggests, as observed when supplying chiral SSAs as antimicrobial agents, that this increase in efficacy could be due to alteration in, or stabilisation of SSA self-association events and/or resultant aggregate structure influencing molecular membrane permeation events.",
+        "start_index": 30225,
+        "end_index": 30502
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Figure 4 GI$_{50}$ values determined for 1, 3, 5, 7 and 9, and 1:1 mixtures of 3 + 5 and 7 + 9 against: epithelial cells (RPE-1 \u2013 red); ovarian cancer cells (A2780 \u2013 orange) and; cisplatin resistant ovarian cancer cells (A2780 CisR - yellow)",
+        "start_index": 30502,
+        "end_index": 30743
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Where SSAs are supplied as mixtures, the concentrations reported represent the total molecular concentration. Values obtained from SRB Assays, incorporating data from three biological repeat experiments, each containing three technical repeats, after 96 hours. Please see ESI Sections S3 and S19\u2020 for further experimental and processed raw data. * Indicates no impact of cell growth at the concentration reported.",
+        "start_index": 30743,
+        "end_index": 31158
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "To gauge the selectivity of SSAs for ovarian cancer cells over normal human cells, the GI$_{50}$ values for 1, 3, 5, 7, 9 and 1:1 enantiomeric mixture of 3 + 5 and 7 + 9 were also determined against the RPE-1 human epithelial cell line (Figure 4, Section S19\u2020)",
+        "start_index": 31158,
+        "end_index": 31418
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". There was no negative impact on cell growth at 350 \u00b5M for any SSA/SSA mixtures tested apart from 1. This shows the incorporation of the benzyl and isopropyl functionalities within chiral SSAs 3, 5, 7 and 9 to increase selectivity against cancerous over non-cancerous cell lines",
+        "start_index": 31418,
+        "end_index": 31697
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Of these chiral SSAs, 9 and the 1:1 enantiomeric mixture of 7 and 9, containing an additional benzyl functionality, demonstrated the greatest degree of selectivity for the cancer cells over the RPE-1 cells, while the presence of the amino acid glycine within the SSA structure removed selectivity for the cancer cells over the RPE cells.",
+        "start_index": 31697,
+        "end_index": 32036
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Mechanism of action: We have previously confirmed SSAs to selectively interact, permeate and/or lyse phospholipid membranes of differing compositions, depending on the chemical composition of the anionic component of this amphiphilic salt. 37\u201339 We have also shown an SSA to act as a potassium or sodium phospholipid",
+        "start_index": 32036,
+        "end_index": 32352
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "membrane transport agent when working cooperatively with a known anionophore.\\textsuperscript{40} These findings are further supported by a series of fluorescent live cell microscopy studies, in which intrinsically fluorescent SSAs can be observed forming spherical aggregates, which then interact with a target cell surface, morphing into a coating, and then permeating into the cell, enabling the entry of other molecules previously unable to gain cellular entry",
+        "start_index": 32352,
+        "end_index": 32816
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\\textsuperscript{31,34\u201336}",
+        "start_index": 32816,
+        "end_index": 32843
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "To confirm selectivity of the SSA anionic component for the phosphate species contained within the phospholipid headgroups over other biologically relevant anionic species, a series of \\(^1\\)H NMR spectroscopy titrations were performed in DMSO-\\(d_6\\) 0.5 % H\\(_2\\)O",
+        "start_index": 32843,
+        "end_index": 33109
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here H\\(_2\\)PO\\(_4^-\\) was used to represent the phosphate present in the phospholipid headgroup, while Cl\\(^-\\) was incorporated into these studies as a common biologically relevant anion. However, these data should be treated with caution, due to the strength of the SSA anion self-association events present, see Table 1",
+        "start_index": 33109,
+        "end_index": 33434
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". In those instances where evidence of a hydrogen bonded SSA host:guest complex could be observed, the data was fitted to a 1:1 binding isotherm model using Bindfit v0.5 (Section S16\\textsuperscript{\u2020})",
+        "start_index": 33434,
+        "end_index": 33636
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\\textsuperscript{42} Here, we obtained limited data supporting the formation of a 1:1 host:guest complex, with an enhanced strength of interaction noted for H\\(_2\\)PO\\(_4^-\\) over Cl\\(^-\\) (e.g",
+        "start_index": 33636,
+        "end_index": 33830
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". TBACL:7 \\(K_{\\text{ass}} = 0 \\text{ M}^{-1}\\); TBAH\\(_2\\)PO\\(_4\\):7 \\(K_{\\text{ass}} = 30 \\text{ M}^{-1} \\pm 7.5 \\%\\)).",
+        "start_index": 33830,
+        "end_index": 33951
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Although we have produced evidence that supports the hypothesis that SSAs are able to act as selective phospholipid membrane coordination and/or disruption agents,\\textsuperscript{39} to date we have minimal evidence that verifies the role ion transport events may play in the SSA mechanism of biological activity, or the types of transmembrane SSA structures which may be involved in facilitating these events, such as ion channels or membrane pores",
+        "start_index": 33951,
+        "end_index": 34401
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Therefore, to confirm the role ion transport may play in the biological activity of SSAs, we also explored the ability of SSAs 1, 3, 5, 7 and 9 to mediate ion transport in phospholipid vesicles (Section S17\\textsuperscript{\u2020}). We initially performed a Cl\\(^-\\)/NO\\(_3^-\\) antiport assay",
+        "start_index": 34401,
+        "end_index": 34690
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\\textsuperscript{52} In this assay, large unilamellar vesicles composed of 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) were prepared containing NaCl (ionic strength = 500 mM) buffered to pH 7.2 with sodium phosphate salts. The vesicles were suspended in NaNO\\(_3\\) (ionic strength = 500 mM) at pH 7",
+        "start_index": 34690,
+        "end_index": 35001
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".2 (Figure 5a). On addition of the SSA as a 5 mM DMSO stock solution (which was maintained throughout these experiments to minimise any variation in aggregation state induced by changes in concentration), any resulting chloride efflux was detected using a chloride ion selective electrode (ISE). We observed that all of these molecules excluding compound 1 (Section S17\\textsuperscript{\u2020}) mediated a modest amount of chloride efflux when added at 10 mol% w",
+        "start_index": 35001,
+        "end_index": 35458
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".r.t. lipid (Figure 5b-c). This observation is surprising given the negative charge of the SSA anion. Comparable experiments in which the external anion was replaced with SO\\(_4^{2-}\\) resulted in greatly reduced chloride efflux, indicating a likely anion antiport mechanism",
+        "start_index": 35458,
+        "end_index": 35732
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Introducing a pH gradient into the Cl\\(^-\\)/SO\\(_4^{2-}\\) vesicle system also did not result in improved chloride efflux, indicating that an HCl co-transport mechanism is unlikely to be occurring to a significant degree.",
+        "start_index": 35732,
+        "end_index": 35954
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "in these experiments. We were unable to observe significant transport activity when these compounds were added as a stock solution dissolved in water (5 mM).",
+        "start_index": 35954,
+        "end_index": 36111
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Figure 5** a) Schematic representation of the Cl\u207b/NO\u2083\u207b antiport assay; b) chloride efflux mediated by 3, 5 and 3 + 5 (10 mol% w.r.t. lipid); c) chloride efflux mediated by compounds 7, 9 and 7 + 9 (10 mol% w.r.t",
+        "start_index": 36111,
+        "end_index": 36324
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". lipid); d) an overview of the reciprocal of the EC\u2085\u2080 values for each compound and racemic mixture to visualise a comparison of the overall efficacies. Where multiple SSAs are supplied in combination, they are supplied as a 1:1 enantiomeric mixture with values reported representing total SSA concentration.",
+        "start_index": 36324,
+        "end_index": 36632
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Hill plot analyses were used to quantify the efficacy of Cl\u207b/NO\u2083\u207b antiport, generating comparable values of EC\u2085\u2080 (the concentration of transporter required to mediate 50% chloride efflux after 270 s \u2013 Section S17\u2020)",
+        "start_index": 36632,
+        "end_index": 36846
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". The reciprocal of the EC\u2085\u2080 values are summarised in Figure 5d, to visualise a comparison of the overall efficacies, with the most active compounds exhibiting the largest 1/EC\u2085\u2080 values. From these data, we observe that 3, 5, 7 and 9 are modest anion antiporters (EC\u2085\u2080 > 15 mol% w.r.t. lipid in each case)",
+        "start_index": 36846,
+        "end_index": 37151
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". SSA 9 was the most active transporter within this series, and we observed two major trends: (i) in each case, the SSAs containing unnatural D-amino acids (5 and 9) are more active than their L-counterparts (3 and 5); (ii) the transport efficacy of the 1:1 enantiomeric mixture were significantly reduced compared to the most active enantiomer of each pair",
+        "start_index": 37151,
+        "end_index": 37508
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We speculate that this reduced activity could result from differences in self-associative processes adopted by the SSA enantiomeric mixtures when compared to the homogenous aggregates produced by a single SSA as evidenced by Q \u00b9H NMR spectroscopy experiment (Table 1 and Table 2).",
+        "start_index": 37508,
+        "end_index": 37790
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "There is a literature president for both synthetic and naturally occurring amphiphiles to act as phospholipid membrane ion channels or pores. Therefore, we next investigated the potential for these SSAs to form defined\nextended self-associated structures, that can facilitate ion transport and exhibit ion channel-like or membrane pore-like behaviour.",
+        "start_index": 37790,
+        "end_index": 38141
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Evidence to support the potential for SSAs to form ion channel or pore-like structures was obtained via planar bilayer patch clamp experiment, using a semi-automated Port-a-Patch system (Nanion), keeping experimental conditions as similar as possible to those used within the vesicle transport assays. Some differentiation between the methodologies was necessary to retain planar phospholipid bilayer stability",
+        "start_index": 38141,
+        "end_index": 38551
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". While the ionic strength was retained at 500 mM and SSAs were supplied in a DMSO solution, POPC was replaced by 1,2-diphtanyoil-sn-glycero-3-phosphocholine (DPhPC) \u2013 10 % cholesterol, the pH was maintained at 5.5, NaCl was substituted for KCl and NaNO\u2083 was substituted for Na\u2082SO\u2084",
+        "start_index": 38551,
+        "end_index": 38832
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Differences in the composition of the solutions present either side of the planar lipid bilayer were achieved through buffer exchange processes post planar bilayer formation, Section S3 and S22\u2020.",
+        "start_index": 38832,
+        "end_index": 39029
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Initial experiments explored the effects of SSA concentration and change in SSA molecular structure/composition on the flow of ions across the planar bilayer. These initial experiments were performed with a holding voltage of +100 mV. Each experiment was conducted a minimum of three times to ensure experimental reproducibility and event capture. In these experiments a set concentration (0.10 mM, 0.25 mM, 0.38 mM, 0.50 mM and 1",
+        "start_index": 39029,
+        "end_index": 39459
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".00 mM) of SSA, or SSA 1:1 enantiomeric mixture, was applied to the surface of the phospholipid bilayer at time = 0 seconds. Change in current across the phospholipid bilayer was then recorded with respect to time.",
+        "start_index": 39459,
+        "end_index": 39673
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "These experiments show a variety of membrane ion transport events to occur, which were first categorised by event type, defined by both current magnitude and time spent in that event state. Figure 6 summarises the time (%) that each system spends in each event state over the course of the experiment. The experiment lasted approximately 1000s unless detailed in Table S19\u2020",
+        "start_index": 39673,
+        "end_index": 40046
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". From the summary of these data, as the concentration of SSA is increased, the percentage of time spent in each event window shifts from Event 0, Event 1, Event 2 and through to Event 3. Here the events were characterised by ampere (A), indicating the flow of ions across the planar bilayer as follows: -\u221e A \u2264 Event 0 < 5.00e-11 A; 5",
+        "start_index": 40046,
+        "end_index": 40380
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".00e-11 A \u2264 Event 1 < 5.00e-10 A; 5.00e-10 A \u2264 Event 2 < 4.90e-08 A; 4.90e-08 A \u2264 Event 3 < \u221e A",
+        "start_index": 40380,
+        "end_index": 40475
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We hypothesise that increase in event magnitude and time spent in that event window are a result of increasing local SSA concentration at the surface of the planar bilayer, in addition to alterations in SSA structure and self-associative properties",
+        "start_index": 40475,
+        "end_index": 40725
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". As these SSAs likely exist as spherical aggregates under experimental conditions, it is likely that should an aggregate encounter the membrane, it would instantly result in a dramatic increase in local SSA concentration at the membrane surface, which influences experimental reproducibility, particularly at lower SSA concentrations.",
+        "start_index": 40725,
+        "end_index": 41060
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Figure 6 Summary of time spent in different event states upon the addition of 1, 3, 5, 7, 9, 3 + 5 (1:1), 7 + 9 (1:1) at: a) 0.10 mM, b) 0.25 mM, c) 0.38 mM, d) 0.50 mM and e) 1.00 mM",
+        "start_index": 41060,
+        "end_index": 41243
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Events were categorised as follows (current, A): 0: $-\\infty A \\leq$ Event 0 (blue) < 5.00e-11 A, 1: 5.00e-11 A $\\leq$ Event 1 (orange) < 5.00e-10 A, 2: 5.00e-10 A $\\leq$ Event 2 (green) < 4",
+        "start_index": 41243,
+        "end_index": 41435
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".90e-08 A, 3: 4.90e-08 A $\\leq$ Event 3 (red) $< -\\infty A$. Experiments were conducted over a 1000s $\\pm$ 5s unless stated in Table S19\u2020. For ease of reference to raw and partially processed data the experiment numbers are given in brackets within this figure",
+        "start_index": 41435,
+        "end_index": 41695
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Planar phospholipid bilayers formed were formed from DPhPC 10 % cholesterol, with Buffer A sealed below, and Buffer B accessible above the bilayer. Buffer A (KCl (489 mM), NaOAc (5 mM), pH 5.5, ionic strength = 500 mM); B (Na$_2$SO$_4$ (167 mM), NaOAc (5 mM), pH 5",
+        "start_index": 41695,
+        "end_index": 41961
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".5, ionic strength = 500 mM). Stock solutions of SSA(s) were prepared as a DMSO:buffer B 1:50 mixture. Control experiments confirmed the membrane to retain stability in the presence of DMSO at these concentrations. All experiments were conducted with a holding voltage +100 mV.",
+        "start_index": 41961,
+        "end_index": 42238
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "In general, 1 exhibits the weakest activity, with 7 and 9, supplied as either single agents or as a 1:1 enantiomeric mixture, shown to cause the greatest change",
+        "start_index": 42238,
+        "end_index": 42398
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "in current, except at a concentration of 0.25 mM, where 3 and 5 show greater activity. The increased activity of 7 and 9 within these planar bilayer patch clamp experiments correlate with the general increased activity of these SSAs as both anticancer and antimicrobial agents. Interestingly, although there may be a time dependent, sequential movement through Event type (Figure 7a), for most experiments conducted this is not the case, as demonstrated in Figure 7b",
+        "start_index": 42398,
+        "end_index": 42864
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here SSA induced change in current with respect to time, is also shown to be reversible. This leads us to propose the following hypothesis: A critical concentration of a particular SSA is required to induce any change in current, due to membrane disruption events. As the local concentration of SSA at the surface of, or permeating into the membrane, increases, the degree of membrane disruption increases, resulting in an increase in current",
+        "start_index": 42864,
+        "end_index": 43308
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Using this hypothesis, a decrease in current with respect to time would also indicate a time dependent decrease in local concentration of SSA present at the surface of, or within the phospholipid bilayer",
+        "start_index": 43308,
+        "end_index": 43513
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". These membrane disruption events, resulting in both increases and decreases in current with respect to time, may also report on the local concentration of SSA present on/in the phospholipid membrane, providing evidence for the flow of SSAs from one side of the phospholipid bilayer to the other, and then away from the bilayer into the bulk solution",
+        "start_index": 43513,
+        "end_index": 43864
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". This process decreases the effective concentration of an SSA at/in the phospholipid bilayer, enabling the membrane to \u2018heal\u2019, resulting in a decrease in current observed with increasing time.",
+        "start_index": 43864,
+        "end_index": 44057
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "![Figure 7 Data summary for patch clamp experiments conducted with a holding voltage of +100 mV for: a) 5 (0.25 mM), experiment id 57; and b) 3 (0.50 mM), experiment id 99. Events were categorised into the following types: 0: \\( \\leq A < 5.00e-11 \\) A; 1: \\( 5",
+        "start_index": 44057,
+        "end_index": 44317
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".00e-11 \\leq A < 5.00e-10 \\) A; 2: \\( 5.00e-10 \\leq A < 4.90e-09 \\) A; 3: \\( 4.90e-08 \\leq A < \\infty \\) A.](https://doi.org/10",
+        "start_index": 44317,
+        "end_index": 44444
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".26434/chemrxiv-2025-bjgl9) ORCID: [https://orcid.org/0000-0002-1406-8802 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0](https://doi.org/10.26434/chemrxiv-2025-bjgl9)",
+        "start_index": 44444,
+        "end_index": 44622
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Further analysis of these data enabled the identification of ion channel/pore like behaviour, two examples of which are provided in Figure 8. These data, extracted from different patch clamp experimental data sets support the hypothesis that SSAs can form organised ion channel/pore like structures that transverse the phospholipid bilayer, facilitating the movement of ions",
+        "start_index": 44622,
+        "end_index": 44996
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Although demonstrating events greater in magnitude than the majority of synthetic or naturally occurring ion channels/pores, repetitive step changes in current can clearly be identified, a typical characteristic for the opening/shutting of single ion channels/pores. Numerous examples of this ion pore/channel-like behaviour were identified in the wider SSA patch clamp data set, some of which have been further detailed within the ESI (Section S22\u2020). A cartoon summarising these processes is provided in Figure 9.",
+        "start_index": 44996,
+        "end_index": 45512
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Figure 8 Graphs showing current (A) vs time (s) for: a) 5 (0.25 mM), experiment id 59 at a holding voltage of +100 mV and b) 9 (0.1 mM), experiment id 42 at a holding voltage of +100 mV.",
+        "start_index": 45512,
+        "end_index": 45698
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Figure 9 Cartoon summarising the hypothesised effect of SSAs on target phospholipid membranes. a) The SSA self-assembles under aqueous conditions to form a spherical aggregate. b) The spherical aggregate arrives at the surface of the target cell membrane. Upon adhesion, the SSAs begin to distribute themselves across the outer leaflet of the phospholipid bilayer",
+        "start_index": 45698,
+        "end_index": 46061
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". c) Upon optimisation of preferential SSA:phospholipid headgroup interactions and increase in local concentration of the SSA, the SSA units now self-associate, producing structures that are able to permeate the phospholipid bilayer and display \u2018pore/channel-like\u2019 behaviour",
+        "start_index": 46061,
+        "end_index": 46335
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". However, these structures are not static as the SSA continues to diffuse through the membrane, increasing the local concentration of the SSA on the inner leaflet of the phospholipid membrane and/or diffusing away from this structure into the cell cytoplasm. d) As the local concentration of SSA present increases still further, greater disruption to the phospholipid bilayer is observed, increasing ion flow across this structure",
+        "start_index": 46335,
+        "end_index": 46766
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". e) As the local concentration of SSA present at the outer or inner leaflet of the phospholipid membrane is reduced, the SSA is no longer able to disrupt the membrane or facilitate the movement of ions, and the phospholipid membrane repairs itself.",
+        "start_index": 46766,
+        "end_index": 47015
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Drug metabolism and pharmacokinetics (DMPK): To determine the potential for this sub-class of chiral, amino acid appended SSAs to transition into the clinic, a range of in vitro DMPK studies have been performed. A similar range of studies had previously been undertaken for 1,39 however, here we select 9 as a representative agent for the four chiral SSAs detailed herein, as this SSA demonstrated high levels of ion transport, antimicrobial and anticancer activity",
+        "start_index": 47015,
+        "end_index": 47480
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Kinetic solubility studies conducted in PBS buffer at a pH of 7.4 confirmed the maximum solubility of 9 is 271 \u00b5M (Table S25\u2020). This indicates that solubility should not become a limiting factor for the translation of this sub-class of SSAs during further optimisation into the clinic.",
+        "start_index": 47480,
+        "end_index": 47767
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Following this, the metabolic stability of 9 was determined against mouse, rat and human liver microsomes. Microsomes contain membrane bound enzymes, such as cytochrome p450, which contribute to first pass metabolism effects, to which a drug must exhibit some resilience",
+        "start_index": 47767,
+        "end_index": 48037
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Within this assay the stability of the intact parent compound is monitored with respect to time, during incubation at 37 \u00b0C in the presence and absence of the co-factor NADPH \u2013 required for cytochrome p450.",
+        "start_index": 48037,
+        "end_index": 48245
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "activity. From these data, the intrinsic clearance (CL_{int}) of the compound can be calculated. The lower this value, the more stable the compound is to the actions of these membrane bound metabolic enzymes. The results of this assay showed 9 to have a CL_{int} < 7.50 \\mu L/min/g of liver for mouse, rat and human microsomes, considered low by industrial standards (Table S26\u2020).",
+        "start_index": 48245,
+        "end_index": 48625
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "In addition, a human plasma protein binding (PPB) assay was performed to determine the fraction unbound (Fu) of 9. This allows an assessment of the free drug concentration available to distribute into the tissues, and interact with the target. The extent to which a compound binds to the constituents of blood plasma can influence drug distribution. This assay was performed after six hours incubation time, after which 98.3 % of 9 was recovered (Table S24\u2020)",
+        "start_index": 48625,
+        "end_index": 49083
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". At this time, 99.7 % of 9 was bound to the proteins present in the plasma, with 0.3 % of this agent remaining free, corresponding to a very highly bound compound (Table S24\u2020).",
+        "start_index": 49083,
+        "end_index": 49260
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Next, to gauge the suitability of SSAs for oral dosing, 9 was subjected to a Caco-2 permeability assay. This assay is used to both predict human intestinal permeability and investigate drug efflux, predicting in vivo compound absorption. This assay allows assessment of a compound\u2019s ability to undergo transport from the apical to the basolateral (A-B) compartments of the cell monolayer and vice versa (B-A)",
+        "start_index": 49260,
+        "end_index": 49668
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Similarly to previously tested SSAs, including 1,39 9 was confirmed to poorly permeate the monolayer in the A-B direction (permeability coefficient \u2013 P_{app} (A-B) = 0.17 \\times 10^{-6} \\text{ cm/s}), however high permeability in the B-A direction was observed (P_{app} (B-A) = 16",
+        "start_index": 49668,
+        "end_index": 49950
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".76 \\times 10^{-6} \\text{ cm/s}) (Table S28\u2020). This data suggests that the compound is intrinsically permeable but is likely to be an efflux substrate, based on the poor permeability observed with drug transporters present. This is likely to result in poor absorption when dosed orally and therefore further development would be necessary for these agents to become suitable for oral administration.",
+        "start_index": 49950,
+        "end_index": 50349
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "As our hypothesised mechanism of action includes the selective coordination and permeation of SSAs through the polar membranes of both MRSA and ovarian cancer cells, we also explored the toxicity of SSAs 1, 3, 5, 7 and 9 as either homogenous solutions or heterogenous (1:1) enantiomeric mixtures against human erythrocytes",
+        "start_index": 50349,
+        "end_index": 50671
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". In this experiment (Figure 10a), the proportion of erythrocytes to undergo lysis in the presence of SSAs supplied at a total molecular concentration of 1.39 mM, chosen to correlate against the upper limits of SSAs supplied in both the antimicrobial and/or anticancer activity studies, Figures 3 and 4 respectively, were recorded as the percentage haemolysis value",
+        "start_index": 50671,
+        "end_index": 51036
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here the maximum haemolysis recorded for all SSAs/SSA mixtures under these experimental conditions was < 2 %.",
+        "start_index": 51036,
+        "end_index": 51147
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Figure 10 a) The percentage haemolysis of human erythrocytes determined for 1, 3, 5, 7, 9 and 1:1 enantiomeric mixtures of 3 + 5 and 7 + 9 at 1.39 mM",
+        "start_index": 51147,
+        "end_index": 51296
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". b) The toxicity of 1, 3, 5, 7, 9 and 1:1 enantiomeric mixtures of 3 + 5 and 7 + 9 determined through the observation of G. mellonella larvae survival rates after injection with SSA or 1:1 SSA enantiomeric mixture (10 \u00b5L of 5mM distilled H\u2082O/EtOH 19:1 solution)",
+        "start_index": 51296,
+        "end_index": 51558
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". PBS and EtOH:H\u2082O (1:19) were used as controls.",
+        "start_index": 51558,
+        "end_index": 51606
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Finally, we gauged the toxicity of SSAs 1, 3, 5, 7 and 9 as either homogenous solutions or heterogenous (1:1) enantiomeric mixtures towards multicellular organisms which have an intrinsic immune system",
+        "start_index": 51606,
+        "end_index": 51807
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Here, Galleria mellonella larvae were injected with 10 \u00b5L of SSA (5 mM) in a distilled H\u2082O/EtOH 19:1 solution and then incubated at 37 \u00b0C for a maximum of five days. Each day, the number of surviving larvae were recorded. As shown in Figure 10b, of those SSA or SSA combinations tested, 5 exhibited the lowest toxicity against G",
+        "start_index": 51807,
+        "end_index": 52137
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". mellonella, with 8 of 10 larvae surviving for the full five days. When comparing the toxicity of the different enantiomers, those SSAs which incorporate naturally occurring L-amino acids (5 and 9) are less toxic than those which incorporate the unnatural D-amino acids (3 and 7). When comparing the effects of R-group substitution, the leucine appended analogue was shown to exhibit a lower toxicity than the comparative phenylalanine substituted SSA",
+        "start_index": 52137,
+        "end_index": 52589
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Interestingly, combining enantiomers in a 1:1 ratio, while keeping the total molecular concentration comparative with the single agent studies, showed the enantiomeric SSA mixtures to exhibit either a comparative or enhanced toxicity when compared to those studies containing a single SSA. In summary, although SSAs are delivered as self-associated spherical aggregates, interestingly they exhibit toxicity profiles similar to small molecules.",
+        "start_index": 52589,
+        "end_index": 53034
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Conclusions",
+        "start_index": 53034,
+        "end_index": 53045
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "We have previously shown members from the wider SSA library to exhibit activity against Gram-positive, clinically relevant MRSA USA300 and the A2780 cisplatin susceptible ovarian cancer cell line",
+        "start_index": 53045,
+        "end_index": 53240
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". During these studies, data obtained from live cell fluorescence microscopy experiments showed intrinsically fluorescent SSAs arriving at the cells surface as spherical aggregates, then forming a coating over the surface of the cell, diffusing across the cell surface membranes, before becoming internalised within the cell and moving to interact with those structures within the cell itself",
+        "start_index": 53240,
+        "end_index": 53632
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ".\\textsuperscript{34} We had also shown SSAs to selectively interact with phospholipid membranes of differing composition, and demonstrated the potential for members of the SSA library to be developed as drugs for intravenous administration.\\textsuperscript{37,39}",
+        "start_index": 53632,
+        "end_index": 53896
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Within the scope of this study, we have built on initial structure activity relationships, incorporating chirality through the presence of both natural and unnatural amino acid residues into the SSA structure",
+        "start_index": 53896,
+        "end_index": 54104
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Through comparison with the control achiral, glycine substituted 1, we have provided evidence that the incorporation of hydrophobic R-groups, alongside the introduction of chirality within the SSA scaffold and control of self-associative complexation processes significantly enhances both desirable biological activity against both infectious and non-infectious disease-causing cells.",
+        "start_index": 54104,
+        "end_index": 54490
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "From the data presented here, we hypothesise that SSAs arrive at the surface of the membrane and increase in local concentration over time, disrupting the phospholipid bilayer enabling the flow of ions (including SSAs) from one side of the membrane to the other. As the local concentration of SSA changes, the degree of phospholipid membrane disruption increases/decreases resulting in the corresponding increase/decrease in current, supported by evidence supplied through planar bilayer patch clamp experiments",
+        "start_index": 54490,
+        "end_index": 55001
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". These planar bilayer patch clamp experiments also identify the presence of membrane pore or ion channel like behaviour \u2013 again supporting the hypothesis that these SSAs can form self-associated transmembrane structures, capable of facilitating function (ion flow) in a controlled manner \u2013 opening and shutting, depending on SSA concentration.",
+        "start_index": 55001,
+        "end_index": 55345
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "Physicochemical analysis of these SSAs performed in the solid and solution state confirm a link between strength of intermolecular hydrogen bond formation, properties of amino acid substitution and higher order self-associated aggregation events",
+        "start_index": 55345,
+        "end_index": 55590
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We confirm that SSAs may be developed with activity against both drug susceptible and resistant bacterial infection and cancer; with 9 (or a 1:1 enantiomeric mixture of 7 + 9) showing the greatest broad-spectrum activity against multiple strains of clinically relevant drug resistant and susceptible \\textit{S. aureus} and ovarian cancer cell lines",
+        "start_index": 55590,
+        "end_index": 55940
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Finally, we show 9 to exhibit a profile competitive to that of known drugs in \\textit{in vitro} screening experiments, with the results demonstrating tractable ADME properties and defined scope for optimisation. Haemolysis experiments, and",
+        "start_index": 55940,
+        "end_index": 56181
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "GI_{50} determination against RPE-1 cell lines suggest selectivity for our target microbial and cancer cells, while studies against *G. mellonella* confirm 9 to exhibit lower toxicity when compared to 7 and the 1:1 antiromantic mixture of 7 + 9.",
+        "start_index": 56181,
+        "end_index": 56426
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Author Contributions**",
+        "start_index": 56426,
+        "end_index": 56450
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "PIAP, TA, LJW: Investigation; Validation; Writing - review & editing. RJL, JT, CM, KY, IL, AK, ERM, KLFH, OBK, JR, JB, CB, HBW: Investigation; Validation. JMS, CKH, MDG, CJEH: Supervision; Validation; Writing - review & editing; Funding acquisition",
+        "start_index": 56450,
+        "end_index": 56698
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". JRH: Conceptualization; Funding acquisition; Project administration; Supervision; Writing \u2013 original draft, review & editing.",
+        "start_index": 56698,
+        "end_index": 56825
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Conflicts of interest**\n\nThere are no conflicts to declare.\n\n**Acknowledgements**",
+        "start_index": 56825,
+        "end_index": 56908
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "PIAP, RJL, KLFH, MDG and JRH would like to thank the University of Kent for funding. OBK would like to thank the SoCoBio DTP (BB/T008768/1) for funding. CJEH and KY gratefully acknowledge funding from EPSRC (EP/T025735/1). CJEH also thanks University College London for funding (ERM PhD studentship and master\u2019s consumables funding for JT, YL and AK)",
+        "start_index": 56908,
+        "end_index": 57258
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". TA would like to thank the University of Southampton and UKHSA for funding. CM, JRH and MDG would like to thank the Jane Irons PhD Scholarship fund for funding. CKH. CKH and JMS would like the thank UKHSA Grant-In-Aid funding, project 113361. LJW and JRH would also like to thank the UKRI (MR/T020415/1, MR/Y03385X/1) for funding",
+        "start_index": 57258,
+        "end_index": 57589
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". We acknowledge Prof, Jeremy Frey, Prof. Ian Collins, Mrs Edith Blackburn (funded by the E. B. Hutchinson Charitable Trust) and Dr Perry Hailey for their input in researcher training and review of this work. DMPK studies were undertaken by contract research organisation Pharmaron.",
+        "start_index": 57589,
+        "end_index": 57871
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "**Notes and references**",
+        "start_index": 57871,
+        "end_index": 57895
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": "\u2021 A suitable crystal was selected and mounted on a Rigaku Oxford Diffraction Supernova diffractometer. Data were collected using Cu K\u03b1 radiation at 100 K. Structures were solved with the ShelXT\\textsuperscript{84} or ShelXS structure solution programs via Direct Methods and refined with ShelXL\\textsuperscript{85} on Least Squares minimisation",
+        "start_index": 57895,
+        "end_index": 58239
+    },
+    {
+        "document_name": "92.txt",
+        "chunk_text": ". Olex2\\textsuperscript{66} was used as an interface to all ShelX programs. CCDC deposition number for the single crystal X-ray structure shown in Figure 2a = 2205765 and Figure 2b = 2218842.",
+        "start_index": 58239,
+        "end_index": 58430
+    }
+]

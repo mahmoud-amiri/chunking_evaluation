@@ -1,0 +1,1424 @@
+[
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Quantification of azides on the surface of nanoparticles: towards precise bioconjugation\n\nElizaveta Maksimova,\u2020\u2021\u00b6 David E. Salazar Marcano,\u2020 and Jonathan De Roo*,\u2020",
+        "start_index": 0,
+        "end_index": 163
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "\u2020Department of Chemistry, University of Basel, Mattenstrasse 22, 4058 Basel, Switzerland\n\u2021Center for Photon Science, Paul Scherrer Institut, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland\n\u00b6Swiss Nanoscience Institute, Klingelbergstrasse 82, 4056 Basel\n\nE-mail: jonathan.deroo@unibas.ch\n\nAbstract",
+        "start_index": 163,
+        "end_index": 465
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The precise design of bioconjugated nanoparticles is crucial for effective cell targeting and cellular uptake. Therefore, an accurate approach to creating and quantifying the organic ligand shell with a specific number of conjugated targeting ligands is essential. Click-chemistry has emerged as a robust method for bioconjugation, with azide-alkyne cycloaddition as the most prevalent method. Although nanoparticles are typically functionalized with azides, their quantification has rarely been reported",
+        "start_index": 465,
+        "end_index": 969
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Here, we present two spectroscopic methods for the surface azide quantification of catechol-stabilized hafnium oxide nanoparticles as a model system. The first method exploits the intrinsic ability of catechol ligands to quench the fluorescence of conjugated fluorophores, whereas the second method represents a general strategy based on monitoring the alkyne absorbance during the click reaction",
+        "start_index": 969,
+        "end_index": 1367
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The latter method is independent of both inorganic core and the ligand shell, allowing it to be generally used. We also demonstrate the broader applicability on hafnium oxide nanoparticles capped with polyphosphonate ligands.",
+        "start_index": 1367,
+        "end_index": 1594
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1594,
+        "end_index": 1606
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Ligand-engineered nanoparticles (NPs) have emerged as promising platforms for many applications, including biomedical imaging, sensing, and drug delivery.\\textsuperscript{1\u20133} The surface chemistry of NPs is of great importance, as it directly dictates not only the colloidal stability of NPs but also their interaction with the environment. Multivalency (multiple receptors per particle) has been proven to be a powerful strategy for targeting",
+        "start_index": 1606,
+        "end_index": 2050
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{4,5} However, counter-intuitively, more targeting ligands are not always beneficial. For example, overfunctionalization of the surface can result in a high consumption of receptors per NP, causing lower cellular uptake since there are fewer receptors for other NPs to bind.\\textsuperscript{4,6\u20138} Overfunctionalization can also give rise to steric clashes between the targeting groups, reducing their ability to bind to receptors",
+        "start_index": 2050,
+        "end_index": 2497
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Therefore, there is often an optimal targeting ligand density to achieve the highest cell binding and cellular uptake.\\textsuperscript{4,6\u20138} Gold NPs with one antibody per particle have even been reported to have better tumor accumulation than those with two antibodies, demonstrating the need for precise control of surface functionalization.\\textsuperscript{9} Despite its clear importance for nanomedicine, fine-tuning of surface chemistry and quantification of surface functional groups have rarely been reported",
+        "start_index": 2497,
+        "end_index": 3016
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".",
+        "start_index": 3016,
+        "end_index": 3017
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The azide-alkyne cycloaddition is increasingly popular as an effective strategy for stoichiometric bioconjugation. It offers several advantages over other bioconjugation techniques due to its high orthogonality, biocompatibility, high yields, and rapid kinetics",
+        "start_index": 3017,
+        "end_index": 3278
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{10,11} Metal-free strain-promoted alkyne-azide cycloaddition (SPAAC) has been shown to be an efficient and safe alternative to Cu(I)-catalyzed alkyne-azide cycloaddition (CuAAC), where the final conjugates often contained cytotoxic copper",
+        "start_index": 3278,
+        "end_index": 3534
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{12} Both CuAAC and SPAAC have been already exploited on various NPs systems such as quantum dots,\\textsuperscript{13\u201315} as well as polymeric,\\textsuperscript{16\u201318} metallic\\textsuperscript{19\u201321} and metal oxide NPs.\\textsuperscript{22\u201324}",
+        "start_index": 3534,
+        "end_index": 3793
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The quantification of the dibenzocyclooctyne (DBCO) moiety, widely used as the alkyne in SPAAC, is rather straightforward because of the presence of an absorbance band in the...",
+        "start_index": 3793,
+        "end_index": 3970
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "UV range. Nevertheless, a quantitative approach to surface functionalization with azides is often missing. A large portion of the published work still opts for full surface coverage with azide-carrying groups or, if not, rarely reports the actual number of azides per particle. However, 100% coverage of the surface with functional ligands for click reactions could add additional costs to the production of the NPs, and also influences the colloidal stability of the NPs",
+        "start_index": 3970,
+        "end_index": 4441
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". For example, it was shown that the fraction of azide-carrying ligands must be kept below 15% to ensure good dispersibility in water over a long time.\\textsuperscript{25} Low reactivity of surface groups due to steric hindrance comes as another limitation. For instance, gold nanoparticles could only accommodate 8 molecules of fluorescent dye despite having 117 azide groups on the surface.\\textsuperscript{19}",
+        "start_index": 4441,
+        "end_index": 4853
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Of the few reports that do quantify the azide ligand density, the azide quantification is typically based on photo- or fluorometric detection of a dye label. Particles with a certain number of azide groups are left to react with the DBCO derivative of a fluorescent dye, followed by the purification of the labeled nanoparticles and separate analysis of the nanoparticles and/or supernatant to determine the amount of bound or unbound dye",
+        "start_index": 4853,
+        "end_index": 5291
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{13,15,17,26} More sophisticated variations of this method include the use of cleavable reagents that are first clicked to the surface. After purification, the dye is released into the solvent by cleaving another weak point in the molecule (e.g., hydrolysis of an amide)",
+        "start_index": 5291,
+        "end_index": 5578
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{16} The obvious disadvantage of relying on dye labels is the need for extensive purification of the sample to ensure the removal of all unreacted labels, as there is no optical difference between bound and free dye. The F\u00f6rster Resonance Energy Transfer (FRET) effect can be used to circumvent this issue, but it is limited to the quantification of optically active nanoparticles, such as quantum dots",
+        "start_index": 5578,
+        "end_index": 5997
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{15} In addition, direct quantification is only possible when the light scattering by NPs is negligible and dye-dye interactions can be excluded because of the low functional group density on the surface.\\textsuperscript{27}",
+        "start_index": 5997,
+        "end_index": 6238
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Another option is quantitative nuclear magnetic resonance (qNMR), which is typically used to analyze the organic ligand shell of nanoparticles and to determine the corresponding",
+        "start_index": 6238,
+        "end_index": 6415
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "ligand densities. For example, this method was used for the analysis of gold nanoparticles stabilized with an azide-carrying peptide. However, as the NMR signals get significantly broadened when the ligands are bound to the nanoparticle surface, the analysis becomes complicated in the case of mixed ligand shells, especially, in the case of a low ratio of azide-carrying ligands to stabilizing ligands",
+        "start_index": 6415,
+        "end_index": 6817
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". qNMR can also be performed on ligands released to the solution following the addition of stronger ligands or decomposition of the NPs, but the complete removal and recovery into solution of the ligands can be problematic, especially in the case of strongly binding ligands",
+        "start_index": 6817,
+        "end_index": 7091
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The limitations of NMR also include the relatively high amount of material needed for analysis compared to optical methods, as well as the inability to study NPs with paramagnetic properties, such as iron oxide, widely used in MRI imaging, or lanthanide-doped NPs.",
+        "start_index": 7091,
+        "end_index": 7357
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "There is thus clearly a need for precise azide quantification methods that can be applied to various NPs. In this study, we developed two methods that require no purification, use a low amount of functionalized NPs, and are independent of the inorganic core of the NPs",
+        "start_index": 7357,
+        "end_index": 7625
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". As a model system, we take sub-5 nm hafnium oxide NPs (HfO$_2$ NPs), which have been recently explored as radiosensitizers for radiotherapy and as contrasts agents for X-ray computed tomography",
+        "start_index": 7625,
+        "end_index": 7820
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". We capped the HfO$_2$ surface with catechols, which were previously shown to provide the strongest binding and therefore the best colloidal stability for industrially and biomedically relevant metal oxide NPs such as hafnium oxide, titanium oxide, and iron oxide NPs",
+        "start_index": 7820,
+        "end_index": 8088
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". We varied the amount of azide-carrying catechols in the ligand shell from 0 to 10 per NP to test the possibility of quantification of low amounts of functional groups necessary for precise bioconjugation. The first method leverages the fluorescence quenching effect of the nitrocatechol ligands on covalently bound dye molecules by photoinduced charge transfer (PCT)",
+        "start_index": 8088,
+        "end_index": 8456
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The second method is more general and is based on the UV-tracking of the DBCO triple bond absorbance upon click-reaction. Both methods gave highly comparable results and were able to accurately determine the number of azide groups on the surface of the NPs. The second method was successfully generalized to NPs with polyphosphonate",
+        "start_index": 8456,
+        "end_index": 8790
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Results and discussion",
+        "start_index": 8790,
+        "end_index": 8812
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "1 Model nanoparticles and the limitations of NMR",
+        "start_index": 8812,
+        "end_index": 8860
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "To develop a quantification method for azide functional groups, we first designed a model system of NMR-compatible metal oxide nanoparticles stabilized with PEGylated catechol-based ligands. Hafnium oxide nanoparticles were synthesized from hafnium tert-butoxide in benzyl alcohol, and initially stabilized by 2-[2-(2-methoxyethoxy)ethoxy]acetic acid (MEEAA)",
+        "start_index": 8860,
+        "end_index": 9218
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". This weakly binding carboxylate ligand was subsequently exchanged for a mixture of nitrodopamine (NDA)-based ligands in which the ratio of methoxy-terminated ligand (NDA-(EG)$_2$-OCH$_3$) to azide-terminated ligands (NDA-(EG)$_2$-N$_3$) was varied to obtain particles with 2, 5 or 10 azides per nanoparticle (Figure",
+        "start_index": 9218,
+        "end_index": 9535
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "1A)",
+        "start_index": 9535,
+        "end_index": 9538
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". NDA-(EG)$_2$-OCH$_3$ provides colloidal stability in aqueous buffers, whereas NDA-(EG)$_2$-N$_3$ determines the valency of the NPs in the SPAAC click reaction.",
+        "start_index": 9538,
+        "end_index": 9699
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Figure 1: (A) The carboxylic acid ligands on hafnia nanoparticles are exchanged for a mixture of catechol ligands; (B) TEM image of catechol-stabilized nanoparticles in water and the size distribution of short and long axes of ellipsoidal NPs (136 NPs were measured); (C) Hydrodynamic diameter of nanoparticles in water at pH 7 by DLS; (D) Thermogravimetric analysis of nanoparticles composition",
+        "start_index": 9699,
+        "end_index": 10094
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "on the example of NPs with 2 azides/NP; (E) $^1$H NMR spectra of free catechol ligands and a nanoparticle suspension with bound ligands (after purification via spin filtration), having a target composition of 2 azides/NP",
+        "start_index": 10094,
+        "end_index": 10314
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".",
+        "start_index": 10314,
+        "end_index": 10315
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "TEM images show ellipsoidal-shaped nanoparticles with a major axis of $(3.8 \\pm 0.6)$ nm and the minor axis of $(2.4 \\pm 0.3)$ nm, see Figure 1B. The colloidal stability of the nanoparticles after ligand exchange in water was confirmed by DLS (Figure 1C), yielding a mean hydrodynamic diameter of 5.8 nm, which is in agreement with TEM considering the additional ligand shell",
+        "start_index": 10315,
+        "end_index": 10690
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The colloidal stability of the nanoparticles is not influenced by the azide content (Figure S2A). Finally, the organic content of the nanoparticle was determined to be 24% by TGA (Figure 1D) and further used to calculate the number of nanoparticles for stoichiometric reactions (see Supporting Information for calculation). The organic content is similar for particles with different azide content (see Figure S2B).",
+        "start_index": 10690,
+        "end_index": 11107
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "$^1$H NMR confirmed successful surface functionalization with the catechols mixture, as seen from the broadening of the peaks compared to the sharp peaks of the free ligands in the",
+        "start_index": 11107,
+        "end_index": 11287
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "reference NMR spectra (Figure 1E). Because of the broadening and the low content of bound NDA-(EG)$_2$-N$_3$, it is impossible to distinguish it from bound NDA-(EG)$_2$-OCH$_3$. Therefore, all three samples appear identical by $^1$H NMR, see Figure S1",
+        "start_index": 11287,
+        "end_index": 11538
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Clearly, the characteristic peak of the -CH$_2$-N$_3$ protons (labeled as f\u2019) of NDA-(EG)$_2$-N$_3$ is too broad and too low in intensity to allow quantification of the shell composition using the qNMR method, which is often used in surface ligand quantification",
+        "start_index": 11538,
+        "end_index": 11802
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". To avoid the effects associated with line broadening, ligands can be released (\u201cstripped\u201d) from the surface of previously functionalized particles for routine NMR analysis.\\textsuperscript{45} Strong acids such as trifluoroacetic acid or HBF$_4$ can be used to release bound ligands. The NPs lose their stabilizing ligands and precipitate, allowing them to be separated from the ligand solution",
+        "start_index": 11802,
+        "end_index": 12198
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{46,47} This method has been used primarily for a qualitative analysis of the surface.\\textsuperscript{48\u201351} We attempted to quantify the surface ligands of our hafnia NPs by stripping them with HBF$_4$ (Figure S3 and Table S1). All weakly bound carboxylate ligands were removed from the surface but only 30\\% of catechol ligands were effectively removed",
+        "start_index": 12198,
+        "end_index": 12570
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Although some NDA-(EG)$_2$-N$_3$ was detected, its quantification becomes unreliable due to the incomplete stripping. FTIR spectroscopy qualitatively confirmed the presence of azide groups (Figure S4) on the surface of the NPs",
+        "start_index": 12570,
+        "end_index": 12798
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The characteristic band of the azide group at 2100 cm$^{-1}$ is visible for nanoparticles with targeted NDA-(EG)$_2$-N$_3$ content, as opposed to nanoparticles with NDA-(EG)$_2$-OCH$_3$ ligands alone. However, the IR band is relatively weak due to the low concentration of azide groups on the surface of the NPs, highlighting the need for sensitive methods of quantification.",
+        "start_index": 12798,
+        "end_index": 13175
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "2 Quantification through fluorescence quenching",
+        "start_index": 13175,
+        "end_index": 13222
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Labeling with fluorescent dyes is a potential strategy for quantification but is usually limited by the need for purification steps to remove unbound dye, unless the fluorescence of the bound dye differs from the free dye. In this respect, catechols can act as a donor or acceptor in photoinduced charge transfer (PCT) \u2013 depending on its structure \u2013 thus affecting the fluorescence intensity of bound dyes",
+        "start_index": 13222,
+        "end_index": 13627
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{52} Nitrodopamine-based ligands were shown to act as",
+        "start_index": 13627,
+        "end_index": 13697
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "electron acceptors in donor-excited PCT due to the electron-withdrawing effect of the nitro group. Upon excitation of a conjugated dye, an electron is promoted from the dye\u2019s HOMO to its LUMO and then moves into the vacant LUMO of the nitrocatechol group via a non-radiative transition (thus quenching the fluorescence)",
+        "start_index": 13697,
+        "end_index": 14016
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Unlike FRET, the quenching effect only occurs when the dye is covalently bound to the nitrodopamine-based ligands. Based on this phenomenon, we developed a method for azide quantification (see Figure 2A).",
+        "start_index": 14016,
+        "end_index": 14222
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Figure 2: (A) Free DBCO-functionalized dye emits green light, but the fluorescence is quenched upon conjugation to surface azide groups due to PCT to nitrodopamine. (B) UV-vis and fluorescence spectra of the AF488-DBCO dye alone and UV-vis spectra of catechol-functionalized nanoparticles with and without the bound dye",
+        "start_index": 14222,
+        "end_index": 14541
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Quantification of azides based on quenching of AF488 was done on nanoparticles with (C) 0, (D) 2, (E) 5, and (F) 10 targeted N$_3$ groups per particle.",
+        "start_index": 14541,
+        "end_index": 14694
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "We use the DBCO derivative of the AF488 dye ($\\lambda_{ex/em} = 492/518$ nm) as an electron donor and nitrodopamine-PEG-N$_3$ as an electron acceptor (see Figure 2A-B, Figure S5A). For a given sample, we prepare several solutions with the same number of NPs and add increasing amounts of AF488-DBCO",
+        "start_index": 14694,
+        "end_index": 14992
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Upon conjugation to NDA-(EG)$_2$-N$_3$, the fluorescence",
+        "start_index": 14992,
+        "end_index": 15050
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "is quenched. After around 72 h at room temperature no further changes in fluorescence intensity were observed. Although \u201cclick\u201d reactions are known for their high reaction rates, the relatively long reaction time is due to the very low concentrations used. The latter have the advantage that the samples are immediately ready for spectroscopic characterization and minimize the cost of consumed dye",
+        "start_index": 15050,
+        "end_index": 15448
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The fluorescence intensity at 518 nm was measured and plotted against the initial dye:NP ratio, see Figure 2c-f for NPs with 0, 2, 5 and 10 targeted NDA-(EG)$_2$-N$_3$ ligands per NP (raw PL spectra can be found in Figure S7).",
+        "start_index": 15448,
+        "end_index": 15676
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "In the absence of NPs, the fluorescence intensity increases linearly with the dye concentration (green data points in Figure 2C-F). In case NPs have only NDA-(EG)$_2$-OCH$_3$ ligands (Figure 2C), the dependence is also linear and differs only slightly from the dye alone. For the samples where NDA-(EG)$_2$-N$_3$ ligands are present, two linear regions are observed",
+        "start_index": 15676,
+        "end_index": 16041
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The first linear region has a lower slope than the second linear region. Furthermore, the latter has a slope comparable to that of the dye alone (see also Table 1). We conclude that the fluorescence of AF488 is quenched until the dye:NP ratio is equal to the valency of the NPs, i.e., the number of azide groups on the NP surface",
+        "start_index": 16041,
+        "end_index": 16372
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Above that concentration, there is additional free dye, and its fluorescence is not quenched by PCT. Hence, PL quenching by nitrodopamine is only observed when the dye is covalently bound to nitrodopamine-based ligands",
+        "start_index": 16372,
+        "end_index": 16592
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". This was confirmed by control experiments in which AF488 was added to either free NDA-(EG)$_2$-OCH$_3$, free NDA-(EG)$_2$-N$_3$ (see Figure S6A). Fluorescence is quenched by NDA-(EG)$_2$-N$_3$ (until the stoichiometry reaches 1:1), but not by NDA-(EG)$_2$-OCH$_3$.",
+        "start_index": 16592,
+        "end_index": 16858
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The intersection point of the two linear curves in Figures 2D-F, represents the valence of the NPs. It is the amount of dye that was conjugated to the NDA-(EG)$_2$-N$_3$ on the nanoparticle surface. To avoid any bias in the determination of the intersection, we opted for an automatic fitting using a piecewise linear function (see Methods and Supporting Information for further details)",
+        "start_index": 16858,
+        "end_index": 17245
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". As can be seen in Table 1, the intersection found between two linear parts is indeed close to the target value of N$_3$/NP and corresponds to the number of azide groups per particle. To test the repeatability and reproducibility of this method,",
+        "start_index": 17245,
+        "end_index": 17491
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "we performed the azide quantification three times on the same sample (twice by the same operator and once by another, see Figures S8\u2013S9 and Table S2). All three independent experiments yielded the same result (within the experimental error).",
+        "start_index": 17491,
+        "end_index": 17732
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Table 1: Summary of the quantification based of PL quenching. Slope$_1$ and 2 correspond to two linear regions of the plots. Adj.R$^2$ is a corrected goodness-of-fit of the piecewise linear function used to find the intersection point. Slope$_{dye}$ represents the slope of the graphs in the absence of NPs",
+        "start_index": 17732,
+        "end_index": 18038
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Valency of NPs (N$_3$/NP) and its error are derived from the piecewise linear fitting. The found valency is then recalculated to surface azide density (see SI for the calculation).",
+        "start_index": 18038,
+        "end_index": 18220
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| Initial aim, N$_3$/NP | Slope$_1$ | Slope$_2$ | Adj. R$^2$ | Slope$_{dye}$ | Found N$_3$/NP | Azide density, nm$^{-2}$ |\n|-----------------------|-----------|-----------|------------|---------------|----------------|-------------------|",
+        "start_index": 18220,
+        "end_index": 18458
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| 0                     | -         | $5.3 \\times 10^4$ | -          | $6.3 \\times 10^4$ | -              | -                 |",
+        "start_index": 18458,
+        "end_index": 18585
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| 2                     | $1.8 \\times 10^4$ | $6.9 \\times 10^4$ | 0.9940     | $7.0 \\times 10^4$ | $1.75 \\pm 0.10$ | 0.07              |",
+        "start_index": 18585,
+        "end_index": 18721
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| 5                     | $2.5 \\times 10^4$ | $5.5 \\times 10^4$ | 0.9983     | $5.9 \\times 10^4$ | $4.8 \\pm 0.6$  | 0.19              |",
+        "start_index": 18721,
+        "end_index": 18856
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| 10                    | $1.4 \\times 10^4$ | $5.5 \\times 10^4$ | 0.9985     | $6.0 \\times 10^4$ | $9.56 \\pm 0.10$ | 0.38              |",
+        "start_index": 18856,
+        "end_index": 18992
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "3  Quantification through UV-Vis",
+        "start_index": 18992,
+        "end_index": 19024
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The above method based on fluorescence quenching can be applied only to particles with electron-accepting ligands. In this current section, we demonstrate a more general method that exploits the UV-Vis absorption band of the DBCO triple bond (alkyne) with a maximum at 308 nm ($\\varepsilon = 12000$ L mol$^{-1}$ cm$^{-1}$), which disappears during cycloaddition (Figure 3A).",
+        "start_index": 19024,
+        "end_index": 19398
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "To quantify the surface azides, we thus added the water soluble DBCO-(EG)$_4$-OH in slight excess to the samples of interest and tracked the disappearance of the DBCO band upon cycloaddition (Figure S5B). To obtain selective absorbance spectra of the alkyne, nanoparticles alone were monitored in the same buffer. The nanoparticle background spectra were then subtracted from the sample spectra (e.g",
+        "start_index": 19398,
+        "end_index": 19797
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "., to exclude the contribution of the ligands). An example of background corrected spectra is shown in Figure 3B (all original spectra are shown in Figures S10-S13). Kinetic curves (Figure 3C) were plotted for the absorbance change at 308 nm, for the same samples as we investigated in the previous section, i.e",
+        "start_index": 19797,
+        "end_index": 20108
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". having 0, 2, 5, and 10 targeted NDA-(EG)$_2$-N$_3$ ligands per NP. The DBCO concentration remained the same in the control reaction (containing no nanoparticles) and decreased for the samples",
+        "start_index": 20108,
+        "end_index": 20301
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "with functional groups. The reactions went to completion within 4 h.",
+        "start_index": 20301,
+        "end_index": 20369
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Figure 3: Quantification of surface azides with DBCO-(EG)$_4$-OH via UV-Vis spectroscopy. (A) The triple bond of DBCO exhibits an absorption band at 308 nm that disappears upon cycloaddition. (B) Example of background-corrected absorbance spectra of NPs with 10N$_3$/NP",
+        "start_index": 20369,
+        "end_index": 20638
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The absorbance difference at 308 nm is denoted as $\\Delta A$ and used further for the calculation of DBCO concentration. (C) Dependence of $\\Delta A$ on the content of azide groups per nanoparticle. Error bars are calculated from three repetitions and for some data points are smaller than the marker.",
+        "start_index": 20638,
+        "end_index": 20941
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "To calculate the concentration of azide groups in the sample, we calculate the concentration of reacted DBCO using the Beer-Lambert law via:\n\n$$c = \\frac{-\\Delta A}{\\varepsilon L}$$",
+        "start_index": 20941,
+        "end_index": 21122
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The determined azides/NP are close to the initial aim, see Table 2. To calculate the limit of detection (LOD), we employ the Standard Deviation of the Blank (SDB) method, where the sample with 0 azide groups is used as blank. In this method, the LOD is calculated as follows:\n\n$$LOD = \\bar{x}_{\\text{blank}} + 3\\sigma_{\\text{blank}},$$",
+        "start_index": 21122,
+        "end_index": 21457
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "where $\\bar{x}_{\\text{blank}}$ is the mean value found in the blank sample and $\\sigma_{\\text{blank}}$ is its standard deviation. In our case, hafnia nanoparticles capped with nitrodopamine-based ligands, the LOD for the UV-Vis method is equal to 0.53 azide groups/particle.\nTable 2: Summary of the quantification based on UV tracking of DBCO triple bond absorbance",
+        "start_index": 21457,
+        "end_index": 21822
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| Initial aim, N\u2083/NP | Found N\u2083/NP | Azide density, nm\u207b\u00b2 |\n|-------------------|------------|-------------------|\n| 0                 | -0.22 \u00b1 0.25 | -             |\n| 2                 | 1.75 \u00b1 0.14 | 0.07             |",
+        "start_index": 21822,
+        "end_index": 22043
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "| 5                 | 5.0 \u00b1 0.7   | 0.20             |\n| 10                | 9.22 \u00b1 0.13 | 0.37             |",
+        "start_index": 22043,
+        "end_index": 22152
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "4 Generalization",
+        "start_index": 22152,
+        "end_index": 22168
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The quantification via UV-Vis yielded identical results to the fluorescence quenching method, see Figure 4. Both methods are capable of detecting low amounts of surface azides (as low as 0.8 nmol for fluorescence quenching and 13.8 nmol for UV-Vis), do not involve any purification, and are independent of the magnetic properties of the nanoparticles. An important requirement is colloidal stability throughout the duration of the quantification measurements",
+        "start_index": 22168,
+        "end_index": 22626
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Aggregation would result in scattering that would impact both fluorescence and UV-Vis spectroscopy. The methods could be potentially applied to other aqueous buffers because the click reaction is largely insensitive to pH. One limitation of the fluorescence quenching method is the need for electron-accepting ligands, but it can be an interesting alternative for NPs with high absorbance around 308 nm.",
+        "start_index": 22626,
+        "end_index": 23031
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Figure 4: Comparison of the quantification results by the two presented methods. The first method is based on the fluorescence quenching of the fluorescent dye and the error is found from the piecewise fitting. The second method is based on the UV tracking of DBCO triple bond and the standard deviation is calculated from three repetitions.",
+        "start_index": 23031,
+        "end_index": 23372
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "To demonstrate the broad utility of our azide quantification strategy based on UV-Vis, we prepared hafnium oxide nanoparticles with a different ligand composition. We chose a (sulfobetaine-azide) phosphonic acid block copolymer as the capping ligand (Figure 5), which has been shown to stabilize several different NPs (e.g., iron oxide) in physiological media while reducing protein corona formation",
+        "start_index": 23372,
+        "end_index": 23771
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".\\textsuperscript{13,57} We first stabilized hafnia nanoparticles in water using (6-\\{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethoxy\\}-hexyl)phosphonic acid and subsequently exchanged the phosphonate ligands for the polyphosphonate (Figure 5A). The nanoparticles were purified by size exclusion chromatography (SEC)",
+        "start_index": 23771,
+        "end_index": 24078
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The final NPs were characterized by DLS, TGA and NMR to confirm, respectively, the colloidal stability, the inorganic fraction, and the success of the ligand exchange, see Figure S14. \\textsuperscript{31}P NMR spectroscopy is particularly useful for detecting bound polyphosphonate, in addition to a small amount of residual phosphonate (Figure S14E).",
+        "start_index": 24078,
+        "end_index": 24431
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Figure 5: (A) Preparation of (sulfo betaine-azide) phosphonic acid copolymer-capped HfO\\textsubscript{2} NPs by exchanging the initial phosphonic acid ligands. (B) The chemical structure of (sulfo betaine-azide) phosphonic acid copolymer",
+        "start_index": 24431,
+        "end_index": 24668
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". In red are represented the binding groups that coordinate to the surface, in blue the zwitterionic monomers that provide aqueous solubility, and in green the azide-carrying monomers to enable further biofunctionalization. Note that zwitterionic and azide-carrying monomers are statistically randomly distributed in the polymer chain, while all phosphonate monomers are next to each other",
+        "start_index": 24668,
+        "end_index": 25057
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". (C) Absorbance spectra during the reaction between copolymer-capped NPs and DBCO-(EG)\\textsubscript{4}-OH; (D) Change of $\\Delta$ over the reaction time for copolymer-capped NPs compared to the control (without NPs). Error bars are calculated from three repetitions.",
+        "start_index": 25057,
+        "end_index": 25325
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The UV-Vis quantification of azides was carried out as described above, and the corresponding absorbance spectra and kinetic curves are plotted in Figure 5C-D. The raw spectra can be found in Figure S15. Interestingly, the reactions were completed much later than for catechol-stabilized particles, which can be attributed to the lower concentration of particles used for this experiment and also to the sterical hindrance and accessibility of azide groups surrounded by polymer chains",
+        "start_index": 25325,
+        "end_index": 25810
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The change of $\\Delta$A after 12 h of the reaction was used to calculate the number of azide groups per NP: $4.23 \\pm 0.21 \\text{N}_3$/NP. This is in agreement with previously published estimates for the number of accessible azide groups in NPs with sim-",
+        "start_index": 25810,
+        "end_index": 26066
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "ilar polymer ligands determined using fluorophore labels.\\textsuperscript{13,57} Therefore, this UV-tracking method is a promising alternative for determining the amount of derivatizable azide groups without the need for labelling with dyes and the associated purification steps.",
+        "start_index": 26066,
+        "end_index": 26345
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "**Conclusion**",
+        "start_index": 26345,
+        "end_index": 26359
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "We demonstrated that the NMR quantification of azide-carrying ligands, either in the bound state or stripped from the NP surface, comes with several unsolved challenges. We presented two convenient alternatives based on fluorescence or UV-Vis spectroscopy, both having similar accuracy and precision. The first quantification method is based on fluorescence quenching of a fluorophore by photoinduced charge transfer to nitrocatechol ligands upon bioconjugation",
+        "start_index": 26359,
+        "end_index": 26820
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The method is limited by the requirement for electron-accepting ligands. Furthermore, additional considerations should be taken into account when the NPs are optically active, e.g., quantum dots or lanthanide-doped NPs. The second method is more general since it is based on the disappearance of the UV-Vis absorption band of the alkyne",
+        "start_index": 26820,
+        "end_index": 27158
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". It does not depend on the chemical nature of the stabilizing ligand, as we demonstrated for both catechol and polyphosphonate ligands. In the future, both methods could be partially automated using a plate reader, which would significantly speed up the quantification process. Both developed methods are capable of detecting low amounts of surface azides (as low as 0.8 nmol for fluorescence quenching and 13.8 nmol for UV-Vis)",
+        "start_index": 27158,
+        "end_index": 27587
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Compared with other optical methods like dye labeling, our methods do not require any purification. Furthermore, these methods are orthogonal to the magnetic properties of NPs and could be used for the quantification of surface azides on, e.g., iron oxide NPs. We believe that this quantitative analysis of surface functional groups will play an important role in precise bioconjugation, which is crucial for biomedical applications of NPs.",
+        "start_index": 27587,
+        "end_index": 28029
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Methods",
+        "start_index": 28029,
+        "end_index": 28036
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Materials",
+        "start_index": 28036,
+        "end_index": 28045
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Dopamine hydrochloride (>98%), sodium nitrite (>99%), N,N'-dicyclohexylcarbodiimide (99%), 4-(dimethylamino)pyridine (99%), 4-methylmorpholine (99%), dibenzocyclooctyne-PEG\u2084-alcohol (>84.5%) and all organic solvents used for syntheses were purchased from Sigma-Aldrich",
+        "start_index": 28045,
+        "end_index": 28313
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". 2-[2-(2-Methoxyethoxy)ethoxy]acetic acid (MEEAA, >95%) and 11-azido-3,6,9-trioxaundecanoic acid (>97%) were purchased from TCI Chemicals. (6-{2-[2-(2-Methoxyethoxy)-ethoxy]-ethoxy}-hexyl)phosphonic acid (>96%) was purchased from Sikemia",
+        "start_index": 28313,
+        "end_index": 28551
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Fluoroboric acid, 50 wt% in water, was purchased from Thermo Scientific. Azido-PEG\u2082-NHS ester (98%) was purchased from Broadpharm. AF488-DBCO (>95%) was purchased from Lumiprobe. All chemicals were used as received without further purification. All deuterated solvents were purchased from Sigma-Aldrich or Eurisotop. Milli-Q\u00ae water (resistivity of 18",
+        "start_index": 28551,
+        "end_index": 28903
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".2 M\u03a9cm at 25 \u00b0C) was dispensed from the Merck Millipore Advantage A10 Water Purification System with Qpod.",
+        "start_index": 28903,
+        "end_index": 29010
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Hafnium (IV) tert-butoxide was synthesized according to Dhaene et al.\u2075\u2078\n\nGeneral instrumentation",
+        "start_index": 29010,
+        "end_index": 29106
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Nuclear Magnetic Resonance (NMR) measurements were recorded at 298 K on a Bruker Avance III spectrometer operating at a frequency of 500 MHz and on a Bruker Avance III spectrometer at a frequency of 600 MHz. \u00b9H NMR spectra were acquired with a delay time of 1.5 s, 64 scans, and post-processed with a line broadening of 1 Hz",
+        "start_index": 29106,
+        "end_index": 29430
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". For quantitative NMR measurements, 64k data points were sampled with the spectral width set at 16 ppm and a relaxation delay of 30 s. Quantification was performed using the digital ERETIC method.\u2075\u2079",
+        "start_index": 29430,
+        "end_index": 29629
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Dynamic light scattering (DLS) data was acquired on a Zetasizer ZS instrument (Malvern) in backscattering mode at 25\u00b0C. Measurements were performed in disposable\nplastic cuvettes and recorded three times after equilibrating for 120 seconds. Data processing was performed using Malvern ZS Explorer software using the \u201cgeneral purpose\u201d analysis model.",
+        "start_index": 29629,
+        "end_index": 29978
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "High-resolution transmission electron microscopy (HR-TEM) imaging was performed on a JEOL JEM-F200 operated in TEM mode at a beam energy of 200 kV. Samples were prepared by drop-casting diluted solutions of NPs onto ultra-thin carbon film-coated 400 mesh lacey carbon copper grids. TEM images were analyzed by ImageJ software",
+        "start_index": 29978,
+        "end_index": 30303
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". For the core size measurements, 138 particles were manually fitted with the \u201dElliptical Selections\u201d tool, and for each particle, the lengths of the major and minor axes were derived.",
+        "start_index": 30303,
+        "end_index": 30487
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Thermogravimetric analysis (TGA) was performed on a TGA5500 (TA Instruments). The samples were heated to 800\u00b0C at a ramping rate of 5\u00b0C/min in air. The samples were held for 15 min at the final temperature to ensure that all organic substances had burned out. The TGA curves were analyzed with the TRIOS software.",
+        "start_index": 30487,
+        "end_index": 30800
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Ultraviolet-visible (UV-Vis) spectrophotometry The spectra were recorded using a Lambda 365 UV / Vis spectrophotometer (PerkinElmer) in quartz cuvettes from 200 to 600 nm with the step of 1 nm with the scanning speed of 960 nm/min.",
+        "start_index": 30800,
+        "end_index": 31031
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Photoluminescence (PL) spectra were recorded in quartz cuvettes on a Spectrofluorometer SF5 (Edinburgh Instruments) with a standard cuvette holder SC-05. A xenon lamp was used as an excitation source, and data were processed with the Fluoracle software. Absorbance spectra were measured from 200-600 nm with a 1 nm bandwidth and a step of 1 nm",
+        "start_index": 31031,
+        "end_index": 31374
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The absorbance data were used to calculate a real concentration of dye in the samples. For PL measurements, the samples were excited at the maximum of AF488-DBCO (492 nm), and the fluorescence spectra were measured from 507 to 600 nm with 0.5 nm bandwidth and with 0.5 nm step. The dwell time was kept at 0.2 s for all the measurements.",
+        "start_index": 31374,
+        "end_index": 31712
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The Fourier-transform infrared (FTIR) analysis was done on Perkin Elmer spectrum 2 ATR-FTIR with a diamond crystal.\nNanoparticle synthesis\n\nHfO$_2$ nanoparticles",
+        "start_index": 31712,
+        "end_index": 31873
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "HfO$_2$ NCs were synthesized using a solvothermal method according to Lauria et al.$^{44}$ In a nitrogen-filled glovebox, 2.26 g of hafnium(IV) tert-butoxide (4.8 mmol, 1.94 mL) and 40 mL of anhydrous benzyl alcohol were mixed in a Teflon-lined 125 mL Parr bomb, sealed and taken out of the glovebox",
+        "start_index": 31873,
+        "end_index": 32172
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The Parr bomb was then placed in a muffle furnace for 96 h at 220$^\\circ$C. After synthesis, the nanoparticles were collected by addition of 20 mL of diethyl ether and centrifugating for 3 min at 8000 rpm. The supernatant was discarded and the precipitate was washed once more with 20 mL of diethyl ether",
+        "start_index": 32172,
+        "end_index": 32478
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". For functionalization, the nanoparticles were dispersed in 5 mL of toluene, resulting in a milky turbid liquid, to which 381 $\\mu$L of 2-[2-(2-methoxyethoxy)ethoxy]acetic acid (MEEAA, 0.328 g, 1.82 mmol) was added followed by 20 min of sonication. The solution became transparent immediately upon the addition of the ligand",
+        "start_index": 32478,
+        "end_index": 32803
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". For purification, the nanoparticles were precipitated by adding 10 mL of hexane (a mixture of isomers) and centrifuged at 5000 rcf for 5 min. The supernatant was then discarded, and the solid residue was redispersed in 1 mL of toluene",
+        "start_index": 32803,
+        "end_index": 33039
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The precipitation-redispersion cycle was repeated twice more with a 2 mL of hexane (a mixture of isomers) before the final resuspension of the particles in toluene, and the final isolated yield was 46%.",
+        "start_index": 33039,
+        "end_index": 33243
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Alternatively, (6-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethoxy}-hexyl)phosphonic acid was used as a stabilizing ligand. In this case, the particles were dispersed in 5 mL of chloroform, and, instead of MEEAA, 1.2 mL of 0.5 M ligand solution in chloroform (0.197 g, 0",
+        "start_index": 33243,
+        "end_index": 33504
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".6 mmol) was added to the synthesized NPs and further purification was carried out in the same way as described above. The final yield was 44%.",
+        "start_index": 33504,
+        "end_index": 33647
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Ligands syntheses",
+        "start_index": 33647,
+        "end_index": 33664
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "NDA-(EG)$_2$-OCH$_3$ synthesis: The ligand was synthesized in three steps according to Deblock et al.$^{37}$ $^1$H NMR (500 MHz, D$_2$O): $\\delta$ 3.13 (t, 2H, $J = 6.22$ Hz), 3.35 (s, 3H), 3.54-3",
+        "start_index": 33664,
+        "end_index": 33860
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".67 (m, 10H), 3.99 (s, 2H), 6.76 (s, 1H), 7.68 (s, 1H). HRMS (M = C$_{15}$H$_{22}$N$_2$O$_8$, MW = 358.14 g/mol: m/z (positive mode) = 359.15 ([M+H]$^+$, calcd",
+        "start_index": 33860,
+        "end_index": 34019
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". m/z = 359.15).",
+        "start_index": 34019,
+        "end_index": 34035
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "NDA-(EG)$_2$-N$_3$ synthesis: The synthesis is inspired by Deblock et al.,$^{26}$ but is performed with a shorter PEG chain. 100 mg (0.333 mmol, 1 eq) of NHS-PEG$_2$-N$_3$ and 121.76 mg (0.411 mmol, 1",
+        "start_index": 34035,
+        "end_index": 34235
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".23 eq) of nitrodopamine hemisulfate were dissolved in 5 mL of dry DMF in a predried flask, resulting in a dark orange-brown solution. The flask was sealed, flushed with argon, and cooled in an ice bath for 15 min. Then 113 $\\mu$L (103.83 mg, 1.028 mmol, 3",
+        "start_index": 34235,
+        "end_index": 34491
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".4 eq) of N-methylmorpholine was added dropwise to the mixture using an air-free technique. The mixture was left on stirring for 72 h at room temperature. For purification, the solvent was removed under the reduced pressure. The remaining dark brown liquid was dissolved in 3 mL of deionized water and 2 mL of 1M HCl was added to adjust the pH to 1. The product was extracted three times with 5 mL of chloroform",
+        "start_index": 34491,
+        "end_index": 34902
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The organic phase was collected, dried under reduced pressure, and dissolved in MQ water. Finally, after freeze-drying a fluffy yellow product was obtained with a yield of 55%. $^1$H NMR (500 MHz, D$_2$O): $\\delta$ 2.44 (t, 2H, $J = 6.15$ Hz), 3.08 (t, 2H, $J = 6",
+        "start_index": 34902,
+        "end_index": 35167
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".47$ Hz), 3.47 (t, 2H, $J = 5.76$ Hz), 3.53 (t, 2H, $J = 6.43$ Hz), 3.58-3.66 (m, 4H), 3.68 (t, 2H, $J = 5.78$ Hz), 6.82 (s, 1H), 7",
+        "start_index": 35167,
+        "end_index": 35298
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".68 (s, 1H). HRMS (M = C$_{15}$H$_{21}$N$_5$O$_7$, MW = 383.14 g/mol: m/z (positive mode) = 384.15 ([M+H]$^+$, calcd. m/z = 384.15).",
+        "start_index": 35298,
+        "end_index": 35430
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(Sulfobetaine-azide) phosphonic acid copolymer: The synthesis of the methacrylate-PEG-N$_3$ monomer and the (sulfobetaine-azide)-phosphonic acid block copolymer was carried out as previously reported in$^{13}$ and$^{57}$ respectively with the exception that only 2 eq of azide monomer was used for the synthesis of the sulfobetaine-azide polymer block",
+        "start_index": 35430,
+        "end_index": 35781
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The monomer was isolated with a yield of 20% and the final polymer was obtained with an overall yield of",
+        "start_index": 35781,
+        "end_index": 35887
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-swjjx  ORCID: https://orcid.org/0000-0003-4415-8224  Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\n\n\nNanoparticles transfer to water",
+        "start_index": 35887,
+        "end_index": 36070
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "As both the nitrodopamine-based and polyphosphonate ligands are not soluble in toluene, we first disperse the nanoparticles in water before ligand exchange. A portion of the nanoparticle solution with the amount needed for the ligand exchange (typically, 20 mg) was dried from toluene on the Schlenk line. The solid residue was dissolved in 1 mL of ethanol, followed by 15 min of sonication",
+        "start_index": 36070,
+        "end_index": 36460
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Then, the nanoparticles were dried again and dissolved in 1 mL of methanol in the same way as described above. Finally, dried nanoparticles were dissolved in the amount of MQ water required for the ligand exchange. For the NPs stabilized with MEEAA, slight turbidity was observed in the final dispersion caused by the partial desorption of carboxylic acid.",
+        "start_index": 36460,
+        "end_index": 36818
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Ligand exchange to catecholate ligands",
+        "start_index": 36818,
+        "end_index": 36856
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "N$_3$-carrying nanoparticles: 20 mg of MEEAA-stabilized nanoparticles were dissolved in 1 mL of MQ water. From the TGA and TEM data, this corresponds to $1.35 \\times 10^{17}$ particles (for the calculation, see SI). According to ERETIC, the concentration of the ligands is equal to 1.35 \u00b5mol/mg, which corresponds to 27 \u00b5ligands in the prepared solution.",
+        "start_index": 36856,
+        "end_index": 37210
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "In a separate vial, an alkaline solution of NDA-(EG)$_2$-OCH$_3$ and NDA-(EG)$_2$-N$_3$ mixture was prepared. To prepare the mixed shell with 2 azide groups per nanoparticle, 0.17 mg of NDA-(EG)$_2$-N$_3$ (2 eq w.r.t number of particles, $2.7 \\times 10^{17}$ molecules, 0",
+        "start_index": 37210,
+        "end_index": 37481
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".45 \u00b5mol, 0.017 eq w.r.t surface ligands) and 10.48 mg of NDA-(EG)$_2$-OCH$_3$ ($1.8 \\times 10^{19}$ molecules, 29.25 \u00b5mol, 1.083 eq w.r.t. surface ligands), were dissolved in 2 mL of MQ water. To this solution, 2.38 mg of NaOH (59",
+        "start_index": 37481,
+        "end_index": 37712
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".4 \u00b5mol, 1:2 molar ratio w.r.t. to total ligands) was added, resulting in a deep burgundy color with pH = 11. Then, the nanoparticle solution was quickly poured into the ligand solution and sonicated for 20 min. The resulting nanoparticles were purified by spin",
+        "start_index": 37712,
+        "end_index": 37973
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "filtration using Vivaspin 6 concentrators (MWCO = 10 kDa) at 5000 rcf for 3 min at least 7 times until a colorless filtrate was obtained. The purified particles were collected, dried under reduced pressure at 40\u00b0C for storage, and dispersed only in a solvent before use.",
+        "start_index": 37973,
+        "end_index": 38243
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "For the preparation of nanoparticles with 5 or 10 N\u2083 groups per particle, the ratio of the N\u2083 carrying ligand is changed accordingly while keeping the total number of ligands as 1.1 eq w.r.t. surface ligands, and the rest of the procedure remained the same.",
+        "start_index": 38243,
+        "end_index": 38500
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "**Nanoparticles with no functional groups:** The ligand exchange was performed in the same way as described above, with the exception, that all 1.1 eq of ligands corresponded to nitrodopamine-mPEG alone.\n\n**Sample preparation for qNMR**",
+        "start_index": 38500,
+        "end_index": 38736
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "10.0 mg of purified and dried NPs with 5 N\u2083/NP were weighed in an NMR tube and dissolved in 550 \u03bcL of D\u2082O. After performing the qNMR measurement on the NP solution, 20 \u03bcL of HBF\u2084 (50% in water) was added to the same tube and the solution was vortexed for 30 s",
+        "start_index": 38736,
+        "end_index": 38995
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The tube was left unshaken overnight to allow the precipitate of destabilized NPs to settle in the sediment. The next day, ERETIC was performed on the solution of stripped ligands and quantification was performed in the same way to compare the ligand concentration. As a control experiment, qNMR was performed on 12.5 mg of MEEAA-stabilized NPs dissolved in 550 \u03bcL of D\u2082O.",
+        "start_index": 38995,
+        "end_index": 39369
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "**Fluorescence quenching upon click-reaction with N\u2083 groups**",
+        "start_index": 39369,
+        "end_index": 39430
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "10 solutions of 0.0164 mg/mL of nanoparticles (2.4 \u00b7 10\u00b9\u2074 particles) with increasing amounts of fluorescent dye (AF488-DBCO) were prepared by diluting 32.8 \u03bcL of 1 mg/mL of nanoparticles in PBS (Dulbecco PBS, pH = 7.4) followed by addition of 0 \u2013 56.2 \u03bcL of a 0",
+        "start_index": 39430,
+        "end_index": 39691
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".01 mg/mL stock solution of the dye prepared in MQ water corresponding to 0 \u2013 15 eq equivalents of the dye w.r.t. to the number of NPs. The amount of PBS buffer was varied to keep the concentration of the particles constant (total volume = 2 mL) and the concentration of the dye in...",
+        "start_index": 39691,
+        "end_index": 39975
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "the stock solution was confirmed from the absorbance at 492 nm. All solutions were prepared in brown glass vials and kept in the dark after preparation to prevent photodegradation of the dye. The reactions were allowed to stir at RT for 72 hours in the dark before the PL measurements to ensure that the click reaction had reached completion. In parallel, reference solutions with the same concentration of the DBCO-carrying dye, but without nanoparticles, were prepared and kept under the same conditions",
+        "start_index": 39975,
+        "end_index": 40480
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". The measurement parameters and dye concentrations were chosen such that the emission intensity of the sample with maximum concentration did not exceed $10^6$ counts to avoid saturation of the PL detector.",
+        "start_index": 40480,
+        "end_index": 40686
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The maximum PL intensity at 518 nm was plotted against the number of dye equivalents (dye:NP ratio) and the obtained dataset was fitted with the built-in piecewise linear function with two segments \u201dPWL2\u201d in OriginPro (See more detailed explanation in Supplementary Information) from which the intersection and its error were calculated. The intersection found corresponds to the number of azide groups per NP.",
+        "start_index": 40686,
+        "end_index": 41096
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "Depending on the number of azide groups per particle, the amount of dye added was adjusted so that the number of data points before and after the intersection point was enough for a good linear fit.\n\n**UV tracking of DBCO-N$_3$ click-reaction**",
+        "start_index": 41096,
+        "end_index": 41340
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "For a typical experiment, five quartz FUV range spectrophotometer cuvettes (R-3010-T, Spectrocell Inc, USA) were equipped with a magnetic stirring bar and used for reactions and UV-vis absorbance measurements. In one of the cuvettes, a DBCO control was prepared: 600 \u00b5L of 0",
+        "start_index": 41340,
+        "end_index": 41614
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".35 \u00b5mol/mL DBCO-PEG$_4$-alcohol solution in PBS was diluted with 2400 \u00b5L of PBS. The NPs control was prepared in a second cuvette: 600 \u00b5L of 1 mg/mL nanoparticles solution ($N_{NP} = 4.14 \\cdot 10^{15}$) in PBS was diluted with 2400 \u00b5L of PBS. In three sample cuvettes: 600 \u00b5L of 0",
+        "start_index": 41614,
+        "end_index": 41896
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ".35 \u00b5mol/mL DBCO-PEG$_4$-alcohol solution in PBS, 600 \u00b5L of 1 mg/mL nanoparticles solution in PBS, and 1800 \u00b5L of PBS were mixed. There is at least 30x excess of DBCO w.r.t. number of particles in each sample. This means that for NPs with 2, 5 or",
+        "start_index": 41896,
+        "end_index": 42142
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "10 azide groups per particle, there is at least a 15, 6, or 3x excess of DBCO, respectively. The solutions were left stirring at RT and the absorbance spectra were recorded from 200 to 600 nm with the step of 1 nm every two hours until the absorbance did not change anymore.",
+        "start_index": 42142,
+        "end_index": 42416
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "To take into account only the contribution of DBCO in the samples, we subtracted the spectra of the NPs control at different times from the sample spectra",
+        "start_index": 42416,
+        "end_index": 42570
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Using the extinction coefficient of DBCO at 308 nm ($\\varepsilon = 12000 \\text{ L} \\cdot \\text{cm}^{-1} \\cdot \\text{mol}^{-1}$) and the optical path of cuvette $l$, the absorbance $A$ of the control samples and the corrected sample were recalculated to concentration:",
+        "start_index": 42570,
+        "end_index": 42839
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "$$C_{DBCO} = \\frac{A}{\\varepsilon \\cdot l}$$  \n\n(2)",
+        "start_index": 42839,
+        "end_index": 42890
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "The concentration difference of DBCO at 8 h $\\Delta C_{8h}$ between the control and the sample is recalculated to the number of DBCO molecules $N_{DBCO}$. As DBCO and $N_3$ react in a 1:1 ratio, the number obtained is equal to the number of azide molecules $N_{N_3}$ in the reaction mixture",
+        "start_index": 42890,
+        "end_index": 43180
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Using the volume of the reaction mixture $V_{reaction}$ and Avogadro\u2019s number $N_A$:",
+        "start_index": 43180,
+        "end_index": 43266
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "$$N_{DBCO} = N_{N_3} = \\Delta C_{8h} \\cdot V_{reaction} \\cdot N_A$$  \n\n(3)\n\nThen the azide-to-nanoparticle ratio was calculated as follows:\n\n$$N_3 : NP = \\frac{N_{N_3}}{N_{NP}}$$  \n\n(4)\n\nAcknowledgement",
+        "start_index": 43266,
+        "end_index": 43468
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "This work was supported by the Swiss Nanoscience Institute. The authors would like to acknowledge Jikson Pulparayil Mathew for TGA measurements.\n\nSupporting Information Available\n\nSupporting figures, supporting tables, and calculations of NPs number and surface area.\nReferences",
+        "start_index": 43468,
+        "end_index": 43746
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(1) Pankhurst, Q. A.; Connolly, J.; Jones, S. K.; Dobson, J. Applications of magnetic nanoparticles in biomedicine. *Journal of physics D: Applied physics* **2003**, *36*, R167.",
+        "start_index": 43746,
+        "end_index": 43923
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(2) Patra, J. K.; Das, G.; Fraceto, L. F.; Campos, E. V. R.; Rodriguez-Torres, M. d. P.; Acosta-Torres, L. S.; Diaz-Torres, L. A.; Grillo, R.; Swamy, M. K.; Sharma, S.; Habtemariam, S.; Shin, H.-S",
+        "start_index": 43923,
+        "end_index": 44119
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Nano based drug delivery systems: recent developments and future prospects. *Journal of nanobiotechnology* **2018**, *16*, 1\u201333.",
+        "start_index": 44119,
+        "end_index": 44249
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(3) Alivisatos, P. The use of nanocrystals in biological detection. *Nature biotechnology* **2004**, *22*, 47\u201352.",
+        "start_index": 44249,
+        "end_index": 44362
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(4) Alkilany, A. M.; Zhu, L.; Weller, H.; Mews, A.; Parak, W. J.; Barz, M.; Feliu, N. Ligand density on nanoparticles: A parameter with critical impact on nanomedicine. *Advanced Drug Delivery Reviews* **2019**, *143*, 22\u201336.",
+        "start_index": 44362,
+        "end_index": 44587
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(5) Makhani, E. Y.; Zhang, A.; Haun, J. B. Quantifying and controlling bond multivalency for advanced nanoparticle targeting to cells. *Nano Convergence* **2021**, *8*, 1\u201323.",
+        "start_index": 44587,
+        "end_index": 44761
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(6) Elias, D. R.; Poloukhtine, A.; Popik, V.; Tsourkas, A. Effect of ligand density, receptor density, and nanoparticle size on cell targeting. *Nanomedicine: nanotechnology, biology and medicine* **2013**, *9*, 194\u2013201.",
+        "start_index": 44761,
+        "end_index": 44981
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(7) Sultana, N.; David, A. E. Improving Cancer Targeting: A Study on the Effect of Dual-Ligand Density on Targeting of Cells Having Differential Expression of Target Biomarkers. *International Journal of Molecular Sciences* **2023**, *24*, 13048.",
+        "start_index": 44981,
+        "end_index": 45227
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(8) Fei, W.; Wang, X.; Guo, J.; Wang, C. Design and investigation of targeting agent orientation and density on nanoparticles for enhancing cellular uptake efficiency. *Journal of Materials Chemistry B* **2023**, *11*, 8228\u20138240.",
+        "start_index": 45227,
+        "end_index": 45456
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(9) Colombo, M.; Fiandra, L.; Alessio, G.; Mazzucchelli, S.; Nebuloni, M.; De Palma, C.; Kantner, K.; Pelaz, B.; Rotem, R.; Corsi, F.; Parak, W. J.; Prosperi, D. Tumour homing and therapeutic effect of colloidal nanoparticles depend on the number of attached antibodies",
+        "start_index": 45456,
+        "end_index": 45725
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". *Nature communications* **2016**, *7*, 13818.",
+        "start_index": 45725,
+        "end_index": 45772
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(10) Kolb, H. C.; Sharpless, K. B. The growing impact of click chemistry on drug discovery. *Drug discovery today* **2003**, *8*, 1128\u20131137.",
+        "start_index": 45772,
+        "end_index": 45912
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(11) Thirumurugan, P.; Matosiuk, D.; Jozwiak, K. Click chemistry for drug development and diverse chemical\u2013biology applications. *Chemical reviews* **2013**, *113*, 4905\u20134979.",
+        "start_index": 45912,
+        "end_index": 46087
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(12) Lallana, E.; Riguera, R.; Fernandez-Megia, E. Reliable and efficient procedures for the conjugation of biomolecules through Huisgen azide\u2013alkyne cycloadditions. *Angewandte Chemie International Edition* **2011**, *50*, 8794\u20138804.",
+        "start_index": 46087,
+        "end_index": 46321
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(13) Trapiella-Alfonso, L.; Pons, T.; Lequeux, N.; Leleu, L.; Grimaldi, J.; Tasso, M.; Oujagir, E.; Seguin, J.; d\u2019Orly\u00e9, F.; Girard, C.; Doan, B.-T.; Varenne, A. Clickable-zwitterionic copolymer capped-quantum dots for in vivo fluorescence tumor imaging",
+        "start_index": 46321,
+        "end_index": 46574
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". *ACS applied materials & interfaces* **2018**, *10*, 17107\u201317116.",
+        "start_index": 46574,
+        "end_index": 46641
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(14) Kotagiri, N.; Li, Z.; Xu, X.; Mondal, S.; Nehorai, A.; Achilefu, S. Antibody quantum dot conjugates developed via copper-free click chemistry for rapid analysis of biological samples using a microfluidic microsphere array system. *Bioconjugate chemistry* **2014**, *25*, 1272\u20131281.",
+        "start_index": 46641,
+        "end_index": 46927
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(15) Zhan, N.; Palui, G.; Merkl, J.-P.; Mattoussi, H. Bio-orthogonal coupling as a means of quantifying the ligand density on hydrophilic quantum dots. *Journal of the American Chemical Society* **2016**, *138*, 3190\u20133201.",
+        "start_index": 46927,
+        "end_index": 47149
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(16) Sakai, R.; Iguchi, H.; Maruyama, T. Quantification of azide groups on a material surface and a biomolecule using a clickable and cleavable fluorescent compound. *RSC advances* **2019**, *9*, 4621\u20134625.",
+        "start_index": 47149,
+        "end_index": 47355
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(17) Abarca, C.; Ali, M. M.; Bowie, D.; Pelton, R. H. A simple assay for azide surface groups on clickable polymeric nanoparticles. *Colloids and Surfaces A: Physicochemical and Engineering Aspects* **2016**, *508*, 192\u2013196.",
+        "start_index": 47355,
+        "end_index": 47579
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(18) Liu, X.; Gong, P.; Song, P.; Xie, F.; Miller II, A. L.; Chen, S.; Lu, L. Rapid conjugation of nanoparticles, proteins and siRNAs to microbubbles by strain-promoted click chemistry for ultrasound imaging and drug delivery. *Polymer chemistry* **2019**, *10*, 705\u2013717.",
+        "start_index": 47579,
+        "end_index": 47850
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(19) van der Meer, S. B.; Loza, K.; Wey, K.; Heggen, M.; Beuck, C.; Bayer, P.; Epple, M. Click chemistry on the surface of ultrasmall gold nanoparticles (2 nm) for covalent ligand attachment followed by NMR spectroscopy. *Langmuir* **2019**, *35*, 7191\u20137204.",
+        "start_index": 47850,
+        "end_index": 48108
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(20) Bankole, O. M.; Nyokong, T. Azide-derivatized gold nanosphere \u201cclicked\u201d to indium and zinc phthalocyanines for improved nonlinear optical limiting. *Journal of Molecular Structure* **2017**, *1136*, 309\u2013320.",
+        "start_index": 48108,
+        "end_index": 48320
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(21) Gakiya-Teruya, M.; Palomino-Marcelo, L.; Pierce, S.; Angeles-Boza, A. M.; Krishna, V.; Rodriguez-Reyes, J. C. F. Enhanced antimicrobial activity of silver nanoparticles conjugated with synthetic peptide by click chemistry. *Journal of Nanoparticle Research* **2020**, *22*, 90.",
+        "start_index": 48320,
+        "end_index": 48602
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(22) Zhang, Y.; Zabinyakov, N.; Majonis, D.; Bouzekri, A.; Ornatsky, O.; Baranov, V.; Winnik, M. A. Tantalum oxide nanoparticle-based mass tag for mass cytometry. *Analytical chemistry* **2020**, *92*, 5741\u20135749.",
+        "start_index": 48602,
+        "end_index": 48814
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(23) Thorek, D. L.; Elias, e. R.; Tsourkas, A. Comparative analysis of nanoparticle-antibody conjugations: carbodiimide versus click chemistry. *Molecular imaging* **2009**, *8*, 7290\u20132009.",
+        "start_index": 48814,
+        "end_index": 49003
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(24) Pozo-Torres, E.; Caro, C.; Avasthi, A.; P\u00e1ez-Mu\u00f1oz, J. M.; Garc\u00eda-Mart\u00edn, M. L.;\nFern\u00e1ndez, I.; Leal, M. P. Clickable iron oxide NPs based on catechol derived ligands: Synthesis and characterization. *Soft Matter* **2020**, *16*, 3257\u20133266.",
+        "start_index": 49003,
+        "end_index": 49248
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(25) Elliott III, E. W.; Ginzburg, A. L.; Kennedy, Z. C.; Feng, Z.; Hutchison, J. E. Single-step synthesis of small, azide-functionalized gold nanoparticles: versatile, water-dispersible reagents for click chemistry. *Langmuir* **2017**, *33*, 5796\u20135802.",
+        "start_index": 49248,
+        "end_index": 49502
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(26) Deblock, L.; Descamps, B.; Goemaere, I.; Goossens, E.; Vergauwen, G.; Debacker, J.; Tummers, P.; Remaut, K.; Van Driessche, I.; De Buysser, K.; De Roo, J.; Vanhove, C",
+        "start_index": 49502,
+        "end_index": 49673
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Dual-Modality Hafnium Oxide Nanocrystals for in Vivo Computed Tomography and Fluorescence Imaging of Sentinel Lymph Nodes. *Chemistry of Materials* **2023**, *35*, 8883\u20138896.",
+        "start_index": 49673,
+        "end_index": 49849
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(27) Gei\u00dfler, D.; Nirmalanathan-Budau, N.; Scholtz, L.; Tavernaro, I.; Resch-Genger, U. Analyzing the surface of functional nanomaterials\u2014how to quantify the total and derivatizable number of functional groups and ligands. *Microchimica Acta* **2021**, *188*, 1\u201328.",
+        "start_index": 49849,
+        "end_index": 50114
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(28) De Roo, J. The surface chemistry of colloidal nanocrystals capped by organic ligands. *Chemistry of Materials* **2023**, *35*, 3781\u20133792.",
+        "start_index": 50114,
+        "end_index": 50256
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(29) Bonvalot, S. et al. NBTXR3, a first-in-class radioenhancer hafnium oxide nanoparticle, plus radiotherapy versus radiotherapy alone in patients with locally advanced soft-tissue sarcoma (Act. In. Sarc): a multicentre, phase 2\u20133, randomised, controlled trial. *The Lancet Oncology* **2019**, *20*, 1148\u20131159.",
+        "start_index": 50256,
+        "end_index": 50567
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(30) Ding, S.; Chen, L.; Liao, J.; Huo, Q.; Wang, Q.; Tian, G.; Yin, W. Harnessing Hafnium-Based Nanomaterials for Cancer Diagnosis and Therapy. *Small* **2023**, *19*, 2300341.",
+        "start_index": 50567,
+        "end_index": 50744
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(31) Goossens, E. et al. From Corrosion Casting to Virtual Dissection: Contrast-Enhanced Vascular Imaging using Hafnium Oxide Nanocrystals. *Small Methods* **2024**, 2301499.",
+        "start_index": 50744,
+        "end_index": 50918
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(32) Ostadhossein, F.; Moitra, P.; Gunaseelan, N.; Nelappana, M.; Lowe, C.; Moghiseh, M.; Butler, A.; de Ruiter, N.; Mandalika, H.; Tripathi, I.; Misra, S. K.; Pan, D. Hitchhiking probiotic vectors to deliver ultra-small hafnia nanoparticles for \u2018Color\u2019gastrointestinal tract photon counting X-ray imaging",
+        "start_index": 50918,
+        "end_index": 51223
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Nanoscale Horizons 2022, 7, 533\u2013542.",
+        "start_index": 51223,
+        "end_index": 51261
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(33) Ostadhossein, F.; Tripathi, I.; Benig, L.; LoBato, D.; Moghiseh, M.; Lowe, C.; Raja, A.; Butler, A.; Panta, R.; Anjomrouz, M.; Chernoglazov, A.; Pan, D",
+        "start_index": 51261,
+        "end_index": 51417
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Multi-\u201cColor\u201d Delineation of Bone Microdamages Using Ligand-Directed Sub-5 nm Hafnia Nanodots and Photon Counting CT Imaging. Advanced Functional Materials 2020, 30, 1904936.",
+        "start_index": 51417,
+        "end_index": 51593
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(34) Roessler, A.-C.; Hupfer, M.; Kolditz, D.; Jost, G.; Pietsch, H.; Kalender, W. A. High atomic number contrast media offer potential for radiation dose reduction in contrast-enhanced computed tomography. Investigative radiology 2016, 51, 249\u2013254.",
+        "start_index": 51593,
+        "end_index": 51842
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(35) Pujari, S. P.; Scheres, L.; Marcelis, A. T.; Zuilhof, H. Covalent surface modification of oxide surfaces. Angewandte Chemie International Edition 2014, 53, 6322\u20136356.",
+        "start_index": 51842,
+        "end_index": 52013
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(36) Malisova, B.; Tosatti, S.; Textor, M.; Gademann, K.; Zu\u00a8 rcher, S. Poly (ethylene glycol) adlayers immobilized to metal oxide substrates through catechol derivatives: influence of assembly conditions on formation and stability. Langmuir 2010, 26, 4018\u20134026.",
+        "start_index": 52013,
+        "end_index": 52275
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(37) Deblock, L.; Goossens, E.; Pokratath, R.; De Buysser, K.; De Roo, J. Mapping out the aqueous surface chemistry of metal oxide nanocrystals: Carboxylate, phosphonate, and catecholate ligands. JACS Au 2022, 2, 711\u2013722.",
+        "start_index": 52275,
+        "end_index": 52496
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(38) Wach, J.-Y.; Malisova, B.; Bonazzi, S.; Tosatti, S.; Textor, M.; Z\u00fcrcher, S.; Gademann, K. Protein-resistant surfaces through mild dopamine surface functionalization. Chemistry\u2013A European Journal 2008, 14, 10579\u201310584.",
+        "start_index": 52496,
+        "end_index": 52719
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(39) Gomes, J.; Grunau, A.; Lawrence, A. K.; Eberl, L.; Gademann, K. Bioinspired surfaces against bacterial infections. CHIMIA International Journal for Chemistry 2013, 67, 275\u2013278.",
+        "start_index": 52719,
+        "end_index": 52900
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(40) Jankovic, I. A.; Saponjic, Z. V.; Comor, M. I.; Nedeljkovic, J. M. Surface modification of colloidal TiO2 nanoparticles with bidentate benzene derivatives. *The Journal of Physical Chemistry C* 2009, 113, 12645\u201312652.",
+        "start_index": 52900,
+        "end_index": 53122
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(41) Amstad, E.; Gillich, T.; Bilecka, I.; Textor, M.; Reimhult, E. Ultrastable iron oxide nanoparticle colloidal suspensions using dispersants with catechol-derived anchor groups. *Nano letters* 2009, 9, 4042\u20134048.",
+        "start_index": 53122,
+        "end_index": 53337
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(42) Amstad, E.; Gehring, A. U.; Fischer, H.; Nagaiyanallur, V. V.; H\u00e4hner, G.; Textor, M.; Reimhult, E. Influence of electronegative substituents on the binding affinity of catechol-derived anchors to Fe3O4 nanoparticles. *The Journal of Physical Chemistry C* 2011, 115, 683\u2013691.",
+        "start_index": 53337,
+        "end_index": 53617
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(43) Yuen, A. K.; Hutton, G. A.; Masters, A. F.; Maschmeyer, T. The interplay of catechol ligands with nanoparticulate iron oxides. *Dalton Transactions* 2012, 41, 2545\u20132559.",
+        "start_index": 53617,
+        "end_index": 53791
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(44) Lauria, A.; Villa, I.; Fasoli, M.; Niederberger, M.; Vedda, A. Multifunctional role of rare earth doping in optical materials: Nonaqueous sol\u2013gel synthesis of stabilized cubic HfO2 luminescent nanoparticles. *Acs Nano* 2013, 7, 7041\u20137052.",
+        "start_index": 53791,
+        "end_index": 54034
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(45) Smith, A. M.; Johnston, K. A.; Crawford, S. E.; Marbella, L. E.; Millstone, J. E. Ligand density quantification on colloidal inorganic nanoparticles. *Analyst* 2017, 142, 11\u201329.",
+        "start_index": 54034,
+        "end_index": 54216
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(46) Dong, A.; Ye, X.; Chen, J.; Kang, Y.; Gordon, T.; Kikkawa, J. M.; Murray, C. B. A generalized ligand-exchange strategy enabling sequential surface functionalization of colloidal nanocrystals. *Journal of the American Chemical Society* 2011, 133, 998\u20131006.",
+        "start_index": 54216,
+        "end_index": 54476
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(47) Nag, A.; Zhang, H.; Janke, E.; Talapin, D. V. Inorganic surface ligands for colloidal nanomaterials. *Zeitschrift f\u00fcr Physikalische Chemie* 2015, 229, 85\u2013107.",
+        "start_index": 54476,
+        "end_index": 54639
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(48) Dhaene, E.; Pokratath, R.; Aalling-Frederiksen, O.; Jensen, K. M.; Smet, P. F.;\nDe Buysser, K.; De Roo, J. Monoalkyl phosphinic acids as ligands in nanocrystal synthesis. *ACS nano* 2022, *16*, 7361\u20137372.",
+        "start_index": 54639,
+        "end_index": 54848
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(49) Liu, Y.; Cadavid, D.; Ib\u00e1\u00f1ez, M.; De Roo, J.; Ortega, S.; Dobrozhan, O.; Kovalenko, M. V.; Cabot, A. Colloidal AgSbSe 2 nanocrystals: Surface analysis, electronic doping and processing into thermoelectric nanomaterials. *Journal of Materials Chemistry C* 2016, *4*, 4756\u20134762.",
+        "start_index": 54848,
+        "end_index": 55129
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(50) Calcabrini, M.; Van den Eynden, D.; Ribot, S. S.; Pokratath, R.; Llorca, J.; De Roo, J.; Ib\u00e1\u00f1ez, M. Ligand conversion in nanocrystal synthesis: The oxidation of alkylamines to fatty acids by nitrate. *JACS Au* 2021, *1*, 1898\u20131903.",
+        "start_index": 55129,
+        "end_index": 55365
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(51) De Keukeleere, K.; Coucke, S.; De Canck, E.; Van Der Voort, P.; Delpech, F.; Coppeli, Y.; Hens, Z.; Van Driessche, I.; Owen, J. S.; De Roo, J",
+        "start_index": 55365,
+        "end_index": 55511
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". Stabilization of colloidal Ti, Zr, and Hf oxide nanocrystals by protonated tri-n-octylphosphine oxide (TOPO) and its decomposition products. *Chemistry of Materials* 2017, *29*, 10233\u201310242.",
+        "start_index": 55511,
+        "end_index": 55703
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(52) Qian, C.-G.; Zhu, S.; Feng, P.-J.; Chen, Y.-L.; Yu, J.-C.; Tang, X.; Liu, Y.; Shen, Q.-D. Conjugated polymer nanoparticles for fluorescence imaging and sensing of neurotransmitter dopamine in living cells and the brains of zebrafish larvae. *ACS Applied Materials & Interfaces* 2015, *7*, 18581\u201318589.",
+        "start_index": 55703,
+        "end_index": 56009
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(53) Zhang, N.; Wang, Y.; Leng, S.; Xu, S.; Zhang, L.; Wang, Q.; Zhang, Q.; Hu, H.-Y. An efficient fluorescence sensor for nitroreductase selective imaging based on intramolecular photoinduced electron transfer. *Talanta* 2019, *205*, 120133.",
+        "start_index": 56009,
+        "end_index": 56251
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(54) Chen, D.; Yang, J.; Dai, J.; Lou, X.; Zhong, C.; Yu, X.; Xia, F. A low background D\u2013A\u2013D type fluorescent probe for imaging of biothiols in living cells. *Journal of Materials Chemistry B* 2018, *6*, 5248\u20135255.",
+        "start_index": 56251,
+        "end_index": 56465
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(55) Niu, H.; Liu, J.; O\u2019Connor, H. M.; Gunnlaugsson, T.; James, T. D.; Zhang, H. Photoin-\nduced electron transfer (PeT) based fluorescent probes for cellular imaging and disease therapy. *Chemical Society Reviews* 2023, 52, 2322\u20132357.",
+        "start_index": 56465,
+        "end_index": 56700
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(56) Pickens, C. J.; Johnson, S. N.; Pressnall, M. M.; Leon, M. A.; Berkland, C. J. Practical considerations, challenges, and limitations of bioconjugation via azide\u2013alkyne cycloaddition. *Bioconjugate chemistry* 2017, 29, 686\u2013701.",
+        "start_index": 56700,
+        "end_index": 56931
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(57) Delille, F.; Balloul, E.; Hajj, B.; Hanafi, M.; Morand, C.; Xu, X. Z.; Dumas, S.; Coulon, A.; Lequeux, N.; Pons, T. Sulfobetaine-Phosphonate Block Copolymer Coated Iron Oxide Nanoparticles for Genomic Locus Targeting and Magnetic Micromanipulation in the Nucleus of Living Cells",
+        "start_index": 56931,
+        "end_index": 57214
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": ". *Nano Letters* 2023, 23, 5919\u20135926.",
+        "start_index": 57214,
+        "end_index": 57251
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(58) Dhaene, E.; Seno, C.; De Roo, J. Synthesis of zirconium (IV) and hafnium (IV) isopropoxide, sec-butoxide and tert-butoxide. *Dalton Trans.* 2024, 53, 11769\u201311777.",
+        "start_index": 57251,
+        "end_index": 57418
+    },
+    {
+        "document_name": "50.txt",
+        "chunk_text": "(59) Akoka, S.; Barantin, L.; Trierweiler, M. Concentration measurement by proton NMR using the ERETIC method. *Analytical Chemistry* 1999, 71, 2554\u20132557.",
+        "start_index": 57418,
+        "end_index": 57572
+    }
+]

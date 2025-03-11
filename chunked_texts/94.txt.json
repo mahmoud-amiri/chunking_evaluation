@@ -1,0 +1,566 @@
+[
+    {
+        "document_name": "94.txt",
+        "chunk_text": "1\u2019-cyano substitution of Remdesivir exerts the \u201ctemplate-dependent\u201d inhibition on the viral transcription of SARS-CoV-2\n\nXueying Luo$^{1,2}$, Xiaowei Wang$^3$, Xin Gao$^{4,5}$, Lu Zhang$^{1,2,6,*}$",
+        "start_index": 0,
+        "end_index": 197
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "$^1$ State Key Laboratory of Structural Chemistry, Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou, Fujian, China\n$^2$ University of Chinese Academy of Sciences, Beijing, China\n$^3$ Department of Chemical and Biological Engineering, Centre of Systems Biology and Human Health, State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science and Technology, Kowloon, Hong Kong",
+        "start_index": 197,
+        "end_index": 637
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "$^4$ Computer Science Program, Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, 23955-6900, Kingdom of Saudi Arabia\n$^5$ KAUST Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology\n$^6$ Fujian Provincial Key Laboratory of Theoretical and Computational Chemistry, Fujian, China",
+        "start_index": 637,
+        "end_index": 1059
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "* To whom correspondence should be addressed. Email: luzhang@fjirsm.ac.cn\nAbstract",
+        "start_index": 1059,
+        "end_index": 1141
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Remdesivir is one nucleotide analog prodrug capable to terminate RNA synthesis in SARS-CoV-2 RdRp by two distinct mechanisms. The \u201cdelayed chain termination mechanism\u201d has been extensively investigated, while the \u201ctemplate-dependent inhibition mechanism\u201d remains elusive. In this study, we have demonstrated that Remdesivir embedded in the template strand seldom directly disrupted the complementary NTP incorporation at the active site",
+        "start_index": 1141,
+        "end_index": 1577
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Instead, the translocation of the template strand from +2 to +1 site was hindered, as the 1\u2019-cyano group of Remdesivir would sterically clash with V557. Moreover, we have elucidated the molecular mechanism of how SARS-CoV-2 RdRp gained the drug resistance to Remdesivir upon V557L mutation",
+        "start_index": 1577,
+        "end_index": 1868
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Overall, our studies provided valuable insight into the \u201ctemplate-dependent inhibition mechanism\u201d exerted by Remdesivir on SARS-CoV-2 RdRp and paved venues for an alternative drug design strategy for the treatment of COVID-19.",
+        "start_index": 1868,
+        "end_index": 2096
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "The outbreak of coronavirus disease 2019 (COVID-19) has become a global pandemic, and over 455 million confirmed cases have been reported by March, 2022\\(^1\\). Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the novel coronavirus that has caused COVID-19 and can be furtively transmitted among humans\\(^2,3\\)",
+        "start_index": 2096,
+        "end_index": 2420
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". To curb the healthy crisis, great efforts have been devoted to exploring the effective treatment for COVID-19\\(^4,5\\).",
+        "start_index": 2420,
+        "end_index": 2540
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "The core polymerase complex of SARS-CoV-2 has become one promising antiviral drug target. It is the minimal scaffold to mediate the RNA synthesis and plays a central role in viral replication and transcription. It is composed of three non-structural proteins (nsp) (Fig",
+        "start_index": 2540,
+        "end_index": 2809
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". 1A), where nsp12 mainly conducts the RNA synthesis in the active site, and nsp7 and nsp8 serve as cofactors to stimulate RNA-dependent RNA polymerase (RdRp) activity\\(^6-10\\). Since the outbreak of the pandemic, nucleotide analogs have been widely explored as potential inhibitors to terminate the RNA synthesis in SARS-CoV-2 RdRp\\(^5,11-15\\).",
+        "start_index": 2809,
+        "end_index": 3154
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Remdesivir is one representative nucleotide analog prodrug that has demonstrated therapeutic efficacy in the animal model of SARS-CoV-2 RdRp and effectively terminated viral RNA synthesis in the biochemical experiments through \u201cdelayed termination mechanism\u201d\\(^9,10,16-21\\). The chemical structure of Remdesivir\u2019s active form (RDV-TP) resembles that of natural adenosine triphosphate (ATP) (Fig",
+        "start_index": 3154,
+        "end_index": 3548
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". 1B and 1C). Previous studies have demonstrated that RDV-TP can efficiently compete with ATP incorporating into the nascent strand\\(^9,16,22-27\\). However, three NTPs can still be consecutively added into the nascent strand after the incorporation of RDV-TP and the termination is delayed",
+        "start_index": 3548,
+        "end_index": 3837
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". This is because that the 1\u2019-cyano group of Remdesivir could form steric and electrostatic interactions with the protein residues when it translocates from -3 to -4 site\\(^9,16,17,19-21\\)",
+        "start_index": 3837,
+        "end_index": 4025
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". In addition, biochemical experiments have further demonstrated that such termination can be overcome by increasing the concentration of the NTP pool and the full-length product containing Remdesivir in the RNA strand can be formed under biologically relevant condition\\(^16,17\\).",
+        "start_index": 4025,
+        "end_index": 4306
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Intriguingly, an alternative but more dominant inhibitory mechanism of Remdesivir on SARS-CoV-2 RdRp has been proposed, in which Remdesivir shows stronger resistance to the NTP concentration increment when it was present at the template strand\\(^17\\)",
+        "start_index": 4306,
+        "end_index": 4556
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". In this scenario, the copy of RNA strand embedded with Remdesivir was used as the template and exerted the \u201ctemplate-dependent inhibition\u201d, where the UTP incorporation complementary to Remdesivir is inhibited. Interestingly, such inhibition can be significantly reduced by the point mutation V557L\\(^17\\). These observations have altogether suggested that the presence of Remdesivir at the template strand offers the second opportunity to inhibit the RNA extension",
+        "start_index": 4556,
+        "end_index": 5022
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". However, the experimental assay alone is insufficient to distinguish whether the inhibition is exerted by directly disrupting the NTP incorporation at the active site or by hindering the translocation. Moreover, it remains elusive how V557L mutation renders the SARS-CoV-2 RdRp drug resistant to Remdesivir at the template strand.",
+        "start_index": 5022,
+        "end_index": 5354
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "In this study, we have performed MD simulations to elucidate the molecular mechanisms for the \u201ctemplate-dependent inhibition\u201d exerted by Remdesivir. We first",
+        "start_index": 5354,
+        "end_index": 5511
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "examined if the NTP incorporation at the active site is directly impaired when Remdesivir at +1 site (Fig. 1D and 1E)",
+        "start_index": 5511,
+        "end_index": 5628
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". The cryo-EM structure of the SARS-CoV-2 nsp12-nsp7-nsp8 complex (PDBID:7BZT\\textsuperscript{30}) was adopted as our structural basis and Remdesivir was model at +1 site of the template strand with UTP binding at a closed active site (see SI Section 1.2 for details of model construction)",
+        "start_index": 5628,
+        "end_index": 5917
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Five replicas of 50 ns production simulations have been performed to investigate the incorporation capability of UTP opposite to Remdesivir (Fig. 1E). For comparison, the same amount of MD simulations with UTP opposite to adenosine (\u201cwildtype-RNA\u201d system, Fig. 1D) has also been conducted (see SI Section 1.1 for details)",
+        "start_index": 5917,
+        "end_index": 6240
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". The distance between the P\u03b1 atom of UTP and the O3' atom of the 3\u2019-terminal of nascent strand (P\u03b1-O3\u2019 distance, Fig. 2A) below 4 \u00c5 has been suggested to be necessary for efficient catalysis and formation of phosphodiester bond\\textsuperscript{28, 29}",
+        "start_index": 6240,
+        "end_index": 6492
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Consistently, such distance is <4 \u00c5 in all the MD conformations with a UTP:A base pair at the active site (Fig. 2B). Interestingly, when Remdesivir is present at the template strand complementary to UTP, all the MD simulations still retain the P\u03b1-O3\u2019 distance below 4 \u00c5 (Fig. 2B), which satisfies the prerequisite for the efficient incorporation",
+        "start_index": 6492,
+        "end_index": 6839
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". The stability of UTP at the active site is also important for ensuring a catalytically active configuration. Accordingly, the base pairing and base stacking stability were examined (Fig. 2C and 2E). Our results demonstrated that UTP can always form stable base pairing with Remdesivir embedded at +1 site of the template strand (hydrogen bonding probability = 95.6\\%), resembling that for the UTP:A base pair (hydrogen bonding probability = 93",
+        "start_index": 6839,
+        "end_index": 7284
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ".6\\%) (Fig. 2D). Moreover, UTP can stack well with the 3\u2019-terminal of the nascent strand in both systems, with the base-to-base dihedral angles equal to 19.9\u00b0 and 20.3\u00b0 for adenosine and Remdesivir, respectively (Fig. 2F)",
+        "start_index": 7284,
+        "end_index": 7505
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Altogether, our calculations have suggested that UTP could well maintain a catalytically active configuration opposite to Remdesivir at +1 site of the template strand.",
+        "start_index": 7505,
+        "end_index": 7674
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "We noticed that a previous study based on the structural modeling has suggested that the 1\u2019-cyano group of Remdesivir at +1 site would clash with the backbone of the protein residue A558 and thereby destabilize the base pairing between UTP and Remdesivir\\textsuperscript{17}. In our simulations, we indeed observed that A558 would move away from the 1\u2019-cyano group of Remdesivir (Fig. S1)",
+        "start_index": 7674,
+        "end_index": 8062
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Specifically, the distance between the backbone oxygen atom of A558 and the C1\u2019 atom of Remdesivir is 6.78\u00c5\u00b10.14\u00c5, obviously larger than that between A558 and adenosine (4.7\u00c5\u00b10.23\u00c5)",
+        "start_index": 8062,
+        "end_index": 8245
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". However, such conformational changes seldom perturb the base pairing stability, as the hydrogen bonding probability of UTP:Remdesivir (>90\\%) is similar to that of UTP:A pair (Fig. 2D)",
+        "start_index": 8245,
+        "end_index": 8431
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Therefore, the static structural model alone is insufficient to examine the effect of 1\u2019-cyano group of Remdesivir on the pre-catalytic conformation, and our simulations have demonstrated that the base pairing is well formed even though Remdesivir repels A558 away.",
+        "start_index": 8431,
+        "end_index": 8698
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "The above observations altogether indicate that the \u201ctemplate-dependent inhibition mechanism\u201d is not exerted by directly impairing the NTP incorporation at the active site. In this regard, the inhibition could be applied by the second scenario, where the translocation is hampered and the NTP incorporation is inhibited. To examine the propensity of translocation when Remdesivir moves from +2 to +1 site along the",
+        "start_index": 8698,
+        "end_index": 9112
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "template strand, we first evaluated the influence of Remdesivir on the stability of both the pre- and post-translocation states by performing MD simulations for SARS-CoV-2 RdRp with Remdesivir at +1 site and +2 site in the post-translocation state and pre-translocation states, respectively (see SI Section 1.2 and 2.2 for details)",
+        "start_index": 9112,
+        "end_index": 9443
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". SARS-CoV-2 RdRp with wildtype double-stranded RNA (dsRNA) in both states have also been examined for comparison (see SI Section 1.1 and 2.1 for details). The hydrogen bonding probability between the template and nascent strands was computed to estimate the thermal stability of both states",
+        "start_index": 9443,
+        "end_index": 9734
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Our results have demonstrated that when Remdesivir is present in both states, the base pairs at -1, -2 and -3 site are well maintained (hydrogen bonding probabilities > 85%), resembling the scenario observed for the RdRp with wildtype dsRNA (Fig. S2). This result has suggested that the translocation of Remdesivir from +2 to +1 site is thermodynamically allowed.",
+        "start_index": 9734,
+        "end_index": 10099
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "To further examine if the presence of Remdesivir would affect the translocation dynamics, a translocation pathway was generated by the Climber algorithm \\(^{30, 31}\\) and MD simulations were conducted for these translocating intermediates (see SI Section 3 for details)",
+        "start_index": 10099,
+        "end_index": 10368
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Intriguingly, we found that the 1\u2019-cyano group of Remdesivir would clash with the side chain of V557 when it moves from +2 to +1 site (Fig. 3A), while such repulsion from V557 has not been observed when adenosine translocates",
+        "start_index": 10368,
+        "end_index": 10595
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Specifically, when Remdesivir translocates from +2 to +1 site, its steric clash with V557 would result in a larger separation distance of 5.87\\(\\text{\u00c5}\\)\u00b10.25\\(\\text{\u00c5}\\) compared to that for adenosine (4.91\\(\\text{\u00c5}\\)\u00b10.12\\(\\text{\u00c5}\\)) (Fig. 3B and 3C)",
+        "start_index": 10595,
+        "end_index": 10852
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Moreover, the steric clash would push the base of Remdesivir in a tilted configuration with a larger dihedral angle relative to the base of the upstream nucleotide (55.95\u00b0\u00b15.81\u00b0), while the adenosine\u2019s base adopts a more parallel configuration (25.04\u00b0\u00b11.43\u00b0) (Fig. 3D-3G)",
+        "start_index": 10852,
+        "end_index": 11125
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Therefore, our simulations have suggested that V557 hinders the translocation of Remdesivir from +2 to +1 site and further inhibit the NTP incorporation against Remdesivir at +1 site. This finding is also consistent with the experimental observation that SARS-CoV-2 RdRp with single-point V557L mutation would become drug resistant to Remdesivir \\(^{17}\\).",
+        "start_index": 11125,
+        "end_index": 11483
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "To further understand how the V557L mutation could reduce the inhibitory effect exerted by Remdesivir on the transcription of SARS-CoV-2 RdRp \\(^{17}\\), we have performed MD simulations with V577L point mutation for the wildtype-RNA system (see SI Section 1.2 for details)",
+        "start_index": 11483,
+        "end_index": 11755
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". We observed that UTP opposite to adenosine at +1 site can still maintain the catalytically active conformation upon V557L mutation (Fig. S3). Intriguingly, we found that the Val-to-Leu mutation would re-orientate the side chain to the direction opposite to the translocation pathway (Fig. 4A and 4D). Specifically, the center of mass (c.o.m",
+        "start_index": 11755,
+        "end_index": 12097
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ".) distance between the backbone/side chain of V557L and the base of upstream nucleotide (Fig. 4E) becomes obviously larger than that for V557 (Fig. 4B). This variation of the side chain orientation is observed not only in the wildtype-RNA system (Fig. 4B and 4E), but also happens when Remdesivir is embedded in the template strand (Fig. 4C and 4F)",
+        "start_index": 12097,
+        "end_index": 12446
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". This observation has suggested that Remdesivir exerts no extra influence and the bulkier side chain upon V557L mutation would spontaneously rotate to leave sufficient space along the translocation pathway.",
+        "start_index": 12446,
+        "end_index": 12653
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "To further evaluate the above conjecture, we generated the translocation pathway",
+        "start_index": 12653,
+        "end_index": 12733
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "for SARS-CoV-2 RdRp with V557L mutation and performed MD simulations with the translocating intermediates (see SI Section 3 for details). We found that the distance between V557L and Remdesivir (5.5\u00c5\u00b10.4\u00c5) is similar to that between V557L and wildtype adenosine (5.4\u00c5\u00b10.6\u00c5) (Fig. 4G and S4)",
+        "start_index": 12733,
+        "end_index": 13023
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". In addition, Remdesivir and adenosine also form similar base stacking angles relative to the upstream nucleotide, with dihedral angles of 29.72\u00b0\u00b16.42\u00b0 and 30.34\u00b0\u00b15.29\u00b0, respectively (Fig. 4H and S4)",
+        "start_index": 13023,
+        "end_index": 13223
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Therefore, our results have suggested that the V557L mutation would rotate its side chain away from the translocation pathway and thereby relieve the hindrance over the translocation of Remdesivir from +2 to +1 site. Our calculations have rationalized the kinetic steady-state experimental data that the UTP incorporation opposite to Remdesivir is 5-fold more efficient with V557L mutation",
+        "start_index": 13223,
+        "end_index": 13614
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Moreover, it further consolidates that the reduced UTP incorporation complementary to Remdesivir at +1 site is mainly attributed to the hampered translocation of Remdesivir from +2 to +1 site due to the steric repulsion from V557.",
+        "start_index": 13614,
+        "end_index": 13846
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "In summary, we have elucidated the molecular mechanism of \u201ctemplate-dependent inhibition\u201d exerted by Remdesivir on the NTP incorporation in SARS-CoV-2 RdRp by comprehensive analysis based on extensive MD simulations. Our computational results suggested that the Remdesivir at the template strand did not directly abolish the complementary NTP incorporation at the active site",
+        "start_index": 13846,
+        "end_index": 14221
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Instead, translocation of Remdesivir from +2 to +1 site was inhibited, and thus the NTP incorporation became inefficient",
+        "start_index": 14221,
+        "end_index": 14343
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Specifically, the dynamic translocation of Remdesivir from +2 site to +1 site is kinetically hindered due to the clash between the 1\u2019-cyano group of Remdesivir and the side chain of V557, while the V557L mutation tends to reduce the inhibitory effect by rotating its side chain away from the translocation pathway",
+        "start_index": 14343,
+        "end_index": 14658
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". This finding not only matches with the experimental observation that SARS-CoV-2 RdRp upon V557L mutation would gain drug resistance to Remdesivir, but also provides the underlying mechanism at the unprecedented molecular level. As the template-dependent inhibition has been observed across diverse viral RNA polymerases, our finding may shed light on the complex inhibition mechanism in other RdRps",
+        "start_index": 14658,
+        "end_index": 15058
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Overall, our studies have provided valuable molecular insights into the inhibitory mechanism when Remdesivir is embedded in the template strand and underlined the role of 1\u2019-cyano substitution in exerting the inhibitory effect. This offers an alternative strategy for the rational design of antiviral drugs targeted at SARS-CoV-2 RdRp during the synthesis of the second RNA strand for viral transcription and genome synthesis.",
+        "start_index": 15058,
+        "end_index": 15486
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Figure 1. (A) The overall structure of SARS-CoV-2 RdRp complex is shown on the left, with the catalytically active site amplified on the right. The nascent and template strands are colored in red and cyan, respectively. NTP is shown in sticks with two Mg$^{2+}$ ions as magenta spheres. (B) Chemical structures of adenosine triphosphate in the triphosphate form",
+        "start_index": 15486,
+        "end_index": 15847
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". (C) Chemical structure of RDV in the triphosphate form, with the 1'-cyano group highlighted in blue. (D) Structure diagram of SARS-CoV-2 RdRp with UTP at active site. (E) Structure diagram of SARS-CoV-2 RdRp with RDV (shown in orange) embedded at +1 site of template strand.",
+        "start_index": 15847,
+        "end_index": 16123
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Figure 2. Investigation into the NTP incorporation capability in SARS-CoV-2 RdRp by MD simulations. (A) Cartoon model showing the distance between P\u03b1 atom of the NTP and O3\u2019 atom of the 3\u2019-terminal nucleotide. (B) Histogram of P\u03b1-O3\u2019 distance for two systems including RdRp with wildtype-RNA (grey) and RDV at +1 site (blue)",
+        "start_index": 16123,
+        "end_index": 16447
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". (C) Cartoon model showing the hydrogen bond probability for base pairing at the active site. (D) The hydrogen bonding probability for the two systems. (E) Cartoon model showing the dihedral angle between the base of NTP and the base of 3\u2019-terminal nucleotide. (F) Histogram of the dihedral angles in two systems.",
+        "start_index": 16447,
+        "end_index": 16761
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Figure 3. The translocation of RDV from +2 to +1 site is hindered by V557. (A) A diagram showing V557 hampers the translocation of RDV from +2 to +1 site, where RDV and V557 are colored in orange and purple, respectively. (B) Cartoon model showing distance between the center of mass (c.o.m.) of V557 and C1\u2019 of RA/RDV",
+        "start_index": 16761,
+        "end_index": 17079
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". (C) Histogram of the distance as shown in (B) when adenosine (black) and RDV (red) translocations. (D) Cartoon model showing the base stacking angle between RDV and the upstream nucleotide. (E) Histogram of the base stacking angle for adenosine (black) and RDV (red) during translocation. (F)-(G) Typical conformation of RDV/RA with V557 during translocation.",
+        "start_index": 17079,
+        "end_index": 17440
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Figure 4. V557L mutation relieves the inhibition exerted by RDV. (A) A representative conformation of V557 with the dashed lines denoting the distance between the base of nucleotide and the backbone ($d_{b,b.}$)/side-chain ($d_{s,c.}$) of V557. (B)-(C) Density plot of $d_{b,b.}$ versus $d_{s,c",
+        "start_index": 17440,
+        "end_index": 17734
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ".}$ for RdRp with wildtype RNA (B) and with RDV at +2 site (C). (D) Similar to (A) but for V557L mutation. (E)-(F) Similar to (B)-(C) but for RdRp upon V557L mutation. (G) Histogram of the base stacking angle between adenosine (black)/RDV (red) and the upstream nucleotide during translocation",
+        "start_index": 17734,
+        "end_index": 18027
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". (H) Histogram of the distance between the c.o.m. of V557L and C1\u2019 atom of RA/RDV during translocation. In (B) and (E), the simulations of RdRp with UTP binding at the active site were used for the calculations. In (C) and (F), the simulations of RdRp with RDV at +2 site of template strand in the pre-translocation state were adopted for the computation.",
+        "start_index": 18027,
+        "end_index": 18383
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "Reference\n1. WHO, Coronavirus disease 2019 (COVID-19): Situation report. (2022)",
+        "start_index": 18383,
+        "end_index": 18462
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "2. N. Chen, M. Zhou, X. Dong, J. Qu, F. Gong, Y. Han, Y. Qiu, J. Wang, Y. Liu, Y. Wei, J. a. Xia, T. Yu, X. Zhang and L. Zhang, The Lancet, 2020, 395, 507-513.",
+        "start_index": 18462,
+        "end_index": 18621
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "3. N. Zhu, D. Zhang, W. Wang, X. Li, B. Yang, J. Song, X. Zhao, B. Huang, W. Shi, R. Lu, P. Niu, F. Zhan, X. Ma, D. Wang, W. Xu, G. Wu, G. F. Gao, W. Tan, I. China Novel Coronavirus and T",
+        "start_index": 18621,
+        "end_index": 18808
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Research, N Engl J Med, 2020, 382, 727-733.",
+        "start_index": 18808,
+        "end_index": 18853
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "4. A. Kroker and M. Tirzite, Respir Res, 2021, 22, 304.\n5. L. Tian, T. Qiang, C. Liang, X. Ren, M. Jia, J. Zhang, J. Li, M. Wan, X. YuWen, H. Li, W. Cao and H. Liu, Eur J Med Chem, 2021, 213, 113201.",
+        "start_index": 18853,
+        "end_index": 19052
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "6. R. N. Kirchdoerfer and A. B. Ward, Nat Commun, 2019, 10, 2342.",
+        "start_index": 19052,
+        "end_index": 19117
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "7. Y. Gao, L. Yan, Y. Huang, F. Liu, Y. Zhao, L. Cao, T. Wang, Q. Sun, Z. Ming, L. Zhang, J. Ge, L. Zheng, Y. Zhang, H. Wang, Y. Zhu, C. Zhu, T. Hu, T. Hua, B. Zhang, X. Yang, J. Li, H. Yang, Z. Liu, W",
+        "start_index": 19117,
+        "end_index": 19318
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Xu, L. W. Guddat, Q. Wang, Z. Lou and Z. Rao, Science, 2020, 368, 779-782.",
+        "start_index": 19318,
+        "end_index": 19394
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "8. H. S. Hillen, G. Kokic, L. Farnung, C. Dienemann, D. Tegunov and P. Cramer, Nature, 2020, 584, 154-156.",
+        "start_index": 19394,
+        "end_index": 19500
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "9. Q. Wang, J. Wu, H. Wang, Y. Gao, Q. Liu, A. Mu, W. Ji, L. Yan, Y. Zhu, C. Zhu, X. Fang, X. Yang, Y. Huang, H. Gao, F. Liu, J. Ge, Q. Sun, X. Yang, W. Xu, Z. Liu, H. Yang, Z. Lou, B. Jiang, L. W",
+        "start_index": 19500,
+        "end_index": 19696
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Guddat, P. Gong and Z. Rao, Cell, 2020, 182, 417-428.",
+        "start_index": 19696,
+        "end_index": 19751
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "10. W. Yin, C. Mao, X. Luan, D.-D. Shen, Q. Shen, H. Su, X. Wang, F. Zhou, W. Zhao, M. Gao, S. Chang, Y.-C. Xie, G. Tian, H.-W. Jiang, S.-C. Tao, J. Shen, Y. Jiang, H. Jiang, Y. Xu, S. Zhang, Y. Zhang and H",
+        "start_index": 19751,
+        "end_index": 19957
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". E. Xu, Science, 2020, 368, 1499-1504.",
+        "start_index": 19957,
+        "end_index": 19996
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "11. C. Yuan, E. C. Goonetilleke, I. C. Unarta and X. Huang, Phys Chem Chem Phys, 2021, 23, 20117-20128.",
+        "start_index": 19996,
+        "end_index": 20099
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "12. S. Jockusch, C. Tao, X. Li, T. K. Anderson, M. Chien, S. Kumar, J. J. Russo, R. N. Kirchdoerfer and J. Ju, Antiviral Res, 2020, 180, 104857.",
+        "start_index": 20099,
+        "end_index": 20243
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "13. M. Chien, T. K. Anderson, S. Jockusch, C. Tao, X. Li, S. Kumar, J. J. Russo, R. N. Kirchdoerfer and J. Ju, J Proteome Res, 2020, 19, 4690-4697.",
+        "start_index": 20243,
+        "end_index": 20390
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "14. M. Seifert, S. C. Bera, P. van Nies, R. N. Kirchdoerfer, A. Shannon, T. T. Le, X. Meng, H. Xia, J. M. Wood, L. D. Harris, F. S. Papini, J. J. Arnold, S. Almo, T. L. Grove, P. Y. Shi, Y. Xiang, B",
+        "start_index": 20390,
+        "end_index": 20588
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": ". Canard, M. Depken, C. E. Cameron and D. Dulin, Elife, 2021, 10, e70968.",
+        "start_index": 20588,
+        "end_index": 20661
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "15. K. A. Johnson and T. Dangerfield, Enzymes, 2021, 49, 39-62.\n16. C. J. Gordon, E. P. Tchesnokov, E. Woolner, J. K. Perry, J. Y. Feng, D. P. Porter and M. Gotte, J Biol Chem, 2020, 295, 6785-6797.",
+        "start_index": 20661,
+        "end_index": 20859
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "17. E. P. Tchesnokov, C. J. Gordon, E. Woolner, D. Kocinkova, J. K. Perry, J. Y. Feng, D. P. Porter and M. Gotte, J Biol Chem, 2020, 295, 16156-16165.",
+        "start_index": 20859,
+        "end_index": 21009
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "18. J. P. K. Bravo, T. L. Dangerfield, D. W. Taylor and K. A. Johnson, Mol Cell, 2021, 81, 1548-1552.",
+        "start_index": 21009,
+        "end_index": 21110
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "19. L. Zhang, D. Zhang, X. Wang, C. Yuan, Y. Li, X. Jia, X. Gao, H.-L. Yen, P. P.-H. Cheung and X. Huang, Phys Chem Chem Phys, 2021, 23, 5852-5863.",
+        "start_index": 21110,
+        "end_index": 21257
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "20 G. Kokic, H. S. Hillen, D. Tegunov, C. Dienemann, F. Seitz, J. Schmitzova, L. Farnung, A. Siewert, C. Hobartner and P. Cramer, Nat Commun, 2021, 12, 279.",
+        "start_index": 21257,
+        "end_index": 21413
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "21 F. Bylehn, C. A. Menendez, G. R. Perez-Lemus, W. Alvarado and J. J. de Pablo, ACS Cent Sci, 2021, 7, 164-174.",
+        "start_index": 21413,
+        "end_index": 21525
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "22 C. J. Gordon, E. P. Tchesnokov, J. Y. Feng, D. P. Porter and M. Gotte, J Biol Chem, 2020, 295, 4773-4779.\n23 L. Zhang and R. Zhou, J Phys Chem B, 2020, 124, 6955-6962.",
+        "start_index": 21525,
+        "end_index": 21695
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "24 T. L. Dangerfield, N. Z. Huang and K. A. Johnson, iScience, 2020, 23, 101849.\n25 M. E. Romero, C. Long, D. La Rocco, A. M. Keerthi, D. Xu and J. Yu, Mol Syst Des Eng, 2021, 6, 888-902.",
+        "start_index": 21695,
+        "end_index": 21882
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "26 C. Long, M. E. Romero, D. La Rocco and J. Yu, Comput Struct Biotechnol J, 2021, 19, 3339-3348.\n27 S. Koulgi, V. Jani, N. M. V, U. Sonavane and R. Joshi, J Biomol Struct Dyn, 2021, 6, 1-15.",
+        "start_index": 21882,
+        "end_index": 22073
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "28 R. Radhakrishnan, Biophys J, 2007, 93, 2391-2399.\n29 J. Sgrignani and A. Magistrato, J Phys Chem B, 2012, 116, 2259-2268.",
+        "start_index": 22073,
+        "end_index": 22197
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "30 D. A. Silva, D. R. Weiss, F. Pardo Avila, L. T. Da, M. Levitt, D. Wang and X. Huang, Proc Natl Acad Sci U S A, 2014, 111, 7665-7670.\n31 D. R. Weiss and M. Levitt, J Mol Biol, 2009, 385, 665-674.",
+        "start_index": 22197,
+        "end_index": 22394
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "32 C. J. Gordon, H. W. Lee, E. P. Tchesnokov, J. K. Perry, J. Y. Feng, J. P. Bilello, D. P. Porter and M. Gotte, J Biol Chem, 2022, 298, 101529.",
+        "start_index": 22394,
+        "end_index": 22538
+    },
+    {
+        "document_name": "94.txt",
+        "chunk_text": "33 W. C. Magee, K. A. Aldern, K. Y. Hostetler and D. H. Evans, Antimicrob Agents Ch, 2008, 52, 586-597.\n34 D. Maag, C. Castro, Z. Hong and C. E. Cameron, J Biol Chem, 2001, 276, 46094-46098.",
+        "start_index": 22538,
+        "end_index": 22728
+    }
+]

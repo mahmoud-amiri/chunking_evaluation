@@ -1,0 +1,536 @@
+[
+    {
+        "document_name": "61.txt",
+        "chunk_text": "China's rise in the chemical space and the decline of US influence\n\nMarisol Berm\u00fadez-Monta\u00f1a,1,2 Angel Garc\u00eda-Chung,2,3 Peter F. Stadler,2,4,9 J\u00fcrgen Jost2,7,9 and Guillermo Restrepo2,4,10",
+        "start_index": 0,
+        "end_index": 188
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "1Tecnol\u00f3gico de Monterrey, Escuela de Ingenier\u00eda y Ciencias, Av. Lago de Guadalupe, 52926, Estado de M\u00e9xico, M\u00e9xico\n2Max Planck Institute for Mathematics in the Sciences, Leipzig, Germany\n3Departamento de Qu\u00edmica, Universidad Aut\u00f3noma Metropolitana, San Rafael Atlixco No. 186, Iztapalapa, Ciudad de M\u00e9xico 09340, M\u00e9xico",
+        "start_index": 188,
+        "end_index": 508
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "4Interdisciplinary Center for Bioinformatics, Universit\u00e4t Leipzig, Leipzig, Germany\n5Bioinformatics Group, Department of Computer Science, Universit\u00e4t Leipzig, Leipzig, Germany\n6Institute for Theoretical Chemistry, University of Vienna, Vienna, Austria\n7The Santa Fe Institute, Santa Fe, NM, USA\n8Facultad de Ciencias, Universidad Nacional de Colombia, Bogot\u00e1, Colombia",
+        "start_index": 508,
+        "end_index": 877
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "9Center for Scalable Data Analytics and Artificial Intelligence, Universit\u00e4t Leipzig, Leipzig, Germany\n10School of Applied Sciences and Engineering, EAFIT University, Medell\u00edn, Colombia",
+        "start_index": 877,
+        "end_index": 1062
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Abstract",
+        "start_index": 1062,
+        "end_index": 1070
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "At the turn of the 21st century, China has achieved a spectacular surge in the scientific arena. However, little is known about its role in the material core of chemistry, encoded in the chemical space, which spans the discovery of chemicals. Here we show, by analysing the chemical space between 1996 and 2022, that its expansion has been dominated by China ever since 2013",
+        "start_index": 1070,
+        "end_index": 1444
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Chinese dominance occurs at different levels, from organic to rare-earth chemistry, but is less dramatic in organometallic chemistry. We also found that Chinese dominance is mainly the product of the country\u2019s own efforts, rather than the result of international collaboration. China\u2019s surge mainly comes at the expense of the contribution of the US. Interestingly, the US share of the chemical space is more dependent on international collaboration, which mainly occurs with China. We also observe the emergent role of India",
+        "start_index": 1444,
+        "end_index": 1971
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". We believe these results provide a contemporary account of the geopolitics of the chemical space, which may constitute the basis for future national and international science policies, as well as research and development agendas.",
+        "start_index": 1971,
+        "end_index": 2202
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Main",
+        "start_index": 2202,
+        "end_index": 2206
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "China\u2019s remarkable rise in the scientific and technological arena of the 21st century is well-documented, along with the factors contributing to this growth.1,2 However, limited attention has been given to China\u2019s influence on the recent development of chemistry\u2014the most prolific natural science in terms of publications and arguably the most significant in its economic and societal impact",
+        "start_index": 2206,
+        "end_index": 2597
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ".3 In particular, little is known about China\u2019s role in the expansion of the chemical space (CS), which spans all chemicals and reactions reported in the literature.3 Here we quantify China\u2019s contribution to the CS and contrast it with contributions of other leading countries, especially the US. Likewise, we quantify the role of international collaboration upon the expansion of the CS, which has grown at a rate of a bit",
+        "start_index": 2597,
+        "end_index": 3020
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "more than 4% for more than two centuries\u2014a pace maintained in spite of varying economic or social conditions, which include dramatic shifts of the centres of research among countries. After being led by France, Germany and the US, with no effect on its stable growth rate, CS is currently undergoing another shift, from the US to China, while keeping its growth rate. Consequently, the increasing contributions of China to the CS come at the expense of other countries, as we report in this contribution",
+        "start_index": 3020,
+        "end_index": 3523
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". In particular, it is the US whose share is dramatically decreasing. Meanwhile, the relative contributions of other countries remain relatively steady, although India\u2019s share is gradually rising, and Japan\u2019s share is decreasing, albeit less dramatically than the shifts observed for China and the US. Interestingly, US contributions to the CS increasingly rely on international collaboration, especially with China, while the Asian country\u2019s contributions are mainly the result of its own national efforts",
+        "start_index": 3523,
+        "end_index": 4029
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". We also found that China is today the leading contributor to the organic chemistry and rare-earth regions of the CS. The former spans the vast majority of the CS and the rare-earth region is a key driver of modern technologies.",
+        "start_index": 4029,
+        "end_index": 4258
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "The study is based on information retrieved from Reaxys\u00ae, Dimensions and OpenAlex databases for the time period 1996-2022 (Methods, Figure S1), which shows China\u2019s predominant role in the CS as it covers 41% of the current CS, dwarfing the 11% of the US (Figure 1a). While China grew exponentially during this period, US participation modestly grew until 2007 and afterwards rapidly dropped (Figure 1a)",
+        "start_index": 4258,
+        "end_index": 4660
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". In 2013, China became the overall leading contributor. The only other country whose share was systematically increasing is India, but its growth is modest compared with that of China (Figure 1a).",
+        "start_index": 4660,
+        "end_index": 4857
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "---\n\n1 Copyright \u00a9 2025 Elsevier Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Limited.\nNational and collaborative efforts to expand the chemical space",
+        "start_index": 4857,
+        "end_index": 5054
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "The role of international collaboration in the 21st-century scientific and technological Chinese emergence has been documented, especially with the US.\\textsuperscript{7-9} We found that this collaboration dominates the CS. Nonetheless, its overall contribution is modest, representing less than 2\\% of all discoveries of chemicals (Figure 1b). China-US",
+        "start_index": 5054,
+        "end_index": 5407
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "collaboration grew over time, peaked in 2017 and ever since has been volatile (Figure 1b). This partnership increased hand in hand with the increment of bilateral agreements enacted during the Obama administration (2009-2017).\\(^\\text{10}\\) Likewise, the post-2017 perturbation is presumably related to the 2018 China initiative, championed by the US government.\\(^\\text{9}\\)",
+        "start_index": 5407,
+        "end_index": 5782
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Notwithstanding the China-US collaboration, over 90% of China's contribution to the CS was achieved by domestic teams operating independently. In contrast, the US has seen a decline in solo contributions, which exceeded 95% between 1996 and 2006 but sharply decreased to less than 80% of its participation in the CS expansion (Figure 1c)",
+        "start_index": 5782,
+        "end_index": 6119
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". The drop of US solo contributions has been counterbalanced by an increase in international collaboration (Figure 1b), in particular with China.",
+        "start_index": 6119,
+        "end_index": 6264
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Although the US invests more of its GDP on research and development than China (Figure S2), the big gap on the expansion of the CS between the two countries is expected to widen. China\u2019s economy continues to thrive (Figure 1d), since 2005 the Asian country boasts a considerably larger number of researchers than the US (Figure 1e) and the debt is much larger for the US than for China (Figure S3).",
+        "start_index": 6264,
+        "end_index": 6662
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "2008 and 2020 local and global drops on the expanding chemical space",
+        "start_index": 6662,
+        "end_index": 6730
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "We observe effects, with certain delay, of the 2007/2008 Global Financial Crisis for the US contribution to the CS and of the COVID-19 pandemic for China (Figure 1a). In the long run, the 2007/2008 crisis did not reduce the expansion of the space, whereas the pandemic did (Figures 2a, S4)",
+        "start_index": 6730,
+        "end_index": 7019
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Although China experienced a drop of researchers by 2007/2008 (Figure 1e), this did not affect its increasing contributions to the CS, which counterbalanced the declining US contributions (Figure 1a). The pandemic and the rapid lockdowns in China\\(^\\text{11}\\) reduced the contributions of the Asian country and, therefore, of the whole CS (Figure 2a)",
+        "start_index": 7019,
+        "end_index": 7372
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". In contrast, the more relaxed US lockdowns\\(^\\text{12}\\) did not largely affect the US contributions to the space (Figure 1a).",
+        "start_index": 7372,
+        "end_index": 7500
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Chemical space, its subspaces and national contributions to their expansions",
+        "start_index": 7500,
+        "end_index": 7576
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "We divided the space into its organic, organometallic and rare-earth (REE) subspaces (Figure 2a, Methods). We found that the exponential expansion of the space, as observed since 1800,\\(^\\text{4}\\) is largely dominated by the discovery of organic chemicals (Figure 2a)",
+        "start_index": 7576,
+        "end_index": 7844
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". In contrast to the swift growth of the organic subspace, the organometallic and REE subspaces exhibit a distinct trend (Figure 2a). The former slightly increased its expansion until 2013 and ever since has slowed down its unfolding. REE chemical space, in turn, grows slowly.",
+        "start_index": 7844,
+        "end_index": 8121
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**Organic space**: since organic chemistry encompasses the majority of the CS, the overall growth of CS mirrors the expansion of organic chemistry, with China currently contributing about 40% of the organic CS (Figure S5) and China-US collaboration accounting for about 2% of this subspace (Figure S6). Likewise, the 2007/2008 crisis did not affect the organic CS, while the 2020 crisis did (Figures 2a, S5).",
+        "start_index": 8121,
+        "end_index": 8529
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**Organometallic space:** unlike the organic CS, the Chinese leading role in the organometallic CS is very recent and much less pronounced (Figure 2b). While the contributions of the US and Japan decreased rapidly, not only China, but also India and Germany increased their share (Figure 2b)",
+        "start_index": 8529,
+        "end_index": 8820
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". At the collaborative level, China-US partnership remarkably increased in 2008 and kept growing until 2010, when it began to oscillate (Figure 2c). The pandemic marked the change of dominant country on the expansion of the organometallic space, with the US stepping aside and giving place to China as the leading discoverer of organometallics",
+        "start_index": 8820,
+        "end_index": 9163
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". In fact, it was a dramatic change, as right after 2020 US contributions plummeted and Chinese ones drastically surged (Figure 2b). The pandemic also brought a drop in the China-US collaboration (Figure 2c), which suggests that China\u2019s post-pandemic rise was driven by its own national efforts.",
+        "start_index": 9163,
+        "end_index": 9458
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**REE space:** as REEs become technologically and hence economically ever more relevant, its extraction and commercialisation is dominated by only a few countries, with the leading role of China. This has led to international tensions and to set up research programmes motivating innovation in REE chemistry (SI). Our results show that China not only controls the extraction and trade of REEs but also leads the exploration of their chemical space (Figure 2d)",
+        "start_index": 9458,
+        "end_index": 9917
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Nonetheless, REE space grows slowly (Figure 2a). While earlier the shares were distributed among several countries, China became dominant already by 2004, with a current share of the REE space of about 40%, while most of the top contributors slowed down their discoveries (Figure 2d). The drop is particularly dramatic for Japan. India, in contrast, grew from 5% in 1996 to 10% today. Russia also grew, but less steadily",
+        "start_index": 9917,
+        "end_index": 10339
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Currently, however, China\u2019s contribution is four times that of the second largest producers of REE compounds: India and Russia (Figure 2d).",
+        "start_index": 10339,
+        "end_index": 10480
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "China-US collaboration has grown from less than 1% of the share of the REE space before 2008 to 2% in 2020. However, over the following two years, presumably as the result of a blend of pandemic and political factors that include, for instance the American China initiative, the collaboration declined, and it currently represents 0.86% of the REE CS.",
+        "start_index": 10480,
+        "end_index": 10831
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Figure 2. Countries\u2019 share on the expansion of subregions of the chemical space (CS). a) Recent expansion of the CS and of three of its subspaces (Methods). b) Countries\u2019 participation in the expansion of the organometallic CS and its c) top-10 international collaborations. d) Countries\u2019 participation in the expansion of the REE CS and its e) top-10 international collaborations",
+        "start_index": 10831,
+        "end_index": 11211
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Criteria for the selection of the substances belonging into these spaces is found in Methods.",
+        "start_index": 11211,
+        "end_index": 11306
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Despite the geopolitic dynamics of the CS, the chemical nature of the CS has remained untouched, as the chemical composition of substances of each one of the three analysed chemical subspaces has not been affected (Figure S7).\n\nMethods",
+        "start_index": 11306,
+        "end_index": 11541
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Data\nAs chemical space (CS) entered into a new regime of its expansion by 1980, we retrieved information from Reaxy on substances having molecular formula and publication year",
+        "start_index": 11541,
+        "end_index": 11716
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "between 1980 and 2022 (data dump on 27th July 2023), which led to 17,621,956 substances. To complete the bibliographic information associated with the publications reporting these substances, we retrieved information from Dimensions and OpenAlex (bibliographic databases). By using the DOI of each publication, when available from Reaxys\u00ae, we pulled the available bibliographic data from the bibliographic databases",
+        "start_index": 11716,
+        "end_index": 12131
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". When DOIs were not available in Reaxys\u00ae, a combination of the bibliographic information on Reaxys\u00ae about authors, publication titles, years, pages and ISSNs, was used as the key to pull data from the bibliographic databases",
+        "start_index": 12131,
+        "end_index": 12356
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". As Reaxys\u00ae data match with bibliographic information was over 80% for the period 1996-2022 (Figure S1), this was the selected period for the current study, which involves 15,725,488 chemicals with author\u2019s affiliation countries. In case of an author having multiple affiliations, for the sake of simplicity only the first affiliation was selected. Reaxys\u00ae data used in this work is property of RELX Intellectual Properties SA",
+        "start_index": 12356,
+        "end_index": 12783
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". The code supporting all calculations is available at GitHub and the processed data with the participation of each country in the CS is provided in the SI.",
+        "start_index": 12783,
+        "end_index": 12939
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**Country assignment to substances**",
+        "start_index": 12939,
+        "end_index": 12975
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Based on bibliographic information, the annual contribution of each country to the expansion of CS was calculated by considering the share of the number of substances reported by each country in the respective year. For example, if a paper authored by three scientists reports one new substance and two of the authors have affiliation to a Chinese institution and the third one to an American institution, we assign 2/3 of substances to China and 1/3 substances to the US",
+        "start_index": 12975,
+        "end_index": 13446
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Thus, if for a given year $t$, there are $n_t$ new reported chemicals, country $i$ contribution to the CS of year $t$ is given by",
+        "start_index": 13446,
+        "end_index": 13577
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "$$C_{i,t} = \\frac{1}{n_t} \\sum_s n_{i,s,t}$$",
+        "start_index": 13577,
+        "end_index": 13621
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "where $n_{i,s,t}$ represents the number of authors of country $i$ that published substance $s$ for the first time in year $t$ and $n_{a,s,t}$ accounts for the number of authors participating in the publication of substance $s$ on year $t$. The complete list of $C_{i,t}$ values is shown in file data/raw/Country_weighted_allSubs.tsv (SI).",
+        "start_index": 13621,
+        "end_index": 13959
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**Top countries in the expansion of the chemical space**\n\nFor every year $t$, countries were ranked based on their $C_{i,t}$ and an average rank was calculated for each country. Top-10 countries contributing more to the expansion of the CS were selected and plotted in Figure 1a.\n\n**Regions of the chemical space**\n\nClassification of substances in different regions of the CS was based on the presence of particular elements in the formulas of the studied compounds.",
+        "start_index": 13959,
+        "end_index": 14425
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**Organic:** We say that a chemical is an organic substance if carbon is part of its composition.\n\n**Organometallic:** All chemicals containing carbon and metals. If a compound is a salt, at least one of the ions must contain C and a metal. As metals, we considered the following elements:",
+        "start_index": 14425,
+        "end_index": 14714
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "- Li, Be, Na, Mg, Al, K, Ca, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, Ga, Rb, Sr, Y, Zr, Nb, Mo, Tc, Ru, Rh, Pd, Ag, Cd, In, Sn, Cs, Ba, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho,",
+        "start_index": 14714,
+        "end_index": 14892
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Ti, Pb, Bi, Po, Ra, Ac, Th, Pa, U, Np, Pu, Am, Cm, Bk, Cf, Es, At, Fr, Rf, Sm, Md, No, Lr",
+        "start_index": 14892,
+        "end_index": 15032
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ".",
+        "start_index": 15032,
+        "end_index": 15033
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "**REE:** all chemicals containing at least one of the following elements Y, Sc, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu.",
+        "start_index": 15033,
+        "end_index": 15172
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-d2zc8 ORCID: https://orcid.org/0000-0002-0604-2207 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 15172,
+        "end_index": 15319
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "To determine the span of the regions of the CS by different chemical elements and compositions in any particular year $t$, for every new compound published in $t$ we extracted its formula. Each formula led to a composition, that is the set of chemical elements arranged in lexicographic order that belong into the formula. Thus, for instance, for compound H$_2$SO$_4$, its composition is HOS",
+        "start_index": 15319,
+        "end_index": 15710
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". The percentage of CS of region $x$ spanned by composition $\\epsilon$ in year $t$ was determined by $\\% CS_{x,t}(\\epsilon) = (\\#$ new formulas with composition $\\epsilon$ reported in $t/#$ new formulas in $t) \\times 100$",
+        "start_index": 15710,
+        "end_index": 15931
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". Likewise, the percentage of CS of region $x$ spanned by chemical element $\\epsilon$ in year $t$ was given by $\\% CS_{x,t}(\\epsilon) = (\\#$ new formulas containing element $\\epsilon$ reported in $t/#$ new formulas in $t) \\times 100$.",
+        "start_index": 15931,
+        "end_index": 16165
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Data availability\n\nChemistry data used in this work is property of RELX Intellectual Properties SA. Bibliographic data (in part) is property of Digital Science.\n\nCode availability\n\nThe code supporting all the calculations is available as a GitHub repository:\nhttps://github.com/mbermudezmoTec/China-s-great-leap-forward-in-the-chemical-space/tree/main/scripts\n\nReferences",
+        "start_index": 16165,
+        "end_index": 16536
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(1) Report Table of Contents - S&E Indicators 2018 | NSF - National Science Foundation. https://www.nsf.gov/statistics/2018/nsb20181/report (accessed 2024-09-20).",
+        "start_index": 16536,
+        "end_index": 16698
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(2) Woolston, C. What China\u2019s Leading Position in Natural Sciences Means for Global Research. Nature 2023, 620 (7973), S2\u2013S5. https://doi.org/10.1038/d41586-023-02159-7.\n(3) Jost, J.; Restrepo, G. The Evolution of Chemical Knowledge; Springer, 2022.",
+        "start_index": 16698,
+        "end_index": 16947
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(4) Llanos, E. J.; Leal, W.; Luu, D. H.; Jost, J.; Stadler, P. F.; Restrepo, G. Exploration of the Chemical Space and Its Three Historical Regimes. Proc. Natl. Acad. Sci. 2019, 116 (26), 12660\u201312665. https://doi.org/10.1073/pnas.1816039116.",
+        "start_index": 16947,
+        "end_index": 17187
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(5) Bensaude-Vincent, B.; Simon, J. Chemistry: The Impure Science; World Scientific, 2008.\n(6) World Bank Open Data. World Bank Open Data. https://data.worldbank.org (accessed 2024-10-25).",
+        "start_index": 17187,
+        "end_index": 17375
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(7) Hu, A. G. Z. Public Funding and the Ascent of Chinese Science: Evidence from the National Natural Science Foundation of China. Res. Policy 2020, 49 (5), 103983. https://doi.org/10.1016/j.respol.2020.103983.",
+        "start_index": 17375,
+        "end_index": 17585
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(8) Zhou, P.; Gl\u00e4nzel, W. In-Depth Analysis on China\u2019s International Cooperation in Science. Scientometrics 2010, 82 (3), 597\u2013612. https://doi.org/10.1007/s11192-010-0174-z.",
+        "start_index": 17585,
+        "end_index": 17758
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(9) Van Noorden, R. The Number of Researchers with Dual US\u2013China Affiliations Is Falling. Nature 2022, 606 (7913), 235\u2013236. https://doi.org/10.1038/d41586-022-01492-7.",
+        "start_index": 17758,
+        "end_index": 17925
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(10) Assessing U.S.-China relations under the Obama administration. Brookings. https://www.brookings.edu/articles/assessing-u-s-china-relations-under-the-obama-administration/ (accessed 2024-10-25).",
+        "start_index": 17925,
+        "end_index": 18123
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "(11) C&EN, H. J., special to; C&EN, H. J., special to. The outlook is cloudy for China\u2019s chemical industry. https://cendigitalmagazine.acs.org/2024/01/19/the-outlook-is-cloudy-for-chinas-chemical-industry/content.html (accessed 2024-10-15).\nAcknowledgements",
+        "start_index": 18123,
+        "end_index": 18380
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "We thank RELX Intellectual Properties SA for the reaction dataset. M.B.M. acknowledges support from the Alexander von Humboldt Foundation.\n\nAuthor contributions\n\nM.B.M. produced the code, analysed data and created the Interactive Information. A.G.C. analysed data. M.B.M., A.G.C., P.F.S., J.J. and G.R. discussed results. G.R. conceptualised the project and wrote the paper.\n\nCompeting interest declaration",
+        "start_index": 18380,
+        "end_index": 18786
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "The authors declare no competing interests.\n\nSupplementary information\n\nExtended data\n\nData for each figure is found in:\nhttps://github.com/mbermudezmoTec/China-s-great-leap-forward-in-the-chemical-space/tree/main/data/processed",
+        "start_index": 18786,
+        "end_index": 19014
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Pilkington, E.; McCarthy, T. The Missing Six Weeks: How Trump Failed the Biggest Test of His Life. The Guardian. March 28, 2020. https://www.theguardian.com/us-news/2020/mar/28/trump-coronavirus-politics-us-health-disaster (accessed 2024-10-30).",
+        "start_index": 19014,
+        "end_index": 19259
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Reisch, S.; Tullo, A. H. Year In Review. Chemical & Engineering News. December 22, 2008. https://cen.acs.org/articles/86/i51/Year-Review.html (accessed 2024-10-30).",
+        "start_index": 19259,
+        "end_index": 19423
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Tullo, A. H. Ineos to Boost Capacity for Critical Solvent. Chemical & Engineering News. April 14, 2022. https://cen.acs.org/business/specialty-chemicals/ineos-boost-capacity-critical-solvent/100/113 (accessed 2024-10-30).",
+        "start_index": 19423,
+        "end_index": 19644
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Balaram, V. Rare Earth Elements: A Review of Applications, Occurrence, Exploration, Analysis, Recycling, and Environmental Impact. Geosci. Front. 2019, 10 (4), 1285\u20131303. https://doi.org/10.1016/j.gsf.2018.12.005.",
+        "start_index": 19644,
+        "end_index": 19857
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Ball, P. Beyond Rare Earths. Nat. Mater. 2024, 23 (3), 303\u2013303. https://doi.org/10.1038/s41563-024-01829-9.\n\nKullik, J. The Strategic Significance of Rare Earths for the Economic and Military Security of the West. No. 13.",
+        "start_index": 19857,
+        "end_index": 20078
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Hurst, C. China\u2019s Rare Earth Elements Industry: What Can the West Learn?; Defense Technical Information Center: Fort Belvoir, VA, 2010. https://doi.org/10.21236/ADA525378.",
+        "start_index": 20078,
+        "end_index": 20249
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Benner, K. Justice Dept. to End Trump-Era Initiative to Deter Chinese Threats. The New York Times. February 23, 2022. https://www.nytimes.com/2022/02/23/us/politics/china-trump-justice-department.html (accessed 2024-11-29).\nFigure S1. Percentage of Reaxys\u00ae data with country label after merging Reaxys\u00ae data with Dimensions and OpenAlex databases.",
+        "start_index": 20249,
+        "end_index": 20596
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Data on the annual participation of each country to the chemical space (absolute figures)\nhttps://github.com/mbermudezmoTec/China-s-great-leap-forward-in-the-chemical-space/blob/main/data/raw/Country_weighted_allSubs.tsv",
+        "start_index": 20596,
+        "end_index": 20816
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Exponential growth of Chinese contribution to the chemical space\nFitting equation (linear regression) for the growth of the percentage of chemical space spanned by China (Figure 1a): \\[ 1.33 e^{0.1372(t-1996)} \\], \\( R^2 = 0.98 \\).\n\nFigure S2. Research and development expenditure (% of GDP) for China and the US. Data from the World Bank.",
+        "start_index": 20816,
+        "end_index": 21155
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Number of researchers in China and the US\nFigure 1e was obtained by retrieving data from the World Bank on the number of researchers in research and development activities per million people and by multiplying the respective figure of each year by the corresponding country population (according to data from the World Bank).",
+        "start_index": 21155,
+        "end_index": 21480
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Figure S3. Government debt, as percentage of GDP. Data retrieved from the International Monetary Fund (https://www.imf.org/external/datamapper/GG_DEBT_GDP@GDD/CHN/USA). Retrieved on October 24 2024.",
+        "start_index": 21480,
+        "end_index": 21678
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Figure S4. Frequency of COVID-19 related keywords in the chemical literature.\nFigure S5. Countries' participation in the expansion of the organic space.",
+        "start_index": 21678,
+        "end_index": 21830
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Figure S6. Top-10 international collaborations for expanding the organic chemical space.",
+        "start_index": 21830,
+        "end_index": 21918
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "Figure S7. Elemental and compositional spans of the regions of the chemical space (CS). Note that in a report of 2019 [E.J. Llanos, W. Leal, D.H. Luu, J. Jost, P.F. Stadler, G. Restrepo, Exploration of the chemical space and its three historical regimes, *Proc. Natl. Acad. Sci. U.S.A",
+        "start_index": 21918,
+        "end_index": 22202
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ".* 116 (26) 12660-12665, https://doi.org/10.1073/pnas.1816039116 (2019)], besides the ubiquitous presence of C in every organic compound, a few other organogenic elements, mainly H followed by N and O, constitute most of the organic compounds. In terms of compositions, most of the organic CS is concentrated on CHNO compounds",
+        "start_index": 22202,
+        "end_index": 22528
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": ". a) Organometallic CS spanned by elements, disregarding the ubiquitous share of C, b) particular detail of the non-organogenic elements that appear most in organometallic compounds. c) Organometallic compositions; a composition corresponds to the set of elements belonging to a substance, thus, HOS is the composition of H$_2$SO$_4$. d) REE CS",
+        "start_index": 22528,
+        "end_index": 22872
+    },
+    {
+        "document_name": "61.txt",
+        "chunk_text": "spanned by elements. e) particular detail of the non-organogenic elements that appear most in REE compounds. f) REE organometallic compositions. g) REE inorganic compositions.",
+        "start_index": 22872,
+        "end_index": 23047
+    }
+]

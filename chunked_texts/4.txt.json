@@ -1,0 +1,608 @@
+[
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The 1.5 \u00b5m Band of Cyanoacetylene as a Spectroscopic Target in the Hunt for Prebiotic Molecules\n\nThomas Howard 1, Sanjana Maheshwari 1, Grace J. Yeh 1, Shannon E. Ganley 1, and Leah G. Dodson 1\n\n1 Department of Chemistry and Biochemistry\nUniversity of Maryland\nCollege Park, MD 20742, USA\n\nABSTRACT",
+        "start_index": 0,
+        "end_index": 298
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The search for prebiotic molecules officially entered a new era with the launch of the James Webb Space Telescope. The capabilities of the near-infrared instrumentation on board offer greater sensitivity and resolution than has ever been available in a space-based instrument. With the planned launch of more near-infrared telescopes\u2014such as SPHEREx in 2025\u2014it is essential to have laboratory data for important molecules on hand to guide observations in this spectral region",
+        "start_index": 298,
+        "end_index": 773
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". We present here the first published line list of the prebiotic cyanoacetylene (HC\u2083N) molecule in the 1.5\u00b5m region. Molecules were cooled to 20 K through the use of a cryogenic buffer-gas cooling yielding well-resolved ro-vibrational states of the 2\u03bd\u2081 band that were probed and assigned using cavity-ringdown spectroscopy",
+        "start_index": 773,
+        "end_index": 1095
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Rotational constants were calculated using PGOPHER and spectral line intensities were measured relative to hydrogen cyanide. We recommend the HC\u2083N 1.5 \u00b5m band as an observational target for transmission spectroscopy at Hycan and Super-Earth exoplanetary bodies.",
+        "start_index": 1095,
+        "end_index": 1358
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Keywords: Molecular spectroscopy (2095) \u2014 Line positions (2085) \u2014 Vibrational spectroscopy (2249) \u2014 Exoplanet atmospheric composition (2021)\n\n1. INTRODUCTION",
+        "start_index": 1358,
+        "end_index": 1515
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The discovery that cyanoacetylene (HC\u2083N) is formed as a major nitrogen-containing product when mixtures of methane and nitrogen are subjected to an electrical discharge (Sanchez et al. 1966)\u2014among other plausible geochemical synthesis routes (Patel et al. 2015; Rimmer & Shorttle 2019)\u2014has long motivated the study of this linear cyanopolyne as a potential prebiotic feedstock molecule",
+        "start_index": 1515,
+        "end_index": 1900
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Indeed, cyanoacetylene is now considered to be the first ingredient in the synthesis of activated pyrimidine ribonucleotides in the \u201cRNA world\u201d hypothesis (Ferris et al. 1970; Powner et al. 2009; Patel et al. 2015; Becker et al. 2019)",
+        "start_index": 1900,
+        "end_index": 2136
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". As such, the ongoing study of cyanoacetylene will play an important role in extraterrestrial exploration and the search for life in space.",
+        "start_index": 2136,
+        "end_index": 2276
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Given its presumed importance in prebiotic chemistry, it is no surprise that cyanoacetylene has been an observational target for diverse astronomical environments. In addition to its relevance to prebiotic chemistry, the observation of cyanoacetylene at astrophysical objects contributes to an understanding of their conditions (thermodynamics, isotopic abundances, solid-/gas-phase chemistry, etc.)",
+        "start_index": 2276,
+        "end_index": 2675
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". For example, the observation of gaseous cyanoacetylene in the coma of Hale-Bopp led to questions about whether this chemical species originates in the solid comet nucleus or was formed in gas-phase reactions in the coma (Cordiner & Charnley 2021)",
+        "start_index": 2675,
+        "end_index": 2923
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Similar puzzles exist on Titan, with its nitrogen/methane atmosphere, where the observation of cyanoacetylene isotopologues revealed the role that photochemistry plays in nitrogen isotope abundance ratios (Cordiner et al. 2018). Interstellar detections of cyanoacetylene began in 1971 with its observation toward Sagittarius B2 (Turner 1971; McGee et al",
+        "start_index": 2923,
+        "end_index": 3278
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". 1973), where it was already noted to likely not be thermalized with the local environment. Given its low-frequency bending modes, many studies have since found evidence for vibrationally excited cyanoacetylene toward other sources, including a recent extensive survey of hot cores (Chen et al. 2025).",
+        "start_index": 3278,
+        "end_index": 3580
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Astrophysical observations of cyanoacetylene have been enabled by numerous laboratory spectroscopy...",
+        "start_index": 3580,
+        "end_index": 3681
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "studies\u2014thoroughly documented in HITRAN (Gordon et al. 2022) and the Cologne Database for Molecular Spectroscopy (M\u00fcller et al. 2001)\u2014most of which have been conducted at room temperature (Tyler & Sheridan 1963; Arie et al. 1990; Thorwirth et al. 2001; Jolly et al. 2007; Douin et al",
+        "start_index": 3681,
+        "end_index": 3964
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". 2015; Bizzocchi et al. 2017; Ugelow & Anderson 2022), with non-equilibrium conditions sometimes achieved by means of electrical discharge for assignment of vibrational excited states (Sanz et al. 2005)",
+        "start_index": 3964,
+        "end_index": 4167
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". With the spectroscopic capabilities now available through the James Webb Space Telescope (JWST), and in the near future SPHEREx, attention has turned toward detection of biosignatures (including cyanoacetylene) in exoplanetary atmospheres across regions of the mid- and near-infrared, increasing the demand for extended spectroscopic line lists. Rimmer et al",
+        "start_index": 4167,
+        "end_index": 4527
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". constructed an extensive cyanoacetylene line list to demonstrate the potential use of JWST for detection of this species in the atmosphere around the exoplanet 1132b (Rimmer et al. 2021). While it was not considered in their model, the first overtone of the C\u2013H stretching vibration (2\u03bd\u2081) lies near 1.5 \u03bcm, making it a potential target for transmission spectroscopy in the near-infrared",
+        "start_index": 4527,
+        "end_index": 4915
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The goal of the present work is to provide laboratory spectroscopy data for cyanoacetylene in the near-infrared region\u2014where data is sparse\u2014that could be used in future JWST observations.",
+        "start_index": 4915,
+        "end_index": 5104
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Cyanoacetylene spectroscopy is complicated by the low-lying bending mode (\u03bd\u2087) and several combination bands that all lie below 450 cm\u207b\u00b9 (Tamassia et al. 2022). Their thermal population at room temperature adds complexity to the spectra as we move into the near-infrared\u2014a problem that is mitigated in the laboratory by measuring spectra at low temperature",
+        "start_index": 5104,
+        "end_index": 5459
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Beyond the goal of simplifying the spectroscopy, we aim to produce thermalized, low-temperature cyanoacetylene for future measurements of collisional cross sections and kinetics and therefore have implemented buffer-gas (sympathetic/collisional) cooling into our spectroscopy instrument.",
+        "start_index": 5459,
+        "end_index": 5748
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "In this Letter, we report the low-temperature spectrum of the 2\u03bd\u2081 mode of cyanoacetylene near 1.5 \u03bcm. We show first that gaseous HCN can be cooled to 20 K in a buffer-gas cell, with rotational temperatures in equilibrium with the cell walls. We then use the well-resolved low-temperature spectrum to report refined values for the 2\u03bd\u2081 line positions and excited-state B and D rotational constants",
+        "start_index": 5748,
+        "end_index": 6143
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The astrophysical implications of these measurements are discussed with regard to future observations of exoplanetary atmospheres, and we propose this band as a potential tool for quantitative cyanoacetylene detection in exoplanetary atmospheres.",
+        "start_index": 6143,
+        "end_index": 6391
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "2. EXPERIMENTAL METHODS",
+        "start_index": 6391,
+        "end_index": 6414
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The instrument used here is described in detail in a previous work (Howard et al. 2024), and will only be described briefly, with particular attention paid to the modifications made to the instrument for the present work. Central to the instrument is a cryogenic buffer-gas cell that is thermally anchored to the second stage of a closed-cycle helium cryostat (Janis RDK-415D2). The buffer-gas cell has two holes, 0",
+        "start_index": 6414,
+        "end_index": 6829
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".156\u201d in diameter, that create a spectroscopic axis and allow a laser to probe species of interest within the cell. Gas is injected into the cell using a 1/8\u201d O.D. capillary tube that passes through the cell entrance. Newly integrated into the instrument is an insulated temperature-controlled heating sheath that is used to maintain an elevated temperature on the capillary tube to ensure the species of interest does not condense onto the inner tube walls before entering the buffer-gas cell",
+        "start_index": 6829,
+        "end_index": 7322
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The copper heating sheath is heated by a resistive heating element, with temperature control achieved by monitoring its temperature with a thermocouple and manually adjusting the supplied current. As before, mixtures of the species of interest are prepared in pre-mixed cylinders with helium buffer gas and the gas flow into the cell is controlled using a mass flow controller (Alicat), with flow rates on the order of 1\u201310 standard cubic centimeters per minute (sccm)",
+        "start_index": 7322,
+        "end_index": 7792
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The buffer-gas cell assembly is held within a 6-way Conflat mirror that is pumped using a Leybold 90iX turbomolecular pump. The ultimate chamber pressure is 10\u207b\u2077 Torr (10\u207b\u2078 to 10\u207b\u2079 Torr with cryopumping) and is typically on the order of 10\u207b\u2074 Torr when gas is flowing.",
+        "start_index": 7792,
+        "end_index": 8061
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Molecules of interest inside of the buffer-gas cell are probed using cavity-ringdown spectroscopy (CRDS). The optical cavity is 45 cm in length and formed using two highly reflective mirrors (LayerTec, 1550 nm, 99.995% reflective) in custom optical mounts secured directly to the six-way cross",
+        "start_index": 8061,
+        "end_index": 8354
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The probe laser is a tunable external cavity diode laser (ECDL) with a linewidth < 10 kHz (Toptica CTL-1550). Laser light is scanned across the cavity and frequency measurements are made by sending the zeroth order beam from an acousto-optic modulator into a wavemeter (Bristol, 228B)",
+        "start_index": 8354,
+        "end_index": 8640
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The beam is coupled into the cavity using a pair of mode-matching lenses (f = 750, 250 mm) while one of the mirrors is continuously dithered by a cylindrical piezoelectric actuator. Ringdown events are collected using an InGaAs photodiode and recorded using custom software written in LabVIEW. 100 ringdown events are collected per frequency step (0.0004 cm\u207b\u00b9) and fit to an exponential de-",
+        "start_index": 8640,
+        "end_index": 9032
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "cay function. The absorption coefficient, \\( \\alpha \\), is extracted from the collected ringdown times \\( \\tau(\\nu) \\) as a function of frequency \\( \\nu \\) via the following relation",
+        "start_index": 9032,
+        "end_index": 9214
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "\\[\n\\alpha = \\frac{L}{dc} \\left( \\frac{1}{\\tau(\\nu)} - \\frac{1}{\\tau_0} \\right)\n\\]",
+        "start_index": 9214,
+        "end_index": 9295
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "where \\( c \\) is the speed of light, \\( \\tau_0 \\approx 25 \\mu s \\) is the ringdown time for an empty cavity, \\( L \\) is the distance between the cavity mirrors, and \\( d \\) is the absorber path length of the buffer-gas cell.",
+        "start_index": 9295,
+        "end_index": 9519
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Cyanoacetylene was prepared using a modified procedure of an existing method using propiolamide, phosphorous pentoxide, and sand (Ellis-Gibbings et al. 2022). All reagents were ground together using a mortar and pestle and transferred to an oven-dried reaction flask. The reaction vessel was kept under active vacuum and connected to a U-shaped trap that is immersed in liquid nitrogen",
+        "start_index": 9519,
+        "end_index": 9904
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The reaction mixture was heated up to 180\u00b0C in an oil bath over the course of 1 hour. After this, the reaction flask was closed off from the trap, whereupon it was removed from the liquid nitrogen bath. The collected product was allowed to sublime into a stainless-steel gas cylinder before being diluted (\\( \\sim 2-4\\% \\) of total cylinder pressure) in ultra-high purity helium. Sample purity was confirmed using standard FTIR spectroscopy.",
+        "start_index": 9904,
+        "end_index": 10347
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Relative spectral line intensity measurements were made for HC\\(_3\\)N using hydrogen cyanide (HCN) as the reference compound, prepared as before (Howard et al. 2024). A mixed cylinder was prepared manometrically that was 2.2% HCN and 2.6% HC\\(_3\\)N in helium for these measurements.\n\n3. RESULTS",
+        "start_index": 10347,
+        "end_index": 10641
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Spectra of HC\\(_3\\)N were collected at 300 K and 20 K to determine the ro-vibrational band center, assign \\( J \\) states, and refine rotational constants. Large spectral surveys were first obtained by scanning the probe laser linearly from 6555 to 6548 cm\\(^{-1}\\) with a step size of \\( \\sim 0.001 \\) cm\\(^{-1}\\)",
+        "start_index": 10641,
+        "end_index": 10954
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". These large survey scans were used to identify approximate peak centers of the 2\\( \\nu_1 \\) transition, make initial \\( J \\) state assignments, and identify possible hot bands. Figure 1 shows the resulting spectral surveys for both temperatures. Due to the long scan times needed to collect the full spectrum (over 20 hours), instrument drift inevitably led to fluctuations in the peak intensities, which should not be taken to be accurate in the survey scans.",
+        "start_index": 10954,
+        "end_index": 11416
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Guided by the survey scans, higher resolution scans were then performed, scanning the laser with a step size of 0.0004 cm\\(^{-1}\\) yielding more accurate peak centers and intensities. This enabled accurate measurement of the translational and rotational temperatures of the target species. Spectra for individual rotational transitions were collected in a randomized sequence, with each transition measured a minimum of 3 times. The data were baseline subtracted and fit in IgorPro, using a Gaussian function",
+        "start_index": 11416,
+        "end_index": 11924
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Because the pressure within the buffer-gas cell is low, the spectra are Doppler-limited and the full-width at half-maximum (FWHM, in cm\\(^{-1}\\)) of the Gaussian lineshape can be used to extract the translational temperature (\\( T_{\\text{trans}} \\), in K) according to Eq. 2 (Bernath 1995).",
+        "start_index": 11924,
+        "end_index": 12216
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "\\[\n\\text{FWHM} = 7.1 \\times 10^{-7} \\tilde{\\nu}_0 \\sqrt{\\frac{T_{\\text{trans}}}{M}}\n\\]",
+        "start_index": 12216,
+        "end_index": 12302
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "where \\( \\tilde{\\nu}_0 \\) is the center frequency (in cm\\(^{-1}\\)) of the individual transition and \\( M \\) is the mass of HC\\(_3\\)N in amu. The translational temperature was calculated for each measured transition and averaged, yielding an overall translational energy of \\( 24 \\pm 1 \\) K. This temperature is only slightly higher than the expected temperature for thermal equilibrium.",
+        "start_index": 12302,
+        "end_index": 12688
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Rotational temperature (\\( T_{\\text{rot}} \\), in K) was obtained using a Boltzmann plot, where the average of the fitted area for each measured high-resolution ro-vibrational peak was observed to vary as a function of the lower-\nstate energy of that transition \\((E_J)\\). The data were analyzed using Eq \\(3\\) (Herzberg 1950).",
+        "start_index": 12688,
+        "end_index": 13014
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "\\[\n\\ln\\left(\\frac{\\text{Peak area}}{\\nu_J(J^*+J^*+1)}\\right) = -\\frac{\\tilde{E}_J}{k_B T_{\\text{rot}}} \\tag{3}\n\\]",
+        "start_index": 13014,
+        "end_index": 13127
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "where \\(\\tilde{\\nu}_J\\) is the center frequency in cm\\(^{-1}\\) of the ro-vibrational state, \\(J^*\\) and \\(J^\\prime\\) are the upper and lower values of \\(J\\), respectively, for the transition, and \\(k_B\\) is Boltzmann's constant in cm\\(^{-1}\\)/K",
+        "start_index": 13127,
+        "end_index": 13371
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The lower state energy of the transition \\(\\tilde{E}_J\\) (in cm\\(^{-1}\\)) is defined as",
+        "start_index": 13371,
+        "end_index": 13460
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "\\[\n\\tilde{E}_J = \\tilde{B} J''(J''+1) - \\tilde{D} J''^2(J''+1)^2 \\tag{4}\n\\]",
+        "start_index": 13460,
+        "end_index": 13535
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "where \\(\\tilde{B}\\) and \\(\\tilde{D}\\) are the equilibrium rotational and centrifugal distortion constants (in cm\\(^{-1}\\)) for the ground state of HC\\(_3\\)N (Creswell et al. 1977)",
+        "start_index": 13535,
+        "end_index": 13714
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Plotting \\(\\ln(\\text{Peak area}/(\\tilde{\\nu}_J(J^*+J^*+1)))\\) as a function of \\(E_J\\) will create a linear \u201cBoltzmann plot\u201d with a slope of \\(-1/(k_B T_{\\text{rot}})\\), allowing the rotational temperature to be extracted",
+        "start_index": 13714,
+        "end_index": 13937
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Figure 2 shows a Boltzmann plot constructed from several of the measured transitions, with the red dashed line showing the linear fit. The calculated rotational temperature was found to be \\(21 \\pm 4\\) K, which shows that the rotational temperature of the molecule is\u2014within error\u2014thermalized to the buffer-gas cell temperature and in thermal equilibrium.",
+        "start_index": 13937,
+        "end_index": 14294
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "![Figure 2](https://example.com/image2.png)\n\n**Figure 2.** The Boltzmann plot of the 2\\(\\nu_1\\) transition of HC\\(_3\\)N measured at 20 K. The rotational temperature is calculated from the slope of the linear fit (red line) which is equal to \\(-1/(k_B T_{\\text{rot}})\\).",
+        "start_index": 14294,
+        "end_index": 14563
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Having confirmed that our HC\\(_3\\)N has been suitably cooled, we can begin assigning molecular constants and line centers. The 2\\(\\nu_1\\) transition of HC\\(_3\\)N was initially simulated in PGOPHER (Western 2017) using a previously published band center (Hall 1984) and ground-state rotational constants (Creswell et al. 1977)",
+        "start_index": 14563,
+        "end_index": 14888
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". This simulation was then refined using high-resolution data obtained in this work, using PGOPHER the latter to assign \\(J\\) states to each transition. A comparison between the lower-resolution survey spectrum and the simulated PGOPHER spectrum is shown in Figure 3.",
+        "start_index": 14888,
+        "end_index": 15155
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "![Figure 3](https://example.com/image3.png)",
+        "start_index": 15155,
+        "end_index": 15198
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "**Figure 3.** Experimental 20 K (black) and simulated (red, inverted) 2\\(\\nu_1\\) spectrum of cyanoacetylene. The data are normalized arbitrarily. Peak identifications are provided for a few observed transitions. The PGOPHER spectrum used the fitted band center 6552.275 \\(\\pm\\) 0.0026 cm\\(^{-1}\\) and rotational constants \\(\\tilde{B} = 0",
+        "start_index": 15198,
+        "end_index": 15535
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".15130 \\pm 3.8 \\times 10^{-5}\\) and \\(\\tilde{D} = 3.762 \\times 10^{-7} \\pm 1.587 \\times 10^{-7}\\) reported in this work for the vibrational excited state.",
+        "start_index": 15535,
+        "end_index": 15689
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The data are normalized, and the simulation results are shown using the refined rotational constants. The fit resulted in a 2\\(\\nu_1\\) band origin of 6552.275 \\(\\pm\\) 0.0026 cm\\(^{-1}\\) and rotational constants \\(\\tilde{B} = 0.15130 \\pm 3",
+        "start_index": 15689,
+        "end_index": 15927
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".8 \\times 10^{-5}\\) cm\\(^{-1}\\) and \\(\\tilde{D} = 3.762 \\times 10^{-7} \\pm 1.587 \\times 10^{-7}\\) cm\\(^{-1}\\) for the vibrational excited state. Table 1 contains the line center and rotational state assignment for each measured transition.",
+        "start_index": 15927,
+        "end_index": 16166
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "4. **ASTROPHYSICAL IMPLICATIONS**\n\nTo assess the feasibility for detection of HC\\(_3\\)N in astrophysical environments, further experiments were con-\nTable 1. Assigned transitions and line centers and intensities measured at 20 K for 2\u03c4\u2081 of HC\u2083N.",
+        "start_index": 16166,
+        "end_index": 16411
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| Transition | Line Center [cm\u207b\u00b9] | Line Intensity, S\u1d62\u2c7c(20 K) [cm\u207b\u00b9/(molecule \u00b7 cm\u207b\u00b2)] |\n|-----------|-------------------|-----------------------------------------------|\n| P(11)     | 6548.883(0)       | 6.3 \u00d7 10\u207b\u00b2\u00b9                                   |",
+        "start_index": 16411,
+        "end_index": 16663
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| P(10)     | 6549.196(2)       | 7.5 \u00d7 10\u207b\u00b2\u00b9                                   |\n| P(9)      | 6549.509(0)       | 8.6 \u00d7 10\u207b\u00b2\u00b9                                   |\n| P(8)      | 6549.819(7)       | 9.7 \u00d7 10\u207b\u00b2\u00b9                                   |",
+        "start_index": 16663,
+        "end_index": 16908
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| P(7)      | 6550.130(1)       | 1.0 \u00d7 10\u207b\u00b2\u2070                                   |\n| P(6)      | 6550.439(2)       | 1.1 \u00d7 10\u207b\u00b2\u2070                                   |\n| P(5)      | 6550.747(4)       | 1.1 \u00d7 10\u207b\u00b2\u2070                                   |",
+        "start_index": 16908,
+        "end_index": 17153
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| P(4)      | 6551.055(8)       | 1.0 \u00d7 10\u207b\u00b2\u2070                                   |\n| P(3)      | 6551.361(5)       | 9.2 \u00d7 10\u207b\u00b2\u00b9                                   |\n| P(2)      | 6551.666(6)       | 7.6 \u00d7 10\u207b\u00b2\u00b9                                   |",
+        "start_index": 17153,
+        "end_index": 17398
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| P(1)      | 6551.971(0)       | 5.4 \u00d7 10\u207b\u00b2\u00b9                                   |\n| R(0)      | 6552.576(9)       | 2.8 \u00d7 10\u207b\u00b2\u00b9                                   |\n| R(1)      | 6552.878(6)       | 2.9 \u00d7 10\u207b\u00b2\u00b9                                   |",
+        "start_index": 17398,
+        "end_index": 17643
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| R(2)      | 6553.179(3)       | 5.6 \u00d7 10\u207b\u00b2\u00b9                                   |\n| R(3)      | 6553.478(9)       | 8.1 \u00d7 10\u207b\u00b2\u00b9                                   |\n| R(4)      | 6553.777(9)       | 1.0 \u00d7 10\u207b\u00b2\u2070                                   |",
+        "start_index": 17643,
+        "end_index": 17888
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| R(5)      | 6554.075(3)       | 1.2 \u00d7 10\u207b\u00b2\u2070                                   |\n| R(6)      | 6554.371(6)       | 1.2 \u00d7 10\u207b\u00b2\u2070                                   |\n| R(7)      | 6554.667(3)       | 1.3 \u00d7 10\u207b\u00b2\u2070                                   |",
+        "start_index": 17888,
+        "end_index": 18133
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "| R(8)      | 6554.962(0)       | 1.2 \u00d7 10\u207b\u00b2\u2070                                   |\n| R(9)      | 6555.255(6)       | 1.2 \u00d7 10\u207b\u00b2\u2070                                   |",
+        "start_index": 18133,
+        "end_index": 18296
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Note\u2014J-state assignments include the branch and initial J value in parentheses. Numbers in parentheses indicate the uncertain digit for frequency measurements made using wavemeter. Line intensities were scaled to the value measured for R(5).",
+        "start_index": 18296,
+        "end_index": 18537
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "duced to estimate the integrated spectral line intensity of the 2\u03c4\u2081 band of HC\u2083N. HCN was used as the spectroscopic reference species, with quantitative temperature-dependent line intensities (S\u1d62\u2c7c) taken from the HITRAN database (Gordon et al. 2022)",
+        "start_index": 18537,
+        "end_index": 18786
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The gas from a mixed, dilute cylinder prepared with both HCN and HC\u2083N was flowed into the buffer-gas cell held at 20 K to enable a relative line intensity measurement. Flowing the two gases simultaneously from the same source and measuring their spectra in the same experiment enabled the cancellation of many instrument parameters, such as uncertainty in the absorber pathlength and fluid dynamics",
+        "start_index": 18786,
+        "end_index": 19186
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". A single ro-vibrational line (P(1)) of HCN was measured at 6516.65402 cm\u207b\u00b9 and its peak area was obtained relative to that of a single HC\u2083N ro-vibrational line (R(5), centered at 6554.075 cm\u207b\u00b9). Figure 4 shows these two peaks, along with the Gaussian fits used to obtain the peak areas.",
+        "start_index": 19186,
+        "end_index": 19474
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "![Figure 4](image-url)\n\n**Figure 4.** Experimental spectra (black circles) for a single ro-vibrational peak of (top) HCN P(1) and (bottom) HC\u2083N R(5) measured in a single experiment. The red lines are the Gaussian fits used to extract the peak areas used in obtaining the HC\u2083N line strength, with residuals displayed at the top of each plot.",
+        "start_index": 19474,
+        "end_index": 19814
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The HC\u2083N line intensity for the R(5) ro-vibrational transition was obtained at 20 K from\n\n\\[\nS\u1d62\u2c7c(HC\u2083N) = S\u1d62\u2c7c(HCN) \\frac{P(HCN) \\text{area}(HC\u2083N)}{P(HC\u2083N) \\text{area}(HCN)}\n\\]",
+        "start_index": 19814,
+        "end_index": 19988
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "where \\(S\u1d62\u2c7c(HCN)\\) is the line intensity of the P(1) transition of HCN obtained at 20 K from HITRAN \\((1",
+        "start_index": 19988,
+        "end_index": 20092
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".6 \u00d7 10\u207b\u00b2\u2070 \\text{ cm}\u207b\u00b9/(\\text{molecule} \\cdot \\text{cm}\u207b\u00b2))\\), \\(P\\) is the partial pressure of each gas as prepared in the stock cylinder, and \u201carea\u201d is the area of the experimentally measured ro-vibrational peak for each molecule obtained by fitting the peak with a Gaussian function",
+        "start_index": 20092,
+        "end_index": 20378
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". The integrated area for the P(1) peak of HCN was \\(3.1 \u00d7 10\u207b\u2079 \\text{ cm}\u00b2\\) and the integrated area for the R(5) peak of HC\u2083N was \\(2.6 \u00d7 10\u207b\u2079 \\text{ cm}\u00b2\\), yielding a final line intensity of \\(S\u1d62\u2c7c(HC\u2083N) = 1",
+        "start_index": 20378,
+        "end_index": 20588
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".2 \u00d7 10\u207b\u00b2\u2070 \\text{ cm}\u207b\u00b9/(\\text{molecule} \\cdot \\text{cm}\u207b\u00b2)\\) for this ro-vibrational transition at 20 K.",
+        "start_index": 20588,
+        "end_index": 20693
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "The measured R(5) line intensity for HC$_3$N was used to calibrate the full spectrum simulated at 20 K in PGOPHER to obtain the line intensities for all other peaks measured in this work (listed in Table 1). The line intensities for the scaled PGOPHER spectrum were summed from 6544.0 cm$^{-1}$ to 6559",
+        "start_index": 20693,
+        "end_index": 20995
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".5 cm$^{-1}$ to obtain the total vibrational band strength for the 2$v_1$ transition of HC$_3$N, yielding a value of $2.6 \\times 10^{-19}$ cm$^{-1}$/ (molecule $\\cdot$ cm$^{-2}$) for the full vibrational band. To the best of our knowledge, this is the first report of an estimated band strength for HC$_3$N near 1",
+        "start_index": 20995,
+        "end_index": 21308
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".5 $\\mu$m.",
+        "start_index": 21308,
+        "end_index": 21318
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Despite the prominence of cyanoacetylene as an important prebiotic molecule, experimental data for HC$_3$N is sparse and there exists no comprehensive line list (Rimmer et al. 2021). While HC$_3$N has been investigated in the past, it has been almost exclusively at room temperature in the mid-to-far infrared regions (Jolly et al. 2007; Bizzocchi et al",
+        "start_index": 21318,
+        "end_index": 21671
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". 2017; B\u00e9nilan et al. 2006), with no available data for the near infrared. With the estimates obtained in this work, we fill this gap and further propose this spectral region as an observational target for HC$_3$N in exoplanetary atmospheres",
+        "start_index": 21671,
+        "end_index": 21913
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". By way of comparison, the combination band of H$_2$S is a target for detection in this spectral region by the Near Infrared Imager and Slitless Spectrograph (NIRISS) system on the JWST on several model exoplanetary bodies\u2014including Hycean and Super-Earths, where cyanoacetylene is expected (Claringbold et al. 2023). The vibrational band strength presented here for HC$_3$N at 1",
+        "start_index": 21913,
+        "end_index": 22293
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ".5 $\\mu$m ($\\sim 10^{-19}$ cm$^{-1}$/ (molecule $\\cdot$ cm$^{-2}$)) is larger than that of H$_2$S ($\\sim 10^{-20}$ cm$^{-1}$/ (molecule $\\cdot$ cm$^{-2}$)) near 1.6 $\\mu$m (Gordon et al. 2022)",
+        "start_index": 22293,
+        "end_index": 22485
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". HC$_3$N can therefore be expected to have even better detection thresholds to those of H$_2$S of 10\u2013100 ppm expected using the NIRISS.",
+        "start_index": 22485,
+        "end_index": 22621
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "5. CONCLUSIONS",
+        "start_index": 22621,
+        "end_index": 22635
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Using collisional cooling within a buffer-gas cell coupled with cavity-ringdown spectroscopy, we have identified and assigned previously unpublished ro-vibrational transitions for the 2$v_1$ transition of HC$_3$N in the 1.5 $\\mu$m region, refined the excited-state rotational $B$ and $D$ constants, and reported line intensity estimates that motivate the use of this molecular signature in exoplanetary observations",
+        "start_index": 22635,
+        "end_index": 23050
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Our technique translationally and rotationally cools our target molecules\u2014which was confirmed using Doppler thermometry\u2014enabling us to extract important spectroscopic properties essential to astrophysical detection",
+        "start_index": 23050,
+        "end_index": 23266
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". We estimate the total band strength of the 2$v_1$ vibrational band of HC$_3$N to be $\\sim 10^{-19}$ cm$^{-1}$/ (molecule $\\cdot$ cm$^{-2}$), making it a viable candidate for exoplanet transmission spectroscopy in this spectral region",
+        "start_index": 23266,
+        "end_index": 23501
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": ". Future efforts include the measurement of collisional cross sections that, when coupled with robust theoretical investigations, will yield information that is essential to a detailed understanding of planetary and interstellar chemistry.",
+        "start_index": 23501,
+        "end_index": 23740
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "1 This material is based upon work supported by the National Science Foundation under Grant No. 2154055.\n\nSoftware: PGOPHER (Western 2017)\n\nREFERENCES\n\nArie, E., Dang Nhu, M., Arcas, P., et al. 1990, Journal of Molecular Spectroscopy, 143, 318, doi: 10.1016/0022-2852(91)90096-S",
+        "start_index": 23740,
+        "end_index": 24018
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Becker, S., Feldmann, J., Wiedemann, S., et al. 2019, Science, 366, 76, doi: 10.1126/science.aax2747\n\nBernath, P. F. 1995, Spectra of Atoms and Molecules (New York, NY: Oxford University Press, Inc.)",
+        "start_index": 24018,
+        "end_index": 24217
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Bizzocchi, L., Tamassia, F., Laas, J., et al. 2017, The Astrophysical Journal Supplement Series, 233, 11, doi: 10.3847/1538-4365/aa9571",
+        "start_index": 24217,
+        "end_index": 24352
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "B\u00e9nilan, Y., Jolly, A., Raulin, F., & Guillemin, J.-C. 2006, Planetary and Space Science, 54, 635, doi: 10.1016/j.pss.2006.01.006",
+        "start_index": 24352,
+        "end_index": 24481
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Chen, L., Qin, S.-L., Liu, T., et al. 2025, Astronomy and Astrophysics, 694, doi: 10.1051/0004-6361/202452598",
+        "start_index": 24481,
+        "end_index": 24590
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Claringbold, A. B., Rimmer, P. B., Rugheimer, S., & Shorttle, O. 2023, The Astronomical Journal, 166, 39, doi: 10.3847/1538-3881/acdacc",
+        "start_index": 24590,
+        "end_index": 24725
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Cordiner, M. A., & Charnley, S. B. 2021, Monthly Notices of the Royal Astronomical Society, 504, 5401, doi: 10.1093/mnras/stab1123",
+        "start_index": 24725,
+        "end_index": 24855
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Cordiner, M. A., Nixon, C. A., Charnley, S. B., et al. 2018, The Astrophysical Journal Letters, 859, L15, doi: 10.3847/2041-8213/aac38d",
+        "start_index": 24855,
+        "end_index": 24990
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Creswell, R. A., Winniewisser, G., & Gerry, M. C. L. 1977, Journal of Molecular Spectroscopy, 65, 420, doi: 10.1016/0022-2852(77)90281-8",
+        "start_index": 24990,
+        "end_index": 25126
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "Douin, S., Gronowski, M., Lamarre, N., et al. 2015, The Journal of Physical Chemistry A, 119, 9494, doi: 10.1021/acs.jpca.5b05884",
+        "start_index": 25126,
+        "end_index": 25255
+    },
+    {
+        "document_name": "4.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-v3blc ORCID: https://orcid.org/0000-0001-5960-056X Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 25255,
+        "end_index": 25402
+    }
+]

@@ -1,0 +1,1754 @@
+[
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Substituent effects of fluorinated bambusurils on their anion transport\n\nMat\u00fa\u0161 Chvojka,a,b,c Vladimir \u0160indel\u00e1\u0159a,b,* and Hennie Valkenier*c",
+        "start_index": 0,
+        "end_index": 138
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "a. Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.\nb. RECETOX, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "start_index": 138,
+        "end_index": 339
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "c. Engineering of Molecular NanoSystems, \u00c9cole Polytechnique de Bruxelles, Universit\u00e9 libre de Bruxelles, Avenue F. Roosevelt 50, CP165/64, 1050 Brussels, Belgium.",
+        "start_index": 339,
+        "end_index": 502
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "*E-mail: sindelar@chemi.muni.cz, hennie.valkenier@ulb.be",
+        "start_index": 502,
+        "end_index": 558
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Abstract",
+        "start_index": 558,
+        "end_index": 566
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Anionophores are molecules that can transport ions across membranes. Several structural design criteria must be met for anionophores to be highly active. Fluorinated anionophores are usually more potent than their non-fluorinated analogues due to their higher lipophilicity and increased affinity for anions. Clear structure-activity relationships have been described for small and relatively simple anionophores",
+        "start_index": 566,
+        "end_index": 978
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". However, such studies are more challenging for large and macrocyclic anionophores, as their preparation is usually more complicated, limiting the number of compounds tested in anion transport studies. Here we present a series of twelve macrocyclic bambusuril anion transporters to investigate how variations in fluorinated substituents affect their transport properties",
+        "start_index": 978,
+        "end_index": 1349
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Measurements of Cl\u2212/HCO3\u2212 antiport activities in liposomes revealed links between parameters such as lipophilicity or substituent polarity and transport activity. For some bambusurils, an unusually large effect of the presence of cholesterol in the membrane on transport activity was found",
+        "start_index": 1349,
+        "end_index": 1640
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Further studies showed that for very potent anion receptors, such as the bambusurils described here, the binding selectivity towards anions becomes more important than the absolute binding affinity to anions when considering anion exchange across the membrane.",
+        "start_index": 1640,
+        "end_index": 1902
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1902,
+        "end_index": 1914
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Ion transport is an important biological process regulating homeostasis, cell volume, membrane excitability, etc. As cell membranes are impermeable to charged and large hydrophilic species, these are transported across the membrane by specialised proteins. In healthy cells, an ensemble of different transmembrane proteins is present to maintain precise ion gradients across the membrane for normal biological activity. The absence and/or malfunction of any of the ion transporters has serious consequences",
+        "start_index": 1914,
+        "end_index": 2420
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Some of the channelopathies associated with insufficient anion transport include cystic fibrosis, Dent\u2019s disease, Bartter syndrome, and Fahr\u2019s syndrome.\\textsuperscript{1\u20134}",
+        "start_index": 2420,
+        "end_index": 2595
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "One way of tackling these diseases is to use synthetic transporters, either as artificial channels or as mobile carriers (ionophores). These synthetic transporters have the advantage of being able to mediate ion transport independently of the existing natural proteins and therefore may be complementary to other types of treatment.\\textsuperscript{5} In this context, transporters capable of transporting chloride and bicarbonate are relevant for cystic fibrosis (CF) treatment",
+        "start_index": 2595,
+        "end_index": 3073
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{6,7} Several studies showed promising results that synthetic anion transporters can indeed restore ion transport in CF cells.\\textsuperscript{8\u201312}",
+        "start_index": 3073,
+        "end_index": 3238
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "For the biological application of anionophores, several criteria must be met, such as high activity, low toxicity and selectivity for the desired anion to be transported. Highly active compounds are sought, as they would allow lower dosages with a reduced risk of undesirable side effects and lower costs for both production and patients. There is already a large pool of different anion receptors serving as anionophores",
+        "start_index": 3238,
+        "end_index": 3659
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{13\u201317} These have been constructed from moieties that interact with anions via e.g. hydrogen or halogen bond donor groups, which are attached to various scaffolds, including steroids,\\textsuperscript{18} carbazoles,\\textsuperscript{19,20} polyamines\\textsuperscript{21\u201323} or macrocycles.\\textsuperscript{24\u201327}",
+        "start_index": 3659,
+        "end_index": 3988
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "In addition to selecting a scaffold and binding groups, the choice of substituents is crucial to obtain a highly active transporter. Substituents must be chosen with care to regulate parameters such as lipophilicity or anion binding strength. The impact of substituents on transport activities is well documented, particularly for relatively small and simple anionophores",
+        "start_index": 3988,
+        "end_index": 4359
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{28\u201330} Anionophores with fluorinated substituents usually exhibit high levels of activity, attributable to the strongly electron-withdrawing property of fluorine atoms. This results in the polarization of the anion-binding site, thereby enhancing anion binding. An increase in anion binding generally leads to an enhancement in transport rates up to a point where anion decomplexation might become the rate limiting process in the anion transport",
+        "start_index": 4359,
+        "end_index": 4823
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{31\u201333} Additionally, most fluorinated molecules possess a high lipophilicity, which further aids diffusion across the lipid bilayer and increases transport activity.\\textsuperscript{34,35}",
+        "start_index": 4823,
+        "end_index": 5029
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Fluorinated substituents in anion transporters are usually limited to phenyl rings containing fluoride atoms\\textsuperscript{34,36\u201341} or -CF\\textsubscript{3} groups",
+        "start_index": 5029,
+        "end_index": 5194
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{21,33,34,36,37,42\u201350} A few examples of anionophores containing -OCF\\textsubscript{3}\\textsuperscript{26,29,40} and -SF\\textsubscript{3}\\textsuperscript{47,51\u201354} groups in their structure have also been reported. Examples containing non-aromatic fluorinated substituents are rare",
+        "start_index": 5194,
+        "end_index": 5492
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{35,55} Moreover, in contrast to non-fluorinated anionophores, reports with fluorinated transporters usually only include a few derivatives per series.",
+        "start_index": 5492,
+        "end_index": 5660
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The effect of substituents on macrocyclic anion transporters is less explored as the preparation of a larger series of macrocycles is more challenging than for simpler anionophores. Macroyclic anion transporters are often larger, stronger in anion binding, and more lipophilic than simple anion transporters",
+        "start_index": 5660,
+        "end_index": 5967
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Examples of macrocyclic anionophores include those based on calixarenes,\\textsuperscript{26,32,56\u201360} calixpyroles,\\textsuperscript{61\u201366} resorcinarenes,\\textsuperscript{67,69} cyclic peptides\\textsuperscript{68\u201370} biotin,\\textsuperscript{6} urils,\\textsuperscript{71} and aza- and",
+        "start_index": 5967,
+        "end_index": 6252
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "thiobambusuril derivatives",
+        "start_index": 6252,
+        "end_index": 6278
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{72\u201374} However, it should be noted that only a few of these reported macrocycles have a fluorinated substituent in their structure.\\textsuperscript{26,32,61,62,66,67,75}",
+        "start_index": 6278,
+        "end_index": 6465
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "An outstanding example of macrocyclic anionophores are fluorinated bambusurils\\textsuperscript{76\u201378} (BUs), which have been identified as receptors with particularly high anion affinities and as the most effective Cl\\textsuperscript\u2212/HCO\\textsubscript{3}\\textsuperscript\u2212 antiport by BUs.",
+        "start_index": 6465,
+        "end_index": 6754
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "could be brought to a halt upon addition of the even stronger bound anions NO$_3^-$ or ClO$_4^-$. We have also reported examples of BU transporters that contain an atypical -SC$_2$F$_3$ group within their structure.$^{76,78}$ BUs contain 12 benzyl substituents per molecule and therefore small changes to the substituent are amplified by the number of the substituents",
+        "start_index": 6754,
+        "end_index": 7122
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Investigating a series of BU derivatives would facilitate the evaluation of the effect of fluorinated substituents on the anion transport properties of larger anion receptors.",
+        "start_index": 7122,
+        "end_index": 7299
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "In this work, the anion transport activity of eleven fluorinated BU derivatives and a non-fluorinated analogue across phospholipid bilayers is presented (Figure 1). BUs 1 and 7 have previously been reported as highly active Cl$^-$/HCO$_3^-$ transporters",
+        "start_index": 7299,
+        "end_index": 7552
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Here we compare the rates of Cl$^-$/HCO$_3^-$ transport by all twelve BUs, showing how slight variations in the substituents impact the transport activity of the fluorinated BUs. Furthermore, we present the impact of changes in the lipid composition as well as a comparison of the transport of different anions.",
+        "start_index": 7552,
+        "end_index": 7865
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 1. Structures of the investigated bambusurils.](https://example.com/figure1.png)\n\n**Results and discussion**\n\n**Design and synthesis**",
+        "start_index": 7865,
+        "end_index": 8008
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Based on highly active transporter 1, we have recently reported the synthesis and evaluation of the anion binding properties of BUs 2-5",
+        "start_index": 8008,
+        "end_index": 8143
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{79}$ These thioether derivatives are predicted to be more lipophilic than the parent BU 1 (see Table 1) and the lipophilicity of these derivatives is increased by extending the length of the fluoroalkyl chains on the BU benzyl substituents, going from -SCF$_3$ to -SC$_2$F$_5$ and -SC$_3$F$_7$ groups for BUs 2, 3 and 4,",
+        "start_index": 8143,
+        "end_index": 8467
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "respectively",
+        "start_index": 8467,
+        "end_index": 8479
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". BU 5 resembles BU 2 but with addition of a -OMe group on the benzyl substituent, which did however not change the anion binding strength,$^{79}$ and the calculated logP values for BUs 2 and 5 suggest that the lipophilicity is not significantly impacted either.",
+        "start_index": 8479,
+        "end_index": 8741
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "**Table 1.** The properties and anion affinities of the different BUs and their transport rate constants and initial transport rates for Cl$^-$/HCO$_3^-$ antipporter with BUs preincorporated at 0.02 mol% in the lucigenin assay.",
+        "start_index": 8741,
+        "end_index": 8968
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| BU Substituent para | Substituent meta | MW (g mol$^{-1}$) | logP of single GUC$^{(b)}$ | SloGP$^{(b)}$ | $\\sigma_n$ or $\\sigma_d$ | $\\log K_{\\text{Cl}}$ in MeCN (s$^{-1}$) at 25\u00b0C | $k$ (10$^5$ s$^{-1}$) (0% chol",
+        "start_index": 8968,
+        "end_index": 9183
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".) | $k$ (10$^5$ s$^{-1}$) (30% chol.) | $J$ (10$^3$ s$^{-1}$) (0% chol.) | $J$ (10$^3$ s$^{-1}$) (30% chol.) |",
+        "start_index": 9183,
+        "end_index": 9294
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "|---------------------|-----------------|-----------------|---------------------------|-------------|----------------|---------------------------------|-----------------|-----------------|-----------------|-----------------|\n| 1 -H -CF$_3$        |                 | 3638            | 6.6                       | 39           | 0.43           | 11.2$^{[c]}$                    | 72              | 101             | 33              | 61              |",
+        "start_index": 9294,
+        "end_index": 9744
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 2 -H -SCF$_3$       |                 | 4408            | 11.3                      | 54           | 0.40           | 11.7$^{[c]}$                    | 78              | 12              | 42              | 21              |",
+        "start_index": 9744,
+        "end_index": 9969
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 3 -H -SC$_2$F$_3$   |                 | 5608            | 12.6                      | 69           | -              | 9.7-10.5$^{[c]}$                | 11              | 9               | 14              | 8               |",
+        "start_index": 9969,
+        "end_index": 10194
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 4 -H -SC$_3$F$_7$   |                 | 6808            | 15.1                      | 84           | -              | 9.7-10.5$^{[c]}$                | 4               | 3               | 5               | <6              |",
+        "start_index": 10194,
+        "end_index": 10419
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 5 -OCH$_3$ -H       | -SCF$_3$        | 4768            | 11.1                      | 54           | 0.40           | 11.7$^{[c]}$                    | 31              | 31              | 31              | <6              |",
+        "start_index": 10419,
+        "end_index": 10644
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 6 -CF$_3$ -H        |                 | 2822            | 4.8                       | 27           | 0.54           | 9.7-10.5$^{[c]}$                | 32              | 6               | 34              | 9               |",
+        "start_index": 10644,
+        "end_index": 10869
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 7 -SCF$_3$ -H       |                 | 3207            | 7.1                       | 34           | 0.50           | 10.6$^{[c]}$                    | 17              | 25              | 14              | 35              |",
+        "start_index": 10869,
+        "end_index": 11094
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 8 -OCF$_3$ -H       |                 | 3014            | 6.0                       | 26           | 0.35           | 9.7                           | 12              | 13              | 10              | 17              |",
+        "start_index": 11094,
+        "end_index": 11317
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 9 -SO$_2$F$_3$ -H   |                 | 3497            | 4.6                       | 22           | 0.69           | 11.2$^{[c]}$                    | 3               | 4               | >8              | >8              |",
+        "start_index": 11317,
+        "end_index": 11542
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 10 -SO$_2$CF$_3$ -H |                 | 3591            | 4.7                       | 18           | 0.96           | 11.5$^{[c]}$                    | >8              | >8              | >8              | >8              |",
+        "start_index": 11542,
+        "end_index": 11767
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 11 -OSO$_2$CF$_3$ -H|                 | 3783            | 5.1                       | 18           | 0.53           | 10.5                           | >8              | >8              | >8              | >8              |",
+        "start_index": 11767,
+        "end_index": 11991
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 12 -OSO$_2$CH$_3$ -H|                 | 3155            | 0.7                       | 7            | 0.36           | 9.0$^{[c]}$                     | >8              | >8              | >8              | >8              |",
+        "start_index": 11991,
+        "end_index": 12216
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "$^{(a)}$ Calculated in ChemDraw (Figure S43); $^{(b)}$ Calculated using TorchLite (ESI, Section 5); $^{(c)}$ Not determined; $^{(d)}$ No transport observed; $^{(e)}$ Value from Reference 79; $^{(f)}$ Value from Reference 80.",
+        "start_index": 12216,
+        "end_index": 12440
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The second series of BUs investigated here consists of BU derivatives with \\textit{para}-functionalized benzyl substituents. Herein, BUs 7, 9, 10 and 12 have been previously reported as anion receptors.\\textsuperscript{80} Moreover, BU 7 was also shown to be an effective anionophore",
+        "start_index": 12440,
+        "end_index": 12723
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{76} The \\textit{-SCF}_{3} group in BU 7 was replaced by \\textit{-CF}_{3} and \\textit{-OCF}_{3} groups to obtain BUs 6 and 8, respectively. It is anticipated that this alternation will result in a variation in lipophilicity and anion binding strength when compared to BU 7",
+        "start_index": 12723,
+        "end_index": 13012
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". BU 11 was synthesised for comparison to 10, with an additional oxygen atom placed in between the \\textit{-SO}_{2}CF_{3} group and the benzyl substituent, resulting in a -\\textit{OSO}_{2}CF_{3} group",
+        "start_index": 13012,
+        "end_index": 13212
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This variation is predicted to lead to a reduction in anion binding strength according to the \\(\\sigma_p\\) Hammett substituent parameter (Table 1) and calculated electrostatic potential map (Figure S44). BU 12 serves as a non-fluorinated analogue of 11.",
+        "start_index": 13212,
+        "end_index": 13467
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The BU anionophores presented in this work were obtained utilizing a macrocyclization reaction of glycolurils (GU) and formaldehyde in the presence of sulphuric acid, which acted both as an acid catalyst and a source of HSO\\(_4^-\\) as template, promoting the formation of a six-membered macrocycle (Figure 2). The GU building blocks were prepared using one of the two synthetic strategies shown in Figure 2",
+        "start_index": 13467,
+        "end_index": 13873
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". In the first strategy (Path A), a substituted benzylamine was used as the starting material. It was first reacted with diphenyl carbonate to give a symmetric \\(1,3\\)-disubstituted urea. The urea was then condensed under acidic conditions with 4,5-dihydroxyimidazoline, leading to a GU",
+        "start_index": 13873,
+        "end_index": 14159
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". When a substituted benzyl halide (chloride or bromide) was used as the starting material, this was reacted with a GU bearing two \\textit{para}-methoxybenzyl (PMB) protecting groups under basic conditions (Path B). The PMB groups were subsequently cleaved using ceric ammonium nitrate",
+        "start_index": 14159,
+        "end_index": 14444
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The GU building blocks for BUs 1 and 6-8 were prepared using Path A;\\textsuperscript{76} Path B was used to prepare GU building blocks for BUs 2-5 and 7,\\textsuperscript{78,79} GU building blocks for BUs 9 and 10 were prepared by oxidation of the GU building block for BU 7",
+        "start_index": 14444,
+        "end_index": 14719
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\textsuperscript{80} GU building blocks for BUs 11 and 12 were prepared by functionalization of GU bearing \\textit{para}-hydroxybenzyl groups with triflyl or mesyl groups, respectively.\\textsuperscript{80} BUs 6, 8 and 11 are prepared as new compounds and their detailed synthetic procedures and characterisation can be found in the ESI (Section 1).",
+        "start_index": 14719,
+        "end_index": 15069
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 2. General synthetic routes towards the BU derivatives discussed in this work.](image-url)\n\n**Anion binding studies**",
+        "start_index": 15069,
+        "end_index": 15195
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The binding strength of the BUs to chloride was studied using NMR spectroscopy in CD\\(_3\\)CN, with tetrabutylammonium (TBA) serving as the counter cation. Given the strong binding of chloride by BUs 1-12, which precludes the use of a single titration experiment for the determination of the association constant \\(K_a\\), competition experiments were required",
+        "start_index": 15195,
+        "end_index": 15553
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Another complication arises from the difficulties to obtain BUs 2-4 and 9-10 without any anion inside their cavity. However, exchange for another anion was feasible, meaning that the templating HSO\\(_4^-\\) anion could be replaced by Cl\\(^-\\).",
+        "start_index": 15553,
+        "end_index": 15797
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A series of titrations with different anions was carried out for anion free BU 7",
+        "start_index": 15797,
+        "end_index": 15877
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". In these, BU 7 was first titrated with TBA\\(^{-}\\)CF\\(_3\\)SO\\(_3^-\\), monitored by both \\(^1\\)H and \\(^{19}\\)F NMR spectroscopy and the changes in the chemical shifts were analysed by a 1:1 binding model to obtain the \\(K_a\\) of BU 7 for CF\\(_3\\)SO\\(_3^-\\)",
+        "start_index": 15877,
+        "end_index": 16135
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Subsequently, BU 7 was titrated with ReO\\(_4^-\\) in the presence of excess CF\\(_3\\)SO\\(_3^-\\), enabling the determination a selectivity ratio for the two anions and thus of the \\(K_a\\) of BU 7 for ReO\\(_4^-\\). Further competition studies with ClO\\(_4^-\\) and",
+        "start_index": 16135,
+        "end_index": 16395
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Cl\\(^{-}\\) resulted in the determination of \\(K_a = (4\\pm2)\\times10^{10} \\text{M}^{-1}\\) between BU 7 and Cl\\(^{-}\\).\\(^{80}\\) Anion binding data for non-fluorinated BU 12 were obtained using this strategy as well.\\(^{80}\\)",
+        "start_index": 16395,
+        "end_index": 16618
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "BU 7 was then used to determine \\(K_a\\) values of BUs 1, 2, 5, 6 and 8-11 towards Cl\\(^{-}\\) in experiments where 7 competed with other BUs for the chloride anions, as analysed using \\(^{19}\\)F NMR spectroscopy",
+        "start_index": 16618,
+        "end_index": 16828
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\(^{79,80}\\) In these studies BU 7 was used as an anion-free compound, while the other BU was introduced as either a \\~1:1\\ complex with TBACl or as anion-free compound, in which case a small amount of TBACl was added to the system",
+        "start_index": 16828,
+        "end_index": 17060
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The sum of the concentrations of both BUs was larger than that of chloride, ensuring that all chloride was distributed between the two BUs according to their relative ratio in \\(K_a\\) values. This relative difference was then calculated from the areas corresponding to the signals of anion-free and anion-bound BUs. Unfortunately, the \\(K_a\\) values of BUs 3 and 4 could not be obtained as the peaks of anion-free and complexed BU overlapped",
+        "start_index": 17060,
+        "end_index": 17503
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\(^{79}\\) A similar problem was encountered for competition experiments with BU 6, for which the peaks corresponding to complexed and anion-free 6 were poorly resolved, allowing only a more rough estimation of its \\(K_a\\) to chloride. The \\(^{10}\\)logartim of all \\(K_a\\) values are reported in Table 1.",
+        "start_index": 17503,
+        "end_index": 17807
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "In general, the increase in electron-withdrawing effect of the fluorinated groups on the BU benzyl substituent causes an increase in the \\(K_a\\) of BU to anions. Figure 3 provides a visual comparison of BUs binding chloride stronger than 7 with error bars representing standard deviations from the competition experiments between the individual BUs and 7",
+        "start_index": 17807,
+        "end_index": 18161
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Despite the very strong binding of chloride by all the BUs, BUs 2 and 5 can be clearly distinguished as the strongest receptors of the series",
+        "start_index": 18161,
+        "end_index": 18304
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Even though it was impossible to determine \\(K_a\\) values for BUs 3 and 4, it is expected, that they would possess \\(K_a\\) values comparable to those of 2 and 5, as the increase in fluoroalkyl chain length is not expected to induce a substantial alternation in the electron-withdrawing properties of the substituent. The direct competition experiment between BUs 5 and 10 confirmed that 10 binds chloride 1",
+        "start_index": 18304,
+        "end_index": 18712
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".5-fold weaker than 5. A lower binding strength was found for BUs 1 and 9 (both having a similar \\(K_a\\) to chloride), followed by 7. BUs 6, 8, 11 and 12 were found to be weaker in chloride binding than 7 (Table 1)",
+        "start_index": 18712,
+        "end_index": 18926
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". We note that the estimated \\(K_a\\) for BU 6 is lower than for 7, which corresponds well to the result obtained for BUs 1 and 2, where the derivative with -SCF\\(_3\\) groups (2) has stronger binding than the one with -CF\\(_3\\) (1) groups.",
+        "start_index": 18926,
+        "end_index": 19164
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "It is important to note that the absolute values of the \\(K_a\\) values for all BUs in this series (except for 12) are based on the \\(K_a\\) of BU 7 to chloride. Consequently, any absolute error in the determination of this \\(K_a\\) would result in a shift of the \\(K_a\\) of all BUs to either higher or lower absolute values, yet the selectivities of the BUs for chloride would remain unaltered.",
+        "start_index": 19164,
+        "end_index": 19556
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 3](image-url)  \n**Figure 3.** The relative binding affinities of BUs towards chloride in CD\\(_3\\)CN with respect to BU 7 as determined by competition experiments (\\(n=4-9\\)); BUs binding chloride weaker than 7 are not shown.\nCl\u207b/HCO\u2083\u207b transport studies in POPC liposomes",
+        "start_index": 19556,
+        "end_index": 19835
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The ability of the twelve BU derivatives to perform Cl\u207b/HCO\u2083\u207b antiport activity was investigated in large unilamellar vesicles (LUVs) using the lucigenin assay (Figure 4). The chloride-sensitive probe lucigenin was encapsulated in the vesicles to monitor the influx of chloride anions into the LUVs mediated by BUs",
+        "start_index": 19835,
+        "end_index": 20149
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". LUVs with a diameter of approximately 180 nm (Figure S37) were prepared from 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) with the BUs preincorporated in the membranes at a concentration of 0.02 mol% with regard to the total lipid amount",
+        "start_index": 20149,
+        "end_index": 20399
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The first series of experiments was performed without cholesterol in the membranes, after which the anion transport experiments were repeated with 30% cholesterol (vide infra). LUVs containing encapsulated lucigenin were dispersed in a NaHCO\u2083 solution (225 mM interior and exterior) and the experiment was initiated by adding a NaCl solution (25 mM) to the LUV exterior to establish a chloride gradient",
+        "start_index": 20399,
+        "end_index": 20803
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". A quenching of the fluorescence of lucigenin over time can be observed, which is due to the transport of chloride anions into the LUVs (Figure 5a-d).",
+        "start_index": 20803,
+        "end_index": 20954
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 4. Schematic representation of the lucigenin assay.](https://example.com/figure4.png)",
+        "start_index": 20954,
+        "end_index": 21048
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "For quantification of the obtained transport data, they were plotted as the inverse of the normalised curves (F\u2080/F, see the ESI Figure S38) which corresponds to the chloride concentrations inside the LUVs. The plotted curves were analysed using single and double exponential functions to obtain rate constants and initial transport rates, respectively (Table 1 and Figure 5e)",
+        "start_index": 21048,
+        "end_index": 21423
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The results from the competition studies described above were used for the visual categorisation of the Cl\u207b affinities of the BUs in the left panel of Figure 5e, ranging from the weakest (light blue colour) in binding to the strongest ones (purple colour).",
+        "start_index": 21423,
+        "end_index": 21681
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "BUs 1 and 2 were clearly the most active compounds of the series of BUs with meta-substituted benzyl groups (red and green curves in Figure 5a). No clear difference could be made in the activity of BUs 1 and 2 at a concentration of 0.02 mol%. Therefore, the transport experiment was repeated at a 10-fold lower BU concentration (0",
+        "start_index": 21681,
+        "end_index": 22011
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".002 mol%) indicating that BU 1 was more active than 2 (Figure S39, Table S4). BU 2 has a higher lipophilicity and binding strength than 1, and the impacts of small changes in these two parameters on transport activity might be counteracting. The higher lipophilicity of BU 2 could enhance the diffusion rate through the apolar membrane interior",
+        "start_index": 22011,
+        "end_index": 22356
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". However, the very high binding strength of BU 2 could slow down the release of the anion at the membrane interface. We note that for compound 1 anion release was previously found to be rate limiting in the transport process.",
+        "start_index": 22356,
+        "end_index": 22582
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "As the lipophilicity and size of BUs increased when going from 2 to 3 and 4, a clear decrease in transport activity was found (green, blue and violet curves in Figure 5a). A too high lipophilicity might prevent BU from residing at the membrane/aqueous interface, preventing the effective exchange of the anions with the aqueous solution. Additionally, a too large size might slow down the diffusion of the BU through the membrane.",
+        "start_index": 22582,
+        "end_index": 23012
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The presence of the -OME group in BU 5 resulted in a slight decrease in activity in comparison to 2, as concluded from the obtained transport curves (orange and green curves in Figure 5a) and fitted transport rate constants (Table 1) and confirmed from an experiment at a 10-fold lower concentration (Figure S39, Table S4). The polar -OME group could interact with lipid headgroups or be hydrated at the membrane.",
+        "start_index": 23012,
+        "end_index": 23425
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "interface, inducing a penalty to the transport process by BU 5 as compared to 2. A decrease in transport activity for compounds containing ether groups was already observed for decalin-based transporters.\u00b9\u2070",
+        "start_index": 23425,
+        "end_index": 23631
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Graphical representation of transport activity](https://doi.org/10.26434/chemrxiv-2025-x1zq1)",
+        "start_index": 23631,
+        "end_index": 23726
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "**Figure 5.** The transport of chloride via Cl\u207b/HCO\u2083\u207b antiport by BUs (pre-incorporated at 0",
+        "start_index": 23726,
+        "end_index": 23818
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".02 mol%) monitored by the lucigenin assay in 225 mM NaHCO\u2083, upon addition of 25 mM NaCl to LUVs composed of either POPC only (a,b), or POPC/cholesterol 7:3 (c,d); control experiments without any BU are indicated as \u2018blank\u2019; e) Graphical visualization of the anion transport rate constants at 0% (left part) and 30% (right part) cholesterol content",
+        "start_index": 23818,
+        "end_index": 24166
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "in the membrane, with the binding strength to chloride indicated in the left part (light blue = the weakest binding, purple = the strongest binding) and the effect of cholesterol on transport rates indicated in the right panel (red = transport stopped, orange = transport decreased, green = no significant effect)",
+        "start_index": 24166,
+        "end_index": 24479
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".",
+        "start_index": 24479,
+        "end_index": 24480
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "BUs 6-8 exhibited similar anion transport rates (red, green and blue curves in Figure 5b), with 6 transporting slightly faster than 7 and 8 (Table 1). It can be deduced from the results that the variation of the -CF\u2083 group to either -SCF\u2083 or -OCF\u2083 does not induce a significant change in the overall anion transport ability",
+        "start_index": 24480,
+        "end_index": 24803
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This result corresponds to the similar activities found for BUs 1 and 2, which bear two -CF\u2083 or -SCF\u2083 groups per benzyl substituent. The lipophilicity of BUs 6 and 8 is predicted to be similar, with 7 being slightly more lipophilic, while the differences in the $K_a$ values for chloride between these three BUs are also within one order of magnitude.",
+        "start_index": 24803,
+        "end_index": 25156
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "When the -SCF\u2083 group in BU 7 was altered to its oxidised sulfoxide and sulfone variants, a decrease in the transport activity was found for 9, while for 10 no significant transport was observed (green, violet and pink curves in Figure 5b)",
+        "start_index": 25156,
+        "end_index": 25394
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". On one hand, an increase in the binding strength can slow down the transport process if binding is too strong, but on the other hand, the $K_a$ of BU 2 for Cl\u207b is higher than that of either 9 or 10, yet 2 is still among the most active anionophores",
+        "start_index": 25394,
+        "end_index": 25644
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". An alternative explanation for the lower activity of BUs 9 and 10 can be proposed by considering that -SO\u2082CF\u2083 and -SO\u2082CF\u2083 groups could be strongly hydrated, thereby impeding the detachment of the corresponding BUs from the membrane interface as required for the diffusion through the membrane.",
+        "start_index": 25644,
+        "end_index": 25939
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "In contrast to the inactive sulfone-containing BU 10, BU 11 with triflate groups was found to be a highly active anionophore (orange curve in Figure 5b). This result is quite surprising given the only subtle differences between these two compounds",
+        "start_index": 25939,
+        "end_index": 26186
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The lipophilicity of BUs 10 and 11 is predicted to be the same by TorchLite (Table 1), while the chloride binding strength of 11 is around one order of magnitude lower than that of 10. However, as observed for BUs 1-2 and 6-8, such minor variations in binding strength of these very strongly binding macrocycles should not affect the transport capability of the BUs",
+        "start_index": 26186,
+        "end_index": 26553
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The oxygen atom positioned between the triflyl group and the benzene ring in BU 11 affects the orientation of the triflyl group towards the benzene ring in comparison to 10. This variation could potentially influence the accessibility of the oxygen atoms in the triflyl group to form hydrogen bonds",
+        "start_index": 26553,
+        "end_index": 26853
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". A comparison of BU 11 with most active compounds 1, 2, and 5 at a 10-fold lower concentration confirmed that 11 was almost as active as 1 (Figure S39, Table S4). In contrast, BU 12, the non-fluorinated analogue of BU 11, did not exhibit any transport activity",
+        "start_index": 26853,
+        "end_index": 27114
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Based on chloride binding strength and predicted lipophilicities of these two compounds, it is possible that the lipophilicity of BU 12 and/or the $K_a$ of 12 for Cl\u207b are too low to be an effective anionophore.",
+        "start_index": 27114,
+        "end_index": 27326
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Several conclusions can be drawn when considering the transport results obtained for all twelve BU derivatives. Changes (up to two orders of magnitude) in the BU anion binding strength do not seem to affect the transport significantly. However, the overall high affinity of the fluorinated BU macrocycles to anions might be important for effective transport. Conversely, a too high lipophilicity or a too large size cause a decrease in the transport activity",
+        "start_index": 27326,
+        "end_index": 27784
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The preferred conformation of the BU substituents could be affected by the fluorinated groups and may also be a contributing factor, as it should have an impact on the shape and lipophilic surface of the individual BU derivatives. Unfortunately, this is not readily evaluated, especially as the lipid membrane is a complex environment and the substituents are flexible and relatively free to rotate.",
+        "start_index": 27784,
+        "end_index": 28185
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "**Cl\u207b/HCO\u2083\u207b transport studies with cholesterol present in the membrane**",
+        "start_index": 28185,
+        "end_index": 28257
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "We have discovered in our recent work on BUs conjugated with bile acid residues that their transport activity was drastically impacted by an increased cholesterol content in the membrane.\u2078\u00b2 Therefore, we were curious whether the anion transport by the fluorinated BUs investigated in this work would be impacted as well. We have thus tested the Cl\u207b/HCO\u2083\u207b antiport activities of all BUs using the lucigenin assay with BUs preincorporated at 0",
+        "start_index": 28257,
+        "end_index": 28698
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".02 mol% inside the membrane of LUV composed of POPC and cholesterol in a molar ratio of 7:3 (Figure 5c and 5d). Strikingly, the presence of cholesterol in the membrane has a drastic negative impact on the anion transport by particular compounds, while other derivatives remain unaffected or are only slightly affected (Figure 5e, right panel).",
+        "start_index": 28698,
+        "end_index": 29042
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The sensitivity of the anion transport by BUs to the cholesterol content in the membrane appears to be associated with the presence of hydrogen bond accepting groups on the BU substituents. For instance, BUs",
+        "start_index": 29042,
+        "end_index": 29249
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "5 and 11 are highly active in the LUVs made of pure POPC, but complete inactive in the presence of cholesterol. Similarly, moderately active BU 9 lost its activity in the presence of cholesterol. BU 8, on the other hand, was not impacted despite containing an oxygen atom in the substituent",
+        "start_index": 29249,
+        "end_index": 29539
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Potential reasons could be the steric hindrance by the -CF\u2083 group or a decrease in the electron density on the oxygen atom, both of which would reduce the hydrogen bond accepting ability of the oxygen. We hypothesise that the -OH group of the cholesterol might interact with these hydrogen bond acceptors in BUs 5, 9, and 11, as visualised schematically in Figure 6.",
+        "start_index": 29539,
+        "end_index": 29907
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 6](image_url)\n\n**Figure 6.** A schematic representation of an interaction between a polar BU substituent and cholesterol in the membrane.",
+        "start_index": 29907,
+        "end_index": 30053
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "BUs 2-4 and 6 exhibited a slight decrease in their transport activities in LUVs composed of POPC/cholesterol, as is commonly observed for anionophores. As the BU anionophores are relatively large molecules, a tighter packing of the lipids with cholesterol can slow down the diffusion of the BUs through the membrane.\n\n**Transport studies of BU 1 in liposomes of different lipid compositions**",
+        "start_index": 30053,
+        "end_index": 30445
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Interestingly, the transport activity of the most active BU 1 remained unaffected by the presence of cholesterol in the membrane. Therefore, we were curious if changes in the membrane thickness could influence the transport activity of BU 1. The transport rates of 1 in LUVs made of phosphocholines (PCs) with two monounsaturated fatty acids with varied chain lengths were measured",
+        "start_index": 30445,
+        "end_index": 30826
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". If the exchange of anions at the membrane periphery would be the rate-limiting step of the transport process, the transport rates should be similar regardless of the membrane thickness. On the other hand, a decrease in the transport activity with increasing length of the PC acyl chains would suggest that the diffusion of 1 is the rate-determining step of the transport process.",
+        "start_index": 30826,
+        "end_index": 31207
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "An initial attempt to study Cl\u207b/HCO\u2083\u207b antiport by 1 in these liposomes was unsuccessful as the runs in absence of 1 revealed significant leakage of lucigenin through the membrane, making these experiments unreliable",
+        "start_index": 31207,
+        "end_index": 31422
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Therefore, we have switched to measuring Cl\u207b/NO\u2083\u207b antiport activity of 1 using N,N'-bis(3-sulfonatopropyl)-9,9'-bicridinium (SPBA), a more hydrophilic analogue of lucigenin, as fluorescence probe",
+        "start_index": 31422,
+        "end_index": 31619
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The experiments were conducted in a homologous series of PCs (with 14:1, 16:1, 18:1, 20:1 and 22:1 acyl chains), in LUVs made of PC/cholesterol 7:3 (Figure 7)",
+        "start_index": 31619,
+        "end_index": 31779
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". It was observed that in the LUVs with the thinnest membrane (14:1 PC, light blue curve) the transport is the fastest, while it became slightly slower in the LUVs made of 16:1 and 18:1 PC (red and green curves, respectively). Interestingly, transport completely stopped in LUVs with thicker membranes (20:1 and 22:1 PC; orange and blue curves, respectively)",
+        "start_index": 31779,
+        "end_index": 32137
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This finding could suggest channel-like behaviour for 1, which is, however, unlikely based on the inactivity of 1 in LUVs made of DPPC at temperatures below the DPPC transition temperature. Our trend found for 1 is different from the results obtained for cholapod anion transporters, for which a steady decrease of the transport rates with increasing PC acyl chain lengths was observed",
+        "start_index": 32137,
+        "end_index": 32524
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". A decrease in the transport rate with increasing membrane thickness was also observed for anion transport relays. However, it should be noted that the mechanism of transport by these relays is different from the one by BUs.",
+        "start_index": 32524,
+        "end_index": 32749
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Figure 7. a) Cl\u207b/NO\u2083\u207b antiport activity of BU 1 through membranes of varying thickness measured using the SPBA assay, the BU was preincorporated at 0.1 mol% in the LUVs made of PC/cholesterol 7:3, LUVs were suspended in 225 mM NaNO\u2083 (internal and external) at 0",
+        "start_index": 32749,
+        "end_index": 33010
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".2 mM total lipid concentration, the transport was initiated with 25 mM NaCl pulse. Control experiments without BU 1 are indicated as \u2018blank\u2019.",
+        "start_index": 33010,
+        "end_index": 33152
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Transport of different anions by BU 1",
+        "start_index": 33152,
+        "end_index": 33189
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The studies of the Cl\u207b/NO\u2083\u207b antiport activity described above had to be carried out at a higher concentration of 1 to obtain clear transport curves. This is in line with previous observations that the Cl\u207b/NO\u2083\u207b antiport process by fluorinated BUs is much slower than Cl\u207b/HCO\u2083\u207b antiport",
+        "start_index": 33189,
+        "end_index": 33473
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This was attributed to the possibility of formation of a 2:1 complex of BU 1 with Cl\u207b and HCO\u2083\u207b anions, removing the need for full decomplexation of the BU during the transport process. Moreover, the high affinity of BU 1 towards NO\u2083\u207b and selectivity for NO\u2083\u207b over Cl\u207b disfavour the decomplexation of NO\u2083\u207b",
+        "start_index": 33473,
+        "end_index": 33780
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The same trend was observed for HCO\u2083\u207b/Cl\u207b, which was significantly faster than HCO\u2083\u207b/NO\u2083\u207b antiport in experiments using the [Eu.L\u207a]\u00b3\u207a probe to directly monitor HCO\u2083\u207b transport into LUVs",
+        "start_index": 33780,
+        "end_index": 33967
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The results for the selectivities of transport processes by BU 1 obtained from these two assays show that the relative amounts or absolute concentrations of anions present in the medium do not play a significant role. For example, 10 mM HCO\u2083\u207b was used in the [Eu",
+        "start_index": 33967,
+        "end_index": 34231
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".L\u207a]\u00b3\u207a assay (added to 225 mM NaCl), while 225 mM NaHCO\u2083 was used in the lucigenin assay (to which 25 mM NaCl was added), resulting in similar rates of Cl\u207b/HCO\u2083\u207b antiport.",
+        "start_index": 34231,
+        "end_index": 34402
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "To further investigate the relationship between the selectivity of BU 1 to different anions and the selectivities of the transport processes, we investigated Br\u207b/NO\u2083\u207b, I\u207b/NO\u2083\u207b, Br\u207b/HCO\u2083\u207b and I\u207b/HCO\u2083\u207b antiport by 1, using the lucigenin and SPBA assays",
+        "start_index": 34402,
+        "end_index": 34652
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Additionally, Cl\u207b, NO\u2083\u207b, and SO\u2084\u00b2\u207b uniport activities by 1 were measured using the HPTS assay. Other previously investigated transport processes by BU 1 were Cl\u207b/AcO\u207b and Cl\u207b/SO\u2084\u00b2\u207b antiport\u2077\u2076,\u2078\u00b9 and the transport of F\u207b.\u2078\u2075 All these transport processes by BU 1 are summarised in Table 2",
+        "start_index": 34652,
+        "end_index": 34939
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".",
+        "start_index": 34939,
+        "end_index": 34940
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Table 2. Ranking of transport processes by BU 1",
+        "start_index": 34940,
+        "end_index": 34987
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| Definition                        | Transport Classification | Antiport                  | Uniport                |\n|-----------------------------------|--------------------------|---------------------------|------------------------|",
+        "start_index": 34987,
+        "end_index": 35222
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 100% transport in <500 s Low conc. (\u22640.004 mol%) | Exceptionally good       | Cl\u207b/HCO\u2083\u207b\u2077\u2076, HCO\u2083\u207b/Cl\u207b\u2077\u2077   | Cl\u207b[c,d], HCO\u2083\u207b[b]    |",
+        "start_index": 35222,
+        "end_index": 35354
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 100% transport in <500 s Medium conc. (0.1 mol%) | Good                     | Cl\u207b/NO\u2083\u207b\u2077\u2076, Br\u207b/NO\u2083\u207b[a,d]  | Cl\u207b/NO\u2083\u207b[a,d]        |",
+        "start_index": 35354,
+        "end_index": 35485
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| 50%-100% transport in <500 s Medium conc. (0.1 mol%) | Medium                   | F\u207b/Cl\u207b\u2077\u2078, F\u207b/NO\u2083\u207b[b]\u2078\u2075     | F\u207b[b]\u2078\u2075              |",
+        "start_index": 35485,
+        "end_index": 35620
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "| <50% transport in <500 s Medium conc. (0.04-0.1 mol%) | Poor                     | Cl\u207b/SO\u2084\u00b2\u207b[a]\u2078\u00b9, HCO\u2083\u207b/NO\u2083\u207b[b]\u2077\u2077 | OH\u207b[c]\u2078\u2075 (or H\u207a)    |",
+        "start_index": 35620,
+        "end_index": 35760
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "[a] Lucigenin or SPBA assays; [b] [Eu.L\u207a]\u00b3\u207a assay; [c] HPTS assay; [d] this work.",
+        "start_index": 35760,
+        "end_index": 35841
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The ability of BU 1 to transport halides (Cl\\(^-\\), Br\\(^-\\), I\\(^-\\)) in nitrate or bicarbonate solutions was investigated using the lucigenin and SPBA assays, as all three halides are known to quench the fluorescence of these fluorescent probes. BU 1 was preincorporated in LUVs made of POPC and cholesterol (7:3 ratio) at 0.1 mol%",
+        "start_index": 35841,
+        "end_index": 36174
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The transport experiments were initiated with the addition of 25 mM NaX. It should be noted that I\\(^-\\) and Br\\(^-\\) quench lucigenin and SPBA stronger than Cl\\(^-\\), resulting in lower fluorescence levels at the final plateaus of the transport experiments compared to the experiments with Cl\\(^-\\).",
+        "start_index": 36174,
+        "end_index": 36476
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Based on the hydration energies and the Hofmeister series, it was expected that the transport rates would be in the order I\\(^-\\) > Br\\(^-\\) > Cl\\(^-\\).\\(^{86}\\) Indeed, this trend was found when the transport experiments were done in NaNO\\(_3\\) solution",
+        "start_index": 36476,
+        "end_index": 36730
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". I\\(^-\\)/NO\\(_3\\)\\(^-\\) and Br\\(^-\\)/NO\\(_3\\)\\(^-\\) antiport processes were observed to be considerably faster (\\(k\\) of 0.013 and 0.023 s\\(^{-1}\\) respectively) than Cl\\(^-\\)/NO\\(_3\\)\\(^-\\) antiport (0.006 s\\(^{-1}\\)) by BU 1 (Figure 8a)",
+        "start_index": 36730,
+        "end_index": 36969
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". On the other hand, a rather surprising trend was found in the NaHCO\\(_3\\) solution (Figure 8b). The Cl\\(^-\\)/HCO\\(_3\\)\\(^-\\) antiport by 1 is the fastest (\\(k\\) of 0.126 s\\(^{-1}\\)), followed by Br\\(^-\\)/HCO\\(_3\\)\\(^-\\) antiport (0",
+        "start_index": 36969,
+        "end_index": 37202
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".017 s\\(^{-1}\\)) and very slow I\\(^-\\)/HCO\\(_3\\)\\(^-\\) antiport (0.004 s\\(^{-1}\\))",
+        "start_index": 37202,
+        "end_index": 37284
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Furthermore, the experiments with hydrophobic I\\(^-\\) show that I\\(^-\\) can permeate the LUV membrane to some extent even without any anion transporter (light purple curves in Figure 8), meaning that part of the observed I\\(^-\\)/HCO\\(_3\\)\\(^-\\) antiport is due to spontaneous diffusion of I\\(^-\\), making this process slower than Cl\\(^-\\)/NO\\(_3\\)\\(^-\\)",
+        "start_index": 37284,
+        "end_index": 37639
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "antiport",
+        "start_index": 37639,
+        "end_index": 37647
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".",
+        "start_index": 37647,
+        "end_index": 37648
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "![Figure 8](https://doi.org/10.26434/chemrxiv-2025-x1zq1) ORCID: https://orcid.org/0000-0002-4409-0154 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 37648,
+        "end_index": 37808
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "It is expected that due to such high affinities of BU 1 to anions, decomplexation does not occur at the membrane interface, but a direct exchange of the anions would be preferred (Figure 8d).\\(^{33}\\) In this case, a balanced selectivity of 1 for both anions involved in the antiport process would be beneficial",
+        "start_index": 37808,
+        "end_index": 38119
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". The anion binding selectivity of 1 in acetonitrile is following the order: I\\(^-\\) > Br\\(^-\\) > NO\\(_3\\)\\(^-\\) > Cl\\(^-\\) > HCO\\(_3\\)\\(^-\\) (see Figure 8c, \\(K_a\\) values provided in Table S3)",
+        "start_index": 38119,
+        "end_index": 38313
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This would match the observation that Cl\\(^-\\)/HCO\\(_3\\)\\(^-\\) antiport, with both",
+        "start_index": 38313,
+        "end_index": 38397
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "anions having similar $K_a$ values (less than 30-fold difference) is faster than $\\Gamma$/HCO$_3^-$ antiport where a larger binding selectivity of BU 1 for $\\Gamma^-$ is present (up to 2400-fold). Inversely, $\\Gamma$/NO$_3^-$ and Br$^-$/NO$_3^-$ antiport are more efficient as both anions are very strongly bound in both cases",
+        "start_index": 38397,
+        "end_index": 38723
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". It was hinted previously for more structurally simple anionophores that a balanced selectivity for binding and transport of individual anions gives the fastest exchange rates in the antiport process.$^{87}$",
+        "start_index": 38723,
+        "end_index": 38931
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "As mentioned above, $\\Gamma^-$ can also be transported by 1 across lipid bilayers as investigated previously using the emissive probe [Eu.L]$^+$ to directly monitor the concentration of $\\Gamma^-$ inside LUVs (which cannot be done with lucigenin or SPBA)",
+        "start_index": 38931,
+        "end_index": 39185
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{85}$ $\\Gamma^-$ uniport, $F^-/Cl^-$ and $F^-/NO_3^-$ antiport processes were found to be possible by 1 (Table 2). Nevertheless, when considering halides, $F^-$ is the slowest to be transported, which might be linked to the low affinity that BU macrocycles have for $F^-$ compared to other halides in combination with the strong solvation of $F^-$",
+        "start_index": 39185,
+        "end_index": 39535
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{88,89}$",
+        "start_index": 39535,
+        "end_index": 39546
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Electrogenic uniport of Cl$^-$, NO$_3^-$ or SO$_4^{2-}$ by 1 was investigated using the HPTS assay.$^{90}$ LUVs of ~180 nm diameter were prepared from POPC and cholesterol in a 7:3 molar ratio with 1 preincorporated in the membranes at various concentrations",
+        "start_index": 39546,
+        "end_index": 39804
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Instead of Na$^+$, protonated $N$-methyl-$d$-glucosamine (NMDGH$^+$) was used as non-transportable counter cation for both the internal and external aqueous phases",
+        "start_index": 39804,
+        "end_index": 39969
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{91}$ LUVs with encapsulated HPTS were dispersed in NMDGH$^+$ solution with the counter anion of which the transport was to be studied (100 mM internal and external), containing HEPES (10 mM) at pH 6.8. The experiment was initiated by adding an NMDG solution (5 mM) to the exterior of the LUVs, creating a pH gradient across the vesicle membrane.",
+        "start_index": 39969,
+        "end_index": 40318
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Previously we have reported rather low activities for Cl$^-$ and NO$_3^-$ uniport by 1 when the proton channel gramicidin was used for proton transport.$^{76}$ However, we found much higher Cl$^-$ uniport rates when employing carbonyl cyanide $m$-chlorophenyl hydrazone (CCCP) as a protonophore",
+        "start_index": 40318,
+        "end_index": 40612
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{85}$ Indeed, 1 exhibited a high activity as a uniporter of both Cl$^-$ and NO$_3^-$, even at low concentrations (0.002 mol%, Figures S41a and S42a). An intriguing difference was observed when Cl$^-$ uniport by 1 was tested using the HPTS assay in NaCl instead of NMDG HCl solution",
+        "start_index": 40612,
+        "end_index": 40896
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". In NaCl, the Cl$^-$ uniport by 1 was found to be considerably slower than in NMDGH$^+$Cl$^-$ solution (Figure S41b), suggesting that cations might have an impact on the anion transport properties of BUs. However, it is the question whether they are directly involved in the transport process or if they might impact anion exchange at the membrane periphery by BUs. This phenomenon is a subject of future investigations.",
+        "start_index": 40896,
+        "end_index": 41317
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Sulfate uniport by 1 was not observed even at 0.1 mol% concentration of 1 in either Na$^+$ or NMDGH$^+$ sulfate solutions (Figure S42b). However, slow but clear Cl$^-$/SO$_4^{2-}$ antiport by 1 was observed using the lucigenin assay",
+        "start_index": 41317,
+        "end_index": 41549
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{81}$ The ability of 1 to transport SO$_4^{2-}$ in this case may be driven by the Cl$^-$ transport, resulting in the creation of a charge gradient across the membrane. The transport of highly hydrated SO$_4^{2-}$ is not easy, and it is generally assumed, that it cannot be transported. Only a few urea-based transporters have been reported to be able to transport this anion",
+        "start_index": 41549,
+        "end_index": 41926
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".$^{23,34,68,92,93}$",
+        "start_index": 41926,
+        "end_index": 41946
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Conclusions",
+        "start_index": 41946,
+        "end_index": 41957
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "In this work, we have investigated the anion transport properties of twelve BU derivatives, only two of which have been previously studied and three of which were prepared for the first time. Measurements of their Cl$^-$/HCO$_3^-$ antiport activities in the lucigenin assay provided a comprehensive study of the effect of variation of substituents on large macrocyclic anionophores on their transport properties",
+        "start_index": 41957,
+        "end_index": 42368
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". As the affinities of the tested BUs to anions are generally very high, the absolute $K_a$ values seem not to be an important parameter, in contrast to what is commonly observed in the literature for smaller compounds. All tested BUs (apart from 12) are predicted to be highly lipophilic and further increases in the lipophilic nature were found to have a negative impact on the transport abilities.",
+        "start_index": 42368,
+        "end_index": 42768
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "The complexity of the BU anionophores is further highlighted by their strongly varied response to the addition of cholesterol to the membrane compositions, where compounds with hydrogen bond accepting oxygen atoms seem to be most impacted. Further investigations are therefore required in the context of\nbiological applications,",
+        "start_index": 42768,
+        "end_index": 43096
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "as cell membranes are much more complex than the model LUVs used here. Despite several variations in the BU substituents, 1 remains the most active BU macrocycle-based transporter to date and the most active Cl\\(^{-}/\\text{HCO}_3^{-}\\) antiporter known",
+        "start_index": 43096,
+        "end_index": 43348
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".\\(^\\text{14}\\) The study of different antiport processes between halides and oxoanions by 1 has shown that a balanced binding selectivity for the transported anions is preferred for an effective antiport process by these BUs with very high anion affinities.",
+        "start_index": 43348,
+        "end_index": 43606
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 43606,
+        "end_index": 43622
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "MC is a Research Fellow and HV a Research Associate of the Fonds de la Recherche Scientifique\u2014FNRS. This work was supported by the Czech Science Foundation (23-05271S). We thank the RECETOX Research Infrastructure (LM2023069) financed by the Ministry of Education, Youth and Sports. This project was supported from the European Union's Horizon 2020 Research and Innovation Programme under grant agreement No. 857560 (CETOCOEN Excellence)",
+        "start_index": 43622,
+        "end_index": 44059
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". This publication reflects only the author's view. This work was supported by the Czech Science Foundation (23-05271S) financed by the Ministry of Education, Youth and Sports. This project has received funding from the European Research Council (ERC, Grant agreement No. 802727). This article is also based upon work from COST Action CA22131, supported by COST (European Cooperation in Science and Technology)",
+        "start_index": 44059,
+        "end_index": 44469
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". We further thank the Centre d\u2019Instrumentation en Resonance Magn\u00e9tique \u2013 CIREM (Universit\u00e9 libre de Bruxelles \u2013 ULB, Belgium) for providing support and access to its infrastructure (F.R.S.-FNRS GEQ2011-2.5014.12 and FER-ULB).",
+        "start_index": 44469,
+        "end_index": 44695
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "References",
+        "start_index": 44695,
+        "end_index": 44705
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "1. R. Planells-Cases and T. J. Jentsch, Chloride channelopathies, *BBA - Mol. Basis Dis.*, 2009, **1792**, 173\u2013189.",
+        "start_index": 44705,
+        "end_index": 44820
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "2. M. Mantegazza, S. Cest\u00e8le and W. A. Catterall, Sodium channelopathies of skeletal muscle and brain, *Physiol. Rev.*, 2021, **101**, 1633\u20131689.",
+        "start_index": 44820,
+        "end_index": 44965
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "3. S.-Y. Chen, C.-J. Ho, Y.-T. Lu, C.-H. Lin, M.-Y. Lan and M.-H. Tsai, The Genetics of Primary Familial Brain Calcification: A Literature Review, *Int. J. Mol. Sci.*, 2023, **24**, 10886.",
+        "start_index": 44965,
+        "end_index": 45153
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "4. A. Staruschenko, R. Ma, O. Palygin and S. E. Dryer, Ion channels and channelopathies in glomeruli, *Physiol. Rev.*, 2023, **103**, 787\u2013854.",
+        "start_index": 45153,
+        "end_index": 45295
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "5. D. N. Sheppard and A. P. Davis, Pore-forming small molecules offer a promising way to tackle cystic fibrosis, *Nature*, 2019, **567**, 315\u2013317.",
+        "start_index": 45295,
+        "end_index": 45441
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "6. M. K. Massey, M. J. Reiterman, J. Mourad and D. B. Luckie, Is CFTR an exchanger?: Regulation of HCO\\(_3^{-}\\)--Transport and extracellular pH by CFTR, *Biochem. Biophys. Rep.*, 2021, **25**, 100863.",
+        "start_index": 45441,
+        "end_index": 45642
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "7. D. Angyal, M. J. C. Bijvelds, M. J. Bruno, M. P. Peppelenbosch and H. R. de Jonge, Bicarbonate Transport in Cystic Fibrosis and Pancreatitis, *Cells*, 2022, **11**, 54.",
+        "start_index": 45642,
+        "end_index": 45813
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "8. H. Li, H. Valkenier, L. W. Judd, P. R. Brotherhood, S. Hussain, J. A. Cooper, O. Jur\u010dek, H. A. Sparkes, D. N. Sheppard and A. P. Davis, Efficient, non-toxic anion transport by synthetic carriers in cells and epithelia, *Nat. Chem.*, 2016, **8**, 24\u201332.",
+        "start_index": 45813,
+        "end_index": 46068
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "9. K. A. Muraglia, R. S. Chorghade, B. R. Kim, X. X. Tang, V. S. Shah, A. S. Grillo, P. N. Daniels, A. G. Cioffi, P. H. Karp, L. Zhu, M. J. Welsh and M. D",
+        "start_index": 46068,
+        "end_index": 46222
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Burke, Small-molecule ion channels increase host defences in cystic fibrosis airway epithelia, *Nature*, 2019, **567**, 405\u2013408.",
+        "start_index": 46222,
+        "end_index": 46352
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "10. H. Li, H. Valkenier, A. G. Thorne, C. M. Dias, J. A. Cooper, M. Kieffer, N. Busschaert, P. A. Gale, D. N. Sheppard and A. P. Davis, Anion carriers as potential treatments for cystic fibrosis: transport in cystic fibrosis cells, and additivity to channel-targeting drugs, *Chem. Sci",
+        "start_index": 46352,
+        "end_index": 46637
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".*, 2019, **10**, 9663\u20139672.",
+        "start_index": 46637,
+        "end_index": 46665
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "11. A. Gianotti, V. Capuro, L. Delpiano, M. Mieleczarek, M. Garcia-Valverde, I. Carreira-Barral, A. Ludovico, M. Fiore, D. Baroni, O. Moran, R. Quesada and E",
+        "start_index": 46665,
+        "end_index": 46822
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Caci, Small Molecule Anion Carriers Correct Abnormal Airway Surface Liquid Properties in Cystic Fibrosis Airway Epithelia, *Int. J. Mol. Sci.*, 2020, **21**, 1488.",
+        "start_index": 46822,
+        "end_index": 46987
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "12. R. Quesada and R. Dutzler, Alternative chloride transport pathways as pharmacological targets for the treatment of cystic fibrosis, *J. Cyst. Fibros.*, 2020, **19**, S37\u2013S41.",
+        "start_index": 46987,
+        "end_index": 47165
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "13. A. Mondal, M. Ahmad, D. Mondal and P. Talukdar, Progress and prospects toward supramolecular bioactive ion transporters, *Chem. Commun.*, 2023, **59**, 1917\u20131938.",
+        "start_index": 47165,
+        "end_index": 47331
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "14. L. Martinez-Crespo and H. Valkenier, Transmembrane Transport of Bicarbonate by Anion Receptors, *ChemPlusChem*, 2022, **87**, e202200266.",
+        "start_index": 47331,
+        "end_index": 47472
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "15. J. Yang, G. Yu, J. L. Sessler, I. Shin, P. A. Gale and F. Huang, Artificial transmembrane ion transporters as potential therapeutics, *Chem*, 2021, **7**, 3256\u20133291.",
+        "start_index": 47472,
+        "end_index": 47641
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "16. J. T. Davis, P. A. Gale and R. Quesada, Advances in anion transport and supramolecular medicinal chemistry, *Chem. Soc. Rev.*, 2020, **49**, 6056\u20136086.",
+        "start_index": 47641,
+        "end_index": 47796
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "17. A. Singh, A. Torres-Huerta, F. Meyer and H. Valkenier, Anion transporters based on halogen, chalcogen, and pnictogen bonds: towards biological applications, *Chem. Sci.*, 2024, **15**, 15006\u201315022.",
+        "start_index": 47796,
+        "end_index": 47997
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "18 P. R. Brotherhood and A. P. Davis, Steroid-based anion receptors and transporters, *Chem. Soc. Rev.*, 2010, **39**, 3633\u20133647.",
+        "start_index": 47997,
+        "end_index": 48126
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "19 K. M. B\u0105k, K. Chabuda, H. Montes, R. Quesada and M. J. Chmielewski, 1,8-Diamidocarbazoles: an easily tuneable family of fluorescent anion sensors and transporters, *Org. Biomol. Chem.*, 2018, **16**, 5188\u20135196.",
+        "start_index": 48126,
+        "end_index": 48339
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "20 K. Mas\u0142owska-Jarzyna, A. Cataldo, A. Marszalik, I. Ignatikova, S. J. Butler, R. Stachowiak, M. J. Chmielewski and H. Valkenier, Dissecting transmembrane bicarbonate transport by 1,8-(thio)amidocarbazoles, *Org. Biomol. Chem",
+        "start_index": 48339,
+        "end_index": 48565
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".*, 2022, **20**, 7658\u20137663.",
+        "start_index": 48565,
+        "end_index": 48593
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "21 J. A. Cooper, S. T. G. Street and A. P. Davis, A Flexible Solution to Anion Transport: Powerful Anionophores Based on a Cyclohexane Scaffold, *Angew. Chem. Int. Ed.*, 2014, **53**, 5609\u20135613.",
+        "start_index": 48593,
+        "end_index": 48787
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "22 H. Valkenier, C. M. Dias, K. L. Porter Goff, O. Jur\u010dek, R. Puttreddy, K. Rissanen and A. P. Davis, Sterically geared tris-thioureas; transmembrane chloride transporters with unusual activity and accessibility, *Chem. Commun.*, 2015, **51**, 14235\u201314238.",
+        "start_index": 48787,
+        "end_index": 49043
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "23 L. A. Jowett, E. N. W. Howe, X. Wu, N. Busschaert and P. A. Gale, New Insights into the Anion Transport Selectivity and Mechanism of Tren-based Tris-(thio)ureas, *Chem. Eur. J.*, 2018, **24**, 10475\u201310487.",
+        "start_index": 49043,
+        "end_index": 49251
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "24 D. S. Kim and J. L. Sessler, Calix[4]pyrroles: versatile molecular containers with ion transport, recognition, and molecular switching functions, *Chem. Soc. Rev.*, 2015, **44**, 532\u2013546.",
+        "start_index": 49251,
+        "end_index": 49441
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "25 S. Peng, Q. He, G. I. Vargas-Z\u00fa\u00f1iga, L. Qin, I. Hwang, S. K. Kim, N. J. Heo, C.-H. Lee, R. Dutta and J. L. Sessler, Strapped calix[4]pyrroles: from syntheses to applications, *Chem. Soc. Rev.*, 2020, **49**, 865\u2013907.",
+        "start_index": 49441,
+        "end_index": 49660
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "26 A. Singh, A. Torres-Huerta, T. Vanderlinden, N. Renier, L. Mart\u00ednez-Crespo, N. Tumanov, J. Wouters, K. Bartik, I. Jabin and H. Valkenier, Calix[6]arenes with halogen bond donor groups as selective and efficient anion transporters, *Chem. Commun.*, 2022, **58**, 6255\u20136258",
+        "start_index": 49660,
+        "end_index": 49934
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".",
+        "start_index": 49934,
+        "end_index": 49935
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "27 E. R. Abdurakhmanova, D. Mondal, H. J\u0119drzewska, P. Cmoch, O. Danylyuk, M. J. Chmielewski and A. Szymna, Supramolecular umpolung: converting electron-rich resorcin[4]arenes into potent CH-bonding anion receptors and transporters, *Chem",
+        "start_index": 49935,
+        "end_index": 50172
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".*, 2024, **10**, 1910\u20131924.",
+        "start_index": 50172,
+        "end_index": 50200
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "28 N. Busschaert, S. J. Bradberry, M. Wenzel, C. J. E. Haynes, J. R. Hiscock, I. L. Kirby, L. E. Karagiannidis, S. J. Moore, N. J. Wells, J. Herniman, G. J. Langley, P. N. Horton, M. E. Light, I. Marques, P. J",
+        "start_index": 50200,
+        "end_index": 50409
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Costa, V. F\u00e9lix, J. G. Frey and P. A. Gale, Towards predictable transmembrane transport: QSAR analysis of anion binding and transport, *Chem. Sci.*, 2013, **4**, 3036\u20133045.",
+        "start_index": 50409,
+        "end_index": 50583
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "29 N. J. Knight, E. Hernando, C. J. E. Haynes, N. Busschaert, H. J. Clarke, K. Takimoto, M. Garc\u00eda-Valverde, J. G. Frey, R. Quesada and P. A. Gale, QSAR analysis of substituent effects on tumbajmine anion transporters, *Chem. Sci",
+        "start_index": 50583,
+        "end_index": 50812
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".*, 2016, **7**, 1600\u20131608.",
+        "start_index": 50812,
+        "end_index": 50839
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "30 E. York, D. A. McNaughton, A. Roseblade, C. G. Cranfield, P. A. Gale and T. Rawling, Structure\u2013Activity Relationship and Mechanistic Studies of Bisaryl Urea Anticancer Agents Indicate Mitochondrial Uncoupling by a Fatty Acid-Activated Mechanism, *ACS Chem. Biol.*, 2022, **17**, 2065\u20132073.",
+        "start_index": 50839,
+        "end_index": 51131
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "31 B. A. McNally, A. V. Koulou, T. N. Lambert, B. D. Smith, J.-B. Joos, A. L. Sisson, J. P. Clare, V. Sgarlata, L. W. Judd, G. Magro and A. P",
+        "start_index": 51131,
+        "end_index": 51272
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Davis, Structure\u2013Activity Relationships in Cholapod Anion Carriers: Enhanced Transmembrane Chloride Transport through Substituent Tuning, *Chem. Eur. J.*, 2008, **14**, 9599\u20139606.",
+        "start_index": 51272,
+        "end_index": 51453
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "32 A. Vargas Jentsch, D. Emery, J. Mareda, P. Metrangolo, G. Resinati and S. Matile, Ditopic Ion Transport Systems: Anion\u2013\u03c0 Interactions and Halogen Bonds at Work, *Angew. Chem. Int. Ed.*, 2011, **50**, 11675\u201311678.",
+        "start_index": 51453,
+        "end_index": 51668
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "33 S. J. Edwards, H. Valkenier, N. Busschaert, P. A. Gale and A. P. Davis, High-Affinity Anion Binding by Steroidal Squaramide Receptors, *Angew. Chem. Int. Ed.*, 2015, **54**, 4592\u20134596.",
+        "start_index": 51668,
+        "end_index": 51855
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "34 N. Busschaert, M. Wenzel, M. E. Light, P. Iglesias-Hern\u00e1ndez, R. P\u00e9rez-Tom\u00e1s and P. A. Gale, Structure\u2013Activity Relationships in Tripodal Transmembrane Anion Transporters: The Effect of Fluorination, *J. Am. Chem. Soc.*, 2011, **133**, 14136\u201314148.",
+        "start_index": 51855,
+        "end_index": 52106
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "35 M. J. Spooner, H. Li, I. Marques, P. M. R. Costa, X. Wu, E. N. W. Howe, N. Busschaert, S. J. Moore, M. E. Light, D. N. Sheppard, V. F\u00e9lix and P. A. Gale, Fluorinated synthetic anion carriers: experimental and computational insights into transmembrane chloride transport, *Chem. Sci",
+        "start_index": 52106,
+        "end_index": 52390
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".*, 2019, **10**, 1976\u20131985.",
+        "start_index": 52390,
+        "end_index": 52418
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "36 M. Olivari, R. Montis, S. N. Berry, L. E. Karagiannidis, S. J. Coles, P. N. Horton, L. K. Mapp, P. A. Gale and C. Caltagirone, Tris-arenes as transmembrane anion transporters, *Dalton Trans.*, 2016, **45**, 11892\u201311897.",
+        "start_index": 52418,
+        "end_index": 52640
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "37 D. Mondal, A. Sathyam, S. V. Shinde, K. K. Mishra and P. Talukdar, Tripodal cyanurates as selective transmembrane Cl-transporters, *Org. Biomol. Chem.*, 2018, **16**, 8690\u20138694.",
+        "start_index": 52640,
+        "end_index": 52820
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "38 L. M. Lee, M. Tsemperouli, A. I. Poblador-Bahamonde, S. Benz, N. Sakai, K. Sugihara and S. Matile, Anion Transport with Pictogen Bonds in Direct Comparison with Chalcone and Halogen Bonds, *J. Am. Chem. Soc.*, 2019, **141**, 810\u2013814.",
+        "start_index": 52820,
+        "end_index": 53056
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "39 B. Zhou and F. P. Gabba\u00ef, Redox-controlled chalcone-bonding at tellurium: impact on Lewis acidity and chloride anion transport properties, *Chem. Sci.*, 2020, **11**, 7495\u20137500.",
+        "start_index": 53056,
+        "end_index": 53236
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "40 E. N. W. Howe, V.-V. T. Chang, X. Wu, M. Fares, W. Lewis, L. K. Macreadie and P. A. Gale, Halide-selective, proton-coupled anion transport by phenylthiosemicarbazones, *BBA - Biomembr.*, 2022, **1864**, 183828.",
+        "start_index": 53236,
+        "end_index": 53449
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "41 A. M. Gilchrist, X. Wu, B. A. Hawkins, D. E. Hibbs and P. A. Gale, Fluorinated tetrapodal bisureas, *iScience*, 2023, **26**, 105988.",
+        "start_index": 53449,
+        "end_index": 53585
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "42 S. Hussain, P. R. Brotherhood, L. W. Judd and A. P. Davis, Diazial Diurido Decalins as Compact, Efficient, and Tunable Anion Transporters, *J. Am. Chem. Soc.*, 2011, **133**, 1614\u20131617.",
+        "start_index": 53585,
+        "end_index": 53773
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "43 N. Busschaert, I. L. Kirby, S. Young, S. J. Coles, P. N. Horton, M. E. Light and P. A. Gale, Squaramides as Potent Transmembrane Anion Transporters, *Angew. Chem. Int. Ed.*, 2012, **51**, 4426\u20134430.",
+        "start_index": 53773,
+        "end_index": 53974
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "44 S. J. Moore, C. J. E. Haynes, J. Gonz\u00e1lez, J. L. Sutton, S. J. Brooks, M. E. Light, J. Herniman, G. J. Langley, V. Soto-Cerrato, R. P\u00e9rez-Tom\u00e1s, I. Marques, P. J. Costa, V. F\u00e9lix and P. A",
+        "start_index": 53974,
+        "end_index": 54164
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Gale, Chloride, carboxylate and carbonate transport by ortho-phenylenediamine-based bisureas, *Chem. Sci.*, 2013, **4**, 103\u2013117.",
+        "start_index": 54164,
+        "end_index": 54295
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Cyclic Azapeptide With Two \u03b2",
+        "start_index": 54295,
+        "end_index": 54323
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. Fuertes, M. Amor\u00edn and J. R. Granja, Versatile symport transporters based on cyclic peptide dimers, Jolliffe and P. A. Gale, Synthetic transporters for sulfate: a new method for the direct detection of lipid bilayer sulfate transport, Commun., 2014, 12, 1771\u20131778.",
+        "start_index": 54323,
+        "end_index": 54590
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "L. E. Karagiannidis, C. J. E. Haynes, K. J. Holder, I. L. Kirby, S. J. Moore, N. J. Wells and P. A. Gale, Highly effective yet simple transmembrane anion transporters based upon ortho-phenylenediamine bis-ureas, Chem. Commun., 2014, 50, 12050\u201312053.",
+        "start_index": 54590,
+        "end_index": 54839
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "H. Valkenier, L. W. Judd, H. Li, S. Hussain, D. N. Sheppard and A. P. Davis, Reorganized Bis-Thioureas as Powerful Anion Carriers: Chloride Transport by Single Molecules in Large Unilamellar Vesicles, J. Am. Chem. Soc., 2014, 136, 12507\u201312512.",
+        "start_index": 54839,
+        "end_index": 55082
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "C. Lang, X. Zhang, Q. Luo, Z. Dong, J. Xu and J. Liu, Powerful Bipodal Anion Transporters Based on Scaffolds That Contain Different Chalcogens, Eur. J. Org. Chem., 2015, 6458\u20136465.",
+        "start_index": 55082,
+        "end_index": 55262
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. Docker, T. G. Johnson, H. Kuhn, Z. Zhang and M. J. Langton, Multistate Redox-Switchable Ion Transport Using Chalcogen-Bonding Anionophores, J. Am. Chem. Soc., 2023, 145, 2661\u20132668.",
+        "start_index": 55262,
+        "end_index": 55445
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "I. Carreira-Barral, M. Mielczarek, D. Alonso-Carrillo, V. Capurro, V. Soto-Cerrato, R. P\u00e9rez Tom\u00e1s, E. Caci, M. Garc\u00eda-Valverde and R. Quesada, Click-tambjamine dimers as efficient and tunable bioactive anion transporters, Chem. Commun., 2020, 56, 3218\u20133221",
+        "start_index": 55445,
+        "end_index": 55702
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ".",
+        "start_index": 55702,
+        "end_index": 55703
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "T. Rawling, H. MacDermott-Opskin, A. Roseblade, C. Pazderka, C. Clarke, K. Bourget, X. Wu, W. Lewis, B. Noble, P. A. Gale, M. L. O\u2019Mara, C. Cranfield and M",
+        "start_index": 55703,
+        "end_index": 55858
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Murray, Aryl urea substituted fatty acids: a new class of protonophoric mitochondrial uncoupler that utilises a synthetic anion transporter, Chem. Sci., 2020, 11, 12677\u201312685.",
+        "start_index": 55858,
+        "end_index": 56035
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "P. Wang, X. Wu and P. A. Gale, Carbazole-based bis-ureas and thioureas as electroneutral anion transporters, Supramol. Chem., 2021, 33, 143\u2013149.",
+        "start_index": 56035,
+        "end_index": 56179
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "D. A. McNaughton, L. K. Macreadie and P. A. Gale, Acrididine-based anion transporters, Org. Biomol. Chem., 2021, 19, 9659\u20139674.",
+        "start_index": 56179,
+        "end_index": 56306
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. V. Jentzsch, D. Emery, J. Mareda, S. K. Nakay, P. Metrangolo, G. Resnati, N. Sakai and S. Matile, Transmembrane anion transport mediated by halogen-bond donors, Nat. Commun., 2012, 3, 905.",
+        "start_index": 56306,
+        "end_index": 56497
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "J. L. Seganish, P. V. Santacroce, K. J. Salimian, J. C. Fettinger, P. Zavalij and J. T. Davis, Regulating Supramolecular Function in Membranes: Calixarenes that Enable or Inhibit Transmembrane Cl\u2212 Transport, Angew. Chem. Int. Ed., 2006, 45, 3334\u20133338.",
+        "start_index": 56497,
+        "end_index": 56748
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "O. A. Okunola, J. L. Seganish, K. J. Salimian, P. Y. Zavalij and J. T. Davis, Membrane-active calixarenes: toward \u2018gating\u2019 transmembrane anion transport, Tetrahedron, 2007, 63, 10743\u201310750.",
+        "start_index": 56748,
+        "end_index": 56937
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "R. Zappacosta, A. Fontana, A. Credi, A. Arduini and A. Secchi, Incorporation of Calix[6]Arene Macrocycles and (Pseudo)Rotaxanes in Bilayer Membranes: Towards Controllable Artificial Liposomal Channels, Asian J. Org. Chem., 2015, 4, 262\u2013270.",
+        "start_index": 56937,
+        "end_index": 57177
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "G. Grauwels, H. Valkenier, A. P. Davis, I. Jabin and K. Bartik, Repositioning Chloride Transmembrane Transporters: Transport of Organic Ion Pairs, Angew. Chem. Int. Ed., 2019, 58, 6921\u20136925.",
+        "start_index": 57177,
+        "end_index": 57367
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "S. Pilato, M. Aschi, M. Bazzoni, F. Cester Bonati, G. Cera, S. Moffa, V. Canale, M. Ciulla, A. Secchi, A. Arduini, A. Fontana and G. Siani, Calixarene-based artificial ionophores for chloride transport across natural liposomal bilayer: Synthesis, structure-function relationships, and computational study, BBA - Biomembr",
+        "start_index": 57367,
+        "end_index": 57687
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 2021, 1863, 183667.",
+        "start_index": 57687,
+        "end_index": 57709
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "P. A. Gale, C. C. Tong, C. J. E. Haynes, O. Adeou, D. E. Gross, E. Karnas, E. M. Sedenberg, R. Quesada and J. L. Sessler, Octafluorocalix[4]pyrrole: A Chloride/Bicarbonate Antitpo Agent, J. Am. Chem. Soc",
+        "start_index": 57709,
+        "end_index": 57912
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 2010, 132, 3240\u20133241.",
+        "start_index": 57912,
+        "end_index": 57936
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "L. Adriaenssens, C. Estarellas, A. Vargas Jentzsch, M. Martinez Belmonte, S. Matile and P. Ballester, Quantification of Nitrate\u2212Interactions and Selective Transport of Nitrate Using Calix[4]pyrroles with Two Aromatic Wells, J. Am. Chem. Soc., 2013, 135, 8324\u20138330.",
+        "start_index": 57936,
+        "end_index": 58200
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "L. Martinez-Crespo, J. L. Sun-Wang, P. Ferreira, C. F. M. Mirabella, G. Aragay and P. Ballester, Influence of the Insertion Method of Aryl-Extended Calix[4]pyrroles into Liposomal Membranes on Their Properties as Anion Carriers, Chem. Eur. J., 2019, 25, 4775\u20134781.",
+        "start_index": 58200,
+        "end_index": 58464
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. Cataldo, K. Norvaisa, L. Halgreen, S. E. Bodman, K. Bartik, S. J. Butler and H. Valkenier, Transmembrane Transport of Inorganic Phosphate by a Strapped Calix[4]pyrrole, J. Am. Chem. Soc., 2023, 145, 16310\u201316314.",
+        "start_index": 58464,
+        "end_index": 58678
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "P. A. Gale, C. C. Tong, C. J. E. Haynes, O. Adeou, D. E. Gross, E. Karnas, E. M. Sedenberg, R. Quesada and J. L. Sessler, Octafluorocalix[4]pyrrole: A Chloride/Bicarbonate Antitpo Agent, J. Am. Chem. Soc",
+        "start_index": 58678,
+        "end_index": 58881
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 2010, 132, 3240\u20133241.",
+        "start_index": 58881,
+        "end_index": 58905
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. K. Patra, S. Srimayee, D. Halder, A. Roy, S. Mukherjee, S. Kundu, M. Hossain, R. Saha, C.-H. Lee, D. Manna and I",
+        "start_index": 58905,
+        "end_index": 59020
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Saha, Transmembrane Fluoride anion transport by meso-3,5-bis(trifluoromethyl)phenyl picket calix[4]pyrrole, Chem. Commun., 2023, 59, 7407\u20137410.",
+        "start_index": 59020,
+        "end_index": 59165
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "H. Boerrigter, L. Grave, J. W. M. Nissink, L. A. J. Chrisstoffels, J. H. van der Maas, W. Verboom, F. de Jong and D. N. Reinhardt, (Thio)urea Resorcinarene Cavitands. Complexation and Membrane Transport of Halide Anions, J. Org. Chem",
+        "start_index": 59165,
+        "end_index": 59398
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 1998, 63, 4174\u20134180.",
+        "start_index": 59398,
+        "end_index": 59421
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "N. Busschaert, L. E. Karagiannidis, M. Wenzel, C. J. E. Haynes, N. J. Wells, P. G. Young, D. Makue, J. Plavec, K. A. Jolliffe and P. A. Gale, Synthetic transporters for sulfate: a new method for the direct detection of lipid bilayer sulfate transport, Chem. Sci",
+        "start_index": 59421,
+        "end_index": 59682
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 2014, 5, 1118\u20131127.",
+        "start_index": 59682,
+        "end_index": 59704
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. Fuertes, M. Amor\u00edn and J. R. Granja, Versatile symport transporters based on cyclic peptide dimers, Chem. Commun., 2019, 56, 46\u201349.",
+        "start_index": 59704,
+        "end_index": 59838
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "Z. Zhao, M. Zhang, B. Tang, P. Weng, Y. Zhang, X. Yan, Z. Li and Y.-B. Jiang, Transmembrane Fluoride Transport by a Cyclic Azapeptide With Two \u03b2-Turns, Front. Chem., 2021, 8, 621323.\ntransport in biologically relevant lipid mixtures, K. Maslowska\n\nK. Norvaisa, A. Torres",
+        "start_index": 59838,
+        "end_index": 60108
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "X. Wu, P. Wang, W. Lewis, Y. Tom\u00e1s, D. N. Sheppard, Y. A. M. Gilchrist, P. Wang, I. Carreira\n\nmethods: the 8\n\nA. M. Gilchrist, P. Wang, I. Carreira\n\ninorganic anions by installing spacious substituents on their portals,",
+        "start_index": 60108,
+        "end_index": 60327
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "C. Rando, S. Grewal, J. Sokolov, J. Sokolov, S. J. Butler, D. E. Hibbs and P. A. Gale, Tetralactam-based anion transporters, Chem, 2025, 11, 102329.",
+        "start_index": 60327,
+        "end_index": 60475
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "H. Valkenier, O. Akrawi, P. Jur\u010dek, K. Sleziakov\u00e1, T. L\u00edzal, K. Bart\u00edk and V. \u0160indel\u00e1\u0159, Fluorinated Bambusurils as Highly Effective and Selective Transmembrane Cl\u2013/HCO3\u2013 Antiporters, Chem, 2019, 5, 429\u2013444.",
+        "start_index": 60475,
+        "end_index": 60681
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "L. Mart\u00ednez-Crespo, S. H. Hewitt, N. A. De Simone, V. \u0160indel\u00e1\u0159, A. P. Davis, S. Butler and H. Valkenier, Transmembrane Transport of Bicarbonate Unravelled**, Chem. Eur. J., 2021, 27, 7367\u20137375.",
+        "start_index": 60681,
+        "end_index": 60874
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "N. A. De Simone, M. Chvojka, J. Lape\u0161ov\u00e1, L. Mart\u00ednez-Crespo, P. Sl\u00e1v\u00edk, J. Sokolov, S. J. Butler, H. Valkenier and V. \u0160indel\u00e1\u0159, Monofunctionalized Fluorinated Bambusurils and Their Conjugates for Anion Transport and Extraction, J. Org. Chem",
+        "start_index": 60874,
+        "end_index": 61115
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "., 2022, 87, 9829\u20139838.",
+        "start_index": 61115,
+        "end_index": 61138
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "M. Chvojka, H. Valkenier and V. \u0160indel\u00e1\u0159, Synthesis of bambusurils with perfluoroalkylthiobenzyl groups as highly potent halide receptors, Org. Chem. Front., 2025, 12, 130\u2013135.",
+        "start_index": 61138,
+        "end_index": 61314
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "M. Chvojka, D. Macea, H. Valkenier and V. \u0160indel\u00e1\u0159, Tuning CH Hydrogen Bond-Based Receptors toward Picomolar Anion Affinity via the Inductive Effect of Distant Substituents, Angew. Chem. Int. Ed., 2024, 63, e202318261.",
+        "start_index": 61314,
+        "end_index": 61532
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "M. Chvojka, A. Singh, A. Cataldo, A. Torres-Huerta, M. Konopka, V. \u0160indel\u00e1\u0159 and H. Valkenier, The Lucigenin Assay: Measuring Anion Transport in Lipid Vesicles, Anal. Sens., 2024, 4, e20230044.",
+        "start_index": 61532,
+        "end_index": 61724
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "J. Torrisi, M. Chvojka, P. Jur\u010dek, X. Zhang, H. Zeng, V. \u0160indel\u00e1\u0159 and H. Valkenier, Anion Transport by Bambusuril-Bile Acid Conjugates: Drastic Effect of the Cholesterol Content, Angew. Chem. Int. Ed., 2025, n/a, e202424754.",
+        "start_index": 61724,
+        "end_index": 61948
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "T. G. Johnson, A. Sadeghi-Kelishadi and M. J. Langton, A Photo-responsive Transmembrane Anion Transporter Relay, J. Am. Chem. Soc., 2022, 144, 10455\u201310461.",
+        "start_index": 61948,
+        "end_index": 62103
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "T. G. Johnson, A. Dockier, A. Sadeghi-Kelishadi and M. J. Langton, Halogen bonding relay and mobile anion transporters with kinetically controlled chloride selectivity, Chem, Sci., 2023, 14, 5006\u20135013.",
+        "start_index": 62103,
+        "end_index": 62304
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. Cataldo, M. Chvojka, G. Park, V. \u0160indel\u00e1\u0159, F. P. Gabba\u00ef, S. J. Butler and H. Valkenier, Transmembrane transport of fluoride studied by time-resolved emission spectroscopy, Chem, Commun., 2023, 59, 4185\u20134188.",
+        "start_index": 62304,
+        "end_index": 62514
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "X. Wu and P. A. Gale, Measuring anion transport selectivity: a cautionary tale, Chem. Commun., 2021, 57, 3979\u20133982.\n\nY. Yang, X. Wu, N. Busschaert, H. Furuta and P. A. Gale, Dissecting the chloride\u2013nitrate anion transport assay, Chem, Commun., 2017, 53, 9230\u20139233.",
+        "start_index": 62514,
+        "end_index": 62778
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "V. Havel and V. \u0160indelar, Anion Binding Inside a Bambus[6]uril Macrocycle in Chloroform, ChemPlusChem, 2015, 80, 1601\u20131606.",
+        "start_index": 62778,
+        "end_index": 62901
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "C. Rando, S. Grewal, J. Sokolov, P. Kulh\u00e1nek and V. \u0160indel\u00e1\u0159, Reversing selectivity of bambusuril macrocycles toward inorganic anions by installing spacious substituents on their portals, Chem, Sci., 2025, 16, 1288\u20131292.",
+        "start_index": 62901,
+        "end_index": 63121
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "A. M. Gilchrest, P. Wang, I. Carreira-Barral, D. Alonso-Carrillo, X. Wu, R. Quesada and P. A. Gale, Supramolecular methods: the 8-hydroxypropene-1,3,6-trisulfonic acid (HPTS) transport assay, Supramol. Chem., 2021, 33, 325\u2013344.",
+        "start_index": 63121,
+        "end_index": 63348
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "X. Wu, L. W. Judd, E. N. W. Howe, A. M. Withcombe, V. Soto-Cerrato, H. Li, N. Busschaert, H. Valkenier, R. P\u00e9rez-Tom\u00e1s, D. N. Sheppard, Y.-B. Jiang, A. P. Davis and P. A",
+        "start_index": 63348,
+        "end_index": 63517
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": ". Gale, Nonprotonophoric Electrogenic Cl\u2013 Transport Mediated by Valinomycin-like Carriers, Chem, 2016, 1, 127\u2013146.",
+        "start_index": 63517,
+        "end_index": 63631
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "X. Wu, P. Wang, W. Lewis, Y.-B. Jiang and P. A. Gale, Measuring anion binding at biomembrane interfaces, Nat. Commun., 2022, 13, 4623.",
+        "start_index": 63631,
+        "end_index": 63765
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "K. Norvaisa, A. Torres-Huerta and H. Valkenier, Synthetic transporters for oxoanions, Curr. Opin. Chem. Biol., 2024, 83, 102542.",
+        "start_index": 63765,
+        "end_index": 63893
+    },
+    {
+        "document_name": "155.txt",
+        "chunk_text": "K. Mas\u0142owska-Jarzyna, S. Rooijmans, D. A. McNaughton, W. G. Ryder, E. York, M. Tromp and P. A. Gale, Anion transport in biologically relevant lipid mixtures, Chem, Commun., DOI:10.1039/D5CC00409H.",
+        "start_index": 63893,
+        "end_index": 64089
+    }
+]

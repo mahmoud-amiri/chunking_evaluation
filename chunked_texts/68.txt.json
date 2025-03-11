@@ -1,0 +1,1802 @@
+[
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Deconvoluting Degradation Mechanisms in Anion Exchange Membrane Water Electrolysis using Operando X-ray Microtomography\n\nAuthors\n\nIain Malone, Se\u00e7il \u00dcnsal, R. S. Young, Matthew P. Jones, Francesco Spanu, Shashidhara Marathe, Rhodri Jervis, Hugh G.C. Hamilton, Christopher M. Zalitis, Thomas S. Miller*, Alexander J.E. Rettie*",
+        "start_index": 0,
+        "end_index": 325
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Affiliations\n\nI. Malone, S. \u00dcnsal, R. S. Young, M. P. Jones, R. Jervis, T. S. Miller, A. J. E. Rettie\nElectrochemical Innovation Lab, Department of Chemical Engineering, University College London, Torrington Place, London, WC1E 7JE",
+        "start_index": 325,
+        "end_index": 556
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "F. Spanu, H. G. C. Hamilton, C. M. Zalitis\nJohnson Matthey Technology Centre, Blounts Court Road, Sonning Common, Reading, RG4 9NH\n\nS. Marathe\nDiamond Light Source Ltd, Diamond House, Harwell Science & Innovation Campus, Didcot, Oxfordshire, OX11 0DE",
+        "start_index": 556,
+        "end_index": 806
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "R. S. Young, R. Jervis, T. S. Miller, A. J. E. Rettie\nThe Faraday Institution, Harwell Science and Innovation Campus, Didcot, OX11 0RA, UK\n\nA. J. E. Rettie\nAdvanced Propulsion Lab, Marshgate, University College London, London, E20 2AE, UK",
+        "start_index": 806,
+        "end_index": 1044
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "* Corresponding authors: t.miller@ucl.ac.uk, a.rettie@ucl.ac.uk\nAbstract",
+        "start_index": 1044,
+        "end_index": 1116
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Anion exchange membrane water electrolysers are held back by the low durability of the ionomer in the membrane and catalyst layers. Studying ionomer degradation in these systems is challenging because the main mechanisms, which result in catalyst detachment, membrane thinning and loss of cationic functionality, have opposing effects on the cell potential; electrochemical measurements alone are therefore insufficient for elucidating the underlying causes",
+        "start_index": 1116,
+        "end_index": 1573
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". To address this, a bespoke miniature-electrolyser-cell was developed for X-ray microtomography imaging of membrane electrode assemblies at 1.6 \u03bcm resolution. This set-up enabled the study of the entire active volume of the electrolyser under static and operando conditions and was validated against standard 5 cm\u00b2 laboratory cells",
+        "start_index": 1573,
+        "end_index": 1905
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". An operando investigation of degradation in Fumasep\u00ae based catalyst coated membranes revealed both significant membrane thinning and loss of membrane ionic conductivity during stability testing, leading to increased ohmic resistance and cell potential. In contrast, a Selemion\u2122 membrane showed minimal changes in thickness and conductivity and was significantly more stable compared to Fumasep\u00ae when exposed to synchrotron radiation",
+        "start_index": 1905,
+        "end_index": 2339
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This platform has relevance for operando studies of electrochemical materials and devices generally, including proton exchange membrane electrolysers, fuel cells and CO\u2082 electrolysers using both lab-based and synchrotron X-ray sources.",
+        "start_index": 2339,
+        "end_index": 2576
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "1 INTRODUCTION",
+        "start_index": 2576,
+        "end_index": 2590
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Hydrogen produced by electrolysis using renewable electricity, known as green hydrogen, is both a promising energy vector and a future feedstock for decarbonisation.\u00b9,\u00b2 To achieve widespread adoption, it is essential to reduce the production cost of green hydrogen, which requires the development of efficient, low-cost electrolysers",
+        "start_index": 2590,
+        "end_index": 2923
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Among low-temperature water electrolysis technologies, alkaline water electrolysis (AWE) is the most mature but suffers from high internal resistances and responds too slowly for dynamic operation, making it less suitable for coupling with intermittent renewable energy sources.\u00b3 In contrast, proton exchange membrane water electrolysers (PEMWEs) offer higher efficiency and dynamic operation capabilities thanks to their solid polymer electrolytes, but are costly due to the need for platinum group metal (PGM) catalysts",
+        "start_index": 2923,
+        "end_index": 3446
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\u2074",
+        "start_index": 3446,
+        "end_index": 3448
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Anion exchange membrane water electrolysers (AEMWEs) combine the strengths of both AWEs and PEMWEs and therefore have the potential to reduce the cost of green hydrogen. The alkaline environment means the material costs are lower than for PEMWE, while the hydroxide conducting solid polymer electrolyte significantly reduces the internal resistance compared to AWE.\u2075 Like PEMWE, the use of a membrane means the hydrogen produced is high purity and dynamic operation is possible",
+        "start_index": 3448,
+        "end_index": 3925
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Of the three low-temperature electrolyser technologies, AEMWE is at the earliest stage in its development, sitting at Technology Readiness Level 6 according to the International Energy Agency.\u2076 State-of-the-art AEMWEs still have relatively poor durability, with lifetimes of 1000-3000 h; PEM systems, meanwhile, run for >10,000 h and AWE >100,000 h",
+        "start_index": 3925,
+        "end_index": 4275
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\u2077,\u2078 Most of the research efforts on AEMWEs have been devoted to developing conductive and durable anion exchange membranes and ionomers\u2079,\u00b9\u2070 as well as highly active PGM-free catalysts for both alkaline oxygen and hydrogen evolution reactions (OER and HER respectively).\u00b9\u00b9\u207b\u00b9\u00b3 Despite considerable improvements in AEMWEs, long-term durability remains the pertinent issue.\u00b9\u2074",
+        "start_index": 4275,
+        "end_index": 4647
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Anion exchange polymers, consisting of a backbone with cationic functional side chains, often have poor chemical stability when used as AEMs and ionomer binders and thus, their durability at high pH has been extensively studied.\\textsuperscript{15\u201317} The degradation of these polymer materials can have conflicting effects on the measured cell potential ($E_{\\text{cell}}$) depending on the degradation pathway",
+        "start_index": 4647,
+        "end_index": 5058
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For example, the quaternary ammonium cationic functional groups that typically give AEMs their hydroxide-conducting properties are susceptible to nucleophilic attack by hydroxide ions. The loss of cationic functionality, and resulting decrease in ionic conductivity, increases ohmic resistance in the cell and results in a higher $E_{\\text{cell}}$",
+        "start_index": 5058,
+        "end_index": 5407
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Ionomer binders, often made of the same polymer as the AEM, are used to physically adhere the catalyst to the AEM or porous transport layer (PTL) and to ionically connect the catalyst to the AEM. Breakdown of the ionomer during the operation leads to catalyst detachment from the membrane or PTL",
+        "start_index": 5407,
+        "end_index": 5704
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{10,19} Detachment of the catalyst has two main effects: firstly, the number of active sites is reduced which causes the reaction rate to decrease, and secondly; the remaining catalyst has reduced contact with the AEM, resulting in higher ohmic resistance. Both of these effects lead to an increase in $E_{\\text{cell}}$.\\textsuperscript{19}",
+        "start_index": 5704,
+        "end_index": 6061
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The polymer backbone, in addition to the functional groups, may also be susceptible to hydroxide attack particularly at the ether linkages found in some AEMs.\\textsuperscript{20,21} Breakdown of the polymer backbone can cause the membrane to become thinner, decreasing ohmic resistance which leads to a decrease in $E_{\\text{cell}}$ and increase in hydrogen crossover",
+        "start_index": 6061,
+        "end_index": 6428
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{19} Because the different degradation processes can have opposing effects on $E_{\\text{cell}}$, understanding the degradation mechanisms in AEMWEs solely from voltage behaviour is challenging. Electrochemical diagnostics alone are therefore insufficient for elucidating the causes of degradation processes. In this context, in-situ imaging techniques may enable the physical impacts of degradation, membrane thinning and catalyst detachment, to be observed",
+        "start_index": 6428,
+        "end_index": 6902
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Operando imaging experiments take this idea further enabling degradation processes to be decoupled and correlated with changes in $E_{\\text{cell}}$ and impedance.",
+        "start_index": 6902,
+        "end_index": 7066
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "X-ray computed tomography (X-ray CT) is a powerful technique for studying complex electrochemical systems as it enables the three-dimensional internal structure of cells to be observed non-destructively",
+        "start_index": 7066,
+        "end_index": 7268
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". X-ray CT has been used for in-situ and operando studies to gather information on membrane,\\textsuperscript{22} catalyst layers,\\textsuperscript{23,24} PTLs,\\textsuperscript{25} interphases\\textsuperscript{26} and transport phenomena\\textsuperscript{27} in various electrochemical devices such as fuel cells, electrolyseres, and redox flow batteries",
+        "start_index": 7268,
+        "end_index": 7618
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Operando X-ray CT studies have also been used to elucidate material degradation such as, membrane degradation, catalyst layer thinning and crack formations during accelerated stress tests in PEM Fuel cells.\\textsuperscript{28\u201330} In contrast, degradation-related operando studies on electrolyser devices are rather rare\\textsuperscript{31} and often use ex-situ methods because operando imaging is still very challenging.\\textsuperscript{32}",
+        "start_index": 7618,
+        "end_index": 8061
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "In this study, we present the design and application of a miniature-electrolyser-cell (ME-cell) for use in X-ray microtomography ($\\mu$-CT). The electrochemical performance of the ME-cell was first validated and found to be comparable to a typical laboratory test fixture",
+        "start_index": 8061,
+        "end_index": 8332
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". We then investigated the degradation of catalyst-coated membranes (CCMs) fabricated with two different commercial AEMs (Fumasep\u00ae FAA-3-50\\textsuperscript{33} and Selemion\u2122 AMVN\\textsuperscript{34}) using operando $\\mu$-CT. Results revealed significantly different behaviours between the two CCMs under constant current operation",
+        "start_index": 8332,
+        "end_index": 8662
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The Fumasep\u00ae membrane displayed considerable thinning and conductivity loss, whereas the Selemion\u2122 based CCM maintained its thickness and performance. Ultimately, the ME-cell introduced here provides a new platform for studying CCMs in a realistic electrolyser environment, by enabling the correlation of in-situ $\\mu$-CT images with electrochemical measurements.",
+        "start_index": 8662,
+        "end_index": 9027
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "2 RESULTS & DISCUSSION",
+        "start_index": 9027,
+        "end_index": 9049
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "2.1 CELL DESIGN",
+        "start_index": 9049,
+        "end_index": 9064
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Operando experiments require a test fixture that meets the requirements of both the system being investigated and the complementary technique. There is often a trade-off between how representative the system under investigation is and the ease of implementing the operando method. For this study the test fixture was designed to balance the performance of the electrolyser with the spatial resolution of the \u03bc-CT. The quality and utility of information produced in \u03bc-CT studies depends on the field of view (FOV) and spatial resolution",
+        "start_index": 9064,
+        "end_index": 9599
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". In general, FOV is reduced when spatial resolution is increased to ensure each volumetric pixel (voxel) is measured with higher statistical significance. Beamline I13-2 at Diamond Light Source provided a spatial resolution ranging from 0.325 \u03bcm with a 0.83 \u00d7 0.7 mm FOV to 3.6 \u03bcm with a 14 \u00d7 9.6 mm FOV",
+        "start_index": 9599,
+        "end_index": 9903
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The cell therefore needed to be small to enable high resolution \u03bc-CT, maintaining the entire active area within the 4.2 \u00d7 3.5 mm FOV (typical for the 2\u00d7 objective lens setup at I13-2), while also being able to operate as a representative electrolyser. To that end, the ME-cell pictured in Figure 1 was designed to have a 0.14 cm\u00b2 active area for imaging the entire cell with 1",
+        "start_index": 9903,
+        "end_index": 10281
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".625 \u03bcm pixel size at I13-2. To ensure representative electrolyser performance the ME-cell design was based on a typical 5 cm\u00b2 laboratory-electrolyser-cell (LE-cell) used in our research group.35,36",
+        "start_index": 10281,
+        "end_index": 10479
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "![Figure 1: Images showing the design and structure of the miniature-electrolyser-cell (ME-cell) with 0.14 cm\u00b2 active area used for \u03bc-CT",
+        "start_index": 10479,
+        "end_index": 10615
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". (a) Full CAD render of rotationally symmetric ME-cell shape with a clear path for the X-ray beam to pass through the middle of the cell while rotating on a vertical axis through 180\u00b0 for \u03bc-CT, (b) cross-section CAD render showing the internal structure of the cell including compression bolts, steel pins for compression and electrical contact, the location of O-rings on the pins, inlet/outlet ports for each cell half and the PEEK ring used to seal the",
+        "start_index": 10615,
+        "end_index": 11071
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "cell, (c) 2D labelled schematic showing the components of the membrane electrode assembly, flow of KOH feed solution through the cell and the electrical connections through the steel bolts and pins, (d) photograph of cell mounted on its centre of rotation for operando \u03bc-CT showing inlet/outlet tubes and electrical connections clear of the path of the X-ray beam",
+        "start_index": 11071,
+        "end_index": 11434
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".](https://doi.org/10.26434/chemrxiv-2025-m29wv ORCID: https://orcid.org/0000-0001-6092-8298 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0)",
+        "start_index": 11434,
+        "end_index": 11585
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "2.2 ELECTROCHEMICAL PERFORMANCE VALIDATION",
+        "start_index": 11585,
+        "end_index": 11627
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "To validate the electrochemical performance the ME-cell it was benchmarked against the aforementioned LE-cell using nominally identical CCMs: Fumasep\u00ae FAA-3-50 membrane coated with Pt/C (0.4 mg cm\u207b\u00b2) and NiFeO\u2093 (2 mg cat cm\u207b\u00b2), cathode and anode respectively. Figure 2a shows the performance achieved in the ME-cell compared to that of the LE-cell",
+        "start_index": 11627,
+        "end_index": 11974
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The cell performance was comparable with reports from various groups for different materials: \u2264 2.1 V at",
+        "start_index": 11974,
+        "end_index": 12080
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "\u2248 1 A cm\u207b\u00b2 in 1 M KOH(aq) at temperatures ranging from 40 to 80 \u00b0C",
+        "start_index": 12080,
+        "end_index": 12146
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Figure 2b shows a comparison of the ME-cell and LE-cell high frequency resistance (HFR), which is considered to be the sum of the membrane resistance \\(R_{\\text{memb}}\\) and the electronic resistance (sum of contact resistances between flow-fields and PTLs and bulk PTL resistances, \\(R_{\\text{el}}\\))",
+        "start_index": 12146,
+        "end_index": 12449
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Given that identical configurations were tested in both cells, the \u2248 42 m\u03a9 cm\u207b\u00b2 difference in the HFR likely stemmed from a difference in component compression. As detailed in the methods (Section 4), the ME-cell used static screw-based compression, while the LE-cell used sustained pneumatic pressure",
+        "start_index": 12449,
+        "end_index": 12752
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The total \\(R_{\\text{el}}\\) of the steel plungers, Ni felt and carbon PTLs, along with the contact resistances, was measured by GEIS in the ME-cell and LE-cell, assembled without a membrane or catalyst and found to be \u2248 20 and 80 m\u03a9 cm\u207b\u00b2 respectively",
+        "start_index": 12752,
+        "end_index": 13004
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Such variations are often seen in operando cells; the optimal cell design for imaging purposes deviates from the design needed for the best electrochemical performance.",
+        "start_index": 13004,
+        "end_index": 13174
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "![Figure 2: Electrochemical performance comparison of the miniature-electrolyser-cell (ME-cell) and laboratory-electrolyser-cell (LE-cell). (a) Full cell IV curves, (b) high frequency resistance (HFR), and (c) corresponding iR-corrected Tafel plots obtained using the ME-cell (active area of 0",
+        "start_index": 13174,
+        "end_index": 13467
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".14 cm\u00b2) and the LE-cell (active area of 5 cm\u00b2) at 40 \u00b0C and 1 M KOH(aq) with CCMs prepared with either 0.14 or 5 cm\u00b2 active areas using a Fumasep\u00ae FAA-3-50 membrane coated with Pt/C (0.4 mg Pt cm\u207b\u00b2) and NiFeO\u2093 (2 mg cat cm\u207b\u00b2), cathode and anode respectively",
+        "start_index": 13467,
+        "end_index": 13725
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".](image)",
+        "start_index": 13725,
+        "end_index": 13734
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The iR-corrected Tafel plots (Figure 2c) almost overlap in the kinetic region, confirming the representative nature of the ME-cell for studying the activity of the catalyst materials. Above 0.1 A cm\u207b\u00b2, the iR-corrected voltage \\(E_{\\text{cell,iR,corr.}}\\) of the ME-cell started to deviate from linear behaviour",
+        "start_index": 13734,
+        "end_index": 14045
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This deviation may be explained by different mass transport properties arising from the different cell designs, for example, the lack of a flow field in the ME-cell. However, the difference in",
+        "start_index": 14045,
+        "end_index": 14239
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "performance between the ME-cell and the LE-cell was minimal, which is rare for cells designed for imaging purposes.\\textsuperscript{31}",
+        "start_index": 14239,
+        "end_index": 14374
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Additionally, the two cells were compared in the catalyst coated substrate (CCS) configuration (details are provided in Section S1.1 in the Supporting Information (SI)). These additional tests used CCS cut from the same materials for both cells and were performed to, firstly, eliminate any possible discrepancies related to the preparation of two different-sized CCMs and, secondly, ensure cell geometry was the only differentiating factor",
+        "start_index": 14374,
+        "end_index": 14814
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". As shown in Figure S1 in the SI, performance of the two cells configured with CCS were found to be quite comparable and consistent with the findings from the CCM comparison.",
+        "start_index": 14814,
+        "end_index": 14989
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "We note that this validated ME-cell could offer a realistic testing platform for new catalyst materials in real electrolyser environments. While rotating disk electrode voltammetry is commonly used for catalyst screening due to its practicality and use of small quantities of catalyst material, the results from this technique often do not reflect measurements in membrane electrode assemblies.\\textsuperscript{40-42} The 0",
+        "start_index": 14989,
+        "end_index": 15412
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".14 cm\\textsuperscript{2} active area of the ME-cell allows for the production of electrodes using smaller quantities of material, compared to those produced for a typical \\(\\geq 5\\) cm\\textsuperscript{2} active area cell, making it particularly useful for screening novel catalysts, whose synthesis is usually limited to a milligram scale in the early development stages.",
+        "start_index": 15412,
+        "end_index": 15784
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "### 2.3 Lab-based Micro-CT Analysis",
+        "start_index": 15784,
+        "end_index": 15819
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "To investigate CCM degradation using lab-based \\(\\mu\\)-CT the ME-cell was imaged before and after a stability test (detailed methodology provided in Section 4). A stability test was also performed in the LE-cell using a nominally identical CCM for comparison. An increase in \\(E_{\\text{cell,corr",
+        "start_index": 15819,
+        "end_index": 16114
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}\\) was observed for both the ME and LE-cells (up to \\(\\approx 100\\) and \\(60\\) mV for the ME and LE-cell, respectively) over each of the 2 h current hold cycles (Figure 3a). Then, following each hold period at open circuit potential (OCP), the majority of the voltage increase was recovered",
+        "start_index": 16114,
+        "end_index": 16407
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This recoverable voltage increase may be caused by the accumulation of \\(\\text{H}_2\\) and \\(\\text{O}_2\\) gas in the cell during operation. When the cell was switched to OCP under continuous flow of feed solution, \\(\\text{H}_2\\) and \\(\\text{O}_2\\) were likely washed out; this is reflected as a reduction in \\(E_{\\text{cell,corr.}}\\) when current is applied again.",
+        "start_index": 16407,
+        "end_index": 16772
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Residual \\(\\text{H}_2\\) and \\(\\text{O}_2\\) may also explain the differences observed when the cells were switched to OCP. For the ME-cell, \\(E_{\\text{cell,corr.}}\\) decreased to near zero within a few minutes of the current hold ending while for the LE-cell \\(E_{\\text{cell,corr",
+        "start_index": 16772,
+        "end_index": 17050
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}\\) remained above 1 V at OCP throughout the stability test as shown in Figure 3a. It is possible that the larger LE-cell retained gas in the catalyst layers for longer due to its larger active area and lower area specific flow rate of \\(8\\) mL min\\textsuperscript{-1} cm\\textsuperscript{2} resulting in a higher OCP",
+        "start_index": 17050,
+        "end_index": 17368
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Meanwhile the smaller ME-cell was easily cleared of gas because of a considerably higher area specific flow rate of 56 mL min\\textsuperscript{-1} cm\\textsuperscript{2}",
+        "start_index": 17368,
+        "end_index": 17537
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". These reversible performance losses are, however, separate from the long-term degradation of the Fumasep\\textsuperscript{\u00ae} based CCM revealed by the overall voltage increase observed in both cells over each 20 h stability test, where \\(E_{\\text{cell,corr.}}\\) increased at a similar rates of 6 and 9 mV h\\textsuperscript{-1} for the ME and LE-cell respectively.",
+        "start_index": 17537,
+        "end_index": 17901
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 3: Stability tests performed in the miniature-electrolyser-cell (ME-cell) and laboratory-electrolyser-cell (LE-cell). (a) Cell potential corrected for the ohmic contribution to overpotential ($E_{\\text{cell,iR corr",
+        "start_index": 17901,
+        "end_index": 18122
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}$) and (b) high frequency resistance (HFR) from EIS measurements as a function of time during a stability test ($8 \\times 2$ h galvanostatic at $1 \\text{ A cm}^{-2}$, $1 \\text{ M KOH, 40 } ^\\circ\\text{C}$), obtained using the ME-cell (active area of $0",
+        "start_index": 18122,
+        "end_index": 18377
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".14 \\text{ cm}^2$) and LE-cell (active area of $5 \\text{ cm}^2$) with CCMs prepared with either $0.14$ or $5 \\text{ cm}^2$ active areas using a Fumasep\u00ae FAA-3-50 membrane coated with Pt/C ($0",
+        "start_index": 18377,
+        "end_index": 18568
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".4 \\text{ mg}_{\\text{Pt}} \\text{ cm}^{-2}$) and NiFeO, ($2 \\text{ mg}_{\\text{cat}} \\text{ cm}^{-2}$), cathode and anode respectively.",
+        "start_index": 18568,
+        "end_index": 18701
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The initial difference in the HFR between the cells (in Figure 3b) may be attributed to a difference in contact resistance due to the different methods of compression in each cell as discussed in the previous section. The fact that the HFR only increased in the ME-cell may be because the bolts providing a static compression did not compensate for the $53 \\pm 3\\%$ decrease in membrane thickness measured by $\\mu$-CT",
+        "start_index": 18701,
+        "end_index": 19118
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This meant the cell compression reduced as the membrane thinned, increasing the contact resistance. Since the LE-cell applied a constant pneumatic pressure, contact resistance should remain unchanged even when the membrane thickness decreased.",
+        "start_index": 19118,
+        "end_index": 19363
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The ME-cell was imaged using lab-based $\\mu$-CT in both the pristine and post-testing (degraded) states; the resulting cross-sectional images are provided in Figure 4a and Figure 4b, respectively. The CCM configuration was important for this study, rather than using a CCS, as it was not only representative of commercial electrolyzers, but also particularly useful for tracking membrane thickness by $\\mu$-CT",
+        "start_index": 19363,
+        "end_index": 19772
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". By adhering the catalyst layer (containing highly attenuating dense elements, Pt, Ni and Fe) directly to the membrane, it was clearly outlined enabling accurate thickness measurements to be made (Figure 4). One notable change between the pristine and degraded CCMs was loss of the Pt catalyst as highlighted by the yellow arrows in Figure 4b. This change may explain the overall increase in $E_{\\text{cell,iR corr.}}$ seen in Figure 3a",
+        "start_index": 19772,
+        "end_index": 20209
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".",
+        "start_index": 20209,
+        "end_index": 20210
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The more marked change was the 53 \u00b1 3% decrease in membrane thickness after electrochemical testing (Figure 4). The poly(aryl ether) backbone of Fumasep\u00ae FAA-3 is known to be susceptible to aryl ether cleavage under high pH conditions leading to thinning of the membrane",
+        "start_index": 20210,
+        "end_index": 20480
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{20,47,48} The through-plane ionic conductivity of the membrane ($\\sigma_{\\text{memb}}$) was calculated using Equation 1 as outlined in the methodology (Section 4.4)",
+        "start_index": 20480,
+        "end_index": 20662
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The initial $\\sigma_{\\text{memb}}$ of Fumasep\u00ae FAA-3 was calculated using the initial HFR value for the ME-cell from Figure 3b (129 m\u03a9 cm\\textsuperscript{2}), $R_{\\text{el}}$ for the ME-cell (20 m\u03a9 cm\\textsuperscript{2}) and $I_{\\text{memb}}$ from the lab-based $\\mu$-CT",
+        "start_index": 20662,
+        "end_index": 20934
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "shown in Figure 4a (76 \u03bcm) to be 69",
+        "start_index": 20934,
+        "end_index": 20969
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1 \u00b1 1.8 mS cm\\textsuperscript{-1} in 1 M KOH at ambient temperature. This value was in good agreement with the value of 68.3 mS cm\\textsuperscript{-1} at 40 \u00b0C in water measured by Khalid et al",
+        "start_index": 20969,
+        "end_index": 21163
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{49} To account for the 53% decrease in $I_{\\text{memb}}$ and the 25 m\u03a9 cm\\textsuperscript{2} increase in the HFR (red plot in Figure 3b) measured for the ME-cell after electrochemical testing, the $\\sigma_{\\text{memb}}$ was calculated to be 26.3 \u00b1 1",
+        "start_index": 21163,
+        "end_index": 21430
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".2 mS cm\\textsuperscript{-1}, a 62% decrease. This suggests that the membrane was losing both ion conduction capacity and bulk thickness, the former due to loss of quaternary ammonium functional groups and the latter because of cleavage of the ether linkages in the polymer backbone",
+        "start_index": 21430,
+        "end_index": 21712
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{5,48} This finding is in agreement with previous ex-situ studies which found Fumasep\u00ae FAA-3 lost both conductivity and thickness when exposed to KOH due to hydroxyl attack and Hoffman elimination.\\textsuperscript{49,50}",
+        "start_index": 21712,
+        "end_index": 21949
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The results obtained from lab-based $\\mu$-CT analysis demonstrate the successful implementation of the ME-cell for studying ionomer degradation in AEM electrolyzers using $\\mu$-CT in a laboratory environment. Considering the limited availability of synchrotron sources, the ME-cell offers significant practicality for conducting in-situ electrolyser studies without requiring access to a synchrotron facility particularly if temporal resolution is not critical",
+        "start_index": 21949,
+        "end_index": 22409
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For PEMWE, which can be stable for thousands of hours, a scan time of a few hours may not pose an issue. The ME-cell may be configured with Pt coated Ti instead of steel components to operate as a PEMWE. The capability to image an assembled electrolyser cell is essential for studying effects only observed when the CCM is wetted and under compression, and when the catalyst layer is undisturbed by cell disassembly \u2013 conditions impossible to achieve in typical post-mortem analyses",
+        "start_index": 22409,
+        "end_index": 22893
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{51}",
+        "start_index": 22893,
+        "end_index": 22914
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "2.4 Synchrotron-based Operando Micro-CT Analysis",
+        "start_index": 22914,
+        "end_index": 22962
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Although imaging the ME-cell using lab-based X-ray instruments provided valuable insight to CCM degradation with considerable convenience, conducting an operando \u00b5-CT study using lab-based X-ray instruments has some limitations. Most importantly, the temporal resolution is limited by the low X-ray flux available from lab-based instruments. Each scan performed with our lab-based source in this study took \u2248 4",
+        "start_index": 22962,
+        "end_index": 23372
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".5 h to acquire, compared with 4 min using synchrotron radiation at the I13-2 beamline at Diamond Light Source. It is important for the system to be stable during each scan; the scan time must therefore be short relative to the time for noticeable changes to occur. For this operando study of unstable AEM systems, scan times on the order of minutes were essential for the cell to be relatively unchanged during each scan.",
+        "start_index": 23372,
+        "end_index": 23794
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Operando \u00b5-CT of an AEMWE was performed in the ME-cell using synchrotron radiation to image changes in the CCM during 16 h of operation at a current density of 1 A cm\\(^{-2}\\). To correlate the changes observed in the CCM with \\(E_{\\text{cell}}\\) and HFR, \u00b5-CT was performed every 2 h during a 15-min OCP break",
+        "start_index": 23794,
+        "end_index": 24104
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". EIS measurements were made before and after each OCP break. Example \u00b5-CT slices from the operando study on with Fumasep\\textsuperscript{\u00ae} FAA-3-50 showing a cross-section of the cell in the pristine and degraded state are provided in Figure S3 in the SI.",
+        "start_index": 24104,
+        "end_index": 24361
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "A comparison of the stability test data from this operando synchrotron experiment and lab-based testing of nominally identical CCMs prepared with Fumasep\\textsuperscript{\u00ae} FAA-3-50 membranes is presented in Figure 5. While Figure 5a shows that the \\(E_{\\text{cell,IR}}\\)\\textsubscript{corr",
+        "start_index": 24361,
+        "end_index": 24651
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".} for both tests was of comparable magnitude up to 16 h, it increased dramatically after this point, indicative of catalyst loss. The overall \\(E_{\\text{cell,IR}}\\)\\textsubscript{corr.} increase during the stability test progressed linearly at 23 mV h\\(^{-1}\\) after the first 4 h compared with 6 mV h\\(^{-1}\\) measured for the lab-based test",
+        "start_index": 24651,
+        "end_index": 24994
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This high rate of \\(E_{\\text{cell,IR}}\\)\\textsubscript{corr.} increase, unique to the operando test, was likely caused by X-ray related breakdown of the ionomer in the catalyst layer as similarly found by Roth et al. for PEM fuel cell ionomers upon exposure to synchrotron radiation.\\textsuperscript{52}",
+        "start_index": 24994,
+        "end_index": 25299
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 5b shows a dramatic rise in the HFR throughout the operando synchrotron test. The HFR increased most when the cell was exposed to synchrotron radiation while \u00b5-CT was performed, as seen by the step changes in the HFR going from the before scan (solid squares) to after scan (open squares) measurements. During each current hold, between \u00b5-CT scans, the HFR did not change significantly",
+        "start_index": 25299,
+        "end_index": 25691
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". In contrast, the lab-based test which was not exposed to synchrotron radiation showed a comparatively negligible increase in the HFR throughout the stability test (Figure 3b). These findings clearly demonstrate the significant effect of synchrotron radiation on the ohmic resistance measured through the HFR",
+        "start_index": 25691,
+        "end_index": 26000
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Although X-ray imaging is typically considered non-destructive, polymer electrolyte membranes and ionomers are highly susceptible to radiation damage,\\textsuperscript{52} particularly from high flux synchrotron sources.\\textsuperscript{53} The extent of this damage varies depending on the polymer type and the dose of exposure",
+        "start_index": 26000,
+        "end_index": 26329
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{54,55} Therefore where unavoidable, accounting for the effects of radiation damage during operando tests is crucial for distinguishing between electrochemical and beam-related degradation.",
+        "start_index": 26329,
+        "end_index": 26535
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "While the effect of synchrotron radiation on the HFR was clear, the effect on membrane thickness required further examination. A reference experiment was designed to examine the effect of synchrotron radiation on the electrolyser independent of electrochemically driven degradation. In this experiment, the cell was not subjected to high current density, only 0",
+        "start_index": 26535,
+        "end_index": 26896
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".05 A cm\\(^{-2}\\) was applied so that EIS could be performed, to avoid degradation mechanisms stemming from the electrochemical operation of the CCM. An equivalent series of \\(\\mu\\)-CT scans each followed by EIS was completed, for further details on the methodology, see Section S1.3 in the SI",
+        "start_index": 26896,
+        "end_index": 27189
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The change in the HFR and \\(t_{\\text{memb}}\\) were measured against the X-ray dose from each \\(\\mu\\)-CT scan.",
+        "start_index": 27189,
+        "end_index": 27300
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 6a shows \\(t_{\\text{memb}}\\) plotted against cumulative X-ray dose. The CCMs (prepared with Fumasep\\(^{\\circledR}\\) FAA-3-50) in both the lab test (i.e., subjected to electrochemically driven degradation) and the synchrotron-based operando test (i.e",
+        "start_index": 27300,
+        "end_index": 27556
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "., subjected to both electrochemical and X-ray-induced degradation) experienced similar membrane thinning, losing 53 \\(\\pm\\) 5% and 58 \\(\\pm\\) 6% of their original thickness respectively, regardless of X-ray exposure. The reference cell, which was exposed to X-rays while minimising electrochemical degradation (by applying only 0",
+        "start_index": 27556,
+        "end_index": 27886
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".05 A cm\\(^{-2}\\) for EIS measurements), displayed a loss of approximately 28% of its original thickness after the same dose as the cell operated at 1 A cm\\(^{-2}\\). These findings suggest that membrane thinning is most likely due to chemical degradation rather than X-ray-induced degradation.",
+        "start_index": 27886,
+        "end_index": 28179
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 6b shows a significant increase in the HFR when the cell was exposed to synchrotron radiation, regardless of whether the electrolyser cell underwent electrochemical testing. This observation confirms that X-ray exposure significantly impacted the HFR measured in",
+        "start_index": 28179,
+        "end_index": 28448
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "electrolyser cells equipped with Fumasep\u00ae FAA-3-50, which emphasises the importance of considering $E_{cell,IR\\ corr.}$ and not $E_{cell}$ to decouple the effects of chemical degradation from beam damage in this study. Figure 6c shows a strong correlation between a decrease in $\\sigma_{memb}$ and X-ray dose",
+        "start_index": 28448,
+        "end_index": 28756
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This demonstrates that the increase in the HFR, despite the decrease in membrane thickness in both the operando and reference tests, was because of a decrease in $\\sigma_{memb}$ when the cell was exposed to synchrotron radiation. The decrease in $\\sigma_{memb}$ for Fumasep\u00ae suggests X-ray irradiation caused the loss of cationic functionality in the membrane.",
+        "start_index": 28756,
+        "end_index": 29118
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "![Figure 6](https://doi.org/10.26434/chemrxiv-2025-m29wv)",
+        "start_index": 29118,
+        "end_index": 29175
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 6: Deconvoluting the effect of X-ray exposure from electrochemical degradation on the CCM shown through three tests: electrochemical testing with exposure to X-rays (Operando Test), X-ray exposure only (Reference Test) and electrochemical testing only (Lab Test)",
+        "start_index": 29175,
+        "end_index": 29444
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". (a) percentage average membrane thickness relative to initial thickness ($t_{memb}$) with error bars showing standard deviation, (b) high frequency resistance (HFR) from EIS and (c) percentage membrane through-plane conductivity relative to initial conductivity ($\\sigma_{memb}$) as functions of the cumulative X-ray dose received by each cell",
+        "start_index": 29444,
+        "end_index": 29789
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Operando and lab electrochemical test: $8 \\times 2$ h galvanostatic at 1 A cm$^{-2}$, 1 M KOH, 40 \u00b0C, 7.8 mL min$^{-1}$. Reference electrochemical protocol: 0.05 A cm$^{-2}$ galvanostatic. CCMs: Fumasep\u00ae FAA-3-50 membrane coated with Pt/C (0",
+        "start_index": 29789,
+        "end_index": 30032
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".4 mg Pt cm$^{-2}$) and NiFeO$_x$ (2 mgcat cm$^{-2}$), cathode and anode respectively.",
+        "start_index": 30032,
+        "end_index": 30118
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "More research is needed to understand how operando \u03bc-CT may be carried out without beam damage to the membrane. One solution could be to use higher energy X-rays (> 30 keV used here) and by filtering out low energy X-rays attempt to reduce the attenuation of the polymer membrane to limit beam damage",
+        "start_index": 30118,
+        "end_index": 30418
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{56} Another benefit of higher energy X-rays would be improved visibility of the dense electrolyser components, including the Ni felt PTL which could not be penetrated by the 30 keV synchrotron radiation used here as shown in Figure S3 in the SI. Lab-based X-ray sources may also be used instead in cases when the ionomer is particularly susceptible to beam damage as recommended by White et al.\\textsuperscript{53}",
+        "start_index": 30418,
+        "end_index": 30850
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The electrochemical stability of Fumasep\\textsuperscript{\u00ae} FAA-3-50 presented thus far was compared with testing carried out using the Selemion\u2122 AMVN membrane in the ME-cell using operando \u03bc-CT. Although both membranes are hydrocarbon polymers with quaternary ammonium-functionalised side chains to provide hydroxide conductivity, they exhibit substantially different characteristics",
+        "start_index": 30850,
+        "end_index": 31234
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{9,57} Specifically, the poly(aryl ether) backbone of Fumasep\\textsuperscript{\u00ae} FAA-3 is known to be susceptible to aryl ether cleavage under high pH conditions, unlike the polystyrene-based backbone of Selemion\u2122 AMVN, which is more resistant to such chemical degradation.\\textsuperscript{20,47,48}",
+        "start_index": 31234,
+        "end_index": 31550
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 7 presents the $E_{\\text{cell,IR cor.}}$ and the HFR as well as the relative change in $t_{\\text{memb}}$ and $\\sigma_{\\text{memb}}$ throughout the stability test. As shown in Figure 7a, the $E_{\\text{cell,IR cor",
+        "start_index": 31550,
+        "end_index": 31768
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}$ of the Selemion\u2122 equipped cell remained mostly stable over the operando stability test while it increased significantly for the Fumasep\\textsuperscript{\u00ae} equipped cell. The $E_{\\text{cell,IR cor",
+        "start_index": 31768,
+        "end_index": 31968
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}$ measured in a lab-based stability test of Selemion was found to be in close agreement with the operando test data, as shown in Figure S4a in the SI, only the HFR showed a slight increase as a result of exposure to the beam (Figure 7b and Figure S4b)",
+        "start_index": 31968,
+        "end_index": 32222
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This finding demonstrates the Selemion\u2122 membrane is more stable than Fumasep\\textsuperscript{\u00ae} under both electrolysis and X-ray beam conditions likely owing to its aryl ether free structure",
+        "start_index": 32222,
+        "end_index": 32415
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The stable electrochemical performance of Selemion\u2122 and the increasing $E_{\\text{cell}}$ observed for Fumasep\\textsuperscript{\u00ae} under the test conditions used here, (1 A cm$^{-2}$, 1 M KOH, 40 \u00b0C), is typical of these membranes as shown by previous studies by Seetharaman et al. and Kang et al. respectively",
+        "start_index": 32415,
+        "end_index": 32725
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".\\textsuperscript{57,58} For both membranes, a recoverable increase in $E_{\\text{cell}}$ was observed during each 2 h current hold cycles just as was observed in the lab-based testing (Figure 3a). This recoverable voltage increase was again attributed to the accumulation of O$_2$ and H$_2$ in the cell during the current holds.",
+        "start_index": 32725,
+        "end_index": 33053
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Figure 7: A comparison of the operando stability testing of CCMs prepared with Fumasep\u00ae FAA-3-50 or Selemion\u2122 AMVN. (a) cell potential corrected for ohmic resistance ($E_{\\text{cell, \\text{iR corr",
+        "start_index": 33053,
+        "end_index": 33249
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}}$), (b) high frequency resistance (HFR) measured by galvanostatic electrochemical impedance spectroscopy (GEIS) before (filled squares) and after (open squares) each X-ray microtomography (\u03bc-CT) scan, (c) average membrane thickness relative to initial thickness ($t_{\\text{memb}}$) measured by \u03bc-CT with error bars showing standard deviation and (d) membrane through-plane conductivity relative to initial conductivity",
+        "start_index": 33249,
+        "end_index": 33671
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "($\\sigma_{\\text{memb}}$) derived from HFR and membrane thickness using Equation 1 before (filled squares) and after (open squares) each \u03bc-CT scan",
+        "start_index": 33671,
+        "end_index": 33816
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Stability test protocol: $8 \\times 2$ h galvanostatic at 1 A cm$^{-2}$, 1 M KOH, 40 \u00b0C, 7.8 mL min$^{-1}$. CCMs prepared with Pt/C cathodes (0.4 mgPt cm$^{-2}$) and NiFeO$_x$ anodes (2 mgcat cm$^{-2}$).",
+        "start_index": 33816,
+        "end_index": 34020
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The inset plot in Figure 7b shows the HFR during the first 12 h of the stability tests and reveals that the HFR of the Selemion\u2122 based CCM was initially higher than that of the Fumasep\u00ae. This difference is partly due to Selemion\u2122 having double the initial thickness (87 \u03bcm vs. 48 \u03bcm, respectively)",
+        "start_index": 34020,
+        "end_index": 34317
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For the Fumasep\u00ae equipped cell, the HFR steadily increases after the first 2 hours of the test in a stepwise fashion where the largest increases in the HFR occurred after exposure to synchrotron radiation and the smaller changes occurred during each 1 A cm\\(^{-2}\\) hold. The HFR increase in Figure 7b coincides with the increase in \\(E_{\\text{cell,IR,corr",
+        "start_index": 34317,
+        "end_index": 34675
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".}}\\) in Figure 7a, suggesting that while membrane degradation was responsible for an increase in ohmic resistance, catalyst loss may have also contributed to an increase in kinetic resistance. On the other hand, the Selemion\u2122 equipped cell experienced notably less change in the HFR during exposure to synchrotron radiation compared with the Fumasep\u00ae equipped cell.",
+        "start_index": 34675,
+        "end_index": 35041
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Interestingly, the HFR was found to decrease during the 2 h, 1 A cm\\(^{-2}\\) holds, behaviour only seen for the Fumasep\u00ae based cell during the first two current holds when \\(E_{\\text{cell,IR,corr.}}\\) was below 2 V",
+        "start_index": 35041,
+        "end_index": 35255
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". This observation propagated through to calculated conductivity values shown in Figure 7d, where the \\(\\sigma_{\\text{memb}}\\) increased for Selemion\u2122 during the current holds while it decreased during exposure to synchrotron radiation. This observation could be evidence of continued conditioning during the current cycling where more of the chloride counterion in the membrane is replaced by hydroxide",
+        "start_index": 35255,
+        "end_index": 35658
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For Fumasep\u00ae however, the combined effects of the HFR increase and membrane thinning resulted in an almost constant loss of \\(\\sigma_{\\text{memb}}\\).",
+        "start_index": 35658,
+        "end_index": 35809
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Despite the observed increases in the HFR, the thickness of both membranes (Figure 7c) was found to decrease during the stability test, just as was found with the lab-based study (Section 2.3). However, the short scan times of the operando \u03bc-CT increased the temporal resolution of the \\(t_{\\text{memb}}\\) measurements",
+        "start_index": 35809,
+        "end_index": 36127
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For the Fumasep\u00ae equipped cell, the rate of membrane thinning was non-linear: \\(t_{\\text{memb}}\\) decreased quickly at first with the rate of thinning slowing towards the end of the 20 h test where the membrane had lost 58 \u00b1 6% of the original thickness, close to the 53 \u00b1 3% measured in the lab-based \u03bc-CT study",
+        "start_index": 36127,
+        "end_index": 36441
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". A similar trend was observed for the calculated \\(\\sigma_{\\text{memb}}\\) shown in Figure 7d.",
+        "start_index": 36441,
+        "end_index": 36535
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The values of \\(t_{\\text{memb}}\\) and \\(\\sigma_{\\text{memb}}\\) for Fumasep\u00ae FAA-3 from the lab, operando and reference tests are summarised in Table 1. For the Fumasep\u00ae membrane, \\(\\sigma_{\\text{memb}}\\) decreased by 97.5 \u00b1 0",
+        "start_index": 36535,
+        "end_index": 36760
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".3% by the end of the stability test, significantly more degraded than the 62 \u00b1 3% reduction in \\(\\sigma_{\\text{memb}}\\) measured in the lab-based study",
+        "start_index": 36760,
+        "end_index": 36912
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The extra loss of \\(\\sigma_{\\text{memb}}\\) was attributed to the damage caused by exposure to synchrotron radiation as shown by the sharp decrease in \\(\\sigma_{\\text{memb}}\\) during each period of OCP when \u03bc-CT scans were performed (Figure 7d). It should be noted that in addition to the \\(\\sigma_{\\text{memb}}\\), contact resistance also affected the magnitude of the HFR",
+        "start_index": 36912,
+        "end_index": 37285
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Because the ME-cell design is such that compression is fixed when the cell is first assembled, the contact resistance likely increased as the membrane thinned, as was observed with the HFR in the lab-based study shown in Figure 3b.",
+        "start_index": 37285,
+        "end_index": 37518
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Table 1: Membrane thickness and conductivity values and the respective percentage losses derived from \u03bc-CT in the ME-cell for Fumasep\u00ae FAA-3-50. Measurements from 4 experiments are given: electrochemical testing with exposure to X-rays (Operando Test), X-ray exposure only (Reference Test) and electrochemical testing only (Lab Test)",
+        "start_index": 37518,
+        "end_index": 37851
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For each experiment measurements from the first \u03bc-CT scan before electrochemical testing (initial) and measurements from the final \u03bc-CT scan after electrochemical testing (final) are given. Errors are derived from the standard error in the thickness measurement described in the methods. Operando and lab electrochemical test: 8 \u00d7 2 h galvanostatic at 1 A cm\u207b\u00b2, 1 M KOH, 40 \u00b0C, 7",
+        "start_index": 37851,
+        "end_index": 38232
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".8 mL min\u207b\u00b9. Reference electrochemical protocol: 0.05 A cm\u207b\u00b2 galvanostatic. CCMs: Fumasep\u00ae FAA-3-50 membrane coated with Pt/C (0.4 mg Pt cm\u207b\u00b2) and NiFeO\u2093 (2 mg cat cm\u207b\u00b2), cathode and anode respectively.",
+        "start_index": 38232,
+        "end_index": 38434
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "|                      | Thickness / \u03bcm | Percentage thickness loss / % | Conductivity / mS cm\u207b\u00b9 | Percentage conductivity loss / % |\n|----------------------|----------------|-----------------------------|-------------------------|---------------------------------|\n| Initial Lab Test     |                |                             |                         |                                 |",
+        "start_index": 38434,
+        "end_index": 38831
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 76 \u00b1 2         | -                           | 69.1 \u00b1 1.8              | -                               |\n| Final Lab Test       |                |                             |                         |                                 |",
+        "start_index": 38831,
+        "end_index": 39094
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 35.5 \u00b1 1.6     | 53 \u00b1 3                      | 26.3 \u00b1 1.2              | 62 \u00b1 3                          |\n| Initial Operando Test|                |                             |                         |                                 |",
+        "start_index": 39094,
+        "end_index": 39357
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 48.4 \u00b1 1.8     | -                           | 30.5 \u00b1 1.1              | -                               |\n| Final Operando Test  |                |                             |                         |                                 |",
+        "start_index": 39357,
+        "end_index": 39620
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 20 \u00b1 2         | 58 \u00b1 6                      | 0.76 \u00b1 0.07             | 97.5 \u00b1 0.3                      |\n| Initial Reference Test|               |                             |                         |                                 |",
+        "start_index": 39620,
+        "end_index": 39883
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 37 \u00b1 2         | -                           | 16.6 \u00b1 1.1              | -                               |\n| Final Reference Test |                |                             |                         |                                 |",
+        "start_index": 39883,
+        "end_index": 40146
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50    | 26.8 \u00b1 1.8     | 28 \u00b1 9                      | 1.08 \u00b1 0.07             | 93.5 \u00b1 0.8                      |",
+        "start_index": 40146,
+        "end_index": 40277
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The initial $t_{\\text{memb}}$ and $\\sigma_{\\text{memb}}$ between each Fumasep\u00ae CCM tested in Table 1 differ most likely because of the time each CCM was exposed to KOH prior to the initial \u03bc-CT scan. Ex-situ studies have shown Fumasep\u00ae FAA-3-50 loses both conductivity and thickness when exposed to KOH due to hydroxyl attack and Hoffman elimination",
+        "start_index": 40277,
+        "end_index": 40626
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The CCM used for the lab test spent a few hours in KOH before being scanned meaning the membrane swelled from the 50 \u03bcm dry thickness to 76 \u00b1 2 \u03bcm while maintaining expected conductivity. The CCMs used for the operando and reference tests were soaked for 4 and 5 days respectively resulting in degradation, including thinning, prior to testing.",
+        "start_index": 40626,
+        "end_index": 40972
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "In contrast to Fumasep\u00ae, Selemion\u2122 was found to lose only 3 \u00b1 3% of the original thickness, well within the margin of error for the thickness measurement. The values of $t_{\\text{memb}}$ and $\\sigma_{\\text{memb}}$ for Selemion\u00ae are compared with Fumasep\u00ae and summarised in Table 2",
+        "start_index": 40972,
+        "end_index": 41252
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The Selemion\u2122 membrane not only maintained conductivity much better than Fumasep\u00ae, (25 \u00b1 6% compared with 82.8 \u00b1 1.9% by 12 h), but, as with the HFR, the conductivity loss only occurred during exposure to synchrotron radiation while the $\\sigma_{\\text{memb}}$ increased during the current holds, indicative of further membrane conditioning",
+        "start_index": 41252,
+        "end_index": 41593
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The minimal change to the thickness and conductivity of the Selemion\u2122 membrane reflects the stability of its polystyrene-based, aryl ether free, backbone in the high pH environment and while exposed to synchrotron radiation.",
+        "start_index": 41593,
+        "end_index": 41819
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Table 2: Membrane thickness and conductivity values and the respective percentage losses derived from \u03bc-CT in the ME-cell for Fumasep\u00ae FAA-3-50 and Selemion\u2122 AMVN operando tests. For each experiment measurements from the first \u03bc-CT scan before electrochemical testing (initial) and measurements from the \u03bc-CT scan after 12 h electrochemical testing (12 h) are given",
+        "start_index": 41819,
+        "end_index": 42184
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Errors are derived from the standard error in the thickness measurement described in the methods. Operando electrochemical test: 8 \u00d7 2 h galvanostatic at 1 A cm\u207b\u00b2, 1 M KOH, 40 \u00b0C, 7.8 mL min\u207b\u00b9. CCMs: Fumasep\u00ae FAA-3-50 membrane coated with Pt/C (0",
+        "start_index": 42184,
+        "end_index": 42432
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".4 mg Pt cm\u207b\u00b2) and NiFeO\u2093 (2 mg cat cm\u207b\u00b2), cathode and anode respectively.",
+        "start_index": 42432,
+        "end_index": 42506
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "|                        | Thickness / \u03bcm | Percentage thickness loss / % | Conductivity / mS cm\u207b\u00b9 | Percentage conductivity loss / % |\n|------------------------|----------------|-------------------------------|-------------------------|---------------------------------|\n| Initial Operando Test  | 48.4 \u00b1 1.8     | -                             | 30.5 \u00b1 1.1              | -                               |",
+        "start_index": 42506,
+        "end_index": 42913
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Fumasep\u00ae FAA-3-50      |                |                               |                         |                                 |\n| 12 h Operando Test     | 27 \u00b1 2         | 45 \u00b1 6                        | 5.2 \u00b1 0.4               | 82.8 \u00b1 1.9                      |\n| Fumasep\u00ae FAA-3-50      |                |                               |                         |                                 |",
+        "start_index": 42913,
+        "end_index": 43320
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Initial Operando Test  | 87 \u00b1 4         | -                             | 39.0 \u00b1 1.6              | -                               |\n| Selemion\u2122 AMVN         |                |                               |                         |                                 |\n| 12 h Operando Test     | 84 \u00b1 3         | 3 \u00b1 3                         | 29.2 \u00b1 1.0              | 25 \u00b1 6                          |",
+        "start_index": 43320,
+        "end_index": 43727
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "| Selemion\u2122 AMVN         |                |                               |                         |                                 |",
+        "start_index": 43727,
+        "end_index": 43862
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "3 CONCLUSION",
+        "start_index": 43862,
+        "end_index": 43874
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "A miniature electrolyser cell was developed to image AEMWE degradation during operation. The cell\u2019s electrochemical performance was successfully validated against a typical 5 cm\u00b2 lab test fixture. Lab-based \u03bc-CT imaging revealed a > 50% reduction in membrane thickness and conductivity, as well as observable catalyst detachment in a Fumasep\u00ae FAA-3-50-based CCM after 20 h of stability testing",
+        "start_index": 43874,
+        "end_index": 44267
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Any decrease in $E_{\\text{cell}}$ because of the thinner membrane was counteracted by loss of conductivity and/or catalyst during the stability test. The ability to correlate in-situ \u03bc-CT images with electrochemical measurements enabled thinning of the Fumasep\u00ae membrane to be observed and ionic conductivity to be calculated; a finding that could not have been predicted by the $E_{\\text{cell}}$ and HFR measurements alone",
+        "start_index": 44267,
+        "end_index": 44692
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Synchrotron-based operando \u03bc-CT enabled membrane thickness to be measured every 2 h over the course of a 20 h stability test. Membrane thinning was shown to be non-linear, with a comparable halving in thickness after 20 h, despite a measurable increase in both the $E_{\\text{cell}}$ and HFR",
+        "start_index": 44692,
+        "end_index": 44984
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". By comparison with lab-based tests, synchrotron X-rays were shown to have minimal effects on Fumasep\u00ae membrane thinning but exacerbated ionic conductivity degradation. In contrast, a Selemion\u2122 based CCM experienced minimal changes in thickness, and the HFR and membrane conductivity were substantially more stable (\u2248 80% vs. \u2248 20% retention over 12 h) when the cell was exposed to synchrotron radiation",
+        "start_index": 44984,
+        "end_index": 45388
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". These results show the importance of aryl ether free AEMs and challenges of operando studies at synchrotron facilities for AEMWEs. Overall, our work highlights the need for techniques like \u03bc-CT to complement electrochemical testing and aid in better understanding of electrolyser degradation",
+        "start_index": 45388,
+        "end_index": 45681
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The miniature cell was shown to be a robust platform for deconvoluting complex behaviour within a real electrolyser CCM and should have relevance for investigating the impact of new materials, compositions and operating conditions on electrolyser durability.",
+        "start_index": 45681,
+        "end_index": 45941
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4 METHODS",
+        "start_index": 45941,
+        "end_index": 45950
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.1 MINIATURE ELECTROLYSER CELL AND MATERIALS",
+        "start_index": 45950,
+        "end_index": 45995
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.1.1 Cell design",
+        "start_index": 45995,
+        "end_index": 46012
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The miniature-electrolyser-cell (ME-cell) was machined from polyether ether ketone (PEEK). The cell halves sealed onto the edge of the membrane using a PEEK locking ring. The components within the cell were compressed using stainless steel plungers in contact with stainless steel bolts in each cell half",
+        "start_index": 46012,
+        "end_index": 46316
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". During cell assembly the bolt in each cell half was locked in place so that the available depth inside each cell half was set to the thickness of the porous transport layers (PTLs) using a custom depth gauge. When the cell was sealed with the locking ring, the PTLs were compressed to enable good contact with the CCM while maintaining their porous structure to allow gas and liquid transport. Good contact between the CCM and PTLs was verified by impedance measurement after each cell assembly",
+        "start_index": 46316,
+        "end_index": 46812
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The stainless-steel bolts additionally served as the electrical connections for each cell half. Due to the small size of the cell flow fields were not deemed necessary.",
+        "start_index": 46812,
+        "end_index": 46982
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.1.2 Cell component configuration",
+        "start_index": 46982,
+        "end_index": 47016
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Unless specified otherwise, the catalyst coated membrane (CCM) cell configuration was used for all tests in this work. CCMs with a 0.14 cm\u00b2 active area were supplied by Johnson Matthey as research samples",
+        "start_index": 47016,
+        "end_index": 47220
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The CCMs were comprised of an anion exchange membrane (Fumasep\u00ae FAA-3-50, 50 \u03bcm thick, FUMATECH BWT gmbh or Selemion\u2122 AMVN, 100 \u03bcm thick, AGC Engineering co., Ltd",
+        "start_index": 47220,
+        "end_index": 47384
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".) coated with a NiFeO\u2093 (American Elements) catalyst layer (2 mg cat cm\u207b\u00b2) as the anode and a Pt on C (40% Pt/C, Johnson Matthey Technology Centre) catalyst layer (0.4 mg cat cm\u207b\u00b2) as the cathode",
+        "start_index": 47384,
+        "end_index": 47579
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". For each test the CCM was sandwiched between a Ni felt anode PTL (250 \u03bcm, Bekeart) and a carbon paper cathode PTL (250 \u03bcm, Toray TGP-H-090) during cell assembly.",
+        "start_index": 47579,
+        "end_index": 47742
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.2 ELECTROCHEMICAL TESTING",
+        "start_index": 47742,
+        "end_index": 47769
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Electrochemical testing was carried out using the ME-cell (shown in Figure 1 in the main manuscript) and a laboratory-electrolyser-cell (LE-cell) with a 5 cm\u00b2 active area which has been previously reported. Both were supplied with KOH (aq) (1 M) feed solution at the anode and cathode using a peristaltic pump while the flow rates deferred at 7",
+        "start_index": 47769,
+        "end_index": 48113
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".8 mL min\u207b\u00b9 from two 250 mL reservoirs and 40 mL min\u207b\u00b9 from two 1 L reservoirs for the ME and LE-cell, respectively. The solution was preheated using stainless steel tubing submerged in a water bath to achieve an anode outlet temperature of 40 \u00b0C measured using an in-line K-type thermocouple. Electrochemical measurements were performed using Gamry Interface 1000 and 5000E potentiostats.",
+        "start_index": 48113,
+        "end_index": 48502
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "All CCMs were preconditioned by soaking in KOH (aq) (1 M) at least 24 h before cell assembly. The KOH (aq) solution was refreshed twice during preconditioning to ensure both membrane and ionomer were converted to the hydroxide form prior to testing. Following cell assembly and installation in the flow setup, KOH (aq) (1 M) feed solution was circulated for 20 min to heat the cell to 40 \u00b0C",
+        "start_index": 48502,
+        "end_index": 48892
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The CCM was conditioned by stepping the current from 0.1 to 1 A cm\u207b\u00b2 in 0.1 A cm\u207b\u00b2 steps, holding for 2 min at each step.",
+        "start_index": 48892,
+        "end_index": 49015
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Electrochemical characterisation, consisting of current-voltage (IV) curves and galvanostatic impedance spectroscopy (GEIS), was run on each cell configuration after the conditioning",
+        "start_index": 49015,
+        "end_index": 49197
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "procedure and after the stability test. IV curves were produced using a series of $24 \\times 60$ s galvanostatic hold steps between 0.005 and 1 A cm$^{-2}$ with a data acquisition rate of 1 pt s$^{-1}$. The last 10 data points from each galvanostatic hold step were averaged to generate each data point for the IV curve. Starting at 0",
+        "start_index": 49197,
+        "end_index": 49531
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1 A cm$^{-2}$, GEIS was run after each hold at the corresponding DC setpoint with an AC amplitude of $\\geq 10\\%$ DC from 50 kHz to 100 Hz with 13 points per decade to measure the high frequency resistance (HFR) at each current density",
+        "start_index": 49531,
+        "end_index": 49766
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The HFR, which is the sum of the membrane resistance ($R_{\\text{memb}}$) and the electronic resistance (sum of contact resistances between flow-fields and PTLs and bulk PTL resistances, $R_{\\text{el}}$) was estimated from the GEIS data by taking the value of real impedance at high frequency where imaginary impedance was equal to zero",
+        "start_index": 49766,
+        "end_index": 50103
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". To identify the contribution of various voltage losses, polarisation curves were corrected by the HFR (i.e., $iR$ corr.).",
+        "start_index": 50103,
+        "end_index": 50226
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The stability of each cell configuration was tested by applying a series of 8 current holds at 1 A cm$^{-2}$ for 2 h with each followed by diagnostics. The diagnostics consisted firstly of GEIS at 1 A cm$^{-2}$ DC with an AC amplitude of 10% DC from 100 kHz to 1 Hz",
+        "start_index": 50226,
+        "end_index": 50491
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The $E_{\\text{cell}}$ Values for each 2 h current hold were $iR$ corrected using the HFR from the GEIS measurement immediately after each hold. This was followed by 15 min at open circuit potential (OCP) during which time an operando \u03bc-CT scan could be run while avoiding bubble formation to maximise image quality. Finally, the GEIS was repeated after a 1 min current hold at 1 A cm$^{-2}$",
+        "start_index": 50491,
+        "end_index": 50883
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". An added benefit of the OCP cycling meant this served as an example of an intermittent operation accelerated durability test previously studied in PEMWE systems.$^{35,60}$",
+        "start_index": 50883,
+        "end_index": 51056
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.3 X-RAY MICROTMOTOMOGRAPHY\n\n4.3.1 Lab-based X-ray microtomography",
+        "start_index": 51056,
+        "end_index": 51123
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Lab-based X-ray microtomography (\u03bc-CT) was performed with a Xradia 620 Versa X-ray microscope (ZEISS, Pleasanton, CA, USA) to examine the internal structure of the electrolyser in-situ. The miniature electrolyser was filled with 1 M KOH$_{\\text{aq}}$ solution and sealed before being mounted between the X-ray source and the detector, 72.6 mm from the source and 40",
+        "start_index": 51123,
+        "end_index": 51488
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".2 mm from the detector. The source was set to 100 kV and 14 W, obtaining 1601 projections over a 360\u00b0 rotation, with an exposure time of 10 s per projection for a total acquisition time of 4 h and 27 min. The detector was setup as a scintillator-coupled optical magnification of 4\u00d7, achieving a pixel size of 2.20 \u00b5m over a 4",
+        "start_index": 51488,
+        "end_index": 51814
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".458 mm$^2$ FOV which covered the entire volume of the active materials. ZEISS proprietary reconstruction software was utilized for a filtered back-projection (FBP) reconstruction and Avizo3D 2023.1 (Thermo Fisher Scientific, USA) was used for visualisation of the dataset. For each data set membrane thickness was measured at 11 equally spaced points across the diameter of the CCM and these used to determine the average membrane thickness and associated standard error.",
+        "start_index": 51814,
+        "end_index": 52286
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.3.2 Synchrotron based X-ray microtomography",
+        "start_index": 52286,
+        "end_index": 52331
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Synchrotron-based \u03bc-CT was performed at Diamond Light Source on the I13-2 imaging beamline. A pink X-ray beam generated from an insertion device with weighted mean energy of 27 keV was used along with a PCO Edge 5.5 visible light detector set up with a 2\u00d7 objective lens. This configuration allowed for a pixel size of 1.625 \u00b5m over a 4.2 mm by 3",
+        "start_index": 52331,
+        "end_index": 52677
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".5 mm field of view, capturing the entire active volume of the electrolyser. Acquisition of a single tomography required 4 min and 3 s of exposure. Tomography reconstructions were performed with SAVU software, a python based reconstruction framework$^{61}$, using the FBP reconstruction algorithm. The data was first corrected for the background and lens distortions before feeding to the reconstruction algorithm.",
+        "start_index": 52677,
+        "end_index": 53091
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Data visualisation and analysis was performed using Avizo3D 2023.1 (Thermo Fisher Scientific, USA). To track the change in the average membrane thickness with time, the same 11 points on the same slice were measured for each data set in the time series for each operando test.",
+        "start_index": 53091,
+        "end_index": 53367
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "4.4 Through Plane Ionic Conductivity\n\nThe through plane ionic conductivity of the membrane ($\\sigma_{\\text{memb}}$) was calculated using the resistance ($R_{\\text{memb}}$) and the thickness ($t_{\\text{memb}}$) of the membrane in Equation 1:",
+        "start_index": 53367,
+        "end_index": 53607
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "$$\\sigma_{\\text{memb}} = \\frac{t_{\\text{memb}}}{R_{\\text{memb}}} \\quad [1]$$",
+        "start_index": 53607,
+        "end_index": 53683
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "$R_{\\text{memb}}$ was determined by subtracting the electronic resistance ($R_{\\text{el}}$, sum of the contact resistances between stainless steel plungers and PTLs and bulk PTL resistances) from the HFR, the sum of the membrane $R_{\\text{memb}}$ and $R_{\\text{el}}$:",
+        "start_index": 53683,
+        "end_index": 53950
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "$$R_{\\text{memb}} = HFR - R_{\\text{el}} \\quad [2]$$",
+        "start_index": 53950,
+        "end_index": 54001
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The values of $t_{\\text{memb}}$ and $\\sigma_{\\text{memb}}$ for Fumasep\u00ae FAA-3 determined in this study are summarised in Table 1 and for Sellemion\u2122 AMVN in Table 2 where the quoted uncertainties were derived from the standard error in $t_{\\text{memb}}$.\n\nCRediT Author Statement",
+        "start_index": 54001,
+        "end_index": 54279
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Iain Malone: Conceptualisation, Methodology, Formal analysis, Investigation, Data curation, Writing \u2013 Original Draft, Writing - Review & Editing, Visualisation, Project administration. Se\u00e7il \u00dcnsal: Conceptualisation, Methodology, Investigation, Writing - Original Draft, Writing - Review & Editing. Robert Scott Young: Conceptualisation, Methodology, Investigation, Writing - Review & Editing, Data curation. Matthew P. Jones: Investigation. Francesco Spanu: Resources",
+        "start_index": 54279,
+        "end_index": 54747
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Shashidhara Marathe: Resources. Rhodri Jervis: Writing - Review & Editing. Hugh Hamilton: Conceptualisation, Supervision, Project administration. Christopher Zalitis: Conceptualisation, Writing - Review & Editing, Supervision. Thomas Miller: Writing - Review & Editing, Supervision. Alexander Rettie: Writing - Review & Editing, Supervision, Project administration.",
+        "start_index": 54747,
+        "end_index": 55114
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 55114,
+        "end_index": 55130
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "IM and SU contributed equally to this work. The authors gratefully acknowledge the funding from UK Engineering and Physical Sciences Research Council (EPSRC) Project \u201cAdvanced Metrology for Polymer Electrolysers \u2013 AMPERE\u201d - EP/W033321/1. IM acknowledges the EPSRC and Johnson Matthey plc for funding through iCASE PhD studentship (EP/W522077/1)",
+        "start_index": 55130,
+        "end_index": 55474
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". TSM acknowledges support from the EPSRC - EP/W03395X/1, EP/X023656/1. RSY and RJ acknowledge funding from the Faraday Institution through the degradation project (FIR0060, EP/003053/1) and also acknowledge funding from EPSRC and Horiba (EP/T517793/1)",
+        "start_index": 55474,
+        "end_index": 55726
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The authors also acknowledge the I13-2 beamline at the Diamond Light Source for the provision of beam time for the use of their facilities through proposal MG35192. The authors thank Aimilios Davlantis Lo (Minor Detail Ltd.) for his work on designing and manufacturing the cell.",
+        "start_index": 55726,
+        "end_index": 56006
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "CONFLICT OF INTEREST",
+        "start_index": 56006,
+        "end_index": 56026
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "The authors declare no conflict of interest.\n\nREFERENCES",
+        "start_index": 56026,
+        "end_index": 56082
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(1) O\u2019Malley, M. J.; Anwar, M. B.; Heinen, S.; Kober, T.; McCalley, J.; McPherson, M.; Muratori, M.; Orths, A.; Ruth, M.; Schmidt, T. J.; Tuohy, A. Multicarrier Energy Systems: Shaping Our Energy Future. Proc. IEEE 2020, 108 (9), 1437\u20131456",
+        "start_index": 56082,
+        "end_index": 56321
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". https://doi.org/10.1109/JPROC.2020.2992251.",
+        "start_index": 56321,
+        "end_index": 56366
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(2) Oshiro, K.; Fujimori, S. Role of Hydrogen-Based Energy Carriers as an Alternative Option to Reduce Residual Emissions Associated with Mid-Century Decarbonization Goals. Appl. Energy 2022, 313, 118803. https://doi.org/10.1016/J.APENERGY.2022.118803.",
+        "start_index": 56366,
+        "end_index": 56618
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(3) Smolinka, T.; Bergmann, H.; Garche, J.; Kusnezoff, M. The History of Water Electrolysis from Its Beginnings to the Present. Electrochem. Power Sources Fundam. Syst. Appl. Hydrg. Prod. by Water Electrolysis 2022, 83\u2013164. https://doi.org/10.1016/B978-0-12-819424-9",
+        "start_index": 56618,
+        "end_index": 56884
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".00010-0.",
+        "start_index": 56884,
+        "end_index": 56893
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(4) Bernt, M.; Hartig-Wei\u00df, A.; Tovini, M. F.; El-Sayed, H. A.; Schramm, C.; Schr\u00f6ter, J.; Gebauer, C.; Gasteiger, H. A. Current Challenges in Catalyst Development for PEM Water Electrolyzers. Chemie Ing. Tech. 2020, 92 (1\u20132), 31\u201339. https://doi.org/10",
+        "start_index": 56893,
+        "end_index": 57145
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1002/cite.201900101.",
+        "start_index": 57145,
+        "end_index": 57166
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(5) Park, J. E.; Kang, S. Y.; Oh, S.; Kim, J. K.; Lim, M. S.; Ahn, C.; Cho, Y.; Sung, Y.; Engineering, B. High-Performance Anion-Exchange Membrane Water Electrolysis: Supplementary Information. Electrochim. Acta 2019, 295.",
+        "start_index": 57166,
+        "end_index": 57388
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(6) IEA. ETP Clean Energy Technology Guide https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide (accessed Oct 25, 2024).",
+        "start_index": 57388,
+        "end_index": 57540
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(7) Santoro, C.; Lavacchi, A.; Mustarelli, P.; Di Noto, V.; Elbaz, L.; Dekel, D. R.; Jaouen, F. What Is Next in Anion-Exchange Membrane Water Electrolyzers? Bottlenecks, Benefits, and Future. ChemSusChem 2022, 15 (8), e202200027. https://doi.org/10.1002/cssc",
+        "start_index": 57540,
+        "end_index": 57798
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".202200027.",
+        "start_index": 57798,
+        "end_index": 57809
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(8) Miller, H. A.; Bouzek, K.; Hnat, J.; Loos, S.; Bern\u00e4cker, C. I.; Wei\u00dfg\u00e4rber, T.; R\u00f6ntzsch, L.; Meier-Haack, J. Green Hydrogen from Anion Exchange Membrane Water Electrolysis: A Review of Recent Developments in Critical Materials and Operating Conditions. Sustain",
+        "start_index": 57809,
+        "end_index": 58075
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Energy Fuels 2020, 4 (5), 2114\u20132133. https://doi.org/10.1039/C9SE01240K.",
+        "start_index": 58075,
+        "end_index": 58149
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(9) Henkensmeier, D.; Najibah, M.; Harms, C.; \u017ditka, J.; Hn\u00e1t, J.; Bouzek, K. Overview: State-of-the Art Commercial Membranes for Anion Exchange Membrane Water Electrolysis. J. Electrochem. Energy Convers. Storage 2021, 18 (2), 024001. https://doi.org/10.1115/1.4047963.",
+        "start_index": 58149,
+        "end_index": 58419
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(10) Mardle, P.; Chen, B.; Holdcroft, S. Opportunities of Ionomer Development for Anion-Exchange Membrane Water Electrolysis. ACS Energy Lett. 2023, 8 (8), 3330\u20133342. https://doi.org/10.1021/acsenergylett.3c01040.",
+        "start_index": 58419,
+        "end_index": 58632
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(11) Capr\u00ec, A.; Gatto, I.; Lo Vecchio, C.; Trocino, S.; Carbone, A.; Baglio, V. Anion Exchange Membrane Water Electrolysis Based on Nickel Ferrite Catalysts. ChemElectroChem 2023, 10 (1). https://doi.org/10.1002/celc.202201056.",
+        "start_index": 58632,
+        "end_index": 58859
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-m29wv ORCID: https://orcid.org/0000-0001-6092-8298 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 58859,
+        "end_index": 59006
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(12) Faid, A. Y.; Barnett, A. O.; Seland, F.; Sunde, S. Optimized Nickel-Cobalt and Nickel-Iron Oxide Catalysts for the Hydrogen Evolution Reaction in Alkaline Water Electrolysis. *J. Electrochem. Soc.* 2019, 166 (8), F519\u2013F533. https://doi.org/10.1149/2.0821908jes.",
+        "start_index": 59006,
+        "end_index": 59272
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(13) Campagna Zignani, S.; Faro, M. Lo; Carbone, A.; Italiano, C.; Trocino, S.; Monforte, G.; Arico, A. S. Performance and Stability of a Critical Raw Materials-Free Anion Exchange Membrane Electrolysis Cell. *Electrochim. Acta* 2022, 413 (February). https://doi.org/10.1016/j.electacta",
+        "start_index": 59272,
+        "end_index": 59558
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".2022.140078.",
+        "start_index": 59558,
+        "end_index": 59571
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(14) Motz, A. R.; Li, D.; Keane, A.; Manriquez, L. D.; Park, E. J.; Maurya, S.; Chung, H.; Fujimoto, C.; Jeon, J.; Pagels, M. K.; Bae, C.; Ayers, K. E.; Kim, Y. S",
+        "start_index": 59571,
+        "end_index": 59733
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Performance and Durability of Anion Exchange Membrane Water Electrolyzers Using Down-Selected Polymer Electrolytes. *J. Mater. Chem. A* 2021, 9 (39), 22670\u201322683. https://doi.org/10.1039/d1ta06869e.",
+        "start_index": 59733,
+        "end_index": 59933
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(15) Gottesfeld, S.; Dekel, D. R.; Page, M.; Bae, C.; Yan, Y.; Zelenay, P.; Kim, Y. S. Anion Exchange Membrane Fuel Cells: Current Status and Remaining Challenges. *J. Power Sources* 2018, 375, 170\u2013184. https://doi.org/10.1016/J.POWRES.2017.08.010.",
+        "start_index": 59933,
+        "end_index": 60181
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(16) Wang, J.; Zhao, Y.; Setzler, B. P.; Rojas-Carbonell, S.; Ben Yehuda, C.; Amel, A.; Page, M.; Wang, L.; Hu, K.; Shi, L.; Gottesfeld, S.; Xu, B.; Yan, Y. Poly(Aryl Piperidinium) Membranes and Ionomers for Hydroxide Exchange Membrane Fuel Cells. *Nat",
+        "start_index": 60181,
+        "end_index": 60433
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Energy* 2019, 4 (5), 392\u2013398. https://doi.org/10.1038/s41560-019-0372-8.",
+        "start_index": 60433,
+        "end_index": 60507
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(17) Chen, N.; Lee, Y. M. Anion Exchange Polyelectrolytes for Membranes and Ionomers. *Prog. Polym. Sci.* 2021, 113, 101345. https://doi.org/10.1016/J.PROGPOLYMSCI.2020.101345.",
+        "start_index": 60507,
+        "end_index": 60683
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(18) Li, D.; Park, E. J.; Zhu, W.; Shi, Q.; Zhou, Y.; Tian, H.; Lin, Y.; Serov, A.; Zulevi, B.; Baca, E. D.; Fujimoto, C.; Chung, H. T.; Kim, Y. S. Highly Quaternized Polystyrene Ionomers for High Performance Anion Exchange Membrane Water Electrolysers. *Nat",
+        "start_index": 60683,
+        "end_index": 60941
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Energy* 2020, 5 (5), 378\u2013385. https://doi.org/10.1038/s41560-020-0577-x.",
+        "start_index": 60941,
+        "end_index": 61015
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(19) Li, D.; Motz, A. R.; Bae, C.; Fujimoto, C.; Yang, G.; Zhang, F.-Y.; Ayers, K. E.; Kim, Y. S. Durability of Anion Exchange Membrane Water Electrolyzers. *Energy Environ. Sci.* 2021, 14 (6), 3393\u20133419. https://doi.org/10.1039/D0EE04086J.",
+        "start_index": 61015,
+        "end_index": 61255
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(20) Fujimoto, C.; Kim, D. S.; Hibbs, M.; Wroblewski, D.; Kim, Y. S. Backbone Stability of Quaternized Polyaromatics for Alkaline Membrane Fuel Cells. *J. Memb. Sci.* 2012, 423\u2013424, 438\u2013449. https://doi.org/10.1016/J.MEMSCI.2012.08.045.",
+        "start_index": 61255,
+        "end_index": 61491
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(21) Mohanty, A. D.; Tignor, S. E.; Krause, J. A.; Choe, Y.-K.; Bae, C. Systematic Alkaline Stability Study of Polymer Backbones for Anion Exchange Membrane Applications. *Macromolecules* 2016, 49 (9), 3361\u20133372. https://doi.org/10.1021/acs.macromol.5b02550.",
+        "start_index": 61491,
+        "end_index": 61749
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(22) Chen, J.; Bailey, J. J.; Britnell, L.; Perez-Page, M.; Sahoo, M.; Zhang, Z.; Strudwick, A.; Hack, J.; Guo, Z.; Ji, Z.; Martin, P.; Brett, D. J. L.; Shearing, P. R.; Holmes, S. M",
+        "start_index": 61749,
+        "end_index": 61931
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". The Performance and Durability of High-Temperature Proton Exchange Membrane Fuel Cells Enhanced by Single-Layer Graphene. *Nano Energy* 2022, 93, 106829. https://doi.org/10.1016/J.NANOEN.2021.106829.",
+        "start_index": 61931,
+        "end_index": 62132
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(23) De Angelis, S.; Schuler, T.; Sabharwal, M.; Holler, M.; Guizar-Sicairos, M.; M\u00fcller, E.; B\u00fcchi, F. N. Understanding the Microstructure of a Core\u2013Shell Anode Catalyst Layer for Polymer Electrolyte Water Electrolysis. *Sci. Rep.* 2023, 13 (1), 4280. https://doi.org/10",
+        "start_index": 62132,
+        "end_index": 62403
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1038/s41598-023-30960-x.",
+        "start_index": 62403,
+        "end_index": 62428
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "\u00dcnsal, S.; Bozzetti, M.; Chen, Y.-C.; Girod, R.; Berger, A.; Diercks, J. S.; Gialamoidou, S.; Lyu, J.; Medarde, M.; Gasteiger, H. A.; Tileli, V.; Schmidt, T. J.; Herranz, J. Catalyst Aggregate Size Effect on the Mass Transport Properties of Non-Noble Metal Catalyst Layers for PEMFC Cathodes",
+        "start_index": 62428,
+        "end_index": 62719
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". *J. Electrochem. Soc.* **2023**, *170*(7), 074502. https://doi.org/10.1149/1945-7111/ace289.",
+        "start_index": 62719,
+        "end_index": 62813
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Schuler, T.; De Bruycker, R.; Schmidt, T. J.; B\u00fcchi, F. N. Polymer Electrolyte Water Electrolysis: Correlating Porous Transport Layer Structural Properties and Performance: Part I. Tomographic Analysis of Morphology and Topology. *J. Electrochem. Soc.* **2019**, *166*(4), F270\u2013F281. https://doi.org/10.1149/2.0561904jes.",
+        "start_index": 62813,
+        "end_index": 63134
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Berger, A.; Chen, Y.-C.; Gatzemeier, J.; Schmidt, T. J.; B\u00fcchi, F. N.; Gasteiger, H. A. Analysis of the MPL/GDL Interface: Impact of MPL Intrusion into the GDL Substrate. *J. Electrochem. Soc.* **2023**, *170*(9), 094509. https://doi.org/10.1149/1945-7111/acfa26.",
+        "start_index": 63134,
+        "end_index": 63397
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Heenan, T. M. M.; Tan, C.; Hack, J.; Brett, D. J. L.; Shearing, P. R. Developments in X-Ray Tomography Characterization for Electrochemical Devices. *Mater. Today* **2019**, *31*, 69\u201385. https://doi.org/10.1016/j.mattod.2019.05.019.",
+        "start_index": 63397,
+        "end_index": 63629
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Hack, J.; Rasha, L.; Cullen, P. L.; Bailey, J. J.; Neville, T. P.; Shearing, P. R.; Brandon, N. P.; Brett, D. J. L. Use of X-Ray Computed Tomography for Understanding Localised, along-the-Channel Degradation of Polymer Electrolyte Fuel Cells. *Electrochim. Acta* **2020**, *352*, 136464",
+        "start_index": 63629,
+        "end_index": 63915
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". https://doi.org/10.1016/j.electacta.2020.136464.",
+        "start_index": 63915,
+        "end_index": 63965
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Stoll, J.; Orfino, F. P.; Dutta, M.; Kjeang, E. Four-Dimensional Identical-Location X-Ray Imaging of Fuel Cell Degradation during Start-Up/ Shut-Down Cycling. *J. Electrochem. Soc.* **2021**, *168*(2), 024516. https://doi.org/10.1149/1945-7111/abe56b.",
+        "start_index": 63965,
+        "end_index": 64216
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Chen, Y.; Singh, Y.; Ramani, D.; Orfino, F. P.; Dutta, M.; Kjeang, E. 4D Imaging of Chemo-Mechanical Membrane Degradation in Polymer Electrolyte Fuel Cells - Part 1: Understanding and Evading Edge Failures. *J. Power Sources* **2022**, *520*, 230674. https://doi.org/10.1016/j.jpowsour",
+        "start_index": 64216,
+        "end_index": 64501
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".2021.230674.",
+        "start_index": 64501,
+        "end_index": 64514
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Leonard, E.; Shum, A. D.; Normile, S.; Sabarirajan, D. C.; Yared, D. G.; Xiao, X.; Zenyuk, I. V. Operando X-Ray Tomography and Sub-Second Radiography for Characterizing Transport in Polymer Electrolyte Membrane Electrolyzer. *Electrochim. Acta* **2018**, *276*, 424\u2013433. https://doi.org/10",
+        "start_index": 64514,
+        "end_index": 64803
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1016/j.electacta.2018.04.144.",
+        "start_index": 64803,
+        "end_index": 64833
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Altus, S. J.; Inkson, B. J.; Hack, J. Complementary X-Ray and Neutron Imaging of Water Electrolysers for Green Hydrogen Production. *J. Mater. Chem. A* **2024**. https://doi.org/10.1039/d4ta02885f.",
+        "start_index": 64833,
+        "end_index": 65030
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "FUMATECH BWT GmbH. Technical Data Sheet - fumasep FAA-3-50 https://www.fuelcellstore.com/spec-sheets/fumasep-faa-3-50-technical-specifications.pdf (accessed Aug 12, 2024).",
+        "start_index": 65030,
+        "end_index": 65201
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "AGC Chemicals inc. FORBLUE Selmemion Data Sheet https://www.agcchem.com/products/forblue-membranes-polymers/forblue-selemon/ (accessed Aug 12, 2024).",
+        "start_index": 65201,
+        "end_index": 65350
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Dodwell, J.; Maier, M.; Majasan, J.; Jervis, R.; Castanheira, L.; Shearing, P.; Hinds, G.; Brett, D. J. L. Open-Circuit Dissolution of Platinum from the Cathode in Polymer Electrolyte Membrane Water Electrolysers. *J. Power Sources* **2021**, *498*(April), 229937. https://doi.org/10.1016/j",
+        "start_index": 65350,
+        "end_index": 65640
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".jpowsour.2021.229937.",
+        "start_index": 65640,
+        "end_index": 65662
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "Malone, I.; Hamilton, H. G. C.; Rettie, A. J. E.; Zalitis, C. Reliable Reference Electrode\nMeasurements in Membrane-Based Water Electrolysers. (in Prep.)",
+        "start_index": 65662,
+        "end_index": 65815
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(37) Chen, B.; Biancolli, A. L. G.; Radford, C. L.; Holdcroft, S. Stainless Steel Felt as a Combined OER Electrocatalyst/Porous Transport Layer for Investigating Anion-Exchange Membranes in Water Electrolysis. ACS Energy Lett. 2023, 8 (6), 2661\u20132667. https://doi.org/10.1021/acsenergylett",
+        "start_index": 65815,
+        "end_index": 66103
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".3c00878.",
+        "start_index": 66103,
+        "end_index": 66112
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(38) Martinez-Lazaro, A.; Capri, A.; Gatto, I.; Ledesma-Garc\u00eda, J.; Rey-Raap, N.; Arenillas, A.; Espinosa-Lagunes, F. I.; Baglio, V.; Arriaga, L. G. NiFe2O4 Hierarchical Nanoparticles as Electrocatalyst for Anion Exchange Membrane Water Electrolysis. J",
+        "start_index": 66112,
+        "end_index": 66364
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Power Sources 2023, 556 (November 2022), 232417. https://doi.org/10.1016/j.jpowsour.2022.232417.",
+        "start_index": 66364,
+        "end_index": 66462
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(39) Bernt, M.; Gasteiger, H. A. Influence of Ionomer Content in IrO2/TiO2 Electrodes on PEM Water Electrolyzer Performance. J. Electrochem. Soc. 2016, 163 (11), F3179\u2013F3189. https://doi.org/10.1149/2.0231611jes.",
+        "start_index": 66462,
+        "end_index": 66674
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(40) Dikli\u0107, N.; Beard, A.; Herranz, J.; Heinritz, A.; Cen, T.; Garbe, S.; Abbott, D. F.; Povia, M.; Schmidt, T. J. Breaking Down the Performance Losses in O2-Evolution Stability Tests of IrO2-Based Electrocatalysts. J. Electrochem. Soc. 2023, 170 (7), 074503. https://doi",
+        "start_index": 66674,
+        "end_index": 66946
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".org/10.1149/1945-7111/ace741.",
+        "start_index": 66946,
+        "end_index": 66976
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(41) Fathi Tovini, M.; Hartig-Wei\u00df, A.; Gasteiger, H. A.; El-Sayed, H. A. The Discrepancy in Oxygen Evolution Reaction Catalyst Lifetime Explained: RDE vs MEA - Dynamicity within the Catalyst Layer Matters. J. Electrochem. Soc. 2021, 168 (1), 014512. https://doi.org/10",
+        "start_index": 66976,
+        "end_index": 67245
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".1149/1945-7111/abdcc9.",
+        "start_index": 67245,
+        "end_index": 67268
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(42) Lazaridis, T.; St\u00fchmeier, B. M.; Gasteiger, H. A.; El-Sayed, H. A. Capabilities and Limitations of Rotating Disk Electrodes versus Membrane Electrode Assemblies in the Investigation of Electrocatalysts. Nat. Catal. 2022, 5 (5), 363\u2013373. https://doi.org/10.1038/s41929-022-00776-5.",
+        "start_index": 67268,
+        "end_index": 67553
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(43) Gatto, I.; Capri, A.; Lo Vecchio, C.; Zignani, S.; Patti, A.; Baglio, V. Optimal Operating Conditions Evaluation of an Anion-Exchange-Membrane Electrolyzer Based on FUMASEP\u00ae FAA3-50 Membrane. Int. J. Hydrogen Energy 2023, 48 (32), 11914\u201311921. https://doi.org/10.1016/j",
+        "start_index": 67553,
+        "end_index": 67827
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".ijhydene.2022.04.176.",
+        "start_index": 67827,
+        "end_index": 67849
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(44) Suzuki, S.; Muroyama, H.; Matsui, T.; Eguchi, K. Influence of CO2 Dissolution into Anion Exchange Membrane on Fuel Cell Performance. Electrochim. Acta 2013, 88, 552\u2013558. https://doi.org/10.1016/J.ELECTACTA.2012.10.105.",
+        "start_index": 67849,
+        "end_index": 68072
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(45) Krivina, R. A.; Lindquist, G. A.; Yang, M. C.; Cook, A. K.; Hendon, C. H.; Motz, A. R.; Capuano, C.; Ayers, K. E.; Hutchison, J. E.; Boettcher, S. W",
+        "start_index": 68072,
+        "end_index": 68225
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". Three-Electrode Study of Electrochemical Ionomer Degradation Relevant to Anion-Exchange-Membrane Water Electrolyzers. ACS Appl. Mater. Interfaces 2022, 14 (16), 18261\u201318274. https://doi.org/10.1021/acsami.1c22472.",
+        "start_index": 68225,
+        "end_index": 68440
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(46) Tampucci, A.; Bert, P. Device for the Production On-Demand of Hydrogen by Electrolysis of Aqueous Solution from Dry Cathode. US 8,340,882 B2, 2016.",
+        "start_index": 68440,
+        "end_index": 68592
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(47) Arges, C. G.; Ramani, V. Two-Dimensional NMR Spectroscopy Reveals Cation-Triggered Backbone Degradation in Polysulfone-Based Anion Exchange Membranes. Proc. Natl. Acad. Sci. 2013, 110 (7), 2490\u20132495. https://doi.org/10.1073/pnas.1217215110.",
+        "start_index": 68592,
+        "end_index": 68837
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(48) Park, E. J.; Jannasch, P.; Miyatake, K.; Bae, C.; Noonan, K.; Fujimoto, C.; Holdcroft, S.; Varcoe, J. R.; Henkensmeier, D.; Guiver, M. D.; Kim, Y. S. Aryl Ether-Free Polymer Electrolytes for Electrochemical and Energy Devices. Chem. Soc. Rev",
+        "start_index": 68837,
+        "end_index": 69083
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ". 2024, 5704\u20135780.",
+        "start_index": 69083,
+        "end_index": 69101
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(49) Khalid, H.; Najibah, M.; Park, H. S.; Bae, C.; Henkensmeier, D. Properties of Anion Exchange Membranes with a Focus on Water Electrolysis. Membranes (Basel). 2022, 12 (10), 989. https://doi.org/10.3390/membranes12100989.",
+        "start_index": 69101,
+        "end_index": 69326
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(50) Roschger, M.; Wolf, S.; Billiani, A.; Mayer, K.; Hren, M.; Gorgieva, S.; Genorio, B.; Hacker, V. Study on Commercially Available Membranes for Alkaline Direct Ethanol Fuel Cells. ACS Omega 2023, 8 (23), 20845\u201320857. https://doi.org/10.1021/acsomega.3c01564.",
+        "start_index": 69326,
+        "end_index": 69588
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(51) Hoppe, E.; Holtwerth, S.; M\u00fcller, M.; Lehner, W. An Ex-Situ Investigation of the Effect of Clamping Pressure on the Membrane Swelling of a Polymer Electrolyte Water Electrolyzer Using X-Ray Tomography. J. Power Sources 2023, 578, 233242. https://doi.org/10.1016/J.JPOWSOUR.2023.233242.",
+        "start_index": 69588,
+        "end_index": 69878
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(52) Roth, J.; Eller, J.; B\u00fcchi, F. N. Effects of Synchrotron Radiation on Fuel Cell Materials. J. Electrochem. Soc. 2012, 159 (8), F449\u2013F455. https://doi.org/10.1149/2.042208jes.",
+        "start_index": 69878,
+        "end_index": 70057
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(53) White, R. T.; Najm, M.; Dutta, M.; Orfino, F. P.; Kjeang, E. Communication\u2014Effect of Micro-XCT X-Ray Exposure on the Performance of Polymer Electrolyte Fuel Cells. J. Electrochem. Soc. 2016, 163 (10), F1206\u2013F1208. https://doi.org/10.1149/2.0751610jes.",
+        "start_index": 70057,
+        "end_index": 70313
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(54) Wang, J.; Morin, C.; Li, L.; Hitchcock, A. P.; Scholl, A.; Doran, A. Radiation Damage in Soft X-Ray Microscopy. J. Electron Spectros. Relat. Phenomena 2009, 170 (1\u20133), 25\u201336. https://doi.org/10.1016/j.elspec.2008.01.002.",
+        "start_index": 70313,
+        "end_index": 70538
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(55) Eller, J.; B\u00fcchi, F. N. Polymer Electrolyte Fuel Cell Performance Degradation at Different Synchrotron Beam Intensities. J. Synchrotron Radiat. 2014, 21 (1), 82\u201388. https://doi.org/10.1107/S1600577513025162.",
+        "start_index": 70538,
+        "end_index": 70750
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(56) Kulkarni, D.; Normile, S. J.; Connolly, L. G.; Zenyuk, I. V. Development of Low Temperature Fuel Cell Holders for Operando X-Ray Micro and Nano Computed Tomography to Visualize Water Distribution. J. Phys Energy 2020, 2 (4). https://doi.org/10.1088/2515-7655/abb783.",
+        "start_index": 70750,
+        "end_index": 71021
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(57) Seetharaman, S.; Balaji, R.; Ramya, K.; Dhathathreyan, K. S.; Velan, M. Graphene Oxide Modified Non-Noble Metal Electrode for Alkaline Anion Exchange Membrane Water Electrolyzers. Int. J. Hydrogen Energy 2013, 38 (35), 14934\u201314942. https://doi.org/10.1016/J.IJHYDENE",
+        "start_index": 71021,
+        "end_index": 71292
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".2013.09.033.",
+        "start_index": 71292,
+        "end_index": 71305
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(58) Kang, S. Y.; Park, J. E.; Jang, G. Y.; Kim, O.-H.; Kwon, O. J.; Cho, Y.-H.; Sung, Y.-E. High-Performance and Durable Water Electrolysis Using a Highly Conductive and Stable Anion-Exchange Membrane. Int. J. Hydrogen Energy 2022, 47 (15), 9115\u20139126. https://doi",
+        "start_index": 71305,
+        "end_index": 71569
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".org/10.1016/j.ijhydene.2022.01.002.",
+        "start_index": 71569,
+        "end_index": 71605
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(59) Carbone, A.; Zignani, S. C.; Gatto, I.; Pedicini, R.; Oldani, C.; Cattaneo, A.; Aric\u00f2, A. S. Aquivion-Based Anion Exchange Membranes: Synthesis Optimization via Dispersant Agents and Reaction Time. Chem. Eng. J. 2023, 455, 140765. https://doi.org/10.1016/J",
+        "start_index": 71605,
+        "end_index": 71866
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": ".CEJ.2022.140765.",
+        "start_index": 71866,
+        "end_index": 71883
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(60) Wei\u00df, A.; Siebel, A.; Bernt, M.; Shen, T.-.H.; Tileli, V.; Gasteiger, H. A. Impact of Intermittent Operation on Lifetime and Performance of a PEM Water Electrolyzer. J. Electrochem. Soc. 2019, 166 (8), F487\u2013F497. https://doi.org/10.1149/2.0421908jes.",
+        "start_index": 71883,
+        "end_index": 72138
+    },
+    {
+        "document_name": "68.txt",
+        "chunk_text": "(61) Wadeson, N.; Basham, M. Savu: A Python-Based, MPI Framework for Simultaneous Processing of Multiple, N-Dimensional, Large Tomography Datasets; Didcot, Oxfordshire, 2016.",
+        "start_index": 72138,
+        "end_index": 72312
+    }
+]

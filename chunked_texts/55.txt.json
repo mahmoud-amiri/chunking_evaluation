@@ -1,0 +1,1790 @@
+[
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Application of proline-2\u2032-deoxymugineic acid as potential fertilizer to alleviate zinc deficiency in paddy soils\n\nClaudia Rocco\u00b9,\u00b2*, Motofumi Suzuki\u00b3, Ramon Vilar\u2074, Enrique Garc\u00eda Espa\u00f1a\u2075, Salvador Blasco\u2075, Gerald Larrouy-Maumus\u00b9, Colin Turnbull\u00b9, Matthias Wissuwa\u2076, Xuan Cao\u00b2, and Dominik Weiss\u00b2*",
+        "start_index": 0,
+        "end_index": 297
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "\u00b9 Centre for Bacterial Resistance Biology, Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London, SW7 2AZ, UK\n\n\u00b2 Department of Earth Science and Engineering, Imperial College London, South Kensington Campus, London, SW7 2AZ, UK\n\n\u00b3 Aichi Steel Corporation, Tokai-shi, Aichi, Japan;\n\n\u2074 Department of Chemistry, Imperial College London, White City Campus, W12 0BZ London, UK",
+        "start_index": 297,
+        "end_index": 704
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "\u2075 Instituto de Ciencia Molecular (ICMol), University of Valencia, C/Catedr\u00e1tico Jos\u00e9 Beltr\u00e1n Mart\u00ednez, 2, 46980 Paterna, Spain\n\n\u2076 Institute of Crop Science and Resource Conservation (INRES), University of Bonn, Karlrobert-Kreiten-Strasse 13, 53115 Bonn, Germany",
+        "start_index": 704,
+        "end_index": 965
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "*Corresponding authors: Claudia Rocco c.rocco@imperial.ac.uk; Dominik Weiss d.weiss@imperial.ac.uk\n1 Abstract",
+        "start_index": 965,
+        "end_index": 1074
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Zinc (Zn) deficiency affects around 50% of rice paddy soils worldwide. This leads to reduced production and poor nutritional composition of food with detrimental consequences to human health. In this work we show that proline-2\u2019-deoxymugineic acid (PDMA), a new synthetic organic ligand, forms strong and stable complexes with zinc(II) in paddy soil conditions and therefore can be used as a novel zinc(II)-fertiliser",
+        "start_index": 1074,
+        "end_index": 1491
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". To demonstrate this, we determined Zn$^{II}$-binding properties of PDMA and potential competition with other metal ions, identifying the paddy soil conditions where PDMA application is more effective to increase Zn$^{II}$-complexation",
+        "start_index": 1491,
+        "end_index": 1727
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Our results indicate that PDMA is a strong Zn$^{II}$-chelator in paddy soil and the most favorable conditions for the effective application of PDMA as Zn$^{II}$-fertilizer is providing PDMA in flooded soil at pH from 7 to 9. In this condition 50% of Zn$^{II}$-complexation is ensured even when Zn$^{II}$ soil concentration is ten times less than competitor metals.",
+        "start_index": 1727,
+        "end_index": 2093
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "**Key words:** PDMA, rice, stability constant, fertilization, nutrient deficiency\n2 Introduction",
+        "start_index": 2093,
+        "end_index": 2189
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Zinc (Zn) deficiency affects approximately 50 % of soils around the globe\\textsuperscript{1,2}. This deficiency results in reduced yield and low Zn\\textsuperscript{II} content in rice grains\\textsuperscript{3} with severe consequences for the health of people with a rice-based diet\\textsuperscript{4} becoming one of the major nutrient disorders in humans",
+        "start_index": 2189,
+        "end_index": 2545
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Zinc deficiency is responsible for numerous illnesses and diseases, affects neurobehavioral development and compromises reproductive health, increases susceptibility to infectious diseases, including the risk of pneumonia in children\\textsuperscript{5,6}",
+        "start_index": 2545,
+        "end_index": 2801
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The most common soil conditions associated with zinc deficiency include high concentrations of phosphorus (P), sodium (Na) and magnesium (Mg), organic matter content \\(>3\\) wt\\%, neutral or alkaline pH, high electrical conductivity (EC), high carbonate content and low redox potential due to prolonged waterlogging. These soil chemical conditions are commonly found in paddy soils\\textsuperscript{6}. Indeed, rice (\\textit{Oryza sativa} L",
+        "start_index": 2801,
+        "end_index": 3241
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".) is frequently cultivated in soil with low Zn availability (around 50 \\% of paddy soils are potentially Zn\\textsuperscript{II} deficient\\textsuperscript{3}) due to high soil-pH and bicarbonate content, or the result of the formation of insoluble compounds in continuously flooded and therefore highly reduced soils with high organic matter content\\textsuperscript{6,7}.",
+        "start_index": 3241,
+        "end_index": 3612
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Several studies\\textsuperscript{8-12} proposed that under Zn\\textsuperscript{II}-deficiency conditions, rice plants exude organic ligands able to complex the insoluble Zn\\textsuperscript{II} from the soil matrix. This follows the so-called Strategy II mechanism, widely studied for the acquisition of insoluble Fe\\textsuperscript{III} in graminaceous plants",
+        "start_index": 3612,
+        "end_index": 3969
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". These ligands are part of the mugineic acid family (MAs) commonly known as phytosiderophores. MAs are all multidentate amino acids containing three carboxylic acid groups and one azetidine ring able to bind metal ions forming water-soluble octahedral complexes\\textsuperscript{13-17}",
+        "start_index": 3969,
+        "end_index": 4254
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The main phytosiderophore secreted by rice is 2\u2019-deoxymugineic acid (DMA). Based on this, Suzuki et al.\\textsuperscript{13} developed a synthetic analogue to the DMA ligand, proline-2\u2019-deoxymugineic acid (PDMA), which has analogous coordinating abilities to DMA, but it is easier to synthesise and more resistant to microbial decomposition. Therefore it was",
+        "start_index": 4254,
+        "end_index": 4613
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-ggqsc ORCID: https://orcid.org/0000-0003-2295-0720 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 4613,
+        "end_index": 4760
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "proposed that it could be used as fertilizer to increase the uptake of iron in Fe-deficient calcareous soil (pH ~ 9)\\textsuperscript{17} (Figure 1a). The key difference between the two polydentate ligands is the substitution of the four-membered azetidine ring in DMA to a five-membered ring in PDMA, improving the resistance to biodegradation and reducing the production costs\\textsuperscript{13}",
+        "start_index": 4760,
+        "end_index": 5157
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In this context, fertilization with PDMA could potentially increase the uptake of Zn\\textsuperscript{II} in rice under soil deficiency conditions, as is schematically illustrated in Figure 1b",
+        "start_index": 5157,
+        "end_index": 5350
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". This proposed uptake mechanism is supported by Yamagata\u2019s\\textsuperscript{17} previous work where it was demonstrated that the carboxyl and amino group of PDMA are recognised by yellow stripe 1 (YS1) family transporter, in analogous manner to the recognition of the naturally occurring DMA.",
+        "start_index": 5350,
+        "end_index": 5642
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Rice is cultivated in a wide range of soil conditions, with pH ranging from 4 to 9, redox potential (Eh) ranging from 700 to -300 mV, related to aerated and waterlogged conditions, and ionic strengths typically ranging from 0.02 M to 0.16 M\\textsuperscript{14,15}",
+        "start_index": 5642,
+        "end_index": 5905
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Other cationic micronutrients like Fe\\textsuperscript{II}/Fe\\textsuperscript{III}, Cu\\textsuperscript{II}, Ni\\textsuperscript{II}, Mn\\textsuperscript{II}, Mg\\textsuperscript{II}, and Co\\textsuperscript{II} are present in agricultural soils, with their concentrations depending greatly on the composition of soil parent material and on anthropogenic activities (i.e",
+        "start_index": 5905,
+        "end_index": 6271
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". fertilizer addition to the soil surface)\\textsuperscript{18-20}. These micronutrients have several cellular functions and consequently play important roles in plant growth. The relative concentration ratios of these metal ions need to be kept at an optimal range to fulfil their biological functions",
+        "start_index": 6271,
+        "end_index": 6572
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Therefore, if a chelator such as PDMA is to be used as potential fertilizer to enrich the amount of zinc taken up by plants, it is essential to understand the interplay between this ligand and the different metal ions to prevent unwanted competition between ions.",
+        "start_index": 6572,
+        "end_index": 6837
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 1. Chemical structure of DMA and PDMA and schematic representation of [Zn(PDMA)]\\(^{+}\\) acquisition by rice root",
+        "start_index": 6837,
+        "end_index": 6957
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Chemical structure of proline-2\u2032-deoxymugineic acid (PDMA) showing similarity and differences with DMA (a); and schematic representation of PDMA fertilization and [Zn(PDMA)]\\(^{+}\\) acquisition by rice root facilitated by Yellow Stripe 1 (YS1) membrane transporters (b).",
+        "start_index": 6957,
+        "end_index": 7229
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The aim of this work is to investigate if PDMA can be effectively used as Zn\\(^{II}\\) fertilizer in paddy soil and to establish under what soil conditions. To this end, we determined the stability constants of PDMA with Zn\\(^{II}\\) and competitor ions, i.e",
+        "start_index": 7229,
+        "end_index": 7485
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "., Fe\\(^{II}/III\\), Cu\\(^{II}\\), Co\\(^{II}\\), Ni\\(^{II}\\), Mg\\(^{II}\\), and Mn\\(^{II}\\) in 0.15 M NaCl solutions. We performed a wide variety of aqueous geochemical calculations to determine the speciation of metal-PDMA complexes in saline",
+        "start_index": 7485,
+        "end_index": 7724
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "and representative soil solutions across a range of pH, ionic strengths, and redox conditions relevant to the rice paddy soil environment. This enabled us to determine a selectivity index for Zn\\textsuperscript{II}-PDMA complex and hence to identify soil conditions conducive to preferential formation of Zn-PDMA complexes over other metal complexes. Finally, we used a recent study testing the potential of PDMA as iron fertilizer by Suzuki et al",
+        "start_index": 7724,
+        "end_index": 8171
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".\\textsuperscript{13} to validate our model calculations.",
+        "start_index": 8171,
+        "end_index": 8228
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3 Results and discussion\n\n3.1 Stability of metal-PDMA complexes at different pH\n\nThe accurate determination of PDMA\u2019s protonation and metal complexation constants is essential to establishing the ability of this ligand to coordinate a given metal ion at different pHs in aqueous systems\\textsuperscript{21,22}.\n\nTable 1 shows protonation constants (logK) of PDMA, providing information on the complexation capacity of PDMA.",
+        "start_index": 8228,
+        "end_index": 8651
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The fully protonated PDMA has a charge of +2 (H\\textsubscript{3}PDMA\\textsuperscript{2+}), while fully deprotonated PDMA has a charge of -3 (PDMA\\textsuperscript{3-}) and is able to complex divalent ions",
+        "start_index": 8651,
+        "end_index": 8854
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Both PDMA and monoprotonated PDMA are able to chelate Zn\\textsuperscript{II} or other divalent ions yielding complexes with a net charge of -1, i.e. [Zn(PDMA)]\\textsuperscript{1-} for the former and a neutral complexes for the latter",
+        "start_index": 8854,
+        "end_index": 9089
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In this study, only three of possible five protonation constants of PDMA were determined by potentiometric titrations because the last two protonation steps (H\\textsubscript{4}PDMA\\textsuperscript{+} and H\\textsubscript{3}PDMA\\textsuperscript{2+}) happen at pH < 2, too low to be accurately determined by potentiometric titrations",
+        "start_index": 9089,
+        "end_index": 9421
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The protonation constant values of H\\textsubscript{3}PDMA, H\\textsubscript{2}PDMA\\textsuperscript{1+}, HPDMA\\textsuperscript{2-} (Table 1) are in agreement with those determined by Suzuki et al.\\textsuperscript{13}. These three protonation steps occur on the two amine and one of the carboxylate groups.",
+        "start_index": 9421,
+        "end_index": 9726
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 2 summarises the stability constant values of PDMA with the metal ions tested and the species formed at different solution pH (last row of Table 2)",
+        "start_index": 9726,
+        "end_index": 9879
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". As indicated above, micronutrients including Fe$^{II}$/Fe$^{III}$, Cu$^{II}$, Ni$^{II}$, Mn$^{II}$, Mg$^{II}$, and Co$^{II}$ are present in agricultural soils and play essential roles in plant growth and development$^{19}$",
+        "start_index": 9879,
+        "end_index": 10103
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". They are also commonly found in the formulation of mineral fertilizers used in agriculture$^{18}$ increasing their concentration in soil and hence the possible competition with Zn$^{II}$ for PDMA.",
+        "start_index": 10103,
+        "end_index": 10301
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "These results provide information on the binding affinity of PDMA with Zn$^{II}$ and other metal ions tested, with higher logK values indicating increased formation of metal-PDMA complex. Different columns in Table 1 indicate predominant species and refer to distribution diagrams. For the Zn$^{II}$-PDMA system, the logK value is $11.48\\pm0",
+        "start_index": 10301,
+        "end_index": 10642
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".03$ and the dominant species is [Zn(PDMA)]$^{+}$ in the pH range between 6 and 9. The [Zn(PDMA)]$^{+}$ complex formation starts around pH 4 and it is highly favorable at pH 6. [Zn(PDMA)(OH)]$^{2-}$ is present in significant abundance (above 50%) at pH > 9, with logK value of $-9.69\\pm0",
+        "start_index": 10642,
+        "end_index": 10929
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".03$. PDMA forms stable complex with Zn$^{II}$ through a wide pH range.",
+        "start_index": 10929,
+        "end_index": 11000
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "In the pH range commonly found in soils (i.e. between 4 and 9), PDMA forms 1:1 M:L complexes with Mg$^{II}$, the weakest complex (log$K_{ML} = 3.69\\pm0.05$), and Fe$^{III}$, the strongest complex (log$K_{ML} = 17.37\\pm0.02$)",
+        "start_index": 11000,
+        "end_index": 11224
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At pH < 3 M:L:H species for Fe$^{II}$, Fe$^{III}$, Ni$^{II}$, Mg$^{II}$ and Mn$^{II}$ were identified; while at pH > 9 a M:L:OH species were identified for Cu$^{II}$, Co$^{II}$, Ni$^{II}$, Mn$^{II}$ and Mg$^{II}$",
+        "start_index": 11224,
+        "end_index": 11438
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Based on determined logK values, in the pH range of agricultural soils, PDMA present higher affinity for Fe$^{III}$, Cu$^{II}$ and Ni$^{II}$ than for Zn$^{II}$, with the overall stability for the micronutrient under investigation with PDMA being:",
+        "start_index": 11438,
+        "end_index": 11686
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "$$\n\\text{Mg}^{II} < \\text{Mn}^{II} < \\text{Fe}^{II} < \\text{Co}^{II} < \\text{Zn}^{II} < \\text{Ni}^{II} < \\text{Cu}^{II} \\leq \\text{Fe}^{III}.\n$$",
+        "start_index": 11686,
+        "end_index": 11830
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "From this stability series, it is clear that Cu\\textsuperscript{II} and Fe\\textsuperscript{III} will compete with Zn for PDMA, while the metal ions at the lower end of the series (e.g. Mg\\textsuperscript{II} and Mn\\textsuperscript{II}) are unlikely to be significant Zn\\textsuperscript{II} competitors",
+        "start_index": 11830,
+        "end_index": 12131
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The stability series results agree with the Irving-Williams series\\textsuperscript{23}.",
+        "start_index": 12131,
+        "end_index": 12220
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "To assess if synthetic PDMA behaves in soil like natural ligands with similar structure and reactivity, the metal-PDMA stability constants described above, were compared with the stability constants of the MA-family phytosiderophores which are secreted by roots of graminaceous plants. The stability constants of relevant MA complexes are listed in the SI Table 1.",
+        "start_index": 12220,
+        "end_index": 12584
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 2 indicates that the stability series of metal complexes with PDMA has a similar trend as those with ligands produced by strategy II plants, namely, mugineic acid (MA), 2'-deoxymugineic acid (DMA) and 3-epi-hydroxy-mugineic acid (HMA)\\textsuperscript{24}",
+        "start_index": 12584,
+        "end_index": 12845
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The logK values for Mn\\textsuperscript{II}, Ni\\textsuperscript{II}, Cu\\textsuperscript{II} and Zn\\textsuperscript{II} are consistently lower for PDMA compared to the natural ligands, i.e. decreasing from 0.36 to 0.83 considering all natural ligands. The logK value for Fe\\textsuperscript{III} was similar to MA and DMA values, i",
+        "start_index": 12845,
+        "end_index": 13175
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".e. 17.37 vs. 18.38 DMA and 17.71 MA and higher for HMA, 17.37 vs. 15.49 HMA. The lower value of HMA compared to PDMA, DMA and MA, is probably due to the effect of the -OH group on the azetidine ring on the pKa of the nitrogen in the ring. Azetidine has a pK\\textsubscript{a} of 11",
+        "start_index": 13175,
+        "end_index": 13456
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".3 while 3-hydroxy azetidine, has a predicted pK\\textsubscript{a} of 14.5\\textsuperscript{16}. Furthermore, the -OH groups impose some geometrical constraints on the four-membered ring. Together, these factors could change HMA\u2019s ability to coordinate metal ions compared to the other ligands.",
+        "start_index": 13456,
+        "end_index": 13748
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The stability trend and the speciation of the metal-PDMA complexes experimentally determined and described during this study are in line with concentration trends found in rice plant following the application of PDMA during rice uptake study conducted by Suzuki et al.\\textsuperscript{13}. In that study the detected metal concentration in rice plant using unchelated PDMA",
+        "start_index": 13748,
+        "end_index": 14120
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "increased the concentrations of Fe$^{III}$ and Cu$^{II}$ reducing the uptake of Zn$^{II}$ and Mn$^{II}$.",
+        "start_index": 14120,
+        "end_index": 14224
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 2. Stability series for M-L complexes with L = PDMA, DMA, MA and HMA and M = Mn$^{II}$, Fe$^{II}$, Fe$^{III}$, Ni$^{II}$, Cu$^{II}$ and Zn$^{II}$. Stability constants of PDMA and mugineic acid family based on data from Murakami et al. (1989)",
+        "start_index": 14224,
+        "end_index": 14472
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". DMA = 2\u2019-deoxymugineic acid, MA = mugineic acid, HMA = 3-epi-hydroxy-mugineic acid. PDMA logK values were determined at I = 0.15 M in NaCl(aq) and T = 298.1 K using 1:1 Metal:Ligand molar ratio. DMA, MA and HMA were determined at I = 0",
+        "start_index": 14472,
+        "end_index": 14709
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".1 M in KNO$_3$(aq) and T = 298.1 K using 1:1 Metal:Ligand molar ratio.",
+        "start_index": 14709,
+        "end_index": 14780
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3.2 Stability of Zn$^{II}$-PDMA in the presence of competing ions under different values of ionic strength and redox conditions",
+        "start_index": 14780,
+        "end_index": 14907
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Rice is cultivated in soils with a wide range solution ionic strength ranging typically from 0.02 M to 0.16 M and redox conditions ranging typically from 700 to -300 mV$^{14,15}$. The stability of metal-siderophore complexes depend on the ionic strength, decreasing stability as ionic strength increases and causing consequently a significant shift of the pH at which complex formation starts$^{25-27}$",
+        "start_index": 14907,
+        "end_index": 15309
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Moreover, depending on the Eh values, metals ions such as iron and copper change their oxidation state$^{28}$ with subsequent effects on their selective coordination by PDMA. In paddy soils, large amounts of water are added during the",
+        "start_index": 15309,
+        "end_index": 15545
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "cultivation season and identifying the role of ion strength and redox potential is critical when attempting to understand and predict the nutrient dynamic and metal/ligand stability. These master variables affect the distribution and the selectivity of PDMA for metal ions in the soil solution. The formation and abundance of metal-PDMA complexes is finally affected by metal concentration in soil which can greatly vary depending on soil parent material, soil texture and anthropogenic activities (particularly near the soil surface)",
+        "start_index": 15545,
+        "end_index": 16079
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". This information is essential to predict the impact of fertilization treatment on rice cultivation. In the following section the effects of ionic strength, redox conditions, metal competition and soil pH, on [Zn(PDMA)]\u207a complex formation are discussed.",
+        "start_index": 16079,
+        "end_index": 16333
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "### 3.2.1 Controls of ionic strength on the complexation of PDMA and DMA with Zn\u00b2\u207a",
+        "start_index": 16333,
+        "end_index": 16415
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "We applied geochemical speciation calculations to study the effects of ionic strength on the stability of [Zn(PDMA)]\u207a and [Zn(DMA)]\u207a complexes. The inclusion of Zn-DMA complexes aimed to address the questions of whether the behaviour of PDMA is comparable to the natural ligands and whether application of PDMA as fertilizer could interfere with metal complexation by DMA.",
+        "start_index": 16415,
+        "end_index": 16787
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 3a shows the calculated fraction of Zn\u00b2\u207a complexed by PDMA and DMA at low, medium, and high ionic strengths (I= 0.02, 0.1, 0.7 M) using PHREEQC (geochemical modelling program developed by the USGS, version 3.7.3.15968)",
+        "start_index": 16787,
+        "end_index": 17012
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The Davis equation was used to adjust the analytically measured stability constants for ionic strength and ion interactions by calculating activities of the studied species. The Davies model is used widely in soil studies to calculate activity coefficients of electrolytes at fairly low ionic strengths29. The range of ionic strengths were chosen based on the those found in agricultural soil solution30 considering the modifications of the conditions after soil amendments and fertilizer",
+        "start_index": 17012,
+        "end_index": 17502
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "application. Ionic strengths of 0.02 M are typical for soil solutions of weathered soils, while higher ionic strength values are typical for soils following amendments and fertilizer application. In solutions of I = 0.02 M the formation of Znll-PDMA starts approximately at pH 5 and increases to 50% and 100% at pH 5.8 and 7 respectively. When I = 0.1 and 0",
+        "start_index": 17502,
+        "end_index": 17859
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".7 mol/l, Znll-PDMA complexes formation shifts slightly to higher pH values, reaching quantitative complexation at pH 7 and 7.5 respectively. Increasing ionic strength therefore affects the stability of [Zn(PDMA)]\\(^-\\) shifting the pH range where the PDMA is effective for the complexation of Znll. In the range above pH of 7",
+        "start_index": 17859,
+        "end_index": 18185
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5, typical for Zn deficient soils, Znll is quantitatively complexed by PDMA at all the tested ionic strength conditions, highlighting the potential for successful application of PDMA in alkaline soils even in extreme ionic strength conditions.",
+        "start_index": 18185,
+        "end_index": 18429
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "DMA shows a similar distribution of PDMA confirming a comparable complexation ability of the two ligands. Since PDMA\u2019s chemical structure and complexation ability are analogous to that of DMA, we expect a similar chemical behaviour for the two ligands. The formation of Znll-DMA complexes in solutions with ionic strength between 0.02 and 0.1 M starts at around pH 4 instead of pH 5 for PDMA",
+        "start_index": 18429,
+        "end_index": 18820
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". As observed for PDMA, the formation of Zn-DMA complexes shifts to higher pH range as consequence ionic strength increases.",
+        "start_index": 18820,
+        "end_index": 18944
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "We also tested if PDMA could be a competitor for DMA, which is naturally secreted by rice plants. Figure 3b shows the competition between DMA and PDMA for Znll complexation when the two ligands are present at equal concentrations (molar ratio of Znll:PDMA:DMA is 1:10:10)",
+        "start_index": 18944,
+        "end_index": 19215
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Under these conditions, almost all the Znll is complexed by DMA as logK values for DMA are higher (Figure 2; Table 1 and SI Table 1). These results show that competition between PDMA and DMA is unlikely to be important in soil, despite their similarity in term of structure and complexation ability. This means that PDMA may offer additional support to",
+        "start_index": 19215,
+        "end_index": 19569
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "rice for Zn acquisition, particularly when plant DMA secretion is not sufficient to manage the nutrient deficiency.",
+        "start_index": 19569,
+        "end_index": 19684
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 3. Comparison of complex formation between [Zn(PDMA)]$^+$ and [Zn(DMA)]$^+$ at different salinity. Fraction of complexed Zn$^{II}$ with PDMA and with DMA as function of the pH at different ionic strengths in single (a) and mixed (b) solutions at ion strengths of I = 0.02, 0.1, 0.7 M",
+        "start_index": 19684,
+        "end_index": 19974
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The concentrations used are $10^{-6}$ M for Zn$^{II}$ and $10^{-5}$ M for PDMA and DMA. Different type of lines represents different ionic strength.",
+        "start_index": 19974,
+        "end_index": 20124
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3.2.2 Controls of redox conditions on the formation of metal-PDMA complexes\n\nRice is typically cultivated in lowland paddy soils$^{32,33}$. Lowland rice is sensitive to water shortage, and for this reason during rice cultivation, flooding conditions are prevalent$^{32}$.",
+        "start_index": 20124,
+        "end_index": 20395
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-ggqsc ORCID: https://orcid.org/0000-0003-2295-0720 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 20395,
+        "end_index": 20542
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Lowland paddy soils need to be drained during the tillering stage and immediately before the harvest to enable faster rice ripening and harvesting\\textsuperscript{32,34}. These flooding and draining periods affect the redox chemistry of paddy soils leading to substantial changes in the chemical composition of the soil solution and likely affecting the effectiveness of PDMA fertilization\\textsuperscript{32,34}.",
+        "start_index": 20542,
+        "end_index": 20955
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "While zinc is not redox sensitive in soil environments (SI, Figure 4)\\textsuperscript{15,36}, changes in the redox state of iron and copper following changes in redox potential of the solution will affect the competitive nature of these metals for the formation of PDMA complexes. Copper for example, exist in soils in oxidation states from 0 to +2 depending on pH and redox conditions\\textsuperscript{28}.",
+        "start_index": 20955,
+        "end_index": 21361
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 4 shows the fractions of redox-sensitive metal ions (Cu\\textsuperscript{II}, Fe\\textsuperscript{II} and Fe\\textsuperscript{III}) complexed by PDMA as a function of the solution\u2019s pH with varying ion strength and redox potential.",
+        "start_index": 21361,
+        "end_index": 21596
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Under anoxic conditions (Eh = -300 mV; Figure 4a representing flooded soil) copper is mainly present in its reduced form (Cu\\textsuperscript{I}) and significant complexation only takes place at pH values above 6.8 (with 97% complexation observed at pH = 9) when the ionic strength is low",
+        "start_index": 21596,
+        "end_index": 21883
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At pH above 7, copper is partially present as copper(II) hydroxide, [Cu(OH)]\\textsuperscript{+}.\\textsuperscript{28} The formation constant for Cu\\textsuperscript{II} with PDMA is higher than with OH\\textsuperscript{-} (logK\\textsubscript{intr} 18.72 and -7",
+        "start_index": 21883,
+        "end_index": 22142
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".28) and this explain why in anoxic condition PDMA is able to form [Cu(PDMA)]\\textsuperscript{+} complexes. Interestingly, extremely low complexation takes place at high ionic strength (I = 0.7 M).",
+        "start_index": 22142,
+        "end_index": 22339
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Under oxidizing conditions (Eh = +350 mV; Figure 4b) at pH 3, approximately 30, 17 and 1 % of Cu\\textsuperscript{II} is complexed with PDMA at I= 0.02, 0.1, 0.7 M, reaching quantitative complexation at around pH 4.5 for low and medium ionic strengths and pH 5 for the highest ionic strength.",
+        "start_index": 22339,
+        "end_index": 22630
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Similar results are obtained for iron. At Eh -300 mV (Figure 4a), representative of soil solutions under anoxic conditions, iron is mainly present in its reduced form\\textsuperscript{28}, and PDMA",
+        "start_index": 22630,
+        "end_index": 22826
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "complexation with ferrous iron starts at approximately pH 6, reaching (at pH 7.5) 83, 75 and 71 % complexation at I= 0.02, 0.1 and 0.7 M, respectively. At pH 8.5 all ferrous iron is complexed by PDMA",
+        "start_index": 22826,
+        "end_index": 23025
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At Eh = +350 mV, almost all the ferrous iron is oxidized, and PDMA complexation starts approximately at pH 5.5 with 96, 93 and 91 % in solutions with ion strength of I= 0.02, 0.1 and 0.7 M, respectively",
+        "start_index": 23025,
+        "end_index": 23229
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Only 2 % of the total iron provided to the system remained in solution as FeII in form of iron oxides, in agreement with the Eh-pH diagrams reported by Takeno28.",
+        "start_index": 23229,
+        "end_index": 23392
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Our computational modelling highlights how effectiveness of any possible fertilization with PDMA is dependent on the soil conditions, i.e., pH, Eh and salinity.",
+        "start_index": 23392,
+        "end_index": 23552
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 4. Effect of salinity and redox potential on metal/PDMA complexes. Fraction of complexed metal (Cu\\textsuperscript{II} and Fe\\textsuperscript{II}/Fe\\textsuperscript{III}) in Metal/PDMA system as function of the pH in saline solution with different ionic strength (I = 0.02, 0.1, 0",
+        "start_index": 23552,
+        "end_index": 23839
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".7 M) and redox conditions (a: waterlogged Eh = -300; b: aerated Eh = +350). The concentrations used in the model are 10^{-6} M for Cu\\textsuperscript{II} and Fe\\textsuperscript{II}/Fe\\textsuperscript{III} and 10^{-5} M for PDMA. Different type of lines represents different ionic strength",
+        "start_index": 23839,
+        "end_index": 24128
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Mn\\textsuperscript{II}, is also redox sensitive, but it does not form strong complexes with PDMA, due to its low logK value, and for that reason it is not included in the figure.",
+        "start_index": 24128,
+        "end_index": 24308
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3.2.3 Control of metal competition on selectivity of PDMA for Zn\\textsuperscript{II} in moderate saline solution",
+        "start_index": 24308,
+        "end_index": 24420
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "We were next interested in determining the selectivity of PDMA for Zn\\textsuperscript{II} in the presence of competing metal ions under different redox and pH conditions. Figure 5 (a-d) shows the modelled behaviour using metal:PDMA ratio of 1:10 molar ratio, with [M] = 1x10^{-6} M in the",
+        "start_index": 24420,
+        "end_index": 24708
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "presence of competing metal ions at same concentration. For these models a 0.1 M (NaCl) ionic strength, corresponding to moderately saline soil, was used to simulate the ionic strength of soil solution after fertilization\\textsuperscript{31}.",
+        "start_index": 24708,
+        "end_index": 24950
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "At low Eh (-300 mV) representing anoxic conditions (Figure 5a), iron is mainly present as Fe\\textsuperscript{II} (see Figure 4), therefore, no Fe\\textsuperscript{III} complex forms. Due to its very low logK value, Mg\\textsuperscript{II} is not complexed by PDMA at any pH value",
+        "start_index": 24950,
+        "end_index": 25227
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In acidic pH, PDMA forms complexes with Ni\\textsuperscript{II}, Zn\\textsuperscript{II}, and Co\\textsuperscript{II} (from pH 4.5 to 5.5); at mildly acidic pH (6.5), the PDMA started the complexation of divalent iron; and at pH between 7",
+        "start_index": 25227,
+        "end_index": 25464
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5 and 8, PDMA complexed Mn\\textsuperscript{II} and Cu\\textsuperscript{II}. This result confirms that for less stable metal-PDMA complexes the pH range of formation shifted to more basic values.",
+        "start_index": 25464,
+        "end_index": 25658
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Under aerobic conditions (Figure 5b), the distribution diagrams for Ni\\textsuperscript{II}, Mg\\textsuperscript{II}, Mn\\textsuperscript{II}, Co\\textsuperscript{II} and Zn\\textsuperscript{II}, do not change with respect to those shown in Figure 5a",
+        "start_index": 25658,
+        "end_index": 25903
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In fact, Ni\\textsuperscript{II} and Zn\\textsuperscript{II} are stable in their divalent form under the investigated redox conditions and a similar behaviour is detected for Mn\\textsuperscript{II} and Co\\textsuperscript{II} as confirmed by the literature\\textsuperscript{2,28}",
+        "start_index": 25903,
+        "end_index": 26180
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In contrast, the complexation of PDMA with Cu\\textsuperscript{II}, Fe\\textsuperscript{III} and Fe\\textsuperscript{II}, changes with Eh and pH, in line with the findings shown in Figure 4. Moreover, Cu\\textsuperscript{II} complexation starts at a very acidic pH (pH< 3), Fe\\textsuperscript{III} is complexed around pH 5",
+        "start_index": 26180,
+        "end_index": 26500
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5, whilst only 2 and 1% of Fe\\textsuperscript{II} and Mg\\textsuperscript{II} are complexed at alkaline pH (Figure 4b and 5b).",
+        "start_index": 26500,
+        "end_index": 26626
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The PDMA selectivity for Zn\\textsuperscript{II} is calculated using the ratio of concentrations of metal-PDMA complexes over concentration of [Zn(PDMA)]\\textsuperscript{-} (see section 5.3).",
+        "start_index": 26626,
+        "end_index": 26816
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 5c shows calculated selectivity factors for Ni\\textsuperscript{II}, Co\\textsuperscript{II}, Fe\\textsuperscript{II}, Fe\\textsuperscript{III}, Mn\\textsuperscript{II}, Mg\\textsuperscript{II} and Cu\\textsuperscript{II} versus pH in anoxic solutions",
+        "start_index": 26816,
+        "end_index": 27067
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Mn\\textsuperscript{II} and Mg\\textsuperscript{II} do not compete with Zn\\textsuperscript{II} for PDMA, i.e. log S < 0, due to their significantly lower logK values with PDMA. log S is zero above pH 6",
+        "start_index": 27067,
+        "end_index": 27268
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5 for Ni\\textsuperscript{II} and Co\\textsuperscript{II}, at pH 8 for Fe\\textsuperscript{II} and pH 9 for Fe\\textsuperscript{III} and Cu\\textsuperscript{II}, i.e., all the metal ions in solution are",
+        "start_index": 27268,
+        "end_index": 27466
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "fully complexed by PDMA, which is in excess. Below pH 6.5, the selectivity of PDMA for the elements is controlled by the stability constants and Eh, and Ni^{II} is the only potential competitor for Zn^{II} (log S > 0)",
+        "start_index": 27466,
+        "end_index": 27683
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Despite the higher logK value, Cu^{II} does not compete with Zn^{II} for PDMA because under anoxic condition copper is present in its reduced form (Cu^{I}).",
+        "start_index": 27683,
+        "end_index": 27841
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "At Eh +350 mV, the PDMA selectivity (log S; Figure 5d) is always below zero for Mg^{II} and Fe^{II}, confirming that there is no competition with Zn^{II}. At pH < 6.5 the selectivity of PDMA for Cu^{II} and Ni^{II} versus Zn^{II} increases, with log S value of 1.6 and 5",
+        "start_index": 27841,
+        "end_index": 28111
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".6 for Ni^{II} and Cu^{II} respectively, highlighting a competition for Zn^{II} under these conditions. Under these high redox conditions, ferric iron precipitates as [Fe(OH)]^{2+} and Fe_{2}O_{3}.",
+        "start_index": 28111,
+        "end_index": 28308
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-ggqsc\nORCID: https://orcid.org/0000-0003-2295-0720 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 28308,
+        "end_index": 28455
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 5. Distribution diagrams and selectivity of PDMA for zinc(II) in the presence of Fe^{II}/Fe^{III}, Ni^{II}, Cu^{II}, Mg^{II}, Mn^{II}, Co^{II} in paddy soil conditions",
+        "start_index": 28455,
+        "end_index": 28629
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Distribution diagram (a-b; e-f) of PDMA with Zn^{II}, Fe^{II}/Fe^{III}, Ni^{II}, Cu^{II}, Mg^{II}, Mn^{II}, Co^{II} and selectivity (c-d; g-h) of PDMA, expressed using the selectivity ratio (log S, Metal/Zn^{II}), as function of the pH in different redox conditions (a-b; e-f: Eh = -300",
+        "start_index": 28629,
+        "end_index": 28917
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "mV; c-d; g-h: Eh = +350 mV) at 0",
+        "start_index": 28917,
+        "end_index": 28949
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".1 M ionic strength. The concentrations used in the models for equal metal ions concentrations (a-d) are 10^{-6} M for metals and 10^{-5} M for PDMA. The concentrations of metal ions and PDMA used in the model nutrient solution (e-h) are specified in the figure footnote and in the \u2018Materials and Methods\u2019 section based on the values reported by Suzuki et al.\\textsuperscript{13}.",
+        "start_index": 28949,
+        "end_index": 29329
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "\\[ \\text{https://doi.org/10.26434/chemrxiv-2024-ggqsc}\\] ORCID: https://orcid.org/0000-0003-2295-0720 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\n3.3 Predicting the effectiveness of PDMA for Zn\\textsuperscript{II} uptake",
+        "start_index": 29329,
+        "end_index": 29563
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The final objectives of our study were i) to test if observations made by Suzuki and coworkers\\textsuperscript{13} regarding Zn\\textsuperscript{II} and other metals during the rice uptake experiments involving PDMA are consistent with findings from our modelling results; and ii) to define the soil solution constraints within PDMA may be considered as an effective zinc fertilizer.\n\n3.3.1 Rice uptake study conducted by Suzuki and insights from modelling study",
+        "start_index": 29563,
+        "end_index": 30024
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "We first used the results of the original PDMA study by Suzuki et al.\\textsuperscript{13} and compared the elemental composition of nutrient solutions and of rice plants with insights gained from our speciation modelling. We first modelled the distribution and selectivity of PDMA for Zn\\textsuperscript{II} in competition with other metal ions using the chemical composition of the nutrient solution (Figure 5e-h)",
+        "start_index": 30024,
+        "end_index": 30438
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Details on the nutrient solution are given in the \u2018Material and methods\u2019 section. We did not include nickel and cobalt because they are not present in nutrient solutions\\textsuperscript{20,37,38}. Figure 5e shows the distributions of PDMA-metal complexation in the nutrient solution\\textsuperscript{13}, under anoxic conditions at different pH values",
+        "start_index": 30438,
+        "end_index": 30790
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". We find that PDMA complexed only Zn\\textsuperscript{II} and Fe\\textsuperscript{II} in the pH range from 5 to 10",
+        "start_index": 30790,
+        "end_index": 30903
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In this condition, almost 100\\% of Zn\\textsuperscript{II} is complexed by PDMA from pH 6 to 9 and its complexation rapidly decreases above pH 9, whilst only the 30\\% of Fe\\textsuperscript{II} is complexed by PDMA at pH between 7 and 10. This indicates that PDMA forms more stable complexes with Zn\\textsuperscript{II} (11",
+        "start_index": 30903,
+        "end_index": 31226
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".48) than with Fe\\textsuperscript{II} (9.11)",
+        "start_index": 31226,
+        "end_index": 31270
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In aerated solutions (Figure 5f), as in Figure 5b, Cu\\textsuperscript{II} is already almost totally complexed at pH 4, Zn\\textsuperscript{II} and Fe\\textsuperscript{III} started to be complexed at pH 5, with 60\\% of complexation for Zn\\textsuperscript{II} between pH 6",
+        "start_index": 31270,
+        "end_index": 31540
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5 and 8, and 30\\% for Fe\\textsuperscript{III} from pH 6.5 to 10. Zn\\textsuperscript{II} complexation rapidly decreases above pH 8 highlighting a higher competition between iron and Zn\\textsuperscript{II} in alkaline pH. Suzuki et al.\\textsuperscript{13} showed that in non-waterlogged soil conditions, the application of unchelated PDMA",
+        "start_index": 31540,
+        "end_index": 31877
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "significantly increased the concentration of copper in plants. Only small amounts of manganese (MnII: 0.0035% in Eh = 350 mV; 0.2% in Eh = -300 mV) and magnesium (MgII: slightly above 0% in both Eh = 350 mV and -300 mV) are complexed by PDMA in both redox conditions, in agreement with their low logK values",
+        "start_index": 31877,
+        "end_index": 32184
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The varying PDMA speciation in the nutrient medium results in a different selectivity diagram for ZnII (log S; Figure 5g and h). At low redox conditions (Figure 5g), log S is always negative for all tested ions. This means that in waterlogged conditions PDMA primarily coordinates ZnII since there is minimal competition from other metal ions",
+        "start_index": 32184,
+        "end_index": 32528
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Above pH 6 we observe an increasing selectivity of PDMA for FeII but ZnII remains the dominant complex at all pHs (logS = -0.5). In contrast, in the aerobic system (Figure 5g) at pH < 6, the selectivity of PDMA for CuII increases (log S = 4.65 at pH 3), whilst log S is \u2264 0 for FeIII, FeII, MnII and MgII",
+        "start_index": 32528,
+        "end_index": 32834
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Above pH 6 the selectivity of PDMA for CuII decreases but it always remains above zero (logS = 0.22 at pH 7), whilst at pH > 9 the selectivity for CuII and FeIII increased, with logS values of 0.85 and 0.31, respectively, highlighting the high competition of CuII and FeIII against ZnII in alkaline pH",
+        "start_index": 32834,
+        "end_index": 33137
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". These results are in line with the plant results shown by Suzuki et al.13, where in non-waterlogged and alkaline soils, the fertilization using unchelated PDMA significantly increases rice FeIII and CuII concentrations with respect to ZnII",
+        "start_index": 33137,
+        "end_index": 33378
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Nevertheless, when the PDMA was provided to the soil as [Zn(PDMA)]+, the uptake of the ZnII and consequently its concentration in rice plant significantly increased, confirming the good stability of the [Zn(PDMA)]+ complex and its effective application to increase ZnII uptake. However, Suzuki et al",
+        "start_index": 33378,
+        "end_index": 33679
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".13 also highlighted that when the PDMA was provided to the soil as [Zn(PDMA)]+, some of the complexes ZnII exchanged with FeIII, increasing the Fe concentration in plant. This result is well in agreement with the higher logK value of FeIII with respect to ZnII.",
+        "start_index": 33679,
+        "end_index": 33941
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3.3.2 Prediction of the effectiveness of PDMA to promote Zn\\textsuperscript{II} uptake in modelled paddy soil conditions",
+        "start_index": 33941,
+        "end_index": 34061
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Our final objective was to identify the conditions for a successful application of PDMA as Zn\\textsuperscript{II} fertilizer in the presence of competing cations",
+        "start_index": 34061,
+        "end_index": 34222
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". To this end, we modelled the % formation of metal-PDMA complexes (for Zn\\textsuperscript{II}, Cu\\textsuperscript{II} and Fe\\textsuperscript{III}) formed with excess Zn\\textsuperscript{II} and the percentage reduction of [Zn(PDMA)]\\textsuperscript{\u2212} complex in presence of excess Cu\\textsuperscript{II} and",
+        "start_index": 34222,
+        "end_index": 34530
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Fe\\textsuperscript{III}, i",
+        "start_index": 34530,
+        "end_index": 34556
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".e. simulating the addition of these metals as part of a mineral fertilisation. Tables 3 summarise this data. All data in this section are the results of simulations modelled in PHREEQC, adding PDMA as free ligand (concentration of $10^{-6}$ M) in 0.1 M NaCl solution in waterlogged (Eh = -300 mV) and oxygenated (Eh = +350 mV) conditions",
+        "start_index": 34556,
+        "end_index": 34894
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Metal ratios were based on the average concentration of Zn\\textsuperscript{II}, Cu\\textsuperscript{II} and Fe\\textsuperscript{III} present in soil\\textsuperscript{20,39}. The pH used for the models were chosen to represent acidic, neutral, and alkaline soils to cover the range of pH conditions found across different paddy soils",
+        "start_index": 34894,
+        "end_index": 35225
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Fe\\textsuperscript{II} is not included in the tables because no complex formation with PDMA occurs, due to its lower logK value compared with Zn\\textsuperscript{II} and Cu\\textsuperscript{II}",
+        "start_index": 35225,
+        "end_index": 35418
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Under Zn\\textsuperscript{II} fertilization (Table 3a), at low Eh values (waterlogged soil), [Zn(PDMA)]\\textsuperscript{\u2212} is the predominant complex particularly at pH 7 and 9; even when the concentration of Zn\\textsuperscript{II} is lower than Cu\\textsuperscript{II} and Fe\\textsuperscript{III},",
+        "start_index": 35418,
+        "end_index": 35716
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "[Zn(PDMA)]\\textsuperscript{\u2212} complex represents 10%",
+        "start_index": 35716,
+        "end_index": 35768
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". As explained before, in this condition copper and iron are mainly present in their reduced forms with lower affinity (logK) for PDMA compared to Zn\\textsuperscript{II}, and for that reason there is no competition",
+        "start_index": 35768,
+        "end_index": 35982
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At high oxidizing conditions (aerated soil), [Cu(PDMA)]\\textsuperscript{\u2212} is the predominant complex; whilst [Zn(PDMA)]\\textsuperscript{\u2212} slightly increases from 0 to 2% as consequence of increasing concentration in soil, particularly at pH 7 and 9",
+        "start_index": 35982,
+        "end_index": 36234
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Based on logK values, in this condition we expected that iron, present as Fe\\textsuperscript{III}, should be preferred by PDMA relative to Zn\\textsuperscript{II} and Cu\\textsuperscript{II}. Nevertheless, [Cu(PDMA)]\\textsuperscript{\u2212} is the dominant complex in all the tested conditions, ranging from 95 to 100% of formation",
+        "start_index": 36234,
+        "end_index": 36560
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". This is probably because at sub-acidic pH, iron is present in its divalent form in",
+        "start_index": 36560,
+        "end_index": 36644
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "both the tested Eh conditions\\textsuperscript{28}, and cannot compete with Zn\\textsuperscript{II} and Cu\\textsuperscript{II} for the PDMA complexation; whilst at high pH iron precipitates as Fe\\textsubscript{2}O\\textsubscript{3} \\textsuperscript{28,40}, becoming less bioavailable.",
+        "start_index": 36644,
+        "end_index": 36925
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 3b simulates the effect of Cu\\textsuperscript{II} and Fe\\textsuperscript{III} addition in soil on the formation of [Zn(PDMA)]\\textsuperscript{+} complex in waterlogged (Eh = -300 mV) and aerated (Eh = +350 mV) soils",
+        "start_index": 36925,
+        "end_index": 37146
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In low Eh and acidic solution, the formation of [Zn(PDMA)]\\textsuperscript{+} complex is consistently reduced by Cu\\textsuperscript{II} and Fe\\textsuperscript{III} addition, reaching a reduction of 99% even when the concentration was double respect to Zn\\textsuperscript{II}",
+        "start_index": 37146,
+        "end_index": 37422
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At pH 7 and 9, the increase of metal ions concentrations has little effect on [Zn(PDMA)]\\textsuperscript{+} complex formation. The maximum reduction observed is 15% when the Fe\\textsuperscript{III} concentration was multiplied by 50. This is because, as mentioned before, the reduced forms of copper and iron cannot compete with Zn\\textsuperscript{II}",
+        "start_index": 37422,
+        "end_index": 37775
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". In oxygenated soils, the opposite behaviour is observed",
+        "start_index": 37775,
+        "end_index": 37832
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". At all tested pH, the increased concentrations of Cu\\textsuperscript{II} and Fe\\textsuperscript{III} drastically reduce the complexation of Zn\\textsuperscript{II} by PDMA from 18 to 99% for Fe\\textsuperscript{III} and 100% for Cu\\textsuperscript{II} addition, highlighting their great competition against Zn\\textsuperscript{II}",
+        "start_index": 37832,
+        "end_index": 38161
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". These results highlight high stability of [Zn\\textsuperscript{II}(PDMA)]\\textsuperscript{+} complex suggesting the suitability of PDMA application as Zn\\textsuperscript{II} fertilizer in submerged and alkaline paddy soils",
+        "start_index": 38161,
+        "end_index": 38384
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Considering that these are the main conditions causing Zn\\textsuperscript{II} deficiency and also that about 75% of rice is produced under submerged (anaerobic) conditions\\textsuperscript{41}, the application of PDMA as fertilizer can significantly contribute to reduce Zn\\textsuperscript{II} deficiency in paddy soil.",
+        "start_index": 38384,
+        "end_index": 38704
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "4 Conclusion",
+        "start_index": 38704,
+        "end_index": 38716
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "In this work we tested if PDMA, a new synthetic ligand, can be used as fertilizer to reduce Zn\\textsuperscript{II} deficiency in paddy soil",
+        "start_index": 38716,
+        "end_index": 38855
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Our experimental results indicate that PDMA is a strong chelator, with a stability sequence of Mg\\textsuperscript{II} < Mn\\textsuperscript{II} < Fe\\textsuperscript{II} < Co\\textsuperscript{II} < Zn\\textsuperscript{II} < Ni\\textsuperscript{II} < Fe\\textsuperscript{III} \u2264 Cu\\textsuperscript{II},",
+        "start_index": 38855,
+        "end_index": 39151
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "able to form stable complexes with Zn\\textsuperscript{II} between pH 6 and 9",
+        "start_index": 39151,
+        "end_index": 39227
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". This behaviour is comparable to DMA and other ligands naturally exuded by rice. PDMA does not compete with DMA in",
+        "start_index": 39227,
+        "end_index": 39342
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "soil, but it may support the natural DMA zinc-uptake mechanism, particularly when the plant DMA secretion is not sufficient to manage the nutrient deficiency.",
+        "start_index": 39342,
+        "end_index": 39500
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "For the tested rice soil conditions, potential competitors of Zn$^{II}$ for PDMA are Cu$^{II}$ in acidic solutions and Fe$^{III}$ in aerated conditions",
+        "start_index": 39500,
+        "end_index": 39651
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". To increase zinc\u2019s availability in rice cultivation, PDMA should be applied in flooded soil at pH from 7 to 9, where iron and copper are present as Fe$^{II}$ (soluble form) and Cu$^I$, and therefore should not compete with Zn$^{II}$ for PDMA.",
+        "start_index": 39651,
+        "end_index": 39895
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Moreover, increasing the concentration of Zn$^{II}$ in soil, by adding Zn$^{II}$ directly to the soil, reduces the risk of competition by other cations, extending the conditions for successful application of PDMA also to soils with acidic pH.",
+        "start_index": 39895,
+        "end_index": 40137
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "[Zn(PDMA)]$^+$ is stable from pH 7 to 9 at all tested ionic strengths, particularly in waterlogged conditions, where competition with Cu$^{II}$ and Fe$^{III}$ is minimized by the reducing environment. For that reason, the most favorable soil conditions for a successful application of PDMA as Zn$^{II}$ fertilizer in paddy soils is providing free PDMA at pH 7-9 in flooded conditions",
+        "start_index": 40137,
+        "end_index": 40520
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". If we consider that 75% of rice cultivation is done under flooded conditions and alkaline soils, where Zn$^{II}$ is less mobile, the application of PDMA as fertilizer can significantly contribute to reduce Zn$^{II}$ deficiency in paddy soil.",
+        "start_index": 40520,
+        "end_index": 40763
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The identified conditions for the effective application of PDMA to increase Zn$^{II}$ complexation are limited to experimental conditions used in the model and cannot be generalized to all rice soils. The knowledge of the specific soil conditions, including the ionic strength, redox and nutrient concentrations can contribute substantially to future improvements of the model and for predicting the effectiveness of the PDMA-based fertilization treatments.\n\n5 Materials and methods\n5.1 Chemicals",
+        "start_index": 40763,
+        "end_index": 41259
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "For the potentiometric titrations, HCl 0.1 M solutions were standardized with tris(hydroxymethyl)aminomethane (THAM) (Roche Diagnostics). The CO$_2$-free NaOH standard solutions (0.1 M) were supplied by VWR and preserved from atmospheric CO$_2$ by means of soda lime traps. NaCl (0.15 M) was used as electrolyte solution for potentiometric analysis",
+        "start_index": 41259,
+        "end_index": 41607
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".",
+        "start_index": 41607,
+        "end_index": 41608
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Proline-2'-deoxymugineic acid (PDMA) was provided by Aichi Steel Company (Japan). Purity of all chemicals were \u2265 99% (on the mass basis) except for PDMA (98%), and they were used without further purification. Details on the synthesis and characterisation of PDMA are described by Suzuki et al.\\textsuperscript{13}.",
+        "start_index": 41608,
+        "end_index": 41922
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Metal ion (Zn$^{II}$, Fe$^{II}$, Fe$^{III}$, Cu$^{II}$, Ni$^{II}$, Co$^{II}$, Mg$^{II}$, Mn$^{II}$) solutions (0.1 M), were prepared by dissolving the corresponding mass of metal salts in pure water",
+        "start_index": 41922,
+        "end_index": 42120
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Specifically, ZnCl$_2$ (99%, anhydrous, VWR), MgCl$_2$\u00b76H$_2$O (98.5-101",
+        "start_index": 42120,
+        "end_index": 42194
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5%, Sigma-Aldrich), MnCl$_2$ (98% Sigma-Aldrich), FeSO$_4$\u00b76H$_2$O (98%, Sigma-Aldrich), FeCl$_3$\u00b76H$_2$O (97%, Sigma-Aldrich), CuCl$_2$ (99% extra pure, Thermo scientific), NiCl$_2$\u00b76H$_2$O (97%, Sigma-Aldrich), and",
+        "start_index": 42194,
+        "end_index": 42411
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "CoCl$_2$\u00b76H$_2$O (99% BDH) were used for the determination of logK values for PDMA-metal complexes",
+        "start_index": 42411,
+        "end_index": 42509
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Titrations with EDTA (ethylenediaminetetraacetic acid - Fisher Scientific) were done to determine the effective molar concentration of all metal solutions.",
+        "start_index": 42509,
+        "end_index": 42666
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Ultrapure water (R = 18 M\u03a9 cm$^{-1}$), grade A glassware, and analytical grade reagents were used throughout.\n\n5.2 Potentiometric measurements",
+        "start_index": 42666,
+        "end_index": 42808
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "All the potentiometric measurements were carried out at T = 298.1 \u00b1 0.1 K in thermostatic cells. A Metrohm automatic titrator Titrando 888 controlled by Metrohm TiAMO 1.2",
+        "start_index": 42808,
+        "end_index": 42978
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "software was used for the potentiometric titrations of PDMA, aimed to the determination of its protonation constants (Table 1). At least two measurements were performed to minimize systematic errors and to check the repeatability of the measurements. The titrations were carried out in an inert atmosphere by bubbling purified nitrogen through the solutions. The hydrogen ion concentration was measured with a combined glass electrode (Metrohm model 6.0260.010).",
+        "start_index": 42978,
+        "end_index": 43440
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "A 30 mL solution containing PDMA ([L] = 6.7 x10^{-4} mol dm^{-3}) and NaCl, at pH 3, was titrated with standard NaOH solutions. For the metal/ligand systems, a molar ratio of 1:1 (PDMA [L] = metal [M]) was studied",
+        "start_index": 43440,
+        "end_index": 43653
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". However, the measurements were carried out slightly in excess of the ligand with respect to the concentration of metal ions to avoid metal hydrolysis interference during the analysis. In general, the titrant solutions consisted of PDMA ([L] = 6.7 x10^{-4} mol dm^{-3}), metal ([M] = 6.0 x10^{-4} mol dm^{-3}) (Table 2)",
+        "start_index": 43653,
+        "end_index": 43973
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". All the measurements were performed under magnetic stirring in thermostat cells using an isothermal bath.",
+        "start_index": 43973,
+        "end_index": 44080
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "For each experiment, independent titrations of strong acid solutions with standard base were carried out under the same medium and ionic strength as the systems to be investigated, with the aim of determining the electrode potential (E^0) using the GLEE software. For each titration, 80 to 100 data points were collected, and the equilibrium state during titrations was checked by confirming the time required to reach equilibrium",
+        "start_index": 44080,
+        "end_index": 44510
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". All the potentiometric titrations were made over the pH range 3 to 10.",
+        "start_index": 44510,
+        "end_index": 44582
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The HySS and Hyperquad software were used to determine experimental conditions for the titrations and calculation of the stability constants from the potentiometric data set.",
+        "start_index": 44582,
+        "end_index": 44756
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The titration curves of repeated titrations for each system were treated in Hyperquad as a single set when refining stability constants. This means that the refinement procedure was run on both replicated curves at the same time to derive a single set of constants. The error",
+        "start_index": 44756,
+        "end_index": 45031
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "reported for the stability constants is the standard deviation given in the Hyperquad output file. In figure 2 and SI table 1, the log $K$ values for PDMA/Metal complexes and mugineic acid family (natural ligand produced by plant) were compared.",
+        "start_index": 45031,
+        "end_index": 45276
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "5.3 Data analysis and computation details\n\nPython codes were used to i) calculate intrinsic stability constant of PDMA-metal complexes using Davies equation\\(^2\\); ii) create the new database specific for rice cultivation, including PDMA stability constant ($\\log K$) we determined; iii) and generate the input file to run the PHREEQC model.",
+        "start_index": 45276,
+        "end_index": 45617
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "PHREEQC (geochemical modelling program developed by the United States Geological Survey, version 3.7.3.15968) and HySS (Hyperquad Simulation and Speciation program, version 4.0.31) software were used to model the rice soil conditions.",
+        "start_index": 45617,
+        "end_index": 45851
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The stability constants determined by using potentiometric titrations were used to develop a novel and specific database to model and predict for the first time i) the behavior and the distribution of $[\\text{Zn}\\text{(PDMA)}]\\text{^+}$ complexes at different soil pH (from 3 to 9), ionic strength ($I=0.02, 0.1$ and 0",
+        "start_index": 45851,
+        "end_index": 46169
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".7 M) and redox conditions (Eh = -300 and +350 mV), ii) the behavior and the distribution of PDMA with relevant elements in soil; and iii) the selectivity of $[\\text{Zn}\\text{(PDMA)}]\\text{^+}$ complex in presence of other soil elements (pH from 3 to 10). The ionic strengths applied to the model correspond to the low (0.02 M), moderate (0",
+        "start_index": 46169,
+        "end_index": 46509
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".1 M) and very high (0.7 M) salinity conditions for soil according to USDA classification\\(^42\\). These conditions were tested to include the great part of possible soil salinity conditions. In general, the ionic strength of soil ranges from 0.01 to 1 M $^{30}$. According with Araujo et al.\\(^31\\), the ionic strength of 0",
+        "start_index": 46509,
+        "end_index": 46832
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".01 represents the soil solution of weathered soils, while the higher ionic strengths were chosen to simulate the change after the application of soil amendments and fertilizers ($I=0.1$ M), and",
+        "start_index": 46832,
+        "end_index": 47026
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "to study the behavior of metal:PDMA complexes in more extreme conditions (I = 0.7). The redox values used in the model considered two extreme redox conditions of paddy soil. According to the literature\\textsuperscript{14,43} fully submerged soil can reach values below Eh = -300 mV, whilst in dry condition the Eh value can also reach +350 mV or even more in a well-drained soil",
+        "start_index": 47026,
+        "end_index": 47404
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". To control the redox potential, PHREEQC uses pE instead Eh. pE was calculated by using the following equation (1)\\textsuperscript{43}:",
+        "start_index": 47404,
+        "end_index": 47540
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "\\[\npE = \\frac{\\text{Eh}}{59.2}\n\\]  \n\n(1)",
+        "start_index": 47540,
+        "end_index": 47580
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The PHREEQC model was always performed in excess of ligand to better predict the behavior of PDMA as soil fertilizer. The model in Figure 5a-d plots PDMA-metal complexes using same concentrations for all the elements (1:10 ratio - metal vs. ligand concentration). This approach helps to study the stability and distribution of metal-ligand complexes and better understand their behavior in different environmental conditions",
+        "start_index": 47580,
+        "end_index": 48004
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Figure 5e-h model simulates the behavior of metal-ligand complexes in a realistic system using the nutrient solution described by Suzuki et al.\\textsuperscript{13}. In details, the concentrations used are 0.5 mM MgSO\\textsubscript{4}, 0.5 \u03bcM MnSO\\textsubscript{4}, 0.2 \u03bcM CuSO\\textsubscript{4}, 0",
+        "start_index": 48004,
+        "end_index": 48302
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".5 \u03bcM ZnSO\\textsubscript{4}, and 0.1 mM Fe-EDTA. This approach helps to simulate the behavior of PDMA in soil solution where the concentration of the metal ions can vary based on soil parent material, soil texture and anthropogenic activities. For the last two models the ionic strength of 0.1M, corresponding to moderate salinity, was used to simulate the ionic strength of soil solution after soil fertilization",
+        "start_index": 48302,
+        "end_index": 48715
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The details used for the model are present in SI Table 2. HySS model was also run to validate the PHREEQC results. The stability constants determined experimentally were adjusted to zero ionic strength by using Davies equation (2)\\textsuperscript{27,44}:",
+        "start_index": 48715,
+        "end_index": 48971
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-ggeps ORCID: https://orcid.org/0000-0003-2295-0720 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\n\\[-\\log \\gamma = Az^2 \\left( \\frac{\\sqrt{I}}{1 + \\sqrt{I}} - 0.31I \\right)\\]",
+        "start_index": 48971,
+        "end_index": 49195
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "(2)\n\nwhere A is the dielectric constant of the solvent (A= 0.51), z is the charge of the ion, and I is ion strength.\n\nThe selectivity (S) of PDMA for Zn\\textsuperscript{II} compared to the other tested metals has been calculated by the following equation \\((3)\\):\\(^\\text{11,27}\\):",
+        "start_index": 49195,
+        "end_index": 49476
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "\\[\\log S = \\frac{[M-PDMA]}{[Zn(II)-PDMA]}\\]  \n\n(3)",
+        "start_index": 49476,
+        "end_index": 49526
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "where [M-PDMA] and [Zn(II)-PDMA] are the concentrations of metal-ligand complexes. If \\(\\log S > 0\\), PDMA is more selective for M (other metal) than Zn\\textsuperscript{II}; if \\(\\log S < 0\\) PDMA is more selective for Zn(II) than M.",
+        "start_index": 49526,
+        "end_index": 49759
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "The stability constants of metal-PDMA complexes determined by potentiometric titrations and PHREEQC model results were compared with the results of plant uptake experiment published by Suzuki et al.\\(^\\text{13}\\). Briefly, rice (\\textit{O. sativa}, var",
+        "start_index": 49759,
+        "end_index": 50011
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". nipponbare) plants were transplanted into calcareous soil (pH 9) and treated with unchelated PDMA and PDMA complexed with Fe\\textsubscript{2}(SO\\textsubscript{4})\\textsubscript{3} and ZnSO\\textsubscript{4}. Further details are described by Suzuki et al.\\(^\\text{13}\\).",
+        "start_index": 50011,
+        "end_index": 50281
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "To simulate the effect of metal ions addition in soil as consequence of fertilization treatment on the formation of [Zn(PDMA)]\\textsuperscript{+} complex in paddy soil, different Zn\\textsuperscript{II}, Cu\\textsuperscript{II}, and Fe\\textsuperscript{III} concentration ratio were modeled (Table 3 and 4)",
+        "start_index": 50281,
+        "end_index": 50584
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The pH chosen for the models were selected to cover all the pH range of paddy soils and based on the selectivity diagram (Figure 5 g and h) for the potential competition with iron and copper.",
+        "start_index": 50584,
+        "end_index": 50777
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 50777,
+        "end_index": 50793
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "This project has received funding from the European Union\u2019s Horizon 2020 research and innovation program under the Marie Sk\u0142odowska-Curie grant agreement No 101032337. We thank prof. Kosuke Namba from Tokushima University for the development of PDMA.\n\nCompeting interests\n\nMotofumi Suzuki is employed by the company AICHI STEEL CORPORATION. The remaining authors declare no competing interests.\n6 References",
+        "start_index": 50793,
+        "end_index": 51200
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "1 FAO. Soils for nutrition: state of the art. (Rome, 2022).",
+        "start_index": 51200,
+        "end_index": 51259
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "2 Shaheen, S. M., Rinklebe, J., Frohne, T., White, J. R. & DeLaune, R. D. Redox effects on release kinetics of arsenic, cadmium, cobalt, and vanadium in Wax Lake Deltaic freshwater marsh soils. *Chemosphere* 150, 740-748 (2016). https://doi.org/https://doi.org/10.1016/j.chemosphere",
+        "start_index": 51259,
+        "end_index": 51541
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".2015.12.043",
+        "start_index": 51541,
+        "end_index": 51553
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "3 Huang, S., Yamaji, N. & Feng Ma, J. Zinc transport in rice: how to balance optimal plant requirements and human nutrition. *Journal of Experimental Botany* 73, 1800-1808 (2021). https://doi.org/10.1093/jxb/erab478",
+        "start_index": 51553,
+        "end_index": 51768
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "4 Nanda, A. K. & Wissuwa, M. Rapid Crown Root Development Confers Tolerance to Zinc Deficiency in Rice. *Frontiers in Plant Science* 7 (2016). https://doi.org/10.3389/fpls.2016.00428",
+        "start_index": 51768,
+        "end_index": 51950
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "5 Nakandalage, N. et al. Improving Rice Zinc Biofortification Success Rates Through Genetic and Crop Management Approaches in a Changing Environment. *Front Plant Sci* 7, 764 (2016). https://doi.org/10.3389/fpls.2016.00764",
+        "start_index": 51950,
+        "end_index": 52172
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "6 Alloway, B. J. *Zinc in Soils and Crop Nutrition*. Second edition edn. (International Zinc Association and International Fertilizer Industry Association, 2008).\n\n7 Alloway, B. J. Soil factors associated with zinc deficiency in crops and humans. *Environ Geochem Health* 31, 537-548 (2009). https://doi.org/10.1007/s10653-009-9255-4",
+        "start_index": 52172,
+        "end_index": 52505
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "8 Markovi\u0107, T. et al. Experimental Determination of Zinc Isotope Fractionation in Complexes with the Phytosiderophore 2\u2032-Deoxymugeneic Acid (DMA) and Its Structural Analogues, and Implications for Plant Uptake Mechanisms. *Environmental Science & Technology* 51, 98-107 (2017). https://doi.org/10.1021/acs.est.6b00566",
+        "start_index": 52505,
+        "end_index": 52822
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "9 Suzuki, M. et al. Deoxymugineic acid increases Zn translocation in Zn-deficient rice plants. *Plant Molecular Biology* 66, 609-617 (2008). https://doi.org/10.1007/s11103-008-9292-x",
+        "start_index": 52822,
+        "end_index": 53004
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "10 Widodo et al. Response to zinc deficiency of two rice lines with contrasting tolerance is determined by root growth maintenance and organic acid exudation rates, and not by zinc-transporter activity. *New Phytologist* 186, 400-414 (2010). https://doi.org/https://doi.org/10.1111/j.1469-8137.2009.03177.x",
+        "start_index": 53004,
+        "end_index": 53310
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "11 Northover, G. H. R., Garcia-Espa\u0148a, E. & Weiss, D. J. Unravelling the modus operandi of phytosiderophores during zinc uptake in rice: the importance of geochemical gradients and accurate stability constants. *J Exp Bot* 72, 1517-1526 (2021). https://doi.org/10.1093/jxb/eraa580",
+        "start_index": 53310,
+        "end_index": 53590
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "12 Arnold, T. et al. Evidence for the mechanisms of zinc uptake by rice using isotope fractionation. *Plant, Cell & Environment* 33, 370-381 (2010). https://doi.org/https://doi.org/10.1111/j.1365-3040.2009.02085.x",
+        "start_index": 53590,
+        "end_index": 53803
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "13 Suzuki, M. et al. Development of a mugineic acid family phytosiderophore analog as an iron fertilizer. *Nature Communications* 12, 1558 (2021). https://doi.org/10.1038/s41467-021-21837-6",
+        "start_index": 53803,
+        "end_index": 53992
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "14 Sahrawat, K. L. Redox Potential and pH as Major Drivers of Fertility in Submerged Rice Soils: A Conceptual Framework for Management. *Communications in Soil\"\nScience and Plant Analysis, 46, 1597\u20131606 (2015).\nhttps://doi.org/10.1080/00103624.2015.1043451",
+        "start_index": 53992,
+        "end_index": 54248
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "15 Li, H. Y., Shi, Z., Webster, R. & Triantafilis, J. Mapping the three-dimensional variation of soil salinity in a rice-paddy soil. Geoderma 195-196, 31-41 (2013).\nhttps://doi.org/https://doi.org/10.1016/j.geoderma.2012.11.005",
+        "start_index": 54248,
+        "end_index": 54475
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "16 W. M. Haynes, D. R. L., Thomas J. Bruno. CRC Handbook of Chemistry and Physics 97th Edition edn, (Taylor & Francis - CRC Press, 2016).",
+        "start_index": 54475,
+        "end_index": 54612
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "17 Yamagata, A. et al. Uptake mechanism of iron-phytosiderophore from the soil based on the structure of yellow stripe transporter. Nature Communications 13, 7180 (2022).\nhttps://doi.org/10.1038/s41467-022-34930-1",
+        "start_index": 54612,
+        "end_index": 54825
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "18 Radulov, I., Sala, F., Berbecea, A. & Crista, F. Changes of soil microelements content after intensive mineral fertilization. Research Journal of Agricultural Science 41, 487-492 (2009).",
+        "start_index": 54825,
+        "end_index": 55014
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "19 White, J. G. & Zasoski, R. J. Mapping soil micronutrients. Field Crops Research 60, 11-26 (1999). https://doi.org/https://doi.org/10.1016/S0378-4290(98)00130-0",
+        "start_index": 55014,
+        "end_index": 55176
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "20 Kabata-Pendias, A. Trace Elements in Soils and Plants 4th Edition edn, (Taylor & Francis - CRC Press, 2010).",
+        "start_index": 55176,
+        "end_index": 55287
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "21 Tirfu Zekarias, M. & Nageswara Rao, G. Evaluation of protonation constants of mercaptosuccinic acid in aqueous solutions of propylene glycol and dioxan. Journal of the Chilean Chemical Society 57, 1054-1057 (2012).",
+        "start_index": 55287,
+        "end_index": 55504
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "22 Bretti, C., De Stefano, C., Foti, C. & Sammartano, S. Critical Evaluation of Protonation Constants. Literature Analysis and Experimental Potentiometric and Calorimetric Data for the Thermodynamics of Phthalate Protonation in Different Ionic Media. Journal of Solution Chemistry 35, 1227-1244 (2006).\nhttps://doi.org/10.1007/s10953-006-9057-6",
+        "start_index": 55504,
+        "end_index": 55848
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "23 Irving H., W. R. J. P. The Stability of Transition-metal Complexes. Journal of the Chemical Society, 3192-3210 (1953).\nhttps://doi.org/https://doi.org/10.1039/JR9530003192",
+        "start_index": 55848,
+        "end_index": 56022
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "24 Tasuku, M., Kunio, I., Minato, H., Shigeru, K. & Sei-ichi, T. Stabilities of Metal Complexes of Mugineic Acids and Their Specific Affinities for Iron(III). Chemistry Letters 18, 2137-2140 (1989). https://doi.org/10.1246/cl.1989.2137",
+        "start_index": 56022,
+        "end_index": 56257
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "25 Northover, G. H. R. et al. Effect of salinity on the zinc(II) binding efficiency of siderophore functional groups and implications for salinity tolerance mechanisms in barley. Scientific Reports 11, 16704 (2021). https://doi.org/10.1038/s41598-021-95736-7",
+        "start_index": 56257,
+        "end_index": 56515
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "26 Cigala, R. M. et al. Zinc(II) complexes with hydroxocarboxylates and mixed metal species with tin(II) in different salts aqueous solutions at different ionic strengths: formation, stability, and weak interactions with supporting electrolytes. Monatshefte f\u00fcr Chemie - Chemical Monthly 146, 527-540 (2015). https://doi.org/10.1007/s00706-014-1394-3",
+        "start_index": 56515,
+        "end_index": 56865
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "27 Northover, G. H. R. et al. Synergistic use of siderophores and weak organic ligands during zinc transport in the rhizosphere controlled by pH and ion strength gradients. Scientific Reports 12, 6774 (2022). https://doi.org/10.1038/s41598-022-10493-5",
+        "start_index": 56865,
+        "end_index": 57116
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Takeno, N. Atlas of Eh-pH diagrams Intercomparison of thermodynamic databases. *National Institute of Advanced Industrial Science and Technology*, 285 (2005).",
+        "start_index": 57116,
+        "end_index": 57274
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Grenthe, I., Mompean, F., Spahiu, K., Wanner, H. Guidelines for the Extrapolation to Zero Ionic Strength. (NEA (2020), TDB-2, 2020).",
+        "start_index": 57274,
+        "end_index": 57406
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Black, A. S., Campbell, A. S. Ionic strength of soil solution and its effect on charge properties of some New Zealand soils. *Journal of Soil Science* **33**, 249-262 (1982). [https://doi.org/10.1111/j.1365-2389.1982.tb01763.x](https://doi.org/10.1111/j.1365-2389.1982.tb01763.x)",
+        "start_index": 57406,
+        "end_index": 57685
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Anderson Mendes Araujo, J. H. d. L. L., Liniker Andr\u00e9 Ferreira, Luiz Roberto Guimar\u00e3es Guillerme, Guillerme Lopes. Soil management and ionic strength on selenate retention in oxidic soils. *Agricultural Sciences* **42**, 395-407 (2018). [https://doi.org/10.1590/1413-70542018424007318](https://doi",
+        "start_index": 57685,
+        "end_index": 57982
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".org/10.1590/1413-70542018424007318)",
+        "start_index": 57982,
+        "end_index": 58018
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "K\u00f6gel-Knabner, I. *et al.* Biogeochemistry of paddy soils. *Geoderma* **157**, 1-14 (2010). [https://doi.org/10.1016/j.geoderma.2010.03.009](https://doi.org/10.1016/j.geoderma.2010.03.009)",
+        "start_index": 58018,
+        "end_index": 58206
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "FAO. *What are sustainable rice systems?*, [https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/sustainable-rice-systems/rice-what/en/](https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/sustainable-rice-systems/rice-what/en/) (2024).",
+        "start_index": 58206,
+        "end_index": 58527
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Pan, Y. *et al.* Influence of pH on the redox chemistry of metal (hydr)oxides and organic matter in paddy soils. *Journal of Soils and Sediments* **14**, 1713-1726 (2014). [https://doi.org/10.1007/s11368-014-0919-z](https://doi.org/10.1007/s11368-014-0919-z)",
+        "start_index": 58527,
+        "end_index": 58785
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Lee, S. R. Critical Role of Zinc as Either an Antioxidant or a Prooxidant in Cellular Systems. *Oxid Med Cell Longev* **2018**, 9156285 (2018). [https://doi.org/10.1155/2018/9156285](https://doi.org/10.1155/2018/9156285)",
+        "start_index": 58785,
+        "end_index": 59005
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Haas K. L., F. K. J. Application of metal coordination chemistry to explore and manipulate cell biology. *Chemical Reviews* **109**, 4921\u20134960 (2009). [https://doi.org/10.1021/cr900134a](https://doi.org/10.1021/cr900134a)",
+        "start_index": 59005,
+        "end_index": 59226
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "J. Moreno-Caselles, A. P.-E., M.D. P\u00e9rez-Murcia, R. Moral, I. G\u00f3mez. Cobalt-induced stress in soilless lettuce cultivation: i. effect on yield and pollutant accumulation. *Acta Horticulturae* **458**, 239-242 (1998). [https://doi.org/10.17660/ActaHortic.1998.458.28](https://doi",
+        "start_index": 59226,
+        "end_index": 59504
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".org/10.17660/ActaHortic.1998.458.28)",
+        "start_index": 59504,
+        "end_index": 59541
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Wilson, D. O. & Reisenauer, H. M. Effects of some heavy metals on the cobalt nutrition of *Rhizobium meliloti*. *Plant and Soil* **32**, 81-89 (1970). [https://doi.org/10.1007/BF01372848](https://doi.org/10.1007/BF01372848)",
+        "start_index": 59541,
+        "end_index": 59764
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Chandrika, K., Qureshi, A. A., Singh, A., Sarada, C. & Gopalan, B. Fe and Zn Metal Nanocitrates as Plant Nutrients through Soil Application. *ACS Omega* **7**, 45481-45492 (2022). [https://doi.org/10.1021/acsomega.2c06096](https://doi.org/10.1021/acsomega",
+        "start_index": 59764,
+        "end_index": 60019
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".2c06096)",
+        "start_index": 60019,
+        "end_index": 60028
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Kirk, G. J. D., Manwaring, H. R., Ueda, Y., Semwal, V. K. & Wissuwa, M. Belowground plant\u2013soil interactions affecting adaptations of rice to iron toxicity. *Plant, Cell & Environment* **45**, 705-718 (2022). [https://doi.org/10.1111/pce.14199](https://doi.org/10.1111/pce",
+        "start_index": 60028,
+        "end_index": 60299
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".14199)",
+        "start_index": 60299,
+        "end_index": 60306
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Gao, X. *et al.* Improving zinc bioavailability in transition from flooded to aerobic rice. A review. *Agronomy for Sustainable Development* **32**, 465-478 (2012). [https://doi.org/10.1007/s13593-011-0053-x](https://doi.org/10.1007/s13593-011-0053-x)",
+        "start_index": 60306,
+        "end_index": 60557
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "L. E. Allison, L. B., C. A. Bower, J. W. Brown, M. Fireman, J. T. Hatcher, H. E. Hayward, G. A. Pearson, R. C. Reeve, L. A. Richards, L. v. Wilcox. (ed US Department of Agriculture) 159 (1969).",
+        "start_index": 60557,
+        "end_index": 60750
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "43 M. Rostaminia, S. M., H.T. Gol Sefidi, E. Pazira and S.B. Kafaee. Study of Reduction-Oxidation Potential and Chemical Characteristics of a Paddy Field During Rice Growing Season. Journal of Applied Sciences 11, 1004-1011 (2011). https://doi.org/10.3923/jas.2011.1004.1011",
+        "start_index": 60750,
+        "end_index": 61024
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "44 Kirby, M. E., Simperler, A., Krevor, S., Weiss, D. J. & Sonnenberg, J. L. Computational Tools for Calculating log \u03b2 Values of Geochemically Relevant Uranium Organometallic Complexes. The Journal of Physical Chemistry A 122, 8007-8019 (2018). https://doi.org/10.1021/acs.jpca.8b06863\nList of Tables",
+        "start_index": 61024,
+        "end_index": 61324
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 1. Chemical model and protonation constants of PDMA determined potentiometrically at I = 0.15 M in NaCl(aq) and T = 298.1 K.",
+        "start_index": 61324,
+        "end_index": 61454
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 2. Stability constant (log K) values of Zn$^{II}$, Fe$^{II}$, Fe$^{III}$, Cu$^{II}$, Co$^{II}$, Ni$^{II}$, Mg$^{II}$, and Mn$^{II}$-PDMA species determined potentiometrically at I = 0.15 M in NaCl(aq) and T = 298.1 K.",
+        "start_index": 61454,
+        "end_index": 61677
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 3. (a) Effect of Zn$^{II}$ fertilization treatment on the formation of [Zn(PDMA)]$^+$ in presence of Cu$^{II}$ and Fe$^{III}$ in saline solutions (I= 0.1 M NaCl) with different pH and redox conditions. PDMA is present as free ligand and its concentration is 10$^{-6}$ M",
+        "start_index": 61677,
+        "end_index": 61952
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Initial metal ratio used in the model are based on the average ratio of Zn$^{II}$, Cu$^{II}$ and Fe$^{III}$ present in soil$^{20,39}$ and Zn$^{II}$ concentration is increased according to the ratio indicated in the table. Fe$^{II}$ is not included because complex formation with PDMA is insignificant in waterlogged condition",
+        "start_index": 61952,
+        "end_index": 62279
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". (b) Effect of increased concentration of Cu$^{II}$ and Fe$^{III}$, following soil fertilization on [Zn(PDMA)]$^+$ complex formation at 0.1 M NaCl and different pH and redox conditions. In the model PDMA is present as free ligand and its concentration is 10$^{-6}$ M. Initial metal concentrations used in the model are 10$^{-6}$ M",
+        "start_index": 62279,
+        "end_index": 62610
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Cu$^{II}$ and Fe$^{III}$ concentrations increase according to the ratio indicated in the table.",
+        "start_index": 62610,
+        "end_index": 62707
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "List of Figures\n\nFigure 1. Chemical structure of DMA and PDMA and schematic representation of [Zn(PDMA)]$^+$ acquisition by rice root. Chemical structure of proline-2'-deoxymugineic acid (PDMA) showing similarity and differences with DMA (a); and schematic representation of PDMA fertilization and [Zn(PDMA)]$^+$ acquisition by rice root facilitated by Yellow Stripe 1 (YS1) membrane transporters (b).",
+        "start_index": 62707,
+        "end_index": 63108
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 2. Stability series for M-L complexes with L = PDMA, DMA, MA and HMA and M = Mn$^{II}$, Fe$^{II}$, Fe$^{III}$, Ni$^{II}$, Cu$^{II}$ and Zn$^{II}$. Stability constants of PDMA and mugineic acid family based on data from Murakami et al. (1989)",
+        "start_index": 63108,
+        "end_index": 63356
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". DMA = 2'-deoxymugineic acid, MA = mugineic acid, HMA = 3-epi-hydroxy-mugineic acid. PDMA logK values were determined at I = 0.15 M in NaCl(aq) and T = 298.1 K using 1:1 Metal:Ligand molar ratio. DMA, MA and HMA were determined at I = 0",
+        "start_index": 63356,
+        "end_index": 63593
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".1 M in KNO$_3$(aq) and T = 298.1 K using 1:1 Metal:Ligand molar ratio.",
+        "start_index": 63593,
+        "end_index": 63664
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 3. Comparison of complex formation between [Zn(PDMA)]$^+$ and [Zn(DMA)]$^+$ at different salinity. Fraction of complexed Zn$^{II}$ with PDMA and with DMA as function of the pH at different ionic strengths in single (a) and mixed (b) solutions at ion strengths of I = 0.02, 0.1, 0.7 M",
+        "start_index": 63664,
+        "end_index": 63954
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The concentrations used are 10-6 M for Zn$^{II}$ and 10-5 M for PDMA and DMA. Different type of lines represents different ionic strength.",
+        "start_index": 63954,
+        "end_index": 64094
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 4. Effect of salinity and redox potential on metal/PDMA complexes. Fraction of complexed metal (Cu$^{II}$ and Fe$^{II}$/Fe$^{III}$) in Metal/PDMA system as function of the pH in saline solution with different ionic strength (I = 0.02, 0.1, 0",
+        "start_index": 64094,
+        "end_index": 64342
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ".7 M) and redox conditions (a: waterlogged Eh = +300; b: aerated Eh = +350). The concentrations used in the model are 10-6 M for Cu$^{II}$ and Fe$^{II}$/Fe$^{III}$ and 10-5 M for PDMA. Different type of lines represents different ionic strength",
+        "start_index": 64342,
+        "end_index": 64586
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Mn$^{II}$, is also redox sensitive, but it does not form strong complexes with PDMA, due to its low logK value, and for that reason it is not included in the figure.",
+        "start_index": 64586,
+        "end_index": 64753
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Figure 5. Distribution diagrams and selectivity of PDMA for zinc(II) in the presence of Fe$^{II}$/Fe$^{III}$, Ni$^{II}$, Cu$^{II}$, Mg$^{II}$, Mn$^{II}$, Co$^{II}$ in paddy soil conditions",
+        "start_index": 64753,
+        "end_index": 64941
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Distribution diagram (a-b; e-f) of PDMA with Zn$^{II}$, Fe$^{II}$/Fe$^{III}$, Ni$^{II}$, Cu$^{II}$, Mg$^{II}$, Mn$^{II}$, Co$^{II}$ and selectivity (c-d; g-h) of PDMA, expressed using the selectivity ratio (log S, Metal/Zn$^{II}$), as function of the pH in",
+        "start_index": 64941,
+        "end_index": 65199
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "different redox conditions (a-b; e-f: \\( \\text{Eh} = -300 \\text{ mV} \\); c-d; g-h: \\( \\text{Eh} = +350 \\text{ mV} \\)) at 0.1 M ionic strength",
+        "start_index": 65199,
+        "end_index": 65340
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". The concentrations used in the models for equal metal ions concentrations (a-d) are \\( 10^{-6} \\text{ M} \\) for metals and \\( 10^{-5} \\text{ M} \\) for PDMA. The concentrations of metal ions and PDMA used in the model nutrient solution (e-h) are specified in the figure footnote and in the \u2018Materials and Methods\u2019 section based on the values reported by Suzuki et al.\\(^{13}\\).",
+        "start_index": 65340,
+        "end_index": 65718
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "**Tables**",
+        "start_index": 65718,
+        "end_index": 65728
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "**Table 1.** Chemical model and protonation constants of PDMA determined potentiometrically at $I = 0.15$ M in NaCl(aq) and $T = 298.1$ K.",
+        "start_index": 65728,
+        "end_index": 65866
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Ligand - Chemical model        | Protonation constants $\\log K$ (n=3) $\\pm \\sigma$ |\n|--------------------------------|---------------------------------------------------|\n| $H^+ + PDMA^3- \\rightleftharpoons HPDMA^{2-}$ | $10.32 \\pm 0.01$                                 |",
+        "start_index": 65866,
+        "end_index": 66140
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| $H^+ + HPDMA^{2-} \\rightleftharpoons H_2PDMA^-$ | $8.08 \\pm 0.01$                                  |\n| $H^+ + H_2PDMA^- \\rightleftharpoons H_3PDMA$    | $2.66 \\pm 0.02$                                  |",
+        "start_index": 66140,
+        "end_index": 66345
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 2. Stability constant (logK) values of Zn$^{II}$, Fe$^{II}$, Fe$^{III}$, Cu$^{II}$, Co$^{II}$, Ni$^{II}$, Mg$^{II}$, and Mn$^{II}$-PDMA species determined potentiometrically at $I = 0.15$ M in NaCl(aq) and $T = 298.1$ K.",
+        "start_index": 66345,
+        "end_index": 66571
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Metals | logK values (n=3) \u00b1 \u03c3 |\n|--------|----------------------|\n|        | ML                   | ML+H\u21cc MHL         | ML+H\u2082O\u21cc ML(OH)+H |\n| Zn(II) | 11.48\u00b10.02           | -                  | -9.69\u00b10.03        |",
+        "start_index": 66571,
+        "end_index": 66787
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Fe(II) | 9.11\u00b10.01            | 6.20\u00b10.02          | -9.73\u00b10.01        |\n| Fe(III)| 17.37\u00b10.02           | 2.53\u00b10.01          | -                 |\n| Cu(II) | 17.29\u00b10.032          | -                  | -9.93\u00b10.05        |",
+        "start_index": 66787,
+        "end_index": 67011
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Co(II) | 11.27\u00b10.07           | -                  | -9.74\u00b10.29        |\n| Ni(II) | 13.10\u00b10.2            | 3.62\u00b10.14          | -9.96\u00b10.03        |",
+        "start_index": 67011,
+        "end_index": 67160
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Mg(II) | 3.69\u00b10.05            | 9.26\u00b10.12          | -10.35\u00b10.03       |\n| Mn(II) | 6.81\u00b10.005           | 6.9\u00b10.04           | -9.68\u00b10.01        |\n| pH     | 4 - 9                | < 3                | > 9               |",
+        "start_index": 67160,
+        "end_index": 67384
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "Table 3. (a) Effect of Zn$^{II}$ fertilization treatment on the formation of [Zn(PDMA)]$^{-}$ in presence of Cu$^{II}$ and Fe$^{III}$ in saline solutions (I= 0.1 M NaCl) with different pH and redox conditions. PDMA is present as free ligand and its concentration is $10^{-6}$ M",
+        "start_index": 67384,
+        "end_index": 67661
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Initial metal ratio used in the model are based on the average ratio of Zn$^{II}$, Cu$^{II}$ and Fe$^{III}$ present in soil$^{20,39}$ and Zn$^{II}$ concentration is increased according to the ratio indicated in the table. Fe$^{II}$ is not included because complex formation with PDMA is insignificant in waterlogged condition",
+        "start_index": 67661,
+        "end_index": 67988
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". (b) Effect of increased concentration of Cu$^{II}$ and Fe$^{III}$, following soil fertilization on [Zn(PDMA)]$^{-}$ complex formation at 0.1 M NaCl and different pH and redox conditions. In the model PDMA is present as free ligand and its concentration is $10^{-6}$ M. Initial metal concentrations used in the model are $10^{-6}$ M",
+        "start_index": 67988,
+        "end_index": 68321
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": ". Cu$^{II}$ and Fe$^{III}$ concentrations increase according to the ratio indicated in the table.",
+        "start_index": 68321,
+        "end_index": 68418
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| Percentage of PDMA complex formed following Zn$^{II}$ addition (a) | Reduction (%) of Zn$^{II}$-PDMA complex formation following Cu$^{II}$ and Fe$^{III}$ addition (b) |\n|---------------------------------------------------------------|-------------------------------------------------------------|\n| Waterlogged soil | Aerated soil | Waterlogged soil | Aerated soil |",
+        "start_index": 68418,
+        "end_index": 68786
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| pH | [Zn]/[M] | Zn$^{II}$ Cu$^{II}$ Fe$^{III}$ | Zn$^{II}$ Cu$^{II}$ Fe$^{III}$ | [M]/[Zn] | Cu$^{II}$ Fe$^{III}$ | Cu$^{II}$ Fe$^{III}$ |",
+        "start_index": 68786,
+        "end_index": 68926
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 5  | 0.01 | 0 0 0 0 | 0 95 0 | 2 | -99 | -99 | -100 | -99 |\n|    | 0.1  | 1 0 0 0 | 0 95 0 | 5 | -99 | -99 | -100 | -99 |",
+        "start_index": 68926,
+        "end_index": 69049
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "|    | 1    | 1 0 0 0 | 0 95 0 | 10 | -99 | -99 | -100 | -99 |\n|    | 2    | 3 0 0 0 | 0 95 0 | 20 | -99 | -99 | -100 | -99 |",
+        "start_index": 69049,
+        "end_index": 69174
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "|    | 5    | 6 0 0 0 | 0 95 0 | 50 | -99 | -99 | -100 | -99 |\n|    | 10   | 12 0 0 0 | 1 95 0 | 100 | -99 | -99 | -100 | -99 |",
+        "start_index": 69174,
+        "end_index": 69301
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 7  | 0.01 | 10 0 0 0 | 0 100 0 | 2 | -8  | -9  | -100 | -18 |\n|    | 0.1  | 49 0 0 0 | 0 100 0 | 5 | -8  | -9  | -100 | -25 |",
+        "start_index": 69301,
+        "end_index": 69428
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "|    | 1    | 91 0 0 0 | 1 99 0 0 | 10 | -8  | -10 | -100 | -33 |\n|    | 2    | 99 0 0 0 | 1 99 0 0 | 20 | -8  | -11 | -100 | -43 |",
+        "start_index": 69428,
+        "end_index": 69559
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "|    | 5    | 100 0 0 0 | 1 99 0 0 |                |                |                |                |\n|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "start_index": 69559,
+        "end_index": 69787
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 10 | 100 | 0 | 0 | 2 | 98 | 0 | 50 | -8 | -14 | -100 | -58 |\n| 9  | 0.01| 10 | 0 | 0 | 0  | 100| 0  |     |     |        |     |",
+        "start_index": 69787,
+        "end_index": 69917
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 0.1| 50  | 0  | 0 | 0  | 100| 0  | 2   | 0   | -3     | -100| -21 |\n| 1  | 98  | 0  | 0 | 0  | 100| 0  | 5   | 0   | -5     | -100| -31 |",
+        "start_index": 69917,
+        "end_index": 70056
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 2  | 100 | 0  | 0 | 1  | 99 | 0  | 10  | -1  | -7     | -100| -41 |\n| 5  | 100 | 0  | 0 | 1  | 99 | 0  | 20  | -1  | -10    | -100| -53 |",
+        "start_index": 70056,
+        "end_index": 70195
+    },
+    {
+        "document_name": "55.txt",
+        "chunk_text": "| 10 | 100 | 0  | 0 | 1  | 99 | 0  | 50  | -1  | -15    | -100| -68 |",
+        "start_index": 70195,
+        "end_index": 70264
+    }
+]

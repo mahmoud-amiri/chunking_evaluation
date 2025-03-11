@@ -1,0 +1,602 @@
+[
+    {
+        "document_name": "46.txt",
+        "chunk_text": "(PNSiMe\u2083)\u2084(NMe)\u2086: A robust tetravalent phosphaza-adamantane scaffold for molecular and macromolecular chemistry\nJoseph Bedard, Nicholas J. Roberts, Karlee L. Bamford, Ulrike Werner-Zwanziger, Katherine M. Marczenko, Saurabh S. Chitnis*\n\nEmail: saurabh.chitnis@dal.ca",
+        "start_index": 0,
+        "end_index": 266
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Abstract: Tetraarylmethanes and adamantanes are very rare examples of rigid, four-way, anionic connectors that play a scaffolding role in multiple areas of molecular and materials chemistry. We report the synthesis of a tetravalent phosphaza-adamantane cage, (PNSiMe\u2083)\u2084(NMe)\u2086 (2), that shows unusually high ambient, thermal, and redox stability due to its unique geometry",
+        "start_index": 266,
+        "end_index": 637
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". It nevertheless participates in four-fold functionalization reactions on its periphery. The combination of a robust core but a reactive corona makes 2 a convenient inorganic scaffold upon which tetrahedral molecular and macromolecular chemistry can be reliably constructed. This potential is exemplified by the unprecedented synthesis of a tetracationic tetraphosphinimine (3) and the first porous all-P/N polyphosphazene network (5).",
+        "start_index": 637,
+        "end_index": 1073
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The unique geometry of tetrahedral, tetravalent molecules makes them valuable scaffolds in synthetic chemistry",
+        "start_index": 1073,
+        "end_index": 1183
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Their ability to connect four functional groups in a rigid and well-separated tetrahedral arrangement has allowed development of new optoelectronic materials,\\textsuperscript{1} thermally-stable energetic compounds,\\textsuperscript{2} catalysts with enhanced robustness or multi-catalytic sites,\\textsuperscript{3-6} bioactive polypeptide frameworks,\\textsuperscript{7} and pharmaceuticals",
+        "start_index": 1183,
+        "end_index": 1574
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".\\textsuperscript{8} In crystalline reticular chemistry, tetrahedral cages are privileged secondary bonding units as their high symmetry facilitates packing,\\textsuperscript{9-15} and in amorphous reticular chemistry, tetrahedral connectors have been used to construct hyper-crosslinked polymers or porous organic polymers.\\textsuperscript{16-17}",
+        "start_index": 1574,
+        "end_index": 1920
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "![Tetrahedral tetravalent scaffolds A and B, tetrahedral dative scaffold C, and a representation of the new tetrahedral tetravalent scaffold reported here.](image)\n\n**Figure 1.** Tetrahedral tetravalent scaffolds A and B, tetrahedral dative scaffold C, and a representation of the new tetrahedral tetravalent scaffold reported here.",
+        "start_index": 1920,
+        "end_index": 2252
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The two most-studied families of tetrahedral, tetravalent linkers are the tetraarylmethanes (A) and adamantanes (B) \u2013 both featuring a carbon skeleton. Our interest in the reactivity of geometrically constrained p-block amides\\textsuperscript{18-22} led us to the family of phosphorus-nitrogen cages (C) reported by Holmes nearly 6 decades ago",
+        "start_index": 2252,
+        "end_index": 2595
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".\\textsuperscript{23-26} Their quantitative, one-step, multi-gram synthesis from commodity reagents (PCl$_3$, RNH$_2$) is appealing from a practical perspective, and their high molecular symmetry makes them inherently suited for evolving a four-directional functional platform",
+        "start_index": 2595,
+        "end_index": 2871
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Quadruple oxidation of some derivatives of C with azides, sulfur, and oxygen has also been reported,\\textsuperscript{27-32} but no subsequent reactivity was possible since the resulting compounds do not feature sufficiently labile bonds",
+        "start_index": 2871,
+        "end_index": 3109
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Salts of the binary polyanion P$_4$N$_6$\\textsuperscript{10-} have also been reported, but their high temperature solid-state synthesis (>600 \u00b0C elemental melt) and insolubility have precluded further use in synthetic chemistry.\\textsuperscript{33-35}",
+        "start_index": 3109,
+        "end_index": 3362
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "We envisioned that conversion of C to a masked form of tetra-anion D would allow solution-phase tetravalent chemistry with a new inorganic synthon. Specifically, if the P$^{III}$ atoms in compound 1 could be oxidized to P$^V$ silylphosphinimines, the exo-cage N-Si bonds may be polar enough to engage in",
+        "start_index": 3362,
+        "end_index": 3665
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "subsequent covalent metathesis with element halides. Here we validate this hypothesis and report the synthesis, structure, and reactivity of 2 as a new, remarkably robust, electron-rich, tetrahedral scaffold for molecular and macromolecular chemistry.",
+        "start_index": 3665,
+        "end_index": 3916
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "**Scheme 1.** Synthesis of 1 and its sequential oxidation by Me$_3$SiN$_3$ to give 2.",
+        "start_index": 3916,
+        "end_index": 4001
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "We expected the four-fold oxidation of 1 with four equivalents of Me$_3$SiN$_3$ to be facile given that the analogous reaction of (Me$_2$N)$_3$P is complete at 55 \u00b0C in a few hours",
+        "start_index": 4001,
+        "end_index": 4181
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".$^{36}$ To our surprise, while single and double oxidation of 1 occurred smoothly (Scheme 1), giving 1' and 1'', complete oxidation was not achieved even upon refluxing with Me$_3$SiN$_3$ in toluene overnight",
+        "start_index": 4181,
+        "end_index": 4390
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". The reaction progress can be easily monitored through signal multiplicities observed in the $^{31}$P NMR spectra (Figure 2), and doing so over two half lives revealed the bimolecular rate constants of successive oxidations to be >100, 14.3, 2.3, and 0.15 M$^{-1}$ h$^{-1}$ (Figure S10, SI)",
+        "start_index": 4390,
+        "end_index": 4681
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". The dramatic deceleration as a function of extent of oxidation is likely an electronic rather than steric effect, as it is also observed when the reaction is performed with a less hindered benzyl azide.$^{30}$ Even using a 10-fold excess of Me$_3$SiN$_3$, the reaction proved to be lethargic, requiring 12 weeks at 100 \u00b0C to achieve quantitative conversion to the tetraphosphinimine 2",
+        "start_index": 4681,
+        "end_index": 5067
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Following removal of excess Me$_3$SiN$_3$ and recrystallization, 2 was reproducibly isolated in 60-80% crystalline yield and comprehensively characterized.",
+        "start_index": 5067,
+        "end_index": 5224
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The title compound crystallizes in the tetragonal space group I41/a, and its molecular structure in the solid state shows an adamantoid core decorated with four exo N-SiMe$_3$ substituents. The two most striking features of the structure are i) the very short P=N bond length of 1.500(3) \u00c5, which is shorter than 98% of all P=N double bond length values reported (c.a",
+        "start_index": 5224,
+        "end_index": 5591
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". 15,000 in the Cambridge Structural Database) and ii) the obtuse P=N-Si angle [173.9(3)\u00b0], which is larger than the values found in >95% of all silylphosphinimines (R$_3$P=NSiR$_3$, see Figure S11, SI). In contrast, the density functional theory",
+        "start_index": 5591,
+        "end_index": 5837
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "calculated geometry of an isolated molecule of 2 shows a P=N bond length of 1.546 \u00c5 and a P=N-Si angles of 132\u00b0, in line with expectations for an imine. We conclude that the experimentally observed bond angle distortion arises from intermolecular forces in the lattice",
+        "start_index": 5837,
+        "end_index": 6105
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". A view of the sub van der Waals interactions between molecules reveals no interactions involving any of the skeletal P or N atoms, but rather numerous contacts between peripheral Me groups on adjacent units (Figure S12, SI). Given that SiR\u2083 groups and methyl groups adjacent to heteroatoms are known to be very polarizable,\u00b3\u2077 we interpret the lattice energy in 2 as being primarily a result of dispersion forces",
+        "start_index": 6105,
+        "end_index": 6518
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Such dispersion-held lattices are ubiquitous in hydrocarbon chemistry,\u00b3\u2078 but their dominance is unexpected in heteroatom-dense species like 2, featuring a high number of lone pairs (10), double bonds (4), and polar \u03c3 bonds (12 P-N, 4 Si-N bonds)",
+        "start_index": 6518,
+        "end_index": 6765
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". In this context, the title compound is electronically quite distinct from the well-known tetrahedral scaffolds B, which lack polarizable skeletal lone pairs, but it exhibits similar intermolecular forces and physical properties due to symmetry. For example, compound 2 is soluble in all tested hydrocarbon, ethereal, halocarbon, nitrile, and aromatic solvents and sublimes at ca. 150 \u00b0C at atmospheric pressure.",
+        "start_index": 6765,
+        "end_index": 7178
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Figure 2",
+        "start_index": 7178,
+        "end_index": 7186
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". \u00b3\u00b9P{\u00b9H} NMR spectra of the reaction between 1 (\u03b4(P\u00b3\u207a) = 82 ppm) and excess Me\u2083SiN\u2083 after a) 0 days, b) 1 day, c) 1 week, d) 4 weeks, and e) 12 weeks, showing the sequential formation of 1' (\u03b4(P\u2075\u207b) = -26 ppm, \u03b4(P\u00b3\u207a) =",
+        "start_index": 7186,
+        "end_index": 7404
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "128 ppm, \u00b2J_pp = 18 Hz), 1'' (\u03b4(P\u2075\u207b) = -9 ppm, \u03b4(P\u00b3\u207a) = 140 ppm, \u00b2J_pp = 27 Hz), 1''' (\u03b4(P\u2075\u207b) = -4 ppm, \u03b4(P\u00b3\u207a) = 75 ppm, \u00b2J_pp = 39 Hz), and 2 (\u03b4(P\u2075\u207b) = -14",
+        "start_index": 7404,
+        "end_index": 7560
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "ppm)",
+        "start_index": 7560,
+        "end_index": 7564
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".",
+        "start_index": 7564,
+        "end_index": 7565
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The high thermal, atmospheric, and redox stability of hydrocarbons A and B affords a vast parameter space of allowable reaction conditions involving these scaffolds. We subjected compound 2 to several stability tests (Scheme 2, Figure S13, SI). No degradation was observed when it was heated either as a solid or in o-dichlorobenzene to 230 \u00b0C for 1 week in a sealed tube",
+        "start_index": 7565,
+        "end_index": 7936
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Despite containing polarized N-Si bonds, 2 also exhibits no sensitivity to ambient atmosphere \u2013 $^{31}$P NMR spectroscopy confirmed that a THF solution evaporated to dryness overnight on the benchtop remained unchanged, as did solid samples of 2 stored under ambient air for 6 months. Compound 2 is also unexpectedly stable in the protic solvents. Methanol solutions of the compound show no degradation at either 25 \u00b0C or upon refluxing overnight under air",
+        "start_index": 7936,
+        "end_index": 8394
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Similarly, solutions of 2 in wet (benchtop-stored) DMF show only 10% decomposition upon heating to 100 \u00b0C overnight",
+        "start_index": 8394,
+        "end_index": 8511
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". In sharp contrast, the uncaged analogue (Me$_2$N)$_3$P=NSiMe$_3$ immediately converts to (Me$_3$N)$_3$P=NH in dry methanol or benchtop DMF at room temperature, and to (Me$_2$N)$_3$P=O when heated under ambient air.",
+        "start_index": 8511,
+        "end_index": 8727
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Compound 2 is also stable towards strong reducing or oxidizing agents: no reaction was provoked by storage over either a potassium mirror or exposure to [NO][BF$_4$]. Consistent with these chemical tests, its cyclic voltammogram in DCM, MeCN, or THF is featureless over the respective solvent windows (Figure S14-S16, SI)",
+        "start_index": 8727,
+        "end_index": 9048
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Compound 2 was also unaffected by prolonged exposure to UV-A/C irradiation or heating at 120 \u00b0C in the presence of 10-fold excess of azobis(isobutyro)nitrile (AIBN). This extent of redox inertia is surprising given the reported UV and oxidative sensitivity of phosphinimines.",
+        "start_index": 9048,
+        "end_index": 9325
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Figure 3. Left: Molecular structure of 2 in the solid state determined by X-ray crystallography. Ellipsoids are drawn at the 50% probability level. Hydrogen atoms have been omitted for clarity and carbons represented in wireframe. Selected bond lengths (\u00c5) and angles (\u00b0) are as follows: P=N: 1.500(4), P-N: 1.683(3), 1.697(3), 1",
+        "start_index": 9325,
+        "end_index": 9654
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".680(3), N-Si: 1.677(4), P-N-Si: 173.9(3). Due to tetrahedral symmetry, only one set of metric parameters fully define the structure. Right: Calculated structure of 2 at the PBE1(D3-BJ)/aug-cc-pVDZ level. The P=N bond length is 1.546 \u00c5 and the P=N-Si angle is 132\u00b0.",
+        "start_index": 9654,
+        "end_index": 9919
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Scheme 2. Robustness of 2 under various conditions. ODCB = ortho-dichlorobenzene, AIBN = azo-bis(isobutyronitrile).",
+        "start_index": 9919,
+        "end_index": 10034
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "We hypothesize that the stability of 2 is at least partly an emergent property of its cage geometry. First, we note that the lowest occupied molecular orbital (LUMO) of 2 is a combination of four P-N $\\sigma^*$ antibonding orbitals, and is confined to a region inside the cage, where it is inaccessible for covalent intermolecular interactions (Figure 4, left)",
+        "start_index": 10034,
+        "end_index": 10394
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". As phosphinimine degradation in protic media involves initial coordination of the solvent to the phosphorus atom, giving a five-coordinate intermediate, followed by generation of an acidic proton that catalyzes solvolysis,$^{42-43}$ we propose that the cage-like nature of 2 affords a measure of geometric protection against such reactions. Consistently, degradation of 2 was indeed observed when solutions were spiked with added proton sources (macroscopic amounts of water or acetic acid)",
+        "start_index": 10394,
+        "end_index": 10886
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Second, we propose that it is an intrinsic geometric feature of small cages that all connected vertices undergo some distortion to accommodate a perturbation at any vertex. The molecular rigidity engendered by this cumulative distortion energy cost may enhance kinetic protection against reaction coordinates involving changes to geometry or coordination number at cage vertices.",
+        "start_index": 10886,
+        "end_index": 11267
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Figure 4. Left: Calculated LUMO of 2 showing a symmetric combination of P-N \u03c3* antibonding orbitals. Middle: Calculated HOMO of 2 showing the lone pairs at the imine N atoms. Right: Molecular electrostatic potential (red denotes negative potential) of 2 mapped upon its 0.025 e\u2212 Bohr isodensity surface.",
+        "start_index": 11267,
+        "end_index": 11570
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The robustness of 2 under a wide range of thermal, solvent, and redox conditions suggests it may be a practically useful scaffold, but only if exo-cage substitution chemistry were possible. The significant localization of the HOMO on the imine N atoms (Figure 4, middle) and the negative electrostatic potential at these sites (Figure 4, right) both underscore the possibility of nucleophilic behaviour, as envisioned in the limiting tetra-anionic representation D",
+        "start_index": 11570,
+        "end_index": 12034
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Silylphosphinimines are known to react with a variety of main group element halides, and we selected phosphorus halides for ease of reaction monitoring.",
+        "start_index": 12034,
+        "end_index": 12188
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Scheme 3. Reactions of 2 with phosphorus halides.",
+        "start_index": 12188,
+        "end_index": 12237
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The reaction of 2 with four equivalents of Ph\u2083PBr\u2082 showed sequential metathesis (see Figure S17, SI, for spectra of intermediates) to yield the fully substituted product \\([\\{(\\text{P(NPPh\u2083)_4(NMe)}_6)[\\text{Br}]_4\\} \\text{(3, Scheme 3)}\\)",
+        "start_index": 12237,
+        "end_index": 12476
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". The \\(^{31}\\text{P}\\) NMR spectrum of the cation shows two resonances of equal integration, corresponding to the expected A\u2084X\u2084 spin system and the \\(^1\\text{H}\\) NMR spectrum confirmed the loss of all silyl resonances",
+        "start_index": 12476,
+        "end_index": 12695
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Single crystal X-ray diffraction unambiguously confirms the molecular structure of 3 in the solid state, but positional disorder arising from four monoatomic anions packing with a 174 atom-large cation significantly mars data quality and precludes discussion of metric parameters (Figure S18, SI)",
+        "start_index": 12695,
+        "end_index": 12993
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". The cation in 3 belongs to the well-known family of bis(phosphino)iminium cations (PPN\u207a cations),\\(^{44}\\) but is the first all P/N example featuring a +4 molecular charge",
+        "start_index": 12993,
+        "end_index": 13166
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ".\\(^{45}\\) Despite this high charge, 3 exhibits no sensitivity towards ambient atmosphere in the solid or solution phases, and, interestingly, also features a LUMO comprised of P-N \u03c3* antibonding orbitals localized primarily inside the cage (Figure S19, SI). Formation of 3 demonstrates that despite the stability of the core, quadruple functionalization on the periphery of 2 is possible to build molecular constructs extending from its central cage motif.",
+        "start_index": 13166,
+        "end_index": 13623
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "![Photographs of a ~1 cm wide piece of 5 as formed from the reaction of 2 with p-nBuPhPCl\u2082 (top), and upon exposure to vacuum (brittle solid) or THF (rubbery solid) for 24 h (bottom).](image)",
+        "start_index": 13623,
+        "end_index": 13814
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Figure 5. Photographs of a ~1 cm wide piece of 5 as formed from the reaction of 2 with p-nBuPhPCl\u2082 (top), and upon exposure to vacuum (brittle solid) or THF (rubbery solid) for 24 h (bottom).",
+        "start_index": 13814,
+        "end_index": 14005
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "We therefore envisioned the use of 2 as a platform for the synthesis of networked materials, as is known for scaffolds A and B. Thus, 2 was combined with two equivalents of p-nBuPhPCl\u2082, which was selected as the electrophile due to the solubilizing nature of the linear butyl chain",
+        "start_index": 14005,
+        "end_index": 14286
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Monitoring the THF solution by \\(^{31}\\text{P}\\) NMR spectroscopy first showed AM\u2083X and A\u2082M\u2082X\u2082 spin systems expected for the mono- and di-substituted cages (4' and 4'', Figure S20, SI). With continued heating, the sharp resonances for these intermediates were replaced by a very broad upfield set, suggesting formation of macromolecular...",
+        "start_index": 14286,
+        "end_index": 14627
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "species. Indeed, the reaction mixture formed a translucent gel over time (compound 5, Figure 5), which was isolated by decanting the mother liquor leaching several times with DCM, and drying under vacuum. Solid state $^{31}$P NMR spectroscopy showed only resonances in the -25 to 55 ppm range, suggesting loss of all P-Cl environments (c.f",
+        "start_index": 14627,
+        "end_index": 14966
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". P-Cl resonances seen in the 140-160 ppm range for 4\u2019 and 4\u201d\u2019, Figure S20, SI). Solid state $^1$H NMR spectroscopy corroborated this view by showing loss of the Me$_3$Si groups, collectively suggesting that exhaustive substitution was achieved to give 5 (Figure S10, SI).",
+        "start_index": 14966,
+        "end_index": 15238
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "The porosity of the gel was confirmed by fully reversible absorption of ca. 100% of its mass in THF at room temperature (Figure 5). The solvent swollen gel is supple, whereas the evacuated solvent-free material is brittle and insoluble in all solvents tested. No evidence of degradation was noted when 5 was exposed to ambient atmosphere for ca. 6 months",
+        "start_index": 15238,
+        "end_index": 15592
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". While polyphosphazenes and cyclophosphazanes have previously been crosslinked by hydrocarbons, thereby unlocking a vast array of hybrid organic-inorganic functional network materials, 46-51 5 is, to the best of our knowledge, the only demonstrably porous material whose skeleton is constructed exclusively from inorganic phosphorus-nitrogen bonds",
+        "start_index": 15592,
+        "end_index": 15940
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". In this context, conversion of 2 to 5 represents a topological generalization of hitherto linear (1D) and cyclic (2D) polyphosphazenes into the cage (3D) dimension.",
+        "start_index": 15940,
+        "end_index": 16106
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "In summary, we have achieved the complete oxidation of 1 to access the new tetrahedral, tetravalent inorganic scaffold 2 that shows high thermal, air, and redox stability due to its unique cage geometry. Despite the robustness of its core, 2 remains amenable to coronal decoration as shown by metathesis reactions yielding four-fold extended molecular constructs such as 3 and new classes of inorganic network materials such as 5",
+        "start_index": 16106,
+        "end_index": 16535
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". The latter is unprecedented as the first porous framework made exclusively from P=N/P-N bonds. These results provide proof-of-principle that a rich molecular or macromolecular covalent chemistry may be built upon this phosphaza-adamantane scaffold, which moreover benefits from the practical convenience of a $^{31}$P NMR spectroscopic handle to accelerate analysis in either the solution or solid phases",
+        "start_index": 16535,
+        "end_index": 16941
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": ". Investigations into more expeditious syntheses of 2, its use as a precursor to new inorganic materials, and applications as a secondary bonding unit in crystalline reticular chemistry are underway.",
+        "start_index": 16941,
+        "end_index": 17140
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "Acknowledgments\n\nWe thank the Natural Sciences and Engineering Research Council of Canada (RGPIN-2018-05574), Canada Foundation for Innovation, American Chemical Society - Petroleum Research Fund (PRF 61870-ND3), and Dalhousie University for research funding. J.B. thanks the Sumner Research Fellowship program for funding. K. L. B. thanks the NSERC Postdoctoral Fellowship program.\nReferences",
+        "start_index": 17140,
+        "end_index": 17533
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "1. Wang, S.; Oldham, W. J.; Hudack, R. A.; Bazan, G. C., *J. Am. Chem. Soc.* **2000**, *122* (24), 5695-5709.\n2. Schilling, C. I.; Br\u00e4se, S., *Org. Biomol. Chem.* **2007**, *5* (22), 3586-3588.",
+        "start_index": 17533,
+        "end_index": 17726
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "3. K\u00f6llner, C.; Pugin, B.; Togni, A., *J. Am. Chem. Soc.* **1998**, *120* (39), 10274-10275.",
+        "start_index": 17726,
+        "end_index": 17818
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "4. Tohma, H.; Maruyama, A.; Maeda, A.; Maegawa, T.; Dohi, T.; Shirou, M.; Morita, T.; Kita, Y., *Angew. Chem. Int. Ed.* **2004**, *43* (27), 3595-3598.",
+        "start_index": 17818,
+        "end_index": 17969
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "5. Vasilyev, M. V.; Astruc, D.; Neumann, R., *Adv. Synth. Catal.* **2005**, *347* (1), 39-44.\n6. Agnew-Francis, K. A.; Williams, C. M., *Adv. Synth. Catal.* **2016**, *358* (5), 675-700.",
+        "start_index": 17969,
+        "end_index": 18155
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "7. Grillaud, M.; Bianco, A., *J. Pept. Sci.* **2015**, *21* (5), 330-345.\n8. Wanka, L.; Iqbal, K.; Schreiner, P. R., *Chem. Rev.* **2013**, *113* (5), 3516-3604.",
+        "start_index": 18155,
+        "end_index": 18316
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "9. Lu, W.; Wei, Z.; Gu, Z.-Y.; Liu, T.-F.; Park, J.; Park, J.; Tian, J.; Zhang, M.; Zhang, Q.; Gentle Iii, T.; Bosch, M.; Zhou, H.-C., *Chem. Soc. Rev.* **2014**, *43* (16), 5561-5593.",
+        "start_index": 18316,
+        "end_index": 18500
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "10. Gunawan, M. A.; Hieros, J.-C.; Poinsot, D.; Fokin, A. A.; Fokina, N. A.; Tkachenko, B. A.; Schreiner, P. R., *New J. Chem.* **2014**, *38* (1), 28-41.",
+        "start_index": 18500,
+        "end_index": 18654
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "11. Cook, T. R.; Zheng, Y.-R.; Stang, P. J., *Chem. Rev.* **2013**, *113* (1), 734-777.\n12. Muller, T.; Br\u00e4se, S., *RSC Advances* **2014**, *4* (14), 6886-6907.",
+        "start_index": 18654,
+        "end_index": 18814
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "13. Kalmutzki, M. J.; Haniel, N.; Yaghi, O. M., *Science Advances* **2018**, *4* (10), eaat1980.",
+        "start_index": 18814,
+        "end_index": 18910
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "14. Kim, J.; Chen, B.; Reineke, T. M.; Li, H.; Eddaoudi, M.; Moler, D. B.; O\u2019Keeffe, M.; Yaghi, O. M., *J. Am. Chem. Soc.* **2001**, *123* (34), 8239-8247.",
+        "start_index": 18910,
+        "end_index": 19065
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "15. N. L.; Kim, J.; Eddaoudi, M.; Chen, B.; O\u2019Keeffe, M.; Yaghi, O. M., *J. Am. Chem. Soc.* **2005**, *127* (5), 1504-1518.",
+        "start_index": 19065,
+        "end_index": 19188
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "16. Kuhn, P.; Thomas, A.; Antonietti, M., *Macromolecules* **2009**, *42* (1), 319-326.\n17. Buyukcakir, O.; Seo, Y.; Coskun, A., *Chem. Mater.* **2015**, *27* (11), 4149-4155.",
+        "start_index": 19188,
+        "end_index": 19363
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "18. K. M.; Chitnis, S. S., *Chem. Commun.* **2020**, *56* (58), 8015-8018.\n19. K. M.; Jee, S.; Chitnis, S. S., *Organometallics* **2020**, *39* (23), 4287-4296.",
+        "start_index": 19363,
+        "end_index": 19523
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "20. Kindervater, M. B.; Marczenko, K. M.; Werner-Zwanziger, U.; Chitnis, S. S., *Angew. Chem. Int. Ed.* **2019**, *58* (23), 7850-7855.",
+        "start_index": 19523,
+        "end_index": 19658
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "21. Marczenko, K. M.; Zurakowski, J. A.; Bamford, K. L.; MacMillan, J. W. M.; Chitnis, S. S., *Angew. Chem. Int. Ed.* **2019**, *58* (50), 18096-18101.",
+        "start_index": 19658,
+        "end_index": 19809
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "22. Marczenko, K. M.; Zurakowski, J. A.; Kindervater, M. B.; Jee, S.; Hynes, T.; Roberts, N.; Park, S.; Werner-Zwanziger, U.; Lumsden, M.; Langelaan, D. N.; Chitnis, S. S., *Chem. Eur. J.* **2019**, *25* (71), 16414-16424.",
+        "start_index": 19809,
+        "end_index": 20031
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "23. Holmes, R. R.; Forstner, J. A., *J. Am. Chem. Soc.* **1960**, *82*, 5509-10.\n24. Holmes, R. R., *J. Am. Chem. Soc.* **1961**, *83* (6), 1334-1336.",
+        "start_index": 20031,
+        "end_index": 20181
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "25. Holmes, R. R.; Forstner, J. A., *Inorg. Chem.* **1963**, *2*, 377-80.\n26. Holmes, R. R.; Forstner, J. A., *Inorg. Synth.* **1966**, *8*, 63-8.",
+        "start_index": 20181,
+        "end_index": 20327
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "27. Riess, J. G.; Casabianca, F.; Pinkerton, A. A., *Inorg. Chim. Acta* **1976**, *17*, L27.\n28. Casabianca, F.; Pinkerton, A. A.; Riess, J. G., *Inorg. Chem.* **1977**, *16* (4), 864-867.",
+        "start_index": 20327,
+        "end_index": 20515
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "29. Casabianca, F.; Riess, J. G., *Synth. React. Inorg. Met.-Org. Chem.* **1983**, *13* (6), 799-803.\n30. Bermann, M.; Van Wazer, J. R., *Inorg. Chem.* **1973**, *12* (9), 2186-2188.",
+        "start_index": 20515,
+        "end_index": 20697
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "31. Riess, J. G.; Wolff, A., *J. Chem. Soc., Chem. Commun.* **1972**, *19*, 1050.\n32. Wolff, A.; Riess, J. G., *Bull. Soc. Chim. Fr.* **1973**, *5* (Pt. 1), 1587-91.",
+        "start_index": 20697,
+        "end_index": 20862
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "33. Schnick, W.; Berger, U., *Angew. Chem.* **1991**, *103* (7), 857-8 (See also Angew. Chem., Int. Ed. Engl., *1991*, *30*(7), 830-1).",
+        "start_index": 20862,
+        "end_index": 20997
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "34. Bertschler, E.-M.; Braeuniger, T.; Dietrich, C.; Janek, J.; Schnick, W., *Angew. Chem., Int. Ed.* **2017**, *56* (17), 4806-4809.",
+        "start_index": 20997,
+        "end_index": 21130
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "35. Bertschler, E.-M.; Dietrich, C.; Leichtweiss, T.; Janek, J.; Schnick, W., *Chem. - Eur. J.* **2018**, *24* (1), 196-205.",
+        "start_index": 21130,
+        "end_index": 21254
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "36. Sato, H.; Tono, T.; Shiratori, T.; Nishida, A. Preparation of silicon compounds as materials for thin film formation and method for manufacturing thin film containing silicon and phosphorus. JP2015054853A, 2015.\n37. Pollice, R.; Chen, P., *Angew. Chem. Int. Ed.* 2019, 58 (29), 9758-9769.",
+        "start_index": 21254,
+        "end_index": 21546
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "38. Wagner, J. P.; Schreiner, P. R., *Angew. Chem. Int. Ed.* 2015, 54 (42), 12274-12296.\n39. Yim, A. S.; Akhtar, M. H.; Unrau, A. M.; Oehlschlager, A. C., *Can. J. Chem.* 1978, 56 (3), 289-296.",
+        "start_index": 21546,
+        "end_index": 21739
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "40. Matni, A.; Boubekeur, L.; Mezailles, N.; Le Floch, P.; Geoffroy, M., *Chem. Phys. Lett.* 2005, 411 (1), 23-27.",
+        "start_index": 21739,
+        "end_index": 21853
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "41. Matni, A.; Boubekeur, L.; Grosshans, P.; Mezailles, N.; Bernardinelli, G.; Le Floch, P.; Geoffroy, M., *Magn. Reson. Chem.* 2007, 45 (12), 1011-1017.",
+        "start_index": 21853,
+        "end_index": 22006
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "42. Abel, E. W.; Mucklejohn, S. A., *Phosphorus and Sulfur and the Related Elements* 1981, 9 (3), 235-266.\n43. Bednarek, C.; Wehl, I.; Jung, N.; Schepers, U.; Br\u00e4se, S., *Chem. Rev.* 2020, 120 (10), 4301-4354.",
+        "start_index": 22006,
+        "end_index": 22215
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "44. Appel, R.; Hauss, A., *Z. Anorg. Allg. Chem.* 1961, 311 (5-6), 290-301.\n45. Lacour, J.; Vial, L.; Bernardinelli, G., *Org. Lett.* 2002, 4 (14), 2309-2312.",
+        "start_index": 22215,
+        "end_index": 22373
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "46. Laurencin, C. T.; El-Amin, S. F.; Ibim, S. E.; Willoughby, D. A.; Attawia, M.; Allcock, H. R.; Ambrosio, A. A., *Journal of Biomedical Materials Research* 1996, 30 (2), 133-138.",
+        "start_index": 22373,
+        "end_index": 22554
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "47. Silva Nyk\u00e4nen, V. P.; Nyk\u00e4nen, A.; Puska, M. A.; Silva, G. G.; Ruokolainen, J., *Soft Matter* 2011, 7 (9), 4414-4424.\n48. Wu, Z.; Zhao, Y.; Zhang, L.; Wang, X., *Macromolecular Materials and Engineering* n/a (n/a), 2100349.",
+        "start_index": 22554,
+        "end_index": 22781
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "49. Rothemund, S.; Aigner, T. B.; Iturmendi, A.; Rigau, M.; Hus\u00e1r, B.; Hildner, F.; Oberbauer, E.; Prambauer, M.; Olawale, G.; Forstner, R.; Liska, R.; Schr\u00f6der, K. R.; Br\u00fcggemann, O.; Teasdale, I",
+        "start_index": 22781,
+        "end_index": 22977
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "., *Macromolecular Bioscience* 2015, 15 (3), 351-363.",
+        "start_index": 22977,
+        "end_index": 23030
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "50. Rothemund, S.; Teasdale, I., *Chem. Soc. Rev.* 2016, 45 (19), 5200-5215.",
+        "start_index": 23030,
+        "end_index": 23106
+    },
+    {
+        "document_name": "46.txt",
+        "chunk_text": "51. Wei, X.; Zheng, D.; Zhao, M.; Chen, H.; Fan, X.; Gao, B.; Gu, L.; Guo, Y.; Qin, J.; Wei, J.; Zhao, Y.; Zhang, G., *Angew. Chem. Int. Ed.* 2020, 59 (34), 14639-14646.",
+        "start_index": 23106,
+        "end_index": 23275
+    }
+]

@@ -1,0 +1,986 @@
+[
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Impact of Fermentation Duration on the Nutritional, Anti-Nutritional, and Functional Characteristics of *Colocasia Esculenta*.\n\nChikelu Oiyechukwu Elizabeth\u00b9, Udeh Juliet Nnenna\u00b2, Ugwu Vivian Chiamaka\u00b2.\n\n\u00b9Department of Applied Biochemistry, Faculty of Applied Natural Sciences, Enugu State University of Science and Technology, Nigeria.",
+        "start_index": 0,
+        "end_index": 336
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "\u00b2Department of Food Science and Technology, Faculty of Agriculture and Natural Resources, Enugu State University of Science and Technology, Nigeria.\n\n**ABSTRACT**",
+        "start_index": 336,
+        "end_index": 498
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "This study investigated the effect of fermentation on the nutrient, anti-nutrient, and functional properties of cocoyam (*Colocasia esculenta*) flour at different time intervals. The tubers of *Colocasia esculenta* were processed and fermented at varying durations (24, 48, 72, and 96 hours), while an unfermented sample was retained as a control for comparative analysis",
+        "start_index": 498,
+        "end_index": 869
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Subsequently, the fermented tubers were oven-dried at 65\u00b0C for 8 hours and milled into flour. Proximate composition, anti-nutritional factors and functional properties of the fermented and unfermented cocoyam flours were then evaluated. Results revealed an increase in Crude protein (15.11 to 19.81%) and carbohydrate levels (71.57 to 75.9%) with corresponding increase in fermentation time",
+        "start_index": 869,
+        "end_index": 1261
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". While there was a reduction in moisture content (8.56 to 3.18%), crude fat (1.20 to 0.40%), fibre (0.73 to 0.21%) and ash content (2.87 to 0.49%) with corresponding increase in fermentation time. Anti-nutritional factors of fermented samples also reduced in a time-dependent manner. The result of the functional properties showed increase in water absorption capacity (0.27 to 0",
+        "start_index": 1261,
+        "end_index": 1641
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ".87g/g), while a decrease was observed in bulk density (0.68 to 0.56g/ml), oil absorption capacity (3.47 to 1.04g/g), gelation temperature (85.35 to 83.92\u00b0C) and foaming capacity (15.54 to 9.52%). These changes suggest that fermentation can improve the nutritional quality and functionality of cocoyam flour, making it suitable for various food applications.",
+        "start_index": 1641,
+        "end_index": 1999
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "*Keywords: Colocasia esculenta; flour; Fermentation; Nutritional quality; Functional properties; Anti-nutritional factors; Food processing.*\nINTRODUCTION.",
+        "start_index": 1999,
+        "end_index": 2153
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Fermentation remains a widely adopted food processing technique, recognized for its benefits in enhancing food's nutritional profile, extending shelf life, and supporting human health via probiotics (Anal, 2019; Baruah et al., 2022). The concept of fermentation has been described from different perspectives. In the context of food production, it refers to the process by which microorganisms effect desirable changes in food products or drinks (Aregheore & Perera, 2003)",
+        "start_index": 2153,
+        "end_index": 2625
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". In biochemistry, fermentation is precisely defined as the energy-yielding metabolic process that occurs in the absence of oxygen, utilizing carbohydrates as the energy source. In microbiology, fermentation serves as the main mechanism for producing ATP, achieved through the anaerobic degradation of organic nutrients (Klein et al., 2006). Globally, fermented foods play an important role in human nutrition, accounting for approximately 20-40% of the world's food supply (Fagbemi et al",
+        "start_index": 2625,
+        "end_index": 3113
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "., 2005). It is widely regarded as an effective food processing method that not only boosts nutrient content and sensory characteristics, but also minimizes the risk of contamination from pathogens and toxins (Abegaz et al., 2002; Hasan et al., 2014). During fermentation processes, the chemical composition of raw materials is significantly altered, with changes occurring in its content, inclusive of its mineral elements and vitamins",
+        "start_index": 3113,
+        "end_index": 3549
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The type of compounds formed during fermentation depends on the type of microorganisms involved; for instance, some bacteria synthesizes vitamins such as vitamin B and C, during fermentation process, resulting in a more nutritious fermented food product. (Melini et al., 2019; Grzelakowska et al., 2013)",
+        "start_index": 3549,
+        "end_index": 3854
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". As a result of its numerous benefits, fermentation has attracted significant research attention from food technologists around the world (El Sheikha & Hu, 2020).",
+        "start_index": 3854,
+        "end_index": 4017
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Cocoyam (Colocasia esculenta) is a root crop grown in the tropics. It is recognized for its immense importance, and cultivated primarily for its starchy corms or underground stem (Si et al., 2018). With a history dating back thousands of years, it is considered one of the oldest cultivated plants globally (Brown, 2000)",
+        "start_index": 4017,
+        "end_index": 4337
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". This perennial crop is often grown as an annual, and its significance extends to its role as a staple crop in Pacific Islands, Asia, and Africa (Kreike et al., 2004; Aguegui et al., 1992). In most African countries, cocoyam ranks third in importance among root and tuber crops, after cassava and yam (Onyeka, 2014)",
+        "start_index": 4337,
+        "end_index": 4653
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". It possesses a high nutritional value, recognized to contain substantial vitamins, minerals, and protein, making it an excellent source of energy and dietary fiber. As a staple food, cocoyam act as a good source in providing essential nutrients, making it a crucial component of the diet in many cultures (Lebot et al., 2004; Ahmed et al., 2020)",
+        "start_index": 4653,
+        "end_index": 5000
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Colocasia esculenta is been employed in producing floury starch suitable for use in composites mixture for food preparation. Although Colocasia esculenta possesses these nutritional benefits, its consumption has been limited due to the presence some anti-nutrient factors such as oxalate, tannins, phytate, and saponins, which though have been found therapeutic, are harmful in when consumed in high levels. (L\u00f3pez-Moreno, 2022)",
+        "start_index": 5000,
+        "end_index": 5430
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The oxalate content, in particular, can cause significant discomfort, resulting in irritation and a burning sensation in the throat and mouth (Enomfon-Akpan & Umoh, 2004). Previous research has revealed that fermentation process offers a means of eliminating or reducing these toxic substances in food, including phytic acid, which can bind to essential minerals, and heavy metals, thereby improving food safety and quality (Raj et al., 2013)",
+        "start_index": 5430,
+        "end_index": 5874
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Therefore, this present study aim at determining the effect of fermentation on the nutrient, anti-nutrient and functional properties of cocoyam flour at different time intervals, utilizing traditional fermentation method.",
+        "start_index": 5874,
+        "end_index": 6097
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "METHODS",
+        "start_index": 6097,
+        "end_index": 6104
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Source of Materials\nWholesome cocoyam cormels (*Colocasia Esculenta*) were purchased from a local market in Enugu and transported to the University of Nigeria, Nsukka's processing laboratory for analysis. Other materials utilized includes stainless steel knives, basins, and standard analytical-grade chemical reagents.",
+        "start_index": 6104,
+        "end_index": 6423
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Preparation of Raw Materials",
+        "start_index": 6423,
+        "end_index": 6451
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Eight kilograms of cocoyam tubers were washed, peeled, and sliced into 0.2mm thick pieces using a stainless steel knife. The sliced cocoyam was divided into five portions. The first portion was not fermented, then the four portions left were subjected to natural fermentation using ionized water (1:3 w/v) at 25\u00b0C for varying durations (24, 48, 72, and 96 hours)",
+        "start_index": 6451,
+        "end_index": 6813
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Each portion was dried at 50\u00b0C for 8 hours in a Gallenkamp oven and then milled.",
+        "start_index": 6813,
+        "end_index": 6895
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Experimental Protocol\nThe cocoyam flour samples were categorized into five (5) groups.\nA = unfermented cocoyam flour (Control)\nB = fermented cocoyam flour (24hrs)\nC = fermented cocoyam flour (48hrs)\nD = fermented cocoyam flour (72hrs)\nE = fermented cocoyam flour (96hrs)\n\nProximate Composition Analysis.",
+        "start_index": 6895,
+        "end_index": 7198
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Moisture Content\nMoisture content was determined using the gravimetric method (James, 1995). Samples were dried to constant weight, and moisture content was calculated as a percentage of the initial sample weight.\n\nCrude Protein Content\nCrude protein content was determined using the Kjeldahl method (Muhammed et al., 1979). Total nitrogen was determined and multiplied by 6.25 to obtain protein content.",
+        "start_index": 7198,
+        "end_index": 7602
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ash Content\nAsh content was determined using the furnace incineration gravimetric method (James, 1995). Samples were incinerated at 550\u00b0C for 5 hours, and ash content was calculated as a percentage of the initial sample weight.",
+        "start_index": 7602,
+        "end_index": 7829
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Crude Fiber Content\nCrude fiber content was determined using the Weende method (James, 1995). Samples were boiled in acid and alkali solutions, washed, and dried to constant weight. The Crude fiber content was then calculated as a percentage of the initial sample weight.",
+        "start_index": 7829,
+        "end_index": 8100
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Crude Fat Content\nCrude fat content was determined using the solvent extraction gravimetric method (Gabriel et al., 1986). Samples were extracted with hexane, and crude fat content was calculated as a percentage of the initial sample weight.\n\nCarbohydrate Content\nCarbohydrate content was calculated by difference using the formula described by James (1995).",
+        "start_index": 8100,
+        "end_index": 8458
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Anti-nutrient analysis",
+        "start_index": 8458,
+        "end_index": 8480
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Phytate content was determined by extraction with 24% HCl, filtered, and its absorbance was then measured at 520nm. Tannin content was determined by maceration with methanol, filtration, and absorbance measurement at 720nm. Oxalate content was determined by extraction with 30% HCl, filtrated, and then titrated with 0.1M KMnO4",
+        "start_index": 8480,
+        "end_index": 8807
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Saponin content was determined using the method described by Obadoni and Ochuko (2001), which involved...",
+        "start_index": 8807,
+        "end_index": 8914
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "extraction of the samples with 20% ethanol, purification with diethyl ether and n-butanol, and evaporation to dryness",
+        "start_index": 8914,
+        "end_index": 9031
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "**Functional Properties**\n\n**Bulk density**\n\nBulk density was determined by the method described by Narayana and Narasinga (1984). Ten grams of each sample was weighed and placed in a 25ml graduated measuring cylinder, marked as W1. To eliminate spaces between the flour samples, the sample was gently tapped and reweighed, then marked as W2. Calculation: Bulk Density (g/ml) = W1 \u2013 W2/Volume of sample after tapping.",
+        "start_index": 9031,
+        "end_index": 9448
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "**Water absorption capacity.**",
+        "start_index": 9448,
+        "end_index": 9478
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Water absorption capacity was determined by the method described by Sefa-Dedeh *et al.* (2004). This involved mixing 5g of each sample with 30ml of distilled water at temperatures of 25\u00b0C and 70\u00b0C. The mixture was stirred, allowed to stand for 30 minutes, and then centrifuged at 3000 rpm for 15 minutes. The supernatant was then decanted, and the increase in weight was noted",
+        "start_index": 9478,
+        "end_index": 9854
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The water absorption capacity was then calculated as the grams of water bound per gram of sample.",
+        "start_index": 9854,
+        "end_index": 9953
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "**Oil absorption capacity.**",
+        "start_index": 9953,
+        "end_index": 9981
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Oil Absorption Capacity (OAC) was determined using a modified method (Kaushal *et al.*, 2012) based on the method of Lin *et al.* (1974). 0.5g sample was mixed with 6ml of corn oil in a pre-weighed centrifuge tube. The mixture was stirred with a brass wire for 1 minute, then left to stand for 30 minutes",
+        "start_index": 9981,
+        "end_index": 10285
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". After centrifugation (3000 rpm, 25 minutes), the separated oil was removed and the tube was drained for 25 minutes before reweighing. OAC was calculated as the grams of oil bound per gram of sample (dry basis).",
+        "start_index": 10285,
+        "end_index": 10497
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "**Foaming capacity**\n\nFoaming capacity was determined according to the method reported by Coffman and Garcia (1977). This was done by whipping 2g of each sample with 100ml of distilled water for 15 minutes. The total volume was measured at time intervals of 0, 0.25, 0.5, 1, 1.5, 2, 3, and 4 hours. Foaming capacity was then calculated as percentage.",
+        "start_index": 10497,
+        "end_index": 10847
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "**Gelation temperature**",
+        "start_index": 10847,
+        "end_index": 10871
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The gelation temperature was determined according to the method of AOAC (2006), as described by Onwuka (2018). A mixture of 10g of each cocoyam flour sample and 100ml distilled water was prepared in a 250ml beaker. A thermometer was submerged in the suspension, secured by a retort stand, and a magnetic stirrer was used to heat and stir the mixture continuously, until it began to gel",
+        "start_index": 10871,
+        "end_index": 11256
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The temperature at which it began to gel was recorded.",
+        "start_index": 11256,
+        "end_index": 11312
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "RESULT AND DISCUSSION",
+        "start_index": 11312,
+        "end_index": 11333
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Proximate Composition",
+        "start_index": 11333,
+        "end_index": 11354
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The results of Table 1 show the effect of fermentation on the proximate composition of the cocoyam flour samples. The result revealed that the unfermented cocoyam flour (Sample A) has a greater moisture content compared to all other fermented samples. Specifically, the moisture content decreased as fermentation time increased. The reduction in moisture content can be attributed to the activity of Microorganisms that promotes fermentation",
+        "start_index": 11354,
+        "end_index": 11795
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Consequently, the moisture present aids in water availability, nutrient solubility, cell membrane function, enzyme activity, and pH buffering, all of which are essential for microbial metabolism and growth (Ashenafi, 2008).",
+        "start_index": 11795,
+        "end_index": 12020
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Protein is an important component of every cell in the body. Notably, the body utilizes protein in the production of enzymes, hormones and other body chemicals. It is an important building block of bones, muscle, cartilage, skin and blood. (Shakuntala et al., 1987). Protein content is often estimated indirectly through its nitrogen content, giving rise to the term \"crude protein\"",
+        "start_index": 12020,
+        "end_index": 12402
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". From the result protein content of the sample was also found to increase with increased fermentation time, ranging from 15.11 \u00b1 0.22 in the unfermented sample to 19.81 \u00b1 0.57, in the 96hrs fermented flour sample",
+        "start_index": 12402,
+        "end_index": 12615
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". This significant increase in protein content during fermentation can be as a result of the increase in the mass of microbes present, leading to microbial synthesis of new proteins and increase protein hydrolysis, in which fermentation enzymes break down complex proteins into simpler peptides and amino acids (Tortora et al., 2002). The values for the crude protein composition (15.11-19.81%) reported in this studies are much higher than (4.93-5",
+        "start_index": 12615,
+        "end_index": 13063
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ".17%) reported by Ogunlakin et al. (2012). These variations may be attributed to differences in species, climatic and other environmental factors where the cocoyam was grown and also the condition of processing cocoyam flour. (Mosse and Baudet, 1983).",
+        "start_index": 13063,
+        "end_index": 13314
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The crude fat content of the samples also decreased with prolonged fermentation time. This decline can be due to the physiological and biochemical changes that occur during fermentation, which utilize lipids as an energy source. It could also be due to the breakdown of fatty acids and glycerol by fermenting microbes (Ojokoh & Bello, 2014), which can enhance the shelf life of fermented flour sample and minimize the risk of rancidity",
+        "start_index": 13314,
+        "end_index": 13749
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Low fat diet, specifically with reduced Low Density Lipoprotein (LDL) and saturated fatty acid, may help the body ward off serious medical conditions including cardiovascular diseases and diabetes. (Upadhyay, 2015; Cromwell et al., 2007).",
+        "start_index": 13749,
+        "end_index": 13989
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The fibre content of all samples was relatively low, indicating that the flour is not a rich source of fibre. As fermentation time increased, the fibre content decreased further. This decrease in fibre content can be attributed to the activities of microorganisms, which convert carbohydrates and lignocelluloses into protein. This finding is consistent with previous studies by Adane et al. (2013), who reported similar observations in processed cocoyam flours",
+        "start_index": 13989,
+        "end_index": 14450
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Dietary fibre plays a crucial role in maintaining digestive health and promoting regular bowel movement. It aids in keeping the body feel full for longer time, improves cholesterol and blood sugar levels, and aids in preventing diseases such as diabetes and bowel cancer. (Rao et al., 2015, Weickert et al., 2011; Threapleton et al., 2013).",
+        "start_index": 14450,
+        "end_index": 14792
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The Ash content of the samples reduced as fermentation time increased. This result agrees with previous report by Atti (2000) in fermented millet. The higher ash content in the control sample indicates that minerals are more readily available in unfermented samples compared to fermented ones.",
+        "start_index": 14792,
+        "end_index": 15085
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "In addition, there was percentage increase in carbohydrate content of the samples with fermentation time. This is contrary to the findings of Igbabul et al. (2014), in their studies on fermentation in cocoyam. The observed increase in carbohydrate content with fermentation time may be attributed to the breakdown of starch into soluble and reducing sugars, enhancing bioavailability (Osman, 2011; Belay and Awraris, 2014)",
+        "start_index": 15085,
+        "end_index": 15507
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Alternatively, this apparent increase could be a consequence of moisture loss during fermentation.",
+        "start_index": 15507,
+        "end_index": 15607
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Table 1. Percentage (%) Proximate composition of cocoyam (Colocasia esculenta) flours.",
+        "start_index": 15607,
+        "end_index": 15693
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Parameters     | A         | B         | C         | D         | E         |\n|----------------|-----------|-----------|-----------|-----------|-----------|\n| Moisture       | 8.56 \u00b1 0.43 | 6.32 \u00b1 0.47 | 5.27 \u00b1 0.33 | 4.29 \u00b1 0.33 | 3.18 \u00b1 0.21 |",
+        "start_index": 15693,
+        "end_index": 15939
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Crude protein  | 15.11 \u00b1 0.22 | 17.25 \u00b1 0.44 | 18.25 \u00b1 0.71 | 19.31 \u00b1 0.71 | 19.81 \u00b1 0.57 |",
+        "start_index": 15939,
+        "end_index": 16032
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Crude fat      | 1.20 \u00b1 0.91  | 1.10 \u00b1 0.75  | 0.55 \u00b1 0.31  | 0.44 \u00b1 0.61  | 0.40 \u00b1 0.42  |",
+        "start_index": 16032,
+        "end_index": 16125
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Crude fibre    | 0.73 \u00b1 0.11  | 0.51 \u00b1 0.66  | 0.42 \u00b1 0.77  | 0.29 \u00b1 0.17  | 0.21 \u00b1 0.51  |",
+        "start_index": 16125,
+        "end_index": 16218
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Ash            | 2.87 \u00b1 0.67  | 1.75 \u00b1 0.51  | 1.00 \u00b1 0.11  | 0.51 \u00b1 0.22  | 0.49 \u00b1 0.49  |",
+        "start_index": 16218,
+        "end_index": 16311
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Carbohydrate   | 71.57 \u00b1 0.44 | 73.07 \u00b1 0.22 | 74.51 \u00b1 0.17 | 75.16 \u00b1 0.55 | 75.91 \u00b1 0.1  |",
+        "start_index": 16311,
+        "end_index": 16404
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Values are mean triplicate result.\n\nProximate Composition",
+        "start_index": 16404,
+        "end_index": 16461
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Antinutrients refers to a group of compounds naturally present in plant or Animal-based foods, which includes oxalates, phytates, saponins, and tannins. These compounds are believed to potentially restrict the bioavailability of essential nutrients in the body. Though, research suggests that these antinutrients may also have health-promoting effects, which highlights their role in human nutrition. (Gibson et al., 2018; Gautam et al",
+        "start_index": 16461,
+        "end_index": 16896
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "., 2020).",
+        "start_index": 16896,
+        "end_index": 16905
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "From the results, the fermentation process was found to reduce the phytate content of the flour samples in a time-dependent manner, from 138.50 \u00b1 0.11 to 95.22 \u00b1 0.3 mg/g in 96 hours",
+        "start_index": 16905,
+        "end_index": 17087
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The observed decrease in phytate content can be attributed to the enzymatic activity of endogenous phytase, derived from the raw ingredients and inherent microorganisms, which hydrolyzes phytic acid into inositol and orthophosphate (Sandberg & Andlid, 2002)",
+        "start_index": 17087,
+        "end_index": 17346
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". This Phytic acid is known to chelate mono or divalent minerals such as iron, zinc, magnesium, and calcium, thereby making them less bioavailable (Feil, 2001). While Phytic acid is generally considered a beneficial phytochemical, possessing antioxidant properties and potential protective effects against kidney stone formation and certain types of cancer (Bohn et al. 2008), its reduction in fermented foods can enhance mineral bioaccessibility.",
+        "start_index": 17346,
+        "end_index": 17793
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "The percentage Tannin content of the samples reduced as fermentation time increased. Tannins form complexes with proteins and certain minerals, particularly iron, rendering them unavailable for human nutrition. According to Tinko and Uyano (2001), foods rich in tannins are considered to be of low nutritional value because they precipitate proteins, inhibit digestive enzymes, and impair iron absorption, ultimately affecting the utilization of vitamins and minerals in food.",
+        "start_index": 17793,
+        "end_index": 18269
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Cocoyam's potential as a food source is sometimes discouraged by its high oxalate content. These Oxalates impart a sharp, acrid taste and can cause irritation when consumed. Ingesting oxalate-rich foods has been linked to adverse effects, including caustic damage, intestinal tract irritation, and absorptive poisoning. They as well compromise calcium bioavailability, posing a nutritional concern (Sefa-Dedeh et al., 2004)",
+        "start_index": 18269,
+        "end_index": 18692
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The result of this study revealed that the oxalate content of the samples reduced as fermentation time increased. This reduction of oxalate content in fermented cocoyam may be as a result of the breakdown of insoluble calcium-bound oxalate into soluble oxalate, facilitated by the decreased pH during lactic acid fermentation. This change in oxalate solubility may have contributed to the observed reduction in oxalate content. (Simpson et al., 2009)",
+        "start_index": 18692,
+        "end_index": 19144
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ".",
+        "start_index": 19144,
+        "end_index": 19145
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Furthermore, the study showed that the saponins content of the samples decreased as fermentation time increased. This anti-nutrient has been implicated in the haemolysing of red blood cell, releasing haemoglobin into the surrounding fluid and can interfere with normal nutrient absorption (Baumann et al., 2000)",
+        "start_index": 19145,
+        "end_index": 19456
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Though, aside those effect, it has been found to possess diverse pharmacological properties, including antifungal, anthelmintic, anti-inflammatory, cholesterol-lowering, and blood sugar-reducing activities (Francis et al., 2002; Netala et al., 2014; Podolak et al., 2010)",
+        "start_index": 19456,
+        "end_index": 19729
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". However, the reduction in saponins content as a result of fermentation may be beneficial in improving the nutritional quality and safety of the cocoyam flour for human consumption.",
+        "start_index": 19729,
+        "end_index": 19911
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "### Table 2: Anti-nutritional factors of cocoyam (Colocasia esculenta) flour in (mg/g)",
+        "start_index": 19911,
+        "end_index": 19997
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Parameters | A        | B        | C        | D        | E        |\n|------------|----------|----------|----------|----------|----------|\n| Phytate (mg/g) | 138.50 \u00b1 0.11 | 109.2 \u00b1 0.55 | 101.45 \u00b1 0.22 | 97.64 \u00b1 0.17 | 95.22 \u00b1 0.3 |",
+        "start_index": 19997,
+        "end_index": 20231
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Tannins (%) | 0.92 \u00b1 0.05 | 0.79 \u00b1 0.21 | 0.71 \u00b1 0.31 | 0.69 \u00b1 0.25 | 0.63 \u00b1 0.2 |",
+        "start_index": 20231,
+        "end_index": 20315
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Oxalate (%) | 0.97 \u00b1 0.01 | 0.52 \u00b1 0.17 | 0.43 \u00b1 0.81 | 0.30 \u00b1 0.21 | 0.19 \u00b1 0.11 |",
+        "start_index": 20315,
+        "end_index": 20400
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Saponins (%) | 0.81 \u00b1 0.09 | 0.32 \u00b1 0.19 | 0.28 \u00b1 0.11 | 0.11 \u00b1 0.15 | 0.09 \u00b1 0.91 |",
+        "start_index": 20400,
+        "end_index": 20486
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Values are mean triplicate result.\n\n### Functional Properties.",
+        "start_index": 20486,
+        "end_index": 20548
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Functional properties refers to the key physicochemical characteristics that mediate the complex interplay between a food's composition, structural arrangement, and molecular configuration (Suresh & Samsher, 2013). They determine how a food will perform during processing, cooking, and consumption, influencing the final product's appearance, texture, and flavor",
+        "start_index": 20548,
+        "end_index": 20910
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". These functional properties of foods and flours are determined by their composition, including carbohydrates, proteins, fats, oils, moisture, fibre, ash, and added ingredients or food additives, as well as the structural arrangement of these components. (Awuchi et al., 2019).",
+        "start_index": 20910,
+        "end_index": 21188
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Table 3 shows the effect of fermentation on the functional properties of cocoyam flour. Bulk density is a parameter in food processing, as it influences the packaging requirements, textural attributes, and overall mouthfeel of the final product (Wilhelm et al., 2004; Oloyede et al., 2016)",
+        "start_index": 21188,
+        "end_index": 21477
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". A lower bulk density is particularly desirable in infant foods to ensure effortless swallowing, reducing the risk of choking or asphyxiation (Ikujenlola and Adurotoye, 2014).",
+        "start_index": 21477,
+        "end_index": 21653
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Fermentation has been utilized as a traditional method for reducing the bulk density of weaning foods, rendering them more suitable for infant nutrition (Desikachar, 1980; Singh et al., 2012). In this study, the bulk density of cocoyam flour reduced after 48 hours of fermentation. This finding suggests that fermentation can be leveraged to modulate the bulk density of cocoyam flour, thereby enhancing its functionality and suitability for various food applications.",
+        "start_index": 21653,
+        "end_index": 22121
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Contrary to the findings of Igbabul, et al. (2014) the water absorption capacity of the flour displayed a significant increase ranging from 0.27 \u00b1 0.14 to 0.87 \u00b1 0.13g/g, while the oil absorption capacity decreased from 3.47 \u00b1 0.16 to 1.04 \u00b1 0.31g/g, in the unfermented sample to the 96hrs fermented flour sample",
+        "start_index": 22121,
+        "end_index": 22433
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". The basic constituents of flour such as starch, non-starch polysaccharides, protein content, total and water-extractable content, and flour particle size forms its water (or oil) absorption capacity (Sapirstein et al., 2018)",
+        "start_index": 22433,
+        "end_index": 22659
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". Specifically, the observed increase in water absorption capacity of cocoyam flour with fermentation time may be due to the breakdown of peptide bonds (proteins) by microbial enzymes, leading to the exposure of more polar groups and enhanced hydrophilicity of proteins. This increase in hydrophilicity...",
+        "start_index": 22659,
+        "end_index": 22964
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "likely contributed to the higher water absorption capacity of the fermented cocoyam flour (Beuchat, 1976).",
+        "start_index": 22964,
+        "end_index": 23070
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "This increase in water absorption is evident in the reduction of gelation temperature (85.35 \u00b1 0.13\u00b0C to 83.92 \u00b1 0\u00b0C), due to its increase in hydrophilicity and water absorption capacity enabling it to form a gel-like structure more easily at a lower temperature. This is contrary to the findings of Igbabul et al. (2014), in which a decrease in gelation temperature and increased viscosity in fermented cocoyam flour was also observed",
+        "start_index": 23070,
+        "end_index": 23505
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ".",
+        "start_index": 23505,
+        "end_index": 23506
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Foaming capacity of the cocoyam flour also decreased as expected due to the changes in the protein structure and configuration that occurred during fermentation. Foaming capacity is highly dependent on the configuration and nature of protein molecules. Flexible proteins typically have good foaming capacity, as they can easily unfold and rearrange to form a stable foam structure (Ibeanu et al., 2016).",
+        "start_index": 23506,
+        "end_index": 23909
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Table 3: Functional properties of unfermented and fermented cocoyam (Colocasia esculenta) flour",
+        "start_index": 23909,
+        "end_index": 24004
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Parameter                        | Parameter Value |\n|----------------------------------|-----------------|\n| Bulk density (g/ml)              | 0.68 \u00b1 0.09     |\n| Water absorption capacity (g/g)  | 0.27 \u00b1 0.14     |\n| Oil absorption capacity (g/g)    | 3.47 \u00b1 0.16     |",
+        "start_index": 24004,
+        "end_index": 24278
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "| Gelation temperature (\u00b0C)        | 85.35 \u00b1 0.13    |\n| Foaming capacity (%)             | 15.54 \u00b1 0.24    |",
+        "start_index": 24278,
+        "end_index": 24387
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Values are mean triplicate result.\n\nCONCLUSION",
+        "start_index": 24387,
+        "end_index": 24433
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Conclusively, proximate nutrient of Colocasia esculenta was higher in crude protein and carbohydrate as fermentation time increased. Antinutrient factors were also highly reduced to safe levels as fermentation time increased. Increase in fermentation time resulted to decrease in moisture content, crude fibre, crude fat, and ash content. Water absorption capacity of fermented cocoyam increased markedly. Bulk density, oil absorption capacity and gelation temperature reduced with increase in fermentation time.",
+        "start_index": 24433,
+        "end_index": 24945
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "These changes suggest that fermentation can be a valuable processing technique for improving the nutritional quality and functionality of cocoyam flour, making it a more suitable ingredient for various food applications.\n\nFurther research is needed on the microorganisms associated with fermentation, and investigating the development of a starter culture to optimize the fermentation process, with the aim of further reducing its oxalate content and improving other physicochemical properties of cocoyam flour.\nREFERENCES.",
+        "start_index": 24945,
+        "end_index": 25468
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Abegaz, K., Beyene, F., Langsrud, T., & Narvhus, J. A. (2002). Indigenous processing methods and raw materials of borde, an Ethiopian traditional fermented beverage. *Journal of Food Technology in Africa, 7*, 59\u201364.",
+        "start_index": 25468,
+        "end_index": 25683
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Adane T. G., Shimelis A. E., Negussie R., & Berhanu T. (2013). Effect of processing method on the proximate composition, mineral content and antinutritional factors of taro (*Colocasia esculenta* L.) grown in Ethiopia. *African Journal of Food, Agriculture, Nutrition and Development, 13*(2), 7383\u20137398.",
+        "start_index": 25683,
+        "end_index": 25986
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Aguegui, A., Fatokun, C. A., & Haln, S. K. (1992). Protein analysis of ten cocoyam, *Xanthosoma sagittifolium* (L). Schott and *Colocasia esculenta* (L.) Schott genotypes",
+        "start_index": 25986,
+        "end_index": 26156
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". In *Root Crops for Food Security in Africa, Proceedings of the 5th Triennial Symposium*; International Society for Tropical Root Crops\u2013Africa Branch (ISTRC-AB): Kampala, Uganda, p. 348.",
+        "start_index": 26156,
+        "end_index": 26343
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ahmed, I., Lockhart, P. J., Agoo, E. M., Naing, K. W., Nguyen, D. V., Medhi, D. K., & Matthews, P. J. (2020). Evolutionary origin of taro (*Colocasia esculenta*) in Southeast Asia. *Ecology and Evolution, 10*, 1\u201314.",
+        "start_index": 26343,
+        "end_index": 26558
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Anal, A. K. (2019). Quality ingredients and safety concerns for traditional fermented foods and beverages from Asia: A review. *Fermentation, 5*, 8.\n\nAOAC. (2006). *Official Methods of Analysis* (15th ed.). Gaithersburg, Washington, DC, USA, pp. 78-90.",
+        "start_index": 26558,
+        "end_index": 26810
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Aregheore, E., & Perera, D. (2003). Dry matter, nutrient composition and palatability/acidity of eight cultivars of cocoyam taro (*Colocasia esculenta*) in Samoa. *Plant Foods for Human Nutrition, 58*, 1-8.",
+        "start_index": 26810,
+        "end_index": 27016
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ashenafi, M. (2008). Review article: A review on the microbiology of indigenous fermented foods and beverages of Ethiopia. *Ethiopian Journal of Biological Sciences, 5*(2), 189-245.",
+        "start_index": 27016,
+        "end_index": 27197
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Awuchi, C. G., Igwe, V. S., & Echeta, C. K. (2019). The functional properties of foods and flours. *International Journal of Advanced Academic Research, 5*, 39\u201310.",
+        "start_index": 27197,
+        "end_index": 27360
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Baruah, R., Ray, M., & Halami, P. M. (2022). Preventive and therapeutic aspects of fermented foods. *Journal of Applied Microbiology, 132*, 3476\u20133489.",
+        "start_index": 27360,
+        "end_index": 27510
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Baumann, E., Stoya, G., V\u00f6lkner, A., Richter, W., Lemke, C., & Linss, W. (2000). Hemolysis of human erythrocytes with saponin affects the membrane structure. *Acta Histochemica, 102*, 21\u201335.",
+        "start_index": 27510,
+        "end_index": 27700
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Belay, B., & Awraris, W. (2014). Fermenter technology modification changes microbiological and physico-chemical parameters, improves sensory characteristics in the fermentation of Tella: An Ethiopian traditional fermented alcoholic beverage. *Journal of Food Processing & Technology, 5*.\n\nBeuchat, L. R. (1976). Fungal fermentation of peanut cake. *Economic Botany, 30*, 227\u2013234.",
+        "start_index": 27700,
+        "end_index": 28079
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Bohn, L., Meyer, A. S., & Rasmussen, S. K. (2008). Phytate: Impact on environment and human nutrition. A challenge for molecular breeding. *Journal of Zhejiang University Science B, 9*, 165\u2013191.\n\nBrown, D. (2000). *Aroids: Plants of the Arum Family* (2nd ed.). Timber Press.",
+        "start_index": 28079,
+        "end_index": 28353
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Chandra, S., Singh, S., & Kumari, D. (2015). Evaluation of functional properties of composite flours and sensorial attributes of composite flour biscuits. *Journal of Food Science and Technology, 52*(6), 3681\u20133688.",
+        "start_index": 28353,
+        "end_index": 28567
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Coffman, C. W., & Garcia, V. V. (1977). Functional properties and amino acid content of protein isolate from mungbean flour. *Journal of Food Technology, 12*, 473-484.",
+        "start_index": 28567,
+        "end_index": 28734
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Cromwell, W. C., Otvos, J. D., Keyes, M. J., Pencina, M. J., Sullivan, L., Vasan, R. S., Wilson, P. W., & D'Agostino, R. B. (2007). LDL particle number and risk of future",
+        "start_index": 28734,
+        "end_index": 28904
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "cardiovascular disease in the Framingham Offspring Study: Implications for LDL management. *Journal of Clinical Lipidology, 1*(6), 583\u2013592.",
+        "start_index": 28904,
+        "end_index": 29043
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "El Sheikha, A. F., & Hu, D. M. (2020). Molecular techniques reveal more secrets of fermented foods. *Critical Reviews in Food Science and Nutrition, 60*, 11-32.",
+        "start_index": 29043,
+        "end_index": 29203
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Fagbemi, T. N., Oshodi, A. A., & Ipinmoroti, K. O. (2005). Processing effects on some antinutritional factors and in vitro multienzyme protein digestibility (IVPD) of three tropical seeds: Breadnut (*Artocarpus altilis*), cashewnut (*Anacardium occidentale*), and fluted pumpkin (*Telfairia occidentalis*)",
+        "start_index": 29203,
+        "end_index": 29508
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". *Pakistan Journal of Nutrition, 4*, 250-256.",
+        "start_index": 29508,
+        "end_index": 29554
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Feil, B. (2001). Phytic acid. *Journal of New Seeds, 3*, 1-35.\n\nFrancis, G., Kerem, Z., Makkar, H. P., & Becker, K. (2002). The biological action of saponins in animal systems: A review. *British Journal of Nutrition, 88*, 587\u2013605.",
+        "start_index": 29554,
+        "end_index": 29785
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Gabriel, J. C., & Elizabeth, D. E. (1986). Functional properties of the total proteins of sunflower (*Helianthus annuus L.*) seeds. *Journal of Agricultural and Food Chemistry, 41*, 18-23.",
+        "start_index": 29785,
+        "end_index": 29973
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Gautam, A. K., Sharma, D., Sharma, J., & Saini, K. C. (2020). Legume lectins: Potential use as a diagnostics and therapeutics against the cancer. *International Journal of Biological Macromolecules, 142*, 474\u2013483.",
+        "start_index": 29973,
+        "end_index": 30186
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Gibson, R. S., Raboy, V., & King, J. C. (2018). Implications of phytate in plant-based foods for iron and zinc bioavailability, setting dietary requirements, and formulating programs and policies. *Nutrition Reviews, 76*, 793\u2013804.",
+        "start_index": 30186,
+        "end_index": 30416
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Grzelakowska, A., Cie\u015blewicz, J., & \u0141udzi\u0144ska, M. (2013). The dynamics of vitamin C content in fresh and processed cucumber (*Cucumis sativus L.*). *Chemistry Didactica Ecology Metrology, 18*, 97\u2013102.",
+        "start_index": 30416,
+        "end_index": 30616
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Gupta, R. K., Gangoliya, S. S., & Singh, N. K. (2013). Reduction of phytic acid and enhancement of bioavailable micronutrients in food grains. *Journal of Food Science and Technology, 52*(2), 676\u2013684.",
+        "start_index": 30616,
+        "end_index": 30816
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Hasan, M. N., Sultan, M. Z., & Mar-E-Um, M. (2014). Significance of fermented food in nutrition and food science. *Journal of Scientific Research, 6*, 373\u2013386.",
+        "start_index": 30816,
+        "end_index": 30975
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ibeanu, V., Onyechi, U., Ani, P., & Ohia, C. (2016). Composition and sensory properties of plantain cake. *African Journal of Food Science, 10*(2), 25\u201332.",
+        "start_index": 30975,
+        "end_index": 31129
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Igbabul, B. D., Amove, J., & Twadue, I. (2014). Effect of fermentation on the proximate composition, antinutritional factors of cocoyam (*Colocasia esculenta*) flour. *African Journal of Food Science and Technology, 5*(3), 67-74.",
+        "start_index": 31129,
+        "end_index": 31358
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ikujenlola, A. V., & Adurotoyel, E. A. (2014). Evaluation of quality characteristics of high nutrient dense complementary food from mixtures of malted quality protein maize (*Zea mays L.*) and steamed cowpea (*Vigna unguiculata*). *Journal of Food Processing & Technology, 5*, 1.",
+        "start_index": 31358,
+        "end_index": 31637
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "James, C. S. (1995). *Experimental methods in analytical chemistry of foods*. New York: Chapman and Hall.",
+        "start_index": 31637,
+        "end_index": 31742
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Kaushal, P., Kumar, V., & Sharma, H. K. (2012). Comparative study of physico-chemical, functional, anti-nutritional, and pasting properties of taro (*Colocasia esculenta*), rice (*Oryza sativa*), pigeon pea (*Cajanus cajan*) flour and their blends. *LWT-Food Science and Technology, 48*, 59-68.",
+        "start_index": 31742,
+        "end_index": 32036
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Klein, D. W., Lansing, M., & Harley, J. (2006). *Microbiology* (6th ed.). New York: McGraw-Hill.",
+        "start_index": 32036,
+        "end_index": 32132
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Kreike, C. M., Van Eck, H. J., & Lebot, V. (2004). Genetic diversity of taro, *Colocasia esculenta* (L.) Schott, in Southeast Asia and the Pacific. *Theoretical and Applied Genetics, 109*, 761\u2013768.",
+        "start_index": 32132,
+        "end_index": 32329
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Lebot, V., Prana, M. S., Kreike, N., van Eck, H. J., Pardales, J., Okpul, T., Gunua, T., Thongjiem, T. M., Hue, H., & Viet, N. (2004). Characterization of the genetic resources...",
+        "start_index": 32329,
+        "end_index": 32508
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "of taro (Colocasia esculenta (L.) Schott) in Southeast Asia and Oceania. Genetic Resources and Crop Evolution, 51, 381\u2013392.",
+        "start_index": 32508,
+        "end_index": 32631
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "L\u00f3pez-Moreno, M., Garc\u00e9s-Rim\u00f3n, M., & Miguel, M. (2022). Antinutrients: Lectins, goitrogens, phytates and oxalates, friends or foe? Journal of Functional Foods, 89, 104938.",
+        "start_index": 32631,
+        "end_index": 32803
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Melini, F., Melini, V., Luziatelli, F., Ficca, A. G., & Ruzzi, M. (2019). Health-promoting components in fermented foods: An up-to-date systematic review. Nutrients, 11, 1189.",
+        "start_index": 32803,
+        "end_index": 32978
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Mohammad, F. K., & Stomer, V. E. V. (1979). Measurement of total plasma-protein concentration in lambs, cows, and dogs by the Bradford dye-binding method and a comparison with the standard Biuret method. Indian Journal of Animal Science, 61(6), 615\u2013616.",
+        "start_index": 32978,
+        "end_index": 33231
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Mosse, J., & Baudet, J. (1983). Crude protein content and amino acid composition of seeds, variability and correlations. Qualitas Plantarum: Plant Foods for Human Nutrition, 32, 225\u2013245.",
+        "start_index": 33231,
+        "end_index": 33417
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Narayana, K., & Narasinga Rao, M. S. (1984). Effect of partial proteolysis on the functional properties of winged pea (Psophocarpus tetragonolobus) flour. Journal of Food Science, 49, 944-947.",
+        "start_index": 33417,
+        "end_index": 33609
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Netala, V. R., Ghosh, S. B., Bobbu, P., Anitha, D., & Tartte, V. (2014). Triterpenoid saponins: A review on biosynthesis, applications and mechanism of their action. International Journal of Pharmacy and Pharmaceutical Sciences, 7, 24\u201328.",
+        "start_index": 33609,
+        "end_index": 33847
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Obadoni, B. O., & Ochuko, P. O. (2001). Phytochemical studies and comparative efficacy of the crude extract of some homeostatic plants in Edo and Delta states of Nigeria. Global Journal of Pure and Applied Sciences, 8, 203-208.",
+        "start_index": 33847,
+        "end_index": 34074
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ogunlakin, G. O., Oke, M., & Babarinde, G. (2012). Effect of drying methods on proximate composition and physicochemical properties of cocoyam flour. American Journal of Food Technology, 7(4), 245\u2013250.",
+        "start_index": 34074,
+        "end_index": 34275
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Ojokoh, A., & Bello, B. (2014). Effect of fermentation on nutrient and anti-nutrient composition of millet (Pennisetum glaucum) and soybean (Glycine max) blend flours. Journal of Life Sciences, 8, 668-675.",
+        "start_index": 34275,
+        "end_index": 34480
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Oloyede, O. O., James, S., Ocheme, B. O., Chinma, C. E., & Akpa, V. E. (2016). Effects of fermentation time on the functional and pasting properties of defatted Moringa oleifera seed flour. Food Science & Nutrition, 4, 89\u201395.",
+        "start_index": 34480,
+        "end_index": 34705
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Onwuka, G. I. (2018). Food analysis and instrumentation: Theory and practice. Naphtali Prints, Lagos, Nigeria, pp. 179-228.",
+        "start_index": 34705,
+        "end_index": 34828
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Onyeka, J. (2014). Status of Cocoyam (Colocasia esculenta and Xanthosoma spp) in West and Central Africa: Production, Household Importance and the Threat from Leaf Blight. CGIAR Research Program on Roots, Tubers and Bananas (RTB): Lima, Peru. Available online: www.rtb.cgiar.org (accessed on 5 February 2021).",
+        "start_index": 34828,
+        "end_index": 35137
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Osman, M. A. (2011). Effect of traditional fermentation process on the nutrient and anti-nutrient contents of pearl millet during preparation of Lohoh. Journal of the Saudi Society of Agricultural Sciences, 10, 1\u20136.",
+        "start_index": 35137,
+        "end_index": 35352
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Podolak, I., Galanty, A., & Sobolewska, D. (2010). Saponins as cytotoxic agents: A review. Phytochemistry Reviews, 9, 425\u2013474.",
+        "start_index": 35352,
+        "end_index": 35478
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Rao, S. S., Yu, S., & Fedewa, A. (2015). Systematic review: Dietary fibre and FODMAP-restricted diet in the management of constipation and irritable bowel syndrome. Alimentary Pharmacology & Therapeutics, 41, 1256\u20131270.",
+        "start_index": 35478,
+        "end_index": 35697
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Sandberg, A. S., & Andlid, T. (2002). Phytogenic and microbial phytases in human nutrition. International Journal of Food Science & Technology, 37, 823\u2013833.",
+        "start_index": 35697,
+        "end_index": 35853
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Sapirstein, H., Wu, Y., Koksel, F., & Graf, R. (2018). A study of factors influencing the water absorption capacity of Canadian hard red winter wheat flour. *Journal of Cereal Science, 81*, 52\u201359.",
+        "start_index": 35853,
+        "end_index": 36049
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Sefa-Dedeh, S., Cornelius, B., Sakyi-Dawson, E., & Afoakwa, E. O. (2004). Application of response surface methodology to study the quality characteristics of cowpea-fortified nixtamalized maize. *Journal of Innovative Food Science and Emerging Technologies, 4*, 109-119.",
+        "start_index": 36049,
+        "end_index": 36319
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Shakuntala, M. N., Shadaksharaw, M., & Swamy, M. (1987). *Foods facts and principles*. Wiley Eastern Ltd.\n\nSi, H., Zhang, N., Tang, X., Yang, J., Wen, Y., Wang, L., & Zhou, X. (2018). Transgenic research in tuber and root crops. *Genetic Engineering in Horticultural Crops*, 225\u2013248.",
+        "start_index": 36319,
+        "end_index": 36602
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Simpson, T. S., Savage, G. P., Sherlock, R., & Vanhanen, L. P. (2009). Oxalate content of silver beet leaves (*Beta vulgaris var. cicla*) at different stages of maturation and the effect of cooking with different milk sources. *Journal of Agricultural and Food Chemistry, 57*, 10804\u201310808.",
+        "start_index": 36602,
+        "end_index": 36891
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Threapleton, D. E., Greenwood, D. C., Evans, C. E., Cleghorn, C. L., Nykjaer, C., Woodhead, C., Cade, J. E., Gale, C. P., & Burley, V. J. (2013). Dietary fibre intake and risk of cardiovascular disease: Systematic review and meta-analysis. *BMJ, 347*, f6879.",
+        "start_index": 36891,
+        "end_index": 37149
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Tinko, N., & Uyano, K. (2001). Spectrophotometric determination of the tannin contents of various Turkish black tea, beer, and wine samples. *International Journal of Food Sciences and Nutrition, 52*, 289\u2013294.",
+        "start_index": 37149,
+        "end_index": 37358
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Tortora, G. J., Funke, B. R., & Case, C. L. (2002). *Microbiology: An introduction* (7th ed.). Benjamin/Cummings Publishing Company, Inc.\n\nUpadhyay, R. K. (2015). Emerging risk biomarkers in cardiovascular diseases and disorders. *Journal of Lipids, 2015*, 971453.",
+        "start_index": 37358,
+        "end_index": 37622
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Weickert, M. O., Roden, M., Isken, F., Hoffmann, D., Nowotny, P., Osterhoff, M., Blaut, M., Alpert, C., Gogebakan, O., & Bumke-Vogt, C., et al. (2011). Effects of supplemented isoenergetic diets differing in cereal fiber and protein content on insulin sensitivity in overweight humans",
+        "start_index": 37622,
+        "end_index": 37906
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": ". *American Journal of Clinical Nutrition, 94*, 459\u2013471.",
+        "start_index": 37906,
+        "end_index": 37962
+    },
+    {
+        "document_name": "125.txt",
+        "chunk_text": "Wilhelm, L. R., Dwayna, A. S., & Gerand, H. B. (2004). *Introduction to problem-solving skills in food and process engineering technology*. ASAE: Canada.",
+        "start_index": 37962,
+        "end_index": 38115
+    }
+]

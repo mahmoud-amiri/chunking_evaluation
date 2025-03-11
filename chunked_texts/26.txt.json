@@ -1,0 +1,1616 @@
+[
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Elucidating Pt/C and ionomer aggregation dynamics in the manufacturing of Fuel Cell catalyst layers: a discrete element method approach\n\nSourab Barath Vijayaraghavan\\textsuperscript{1,2}, Matthias Baldofski\\textsuperscript{3}, Alejandro A. Franco\\textsuperscript{1,2,4,5*}",
+        "start_index": 0,
+        "end_index": 272
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\textsuperscript{1}Laboratoire de R\u00e9activit\u00e9 et de Chimie des Solides, UMR CNRS 7314, Universit\u00e9 de Picardie Jules Verne, F-80039, Amiens Cedex 1, France",
+        "start_index": 272,
+        "end_index": 425
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\textsuperscript{2}R\u00e9seau sur le Stockage Electrochimique de l\u2019Energie (RS2E), FR CNRS 3459, Hub de l\u2019Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France\n\n\\textsuperscript{3}Freudenberg Technology Innovation SE & Co. KG, Hoehnerweg 2-4, 69469 Weinheim, Germany",
+        "start_index": 425,
+        "end_index": 690
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\textsuperscript{4}ALISTORE-European Research Institute, FR CNRS 3104, Hub de l\u2019Energie, 15 rue Baudelocque, Amiens Cedex, 80039, France\n\n\\textsuperscript{5}Institut Universitaire de France, 103 Boulevard Saint Michel, Paris, 75005, France",
+        "start_index": 690,
+        "end_index": 929
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "*alejandro.franco@u-picardie.fr\nKeywords\nProton Exchange Membrane Fuel Cells, Pt/C, Ionomer, Agglomeration, Manufacturing, Microstructure, Simulation Workflow, Derjaguin\u2013Landau\u2013Verwey\u2013Overbeek, Discrete element method, Coarse graining\n\nAbstract",
+        "start_index": 929,
+        "end_index": 1173
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The production of fuel cells is bottle-necked by the prohibitive cost of one component \u2013 the catalyst layer. The goal of manufacturers has been to minimise Pt loading and maximise the electrochemical efficiency, at scale. A mesoscale model is sought-after, to describe the influence of common manufacturing parameters on the microstructure of fuel cell catalyst layers",
+        "start_index": 1173,
+        "end_index": 1541
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". In this work we propose a novel end-to-end mesoscale modeling workflow to capture the spatial aggregation of carbon support particles against an ionomer-based binder. We use the Discrete Element Method (DEM) to capture the co-aggregation of the carbon-support and binder, as a function of their inter-particle Derjaguin\u2013Landau\u2013Verwey\u2013Overbeek (DLVO) interactions",
+        "start_index": 1541,
+        "end_index": 1905
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This model provides insights in the variance in ionomer aggregation as a function of solvent composition. We observe a decrease in ionomer secondary aggregation with decreasing water content. This variance in the local catalyst \u2013 ionomer distribution was studied using various micro-structural descriptors.",
+        "start_index": 1905,
+        "end_index": 2213
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Introduction",
+        "start_index": 2213,
+        "end_index": 2225
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "With the looming threat of climate change, we are to sustain a push towards the electrification of our energy grids. Hydrogen stands as a strong contender to mitigate the geographical imbalance and intermittency of renewable energy sources. Hydrogen produced from renewable energy",
+        "start_index": 2225,
+        "end_index": 2505
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "sourced, dubbed \u2018Green Hydrogen\u2019 stands to be more affordable than Grey Hydrogen (typically produced from fossil fuels)[1]. This has led to various global policies supporting the development of a wider hydrogen economy[2], [3], [4]. The global fuel cell market is projected to grow at a Compounded Annual Growth Rate (CAGR) of 15% - from $3.74 billion (2023) to $8",
+        "start_index": 2505,
+        "end_index": 2869
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".64 billion (2030)[5]. Advances in membrane technology and material processing have poised low temperature Proton Exchange Membrane Fuel Cells (PEMFCs) as the technology unicorn, with a market share of 57.3%. PEMFCs are particularly attractive for use in Heavy-duty Electric Vehicles (HDEVs) due to their superior specific energy and refueling speed, over Li-ion batteries [6]",
+        "start_index": 2869,
+        "end_index": 3245
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Similarly, a case study evaluating the viability of zero emission powertrains for maritime vessels determined that large and endurance vessels especially benefit from the adoption of fuel cells, even outshining existing fossil fuel propelled powertrains [7].",
+        "start_index": 3245,
+        "end_index": 3505
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "This projected demand for PEMFCs underpins a need for the development of optimised manufacturing processes to achieve competitive unit costs. A cost analysis on PEMFC production revealed that fuel cell systems typically cost between \u20ac200-300/kW. The membrane electrode assembly (MEA) contributes to 49% of the system costs, with material procurement and processing being the largest overhead",
+        "start_index": 3505,
+        "end_index": 3896
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Recent advances in material processing and economies of scale have led to a constant decrease in system prices, achieving a cost of $168/kW in 2023, with a projected cost of $80/kW in 2030. The 2023 DOE Fuel Cell cost report also highlights the significant cost of the catalyst layer (CL), accounting for close to 60% of the total stack cost[8]",
+        "start_index": 3896,
+        "end_index": 4242
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". While various research groups are actively involved in the exploration for alternative materials such as low platinum group metal alloyed catalysts [9], [10], [11], development of advanced carbon supports [12], [13] and Platinum Group Metal free catalysts [14], [15], these prospective materials still suffer from accelerated degradation and are yet to be produced at industrial scale [16]",
+        "start_index": 4242,
+        "end_index": 4633
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Most large industrially produced CLs are composed of platinum nano-particles supported on carbon black dispersed in PFSA solutions[16]166. As a result, refining and optimising the manufacturing process flow is of vital importance to various industrial stakeholders in the PEMFC value chain.",
+        "start_index": 4633,
+        "end_index": 4925
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The role of the CL is to act as a porous medium to allow for ideal gas transport and water management. The electron and mass transport rates in the MEA are strongly influenced by the CL microstructure. The fabrication of CLs begins with the addition of carbon supported catalyst powders and an ionomer to a water-alcohol solution, to form a catalyst ink. The ink is then deposited onto an appropriate substrate and dried to obtain an electrode",
+        "start_index": 4925,
+        "end_index": 5368
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The morphology of the electrode can be controlled by altering the composition of the various components of the catalyst ink. The morphology of the CL is determined by: (i) ionomer conformation, (ii) aggregate size and distribution, (iii) hydrophobicity of the electrode, (iv) presence of free ionomer and (v) pore distribution[17]. Consequently, the ionic and electronic conductivities and the efficacy of the catalyst are strongly correlated to the electrode microstructure",
+        "start_index": 5368,
+        "end_index": 5844
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Consequently, it is imperative that we quantify the evolution of the CL microstructure as a function of various compositional variables.",
+        "start_index": 5844,
+        "end_index": 5982
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Several groups have studied and reported the effects of individual parameters on the final microstructure and electrochemical properties of PEMFC CLs. This includes but is not exclusive to, studies quantifying the effects of catalyst supports [18], [19], [20], [21], solvent composition [22], [23], [24], ionomer type[25], [26], [27], dispersion methods[28], [29], [30]",
+        "start_index": 5982,
+        "end_index": 6351
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Many of these findings have also been reproduced and backed by simulations on various scales. For example, Malek et al., identified the influence of Platinum content on ionomer conformation[31]. Similarly, Liu et al. developed a model to represent Pt/C particle aggregation in the presence of various solvents [32].",
+        "start_index": 6351,
+        "end_index": 6668
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "As stated previously, platinum supported carbon nanoparticles with diameters less than 100 nm are dispersed in solvents with an ionomer to produce catalyst ink. This dispersion is then processed into electrodes which are a few micrometers thick. Due to the mesoscale nature of the system interactions, molecular dynamics is not a computationally viable option to simulate this process. Concurrently, continuum mechanics cannot capture the complex heterogenous agglomeration behaviour observed in the system",
+        "start_index": 6668,
+        "end_index": 7174
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". However, catalyst particle interactions have been rationalised through the application of the Derjaguin-Landau-Verwey-Overbeek (DLVO) theory [33]. The DLVO theory characterises the stability of catalyst ink dispersions as a function of implicit surface properties of",
+        "start_index": 7174,
+        "end_index": 7442
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "the Pt/C dispersion. Although, the theory underpredicts aggregation kinetics in the presence of depletants, such as ionomers [34]. These shortcomings can be overcome by the application of the \u2018extended\u2019-DLVO theory [35] to rationalise nanoparticle depletion interactions as a function of ionomer adhesion as presented by Dixit et al [36].",
+        "start_index": 7442,
+        "end_index": 7780
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Digital models illustrating the CL microstructure are essential to understand, via the numerical modelling, of the electrochemical performance of this layer. Stochastic generation[37] is one of the earliest methods used to generate statistically representative microstructures of the CL microstructure. Mukherjee and Wang[38] reported a stochastic pore-solid reconstruction model informed from statistical descriptors such as porosity and two-point correlation functions",
+        "start_index": 7780,
+        "end_index": 8250
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This was further improved upon by Kim and Pitsch[39], who performed a three-phase reconstruction of the CL. Various improvements have been reported since, involving different ionomer contents[40], off-set distributions of the ionomer[41], and most recently, the nano-structural reconstruction with explicit representation of the Pt particles[42]",
+        "start_index": 8250,
+        "end_index": 8597
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". However, the stochastic nature of the process does not allow for the explicit treatment of solvent effects or for the representation of microstructural evolution as a consequence of complex ionomer \u2013 carbon interactions.",
+        "start_index": 8597,
+        "end_index": 8819
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In the pursuit of describing complex micro-structural interactions, the effect of fabrication parameters on the micro-structural evolution and local arrangement of ionomer around Pt/C has been studied extensively using Coarse Grained Molecular Dynamics (CGMD)[43], [44], [45]. These studies have provided crucial insights and cross validated experimental findings on the primary aggregation of ionomer and Pt/C[31], [46], [47], [48], [49]",
+        "start_index": 8819,
+        "end_index": 9257
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". On the other hand, various Discrete Element Method (DEM) simulations have been performed, to model solvent effects[32], [50] on the CL microstructure. These approaches have also been combined with continuum simulation methods to develop a model that represents the electrochemical behaviour of the CL as a function of fabrication parameters [51], [52], [53]. However, due to computational limitations these models have either been qualitative, or temporally agnostic in their treatment of the aggregation process",
+        "start_index": 9257,
+        "end_index": 9771
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". However, in a parallel domain of electrode fabrication, an end-to-end framework for the digitalisation of lithium-ion battery manufacturing was proposed under the ARTISTIC project by Franco et",
+        "start_index": 9771,
+        "end_index": 9965
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "al. [54] However, the ARTISTIC model was developed and parametrised to represent high solid-\ncontent Lithium ion battery electrode slurries. These slurries are dense colloidal dispersions, hence\ntheir aggregation is dominated by granular contact mechanics [55]. However, CL slurries are dilute\ncolloidal suspensions. The predominant factor influencing the stability of the dispersion and by ex-",
+        "start_index": 9965,
+        "end_index": 10359
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "tension its aggregation are the electrostatic interactions between its constituent materials. Hence,\nusing a granular mechanics approach proved to be insufficient to capture the aggregation dynamics\naccurately. In this work we propose a novel workflow to explicitly capture the heterogeneous ag-\ngregation of ionomer and Pt/C using particle dynamics. Our goal is to illustrate the temporal evolu-\ntion of the CL structure as a function of common fabrication parameters such as I/C ratio, solvent",
+        "start_index": 10359,
+        "end_index": 10854
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "composition, and solid content. To the best of our knowledge this is the first time a comprehensive\nmodeling framework has been proposed for the fabrication of fuel cell electrodes. This paper will\npresent the methodology behind our modeling approach, and follow through with discussions of\ninsights gained from the simulations. Following this, we will conclude with a summary of the find-\nings and perspectives for this work and methodology.",
+        "start_index": 10854,
+        "end_index": 11296
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Methodology",
+        "start_index": 11296,
+        "end_index": 11307
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Mesoscale particle interactions",
+        "start_index": 11307,
+        "end_index": 11338
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Mesoscale phenomena are not straightforward to model since they lie on the transition from discrete to continuum mechanics. It remains essential to identify the mechanism of interest and redefine the dimensionality of the model with regards to the specified mechanism. In this work our interest lies in tracking the evolution of ionomer and Pt/C particles. In essence, the property we intend to track is the evolution of particle momenta with respect to the forces acting on the particle",
+        "start_index": 11338,
+        "end_index": 11825
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The total force between the particles can be represented as a sum of conservative inter-particle interactions and non-conservative solvent interactions, as observed in Fig. 1. Mathematically, these forces can be represented by:",
+        "start_index": 11825,
+        "end_index": 12054
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\[ M \\frac{dU}{dt} = F = F^C + F^S \\]  \n\n(1)",
+        "start_index": 12054,
+        "end_index": 12098
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In Eq. (1) \\( M \\) denotes the mass of the particle, \\( U \\) the vector of velocities, and \\( F^C \\) and \\( F^S \\) denote the vectors of conservative and solvent forces respectively. Ideally the solvent forces can be computed explicitly as inter-particle interactions between nanoparticles immersed in a domain of explicit solvent particles. However, this approach would be accompanied by an exponential growth in computational cost with a modest system of dozens of nanoparticles",
+        "start_index": 12098,
+        "end_index": 12578
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Hence, it is reasonable to represent",
+        "start_index": 12578,
+        "end_index": 12616
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Figure 1:** Illustrative representation of the forces acting on solvated nanoparticles.",
+        "start_index": 12616,
+        "end_index": 12705
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "solvent effects as a probabilistically averaged pair-wise interaction between the nanoparticles. Such an implicit approach would allow the simulation of large systems (in the order of hundreds of thousands of particles) while maintaining a statistically relevant approximation of solvation. The solvent forces can be computed as a sum of a pair-wise dissipative hydrodynamic interaction with a brownian force which acts to thermostat the system at a specified temperature. The resulting equation can be written as",
+        "start_index": 12705,
+        "end_index": 13218
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "$$M \\frac{dU}{dt} = F = F^C + F^H + F^B$$\n\n(2)\n\nIn this paradigm, the dissipative hydrodynamics are solved as a linear function of particle velocities transformed through a resistance tensor. Consequently, solvent dynamics are implemented as a combination of hydrodynamic forces, superposed with a random force contribution derived through the application of the fluctuation dissipation theorem [56].",
+        "start_index": 13218,
+        "end_index": 13618
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Meanwhile, the conservative interparticle interactions can be approximated as colloidal interactions as dictated by the DLVO theory. Herein, we represent the total pair-wise conservative interactions as a combination of Van der Waals attraction and electrostatic repulsions. In the case of finite-sized spherical colloidal particles, the interparticle interaction can be calculated as an integrated Lennard-Jones interaction over multiple smaller spheres",
+        "start_index": 13618,
+        "end_index": 14072
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The resulting colloid-colloid energy was derived in Everaers et al as [57]:",
+        "start_index": 14072,
+        "end_index": 14149
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "$$U_{vdw,A} = \\frac{-A_{CC}}{6} \\left[ \\frac{2a_1a_2}{r^2-(a_1+a_2)^2} + \\frac{2a_1a_2}{r^2-(a_1-a_2)^2} + \\ln \\left(",
+        "start_index": 14149,
+        "end_index": 14266
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\frac{r^2-(a_1+a_2)^2}{r^2-(a_1-a_2)^2} \\right) \\right]$$",
+        "start_index": 14266,
+        "end_index": 14323
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "$$U_{vdw,R} = \\frac{A_{CC}}{37800} \\sigma^6 \\left[ \\frac{r^2-7r(a_1+a_2)+6(a_1^2+7a_1a_2+a_2^2)}{(r-a_1-a_2)^7} +",
+        "start_index": 14323,
+        "end_index": 14436
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\\frac{r^2+7r(a_1+a_2)+6(a_1^2+7a_1a_2+a_2^2)}{(r+a_1+a_2)^7} \\right] - \\frac{r^2-7r(a_1-a_2)+6(a_1^2-7a_1a_2+a_2^2)}{(r+a_1-a_2)^7}$$",
+        "start_index": 14436,
+        "end_index": 14569
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "(3)\n\n$$U_{vdw} = U_{vdw,A} + U_{vdw,R}r < r_c$$\n\nIn Eq. (3), $A_{CC}$ is the colloid-colloid Hamaker constant, $\\sigma$ the repulsive scaling factor, $a_1$ and $a_2$ the respective colloidal radii, and $r$ the inter-particle distance.",
+        "start_index": 14569,
+        "end_index": 14803
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The attractive van der Waals interactions are counteracted by electrostatic repulsions that arise as a consequence of the accumulation of charges on colloidal particle surfaces. This repulsive contri-\nbution is a function of surface charge density and bulk ion concentration, which may be quantified through an exponentially decaying potential:\n\n\\[ E = \\frac{A}{\\kappa} e^{-\\kappa r - (r_i + r_j)} r < r_c \\]",
+        "start_index": 14803,
+        "end_index": 15211
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "(4)\n\nwhere \\( \\frac{1}{\\kappa} = \\sqrt{\\frac{2N_Ae^2iC_{solv}}{\\epsilon k_BT}} \\) and \\( A = 2\\pi\\epsilon_0\\kappa\\psi^2 \\)",
+        "start_index": 15211,
+        "end_index": 15333
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In Eq. (4), \\( A \\) is the Yukawa pre-factor, which represents the magnitude of electrostatic repulsion as a function of \\( R \\) - colloid radius, \\( \\epsilon \\) - dielectric constant of the solution, \\( \\psi \\) - zeta potential on the surface of the colloid and \\( \\kappa \\) - screening length",
+        "start_index": 15333,
+        "end_index": 15627
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The screening length in turn is determined from \\( N_A \\) \u2013 Avogadro\u2019s constant, \\( e \\) \u2013 Electronic charge, \\( iC_{solv} \\) \u2013 Ionic concentration of the solution, \\( \\epsilon \\) \u2013 relative dielectric constant of the solution, \\( \\epsilon_0 \\) \u2013 permittivity of free space, \\( k_B \\) \u2013 Boltzmann\u2019s constant and \\( T \\) \u2013 Temperature of the system. [58]",
+        "start_index": 15627,
+        "end_index": 15982
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Discrete element method simulations are a method to simulate granular materials that interact in the mesoscale of length and time. Hence it remains imperative to redefine the problem in terms of the temporal scale of the phenomena under consideration (Brownian motion). In the case of this aggregation model, we have established Brownian dynamics as the primary driving force of the corresponding particle aggregation. In this paradigm, the evolution of the particle positions must be considered in terms of Brownian time",
+        "start_index": 15982,
+        "end_index": 16503
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Brownian time is the typical time that a particle requires, to diffuse over a distance comparable to its own dimension[59]. Hence, in order to reproduce accurate aggregation dynamics, the simulation length must be at least to the order of the Brownian time of the largest particle. Concurrently, the fundamental timestep must be at least an order of magnitude smaller than the Brownian time of the smallest particle.",
+        "start_index": 16503,
+        "end_index": 16921
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Drying encompasses complex multi-scale phenomena and exhibits two principal stages[60]. At low volume fractions, drying occurs in the bulk of the solution. This regime is also referred to as \u201cwet drying\u201d. Evaporation of the solvent occurs from the solvent-air interface and is purely a function of the solvent composition. The rate of drying affects the stratification of colloidal particles (especially given the different diffusivities of Pt/C and ionomer)[61]. This is usually predicted by",
+        "start_index": 16921,
+        "end_index": 17413
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "means of a dimensionless quantity, the P\u00e9clet number. The P\u00e9clet number is the ratio of the rate of a particle\u2019s diffusion to the rate evaporation of the solvent[62]. Hence, the P\u00e9clet number is used to quantify the diffusive/advective nature of a solution. By imposing a slow drying rate, we assume a low P\u00e9clet number drying regime (diffusion dominant), which leads to the uniform aggregation of particles",
+        "start_index": 17413,
+        "end_index": 17820
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Beyond a certain volume fraction, the particles reach the jamming limit. At this point, the colloidal particles are highly compact, and drying is driven by capillary evaporation[63]. This regime is referred to as \u201cmoist drying\u201d. In this stage, we assume that the microstructure is frozen in place and diffusion of particles are severely limited, hence terminating the \u201cdrying\u201d process.",
+        "start_index": 17820,
+        "end_index": 18207
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Model development",
+        "start_index": 18207,
+        "end_index": 18224
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In order to optimise the electrochemical behaviour of CLs, it is important to quantify the effect of fabrication parameters on the microstructure. In the process of proposing a novel DEM model to probe the co-aggregation of Pt/C and ionomer dispersed in a solvent phase, we perform two crucial approximations. We represent the Pt/C catalyst as an effective colloidal particle. Similarly the ionomer is approximated as a collection of colloidal beads",
+        "start_index": 18224,
+        "end_index": 18673
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". We use LAMMPS[64] as the Newtonian dynamics engine to track the evolution of particle positions with time. The DLVO theory proposes calculating interparticle conservative interactions as a combination of attractive van der Waals forces and repulsive electrostatic forces.",
+        "start_index": 18673,
+        "end_index": 18946
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In our simulations we represent the inter-particle DLVO interactions through a combination of an attractive potential of the Gay-Berne type for soft ellipsoidal particles and repulsive screened electrostatic potential of the Yukawa type.",
+        "start_index": 18946,
+        "end_index": 19183
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In \u2018low solid-content\u2019 colloidal dispersions such as that of catalyst inks, hydrodynamic interactions play a crucial role in the evolution of the microstructure. However, explicit representation of the surrounding solvent is too computationally expensive to model in the mesoscale. In order to elucidate the effect of hydrodynamics on the co-aggregation of Pt/C and ionomer, we opted for an",
+        "start_index": 19183,
+        "end_index": 19573
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "implicit solvent approach that aims to capture solvent dynamics as a function of pair wise dissipative inter-particle interactions.",
+        "start_index": 19573,
+        "end_index": 19704
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The hydrodynamic interactions are implemented as Ball-Melrose lubrication terms, as detailed in Ball and Melrose[56]. The Ball-Melrose lubrication terms assume a linearisation of inter-particle dissipative forces, as a result of low \u201cReynolds - number\u201d flow of colloidal particles in a hydrodynamic medium",
+        "start_index": 19704,
+        "end_index": 20009
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This allows for the force equation to be solved using a resistance matrix to determine the most divergent terms for an N-body system such as the one under consideration.",
+        "start_index": 20009,
+        "end_index": 20180
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| Catalyst Ink parameters |\n|-------------------------|\n| Pt/C ratio                | 50 wt% |\n| IC ratio                 | 1.0    |\n| Ionomer wt % in electrode| 50%    |\n| Solid content            | 12.5 wt% |\n| Solvent                  | Water : Isopropanol |",
+        "start_index": 20180,
+        "end_index": 20441
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| Volume fraction          | 1 : 0  | 0.8 : 0.2 | 0.6 : 0.4 | 0.4 : 0.6 | 0.2 : 0.8 |\n| Dielectric constant      | 78.4   | 66.52     | 54.64     | 42.76     | 30.88     |",
+        "start_index": 20441,
+        "end_index": 20612
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Table 1:** Manufacturing parameters - Catalyst ink.",
+        "start_index": 20612,
+        "end_index": 20665
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In the context of mesoscale phenomena, the Brownian diffusion length and time have been established as the fundamental scale[65]. The carbon particles are approximated as spherical particles of their representative diameter, with their diffusion properties forming the fundamental scale for the simulation. In this case, the carbon support of interest is Vulcan XC-72 Carbon Black, hence we assign its median diameter and bulk density of 35 nm and 1",
+        "start_index": 20665,
+        "end_index": 21114
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".8 g/cm\u00b3 respectively, as inputs to the corresponding DEM particles. However, in the case of Platinum supported on Carbon Black, the Pt nanoparticles tend to be 2-5 nm in diameter. While the presence of Pt can influence ionomer aggre-",
+        "start_index": 21114,
+        "end_index": 21348
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "gation around the carbon support\\cite{43}, \\cite{44}, the physical location of Pt particles does not influence the aggregation dynamics. Hence, both, \u2018Carbon Black\u2019 particles and the Pt/C particles are represented as analogous DEM particles of diameter 35 nm, albeit with different densities, corresponding to their Platinum/Carbon weight percentage.",
+        "start_index": 21348,
+        "end_index": 21698
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Simulating the PTFE ionomers as chains of polymers is computationally infeasible and is not compatible in the DEM framework. Hence, in this work we propose a novel method of representing the PTFE based ionomer as colloidal particles. Since our goal with this work is to model the spatial distribution of the ionomer in the CL, while remaining computationally feasible, we chose a diameter of 20 nm for the ionomer DEM particle",
+        "start_index": 21698,
+        "end_index": 22124
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Nafion typically forms secondary aggregates in the order of 100s of nanometers\\cite{47}, while carbon black particles are typically of 30-50 nanometers in diameter. Given these limitations, a size of 20 nanometers is hypothesised to provide a good balance of resolving features of desired length scales, while being large enough to simulate within reasonable cost. We also account for the effect of side-chain \u2013 backbone interactions by approximating them using colloidal interactions",
+        "start_index": 22124,
+        "end_index": 22610
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The DLVO theory is used to represent side-chain repulsions using the repulsive electrostatic term, and represent polymer attraction using the attractive van der Waals term. In doing so, these interactions may also be altered as a function of the solvation medium, to study the effect of various polar/non-polar solvent compositions.",
+        "start_index": 22610,
+        "end_index": 22944
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Force field parametrisation**",
+        "start_index": 22944,
+        "end_index": 22975
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The force field parameters in this study, were tuned to capture the secondary pore structures present in CLs. While previous CGMD work has been able to capture the primary pore structure\\cite{44}, it is well known that the secondary pores are the source of electrochemical activity in the CL\\cite{66}",
+        "start_index": 22975,
+        "end_index": 23275
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The novelty of this process lies in the parametrisation of ionomer-ionomer and ionomer-carbon interactions since they are typically combined into the carbon-carbon force fields as an \u201ceffective-interaction\u201d\\cite{50}. Hence, the force field parameters in this work had to be chosen in a manner",
+        "start_index": 23275,
+        "end_index": 23569
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "that decouples the carbon-carbon interactions that were previously reported, into carbon-carbon, carbon-ionomer and ionomer-ionmer interactions.",
+        "start_index": 23569,
+        "end_index": 23713
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The parametrisation began with determining the magnitude of interparticle repulsions. Colloidal dispersions are typically stabilised by an energy barrier of ~20 k_BT[67], [68]. Hence, the zeta-potential of Hamaker constants of the ionomer-ionomer interactions were chosen to recreate an energy barrier of a similar magnitude. Taking this as a reference, the corresponding constants were determined for carbon\u2013ionomer and carbon\u2013carbon interactions",
+        "start_index": 23713,
+        "end_index": 24160
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". As an extension, the conservative force cutoffs were chosen to maximise computational efficiency while capturing a sufficient region of the interparticle electrostatic interactions. The cutoff representing 95% of the interparticle energy was chosen as 490 nm for the AM-AM interactions, correspondingly a cutoff of 360 nm was chosen for ionomer-ionomer interactions. The extent of interaction coverage was determined by measuring the area under the curve for various cutoffs against a pseudo-infinite potential.",
+        "start_index": 24160,
+        "end_index": 24673
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Figure 2: Simulation statistics (i) Potential Energy (ii) Local radial distribution function (iii) Long range radial distribution function.",
+        "start_index": 24673,
+        "end_index": 24812
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The representative nature of the chosen force fields were tested by initialising multiple simulations in order to ensure the statistical convergence of key simulation parameters. Our typical workflow involves a system of $\\sim 8 \\times 10^4$ particles, however we can consider the force-fields to be valid if upon corroboration in a smaller system, we obtain a close convergence of simulation parameters",
+        "start_index": 24812,
+        "end_index": 25215
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". In an effort to achieve this, we equilibrated 20 different systems - with unique initial seeds - for $1.5 \\times 10^6$ time-steps and compared their thermodynamic and structural states. From Fig. 2 we can observe a tight convergence of the systems\u2019 potential energies across all the simulations, achieving a variance of just 0.19% over $10^6$ time-steps",
+        "start_index": 25215,
+        "end_index": 25570
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The local and long range radial distribution functions also attest to the statistically comparable nature of the systems across a range of initial random seeds.",
+        "start_index": 25570,
+        "end_index": 25732
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Simulation workflow",
+        "start_index": 25732,
+        "end_index": 25751
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "We use LAMMPS, an open source molecular dynamics engine to perform our simulations[64]. In particular, we use the meso-scale particle integration methods implemented in LAMMPS to perform discrete element method simulations. This allows us to perform arbitrarily large simulations by utilising the efficient domain-decomposition to handle thousands of particles using many cores. We also use periodic boundary conditions in all 3 fundamental axes, to prevent the dominance of surface effects while effectively simulating bulk phenomena",
+        "start_index": 25751,
+        "end_index": 26285
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The simulations were run on two nodes of the Univetsit\u00e9 de Picardie Jules Verne MatriCS computational platform with 500 GB of RAM and 2 AMD EPYC 7513 32-Core Processors.",
+        "start_index": 26285,
+        "end_index": 26456
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The CL fabrication process is modeled by starting with an initial state corresponding to a perfectly dispersed catalyst ink. This is achieved by randomly inserting DEM particles in the simulation volume. A total of 82,309 particles are inserted in an arbitrarily large simulation volume, with 73,808 of them representing the ionomer and 8,501 of them representing carbon supported catalyst particles. The upper bound for a single time-step was determined assuming the propagation of ener-",
+        "start_index": 26456,
+        "end_index": 26944
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "gy through Rayleigh waves[69]. The Rayleigh time-step for this system was determined to be $3.5 \\times 10^{-10}$ s. However, considering the stability of the simulations, the fundamental time-step was chosen to be $1 \\times 10^{-11}$ s",
+        "start_index": 26944,
+        "end_index": 27179
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Following the initialisation of the system, the combined van der Waals attraction and electrostatic repulsion between the particles were applied using the colloid and Yukawa/colloid pair styles implemented in LAMMPS. The system was then minimised using a conjugate gradient algorithm without time integration, to ensure the stability of the system. The particles were then thermalised to 300K and held thermostatted at said temperature using a Langevin thermostat[70].",
+        "start_index": 27179,
+        "end_index": 27649
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The Langevin thermostat was used to perform Brownian Dynamics on a group of particles suspended in an implicit solvent. The time damping parameter of the thermostat was chosen between $5 \\times 10^{-10}$ s and $1 \\times 10^{-9}$ s to accurately apply a viscosity correction to the particle according to the solvent in consideration. Simultaneously, the domain is rescaled to a volume representative of a solid volume fraction of 12.5%",
+        "start_index": 27649,
+        "end_index": 28083
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This value was chosen as it is typical of industrial-manufacturers to fabricate catalyst inks with volume fractions in the vicinity. The box was rescaled with the Langevin thermostat holding the system at a fixed temperature. Upon the completion of rescaling, the system was decoupled from the Langevin thermostat to then apply explicit hydrodynamic and brownian interactions using the grand resistance tensor and fluctuation-dissipation theorem detailed above",
+        "start_index": 28083,
+        "end_index": 28545
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This was accomplished using the pair lubricate and pair brownian styles implemented in LAMMPS.",
+        "start_index": 28545,
+        "end_index": 28641
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "An equilibration run was then performed for a total of $10^7$ timesteps, corresponding to a real time of $10^{-4}$ s. This duration was chosen to ensure effective Brownian diffusion and aggregation of the active material particles, which exhibit self diffusion times in the range of $10^{-4}$ s",
+        "start_index": 28641,
+        "end_index": 28935
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Following this, we simulate the drying of the electrode, by uniformly compressing the simulation domain at a constant rate to ensure the system is held at a low P\u00e9clet number regime. This is done to ensure the simulation represents bulk drying, while preventing the stratification of colloidal particles which is common at high drying rates[71]. Videos depicting the equilibration and drying processes can be found in the Supporting Information.",
+        "start_index": 28935,
+        "end_index": 29382
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Microstructural characterisation",
+        "start_index": 29382,
+        "end_index": 29414
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "While pair distribution functions can provide a spatially normalised average of the relative distributions of ionomer and carbon particles, it is difficult to compare the results to information derived from tomographic characterisation. Since the aim of this work is to predict the influence of manufacturing parameters on the final microstructure of the electrode, it is prudent to quantify the simulated microstructure through image analysis functions typically used on tomographic data.",
+        "start_index": 29414,
+        "end_index": 29903
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In our endeavour to accomplish the characterisation of the obtained microstructures using statistical methods, we developed an end to end workflow to analyse the particle data obtained from LAMMPS. This began with an in-house code to voxelise the LAMMPS output files into a 3-dimensional stack of tiff images. We then utilised the PoreSpy[72] toolkit, which is a combination of tools wrapped around a general purpose python image analysis toolkit scikit-image[73]",
+        "start_index": 29903,
+        "end_index": 30366
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". We used PoreSpy to analyse the porosity, porosity profile, pore size distribution, three phase length, tortuosity factor, surface area, phase fractions, fractal dimension, chord length distribution and two-point correlations of the final structures derived from the simulations.",
+        "start_index": 30366,
+        "end_index": 30646
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The porosity, porosity profile, surface area, phase fraction, and three phase length functions are implemented through voxel counting followed by normalisation. The fractal dimension of the components is calculated by the execution of a box counting algorithm to determine the scaling factor. The chord length distribution is obtained by applying chords in the void space and calculating a histogram of chord lengths. The pore size distribution is computed from the results of a porosimetry simulation on the pore-phase",
+        "start_index": 30646,
+        "end_index": 31165
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Porosimetry yields an image with the largest sphere that overlaps a certain voxel. This information, normalised across box dimensions, represents the pore size distribution. The tortuosity factor is calculated as a ratio of the diffusion coefficient of the pore medium to its effective diffusivity. In PoreSpy, the pore phase is converted into an OpenPNM[74] cubic network",
+        "start_index": 31165,
+        "end_index": 31539
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The diffusion coefficient is then determined by performing a Fickian diffusion simulation on this orthogonal grid by setting inlet concentration and throat diffusive conductances to 1 and the",
+        "start_index": 31539,
+        "end_index": 31732
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-t5rxn ORCID: https://orcid.org/0000-0001-7362-7849 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 31732,
+        "end_index": 31879
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "outlet concentration to 0. The effective diffusivity is determined by solving Fick\u2019s law with the flow rate determined from the Fickian diffusion simulation. The effective diffusion coefficient determined through the simulation is then used to calculate the tortuosity factor of the pore phase. Two-point correlations can be measured by counting pair-wise occurrences of two phases and dividing by an expected random distribution. However, iterating over the entire microstructure using this process is computationally expensive",
+        "start_index": 31879,
+        "end_index": 32407
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". It is known that the power spectrum of a density distribution can be derived from the Fourier transform of its two-point correlation function[75]. Hence, in this implementation the fact that the autocorrelation of a density distribution can be computed as an FFT is used to obtain an accurate estimation of the power spectrum. The power spectrum is then mathematically inverted to obtain the two point correlation function of the phases of interest[76]",
+        "start_index": 32407,
+        "end_index": 32861
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This gives us an objective measure of the clustering of Pt/C against the ionomer or pore.",
+        "start_index": 32861,
+        "end_index": 32952
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Results and Discussion**",
+        "start_index": 32952,
+        "end_index": 32978
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The carbon - carbon, carbon - ionomer and ionomer - ionomer interactions in various solvents can provide important insights into the driving factors behind their co-aggregation. The force field parametrisation approach involved trying to account for the complex aggregation phenomena observed as a consequence of solvent composition. It has been reported that the dielectric constant of the solvents used to disperse the catalyst ink can direct the aggregation of ionomers in the CL[77]",
+        "start_index": 32978,
+        "end_index": 33464
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". While this explanation accounts for a major influence of the solvents, it doesn\u2019t paint a complete picture. Subsequent work, probing the effect of various solvents highlighted the crucial role of the solubility parameter in driving the ionomer aggregation. The variation in solubility parameters can significantly alter the distribution of the ionomer in the CL. Typically these specific interactions are approximated into an effective xDLVO potential",
+        "start_index": 33464,
+        "end_index": 33917
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". But in this work we were able to decouple these interactions into carbon \u2013 carbon, carbon \u2013 ionomer and ionomer \u2013 ionomer interactions. We calculated the inter-particle potential energy using LAMMPS for various effective solvent compositions. This allows us a deeper insight into the aggregation behaviour between various components of the CL.",
+        "start_index": 33917,
+        "end_index": 34262
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "For a system of ideal spherical particles, a colloidal dispersion is typically considered stable if it exhibits an electrostatic energy barrier of at least ~20 k_BT. From Fig. S1 we can confirm that the carbon\u2013carbon interactions exhibit an energy barrier between 15 and 25 k_BT. Similarly we also observe that the ionomer\u2013ionomer energy barrier is significantly lower than the threshold. As a result we should observe primary aggregation of these particles",
+        "start_index": 34262,
+        "end_index": 34719
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Consequently the aggregates exhibit an effective energy barrier higher than the flocculative threshold, giving rise to a stable colloidal dispersion. The parametrisation of force fields was performed to account for the variance in the ionomer\u2019s backbone-sidechain solubility parameters as the composition of the solvent is altered[78]",
+        "start_index": 34719,
+        "end_index": 35055
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The variance in the ionomer-ionomer interaction strength was introduced to account for the formation of distinct clustered ionomer domains in water-rich solvents as opposed to uniformly dispersed ionomer domains in IPA-rich solvents. This can be inferred from the relative heights of the ionomer-ionomer and ionomer-carbon peaks in Fig. S1.",
+        "start_index": 35055,
+        "end_index": 35397
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Figure 3: Visual representation of catalyst inks (left) and dried electrodes (right) of Water : IPA ratio of (i) 100% (ii) 80% (iii) 60% (iv) 40% (v) 20%.",
+        "start_index": 35397,
+        "end_index": 35551
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In Fig. 3 we observe the variation in the aggregation of ionomer and carbon upon varying the water : IPA ratio. These structural images were obtained by the visualisation of post-equilibration position data using the OVITO scripting interface[79]. Between Fig. 3 (i) and (v) we observe a distinct trend in the decreasing ionomer domain size, as the ionomer and carbon form an equally dispersed network",
+        "start_index": 35551,
+        "end_index": 35952
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This qualitative observation was further substantiated and reinforced by the use of rigorous spatial descriptors after drying.",
+        "start_index": 35952,
+        "end_index": 36080
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Microstructural characterisation results**\n\n![Graphs showing porosity across simulation domain](https://doi.org/10.26434/chemrxiv-2025-t5rxn)\n\n**Figure 4:** Plot of porosity across simulation domain in the (i) x - axis (ii) y - axis (iii) z \u2013 axis.",
+        "start_index": 36080,
+        "end_index": 36330
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "In order to ensure a uniform dispersion of aggregates across the simulation domain and corroborate the validity of the results obtained from the following spatial characterisation functions, we plot the porosity profile of the systems of interest across their X, Y and Z \u2013 axes. From their respec-\ntive plots in Fig. 4 we can confirm the homogeneity of the porosity across the entire simulation domain for each solvent composition.",
+        "start_index": 36330,
+        "end_index": 36761
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The fractal dimension of any structure provides insight into the complexity of its surfaces and interfaces. A large fractal dimension attests to a sinuous surface structure. The fractal dimension of electrodes is experimentally determined from the correlation of fractal specific surface areas are different length scales. The specific surface areas are determined from porosimetry experiments. A study by Zhao et al. determined the fractal dimension of PEMFC electrodes to lie between 2.7 \u2013 2",
+        "start_index": 36761,
+        "end_index": 37254
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".9[80].",
+        "start_index": 37254,
+        "end_index": 37261
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "From Fig. 5 it can be observed that the fractal dimensions of the microstructures obtained from aggregation model, agree closely with experimentally determined values. The figure is plotted as a function of the box-length used in the box-counting algorithm. The box-counting approach to fractal dimension calculation, provides a qualititative insight into the local arrangement of the micro-\n\n**Figure 5:** Degree of fractalisation of the ionomer phase.",
+        "start_index": 37261,
+        "end_index": 37714
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-t5rxn ORCID: https://orcid.org/0000-0001-7362-7849 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 37714,
+        "end_index": 37861
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "structure. At length scales comparable to the particle dimensions (30 - 60 nm) the system exhibits aggregation variance with solvent composition. The water rich systems exhibit larger degrees of aggregation as opposed to IPA rich systems. Beyond the 60 nm mark we observe an increase in overall complexity up-to a length of ~100 nm, which then manifests into a steep drop in the fractal dimension",
+        "start_index": 37861,
+        "end_index": 38257
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The high $df$ attests to primary structures of up to 100 nm, beyond which the $df$ drops and grows again to significantly large values (not shown), representing the re-emergence of complexity in terms of secondary aggregation.",
+        "start_index": 38257,
+        "end_index": 38485
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "![Graph](https://doi.org/10.26434/chemrxiv-2025-t5rxn)\n\n**Figure 6:** Pair-wise radial distribution functions for (i) entire system (ii) scaled to emphasise secondary peaks.",
+        "start_index": 38485,
+        "end_index": 38658
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "While the analysis of $df$ provides a qualitative description of the general heterogeneity of the electrode microstructure, a quantitative description of the local environment of each particle over the simulation domain is sought. Various pair-wise radial distribution functions were computed for the systems under inquiry. The primary peak in the pair-wise radial distribution function further reinforces our inferences from the local variance in the $df$ graph. Fig",
+        "start_index": 38658,
+        "end_index": 39125
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". 6 (i) illustrates a decreasing intensity in the primary peak with a decrease in water content. This reinforces the observation of a relative decrease in ionomer solvation energy with increasing IPA content. As a result, the ionomer particles are better dispersed in solution, forming smaller primary aggregates. Meanwhile, as we approach the system\u2019s length scales, the g(r) oscillates around unity; eventually converging to it, which is typical of solvation structures observed in ideal fluids",
+        "start_index": 39125,
+        "end_index": 39621
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". However, an attempt to interpret the",
+        "start_index": 39621,
+        "end_index": 39659
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "secondary structure of the g(r) is confounded by the superposition of carbon \u2013 carbon, carbon \u2013 ionomer and ionomer \u2013 ionomer pair-wise functions, all contributing to the set of peaks between 40 and 150 nm.",
+        "start_index": 39659,
+        "end_index": 39865
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The individual pair distribution functions between the component particles of the system help us deconvolute these relationships across the spread of solvent composition. From Fig. S2 and S4 the first and second peaks of Fig. 6 can be correlated to the primary aggregation of ionomer and carbon respectively. The relative intensities of the peaks seemingly attest to the ionomer particles exhibiting almost twice the aggregation probability. However, upon comparison with Fig",
+        "start_index": 39865,
+        "end_index": 40340
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". S3, it becomes clear that the initial peak in the system RDF arises from the contributions of ionomer \u2013 ionomer and ionomer \u2013 carbon interactions. While the water content in the ink significantly affects ionomer aggregation, and carbon aggregation, there is no observable change in the ionomer \u2013 carbon primary peak (Fig. S3)",
+        "start_index": 40340,
+        "end_index": 40667
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This reiterates the fact that solvent composition does not alter ionomer adsorption onto carbon supports, but rather alters relative ionomer \u2013 ionomer and carbon \u2013 carbon interactions. Fig. S2 also exhibits twin peaks at 45 and 55 nm with high water contents, which collapses into an individual peak at 50 nm in IPA rich solvents.",
+        "start_index": 40667,
+        "end_index": 40999
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "From Fig. S4 we observe distinct features in the carbon \u2013 carbon pair distribution function as the ink composition is altered. The second neighbors exhibit a split between compact and dispersed packing structures. An increase in water content exhibits a dispersed packing, evidenced by a peak at 70 nm, as opposed to the IPA-rich ink which only exhibits a second neighbor peak at 60 nm. This behaviour is also observable in the Fig. S2 with the secondary neighbor peak of ionomer \u2013 ionomer interactions",
+        "start_index": 40999,
+        "end_index": 41501
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Water-rich slurries exhibit a distinct twin peak, which converges into a diffuse peak at 50 nm for IPA-rich slurries. The difference in aggregation can be inferred from the co-ordination numbers for each pair-wise interactions. These were computed by integrating the individual pair-distribution functions over the domain length. From Table",
+        "start_index": 41501,
+        "end_index": 41843
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". 4 we can see a strong decrease in the primary co-ordination number for ionomer-ionomer interactions, while the secondary co-ordination number exhibits a mild decay with decreasing with water content. The change in aggregation is particularly pronounced with regards to carbon \u2013 carbon aggregation as the primary co-",
+        "start_index": 41843,
+        "end_index": 42160
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "ordination number drops sharply with decreasing water content. By extension, the second neighbor peak exhibits twin-packing behaviour with distinct contributions from compact and dispersed neighbours for water-rich slurries, which changes into predominantly compact packed structures for IPA-rich slurries. Performing a fourier transform on the solvated system\u2019s RDF gives us the structure factor of the aggregate system, shown in Fig. S6. Scattering experiments provide reliable insights into the complex microstructures of aggregated colloidal dispersions",
+        "start_index": 42160,
+        "end_index": 42717
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". This plot exhibits an increase in average intensity with increase IPA content. This can be ascribed to an increase in the volume fraction of small particles/aggregates. The extreme intensity of the S(0) peak can be attributed to the high degree of order exhibited by clusters, meanwhile the medium $k$ peaks arise from nearest neighbour particles, which increase in ordering with increasing alcohol content. The structure factor plots can prove valuable to validate the obtained microstructures against experimental diffraction measurements.",
+        "start_index": 42717,
+        "end_index": 43260
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "![Short range two point correlation functions](https://doi.org/10.26434/chemrxiv-2025-t5ixm)\n\n**ORCID:** [https://orcid.org/0000-0001-7362-7849](https://orcid.org/0000-0001-7362-7849) Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 43260,
+        "end_index": 43501
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Figure 7:** Short range two point correlation functions of (i) Carbon (ii) Ionomer and (iii) Pore phases.",
+        "start_index": 43501,
+        "end_index": 43608
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "The two-point correlation functions, normalised to 1 at \\( r = 0 \\) have been plotted for the length of the entire system and presented in Fig. S5. In the context of our current analysis, since most of the structural variance lies within 100 nm, this work will discuss the short ranged plots of the two-point correlation function presented in Fig. 7",
+        "start_index": 43608,
+        "end_index": 43957
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The initial rapid decay region of the function denotes the size of the fundamental structural unit, which is then distributed uniformly across the micro-structural domain. In the case of carbon particles (Fig. 7 (i)) we observe the function approach its steady state value \\( \\sim 80 \\) nm, which is also observed for the pore phase (Fig. 7 (iii))",
+        "start_index": 43957,
+        "end_index": 44306
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". However, the steady state value is reached at \\( \\sim 50 \\) nm in the case of the ionomer domain. Upon closer inspection we observe the change in aggregate size reflected in the slope of the two-point function, between 30 and 80 nm for carbon and 20 and 60 nm for the ionomer. Both phases exhibit an increasing slope, leading to steady state probabilities earlier, for IPA-rich solvent compositions. From Fig",
+        "start_index": 44306,
+        "end_index": 44716
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". S5 we observe distinct oscillations of the two-point function, which occur at wavelengths of \\( \\sim 100 \\) nm, reflect the structural heterogeneity observed in the electrode microstructures, which are strong at short distances and merge towards the steady-state regime at long distances. By extension, it is also immediately apparent that the minima observed at \\( \\sim 60 \\) nm for the ionomer two-point function in Fig",
+        "start_index": 44716,
+        "end_index": 45139
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". 7 is actually a pseudo-minima, with a true minima and successive oscillations begin at 100 nm, as evidenced by Fig. S5 (ii).",
+        "start_index": 45139,
+        "end_index": 45265
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "**Figure 8:** Pore phase statistics using (i) Chord length distribution (ii) Pore size distribution.",
+        "start_index": 45265,
+        "end_index": 45365
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Following the investigation of agglomeration behaviour and descriptors of spatial distribution of the components that constitute the CL, we examine the characteristics of the pore phase. The size, distribution and tortuosity of the pores strongly influence the electrochemical performance of electrodes. From Fig. 8 we observe a majority of chords in the pore phase lying between 20 and 40 nm",
+        "start_index": 45365,
+        "end_index": 45757
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". We observe an increase in the average chord length, with decreasing both extremes in the ink, with intermediate water \u2013 IPA ratios exhibiting a left shifted chord length distribution. A similar trend can also be observed in the pore size distribution. While the pore sizes exhibit a normal distribution across a mean, the mean pore size tends to a higher value with decreasing water content. However, the differences between average pore sizes is not very pronounced",
+        "start_index": 45757,
+        "end_index": 46225
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Despite being analysed over 10 distinct structures over the course of an equilibration run, the above plots cannot be considered to represent the objective relationships of pore sizes and chord lengths across solvent compositions due to the large variance observed in their measurements.",
+        "start_index": 46225,
+        "end_index": 46514
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "With the extraction of microstructural features and extensive characterisation with various spatial descriptors, we shift our focus onto quantifying electrode descriptors which directly influence mass diffusion, proton and electron transport across CLs.",
+        "start_index": 46514,
+        "end_index": 46767
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| Solvent Composition (Water : IPA %) | Surface Area ($\\times 10^{-11}$ m$^2$) | Three phase length ($\\times 10^{-3}$ m) | Volume fraction (%) |\n|------------------------------------|---------------------------------------|---------------------------------------|---------------------|\n|                                    | Pore   | Ionomer | Carbon | Pore   | Ionomer | Carbon |",
+        "start_index": 46767,
+        "end_index": 47147
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| 100                                 | 9.575  | 8.7361  | 6.283  | 6.96   | 44.21   | 28.26  | 27.53  |\n| 80                                  | 9.624  | 8.881   | 6.381  | 7.21   | 44.27   | 28.13  | 27.59  |",
+        "start_index": 47147,
+        "end_index": 47356
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| 60                                  | 9.652  | 9.005   | 6.444  | 7.36   | 44.36   | 28.01  | 27.61  |\n| 40                                  | 9.672  | 9.102   | 6.505  | 7.51   | 44.42   | 27.94  | 27.63  |",
+        "start_index": 47356,
+        "end_index": 47565
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "| 20                                  | 9.695  | 9.151   | 6.534  | 7.59   | 44.41   | 27.91  | 27.67  |",
+        "start_index": 47565,
+        "end_index": 47669
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Table 2: Influence of the solvent composition on pore-solid properties.",
+        "start_index": 47669,
+        "end_index": 47740
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Table 2. displays the surface area and three-phase lengths of the microstructures as a function of their solvent composition. A clear trend can be observed with increasing IPA content in the dispersion medium, with an overall increase in the surface area of each of the respective components (pore, ionomer and carbon). However, a simple increase in pore surface area does not attest to improved electrochemical performance of the electrodes. Herein, the latter property becomes a suitable metric",
+        "start_index": 47740,
+        "end_index": 48236
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Due to the nature of electrochemical reactions that take place at the CL, electrochemically active centers must be proton and electron conductive while also being accessible to the pore in order for (reactants and water) mass transport to occur. The electrochemical centers that satisfy this criterion are assumed to be points, called the three-phase boundary",
+        "start_index": 48236,
+        "end_index": 48597
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Summing over the three-phase boundaries over the entire electrode microstructure gives us the three-phase length \u2013 a metric of how probable electrochemical reactions are in a given electrode. Interestingly, we also observe an increase in the three-phase length for microstructures with increasing IPA content in the solvent. However, the discussion of three-phase boundaries, and by extension, the three-phase length cannot be complete without accounting for various factors that influence the local spatial distribution of ionomer chains around catalyst particles",
+        "start_index": 48597,
+        "end_index": 49163
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". It is known that the balance between the hydrophobicity of carbon particles and the hydrophilicity of Pt particles influences the local distribution of ionomer chains.[31] This is further complicated by the migration of ionomer chains due to factors like Ostwald ripening of Pt particles and carbon corrosion[43]. However, these local phenomena are beyond the resolution and scope of this work. Herein we intended to discuss and capture the meso-scale aggregation phenomena observed in the CL fabrication process.",
+        "start_index": 49163,
+        "end_index": 49678
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Conclusions",
+        "start_index": 49678,
+        "end_index": 49689
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "This work set out to devise an end-to-end modeling framework to create a digital model of the PEMFC electrode fabrication process, while taking into account various common fabrication parameters. In the pursuit of resolving explicit carbon \u2013 ionomer distribution in CL microstructures,",
+        "start_index": 49689,
+        "end_index": 49974
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "we propose a novel discrete element method-based aggregation model with a colloidal representation of ionomer and carbon particles. The process involves a brownian dynamics simulation of the particles, with the DLVO theory forming a basis for inter-particle conservative forces and the solvent approximated through an implicit representation using pair-wise hydrodynamic interactions. The equilibrated catalyst ink is then dried under the wet-drying regime to obtain statistically representative microstructures",
+        "start_index": 49974,
+        "end_index": 50485
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". We also proposed a method to voxelise the resulting microstructures into segmented images, which can then be characterised using image analysis functions typically applied on tomographic datasets. The resulting statistical descriptors were then discussed to explain the representative nature of the simulation methodology and robustness of the workflow. This work has been reported as a proof of concept to develop a model that explains the complex aggregation phenomena observed in the manufacture of CLs.",
+        "start_index": 50485,
+        "end_index": 50993
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Consequentially, we have also been able to observe the variance in the secondary aggregation of ionomer particles, as a function of the ink\u2019s water content. It is known that water-rich slurries drive ionomer aggregation due to the hydrophobicity of the ionomer backbone. The above reported model was able to capture these observations qualitatively, with water-rich slurries driving ionomer aggregation and IPA-rich slurries resulting in highly dispersed structures",
+        "start_index": 50993,
+        "end_index": 51458
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". The variance in carbon-carbon and carbon-ionomer distributions were also quantified using descriptors such as their fractal dimensions and two-point correlation functions. It was also observed that increasing the IPA content in the dispersion solvent increases the effective surface area of the pore network and leads to an increase in the three-phase length.",
+        "start_index": 51458,
+        "end_index": 51819
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "While this communication aims to be a proof-of-concept of this novel aggregation model, the tools developed here lend to a straightforward approach to the experimental validation of microstructural properties. Accordingly we\u2019re working to validate this model across a common range of manufacturing parameters by correlating experimental micro-structures with the structures derived from this meso-scale approach",
+        "start_index": 51819,
+        "end_index": 52230
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ". Furthermore, the model can also be extended to represent the spatial distribution of high-surface area carbons and compare the microstructures of electrodes derived from high and low surface area carbons. This end-to-end framework also lays the foundation for",
+        "start_index": 52230,
+        "end_index": 52491
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "workflows involving optimisation of manufacturing parameters across a range of manufacturing parameters, as previously done by our group in the field of batteries[81], [82]. In such a context, the effect of specific manufacturing parameters on the electrochemical performance of the electrode can be deduced.",
+        "start_index": 52491,
+        "end_index": 52799
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "Supporting information\n\nThe following files are available free of charge.\n\nSupplementary information \u2013 Simulation parameters and validation plots (PDF)\nSupplementary video 1 \u2013 Visual simulation trajectory of the aggregation process (.avi)\nSupplementary video 2 \u2013 Visual simulation trajectory of the drying process (.avi)\n\nFunding Source\n\nThis work was funded by the BLESSED project initiated by the European Union under Marie Sklodowska-Curie Actions (Grant Agreement No. 101072578).",
+        "start_index": 52799,
+        "end_index": 53282
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "\u201cPlateforme MatriCS\u201d is co-financed by the European Union with the European Regional Development Fund (FEDER) and the Hauts-De-France Regional Council among others.\n\nAcknowledgements\n\nS. B. V, M.B. and A.A.F. acknowledge the support of the BLESSED project funded by the European Union under Marie Sklodowska-Curie Actions (Grant Agreement No. 101072578).",
+        "start_index": 53282,
+        "end_index": 53636
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "This work was granted access to HPC resources of \u201cPlateforme MatriCS\u201d within University of Picardie Jules Verne. \u201cPlateforme MatriCS\u201d is co-financed by the European Union with the European Regional Development Fund (FEDER) and the Hauts-De-France Regional Council among others.",
+        "start_index": 53636,
+        "end_index": 53913
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "S. B. V would like to thank Dr. Francisco Fernandez from Prof. Franco\u2019s group, for his insights and assistance with data visualisation and Rashen Lou Omongos, Imelda Cardenas Sierra and Xingyu Zhang, also from Prof. Franco\u2019s group for their unwavering support.\nA.A.F. acknowledges Institut Universitaire de France for the support.\n\nReferences",
+        "start_index": 53913,
+        "end_index": 54255
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[1] L. Al-Ghussain, A. D. Ahmad, A. M. Abubaker, and M. A. Hassan, \u201cExploring the feasibility of green hydrogen production using excess energy from a country-scale 100% solar-wind renewable energy system,\u201d *International Journal of Hydrogen Energy*, vol. 47, no. 51, pp. 21613\u201321633, Jun. 2022, doi: 10.1016/j",
+        "start_index": 54255,
+        "end_index": 54564
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".ijhydene.2022.04.289.",
+        "start_index": 54564,
+        "end_index": 54586
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[2] \u201cU.S. National Clean Hydrogen Strategy and Roadmap | Hydrogen Program.\u201d Accessed: Oct. 02, 2024. [Online]. Available: https://www.hydrogen.energy.gov/library/roadmaps-vision/clean-hydrogen-strategy-roadmap",
+        "start_index": 54586,
+        "end_index": 54795
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[3] \u201cStrat\u00e9gie nationale pour le d\u00e9veloppement de l\u2019hydrog\u00e8ne d\u00e9carbon\u00e9 en France.\u201d Accessed: Oct. 02, 2024. [Online]. Available: https://www.economie.gouv.fr/plan-relance/mesures/strategie-nationale-developpement-hydrogene-decarbone",
+        "start_index": 54795,
+        "end_index": 55028
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[4] \u201cCabinet approves National Green Hydrogen Mission.\u201d Accessed: Oct. 02, 2024. [Online]. Available: https://pib.gov.in/pib.gov.in/Pressreleaseshare.aspx?PRID=1888547",
+        "start_index": 55028,
+        "end_index": 55195
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[5] \u201cProton Exchange Membrane Fuel Cell Market Report, 2030.\u201d Accessed: Oct. 02, 2024. [Online]. Available: https://www.grandviewresearch.com/industry-analysis/proton-exchange-membrane-fuel-cell-market-report",
+        "start_index": 55195,
+        "end_index": 55403
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[6] C. Cunanan, M.-K. Tran, Y. Lee, S. Kwok, V. Leung, and M. Fowler, \u201cA Review of Heavy-Duty Vehicle Powertrain Technologies: Diesel Engine Vehicles, Battery Electric Vehicles, and Hydrogen Fuel Cell Electric Vehicles,\u201d *Clean Technologies*, vol. 3, no. 2, Art. no. 2, Jun. 2021, doi: 10",
+        "start_index": 55403,
+        "end_index": 55691
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".3390/cleantechnol3020028.",
+        "start_index": 55691,
+        "end_index": 55717
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[7] J. J. Minnehan and J. W. Pratt, \u201cPractical Application Limits of Fuel Cells and Batteries for Zero Emission Vessels,\u201d Sandia National Lab. (SNL-NM), Albuquerque, NM (United States), SAND-2017-12665, Nov. 2017. doi: 10.2172/1410178.",
+        "start_index": 55717,
+        "end_index": 55952
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[8] G. Kleen and W. Gibbons, \u201cHeavy-Duty Fuel Cell System Cost \u2013 2023,\u201d Aug. 2024. Accessed: Oct. 03, 2024. [Online]. Available: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf?sfvrsn=70ff384f_3",
+        "start_index": 55952,
+        "end_index": 56214
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[9] \u201cComputational screening of core@shell nanoparticles for the hydrogen evolution and oxygen reduction reactions | The Journal of Chemical Physics | AIP Publishing.\u201d Accessed: Oct. 03, 2024. [Online]. Available: https://pubs.aip.org/aip/jcp/article/145/24/244708/932851",
+        "start_index": 56214,
+        "end_index": 56485
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[10] B. Arumugam, B. A. Kakade, T. Tamaki, M. Arao, H. Imai, and T. Yamaguchi, \u201cEnhanced activity and durability for the electroreduction of oxygen at a chemically ordered intermetallic PtFeCo catalyst,\u201d *RSC Adv.*, vol. 4, no. 52, pp. 27510\u201327517, Jun. 2014, doi: 10",
+        "start_index": 56485,
+        "end_index": 56752
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".1039/C4RA04744C.",
+        "start_index": 56752,
+        "end_index": 56769
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[11] \u201cScalable Preparation of the Chemically Ordered Pt\u2013Fe\u2013Au Nanocatalysts with High Catalytic Reactivity and Stability for Oxygen Reduction Reactions | ACS Applied Materials & Interfaces.\u201d Accessed: Oct. 03, 2024. [Online]. Available: https://pubs.acs.org/doi/full/10.1021/acsami.8b05114",
+        "start_index": 56769,
+        "end_index": 57058
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[12] M. Chen et al., \u201cPt alloy nanoparticles decorated on large-size nitrogen-doped graphene tubes for highly stable oxygen-reduction catalysts,\u201d *Nanoscale*, vol. 10, no. 36, pp. 17318\u201317326, 2018, doi: 10.1039/C8NR05888A.",
+        "start_index": 57058,
+        "end_index": 57281
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[13] \u201cUltralow-loading platinum-cobalt fuel cell catalysts derived from imidazolate frameworks | Science.\u201d Accessed: Oct. 03, 2024. [Online]. Available: https://www.science.org/doi/full/10.1126/science.aau0630",
+        "start_index": 57281,
+        "end_index": 57490
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[14] J.-Y. Choi et al., \u201cIs the rapid initial performance loss of Fe/N/C non precious metal catalysts due to micropore flooding?,\u201d *Energy & Environmental Science*, vol. 10, no. 1, pp. 296\u2013305, 2017, doi: 10.1039/C6EE03005J.",
+        "start_index": 57490,
+        "end_index": 57714
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[15] H. T. Chung et al., \u201cDirect atomic-level insight into the active sites of a high-performance PGM-free ORR catalyst,\u201d *Science*, vol. 357, no. 6350, pp. 479\u2013484, Aug. 2017, doi: 10.1126/science.aan2255.",
+        "start_index": 57714,
+        "end_index": 57920
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[16] D. Banham and S. Ye, \u201cCurrent Status and Future Development of Catalyst Materials and Catalyst Layers for Proton Exchange Membrane Fuel Cells: An Industrial Perspective,\u201d *ACS Energy Lett.*, vol. 2, no. 3, pp. 629\u2013638, Mar. 2017, doi: 10.1021/acsenergylett.6b00644.",
+        "start_index": 57920,
+        "end_index": 58190
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[17] N. Zamel, \u201cThe catalyst layer and its dimensionality \u2013 A look into its ingredients and how to characterize their effects,\u201d *Journal of Power Sources*, vol. 309, pp. 141\u2013159, Mar. 2016, doi: 10.1016/j.jpowsour.2016.01.091.",
+        "start_index": 58190,
+        "end_index": 58416
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[18] Y. Shao, J. Liu, Y. Wang, and Y. Lin, \u201cNovel catalyst support materials for PEM fuel cells: current status and future prospects,\u201d *J. Mater. Chem.*, vol. 19, no. 1, pp. 46\u201359, Dec. 2008, doi: 10.1039/B808370C.",
+        "start_index": 58416,
+        "end_index": 58630
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[19] S. Samad et al., \u201cCarbon and non-carbon support materials for platinum-based catalysts in fuel cells,\u201d *International Journal of Hydrogen Energy*, vol. 43, no. 16, pp. 7823\u20137854, Apr. 2018, doi: 10.1016/j.ijhydene.2018.02.154.",
+        "start_index": 58630,
+        "end_index": 58861
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[20] L. Gan, H. Du, B. Li, and F. Kang, \u201cThe effect of particle size on the interaction of Pt catalyst particles with a carbon black support,\u201d *New Carbon Materials*, vol. 25, no. 1, pp. 53\u201359, Feb. 2010, doi: 10.1016/S1872-5805(09)60015-9.",
+        "start_index": 58861,
+        "end_index": 59101
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[21] Y. Devrim, E. D. Ar\u0131ca, and A. Albostan, \u201cGraphene based catalyst supports for high temperature PEM fuel cell application,\u201d *International Journal of Hydrogen Energy*, vol. 43, no. 26, pp. 11820\u201311829, Jun. 2018, doi: 10.1016/j.ijhydene.2018.03.047.",
+        "start_index": 59101,
+        "end_index": 59355
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[22] F. Yang et al., \u201cInvestigation of Solvent Effects on the Dispersion of Carbon Agglomerates and Nafion Ionomer Particles in Catalyst Inks Using Ultra Small Angle X-Ray Scattering Method,\u201d *ECS Trans.*, vol. 75, no. 14, p. 361, Aug. 2016, doi: 10.1149/07514.0361ecst.",
+        "start_index": 59355,
+        "end_index": 59625
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[23] M. Jorge and L. Lue, \u201cThe dielectric constant: Reconciling simulation and experiment,\u201d *The Journal of Chemical Physics*, vol. 150, no. 8, p. 084108, Feb. 2019, doi: 10.1063/1.5080927.",
+        "start_index": 59625,
+        "end_index": 59814
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[24] R. Sharma, L. Grah-Madsen, and S. M. Andersen, \u201cInfluence of dispersion media on Nafion\u00ae ionomer distribution in proton exchange membrane fuel cell catalyst carbon support,\u201d *Materi- als Chemistry and Physics*, vol. 226, pp. 66\u201372, Mar. 2019, doi: 10.1016/j.matchemphys.2019.01.015.",
+        "start_index": 59814,
+        "end_index": 60101
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[25] \u201cEnhanced Performance of Ionomer Binder with Shorter Side-Chains, Higher Dispersibility, and Lower Equivalent Weight - Kim - 2018 - Fuel Cells - Wiley Online Library.\u201d Accessed: Oct. 23, 2024. [Online]. Available: https://onlinelibrary.wiley.com/doi/10.1002/fuce.201800083",
+        "start_index": 60101,
+        "end_index": 60378
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[26] T. Omata, M. Tanaka, K. Miyatake, M. Uchida, H. Uchida, and M. Watanabe, \u201cPreparation and Fuel Cell Performance of Catalyst Layers Using Sulfonated Polyimide Iomers,\u201d *ACS Appl. Mater. Interfaces*, vol. 4, no. 2, pp. 730\u2013737, Feb. 2012, doi: 10",
+        "start_index": 60378,
+        "end_index": 60627
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".1021/am201360j.",
+        "start_index": 60627,
+        "end_index": 60643
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[27] Z. Yao, Z. Zhang, M. Hu, J. Hou, L. Wu, and T. Xu, \u201cPerylene-based sulfonated aliphatic polyimides for fuel cell applications: Performance enhancement by stacking of polymer chains,\u201d *Journal of Membrane Science*, vol. 547, pp. 43\u201350, Feb. 2018, doi: 10.1016/j.memsci.2017.10.032.",
+        "start_index": 60643,
+        "end_index": 60928
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[28] T. Soboleva, X. Zhao, K. Malek, Z. Xie, T. Navessin, and S. Holdcroft, \u201cOn the Micro-, Me-so-, and Macroporous Structures of Polymer Electrolyte Membrane Fuel Cell Catalyst Lay- ers,\u201d *ACS Appl. Mater. Interfaces*, vol. 2, no. 2, pp. 375\u2013384, Feb. 2010, doi: 10",
+        "start_index": 60928,
+        "end_index": 61194
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".1021/am900600y.",
+        "start_index": 61194,
+        "end_index": 61210
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[29] B. G. Pollet and J. T. E. Goh, \u201cThe importance of ultrasonic parameters in the preparation of fuel cell catalyst inks,\u201d *Electrochimica Acta*, vol. 128, pp. 292\u2013303, May 2014, doi: 10.1016/j.electacta.2013.09.160.",
+        "start_index": 61210,
+        "end_index": 61428
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[30] M. Wang et al., \u201cImpact of Catalyst Ink Dispersing Methodology on Fuel Cell Performance Using in-Situ X-ray Scattering,\u201d *ACS Appl. Energy Mater.*, vol. 2, no. 9, pp. 6417\u20136427, Sep. 2019, doi: 10.1021/acsaem.9b01037.",
+        "start_index": 61428,
+        "end_index": 61650
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[31] K. Malek, M. Eikerling, Q. Wang, T. Navessin, and Z. Liu, \u201cSelf-Organization in Catalyst Layers of Polymer Electrolyte Fuel Cells,\u201d *J. Phys. Chem. C*, vol. 111, no. 36, pp. 13627\u201313634, Sep. 2007, doi: 10.1021/jp072692k.",
+        "start_index": 61650,
+        "end_index": 61876
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[32] P. Liu et al., \u201cAgglomeration behavior of carbon-supported platinum nanoparticles in catalyst ink: modeling and experimental investigation,\u201d *Journal of Power Sources*, vol. 602, p. 234309, May 2024, doi: 10.1016/j.jpowsour.2024.234309.",
+        "start_index": 61876,
+        "end_index": 62117
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[33] S. Shukla, S. Bhattacharjee, and M. Secanell, \u201cRationalizing Catalyst Inks for PEMFC Electrodes Based on Colloidal Interactions,\u201d *EC Trans.*, vol. 58, no. 1, pp. 1409\u20131428, Aug. 2013, doi: 10.1149/05801.1409ecst.",
+        "start_index": 62117,
+        "end_index": 62335
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[34] B. W. Ninham, \u201cOn progress in forces since the DLVO theory,\u201d *Advances in Colloid and Interface Science*, vol. 83, no. 1, pp. 1\u201317, Dec. 1999, doi: 10.1016/S0001-8686(99)00008-1.",
+        "start_index": 62335,
+        "end_index": 62518
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[35] C. J. Van Oss, \u201cEnergetics of cell-cell and cell-biopolymer interactions,\u201d *Cell Biophysics*, vol. 14, no. 1, pp. 1\u201316, Feb. 1989, doi: 10.1007/BF02797387.",
+        "start_index": 62518,
+        "end_index": 62678
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[36] M. B. Dixit, B. A. Harkey, F. Shen, and K. B. Hatzell, \u201cCatalyst Layer Ink Interactions That Affect Coatability,\u201d *J. Electrochem. Soc.*, vol. 165, no. 5, p. F264, Mar. 2018, doi: 10.1149/2.0191805jes.",
+        "start_index": 62678,
+        "end_index": 62884
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[37] J. A. Quiblier, \u201cA new three-dimensional modeling technique for studying porous media,\u201d *Journal of Colloid and Interface Science*, vol. 98, no. 1, pp. 84\u2013102, Mar. 1984, doi: 10.1016/0021-9797(84)90481-8.",
+        "start_index": 62884,
+        "end_index": 63094
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[38] P. P. Mukherjee and C.-Y. Wang, \u201cStochastic Microstructure Reconstruction and Direct Numerical Simulation of the PEFC Catalyst Layer,\u201d *J. Electrochem. Soc.*, vol. 153, no. 5, p. A840, Mar. 2006, doi: 10.1149/1.2179303.",
+        "start_index": 63094,
+        "end_index": 63318
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[39] S. H. Kim and H. Pitsch, \u201cReconstruction and Effective Transport Properties of the Catalyst Layer in PEM Fuel Cells,\u201d *J. Electrochem. Soc.*, vol. 156, no. 6, p. B673, Apr. 2009, doi: 10.1149/1.3106136.",
+        "start_index": 63318,
+        "end_index": 63525
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[40] H. Ishikawa, Y. Sugawara, G. Inoue, and M. Kawase, \u201cEffects of Pt and ionomer ratios on the structure of catalyst layer: A theoretical model for polymer electrolyte fuel cells,\u201d *Journal of Power Sources*, vol. 374, pp. 196\u2013204, Jun. 2018, doi: 10.1016/j.jpowsour.2017.11.026.",
+        "start_index": 63525,
+        "end_index": 63806
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[41] J. Kang, K. Moriyama, and S. H. Kim, \u201cAn extended stochastic reconstruction method for catalyst layers in proton exchange membrane fuel cells,\u201d *Journal of Power Sources*, vol. 325, pp. 752\u2013761, Sep. 2016, doi: 10.1016/j.jpowsour.2016.06.083.",
+        "start_index": 63806,
+        "end_index": 64053
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[42] C. Zhao et al., \u201cThe effect of catalyst layer design on catalyst utilization in PEMFC studied via stochastic reconstruction method,\u201d *Energy and AI*, vol. 13, p. 100245, Jul. 2023, doi: 10.1016/j.egyai.2023.100245.",
+        "start_index": 64053,
+        "end_index": 64272
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[43] K. Malek and A. A. Franco, \u201cMicrostructure-Based Modeling of Aging Mechanisms in Catalyst Layers of Polymer Electrolyte Fuel Cells,\u201d *J. Phys. Chem. B*, vol. 115, no. 25, pp. 8088\u20138101, Jun. 2011, doi: 10.1021/jp111400k.",
+        "start_index": 64272,
+        "end_index": 64497
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[44] K. Malek, T. Mashio, and M. Eikerling, \u201cMicrostructure of Catalyst Layers in PEM Fuel Cells Redefined: A Computational Approach,\u201d *Electrocatal.*, vol. 2, no. 2, pp. 141\u2013157, Jun. 2011, doi: 10.1007/s12678-011-0047-0.",
+        "start_index": 64497,
+        "end_index": 64719
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[45] Y. Xiao, M. Dou, J. Yuan, M. Hou, W. Song, and B. Sund\u00e9n, \u201cFabrication Process Simulation of a PEM Fuel Cell Catalyst Layer and Its Microscopic Structure Characteristics,\u201d *J. Electrochem. Soc.*, vol. 159, no. 3, p. B308, Jan. 2012, doi: 10.1149/2.064203jes.",
+        "start_index": 64719,
+        "end_index": 64982
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[46] L. Rubatat, A. L. Rollet, G. Gebel, and O. Diat, \u201cEvidence of Elongated Polymeric Aggregates in Nafion,\u201d *Macromolecules*, vol. 35, no. 10, pp. 4050\u20134055, May 2002, doi: 10.1021/ma011578b.",
+        "start_index": 64982,
+        "end_index": 65175
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[47] S.-J. Lee, T. L. Yu, H.-L. Lin, W.-H. Liu, and C.-L. Lai, \u201cSolution properties of nafion in methanol/water mixture solvent,\u201d *Polymer*, vol. 45, no. 8, pp. 2853\u20132862, Apr. 2004, doi: 10.1016/j.polymer.2004.01.076.",
+        "start_index": 65175,
+        "end_index": 65393
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[48] \u201cMorphology study of Nafion membranes prepared by solutions casting - Lin - 2005 - Journal of Polymer Science Part B: Polymer Physics - Wiley Online Library.\u201d Accessed: Oct. 24, 2024. [Online]. Available: https://onlinelibrary.wiley.com/doi/full/10.1002/polb.20599",
+        "start_index": 65393,
+        "end_index": 65662
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[49] A. Tarokh, K. Karan, and S. Ponnurangam, \u201cAtomistic MD Study of Nafion Dispersions: Role of Solvent and Counterion in the Aggregate Structure, Ionic Clustering, and Acid Dissociation,\u201d *Macromolecules*, vol. 53, no. 1, pp. 288\u2013301, Jan. 2020, doi: 10.1021/acs.macromol",
+        "start_index": 65662,
+        "end_index": 65935
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".9b01663.",
+        "start_index": 65935,
+        "end_index": 65944
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[50] M. So, T. Ohnishi, K. Park, M. Ono, Y. Tsuge, and G. Inoue, \u201cThe effect of solvent and ionomer on agglomeration in fuel cell catalyst inks: Simulation by the Discrete Element Method,\u201d International Journal of Hydrogen Energy, vol. 44, no. 54, pp. 28984\u201328995, Nov. 2019, doi: 10",
+        "start_index": 65944,
+        "end_index": 66227
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".1016/j.ijhydene.2019.09.012.",
+        "start_index": 66227,
+        "end_index": 66256
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[51] F. C. Cetinbas, S. G. Advani, and A. K. Prasad, \u201cA Modified Agglomerate Model with Discrete Catalyst Particles for the PEM Fuel Cell Catalyst Layer,\u201d J. Electrochem. Soc., vol. 160, no. 8, p. F750, Apr. 2013, doi: 10.1149/2.01730jes.",
+        "start_index": 66256,
+        "end_index": 66494
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[52] M. So, T. Ohnishi, M. Ono, Y. Tsuge, and G. Inoue, \u201cA discrete particle packing model for the formation of a catalyst layer in polymer electrolyte fuel cells,\u201d International Journal of Hydrogen Energy, vol. 44, no. 60, pp. 32170\u201332183, Dec. 2019, doi: 10.1016/j.ijhydene.2019",
+        "start_index": 66494,
+        "end_index": 66774
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".10.005.",
+        "start_index": 66774,
+        "end_index": 66782
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[53] M. So, K. Park, Y. Tsuge, and G. Inoue, \u201cA Particle Based Ionomer Attachment Model for a Fuel Cell Catalyst Layer,\u201d J. Electrochem. Soc., vol. 167, no. 1, p. 013544, Jan. 2020, doi: 10.1149/2.01711/ab68d4.",
+        "start_index": 66782,
+        "end_index": 66992
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[54] J. F. Troncoso, F. M. Zanotto, D. E. Galvez-Aranda, D. Zapata Dominguez, L. Denisart, and A. A. Franco, \u201cThe ARTISTIC Battery Manufacturing Digitalization Initiative: From Fundamental Research to Industrialization,\u201d Batteries & Supercaps, vol. 8, no. 1, p. e202400385, 2025, doi: 10",
+        "start_index": 66992,
+        "end_index": 67279
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".1002/batt.202400385.",
+        "start_index": 67279,
+        "end_index": 67300
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[55] I. Srivastava, D. S. Bolintineanu, J. B. Lechman, and S. A. Roberts, \u201cControlling Binder Adhesion to Impact Electrode Mesostruuctures and Transport,\u201d ACS Appl. Mater. Interfaces, vol. 12, no. 31, pp. 34919\u201334930, Aug. 2020, doi: 10.1021/acsami",
+        "start_index": 67300,
+        "end_index": 67548
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".0c08251.",
+        "start_index": 67548,
+        "end_index": 67557
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[56] R. C. Ball and J. R. Melrose, \u201cA simulation technique for many spheres in quasi-static motion under frame-invariant pair drag and Brownian forces,\u201d Physica A: Statistical Mechanics and its Applications, vol. 247, no. 1, pp. 444\u2013472, Dec. 1997, doi: 10.1016/S0378-4371(97)00412-3.",
+        "start_index": 67557,
+        "end_index": 67841
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[57] R. Everaers and M. R. Ejtehadi, \u201cInteraction potentials for soft and hard ellipsoids,\u201d Phys. Rev. E, vol. 67, no. 4, p. 041710, Apr. 2003, doi: 10.1103/PhysRevE.67.041710.",
+        "start_index": 67841,
+        "end_index": 68017
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[58] J. N. Israelachvili, Intermolecular and Surface Forces. Academic Press, 2011.",
+        "start_index": 68017,
+        "end_index": 68099
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[59] H. H. Wensink, H. L\u00f6wen, M. Rex, C. N. Likos, and S. van Teeffelen, \u201cLong-time self-diffusion for Brownian Gaussian-core particles,\u201d Computer Physics Communications, vol. 179, no. 1, pp. 77\u201381, Jul. 2008, doi: 10.1016/j.cpc.2008.01.009.",
+        "start_index": 68099,
+        "end_index": 68340
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[60] M. D. Haw, M. Gillie, and W. C. K. Poon, \u201cEffects of Phase Behavior on the Drying of Colloidal Suspensions,\u201d Langmuir, vol. 18, no. 5, pp. 1626\u20131633, Mar. 2002, doi: 10.1021/la0110951.",
+        "start_index": 68340,
+        "end_index": 68529
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[61] A. F. Routh, \u201cDrying of thin colloidal films,\u201d Rep. Prog. Phys., vol. 76, no. 4, p. 046603, Mar. 2013, doi: 10.1088/0034-4885/76/4/046603.",
+        "start_index": 68529,
+        "end_index": 68672
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[62] M. Schulz and J. L. Keddie, \u201cA critical and quantitative review of the stratification of particles during the drying of colloidal films,\u201d Soft Matter, vol. 14, no. 30, pp. 6181\u20136197, Aug. 2018, doi: 10.1039/C8SM01025K.",
+        "start_index": 68672,
+        "end_index": 68895
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[63] E. W. Comings and T. K. Sherwood, \u201cThe Drying of Solids. VII Moisture Movement by Capillarity in Drying Granular Materials,\u201d Ind. Eng. Chem., vol. 26, no. 10, pp. 1096\u20131098, Oct. 1934, doi: 10.1021/ic50298a017.",
+        "start_index": 68895,
+        "end_index": 69110
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[64] A. P. Thompson et al., \u201cLAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales,\u201d Computer Physics Communications, vol. 271, p. 108171, Feb. 2022, doi: 10.1016/j.cpc.2021.108171.",
+        "start_index": 69110,
+        "end_index": 69353
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[65] P. R. Schunk et al., \u201cPerformance of mesoscale modeling methods for predicting rheological properties of charged polystyrene/water suspensions,\u201d Journal of Rheology, vol. 56, no. 2, pp. 353\u2013384, Mar. 2012, doi: 10.1122/1.3690105.",
+        "start_index": 69353,
+        "end_index": 69587
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[66] M. Uchida, Y. Fukuoka, Y. Sugawara, N. Eda, and A. Ohta, \u201cEffects of Microstructure of Carbon Support in the Catalyst Layer on the Performance of Polymer-Electrolyte Fuel Cells,\u201d J. Electrochem. Soc., vol. 143, no. 7, p. 2245, Jul. 1996, doi: 10.1149/1.1836988",
+        "start_index": 69587,
+        "end_index": 69852
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".",
+        "start_index": 69852,
+        "end_index": 69853
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[67] H. Srivastav, A. Z. Weber, and C. J. Radke, \u201cColloidal Stability of PFSA-Ionomer Dispersions Part II: Determination of Suspension pH Using Single-Ion Potential Energies,\u201d Langmuir, vol. 40, no. 13, pp. 6666\u20136674, Apr. 2024, doi: 10.1021/acs.langmuir",
+        "start_index": 69853,
+        "end_index": 70107
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".3c03904.",
+        "start_index": 70107,
+        "end_index": 70116
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[68] D. J. Shaw and H. E. Avery, \u201cSurface Chemistry and Colloids,\u201d in Work Out Physical Chemistry, D. J. Shaw and H. E. Avery, Eds., London: Macmillan Education UK, 1989, pp. 214\u2013233. doi: 10.1007/978-1-349-10006-4_7.",
+        "start_index": 70116,
+        "end_index": 70333
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[69] S. J. Burns, P. T. Piironen, and K. J. Hanley, \u201cCritical time step for DEM simulations of dynamic systems using a Hertzian contact model,\u201d International Journal for Numerical Methods in Engineering, vol. 119, no. 5, pp. 432\u2013451, 2019, doi: 10.1002/nme.6056.",
+        "start_index": 70333,
+        "end_index": 70595
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[70] R. L. Davidchack, R. Handel, and M. V. Tretyakov, \u201cLangevin thermostat for rigid body dynamics,\u201d The Journal of Chemical Physics, vol. 130, no. 23, p. 234101, Jun. 2009, doi: 10.1063/1.3149788.",
+        "start_index": 70595,
+        "end_index": 70793
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[71] M. P. Howard, A. Nikoubashman, and A. Z. Panagiotopoulos, \u201cStratification Dynamics in Drying Colloidal Mixtures,\u201d Langmuir, vol. 33, no. 15, pp. 3685\u20133693, Apr. 2017, doi: 10.1021/acs.langmuir.7b00543.",
+        "start_index": 70793,
+        "end_index": 70999
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[72] J. T. Gostick et al., \u201cPoreSpy: A Python Toolkit for Quantitative Analysis of Porous Media Images,\u201d Journal of Open Source Software, vol. 4, no. 37, p. 1296, May 2019, doi: 10.21105/joss.01296.",
+        "start_index": 70999,
+        "end_index": 71197
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[73] S. J. Burns, P. T. Piironen, and K. J. Hanley, \u201cCritical time step for DEM simulations of dynamic systems using a Hertzian contact model,\u201d International Journal for Numerical Methods in Engineering, vol. 119, no. 5, pp. 432\u2013451, 2019, doi: 10.1002/nme.6056.",
+        "start_index": 71197,
+        "end_index": 71459
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[74] \u201cOpenPNM: A Pore Network Modeling Package | IEEE Journals & Magazine | IEEE Xplore.\u201d Accessed: Nov. 27, 2024. [Online]. Available: https://ieeexplore.ieee",
+        "start_index": 71459,
+        "end_index": 71618
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".org/abstract/document/7478437?casa_token=Fx48lGBw9j8AAAAA:seQZYloE7NbpcR7WEh-OTp3rDgrRMwOYJax6Tallnx6zfNFL2ZV-0SP0bQq84DBI4_lJ8RD364",
+        "start_index": 71618,
+        "end_index": 71751
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[75] M. Uchida, Y. Aoyama, N. Eda, and A. Ohta, \u201cNew Preparation Method for Polymer-Electrolyte Fuel Cells,\u201d J. Electrochem. Soc., vol. 142, no. 2, p. 463, Feb. 1995, doi: 10.1149/1.2044068.",
+        "start_index": 71751,
+        "end_index": 71941
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[76] C.-H. Ma et al., \u201cMorphology and properties of Nafion membranes prepared by solution casting,\u201d Polymer, vol. 50, no. 7, pp. 1764\u20131777, Mar. 2009, doi: 10.1016/j.polymer.2009.01.060.",
+        "start_index": 71941,
+        "end_index": 72127
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[77] A. Stukowski, \u201cVisualization and analysis of atomistic simulation data with OVITO\u2014the Open Visualization Tool,\u201d Modelling Simul. Mater. Sci. Eng., vol. 18, no. 1, p. 015012, Dec. 2009, doi: 10.1088/0965-0927/18/1/015012.",
+        "start_index": 72127,
+        "end_index": 72352
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[78] J. Zhao, A. Ozden, S. Shahgaldi, I. E. Alaefour, X. Li, and F. Hamdullahpur, \u201cEffect of Pt loading and catalyst type on the pore structure of porous electrodes in polymer electrolyte membrane (PEM) fuel cells,\u201d Energy, vol. 150, pp. 69\u201376, May 2018, doi: 10.1016/j.energy.2018.02",
+        "start_index": 72352,
+        "end_index": 72636
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".134.",
+        "start_index": 72636,
+        "end_index": 72641
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[79] M. Duquesnoy, C. Liu, D. Z. Dominguez, V. Kumar, E. Ayerbe, and A. A. Franco, \u201cMachine learning-assisted multi-objective optimization of battery manufacturing from synthetic data generated by physics-based simulations,\u201d Energy Storage Materials, vol. 56, pp. 50\u201361, Feb. 2023, doi: 10.1016/j.ensm.2022.12.040",
+        "start_index": 72641,
+        "end_index": 72954
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": ".",
+        "start_index": 72954,
+        "end_index": 72955
+    },
+    {
+        "document_name": "26.txt",
+        "chunk_text": "[80] M. Duquesnoy, C. Liu, V. Kumar, E. Ayerbe, and A. A. Franco, \u201cToward high-performance energy and power battery cells with machine learning-based optimization of electrode manufacturing,\u201d Journal of Power Sources, vol. 590, p. 233674, Jan. 2024, doi: 10.1016/j.jpowsour.2023.233674.",
+        "start_index": 72955,
+        "end_index": 73241
+    }
+]

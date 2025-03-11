@@ -1,0 +1,1382 @@
+[
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Deep Learning-based Image Caption Generator for Real-time Monitoring and Predictive Control of Concentration of Polluting gases\n\nYash Mishra*, Dr. Kedarnath Senapati.\n\nNational Institute of technology Karnataka, Surathkal\n(Department of Chemical Engineering and Department of Mathematical and Computational Sciences)\n\nCorresponding author: - Yash Mishra (yash250025@gmail.com)\n\nAbstract:",
+        "start_index": 0,
+        "end_index": 387
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The automatic generation of image captions in natural language is a critical and challenging task, particularly in the context of environmental monitoring and control. This paper presents a novel deep learning-driven image captioning system designed for real-time monitoring and predictive control of pollutant gas concentrations. The proposed system leverages advanced machine learning techniques to analyze images captured during gas capture processes, generating semantically rich and grammatically accurate captions that describe the visual content",
+        "start_index": 387,
+        "end_index": 939
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ". At the core of the system is a hybrid architecture that integrates a Convolutional Neural Network (CNN) for high-level feature extraction from input images and a Gated Recurrent Unit (GRU) for sequential caption generation. The CNN effectively identifies and extracts relevant features from the images, while the GRU models the temporal dependencies inherent in the data, allowing for the generation of coherent and contextually appropriate captions",
+        "start_index": 939,
+        "end_index": 1390
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ". This dual approach not only enhances the accuracy of the captions but also facilitates a deeper understanding of the processes being monitored. In addition to caption generation, the system incorporates a predictive control module that utilizes the generated captions to forecast future behaviors of the gas capture processes. This predictive capability enables operators to make informed decisions, optimizing the efficiency and effectiveness of pollutant gas management in industrial applications. The proposed system demonstrates significant potential for real-time applications, providing a robust tool for environmental monitoring and control",
+        "start_index": 1390,
+        "end_index": 2039
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ". By enabling the efficient and sustainable utilization of gases, this innovative approach contributes to the broader goal of reducing environmental impact and promoting cleaner industrial practices. The results indicate that deep learning techniques can significantly enhance the capabilities of image captioning systems, paving the way for their application in various domains beyond environmental monitoring.",
+        "start_index": 2039,
+        "end_index": 2450
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "1.0 Introduction",
+        "start_index": 2450,
+        "end_index": 2466
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Environmental pollution, particularly from industrial sources, poses significant challenges to public health and ecological sustainability. Among various pollutants, gases such as carbon...",
+        "start_index": 2466,
+        "end_index": 2655
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "dioxide, methane, and volatile organic compounds (VOCs) are of particular concern due to their contributions to climate change and air quality degradation. Traditional methods of monitoring these gases often rely on manual sampling and laboratory analysis, which can be time-consuming, labor-intensive, and prone to human error. As a result, there is a growing need for automated systems that can provide real-time insights into pollutant gas concentrations, enabling timely interventions and more effective management strategies.",
+        "start_index": 2655,
+        "end_index": 3185
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Recent advancements in machine learning and computer vision have opened new avenues for automating environmental monitoring. Image processing techniques, combined with deep learning algorithms, can analyze visual data captured from gas capture processes, providing valuable information about the state of the environment. However, the challenge remains in translating this visual information into actionable insights that can be easily understood by operators and decision-makers. This is where image captioning\u2014automatically generating descriptive text for images\u2014becomes a crucial component of an effective monitoring system.",
+        "start_index": 3185,
+        "end_index": 3812
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "This paper introduces a novel deep learning-driven image captioning system designed specifically for real-time monitoring and predictive control of pollutant gas concentrations. The proposed system leverages advanced machine learning techniques to analyze images captured during gas capture processes, generating semantically rich and grammatically accurate captions that describe the visual content. By providing contextual information about the images, the system enhances the understanding of the processes being monitored, facilitating better decision-making.",
+        "start_index": 3812,
+        "end_index": 4375
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "At the core of the proposed system is a hybrid architecture that integrates a Convolutional Neural Network (CNN) for high-level feature extraction from input images and a Gated Recurrent Unit (GRU) for sequential caption generation. The CNN is adept at identifying and extracting relevant features from images, such as shapes, colors, and patterns, which are essential for understanding the visual context",
+        "start_index": 4375,
+        "end_index": 4780
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ". The GRU, on the other hand, is designed to model temporal dependencies in the data, allowing it to generate coherent and contextually appropriate captions based on the features extracted by the CNN. This dual approach not only enhances the accuracy of the captions but also provides a deeper understanding of the gas capture processes.",
+        "start_index": 4780,
+        "end_index": 5117
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In addition to caption generation, the system incorporates a predictive control module that utilizes the generated captions to forecast future behaviors of the gas capture processes. This predictive capability enables operators to make informed decisions, optimizing the efficiency and effectiveness of pollutant gas management in industrial applications. By analyzing trends and patterns in the generated captions, the system can provide actionable insights that help operators anticipate potential issues and implement corrective measures proactively.",
+        "start_index": 5117,
+        "end_index": 5670
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The significance of this research lies in its potential to transform environmental monitoring practices. By enabling real-time insights and predictive capabilities, the proposed system offers a robust tool for managing pollutant gas concentrations more effectively. Furthermore, the integration of deep learning techniques in image captioning not only enhances the capabilities\nof monitoring systems but also paves the way for their application in various domains beyond environmental monitoring, such as healthcare, agriculture, and urban planning.",
+        "start_index": 5670,
+        "end_index": 6219
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In summary, this paper presents a comprehensive approach to addressing the challenges of pollutant gas monitoring through the development of a deep learning-driven image captioning system. By combining advanced machine learning techniques with real-time monitoring capabilities, the proposed system aims to contribute to the broader goal of reducing environmental impact and promoting cleaner industrial practices. The following sections will detail the methodology, results, and implications of this innovative approach.\n\n2.0 Feature extraction from image",
+        "start_index": 6219,
+        "end_index": 6775
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Image captioning is a challenging problem that has been widely studied in the computer vision and natural language processing communities. Traditional methods for image captioning involve extracting features from the image using hand-crafted features or shallow learning models and then using template-based methods to generate captions. However, these methods are limited in their ability to generate diverse and accurate captions.",
+        "start_index": 6775,
+        "end_index": 7207
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Deep learning-based methods for image captioning have gained popularity in recent years due to their ability to learn features from large datasets and generate more accurate and diverse captions. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs) are the two primary deep learning models used for image captioning. CNNs are used to extract features from the input image, while RNNs are used to generate the captions.",
+        "start_index": 7207,
+        "end_index": 7646
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Transfer learning is a technique where a pre-trained model is used as a starting point for a new task. Studies have shown that image caption models prepared using transfer learning perform better. Building any model from scratch requires a lot of data and computational resources, whereas transfer learning is much faster and more efficient. Inception V3 is a popular pre-trained CNN model that has been widely used for image classification and object detection tasks.",
+        "start_index": 7646,
+        "end_index": 8114
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The attention mechanism is a technique where the model is trained to focus on specific parts of the input when generating the output. In image captioning, the attention mechanism is used to focus on specific parts of the image when generating each word of the caption. The additive attention mechanism proposed by Dzmitry Bahdanau is a popular attention mechanism used in image captioning.",
+        "start_index": 8114,
+        "end_index": 8503
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The proposed system consists of three main components: a convolutional neural network (CNN), a gated recurrent unit (GRU), and an attention mechanism. The CNN is used to extract features from the input image, and the GRU is used to generate the captions. The attention mechanism is used to focus on specific parts of the image when generating each word of the caption.",
+        "start_index": 8503,
+        "end_index": 8871
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "2.1 Image Feature Extraction using Transfer Learning\n\u2022 A pre-trained Inception V3 model is utilized as the CNN for extracting features from the input image\n\u2022 The Inception V3 model comprises 48 layers, and images of size 299 x 299 are fed as input\n\u2022 The output shape of the last layer is 8 x 8 in 2048",
+        "start_index": 8871,
+        "end_index": 9172
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The previous convolution layer is employed as the feature extractor after removing the last layer of the Inception V3 model\n\u2022 The feature extractor yields a feature vector of length 2048 as output",
+        "start_index": 9172,
+        "end_index": 9368
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "2.2 Caption Generation using GRU\n\u2022 The GRU, a type of recurrent neural network, is utilized to generate captions from the feature vector\n\u2022 The GRU consists of a single layer with a hidden state of length 512 and an embedding word of length 256\n\u2022 The maximum length of the generated sequence is 38 words",
+        "start_index": 9368,
+        "end_index": 9670
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Recurrent Neural Networks (RNNs) are a type of neural network that is designed to handle sequential data, such as time series data, natural language text, and speech. RNNs have a feedback loop that allows information from previous time steps to be used in the current time step. However, RNNs have a problem called the vanishing gradient problem, which makes it difficult for the network to learn long-term dependencies.",
+        "start_index": 9670,
+        "end_index": 10090
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "To address this problem, a new type of RNN called Gated Recurrent Unit (GRU) was introduced in 2014. GRU is a variant of LSTM (Long Short-Term Memory), which was introduced in 1997. GRU is simpler than LSTM and has fewer parameters, making it easier to train and implement.",
+        "start_index": 10090,
+        "end_index": 10363
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The internal structure of a GRU cell consists of two gates: the update gate and the reset gate. The update gate determines how much of the previous hidden state to retain and how much of the new hidden state to compute, while the reset gate determines how much of the previous hidden state to forget.\n\n3.0 Methodology",
+        "start_index": 10363,
+        "end_index": 10680
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The methodology for the proposed deep learning-driven image captioning system for real-time monitoring and predictive control of pollutant gas concentrations consists of several key components: data collection, system architecture, training processes, and the implementation of the predictive control module. Each of these components plays a crucial role in ensuring the effectiveness and accuracy of the system.\n3.1 Data Collection\n\n3.1.1 Image Acquisition",
+        "start_index": 10680,
+        "end_index": 11137
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The first step in developing the image captioning system is the collection of a diverse dataset of images related to gas capture processes. Images were sourced from various industrial facilities engaged in gas capture and management, ensuring a wide representation of different processes, equipment, and environmental conditions. The dataset includes images taken under varying lighting conditions, angles, and distances to enhance the model's robustness.\n\n3.1.2 Annotation",
+        "start_index": 11137,
+        "end_index": 11610
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Each image in the dataset was paired with a corresponding caption that accurately describes the visual content. The captions were generated by domain experts familiar with the gas capture processes, ensuring that they are semantically rich and contextually relevant. The annotation process involved a thorough review to maintain consistency and accuracy across the dataset. The final dataset consisted of thousands of image-caption pairs, providing a solid foundation for training the deep learning models.\n\n3.2 System Architecture",
+        "start_index": 11610,
+        "end_index": 12141
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The proposed system architecture is a hybrid model that combines a Convolutional Neural Network (CNN) for feature extraction and a Gated Recurrent Unit (GRU) for caption generation. This architecture is designed to effectively process visual data and generate coherent textual descriptions.\n\n3.2.1 Convolutional Neural Network (CNN)",
+        "start_index": 12141,
+        "end_index": 12473
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The CNN is responsible for extracting high-level features from the input images. The architecture of the CNN consists of several convolutional layers followed by pooling layers, which help reduce the dimensionality of the feature maps while retaining essential information. The CNN architecture used in this study is based on established models such as ResNet or Inception, which have demonstrated strong performance in image classification tasks.",
+        "start_index": 12473,
+        "end_index": 12920
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Convolutional Layers**: These layers apply convolutional filters to the input images, allowing the model to learn spatial hierarchies of features. Each convolutional layer is followed by a non-linear activation function, typically ReLU (Rectified Linear Unit), to introduce non-linearity into the model.",
+        "start_index": 12920,
+        "end_index": 13227
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Pooling Layers**: Pooling layers, such as max pooling, are used to down-sample the feature maps, reducing their spatial dimensions while retaining the most salient features. This helps to minimize computational complexity and prevent overfitting.",
+        "start_index": 13227,
+        "end_index": 13477
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Fully Connected Layers**: After several convolutional and pooling layers, the output is flattened and passed through fully connected layers, which further refine the feature representation. The final output of the CNN is a high-dimensional feature vector that encapsulates the essential characteristics of the input image.\n3.2.2 Gated Recurrent Unit (GRU)",
+        "start_index": 13477,
+        "end_index": 13836
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The GRU is employed to generate captions based on the features extracted by the CNN. GRUs are a type of recurrent neural network (RNN) that are particularly effective for sequence prediction tasks, as they can model temporal dependencies in the data.",
+        "start_index": 13836,
+        "end_index": 14086
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Input to the GRU**: The feature vector produced by the CNN serves as the initial input to the GRU. Additionally, the GRU takes as input the previously generated words in the caption, allowing it to generate the next word in the sequence based on both the image features and the context of the previously generated words.",
+        "start_index": 14086,
+        "end_index": 14410
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Hidden States**: The GRU maintains hidden states that capture information about the sequence of words generated so far. This allows the model to produce coherent and contextually appropriate captions.\n- **Output Layer**: The output of the GRU is passed through a softmax layer to produce a probability distribution over the vocabulary for the next word in the caption. The word with the highest probability is selected as the next word, and the process continues until a predefined end-of-sequence token is generated.",
+        "start_index": 14410,
+        "end_index": 14931
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "3.3 Training Process\n\nThe training process involves optimizing the parameters of both the CNN and GRU using the annotated dataset. The training is conducted in several stages:\n\n3.3.1 Preprocessing\n\nBefore training, the images undergo preprocessing to ensure consistency and improve model performance. This includes:",
+        "start_index": 14931,
+        "end_index": 15246
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Resizing**: All images are resized to a uniform dimension (e.g., 224x224 pixels) to match the input requirements of the CNN.\n- **Normalization**: Pixel values are normalized to a range of [0, 1] or standardized to have a mean of 0 and a standard deviation of 1, which helps improve convergence during training.",
+        "start_index": 15246,
+        "end_index": 15560
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Tokenization**: The captions are tokenized into words, and a vocabulary is created. Each word is then mapped to a unique integer index, allowing the GRU to process the captions as sequences of integers.",
+        "start_index": 15560,
+        "end_index": 15766
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "3.3.2 Loss Function\n\nThe loss function used for training the model is typically the categorical cross-entropy loss, which measures the difference between the predicted probability distribution of the next word and the actual word in the caption. This loss function is computed for each word in the sequence, and the total loss is averaged over all words in the batch. The goal of the training process is to minimize this loss, thereby improving the accuracy of the generated captions.\n3.3.3 Optimization",
+        "start_index": 15766,
+        "end_index": 16269
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "An optimization algorithm, such as Adam or RMSprop, is employed to update the model parameters based on the computed gradients from the loss function. The learning rate is a critical hyperparameter that determines the step size during the optimization process. A learning rate schedule may be implemented to adjust the learning rate dynamically during training, allowing for faster convergence and better performance.\n\n3.3.4 Training Procedure",
+        "start_index": 16269,
+        "end_index": 16712
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The training procedure consists of multiple epochs, where each epoch involves passing the entire dataset through the model. During each epoch, the model learns to associate image features with the corresponding captions. The training process is monitored using validation data to prevent overfitting, and techniques such as early stopping or dropout may be employed to enhance generalization.\n\n3.4 Implementation of Predictive Control Module",
+        "start_index": 16712,
+        "end_index": 17153
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The predictive control module is an integral part of the system, designed to utilize the generated captions for forecasting future behaviors of the gas capture processes. This module operates in conjunction with the image captioning system to provide actionable insights.\n\n3.4.1 Caption Analysis",
+        "start_index": 17153,
+        "end_index": 17448
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Once the captions are generated, they are analyzed to identify trends and patterns that may indicate changes in the gas capture processes. Natural Language Processing (NLP) techniques, such as sentiment analysis or keyword extraction, can be applied to the captions to extract meaningful information.\n\n3.4.2 Predictive Modeling",
+        "start_index": 17448,
+        "end_index": 17775
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "A predictive model is developed using historical data from the gas capture processes, along with the insights derived from the generated captions. Machine learning algorithms, such as regression models or time series forecasting methods, can be employed to predict future gas concentrations based on the identified trends.\n\n3.4.3 Decision Support System",
+        "start_index": 17775,
+        "end_index": 18128
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The outputs of the predictive model are integrated into a decision support system that provides operators with recommendations for optimizing gas capture processes. This system can alert operators to potential issues, suggest corrective actions, and facilitate proactive management of pollutant gas concentrations.\n3.5 Evaluation Metrics\n\nTo assess the performance of the image captioning system, several evaluation metrics are employed:\n\n3.5.1 Caption Quality",
+        "start_index": 18128,
+        "end_index": 18588
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The quality of the generated captions is evaluated using metrics such as BLEU (Bilingual Evaluation Understudy), METEOR, and CIDEr (Consensus-based Image Description Evaluation). These metrics compare the generated captions against reference captions to quantify their accuracy and relevance.\n\n3.5.2 System Performance",
+        "start_index": 18588,
+        "end_index": 18906
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The overall performance of the system is evaluated based on its ability to provide real-time insights and predictive capabilities. Key performance indicators (KPIs) may include the speed of caption generation, the accuracy of predictions, and the effectiveness of the decision support system in improving gas capture processes.\n\n3.6 Conclusion",
+        "start_index": 18906,
+        "end_index": 19249
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The methodology outlined above provides a comprehensive framework for developing a deep learning-driven image captioning system for real-time monitoring and predictive control of pollutant gas concentrations. By integrating advanced machine learning techniques with robust data collection and analysis processes, the proposed system aims to enhance environmental monitoring practices and contribute to more effective management of industrial pollutant emissions. The subsequent sections will present the results of the implementation and discuss the implications of the findings for future research and applications.\n\n3.7 Implementation Details",
+        "start_index": 19249,
+        "end_index": 19893
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The implementation of the proposed system involves several technical considerations, including the choice of programming frameworks, hardware requirements, and deployment strategies.\n\n3.7.1 Programming Frameworks",
+        "start_index": 19893,
+        "end_index": 20105
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "For the development of the deep learning models, popular frameworks such as TensorFlow and PyTorch were utilized. These frameworks provide extensive libraries and tools for building and training neural networks, facilitating the implementation of both the CNN and GRU components. Additionally, libraries such as OpenCV were employed for image processing tasks, while NLTK or SpaCy were used for natural language processing tasks related to caption analysis.\n3.7.2 Hardware Requirements",
+        "start_index": 20105,
+        "end_index": 20590
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The training of deep learning models, particularly those involving CNNs and GRUs, requires significant computational resources. High-performance GPUs (Graphics Processing Units) were used to accelerate the training process, allowing for faster computation of the large number of parameters involved in the models. A multi-GPU setup may be considered for larger datasets to further enhance training efficiency. Sufficient RAM and storage capacity are also essential to handle the dataset and model checkpoints during training.\n\n3.7.3 Deployment Strategies",
+        "start_index": 20590,
+        "end_index": 21144
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Once the models are trained and validated, the deployment of the system can be achieved through various strategies. A cloud-based deployment can provide scalability and accessibility, allowing users to access the monitoring system from different locations. Alternatively, an on-premises deployment may be preferred for organizations with specific data security requirements. The system can be integrated into existing industrial monitoring frameworks, providing real-time insights directly to operators through user-friendly dashboards.\n\n3.8 User Interface Design",
+        "start_index": 21144,
+        "end_index": 21707
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The user interface (UI) is a critical component of the system, as it facilitates interaction between operators and the monitoring system. The UI should be designed to present the generated captions, predictive insights, and alerts in a clear and intuitive manner.\n\n3.8.1 Dashboard Features\n\nThe dashboard may include features such as:",
+        "start_index": 21707,
+        "end_index": 22041
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Real-time Image Display**: A section for displaying the live feed of images captured during gas capture processes, along with the corresponding generated captions.\n- **Predictive Insights**: Visualizations of predicted gas concentrations over time, allowing operators to understand trends and make informed decisions.\n- **Alerts and Notifications**: A notification system that alerts operators to potential issues based on the predictive model's outputs, enabling timely interventions.",
+        "start_index": 22041,
+        "end_index": 22530
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Historical Data Analysis**: Tools for analyzing historical data and trends, providing operators with insights into the effectiveness of past interventions.",
+        "start_index": 22530,
+        "end_index": 22689
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "3.9 Integration with Existing Systems\n\nTo maximize the utility of the proposed image captioning system, it is essential to integrate it with existing industrial monitoring and control systems. This integration can facilitate seamless data exchange and enhance the overall efficiency of pollutant gas management.\n3.9.1 Data Interoperability",
+        "start_index": 22689,
+        "end_index": 23028
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Ensuring data interoperability between the image captioning system and existing systems is crucial. Standard protocols such as MQTT (Message Queuing Telemetry Transport) or RESTful APIs can be employed to enable communication between different components, allowing for real-time data sharing and updates.\n\n3.9.2 Feedback Loop",
+        "start_index": 23028,
+        "end_index": 23353
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "A feedback loop can be established where the insights generated by the image captioning system inform adjustments in the gas capture processes. This iterative approach allows for continuous improvement and optimization of the monitoring system, ultimately leading to better environmental outcomes.\n\n3.10 Future Work\n\nThe methodology outlined in this paper sets the foundation for future research and development in the field of environmental monitoring. Several avenues for future work can be explored:\n\n3.10.1 Model Refinement",
+        "start_index": 23353,
+        "end_index": 23880
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Further refinement of the deep learning models can be pursued to enhance caption generation accuracy. Techniques such as transfer learning, where pre-trained models are fine-tuned on the specific dataset, can be investigated to improve performance, especially in scenarios with limited training data.\n\n3.10.2 Expansion of Dataset",
+        "start_index": 23880,
+        "end_index": 24209
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Expanding the dataset to include a broader range of gas capture processes and environmental conditions can enhance the robustness of the model. Collaborations with additional industrial partners can facilitate the collection of diverse image-caption pairs, contributing to a more comprehensive training dataset.\n\n3.10.3 Real-world Testing",
+        "start_index": 24209,
+        "end_index": 24547
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Conducting real-world testing of the proposed system in operational environments will provide valuable insights into its effectiveness and usability. Feedback from operators can inform further improvements and adaptations to the system, ensuring it meets the practical needs of industrial applications.",
+        "start_index": 24547,
+        "end_index": 24849
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The methodology presented in this section outlines a comprehensive approach to developing a deep learning-driven image captioning system for real-time monitoring and predictive control of pollutant gas concentrations. By integrating advanced machine learning techniques with robust data collection, analysis, and user interface design, the proposed system aims to enhance environmental monitoring practices and contribute to more effective management of industrial pollutant emissions. The subsequent sections will detail the results of the implementation and discuss the implications of the findings for future research and applications.",
+        "start_index": 24849,
+        "end_index": 25487
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "4.0 Test Data Analysis",
+        "start_index": 25487,
+        "end_index": 25509
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The implementation of the deep learning-driven image captioning system for real-time monitoring and predictive control of pollutant gas concentrations yielded promising results across several evaluation metrics. The performance of the system was assessed based on the quality of the generated captions, the accuracy of the predictive control module, and the overall effectiveness of the system in enhancing environmental monitoring practices.\n\n4.1 Caption Generation Quality",
+        "start_index": 25509,
+        "end_index": 25983
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The quality of the generated captions was evaluated using standard metrics such as BLEU (Bilingual Evaluation Understudy), METEOR, and CIDEr (Consensus-based Image Description Evaluation). These metrics provide quantitative measures of how well the generated captions align with reference captions provided by domain experts.",
+        "start_index": 25983,
+        "end_index": 26308
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **BLEU Score**: The average BLEU score achieved by the system was 0.6, indicating a high level of overlap between the generated captions and the reference captions. This score reflects the system's ability to produce semantically relevant and contextually appropriate descriptions of the images.\n\nThese results demonstrate that the proposed system effectively generates high-quality captions that enhance the understanding of gas capture processes.\n\n4.2 Predictive Control Accuracy",
+        "start_index": 26308,
+        "end_index": 26791
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The predictive control module was evaluated based on its ability to forecast future behaviors of the gas capture processes. The accuracy of the predictions was assessed using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).",
+        "start_index": 26791,
+        "end_index": 27043
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Mean Absolute Error (MAE)**: The MAE for the predictive model was found to be 0.05, indicating that the predicted gas concentrations were, on average, within 5% of the actual measured values. This level of accuracy is significant for operational decision-making in industrial settings.",
+        "start_index": 27043,
+        "end_index": 27332
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Root Mean Squared Error (RMSE)**: The RMSE was calculated to be 0.07, further confirming the reliability of the predictive model. A lower RMSE indicates that the model's predictions closely align with the actual values, providing operators with confidence in the insights generated by the system.\n\n4.3 System Performance and User Feedback",
+        "start_index": 27332,
+        "end_index": 27674
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The overall performance of the system was evaluated in a real-world industrial setting, where operators utilized the image captioning and predictive control functionalities. Feedback from\nusers indicated that the system significantly improved their ability to monitor pollutant gas concentrations in real time.\n\n- **Real-time Insights**: Operators reported that the generated captions provided valuable context for the images, allowing them to quickly assess the state of the gas capture processes. The ability to visualize and understand the processes through descriptive captions enhanced situational awareness.",
+        "start_index": 27674,
+        "end_index": 28287
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- **Decision Support**: The predictive control module was praised for its ability to provide actionable insights. Operators noted that the forecasts enabled them to anticipate potential issues and implement corrective measures proactively, leading to improved efficiency in gas management.\n\n- **User Interface**: The user interface was designed to be intuitive and user-friendly, facilitating easy navigation and interaction with the system. Operators appreciated the clear visualizations of real-time data and predictive insights, which contributed to more informed decision-making.",
+        "start_index": 28287,
+        "end_index": 28870
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The results of the study demonstrate that the deep learning-driven image captioning system effectively generates high-quality captions and provides accurate predictive insights for real-time monitoring and control of pollutant gas concentrations. The positive feedback from operators highlights the system's potential to enhance environmental monitoring practices and contribute to more effective management of industrial emissions. Future work will focus on further refining the models and expanding the dataset to improve performance and applicability across diverse industrial contexts.\n\n### 5.0 GRU vs LSTM",
+        "start_index": 28870,
+        "end_index": 29480
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "GRU and LSTM are both types of RNNs that are designed to handle sequential data. They both have a feedback loop that allows information from previous time steps to be used in the current time step. However, there are some differences between GRU and LSTM.",
+        "start_index": 29480,
+        "end_index": 29735
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The main difference between GRU and LSTM is the number of gates. GRU has two gates (update and reset), while LSTM has three gates (input, forget, and output). This makes GRU simpler and easier to train than LSTM.",
+        "start_index": 29735,
+        "end_index": 29947
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Another difference between GRU and LSTM is the way they handle long-term dependencies. GRU uses a reset gate to forget the previous hidden state, while LSTM uses an input gate and a forget gate to control the flow of information into and out of the cell state.\n\nIn terms of performance, GRU and LSTM are similar. However, GRU is faster and requires less memory than LSTM. This makes GRU a better choice for tasks that require real-time processing or have limited resources.",
+        "start_index": 29947,
+        "end_index": 30420
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "### 5.1 Situations where GRU is preferred over LSTM and vice versa\n\nGRU is preferred over LSTM in situations where the data has short-term dependencies or the network needs to be trained quickly. GRU is also preferred over LSTM in natural language\nprocessing tasks, such as language modeling and machine translation, where the input and output sequences are of the same length.",
+        "start_index": 30420,
+        "end_index": 30797
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "LSTM is preferred over GRU in situations where the data has long-term dependencies or the network needs to learn complex patterns. LSTM is also preferred over GRU in speech recognition tasks, where the input and output sequences are of different lengths.\n\n5.2 Feature Vectors and Their Importance",
+        "start_index": 30797,
+        "end_index": 31093
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Feature vectors are a way to represent data in a numerical format that can be used as input to a machine learning model. Feature vectors can be obtained from different types of data, such as images, audio, and text.",
+        "start_index": 31093,
+        "end_index": 31308
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In the context of caption generation, feature vectors are obtained from images using a convolutional neural network (CNN). The CNN extracts features from the image, such as edges, shapes, and textures, and represents them as a numerical vector. This vector is then used as input to the GRU, which generates a sequence of words that form the caption.",
+        "start_index": 31308,
+        "end_index": 31657
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Feature vectors are important because they allow the GRU to understand the content of the image and generate a caption that is relevant and accurate. The quality of the feature vector has a direct impact on the quality of the generated caption.\n\nMethods of obtaining feature vectors from different types of data include:",
+        "start_index": 31657,
+        "end_index": 31977
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- Convolutional Neural Networks (CNNs) for images\n- Recurrent Neural Networks (RNNs) for sequential data, such as audio and text\n- Autoencoders for unsupervised learning\n- Transfer learning, where a pre-trained model is fine-tuned on a new dataset\n\n5.3 Caption Generation with GRUs\n\n5.3.1 The process of generating captions using GRUs involves the following steps:",
+        "start_index": 31977,
+        "end_index": 32341
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "1. Image Feature Extraction: A CNN is used to extract features from the image, which are then represented as a numerical vector.\n2. GRU Initialization: The GRU is initialized with the feature vector and a start token, which indicates the beginning of the caption.\n3. Word Generation: The GRU generates a sequence of words, one at a time, based on the previous word and the feature vector.",
+        "start_index": 32341,
+        "end_index": 32729
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "4. Word Embedding: Each generated word is embedded into a numerical vector, which is used as input to the GRU at the next time step.\n5. Caption Generation: The sequence of generated words forms the caption, which is then output by the GRU.",
+        "start_index": 32729,
+        "end_index": 32968
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "5.3.2 The GRU utilizes the feature vector to produce text sequences by using the following mechanisms:",
+        "start_index": 32968,
+        "end_index": 33070
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- The feature vector is used to initialize the hidden state of the GRU, which allows the network to understand the content of the image.\n- The GRU uses the feature vector to generate the first word of the caption, which is then used to generate the next word, and so on.\nThe GRU uses the feature vector to determine the relevance of each word to the image, and generates words that are most relevant to the image.",
+        "start_index": 33070,
+        "end_index": 33483
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "5.3.3 Advantages of using GRUs for caption generation include:\n\n- Ability to handle sequential data, such as text and audio\n- Ability to learn long-term dependencies, which is important for generating coherent and relevant captions\n- Faster training and inference times compared to LSTMs\n- Simpler architecture compared to LSTMs, which makes it easier to implement and train\n\nFigure 4 shows the schematic diagram of the GRU architecture and its different components in brief.",
+        "start_index": 33483,
+        "end_index": 33958
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "6.0 Attention Mechanism",
+        "start_index": 33958,
+        "end_index": 33981
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- The additive attention mechanism proposed by Dzmitry Bahdanau is used to focus on specific parts of the image when generating each word of the caption\n- The attention mechanism computes the alignment score between the previous hidden state of the decoder and each of the hidden states of the encoder\n- The alignment scores are then softmaxed and multiplied with the hidden states to form a context vector",
+        "start_index": 33981,
+        "end_index": 34387
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- The context vector is concatenated with the previous form of the context vector and used to generate the next word of the caption",
+        "start_index": 34387,
+        "end_index": 34518
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The attention mechanism is a crucial component in the proposed deep learning-based image caption generator for real-time monitoring and predictive control of CO2 emissions. The attention mechanism enables the system to focus on specific parts of the image when generating each word of the caption, allowing for more accurate and descriptive captions.\n\nIn this section, we will elaborate on the attention mechanism used in the proposed system, specifically the additive attention mechanism proposed by Dzmitry Bahdanau.",
+        "start_index": 34518,
+        "end_index": 35036
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "6.1 Additive Attention Mechanism\n\nThe additive attention mechanism is a type of attention mechanism that computes the alignment score between the previous hidden state of the decoder and each of the hidden states of the encoder. The alignment score represents the importance of each encoder hidden state in generating the next word of the caption.\n\n6.2 Benefits of Attention Mechanism\n\nThe attention mechanism provides several benefits in image captioning:",
+        "start_index": 35036,
+        "end_index": 35492
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "1. Improved accuracy: The attention mechanism allows the system to focus on specific parts of the image when generating each word of the caption, leading to more accurate and descriptive captions.\n2. **Increased flexibility**: The attention mechanism enables the system to generate captions of varying lengths and complexity, making it more flexible and adaptable to different scenarios.",
+        "start_index": 35492,
+        "end_index": 35879
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "3. **Better handling of long-range dependencies**: The attention mechanism allows the system to capture long-range dependencies between different parts of the image, leading to more coherent and meaningful captions.\n\n### 6.3 Challenges of Attention Mechanism\n\nWhile the attention mechanism provides several benefits, it also poses some challenges:",
+        "start_index": 35879,
+        "end_index": 36226
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "1. **Computational cost**: The attention mechanism requires significant computational resources, particularly when dealing with large images and long captions.\n2. **Overfitting**: The attention mechanism can lead to overfitting, particularly when the model is trained on small datasets.\n3. **Interpretability**: The attention mechanism can be difficult to interpret, making it challenging to understand why the system is generating certain captions.",
+        "start_index": 36226,
+        "end_index": 36675
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In conclusion, the attention mechanism is a crucial component in the proposed deep learning-based image caption generator for real-time monitoring and predictive control of CO2 emissions. The additive attention mechanism proposed by Dzmitry Bahdanau enables the system to focus on specific parts of the image when generating each word of the caption, leading to more accurate and descriptive captions. While the attention mechanism poses some challenges, its benefits make it a valuable tool in image captioning.\n\n### 7.0 Results",
+        "start_index": 36675,
+        "end_index": 37204
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- The proposed model was evaluated on the Flickr8k dataset\n\n  The dataset consists of 8,000 images, which are divided into three sets: Training Set - 6000 images, Dev Set - 1000 images, and Test Set - 1000 images\n\n- Each image is associated with five sentences of around 10-20 words\n\n- The Bilingual Evaluation Understudy (BLEU) metric was used to assess the quality of the generated captions",
+        "start_index": 37204,
+        "end_index": 37596
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "- The BLEU score ranges from 0 to 1, with 1 indicating a perfect match\n\n- The proposed model achieved a BLEU score of 0.68 on the test set, indicating a high degree of accuracy in generating captions\n\n- The attention mechanism enabled the model to focus on specific parts of the image, leading to more precise captions.\n\n### 7.1 Result 1\n\nClose Real Captions",
+        "start_index": 37596,
+        "end_index": 37954
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "1. Industrial Zone with Elevated Levels of Pollutant Gases\n2. Region of Industry Exhibiting Increased Polluted Gas Concentrations\n3. Industrial Sector Characterized by Higher Percentages of Polluted Gases\n4. Area of Industry with Greater Proportions of Pollutant Gases\n5. Industrial District with a Higher Percentage of Airborne Pollutants\n\nBLEU Score 0.61",
+        "start_index": 37954,
+        "end_index": 38310
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "7.2 Results 2\nClose real Captions\n1. Industrial Zone with Average Levels of Pollutant Gases\n2. Region of Industry Exhibiting Standard Polluted Gas Concentrations\n3. Industrial Sector Characterized by Typical Percentages of Polluted Gases\n4. Area of Industry with Regular Proportions of Pollutant Gases\n5. Industrial District with a Normal Percentage of Airborne Pollutants\nBLEU Score 0.55",
+        "start_index": 38310,
+        "end_index": 38698
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "7.3 Results 3\nClose Real Captions\n\n1. Industrial Zone with Zero Levels of Pollutant Gases\n2. Region of Industry Free from Polluted Gas Emissions\n3. Industrial Sector Characterized by Absence of Polluted Gases\n4. Area of Industry with No Detectable Pollutant Gases\n5. Industrial District with a Complete Lack of Airborne Pollutants\n\nBLEU Score 0.62\n\n8. Conclusion",
+        "start_index": 38698,
+        "end_index": 39060
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The increasing urgency to address environmental pollution, particularly from industrial sources, has necessitated the development of innovative monitoring systems that can provide real-time insights into pollutant gas concentrations. This paper presented a novel deep learning-driven image captioning system designed specifically for real-time monitoring and predictive control of pollutant gas concentrations. By leveraging advanced machine learning techniques, the proposed system effectively analyzes images captured during gas capture processes, generating semantically rich and grammatically accurate captions that describe the visual content.",
+        "start_index": 39060,
+        "end_index": 39708
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The results of the study demonstrated that the system is capable of generating high-quality captions that significantly enhance the understanding of gas capture processes. The evaluation metrics, including BLEU, scores, indicated that the generated captions closely aligned with expert-generated reference captions, showcasing the system's ability to produce contextually relevant and coherent descriptions. The average BLEU score of 0.6, reflect the system's effectiveness in capturing the essential features of the images and translating them into meaningful language.",
+        "start_index": 39708,
+        "end_index": 40278
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In addition to caption generation, the predictive control module of the system proved to be a valuable tool for forecasting future behaviors of gas capture processes. The accuracy of the predictive model, as measured by Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE), demonstrated that the system could provide reliable predictions that operators could use to make informed decisions.",
+        "start_index": 40278,
+        "end_index": 40676
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "The practical implications of this research are significant. By integrating image captioning with predictive control, the proposed system offers a comprehensive solution for real-time monitoring of pollutant gas concentrations. Operators in industrial settings can benefit from the enhanced situational awareness provided by the generated captions, which allow for quick assessments of the gas capture processes. The ability to visualize and understand the processes through descriptive captions not only aids in immediate decision-making but also fosters a deeper understanding of the underlying dynamics of gas capture.",
+        "start_index": 40676,
+        "end_index": 41297
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Moreover, the predictive capabilities of the system empower operators to anticipate potential issues and implement corrective measures proactively. This proactive approach to gas management can lead to improved operational efficiency, reduced emissions, and enhanced compliance with environmental regulations. The positive feedback from operators who utilized the system in real-world settings underscores its potential to transform environmental monitoring practices.",
+        "start_index": 41297,
+        "end_index": 41765
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "While the results of this study are promising, there are several avenues for future research and development that could further enhance the capabilities of the proposed system. One area of focus could be the refinement of the deep learning models used for image captioning and predictive control. Techniques such as transfer learning, where pre-trained models are fine-tuned on specific datasets, could be explored to improve performance, especially in scenarios with limited training data",
+        "start_index": 41765,
+        "end_index": 42254
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ". This approach could enhance the system's adaptability to different industrial contexts and gas capture processes.",
+        "start_index": 42254,
+        "end_index": 42369
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Additionally, expanding the dataset to include a broader range of gas capture processes and environmental conditions would contribute to the robustness of the model. Collaborations with more industrial partners could facilitate the collection of diverse image-caption pairs, enriching the training dataset and improving the system's generalization capabilities.",
+        "start_index": 42369,
+        "end_index": 42730
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Real-world testing of the proposed system in various operational environments will also provide valuable insights into its effectiveness and usability. Gathering feedback from operators in different settings can inform further improvements and adaptations to the system, ensuring it meets the practical needs of diverse industrial applications.",
+        "start_index": 42730,
+        "end_index": 43074
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Another important consideration for future work is the integration of the proposed system with existing industrial monitoring and control systems. Ensuring data interoperability between the image captioning system and current systems is crucial for maximizing its utility. Standard protocols such as MQTT (Message Queuing Telemetry Transport) or RESTful APIs can facilitate seamless communication between different components, allowing for real-time data sharing and updates.",
+        "start_index": 43074,
+        "end_index": 43549
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "Establishing a feedback loop where insights generated by the image captioning system inform adjustments in gas capture processes can lead to continuous improvement and optimization. This iterative approach will enhance the overall effectiveness of the monitoring system and contribute to better environmental outcomes.",
+        "start_index": 43549,
+        "end_index": 43867
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "In conclusion, the deep learning-driven image captioning system presented in this paper represents a significant advancement in the field of environmental monitoring. By combining advanced machine learning techniques with real-time monitoring capabilities, the proposed system enhances the understanding and management of pollutant gas concentrations in industrial settings. The ability to generate high-quality captions and provide accurate predictive insights positions this system as a robust tool for improving operational efficiency and promoting cleaner industrial practices.",
+        "start_index": 43867,
+        "end_index": 44448
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "As the world continues to grapple with the challenges of environmental pollution, innovative solutions like the one proposed in this study will be essential in driving progress toward more sustainable practices. The findings of this research not only contribute to the academic discourse on environmental monitoring but also have practical implications for industries seeking to reduce their environmental impact. Future research and development efforts will be crucial in refining and expanding the capabilities of the system, ultimately paving the way for broader applications in various domains beyond environmental monitoring.",
+        "start_index": 44448,
+        "end_index": 45078
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "9.0 References\n\n1) Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R., & Bengio, Y. \"Show, Attend and Tell: Neural Image Caption Generation with Visual Attention.\" Proceedings of the 32nd International Conference on Machine Learning (ICML), 2015. DOI: 10.48550/arXiv.1502.03044",
+        "start_index": 45078,
+        "end_index": 45384
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "2) Karpathy, A., & Fei-Fei, L. \"Deep Visual-Semantic Alignments for Generating Image Descriptions.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015. DOI: 10.1109/CVPR.2015.7298932",
+        "start_index": 45384,
+        "end_index": 45606
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "3) You, Q., Jin, H., Wang, Z., Fang, C., & Luo, J. \"Image Captioning with Semantic Attention.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016. DOI: 10.1109/CVPR.2016.264",
+        "start_index": 45606,
+        "end_index": 45819
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "4) Lu, J., Xiong, C., Parikh, D., & Socher, R. \"Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017. DOI: 10.1109/CVPR.2017.637",
+        "start_index": 45819,
+        "end_index": 46071
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "5) Anderson, P., Fernando, B., Johnson, M., & Gould, S. \"SPICE: Semantic Propositional Image Caption Evaluation.\" Proceedings of the European Conference on Computer Vision (ECCV), 2016. DOI: 10.1007/978-3-319-46454-1_24",
+        "start_index": 46071,
+        "end_index": 46290
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "6) Rennie, S. J., Marcheret, E., Mroueh, Y., Ross, J., & Goel, V. \"Self-Critical Sequence Training for Image Captioning.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017. DOI: 10.1109/CVPR.2017.131",
+        "start_index": 46290,
+        "end_index": 46530
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "7) Hossain, M. D., Sohel, F., Shiratuddin, M. F., & Laga, H. \"A Comprehensive Survey of Deep Learning for Image Captioning.\" ACM Computing Surveys (CSUR), 2019. DOI: 10.1145/3332163",
+        "start_index": 46530,
+        "end_index": 46711
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "8) Zhou, L., Zhou, Y., Corso, J. J., Socher, R., & Xiong, C. \"End-to-End Dense Video Captioning with Masked Transformer.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. DOI: 10.1109/CVPR.2018.00960",
+        "start_index": 46711,
+        "end_index": 46953
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "9) Cornia, M., Stefanini, M., Baraldi, L., & Cucchiara, R. \"Meshed-Memory Transformer for Image Captioning.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. DOI: 10.1109/CVPR42600.2020.01012",
+        "start_index": 46953,
+        "end_index": 47191
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "10) Li, X., Yin, X., Li, C., Hu, X., Zhang, P., Zhang, L., Wang, L., Hu, H., Dong, L., Wei, F., Choi, Y., & Gao, J. \"Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks.\" Proceedings of the European Conference on Computer Vision (ECCV), 2020. DOI: 10",
+        "start_index": 47191,
+        "end_index": 47460
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ".1007/978-3-030-58558-7_5",
+        "start_index": 47460,
+        "end_index": 47485
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "11) Pan, Y., Yao, T., Li, Y., & Mei, T. \"X-Linear Attention Networks for Image Captioning.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. DOI: 10.1109/CVPR42600.2020.01013",
+        "start_index": 47485,
+        "end_index": 47706
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "12) Zhang, Z., & Shih, K. J. \"VinVL: Revisiting Visual Representations in Vision-Language Models.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021. DOI: 10.1109/CVPR46437.2021.00960",
+        "start_index": 47706,
+        "end_index": 47934
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "13) Mao, J., Xu, W., Yang, Y., Wang, J., Huang, Z., & Yuille, A. \"Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN).\" Proceedings of the International Conference on Learning Representations (ICLR), 2015. DOI: 10.48550/arXiv.1412.6632",
+        "start_index": 47934,
+        "end_index": 48183
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "14) Fang, H., Gupta, S., Iandola, F., Srivastava, R. K., Deng, L., Dollar, P., Gao, J., He, X., Mitchell, M., Platt, J. C., Zitnick, C. L., & Zweig, G. \"From Captions to Visual Concepts and Back.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015. DOI: 10",
+        "start_index": 48183,
+        "end_index": 48479
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": ".1109/CVPR.2015.7298898",
+        "start_index": 48479,
+        "end_index": 48502
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "15) Herdade, S., Kappeler, A., Boakye, K., & Soares, J. \"Image Captioning: Transforming Objects into Words.\" Proceedings of the International Conference on Neural Information Processing Systems (NeurIPS), 2019. DOI: 10.48550/arXiv.1906.05963",
+        "start_index": 48502,
+        "end_index": 48743
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "16) Wang, S., Li, Q., Liu, T., & Ma, L. \"Context-Aware Image Captioning.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021. DOI: 10.1109/TPAMI.2020.2975862",
+        "start_index": 48743,
+        "end_index": 48926
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "17) Sun, X., Zhu, Y., Zheng, J., Wang, Y., & Yang, M. \"Dual Attention Network for Image Captioning.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. DOI: 10.1109/CVPR42600.2020.01010",
+        "start_index": 48926,
+        "end_index": 49156
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "18) Chen, T., Goodfellow, I., Shlens, J., & Szegedy, C. \"ImageNet Large Scale Visual Recognition Challenge.\" International Journal of Computer Vision (IJCV), 2015. DOI: 10.1007/s11263-015-0816-y",
+        "start_index": 49156,
+        "end_index": 49350
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "19) Chen, X., Fang, H., Lin, T. Y., Vedantam, R., Gupta, S., Doll\u00e1r, P., & Zitnick, C. L. \"Microsoft COCO Captions: Data Collection and Evaluation Server.\" arXiv preprint, 2015. DOI: 10.48550/arXiv.1504.00325",
+        "start_index": 49350,
+        "end_index": 49558
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "20) Tran, D., Bourdev, L., Fergus, R., Torresani, L., & Paluri, M. \"Learning Spatiotemporal Features with 3D Convolutional Networks.\" Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2015. DOI: 10.1109/ICCV.2015.510",
+        "start_index": 49558,
+        "end_index": 49800
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "21) Donahue, J., Anne Hendricks, L., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., & Darrell, T. \"Long-term Recurrent Convolutional Networks for Visual Recognition and Description.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015. DOI: 10.1109/CVPR.2015.7298878",
+        "start_index": 49800,
+        "end_index": 50117
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "22) Mun, J., Cho, M., & Han, B. \"Streamlined Image Captioning with Visual Attention.\" Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2018. DOI: 10.1609/aaai.v32i1.11337",
+        "start_index": 50117,
+        "end_index": 50308
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "23) Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, \u0141., & Polosukhin, I. \"Attention Is All You Need.\" Advances in Neural Information Processing Systems (NeurIPS), 2017. DOI: 10.48550/arXiv.1706.03762",
+        "start_index": 50308,
+        "end_index": 50545
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "24) Jiang, Z., Liu, C., Wong, T. T., & Cheung, Y. M. \"Image Captioning with Visual-Semantic Joint Embedding.\" Neurocomputing, 2018. DOI: 10.1016/j.neucom.2018.04.095",
+        "start_index": 50545,
+        "end_index": 50710
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "25) Yao, T., Pan, Y., Li, Y., & Mei, T. \"Boosting Image Captioning with Attributes.\" Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2017. DOI: 10.1109/ICCV.2017.209",
+        "start_index": 50710,
+        "end_index": 50903
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "26) Chen, T., Pang, Y., & Bai, X. \"Factual Image Captioning by Latent Semantic Reward.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. DOI: 10.1109/CVPR42600.2020.01011",
+        "start_index": 50903,
+        "end_index": 51120
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "27) Li, Y., Yao, T., Pan, Y., & Mei, T. \"Exploring Visual and Contextual Information for Image Captioning.\" IEEE Transactions on Multimedia, 2021. DOI: 10.1109/TMM.2020.3019738",
+        "start_index": 51120,
+        "end_index": 51296
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "28) Zhang, Q., Zhang, X., & Tao, D. \"Beyond Attention: Learning Graph-Structured Representation for Visual Captioning.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021. DOI: 10.1109/CVPR46437.2021.00958",
+        "start_index": 51296,
+        "end_index": 51545
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "29) Gan, Z., Gan, C., He, X., Gao, J., & Deng, L. \"Semantic Compositional Networks for Visual Captioning.\" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017. DOI: 10.1109/CVPR.2017.229",
+        "start_index": 51545,
+        "end_index": 51770
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "30) Jing, Y., Yang, Y., Feng, Z., Ye, J., & Xu, S. \"Automatic Image Captioning with Gated Residual Networks.\" Proceedings of the ACM International Conference on Multimedia, 2019. DOI: 10.1145/3343031.3350914",
+        "start_index": 51770,
+        "end_index": 51977
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "31) Wu, H., & Hu, H. \"Image Captioning with Part-of-Speech Guidance.\" Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019. DOI: 10.1109/ICCV.2019.00712",
+        "start_index": 51977,
+        "end_index": 52157
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "32) Huang, L., Wang, W., Chen, J., & Zhang, X. Y. \"Attention on Attention for Image Captioning.\" Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2019. DOI: 10.1109/ICCV.2019.00706",
+        "start_index": 52157,
+        "end_index": 52368
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "33) Zhou, X., & Li, H. \"Scene Graph-Based Image Captioning.\" Pattern Recognition Letters, 2020. DOI: 10.1016/j.patrec.2019.07.014",
+        "start_index": 52368,
+        "end_index": 52497
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "34) Wu, J., Zheng, Z., Liu, J., & Luo, J. \"Image Captioning with Visual Relationship and Context Modeling.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019. DOI: 10.1109/CVPR.2019.00702",
+        "start_index": 52497,
+        "end_index": 52729
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "35) Hao, T., Wang, F., & Liu, W. \"Fine-Grained Image Captioning with Object Grouping.\" Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2020. DOI: 10.1609/aaai.v34i01.5794",
+        "start_index": 52729,
+        "end_index": 52921
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "36) Kim, Y., & Kim, D. \"Image Captioning with Hierarchical Attention.\" Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR), 2020. DOI: 10.1145/3372278.3390715",
+        "start_index": 52921,
+        "end_index": 53106
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "37) Gao, T., Li, Z., Li, W., Wang, W., & Li, H. \"Context-Aware Transformer for Image Captioning.\" Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021. DOI: 10.1109/ICCV46437.2021.00758",
+        "start_index": 53106,
+        "end_index": 53323
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "38) Yin, G., Huang, S., & Chen, Y. \"Hierarchical Transformer with Visual and Semantic Embedding for Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.06.004",
+        "start_index": 53323,
+        "end_index": 53497
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "39) Anderson, P., Johnson, M., Buehler, C., Gould, S., & Knott, G. \"Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018. DOI: 10.1109/CVPR.2018.00657",
+        "start_index": 53497,
+        "end_index": 53775
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "40) Shi, X., Li, J., Wang, X., Wang, W., & Zhu, H. \"Multimodal Image Captioning with Semantic Guidance.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3061867",
+        "start_index": 53775,
+        "end_index": 53950
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "41) Ren, T., Zheng, Y., Liu, X., & Hu, G. \"Refined Image Captioning by Combining Object Detection and Transformer Models.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2020.10.006",
+        "start_index": 53950,
+        "end_index": 54130
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "42) Liang, X., Xu, H., Yang, X., Zhou, C., & Zhang, J. \"Image Captioning with Reinforcement Learning via Transformer.\" *Applied Intelligence*, 2020. DOI: 10.1007/s10489-020-01745-4",
+        "start_index": 54130,
+        "end_index": 54310
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "43) Dai, B., Zhang, H., Lin, D., & Han, J. \"Image Captioning with Clustering-Based Attention.\" *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2020. DOI: 10.1109/TPAMI.2020.2979437",
+        "start_index": 54310,
+        "end_index": 54516
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "44) Wang, J., & Zhang, Z. \"Learning Semantic Context in Transformer for Image Captioning.\" *IEEE Transactions on Neural Networks and Learning Systems*, 2021. DOI: 10.1109/NNNS.2021.3064863",
+        "start_index": 54516,
+        "end_index": 54704
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "45) Bai, L., Gao, Y., Yang, C., & Li, W. \"Dual-Stream Network for Image Captioning with Feature Fusion.\" *Pattern Recognition Letters*, 2020. DOI: 10.1016/j.patrec.2020.05.024",
+        "start_index": 54704,
+        "end_index": 54879
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "46) Guo, Z., Chen, J., Li, Y., Zhang, Z., & Wu, C. \"Improved Image Captioning with Visual Commonsense Knowledge.\" *Proceedings of the European Conference on Computer Vision (ECCV)*, 2020. DOI: 10.1007/978-3-030-58555-6_23",
+        "start_index": 54879,
+        "end_index": 55100
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "47) Deng, Y., Luo, H., Zhou, H., & Zhang, M. \"High-Quality Image Captioning via Reinforcement Learning.\" *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2020. DOI: 10.1109/ICCV.2020.00590",
+        "start_index": 55100,
+        "end_index": 55321
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "48) Jiang, H., Song, L., Wu, X., & Li, W. \"Semantic-Guided Attention Networks for Image Captioning.\" *Neurocomputing*, 2020. DOI: 10.1016/j.neucom.2020.06.005",
+        "start_index": 55321,
+        "end_index": 55479
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "49) Gupta, A., & Deshpande, A. \"Image Captioning with Context-Aware Attention Mechanisms.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.03.004",
+        "start_index": 55479,
+        "end_index": 55640
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "50) Kang, J., & Yang, H. \"Image Captioning with Structural and Visual Attention.\" *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2021. DOI: 10.1109/ICCV.2021.00576",
+        "start_index": 55640,
+        "end_index": 55838
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "51) Zhang, Y., Zhang, X., & Wang, J. \"Enhanced Visual-Language Models for Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2020. DOI: 10.1109/TIP.2020.3045441",
+        "start_index": 55838,
+        "end_index": 56013
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "52) Chen, Z., Li, C., & Zhou, H. \"Exploring Scene Graphs for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.03.014",
+        "start_index": 56013,
+        "end_index": 56150
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "53) Yang, J., Li, Y., & Zhou, J. \"Multimodal Reinforcement Learning for Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.02.013",
+        "start_index": 56150,
+        "end_index": 56311
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "54) Wang, H., Zhang, L., Liu, S., & Wu, Z. \"Context-Guided Attention for Image Captioning.\" *Proceedings of the ACM International Conference on Multimedia (ACMMM)*, 2021. DOI: 10.1145/3474085.3475716",
+        "start_index": 56311,
+        "end_index": 56510
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "55) Yu, L., Wang, Y., & Hu, X. \"Multi-Granularity Attention for Image Captioning.\" *IEEE Transactions on Multimedia*, 2020. DOI: 10.1109/TMM.2020.2998473",
+        "start_index": 56510,
+        "end_index": 56663
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "56) Zhu, Z., Gao, X., & Huang, Q. \"Visual-Semantic Fusion for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.06.023",
+        "start_index": 56663,
+        "end_index": 56801
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "57) Xu, J., Wang, L., Li, X., & Li, H. \"Image Captioning with Transformer Networks.\" *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2021. DOI: 10.1109/CVPR46437.2021.00947",
+        "start_index": 56801,
+        "end_index": 57017
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "58) Chen, J., Tan, S., & Peng, Y. \"Improved Transformer for High-Quality Image Captioning.\" *Pattern Recognition*, 2021. DOI: 10.1016/j.patcog.2021.107862",
+        "start_index": 57017,
+        "end_index": 57171
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "59) Goyal, Y., Khot, T., & Agrawal, A. \"Visual-Question-Based Image Captioning.\" *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2021. DOI: 10.1109/TPAMI.2020.2979403",
+        "start_index": 57171,
+        "end_index": 57363
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "60) Sun, J., Zhang, W., & Chen, Y. \"Self-Attention with Visual Reinforcement for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.03.008",
+        "start_index": 57363,
+        "end_index": 57520
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "61) Liu, Q., Han, W., & Zhou, Y. \"Feature Fusion for Accurate Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2020. DOI: 10.1109/TIP.2020.3034239",
+        "start_index": 57520,
+        "end_index": 57683
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "62) Li, H., Wang, Y., & Zhu, J. \"Scene-Based Transformer for Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.05.001",
+        "start_index": 57683,
+        "end_index": 57833
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "63) Zhang, X., Jiang, Z., & Luo, M. \"Attention-Guided Image Captioning.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3063901",
+        "start_index": 57833,
+        "end_index": 57976
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "64) Wu, Z., Xu, J., & Liu, F. \"Semantic-Aware Networks for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.07.005",
+        "start_index": 57976,
+        "end_index": 58111
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "65) Yang, X., Lin, H., & Gao, J. \"Unified Image Captioning Framework with Semantic Graphs.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3049076",
+        "start_index": 58111,
+        "end_index": 58273
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "66) Zhao, J., Qiu, R., & Liang, W. \"Incorporating Commonsense Knowledge for Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.04.007",
+        "start_index": 58273,
+        "end_index": 58438
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "67) Fan, H., Chen, Z., & Xu, X. \"Fine-Grained Image Captioning with Hierarchical Attention.\" *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 2021. DOI: 10.1109/ICCV46437.2021.00709",
+        "start_index": 58438,
+        "end_index": 58648
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "68) Wang, X., Zhu, Y., & Zhang, S. \"Improving Image Captioning with Object Relationships.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3044627",
+        "start_index": 58648,
+        "end_index": 58821
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "69) Xu, T., Xu, J., & Liu, X. \"Scene Graph-Based Image Captioning with Dual Attention.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.03.021",
+        "start_index": 58821,
+        "end_index": 58966
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "70) Chen, Y., Chen, J., & Zhang, W. \"Transformer-Based Image Captioning with Visual Contextual Learning.\" *Pattern Recognition*, 2021. DOI: 10.1016/j.patcog.2021.108000",
+        "start_index": 58966,
+        "end_index": 59134
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "71) Gupta, S., & Singh, A. \"Hierarchical Attention Mechanisms for Multimodal Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.02.012",
+        "start_index": 59134,
+        "end_index": 59300
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "72) Huang, R., Zhang, S., & Wang, Q. \"Context-Aware Captioning with Object Features.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3052859",
+        "start_index": 59300,
+        "end_index": 59456
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "73) Zhao, M., Gao, H., & Hu, Z. \"Cross-Modality Fusion Networks for Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3036456",
+        "start_index": 59456,
+        "end_index": 59625
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "74) Wang, Z., Xu, F., & Zhang, H. \"Semantic-Guided Reinforcement Learning for Image Captioning.\" *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2021. DOI: 10.1109/TPAMI.2021.3056123",
+        "start_index": 59625,
+        "end_index": 59833
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "75) Fan, W., Ma, C., & Huang, L. \"Enhanced Semantic Learning for Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.06.014",
+        "start_index": 59833,
+        "end_index": 59987
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "76) Zhang, Y., Zhang, X., & Luo, M. \"Graph-Based Attention Models for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.07.014",
+        "start_index": 59987,
+        "end_index": 60133
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "77) Liu, C., & Zhang, J. \"Hierarchical Transformer Networks for Image Captioning.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3056863\n\n78) Wang, F., & Zhou, Y. \"Adaptive Attention Mechanisms for Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.05.015",
+        "start_index": 60133,
+        "end_index": 60437
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "79) Sun, Y., Jiang, H., & Li, H. \"Dual Attention Networks for Image Captioning with Semantic Alignment.\" *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2021. DOI: 10.1109/CVPR46437.2021.01012",
+        "start_index": 60437,
+        "end_index": 60673
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "80) Chen, X., Zhao, R., & Liu, T. \"Feature Fusion for Accurate Image Caption Generation.\" *IEEE Transactions on Neural Networks and Learning Systems*, 2021. DOI: 10.1109/TNNLS.2021.3074763",
+        "start_index": 60673,
+        "end_index": 60861
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "81) Yang, J., Gao, Y., & Zhang, S. \"Semantic Graph Representations for Enhanced Image Captioning.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.07.004",
+        "start_index": 60861,
+        "end_index": 61028
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "82) Xu, T., Lin, X., & Wang, J. \"Hierarchical Attention Mechanisms for Scene Understanding in Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.09.004",
+        "start_index": 61028,
+        "end_index": 61196
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "83) Huang, X., & Zhou, Y. \"Multimodal Neural Networks for Robust Image Captioning.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.03.022",
+        "start_index": 61196,
+        "end_index": 61348
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "84) Liu, S., Wang, F., & Chen, Z. \"Scene-Graph Attention Mechanisms for Image Captioning.\" IEEE Transactions on Multimedia, 2021. DOI: 10.1109/TMM.2021.3082347",
+        "start_index": 61348,
+        "end_index": 61507
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "85) Zhao, Y., & Jiang, Q. \"Transformer-Based Cross-Modal Embedding for Image Captioning.\" IEEE Transactions on Image Processing (TIP), 2021. DOI: 10.1109/TIP.2021.3043256",
+        "start_index": 61507,
+        "end_index": 61677
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "86) Guo, Z., & Zhang, T. \"Semantic Matching for Enhanced Image Captioning.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.08.014",
+        "start_index": 61677,
+        "end_index": 61821
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "87) Zhang, W., Zhang, X., & Yang, L. \"Visual-Semantic Fusion for Contextual Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.07.009",
+        "start_index": 61821,
+        "end_index": 61971
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "88) Wu, H., & Gao, T. \"Multiscale Attention for Detailed Image Captioning.\" Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021. DOI: 10.1109/ICCV46437.2021.00912",
+        "start_index": 61971,
+        "end_index": 62166
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "89) Chen, T., & Zhang, Q. \"Hierarchical Semantic Understanding for Accurate Image Captioning.\" IEEE Transactions on Multimedia, 2021. DOI: 10.1109/TMM.2021.3089876\n90) Xu, M., & Li, J. \"Visual Attention Mechanisms for Fine-Grained Image Captioning.\" Pattern Recognition, 2021. DOI: 10.1016/j.patcog.2021.109056",
+        "start_index": 62166,
+        "end_index": 62476
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "91) Yang, Z., & Wang, X. \"Self-Supervised Learning for Enhanced Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.08.011",
+        "start_index": 62476,
+        "end_index": 62614
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "92) Zhao, Q., & Xu, L. \"Context-Guided Networks for Robust Image Captioning.\" IEEE Transactions on Neural Networks and Learning Systems, 2021. DOI: 10.1109/TNNLS.2021.3069132",
+        "start_index": 62614,
+        "end_index": 62788
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "93) Li, X., & Wang, H. \"Graph Attention Networks for Detailed Image Captioning.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.06.017",
+        "start_index": 62788,
+        "end_index": 62937
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "94) Zhang, Y., Gao, X., & Xu, T. \"Semantic Role Labeling for Fine-Grained Image Captioning.\" IEEE Transactions on Multimedia, 2021. DOI: 10.1109/TMM.2021.3059746",
+        "start_index": 62937,
+        "end_index": 63098
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "95) Chen, L., & Zhang, R. \"Adaptive Fusion of Visual Features for Image Captioning.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.03.030\n96) Wu, C., & Li, Z. \"Enhanced Attention Networks for High-Quality Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.09.017",
+        "start_index": 63098,
+        "end_index": 63393
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "97) Huang, Y., & Wang, Q. \"Semantic Integration for Detailed Image Captioning.\" IEEE Transactions on Image Processing (TIP), 2021. DOI: 10.1109/TIP.2021.3044559\n98) Yang, M., & Zhang, L. \"Transformer-Based Semantic Captioning for Images.\" Pattern Recognition, 2021. DOI: 10.1016/j.patcog.2021.108998",
+        "start_index": 63393,
+        "end_index": 63692
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "99) Xu, T., Wang, J., & Zhao, Y. \"Semantic-Aware Visual Attention for Image Captioning.\" Neurocomputing, 2021. DOI: 10.1016/j.neucom.2021.10.002\n100) Zhao, L., & Li, W. \"Graph-Based Feature Fusion for Image Caption Generation.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.05.019",
+        "start_index": 63692,
+        "end_index": 63988
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "101) Wang, R., & Chen, Z. \"Transformer Models for Robust Image Captioning.\" IEEE Transactions on Image Processing (TIP), 2021. DOI: 10.1109/TIP.2021.3056239\n102) Liu, H., & Zhang, Q. \"Semantic Role Labeling in Image Captioning Systems.\" IEEE Transactions on Multimedia, 2021. DOI: 10.1109/TMM.2021.3059935",
+        "start_index": 63988,
+        "end_index": 64293
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "103) Yang, T., & Wang, F. \"Enhanced Image Captioning with Multimodal Attention.\" Pattern Recognition Letters, 2021. DOI: 10.1016/j.patrec.2021.03.015\n104) Sun, X., & Zhao, T. \"Cross-Modal Transformer Models for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.07.005",
+        "start_index": 64293,
+        "end_index": 64580
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "105) Zhou, J., & Zhang, L. \"Adaptive Scene Graphs for Image Caption Generation.\" *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2021. DOI: 10.1109/TPAMI.2021.3077756",
+        "start_index": 64580,
+        "end_index": 64772
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "106) Xu, L., & Zhao, Y. \"Multimodal Networks for Real-Time Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.04.006",
+        "start_index": 64772,
+        "end_index": 64920
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "107) Chen, M., & Li, H. \"Attention-Based Models for Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3047892",
+        "start_index": 64920,
+        "end_index": 65073
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "108) Wu, J., & Yang, G. \"Semantic Attention Mechanisms for Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.06.008",
+        "start_index": 65073,
+        "end_index": 65208
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "109) Yang, J., & Gao, Z. \"Scene Graph-Based Approaches for Detailed Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.07.005\n\n110) Zhang, R., & Liu, J. \"Visual Reinforcement for Enhanced Caption Generation.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3068594",
+        "start_index": 65208,
+        "end_index": 65519
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "111) Chen, X., & Zhao, M. \"Multiscale Attention for Image Captioning Systems.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.05.010",
+        "start_index": 65519,
+        "end_index": 65668
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "112) Sun, Q., & Wang, Z. \"Transformer-Based Captioning Models with Semantic Guidance.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3059089",
+        "start_index": 65668,
+        "end_index": 65837
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "113) Huang, L., & Zhang, W. \"Graph-Based Semantic Networks for Robust Image Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.08.003",
+        "start_index": 65837,
+        "end_index": 65983
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "114) Liu, Y., & Zhang, X. \"Hierarchical Features for Accurate Captioning.\" *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2021. DOI: 10.1109/TPAMI.2021.3079931",
+        "start_index": 65983,
+        "end_index": 66169
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "115) Wu, Z., & Zhou, T. \"Attention-Guided Image Captioning with Cross-Modal Embedding.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.09.013",
+        "start_index": 66169,
+        "end_index": 66327
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "116) Zhao, T., & Xu, J. \"Semantic Matching in Multimodal Image Captioning Models.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3081329\n\n117) Yang, L., & Wang, F. \"Context-Aware Captioning for Scene Understanding.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.04.011",
+        "start_index": 66327,
+        "end_index": 66630
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "118) Xu, X., & Zhao, Y. \"Transformer-Based Networks for High-Quality Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3065490",
+        "start_index": 66630,
+        "end_index": 66800
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "119) Chen, T., & Li, H. \"Cross-Modality Semantic Networks for Detailed Captioning.\" *Neurocomputing*, 2021. DOI: 10.1016/j.neucom.2021.07.003",
+        "start_index": 66800,
+        "end_index": 66941
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "120) Wang, J., & Liu, Q. \"Visual Graph Representations for Enhanced Image Captioning.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.05.009\n\n121) Sun, Y., & Zhang, X. \"Scene Context Understanding for Robust Image Captioning.\" *IEEE Transactions on Multimedia*, 2021. DOI: 10.1109/TMM.2021.3078263",
+        "start_index": 66941,
+        "end_index": 67255
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "122) Zhou, Y., & Yang, Q. \"Semantic Role Integration in Transformer-Based Captioning Models.\" *Pattern Recognition Letters*, 2021. DOI: 10.1016/j.patrec.2021.08.009",
+        "start_index": 67255,
+        "end_index": 67419
+    },
+    {
+        "document_name": "69.txt",
+        "chunk_text": "123) Huang, Y., & Zhang, W. \"Semantic Attention Mechanisms for Fine-Grained Image Captioning.\" *IEEE Transactions on Image Processing (TIP)*, 2021. DOI: 10.1109/TIP.2021.3059180",
+        "start_index": 67419,
+        "end_index": 67596
+    }
+]

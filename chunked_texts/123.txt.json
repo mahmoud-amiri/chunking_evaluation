@@ -1,0 +1,1898 @@
+[
+    {
+        "document_name": "123.txt",
+        "chunk_text": "How does the molar ratio between two anions affect the properties of surface active double salt ionic liquids (DSILs)?\n\nTomasz Rzemieniecki,a,* Damian K. Kaczmarek,a Witold Stachowiak,a Katarzyna Marcinkowska,b Micha\u0142 Niemczak,a",
+        "start_index": 0,
+        "end_index": 228
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "a Faculty of Chemical Technology, Poznan University of Technology, Berdychowo 4, Poznan 60-965, Poland\nb Department of Weed Science and Plant Protection Techniques, Institute of Plant Protection\u2013National Research Institute, W\u0142adys\u0142awa W\u0119gorka 20, Poznan 60-318, Poland",
+        "start_index": 228,
+        "end_index": 496
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "* Corresponding author: Tomasz Rzemieniecki: Faculty of Chemical Technology, Poznan University of Technology, Berdychowo 4, Poznan 60-965, Poland\nE-mail address: tomasz.rzemieniecki@put.poznan.pl\nTel. +48 61 665 3681\nAbstract:",
+        "start_index": 496,
+        "end_index": 722
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The strategy of mixing ionic liquids enables the formation of double salt ionic liquids (DSILs)\u2014liquid systems consisting of three or more ions with tailored, beneficial properties that are crucial for designing new active chemical ingredients",
+        "start_index": 722,
+        "end_index": 965
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In this study, we utilized this approach to obtain new DSILs containing a common surface active cation with a hexadecyl substituent and two anions derived from commonly used synthetic auxin herbicides\u20144-chloro-2-methylphenoxyacetic acid (MCPA) and 3,6-dichloro-2-methoxybenzoic acid (dicamba)\u2014at varying molar ratios",
+        "start_index": 965,
+        "end_index": 1283
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Nuclear magnetic resonance analysis revealed significant chemical shift changes (up to 0.256 ppm for the methylene group in MCPA anion) which were linearly or exponentially dependent on the molar ratio of the DSIL counterparts, indicating specific, competitive interactions between the ions. The performed studies of physicochemical properties, including density, refractive index, and phase transition temperatures in most cases indicated a linear dependence of these properties on the molar ratio of the DSIL counterparts",
+        "start_index": 1283,
+        "end_index": 1808
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, combining two surface-inactive anions unexpectedly enhanced surface activity of the analyzed systems. DSILs with molar ratios from 8:2 to 2:8 exhibited nearly 50 % lower critical micelle concentrations than their single-anion counterparts. This increase in surface activity was responsible for an almost twofold increase in the aquatic toxicity toward Chlorella vulgaris.",
+        "start_index": 1808,
+        "end_index": 2190
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Keywords: ionic liquid mixtures, surface active agents, spectral analysis, herbicides, aquatic toxicity\n1. Introduction",
+        "start_index": 2190,
+        "end_index": 2309
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The concept of ionic liquids (ILs) has evolved significantly over the past 40 years. The considerable amount of data obtained from studies of compounds belonging to this group and the property models created from them have made it possible to verify early assertions about ILs, namely, that they are safe, nontoxic, thermally stable and \u201cgreen\u201d compounds, particularly in comparison to conventional organic solvents [1]",
+        "start_index": 2309,
+        "end_index": 2728
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". When the potential problems of recycling and disposal of ILs are considered, as well as the effects of their introduction into the environment, the search for new sources of IL ions and safer methods for their synthesis becomes important [2\u20134].",
+        "start_index": 2728,
+        "end_index": 2974
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "However, the possibility of almost free [5] adaptation of the structure of ILs to obtain the desired properties (\u201cdesignability\u201d)\u2014including toxicity\u2014and the related multiplicity of their potential applications in various industries remain unquestionable advantages. As a result of the development of specific models on the basis of collected experimental data, methods based on machine learning [6\u20138] are now becoming helpful for achieving favorable results and predicting the properties of designed ILs",
+        "start_index": 2974,
+        "end_index": 3477
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, the desired effects can be achieved not only by selecting the right combination of cation and anion or by slight structural modifications to one of the ions (e.g., altering the length of an alkyl chain) but also by creating entirely new ionic systems by mixing two or more ILs",
+        "start_index": 3477,
+        "end_index": 3764
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Such an approach offers an additional degree of freedom in the choice of cation and anion [9] and does not require the design of a new synthesis process (as in the case of anion exchange or other structural modifications), and the resulting IL mixtures with potentially nonideal characteristics can have new and unique properties that none of the constituent ionic liquids possess [10,11]",
+        "start_index": 3764,
+        "end_index": 4154
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". To distinguish such systems from simple mixtures, the name double salt ionic liquids (DSILs) has been proposed [12]",
+        "start_index": 4154,
+        "end_index": 4271
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Analogous to deep eutectic solvents (DESs), numerous properties of DSILs result from chemical interactions between the constituent ions, and a change in the molar ratio of the parent ILs can result in a significant change in the properties of a given system [9], which justifies the investigation of the physical, physicochemical and biological properties of various DSIL systems. Moreover, in some cases, DSILs can become the basis for new DESs [1]",
+        "start_index": 4271,
+        "end_index": 4722
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".",
+        "start_index": 4722,
+        "end_index": 4723
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "In view of the advantages offered by the liquid, modular form of the active ingredient, including the ability to avoid the problems associated with the use of a solid form of the active ingredient (e.g., low bioavailability and polymorphism) and increased activity against the target organism through structural modifications or the use of an appropriate combination of ions, the use of ILs (and, more recently, DESs [13,14]) is a legitimate strategy for designing new biologically active...",
+        "start_index": 4723,
+        "end_index": 5214
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "substances [15\u201318]. In agrochemical treatments, the use of more than one herbicide is popular, since such a measure broadens the spectrum of action of the herbicide formulation and can also counteract the acquisition of resistance by undesirable vegetation [19,20]. The transformation of the herbicide active ingredient into an IL may also result in a significant increase in the biological activity of the new substance against weeds compared with that of reference formulations [21]",
+        "start_index": 5214,
+        "end_index": 5698
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Moreover, the observed increase in efficacy is due mainly to the favorable surface properties of the IL solution applied, which improves the penetration and action of the herbicide anion [22]. Thus, it becomes reasonable to use a DSIL strategy and combine a surface-active cation with two or more active anions originating from known herbicides (e.g",
+        "start_index": 5698,
+        "end_index": 6049
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "., 4-chloro-2-methylphenoxyacetic acid (MCPA) and 3,6-dichloro-2-methoxybenzoic acid (dicamba), Fig. 1).",
+        "start_index": 6049,
+        "end_index": 6153
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Figure 1. The concept of surface-active ILs and DSILs with anions derived from synthetic auxins discussed in this article",
+        "start_index": 6153,
+        "end_index": 6274
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Given that the properties of DSILs depend strictly on the molar ratio between constituents, in this study, we attempted to further elucidate the phenomenon of synergistic action for DSILs for agrochemical applications and to find the optimal molar ratio of the parent ILs that will provide the most favorable properties",
+        "start_index": 6274,
+        "end_index": 6593
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". We also provide a detailed spectral and physicochemical characterization of the new DSILs, as well as a preliminary evaluation of their aqueous toxicity toward a model freshwater alga, *Chlorella vulgaris*.",
+        "start_index": 6593,
+        "end_index": 6801
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2. Experimental",
+        "start_index": 6801,
+        "end_index": 6816
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.1. Materials",
+        "start_index": 6816,
+        "end_index": 6830
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2-[2-(Dimethylamino)ethoxy]ethanol (purity 98 %) was purchased from Merck and additionally purified by vacuum rectification. The colorless fraction boiling at 79\u201380 \u00b0C at a pressure of 0.2 mbar was collected and used for further syntheses",
+        "start_index": 6830,
+        "end_index": 7068
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". 1-Bromohexadecane (purity 97 %), anion exchange resin AmberTec\u2122 UP550 OH, and activated carbon (powder \u2013 100 mesh particle size), were purchased from Merck (Darmstadt, Germany) and used without further purification. Ethanol (purity \u226599.8 %), methanol (purity \u226599",
+        "start_index": 7068,
+        "end_index": 7332
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".8 %), 2-propanol (purity \u226598 %), and acetonitrile (purity 99 %) were obtained from Avantor (Gliwice, Poland) and used without further purification",
+        "start_index": 7332,
+        "end_index": 7479
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". (4-Chloro-2-methylphenoxy)acetic acid (MCPA, purity 94 %) and 3,6-dichloro-2-methoxybenzoic acid (dicamba, purity 99 %) used in this study were supplied by Pestinova (Jaworzno, Poland)",
+        "start_index": 7479,
+        "end_index": 7665
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In addition, MCPA was purified by recrystallization followed by treatment with activated carbon according to the previously described protocol [23]. Of the compounds to be used for OECD TG 201 medium preparation boric acid (purity \u226599.5 %), potassium dihydrogen phosphate (purity \u226599.5 %), sodium bicarbonate (purity \u226599.7 %), copper(II) chloride dihydrate (purity \u226599",
+        "start_index": 7665,
+        "end_index": 8035
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0 %), manganese(II) chloride tetrahydrate (purity \u226599.0 %), zinc chloride (purity \u226599.0 %), sodium molybdate dihydrate (purity \u226599.5 %), and ethylenediaminetetraacetic acid disodium salt dihydrate (EDTA, purity \u226599.0 %) were purchased from Merck (Darmstadt, Germany); ammonium chloride (purity \u226599",
+        "start_index": 8035,
+        "end_index": 8333
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0 %), magnesium chloride hexahydrate (purity \u226599.0 %), calcium chloride dihydrate (purity \u226599.0 %) were purchased from Th. Geyer Ingredients (H\u00f6xter-Stahle, Germany); magnesium sulfate(VI) heptahydrate (purity \u226599",
+        "start_index": 8333,
+        "end_index": 8547
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0 %) was purchased from Alfachem (Pozna\u0144, Poland); cobalt(II) chloride hexahydrate (purity \u226599.0 %) and iron(III) chloride hexahydrate (purity \u226599.0 %) were purchased from Pol-Aura (Mor\u0105g, Poland). Water for apparatus calibration, surface activity measurements and biological assay studies was deionized, with a conductivity <0",
+        "start_index": 8547,
+        "end_index": 8875
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1 \u03bcS\u00b7cm\u207b\u00b9, from demineralizer HLP Smart 1000 (Hydrolab, Straszn, Poland).",
+        "start_index": 8875,
+        "end_index": 8949
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.2. Methods\n\n2.2.1. General",
+        "start_index": 8949,
+        "end_index": 8977
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "1H NMR spectra were acquired using Varian VNMR-S 400 MHz spectrometer (Palo Alto, USA) with TMS as the internal standard, using deuterated dimethylsulfoxide (DMSO-d6) as a solvent. Samples of 0.1 \u00b10.001 g were dissolved in 0.6 cm\u00b3 of DMSO-d6 to obtain comparable spectra",
+        "start_index": 8977,
+        "end_index": 9247
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". 13C NMR spectra were obtained with the same instrument at 100 MHz. The FT-IR spectra were recorded on IFS 66v/S spectrometer (Bruker Optics, Ettlinger, Germany). The data were sampled from 4000 to 400 cm\u207b\u00b9 and visualized using Spectragryph 1.2.13 [24] software",
+        "start_index": 9247,
+        "end_index": 9509
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The water content in all obtained products was measured with a TitroLine 7500 KF trace",
+        "start_index": 9509,
+        "end_index": 9597
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "apparatus (SI Analytics, Germany) using the Karl Fischer titration method according to the previously described procedure.[22] The purity of the synthesized quaternary ammonium bromide, as well as ionic liquids following the ion exchange reaction, was assayed by a process of direct two-phase titration according to EN ISO 2871-1:2010.",
+        "start_index": 9597,
+        "end_index": 9932
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Differential scanning calorimeter (DSC) was performed under nitrogen atmosphere using DSC 209 F1 Phoenix unit (Netzsch, Germany). Samples between 5 and 20 mg were placed in platinum pans and were heated from 25 to 120 \u00b0C at a heating rate of 10 \u00b0C min\\(^{-1}\\) and cooled at a cooling rate of 10 \u00b0C min\\(^{-1}\\) to -80 \u00b0C",
+        "start_index": 9932,
+        "end_index": 10253
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". After that, samples were heated again to 120 \u00b0C and subsequently cooled to 25 \u00b0C.",
+        "start_index": 10253,
+        "end_index": 10336
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "### 2.2.2. Preparation of ILs",
+        "start_index": 10336,
+        "end_index": 10365
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "To obtain parent ILs with MCPA and dicamba anions, a quaternization of 2-[2-(dimethylamino)ethoxy]ethanol with 1-bromohexadecane in acetonitrile was conducted analogously to the previously described procedure [25] using a 100 cm\\(^3\\) EasyMax reactor equipped with ReactIR\u00ae 15 spectrometer, a reflux condenser, a stir bar and a temperature sensor",
+        "start_index": 10365,
+        "end_index": 10711
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The FT-IR spectra acquired \\textit{in situ} were subsequently normalized using Pearson\u2019s correction on the entire dataset, and the optimal reaction time was established based on the change in relative absorbance of the band occurring at 919 cm\\(^{-1}\\)",
+        "start_index": 10711,
+        "end_index": 10965
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The obtained hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium bromide was then subjected to the two-step anion exchange reaction according to the previously described procedure [26]. In the first stage, 40 cm\\(^3\\) of ethanolic solution of hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium bromide (0",
+        "start_index": 10965,
+        "end_index": 11272
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1 mol) was introduced into a suspension of 80 cm\\(^3\\) of the AmberTec\u2122 UP550 OH anionic resin in 100 cm\\(^3\\) of ethanol. The mixture was stirred for 1 h at 25 \u00b0C, and in the next step, the resin was filtered and washed three times with small volumes (15 cm\\(^3\\)) of ethanol",
+        "start_index": 11272,
+        "end_index": 11549
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The solution of hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium hydroxide was subsequently neutralized with an equimolar amount of the herbicidal acid (MCPA or dicamba). The solvent was subsequently evaporated using a rotary evaporator",
+        "start_index": 11549,
+        "end_index": 11790
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". To remove the water formed during the neutralization step for analytical purposes, the ILs were subjected to two-step azeotropic distillation: first, they were dissolved in 20 cm\\(^3\\) of 2-propanol and the 2-propanol-water binary azeotrope was distilled off before evaporating the excess of pure 2-propanol",
+        "start_index": 11790,
+        "end_index": 12099
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". To remove the residual 2-propanol, the ILs were additionally dissolved in 20 cm\\(^3\\) of anhydrous methanol and subjected to another step of evaporation. Finally, the obtained ILs were dried under reduced pressure (5 mbar) at 75 \u00b0C for 48 h. A diagram of the above azeotropic distillation process is",
+        "start_index": 12099,
+        "end_index": 12400
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "shown in Fig. A.1 (Supplementary Data). Both synthesized ILs were stored under reduced pressure over P$_4$O$_{10}$ to reduce water absorption.",
+        "start_index": 12400,
+        "end_index": 12542
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "### 2.2.3. Preparation of DSILs",
+        "start_index": 12542,
+        "end_index": 12573
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "A series of DSILs with varying molar fraction of dicamba anion was prepared by mixing the ethanolic solutions of single-ion ILs. First, 0.05 mol of each parent IL (weighed with the accuracy of \u00b10",
+        "start_index": 12573,
+        "end_index": 12768
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0001 g) was dissolved in ethanol to obtain 50 cm$^3$ of solution, and then both solutions were combined in such volumes as to obtain DSILs with the following MCPA-dicamba molar ratios: 9:1, 8:2, 7:3, 6:4, 5:5, 4:6, 3:7, 2:8, and 1:9",
+        "start_index": 12768,
+        "end_index": 13001
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". To ensure full reproducibility of the results for all DSILs, the same single-anion ILs solutions of a well-defined concentration (1 \u00b110$^{-5}$ mol dm$^{-3}$) were used to obtain the solutions, which were dispensed using the same pre-calibrated automatic pipette. The obtained mixtures were vigorously stirred for 5 min, and then the solvent was evaporated",
+        "start_index": 13001,
+        "end_index": 13358
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The products were pre-dried under reduced pressure conditions (5 mbar, 75 \u00b0C) analogously as for single-anion ILs. For analytical purposes, a significant amount of water was removed from the obtained products by two-step azeotropic distillation. The obtained product was dissolved in 30 cm$^3$ of 2-propanol, after which the azeotrope and the remaining 2-propanol were evaporated under reduced pressure",
+        "start_index": 13358,
+        "end_index": 13762
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The residue was dried using a Schlenk line (pressure: 2\u00b710$^{-5}$ bar) while heating to 65 \u00b0C for at least 6 hours. Subsequently, the residual 2-propanol was removed by performing azeotropic distillation with methanol and drying the residue as in the previous step. The obtained DSILs were stored analogously as in the case of their parent ILs",
+        "start_index": 13762,
+        "end_index": 14107
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". After drying, using a dicamba-derived single-anion IL and a DSIL containing 0.9 molar fraction of dicamba anion, 2 additional DSILs with molar ratios of MCPA and dicamba anions of 5:95 and 1:99 were also obtained for additional spectral studies according to an analogous method.",
+        "start_index": 14107,
+        "end_index": 14387
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "### 2.2.4. Density",
+        "start_index": 14387,
+        "end_index": 14405
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Density of DSILs was determined using an Automatic Density Meter DDM2911 (Rudolph Research Analytical, Hackettstown, NJ) equipped with a Peltier module for precise temperature control, with the mechanical oscillator method. The measurement was acquired at 20 \u00b0C in 5 repetitions for each of the samples (approximately 1.0 cm$^3$)",
+        "start_index": 14405,
+        "end_index": 14734
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Moreover, densities were determined at higher temperatures (30\u201380 \u00b0C) for the single-anion ILs, as well as for the DSIL with molar ratios of MCPA and dicamba anions of 5:5. Before the series of measurements, the apparatus was subjected to a two-point calibration using deionized water and air as the references. After each series of measurements, the densimeter was washed with water and",
+        "start_index": 14734,
+        "end_index": 15123
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "organic solvents (methanol and acetone) and dried with airflow. The uncertainty of the density measurement was estimated to be less than 5\u00b710^{-4} g cm^{-3}",
+        "start_index": 15123,
+        "end_index": 15279
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Based on the experimental density values obtained at 20 \u00b0C (\u03c1_{20}), and average molecular weights of ILs and DSILs (M_w), molar volume (V_m^{20}), average volume of a single ionic pair (V_{ip}^{20}), and excess molar volume (V_{mE}^{20}) were calculated according to the equations below [27]:",
+        "start_index": 15279,
+        "end_index": 15574
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "\\[ V_m^{20} = \\frac{M_w}{(N \\cdot \\rho_{20})} \\]",
+        "start_index": 15574,
+        "end_index": 15622
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "\\[ V_{mE}^{20} = \\frac{(x_AM_{wA} + x_BM_{wB})/\\rho_{20AB} - x_AM_{wA}/\\rho_{20A} - x_BM_{wB}/\\rho_{20B}}{\\rho_{20A}^2 - \\rho_{20B}} \\]",
+        "start_index": 15622,
+        "end_index": 15757
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "In the eq. 2, x corresponds to the molar fraction, M_w is molecular weight, and \u03c1_{20} is density value measured at 20 \u00b0C. Subscripts A and B refer to the parent ILs, and the subscript AB refers to their mixtures \u2013 DSILs.",
+        "start_index": 15757,
+        "end_index": 15978
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.2.5. Refractive index",
+        "start_index": 15978,
+        "end_index": 16001
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Refractive index was determined by using an Automatic Refractometer J357 (Rudolph Research Analytical, Hackettstown, NJ) with electronic temperature control at 20 \u00b0C for all ILs and DSILs. In addition, refractive indices at higher temperatures (30\u201380 \u00b0C) for the single-anion ILs, as well as for the DSIL with molar ratios of MCPA and dicamba anions of 5:5",
+        "start_index": 16001,
+        "end_index": 16357
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The apparatus was calibrated using deionized water before use, and the accuracy of refractive index measurements was \u00b1 2\u00b710^{-4} according to the manufacturer\u2019s specifications. Based on the experimental refractive index values obtained at 20 \u00b0C for parent ILs A and B, differences between the experimental values recorded for DSILs and the theoretical n_D^{20} values was calculated according to the equation below:",
+        "start_index": 16357,
+        "end_index": 16774
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "\\[ \\Delta n_D^{20} = n_D^{20}_{AB} - (x_An_D^{20}_{A} + x_Bn_D^{20}_{B}) \\]  \n\nwhere subscripts A and B refer to the parent ILs, and the subscript AB refers to the respective DSIL.",
+        "start_index": 16774,
+        "end_index": 16954
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.2.6. Viscosity",
+        "start_index": 16954,
+        "end_index": 16970
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Viscosity of ILs and DSILs was determined by using a Rheometer RC30-CPS apparatus (RheoTec Messtechnik GmbH, Germany) with cone-shaped geometry (C50-1). The viscosity of the samples (approximately 0.7 cm^3) was measured at 20 \u00b0C all obtained systems",
+        "start_index": 16970,
+        "end_index": 17219
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In addition, viscosities at higher temperatures (30\u201380 \u00b0C) were recorded for the single-anion ILs, as well as for the DSIL with molar ratios of MCPA and dicamba anions of 5:5. The apparatus was calibrated using a calibration standard with the viscosity of 15.664 Pa\u00b7s at 20 \u00b0C, manufactured",
+        "start_index": 17219,
+        "end_index": 17511
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "and certified by Central Office of Measures in Poland, before each series of measurements. The accuracy of the viscosity measurement was estimated to be less than 1% of the determined value by the apparatus manufacturer.",
+        "start_index": 17511,
+        "end_index": 17731
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.2.7. Surface activity",
+        "start_index": 17731,
+        "end_index": 17754
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The surface tension and contact angle measurements were carried out using a DSA 100E analyzer (Kr\u00fcss, Germany) at 25 \u00b0C. According to the manufacturer, the measurement accuracy of this instrument amounts to \u00b10.001 mN\u00b7m\u207b\u00b9. The surface tension was determined using the drop shape method. Basically, the principle of this method is to form an axisymmetric drop at the tip of a needle of known diameter",
+        "start_index": 17754,
+        "end_index": 18152
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The image of the drop is taken with a CCD camera and digitized. The surface tension (\u03b3, mN\u00b7m\u207b\u00b9) was calculated according to the results of the drop profile analysis according to the Laplace equation. The value of the surface tension and contact angle allowed for calculation of the CMC and surface tension at CMC (\u03b3_{CMC}) based on the plot \u03b3 vs log C using a linear regression analysis method",
+        "start_index": 18152,
+        "end_index": 18547
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The theoretical CMC values for DSILs assuming that DSIL systems are ideal mixtures were calculated based on Clint\u2019s equation:",
+        "start_index": 18547,
+        "end_index": 18674
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "\\[\n\\frac{1}{CMC_{theo\\ AB}} = \\frac{1 - x_{dic}}{CMC_A} + \\frac{x_{dic}}{CMC_B}\n\\]  \n(4)\n\nwhere subscripts A and B refer to the parent ILs, and the subscript AB refers to the respective DSIL.",
+        "start_index": 18674,
+        "end_index": 18865
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The temperature was controlled using a Fisherbrand FBH604 thermostatic bath (Fisher, Germany, accuracy \u00b10.1 \u00b0C). The determination of the contact angle (CA) was based on the sessile drop method. The drops of solution are deposited on a solid hydrophobic surface (paraffin). The images of the drops were taken with a CCD camera, digitized and evaluated using Young-Laplace fitting",
+        "start_index": 18865,
+        "end_index": 19244
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The CA was determined as the slope of the tangent line at the contact point between the 3 phases (solution, paraffin surface, and air). The measured error of the CA determination in this method is estimated to be less than 0.1\u00b0 by the manufacturer.",
+        "start_index": 19244,
+        "end_index": 19494
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "2.2.8. Biological activity studies",
+        "start_index": 19494,
+        "end_index": 19528
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Herbicidal activity of two single-ion ILs and selected DSILs with the following MCPA-dicamba molar ratios: 8:2, 6:4, 4:6, and 2:8, was tested in greenhouse experiments, and common lambsquarters (Chenopodium album L.) was used as a test plant",
+        "start_index": 19528,
+        "end_index": 19769
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The plants were treated by herbicides at the 3\u20134 leaves growth stage (BBCH 13\u201314), and commercially available herbicides were used as reference herbicides: Chwastox Extra 300 SL (CIECH Sarzyna, Poland) was used as a reference product for MCPA-based single-anion IL and Dicash 480 SL (Sharda Europe, Dilbeek) was for the single-anion IL involving dicamba",
+        "start_index": 19769,
+        "end_index": 20124
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The doses of DSILs",
+        "start_index": 20124,
+        "end_index": 20144
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "and their reference substances (which consisted of mixtures of Chwastox Extra 300 SL and Dicash 480 SL at analogous ratios) were calculated based on the doses of MCPA-only and dicamba-only experiments. The results of the experiment were expressed in form of percent of the fresh weight reduction in comparison to the weight of control objects. Extended description of the methodology is provided in the Supplementary Data (pages A.2\u2013A.5, Fig. A",
+        "start_index": 20144,
+        "end_index": 20588
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".2, Tables A.1 and A.2).",
+        "start_index": 20588,
+        "end_index": 20612
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "To determine the acute toxicity of the selected DSIL and its parent ILs, experiments were carried out on model Chlorella vulgaris (SAG 211-11b) cells obtained from Culture Collection of Algae at G\u00f6ttingen University (Germany). The experiments was performed according to the methodology described in OECD 201 Guidelines [28]",
+        "start_index": 20612,
+        "end_index": 20935
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The tests were conducted at 22\u201323 \u00b0C, and the results were calculated based on the values of absorbance at 688 nm for each sample, which was determined at the start of the experiment and after 72 hours. Based on the analyses of dose-response curves plotted and approximated to the Hill equation, ErC_{50} values were determined for each of the tested systems. Extended description of the methodology is provided in the Supplementary Data (page A.6).",
+        "start_index": 20935,
+        "end_index": 21386
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3. Results and discussion\n\n3.1. Synthesis",
+        "start_index": 21386,
+        "end_index": 21427
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Before the syntheses were conducted, 2-[2-(dimethylamino)ethoxy]ethanol was transformed into the source of the IL cation, hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium bromide (Scheme 1, Stage I). The quaternary ammonium salt was obtained according to a previously developed method [25]",
+        "start_index": 21427,
+        "end_index": 21719
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, on the basis of the FT-IR spectra acquired in situ during synthesis, it was established that the quaternization product formed in satisfactory amounts as early as 5 h after the start of the process, which was 1 hour less than the time reported in previous studies [25]. The resulting bromide was isolated by filtration followed by washing with an apolar solvent, and hexane was substituted with a significantly safer heptane [29]",
+        "start_index": 21719,
+        "end_index": 22159
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". These changes made it possible to reduce the negative environmental impact of the process.",
+        "start_index": 22159,
+        "end_index": 22251
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Scheme 1. Synthesis of quaternary ammonium bromide (Stage I) and ILs (Stages II and III)",
+        "start_index": 22251,
+        "end_index": 22339
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The bromide anion in the obtained bromide was subsequently exchanged for either an MCPA or dicamba anion to obtain two single-ion ILs: hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium 4-chloro-2-methylphenoxyacetate (A) and hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium",
+        "start_index": 22339,
+        "end_index": 22617
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3,6-dichloro-2-methoxybenzoate (B), respectively",
+        "start_index": 22617,
+        "end_index": 22665
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Both of these single-anion ILs were previously described [25,26], and the process was conducted according to a known two-step methodology that consists of alkalization of a quaternary bromide with an anionic resin (Stage II) and subsequent neutralization of the formed hydroxide with the appropriate synthetic auxin (MCPA or dicamba) in acidic form (Stage III) using naturally derived ethanol as a solvent [26]",
+        "start_index": 22665,
+        "end_index": 23077
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The purities of single-ion ILs A and B, which were assessed via direct two-phase titration (EN ISO 2871-1:2010), were at least 98%.",
+        "start_index": 23077,
+        "end_index": 23210
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Scheme 2. Preparation of DSILs (Stage IV)",
+        "start_index": 23210,
+        "end_index": 23251
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The basic properties of the 9 new DSILs obtained via simple homogenization (Stage IV, Scheme 2), as well as their parent ILs, are summarized in Table 1. To perform accurate spectroscopic studies, 2 additional DSILs with the highest molar fractions of dicamba (AB$_{0.95}$ and AB$_{0.99}$) were obtained by mixing AB$_{0.9}$ and B via an analogous method",
+        "start_index": 23251,
+        "end_index": 23604
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". All of the obtained systems were colorless liquids at 25 \u00b0C.",
+        "start_index": 23604,
+        "end_index": 23666
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Table 1. Synthesized ILs (A and B) and DSILs (AB$_{0.1}$\u2013AB$_{0.99}$)",
+        "start_index": 23666,
+        "end_index": 23735
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| IL/DSIL   | Anions          | Molar fraction of the dicamba anion $x_{dic}$ | Water content (initial) [%] | Water content (after drying) [%] | State at 25 \u00b0C |\n|-----------|-----------------|---------------------------------------------|------------------------------|----------------------------------|----------------|",
+        "start_index": 23735,
+        "end_index": 24057
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| A         | [MCPA]          | 0.00                                        | 6.115                        | 1.402                            | liquid         |\n| AB$_{0.1}$| [MCPA]$_{0.9}$[dicamba]$_{0.1}$ | 0.10                                        | 6.400                        | 1.234                            | liquid         |",
+        "start_index": 24057,
+        "end_index": 24394
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.2}$| [MCPA]$_{0.8}$[dicamba]$_{0.2}$ | 0.20                                        | 3.885                        | 1.681                            | liquid         |",
+        "start_index": 24394,
+        "end_index": 24570
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.3}$| [MCPA]$_{0.7}$[dicamba]$_{0.3}$ | 0.30                                        | 5.095                        | 1.219                            | liquid         |",
+        "start_index": 24570,
+        "end_index": 24746
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.4}$| [MCPA]$_{0.6}$[dicamba]$_{0.4}$ | 0.40                                        | 5.232                        | 1.795                            | liquid         |",
+        "start_index": 24746,
+        "end_index": 24922
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.5}$| [MCPA]$_{0.5}$[dicamba]$_{0.5}$ | 0.50                                        | 5.394                        | 1.129                            | liquid         |",
+        "start_index": 24922,
+        "end_index": 25098
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.6}$| [MCPA]$_{0.4}$[dicamba]$_{0.6}$ | 0.60                                        | 4.657                        | 0.914                            | liquid         |",
+        "start_index": 25098,
+        "end_index": 25274
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.7}$| [MCPA]$_{0.3}$[dicamba]$_{0.7}$ | 0.70                                        | 4.281                        | 0.798                            | liquid         |",
+        "start_index": 25274,
+        "end_index": 25450
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.8}$| [MCPA]$_{0.2}$[dicamba]$_{0.8}$ | 0.80                                        | 3.899                        | 0.756                            | liquid         |",
+        "start_index": 25450,
+        "end_index": 25626
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.9}$| [MCPA]$_{0.1}$[dicamba]$_{0.9}$ | 0.90                                        | 4.294                        | 0.637                            | liquid         |",
+        "start_index": 25626,
+        "end_index": 25802
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.95}$| [MCPA]$_{0.05}$[dicamba]$_{0.95}$ | 0.95                                        | \u2013 a                         | 0.721                            | liquid         |",
+        "start_index": 25802,
+        "end_index": 25980
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "| AB$_{0.99}$| [MCPA]$_{0.01}$[dicamba]$_{0.99}$ | 0.99                                        | \u2013 a                         | 0.833                            | liquid         |",
+        "start_index": 25980,
+        "end_index": 26158
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-rq2ls-v2 ORCID: https://orcid.org/0000-0002-9146-0082 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 26158,
+        "end_index": 26308
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The formation of water during synthesis, combined with the highly hygroscopic properties of ion exchange products, resulted in high water contents in the raw products (approximately 4\u20136%, Table 1) and difficulties in removing the water. Such high water contents would significantly affect the physicochemical properties of the obtained DSILs (e.g., viscosity, density, and refractive index) and their analysis [30\u201332]",
+        "start_index": 26308,
+        "end_index": 26725
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Therefore, an effort was made to remove most of the water from the DSILs via a two-step azeotropic distillation process (see Fig. A.1, Supplementary Data). The thorough removal of solvents was facilitated by subsequent drying of the residue via a Schlenk line with a vacuum pressure of approximately 2 \\times 10^{-5} \\text{ bar}",
+        "start_index": 26725,
+        "end_index": 27055
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". As a result of the above method, it was possible to significantly reduce the amounts of water in the obtained DSILs by 2.5 times (AB_{0.2}) to 6.5 times (AB_{0.9}). The exact water contents after drying the systems are summarized in Table 1 and ranged from 0.6% (AB_{0.9}) to 1.7% (AB_{0.2})",
+        "start_index": 27055,
+        "end_index": 27348
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". This was likely due to an increase in the strength of the DSIL\u2013water hydrogen bonding as the molar proportion of the MCPA anion increased. The drying process revealed that the remaining water must therefore have been relatively tightly bound to the ionic system. Further dehydration of such highly hygroscopic DSILs would require sophisticated methods, and further analyses would have to take place in a dry inert gas atmosphere to achieve substantially reduced water contents (<2000 ppm), as demonstrated in other studies",
+        "start_index": 27348,
+        "end_index": 27872
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, it should be borne in mind that the obtained ILs are intended for use in aqueous solutions; thus, the increased water content in the raw products does not constitute a significant issue for their industrial application.",
+        "start_index": 27872,
+        "end_index": 28102
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3.2. Spectral analysis",
+        "start_index": 28102,
+        "end_index": 28124
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The detailed $^1\\text{H}$ NMR spectra of each system and the $^{13}\\text{C}$ NMR and FT-IR spectra of ILs A and B as well as selected DSILs (AB_{0.2}, AB_{0.4}, AB_{0.6}, and AB_{0.8}) are summarized in the Supplementary Data (Figs. A.3\u2013A.28)",
+        "start_index": 28124,
+        "end_index": 28366
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". By analyzing the NMR spectra, the accuracy of the molar ratio between the utilized biologically active anions was determined [26]. Moreover, clear changes in the intensity of signals originating from carbon atoms in both anions were observed in the $^{13}\\text{C}$ NMR spectra, which coincided with variations in their molar fractions, whereas signals from the common cation were characterized by equal intensity in all $^{13}\\text{C}$ NMR spectra",
+        "start_index": 28366,
+        "end_index": 28815
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". As shown in previous $^1\\text{H}$ NMR spectra analyses [33\u201336] that are consistent with our studies [25,26,37], some hydrogen atoms in the IL mixtures (particularly those in the vicinity of the charged atoms) alter their chemical shifts compared with the respective atoms of pure single-anion ILs. Therefore, we thoroughly analyzed the changes in the chemical shifts of the",
+        "start_index": 28815,
+        "end_index": 29190
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "\\[ \\begin{array}{cccc}\n\\text{B} & \\text{[dicamba]} & 1.00 & 4.207 & 0.849 & \\text{liquid} \\\\\n\\text{\\textsuperscript{a}Systems AB_{0.95} and AB_{0.99} were obtained from the previously dried ILs.} \\\\\n\\end{array} \\]",
+        "start_index": 29190,
+        "end_index": 29403
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "signals in the $^1$H NMR spectra for all the ILs and DSILs obtained, taking into account the increasing $x_{\\text{dic}}$ value. We observed that an increase in the amount of dicamba in the DSILs had a particularly pronounced effect on the chemical shift of the signal from the methylene group in the MCPA anion (highlighted in Fig",
+        "start_index": 29403,
+        "end_index": 29733
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". 2a; a comparison of the complete $^1$H NMR spectra for A, AB$_{0.1}$\u2013AB$_{0.99}$ and B is presented in Fig. A.29, Supplementary Data), which is in close proximity to the carboxylate moiety (3 bonds away from the negatively charged oxygen atoms in the MCPA anion)",
+        "start_index": 29733,
+        "end_index": 29997
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The dependence of the chemical shift change on the molar fraction of the dicamba anion $x_{\\text{dic}}$ was exponential, and at $x_{\\text{dic}} = 0.99$ (AB$_{0.9}$), the signal appeared at a chemical shift of 4.393\u20130.256 ppm greater than that of the single-anion IL containing MCPA only (A, $x_{\\text{dic}} = 0",
+        "start_index": 29997,
+        "end_index": 30309
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0$). We observed a similar but approximately three times weaker increase in the signal from the hydrogen atom in the \u03b1 position relative to the 2-hydroxy-2-oxomethoxyl substituent in the aromatic ring, which was 6 bonds away from the negatively charged oxygen atoms, with shifts from 6.655 (A) to 6.718 ppm (AB$_{0.99}$). Similarly, although very weak signal changes (of 0",
+        "start_index": 30309,
+        "end_index": 30682
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".017 and 0.023 ppm between AB$_{0.9}$ and A) were also observed for aromatic \u03b2-hydrogen atoms, they are separated by seven chemical bonds from the negatively charged atoms in the carboxylate moiety",
+        "start_index": 30682,
+        "end_index": 30879
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In addition, the chemical shift for hydrogen atoms in the methyl group, which are also seven bonds away from the negative charge in the MCPA anion, changed exponentially but to a minimal degree with increasing $x_{\\text{dic}}$; the difference between the shifts of A and AB$_{0.99}$ was merely 0.018 ppm. These results are visualized in Fig. A",
+        "start_index": 30879,
+        "end_index": 31224
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".30, and the exact chemical shifts for each of the discussed hydrogen atoms in every IL and DSIL are shown in Table A.3 (Supplementary Data). Owing to the low amount of the MCPA anion in the AB$_{0.99}$ system, signals from aromatic \u03b2-hydrogen atoms were imperceptible in the acquired $^1$H NMR spectrum (see Fig. A.25)",
+        "start_index": 31224,
+        "end_index": 31543
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The exact values of the chemical shift changes observed for the hydrogen atoms in the MCPA anion are provided in the Supplementary Data (Table A.3). The recorded data clearly indicate that the competing anion\u2013anion interactions are responsible for the phenomenon of deshielding of hydrogen atoms, which increases as the molar ratio of the competing anion (dicamba in the analyzed DSIL system) increases",
+        "start_index": 31543,
+        "end_index": 31947
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Notably, the greater the number of chemical bonds between a given hydrogen atom and the moiety on which the negative charge is localized is, the lower the intensity of the phenomenon described (Fig. A.30, Supplementary Data).",
+        "start_index": 31947,
+        "end_index": 32174
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Figure 2. Changes in the $^1$H NMR spectra acquired for A, AB$_{0.1}$\u2013AB$_{0.99}$ and B (a) and the dependency of chemical shift changes for hydrogen atoms in the MCPA anion on $x_{dic}$ (b).",
+        "start_index": 32174,
+        "end_index": 32365
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Among the considerable number of relationships of chemical shift changes with $x_{dic}$ value, the MCPA methylene group shift dependency shown in Fig. 2b has the largest difference in the value of the dependent variable (chemical shift) and can be approximated by an exponential function with the following formula:",
+        "start_index": 32365,
+        "end_index": 32680
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "$$\\delta = \\delta_0 + A_1 \\exp \\left( \\frac{x_{dic} - x_{dic0}}{t_1} \\right) + A_2 \\exp \\left( \\frac{x_{dic} - x_{dic0}}{t_2} \\right)$$\n\n(5)",
+        "start_index": 32680,
+        "end_index": 32820
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "where $\\delta_0$ is a chemical shift value recorded for A (see Table A.3, Supplementary Data). Equation (5) also provides a good description of the effects of $x_{dic}$ on the changes in the other analyzed chemical shifts discussed above, namely, those of the CH$_3$ group and 2 of the 3 hydrogen atoms in the aromatic ring ($R^2$ values ranging from 0.983 to 0.999; see Table A",
+        "start_index": 32820,
+        "end_index": 33198
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".4, Supplementary Data). The values of the parameters in the equation presented above are provided in Table A.4 (Supplementary Data). Therefore, with the known characteristics of this dependence, $^1$H NMR analysis proves to be an excellent auxiliary tool for determining unknown molar fraction values of DSIL components on the basis of not only band integration but also chemical shifts of known signals in the spectrum.",
+        "start_index": 33198,
+        "end_index": 33619
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "It was also observed that $x_{dic}$ had noticeable effects on the chemical shifts of some of the signals from the hydrogen atoms in the dicamba anion, although these differences were far less pronounced than that of the signal from the methylene group in the MCPA anion described above",
+        "start_index": 33619,
+        "end_index": 33904
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The signals originating from the two aromatic hydrogen atoms in the dicamba anion became shielded as $x_{dic}$ decreased; the differences between the signals for B ($x_{dic} = 1.0$) and AB$_{0.1}$ ($x_{dic} = 0.1$) did not exceed approximately 0.02 ppm. The shielding effect intensified as",
+        "start_index": 33904,
+        "end_index": 34195
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "the MCPA content in the system increased, although the relationship was neither linear nor logarithmic. In contrast, changes in $x_{dic}$ in the ILs and DSILs had no apparent effect on the chemical shift of the signal originating from the methoxy group; the differences for compounds $AB_{0.1}$\u2013$AB_{0.99}$ compared with the value of 3.801 ppm (B) were negligible and did not exceed 0.002 ppm",
+        "start_index": 34195,
+        "end_index": 34587
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The effects of $x_{dic}$ on the chemical shift changes of hydrogen atoms in the dicamba anion are shown below in Fig. 3a. Exact values are presented in Table A.5 (Supplementary Data).",
+        "start_index": 34587,
+        "end_index": 34772
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "![Chemical Structures](https://doi.org/10.26434/chemrxiv-2024-rq2ls-v2)",
+        "start_index": 34772,
+        "end_index": 34843
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**Figure 3.** Relationship between $x_{dic}$ and the changes $\\Delta \\delta$ in the chemical shifts of hydrogen atoms in the dicamba anion compared with the values recorded for B ($x_{dic} = 1",
+        "start_index": 34843,
+        "end_index": 35035
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".00$) (a) and between $x_{dic}$ and the changes $\\Delta \\delta$ in the chemical shifts of hydrogen atoms in the hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium cation compared with the values recorded for A ($x_{dic} = 0.00$) (b).",
+        "start_index": 35035,
+        "end_index": 35269
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "We also observed $x_{dic}$-dependent chemical shift changes in the signals from hydrogen atoms in the hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium cation. Similar to the changes in the MCPA anion, a deshielding effect was observed for hydrogen atoms located in the immediate vicinity of the quaternary nitrogen atom, which became more intense as the amount of dicamba anion in the system increased",
+        "start_index": 35269,
+        "end_index": 35673
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The chemical shifts for these signals increased linearly with $x_{dic}$, and the differences between the values for A and B ranged from 0.017 to 0.022 ppm. In this case, the deshielding effect was significantly less intense than that observed for the methylene group in the MCPA anion. These changes are presented in Fig. 3b, and the exact data are provided in Table A.6 (Supplementary Data)",
+        "start_index": 35673,
+        "end_index": 36066
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". For the hydrogen atoms in the 2",
+        "start_index": 36066,
+        "end_index": 36099
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "methylene groups in the immediate vicinity of the 2-(2-hydroxyethoxy)ethyl substituent, a linear trend of shift changes as $x_{\\text{dic}}$ increased was also observed; these atoms were shielded to a small extent (0.005 ppm difference between A and B) as the dicamba content of the system increased. The $R^2$ values recorded for all the linear relationships ranged from 0",
+        "start_index": 36099,
+        "end_index": 36471
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".91 (for the first CH$_2$ group in the alkyl substituent) to 0.96 (for the two CH$_3$ groups bonded with the nitrogen atom). The exact values of the regression parameters are shown in Table A.7 (Supplementary Data).",
+        "start_index": 36471,
+        "end_index": 36686
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Considering that the directions of the chemical shifts change for each ion, specific conclusions can be drawn about the nature of the interion interactions in DSILs. Owing to its higher basicity, the MCPA anion ($pK_a = 3.07$) [37] likely outcompetes the dicamba anion ($pK_a = 1",
+        "start_index": 36686,
+        "end_index": 36965
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".87$) for cation interactions, as indicated by the lower chemical shifts of the atoms in the cation at low values of $x_{\\text{dic}}$. The strength of the cation\u2013MCPA anion interactions weakens above $x_{\\text{dic}} = 0.3$ as a result of the increased importance of the cation\u2013dicamba anion interactions",
+        "start_index": 36965,
+        "end_index": 37268
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Similar conclusions have been made on such grounds previously for other systems, in which differences in interion interactions have been explained by the difference in basicity between tetrafluoroborate and bistriflimide anions, in favor of the former [12,38].",
+        "start_index": 37268,
+        "end_index": 37530
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The influence of the dicamba molar ratio of the DSILs analyzed on the changes in the chemical shifts, which is evident in the $^1$H NMR spectra for all 3 ions present in the systems to some extent, is imperceptible in the $^{13}$C NMR spectra. The analysis revealed that signals from the same carbon atoms occurred at nearly identical chemical shifts (max. \u00b10.2 ppm)",
+        "start_index": 37530,
+        "end_index": 37896
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Moreover, these changes were not correlated with $x_{\\text{dic}}$. For example, the signal originating from the carbon atom in the CH$_2$ group in the MCPA anion occurred at almost identical chemical shifts of approximately 67.9\u201368.2 ppm, with the $\\sigma$ value increasing as follows: AB$_{0.8} < A <$ AB$_{0.4} \\approx$ AB$_{0",
+        "start_index": 37896,
+        "end_index": 38226
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".6} <$ AB$_{0.2}$. This phenomenon shows that the effect of the change in the molar fraction of the competing anion in the DSIL system on the chemical environment of the carbon atoms cannot be unequivocally determined. An FT-IR analysis of the obtained ILs and DSILs revealed the presence of all the characteristic bands derived from the cation and from both anions in the collected spectra",
+        "start_index": 38226,
+        "end_index": 38616
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". We also noted increases in the intensity of the bands derived from the dicamba anion with increasing $x_{\\text{dic}}$ value. This effect is evident in the highlighted regions from a comparison of the FT-IR spectra from A, AB$_{0.5}$ and B, which are shown together in Fig. A.31 (Supplementary Data)",
+        "start_index": 38616,
+        "end_index": 38916
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The occurrence of a broad signal of high intensity in the range from 3650\u20133050 cm$^{-1}$ originating from stretching vibrations in the O\u2013H bonds in each of the analyzed spectra is indicated by the formation of numerous hydrogen bonds, most likely both between",
+        "start_index": 38916,
+        "end_index": 39177
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "the ions of the analyzed systems and between the hydroxyl group and water that remained in the ILs and DSILs after drying.",
+        "start_index": 39177,
+        "end_index": 39299
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3.3. Physicochemical properties",
+        "start_index": 39299,
+        "end_index": 39330
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The following basic physicochemical properties were studied for both single-ion ILs (A, B) and DSILs (AB_{0.1\u20130.9}): the density and refractive index at 20 \u00b0C and the characteristics of phase transformations in the temperature range from -80 \u00b0C to 120 \u00b0C. The two single-anion ILs had densities of 1.0512 (A) and 1",
+        "start_index": 39330,
+        "end_index": 39644
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0891 g cm\\(^{-3}\\) (B), while all the studied DSILs had densities between these two values. The density dependence of \\(x_{\\text{dic}}\\) is shown in Fig. 4a (detailed data are summarized in Table A.8, Supplementary Data)",
+        "start_index": 39644,
+        "end_index": 39865
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". These results revealed a close correlation between the density at 20 \u00b0C and the molar proportion of the dicamba anion (\\(x_{\\text{dic}}\\)) in a given system; across the \\(x_{\\text{dic}}\\) range, a 0.1 increase in this parameter resulted in an increase in the DSIL density of approximately 0.0038 g cm\\(^{-3}\\)",
+        "start_index": 39865,
+        "end_index": 40176
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". This relationship can be approximated by a linear function with very high accuracy (\\(R^2 = 0.997\\)), with the exact regression parameters provided in Table A.9 in the Supplementary Data. The obtained results are consistent with previous studies on multi-ion ILs [11,27,39], where such systems were reported as having good correlations with a linear mixing law [12].",
+        "start_index": 40176,
+        "end_index": 40544
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Since the average molar masses of the ILs and DSILs (\\(M_w\\)) increase proportionally with increasing \\(x_{\\text{dic}}\\), a close linear relationship also exists between the average molar masses of systems A, AB\\(_{0.1\u20130.9}\\) and B and their measured density",
+        "start_index": 40544,
+        "end_index": 40802
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". This is confirmed by the fact that all analyzed systems are characterized by very similar molar volumes (\\(V_{m}^{20}\\)), defined as the quotient of the molar mass of a substance and its density at a given temperature. The average value of this parameter for all ILs and DSILs is approx. 531.4 cm\\(^{3}\\) mol\\(^{-1}\\), and the calculated extreme values (530",
+        "start_index": 40802,
+        "end_index": 41161
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".7 cm\\(^{3}\\) mol\\(^{-1}\\) for AB\\(_{0.9}\\) and 532.0 cm\\(^{3}\\) mol\\(^{-1}\\) for AB\\(_{0.1}\\)) differ from the average value by approximately 0.1 %. The negligible differences between the \\(V_{m}^{20}\\) values also indicate that other parameters proportional to this physical quantity also have similar values.",
+        "start_index": 41161,
+        "end_index": 41472
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The average volume occupied by a single ion pair of a given system (\\(V_{ip}^{20}\\)) is nearly identical (from 0.881 nm\\(^{3}\\) for AB\\(_{0.9}\\) to 0.883 nm\\(^{3}\\) for AB\\(_{0.1}\\)) among all analyzed cases.",
+        "start_index": 41472,
+        "end_index": 41680
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Figure 4. Relationships of physicochemical properties of ILs and DSILs: Density at 20 \u00b0C versus $x_{dic}$ (a), refractive index at 20 \u00b0C versus $x_{dic}$ (b), densities of A, B, and $AB_{0.5}$ versus temperature (c), and melting points and crystallization temperatures versus $x_{dic}$ (d).",
+        "start_index": 41680,
+        "end_index": 41970
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "As in the case of density, the refractive indices at 20 \u00b0C ($n_D^{20}$) took extreme values for single parent ILs, namely, 1.5041 for A and 1.5116 for B, whereas the refractive indices of the DSILs were within this range. The detailed results are presented in Table A.8 (Supplementary Data)",
+        "start_index": 41970,
+        "end_index": 42260
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, the linear correlation of the refractive index with $x_{dic}$ is not as accurate as in the case of density; the $R^2$ value is equal to 0.886 (Fig. 4b). Notably, the experimental values for DSILs containing MCPA anions or the same proportion of MCPA anions as dicamba ($AB_{0.4}$\u2013$AB_{0.6}$) were close to the theoretical values",
+        "start_index": 42260,
+        "end_index": 42599
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Thus, the relationship between $\\Delta n_D^{20}$ and $x_{dic}$ followed a similar pattern as the dependence of the excess molar volume ($V_m^{E20}$) on the molar fraction of dicamba. This finding corroborates the known relationship between the density and refractive index: with a higher density of a substance, the spatial packing of its chemical constituents increases, and refraction results from the interaction of light with molecules (or ions) [40].",
+        "start_index": 42599,
+        "end_index": 43056
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "For the selected systems (A, B, and AB0.5), the effects of temperature on the density and refractive index were also examined. In the range from 20 to 80 \u00b0C, a 10 \u00b0C increase in temperature caused decreases in the densities of the IL and DSIL under study, with an average of 0.0069 g\u00b7cm\u207b\u00b3 (see Fig. 4c) and a refractive index of 0",
+        "start_index": 43056,
+        "end_index": 43386
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".0032 (Fig. A.32, Supplementary Data), and the temperature dependence of both physical quantities was linear (R\u00b2 > 0.999; the regression parameters are presented in Table A.9, Supplementary Data). These findings are consistent with available literature reports for ILs with similar chemical structures [25,41]. The exact values of the density and refractive index at temperatures from 20 to 80 \u00b0C recorded for the systems mentioned above are presented in Table A",
+        "start_index": 43386,
+        "end_index": 43848
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".10 (Supplementary Data).",
+        "start_index": 43848,
+        "end_index": 43873
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "All the systems obtained were characterized by viscosities ranging from 19.0 (A) to 62.3 Pa\u00b7s (AB0.5). As shown in Fig. A.33 (Supplementary Data), despite the lack of strict viscosity dependence on xdic due to the relatively high water content [12,30], most DSIL systems are characterized by viscosities similar to that of B (44.8 Pa\u00b7s) or higher",
+        "start_index": 43873,
+        "end_index": 44219
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Since the strength of Coulombic interactions is primarily responsible for the viscosity of ILs, it can be concluded that in the case of the DSILs studied here, there may be an intensification of these effects due to the presence of competitive interactions between more than two types of ions [12,25]. The detailed results for this parameter are presented in Table A.8 (Supplementary Data)",
+        "start_index": 44219,
+        "end_index": 44610
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Moreover, the viscosity of the obtained products decreased nonlinearly with increasing temperature, reaching values ranging from 0.26 (AB0.5) to 0.47 Pa\u00b7s (B). These data, presented in Table A.10 (Supplementary Data), are consistent with results recorded for other ILs [25,42].",
+        "start_index": 44610,
+        "end_index": 44889
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The phase transitions of the studied systems were also determined via differential scanning calorimetry. For both parent ILs A and B, as well as all the systems containing MCPA and dicamba (AB0.1\u2013AB0.9), melting (Tm) and crystallization (Tc) temperatures were measured during the heating and cooling cycles, respectively. The thermograms are presented in Figs. A.34\u2013A",
+        "start_index": 44889,
+        "end_index": 45256
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".44 (Supplementary Data), while the values of the phase transition temperatures are summarized in Table A.11 (Supplementary Data). The presence of a long hexadecyl substituent in the cation of the ILs and DSILs significantly reduced the lattice energy. This is evidenced by the fact that analogous MCPA and dicamba salts with shorter substituents in the cation underwent only a glass transition at temperatures lower than -30 \u00b0C [25]",
+        "start_index": 45256,
+        "end_index": 45689
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". As shown in Fig. 4d, the observed Tm values increased along with the increase in xdic from -28 \u00b0C (IL A) to -12 \u00b0C (IL B). Thus, the melting point reduction typical of eutectic mixtures was not observed for the DSILs. The crystallization temperatures (Tc), on the other hand, for the studied systems were 1\u20133 \u00b0C lower than the corresponding Tm values",
+        "start_index": 45689,
+        "end_index": 46041
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The dependence of both phase transformation temperatures on xdic can be approximated as a linear function with high accuracy (R\u00b2 > 0.98).",
+        "start_index": 46041,
+        "end_index": 46180
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3.4. Surface activity",
+        "start_index": 46180,
+        "end_index": 46201
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "In binary systems or mixtures, the ratio of the components has a notable effect on the surface activity. In this study, the critical micelle concentration (CMC) and surface tension of aqueous solutions at the CMC for ILs A and B and DSILs at various molar ratios (AB\\textsubscript{0.1}\u2013AB\\textsubscript{0.9}) were determined",
+        "start_index": 46201,
+        "end_index": 46525
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". All the studied systems were characterized by high surface activity and can be considered as surface-active ILs (SAILs). The obtained data are depicted in Fig. 5, and the exact values are provided in Table A.12 (Supplementary Data).",
+        "start_index": 46525,
+        "end_index": 46759
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "![Graph showing CMC and surface tension vs molar fraction of dicamba anion](image)\n\n**Figure 5.** Relationships between the CMC at 25 \u00b0C (a) and surface tension at the CMC at 25 \u00b0C (b) with the molar fraction of the dicamba anion \\(x_{\\text{dic}}\\) in the ILs and DSILs.",
+        "start_index": 46759,
+        "end_index": 47029
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The chemical structure and hydrophobicity of the surface-inactive counterion may significantly affect the surface properties of organic salts containing the same surface-active ion [43]",
+        "start_index": 47029,
+        "end_index": 47214
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In the case of the obtained single-anion ILs A and B, the introduction of two different synthetic auxin-derived anions as counterions to the amphiphilic hexadecyl[2-(2-hydroxyethoxy)ethyl]dimethylammonium cation resulted in the appearance of a difference in the CMC values: 0.259 mmol\u00b7dm\\(^{-3}\\) for A and 0",
+        "start_index": 47214,
+        "end_index": 47524
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".278 mmol\u00b7dm\\(^{-3}\\) for B. The minor difference between the CMC values of A and B resulted most likely from the relatively high similarity in the properties of MCPA and dicamba anions. However, a nonlinear dependency of the CMC on \\(x_{\\text{dic}}\\) was established in the analyzed compositions. The determined CMCs ranged from 0",
+        "start_index": 47524,
+        "end_index": 47855
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".147 mmol\u00b7dm\\(^{-3}\\) (AB\\textsubscript{0.4}) to 0.279 mmol\u00b7dm\\(^{-3}\\) (AB\\textsubscript{0.9}). The CMCs for DSILs with molar fractions of dicamba anions ranging from 0.2\u20130.8 significantly deviated from the theoretical CMCs of the corresponding binary mixtures calculated according to Clint\u2019s equation (eq",
+        "start_index": 47855,
+        "end_index": 48161
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". 4, see Fig. 5a; the deviation is visualized as a blue area) [44\u201346]. The most notable discrepancy was observed for DSIL AB\\textsubscript{0.4}, where the experimental CMC value was as much as 45 % lower than the theoretical value. Similar deviations from the \u201cideal\u201d binary mixture behavior were also previously...",
+        "start_index": 48161,
+        "end_index": 48476
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "reported for mixtures of anionic/cationic [47] and ionic/nonionic [48] surfactants. These nonadditive effects in surfactant mixtures stem predominantly from the entropy of the diffuse counterion layer outside the micelle interfacial boundaries, as well as the lengths of the tails and the charges in the cation and anion [48,49].",
+        "start_index": 48476,
+        "end_index": 48805
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The occurrence of the above-described synergistic effect in DSILs makes combining two active surfactants at a well-defined ratio to reduce the amount of surfactants introduced into the environment a legitimate strategy. Synthetic auxins are more efficient when applied in aqueous solutions with the addition of a surface-active adjuvant; therefore, DSILs with surface-active cations and pesticidal anions can guarantee excellent efficacy without the need for the use of other additives [25,50]",
+        "start_index": 48805,
+        "end_index": 49298
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The high surface activity of the analyzed ILs and DSILs means that there is no measurable difference in density and refractive index between their aqueous solutions at CMC and pure water (Supplementary Data, Table A.13). Furthermore, the analysis of the surface tension of the aqueous solution for DSILs AB\u2080.\u2081\u2013AB\u2080",
+        "start_index": 49298,
+        "end_index": 49613
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".\u2089 and ILs A and B at their respective CMCs indicated a linear dependence on \\( x_{dic} \\), as illustrated in Fig. 5b. The lack of significant deviation from the linear relationship (\\( R > 0.98 \\)) indicates a lack of unexpected interactions in the analyzed systems with water and air [51].",
+        "start_index": 49613,
+        "end_index": 49904
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "3.5. Biological activity studies",
+        "start_index": 49904,
+        "end_index": 49936
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "To explore the potential of mixing two popular herbicides via the DSIL concept, the obtained systems were tested in greenhouse experiments performed on common lambsquarters. Reference products\u2014commercially available herbicide formulations (a mixture of Chwastox Extra 300 SL and Dicash 480 SL)\u2014were used at analogous molar ratios of active ingredients and concentrations as the ILs and DSILs",
+        "start_index": 49936,
+        "end_index": 50327
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Compared with the controls, the applied ILs and DSILs reduced the fresh weight of lambsquarters plants by up to 85 % (AB\u2080.\u2082), whereas the commercially available herbicides were characterized by lower efficacy. The differences between the obtained systems and reference herbicides were statistically significant in the case of AB\u2080.\u2082, as well as for systems with high dicamba content (AB\u2080.\u2088 and B)",
+        "start_index": 50327,
+        "end_index": 50724
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". These findings indicate that not only ILs but also DSILs are characterized by greater biological activity than the reference formulations are, mainly due to the surface activity of the cations and the improved wettability of the leaves [52]. In addition, AB\u2080.\u2082 applied at a reduced total dose of the active ingredient (305 g\u00b7ha\\(^{-1}\\)) had better efficacy than did IL A (400 g\u00b7ha\\(^{-1}\\))",
+        "start_index": 50724,
+        "end_index": 51117
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Thus, the compensation effect of dicamba facilitates the use of DSILs at lower doses of the active ingredient. The obtained results are described in detail in the Supplementary Data (Fig. A.46 and Table A.14, Pages A.48\u2013A.50).",
+        "start_index": 51117,
+        "end_index": 51345
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Since the application of $\\text{AB}_{0.2}$ resulted in the greatest efficacy toward the tested dicotyledonous plant, its potential threat to nontarget organisms was analyzed. It is assumed that only 5% of the active substances of herbicide formulations interact with target organisms, whereas the remaining 95% affect nontarget organisms or penetrate the environment, either accumulating in the soil or leaching into groundwater [53]",
+        "start_index": 51345,
+        "end_index": 51778
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". In addition, cationic surfactants exhibit very high toxicity to aquatic organisms. For example, benzalkonium chloride, which is popularly used as an active ingredient in disinfectant formulations, has very high acute toxicity to freshwater crustaceans ($\\text{Daphnia magna}$, EC$_{50}$ = 0",
+        "start_index": 51778,
+        "end_index": 52070
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".016 mg\u2219dm$^{-3}$) [54], algae ($\\text{Chlorella vulgaris}$, EC$_{50}$ up to 0.0576 mg\u2219dm$^{-3}$) [55] and fish ($\\text{Oncorhynchus mykiss}$, gill cell line-W1, EC$_{50}$ = 0.31 mg\u2219dm$^{-3}$) [54].",
+        "start_index": 52070,
+        "end_index": 52268
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "To preliminarily evaluate the risks associated with the use of ILs and DSILs with surface-active amphiphilic cations, an acute toxicity analysis was performed using a model organism from the freshwater algae group, $\\text{C. vulgaris}$. The study was performed for both parent ILs, A and B, as well as DSIL $\\text{AB}_{0.2}$",
+        "start_index": 52268,
+        "end_index": 52592
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". On the basis of the analysis of the obtained dose\u2013response curves, EC$_{50}$ values were determined for each of the tested systems (Fig. 6 and Table A.15 in the Supplementary Data).",
+        "start_index": 52592,
+        "end_index": 52775
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "![Figure 6](https://doi.org/10.26434/chemrxiv-2024-rq2ls-v2)\n\n**Figure 6.** Dose\u2013response curves and EC$_{50}$ values determined for A, $\\text{AB}_{0.2}$ and B on the basis of $\\text{C. vulgaris}$ acute toxicity tests",
+        "start_index": 52775,
+        "end_index": 52992
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "The results show that A and B exhibited virtually the same toxicity profile against $\\text{C. vulgaris}$ (EC$_{50}$ = 1.60 mg\u2219dm$^{-3}$, which corresponds to 2.86 \u00b5mol\u2219dm$^{-3}$ for A and 1.59 mg\u2219dm$^{-3}$, which corresponds to 2.75 \u00b5mol\u2219dm$^{-3}$ for B)",
+        "start_index": 52992,
+        "end_index": 53246
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Thus, both ILs are classified as Category II substances in terms of aquatic hazards according to the GHS. The similar toxicity of compounds A and B indicates that the chemical structure of synthetic auxin in the anion (dicamba or MCPA) has no",
+        "start_index": 53246,
+        "end_index": 53490
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "significant effect on ecotoxicity. Compounds from the auxin group are also produced by other groups of organisms, including bacteria, fungi or algae [56]. It is postulated that auxins in algae play a similar role to those in higher plants, stimulating the cell division and growth of algal colonies [57]. Consequently, herbicidal substances from synthetic auxins (including MCPA and dicamba) are characterized by low toxicity to algae [58]",
+        "start_index": 53490,
+        "end_index": 53929
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Cationic surfactants are known for their high toxicity to algae [59], primarily because of their ability to adsorb onto their cell membranes [60].",
+        "start_index": 53929,
+        "end_index": 54077
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Intriguingly, for \\( \\text{AB}_{0.2} \\), a noticeable increase in acute toxicity toward \\( C.\\ vulgaris \\) compared with ILs \\( A \\) and \\( B \\) was observed. The determined \\( \\text{EC}_{50} \\) value was 0.88 mg\u00b7dm\\(^{-3} \\) which corresponds to 1",
+        "start_index": 54077,
+        "end_index": 54325
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".56 \\( \\mu \\text{mol}\u00b7\\text{dm}^{-3} \\). Considering the mechanism of surfactant toxicity against algal cells, the increased ecotoxicity of \\( \\text{AB}_{0.2} \\) was most likely due to the previously described surface activity enhancement, which causes the DSILs to have lower CMCs than their parent ILs do",
+        "start_index": 54325,
+        "end_index": 54631
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". The effect of the surface activity of a given surfactant on its toxicity to aquatic organisms can be expressed in terms of the CMC/\\( \\text{EC}_{50} \\) quotient. The values of this quotient for \\( A, B, \\) and \\( \\text{AB}_{0.2} \\) ranged from 91 (\\( A \\)) to 142 (\\( \\text{AB}_{0",
+        "start_index": 54631,
+        "end_index": 54913
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".2} \\)) and differed by less than one order of magnitude (see Table A.16, Supplementary Data). This means that the toxicity of the tested ILs and DSILs in aqueous solutions increases as the CMC value of a given surfactant decreases, and this relationship is similar to that of another group of cationic surfactants described previously \u2013 alkyl betainate bromides and alkyl dibetainate dibromides [61]",
+        "start_index": 54913,
+        "end_index": 55313
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". However, compared with conventional quaternary ammonium salts with a substituent of the same length, namely, cetyltrimethylammonium chloride (CTAC, \\( \\text{EC}_{50}: 0.14 \\) mg\u00b7dm\\(^{-3} \\)) or benzylidimethylhexadecylammonium chloride (BAC\\(_{16}, \\text{EC}_{50}: 0",
+        "start_index": 55313,
+        "end_index": 55582
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".16 \\) mg\u00b7dm\\(^{-3} \\)), the DSIL \\( \\text{AB}_{0.2} \\) is less toxic to \\( C.\\ vulgaris \\) [55]. This type of activity also indicates additional potential for the use of \\( \\text{AB}_{0.2} \\) as an algicide (e.g., to counteract algal growth in pools or ponds) at well-defined concentrations",
+        "start_index": 55582,
+        "end_index": 55873
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Algicides are also used to counteract eutrophication in natural water bodies. One of the most commonly used substances for counteracting algal growth is copper(II) sulfate; however, this compound is highly toxic to other aquatic organisms. Moreover, copper accumulates in the environment and can be dangerous to human health, so the search for less toxic alternatives is warranted [62].",
+        "start_index": 55873,
+        "end_index": 56261
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "4. Conclusions\n\nIn the present study, a series of new double salt ionic liquids (DSILs) were successfully obtained via simple homogenization of two known ILs, each comprising a hexadecyl[2-(2-",
+        "start_index": 56261,
+        "end_index": 56453
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-rq2ls-v2 ORCID: https://orcid.org/0000-0002-9146-0082 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 56453,
+        "end_index": 56603
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "hydroxyethoxy)ethyl]dimethylammonium cation and an anion with herbicidal activity (MCPA or dicamba). The prepared DSILs contained different molar ratios of MCPA to dicamba ions, ranging from 9:1 (90 % MCPA) to 1:99 (1 % MCPA) in the different systems",
+        "start_index": 56603,
+        "end_index": 56853
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Spectral analysis confirmed that the formation of DSILs caused a change in the chemical environment of specific groups of atoms in the tested ions. In the $^1$H NMR spectra, such alterations manifested as significant differences in the chemical shifts of specific signals. The melting points of the analyzed DSIL systems were lower than -15 \u00b0C; hence, they were classified as room-temperature ionic liquids",
+        "start_index": 56853,
+        "end_index": 57261
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Fascinatingly, the determined critical micelle concentration (CMC) values for the DSILs comprising MCPA:dicamba at molar ratios from 2:8 to 8:2 were characterized by significantly lower values than those expected from the mixing law. The greatest reduction in the CMC value (45 % lower than the expected value) was observed for the DSIL containing MCPA:dicamba at a molar ratio of 6:4",
+        "start_index": 57261,
+        "end_index": 57647
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Thus, a strategy involving the formation of these surface-active DSILs may allow for an effective reduction in the amount of surfactant or active agent used for treatment.",
+        "start_index": 57647,
+        "end_index": 57820
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "All DSILs evaluated for herbicidal efficacy against common lambsquarters showed similar efficacy compared to parent ILs with a single anion (MCPA or dicamba). These results indicated that there were no noticeable synergistic effects for the analyzed systems comprising large amounts of dicamba anions",
+        "start_index": 57820,
+        "end_index": 58120
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Interestingly, the system containing a smaller amount of dicamba (MCPA:dicamba at a molar ratio of 8:2) presented the highest biological activity of all the active substances tested and achieved 85 % fresh weight reduction compared with the control. It can be concluded that a small addition of dicamba can more than compensate for a reduction in the MCPA dose",
+        "start_index": 58120,
+        "end_index": 58482
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Therefore, the total dose of pesticide can be effectively reduced to 25 % (from 400 to 305 g\u00b7ha$^{-1}$) without any loss of efficacy. Most likely, the synergistic effects caused a noticeable increase in the toxicity of this system toward C. vulgaris compared with that of the parent ILs",
+        "start_index": 58482,
+        "end_index": 58770
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". This result confirms that a more thorough evaluation of the ecotoxicity of new compounds is crucial in the process of developing novel herbicidal formulations that are not only effective against target species but also safe for nontarget species.",
+        "start_index": 58770,
+        "end_index": 59018
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**Author contributions: CRediT**",
+        "start_index": 59018,
+        "end_index": 59050
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Tomasz Rzemieniecki: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Visualization, Writing \u2013 original draft. Damian K. Kaczmarek: Data curation, Funding acquisition, Investigation, Methodology, Writing \u2013 original draft. Witold Stachowiak: Formal analysis,",
+        "start_index": 59050,
+        "end_index": 59393
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Methodology. **Katarzyna Marcinkowska**: Investigation, Methodology, Resources. **Micha\u0142 Niemczak**: Funding acquisition, Resources, Writing \u2013 review & editing.",
+        "start_index": 59393,
+        "end_index": 59553
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**Funding sources**\nThis research was funded by the Ministry of Education and Science in Poland as a subsidy to Poznan University of Technology, Poland (0912/SBAD/2409). FT-IR spectral analysis and differential scanning calorimetry studies were funded by National Centre for Research and Development, Poland (LIDER13/0029/2022). Ecotoxicity studies were funded by National Science Centre, Poland (2023/07/X/ST4/00728).",
+        "start_index": 59553,
+        "end_index": 59971
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**Appendices**\nAppendix A: Supplementary Data; Detailed descriptions of methodology (greenhouse experiments, toxicity towards freshwater algae), spectral analyses (FT-IR, NMR), additional data and exact values (physicochemical parameters, linear regression parameters, DSC thermograms, surface parameters, toxicity towards *C. vulgaris*), additional analyses: greenhouse experiments (results, discussion).",
+        "start_index": 59971,
+        "end_index": 60376
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**Declaration of generative AI and AI-assisted technologies in the writing process**\nDuring the preparation of this work the authors did not use any generative AI and AI-assisted technologies.",
+        "start_index": 60376,
+        "end_index": 60568
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "**References**",
+        "start_index": 60568,
+        "end_index": 60582
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[1] J. Afonso, A. Mezzetta, I.M. Marrucho, L. Guazzelli, History repeats itself again: Will the mistakes of the past for ILs be repeated for DESs? From being considered ionic liquids to becoming their alternative: the unbalanced turn of deep eutectic solvents, Green Chem. 25 (2023) 59\u2013105. https://doi.org/10",
+        "start_index": 60582,
+        "end_index": 60891
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1039/D2GC03198A.",
+        "start_index": 60891,
+        "end_index": 60908
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[2] B. Kudlak, K. Owczarek, J. Namie\u015bnik, Selected issues related to the toxicity of ionic liquids and deep eutectic solvents\u2014a review, Environ. Sci. Pollut. Res. 22 (2015) 11975\u201311992. https://doi.org/10.1007/s11356-015-4794-y.",
+        "start_index": 60908,
+        "end_index": 61136
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[3] S. Magina, A. Barros-Timmons, S.P.M. Ventura, D. V Evtuguin, Evaluating the hazardous impact of ionic liquids \u2013 Challenges and opportunities, J. Hazard. Mater. 412 (2021) 125215. https://doi.org/10.1016/j.jhazmat.2021.125215.",
+        "start_index": 61136,
+        "end_index": 61365
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[4] V.G. Maciel, D.J. Wales, M. Seferin, C.M.L. Ugaya, V. Sans, State-of-the-art and limitations in the life cycle assessment of ionic liquids, J. Clean. Prod. 217 (2019) 844\u2013858. https://doi.org/10.1016/j.jclepro.2019.01.133.",
+        "start_index": 61365,
+        "end_index": 61591
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[5] Y. Liu, Z. Dai, Z. Zhang, S. Zeng, F. Li, X. Zhang, Y. Nie, L. Zhang, S. Zhang, X. Ji, Ionic liquids/deep eutectic solvents for CO2 capture: Reviewing and evaluating, Green Energy Environ. 6 (2021) 314\u2013328. https://doi.org/10.1016/j.gee.2020.11.024",
+        "start_index": 61591,
+        "end_index": 61843
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".",
+        "start_index": 61843,
+        "end_index": 61844
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[6] J. Sun, Y. Sato, Y. Sakai, Y. Kansha, A review of ionic liquids and deep eutectic solvents design for CO2 capture with machine learning, J. Clean. Prod. 414 (2023) 137695. https://doi.org/10.1016/j.jclepro.2023.137695.",
+        "start_index": 61844,
+        "end_index": 62066
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[7] K. Zhang, J. Wu, H. Yoo, Y. Lee, Machine Learning-based approach for Tailor-Made design of ionic Liquids: Application to CO2 capture, Sep. Purif. Technol. 275 (2021) 119117. https://doi.org/10.1016/j.seppur.2021.119117.",
+        "start_index": 62066,
+        "end_index": 62289
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[8] P. Dhakal, J.K. Shah, A generalized machine learning model for predicting ionic conductivity of ionic liquids, Mol. Syst. Des. Eng. 7 (2022) 1344\u20131353. https://doi.org/10.1039/D2ME00046F.",
+        "start_index": 62289,
+        "end_index": 62480
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[9] S.P. Ijardar, R.L. Gardas, Chapter 16 - A physicochemical investigation of ionic liquid mixtures, in: J. Akhter Siddique, A. Ahmad, M.B.T.-I.L. and T.A. in G.C. Jawaid (Eds.), Adv. Green Sustain. Chem., Elsevier, 2023: pp. 289\u2013312. https://doi.org/10",
+        "start_index": 62480,
+        "end_index": 62734
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1016/B978-0-323-95931-5.00019-1.",
+        "start_index": 62734,
+        "end_index": 62767
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[10] M.A.R. Martins, G. Sharma, S.P. Pinho, R.L. Gardas, J.A.P. Coutinho, P.J. Carvalho, Selection and characterization of non-ideal ionic liquids mixtures to be used in CO2 capture, Fluid Phase Equilib. 518 (2020) 112621. https://doi.org/10.1016/j.fluid.2020.112621.",
+        "start_index": 62767,
+        "end_index": 63034
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[11] H. Niedermeyer, J.P. Hallett, I.J. Villar-Garcia, P.A. Hunt, T. Welton, Mixtures of ionic liquids, Chem. Soc. Rev. 41 (2012) 7780\u20137802. https://doi.org/10.1039/C2CS35177C.",
+        "start_index": 63034,
+        "end_index": 63210
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[12] G. Chatel, J.F.B. Pereira, V. Debbeti, H. Wang, R.D. Rogers, Mixing ionic liquids \u2013 \u201csimple mixtures\u201d or \u201cdouble salts\u201d?, Green Chem. 16 (2014) 2051\u20132083. https://doi.org/10.1039/C3GC41389F.",
+        "start_index": 63210,
+        "end_index": 63405
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[13] F. Oyoun, A. Toncheva, L.C. Henr\u00edquez, R. Grounet, F. Laoutid, N. Mignet, K. Alhareth, Y. Corvis, Deep Eutectic Solvents: An Eco-friendly Design for Drug Engineering, ChemSusChem 16 (2023) e202300669. https://doi.org/10.1002/cssc.202300669.",
+        "start_index": 63405,
+        "end_index": 63650
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[14] T. Swebocki, A.M. Kocot, A. Barras, H. Arellano, L. Bonnaud, K. Haddadi, A.-L.",
+        "start_index": 63650,
+        "end_index": 63733
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Fameau, S. Szunerits, M. Plotka, R. Boukherroub, Comparison of the Antibacterial Activity of Selected Deep Eutectic Solvents (DESs) and Deep Eutectic Solvents Comprising Organic Acids (OA-DESs) Toward Gram-Positive and Gram-Negative Species, Adv. Healthc. Mater. 13 (2024) 2303475. https://doi.org/10",
+        "start_index": 63733,
+        "end_index": 64033
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1002/adhm.202303475.",
+        "start_index": 64033,
+        "end_index": 64054
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[15] X. Wu, Q. Zhu, Z. Chen, W. Wu, Y. Lu, J. Qi, Ionic liquids as a useful tool for tailoring active pharmaceutical ingredients, J. Control. Release 338 (2021) 268\u2013283. https://doi.org/10.1016/j.jconrel.2021.08.032.",
+        "start_index": 64054,
+        "end_index": 64270
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[16] M. Handa, W.H. Almalki, R. Shukla, O. Afzal, A.S.A. Altamimi, S. Beg, M. Rahman, Active pharmaceutical ingredients (APIs) in ionic liquids: An effective approach for API physiochemical parameter optimization, Drug Discov. Today 27 (2022) 2415\u20132424. https://doi.org/10.1016/j.drudis",
+        "start_index": 64270,
+        "end_index": 64556
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".2022.06.003.",
+        "start_index": 64556,
+        "end_index": 64569
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[17] J.L. Shamshina, R.D. Rogers, Ionic Liquids: New Forms of Active Pharmaceutical Ingredients with Unique, Tunable Properties, Chem. Rev. 123 (2023) 11894\u201311953. https://doi.org/10.1021/acs.chemrev.3c00384.",
+        "start_index": 64569,
+        "end_index": 64777
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[18] K.S. Egorova, A. V Kibardin, A. V Posvyatenko, V.P. Ananikov, Mechanisms of Biological Effects of Ionic Liquids: From Single Cells to Multicellular Organisms, Chem. Rev. 124 (2024) 4679\u20134733. https://doi.org/10.1021/acs.chemrev.3c00420.",
+        "start_index": 64777,
+        "end_index": 65018
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[19] A.J. Diggle, P.B. Neve, F.P. Smith, Herbicides used in combination can reduce the probability of herbicide resistance in finite weed populations, Weed Res. 43 (2003) 371\u2013382. https://doi.org/10.1046/j.1365-3180.2003.00355.x.",
+        "start_index": 65018,
+        "end_index": 65247
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[20] S.B. Powles, Q. Yu, Evolution in Action: Plants Resistant to Herbicides, Annu. Rev. Plant Biol. 61 (2010) 317\u2013347. https://doi.org/10.1146/annurev-arplant-042809-112119.",
+        "start_index": 65247,
+        "end_index": 65421
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[21] W. Wilms, M. Wo\u017aniak-Karczewkska, A. Syguda, M. Niemczak, \u0141. \u0141awniczak, J. Pernak, R.D. Rogers, \u0141. Chrzanowski, Herbicidal Ionic Liquids: A Promising Future for Old Herbicides? Review on Synthesis, Toxicity, Biodegradation, and Efficacy Studies, J. Agric",
+        "start_index": 65421,
+        "end_index": 65680
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Food Chem. 68 (2020) 10456\u201310488. https://doi.org/10.1021/acs.jafc.0c02894.",
+        "start_index": 65680,
+        "end_index": 65757
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[22] W. Stachowiak, M. Smolibowski, D.K. Kaczmarek, T. Rzemieniecki, M. Niemczak, Toward revealing the role of the cation in the phytotoxicity of the betaine-based esterquats comprising dicamba herbicide, Sci. Total Environ. 845 (2022) 157181. https://doi.org/10.1016/j.scitotenv",
+        "start_index": 65757,
+        "end_index": 66036
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".2022.157181.",
+        "start_index": 66036,
+        "end_index": 66049
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[23] W. Stachowiak, D.K. Kaczmarek, T. Rzemieniecki, M. Niemczak, Sustainable Design\nof New Ionic Forms of Vitamin B3 and Their Utilization as Plant Protection Agents, J. Agric. Food Chem. 70 (2022) 8222\u20138232. https://doi.org/10.1021/acs.jafc.2c01807.",
+        "start_index": 66049,
+        "end_index": 66300
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[24] F. Menges, Spectragryph - optical spectroscopy software, (2009). http://www.effemm2.de/spectragryph/.",
+        "start_index": 66300,
+        "end_index": 66406
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[25] M. Niemczak, T. Rzemieniecki, A. Biedziak, K. Marcinkowska, J. Pernak, Synthesis and Structure\u2013Property Relationships in Herbicidal Ionic Liquids and their Double Salts, Chempluschem 83 (2018) 529\u2013541. https://doi.org/10.1002/cplu.201800251.",
+        "start_index": 66406,
+        "end_index": 66652
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[26] T. Rzemieniecki, M. Wojcieszak, K. Materna, T. Praczyk, J. Pernak, Synthetic auxin-based double salt ionic liquids as herbicides with improved physicochemical properties and biological activity, J. Mol. Liq. (2021) 116452. https://doi.org/10.1016/j.molliq.2021.116452.",
+        "start_index": 66652,
+        "end_index": 66925
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[27] A.S.L. Gouveia, L.C. Tom\u00e9, I.M. Marrucho, Density, Viscosity, and Refractive Index of Ionic Liquid Mixtures Containing Cyano and Amino Acid-Based Anions, J. Chem. Eng. Data 61 (2016) 83\u201393. https://doi.org/10.1021/acs.jced.5b00242.",
+        "start_index": 66925,
+        "end_index": 67161
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[28] OECD, Test No. 201: Freshwater Alga and Cyanobacteria, Growth Inhibition Test, 2011. https://doi.org/10.1787/9789264069923-en.",
+        "start_index": 67161,
+        "end_index": 67292
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[29] D. Prat, A. Wells, J. Hayler, H. Sneddon, C.R. McElroy, S. Abou-Shehada, P.J. Dunn, CHEM21 selection guide of classical- and less classical-solvents, Green Chem. 18 (2016) 288\u2013296. https://doi.org/10.1039/C5GC01008J.",
+        "start_index": 67292,
+        "end_index": 67513
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[30] J. Jacquemin, P. Husson, A.A.H. Padua, V. Majer, Density and viscosity of several pure and water-saturated ionic liquids, Green Chem. 8 (2006) 172\u2013180. https://doi.org/10.1039/B513231B.",
+        "start_index": 67513,
+        "end_index": 67703
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[31] B. Yoo, W. Afzal, J.M. Prausnitz, Effect of Water on the Densities and Viscosities of Some Ionic Liquids Containing a Phosphonium Cation, 227 (2013) 157\u2013166. https://doi.org/10.1524/zpch.2013.0328.",
+        "start_index": 67703,
+        "end_index": 67905
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[32] K. Kaneko, Y. Yoshimura, A. Shimizu, Water concentration dependence of the refractive index of various ionic liquid-water mixtures, J. Mol. Liq. 250 (2018) 283\u2013286. https://doi.org/10.1016/j.molliq.2017.12.009.",
+        "start_index": 67905,
+        "end_index": 68120
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[33] M. Br\u00fcssel, M. Brehm, A.S. Pensado, F. Malberg, M. Ramzan, A. Stark, B. Kirchner, On the ideality of binary mixtures of ionic liquids, Phys. Chem. Chem. Phys. 14 (2012) 13204\u201313215. https://doi.org/10.1039/C2CP41926B.",
+        "start_index": 68120,
+        "end_index": 68342
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[34] D. Lengvinait\u0117, S. Kvedaraviciute, S. Bielskut\u0117, V. Klimavicius, V. Balevicius, F. Mocci, A. Laaksonen, K. Aidas, Structural Features of the [C4mim][Cl] Ionic Liquid and Its Mixtures with Water: Insight from a 1H NMR Experimental and QM/MD",
+        "start_index": 68342,
+        "end_index": 68586
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Study, J. Phys. Chem. B 125 (2021) 13255\u201313266.\nhttps://doi.org/10.1021/acs.jpcb.1c08215.",
+        "start_index": 68586,
+        "end_index": 68675
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[35] S. Marullo, F. D\u2019Anna, P.R. Campodonico, R. Noto, Ionic liquid binary mixtures: how different factors contribute to determine their effect on the reactivity, RSC Adv. 6 (2016) 90165\u201390171. https://doi.org/10.1039/C6RA12836J.",
+        "start_index": 68675,
+        "end_index": 68904
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[36] F. D\u2019Anna, S. Marullo, P. Vitale, R. Noto, Binary Mixtures of Ionic Liquids: A Joint Approach to Investigate their Properties and Catalytic Ability, ChemPhysChem 13 (2012) 1877\u20131884. https://doi.org/10.1002/cphc.201100878.",
+        "start_index": 68904,
+        "end_index": 69131
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[37] M. Niemczak, T. Rzemieniec, D.K. Kaczmarek, A. Olejniczak, W. Stachowiak, Does the method of combining individual components affect the structure of heteroconjugated oligomeric ionic liquids?, J. Mol. Liq. 393 (2024) 123608. https://doi.org/10.1016/j.molliq.2023",
+        "start_index": 69131,
+        "end_index": 69398
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".123608.",
+        "start_index": 69398,
+        "end_index": 69406
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[38] M.A. Ab Rani, A. Brant, L. Crowhurst, A. Dolan, M. Lui, N.H. Hassan, J.P. Hallett, P.A. Hunt, H. Niedermeyer, J.M. Perez-Arlandis, M. Schrems, T. Welton, R. Wilding, Understanding the polarity of ionic liquids, Phys. Chem. Chem. Phys",
+        "start_index": 69406,
+        "end_index": 69644
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". 13 (2011) 16831\u201316840. https://doi.org/10.1039/C1CP21262A.",
+        "start_index": 69644,
+        "end_index": 69704
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[39] M. Montanino, M. Moreno, F. Alessandrini, G.B. Appetecchi, S. Passerini, Q. Zhou, W.A. Henderson, Physical and electrochemical properties of binary ionic liquid mixtures: (1\u2212x) PYR14TFSI\u2212(x) PYR14IM14, Electrochim. Acta 60 (2012) 163\u2013169. https://doi.org/10",
+        "start_index": 69704,
+        "end_index": 69966
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1016/j.electacta.2011.11.030.",
+        "start_index": 69966,
+        "end_index": 69996
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[40] C.Z. Tan, Dependence of the refractive index on density, temperature, and the wavelength of the incident light, Eur. Phys. J. B 94 (2021) 139. https://doi.org/10.1140/epjb/s10051-021-00147-2.",
+        "start_index": 69996,
+        "end_index": 70192
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[41] W. Stachowiak, T. Rzemieniec, T. Klejdysz, J. Pernak, M. Niemczak, \u201cSweet\u201d ionic liquids comprising the acesulfame anion \u2013 synthesis, physicochemical properties and antifeedant activity towards stored product insects, New J. Chem. 44 (2020) 7017\u20137028. https://doi.org/10",
+        "start_index": 70192,
+        "end_index": 70467
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1039/C9NJ06005G.",
+        "start_index": 70467,
+        "end_index": 70484
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[42] L.G. S\u00e1nchez, J.R. Espel, F. Onink, G.W. Meindersma, A.B. de Haan, Density, Viscosity, and Surface Tension of Synthesis Grade Imidazolium, Pyridinium, and Pyrrolidinium Based Room Temperature Ionic Liquids, J. Chem. Eng. Data 54 (2009) 2803\u20132812. https://doi.org/10",
+        "start_index": 70484,
+        "end_index": 70754
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1021/je800710p.",
+        "start_index": 70754,
+        "end_index": 70770
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "[43] N. Jiang, P. Li, Y. Wang, J. Wang, H. Yan, R.K. Thomas, Aggregation behavior of hexadecyltrimethylammonium surfactants with various counterions in aqueous solution, J. Colloid Interface Sci. 286 (2005) 755\u2013760.",
+        "start_index": 70770,
+        "end_index": 70985
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Z. Wang, C. Dai, J. Liu, Y. Dong, J. Liu, N. Sun, L. Li, Anionic-nonionic and nonionic mixed surfactant systems for oil displacement: Impact of ethoxylate chain lengths on the synergistic effect, Colloids Surfaces A Physicochem. Eng. Asp. 678 (2023) 132436. https://doi.org/10.1016/j.colsurfa.2023",
+        "start_index": 70985,
+        "end_index": 71282
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".132436.",
+        "start_index": 71282,
+        "end_index": 71290
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "C. La Mesa, G. Risuleo, Surface Activity and Efficiency of Cat-Anionic Surfactant Mixtures, Front. Chem. 9 (2021). https://doi.org/10.3389/fchem.2021.790873.",
+        "start_index": 71290,
+        "end_index": 71447
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "J.H. Clint, Micellization of mixed nonionic surface active agents, J. Chem. Soc. Faraday Trans. 1 Phys. Chem. Condens. Phases 71 (1975) 1327\u20131334. https://doi.org/10.1039/F19757101327.",
+        "start_index": 71447,
+        "end_index": 71631
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "L.-S. Hao, Y.-F. Jia, Q. Liu, Y. Wang, G.-Y. Xu, Y.-Q. Nan, Influences of molecular structure of the cationic surfactant, additives and medium on the micellization of cationic/anionic surfactant mixed systems, Colloids Surfaces A Physicochem. Eng. Asp. 511 (2016) 91\u2013104. https://doi.org/10",
+        "start_index": 71631,
+        "end_index": 71921
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".1016/j.colsurfa.2016.09.054.",
+        "start_index": 71921,
+        "end_index": 71950
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "M. Bergstr\u00f6m, J.C. Eriksson, Synergistic effects in binary surfactant mixtures BT - Trends in Colloid and Interface Science XVI, in: M. Miguel, H.D. Burrows (Eds.), Springer Berlin Heidelberg, Berlin, Heidelberg, 2004: pp. 16\u201322.",
+        "start_index": 71950,
+        "end_index": 72179
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "A.Z. Naqvi, S. Noori, Kabir-ud-Din, Effect of surfactant structure on the mixed micelle formation of cationic gemini\u2013zwitterionic phospholipid systems, Colloids Surfaces A Physicochem. Eng. Asp. 477 (2015) 9\u201318. https://doi.org/10.1016/j.colsurfa.2015.03.009.",
+        "start_index": 72179,
+        "end_index": 72438
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "D. Szymaniak, A. Ma\u0107kowiak, K. Ciarka, T. Praczyk, K. Marcinkowska, J. Pernak, Synthesis and Characterization of Double-Salt Herbicidal Ionic Liquids Comprising both 4-Chloro-2-methylphenoxycetate and trans-Cinnamate Anions, Chempluschem 85 (2020) 2281\u20132289",
+        "start_index": 72438,
+        "end_index": 72695
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". https://doi.org/10.1002/cplu.202000546.",
+        "start_index": 72695,
+        "end_index": 72736
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "E.G. Lemraski, Z. pouyanfar, Prediction of surface tension, surface mole fraction and thickness of the surface layer in the ionic liquid binary mixtures, J. Mol. Liq. 203 (2015) 52\u201358. https://doi.org/10.1016/j.molliq.2014.12.030.",
+        "start_index": 72736,
+        "end_index": 72966
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "D.K. Kaczmarek, T. Rzemieniecki, D. Gwiazdowska, T. Kleiber, T. Praczyk, J. Pernak, Choline-based ionic liquids as adjuvants in pesticide formulation, J. Mol. Liq. 327 (2021) 114792. https://doi.org/10.1016/j.molliq.2020.114792.",
+        "start_index": 72966,
+        "end_index": 73194
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "A. Zajac, R. Kukawka, A. Pawlowska-Zygarowicz, O. Stolarska, M. Smiglak, Ionic liquids as bioactive chemical tools for use in agriculture and the preservation of agricultural products, Green Chem. 20 (2018) 4764\u20134789.",
+        "start_index": 73194,
+        "end_index": 73411
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "Y. Chen, M. Geurts, S.B. Sjollema, N.I. Kramer, J.L.M. Hermens, S.T.J. Droge, Acute toxicity of the cationic surfactant C12-benzalkonium in different bioassays: How test design affects bioavailability and effect concentrations, Environ. Toxico. Chem. 33 (2014) 606\u2013615. https://doi.org/10.1002/etc",
+        "start_index": 73411,
+        "end_index": 73708
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ".2465.",
+        "start_index": 73708,
+        "end_index": 73714
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "M. Zhu, F. Ge, R. Zhu, X. Wang, X. Zheng, A DFT-based QSAR study of the toxicity of quaternary ammonium compounds on Chlorella vulgaris, Chemosphere 80 (2010) 46\u201352. https://doi.org/10.1016/j.chemosphere.2010.03.044.",
+        "start_index": 73714,
+        "end_index": 73930
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "V. Calatrava, E.F.Y. Hom, Q. Guan, A. Llamas, E. Fern\u00e1ndez, A. Galv\u00e1n, Genetic evidence for algal auxin production in Chlamydomonas and its role in algal-bacterial mutualism, IScience 27 (2024) 108762. https://doi.org/10.1016/j.isci.2023.108762.",
+        "start_index": 73930,
+        "end_index": 74175
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "A. Piotrowska-Niczyporuk, A. Baiguz, The effect of natural and synthetic auxins on the growth, metabolite content and antioxidant response of green alga Chlorella vulgaris (Trebouxiophyceae), Plant Growth Regul. 73 (2014) 57\u201366. https://doi.org/10.1007/s10725-013-9867-7.",
+        "start_index": 74175,
+        "end_index": 74446
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "P.A. Morton, C. Fennell, R. Cassidy, D. Doody, O. Fenton, P. E. Mellander, P. Jordan, A review of the pesticide MCPA in the land-water environment and emerging research needs, WIREs Water 7 (2020) e1402. https://doi.org/10.1002/wat2.1402.",
+        "start_index": 74446,
+        "end_index": 74684
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "G. Jing, Z. Zhou, J. Zhuo, Quantitative structure\u2013activity relationship (QSAR) study of toxicity of quaternary ammonium compounds on Chlorella pyrenoidosa and Scenedesmus quadricauda, Chemosphere 86 (2012) 76\u201382. https://doi.org/10.1016/j.chemosphere.2011.09.021.",
+        "start_index": 74684,
+        "end_index": 74947
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "M.J. Rosen, F. Li, S.W. Morrall, D.J. Versteeg, The Relationship between the Interfacial Properties of Surfactants and Their Toxicity to Aquatic Organisms, Environ. Sci. Technol. 35 (2001) 954\u2013959. https://doi.org/10.1021/es0015141.",
+        "start_index": 74947,
+        "end_index": 75179
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "W. Stachowiak, A. Olejniczak, T. Rzemieniecki, M. Smolibowski, M. Wysokowski, T. Jesionowski, A. Mezzetta, L. Guazzelli, M",
+        "start_index": 75179,
+        "end_index": 75301
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": ". Niemczak, Mono- and Dicationic Quaternary Ammonium Salts from Glycine Betaine: Are They Less Ecotoxic Than Currently Applied Commercial Cationic Surfactants?, ACS Sustain. Chem. Eng. 12 (2024) 18187\u201318199. https://doi.org/10.1021/acssuschemeng.4c07208.",
+        "start_index": 75301,
+        "end_index": 75555
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "S.E. Watson, C.H. Taylor, V. Bell, T.R. Bellamy, A.S. Hooper, H. Taylor, M. Jouault, P. Kille, R.G. Perkins, Impact of copper sulphate treatment on cyanobacterial blooms and subsequent water quality risks, J. Environ. Manage. 366 (2024) 121828.",
+        "start_index": 75555,
+        "end_index": 75799
+    },
+    {
+        "document_name": "123.txt",
+        "chunk_text": "https://doi.org/10.1016/j.jenvman.2024.121828.",
+        "start_index": 75799,
+        "end_index": 75845
+    }
+]

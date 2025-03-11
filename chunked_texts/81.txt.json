@@ -1,0 +1,500 @@
+[
+    {
+        "document_name": "81.txt",
+        "chunk_text": "A Green and Fast Method for PEDOT: Photoinduced Step-Growth Polymerization of EDOT\n\nKerem Kaya a, a\n\na Istanbul Technical University, Chemistry Department, Maslak, Istanbul, 34469- Turkey\n\nE-mail: kkaya@itu.edu.tr",
+        "start_index": 0,
+        "end_index": 213
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Abstract: The first green and fast photoinduced step-growth polymerization of 3,4-ethylenedioxythiophene (EDOT) producing high molecular weight poly (3,4-ethylenedioxythiophene) (PEDOT) is reported. Phenacyl bromide was used as a single-component photoinitiating system under a broad wavelength range",
+        "start_index": 213,
+        "end_index": 513
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". The reported photooxidative polymerization technique has several advantages over the conventional oxidation methods (chemical/electrochemical) such as the use of green solvent and ambient conditions (room temperature and air atmosphere), doping of the polymer with bromide ions during the photopolymerization reaction, possibility to perform bulk photopolymerization and tune the irradiation wavelength depending on the phenacyl bromide concentration",
+        "start_index": 513,
+        "end_index": 965
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Doped PEDOT synthesized under near-UV irradiation was thoroughly investigated using different spectral and chromatographic methods. It has high conductivity (1.6 S/cm), high molecular weight (32.5 kg/mol) and strong white light photoluminescence.",
+        "start_index": 965,
+        "end_index": 1213
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1213,
+        "end_index": 1225
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Since the discovery of the unprecedented conductivity of doped polyacetylene by Professors Hideri Shirakawa, Alan McDiarmid and Alan Heeger in 19771-4, there have been huge efforts to synthesize lightweight, conductive, flexible, chemically and thermally resistant polymers",
+        "start_index": 1225,
+        "end_index": 1498
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Conductive polymers (CPs), especially those having small electronic band gaps, are promising materials for the production of flexible and lightweight optoelectronic devices, which are widely used in many high-tech devices including wearable smartwatches5-8.",
+        "start_index": 1498,
+        "end_index": 1757
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "In 1988, in an attempt to derivative polythiophene, researchers at Bayer Company synthesized poly (3,4-ethylenedioxythiophene) (PEDOT) which became a breakthrough in the development of CPs9",
+        "start_index": 1757,
+        "end_index": 1946
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Due to its high flexibility, stability, ductility and biocompatibility10-13, PEDOT and its derivatives are now widely used as polymer light emitting diodes (PLEDs)14, organic photovoltaics (OPVs)15, capacitors16, sensors17 and biomaterials18",
+        "start_index": 1946,
+        "end_index": 2189
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". PEDOTs and many other CPs are conventionally synthesized in large scale by either polycondensation reactions19-23 that require high temperature stirring of the monomer (EDOT) in toxic solvents catalyzed by expensive transition metal catalysts (Ni (0), Pd (0)) under inert atmosphere or by chemical oxidation which is accomplished using excess amount of strong oxidizers like FeCl3, Fe(OTf)3 and Na2S2O824, 25",
+        "start_index": 2189,
+        "end_index": 2599
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". This is in conflict with the concept of sustainable chemistry27-29. In order to match the requirements of green chemistry and mitigate global warming, new straightforward methods that do not use additional input energy (thermal/electrical) or inert atmosphere and that can be performed in less toxic solvents are needed.",
+        "start_index": 2599,
+        "end_index": 2921
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "In this context, light-driven chemical reactions are the most favorable techniques due to the milder reaction conditions and lower energy requirements\\textsuperscript{30, 31}. Additionally, light-mediated polymerization reactions can establish spatial and temporal control which is crucial for electronic devices\\textsuperscript{32, 33}",
+        "start_index": 2921,
+        "end_index": 3257
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Although, there have been few works reporting the photooxidative polymerization of EDOT using photoinitiating systems having graphitic carbonitride (g-CN)\\textsuperscript{34} or titanium dioxide (TiO\\textsubscript{2})\\textsuperscript{35}, none of these works reported the synthesis of high molecular weight pristine PEDOT (not hybrid composite) using a single-component photoinitiating system.",
+        "start_index": 3257,
+        "end_index": 3652
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Here, we report, the first photoinduced step-growth polymerization of EDOT using 2-bromoacetopheneone (phenacyl bromide (PAB)) as a cheap, single-component photoinitiator under near-UV, visible and daylight. Best to our knowledge, this is also the first study reporting the synthesis of PEDOT using a single-component photoinitiating system",
+        "start_index": 3652,
+        "end_index": 3992
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Depending on the concentration of PAB, the irradiation wavelength can be tuned from UV to visible region. Besides the probability of using ethanol (EtOH) as a green reaction solvent, bulk photopolymerization was also successful due to the high solubility of PAB in EDOT. Conductivity measurements were also employed to check the conductivity of the doped and dedoped PEDOTs",
+        "start_index": 3992,
+        "end_index": 4367
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Doped PEDOT was thoroughly characterized using different spectral and chromatographic methods including UV-Vis, fluorescence, infrared, nuclear magnetic resonance (NMR) spectroscopies and gel-permeation chromatography (GPC). Thermal stability and crystallinity of both polymers were also investigated using thermogravimetric analysis (TGA) and powder X-ray diffractometry (PXRD), respectively",
+        "start_index": 4367,
+        "end_index": 4761
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Finally, the redox potential was measured to calculate the electronic band gap of doped PEDOT. Experimental details and the instrumentation can be found in the supporting information.",
+        "start_index": 4761,
+        "end_index": 4946
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "**Results and Discussions**\n\nEncouraged by our recent success in the synthesis of technologically important conjugated polymers (PMPyr and PMIn)\\textsuperscript{36}, we focused our attention to the synthesis of another important polymer, PEDOT, using the same methodology. UV-Vis changes of near-UV irradiated EDOT+PAB mixture in ethanol was checked in different time intervals. (Figure 1).",
+        "start_index": 4946,
+        "end_index": 5336
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "![Figure 1](image_url). UV-Vis changes of 1 mM EDOT and 1 mM PAB under 355 nm irradiation (solvent: EtOH).",
+        "start_index": 5336,
+        "end_index": 5442
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "After the observation of a clear absorption increase in the visible region, we decided to conduct the photopolymerization experiments using higher concentration of reactants. When PAB concentration is high (100 mM) it shows significant absorption in the visible region (Figure S1) allowing to switch/tune the irradiation wavelength.",
+        "start_index": 5442,
+        "end_index": 5774
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Doped PEDOT was prepared by mixing 105 \u03bcL of EDOT (1 mmol) and 200 mg of PAB (1 mmol) in 2 mL of EtOH inside a test tube which was irradiated inside a photoreactor equipped with 12 lamps emitting light nominally at 355 nm (~100mW/cm\u00b2) for near-UV experiment. For visible light experiment 100 mg of PAB (0",
+        "start_index": 5774,
+        "end_index": 6078
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ".5 mmol) was dissolved in 1 mL of EDOT under LEDs emitting at 405 nm (supplementary video 1) and for daylight photopolymerization 100 mM of EDOT was mixed with 100 mM of PAB in ethanol (EtOH) solution (supplementary video 2)",
+        "start_index": 6078,
+        "end_index": 6302
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". All the reactions \u2018color turned from light yellow to dark green-light black (Figure S2) in short time (1-7 min) depending on the concentrations of the reactants and the irradiation wavelength. Control experiments performed in dark showed no change in the color of the reaction.",
+        "start_index": 6302,
+        "end_index": 6581
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "In light of the previous laser-flash photolysis results obtained36-38, the photopolymerization of EDOT should proceed by successive cleavage of the excited triplet state of PAB under near-UV irradiation forming radical cation (polaron) of EDOT monomer which then couple with another radical cation of the monomer by releasing hydrobromic acid (HBr)",
+        "start_index": 6581,
+        "end_index": 6929
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". The newly formed dimer can also couple with another monomer or dimer to form polymeric species in a step-growth manner (Scheme 1).",
+        "start_index": 6929,
+        "end_index": 7061
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Scheme 1. Proposed mechanism for the photoinduced step-growth polymerization of EDOT.",
+        "start_index": 7061,
+        "end_index": 7146
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "All the polymers were washed with acetone and then Soxhlet-extracted twice using EtOH and tetrahydrofuran (THF) respectively. Some of the resulting doped PEDOT was dedoped by pouring into a hydrazine.monohydrate (N\u2082H\u2084):methanol mixture (v:v/ 10:1)",
+        "start_index": 7146,
+        "end_index": 7393
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". GPC of doped PEDOT synthesized under near-UV irradiation, showed traces belonging to polymers with average molecular weight (M\u2099) of 32.5 kg/mol and dispersity (D) of 1.35. Table S1 shows all the GPC results for doped PEDOTs produced under different wavelength.",
+        "start_index": 7393,
+        "end_index": 7655
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Although doped PEDOT was partially soluble in dimethylsulfoxide (DMSO), dimethylformamide (DMF) and THF, the dedoped PEDOT was not soluble in any organic solvent (Figure S3). The solubility of doped PEDOT can be attributed to the highly doped nature of the polymer causing electrostatic and inductive interactions between the ionic species (and above mentioned polar solvents",
+        "start_index": 7655,
+        "end_index": 8030
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Four-point electrical conductivity measurement was performed at room temperature using 1 mm thickness pellets of both doped and dedoped PEDOT (Figure S4). While doped PEDOT was highly conductive, (1.6 S/cm), the dedoped PEDOT was non-conductive (3 x 10^{-5} S/cm)",
+        "start_index": 8030,
+        "end_index": 8295
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". The conductivity of doped PEDOT can be attributed to the dopant ions (bromide), thus, non-conductivity of dedoped PEDOT is due to the removal of these dopant ions after the neutralization reaction with hydrazine monohydrate. UV-Vis-NIR (near-infrared) absorption and fluorescence spectra of doped PEDOT can be seen in Figure 2",
+        "start_index": 8295,
+        "end_index": 8623
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Due to the highly conjugated nature of the polymer and significant solubility in DMSO (inset photo on left), doped PEDOT has absorption in the NIR region. When excited at 355 nm it showed a strong white light photoluminescence (inset photo on right) even in diluted solution (Figure S5).",
+        "start_index": 8623,
+        "end_index": 8912
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "![Doped PEDOT: Soluble in DMSO, DMF and THF](image)\n\n**Figure 2.** (a) UV-VIS-NIR spectrum and (b) fluorescence emission spectra of doped PEDOT in DMSO. (inset photo on the left belongs to the doped PEDOT dissolved in DMSO and right photo shows the strong white light photoluminescence of doped PEDOT when excited at 355 nm).",
+        "start_index": 8912,
+        "end_index": 9237
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Figure 3 shows IR and NMR spectra of EDOT and doped PEDOT, respectively. In IR spectra, apart from the significant change in the fingerprint region, a clear broadening of the aliphatic C-H stretching peaks ~3000 cm^{-1} and disappearance of the aromatic C-H stretching peak ~3200 cm^{-1} indicate the successful polymerization of EDOT",
+        "start_index": 9237,
+        "end_index": 9571
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". In the comparison of NMR spectra of the monomer (EDOT) and doped PEDOT, the disappearance of the peaks in the aromatic region ~6.5 ppm and broadening of the aliphatic peaks also indicate the success of the photopolymerization reaction.",
+        "start_index": 9571,
+        "end_index": 9808
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Thermal stability of both doped and dedoped PEDOTs was probed using TGA under nitrogen atmosphere (Figure S6-S7). Doped PEDOT was thermally less stable than dedoped PEDOT due to the removal of dopant ions (bromine) during the heating process. However, both polymers showed high thermal stability (35% and 44% by weight left after 900\u00b0 C, respectively)",
+        "start_index": 9808,
+        "end_index": 10159
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Powder X-Ray diffractogram of both polymers were nearly identical and showed a highly amorphous nature due to the presence of high molecular weight polymers and lack of low molecular weight oligomers which have crystalline structures (Figure 4). The only peak at 24\u00b0 corresponding to a d-spacing of ~4.9 \u00c5 can be attributed to typical \u03c0\u2212\u03c0 stacking which contributes to the conductivity of doped PEDOT.",
+        "start_index": 10159,
+        "end_index": 10562
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "Finally, the redox potential of doped PEDOT was measured using cyclic voltammetry in order to calculate the band gap (Figure 5). The oxidation and reduction potentials of doped PEDOT were measured as -0.02 V and -1.52 V, respectively. The calculated electronic band gap (Formula S1) was 1.50 eV which is typical for high molecular weight PEDOTs",
+        "start_index": 10562,
+        "end_index": 10906
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Considering the UV-VIS-NIR absorption and the strong white light photoluminescence, the obtained doped PEDOT is a promising OPV material.",
+        "start_index": 10906,
+        "end_index": 11045
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "![Figure 5. Cyclic voltammogram of doped PEDOT.](image)\n\n**Conclusion**",
+        "start_index": 11045,
+        "end_index": 11116
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "To conclude, high molecular weight PEDOTs were photochemically synthesized using PAB as a single-component photoinitiator. This new method has several advantages; the irradiation wavelength can be switched depending on the PAB concentration, bulk photopolymerization is possible due to the solubility of PAB in EDOT, in high concentrations of PAB the photopolymerization reaction is very fast (supplementary video 2), PEDOT formed has high molecular weight and high conductivity",
+        "start_index": 11116,
+        "end_index": 11594
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". Moreover, the photopolymerization can be performed under mild reaction conditions (room temperature, air atmosphere, ethanol solvent/bulk). OPV applications of the high molecular weight PEDOT are ongoing.",
+        "start_index": 11594,
+        "end_index": 11800
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "**References**",
+        "start_index": 11800,
+        "end_index": 11814
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "1. Shirakawa, H.; Louis, E. J.; MacDiarmid, A. G.; Chiang, C. K.; Heeger, A. J., Synthesis of electrically conducting organic polymers: halogen derivatives of polyacetylene, (CH). *Journal of the Chemical Society, Chemical Communications* 1977, (16), 578-580.",
+        "start_index": 11814,
+        "end_index": 12073
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "2. K, N.; Rout, C. S., Conducting polymers: a comprehensive review on recent advances in synthesis, properties and applications. *RSC Advances* 2021, 11 (10), 5659-5697.",
+        "start_index": 12073,
+        "end_index": 12242
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "3. Das, T. K.; Prusty, S., Review on Conducting Polymers and Their Applications. *Polymer-Plastics Technology and Engineering* 2012, 51 (14), 1487-1500.",
+        "start_index": 12242,
+        "end_index": 12394
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "4. Nezakati, T.; Seifalian, A.; Tan, A.; Seifalian, A. M., Conductive Polymers: Opportunities and Challenges in Biomedical Applications. *Chemical Reviews* 2018, 118 (14), 6766-6843.",
+        "start_index": 12394,
+        "end_index": 12576
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "5. Harito, C.; Utari, L.; Putra, B. R.; Yuliarto, B.; Purwanto, S.; Zaidi, S. Z. J.; Bavykin, D. V.; Marken, F.; Walsh, F. C., Review\u2014The Development of Wearable Polymer-Based Sensors: Perspectives. *Journal of The Electrochemical Society* 2020, 167 (3), 037566.",
+        "start_index": 12576,
+        "end_index": 12838
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "6. Mokhtar, S. M. A.; Alvarez de Eulate, E.; Yamada, M.; Prow, T. W.; Evans, D. R., Conducting polymers in wearable devices. *MEDICAL DEVICES & SENSORS* 2021, 4 (1), e10160.",
+        "start_index": 12838,
+        "end_index": 13011
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "7. Lim, T.; Kim, Y.; Jeong, S. M.; Kim, C. H.; Kim, S. M.; Park, S. Y.; Yoon, M. H.; Ju, S., Human sweat monitoring using polymer-based fiber. *Sci Rep* 2019, 9 (1), 17294.",
+        "start_index": 13011,
+        "end_index": 13183
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "8. Lim, T.; Kim, Y.; Jeong, S.-M.; Kim, C.-H.; Kim, S.-M.; Park, S. Y.; Yoon, M.-H.; Ju, S., Human sweat monitoring using polymer-based fiber. *Scientific Reports* 2019, 9 (1), 17294.",
+        "start_index": 13183,
+        "end_index": 13366
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "9. Groenendaal, B. L.; Jonas, F.; Freitag, D.; Pielartzik, H.; Reynolds, J. R., PEDOT and its derivatives; past, present, and future. *Adv. Mater.* 2000, 7, 481-494.",
+        "start_index": 13366,
+        "end_index": 13531
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "10. Donahue, M. J.; Sanchez-Sanchez, A.; Inal, S.; Qu, J.; Owens, R. M.; Mecerreyes, D.; Malliaras, G. G.; Martin, D. C., Tailoring PEDOT properties for applications in bioelectronics. *Mater. Science and Engineering: R: Reports* 2020, 140, 100546.",
+        "start_index": 13531,
+        "end_index": 13779
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "11. Ren, X.; Yang, M.; Yang, T.; Xu, C.; Ye, Y.; Wu, X.; Zheng, X.; Wang, B.; Wan, Y.; Luo, Z., Highly Conductive PPy\u2013PEDOT:PSS Hybrid Hydrogel with Superior Biocompatibility for Bioelectronics Application. *ACS Applied Materials & Interfaces* 2021, 13 (21), 25374-25382.",
+        "start_index": 13779,
+        "end_index": 14050
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "12. Leal, J.; Jedrusik, N.; Shaner, S.; Boehler, C.; Asplund, M., SIROF stabilized PEDOT/PSS allows biocompatible and reversible direct current stimulation capable of driving electrotaxis in cells. *Biomaterials* 2021, 275, 120949.",
+        "start_index": 14050,
+        "end_index": 14281
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "13. Valtakari, D.; Liu, J.; Kumar, V.; Xu, C.; Toivakka, M.; Saarinen, J. J., Conductivity of PEDOT:PSS on Spin-Coated and Drop Cast Nanofibrillar Cellulose Thin Films. *Nanoscale Research Letters* 2015, 10 (1), 386.",
+        "start_index": 14281,
+        "end_index": 14497
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "14. Cook, J. H.; Al-Attar, H. A.; Monkman, A. P., Effect of PEDOT\u2013PSS resistivity and work function on PLED performance. *Organic Electronics* 2014, 15 (1), 245-250.",
+        "start_index": 14497,
+        "end_index": 14662
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "15. Howells, C. T.; Saylan, S.; Kim, H.; Marbou, K.; Aoyama, T.; Nakao, A.; Uchiyama, M.; Samuel, I. D. W.; Kim, D.-W.; Dahlem, M. S.; Andr\u00e9, P., Influence of perfluorinated ionomer in PEDOT:PSS on the rectification and degradation of organic photovoltaic cells",
+        "start_index": 14662,
+        "end_index": 14923
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". *Journal of Materials Chemistry A* 2018, 6 (33), 16012-16028.",
+        "start_index": 14923,
+        "end_index": 14986
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "16. Zhang, M.; Zhou, Q.; Chen, J.; Yu, X.; Huang, L.; Li, Y.; Li, C.; Shi, G., An ultrahigh-rate electrochemical capacitor based on solution-processed highly conductive PEDOT:PSS films for AC line-filtering. *Energy & Environmental Science* 2016, 9 (6), 2005-2010.",
+        "start_index": 14986,
+        "end_index": 15250
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "17. Tseghai, G. B.; Mengistie, D. A.; Malengier, B.; Fante, K. A.; Van Langenhove, L., PEDOT:PSS-Based Conductive Textiles and Their Applications. *Sensors* 2020, 20 (7), 1881.",
+        "start_index": 15250,
+        "end_index": 15426
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "18. Anastas, P. T.; Rodriguez, A.; de Winter, T. M.; Coish, P.; Zimmerman, J. B., A review of immobilization techniques to improve the stability and bioactivity of lysozyme. *Green Chemistry Letters and Reviews* 2021, 14 (2), 302-338.",
+        "start_index": 15426,
+        "end_index": 15660
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "19. Tom\u0161\u00edk, E.; Ivanko, I.; Svoboda, J.; \u0160ed\u011bnkov\u00e1, I.; Zhigunov, A.; Hrom\u00e1dkov\u00e1, J.; P\u00e1nek, J.; Luke\u0161ov\u00e1, M.; Velychkovsk\u00e1, N.; Janisov\u00e1, L., Method of Preparation of Soluble PEDOT: Self-Polymerization of EDOT without Oxidant at Room Temperature",
+        "start_index": 15660,
+        "end_index": 15906
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". *Macromolecular Chemistry and Physics* 2020, 221 (18), 2000219.",
+        "start_index": 15906,
+        "end_index": 15971
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "20. Aoki, H.; Saito, H.; Shimoyama, Y.; Kuwabara, J.; Yasuda, T.; Kanbara, T., Synthesis of Conjugated Polymers Containing Octafluorobiphenylene Unit via Pd-Catalyzed Cross-Dehydrogenative-Coupling Reaction. *ACS Macro Letters* 2018, 7 (1), 90-94.",
+        "start_index": 15971,
+        "end_index": 16218
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "21. Zhang, H.-H.; Xing, C.-H.; Hu, Q.-S.; Hong, K., Controlled Pd(0)/t-Bu3P-Catalyzed Suzuki Cross-Coupling Polymerization of AB-Type Monomers with ArPd(t-Bu3P)X or Pd2dba3/t-Bu3P/ArX as the Initiator",
+        "start_index": 16218,
+        "end_index": 16418
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": ". *Macromolecules* 2015, 48 (4), 967-978.",
+        "start_index": 16418,
+        "end_index": 16459
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "22. Ni, X.; Hu, X.; Zhou, S.; Bai, X.; Chen, P., Synthesis and microwave absorbing properties of poly(3,4-ethylenedioxythiophene) (PEDOT) microospheres. *Polymers for Advanced Technologies* 2011, 22, 532-537.",
+        "start_index": 16459,
+        "end_index": 16667
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "23. Nirmani, L. P. T.; Pary, F. F.; Nelson, T. L., Mechanochemical Suzuki polymerization for the synthesis of polyfluorenes. *Green Chemistry Letters and Reviews* 2022, 1-6.",
+        "start_index": 16667,
+        "end_index": 16840
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "24. Li, J.; Ma, Y., In-situ synthesis of transparent conductive PEDOT coating on PET foil by liquid phase depositional polymerization of EDOT. Synthetic Metals 2016, 217, 185-188.",
+        "start_index": 16840,
+        "end_index": 17019
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "25. Zhao, Q.; Jamal, R.; Zhang, L.; Wang, M.; Abdiryim, T., The structure and properties of PEDOT synthesized by template-free solution method. Nanoscale Research Letters 2014, 9 (1), 557.",
+        "start_index": 17019,
+        "end_index": 17207
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "26. Mantione, D.; Del Agua, I.; Sanchez-Sanchez, A.; Mecerreyes, D., Poly(3,4-ethylenedioxythiophene) (PEDOT) Derivatives: Innovative Conductive Polymers for Bioelectronics. Polymers 2017, 9 (8), 354.",
+        "start_index": 17207,
+        "end_index": 17407
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "27. Blum, C.; Bunke, D.; Hungsberg, M.; Roelofs, E.; Joas, A.; Joas, R.; Blepp, M.; Stolzenberg, H.-C., The concept of sustainable chemistry: Key drivers for the transition towards sustainable development. Sustainable Chemistry and Pharmacy 2017, 5, 94-104.",
+        "start_index": 17407,
+        "end_index": 17664
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "28. Tickner, J. A.; Simon, R. V.; Jacobs, M.; Pollard, L. D.; van Bergen, S. K., The nexus between alternatives assessment and green chemistry: supporting the development and adoption of safer chemicals. Green Chemistry Letters and Reviews 2021, 14 (1), 23-44.",
+        "start_index": 17664,
+        "end_index": 17924
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "29. Dichiarante, V.; Ravelli, D.; Albini, A., Green chemistry: state of the art through an analysis of the literature. Green Chemistry Letters and Reviews 2010, 3 (2), 105-113.",
+        "start_index": 17924,
+        "end_index": 18100
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "30. Kaya, K.; Yagci, Y., Contemporary Approaches for Conventional and Light-Mediated Synthesis of Conjugated Heteroaromatic Polymers. Macromolecular Chemistry and Physics 2021, 222 (24), 2100334.\n31. Yilmaz, G.; Yagci, Y., Light-induced step-growth polymerization. Progress in Polymer Science 2020, 100, 101178.",
+        "start_index": 18100,
+        "end_index": 18411
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "32. Dellago, B.; Ricke, A.; Geyer, T.; Liska, R.; Baudis, S., Photopolymerizable precursors for degradable biomaterials based on acetal moieties. European Polymer Journal 2021, 154, 110536.",
+        "start_index": 18411,
+        "end_index": 18600
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "33. Skliutas, E.; Lebedevaite, M.; Kabouraki, E.; Baldacchini, T.; Ostrauskaite, J.; Vamvakaki, M.; Farsari, M.; Juodkazis, S.; Malinauskas, M., Polymerization mechanisms initiated by spatio-temporally confined light. Nanophotonics 2021, 10 (4), 1211-1242.",
+        "start_index": 18600,
+        "end_index": 18856
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "34. Esen, C.; Antonietti, M.; Kumru, B., Oxidative Photopolymerization of 3,4-Ethylenedioxythiophene (EDOT) via Graphitic Carbon Nitride: A Modular Toolbox for Attaining PEDOT**. ChemPhotoChem 2021, 5 (9), 857-862.",
+        "start_index": 18856,
+        "end_index": 19070
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "35. Goubard, F.; Aubert, P.-H.; Boukerma, K.; Pauthe, E.; Chevrot, C., Elaboration of nanohybrid materials by photopolymerisation of 3,4-ethylenedioxythiophene on TiO2. Chemical Communications 2008, (27), 3139-3141.",
+        "start_index": 19070,
+        "end_index": 19285
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "36. Kocaarslan, A.; Yagci, Y.; Jockusch, S.; Kocaarslan, A., Phenacyl Bromide as a Single-Component Photoinitiator: Photoinduced Step-Growth Polymerization of N-Methylpyrrole and N-Methylindole. Angewandte Chemie International Edition 2022, 61 (36), e202208845.",
+        "start_index": 19285,
+        "end_index": 19546
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "37. McGimpsey, W. G.; Scaiano, J. C., Photochemistry of \u03b1-chloro- and \u03b1-bromoacetophenone. Determination of extinction coefficients for halogen\u2013benzene complexes. Canadian Journal of Chemistry 1988, 66 (6), 1474-1478.",
+        "start_index": 19546,
+        "end_index": 19763
+    },
+    {
+        "document_name": "81.txt",
+        "chunk_text": "38. Renaud, J.; Scaiano, J. C., Hydrogen vs. electron transfer mechanisms in the chain decomposition of phenacyl bromides. Use of isotopic labeling as a mechanistic probe. Canadian Journal of Chemistry 1996, 74 (9), 1724-1730.",
+        "start_index": 19763,
+        "end_index": 19989
+    }
+]

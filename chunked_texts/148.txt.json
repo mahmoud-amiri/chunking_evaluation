@@ -1,0 +1,980 @@
+[
+    {
+        "document_name": "148.txt",
+        "chunk_text": "(Semi-) Automatic Review Process for Common Compound Characterization Data in Organic Synthesis",
+        "start_index": 0,
+        "end_index": 95
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Yu-Chieh Huang\\textsuperscript{a}, Pierre Tremouilhac\\textsuperscript{a}, Stefan Kuhn\\textsuperscript{c}, Pei-chi Huang\\textsuperscript{a}, Chia-Lin Lin\\textsuperscript{a}, Nils Schl\u00f6\u00dfer\\textsuperscript{e}, Oskar Taubert\\textsuperscript{d}, Markus",
+        "start_index": 95,
+        "end_index": 342
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "G\u00f6tz\\textsuperscript{d,f}, Nicole Jung\\textsuperscript{a,b}, Stefan Br\u00e4se\\textsuperscript{a,b}",
+        "start_index": 342,
+        "end_index": 436
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Email: jasonych99@gmail.com; pierre.tremouilhac@kit.edu; stefan.kuhn@ut.ee; pei-chi.huang@kit.edu; chia-lin.lin@kit.edu; nils.schloerer@uni-jena.de; oskar.taubert@csc.fi; markus.goetz@kit.edu; nicole.jung@kit.edu; stefan.braese@kit.edu",
+        "start_index": 436,
+        "end_index": 671
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "\\textsuperscript{a}Institute of Biological and Chemical Systems (IBCS-FMS), Karlsruhe Institute of Technology, Kaiserstra\u00dfe 12, 76131 Karlsruhe Germany; \\textsuperscript{b}Institute of Organic Chemistry, Karlsruhe Institute of Technology, Kaiserstra\u00dfe 12, 76131 Karlsruhe, Germany; \\textsuperscript{c}University of Tartu, Institute of Computer Science, Narva mnt 18,",
+        "start_index": 671,
+        "end_index": 1037
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "51009 Tartu, Tartumaa, Estonia; \\textsuperscript{d}Scientific Computing Center (SCC), Karlsruhe Institute of Technology, Kaiserstra\u00dfe 12, 76131 Karlsruhe, Germany; \\textsuperscript{e}Faculty of Chemistry and Earth Sciences, NMR platform, Humboldtstra\u00dfe 10, 07743 Jena, Germany; \\textsuperscript{f}Helmholtz AI, Germany",
+        "start_index": 1037,
+        "end_index": 1355
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ".",
+        "start_index": 1355,
+        "end_index": 1356
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "ABSTRACT",
+        "start_index": 1356,
+        "end_index": 1364
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "A method for data review in chemical sciences with a focus on data for the characterization of synthetic molecules is described. As current procedures for data curation in chemistry rely almost exclusively on manual checking or peer reviewing, a (semi-)automatic procedure for the evaluation",
+        "start_index": 1364,
+        "end_index": 1655
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "of data assigned to molecular structures is proposed and demonstrated. The information usually required for the identification of isolated compounds is used to clarify whether the data is complete with respect to the available data types and metadata, if it is consistent with the proposed structure and if it is plausible in comparison to simulated data. Spectra prediction and automatic signal comparison are applied to NMR evaluation, mass spectrometry data are evaluated by signal extraction, and machine learning is used for IR analysis",
+        "start_index": 1655,
+        "end_index": 2196
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The proposed protocol shows how an integration of different tools for data analysis can help to overcome the challenges of the currently purely manual reviewing and curation efforts for data in synthetic chemistry.",
+        "start_index": 2196,
+        "end_index": 2412
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Keywords:** data curation, repositories, electronic lab notebooks, chemistry data, analytics\n\n**INTRODUCTION**",
+        "start_index": 2412,
+        "end_index": 2524
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Research data play an essential role in all scientific disciplines as evidence of the research results is obtained. In chemistry, as in many other experimental disciplines, measurement data are particularly important. Their storage, preservation, and reuse can be facilitated either by electronic laboratory journals, databases, and institutional or non-institutional repositories. In any case, when dealing with research data, the question arises as to how the data provided can be curated to ensure compliance with either formal or content-related needs",
+        "start_index": 2524,
+        "end_index": 3079
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". While formal requirements can usually be demanded or even enforced quite easily, checking the content of research data is a major challenge. Reasons for this are, firstly, the complexity of the research and the accompanying diversity of research data and their analyses and, secondly, the lack of standardisation and open data formats in many areas. Therefore, currently, the formal curation and content review of most of the research data \u2013 if carried out at all \u2013 is based on manual peer-reviewing. Only some established",
+        "start_index": 3079,
+        "end_index": 3603
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "infrastructures such as the Cambridge Crystallographic Data Centre (CCDC)\\textsuperscript{1} were able to implement suitable processes for an automated evaluation of research data, which allow for the efficient and automatic review of thousands of crystal structures for the Crystal Structure Database (CSD) per year\\textsuperscript{2,3}",
+        "start_index": 3603,
+        "end_index": 3940
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". In the future, a significant increase in the utilisation of repositories and databases can be anticipated due to an increased obligation by publishers\\textsuperscript{4,5,6,7} and funding organisations\\textsuperscript{8,9,10,11,12} to preserve and provide access to research data. Review and curation mechanisms could also provide valuable assistance for other services than repositories",
+        "start_index": 3940,
+        "end_index": 4329
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". For example, the software solutions used by researchers for documentation, above all electronic laboratory journals, could benefit from support through automatic review mechanisms.",
+        "start_index": 4329,
+        "end_index": 4511
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "In the past, various algorithms, models, software tools, and web-services have been described that can be used for efficient, (partially) automated processing and curation of data in the discipline of synthetic chemistry. The necessary input for those systems is generally the chemical structure in combination with either the data file or the textual description (hereinafter referred to as named \u201canalysis\u201d) of the measurement. For NMR measurements of organic molecules, there are several established rule-based systems available",
+        "start_index": 4511,
+        "end_index": 5042
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". nmrshiftdb\\textsuperscript{2} offers a web service that can be used to compare NMR shifts of experimentally gained $^1\\text{H}$ NMR and $^{13}\\text{C}$ NMR data with chemical shifts that are simulated based on the chemical structure of the expected molecule",
+        "start_index": 5042,
+        "end_index": 5301
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ".\\textsuperscript{13,14} Other examples for software and services that can aid curation efforts for NMR data are CSEARCH\\textsuperscript{15}, so-called CASE software (computer-aided structure elucidation)\\textsuperscript{16} such as seneca\\textsuperscript{17} or LSD\\textsuperscript{18}, CASPER\\textsuperscript{19,20} (computer-assisted spectrum evaluation of regular",
+        "start_index": 5301,
+        "end_index": 5668
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "polysaccharides) or the compound-class agnostic tool \u201cAsk Ern\u0151\u201d\\textsuperscript{21}",
+        "start_index": 5668,
+        "end_index": 5751
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". ML techniques have been applied to NMR signal processing, prediction, and structure verification.\\textsuperscript{22,23} Several approaches use DFT-computed data as input for the training of (deep) neural networks gaining suitable models to predict $^{13}\\text{C}$ NMR shifts to e.g.",
+        "start_index": 5751,
+        "end_index": 6036
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "identify, structural mis-assignments of organic compounds. Other work with neural networks has accelerated the development of suitable simulation methods for $^1$H NMR and $^{13}$C NMR-based shifts extracted from experimental data in the last years. For the simulation of IR spectroscopic data, DFT calculations can be used for specific scientific challenges and general approaches were described in previous work. However, several ML approaches for the simulation of IR-vibrational data were also reported",
+        "start_index": 6036,
+        "end_index": 6542
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Also web services were built to facilitate the comparison of experimental IR data with previously reported data and the analysis of given spectra and the prediction of spectra from a given structure.",
+        "start_index": 6542,
+        "end_index": 6743
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "RESULTS AND DISCUSSION",
+        "start_index": 6743,
+        "end_index": 6765
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "For a review of research data, various types of information can be taken into account. Measurement data consist primarily of (a) data files such as spectroscopic data from devices including data and metadata, (b) additional associated metadata and descriptions such as the structure of the measured substance or the measurement parameters, and (c) the interpretation of the data of the measured samples in textual form (analysis)",
+        "start_index": 6765,
+        "end_index": 7194
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Special options result from the chemical structure, which enable the calculation or prediction/simulation of characteristic parameters for a measured substance (Figure 1). The systematic description of the types of information (a) - (c) shown in Figure 1 can be transferred to a wide variety of measurement data. For the characterisation of substances in synthetic organic chemistry, these are NMR spectroscopy, mass spectrometry, IR or UV-Vis spectroscopy data, elemental analysis, and several others.",
+        "start_index": 7194,
+        "end_index": 7698
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Figure 1. Typical NMR information for the characterization of molecules. The characterisation is gained through several measurements each consisting of a data file, metadata, and an analysis. Based on the information in the metadata, additional information can be gained by calculations and predictions.",
+        "start_index": 7698,
+        "end_index": 8001
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The process described here uses the most frequently described data types belonging to the standard techniques for the characterisation of organic compounds - which are $^1$H NMR, $^{13}$C NMR, IR spectroscopy, and mass spectrometry.",
+        "start_index": 8001,
+        "end_index": 8233
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The implementation of the proposed process was carried out in the Chemotion ELN (ELN = Electronic Lab Notebook)\\textsuperscript{48} as well as the Chemotion repository\\textsuperscript{49}\\textsuperscript{50}. The systems were chosen to evaluate different use cases for semi-automated data curation. The implementation of the process within the Chemotion ELN offers data curation features in the form of recommendations for scientists which may prevent errors",
+        "start_index": 8233,
+        "end_index": 8691
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The implementation in the Chemotion repository can serve as a recommender for data providers and as a curation tool for reviewers.",
+        "start_index": 8691,
+        "end_index": 8823
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Depending on how detailed research data are to be curated, our processes define three levels: Level 1 summarises the methods that perform a check of data files, metadata, and analyses without further information (\u201eone-dimensional evaluation\u201c), level 2 consists of comparisons of data with calculated or simulated data (\u201etwo-dimensional evaluation\u201c), and level 3 combines the results of level 1 and level 2.",
+        "start_index": 8823,
+        "end_index": 9229
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Data Availability checks within Level 1**",
+        "start_index": 9229,
+        "end_index": 9272
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The procedure for checking data within level 1 consists of the check of data for their availability, meaning the existence of a data file, its readability/processability and standardisation (Figure 2). Further, the availability of a machine-readable chemical structure is checked. The machine-readable chemical structure can be considered as additional metadata. The availability of analyses is approved by the presence of textual descriptions for the different measurement types",
+        "start_index": 9272,
+        "end_index": 9751
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". For the mandatory additional metadata as well as the analyses, no further checks of readability and standardisation are necessary as the input options of the Chemotion systems enforce the support of the desired standards.",
+        "start_index": 9751,
+        "end_index": 9974
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Data consistency and plausibility: Level 2 evaluation**",
+        "start_index": 9974,
+        "end_index": 10031
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Level 2 (\u201etwo-dimensional evaluation\u201c) requires additional information from calculated or simulated data to be used for comparisons. Typical examples are consistency checks with calculated data or plausibility checks using simulated data. In both cases, the information obtained from data files and analyses is compared to theoretical information gained from the chemical structure (Figure 2)",
+        "start_index": 10031,
+        "end_index": 10423
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". To test the plausibility, the information obtained from the data files in the form of data points or signals is compared with the simulated data points or signals and evaluated while considering the tolerances specific to the data type. In this work, NMR and IR data are utilised for a plausibility analysis (see descriptions in the section plausibility). The consistency of",
+        "start_index": 10423,
+        "end_index": 10799
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "the data is reviewed by comparing the data files or the data analyses with calculations that are available based on the chemical structure. Methods for NMR and mass data can be proposed to confirm the consistency of the data (see descriptions in the section consistency).",
+        "start_index": 10799,
+        "end_index": 11070
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Data Consistency as part of Level 2 evaluation**",
+        "start_index": 11070,
+        "end_index": 11120
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "In our approach, data consistency is checked for the analytical data from $^1$H NMR, $^{13}$C NMR spectroscopy and mass spectrometry completely automatically. The analytical interpretation (analysis) given by the data creator is compared with the information from automatically processed molecular structures by cheminformatics tools (cheminformatics toolkits used in this work are described in the SI)",
+        "start_index": 11120,
+        "end_index": 11522
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". For $^1$H NMR and $^{13}$C NMR data, the signal interpretation (analysis), either extracted from data files or added manually by the scientists, is parsed to determine the total number of atoms that are referenced and the number is then compared with the molecular formula of the proposed structure (option 2, Figure 2)",
+        "start_index": 11522,
+        "end_index": 11843
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Regarding mass spectrometry data, the data file of the mass spectrum is checked for consistency with the expected values calculated for a specific target structure. Those procedures based on data file approval require some effort as the data may consist of diverse scans belonging to the same measurement",
+        "start_index": 11843,
+        "end_index": 12149
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". In the process proposed here, we established a protocol to search in all scans of one measurement for the exact mass-to-charge ratio and alternatively for the exact mass +1, +23, and +39, due to proton, sodium, and potassium adduct formation",
+        "start_index": 12149,
+        "end_index": 12392
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". As an additional method of ensuring consistency, the list of identified mass peaks given in the analytical information is checked for values that correspond to the exact mass of the target molecule or possible combinations thereof (option 3, Figure 2). Here again, the verification process also includes the comparison with values that correspond to the exact mass of the target molecule or combinations with the most common species derived from the molecules\u2019 exact mass (see supporting information for details) (option 4, Figure 2)",
+        "start_index": 12392,
+        "end_index": 12927
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ".",
+        "start_index": 12927,
+        "end_index": 12928
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Figure 2. Aspects covered by the \u201cone-dimensional\u201d (left) two-dimensional (right) evaluation of data files. Level 1 includes basic checks for data, metadata and analysis for each type of measurement. Dark blue/yellow/green = good coverage, light blue/yellow/green = only partly covered due to missing standardisation or not full coverage of all information by distinct standards",
+        "start_index": 12928,
+        "end_index": 13306
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Level 2 includes the evaluation of data files and analyses for consistency and plausibility with calculations and simulations resulting from the chemical structure. Green squares = evaluation is part of this work, white square = evaluation is not included. Numbers 1-5 refer to the options described in the main text.",
+        "start_index": 13306,
+        "end_index": 13625
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Data Plausibility as part of Level 2 evaluation",
+        "start_index": 13625,
+        "end_index": 13672
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "In our work, testing plausibility relies on different, analytical method-specific models to predict the properties of molecules and their spectroscopic characteristics for NMR and IR spectroscopy. To check the plausibility of NMR spectroscopic data, the data files of $^1$H NMR and $^{13}$C NMR...",
+        "start_index": 13672,
+        "end_index": 13969
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "measurements are processed via the software ChemSpectra and analysed using the QuickCheck service from nmrshiftdb2 (option 1, Figure 2). The process differs for $^1$H NMR data and $^{13}$C NMR data as preparation of $^1$H NMR data as well as its analysis is more complex than the preparation and analysis of $^{13}$C NMR data",
+        "start_index": 13969,
+        "end_index": 14294
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". In our model, $^1$H NMR spectra to be curated must be manually annotated with regards to multiplicity assignment, and signals not belonging to the expected molecule (such as solvents and impurities) have to be removed. For $^{13}$C NMR data, a process has been implemented, which allows for the automatic selection of signals from a given NMR data file (for a detailed description of the process and its limitations, see supporting information Chapter 2)",
+        "start_index": 14294,
+        "end_index": 14750
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The shifts of all manually and automatically selected signals from $^1$H NMR and $^{13}$C NMR data are then compared to the shifts that can be predicted for the expected molecule by the service from nmrshiftdb2. Depending on the difference between the experimentally found and the simulated shift, a status of \u201caccept\u201d, \u201cwarning\u201d or \u201creject\u201d is assigned to each shift (Figure 3)",
+        "start_index": 14750,
+        "end_index": 15130
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The evaluation routine enables the manual correction of those results as the simulated data may contain errors or might not be as precise as necessary for the included tolerances.",
+        "start_index": 15130,
+        "end_index": 15311
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Figure 3. Description of $^1$H NMR plausibility checks for level 2 with the use of $^1$H NMR data files in combination with the chemical structure of a chemical compound",
+        "start_index": 15311,
+        "end_index": 15480
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". After multiplicity detection for the relevant signals, the web services of nmrshiftdb2 are used to simulate the expected chemical shifts for a selected chemical structure and to add a quick interpretation of the fitness of the experimentally found (real) to the simulated shifts (predicted).",
+        "start_index": 15480,
+        "end_index": 15773
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Plausibility checks for infrared spectroscopy check if those functional groups, which are part of the chemical target structure, can be identified in a provided IR spectrum (option 5, Figure 2). Our evaluation process utilises available cheminformatics toolkits such as nmrglue$^{52}$, rdkit$^{53}$ and functional group finder (IFG)$^{54}$ in combination with an ML model",
+        "start_index": 15773,
+        "end_index": 16144
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The implemented model adopts convolutional neural networks to recognise the presence of functional groups from the full spectrum profile, not discrete peaks. This method is data-driven without pre-encoded rules (see also results section). The trained model is used to estimate whether IR data files contain the signals expected due to the functional groups of the corresponding chemical structure. A detailed description of the methods and results for the implementation of the model is given in the Supporting Information (starting with Chapter 4)",
+        "start_index": 16144,
+        "end_index": 16694
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Based on this model, the functional groups of the molecules to be curated are extracted from the given Molfile, and spectroscopic data points are extracted and preprocessed using the IR JCAMP-DX file. For each functional group that is expected, the outcome of the ML model in the form of the probability (does the spectrum reveal the presence of a functional group?) as well as the typical confidence of the model with respect to the functional group (referring to the test data) is given",
+        "start_index": 16694,
+        "end_index": 17184
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Based on a combination of these two indicators, an assessment of the matching of experimental and predicted data as an indicator for the plausibility of the data is made (Figure 4).",
+        "start_index": 17184,
+        "end_index": 17367
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Figure 4. Schematic description of the evaluation process of IR data to determine the plausibility of the data. The chemical structure of a compound is used to extract the included functional groups. Depending on the confidence of the model for a certain functional group and the machine\u2019s result, the curator can follow the evaluation or adapt the outcome manually.",
+        "start_index": 17367,
+        "end_index": 17733
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Final evaluation in Level 3",
+        "start_index": 17733,
+        "end_index": 17760
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "After passing level 1 and level 2 evaluations, our process combines the results from the various techniques of both levels in a level 3. For a level 3 evaluation, the individual results from the analytical techniques are weighted according to their significance (for the characterisation of a compound) and prediction accuracy (according to known strengths and weaknesses of a specific evaluation method)",
+        "start_index": 17760,
+        "end_index": 18164
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Level 3 gives the result of the evaluation as a combination of readability, consistency, and plausibility and is used for an estimation if the provided data are trustworthy and coherent, aiming in particular to evaluate if the proposed chemical structures match the recorded experimental data. An example of a level 3 evaluation was obtained in the Chemotion systems ELN and repository and is depicted in Figure 5",
+        "start_index": 18164,
+        "end_index": 18579
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". A first overview of all results is gained via the summary of all 1st and 2nd level results. The summary is presented in three main categories referred to as \u201cdata availability\u201d, \u201cdata evaluation\u201d and \u201canalysis check\u201d. Each category includes various aspects of the evaluation processes of level 1 and level 2, facilitating the review of the provided data with a different focus",
+        "start_index": 18579,
+        "end_index": 18957
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The availability of data files, metadata and analysis is a prerequisite for the overall process and is implemented as mandatory information to be given during the",
+        "start_index": 18957,
+        "end_index": 19121
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "provision of the data. Therefore, the availability of data files, metadata and analysis is implicitly included in all review categories and not listed separately. The category \u201cdata availability\u201d summarises the availability, readability/processability as well as openness/standardisation of the provided data files. The category \u201cdata evaluation\u201d covers the results of the consistency and plausibility checks that were done based on the data files that were provided",
+        "start_index": 19121,
+        "end_index": 19587
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". As these results were gained based on the chemical structure and other metadata as necessary information, this category also includes the indirect check of the most important metadata availability and its standardisation.",
+        "start_index": 19587,
+        "end_index": 19810
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The category \u201canalysis check\u201d summarises the results that are obtained from comparing the provided data with calculated data. The results of the review are given as a colour code with green = passed, red = not passed, black = not available/processable and grey = not reviewed (Figure 5).",
+        "start_index": 19810,
+        "end_index": 20097
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "For the categories \u201cdata availability\u201d and \u201canalysis check\u201d the colour code is a direct result of the evaluation results, as the outcome of the evaluation is a clear true or false indication. For the category \u201cdata evaluation\u201d, a small tolerance is included for simulation-based plausibility evaluation. This should reflect that simulations may contain several weaknesses (e.g",
+        "start_index": 20097,
+        "end_index": 20473
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". imprecise prediction of chemical shifts in NMR spectroscopy) and do not cover all aspects of necessary information (missing confidence for functional group prediction in IR simulation). The contributing aspects for a decision on the colour-coded review are available via a summary of the most important facts on which the result is based",
+        "start_index": 20473,
+        "end_index": 20812
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The details also include information on the differences between expected and obtained results and, for transparency reasons, the corrections that were made by humans to revise the weaknesses of the simulation models if there are any (Figure 5B).",
+        "start_index": 20812,
+        "end_index": 21059
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Figure 5. A. Schematic descriptions of the dependencies of the level 3 review on the outcome of level 1 and level 2 evaluations. Arrows in different colours indicate the influence of distinct level 1 and 2 evaluations on different review categories in level 3. Summary and weighting are described as a one number indication, considering the results from all types of measurements (NMR, Mass, and IR, for details of the process, see supplemental information). B",
+        "start_index": 21059,
+        "end_index": 21519
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Example for a typical level 2 evaluation of 1H NMR data in detail. The consistency check refers to the comparison of counted protons in the textual interpretation (analysis) with the calculated number of protons according to the chemical structure. The plausibility check includes the prediction of shifts for the chemical structure (with the service of nmrshiftdb2) and the comparison to the real values as extracted from the NMR data files",
+        "start_index": 21519,
+        "end_index": 21962
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The example results in 10/11 correctly assigned shifts, one shift needs manual review by the curator.",
+        "start_index": 21962,
+        "end_index": 22065
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "For a review of data at a glance, the evaluation results \u2013 including all aspects of each analysis method \u2013 are reflected in one number ranging from -4 points (missing and probably false or contradictory information) to 10 points (data files, metadata, and analysis in full accordance with the expected outcome). This number should give a clear indication of the coherence of a dataset to be used for reviewing purposes but should also serve as a general indicator for comparing the quality of different datasets",
+        "start_index": 22065,
+        "end_index": 22576
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". To obtain a meaningful indicator, the results from the data tests are weighted, i.e. depending on the significance, informative value of the individual measurement method, and the accuracy of fit or susceptibility to the error of the respective test method, the individual evaluations from levels 1 and 2 are included to a different extent in the final evaluation",
+        "start_index": 22576,
+        "end_index": 22941
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The rules that define the evaluation of the individual aspects and their weighting are proposed in this work as a possible catalogue that enables the evaluation of data for substance characterisation in organic chemistry. The catalogue of rules used to evaluate data according to the work discussed here is described in more detail in the Supporting Information. It includes similar principles that are also important in the evaluation of data by a peer review",
+        "start_index": 22941,
+        "end_index": 23403
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". $^1$H NMR data are somewhat more difficult to incorporate into an automated workflow and the simulations are usually more complex, so $^1$H NMR simulations are weighted less highly. The accuracy of the fit of the IR simulations to the experimental data is also given little weight in the evaluation.",
+        "start_index": 23403,
+        "end_index": 23704
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Options to automate the curation processes**",
+        "start_index": 23704,
+        "end_index": 23750
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The usefulness of the described system depends on a meaningful outcome but also on the effort that has to be invested to achieve the intended outcome. A low reviewing effort compared to a traditional review of data is a key requirement to partly replace the current processes in research data repositories or other management systems for research data. Consequently, concepts to",
+        "start_index": 23750,
+        "end_index": 24128
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "automate the described curation processes were integrated for all suitable types of measurements and data. According to our findings, all evaluated data types are generally suitable for automated curation with respect to data availability, readability, standardisation, consistency, and plausibility with limitations particularly for the curation with respect to $^1$H NMR plausibility",
+        "start_index": 24128,
+        "end_index": 24513
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". For the latter, the system requires the support of the reviewer in those cases where multiplicity selection and integration are missing (Figure 6). This limitation referring to $^1$H NMR spectra is due to the complexity of including overlapping signals which make a standardised and automated analysis hard to achieve.",
+        "start_index": 24513,
+        "end_index": 24833
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "![Figure 6](https://doi.org/10.26434/chemrxiv-2024-1r9tb-v2 ORCID: https://orcid.org/0000-0001-9513-2468 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0)\n\n**Figure 6.** Evaluation processes and their degree of recommended automation for the different measurements included in the review process.",
+        "start_index": 24833,
+        "end_index": 25138
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Evaluation by testing and approval of the process in the Chemotion repository**",
+        "start_index": 25138,
+        "end_index": 25219
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "For an evaluation of the implemented processes, 110 exemplarily taken datasets published in the Chemotion repository by the scientists who synthesised the compounds were curated according to the processes described in the chapter implementation. The outcome of this half-automated curation was then evaluated by human curators. All exemplarily used datasets consist of",
+        "start_index": 25219,
+        "end_index": 25587
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "spectroscopic data of organic molecules, for which $^1$H NMR, $^{13}$C NMR, mass and IR data are available in a machine-readable format",
+        "start_index": 25587,
+        "end_index": 25722
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Datasets with obvious errors such as missing signals that are already indicated by the data provider or datasets belonging to structures that cannot be evaluated due to the absence of prediction tools, such as organometallic compounds, were excluded from the chosen exemplarily dataset (see SI Chapter 7 (3) for further details). After the preparative steps to be done by the curator (see SI part 6.1), a first scoring can be obtained, giving information on the suitability of the model",
+        "start_index": 25722,
+        "end_index": 26210
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Scores 10 and 9 can be reached, if all data are consistent and plausible (within the accepted tolerance range, e.g. for NMR spectroscopy shifts). Score 10 can be gained if there is no difference in the data with respect to the plausibility and consistency checks, score 9 can be reached for the same with the exception of IR data mismatch",
+        "start_index": 26210,
+        "end_index": 26550
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". In every case where the data score did not reach 9 or 10 immediately, the curator examined the $^1$H NMR and $^{13}$C NMR data in detail to determine if the data\u2019s variations from the simulation were acceptable or if there were other justifications for the correction of the evaluation result by the human curator.",
+        "start_index": 26550,
+        "end_index": 26866
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "From the 110 datasets (further referred to as full dataset, Figure 8, a), we identified 18 examples in the dataset for which $^1$H and/or $^{13}$C predictions were not possible because the detected number of signals did not correspond to the number of simulated ones, therefore, the NMR plausibility check was not possible (further information in SI, Chapter 6.2)",
+        "start_index": 26866,
+        "end_index": 27229
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Removing these data from the evaluation routine gave a dataset of 92 examples (Figure 8, b). We found that 27 examples that correspond to 29% of the data were evaluated as fully consistent without human curation (assuming that mismatch of IR simulation data is tolerated, Figure 8, c)",
+        "start_index": 27229,
+        "end_index": 27515
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". For a further 18 datasets, only minor differences (one signal in $^1$H NMR or $^{13}$C NMR outside the tolerance, no difference in IR and mass) were found (Figure 8, e). The experience of the curation reveals that minor differences of the real data to the simulated data, in particular $^1$H NMR and $^{13}$C NMR data can be",
+        "start_index": 27515,
+        "end_index": 27841
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "tolerated and, therefore, an automated process assigning high scores also to data with minor differences can still be suitable to automatically differentiate consistent data from data that needs to be checked again for further clarification. For those examples, a future version of the routine could assign a score of 9 or 10 automatically - which would increase the suitability results according to an automated process to 49% (Figure 8, g)",
+        "start_index": 27841,
+        "end_index": 28282
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Another 47 datasets (Figure 8, f) were found to have more than one mismatch in the NMR evaluation which could be clarified by examining the distinct NMR shifts in 40 of the given cases (Figure 8, f). The check of those examples with more than one non-fitting shift in the NMR data comparison can be considered a quick check",
+        "start_index": 28282,
+        "end_index": 28607
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". After the quick check, 85 datasets (92%) were scored with 9 or 10 (Figure 8, j). Nine remaining submissions did not fit well to the expected outcome (less than score 10 or 9 after the review of the 47 examples) and the differences of calculation/prediction to the obtained data was too large to be tolerated with a quick check of the data (Figure 8, i)",
+        "start_index": 28607,
+        "end_index": 28961
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". This data was considered to be potentially wrong and required further investigation. Out of these, 7 compounds were found to be correct - they were false negative results of the curation process (Figure 8, k) and two out of nine datasets with a score from 0-7 were found to have incorrect structures assigned to the dataset. These results show that the model used is also capable of identifying errors in the assignment of data to structures (see SI Chapter 6",
+        "start_index": 28961,
+        "end_index": 29422
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ".3 for further information).",
+        "start_index": 29422,
+        "end_index": 29450
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**Figure 8.** Outcome of the investigation of 110 datasets submitted to the Chemotion repository of which 92 could be used for half-automated curation. The effort that needed to be invested to curate the datasets was recorded for different levels of time investment. Green = number of datasets that passed the process. Yellow numbers (9 and 2 in i and l) = evaluation result before repetition of the evaluation with the corrected structures",
+        "start_index": 29450,
+        "end_index": 29890
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Detailed information on the numbers is available in SI Part 2.",
+        "start_index": 29890,
+        "end_index": 29954
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**CONCLUSION**",
+        "start_index": 29954,
+        "end_index": 29968
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The presented concept shows a powerful method to support either scientists in their daily work or reviewers\u2019 work on the curation of data in the field of organic chemistry. The curation process uses a combination of different tools to check the coherence of experimental data with simulated and calculated data gained from different cheminformatics tools",
+        "start_index": 29968,
+        "end_index": 30322
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". It includes the analyses of $^1$H NMR, $^{13}$C NMR spectroscopy, mass spectrometry and IR spectroscopy data and a combination of the evaluation results by weighting their importance. The developed curation process was",
+        "start_index": 30322,
+        "end_index": 30542
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "implemented in the ELN Chemotion and in the Chemotion repository to investigate the potential benefit for scientists in their daily work and for data reviewers. We evaluated the datasets of 110 chemical compounds provided by scientists who produced the data for publication purposes. The performance of the curation routine was described for the curator\u2019s work in general and further options to partially automate the curation routine by non-manual review processes",
+        "start_index": 30542,
+        "end_index": 31007
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". Without the additional curation of the reviewers, 49% of the data could be evaluated. With additional support from the curators, 92% of the data passed the evaluation, indicating a match between the data and the proposed structures. For those examples, the curation process was accelerated compared to pure manual curation. The curation process improved the review for well-fitting data and enabled quick identification of datasets requiring a detailed review due to mismatching results",
+        "start_index": 31007,
+        "end_index": 31495
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". The model was shown to be suitable to identify datasets with errors, which were demonstrated by two examples where an unusual tautomer was assigned to the data. While the described processes facilitate the work of a data curator already in the current version, forthcoming improvements of simulation tools, particularly for NMR and IR data, could facilitate the process to a point where most of the data can be curated automatically.",
+        "start_index": 31495,
+        "end_index": 31930
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "**ABBREVIATIONS**\n\nELN, Electronic Laboratory Notebook; NMR, nuclear magnetic resonance; IR, infrared; DB, database; UI, User Interface; ML, Machine Learning.\nDeclarations\n\n*Ethics approval and consent to participate*\n\nNot applicable\n\n*Consent for publication*\n\nNot applicable\n\n*Availability of data and material*",
+        "start_index": 31930,
+        "end_index": 32243
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The implementation of the work described above for levels 1-3 was achieved in the Chemotion ELN\\textsuperscript{55} and the Chemotion repository\\textsuperscript{56}. Both systems provide the necessary structure of elements as data input. The deep learning method for IR prediction was developed as an independent project and is available on github\\textsuperscript{57} and references on Zenodo.\\textsuperscript{58}",
+        "start_index": 32243,
+        "end_index": 32656
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The SI contains a summary of all results of the curation process as a screenshot of the obtained scoring (SI Part 1) and a summary of the results as a spreadsheet (SI Part 2). Data that were used for the evaluation of the herein described model is freely available via the Chemotion repository. The DOIs to access the data are available in the supplemental Information (SI Part 2). The curation results can be directly accessed via these links.\n\n*Competing interests*",
+        "start_index": 32656,
+        "end_index": 33123
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "The authors declare no competing interests.\n\n*Funding*\n\nThis project has been funded by the German Research Foundation (Deutsche Forschungsgemeinschaft, BR1750/34-1) and the Helmholtz research area Information (projects VirtMat P10, P11, P14).\nAuthors\u2019 contributions",
+        "start_index": 33123,
+        "end_index": 33389
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "YCH designed, developed, and implemented the main architecture of the curation tool and developed the IR prediction ML model. PT, PCH, and CLL supported the embedding of the required features into the systems Chemotion ELN and Chemotion repository and adapted/maintained the work since the early developments. SK and NS supported the integration of the nmrshiftdb2 service and provided necessary adaptations. OT and MG supported the development of the ML model to predict IR data",
+        "start_index": 33389,
+        "end_index": 33868
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". NJ and SB contributed to the conceptual work of this project and contributed by writing the manuscript. All authors edited the manuscript.",
+        "start_index": 33868,
+        "end_index": 34008
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 34008,
+        "end_index": 34024
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "This work was supported by the Helmholtz research field Information. We are very thankful for the support of KNMFi for hosting Chemotion at KIT and the members of the Stefan Br\u00e4se group who contributed with manifold suggestions to an ongoing improvement of the ELN. This work has benefited from the National Research Data Infrastructure for Chemistry (NFDI4Chem, project number: 441958208)",
+        "start_index": 34024,
+        "end_index": 34413
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". We are thankful to John Jolliffe (JGU Mainz) for critical review of the manuscript",
+        "start_index": 34413,
+        "end_index": 34497
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ". We thank Simone Gr\u00e4\u00dfle, Nicolai Wippert, Laura Holzhauer, Helena Simek, Jerome Klein, Victor Larignon, Christoph Schissler, Simon Osswald, Zhen Zhang, Jasmin Busch, Florian Mohr, Sylvia Vanderheiden, Christoph Zippel, Mareen Stahlberger, Nicolai Rosenbaum (all Karlsruhe Institute of Technology, KIT), and Fabian Fink (RWTH Aachen) for providing data to",
+        "start_index": 34497,
+        "end_index": 34852
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "the Chemotion repository which was used for the assessment of the herein described evaluation tools",
+        "start_index": 34852,
+        "end_index": 34951
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": ".",
+        "start_index": 34951,
+        "end_index": 34952
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "REFERENCES",
+        "start_index": 34952,
+        "end_index": 34962
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "1. Groom, C. R., Allen, F. H. & Henderson, S. The Cambridge Structural Database (CSD). in Reference Module in Chemistry, Molecular Sciences and Chemical Engineering (Elsevier, 2019). doi:10.1016/b978-0-12-409547-2.02529-4.",
+        "start_index": 34962,
+        "end_index": 35184
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "2. Bruno, I. J., Shields, G. P. & Taylor, R. Deducing chemical structure from crystallographically determined atomic coordinates. Acta Crystallogr. B 67, 333\u2013349 (2011).\n\n3. Groom, C. R. & Allen, F. H. The Cambridge Structural Database in retrospect and prospect. Angew. Chem. Int. Ed Engl. 53, 662\u2013671 (2014).",
+        "start_index": 35184,
+        "end_index": 35494
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "4. Hunter, A. M., Carreira, E. M. & Miller, S. J. Encouraging Submission of FAIR Data at The Journal of Organic Chemistry and Organic Letters. Org. Lett. 22, 1231\u20131232 (2020).",
+        "start_index": 35494,
+        "end_index": 35669
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "5. Hrynaszkiewicz, I., Simons, N., Hussain, A., Grant, R. & Goudie, S. Developing a research data policy framework for all journals and publishers. Data Sci. J. 19, 5 (2020).",
+        "start_index": 35669,
+        "end_index": 35843
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "6. Digital Libraries: Supporting Open Science: 15th Italian Research Conference on Digital Libraries, IRCDL 2019, Pisa, Italy, January 31 \u2013 February 1, 2019, Proceedings. (Springer, Cham, 2019). doi:10.1007/978-3-030-11226-4.",
+        "start_index": 35843,
+        "end_index": 36068
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "7. Jones, L., Grant, R. & Hrynaszkiewicz, I. Implementing publisher policies that inform, support and encourage authors to share data: two case studies. Insights Imaging 32, (2019).\n\n8. Guidelines for Safeguarding Good Research Practice: Code of Conduct. (Deutsche Forschungsgemeinschaft, 2019).",
+        "start_index": 36068,
+        "end_index": 36363
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "9. EUROPEAN COMMISSION & Directorate-General for Research & Innovation. Guidelines to the Rules on Open Access to Scientific Publications and Open Access to Research Data in Horizon 2020.\nhttps://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf (2017).\n\n10. B\u00f6ker, E. funder-guidelines. *Forschungsdaten.info*",
+        "start_index": 36363,
+        "end_index": 36730
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "https://www.forschungsdaten.info/praxis-kompakt/english-pages/funder-guidelines/ (2020).\n\n11. Data, software and materials management and sharing policy. *Wellcome Trust*\n\nhttps://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy (2017).",
+        "start_index": 36730,
+        "end_index": 37007
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "12. Open Research. *UK Research and Innovation website* https://www.ukri.org/our-work/supporting-healthy-research-and-innovation-culture/open-research/ (2020).",
+        "start_index": 37007,
+        "end_index": 37166
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "13. Kuhn, S. & Schl\u00f6rer, N. E. Facilitating quality control for spectra assignments of small organic molecules: nmrshiftdb2\u2014a free in-house NMR database with integrated LIMS for academic service laboratories. *Magn. Reson. Chem.* **53**, 582\u2013589 (2015).",
+        "start_index": 37166,
+        "end_index": 37419
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "14. Kuhn, S., Kolshorn, H., Steinbeck, C. & Schl\u00f6rer, N. Twenty years of nmrshiftdb2: A case study of an open database for analytical chemistry. *Magn. Reson. Chem.* **62**, 74\u201383 (2024).",
+        "start_index": 37419,
+        "end_index": 37606
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "15. Robien, W. Computer-assisted peer reviewing of spectral data: the CSEARCH protocol. *Monatshefte f\u00fcr Chemie - Chemical Monthly* **150**, 927\u2013932 (2019).",
+        "start_index": 37606,
+        "end_index": 37762
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "16. Elyashberg, M. & Argyropoulos, D. Computer Assisted Structure Elucidation (CASE): Current and future perspectives. *Magn. Reson. Chem.* (2020) doi:10.1002/mrc.5115.",
+        "start_index": 37762,
+        "end_index": 37930
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "17. Han, Y. & Steinbeck, C. Evolutionary-algorithm-based strategy for computer-assisted structure elucidation. *J. Chem. Inf. Comput. Sci.* **44**, 489\u2013498 (2004).\n\n18. Nuzillard, J.-M. & Massiot, G. Computer-aided spectral assignment in nuclear magnetic resonance spectroscopy. *Anal. Chim. Acta* **242**, 37\u201341 (1991).",
+        "start_index": 37930,
+        "end_index": 38250
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "19. Jansson, P.-E., Stenutz, R. & Widmalm, G. Sequence determination of oligosaccharides and\nregular polysaccharides using NMR spectroscopy and a novel Web-based version of the computer program CASPER. Carbohydr. Res. 341, 1003\u20131010 (2006).",
+        "start_index": 38250,
+        "end_index": 38490
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "20. Lundborg, M. & Widmalm, G. Structural analysis of glycans by NMR chemical shift prediction. Anal. Chem. 83, 1514\u20131517 (2011).",
+        "start_index": 38490,
+        "end_index": 38619
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "21. Castillo, A. M., Bernal, A., Dieden, R., Patiny, L. & Wist, J. \u2018Ask Ern\u00f6\u2019: a self-learning tool for assignment and prediction of nuclear magnetic resonance spectra. J. Cheminform. 8, 26 (2016).",
+        "start_index": 38619,
+        "end_index": 38816
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "22. Cobas, C. NMR signal processing, prediction, and structure verification with machine learning techniques. Magn. Reson. Chem. 58, 512\u2013519 (2020).\n\n23. Chen, D., Wang, Z., Guo, D., Orekhov, V. & Qu, X. Review and Prospect: Deep Learning in Nuclear Magnetic Resonance Spectroscopy. Chemistry 26, 10391\u201310401 (2020).",
+        "start_index": 38816,
+        "end_index": 39132
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "24. Sarotti, A. M. Successful combination of computationally inexpensive GIAO 13C NMR calculations and artificial neural network pattern recognition: a new strategy for simple and rapid detection of structural misassignments. Org. Biomol. Chem. 11, 4847\u20134859 (2013).",
+        "start_index": 39132,
+        "end_index": 39398
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "25. Zanardi, M. M. & Sarotti, A. M. GIAO C-H COSY Simulations Merged with Artificial Neural Networks Pattern Recognition Analysis. Pushing the Structural Validation a Step Forward. J. Org. Chem. 80, 9371\u20139378 (2015).",
+        "start_index": 39398,
+        "end_index": 39614
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "26. Meiler, J., Meusinger, R. & Will, M. Fast determination of 13C NMR chemical shifts using artificial neural networks. J. Chem. Inf. Comput. Sci. 40, 1169\u20131176 (2000).",
+        "start_index": 39614,
+        "end_index": 39783
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "27. Binev, Y., Marques, M. M. B. & Aires-de-Sousa, J. Prediction of 1H NMR coupling constants with associative neural networks trained for chemical shifts. J. Chem. Inf. Model. 47, 2089\u20132097 (2007).",
+        "start_index": 39783,
+        "end_index": 39981
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "28. Binev, Y., Corvo, M. & Aires-de-Sousa, J. The impact of available experimental data on the\nprediction of 1H NMR chemical shifts by neural networks. J. Chem. Inf. Comput. Sci. 44, 946\u2013949 (2004).",
+        "start_index": 39981,
+        "end_index": 40179
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "29. Binev, Y. & Aires-de-Sousa, J. Structure-based predictions of 1H NMR chemical shifts using feed-forward neural networks. J. Chem. Inf. Comput. Sci. 44, 940\u2013945 (2004).",
+        "start_index": 40179,
+        "end_index": 40350
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "30. Aires-de-Sousa, J., Hemmer, M. C. & Gasteiger, J. Prediction of 1H NMR chemical shifts using neural networks. Anal. Chem. 74, 80\u201390 (2002).\n\n31. Jonas, E. & Kuhn, S. Rapid prediction of NMR spectral properties with quantified uncertainty. J. Cheminform. 11, 50 (2019).",
+        "start_index": 40350,
+        "end_index": 40622
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "32. Kang, S., Kwon, Y., Lee, D. & Choi, Y.-S. Predictive Modeling of NMR Chemical Shifts without Using Atomic-Level Annotations. J. Chem. Inf. Model. 60, 3765\u20133769 (2020).",
+        "start_index": 40622,
+        "end_index": 40793
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "33. Kwon, Y., Lee, D., Choi, Y.-S., Kang, M. & Kang, S. Neural Message Passing for NMR Chemical Shift Prediction. J. Chem. Inf. Model. 60, 2024\u20132030 (2020).",
+        "start_index": 40793,
+        "end_index": 40949
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "34. Blinov, K. A. et al. Performance validation of neural network based (13)c NMR prediction using a publicly available data source. J. Chem. Inf. Model. 48, 550\u2013555 (2008).",
+        "start_index": 40949,
+        "end_index": 41122
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "35. Unzueta, P. A., Greenwell, C. S. & Beran, G. J. O. Predicting Density Functional Theory-Quality Nuclear Magnetic Resonance Chemical Shifts via \u0394-Machine Learning. J. Chem. Theory Comput. 17, 826\u2013840 (2021).",
+        "start_index": 41122,
+        "end_index": 41332
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "36. Altaf, A. A., Kausar, S. & Badshah, A. Spectral Calculations with DFT. in Density Functional Calculations (ed. Yang, G.) (IntechOpen, 2018). doi:10.5772/intechopen.71080.",
+        "start_index": 41332,
+        "end_index": 41506
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "37. Selzer, P., Gasteiger, J., Thomas, H. & Salzer, R. Rapid access to infrared reference spectra of arbitrary organic compounds: scope and limitations of an approach to the simulation of infrared spectra by neural networks. Chemistry 6, 920\u2013927 (2000).",
+        "start_index": 41506,
+        "end_index": 41759
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "38. Gastegger, M., Behler, J. & Marquetand, P. Machine learning molecular dynamics for the\nsimulation of infrared spectra. *Chem. Sci.* **8**, 6924\u20136935 (2017).",
+        "start_index": 41759,
+        "end_index": 41919
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "39. Yuanyuan, C. & Zhibin, W. Quantitative analysis modeling of infrared spectroscopy based on ensemble convolutional neural networks. *Chemometrics Intell. Lab. Syst.* **181**, 1\u201310 (2018).\n\n40. Zhang, X. *et al.* Understanding the learning mechanism of convolutional neural networks in spectral analysis. *Anal. Chim. Acta* **1119**, 41\u201351 (2020).",
+        "start_index": 41919,
+        "end_index": 42268
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "41. Chen, M., Chen, S. & Zhu, Y. Molecular Structure Prediction Using Infrared Spectra\n\n42. Patiny, L. ChemInfo. *ChemInfo*\n\n   http://www.cheminfo.org/Spectra/IR/Exercises/Browse_Spectra/index.html.",
+        "start_index": 42268,
+        "end_index": 42467
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "43. Selzer, P. Infrared data correlations with chemical structure. *Encyclopedia of Computational Chemistry* (2002) doi:10.1002/0470845015.cca054.\n\n44. IR simulator. *IR simulator* https://www2.chemie.uni-erlangen.de/services/telespec/simuframe/index.html.",
+        "start_index": 42467,
+        "end_index": 42723
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "45. Selzer, P. IR spectra simulation and information processing on the WWW. *Chimia* **52**, 678\u2013682 (1998).\n\n46. Hemmer, M. C. IR-Spektren: Simulation und Datenbank im Internet. *Nachr. Chem.* **48**, 950\u2013953 (2000).",
+        "start_index": 42723,
+        "end_index": 42940
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "47. Szantay, C. & Jr. *Anthropic Awareness: The Human Aspects of Scientific Thinking in NMR Spectroscopy and Mass Spectrometry.* (Elsevier Science, 2015).\n\n48. Tremouilhac, P. *et al.* Chemotion ELN: an Open Source electronic lab notebook for chemists in academia. *J. Cheminform.* **9**, 54 (2017).",
+        "start_index": 42940,
+        "end_index": 43239
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "49. Tremouilhac, P. *et al.* The Repository Chemotion: Infrastructure for Sustainable Research in\nChemistry*. *Angew. Chem. Int. Ed Engl.* **59**, 22771\u201322778 (2020).",
+        "start_index": 43239,
+        "end_index": 43405
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "50. Tremouilhac, P., Huang, P. C. & Lin, C. L. Chemotion repository, a curated repository for reaction information and analytical data. *Chemistry - Methods* **1**, 8\u201311 (2021).",
+        "start_index": 43405,
+        "end_index": 43582
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "51. Huang, Y.-C., Tremouilhac, P., Nguyen, A., Jung, N. & Br\u00e4se, S. ChemSpectra: A Web-based Spectra Editor for Analytical data. *Research Square* (2020) doi:10.21203/rs.3.rs-44215/v1.",
+        "start_index": 43582,
+        "end_index": 43766
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "52. Helmus, J. J. & Jaroniec, C. P. Nmrglue: an open source Python package for the analysis of multidimensional NMR data. *J. Biomol. NMR* **55**, 355\u2013367 (2013).\n\n53. Landrum, G. RDKit, https://www.rdkit.org, Date accessed: May 22, 2023. https://www.rdkit.org.",
+        "start_index": 43766,
+        "end_index": 44027
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "54. Ertl, P. An algorithm to identify functional groups in organic molecules. *J. Cheminform.* **9**, 36 (2017).\n\n55. Chemotion ELN contributors. *Chemotion Electronic Lab Notebook (ELN).* (Zenodo, 2024). doi:10.5281/ZENODO.1054134.",
+        "start_index": 44027,
+        "end_index": 44259
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "56. Huang, P.-C. *et al.* Chemotion Repository. (Zenodo, 2024). doi:10.5281/ZENODO.3755759.\n\n57. Huang, J. *chem-dl-ir: Function group predictions from an IR spectrum; https://github.com/ComPlat/chem-spectra-app.* (Github).",
+        "start_index": 44259,
+        "end_index": 44482
+    },
+    {
+        "document_name": "148.txt",
+        "chunk_text": "58. Jason Huang, P. C. H. *ComPlat/chem-dl-ir: chem-dl-ir v1.0.0.* doi:10.5281/zenodo.10654755.",
+        "start_index": 44482,
+        "end_index": 44577
+    }
+]

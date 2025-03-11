@@ -1,0 +1,896 @@
+[
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Project Title: Reducing the Toxicity of Heavy Metals\n\nStudent Name: ABDUL BASIT\n\nMentor: Muhammad Yasin",
+        "start_index": 0,
+        "end_index": 103
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "PUNJAB DAANISH SCHOOL BOYS MIANWALI\n| S. NO. | CONTENT                  | PAGE NO. |\n|--------|--------------------------|----------|\n| 1.     | INTRODUCTION             | 3        |\n| 2.     | LITERATURE REVIEW        | 4        |\n| 3.     | AIMS AND OBJECTIVES      | 5        |",
+        "start_index": 103,
+        "end_index": 383
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 4.     | MATERIALS AND METHODS    | 5        |\n| 5.     | RESULTS AND DISCUSSION   | 6        |\n| 6.     | CONCLUSION               | 24       |\n| 7.     | RECOMMENDATIONS          | 24       |\n| 8.     | REFERENCES               | 24       |\n| 9.     | ANNEXURE                 | 26       |",
+        "start_index": 383,
+        "end_index": 676
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Introduction**",
+        "start_index": 676,
+        "end_index": 692
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Water covers about 70% of the earth\u2019s surface and is essential for life (Wang et al., 2020), out of which only 3% is fresh and only 0.5% drinkable. Water is single largest component of human body and comprises nearly 60% of it. (Zhou & Chen, 2018). Its excessive and ever increasing use in all fields of life has made Fresh water shortage a global threat",
+        "start_index": 692,
+        "end_index": 1046
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". Only 33% of the world\u2019s total population has access to standard-quality freshwater.",
+        "start_index": 1046,
+        "end_index": 1131
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Water is being polluted from a variety of sources, from domestic to industrial level. Contaminants in this polluted water involve heavy metals as well that leads to serious adverse effects on the lives to which the water is being served (Obinna & Ebere, 2019).",
+        "start_index": 1131,
+        "end_index": 1391
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Considerable fraction of this polluted water is being used as untreated in irrigation (Sarwar et al., 2020). This contaminated water has high concentration of Nitrogen and Phosphorus, and that\u2019s why its use in irrigation is increasing gradually (Zhang & Shen, 2019)",
+        "start_index": 1391,
+        "end_index": 1656
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". As this waste water is contaminated with heavy metals including; Arsenic (As), Cadmium (Cd), Nickel (Ni), Mercury (Hg), Chromium (Cr), Zinc (Zn), and Lead (Pb) and has become a serious health issue for men, plants and animals. (Rehman et al., 2018).",
+        "start_index": 1656,
+        "end_index": 1907
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "These heavy metals present in waste water are not only toxic but are non-biodegradable which make their presence even worse. When this heavy metals containing water is used for irrigation, they enter into the plants and vegetables, where they do not have any significant biological role but causes various adverse effects to them (Chaoua et al., 2019). Their bioaccumulation in plants has reported to inhibit the growth of the plants (Kamran et al., 2020)",
+        "start_index": 1907,
+        "end_index": 2362
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Bioaccumulation of various heavy metals such as arsenic, mercury, lead and chromium will tear down the metabolic processes involved in the human body.",
+        "start_index": 2362,
+        "end_index": 2512
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "These fruit based absorbents act as precursor of activated carbon and contain other functional groups that helps to adsorb the heavy metals from water. These functional groups (- COOH, -OH, - NH2) present in bio absorbents make a thin film of heavy metals on them (Mallampati et al., 2015) 2011).",
+        "start_index": 2512,
+        "end_index": 2808
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "In this study, peels of different plants i.e Bitter Apple, Cucumber, Persimmon, unripe orange and activated carbon from used dry cell were used. Organic functional groups present in them adsorb the heavy metals and reduces their concentration. Moreover, Activated Carbon which has proved to be a versatile adsorbent and a potential candidate in treatment of waste water was also used. Results from all above materials were separately obtained and comparatively analyzed which was very helpful in explaining their efficiency.",
+        "start_index": 2808,
+        "end_index": 3332
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Literature Review",
+        "start_index": 3332,
+        "end_index": 3349
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Requirement of fresh water is increasing gradually due to its excessive use in domestic, industrial and agricultural purposes. (Qadir et al., 2008). The used water from above mentioned sector becomes polluted. Owing to this excessive use, we have to face water shortage problems (Adilov, Sarikulov et al. 2021)",
+        "start_index": 3349,
+        "end_index": 3659
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". The waste are produced by industries, human and animals but there is no proper way to deposit them, so they also contribute to pollute the drinkable water.",
+        "start_index": 3659,
+        "end_index": 3816
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "This polluted water is not only one of the prime global challenges for various ailments and casualties, but it is also contributing to the incessant shortage of the available freshwater worldwide (Bolisetty et al., 2019). Purification of this polluted water has become very necessary (Chaturvedi & Dave, 2019) and exists as a major problem in many under developed parts of the world (Kausley et al., 2018).",
+        "start_index": 3816,
+        "end_index": 4222
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "This polluted water contain many heavy metals in it, namely; Arsenic(As), Cadmium (Cd), Nickel (Ni), Mercury (Hg), Chromium (Cr), Zinc (Zn), and Lead (Pb) and has become a serious health issue for men of 21st century(Rehman et al., 2018)",
+        "start_index": 4222,
+        "end_index": 4459
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". The mechanism in toxicity induced by heavy metal is found to be the generation of highly reactive oxygen species that cause oxidative damage that leads to above mentioned disorders. Their non-biodegradable nature makes them more difficult to deal for purification of water (Varghese et al., 2019).",
+        "start_index": 4459,
+        "end_index": 4758
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "This polluted water seeps down and affect the fresh ground water, and presence of these heavy metals results in damage of aquatic life (Griebler et al., 2019). Official data tells that about 4.36 billion m\u00b3 (BCM) wastewater is produced annually, which consist of 1.30 BCM industrial wastewater and 3.06 BCM domestic water (National Agricultural Research Centre)",
+        "start_index": 4758,
+        "end_index": 5119
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". A huge fraction of this waste water is being used untreated in irrigation in Pakistan (ur Rehman et al., 2019). There is quite essential need to treat wastewater to alleviate the pollutant content, before we dispose it the agricultural lands or natural ecosystem. Wastewater is being treated through a variety of methods using biological, physical, chemical and thermal means, involving stages like primary, secondary and tertiary treatments (Meruvu, 2021)",
+        "start_index": 5119,
+        "end_index": 5577
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". Cost has always been the problem in most of the methods being applied to treat the polluted water, as they are very expensive and cumbersome. (Sarode et al., 2019). Peels of various fruits has been used as source of bio sorbents and proved highly efficient in up taking the toxic heavy metals (Akpomie & Conradi, 2020).",
+        "start_index": 5577,
+        "end_index": 5898
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Aims and Objectives",
+        "start_index": 5898,
+        "end_index": 5917
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "- Removal of heavy metal by low cost and cheapest\n- Method Utilization of non-biological waste to adsorb\n- Heavy metal Utilization of waste of fruits in a productive way.\n- To control water pollution\n- Explain the severity of toxicity of heavy metals\n\nMaterials and Method",
+        "start_index": 5917,
+        "end_index": 6189
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Different Biological and Non-Biological substances were used for the treatment of heavy metals present in sewage water. Peels of Bitter Apple, Cucumber, Unripe orange, Persimmon and Activated carbon from dry cell were used.\n\nPreparation of bio sorbent/Activated Carbon",
+        "start_index": 6189,
+        "end_index": 6457
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "For preparing the Bio-sorbent, peels of Bitter apple, Cucumber, Persimmon and unripe orange were used in the Chemistry Laboratory of Punjab Daanish School Boys Mianwali for analysis. After sun drying them, electrical furnace was used at 1000\u00b0c for half an hour to dry the peels completely. These completely dried substances were further ground to make a fine powder of the peels",
+        "start_index": 6457,
+        "end_index": 6835
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". Activated Carbon from dry cell source was also used for absorption of heavy metals present in sewage water.",
+        "start_index": 6835,
+        "end_index": 6944
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Accumulation of waste water (Samples)\n\nSewage water was obtained from two major drains of the city at district-Mianwali which had been utilized by farmers for irrigation purposes. This sewage water was analyzed by using Atomic Absorption spectroscopy (AAS). Different values of heavy metals (Chromium, Lead etc) in parts per million were obtained.\n\nTreatment of sewage water for removing heavy metals",
+        "start_index": 6944,
+        "end_index": 7344
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Sewage water from both Drains was treated with already prepared fine powder of Bitter apple, Persimmon and Cucumber and Unripe Orange peels with three different doses; 1g, 2g and 3g to make the effect of concentration in count as well. Other samples were treated with Activated Carbon obtained from non-biomass sources",
+        "start_index": 7344,
+        "end_index": 7662
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". To check the effect of time factor for their actions and samples were analyzed after different time spans; 24 hours and 48 hours.",
+        "start_index": 7662,
+        "end_index": 7793
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Same time period was given to samples being treated with the other Activated Carbon sources.",
+        "start_index": 7793,
+        "end_index": 7885
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Analyzing the treated water**\n\nTreated water from both materials was analyzed again with the help of different analyzing techniques.\n\n**Different graphs are made for data handling so that we can easily compare the data.**\n\n![Graph showing treatment of lead in sewerage water of Harnouli with different amount of cucumber for 24 & 48 Hr](https://doi.org/10.26434/chemrxiv-2024-04wxj-v2)",
+        "start_index": 7885,
+        "end_index": 8272
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-2: Effect of treatment of lead in sewerage water by different amount of cucumber peels**",
+        "start_index": 8272,
+        "end_index": 8366
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-3) the result of treatment of Harnouli sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Cucumber extract respectively. It can be seen that 3g dose of Cucumber extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 24 hours.",
+        "start_index": 8366,
+        "end_index": 8673
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Comparing the results\n\nData obtained from all the samples was compared according to different concentration and time given. Moreover results from both materials were inter-compared. Results and compared data was elaborated with the help of graphs as well.",
+        "start_index": 8673,
+        "end_index": 8928
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Crude sewage water was taken from two different areas of Mianwali to find out the concentration of three heavy metals Cadmium, Lead and Chromium. It was observed from the data that cadmium was not present in the sewage water samples. However atomic absorption spectroscopy results indicated that both lead and chromium are present in the samples in reasonably high concentrations.\n\nResults and Discussion",
+        "start_index": 8928,
+        "end_index": 9332
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Fig-1: Detection of Lead (Pb) & Chromium (Cr) in Sewage Water from Harnouli (Mianwali) & Piplan (Mianwali)\nData further depicted that concentration of lead is low at Harnouli while it is high at Piplan. Similarly, concentration of chromium is high at Harnouli and considerably low at Piplan.",
+        "start_index": 9332,
+        "end_index": 9623
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Concentration of these heavy metals in sewage water is quite alarming. Sewage water is drained in river water so it may damage aquatic life and ultimately may damage human health. When this contaminated water is used for irrigation, due to the presence of heavy metals in this type of water growth of plants retard.\nWe planned to treat sewage water with three different types of peals. i.e.\n\ni. Bitter Apple Peels\n\nii. Persimmon Peels",
+        "start_index": 9623,
+        "end_index": 10057
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "iii. Cucumber Peels\n\nUnripe orange peels and activated carbon powder have treated with sewage water samples and sent for analysis (AAS) at Gujranwala in laboratory. Results are in pending stage and will receive soon.\n\nThe results of analysis have shown that all peels Bitter apple, Cucumber and persimmon natural products have tremendous effects in treatment of these heavy metals. These natural products adsorbed the heavy metals. Here are the results.",
+        "start_index": 10057,
+        "end_index": 10510
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-2) the result of treatment of Harnouli sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Cucumber extract respectively. It can be seen that 3g dose of Cucumber extract has removed a considerable amount of heavy metal(Lead) fromwater sample treated for 24 hours.",
+        "start_index": 10510,
+        "end_index": 10807
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "We have classified our water samples according to concentration used (Biological/non Biological Biosorbents) and time factor i.e 24 Hours and 48 Hours. Samples sent to Pesticide Residue Laboratory Kala Shah Kaku for Atomic Absorption Spectroscopy. Samples are labeled and each sample has unique sample ID and Customer ID. Report attached as an Annexure A.\n\nHEAVY METALS ANALYSIS PERCENTAGE WISE",
+        "start_index": 10807,
+        "end_index": 11201
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "We have taken water samples from two different localities of district Mianwali i.e Harnouli and Piplan. Biosorbents of different plants are used for purification of water from heavy metals. Different quantities of Biosorbents i.e 1g/L,2g/L,3g/L with the time factor of 24Hours and 48 Hours are used for heavy metals analysis.",
+        "start_index": 11201,
+        "end_index": 11526
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Results obtained from \u201cOFFICE OF THE AGRICULTURE CHEMIST PESTICIDE RESIDUE LABORATORY KALA SHAH KAKU\u201d are in comparison form to see the affectivity of the Biosorbents. Table 1.1,1.2,1.3.\nPOWDER OF BITTER APPLE PLANT (USING 1 LITRE OF WATER SAMPLES)",
+        "start_index": 11526,
+        "end_index": 11774
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| Sr. No | Quantity of Biosorbent used | Sample Taken | Heavy Metal | Time | Treated Value in ppm | Untreated Value in ppm | %age dropped |\n|--------|-----------------------------|--------------|-------------|------|----------------------|------------------------|--------------|",
+        "start_index": 11774,
+        "end_index": 12053
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1.     | 1gm                         | Harnouli     | Lead(Pb)   | 24hrs | 0.23                 | 0.37                   | 62.16216    |\n| 2.     | 1gm                         | Harnouli     | Lead(Pb)   | 48hrs | 0.2                  | 0.37                   | 54.05405    |",
+        "start_index": 12053,
+        "end_index": 12330
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 3.     | 2gms                        | Harnouli     | Lead(Pb)   | 24hrs | 0.13                 | 0.37                   | 35.13514    |\n| 4.     | 2gms                        | Harnouli     | Lead(Pb)   | 48hrs | 0.11                 | 0.37                   | 29.72973    |",
+        "start_index": 12330,
+        "end_index": 12607
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 5.     | 3gms                        | Harnouli     | Lead(Pb)   | 24hrs | 0.09                 | 0.37                   | 24.32432    |\n| 6.     | 3gms                        | Harnouli     | Lead(Pb)   | 48hrs | 0.05                 | 0.37                   | 13.51351    |",
+        "start_index": 12607,
+        "end_index": 12884
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 7.     | 1gm                         | Piplan       | Lead(Pb)   | 24hrs | 0.47                 | 0.64                   | 73.4375     |\n| 8.     | 1gm                         | Piplan       | Lead(Pb)   | 48hrs | 0.41                 | 0.64                   | 64.0625     |",
+        "start_index": 12884,
+        "end_index": 13161
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 9.     | 2gms                        | Piplan       | Lead(Pb)   | 24hrs | 0.36                 | 0.64                   | 56.25       |\n| 10.    | 2gms                        | Piplan       | Lead(Pb)   | 48hrs | 0.29                 | 0.64                   | 45.3125     |",
+        "start_index": 13161,
+        "end_index": 13438
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 11.    | 3gms                        | Piplan       | Lead(Pb)   | 24hrs | 0.22                 | 0.64                   | 34.375      |\n| 12.    | 3gms                        | Piplan       | Lead(Pb)   | 48hrs | 0.14                 | 0.64                   | 21.875      |",
+        "start_index": 13438,
+        "end_index": 13715
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 13.    | 1gm                         | Harnouli     | Chromium (Cr) | 24hrs | 0.43                 | 0.72                   | 59.72222    |\n| 14.    | 1gm                         | Harnouli     | Chromium (Cr) | 48hrs | 0.37                 | 0.72                   | 51.38889    |",
+        "start_index": 13715,
+        "end_index": 13998
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 15.    | 2gms                        | Harnouli     | Chromium (Cr) | 24hrs | 0.25                 | 0.72                   | 34.72222    |\n| 16.    | 2gms                        | Harnouli     | Chromium (Cr) | 48hrs | 0.2                  | 0.72                   | 27.77778    |",
+        "start_index": 13998,
+        "end_index": 14281
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 17.    | 3gms                        | Harnouli     | Chromium (Cr) | 24hrs | 0.14                 | 0.72                   | 19.44444    |\n| 18.    | 3gms                        | Harnouli     | Chromium (Cr) | 48hrs | 0.11                 | 0.72                   | 15.27778    |",
+        "start_index": 14281,
+        "end_index": 14564
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 19.    | 1gm                         | Piplan       | Chromium (Cr) | 24hrs | 0.28                 | 0.41                   | 68.29268    |\n| 20.    | 1gm                         | Piplan       | Chromium (Cr) | 48hrs | 0.23                 | 0.41                   | 56.09756    |",
+        "start_index": 14564,
+        "end_index": 14847
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 21.    | 2gms                        | Piplan       | Chromium (Cr) | 24hrs | 0.18                 | 0.41                   | 43.90244    |\n| 22.    | 2gms                        | Piplan       | Chromium (Cr) | 48hrs | 0.14                 | 0.41                   | 34.14634    |",
+        "start_index": 14847,
+        "end_index": 15130
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 23.    | 3gms                        | Piplan       | Chromium (Cr) | 24hrs | 0.13                 | 0.41                   | 31.70732    |\n| 24.    | 3gms                        | Piplan       | Chromium (Cr) | 48hrs | 0.1                  | 0.41                   | 24.39024    |",
+        "start_index": 15130,
+        "end_index": 15413
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Table 1.1\n\n\nPOWDER OF CUCUMBER PLANT (USING 1 LITRE OF WATER SAMPLE)",
+        "start_index": 15413,
+        "end_index": 15481
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| Sr. No | Quantity of Biosorbent used | Sample Taken | Heavy Metal | Time | Treated Value in ppm | Untreated Value in ppm | %age droppe d |\n|--------|-----------------------------|--------------|-------------|------|----------------------|-----------------------|---------------|",
+        "start_index": 15481,
+        "end_index": 15761
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1.     | 1gm                         | Harnouli     | Lead(Pb)    | 24hrs| 0.32                 | 0.37                  | 86.48649     |\n| 2.     | 1gm                         | Harnouli     | Lead(Pb)    | 48hrs| 0.34                 | 0.37                  | 91.89189     |",
+        "start_index": 15761,
+        "end_index": 16038
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 3.     | 2gms                        | Harnouli     | Lead(Pb)    | 24hrs| 0.27                 | 0.37                  | 72.97297     |\n| 4.     | 2gms                        | Harnouli     | Lead(Pb)    | 48hrs| 0.3                   | 0.37                  | 81.08108     |",
+        "start_index": 16038,
+        "end_index": 16316
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 5.     | 3gms                        | Harnouli     | Lead(Pb)    | 24hrs| 0.23                 | 0.37                  | 62.16216     |\n| 6.     | 3gms                        | Harnouli     | Lead(Pb)    | 48hrs| 0.25                 | 0.37                  | 67.56757     |",
+        "start_index": 16316,
+        "end_index": 16593
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 7.     | 1gm                         | Piplan       | Lead(Pb)    | 24hrs| 0.57                 | 0.64                  | 89.0625      |\n| 8.     | 1gm                         | Piplan       | Lead(Pb)    | 48hrs| 0.62                 | 0.64                  | 96.875       |",
+        "start_index": 16593,
+        "end_index": 16870
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 9.     | 2gms                        | Piplan       | Lead(Pb)    | 24hrs| 0.49                 | 0.64                  | 76.5625      |\n| 10.    | 2gms                        | Piplan       | Lead(Pb)    | 48hrs| 0.53                 | 0.64                  | 82.8125      |",
+        "start_index": 16870,
+        "end_index": 17147
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 11.    | 3gms                        | Piplan       | Lead(Pb)    | 24hrs| 0.43                 | 0.64                  | 67.1875      |\n| 12.    | 3gms                        | Piplan       | Lead(Pb)    | 48hrs| 0.48                 | 0.64                  | 75           |",
+        "start_index": 17147,
+        "end_index": 17424
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 13.    | 1gm                         | Harnouli     | Chromium (Cr)| 24hrs| 0.61                 | 0.72                  | 84.72222     |\n| 14.    | 1gm                         | Harnouli     | Chromium (Cr)| 48hrs| 0.65                 | 0.72                  | 90.27778     |",
+        "start_index": 17424,
+        "end_index": 17703
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 15.    | 2gms                        | Harnouli     | Chromium (Cr)| 24hrs| 0.54                 | 0.72                  | 75           |\n| 16.    | 2gms                        | Harnouli     | Chromium (Cr)| 48hrs| 0.58                 | 0.72                  | 80.55556     |",
+        "start_index": 17703,
+        "end_index": 17982
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 17.    | 3gms                        | Harnouli     | Chromium (Cr)| 24hrs| 0.47                 | 0.72                  | 65.27778     |\n| 18.    | 3gms                        | Harnouli     | Chromium (Cr)| 48hrs| 0.5                  | 0.72                  | 69.44444     |",
+        "start_index": 17982,
+        "end_index": 18261
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 19.    | 1gm                         | Piplan       | Chromium (Cr)| 24hrs| 0.35                 | 0.41                  | 85.36585     |\n| 20.    | 1gm                         | Piplan       | Chromium (Cr)| 48hrs| 0.38                 | 0.41                  | 92.68293     |",
+        "start_index": 18261,
+        "end_index": 18540
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 21.    | 2gms                        | Piplan       | Chromium (Cr)| 24hrs| 0.3                  | 0.41                  | 73.17073     |\n| 22.    | 2gms                        | Piplan       | Chromium (Cr)| 48hrs| 0.33                 | 0.41                  | 80.4878      |",
+        "start_index": 18540,
+        "end_index": 18819
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 23.    | 3gms                        | Piplan       | Chromium (Cr)| 24hrs| 0.27                 | 0.41                  | 65.85366     |\n| 24.    | 3gms                        | Piplan       | Chromium (Cr)| 48hrs| 0.29                 | 0.41                  | 70.73171     |",
+        "start_index": 18819,
+        "end_index": 19098
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Table 1.2\nPOWDER OF PERSIMMON PLANT (USING 1 LITRE OF WATER)",
+        "start_index": 19098,
+        "end_index": 19158
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| Sr. No | Quantity of Biosorbent used | Sample Taken | Heavy Metal | Time | Treated Value in ppm | Untreated Value in ppm | %age droppe d |\n|--------|-----------------------------|--------------|-------------|------|-----------------------|------------------------|---------------|",
+        "start_index": 19158,
+        "end_index": 19440
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1.     | 1gm                         | Harnouli     | Lead(Pb)    | 24hrs| 0.27                  | 0.37                   | 72.97297      |\n| 2.     | 1gm                         | Harnouli     | Lead(Pb)    | 48hrs| 0.24                  | 0.37                   | 64.86486      |",
+        "start_index": 19440,
+        "end_index": 19723
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 3.     | 2gms                        | Harnouli     | Lead(Pb)    | 24hrs| 0.19                  | 0.37                   | 51.35135      |\n| 4.     | 2gms                        | Harnouli     | Lead(Pb)    | 48hrs| 0.17                  | 0.37                   | 45.94595      |",
+        "start_index": 19723,
+        "end_index": 20006
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 5.     | 3gms                        | Harnouli     | Lead(Pb)    | 24hrs| 0.15                  | 0.37                   | 40.54054      |\n| 6.     | 3gms                        | Harnouli     | Lead(Pb)    | 48hrs| 0.12                  | 0.37                   | 32.43243      |",
+        "start_index": 20006,
+        "end_index": 20289
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 7.     | 1gm                         | Piplan       | Lead(Pb)    | 24hrs| 0.54                  | 0.64                   | 84.375        |\n| 8.     | 1gm                         | Piplan       | Lead(Pb)    | 48hrs| 0.5                   | 0.64                   | 78.125        |",
+        "start_index": 20289,
+        "end_index": 20572
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 9.     | 2gms                        | Piplan       | Lead(Pb)    | 24hrs| 0.41                  | 0.64                   | 64.0625       |\n| 10.    | 2gms                        | Piplan       | Lead(Pb)    | 48hrs| 0.37                  | 0.64                   | 57.8125       |",
+        "start_index": 20572,
+        "end_index": 20855
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 11.    | 3gms                        | Piplan       | Lead(Pb)    | 24hrs| 0.29                  | 0.64                   | 45.3125       |\n| 12.    | 3gms                        | Piplan       | Lead(Pb)    | 48hrs| 0.24                  | 0.64                   | 37.5          |",
+        "start_index": 20855,
+        "end_index": 21138
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 13.    | 1gm                         | Harnouli     | Chromium(Cr)| 24hrs| 0.58                  | 0.72                   | 80.55556      |\n| 14.    | 1gm                         | Harnouli     | Chromium(Cr)| 48hrs| 0.54                  | 0.72                   | 75            |",
+        "start_index": 21138,
+        "end_index": 21421
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 15.    | 2gms                        | Harnouli     | Chromium(Cr)| 24hrs| 0.42                  | 0.72                   | 58.33333      |\n| 16.    | 2gms                        | Harnouli     | Chromium(Cr)| 48hrs| 0.36                  | 0.72                   | 50            |",
+        "start_index": 21421,
+        "end_index": 21704
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 17.    | 3gms                        | Harnouli     | Chromium(Cr)| 24hrs| 0.34                  | 0.72                   | 47.22222      |\n| 18.    | 3gms                        | Harnouli     | Chromium(Cr)| 48hrs| 0.29                  | 0.72                   | 40.27778      |",
+        "start_index": 21704,
+        "end_index": 21987
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 19.    | 1gm                         | Piplan       | Chromium(Cr)| 24hrs| 0.34                  | 0.41                   | 82.92683      |\n| 20.    | 1gm                         | Piplan       | Chromium(Cr)| 48hrs| 0.29                  | 0.41                   | 70.73171      |",
+        "start_index": 21987,
+        "end_index": 22270
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 21.    | 2gms                        | Piplan       | Chromium(Cr)| 24hrs| 0.28                  | 0.41                   | 68.29268      |\n| 22.    | 2gms                        | Piplan       | Chromium(Cr)| 48hrs| 0.25                  | 0.41                   | 60.97561      |",
+        "start_index": 22270,
+        "end_index": 22553
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 23.    | 3gms                        | Piplan       | Chromium(Cr)| 24hrs| 0.19                  | 0.41                   | 46.34146      |\n| 24.    | 3gms                        | Piplan       | Chromium(Cr)| 48hrs| 0.16                  | 0.41                   | 39.02439      |",
+        "start_index": 22553,
+        "end_index": 22836
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Table 1.3\nTreated samples of unripened orange peels and activated carbon have been sent for analysis by Atomic Absorption Spectroscopy (AAS), but results are not arrived yet and will be provided soon.\n\n**Fig-3: Effect of treatment of Chromium in sewage water by different amount of cucumber peels.**",
+        "start_index": 22836,
+        "end_index": 23135
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-4) the result of treatment of Piplan sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Cucumber extract respectively. It can be seen that 3g dose of Cucumber extract has removed a considerable amount of heavy metal (Lead) from water sample treated for 24 hours.",
+        "start_index": 23135,
+        "end_index": 23432
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-4: Effect of treatment of Lead in sewage water by different amount of cucumber peels**",
+        "start_index": 23432,
+        "end_index": 23524
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-5) the result of treatment of Piplan sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Cucumber extract respectively. It can be seen that 3g dose of Cucumber extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 24 hours.",
+        "start_index": 23524,
+        "end_index": 23829
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Fig-5: Effect of treatment of Chromium in sewage water by different amount of cucumber peels\n\nIt is (Fig-6) the result of treatment of Harnouli sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Persimmon extract respectively. It can be seen that 3g dose of Persimmon extract has removed a considerable amount of heavy metal (Lead) from water sample treated for 48 hours.",
+        "start_index": 23829,
+        "end_index": 24224
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Fig-6: Effect of treatment of Lead in sewage water by different amount of cucumber peels",
+        "start_index": 24224,
+        "end_index": 24312
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-7) the result of treatment of Harnouli sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Persimmon extract respectively. It can be seen that 3g dose of Persimmon extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 48 hours.",
+        "start_index": 24312,
+        "end_index": 24621
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "![Treatment of Chromium in sewerage water of Harnouli with different amounts of Persimmon extract](image)\n\n**Fig-7: Effect of treatment of Chromium in sewage water by different amount of cucumber peels**",
+        "start_index": 24621,
+        "end_index": 24824
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-8) the result of treatment of Piplan sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Persimmon extract respectively. It can be seen that 3g dose of Persimmon extract has removed a considerable amount of heavy metal (Lead) from water sample treated for 48 hours.\n\n![Treatment of Lead in sewerage water of Piplan](image)",
+        "start_index": 24824,
+        "end_index": 25180
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-8: Effect of treatment of Lead in sewage water by different amount of cucumber peels**",
+        "start_index": 25180,
+        "end_index": 25272
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-9) the result of treatment of Piplan sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Persimmon extract respectively. It can be seen that 3g dose of Persimmon extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 48 hours.",
+        "start_index": 25272,
+        "end_index": 25579
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-9: Effect of treatment of Chromium in sewage water by different amount of cucumber peels**",
+        "start_index": 25579,
+        "end_index": 25675
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-10) the result of treatment of Harnouli sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Bitter apple extract respectively. It can be seen that 3g dose of Bitter apple extract has removed a considerable amount of heavy metal (Lead) from water sample treated for 48 hours.",
+        "start_index": 25675,
+        "end_index": 25983
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-10: Effect of treatment of Lead in sewage water by different amount of cucumber peels**",
+        "start_index": 25983,
+        "end_index": 26076
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-11) the result of treatment of Harnouli sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Bitter apple extract respectively. It can be seen that 3g dose of Bitter apple extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 48 hours.",
+        "start_index": 26076,
+        "end_index": 26392
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-11: Effect of treatment of Chromium in sewage water by different amount of cucumber peels**",
+        "start_index": 26392,
+        "end_index": 26489
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-12) the result of treatment of Piplan sewage water having heavy metal (Lead) treated with 1g, 2g and 3g doses of Bitter apple extract respectively. It can be seen that 3g dose of Bitter apple extract has removed a considerable amount of heavy metal (Lead) from water sample treated for 48 hours.",
+        "start_index": 26489,
+        "end_index": 26795
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "**Fig-12: Effect of treatment of Lead in sewage water by different amount of cucumber peels**",
+        "start_index": 26795,
+        "end_index": 26888
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "It is (Fig-13) the result of treatment of Piplan sewage water having heavy metal (Chromium) treated with 1g, 2g and 3g doses of Bitter apple extract respectively. It can be seen that 3g dose of Bitter apple extract has removed a considerable amount of heavy metal (Chromium) from water sample treated for 48 hours.",
+        "start_index": 26888,
+        "end_index": 27202
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Fig-13: Effect of treatment of Chromium in sewage water by different amount of cucumber peels\nComparison of all bio-sorbents in all samples\n\nComparison of Treatment of Lead with all Natural Products at Harnouli for 1g/L\n\nComparison of Treatment of Chromium with all\nComparison of Treatment of Chromium with all\n\nSample Cocu 24hr Cocu 48hr Pris 24hr Pris 48hr B.Ap 24hr B.Ap",
+        "start_index": 27202,
+        "end_index": 27575
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "0.7 0.6 0.65 0.58 0.54 0.43 0.37\n\nComparison of Treatment of Chromium with all\n\nSample Cocu 24hr Cocu 48hr Pris 24hr Pris 48hr B.Ap 24hr B.Ap\n\n0.4 0.3 0.3 0.3 0.2 0.28 0.23",
+        "start_index": 27575,
+        "end_index": 27747
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-04wxi-v2 ORCID: https://orcid.org/0009-0001-8386-4976 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nComparison of Treatment of Chromium with all Natural Products at Harnouli for 1g/L",
+        "start_index": 27747,
+        "end_index": 27980
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Comparison of Treatment of Lead with all Natural Products\nSome glimpses from experimental work in laboratory of Punjab Daanish School Boys Mianwali\nMechanism of Bio sorbent with Sample",
+        "start_index": 27980,
+        "end_index": 28164
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Actually binding mechanism of Bio sorbent is based upon Bio sorption mechanism which is a complex process. Metal ions and natural product substance may occur through bio sorption i.e physical interaction and Vander Waals forces or any other type of association may occur. There are many functional groups present in these Biosorbents which are effective for adsorption phenomena for heavy metals.",
+        "start_index": 28164,
+        "end_index": 28560
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "FLOW SHEET DIAGRAM\n- COLLECTION OF PLANTS TO MAKE EFFECTIVE BIOSORBENT\n- DRIED PEELS TO MAKE THEIR POWDER\n- COLLECTION OF SEWAGE WATER SAMPLES\n- UNTREATED WATER SAMPLES SENT TO LABORATORY FOR ATOMIC ABSORPTION SPECTROSCOPY (AAS)\n- CLASSIFICATION OF WATER SAMPLES ACCORDING TO BIOSORBENT CONCENTRATION USED AND TIME",
+        "start_index": 28560,
+        "end_index": 28874
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "- ADDITION OF BIOSORBENT TO WATER SAMPLES\n- FILTERATION\n- TREATED SAMPLES SENT TO LABORATORY FOR ATOMIC ABSORPTION SPECTROSCOPY (AAS)\n- HANDLING AND ANALYSIS OF DATA\n- GRAPHICAL ANALYSIS\n- CONCLUSION\n- RECOMMENDATIONS AND APPLICATIONS\nConclusion",
+        "start_index": 28874,
+        "end_index": 29119
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "As we have discussed that our extract consists of three Bio-sorbents i.e Peels of Bitter apple, Persimmon and Cucumber. Through these experimental results, we conclude that by increasing amount of Bio-sorbents (1g,2g,3g), heavy metals are reduced effectively in given samples. Bitter apple shown too much positive and effective results as compared to Persimmon and Cucumber. Cucumber is the least effective material as compared to others.",
+        "start_index": 29119,
+        "end_index": 29557
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "48 hours treated sewage water samples of Bitter apple are most effective to reduce/remove heavy metals than 24hours. Persimmon also showed positive results to remove/reduce heavy metals from sewage water (as explained above in table and graph).",
+        "start_index": 29557,
+        "end_index": 29801
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Cucumber has shown strange property to remove/reduce heavy metals from sewage water. Results show that powder of peel of cucumber has reduced heavy metals more in short time period. It means by increasing the time duration of cucumber powder with sewage water, less absorption of heavy metals take place.\n\nRecommendation",
+        "start_index": 29801,
+        "end_index": 30121
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "From the results of experiments, we conclude that if we want to remove heavy metals from sewage water or any type of water. We can use powder of peels of Bitter apple, Persimmon and Cucumber. Actually this is a low cost method to purify water from toxic heavy metals",
+        "start_index": 30121,
+        "end_index": 30387
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". So, it is recommended that large amount of these bio-sorbents should be used to remove more heavy metals from water at large scale to safe the aquatic life or to make waste water safe for irrigation.",
+        "start_index": 30387,
+        "end_index": 30588
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "References\n\nAkpomie, K. G., & Conradie, J. (2020). Banana peel as a biosorbent for the decontamination of water pollutants. A review. *Environmental Chemistry Letters*, 18(4), 1085-1112.",
+        "start_index": 30588,
+        "end_index": 30774
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Alam, M., Khan, M., Khan, A., Zeb, S., Khan, M. A., ul Amin, N., Sajid, M., & Khattak, A. M. (2018). Concentrations, dietary exposure, and human health risk assessment of heavy metals in market vegetables of Peshawar, Pakistan. *Environmental monitoring and assessment*, 190(9), 1-15.",
+        "start_index": 30774,
+        "end_index": 31058
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Bolisetty, S., Peydayesh, M., & Mezzenga, R. (2019). Sustainable technologies for water purification from heavy metals: review and analysis. *Chemical Society Reviews*, 48(2), 463-487.",
+        "start_index": 31058,
+        "end_index": 31242
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Chaoua, S., Boussaa, S., El Gharmali, A., & Boumezzough, A. (2019). Impact of irrigation with wastewater on accumulation of heavy metals in soil and crops in the region of Marrakech in Morocco. *Journal of the Saudi Society of Agricultural Sciences*, 18(4), 429-436.",
+        "start_index": 31242,
+        "end_index": 31508
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Chaturvedi, S., & Dave, P. N. (2019). Water purification using nanotechnology an emerging opportunities. *Chemical Methodologies*, 3(1), 115-144.",
+        "start_index": 31508,
+        "end_index": 31653
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Chowdhary, P., Yadav, A., Singh, R., Chandra, R., Singh, D., Raj, A., & Bharagava, R. N. (2018). Stress response of Triticum aestivum L. and Brassica juncea L. against heavy metals growing at distillery and tannery wastewater\ncontaminated site. Chemosphere, 206, 122-131.",
+        "start_index": 31653,
+        "end_index": 31924
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Fu, Z., & Xi, S. (2020). The effects of heavy metals on human metabolism. Toxicology mechanisms and methods, 30(3), 167-176.\n\nGriebler, C., Avramov, M., & Hose, G. (2019). Groundwater ecosystems and their services: current status and potential risks. In Atlas of ecosystem services (pp. 197-203). Springer.",
+        "start_index": 31924,
+        "end_index": 32230
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Gutierrez, I. R., Tovar, A. K., & God\u00ednez, L. A. (2018). Sustainable Sorbent Materials Obtained from Orange Peel as an Alternative for Water Treatment. Wastewater and Water Quality, 201.",
+        "start_index": 32230,
+        "end_index": 32416
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Kamran, M., Malik, Z., Parveen, A., Huang, L., Riaz, M., Bashir, S., Mustafa, A., Abbasi, G. H., Xue, B., & Ali, U. (2020). Ameliorative effects of biochar on rapeseed (Brassica napus L.) growth and heavy metal immobilization in soil irrigated with untreated wastewater",
+        "start_index": 32416,
+        "end_index": 32685
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": ". Journal of Plant Growth Regulation, 39(1), 266-281.",
+        "start_index": 32685,
+        "end_index": 32738
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Kausley, S. B., Dastane, G. G., Kumar, J. K., Desai, K. S., Doltade, S. B., & Pandit, A. B. (2018). Clean Water for developing countries: feasibility of different treatment solutions. Encyclopedia of Environmental Health.",
+        "start_index": 32738,
+        "end_index": 32959
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Mallampati, R., Xuanjun, L., Adin, A., & Valiyaveetil, S. (2015). Fruit peels as efficient renewable adsorbents for removal of dissolved heavy metals and dyes from water. ACS Sustainable Chemistry & Engineering, 3(6), 1117-1124.",
+        "start_index": 32959,
+        "end_index": 33187
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Manzoor, J., Sharma, M., & Wani, K. A. (2018). Heavy metals in vegetables and their impact on the nutrient quality of vegetables: A review. Journal of plant Nutrition, 41(13), 1744-1763.",
+        "start_index": 33187,
+        "end_index": 33373
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Massoud, R., Hadiani, M. R., Hamzehlou, P., & Khosravi-Darani, K. (2019). Bioremediation of heavy metals in food industry: Application of Saccharomyces cerevisiae. Electronic Journal of Biotechnology, 37, 56-60.",
+        "start_index": 33373,
+        "end_index": 33584
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Meruvu, H. (2021). Introduction to Industrial Wastewater and Allied Treatment Technologies. In Biological Treatment of Industrial Wastewater (pp. 74-86).",
+        "start_index": 33584,
+        "end_index": 33737
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Obinna, I. B., & Ebere, E. C. (2019). A review: Water pollution by heavy metal and organic pollutants: Brief review of sources, effects and progress on remediation with aquatic plants. Analytical Methods in Environmental Chemistry Journal, 2(03), 5-38.",
+        "start_index": 33737,
+        "end_index": 33989
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Qadir, M., Tubeileh, A., Akhtar, J., Larbi, A., Minhas, P., & Khan, M. (2008). Productivity enhancement of salt-affected environments through crop diversification. Land degradation & development, 19(4), 429-453. 603-609. https://doi.org/10.3881/j.issn.1000-503x.10661",
+        "start_index": 33989,
+        "end_index": 34256
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Report received from Laboratory is attached as an ANNEXURE A.",
+        "start_index": 34256,
+        "end_index": 34317
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "ANNEXURE A\n\n**HEAVY METALS ANALYSIS REPORT**\n\nName of Customer: Muhammad Yasin (Science Teacher at Danish School)\n\nCommodity: Water Samples\n\nReceiving Date: 20-11-2019",
+        "start_index": 34317,
+        "end_index": 34484
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| Sample ID | Customer ID | Sample History | Result | Lead (Pb) ppm | Cadmium (Cd) ppm | Chromium (ppm) |\n|-----------|-------------|----------------|--------|---------------|------------------|----------------|\n| 1054      | Pipian      | Unknown History|        | 0.64          | ND               | 0.41           |",
+        "start_index": 34484,
+        "end_index": 34801
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1055      | Harnouli    | Unknown History|        | 0.37          | ND               | 0.72           |\n| 1056      | BP*1a       | Unknown History|        | 0.47          | ND               | 0.28           |\n| 1057      | BP*1b       | Unknown History|        | 0.41          | ND               | 0.23           |",
+        "start_index": 34801,
+        "end_index": 35118
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1058      | BP*2a       | Unknown History|        | 0.36          | ND               | 0.18           |\n| 1059      | BP*2b       | Unknown History|        | 0.29          | ND               | 0.14           |\n|          | BP*3a  | Unknown History | 0.22 | NIJ | 0.13 |",
+        "start_index": 35118,
+        "end_index": 35389
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "|----------|--------|----------------|------|-----|------|\n| foaf     | BP*3b  | Unknown History | 0.14 | NIJ | 0.10 |\n|          | H2a    | Unknown History | 0.27 | ND  | 0.58 |\n| 1062     |        |                |      |     |      |",
+        "start_index": 35389,
+        "end_index": 35626
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1063     | In*e*n Ilisiog | 0.24 | NIJ | 0.54 |\n| 10G4     | PH2a   | Unknown History | 0.19 | ND  | 0.42 |\n| 065      | PH2b   | Unknown History | 0.17 | ND  | 0.36 |",
+        "start_index": 35626,
+        "end_index": 35795
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "|          | PH3a   | Unknown history | g1$  | ND  | 0.34 |\n| i0G6     |        |                |      |     |      |\n| 1067     | PH3b   | Unknown History | a.12 | ND  | 0.29 |\n|          | PP*3a  | Unknown HiSIO  | 0.54 | ND  | 0.34 |",
+        "start_index": 35795,
+        "end_index": 36032
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 069      | r*ib   | Unknown History | 0.50 | ND  | 0.29 |\n| No. | Dated | PP*2a | Unknown History | 0.41 | N15 | 0.28 |\n|-----|-------|-------|----------------|------|-----|------|",
+        "start_index": 36032,
+        "end_index": 36214
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1071 |       | \"**\"  | **Unown /Isten | 0.37 | ND  | 0.25 |\n| 1072 |       | \"**\"  | Unknown History | 0.37 | ND  | 0.19 |\n| 1073 |       | \"3b   | Unknown HistoY | 0.24 |     | 0.16 |",
+        "start_index": 36214,
+        "end_index": 36400
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1074 |       | CH1a  | Unknown History | 0.32 | NU  | 0.61 |\n| 1075 |       | CH1h  | Unknown History | g yg | NU  | 0.65 |\n| 1076 |       | CH2a  | Unknown I-tStor\\ | 0.27 | ND  | 0.54 |",
+        "start_index": 36400,
+        "end_index": 36589
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1077 |       | CH2b  | Unknown History | 0.30 | ND  | 0.58 |\n|      |       | CH3a  | Unknown History | 0.25 | ND  | 0.47 |\n|      |       | CH3b  | Unknown History | 0.25 | ND  | 0.50 |",
+        "start_index": 36589,
+        "end_index": 36777
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "|     |                | 0.57 |   | 0.35 |\n|-----|----------------|------|---|------|\n| **CP**\\(^1\\)\\(_a\\) | Unknown History |      | ND |      |\n| **CP**\\(^1\\)\\(_b\\) | Unknown History | 0.62 | ND | 0.38 |",
+        "start_index": 36777,
+        "end_index": 36982
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "|     | **CP**\\(^2\\)\\(_a\\) | Unknown History | 0.49 | ND | 0.30 |\n| 1083 | **CP**\\(^2\\)\\(_b\\) | Unknown History | 0.53 | ND | 0.33 |\n|     | **CP**\\(^3\\)\\(_a\\) | Unknown History | 0.43 | ND | 0.27 |",
+        "start_index": 36982,
+        "end_index": 37180
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "| 1085 | **Cl**\\(^3\\)\\(_b\\) | Unknow History | p.kg | MD |      |\n|     | **BH**\\(_a\\) | Unknown History | a.23 | ND | 0.43 |\n|     | **8H**\\(_1\\)\\(_b\\) | Unknown History | 0.20 | ND | 0.37 |",
+        "start_index": 37180,
+        "end_index": 37371
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "|     | **BH**\\(_2\\)\\(_a\\) | Unknown History | 0.13 | ND | 0.25 |\n|     | **BH**\\(_2\\)\\(_b\\) | UnkOOWD History | 0.11 | WD | 0.20 |\nSample Prepared By: ____________________ Sample Analyzed By: ____________________",
+        "start_index": 37371,
+        "end_index": 37584
+    },
+    {
+        "document_name": "140.txt",
+        "chunk_text": "Agricultural officer                             Agricultural Officer\nPesticide Residue Laboratory                  Pesticide Residue Laboratory\nKala Shah Kaku                              Kala Shah Kaku\n\nReport Reviewed By: ____________________ Report Issued By: ____________________\n\nAgricultural officer                             Agricultural Officer\nPesticide Residue Laboratory                  Pesticide Residue laboratory\nKala Shah Kaku                              Kala Shah Kaku",
+        "start_index": 37584,
+        "end_index": 38073
+    }
+]

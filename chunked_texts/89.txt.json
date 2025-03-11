@@ -1,0 +1,848 @@
+[
+    {
+        "document_name": "89.txt",
+        "chunk_text": "\"Advanced Computational Insights into Ni(II) Schiff Base Complexes: Addressing Sluggish Kinetics and Stability Challenges in Oxygen Reduction Reaction Catalysis\"\n\nAuthor: Chidi Daniel Chukwu\n\nAffiliation: University of electronic Science and Technology of China\n\nABSTRACT",
+        "start_index": 0,
+        "end_index": 271
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The development of efficient and stable catalysts for the oxygen reduction reaction (ORR) remains a critical challenge in the pursuit of next-generation energy technologies. In this study, we designed and investigated a Ni (II) Schiff base complex as a potential solution to address the sluggish kinetics and stability limitations of ORR catalysts",
+        "start_index": 271,
+        "end_index": 618
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". A comprehensive computational approach was adopted, integrating ChemDraw for molecular modeling, DMol\u00b3 in Material Studio for electronic structure and catalytic property calculations, and MATLAB for precise overpotential analysis. The Ni (II) complex demonstrated a significantly lower overpotential (\u22120.55) compared to its Co(II) counterpart (\u22124.95), highlighting its superior catalytic efficiency and faster reaction kinetics",
+        "start_index": 618,
+        "end_index": 1047
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The Schiff base ligand, with its robust chelating ability and electronic tunability, facilitated the stabilization of intermediates and optimized the electronic properties of the Ni (II) center, enabling efficient electron transfer and intermediate transitions. Gibbs free energy calculations revealed a pathway with hydroperoxide (HO\u2082\u207b) as the first intermediate, further validating the thermodynamic feasibility and kinetic superiority of the Ni (II) complex",
+        "start_index": 1047,
+        "end_index": 1509
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". These findings underscore the Schiff base ligand as an ideal framework for designing high-performance catalysts and demonstrate the potential of the Ni (II) complex for ORR applications in fuel cells and metal-air batteries. This study provides valuable insights into leveraging computational tools for catalyst design and emphasizes the need for further exploration of Schiff base ligands in energy catalysis to address global energy demands.",
+        "start_index": 1509,
+        "end_index": 1954
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Keyword: Oxygen Reduction Reaction, Schiff Base, Metal Complex, Ligand, Reaction Kinetic, Catalyst Stability\n1.0 INTRODUCTION",
+        "start_index": 1954,
+        "end_index": 2079
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Schiff bases, named after Hugo Schiff, are imine-based ligands formed through the condensation reaction between primary amines and carbonyl compounds, typically aldehydes or ketones [1]. These highly versatile ligands exhibit pronounced chelating abilities, stabilizing a wide range of metal ions by forming robust coordination complexes [2]",
+        "start_index": 2079,
+        "end_index": 2420
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Their electronic tunability, structural diversity, and thermal stability make Schiff base-metal complexes indispensable in modern coordination chemistry, particularly in catalytic and electrocatalytic processes [3]. Among these, nickel (Ni) and cobalt (Co) Schiff base complexes have garnered significant attention due to their inherent redox-active centers, facile ligand-field modulations, and tailored coordination geometries, which collectively enhance their catalytic efficacy.",
+        "start_index": 2420,
+        "end_index": 2904
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The ORR, a cornerstone electrochemical process, underpins the functionality of various energy conversion and storage technologies, including proton-exchange membrane fuel cells (PEMFCs) and metal-air batteries [4]. ORR encompasses a kinetically complex multi-electron transfer process, reducing molecular oxygen to either water or hydroxide ions, depending on the electrolyte medium",
+        "start_index": 2904,
+        "end_index": 3286
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Its inherently sluggish kinetics, attributed to the high activation barrier required to cleave the O=O bond and coordinate proton-electron transfers, represents a formidable challenge to achieving optimal energy efficiency and operational performance in these systems [5].",
+        "start_index": 3286,
+        "end_index": 3560
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The role of ORR in energy technology is both pivotal and multifaceted. In PEMFCs, the cathodic ORR is the rate-determining step that directly influences the overall power density and energy efficiency of the system [6]. Likewise, in metal-air batteries, the ORR governs the discharge mechanism, significantly impacting the energy density, cycle life, and coulombic efficiency",
+        "start_index": 3560,
+        "end_index": 3935
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Developing high-performance catalysts for ORR is critical to addressing the escalating global demand for clean, sustainable, and cost-effective energy solutions, especially in the context of accelerating the transition to renewable energy and decarbonized energy systems.",
+        "start_index": 3935,
+        "end_index": 4208
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Historically, noble metals, particularly platinum (Pt) and its alloys, have set the benchmark for ORR catalysis due to their exceptional activity and selectivity [7]. However, their limitations, including exorbitant costs, scarcity, and susceptibility to poisoning by reaction intermediates, have catalyzed the search for earth-abundant alternatives [8]",
+        "start_index": 4208,
+        "end_index": 4561
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Transition metal complexes, particularly Ni (II) and Co (II) Schiff base complexes, have emerged as promising candidates for non-precious metal catalysts. These complexes exhibit remarkable catalytic activity attributed to their distinctive electronic configurations, facile redox cycling, and capability to stabilize oxygen intermediates. Their relatively low synthesis cost, combined with their tunable electronic and steric properties, positions them as viable alternatives to noble metals for sustainable ORR catalysis.",
+        "start_index": 4561,
+        "end_index": 5086
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Despite these advancements, significant challenges persist in enhancing catalytic turnover frequency and operational stability under real-world conditions. The intrinsic sluggish kinetics of ORR demands the design of catalysts with optimized active sites capable of reducing activation energy and facilitating efficient oxygen adsorption, activation, and bond dissociation [9]. Furthermore, many catalysts experience performance degradation due to insufficient electrochemical and structural stability in harsh operational environments",
+        "start_index": 5086,
+        "end_index": 5621
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Addressing these challenges necessitates innovative approaches in catalyst design, leveraging the unique structural flexibility and electronic adaptability of Schiff base-metal frameworks.",
+        "start_index": 5621,
+        "end_index": 5811
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "In this study, we present a novel model (Figure 1 a-f) catalyst comprising Ni (II) and Co (II) Schiff base complexes, engineered to overcome these kinetic and stability bottlenecks. By synergistically integrating rapid electron transfer kinetics with exceptional structural resilience, these complexes represent a breakthrough in ORR catalysis, paving the way for transformative advancements in energy conversion and storage technologies.",
+        "start_index": 5811,
+        "end_index": 6249
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "2.0 STABILITY OF SCHIFF BASE METAL COMPLEXES",
+        "start_index": 6249,
+        "end_index": 6293
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The stability of Schiff base metal complexes is intrinsically tied to the azomethine (-C=N-) functional group, a pivotal feature in their molecular framework. The azomethine bond, formed via the condensation of primary amines and carbonyl compounds, introduces a conjugated \u03c0-system that enhances the electron delocalization across the ligand backbone [10]",
+        "start_index": 6293,
+        "end_index": 6649
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This electronic conjugation stabilizes the Schiff base and facilitates its ability to act as a robust donor ligand in coordination chemistry. Additionally, the presence of the azomethine moiety contributes to the structural rigidity of the complex, limiting intramolecular rotations and vibrations that could destabilize the coordination framework [11]. The bond's propensity for hydrogen bonding and \u03c0-stacking interactions further fortifies the supramolecular stability of these complexes, enabling them to withstand varied chemical and physical conditions.",
+        "start_index": 6649,
+        "end_index": 7210
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The coordination of Schiff bases to metal centers plays a critical role in augmenting their stability, leveraging the chelating effect and ligand field stabilization energy. Through coordination, Schiff bases form strong covalent bonds with the central metal ion, resulting in a thermodynamically favorable complexation [12]",
+        "start_index": 7210,
+        "end_index": 7534
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The chelation process, often involving bidentate or polydentate Schiff bases, generates five- or six-membered metallacycles, which are inherently more stable due to reduced ring strain and enhanced electronic synergy between the ligand and metal center. Moreover, the nature of the metal ion\u2014its oxidation state, ionic radius, and electronic configuration\u2014further influences the stability, as higher oxidation states often lead to stronger metal-ligand interactions [13]",
+        "start_index": 7534,
+        "end_index": 8006
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The interplay of steric and electronic effects in the ligand architecture can also be tailored to maximize complex stability, making Schiff base metal complexes versatile entities in catalysis, material science, and bioinorganic chemistry.",
+        "start_index": 8006,
+        "end_index": 8247
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "2.1 Ni (II) and Co (II) Reactivity with Oxygen",
+        "start_index": 8247,
+        "end_index": 8293
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The reactivity of Co (II) toward oxygen is rooted in its electronic configuration and the associated orbital interactions. Co (II) typically possesses a $d^7$ electronic configuration, where its partially filled $t_{2g}$ and $e_g$ orbitals provide a versatile platform for engaging with oxygen molecules [14]",
+        "start_index": 8293,
+        "end_index": 8601
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The high-spin state of Co (II) often features unpaired electrons, which facilitate a strong affinity for paramagnetic oxygen due to spin-pairing interactions [15]. This capability is further amplified by the ability of Co (II) to transition between oxidation states, such as Co (III), during oxygen activation processes [16]",
+        "start_index": 8601,
+        "end_index": 8927
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The d-orbitals of Co (II) engage in \u03c0-back donation, stabilizing the bound oxygen molecule and enabling the cleavage of the O=O bond in catalytic applications like oxygen reduction and oxygen evolution reactions. This interplay of orbital symmetry and redox flexibility underpins the high reactivity of Co (II) with molecular oxygen.",
+        "start_index": 8927,
+        "end_index": 9262
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Ni (II), with its $d^8$ electronic configuration, exhibits a distinct reactivity profile toward oxygen, largely influenced by its electronic structure and coordination environment [17]. The fully filled",
+        "start_index": 9262,
+        "end_index": 9464
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "t_{2g} [18] orbitals and partially occupied e_g orbitals allow Ni (II) to stabilize oxygen intermediates through \u03c3-donation and \u03c0-back donation mechanisms. Unlike Co (II), Ni (II) typically operates in a low-spin configuration, resulting in fewer unpaired electrons and a slightly reduced direct affinity for paramagnetic oxygen. However, the higher ligand field stabilization energy in Ni (II) complexes can create a favorable environment for oxygen binding and activation [19]",
+        "start_index": 9464,
+        "end_index": 9942
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The interplay between ligand field effects and the d-orbital alignment in Ni (II) enhances its ability to stabilize peroxide and superoxide species, making it a critical player in catalytic processes involving oxygen, including ORR. This unique electronic framework enables Ni (II) to function effectively in synergistic catalytic systems, particularly when paired with complementary metal centers.",
+        "start_index": 9942,
+        "end_index": 10342
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "3.0 Computational Approach\n3.1 Gradient Descent assisted geometry optimization",
+        "start_index": 10342,
+        "end_index": 10420
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "DMol\u00b3 was used to calculate the geometry optimization of the system, employing the gradient descent method as the primary algorithm for minimizing the total energy of the system [20]. Geometry optimization aims to find the equilibrium configuration of a molecular or solid-state system, where the total potential energy is minimized, and the forces on all atoms approach zero. The gradient descent method iteratively updates the atomic positions along the direction of the steepest descent of the energy gradient",
+        "start_index": 10420,
+        "end_index": 10932
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Mathematically, the position of an atom at step n+1 is updated based on the gradient of the potential energy E with respect to its coordinates, expressed as in equation (1):",
+        "start_index": 10932,
+        "end_index": 11107
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "$$\\mathbf{R}_{n+1} = \\mathbf{R}_n - \\alpha \\nabla E$$\n\nwhere \\( \\mathbf{R}_n \\) is the position vector at step n\n\\( \\alpha \\) is the step size,\n\\( \\nabla E \\) is the gradient of the energy with respect to the atomic positions.",
+        "start_index": 11107,
+        "end_index": 11333
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "This approach ensures a progressive reduction in energy at each iteration, guiding the system towards its lowest energy configuration.",
+        "start_index": 11333,
+        "end_index": 11467
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "In the gradient descent method, convergence is achieved when the magnitude of the forces, \\( |\\nabla E| \\), falls below a predefined threshold, indicating that the atoms are near their equilibrium positions. To improve convergence efficiency, advanced implementations often include dynamic adjustments of the step size \\( \\alpha \\) to balance between stability and rapid convergence [21]",
+        "start_index": 11467,
+        "end_index": 11854
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". For systems with many degrees of freedom, the potential energy surface (PES) can exhibit local minima, and the algorithm is designed to avoid being trapped in these through careful initialization and adaptive corrections. The total potential energy is evaluated using density functional theory (DFT), and the forces (equation 2) are derived as the negative gradient of this energy,",
+        "start_index": 11854,
+        "end_index": 12237
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "$$\\mathbf{F} = -\\nabla E.$$  (2)\n\nThe iterative process in DMol\u00b3 continues until both the energy and the atomic forces meet the convergence criteria, ensuring the optimized geometry corresponds to a physically meaningful and energetically favorable configuration.\n3.2 Van der Waals and Electrostatic Calculation of the Rigid Adsorption Energy",
+        "start_index": 12237,
+        "end_index": 12579
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The Adsorption Locator in Materials Studio [21-23] calculates the rigid adsorption energy to evaluate how molecules interact with surfaces without considering structural relaxations. The rigid adsorption energy (equation 3), is defined as the energy difference between the total energy of the combined adsorbate-surface system and the sum of the energies of the isolated surface and adsorbate. This is expressed as:",
+        "start_index": 12579,
+        "end_index": 12994
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "\\[ E_{ads}^{Rigid} = E_{total} - (E_{surface} + E_{adsorbate}) \\]",
+        "start_index": 12994,
+        "end_index": 13059
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Here, \\( E_{total} \\) is the total energy of the system with the adsorbate in a fixed geometry on the surface, while \\( E_{surface} \\) and \\( E_{adsorbate} \\) are the energies of the isolated surface and adsorbate, respectively. This calculation enables an assessment of adsorption strength and interaction energy without altering the atomic positions.",
+        "start_index": 13059,
+        "end_index": 13411
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "To account for van der Waals (vdW) interactions [24], the Adsorption Locator employs dispersion-corrected methods or force-field approximations. The vdW energy (equation 4) is typically modeled using the Lennard-Jones potential:",
+        "start_index": 13411,
+        "end_index": 13639
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "\\[ E_{vdW} = 4\\varepsilon \\left[ \\left( \\frac{\\sigma}{r} \\right)^{12} - \\left( \\frac{\\sigma}{r} \\right)^{6} \\right] \\]  \n\nwhere \\( r \\) is the interatomic distance, \\( \\varepsilon \\) represents the potential well depth, and \\( \\sigma \\) is the distance at which the potential energy is zero.",
+        "start_index": 13639,
+        "end_index": 13930
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "This equation captures the balance between attractive and repulsive vdW forces, which are crucial for describing weak adsorption and physisorption phenomena. Incorporating vdW forces provides a detailed picture of non-covalent interactions between the adsorbate and surface.\n\n3.3 MATLAB-Assisted Overpotential Calculation",
+        "start_index": 13930,
+        "end_index": 14251
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The utilization of the MATLAB console in the calculation of overpotential is advantageous due to its substantial computational prowess and its adeptness in managing intricate equations, rendering it an expeditious and effective instrument. The MATLAB environment incorporates pre-defined functions that facilitate the resolution of electrochemical models, the graphical representation of current-voltage curves, and the execution of numerical optimizations, thereby rendering it a highly suitable platform for the analysis of overpotential",
+        "start_index": 14251,
+        "end_index": 14790
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The interactive nature of the MATLAB environment permits expeditious recalibrations, concurrently providing real-time visualizations of outcomes, thereby ensuring the efficiency and streamlining of the iterative process involved in the evaluation and optimization of electrochemical systems.",
+        "start_index": 14790,
+        "end_index": 15083
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Equation (5) was adopted in the calculation of the overpotential.\n\n\\[ \\eta = \\frac{\\Delta G_{ls}}{nF} - (E_0) \\]",
+        "start_index": 15083,
+        "end_index": 15195
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "where:\n\u0394\\(G_{ls}\\) is the Gibbs free energy of the rate-determining step.\nn is the number of electrons transferred in the step.\nF is the Faraday constant (96485 C).\n\\(E_0\\) is the equilibrium potential of the ORR\n\nThe code adopted for calculating the HER overpotential is given below;\n% MATLAB script to calculate ORR overpotential",
+        "start_index": 15195,
+        "end_index": 15526
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Constants\nF = 96485; % Faraday constant (C/mol)\nT = 298.15; % Temperature in Kelvin\nR = 8.314; % Gas constant (J/mol\u00b7K)\nU0 = 1.23; % Standard reduction potential for ORR (V)",
+        "start_index": 15526,
+        "end_index": 15701
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Input: Gibbs free energy changes (in eV) for each step in ORR\n% Replace these values with actual data for the Co(II) and Ni(II) complexes\ndeltaG_adsorption_Co = 0.10208; % Adsorption of O2 on Co(II) complex\ndeltaG_OOH_formation_Co = 0; % Formation of OOH intermediate on Co(II)",
+        "start_index": 15701,
+        "end_index": 15980
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "deltaG_OH_formation_Co = -4.94901; % Formation of OH intermediate on Co(II)\ndeltaG_OH_desorption_Co = -1.08904; % Desorption of OH intermediate on Co(II)\ndeltaG_adsorption_Ni = 0; % Adsorption of O2 on Ni(II) complex",
+        "start_index": 15980,
+        "end_index": 16196
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "deltaG_OOH_formation_Ni = -0.55367; % Formation of OOH intermediate on Ni(II)\ndeltaG_OH_formation_Ni = 0; % Formation of OH intermediate on Ni(II)\ndeltaG_OH_desorption_Ni = 0; % Desorption of OH intermediate on Ni(II)",
+        "start_index": 16196,
+        "end_index": 16413
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Function to calculate overpotential\ncalc_overpotential = @(deltaG_steps) U0 - min(deltaG_steps / F + U0);",
+        "start_index": 16413,
+        "end_index": 16520
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Calculate overpotentials for Co(II) and Ni(II) complexes\ndeltaG_steps_Co = [deltaG_adsorption_Co, deltaG_OOH_formation_Co, ...\n  deltaG_OH_formation_Co, deltaG_OH_desorption_Co] * F;\noverpotential_Co = calc_overpotential(deltaG_steps_Co);",
+        "start_index": 16520,
+        "end_index": 16760
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "deltaG_steps_Ni = [deltaG_adsorption_Ni, deltaG_OOH_formation_Ni, ...\n  deltaG_OH_formation_Ni, deltaG_OH_desorption_Ni] * F;\noverpotential_Ni = calc_overpotential(deltaG_steps_Ni);",
+        "start_index": 16760,
+        "end_index": 16941
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Display results\nfprintf('ORR Overpotential for Co(II) complex: %.2f V\\n', overpotential_Co);\nfprintf('ORR Overpotential for Ni(II) complex: %.2f V\\n', overpotential_Ni);",
+        "start_index": 16941,
+        "end_index": 17112
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "% Plot Gibbs free energy diagram (optional)\nfigure;\nhold on;\nbar(1:4, deltaG_steps_Co / F, 'FaceColor', 'b', 'DisplayName', 'Co(II) Complex');\nbar(1:4, deltaG_steps_Ni / F, 'FaceColor', 'r', 'DisplayName', 'Ni(II) Complex');\nxlabel('Reaction Step');",
+        "start_index": 17112,
+        "end_index": 17361
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "ylabel('Gibbs Free Energy Change (eV)');\nlegend('show');\ntitle('Gibbs Free Energy Diagram for ORR');\nhold off;",
+        "start_index": 17361,
+        "end_index": 17471
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Figure 1: (a) Predicted model of Co (II) and Ni (II) complex; (b) Structural atomic linkage (c) Bond length details (d) Bond length of Selected atoms (e) Coordination profile of Co (II) complex (f) Coordination profile of Ni (II) complex",
+        "start_index": 17471,
+        "end_index": 17708
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Figure 2: Co (II) metal complex density of state (b) Ni (II) metal complex density of state (c) Co (II) and Ni (II) free energy profile (d) Co (II) and Ni (II) overpotential profile\nFigure 3: Mulliken atomic Charge for Ni(II) and Co(II) Schiff base Metal Complexes\n4.0 RESULTS AND DISCUSSIONS",
+        "start_index": 17708,
+        "end_index": 18000
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.1 Ligand Bond Properties",
+        "start_index": 18000,
+        "end_index": 18026
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The observed alternating 120\u00b0 bond angles across the azomethine group in the Schiff base ligand are indicative of a planar sp\u00b2 hybridization, which is characteristic of imine functional groups. This planar geometry arises from the delocalization of \u03c0-electrons within the C=N bond, ensuring resonance stabilization throughout the ligand framework. The symmetrical arrangement of these angles reflects the electronic distribution around the azomethine group, minimizing steric hindrance and maximizing conjugative interactions",
+        "start_index": 18026,
+        "end_index": 18551
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Additionally, the 120\u00b0 angles are consistent with the trigonal planar geometry often associated with carbon and nitrogen atoms in sp\u00b2 hybridized systems, a feature critical for maintaining the structural integrity and electronic communication within the Schiff base ligand.",
+        "start_index": 18551,
+        "end_index": 18826
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The bond lengths of 1.1, 1.2, and 1.5 \u00c5 observed at the furan heterocyclic moiety reveal the nuanced electronic environment and conjugation in the Schiff base ligand. The shortest bond length of 1.1 \u00c5 likely corresponds to a double bond within the furan ring, emphasizing localized \u03c0-bond character, while the intermediate 1",
+        "start_index": 18826,
+        "end_index": 19150
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ".2 \u00c5 bond reflects a delocalized single-to-partial-double bond, characteristic of resonance stabilization in heterocyclic systems. The longest bond, 1.5 \u00c5, corresponds to a typical single bond, completing the aromatic framework of the furan ring. These variations in bond lengths signify the alternating electron density distribution within the ligand, a result of conjugative effects between the furan ring and the azomethine group",
+        "start_index": 19150,
+        "end_index": 19582
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This combination of bond length and angle uniformity contributes to the Schiff base ligand's structural rigidity, chemical stability, and suitability for coordination with metal centers.",
+        "start_index": 19582,
+        "end_index": 19770
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.1.1 Ligand Stability",
+        "start_index": 19770,
+        "end_index": 19792
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The observed alternating 120\u00b0 bond angles across the azomethine group and the precise bond lengths within the furan heterocyclic moiety strongly justify the intrinsic stability of the Schiff base ligand. The 120\u00b0 bond angles result from sp\u00b2 hybridization in the azomethine group, creating a planar geometry that minimizes steric repulsion and enhances resonance delocalization across the ligand framework",
+        "start_index": 19792,
+        "end_index": 20196
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This conjugative effect distributes electron density uniformly, thereby stabilizing the azomethine moiety against external perturbations such as protonation or oxidation. Furthermore, the planar configuration facilitates efficient \u03c0-\u03c0 stacking interactions and secondary bonding with metal centers, enhancing the ligand's stability when coordinated in complex systems.",
+        "start_index": 20196,
+        "end_index": 20566
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The variations in bond lengths (1.1, 1.2, and 1.5 \u00c5) within the pyran ring further contribute to the ligand's stability by maintaining an optimal balance between localized and delocalized bonding interactions. The shorter bonds, indicative of double bond character, and the intermediate bonds, signifying partial double bond character, provide resonance stabilization, while the single bonds maintain structural flexibility",
+        "start_index": 20566,
+        "end_index": 20989
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This alternating pattern of bond lengths ensures that the ligand remains chemically robust, resisting cleavage or rearrangement under varying environmental conditions [25]. Moreover, the synergistic interplay between the azomethine group and the Pyran ring enhances the ligand\u2019s ability to chelate metal ions, further bolstering its thermodynamic and kinetic stability in coordination complexes. These features make Schiff base ligands ideal for catalytic and electrocatalytic applications where structural integrity is paramount.",
+        "start_index": 20989,
+        "end_index": 21521
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.2 Electrical Properties",
+        "start_index": 21521,
+        "end_index": 21546
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.2.1 Atomic Charge",
+        "start_index": 21546,
+        "end_index": 21565
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The distinct spin (Figure 3; Table 1) states observed in the nickel and cobalt Schiff base complexes significantly influence their electrical properties [26], particularly their conductivity and redox behavior. The Ni(II) complex, with a no-spin (diamagnetic) configuration, arises from a fully paired $d^8$ electronic arrangement in a low-spin square planar geometry",
+        "start_index": 21565,
+        "end_index": 21932
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This results in a narrower band gap and diminished unpaired electron density, leading to reduced paramagnetic contributions and a more stabilized electronic structure. In contrast, the Co(II) complex exhibits a high-spin configuration with an unpaired spin density of 1.256, attributed to its $d^7$ electronic configuration in an octahedral or distorted geometry",
+        "start_index": 21932,
+        "end_index": 22296
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The presence of unpaired electrons enhances spin polarization, enabling stronger interaction with external fields and charge carriers, thereby increasing conductivity and spin-dependent electron transport. This disparity underscores the ability of the Co (II) complex to engage in more dynamic redox processes, while the Ni(II) complex remains electronically stable, favoring applications requiring low reactivity and minimal electronic noise.",
+        "start_index": 22296,
+        "end_index": 22741
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.2.2 Density of State",
+        "start_index": 22741,
+        "end_index": 22763
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The high density of states (DOS) clustered around the Fermi level in both nickel and cobalt Schiff base complexes (Figure 2 a&b) profoundly impacts their electrical and catalytic properties by dictating the availability of electronic states for charge transfer and reaction intermediates. In electronic terms, a dense DOS near the Fermi level implies a significant number of accessible energy states, enhancing the complexes' electrical conductivity by facilitating efficient electron mobility",
+        "start_index": 22763,
+        "end_index": 23256
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This property is particularly advantageous in electrocatalysis, as it allows for rapid electron exchange between the catalyst and reactants, thereby improving charge-transfer kinetics.",
+        "start_index": 23256,
+        "end_index": 23442
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Catalytically, the clustered peaks around the Fermi level suggest an optimized overlap between the metal $d$-orbitals and the ligand's $\\pi$-system [27], enabling robust adsorption and activation of reactant molecules, such as oxygen in ORR. For the Ni(II) complex, the balanced DOS around the Fermi level may favor stable binding of reaction intermediates, ensuring controlled catalytic turnover",
+        "start_index": 23442,
+        "end_index": 23838
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". In contrast, the Co(II) complex, with its high-spin configuration, benefits from enhanced spin-polarized DOS near the Fermi level, facilitating unpaired electron interactions critical for multi-electron reduction processes. This electronic structure not only promotes the dissociation of molecular oxygen but also stabilizes transition states, thereby reducing the activation energy and improving overall catalytic efficiency. These features collectively highlight the pivotal role of DOS characteristics in tuning the electronic and catalytic profiles of these metal complexes.",
+        "start_index": 23838,
+        "end_index": 24418
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.3 System Reactivity\n\n4.3.1 Zero Point Energy",
+        "start_index": 24418,
+        "end_index": 24464
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The progressive zero-point energy (ZPE) values (Table 2), combined with the free energy and overpotential data, reveal the superior catalytic efficiency of the Ni(II) complex compared to the Co(II) complex, which is further enhanced by the coordination effects of the Schiff base ligand. The consistently higher ZPE of the Ni(II) complex indicates stronger metal-ligand interactions,",
+        "start_index": 24464,
+        "end_index": 24847
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "with the Schiff base ligand playing a critical role in stabilizing the coordination environment. This stabilization arises from the ligand\u2019s electron-donating azomethine group and aromatic framework, which enhance electronic delocalization and strengthen the metal-ligand bond. These features reduce the free energy barriers for catalytic intermediates and contribute to the lower overpotential observed in the Ni (II) complex, making it more efficient in driving reactions such as the oxygen reduction reaction.",
+        "start_index": 24847,
+        "end_index": 25359
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "In contrast, the Co (II) complex, despite having a lower ZPE, suffers from a higher energy barrier and overpotential, which can be attributed to its coordination dynamics with the Schiff base ligand. While the ligand provides flexibility and adaptability through its chelating properties, the Co (II) complex\u2019s high-spin configuration results in weaker ligand field stabilization compared to Ni (II)",
+        "start_index": 25359,
+        "end_index": 25758
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This weaker coordination reduces the complex\u2019s ability to effectively stabilize intermediates, increasing the energy required for catalytic turnover. The Ni (II) complex, benefiting from a stronger ligand field interaction provided by the Schiff base, maintains a thermodynamically favorable pathway by effectively mediating electron transfer and lowering the activation energy. This synergistic interplay between the Schiff base ligand\u2019s coordination effects and the intrinsic electronic properties of Ni (II) underscores its superior catalytic performance over Co (II).",
+        "start_index": 25758,
+        "end_index": 26331
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.3.2 Reaction Kinetics and Rate Determining Stage",
+        "start_index": 26331,
+        "end_index": 26381
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The Co (II) complex follows a different thermodynamic profile, where hydroperoxide has zero Gibbs free energy, indicating it as the energetically neutral intermediate. However, the subsequent formation of hydroxide ion (OH\u207b) is highly exergonic, with a Gibbs free energy of -4.94901 kJol/Mol, implying a significant thermodynamic driving force but at the expense of requiring higher energy for preceding steps",
+        "start_index": 26381,
+        "end_index": 26790
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The intermediate oxygen radical (O*) has a Gibbs free energy of -1.08904 kJol/Mol, highlighting a higher energy barrier relative to the Ni (II) pathway. Additionally, molecular oxygen O\u2082 with a Gibbs free energy of 0.10208 kJol/Mol points to a less favorable adsorption process compared to Ni (II)",
+        "start_index": 26790,
+        "end_index": 27089
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The elevated energy barriers in the Co (II) pathway indicate a less efficient reaction mechanism with a higher overpotential and slower kinetics.",
+        "start_index": 27089,
+        "end_index": 27236
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The Ni (II) complex, with its lower energy requirements and absence of significant thermodynamic hurdles, demonstrates superior rate-determining properties. The direct formation of hydroperoxide as an energetically favorable intermediate minimizes the activation energy, allowing for efficient electron transfer and intermediate stabilization. In contrast, the Co (II) complex\u2019s pathway, while thermodynamically feasible, suffers from suboptimal energy profiles that hinder catalytic performance",
+        "start_index": 27236,
+        "end_index": 27731
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". These distinctions underscore the Ni (II) complex's suitability as an ORR catalyst, driven by its low Gibbs free energy barriers and favorable intermediate formation, ultimately resulting in faster reaction kinetics and improved efficiency.",
+        "start_index": 27731,
+        "end_index": 27973
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4.4 Tafel characters and Overpotential\n\nThe overpotential (Figure 2d; Table 3) values of the Co(II) and Ni(II) Schiff base complexes, -4.95V and -0.55V, respectively, significantly impact their rate-determining steps and overall reaction kinetics in the ORR. Overpotential reflects the extra energy required beyond the\nthermodynamic minimum to drive the reaction, directly influencing the catalytic efficiency and speed.",
+        "start_index": 27973,
+        "end_index": 28393
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "For the Co (II) complex, the high overpotential (~4.95V) indicates a substantial energy barrier for initiating and propagating the reaction. This high barrier suggests suboptimal binding of intermediates, particularly the hydroxyl ion (OH\\(^-\\)) and oxygen atom (O*) which are critical in the mechanistic pathway. The excessive energy required to overcome this barrier slows down the reaction kinetics, making the rate-determining step energetically prohibitive and less efficient",
+        "start_index": 28393,
+        "end_index": 28873
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". Additionally, the pronounced overpotential may cause higher energy dissipation, further reducing the catalytic turnover frequency.",
+        "start_index": 28873,
+        "end_index": 29005
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "In contrast, the Ni (II) complex exhibits a significantly lower overpotential (~0.55V), signifying an energetically favorable pathway with minimal resistance to electron and proton transfer processes. The lower overpotential corresponds to a well-balanced adsorption and desorption profile of ORR intermediates, particularly hydroperoxide (HO\\(_2^-\\)), which is the first intermediate in the Ni (II) pathway",
+        "start_index": 29005,
+        "end_index": 29412
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". This efficient energy profile ensures that the rate-determining step proceeds with minimal energy input, thereby accelerating the reaction kinetics and enhancing the catalytic activity. The reduced overpotential not only lowers the activation energy for intermediate transitions but also aligns the catalytic process more closely with the thermodynamic ideal, resulting in superior catalytic performance.",
+        "start_index": 29412,
+        "end_index": 29818
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Generally, the Co (II) complex\u2019s high overpotential hinders its kinetic efficiency, slowing the reaction and increasing energy losses, while the Ni(II) complex, with its low overpotential, demonstrates a faster, more efficient catalytic cycle due to reduced energy barriers and optimized intermediate stabilization. This underscores the critical role of overpotential in determining the rate and efficiency of ORR catalysis.\n5.0 CONCLUSION",
+        "start_index": 29818,
+        "end_index": 30257
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The results unequivocally establish the Ni (II) Schiff base complex as an ideal catalyst for the ORR, demonstrating superior catalytic efficiency, faster reaction kinetics, and a lower overpotential compared to its Co (II) counterpart. The optimized interaction between the Ni (II) center and the Schiff base ligand contributes to the complex's enhanced stability, efficient electron transfer, and precise intermediate stabilization, critical factors for achieving high-performance ORR catalysis",
+        "start_index": 30257,
+        "end_index": 30752
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The ability of the Schiff base ligand to modulate the electronic structure of the Ni (II) center further enables the reduction of energy barriers and facilitates the rate-determining steps, making it a prime candidate for next-generation energy conversion and storage technologies.",
+        "start_index": 30752,
+        "end_index": 31035
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "The Schiff base ligand, with its versatile azomethine group, tunable steric properties, and strong chelating capabilities, emerges as an ideal scaffold for designing advanced catalysts. Its ability to stabilize transition metal centers while allowing for electronic delocalization and redox activity provides a robust platform for enhancing catalytic performance. Such structural and electronic versatility positions Schiff base ligands as key components in the development of sustainable and efficient catalysts for critical reactions like ORR",
+        "start_index": 31035,
+        "end_index": 31579
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": ". The promise shown by the Ni (II) Schiff base complex underscores the importance of further research in this domain. A deeper exploration of Schiff base ligands, including functionalized derivatives and their coordination to various metal centers, could unlock new pathways for advancing clean energy solutions and addressing global energy challenges.",
+        "start_index": 31579,
+        "end_index": 31931
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "|     | Ni(II) | Co(II) |\n|-----|--------|--------|\n|     | Charge | Spin   | Charge | Spin |\n| C   | -0.221 | 0      | -0.217 | 0    |\n| C   | -0.212 | 0      | -0.205 | -0.001 |",
+        "start_index": 31931,
+        "end_index": 32110
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | -0.266 | 0      | -0.267 | 0    |\n| C   | 0.129  | 0      | 0.137  | 0    |\n| C   | 0.124  | 0      | 0.127  | 0    |\n| C   | -0.258 | 0      | -0.264 | -0.001 |",
+        "start_index": 32110,
+        "end_index": 32279
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | -0.345 | 0      | -0.354 | -0.001 |\n| C   | 0.309  | 0      | 0.302  | 0.001 |\n| C   | -0.059 | 0      | 0.019  | -0.001 |\n| C   | -0.326 | 0      | -0.334 | -0.002 |",
+        "start_index": 32279,
+        "end_index": 32453
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | 0.45   | 0      | 0.511  | 0.003 |\n| N   | -0.446 | 0      | -0.517 | -0.004 |\n| O   | -0.483 | 0      | -0.493 | 0.001 |\n| N   | -0.222 | 0      | -0.181 | 0.017 |",
+        "start_index": 32453,
+        "end_index": 32625
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | 0.415  | 0      | 0.368  | -0.121 |\n| C   | -0.778 | 0      | -0.756 | -0.011 |\n| C   | -0.528 | 0      | -0.535 | 0.014 |\n| C   | 0.375  | 0      | 0.371  | -0.035 |",
+        "start_index": 32625,
+        "end_index": 32799
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | -0.368 | 0      | -0.357 | 0.01  |\n| C   | 0.377  | 0      | 0.377  | -0.036 |\n| O   | -0.398 | 0      | -0.425 | 0.003 |",
+        "start_index": 32799,
+        "end_index": 32928
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| C   | 0.523  | 0      | 0.542  | -0.033 |\n| O   | -0.349 | 0      | -0.297 | 0.001 |\n| C   | -0.728 | 0      | -0.726 | 0.003 |\n| O   | -0.403 | 0      | -0.38  | -0.023 |",
+        "start_index": 32928,
+        "end_index": 33101
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| O   | -0.571 | 0      | -0.575 | 0    |\n| M   | 0.149  | 0      | 0.069  | 1.256 |\n| H   | 0.209  | 0      | 0.202  | 0    |\n| H   | 0.21   | 0      | 0.205  | 0    |",
+        "start_index": 33101,
+        "end_index": 33269
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| H   | 0.21   | 0      | 0.204  | 0    |\n| H   | 0.206  | 0      | 0.197  | 0    |\n| H   | 0.228  | 0      | 0.219  | 0    |\n| H   | 0.219  | 0      | 0.191  | 0    |",
+        "start_index": 33269,
+        "end_index": 33436
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| H   | 0.364  | 0      | 0.373  | -0.001 |\n| H   | 0.257  | 0      | 0.235  | 0    |\n| H   | 0.283  | 0      | 0.244  | -0.008 |",
+        "start_index": 33436,
+        "end_index": 33565
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| H   | 0.259  | 0      | 0.293  | -0.007 |\n| H   | 0.222  | 0      | 0.259  | -0.043 |\n| H   | 0.232  | 0      | 0.229  | -0.001 |",
+        "start_index": 33565,
+        "end_index": 33696
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| H   | 0.247  | 0      | 0.245  | 0    |\n| H   | 0.237  | 0      | 0.244  | 0    |\n| Metal | Zero Point Energy | | | |\n|------|------------------|---|---|---|\n|      | Cobalt | Nickel |     |     |",
+        "start_index": 33696,
+        "end_index": 33894
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| 1    | 62.149 | 62.912 |     |     |\n| 2    | 71.522 | 75.099 |     |     |\n| 3    | 79.037 | 85.57 |     |     |\n| 4    | 85.885 | 95.057 |     |     |",
+        "start_index": 33894,
+        "end_index": 34048
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Table 2: Thermodynamic Zero point of the Schiff base metal complexes Metal",
+        "start_index": 34048,
+        "end_index": 34122
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "|         | HOO*\u0394G  | OH-\u0394G  | O*\u0394G  | O2-2\u0394G | Overpotential |\n|---------|---------|--------|-------|--------|--------------|\n| Co(II)  | 0       | -4.949 | -1.089 | 0.102  | -4.955       |",
+        "start_index": 34122,
+        "end_index": 34312
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "| Ni(II)  | -0.55367| 0      | 0     | 0      | -0.55        |",
+        "start_index": 34312,
+        "end_index": 34374
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "Table 3: Free Energy, Overpotential Characters\n6.0 REFERENCES",
+        "start_index": 34374,
+        "end_index": 34435
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "1. Islam, M. H., & Hannan, M. A. (2024). Schiff Bases: Contemporary Synthesis, Properties, and Applications.",
+        "start_index": 34435,
+        "end_index": 34543
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "2. Dzhardimalieva, G. I., & Ulfyand, I. E. (2018). Design strategies of metal complexes based on chelating polymer ligands and their application in nanomaterials science. *Journal of Inorganic and Organometallic Polymers and Materials*, 28, 1305-1393.",
+        "start_index": 34543,
+        "end_index": 34794
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "3. Akitsu, T. (Ed.). (2023). *Schiff Base in Organic, Inorganic and Physical Chemistry*. BoD\u2013Books on Demand.",
+        "start_index": 34794,
+        "end_index": 34903
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "4. Song, Y., Gu, P., Liu, J., Sun, H., Cai, Z., Li, J., ... & Zou, J. (2024). Navigating the developments of air-cathode catalysts for efficient and sustainable bio-energy production from wastewater in microbial fuel cells. *Coordination Chemistry Reviews*, 517, 216019.",
+        "start_index": 34903,
+        "end_index": 35173
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "5. Yang, H., An, N., Kang, Z., Menezes, P. W., & Chen, Z. (2024). Understanding Advanced Transition Metal-Based Two Electron Oxygen Reduction Electrocatalysts from the Perspective of Phase Engineering. *Advanced Materials*, 2400140.",
+        "start_index": 35173,
+        "end_index": 35405
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "6. Song, Y., Gu, P., Liu, J., Sun, H., Cai, Z., Li, J., ... & Zou, J. (2024). Navigating the developments of air-cathode catalysts for efficient and sustainable bio-energy production from wastewater in microbial fuel cells. *Coordination Chemistry Reviews*, 517, 216019.",
+        "start_index": 35405,
+        "end_index": 35675
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "7. Nakaya, Y., & Furukawa, S. (2022). Catalysis of alloys: classification, principles, and design for a variety of materials and reactions. *Chemical Reviews*, 123(9), 5859-5947.\n8. Hernandez, J. (2024). Earth Abundant Catalyst For Environmental Sustainability Applications. *Earth*, 2024, 05-01.",
+        "start_index": 35675,
+        "end_index": 35971
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "9. Shi, L., Zhang, Q., Yang, S., Ren, P., Wu, Y., & Liu, S. (2024). Optimizing the Activation Energy of Reactive Intermediates on Single-Atom Electrocatalysts: Challenges and Opportunities. *Small Methods*, 2301219.",
+        "start_index": 35971,
+        "end_index": 36186
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "10. Yusof, E. N. B. M. (2019). *Synthesis, Structural Characterization and Cytotoxicity Study of Tin (IV) Compounds Containing ONS Schiff Bases* (Doctoral dissertation, The University of Newcastle).",
+        "start_index": 36186,
+        "end_index": 36384
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "11. Afrin, A., Pothulapadu, C. A. S., & Rose, A. (2024). Glowing discoveries: Schiff base-cyanostilbene probes illuminating metal ions and biological entities. *Analytical Methods*.\n12. Through coordination, Schiff bases form strong covalent bonds with the central metal ion, resulting in a thermodynamically favorable complexation.",
+        "start_index": 36384,
+        "end_index": 36716
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "13. Kuppuraj, G., Dudev, M., & Lim, C. (2009). Factors governing metal\u2013ligand distances and coordination geometries of metal complexes. *The journal of physical chemistry B*, 113(9), 2952-2960.",
+        "start_index": 36716,
+        "end_index": 36909
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "14. Sun, S., Zhang, Y., Shi, X., Sun, W., Felser, C., Li, W., & Li, G. (2024). From Charge to Spin: An In-Depth Exploration of Electron Transfer in Energy Electrocatalysis. *Advanced Materials*, 2312524.",
+        "start_index": 36909,
+        "end_index": 37112
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "15. Zhang, Y., Wu, Q., Seow, J. Z. Y., Jia, Y., Ren, X., & Xu, Z. J. (2024). Spin states of metal centers in electrocatalysis. *Chemical Society Reviews*.",
+        "start_index": 37112,
+        "end_index": 37266
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "16. Gao, L., Cui, X., Sewell, C. D., Li, J., & Lin, Z. (2021). Recent advances in activating surface reconstruction for the high-efficiency oxygen evolution reaction. *Chemical Society Reviews*, 50(15), 8428-8469.",
+        "start_index": 37266,
+        "end_index": 37479
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "17. Schenker, R., Mandimutsira, B. S., Riordan, C. G., & Brunold, T. C. (2002). Spectroscopic and Computational Studies on [(PPhT t Bu)Ni2 (\u03bc-O)2]: Nature of the Bis-\u03bc-oxo (Ni3+) 2 \u201cDiamond\u201d Core. *Journal of the American Chemical Society*, 124(46), 13842-13855.",
+        "start_index": 37479,
+        "end_index": 37741
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "18. Tan, H., Ji, Q., Wang, C., Duan, H., Kong, Y., Wang, Y., ... & Yan, W. (2022). Asymmetrical \u03c0 back-donation of hetero-dicationic Mo4+-Mo6+ pairs for enhanced electrochemical nitrogen reduction. *Nano Research*, 15(4), 3010-3016.",
+        "start_index": 37741,
+        "end_index": 37973
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "19. Power, P. P. (2012). Stable two-coordinate, open-shell (d1\u2013d9) transition metal complexes. *Chemical Reviews*, 112(6), 3482-3507.\n20. Chatterjee, A., & Chatterjee, M. (2011). Computational Designing of Gradient-Type Catalytic Membrane. *Industrial Applications of Molecular Simulations*, 23.",
+        "start_index": 37973,
+        "end_index": 38268
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "21. Zhuang, J., Tang, T., Ding, Y., Tatikonda, S. C., Dvornek, N., Papademetris, X., & Duncan, J. (2020). Adabellief optimizer: Adapting stepsizes by the belief in observed gradients. *Advances in neural information processing systems*, 33, 18795-18806.",
+        "start_index": 38268,
+        "end_index": 38521
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "22. Song, L., Liu, W., Xin, F., & Li, Y. (2021). \"Materials Studio\" simulation study of the adsorption and polymerization mechanism of sodium silicate on active silica surface at different temperatures. *International Journal of Metalcasting*, 15, 1091-1098.",
+        "start_index": 38521,
+        "end_index": 38779
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "23. Issa, A. A., Kamel, M. D., & El-Sayed, D. S. (2024). Depicted simulation model for removal of second-generation antipsychotic drugs adsorbed on Zn-MOF: adsorption locator assessment. *Journal of Molecular Modeling*, 30(4), 106.",
+        "start_index": 38779,
+        "end_index": 39010
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "24. Halgren, T. A. (1992). The representation of van der Waals (vdW) interactions in molecular mechanics force fields: potential form, combination rules, and vdW parameters. *Journal of the American Chemical Society*, 114(20), 7827-7843.",
+        "start_index": 39010,
+        "end_index": 39247
+    },
+    {
+        "document_name": "89.txt",
+        "chunk_text": "25. Shieh, P., Hill, M. R., Zhang, W., Kristufek, S. L., & Johnson, J. A. (2021). Clip chemistry: diverse (bio)(macro) molecular and material function through breaking covalent bonds. *Chemical Reviews*, 121(12), 7059-7121.",
+        "start_index": 39247,
+        "end_index": 39470
+    }
+]

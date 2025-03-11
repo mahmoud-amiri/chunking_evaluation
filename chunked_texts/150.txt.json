@@ -1,0 +1,1166 @@
+[
+    {
+        "document_name": "150.txt",
+        "chunk_text": "MANUSCRIPT\n\nSolvent Reorganization in Stabilized Protein-Polymer Conjugates Visualized by 2D IR and NMR Spectroscopy\n\nRaiza Maia1,\u2020, Xiaobing Chen1,\u2020, Emma Mulry2, Matthew T. Eddy2,*, and Carlos R. Baiz1,*",
+        "start_index": 0,
+        "end_index": 205
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "1Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, USA\n2Department of Chemistry, University of Florida, Gainesville, Florida 32611, USA\n\u2020Authors contributed equally\n\n*Corresponding authors: cbaiz@cm.utexas.edu and matthew.eddy@ufl.edu\nABSTRACT",
+        "start_index": 205,
+        "end_index": 475
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "PEGylation is essential for effective function of biologics, shielding them from rapid degradation and clearance in the complex environment of the human body. Despite its significance, a mechanistic understanding of PEGylation\u2019s role in enhancing protein stability is incomplete, limiting the ability to design PEGylated proteins with predictable properties",
+        "start_index": 475,
+        "end_index": 832
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Solvation, a well-known driving force in protein folding and stability, is hypothesized to play a central role in protein stabilization via PEGylation, but molecular mechanisms underlying solvent-driven stabilization are not well understood. Here, we investigated solvent dynamics and the interactions of solvent with the PEGylated carbohydrate recognition domain of human Galectin-3 (Gal3C) in aqueous solutions",
+        "start_index": 832,
+        "end_index": 1246
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Two-dimensional infrared (2D IR) spectroscopy, which captures subpicosecond molecular ensembles, revealed polymer-length dependent differences in protein dynamics and solvent dynamics for PEGylated Gal3C. Slower solvent dynamics correlated with increased conjugate thermal stability",
+        "start_index": 1246,
+        "end_index": 1530
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Complementing these data, multi-dimensional NMR spectroscopy provided evidence that Gal3C conjugated to longer PEG forms a non-covalent interaction \u201cshroud\u201d, which correlated with changes in dynamics of the solvent and protein backbone. Molecular dynamics (MD) simulations supported an interpretation of the experimental results that PEGylation did not reduce the protein\u2019s solvent accessible surface area",
+        "start_index": 1530,
+        "end_index": 1937
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The integration of these data challenge the idea that PEGylation stabilizes conjugated proteins by dehydrating a protein\u2019s surface. Instead, these data support a mechanism whereby PEGylation improves protein stability by stabilizing the protein\u2019s solvation shell. These insights offer guidance for optimizing polymer length to achieve the desired thermal stability in biologics.",
+        "start_index": 1937,
+        "end_index": 2317
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "INTRODUCTION",
+        "start_index": 2317,
+        "end_index": 2329
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Biologics are one of the fastest-growing sectors in the pharmaceutical industry, accounting for over 40% of all FDA-approved oncology drugs from 2000 to 2022 and have predominant roles in the development of biomarkers and many other disease treatments. However, the molecular complexity providing their target specificity also makes biologics more vulnerable and less robust than small molecules",
+        "start_index": 2329,
+        "end_index": 2724
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". One of the most promising approaches to improving the stability of biologics is chemical conjugation with polymers, particularly poly(ethylene glycol) (PEG), to form protein-polymer conjugates. While PEGylation has been shown to improve pharmacokinetic properties and prolong therapeutic efficacy of biologics, its effects on protein stability and activity have been unpredictable, with studies reporting both an improvement and reduction in stability",
+        "start_index": 2724,
+        "end_index": 3177
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Further, much of the knowledge surrounding PEGylation's effects remains empirical rather than mechanistically understood. These challenges underscore the need for predictive models that elucidate the molecular mechanisms governing PEGylation-driven protein stabilization.",
+        "start_index": 3177,
+        "end_index": 3450
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Solvent interactions with proteins are well known to be among the most important driving forces in protein folding and unfolding. In line with this view, growing evidence suggests that PEGylation enhances the thermal stability of conjugated proteins by modifying the solvation network surrounding the protein and altering its solvent-accessible surface area (SASA). Computational simulations with PEGylated polypeptides and small proteins observed that PEGylation-drive increase in protein stability correlated with a reduction in SASA",
+        "start_index": 3450,
+        "end_index": 3985
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". A combined experimental and computational study of a PEGylated small protein Pin1 indicated that PEGylation increased the disorder of water molecules in the protein solvation shell. Coupled to this question is the related question of the extent of interaction between the protein and polymer and how the two are spatially organized. In general, two models are frequently invoked to describe PEG-protein interactions: the \"dumbbell model\" and the \"shroud model",
+        "start_index": 3985,
+        "end_index": 4446
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".\" These models differ in the extent of interaction between the protein and conjugated polymer. In the dumbbell model, the protein and covalently attached PEG remain loosely connected and behave as largely independent molecules.",
+        "start_index": 4446,
+        "end_index": 4674
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "In contrast, the shroud model adopts more persistent and extensive protein-PEG interactions, forming a more interwoven conformation.\\textsuperscript{16,30,31} We hypothesize that the more extensive protein-polymer interactions in the shroud model have a greater impact on the protein\u2019s solvation network, thereby conferring greater stability to the conjugated protein.",
+        "start_index": 4674,
+        "end_index": 5042
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To test this hypothesis, we study the dynamics and solvent interactions of the PEGylated carbohydrate recognition domain of human Galectin-3 (Gal3C), a human \u03b2-galactoside-binding lectin that plays a significant role in cell adhesion\\textsuperscript{32} and potential cancer biology",
+        "start_index": 5042,
+        "end_index": 5324
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".\\textsuperscript{33,34} Our investigation compared Gal3C conjugated with PEG molecules of two different molecular weights, 550 Da and 5 kDa, to investigate the relationship between the conjugated polymer and properties of the conjugated protein",
+        "start_index": 5324,
+        "end_index": 5569
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Combining data from two-dimensional infrared (2D IR) spectroscopy, nuclear magnetic resonance (NMR) spectroscopy, and molecular dynamics (MD) simulations, we compared the impact of the different-sized PEG molecules on the properties of conjugated Gal3C to test their effects on solvent accessibility and conjugate thermal stabilization",
+        "start_index": 5569,
+        "end_index": 5906
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". A unique strength of 2D IR spectroscopy is its ability to capture ultrafast molecular processes, which are leveraged to directly investigate protein-solvent interactions, solvent exposure, and the dynamics and organization of solvation networks surrounding proteins.\\textsuperscript{35} We used 2D IR to investigate how PEGylation altered the backbone of conjugated Gal3C and investigate the impact of PEGylation on protein-solvent interactions and solvent exposure",
+        "start_index": 5906,
+        "end_index": 6373
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". NMR spectroscopy provided complementary insights into the influence of conjugated PEG on the protein backbone at slower timescales and was also used to quantify the diffusion properties of PEGylated Gal3C. These measurements enabled us to correlate changes in solvation networks with the dumbbell and shroud models of protein-PEG interactions",
+        "start_index": 6373,
+        "end_index": 6717
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". MD simulations further complemented our experimental data by visualizing the conjugated polymer and providing a global characterization of solvation environments and backbone flexibility\\textsuperscript{36\u201338}. Together, these integrated approaches enabled us to correlate polymer length with changes in the solvation network of the conjugated",
+        "start_index": 6717,
+        "end_index": 7062
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "protein and its stability, providing mechanistic insights into the intentional design of protein-polymer conjugates with predictable properties.",
+        "start_index": 7062,
+        "end_index": 7206
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "RESULTS AND DISCUSSION\n\nConjugation of Gal3C with a PEG polymer.",
+        "start_index": 7206,
+        "end_index": 7270
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To examine the impact of PEG on the conformational dynamics and solvent organization of conjugated Gal3C, we compared unconjugated Gal3C with two Gal3C conjugates, each linked to poly(ethylene glycol) (PEG) of molecular weight of either 550 Da or 5 kDa, referred to here as Gal3C-PEG 550 Da or Gal3C-PEG 5 kDa, respectively",
+        "start_index": 7270,
+        "end_index": 7593
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Gal3C PEGylation was performed using maleimide-functionalized PEG, which reacted specifically with a single extrinsic cysteine at position 243 in Gal3C[T243C]. We refer to this modified protein as Gal3C throughout the text",
+        "start_index": 7593,
+        "end_index": 7817
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Gal3C-PEG 5 kDa was prepared according to previously reported protocols, while Gal3C-PEG 550 Da was prepared using a similar protocol, substituting maleimide-PEG 5K with a functionalized maleimide-PEG starting material of 550 Da (Section S1).",
+        "start_index": 7817,
+        "end_index": 8061
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Due to the inability to resolve unconjugated Gal3C and Gal3C-PEG 550 Da via gel filtration chromatography, PEGylation efficiency of Gal3C-PEG 550 Da was measured using fluorescence spectroscopy with the thiol-reactive fluorescent dye N-[4-(7-diethylamino-4-methyl-3-coumarinyl)phenyl]maleimide (CPM)",
+        "start_index": 8061,
+        "end_index": 8360
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". By measuring the fluorescence spectra of Gal3C-PEG 550 Da in the presence of CPM, we determined that >85% of Gal3C was successfully conjugated following the reaction protocol described in Section S1 (Figure S1)",
+        "start_index": 8360,
+        "end_index": 8572
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". To test the activity of Gal3C-PEG 550 Da we recorded tryptophan fluorescence spectra to quantify the binding affinity of lactose to Gal3C-PEG 550 Da and compared this to binding affinity of lactose to Gal3C and Gal3C-PEG 5 kDa (Figure S2). The observed $K_d$",
+        "start_index": 8572,
+        "end_index": 8832
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "values for lactose to Gal3C, Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa were essentially identical, confirming that Gal3C-PEG 550 Da retained native activity (Figure S2).",
+        "start_index": 8832,
+        "end_index": 8996
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To assess the impact of PEG 550 Da conjugation on the thermal stability of Gal3C, we recorded circular dichroism (CD) spectra from 200 to 280 nm (Figure S3)",
+        "start_index": 8996,
+        "end_index": 9152
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". CD spectra of Gal3C-PEG 550 Da at 30 \u00baC which were consistent with a well-folded protein containing mostly \u03b2-sheet secondary structure and are at most only marginally different from CD spectra of Gal3C and Gal3C-PEG 5 kDa recorded at the same temperature (Figure S3)",
+        "start_index": 9152,
+        "end_index": 9420
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Temperature-dependent CD spectra recorded with Gal3C-PEG 550 Da showed a single cooperative unfolding transition with an apparent T_m of ~58 \u00baC with a \u03bb_min of 225 nm. The thermal unfolding behavior of Gal3C-PEG 550 Da was highly similar to that of Gal3C but contrasted starkly to the thermal unfolding behavior of Gal3C-PEG 5 kDa",
+        "start_index": 9420,
+        "end_index": 9752
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Consistent with earlier findings, thermal unfolding of Gal3C-PEG 5 kDa showed two separate unfolding transitions and the formation of an intermediate conformation, as evidenced by a shift in \u03bb_min from 225 to 215 nm (Figure S3). This stark contrast in the thermal unfolding behavior between Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa motivated a deeper investigation into the molecular mechanisms underlying these distinct unfolding pathways.",
+        "start_index": 9752,
+        "end_index": 10190
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "A \u2018shroud-like\u2019 protein-polymer conformation is observed for Gal3C PEGylated with PEG5K but not with PEG 550 Da.",
+        "start_index": 10190,
+        "end_index": 10302
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The extent of interaction between the protein and polymer affects the diffusion behavior of the protein-polymer conjugate. For the dumbbell model, minimal interaction allows the protein and polymer to behave as independent molecules, and we would predict that the diffusion behavior of such a system would be nearly identical to the unconjugated protein. In contrast, for the shroud model, more extensive protein-polymer interactions would decrease the rate of diffusion of the system relative to the unconjugated protein",
+        "start_index": 10302,
+        "end_index": 10823
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Thus, by measuring the diffusion properties of the conjugated protein, it is possible to distinguish between the two proposed models. NMR spectroscopy can be used to quantify the diffusion properties of conjugates.",
+        "start_index": 10823,
+        "end_index": 11039
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "by measuring the rotational correlation time ($\\tau_c$) of the conjugated protein. We determined $\\tau_c$ values by measuring the $^{15}$N longitudinal ($T_1$) and transverse ($T_2$) relaxation times of the backbone. This approach has been used to quantitatively determine rotational correlation times for globular proteins up to ~25 kDa\\textsuperscript{39,40}.",
+        "start_index": 11039,
+        "end_index": 11400
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Previously, we determined the $\\tau_c$ values for Gal3C and Gal3C\u2013PEG 5 kDa (Section S3) and showed that PEGylation increased the rotational correlation time of Gal3C from 10.6 (\u00b10.7) ns to 12.0 (\u00b10.8) ns",
+        "start_index": 11400,
+        "end_index": 11604
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". This was consistent with observed increased line broadening in $^{15}$N-edited $^1$H NMR spectra of Gal3C\u2013PEG 5 kDa and an increased transverse relaxation time. The increased $\\tau_c$ value for Gal3C\u2013PEG 5 kDa was interpreted as supporting a shroud-like conformation of the polymer within the protein-polymer conjugate.",
+        "start_index": 11604,
+        "end_index": 11925
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Here, we tested whether the shorter chain PEG in conjugated Gal3C-PEG 550 Da also formed a shroud-like conformation by measuring the $\\tau_c$ value for Gal3C-PEG 550 Da. Unlike Gal3C\u2013PEG 5 kDa, we determined a $\\tau_c$ value for Gal3C-PEG 550 Da to be 10.6 (\u00b11",
+        "start_index": 11925,
+        "end_index": 12185
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".0) ns, which is similar to the $\\tau_c$ value measured for Gal3C and significantly shorter than the $\\tau_c$ value measured for Gal3C\u2013PEG 5 kDa (Figure 1, Section S3)",
+        "start_index": 12185,
+        "end_index": 12352
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The similar $\\tau_c$ values for Gal3C and Gal3C-PEG 550 Da are consistent with similar linewidths observed in their respective $^{15}$N-edited $^1$H NMR spectra (Figure S4). Together, these data support a shroud-like model for Gal3C\u2013PEG 5 kDa and a more dumbbell-like model for Gal3C-PEG 550Da.",
+        "start_index": 12352,
+        "end_index": 12648
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Figure 1. Rotational diffusion rates of Gal3C, Gal3C-PEG 5kDa, and Gal3C-PEG 550 Da. (A) Rotational correlation times ($\\tau_c$) of Gal3C (blue), Gal3C-PEG 550 Da (green) and Gal3C-PEG 5 kDa (pink) at 30 \u00b0C determined from $^{15}$N relaxation",
+        "start_index": 12648,
+        "end_index": 12890
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". (B) Global $^{15}$N longitudinal relaxation times ($T_1$) of amide groups in the structured core of Gal3C, Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa",
+        "start_index": 12890,
+        "end_index": 13035
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". (C) Global $^{15}$N transverse relaxation times ($T_2$) of amide groups in the structured core of Gal3C, Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa. Solid circles represent normalized integral values obtained for each relaxation delay, and the solid lines are the non-linear regression used to quantify $T_1$ and $T_2$",
+        "start_index": 13035,
+        "end_index": 13349
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Dotted lines indicate 95% confidence intervals from the regression procedure. The $T_1$ and $T_2$ values are computed and presented in Table S1.",
+        "start_index": 13349,
+        "end_index": 13495
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "As shown in previous NMR studies of PEGylated proteins, 2D $[^{15}$N,${^{1}}$H]-heteronuclear single quantum correlation (HSQC) spectra can reveal the impact of PEGylation on the protein backbone conformation and dynamics, as manifested by changes in chemical shifts or line broadening upon PEGylation",
+        "start_index": 13495,
+        "end_index": 13796
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". To observe the extent to which PEGylation with the shorter, 550 Da polymer impacted conjugated Gal3C structure and dynamics, we recorded 2D $[^{15}$N,${^{1}}$H]-HSQC spectra of Gal3C\u2013PEG 550 Da at 30 \u00b0C (Figure S4)",
+        "start_index": 13796,
+        "end_index": 14012
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". $[^{15}$N,${^{1}}$H]-HSQC spectra of Gal3C\u2013PEG 550 Da were well dispersed, consistent with a well-folded protein as expected from the CD measurements",
+        "start_index": 14012,
+        "end_index": 14163
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Comparison of the $[^{15}$N,${^{1}}$H]-HSQC spectra of [u-$^{15}$N] Gal3C\u2013PEG 550 Da with [u-$^{15}$N] Gal3C and [u-$^{15}$N] Gal3C\u2013PEG 5 kDa showed that the spectra",
+        "start_index": 14163,
+        "end_index": 14330
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "largely overlapped, indicating that conjugation with PEG 550 Da did not change the overall folding of Gal3C (Figure S4). We also compared these data with HSQC spectra of \\([u^{15}N]\\) Gal3C\u2013PEG 550 Da to Gal3C conjugated with N-methylmaleimide without PEG, \\([u^{15}N]\\) Gal3C\u2013NMM. These spectra were also largely overlapped",
+        "start_index": 14330,
+        "end_index": 14654
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The high resolution and dispersion of the HSQC spectra facilitated a more detailed comparison of the chemical shifts and linewidths among \\([u^{15}N]\\) Gal3C, \\([u^{15}N]\\) Gal3C\u2013PEG 550 Da and \\([u^{15}N]\\) Gal3C\u2013PEG 5 kDa",
+        "start_index": 14654,
+        "end_index": 14879
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". By comparing chemical shift perturbations between Gal3C and Gal3C\u2013PEG 550 Da, we observed that conjugation with PEG 550 Da resulted in minor perturbations, primarily localized to the conjugation site, indicating that conjugation with PEG 550 Da resulted in only minor perturbations to the Gal3C backbone (Figure 2)",
+        "start_index": 14879,
+        "end_index": 15195
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Except for one residue near position 220, we observed at most only minimal line broadening, typically less than 20 Hz, across all residues in spectra of Gal3C\u2013PEG 550 Da.",
+        "start_index": 15195,
+        "end_index": 15367
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "In contrast to these observations, more pronounced differences were observed when comparing HSQC spectra of Gal3C and Gal3C\u2013PEG 5 kDa. Conjugation of Gal3C with PEG 5 kDa resulted in larger chemical shift perturbations, particularly between residues 134\u2013140, 193\u2013200, 219, and 249",
+        "start_index": 15367,
+        "end_index": 15647
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Additionally, Gal3C\u2013PEG 5 kDa exhibited more extensive line broadening, with most residues showing increased line broadening of \\(\\geq 20\\) Hz, and residues near the conjugation site showing greater line broadening of \\(\\geq 40\\) Hz",
+        "start_index": 15647,
+        "end_index": 15881
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Together, the HSQC data and rotational diffusion measurements for Gal3C\u2013PEG 550 Da and Gal3C\u2013PEG 5 kDa suggest that the longer PEG chain interacts more extensively with Gal3C, influencing both residue-level conformation and dynamics, as well as macromolecular diffusion properties",
+        "start_index": 15881,
+        "end_index": 16163
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". These findings support a model in which Gal3C\u2013PEG 5 kDa adopts a shroud-like conformation, whereas Gal3C\u2013PEG 550 Da assumes a more dumbbell-like structure.",
+        "start_index": 16163,
+        "end_index": 16320
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Figure 2. Histogram of the chemical shift perturbations (green and pink bars) and line broadening (purple bars) observed for (A) Gal3C relative to Gal3C-PEG 550 Da, (B) Gal3C relative to Gal3C-PEG 5 kDa as a function of the residue position.",
+        "start_index": 16320,
+        "end_index": 16561
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "2D IR reveals PEGylation-induced protein conformational and environmental changes on ultrafast timescales.",
+        "start_index": 16561,
+        "end_index": 16667
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "We investigated the impact of PEGylation on the conformation and environment around the Gal3C backbone on ultrafast timescales by recording 2D IR spectra of Gal3C, Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa with two waiting times of 150 fs and 1400 fs shown in Figure 3",
+        "start_index": 16667,
+        "end_index": 16930
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The amide I band, corresponding to the backbone amide I stretching mode, provides insights into changes to the global protein structure and environment, and is used to determine the impact of PEGylation",
+        "start_index": 16930,
+        "end_index": 17134
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The 2D spectra of unconjugated Gal3C, Gal3C-PEG 550 Da and Gal3C-PEG 5 kDa show one pair of major peaks along the diagonal, where the red and blue colors represent positive or negative peaks, corresponding to transitions from ground to first excited, or first-to-second excited states respectively",
+        "start_index": 17134,
+        "end_index": 17433
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". In all spectra, an elongated peak shape across the amide I stretching region is observed with two main peak centers near 1630 and 1680 cm\\(^{-1}\\), corresponding...",
+        "start_index": 17433,
+        "end_index": 17599
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "to the anti-parallel and parallel \u03b2-sheet vibrations, respectively\\textsuperscript{35} (Figure 4). Notably, the positive peak elongation is more pronounced for Gal3C-PEG 550 Da compared to unconjugated Gal3C, and this elongation is further enhanced for Gal3C-PEG 5 kDa",
+        "start_index": 17599,
+        "end_index": 17867
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". This trend is observed at both waiting times of 150 fs and 1400 fs, the peak elongation introduced by PEGylation could be related to three main factors: the increase of structural heterogeneity and/or the solvent exposure, energy transfer among the amide I modes",
+        "start_index": 17867,
+        "end_index": 18131
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The more intense elongation in the positive peak for Gal3C-PEG 5 kDa implies that the long PEG chain would induce more significant conformational flexibility and/or solvent interaction compared to the small PEG chain. Additionally, at short waiting time ($t_2$) such as 150 fs (Figure 3, left), the peak is diagonally elongated, indicating strong correlation between excitation and detection frequencies",
+        "start_index": 18131,
+        "end_index": 18536
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". This correlation is lost at longer $t_2$ due to the effects mentioned above (Figure 3, right, Figures S5-S7).",
+        "start_index": 18536,
+        "end_index": 18647
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Amide I absorption spectra report on backbone structure. Here we computed the pump slice amplitude (PSA) from the 2D IR spectra at 150 fs to extract features comparable to FTIR spectra. In brief, PSA analysis projects a 1D spectrum at each excitation frequency and computes the difference between the maxima and the minima of a series of pump-probe slices\\textsuperscript{42}",
+        "start_index": 18647,
+        "end_index": 19022
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". We selected a waiting time of 150 fs to avoid pulse-overlap artifacts while ensuring that peak shapes remained unaffected by energy dissipation, which occurs at longer waiting times. The PSAs of both Gal3C and Gal3C\u2013PEG 550 Da exhibit a maximum around 1630 cm\\textsuperscript{-1} (Figure 4A)",
+        "start_index": 19022,
+        "end_index": 19315
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Relative to Gal3C and Gal3C\u2013PEG 550 Da, the maximum of Gal3C\u2013PEG 5 kDa shows a 5 cm\\textsuperscript{-1} redshift, likely indicating an increase in antiparallel \u03b2-sheet structures or changes in the backbone dihedral angles that lower the vibrational frequency",
+        "start_index": 19315,
+        "end_index": 19575
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Both Gal3C\u2013PEG 550 Da and Gal3C\u2013PEG 5 kDa exhibit broader lineshapes from 1650 to 1680 cm\\textsuperscript{-1} compared to Gal3C, but this is more pronounced for Gal3C\u2013PEG 5 kDa. These findings indicate that PEGylation, particularly with the long",
+        "start_index": 19575,
+        "end_index": 19822
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "PEG chain (5 kDa), increases the structural heterogeneity, likely due to increased flexibility and solvent exposure in \u03b2-turn/loop regions of the backbone.\\textsuperscript{43}",
+        "start_index": 19822,
+        "end_index": 19997
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "**Figure 3.** 2D IR spectra of Gal3C, Gal3C\u2013PEG 550 Da and Gal3C\u2013PEG 5 kDa at two selected waiting times, $t_2 = 150$ and $t_2 = 1400$ fs, as indicated in the panels.",
+        "start_index": 19997,
+        "end_index": 20163
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Figure 4. 2D IR spectral analysis for protein structure and dynamics. (A) PSA at waiting time of 150 fs for Gal3C[T243C], Gal3C[T243C] \u2013 PEG 550 Da and Gal3C[T243C] \u2013 PEG 5 kDa. (B) Relaxation time constants extracted from the exponential fits of CLS analysis",
+        "start_index": 20163,
+        "end_index": 20422
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Fitting parameters were evaluated through a bootstrapping technique to estimate the standard error of the fits. The error bars are the standard errors of the time constants estimated from the standard deviation of the fitted curves. (C) CLS decay as a function of the waiting time. The CLS curves fit to a monoexponential function (dashed lines). See Section S4 for details of CLS analysis.",
+        "start_index": 20422,
+        "end_index": 20814
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Conjugation with longer PEG alters the Gal3C surface solvation network.",
+        "start_index": 20814,
+        "end_index": 20885
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The 2D IR lineshape evolution for the three systems under investigation were analyzed using center line slope (CLS) analysis (Figure 4B and C). The CLS is obtained by identifying the detection frequencies (vertical axis) with the ridge of maximum intensity along the excitation axis (horizontal axis) and then fitting a linear slope through these points (Section S4)",
+        "start_index": 20885,
+        "end_index": 21251
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The CLS decays fit well to a monoexponential function (Figure 4C), serving as an experimental measure of the frequency\u2013frequency correlation function (FFCF). More specifically, FFCF reflects the decorrelation between excitation and detection frequencies with waiting time, capturing the environmental fluctuations along the backbone. The CLS analyses indicate similar decay time constants for Gal3C and Gal3C-PEG 550 Da, but Gal3C-PEG 5 kDa shows a",
+        "start_index": 21251,
+        "end_index": 21701
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "decay almost twice as slow as that of the other two proteins. These results suggest that the long PEG chain significantly slows the local dynamics, while the short PEG chain has minor influence on dynamics.",
+        "start_index": 21701,
+        "end_index": 21907
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The picosecond frequency fluctuations extracted from 2D IR can report on the hydrogen bond (H-bond) dynamics between the amide group and surrounding water molecules.\\(^{47-49}\\) The origins of these effects on PEGylated protein dynamics could be due to multiple reasons including the more restricted fluctuations of the residues upon polymer contact, backbone dehydration, and less mobile water around the backbone. The different outcomes of short and long PEG chains appear to indicate different configuration models",
+        "start_index": 21907,
+        "end_index": 22424
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". It is most likely that the long PEG adopts a \u201cshroud\u201d model where the contact of PEG chains with certain protein residues can disrupt H-bond rearrangements around the protein. Hence, the reorientation of water molecules necessary for H-bond exchange may be restricted by the PEG chain. This disruption can prolong C=O\u2013water H-bond lifetimes, potentially causing slower H-bond reorganization around the protein",
+        "start_index": 22424,
+        "end_index": 22835
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". However, based solely on the experimental results, it is difficult to pinpoint and visualize the main factor for the slower dynamics in Gal3C-PEG 5 kDa.",
+        "start_index": 22835,
+        "end_index": 22989
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "**MD simulations help elucidate and visualize the structure and environment of Gal3C proteins.**",
+        "start_index": 22989,
+        "end_index": 23085
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To test the \u201cshroud\u201d model hypothesis with respect to the altered local environment along the protein backbone, molecular dynamics (MD) simulations were performed for three systems: Gal3C, Gal3C-PEG 600 Da and Gal3C-PEG 5 kDa",
+        "start_index": 23085,
+        "end_index": 23310
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The root mean squared displacement (RMSD) of protein residues was computed to assess the equilibrium of the simulated proteins, which shows that the structure reaches a stable state for the last 30 ns out of the 100 ns trajectory (**Figure S8**). As a result, all structural analyses were conducted using the final 30 ns of the trajectory",
+        "start_index": 23310,
+        "end_index": 23650
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". To visualize the effects of the short and long PEG chain, the modeled structures of the PEGylated Gal3C are shown in **Figure 5A**. More views of these modeled structures are shown in **Figure S9**. In the case of the short PEG, only a small region around the conjugation site of residue 243 is covered, resembling the protein wearing a \u201chat\u201d. In contrast, PEG 5 kDa is highly",
+        "start_index": 23650,
+        "end_index": 24028
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "flexible and long enough to cover a substantial portion of the protein surface, particularly the back and sides, giving the appearance of a \u201cbackpack\u201d. Consequently, Gal3C-PEG 5 kDa has more \u201cshrouding\u201d features, with a greater potential for global effects on the protein backbone, for example, dehydration, protection, and shielding from the external environment.",
+        "start_index": 24028,
+        "end_index": 24392
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "**Figure 5.** A summary of important results from MD analysis. (A) Ten snapshots taken from the MD trajectories every 10 ns for both Gal3C\u2013PEG 550 Da and Gal3C\u2013PEG 5 kDa were superimposed. PEG chains are shown in the pink surface representation, while the yellow, purple and green colors represent the \u03b2-sheet, random coil/turn and \u03b1-helical secondary structure of Gal3C, respectively (ribbon representation)",
+        "start_index": 24392,
+        "end_index": 24800
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". (B) Contact probability (%) between PEG and each Gal3C residue was computed with a cutoff distance of 0.35 nm. (C) HB lifetime analysis and associated fittings for the correlation functions of hydrogen bond number. Details of the MD analysis are described in Section S5.",
+        "start_index": 24800,
+        "end_index": 25072
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To gain further insights into the contacts between the protein and PEG chains, the minimum distance from the PEG chain to each protein residue was computed. The cutoff distance is set to be 0.35 nm, meaning when the PEG-residue distance is below 0.35 nm, it is considered as direct contact",
+        "start_index": 25072,
+        "end_index": 25361
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The contact probability for each residue is then calculated as the number of MD frames when it is in contact with PEG over the total number of frames (**Figure 5B**). This analysis shows that atoms in the long PEG chain exhibit more sustained interactions with protein residues than those in the short PEG chain. These differences are evident",
+        "start_index": 25361,
+        "end_index": 25705
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "for the residues between 131-141, 191-202, 214-216 and 241-250 (Figure 5B), this is in alignment with the chemical shift perturbations measured by NMR, where the strongest perturbations were expected around residues 134-140, 193-200, 219 and 249 (Figure 2)",
+        "start_index": 25705,
+        "end_index": 25961
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". In addition, the long PEG chain not only has a higher probability of staying in contact with the protein but also maintains these interactions for a longer duration compared to the short PEG chain (Figure S10). Notably, the contacts between the long PEG chain and protein are especially prolonged for residues 131-141 and 191-202 (Figure S10).",
+        "start_index": 25961,
+        "end_index": 26306
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The root mean squared fluctuations (RMSF) of the protein residues was computed and compared between Gal3C before and after PEGylation to test the theory of PEGylation effects on protein mobility (Figure S11). For both PEG 600Da and 5KDa, most of the protein residues display lower fluctuations, meaning PEGylation introduces a global constraint across the whole protein",
+        "start_index": 26306,
+        "end_index": 26675
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". To visualize the effects of PEGylation on the protein fluctuations, the color-coded modeled structures of Gal3C-PEG 600 Da and -PEG 5 kDa are shown in Figure S12. The results show that the front (sugar-binding surface) and back of the protein are minimally affected by PEGylation, while parts of the side \u03b2-sheets and most of the random coils experience more restricted mobility due to the presence of the PEG chain",
+        "start_index": 26675,
+        "end_index": 27092
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Although PEG 5 kDa shows more pronounced restriction effects than PEG 600 Da, the affected residues are largely overlapping between the two structures. Therefore, the difference between short and long PEG in the results of NMR and 2D IR is unlikely due to the mobility restrictions imposed by PEGylation.",
+        "start_index": 27092,
+        "end_index": 27398
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "*Conjugation with longer PEG does not dehydrate the protein surface but alters solvent dynamics and the lifetimes of protein-solvent interactions.*",
+        "start_index": 27398,
+        "end_index": 27545
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "To test the impact of PEGylation on solvent exposure of the Gal3C backbone, we computed the solvent accessible surface area (SASA) for the three systems (Figure S13). Overall, the effects of PEGylation on protein hydration are quite diverse depending on the position of the residues. In agreement with NMR data\\(^{16}\\), the protein sugar-binding pocket surface was minimally affected by the PEG chain.",
+        "start_index": 27545,
+        "end_index": 27947
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Though the changes in residue hydration are more prominent in PEG 5 kDa, the altered residues largely overlap between the two PEGylated proteins. We quantified the total number of hydrogen bonds between water and the backbone. Interestingly, the H-bond number of Gal3C, Gal3C-PEG 600 Da and Gal3C-PEG 5 kDa were all similar at 77.1, 76.5, and 76.4, respectively",
+        "start_index": 27947,
+        "end_index": 28308
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". This indicates that conjugation with a longer PEG does not dehydrate the protein surface and supports the notion that the differences observed in the behavior of Gal3C-PEG 5 kDa, compared to Gal3C-PEG 600 Da and unconjugated Gal3C in 2D IR and NMR experiments, are not attributable to replacement of water molecules.\\textsuperscript{39,40,36\u201338}",
+        "start_index": 28308,
+        "end_index": 28655
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The H-bond lifetime, averaged among all the H-bonds formed between protein amide groups and the nearby water molecules (Figure 5C), quantifies effects of PEGylation on water dynamics around protein backbone. The H-bond autocorrelation exhibits a decay constant on the picosecond scale, which is associated with the process of H-bond formation and dissociation",
+        "start_index": 28655,
+        "end_index": 29014
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".\\textsuperscript{50,51} Short PEG chain causes a ~10% slowdown in the lifetime while the long PEG chain leads to a ~30% slowdown, as compared to unconjugated Gal3C (Table S3). In the dynamics analysis of 2D IR above, the frequency fluctuations in the amide I vibrational range can be interpreted as related to the rapid H-bond fluctuations between protein amide groups and nearby water molecules",
+        "start_index": 29014,
+        "end_index": 29410
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".\\textsuperscript{47\u201349} The computed H-bond lifetime confirms our measurements of perturbed H-bond fluctuations upon PEGylation, as evidenced by the extended H-bond lifetimes computed from MD simulations",
+        "start_index": 29410,
+        "end_index": 29614
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Moreover, the time scales of computed H-bond lifetimes are comparable to the relaxation time extracted from CLS analysis of 2D IR, where the slowdown in H-bond lifetime qualitatively agrees with the slower dynamics observed in the 2D IR experiments for Gal3C-PEG 5 kDa (Figure 4B).",
+        "start_index": 29614,
+        "end_index": 29897
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "CONCLUSIONS",
+        "start_index": 29897,
+        "end_index": 29908
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "The 2D IR measurements and MD simulations support a model in which PEGylation stabilizes Gal3C by reorganizing solvent dynamics within the surrounding protein solvent shell without any measurable changes to the protein secondary structure. Neither 2D IR nor MD simulations detected",
+        "start_index": 29908,
+        "end_index": 30189
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "evidence for PEGylation-driven desolvation of the protein surface or significant differences in the SASA among Gal3C, Gal3C-PEG 550 and Gal3C-PEG 5k. While the SASA was investigated in the present study at picosecond to nanosecond timescales, our findings align with earlier observations from NMR spectroscopy data that showed PEGylation did not alter the SASA of Gal3C over longer timescales",
+        "start_index": 30189,
+        "end_index": 30581
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". The present conclusions appear to differ with those from earlier computational studies and hydrogen-deuterium exchange experiments that reported PEGylation reduced the conjugated protein\u2019s SASA. Instead, we observed that PEGylation slows solvent dynamics surrounding the surface of Gal3C, with the magnitude of this effect correlating with the length of the conjugated polymer",
+        "start_index": 30581,
+        "end_index": 30959
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". PEGylation-driven slowing of solvent dynamics correlated with the formation of a shroud-like protein-PEG conformation and with the increased thermal stability and redirection of the Gal3C unfolding pathway. By integrating experimental and computational approaches across multiple timescales, 2D IR and MD simulations for fast solvent dynamics, and NMR spectroscopy for slower protein-polymer interactions, we not only validate the accuracy of the simulations but also reveal a mechanistic link between polymer length and conjugate stability",
+        "start_index": 30959,
+        "end_index": 31501
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Our findings suggest that a minimum polymer length is required to sufficiently slow protein-solvent dynamics and enhance stability, providing criteria for the intentional design of stabilized conjugates.",
+        "start_index": 31501,
+        "end_index": 31706
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "**Data Availability Statement:** The data supporting this article have been included as part of the Supplementary Information.\n\n**Supporting Information:** The Supporting Information contains protein expression and characterization protocols including circular dichroism, and NMR spectroscopy. The SI also contains experimental details of the 2D IR measurements along with measured 2D IR spectra and analyses. The SI also contains details of the MD simulations and analysis of the trajectories.\n\n**ACKNOWLEDGEMENTS**",
+        "start_index": 31706,
+        "end_index": 32222
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "This work was supported by the National Institutes of Health (R35GM133359), and the Welch Foundation (F-1891). Simulations were run on the Lonestar6 cluster at the Texas Advanced Computing Center.",
+        "start_index": 32222,
+        "end_index": 32418
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Center (TACC). M.T.E. and E.M. were supported by an NSF CAREER award 2339330 through the Division of Materials Research. A portion of this work was supported by the McKnight Brain Institute at the National High Magnetic Field Laboratory\u2019s AMRIS Facility, which is funded by the National Science Foundation Cooperative Agreement No. DMR-1644779.",
+        "start_index": 32418,
+        "end_index": 32762
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "REFERENCES",
+        "start_index": 32762,
+        "end_index": 32772
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(1) Pham, J. V.; Yilma, M. A.; Feliz, A.; Majid, M. T.; Maffetone, N.; Walker, J. R.; Kim, E.; Cho, H. J.; Reynolds, J. M.; Song, M. C.; Park, S. R.; Yoon, Y. J. A Review of the Microbial Production of Bioactive Natural Products and Biologics",
+        "start_index": 32772,
+        "end_index": 33014
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Front Microbiol 2019, 10 (JUN). https://doi.org/10.3389/fmicb.2019.01404.",
+        "start_index": 33014,
+        "end_index": 33089
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(2) Anselmo, A. C.; Gokarn, Y.; Mitragotri, S. Non-Invasive Delivery Strategies for Biologics. Nature Reviews Drug Discovery. Nature Publishing Group December 28, 2018, pp 19\u201340. https://doi.org/10.1038/nrd.2018.183.",
+        "start_index": 33089,
+        "end_index": 33305
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(3) Scott, E. C.; Baines, A. C.; Gong, Y.; Moore, R.; Pamuk, G. E.; Saber, H.; Subedee, A.; Thompson, M. D.; Xiao, W.; Pazdur, R.; Rao, V. A.; Schneider, J.; Beaver, J. A. Trends in the Approval of Cancer Therapies by the FDA in the Twenty-First Century. Nature Reviews Drug Discovery",
+        "start_index": 33305,
+        "end_index": 33589
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". 2023. https://doi.org/10.1038/s41573-023-00723-4.",
+        "start_index": 33589,
+        "end_index": 33640
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(4) Pasut, G.; Veronese, F. M. State of the Art in PEGylation: The Great Versatility Achieved after Forty Years of Research. Journal of Controlled Release. July 20, 2012, pp 461\u2013472. https://doi.org/10.1016/j.jconrel.2011.10.037.",
+        "start_index": 33640,
+        "end_index": 33869
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(5) Grace, M. J.; Lee, S.; Bradshaw, S.; Chapman, J.; Spond, J.; Cox, S.; DeLorenzo, M.; Brassard, D.; Wylie, D.; Cannon-Carlson, S.; Cullen, C.; Indelicato, S.; Voloch, M.; Bordens, R",
+        "start_index": 33869,
+        "end_index": 34053
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Site of Pegylation and Polyethylene Glycol Molecule Size Attenuate Interferon-\u03b1 Antiviral and Antiproliferative",
+        "start_index": 34053,
+        "end_index": 34166
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Activities through the JAK/STAT Signaling Pathway. *Journal of Biological Chemistry* **2005**, *280* (8), 6327\u20136336. https://doi.org/10.1074/jbc.M412134200.",
+        "start_index": 34166,
+        "end_index": 34322
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(6) Milton Harris, J.; Chess, R. B. Effect of Pegylation on Pharmaceuticals. *Nature Reviews Drug Discovery*. March 2003, pp 214\u2013221. https://doi.org/10.1038/nrd1033.",
+        "start_index": 34322,
+        "end_index": 34488
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(7) Krall, N.; Da Cruz, F. P.; Boutureira, O.; Bernardes, G. J. L. Site-Selective Protein-Modification Chemistry for Basic Biology and Drug Development. *Nature Chemistry*. Nature Publishing Group February 1, 2016, pp 103\u2013113. https://doi.org/10.1038/nchem.2393.",
+        "start_index": 34488,
+        "end_index": 34750
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(8) Shaunak, S.; Godwin, A.; Choi, J. W.; Balan, S.; Pedone, E.; Vijayarangam, D.; Heidelberger, S.; Teo, I.; Zloh, M.; Brochini, S. Site-Specific PEGylation of Native Disulfide Bonds in Therapeutic Proteins. *Nat Chem Biol* **2006**, *2* (6), 312\u2013313. https://doi",
+        "start_index": 34750,
+        "end_index": 35014
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".org/10.1038/nchembio786.",
+        "start_index": 35014,
+        "end_index": 35039
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(9) Gupta, S. K.; Pittenger, A. L.; Swan, S. K.; Marbury, T. C.; Tobillo, E.; Batra, V.; Sack, M.; Glue, P.; Jacobs, S.; Affrime, M. Single-Dose Pharmacokinetics and Safety of Pegylated Interferon-\u03b12b in Patients with Chronic Renal Dysfunction",
+        "start_index": 35039,
+        "end_index": 35282
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". *The Journal of Clinical Pharmacology* **2002**, *42* (10), 1109\u20131115. https://doi.org/10.1177/009127002237996.",
+        "start_index": 35282,
+        "end_index": 35395
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(10) Zhang, B.; Sun, J.; Wang, Y.; Ji, D.; Yuan, Y.; Li, S.; Sun, Y.; Hou, Y.; Li, P.; Zhao, L.; Yu, F.; Ma, W.; Cheng, B.; Wu, L.; Hu, J.; Wang, M.; Song, W.; Li, X.; Li, H.; Fei, Y.; Chen, H.; Zhang, L.; Tsokos, G. C",
+        "start_index": 35395,
+        "end_index": 35613
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".; Zhou, D.; Zhang, X. Site-Specific PEGylation of Interleukin-2 Enhances Immunosuppression via the Sustained Activation of Regulatory T Cells. *Nat Biomed Eng* **2021**, *5* (11), 1288\u20131305. https://doi.org/10.1038/s41551-021-00797-8.",
+        "start_index": 35613,
+        "end_index": 35848
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(11) Grigoletto, A.; Mero, A.; Zanusso, I.; Schiavon, O.; Pasut, G. Chemical and Enzymatic Site Specific PEGylation of HGH: The Stability and in Vivo Activity of PEG-N-Terminal-HGH and PEG-",
+        "start_index": 35848,
+        "end_index": 36037
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Gln141-HGH Conjugates. *Macromol Biosci* 2016, 16 (1), 50\u201356. https://doi.org/10.1002/mabi.201500282.",
+        "start_index": 36037,
+        "end_index": 36138
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(12) Zaghmi, A.; Mendez-Villuendas, E.; Greschner, A. A.; Liu, J. Y.; de Haan, H. W.; Gauthier, M. A. Mechanisms of Activity Loss for a Multi-PEGylated Protein by Experiment and Simulation. *Mater Today Chem* 2019, 12, 121\u2013131. https://doi.org/10.1016/j.mtchem",
+        "start_index": 36138,
+        "end_index": 36398
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".2018.12.007.",
+        "start_index": 36398,
+        "end_index": 36411
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(13) Baker, S. L.; Munasinghe, A.; Murata, H.; Lin, P.; Matyjaszewski, K.; Colina, C. M.; Russell, A. J. Intramolecular Interactions of Conjugated Polymers Mimic Molecular Chaperones to Stabilize Protein-Polymer Conjugates. *Biomacromolecules* 2018, 19 (9), 3798\u20133813",
+        "start_index": 36411,
+        "end_index": 36678
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". https://doi.org/10.1021/acs.biomac.8b00927.",
+        "start_index": 36678,
+        "end_index": 36723
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(14) Chang, P. K.; Prestidge, C. A.; Barnes, T. J.; Bremmell, K. E. Impact of PEGylation and Non-Ionic Surfactants on the Physical Stability of the Therapeutic Protein Filgrastim (G-CSF). *RSC Adv* 2016, 6 (82), 78970\u201378978. https://doi.org/10.1039/c6ra16254a.",
+        "start_index": 36723,
+        "end_index": 36983
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(15) Hauptstein, N.; Pouyan, P.; Kehrein, J.; Dirauf, M.; Driessen, M. D.; Raschig, M.; Licha, K.; Gottschaldt, M.; Schubert, U. S.; Haag, R.; Meinel, L.; Sotriffer, C.; L\u00fchmann, T",
+        "start_index": 36983,
+        "end_index": 37163
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". Molecular Insights into Site-Specific Interferon-\u03912a Bioconjugates Originated from PEG, LPG, and PEtOx. *Biomacromolecules* 2021, 22 (11), 4521\u20134534. https://doi.org/10.1021/acs.biomac.1c00775.",
+        "start_index": 37163,
+        "end_index": 37358
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(16) Pritzlaff, A.; Ferr\u00e9, G.; Mulry, E.; Lin, L.; Gopal Pour, N.; Savin, D. A.; Harris, M. E.; Eddy, M. T. Atomic-Scale View of Protein-PEG Interactions That Redirect the Thermal Unfolding Pathway of",
+        "start_index": 37358,
+        "end_index": 37558
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "PEGylated Human Galectin-3. *Angewandte Chemie - International Edition* **2022**, *61* (40). https://doi.org/10.1002/anie.202203784.",
+        "start_index": 37558,
+        "end_index": 37690
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(17) Cheung, M. S.; Garc\u00eda, A. E.; Onuchic, J. N. Protein Folding Mediated by Solvation: Water Expulsion and Formation of the Hydrophobic Core Occur after the Structural Collapse. *Proc Natl Acad Sci U S A* **2002**, *99* (2). https://doi.org/10.1073/pnas.022387699.",
+        "start_index": 37690,
+        "end_index": 37956
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(18) Eisenberg, D.; Melachlan, A. D. Solvation Energy in Protein Folding and Binding. *Nature* **1986**, *319* (6050). https://doi.org/10.1038/319199a0.",
+        "start_index": 37956,
+        "end_index": 38108
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(19) Roder, H.; Col\u00f3n, W. Kinetic Role of Early Intermediates in Protein Folding. *Curr Opin Struct Biol* **1997**, *7* (1). https://doi.org/10.1016/S0959-440X(97)80004-8.",
+        "start_index": 38108,
+        "end_index": 38279
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(20) Rhee, Y. M.; Sorin, E. J.; Jayachandran, G.; Lindahl, E.; Pande, V. S. Simulations of the Role of Water in the Protein-Folding Mechanism. *Proc Natl Acad Sci U S A* **2004**, *101* (17). https://doi.org/10.1073/pnas.0307898101.",
+        "start_index": 38279,
+        "end_index": 38511
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(21) Fern\u00e1ndez-Escamilla, A. M.; Cheung, M. S.; Vega, M. C.; Wilmanns, M.; Onuchic, J. N.; Serrano, L. Solvation in Protein Folding Analysis: Combination of Theoretical and Experimental Approaches. *Proc Natl Acad Sci U S A* **2004**, *101* (9). https://doi.org/10.1073/pnas",
+        "start_index": 38511,
+        "end_index": 38785
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".0304180101.",
+        "start_index": 38785,
+        "end_index": 38797
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(22) Lawrence, P. B.; Price, J. L. How PEGylation Influences Protein Conformational Stability. *Current Opinion in Chemical Biology*. 2016. https://doi.org/10.1016/j.cbpa.2016.08.006.",
+        "start_index": 38797,
+        "end_index": 38980
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(23) Hamed, E.; Xu, T.; Keten, S. Poly(Ethylene Glycol) Conjugation Stabilizes the Secondary Structure of \u03b1-Helices by Reducing Peptide Solvent Accessible Surface Area. *Biomacromolecules* **2013**, *14* (11). https://doi.org/10.1021/bm401164t.",
+        "start_index": 38980,
+        "end_index": 39224
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(24) Meng, W.; Guo, X.; Qin, M.; Pan, H.; Cao, Y.; Wang, W. Mechanistic Insights into the Stabilization of SrcSH3 by PEGylation. *Langmuir* **2012**, *28* (46). https://doi.org/10.1021/la303466w.",
+        "start_index": 39224,
+        "end_index": 39419
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-sk9mk ORCID: https://orcid.org/0000-0003-0699-8468 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0",
+        "start_index": 39419,
+        "end_index": 39566
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Lawrence, P. B.; Gavrilov, Y.; Matthews, S. S.; Langlois, M. I.; Shental-Bechor, D.; Greenblatt, H. M.; Pandey, B. K.; Smith, M. S.; Paxman, R.; Torgerson, C. D.; Merrell, J. P.; Ritz, C. C.; Prigozhin, M. B.; Levy, Y",
+        "start_index": 39566,
+        "end_index": 39783
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".; Price, J. L. Criteria for Selecting PEGylation Sites on Proteins for Higher Thermodynamic and Proteolytic Stability. *J Am Chem Soc* 2014, 136 (50). https://doi.org/10.1021/ja5095183.",
+        "start_index": 39783,
+        "end_index": 39969
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Pai, S. S.; Hammouda, B.; Hong, K.; Pozzo, D. C.; Przybycien, T. M.; Tilton, R. D. The Conformation of the Poly(Ethylene Glycol) Chain in Mono-PEGylated Lysozyme and Mono-PEGylated Human Growth Hormone. *Bioconjug Chem* 2011, 22 (11), 2317\u20132323",
+        "start_index": 39969,
+        "end_index": 40213
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". https://doi.org/10.1021/bc2003583.",
+        "start_index": 40213,
+        "end_index": 40249
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Le C\u0153ur, C.; Combet, S.; Carrot, G.; Busch, P.; Teixeira, J.; Longeville, S. Conformation of the Poly(Ethylene Glycol) Chains in DiPEGylated Hemoglobin Specifically Probed by SANS: Correlation with PEG Length and in Vivo Efficiency. *Langmuir* 2015, 31 (30), 8402\u20138410. https://doi.org/10",
+        "start_index": 40249,
+        "end_index": 40537
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".1021/acs.langmuir.5b01121.",
+        "start_index": 40537,
+        "end_index": 40564
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Shu, J. Y.; Lund, R.; Xu, T. Solution Structural Characterization of Coiled-Coil Peptide-Polymer Side-Conjugates. *Biomacromolecules* 2012, 13 (6), 1945\u20131955. https://doi.org/10.1021/bm300561y.",
+        "start_index": 40564,
+        "end_index": 40757
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "He, L.; Wang, H.; Garamus, V. M.; Hanley, T.; Lensch, M.; Gabius, H. J.; Fee, C. J.; Middelberg, A. Analysis of MonoPEGylated Human Galectin-2 by Small-Angle X-Ray and Neutron Scattering: Concentration Dependence of PEG Conformation in the Conjugate",
+        "start_index": 40757,
+        "end_index": 41006
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". *Biomacromolecules* 2010, 11 (12), 3504\u20133510. https://doi.org/10.1021/bm100999a.",
+        "start_index": 41006,
+        "end_index": 41088
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Ferebee, R.; Hakem, I. F.; Koch, A.; Chen, M.; Wu, Y.; Loh, D.; Wilson, D. C.; Poole, J. L.; Walker, J. P.; Fytas, G.; Bockstaller, M. R. Light Scattering Analysis of Mono- and Multi-PEGylated Bovine",
+        "start_index": 41088,
+        "end_index": 41287
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Serum Albumin in Solution: Role of Composition on Structure and Interactions. *Journal of Physical Chemistry B* 2016, 120 (20), 4591\u20134599. https://doi.org/10.1021/acs.jpcb.6b03097.",
+        "start_index": 41287,
+        "end_index": 41467
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(31) Dhalluin, C.; Ross, A.; Leuthold, L.-A.; Foser, S.; Gsell, B.; M\u00fc, F.; Senn, H.; Hoffmann-La, F. ARTICLES Structural and Biophysical Characterization of the 40 KDa PEG-Interferon-r 2a and Its Individual Positional Isomers. 2005. https://doi.org/10.1021/bc049781.",
+        "start_index": 41467,
+        "end_index": 41734
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(32) Farhadi, S. A.; Bracho-Sanchez, E.; Fettis, M. M.; Seroski, D. T.; Freeman, S. L.; Restuccia, A.; Keselowsky, B. G.; Hudalla, G. A. Locally Anchoring Enzymes to Tissues via Extracellular Glycan Recognition. *Nat Commun* 2018, 9 (1). https://doi",
+        "start_index": 41734,
+        "end_index": 41983
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".org/10.1038/s41467-018-07129-6.",
+        "start_index": 41983,
+        "end_index": 42015
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(33) John, C. M.; Leffler, H.; Kahl-Knutsson, B.; Svensson, I.; Jarvis, G. A. Truncated Galectin-3 Inhibits Tumor Growth and Metastasis in Orthotopic Nude Mouse Model of Human Breast Cancer. *Clinical Cancer Research* 2003, 9 (6).",
+        "start_index": 42015,
+        "end_index": 42245
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(34) Mirandola, L.; Yu, Y.; Chui, K.; Jenkins, M. R.; Cobos, E.; John, C. M.; Chiriva-Internati, M. Galectin-3C Inhibits Tumor Growth and Increases the Anticancer Activity of Bortezomib in a",
+        "start_index": 42245,
+        "end_index": 42435
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Murine Model of Human Multiple Myeloma. *PLoS One* **2011**, *6* (7). https://doi.org/10.1371/journal.pone.0021811.",
+        "start_index": 42435,
+        "end_index": 42550
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(35) Baiz, C. R.; Peng, C. S.; Reppert, M. E.; Jones, K. C.; Tokmakoff, A. Coherent Two-Dimensional Infrared Spectroscopy: Quantitative Analysis of Protein Secondary Structure in Solution. *Analyst* **2012**, *137* (8), 1793\u20131799. https://doi.org/10.1039/c2an16031e.",
+        "start_index": 42550,
+        "end_index": 42816
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(36) Munasinghe, A.; Mathavan, A.; Mathavan, A.; Lin, P.; Colina, C. M. Molecular Insight into the Protein-Polymer Interactions in N-Terminal PEGylated Bovine Serum Albumin. *Journal of Physical Chemistry B* **2019**, *123* (25), 5196\u20135205. https://doi.org/10.1021/acs.jpcb.8b12268.",
+        "start_index": 42816,
+        "end_index": 43098
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(37) Munasinghe, A.; Mathavan, A.; Mathavan, A.; Lin, P.; Colina, C. M. PEGylation within a Confined Hydrophobic Cavity of a Protein. *Physical Chemistry Chemical Physics* **2019**, *21* (46), 25584\u201325596. https://doi.org/10.1039/c9cp04387j.",
+        "start_index": 43098,
+        "end_index": 43339
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(38) Yang, C.; Lu, D.; Liu, Z. How PEGylation Enhances the Stability and Potency of Insulin: A Molecular Dynamics Simulation. *Biochemistry* **2011**, *50* (13), 2585\u20132593. https://doi.org/10.1021/bi101926u.",
+        "start_index": 43339,
+        "end_index": 43546
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(39) Aramini, J. M.; Tubbs, J. L.; Kanugula, S.; Rossi, P.; Ertekin, A.; Maglaqui, M.; Hamilton, K.; Ciccosanti, C. T.; Jiang, M.; Xiao, R.; Soong, T. T.; Rost, B.; Acton, T. B.; Everett, J. K.; Pegg, A. E.; Tainer, J. A",
+        "start_index": 43546,
+        "end_index": 43766
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".; Montelione, G. T. Structural Basis of O6-Alkylguanine Recognition by a Bacterial Alkyltransferase-like DNA Repair Protein. *Journal of Biological Chemistry* **2010**, *285* (18), 13736\u201313741. https://doi.org/10.1074/jbc.M109.093591.",
+        "start_index": 43766,
+        "end_index": 44001
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(40) Rossi, P.; Swapna, G. V. T.; Huang, Y. J.; Aramini, J. M.; Anklin, C.; Conover, K.; Hamilton, K.; Xiao, R.; Acton, T. B.; Ertekin, A.; Everett, J. K.; Montelione, G. T. A Microscale Protein NMR",
+        "start_index": 44001,
+        "end_index": 44199
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "Sample Screening Pipeline. *Journal of Biomolecular NMR*. January 2010, pp 11\u201322. https://doi.org/10.1007/s10858-009-9386-z.",
+        "start_index": 44199,
+        "end_index": 44323
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(41) Ghosh, A.; Ostrander, J. S.; Zanni, M. T. Watching Proteins Wiggle: Mapping Structures with Two-Dimensional Infrared Spectroscopy. *Chemical Reviews*. 2017. https://doi.org/10.1021/acs.chemrev.6b00582.",
+        "start_index": 44323,
+        "end_index": 44529
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(42) Valentine, M. L.; Al-Mualem, Z. A.; Baiz, C. R. Pump Slice Amplitudes: A Simple and Robust Method for Connecting Two-Dimensional Infrared and Fourier Transform Infrared Spectra. *Journal of Physical Chemistry A* 2021, 125 (29). https://doi.org/10.1021/acs.jpca.1c04558.",
+        "start_index": 44529,
+        "end_index": 44803
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(43) Chen, X.; Roeters, S. J.; Cavanna, F.; Alvarado, J.; Baiz, C. R. Crowding Alters F-Actin Secondary Structure and Hydration. *Commun Biol* 2023, 6 (1). https://doi.org/10.1038/s42003-023-05274-3.",
+        "start_index": 44803,
+        "end_index": 45002
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(44) Kwak, K.; Rosenfeld, D. E.; Fayer, M. D. Taking Apart the Two-Dimensional Infrared Vibrational Echo Spectra: More Information and Elimination of Distortions. *Journal of Chemical Physics* 2008, 128 (20). https://doi.org/10.1063/1.2927906.",
+        "start_index": 45002,
+        "end_index": 45245
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(45) Fayer, M. D. Dynamics of Liquids, Molecules, and Proteins Measured with Ultrafast 2D IR Vibrational Echo Chemical Exchange Spectroscopy. *Annual Review of Physical Chemistry*. Annual Reviews Inc. 2009, pp 21\u201338. https://doi.org/10.1146/annurev-physchem-073108-112712.",
+        "start_index": 45245,
+        "end_index": 45517
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(46) Park, S.; Kwak, K.; Fayer, M. D. Ultrafast 2D-IR Vibrational Echo Spectroscopy: A Probe of Molecular Dynamics. *Laser Physics Letters*. October 2007, pp 704\u2013718. https://doi.org/10.1002/lapl.200710046.",
+        "start_index": 45517,
+        "end_index": 45723
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(47) La Cour Jansen, T.; Dijkstra, A. G.; Watson, T. M.; Hirst, J. D.; Knoester, J. Modeling the Amide I Bands of Small Peptides. *Journal of Chemical Physics* 2006, 125 (4). https://doi.org/10.1063/1.2218516.",
+        "start_index": 45723,
+        "end_index": 45932
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(48) Hamm, P.; Woutersen, S. Coupling of the Amide Modes of the Glycine Dipeptide Coupling of the Amide Modes P. Hamm et Al; 2002; Vol. 75.",
+        "start_index": 45932,
+        "end_index": 46071
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(49) Schmidt, J. R.; Corcelli, S. A.; Skinner, J. L. Ultrafast Vibrational Spectroscopy of Water and Aqueous N-Methylacetamide: Comparison of Different Electronic Structure/Molecular Dynamics Approaches. *Journal of Chemical Physics* **2004**, *121* (18), 8887\u20138896. https://doi.org/10.1063/1.1791632.",
+        "start_index": 46071,
+        "end_index": 46372
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(50) Eaves, J. D.; Tokmakoff, A.; Geissler, P. L. Electric Field Fluctuations Drive Vibrational Dephasing in Water. *Journal of Physical Chemistry A* **2005**, *109* (42), 9424\u20139436. https://doi.org/10.1021/jp051364m.",
+        "start_index": 46372,
+        "end_index": 46589
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(51) Stevenson, P.; Tokmakoff, A. Ultrafast Fluctuations of High Amplitude Electric Fields in Lipid Membranes. *J Am Chem Soc* **2017**, *139* (13), 4743\u20134752. https://doi.org/10.1021/jacs.6b12412.",
+        "start_index": 46589,
+        "end_index": 46786
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(52) Pritzlaff, A.; Ferr\u00e9, G.; Mulry, E.; Lin, L.; Gopal Pour, N.; Savin, D. A.; Harris, M. E.; Eddy, M. T. Atomic-Scale View of Protein-PEG Interactions That Redirect the Thermal Unfolding Pathway of PEGylated Human Galectin-3",
+        "start_index": 46786,
+        "end_index": 47013
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ". *Angewandte Chemie - International Edition* **2022**, *61* (40). https://doi.org/10.1002/anie.202203784.",
+        "start_index": 47013,
+        "end_index": 47119
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": "(53) Rodr\u00edguez-Mart\u00ednez, J. A.; Sol\u00e1, R. J.; Castillo, B.; Cintr\u00f3n-Col\u00f3n, H. R.; Rivera-Rivera, I.; Barletta, G.; Griebenow, K. Stabilization of \u03b1-Chymotrypsin upon PEGylation Correlates with Reduced Structural Dynamics. *Biotechnol Bioeng* **2008**, *101* (6). https://doi",
+        "start_index": 47119,
+        "end_index": 47392
+    },
+    {
+        "document_name": "150.txt",
+        "chunk_text": ".org/10.1002/bit.22014.",
+        "start_index": 47392,
+        "end_index": 47415
+    }
+]

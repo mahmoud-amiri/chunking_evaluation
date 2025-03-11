@@ -1,0 +1,1022 @@
+[
+    {
+        "document_name": "127.txt",
+        "chunk_text": "In situ Methanation on Mars: A Process Concept Study\non the Impact of H\u2082/CO\u2082 and Recycle Ratio\n\nFranz Braun\u00b9, Thomas-Oliver Nagel\u00b9, Samuel Prinz\u00b9, Jens Friedland\u00b9, Robert G\u00fcttel\u00b9*\n\n\u00b9Institute for Chemical Engineering, Ulm University, Albert-Einstein-Allee 11, 89081 Ulm, Germany.\n*corresponding author: robert.guettel@uni-ulm.de",
+        "start_index": 0,
+        "end_index": 328
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Abstract",
+        "start_index": 328,
+        "end_index": 336
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "For planning return missions from Mars, considerations about the supply of rocket fuel are crucial. Since transportation of propellant from Earth and storage at Mars is costly and energy intensive, in situ resource utilization (ISRU) for methane production on Mars presents a promising solution. The major challenge is to identify a simple and robust production process, which provides the required purity of the propellant",
+        "start_index": 336,
+        "end_index": 759
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". In this study, we compare two different process concepts, with and without recycle, under realistic operating conditions using thermodynamic modelling and simulation. The H\u2082/CO\u2082 feed ratio is crucial to achieve sufficiently high methane selectivity and thereby reduce the effort in product gas cleaning and the overall process complexity. At the same time, recycling unreacted reactants reduces resource consumption, which is preferable for ISRU scenarios",
+        "start_index": 759,
+        "end_index": 1216
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Hence, our study provides a basis for more detailed process design using kinetic information on the involved process steps.",
+        "start_index": 1216,
+        "end_index": 1341
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Keywords\nMethanation, in situ resource utilization, H\u2082/CO\u2082 feed ratio, modelling, simulation, recycle, ISRU, Mars\n\n1 Introduction",
+        "start_index": 1341,
+        "end_index": 1470
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Human missions to Mars are a significant subject owing to NASA\u2019s and SpaceX\u2019s vast efforts to accomplish them within the next few decades. The establishment of return missions is a",
+        "start_index": 1470,
+        "end_index": 1650
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "crucial prerequisite for the recovery of human life after successful Mars missions. The most promising strategy is the utilization of a Mars ascent vehicle (MAV) for transfer between the surface and the orbit of Mars, while the transport between Mars orbit and earth is realized via an earth return vehicle (ERV) [1]. The required fuel for the launch into the Mars orbit via MAV can either be carried from earth and stored at the Mars surface or it can be produced on Mars",
+        "start_index": 1650,
+        "end_index": 2122
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The latter concept of in situ resource utilization (ISRU) has been introduced already in the 1980s [2].",
+        "start_index": 2122,
+        "end_index": 2227
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "In the 1990s elaborate plans have been made on how Mars missions can profit from ISRU technology in the Design Reference Missions (DRMs) [3]: By producing propellant in situ on Mars, the start mass of the mission and the mass of the lander vehicle can be significantly reduced [3]. Furthermore, in situ propellant production provides more flexible surface exploration capability and the possibility of longer mission durations due to the possibility of refuelling rovers [3]",
+        "start_index": 2227,
+        "end_index": 2701
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". In addition, longer mission durations reduce the mission risk due to fewer launches [3]. It is even conceivable that the necessity for live supporting facilities may become redundant [3]. For example, ISRU systems include the production of O\\textsubscript{2} via electrolysis [4,5], which can provide O\\textsubscript{2} for the human habitat in the event of leaking O\\textsubscript{2} tanks",
+        "start_index": 2701,
+        "end_index": 3093
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Nevertheless, ISRU does require higher energy input to support the operation of the required process units, including compressors, electrolysis, heat exchangers, excavators, haulers, and so forth [3]. In addition, the employed systems must be capable of long service live, since equipment replacement requires costly transport missions from earth [3]. The DRM outlines two distinct mission scenarios for a prolonged human stay on Mars: 1",
+        "start_index": 3093,
+        "end_index": 3532
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". A single site habitat for human presence in combination with multiple exploration missions and 2. several habitat sites during multiple Mars missions [3]. The latter scenario necessitates the construction of multiple facilities with the required infrastructure including potential ISRU capabilities.",
+        "start_index": 3532,
+        "end_index": 3833
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Methane synthesis from H\\textsubscript{2} and CO\\textsubscript{2}, also referred to as CO\\textsubscript{2} methanation, is a well-established process on Earth [6\u20138]. The main reaction is depicted in eq. (RE1). However, unwanted side reactions may lead to the formation of CO (RE2), while CO can also be hydrogenated to",
+        "start_index": 3833,
+        "end_index": 4151
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "methane (RE3). Depending on the operating conditions, in particular temperature, pressure and gas composition, and the choice of catalyst, the by-product formation can be reduced.",
+        "start_index": 4151,
+        "end_index": 4330
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "\\[\n\\begin{align*}\n\\text{CO}_2 + 4\\text{H}_2 & \\rightleftharpoons \\text{CH}_4 + 2\\text{H}_2\\text{O} \\quad \\text{(RE1)} \\\\",
+        "start_index": 4330,
+        "end_index": 4450
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "\\text{CO}_2 + \\text{H}_2 & \\rightleftharpoons \\text{CO} + \\text{H}_2\\text{O} \\quad \\text{(RE2)} \\\\\n\\text{CO} + 3\\text{H}_2 & \\rightleftharpoons \\text{CH}_4 + \\text{H}_2\\text{O} \\quad \\text{(RE3)}",
+        "start_index": 4450,
+        "end_index": 4645
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "\\end{align*}\n\\]",
+        "start_index": 4645,
+        "end_index": 4660
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The \\( \\text{CO}_2 \\) hydrogenation reactions are typically performed in fixed-bed reactors using Ni-based porous solid catalysts. The major challenge is the exothermic nature of the reaction and the limitation of conversion due to thermodynamic constraints. Therefore, industrial scale plants (e.g",
+        "start_index": 4660,
+        "end_index": 4958
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "., from Air Liquide and Haldor Tops\u00f8e) use a cascade of adiabatic fixed-bed reactors with intermediate cooling or the partial recycling of product streams for heat integration and removal of the released reaction heat [6]. Furthermore, the recycle possess an additional degree of freedom in process operation, which provides improved flexibility in particular for dynamic operation [9,10]",
+        "start_index": 4958,
+        "end_index": 5346
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". In order to push the thermodynamic constraints, the operation under over-stoichiometric \\( \\text{H}_2/\\text{CO}_2 \\) feed ratios appears to be a promising concept, as evidenced by literature [11\u201314]. This method is particularly suitable for ISRU, since it is easily feasible without of additional unit operations [11,13].",
+        "start_index": 5346,
+        "end_index": 5669
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "In recent years, NASA has conducted experiments aiming to develop ISRU technologies. In one such experiment, the Martian atmosphere was simulated with an Atmospheric Processing Module as part of the MARCO POLO (Mars Atmospheric and Regolith Collector/Processing for Lander Operations) project [14\u201316]. The \\( \\text{CO}_2 \\) was collected via a freezer and subsequently hydrogenated using 88 g of a 0",
+        "start_index": 5669,
+        "end_index": 6068
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".5 wt-% ruthenium on alumina catalyst to methane in a Sabatier reactor [16]. During the initial start-up phase, hydrogen was supplied in excess of the stoichiometric ratio (4.5:1) [15,16]. The unreacted hydrogen is recovered via a membrane and returned to the reactor with some methane",
+        "start_index": 6068,
+        "end_index": 6353
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". After the start-up phase, the system inlet composition is reduced to the stoichiometric \\( \\text{H}_2/\\text{CO}_2 \\) ratio of 4:1. Due to the recycling of unreacted \\( \\text{H}_2 \\), the reactor inlet \\( \\text{H}_2/\\text{CO}_2 \\) ratio exceeds the stoichiometric value of 4:1",
+        "start_index": 6353,
+        "end_index": 6630
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". However, no further specification is provided regarding the precise \\( \\text{H}_2/\\text{CO}_2 \\) ratio at the reactor inlet. With a \\( \\text{CO}_2 \\) conversion of 99.9% at a reaction temperature of 450\u00b0C the system demonstrates the",
+        "start_index": 6630,
+        "end_index": 6864
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "production of 32 g h\u207b\u00b9 methane with a purity of 99.9% [14,15]. Apart from that, an investigation into the impact of the H\u2082/CO\u2082 ratios on CO\u2082 conversion and product purity has not been included in the research's scope. Furthermore, a Sabatier reactor system is currently undergoing testing on the International Space Station (ISS) as part of the oxygen recovery system",
+        "start_index": 6864,
+        "end_index": 7231
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". This system is designed to convert the CO\u2082 produced by astronauts into methane and water [14]. The details of the final version of the system are not yet available. Nonetheless, information pertaining to a developmental version has been made public by NASA [14,17]. A noteworthy extra-terrestrial ISRU demonstration is conducted with MOXIE, which is an oxygen production system and component of the Mars rover Perseverance [18]. Hoffman et al",
+        "start_index": 7231,
+        "end_index": 7675
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". [18] report that seven experiments under both diurnal and nocturnal conditions yielded 50 g of oxygen produced from CO\u2082 in the Martian atmosphere. Thus, experimental demonstration of the feasibility of ISRU at operating conditions at day and night is achieved. A further goal is the demonstration of in situ oxygen production with MOXIE during different Martian seasons with different ambient atmospheric pressures from 631 Pa to 757 Pa [18]",
+        "start_index": 7675,
+        "end_index": 8118
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Another promising concept for ISRU oxygen production is the pyrolysis of regolith, as demonstrated for lunar regolith by \u0160e\u0161ko et al. [19]. A proposed timeline for Mars missions, as outlined by NASA, includes a 16-months period for propellant production in order to provide 7 metric tons of methane, which is required for the return mission [20]",
+        "start_index": 8118,
+        "end_index": 8465
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The resulting daily methane production target is \\( \\dot{n}_{\\text{CH}_4} = 0.91 \\text{ kmol d}^{-1} \\). Alam et al. [20] proposed a concept for production of the required amounts of methane based on available experimental and simulated data. The concept was assessed at a single operation point only and assumes experimentally proven CO\u2082 conversions of 60% and CH\u2084 selectivities of 99.5%",
+        "start_index": 8465,
+        "end_index": 8855
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". While the work clearly demonstrates the general feasibility of methane production via ISRU, the underlying model is too simple to evaluate the impact of operation conditions on the yield and purity of the products. The oversimplification also holds for the separation units required to provide sufficiently pure methane. In a recent contribution Romegialli et al. [21] performed a simulation study with Aspen Plus to estimate the feasibility of ISRU propellant mass production. The authors included the carbon capture from the Martian atmosphere, the",
+        "start_index": 8855,
+        "end_index": 9407
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "water extraction from martian soil, the methanation and subsequent product purification and propellant storage in their Aspen model [21]. They state that the total mass required for the resulting plant design is less than 23% of the 100 metric tons transport capacity of the starship [21]. Thus, ISRU propellant production should be theoretically possible with the suggested plant design",
+        "start_index": 9407,
+        "end_index": 9794
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". While the authors used a Ni/Al\u2082O\u2083 catalyst with LHHW-rate expression for methanation over Ni-catalysts to model the Sabatier reactor. The effect of the H\u2082 recycle and the overstoichiometric H\u2082/CO\u2082 ratio are not evaluated in further detail",
+        "start_index": 9794,
+        "end_index": 10034
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Furthermore, Nasa\u2019s research for ISRU propellant production focuses on Ru-based catalysts [3,5,14\u201316], due to the higher activity and stability compared to Ni-catalysts [5,22]. Consequently, the focus of the present work is to explore the potential of recycle operation and non-stoichiometric feed ratios for efficient propellant production on Mars. Therefore, the overall process is modelled with the major equipment needed",
+        "start_index": 10034,
+        "end_index": 10460
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". This includes the chemical reactor, the subsequent separation equipment and the equipment needed for realizing the mass streams. Emphasis is on exploiting the impact of the H\u2082/CO\u2082 feed ratio and the recycle ratio on the methane formation rate and the separation effort to achieve a certain product purity. Thermodynamic modelling is chosen to set the scene as well as to identify the major design criterions and limitations of the overall process.",
+        "start_index": 10460,
+        "end_index": 10909
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "2 Process Concept",
+        "start_index": 10909,
+        "end_index": 10926
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The considered sub-process of this study is embedded in an overall process scheme, which is depicted in Figure 1. The energy supply for heating, cooling and work intensive unit operations is assumed to be secured via solar modules and not further elaborated. The considered process consists of a methanation reactor, a water separation unit and a gas purification unit for the product stream and is indicated by a grey box",
+        "start_index": 10926,
+        "end_index": 11348
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". For providing the complete picture, storage units, the origin of the raw materials and the energy supply unit for heating, cooling and providing electrical power for e.g. compressors and the electrolysis are also shown. These unit operations are not considered in the study (outside grey box). The component streams",
+        "start_index": 11348,
+        "end_index": 11665
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "are colour-coded and connect the individual unit operations. The H\u2082 and CO\u2082 recycle streams are indicated by dashed lines.",
+        "start_index": 11665,
+        "end_index": 11787
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Figure 1: Basic flowsheet of the overall process concept based on [20], the grey box indicates the sub-process considered in the present work.",
+        "start_index": 11787,
+        "end_index": 11929
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "In Figure 2 the process flow diagram of the sub-process is depicted in more detail. Two process concepts are distinguished: the linear process variant without gas recycle (single pass operation, SPO, solid lines) and the variant with gas recycle (recycle operation, RO, additional dashed lines). The process consists of a Sabatier reactor (R1), in which the reactions according to eqs. (RE1) \u2013 (RE3) take place",
+        "start_index": 11929,
+        "end_index": 12339
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The conversion $X_{\\text{CO}_2, \\text{in} - 2}$ and selectivity $S_{\\text{CH}_4, \\text{1} - 2}$ of the reactor are defined as follows:",
+        "start_index": 12339,
+        "end_index": 12475
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "$$X_{\\text{CO}_2, \\text{in} - 2} = \\frac{\\dot{n}_{\\text{CO}_2, \\text{1}} - \\dot{n}_{\\text{CO}_2, \\text{2}}}{\\dot{n}_{\\text{CO}_2, \\text{in}}} \\quad (1)$$",
+        "start_index": 12475,
+        "end_index": 12628
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "$$S_{\\text{CH}_4, \\text{1} - 2} = \\frac{\\dot{n}_{\\text{CH}_4, \\text{2}}}{\\dot{n}_{\\text{CO}_2, \\text{1}} - \\dot{n}_{\\text{CO}_2, \\text{2}}} \\quad (2)$$",
+        "start_index": 12628,
+        "end_index": 12779
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Note that the indices used for the molar flow rates in Eqs. (1) and (2) refer to the stream numbers in Figure 2. CO\u2082 is exclusively transformed into CH\u2084 and CO through the given reaction network (RE1) \u2013 (RE3), while the methane selectivity is close to 1. For instance, methane selectivities of 99.5% are experimentally observed for supported Ru-catalysts [23\u201325].",
+        "start_index": 12779,
+        "end_index": 13142
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Following the chemical conversion water needs to be separated from the product gas stream. This is realized by a two-step setup consisting of a thermodynamic and a mechanical separation unit. Thermodynamic separation is realized by a heat exchanger HX1 to condense water out of the product stream and further reduce its vapor pressure without solidification \\cite{26,27}. The subsequent mechanical separation of liquid and gas streams takes place in the water separators WS1 and WS2",
+        "start_index": 13142,
+        "end_index": 13624
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Unreacted educts, CO$_2$ and H$_2$, are separated in the purification step P1 via pressure-swing adsorption. In SPO the separated reactants are not utilized and emitted to the Martian atmosphere. In RO the recycled gas stream (11) is combined with the inlet stream (in) in the mixer MIX1 prior to entering the reactor",
+        "start_index": 13624,
+        "end_index": 13943
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The produced methane is liquified (stream 13') and stored in a thermally isolated tank S1 including liquid traces of CO$_2$, CO and H$_2$. The gaseous part of the stream into the storage after HX3 is vented prior entering the tank (stream 13'').",
+        "start_index": 13943,
+        "end_index": 14190
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Auxiliary unit operations, such as pressure and temperature changers, are modelled using isentropic compressions or expansions, as well as isobaric heating or cooling. They provide the inlet conditions for the adjoining key unit operations.\n\n3 Simulation",
+        "start_index": 14190,
+        "end_index": 14444
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "For simulation, the process simulator Aspen HYSYS V12.1 is used. The software features a dedicated recycling tool required for the RO setup. Table A1 (in the SI) displays the software\u2019s block types used for each unit operation with according pressures and temperatures for the",
+        "start_index": 14444,
+        "end_index": 14720
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "later discussed RO base case scenario (compare section 4.2.). Further HYSYS-flowsheets for the SPO and RO setup are provided in Figure A1 and A2 (in the SI).",
+        "start_index": 14720,
+        "end_index": 14877
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Based on the chemical equilibrium of the exothermal gas phase reaction network depicted in (RE1) \u2013 (RE3), the equilibrium reactor R1 is operated isobaric and isothermal at temperatures and pressures taken from experiments for Ru/Al$_2$O$_3$ catalysed CO$_2$ methanation [24], as Alam et al. [5] have done for their reaction conditions",
+        "start_index": 14877,
+        "end_index": 15211
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Additionally, the chemical equilibrium calculation in Aspen HYSYS requires the choice of key reactions which are chosen to be (RE1) and (RE2).",
+        "start_index": 15211,
+        "end_index": 15355
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "WS1 is modelled as decanter for the mechanical separation of the liquid water rich and gaseous stream. Subsequently, the remaining water in the gaseous stream, stream 4, is separated in WS2, which is modelled as an ideal separator set to fully remove the remaining water. Those water traces can be nearly fully separated by e.g. molecular sieves with neglectable methane losses of 0",
+        "start_index": 15355,
+        "end_index": 15737
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".78% and an H$_2$O/CH$_4$ selectivity of 500 [28].",
+        "start_index": 15737,
+        "end_index": 15787
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The pressure-swing adsorption in P1 is simulated by an ideal separator based on experimental data: The separation efficiency of CO$_2$ is set to an efficiency of 94%, while the separation efficiency for H$_2$ is set to 87% [5,29,30].",
+        "start_index": 15787,
+        "end_index": 16020
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "According to Aspen HYSYS' user manual, which is accessible via the software itself, the recycle tool is a theoretical block that iterates until a certain threshold is fulfilled. A sufficiently high precision has been achieved by setting the number of maximal allowed iterations to 5000, changing the composition sensitivity from 10 to $1 \\times 10^{-5}$ and all component sensitivities to $1 \\times 10^{-8}$",
+        "start_index": 16020,
+        "end_index": 16427
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The error of the smallest molar flow rate before and after the recycle tool is less than $1 \\times 10^{-6}$ kmol d$^{-1}$ (compare $n_{CO_2}$ in streams 11 and 14 in Table A2 in the SI).",
+        "start_index": 16427,
+        "end_index": 16615
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The Peng-Robinson equation of state is used as property package in HYSYS for thermodynamic equilibrium calculations, as it is recommended for systems with high H$_2$ fractions [31]. Regarding the model's applicability, the emerging operating conditions are within the valid ranges of the used thermodynamic model.",
+        "start_index": 16615,
+        "end_index": 16928
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "To investigate the properties of the process and identify an operation window, parameter variations are carried out. In case of SPO a variation of the H$_2$/CO$_2$ ratio, $3.5 \\leq r_{in} \\leq 5.5$, at the",
+        "start_index": 16928,
+        "end_index": 17133
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "reactor inlet (stream (in)) is conducted as well as a variation of the molar flowrate of CO\u2082, 0.9 kmol d\u207b\u00b9 \u2264 \\( \\dot{n}_{\\text{CO}_2,\\text{in}} \\) \u2264 1.1 kmol d\u207b\u00b9, at the reactor inlet. The latter ranges from slightly below the methane production target of 0",
+        "start_index": 17133,
+        "end_index": 17390
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".91 kmol d\u207b\u00b9 up to potentially exceeding the production target by 20%. Note that for SPO the overall inlet stream is identical to the reactor inlet stream.",
+        "start_index": 17390,
+        "end_index": 17545
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "For RO, the focus is on examining the impact of recycling. Here a variation of the feed stream composition regarding the H\u2082/CO\u2082 ratio is performed at constant CO\u2082 inlet molar flow rate. Hence, the H\u2082/CO\u2082 ratio ranges 3.5 \u2264 \\( r_{\\text{in}} \\) \u2264 5.5.\n\n4 Results\n\n4.1 Impact of H\u2082/CO\u2082 Feed Ratio in Single Pass Operation",
+        "start_index": 17545,
+        "end_index": 17863
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The molar flow rate of methane, \\( \\dot{n}_{\\text{CH}_4} \\), at the outlet of the Sabatier reactor (stream 2, see Figure 2) for SPO as function of the inlet H\u2082/CO\u2082 ratio, \\( r_{\\text{in}} \\), is shown in Figure 3 for various CO\u2082 inlet molar flow rates, \\( \\dot{n}_{\\text{CO}_2,\\text{in}}",
+        "start_index": 17863,
+        "end_index": 18150
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "\\)",
+        "start_index": 18150,
+        "end_index": 18152
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".",
+        "start_index": 18152,
+        "end_index": 18153
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "An increase in \\( r_{\\text{in}} \\) results in an increase in the methane molar flow rate until it reaches a constant value. This general trend is observed for all CO\u2082 inlet molar flow rates studied, while the achieved maximum CH\u2084 flow rate scales with the inlet flow rate of CO\u2082. The target CH\u2084",
+        "start_index": 18153,
+        "end_index": 18447
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "production rate of 0.91 kmol d\u207b\u00b9, represented by a dashed horizontal line, requires a sufficient CO\u2082 feed rate depending on conversion and selectivity. Our results show that achieving the target requires a minimum inlet flow rate of CO\u2082, which corresponds to the case of full conversion and selectivity ($\\dot{n}_{\\text{CO}_2,\\text{in}} > 0.91$ kmol d\u207b\u00b9)",
+        "start_index": 18447,
+        "end_index": 18801
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Furthermore, Figure 3 shows that high H\u2082/CO\u2082 ratios allow to achieve the target at lower CO\u2082 feed rates, while higher CO\u2082 feed rates are beneficial in cases of small H\u2082/CO\u2082 ratios. This is expected, since both parameters allow to compensate for conversion and selectivity below 100%.",
+        "start_index": 18801,
+        "end_index": 19086
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Regarding the by-products and unreacted reactants at the reactor outlet Figure 4 illustrates the molar flow rate of CO and CO\u2082 plotted against the H\u2082/CO\u2082 inlet ratio.",
+        "start_index": 19086,
+        "end_index": 19252
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Figure 4: Molar flow rate of CO\u2082, $\\dot{n}_{\\text{CO}_2}$, (a) and CO, $\\dot{n}_{\\text{CO}}$, (b) as function of the H\u2082/CO\u2082 inlet ratio, $r_{\\text{in}}$, for different CO\u2082 inlet flow rates, $\\dot{n}_{\\text{CO}_2,\\text{in}}$, for SPO.",
+        "start_index": 19252,
+        "end_index": 19485
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Both, the CO\u2082 and the CO outlet molar flow rates decrease with increasing $r_{\\text{in}}$ and reach zero asymptotically. The decrease in CO\u2082 flow rate is associated with an increasing conversion, while the decrease in CO flow rate indicates a rising CH\u2084 selectivity",
+        "start_index": 19485,
+        "end_index": 19750
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Both values, conversion and selectivity, approach 100% for high values of $r_{\\text{in}}$ (compare Figure 5 and A3 in the SI for methane selectivity), which can be attributed to the fact that CH\u2084 formation is favoured thermodynamically as the H\u2082/CO\u2082 ratio increases [32]. Consequently, higher H\u2082/CO\u2082 ratios are beneficial for the subsequent CH\u2084 purification steps, due to smaller impurity amounts",
+        "start_index": 19750,
+        "end_index": 20148
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". This leads to a decreased equipment size and/or energy demand for methane purification. Furthermore, a mass reduction of the unit can be expected, which lowers mission costs, especially when considering the high mass-bound transportation costs in space travel [33].",
+        "start_index": 20148,
+        "end_index": 20415
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "These results indicate that operating the SPO process at $r_{\\text{in}} \\geq 4.7$ and $\\dot{n}_{\\text{CO}_2,\\text{in}} \\geq 0.91 \\text{ kmol d}^{-1}$ provides nearly full conversion and a selectivity near 1 as well as sufficient production rate from thermodynamic perspective",
+        "start_index": 20415,
+        "end_index": 20690
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Note that the stoichiometric $\\text{H}_2/\\text{CO}_2$ ratio is 4, which means that the $\\text{H}_2$ conversion is smaller than the $\\text{CO}_2$ conversion for all cases for which $\\text{H}_2/\\text{CO}_2 > 4$",
+        "start_index": 20690,
+        "end_index": 20900
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Hence, not only unreacted $\\text{CO}_2$ but also unreacted $\\text{H}_2$ remains in the product stream in those cases.",
+        "start_index": 20900,
+        "end_index": 21019
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "For further analysis, we selected $r_{\\text{in}} = 4.7$ and $\\dot{n}_{\\text{CO}_2,\\text{in}} = 0.91 \\text{ kmol d}^{-1}$ as a base case for SPO. At the chosen base case, a $\\text{CO}_2$ conversion (Eq. (1)) of 99.89% and a selectivity (Eq. (2)) of 99",
+        "start_index": 21019,
+        "end_index": 21269
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".999% is achieved. The impurities entering the storage unit for the SPO base case (see Table 1 together with RO results) are sufficiently low to fulfil the fuel Grade A of the US department of defence for the performance specification of LCH$_4$ (liquified methane) as propellant [34]. Thus, our results show, that the required goal in methane productivity of 0",
+        "start_index": 21269,
+        "end_index": 21630
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".91 kmol d$^{-1}$ can be achieved by employing sufficiently high $\\text{H}_2/\\text{CO}_2$ feed ratios in the SPO concept without compromising the required fuel purity for applications as propellant with fewer unit operations compared to the setup proposed by Alam et al. [20].",
+        "start_index": 21630,
+        "end_index": 21906
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "### Table 1: Impurities in liquid stream to storage facility (stream 13') for $\\dot{n}_{\\text{CO}_2,\\text{in}} = 0.91 \\text{ kmol d}^{-1}$.",
+        "start_index": 21906,
+        "end_index": 22045
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "|          | $x_{\\text{H}_2}$ / ppm | $x_{\\text{CO}_2}$ / ppm | $x_{\\text{H}_2O}$ / ppm | $x_{\\text{CO}}$ / ppm |\n|----------|-------------------------|--------------------------|--------------------------|------------------------|",
+        "start_index": 22045,
+        "end_index": 22276
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| SPO, $r_{\\text{in}} = 4.7$ | 439.48                  | 68.24                    | 0                        | 5.46                   |\n| RO, $r_{\\text{in}} = 4.09$  | 439.07                  | 65.55                    | 0                        | 5.45                   |",
+        "start_index": 22276,
+        "end_index": 22548
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| specification fuel Grade A [34] |                        |                          |                          |                        |\n| $\\text{ppm}$ | 125                     | 1                        | $\\text{ppm}$ |",
+        "start_index": 22548,
+        "end_index": 22772
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "However, for the SPO unreacted $\\text{H}_2$ with an amount of 0.641 kmol d$^{-1}$ is vented with streams 11 and 13\u201d (see Table 2 together with RO results).",
+        "start_index": 22772,
+        "end_index": 22927
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "1 other gases (e.g. $\\text{H}_2$) must be in total less than 5000 ppm.\nTable 2: Vented H$_2$ in SPO and RO setup with the required $r_{in,req}$ to meet the set production and purity target @ $\\dot{n}_{CO_2,\\text{in}} = 0.91$ kmol d$^{-1}$.",
+        "start_index": 22927,
+        "end_index": 23166
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| Setup | $r_{in,req}$ | H$_2$ loss in kmol d$^{-1}$ stream 11 | stream 13$^{\\prime\\prime}$ |\n|-------|--------------|---------------------------------------|---------------------------|\n| SPO   | 4.7          | 0.558                                 | 0.083                     |\n| RO    | 4.09         | 0                                     | 0.083                     |",
+        "start_index": 23166,
+        "end_index": 23538
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Further details about the stream compositions of the remaining streams are provided for the RO base case in Table A2 (in the SI).\n\n4.2 Comparison of Single Pass and Recycle Operation",
+        "start_index": 23538,
+        "end_index": 23720
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "To avoid H$_2$ venting, the RO scenario is investigated. In Figure 5 the CO$_2$ conversion (Eq. (1)) is displayed for the SPO and the RO setup over the respective inlet ratios $r_{in}$. In the RO setup the trend in CO$_2$ conversion is similar to that of the SPO. For $r_{in} < 4$, H$_2$ is the stoichiometrically limiting component",
+        "start_index": 23720,
+        "end_index": 24052
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Hence, even at full H$_2$ conversion the available CO$_2$ is only consumed stoichiometrically, leading to an increased fraction of CO$_2$ at the reactor outlet and to the recycling of CO$_2$. At the same time, CO$_2$ conversion (Eq. (1)) increases with H$_2$ availability and thereby with $r_{in}$",
+        "start_index": 24052,
+        "end_index": 24351
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". For $r_{in} > 4$ (stream (in), Figure 2), H$_2$ is fed in stoichiometric excess, which leads to the recycling of unreacted H$_2$ and an increased CO$_2$ conversion. Additionally, the methane selectivities (Eq. (2)) for both setups are provided in Figure A3 (in the SI).",
+        "start_index": 24351,
+        "end_index": 24622
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Figure 5: CO$_2$ conversion between stream (in) and 2, $X_{CO_2,\\text{in}} - 2$, as function of the H$_2$/CO$_2$ inlet ratio $r_{in}$ @ $\\dot{n}_{CO_2,\\text{in}} = 0.91$ kmol d$^{-1}$ for SPO and RO.",
+        "start_index": 24622,
+        "end_index": 24821
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "As we have shown earlier (see SPO base case), a CO$_2$ conversion of 99.9% is sufficient to fulfill the methane production target and the required purity of fuel grade A. In the SPO setup,",
+        "start_index": 24821,
+        "end_index": 25009
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "this conversion is achieved with setting the ratio $r_{\\text{in}}$ to 4.7. In the RO setup, the reactor inlet ratio $r_1$ depends on the ratio in the recycle streams, $r_{15}$, and the inlet ratio, $r_{\\text{in}}$",
+        "start_index": 25009,
+        "end_index": 25222
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Thus, the H$_2$/CO$_2$ ratio at the reactor inlet (stream 1 in Figure 2) exceeds that at the overall inlet when feeding H$_2$ in stoichiometric excess. A ratio $r_1 = 4.7$ for the RO setup is achieved by setting $r_{\\text{in}}$ to 4.09",
+        "start_index": 25222,
+        "end_index": 25459
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". By H$_2$ recycling venting during the purification is avoided, which leads to a significantly reduced overall H$_2$ loss (see Table 2), without compromising neither the required conversion for the set methane production rate nor the fuel purity (see Table 1). From the standpoint of resource efficiency, it is advantageous to achieve the set production and purity target with smaller $r_{\\text{in}}$ values while maintaining the same CO$_2$ inlet molar flow rate",
+        "start_index": 25459,
+        "end_index": 25923
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Therefore, using a recycle stream renders the RO beneficial in terms of resource consumption, while additional equipment is needed.",
+        "start_index": 25923,
+        "end_index": 26056
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "It has to be mentioned that we consider the thermodynamic feasible conversion, which represents the upper bound. For instance, Alam et al. [20] assumed a conversion of 60% (the authors called it efficiency) at a stoichiometric H$_2$/CO$_2$ ratio of 4 based on kinetic experiments conducted by Falbo et al. [23]. In equilibrium, we obtain a significantly higher conversion of approx. 94% at the stoichiometric feed ratio",
+        "start_index": 26056,
+        "end_index": 26475
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". However, achieving conversions close to chemical equilibrium is generally viable and a matter of appropriate reactor design as illustrated by Bremer et al. for adiabatic and polytropic operation strategies [35].",
+        "start_index": 26475,
+        "end_index": 26688
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Downstream the Sabatier reactor, step-wise product purification is considered. Since water is formed stoichiometrically with methane, it needs to be separated from the raw product stream, preferably in the first purification step (WS1 and WS2 in Figure 2). For the SPO base case ($r_{\\text{in}} = 4.7$, $\\dot{n}_{\\text{CO}_2,\\text{in}} = 0",
+        "start_index": 26688,
+        "end_index": 27027
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".91$ kmol d$^{-1}$), the thermodynamic separation unit achieves a removal efficiency of 99.62% due to the vapor pressure of water. An additional separation step, e.g. by adsorption on a molecular sieve [28], would be required to lower the residual water content further.",
+        "start_index": 27027,
+        "end_index": 27297
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "4.3 Potential for Energy Integration",
+        "start_index": 27297,
+        "end_index": 27333
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "In Table 3 the in- and outgoing (negative sign) heat flow rates of all unit operations with the according temperature levels are given for the SPO and the RO setup. The operating conditions are chosen according to the previous section: $\\dot{n}_{\\text{CO}_2,\\text{in}} = 0.91$ kmol d$^{-1}$, $r_{\\text{in},\\text{SPO}} = 4",
+        "start_index": 27333,
+        "end_index": 27654
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".7$, $r_{\\text{in},\\text{RO}} = 4.09$. There are no noteworthy differences in the heat flow rates and temperature levels between the both setups. However, due to the recycle in the RO setup, there are some additional unit operations, namely TURB2 and HX4. Due to the recycling stream preheating in HX4 prior to the reactor, the overall energy demand is higher for the RO setup",
+        "start_index": 27654,
+        "end_index": 28030
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". The excess heat of the unit operations could be used either to provide heat in process steps with heat demand, like the preheating in HX4, or to heat other systems possibly like the electrolyser or the human habitat.",
+        "start_index": 28030,
+        "end_index": 28248
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Table 3: Heat flow rates, $\\dot{Q}$, for all unit operations (see Figure 2) with temperature levels for the SPO (top line) and the RO (bottom line) setup @ $\\dot{n}_{\\text{CO}_2,\\text{in}} = 0.91$ kmol d$^{-1}$, $r_{\\text{in},\\text{SPO}} = 4",
+        "start_index": 28248,
+        "end_index": 28489
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".7$, $r_{\\text{in},\\text{RO}} = 4.09$ as well as temperature levels on Mars.",
+        "start_index": 28489,
+        "end_index": 28565
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| Unit Operation | $\\dot{Q}$ / W | $T_{\\text{max}}$ / K | $T_{\\text{min}}$ / K |\n|----------------|---------------|----------------------|----------------------|\n| R1             | -1868.3       | 309.9                | 309.9                |\n|                | -1870.3       | 309.9                | 309.9                |",
+        "start_index": 28565,
+        "end_index": 28888
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| HX4            | 57.5          | 309.9                | 1.9                  |\n| HX1            | -1384.4       | 309.9                | 0                    |\n|                | -1386.1       | 309.9                | 0                    |\n| COMP1          | 17.5          | 29.9                 | 0                    |",
+        "start_index": 28888,
+        "end_index": 29211
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "|                | 17.5          | 29.9                 | 0                    |\n| HX2            | -5.3          | 29.9                 | 21.0                 |\n|                | -5.3          | 29.9                 | 21.0                 |\n| P1             | -0.1          | 21.0                 | 21.0                 |",
+        "start_index": 29211,
+        "end_index": 29534
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "|                | -0.1          | 21.0                 | 21.0                 |\n| TURB1          | -6.5          | 21.0                 | 4.5                  |\n|                | -6.5          | 21.0                 | 4.5                  |\n4.4 Considerations on site selection",
+        "start_index": 29534,
+        "end_index": 29813
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The preceding section illustrates that downstream processing can be minimized by employing excess hydrogen at the reactor feed for both the SPO and RO configurations. In the SPO configuration, an inlet ratio of $r_{in,SP} = 4.7$ is to achieve the set objectives for purity as well as production rate, while $r_{in,RO} = 4.09$ is sufficient for the RO",
+        "start_index": 29813,
+        "end_index": 30163
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Due to the different $H_2$ demand of the two suggested setups, the availability of hydrogen at a given landing site may determine whether a recycle is necessary or not.",
+        "start_index": 30163,
+        "end_index": 30333
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Sites with abundantly available water (and $H_2$) resources probably profit from using the simpler SPO concept, which comes along with higher hydrogen consumption. Main advantage is that the required number of unit operations and equipment is low, while excess hydrogen is purged into the atmosphere or used for energy generation. However, sites with scarce availability of $H_2$, may profit from its efficient usage, for which the RO concept with lower hydrogen consumption is beneficial",
+        "start_index": 30333,
+        "end_index": 30821
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". However, this process variant entails additional equipment, which increases weight, transport costs, process complexity, and the risk of failure.",
+        "start_index": 30821,
+        "end_index": 30968
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Considering the mission scenarios outlined in the introduction, the decision for single or multiple landing sites affects the process configuration choice. For a single landing site, where multiple crews will subsequently be present, it is likely that water and thus hydrogen are abundant. Therefore, the SPO concept is the preferred choice due to its potential higher reliability, lower weight, and transportation costs. The RO variant may be preferred for...",
+        "start_index": 30968,
+        "end_index": 31428
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "continuous long-term operation at a single landing site, due to its efficient H\u2082 utilization. The higher process complexity associated higher weight and transport costs, may be overcompensated by the process efficiency and flexibility. In the case of multiple landing sites, the sufficient availability of water may not be guaranteed at each single site. Hence, the RO concept is the preferred process variant as it is more flexible and requires less water resources. Only the higher complexity may contrast that recommendation.",
+        "start_index": 31428,
+        "end_index": 31956
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "5 Conclusion",
+        "start_index": 31956,
+        "end_index": 31968
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "The present work introduces and compares promising process concepts for *in situ* methanation on Mars based on an extensive simulation study. Specifically, we propose to optimize the H\u2082/CO\u2082 ratio and the recycle of unreacted H\u2082 and CO\u2082 species, to minimize the process complexity and product purification efforts. We found that H\u2082/CO\u2082 ratios above the stoichiometric value of 4 are beneficial, since practically full conversion and selectivity can be achieved",
+        "start_index": 31968,
+        "end_index": 32427
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". This minimizes the amount of unconverted reactants and byproducts for downstream processing and thereby the process complexity. The remaining separation of CH\u2084 and H\u2082 is feasible in principle and modelled by a thermodynamic approach. One degree of freedom in process design is the potential recycle of unconverted reactants. While it offers an improved utilization of H\u2082, which is especially important in cases with scarce availability of water, it comes along with higher process complexity",
+        "start_index": 32427,
+        "end_index": 32920
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Hence, the mass and associated inter-planetary transportation costs are higher, as well. At the same time, the recycle concept is more flexible in operations. Consequently, both proposed process variants, the SPO and the RO, are attractive options for ISRU methanation. The results of our study show that propellant production on Mars is possible via two promising process concepts depending and the specific site and scenario",
+        "start_index": 32920,
+        "end_index": 33348
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Since our results are based on thermodynamic modelling, only, additional kinetic investigations are needed for sizing and estimating the mass of the major equipment in upcoming work. Therefore, combination of simulations with experimental investigations establish the basis for more detailed concepts of",
+        "start_index": 33348,
+        "end_index": 33653
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "the unit operations. One of the major design criterions, beside the mass of the overall unit, are the robustness of the process and the ability to provide the required propellant purity. Therefore, the present study provides insights into potential degrees of freedom for process design, that is the H\u2082/CO\u2082 feed and the recycle ratio.",
+        "start_index": 33653,
+        "end_index": 33987
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Symbols used",
+        "start_index": 33987,
+        "end_index": 33999
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| Symbol | Unit       | Description                      |\n|--------|------------|----------------------------------|\n| \ud835\udc5b\ud835\udc56    | kmol d\u207b\u00b9   | Molar flow rate of component i   |\n| \ud835\udc5d     | bar        | Pressure                         |\n| \ud835\udc5f     | 1          | H\u2082/CO\u2082 ratio                     |\n| \ud835\udc46_{CH\u2084} | 1        | Selectivity                      |",
+        "start_index": 33999,
+        "end_index": 34348
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| \ud835\udc47     | K          | Temperature                      |\n| \ud835\udc65     | 1          | Molar fraction                   |\n| \ud835\udc4b_{CO\u2082} | 1        | CO\u2082-Conversion                   |",
+        "start_index": 34348,
+        "end_index": 34521
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Abbreviations",
+        "start_index": 34521,
+        "end_index": 34534
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| Abbreviation | Definition                                               |\n|--------------|----------------------------------------------------------|\n| DMR          | Design Reference Mission                                 |\n| ERV          | Earth return vehicle                                     |\n| ISRU         | In Situ Resource Utilization                             |\n| ISS          | International Space Station                              |\n| LCH\u2084         | Liquified methane                                        |\n| MARCO        | Mars Atmospheric and Regolith Collector/Processing for Lander Operations |",
+        "start_index": 34534,
+        "end_index": 35157
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "| POLO         | Regolith Collector/Processing for Lander Operations      |\n| MAV          | Mars ascent vehicle                                      |\n| MOXIE        | Mars Oxygen In-Situ Resource Utilization                |\n| PR           | Peng-Robinson                                            |\n| RO           | Recycle operation                                        |\n| SPO          | Single pass operation                                    |\nSupporting Information",
+        "start_index": 35157,
+        "end_index": 35634
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Supporting Information are provided, which include the model parameters and flow sheets for simulation as well as detailed results.\n\nReferences\n\n[1] NASA, Human Exploration of Mars Design Reference Architecture 5.0 Addendum, (2009). https://www.nasa.gov/pdf/373667main_NASA-SP-2009-566-ADD.pdf (accessed August 20, 2024).",
+        "start_index": 35634,
+        "end_index": 35955
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[2] G.F. Acosta, A. Scott, A. Jason, D. Matt, H. Matt, K. Jared, K. Takahasi, M. Mohrli, M. Karen, M. Mark, P. Daniel, T. Norihito, T. Igor, W. Chris, Y. Keith, Project Genesis: Mars in Situ Propellant Technology Demonstrator Mission, (2009). https://ntrs.nasa",
+        "start_index": 35955,
+        "end_index": 36215
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".gov/api/citations/19950006409/downloads/19950006409.pdf (accessed February 04, 2025).",
+        "start_index": 36215,
+        "end_index": 36301
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[3] NASA, Human Exploration of Mars Design Reference Architecture 5.0, (2009). https://www.nasa.gov/wp-content/uploads/2015/09/373665main_nasa-sp-2009-566.pdf?emrc=6dfe40 (accessed August 20, 2024).",
+        "start_index": 36301,
+        "end_index": 36499
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[4] NASA, Human Exploration of Mars Design Reference Architecture 5.0 Addendum, (2009). https://www.nasa.gov/pdf/373667main_NASA-SP-2009-566-ADD.pdf (accessed August 20, 2024).",
+        "start_index": 36499,
+        "end_index": 36675
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[5] S.S. Alam, C. Depcik, S.P. Burugupally, J. Hobeck, E. McDaniel, Thermodynamic modeling of in-situ rocket propellant fabrication on Mars, iScience 25 (2022) 104323. https://doi.org/10.1016/j.isci.2022.104323.",
+        "start_index": 36675,
+        "end_index": 36886
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[6] S. Roens, J. Schneider, S. Matthischke, M. Schl\u00fcter, M. G\u00f6tz, J. Lefebvre, P. Prabhakaran, S. Bajohr, Review on methanation \u2013 From fundamentals to current projects, Fuel 166 (2016) 276\u2013296. https://doi.org/10.1016/j.fuel.2015.10.111.",
+        "start_index": 36886,
+        "end_index": 37123
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[7] W.J. Lee, C. Li, H. Pajaltino, J. Yoo, J. Patel, Y. Yang, S. Lim, Recent trend in thermal catalytic low temperature CO\u2082 methanation: A critical review, Catal. Today 368 (2021) 2\u201319. https://doi.org/10.1016/j.cattod.2020.02.017.",
+        "start_index": 37123,
+        "end_index": 37354
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[8] B. H\u00f6hlein, H. Niessen, J. Range, H.J.R. Schiebahn, M. Vorwerk, Methane from synthesis gas and operation of high-temperature methanation, Nucl. Eng. Des. 76 (1984) 241\u2013250. https://doi.org/10.1016/0029-5493(84)90308-X.",
+        "start_index": 37354,
+        "end_index": 37576
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[9] S. Matthischke, S. Roensch, R. G\u00fcttel, Start-up Time and Load Range for the Methanation of Carbon Dioxide in a Fixed-Bed Recycle Reactor, Ind. Eng. Chem. Res. 57 (2018) 6391\u20136400. https://doi.org/10.1021/acs.iecr.8b00755.",
+        "start_index": 37576,
+        "end_index": 37801
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[10] S. Theurich, S. Roens, R. G\u00fcttel, Transient Flow Rate Ramps for Methanation of Carbon Dioxide in an Adiabatic Fixed-Bed Recycle Reactor, Energy Technol. 8 (2020) 1901116. https://doi.org/10.1002/ente.201901116.",
+        "start_index": 37801,
+        "end_index": 38016
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[11] C. Junaedi, K. Hawley, D. Walsh, S. Roychoudhury, M. Abney, J. Perry, Compact and Lightweight Sabatier Reactor for Carbon Dioxide Reduction, in: 41st Int. Conf. Environ. Syst., American Institute of Aeronautics and Astronautics, Portland, Oregon, 2011. https://doi.org/10.2514/6",
+        "start_index": 38016,
+        "end_index": 38299
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".2011-5033.",
+        "start_index": 38299,
+        "end_index": 38310
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[12] L.M. Romeo, M. Cavana, M. Ballera, P. Leone, B. Pe\u00f1a, P. Lisbona, Non-stoichiometric methanation as strategy to overcome the limitations of green hydrogen injection into the natural gas grid, Appl. Energy 309 (2022) 118462. https://doi.org/10.1016/j.apenergy.2021.118462.",
+        "start_index": 38310,
+        "end_index": 38586
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[13] T.T. Chen, Integrated Simulations of the Sabatier and Carbon Vapor Deposition Reactor to Understand Its Impacts to Operations and Performance, (2024). https://ntrs.nasa.gov/api/citations/20240004053/downloads/ICES-2024-156-Final.pdf.",
+        "start_index": 38586,
+        "end_index": 38824
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[14] S.O. Starr, A.C. Muscatello, Mars in situ resource utilization: a review, Planet. Space Sci. 182 (2020) 104824. https://doi.org/10.1016/j.pss.2019.104824.",
+        "start_index": 38824,
+        "end_index": 38983
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[15] Anthony C. Muscatello, Paul E. Hintze, Anne J. Meier, Elspeth M. Petersen, Jon A. Bayliss, Ricardo M. Gomez Cano, Rene Formoso, Malay G. Shah, Jared J. Berg, Bruce T. Vu, Alexander R. Walts, Rupert U. Lee, Rene Formoso, Malay G. Shah, Jared J. Berg, Bruce T. Vu, Alexander R",
+        "start_index": 38983,
+        "end_index": 39262
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Walts, Rupert U. Lee, James G. Captain, Testing and Modeling of the Mars Atmospheric...",
+        "start_index": 39262,
+        "end_index": 39351
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[16] A.J. Meier, M.G. Shah, P.E. Hintze, E. Petersen, Mars Atmospheric Conversion to Methane and Water: An Engineering Model of the Sabatier Reactor with Characterization of Ru/Al\u2082O\u2083 for Long Duration Use on Mars, 47th Int. Conf. Environmental Syst. (2017). https://doi.org/10.2514/6.2017-5149.",
+        "start_index": 39351,
+        "end_index": 39645
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[17] F. Smith, J. Perry, K. Murdoch, L. Goldblatt, Sabatier Carbon Dioxide Reduction Assembly Development for Closed Loop Water Recovery, (2004). https://ntrs.nasa.gov/api/citations/20100033195/downloads/20100033195.pdf.",
+        "start_index": 39645,
+        "end_index": 39865
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[18] J.A. Hoffman, M.H. Hecht, D. Rapp, J.J. Hartvigsen, J.G. SooHoo, A.M. Aboobaker, J.B. McLean, A.M. Liu, E.D. Hinterman, M. Nasr, S. Hariharan, K.J. Horn, F.E. Meyen, H. Okkels, P. Steen, S",
+        "start_index": 39865,
+        "end_index": 40058
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ". Elangovan, C.R. Graves, P. Khopkar, M.B. Madsen, G.E. Voecks, P.H. Smith, T.L. Skafte, K.R. Araghi, D.J. Eisenman, Mars Oxygen ISRU Experiment (MOXIE)\u2014Preparing for human Mars exploration, Sci. Adv. 8 (2022) eabp8636. https://doi.org/10.1126/sciadv",
+        "start_index": 40058,
+        "end_index": 40308
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".abp8636.",
+        "start_index": 40308,
+        "end_index": 40317
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[19] \u0160. \u0160e\u0161ko, K. Lambley, T. Cutard, L. Grill, P. Reiss, A. Cowley, Oxygen production by solar vapor-phase pyrolysis of lunar regolith simulant, Acta Astronaut. 224 (2024) 215\u2013225. https://doi.org/10.1016/j.actaastro.2024.08.009.",
+        "start_index": 40317,
+        "end_index": 40547
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[20] S.S. Alam, C. Depcik, S.P. Burugupally, J. Hobeck, E. McDaniel, Thermodynamic modeling of in-situ rocket propellant fabrication on Mars, iScience 25 (2022) 104323. https://doi.org/10.1016/j.isci.2022.104323.",
+        "start_index": 40547,
+        "end_index": 40759
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[21] S. R\u00f6nsch, J. Schneider, S. Matthischke, M. Schl\u00fcter, M. G\u00f6tz, J. Lefebvre, P. Prabhakaran, S. Bajohr, Review on methanation \u2013 From fundamentals to current projects, Fuel 166 (2016) 276\u2013296. https://doi.org/10.1016/j.fuel.2015.10.111.",
+        "start_index": 40759,
+        "end_index": 40998
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[22] L. Falbo, C.G. Visconti, L. Lietti, J. Szanyi, The effect of CO on CO\u2082 methanation over Ru/Al\u2082O\u2083 catalysts: a combined steady-state reactivity and transient DRIFT spectroscopy study, Appl. Catal. B Environ. 256 (2019) 117791. https://doi.org/10.1016/j.apcatb.2019.117791.",
+        "start_index": 40998,
+        "end_index": 41274
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[23] L. Falbo, M. Martinelli, C.G. Visconti, L. Lietti, C. Bassano, P. Deiana, Kinetics of CO\u2082 methanation on a Ru-based catalyst at process conditions relevant for Power-to-Gas applications, Appl. Catal. B Environ. 225 (2018) 354\u2013363. https://doi.org/10.1016/j.apcatb.2017.11.066.",
+        "start_index": 41274,
+        "end_index": 41555
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[24] G. Baade, J. Friedland, K. Ray, R. G\u00fcttel, CO\u2082 hydrogenation on ruthenium: comparative study of catalyst supports, RSC Sustain. 2 (2024) 3826\u20133834. https://doi.org/10.1039/D4SU00469H.",
+        "start_index": 41555,
+        "end_index": 41743
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[25] D.R. Douslin, Vapor pressure of water from \u20132.5 to 20\u00b0C, J. Chem. Thermodyn. 3 (1971) 187\u2013193. https://doi.org/10.1016/S0021-9614(71)80101-5.",
+        "start_index": 41743,
+        "end_index": 41889
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[26] P. Linstrom, NIST Chemistry WebBook, NIST Standard Reference Database 69, (1997). https://doi.org/10.18434/T4D303.",
+        "start_index": 41889,
+        "end_index": 42008
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[27] H. Lin, S.M. Thompson, A. Serbanescu-Martin, J.G. Wijmans, K.D. Amo, K.A. Lokhandwala, B.T. Low, T.C. Merkel, Dehydration of natural gas using membranes. Part II: Sweep/countercurrent design and field test, J. Membr. Sci. 432 (2013) 106\u2013114. https://doi.org/10",
+        "start_index": 42008,
+        "end_index": 42273
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": ".1016/j.memsci.2012.12.049.",
+        "start_index": 42273,
+        "end_index": 42300
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[28] S. Sircar, T.C. Golden, Purification of Hydrogen by Pressure Swing Adsorption, Sep. Sci. Technol. 35 (2000) 667\u2013687. https://doi.org/10.1081/SS-100100183.",
+        "start_index": 42300,
+        "end_index": 42459
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[29] S. Sircar, W.C. Kratz, Simultaneous Production of Hydrogen and Carbon Dioxide from Steam Reformer Off-Gas by Pressure Swing Adsorption, Sep. Sci. Technol. 23 (1988) 2397\u20132415. https://doi.org/10.1080/01496398808058461.",
+        "start_index": 42459,
+        "end_index": 42682
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[30] J. Haydary, Chemical Process Design and Simulation: Aspen Plus and Aspen Hysys Applications, 1st ed., Wiley, 2018. https://doi.org/10.1002/9781119311478.",
+        "start_index": 42682,
+        "end_index": 42840
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[31] A. Kakoeae, A. Ghareaghani, Carbon oxides methanation in equilibrium; a thermodynamic approach, Int. J. Hydrog. Energy 45 (2020) 29993\u201330008. https://doi.org/10.1016/j.ijhydene.2020.08.073.",
+        "start_index": 42840,
+        "end_index": 43034
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[32] D. Rapp, Use of Extraterrestrial Resources for Human Space Missions to Moon or Mars, Springer Berlin Heidelberg, Berlin, Heidelberg, 2013. https://doi.org/10.1007/978-3-642-32762-9.",
+        "start_index": 43034,
+        "end_index": 43220
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[33] J. Baker, R. Khaleel Rahman, R. Olivera, S. Vasu, Assessment of impurities effect on methane/natural gas ignition at high pressure, in: AIAA SCITECH 2023 Forum, American Institute of Aeronautics and Astronautics, National Harbor, MD & Online, 2023. https://doi.org/10.2514/6.2023-2378.",
+        "start_index": 43220,
+        "end_index": 43510
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "[34] J. Bremer, K. Sundmacher, Novel Multiplicity and Stability Criteria for Non-Isothermal Fixed-Bed Reactors, Front. Energy Res. 8 (2021) 549298. https://doi.org/10.3389/fenrg.2020.549298.\nCredit:",
+        "start_index": 43510,
+        "end_index": 43708
+    },
+    {
+        "document_name": "127.txt",
+        "chunk_text": "Franz Braun, Samuel Prinz, Thomas-Oliver Nagel: Methodology, Investigation, Data curation, Writing original draft, Visualization, Writing review & editing\nJens Friedland: Conceptualization, Methodology, Investigation, Supervision, Project administration, Writing review & editing\nRobert G\u00fcttel: Resources, Conceptualization, Methodology, Investigation, Supervision, Project administration, Writing review & editing",
+        "start_index": 43708,
+        "end_index": 44122
+    }
+]

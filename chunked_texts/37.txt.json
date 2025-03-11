@@ -1,0 +1,1898 @@
+[
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Microenvironment effects from first principles multiscale modeling of electrochemical CO$_2$ reduction\n\nF. Lorenzutti$^{1,\\dagger}$, R.R. Seemakurthi$^{2,\\dagger}$, E.F. Johnson$^1$, S. Morandi$^{2,3}$, P. Nika\u010devi\u0107$^2$, N. L\u00f3pez$^{2,*}$, and S. Haussener$^{1,*}$",
+        "start_index": 0,
+        "end_index": 263
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "$^1$Laboratory of Renewable Energy Science and Engineering, Institute of Mechanical Engineering, EPFL, Station 9, 1015 Lausanne, Switzerland.\n\n$^2$Institute of Chemical Research of Catalonia (ICIQ-CERCA), Avinguda Pa\u00efsos Catalans 16, 43007 Tarragona, Spain.",
+        "start_index": 263,
+        "end_index": 520
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "$^3$Department of Physical and Inorganic Chemistry, Universitat Rovira i Virgili, Campus Sescelades, N4 Block, C. Marcel\u00b7l\u00ed Domingo 1, 43007, Tarragona, Spain\n\n$\\dagger$These authors contributed equally.\n\n$*$Corresponding authors.\nAbstract",
+        "start_index": 520,
+        "end_index": 759
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Electrochemical CO\u2082 reduction will be a key player in net-zero technologies, yet its industrial implementation is limited. Improvements by fine-tuning the microenvironments, electrolyte environments around the catalytic sites, have been scarce due to the interplay between electrode kinetics and transport. Here, we couple atomistic insights with continuum transport via ab-initio multiscale modeling, explicitly including electrolyte effects at all scales",
+        "start_index": 759,
+        "end_index": 1215
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The model was validated on Ag planar electrodes in several liquid electrolytes and the current dependence with voltage aligns with experimental observations. We show that a balance between CO\u2082 diffusion and cation accumulation needs be achieved to obtain optimal rates. In ionomers, this limitation can be overcome since organic cations-based microenvironments are present at a fixed concentration, but water management becomes critical. Our approach paves the way towards rational microenvironment design in electrochemical CO\u2082 conversion.",
+        "start_index": 1215,
+        "end_index": 1757
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1757,
+        "end_index": 1769
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Optimization of electrochemical systems such as electrolyzers for CO$_2$ conversion involves considering the elementary reactions occurring on the catalyst surface and the tuning of multi-physical transport processes [1]. While catalyst optimization has seen significant advancements guided by binding energy descriptors and volcano plots [2], the intricate multi-scale nature of the catalyst-electrolyte interface known as microenvironment remains to be elucidated [3\u20135]",
+        "start_index": 1769,
+        "end_index": 2240
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Engineering the microenvironment is especially relevant in electrochemical CO$_2$ reduction (eCO$_2$R) as the reaction cannot occur on Cu, Ag and Au if cations are not present in the electrolyte [6\u20138]",
+        "start_index": 2240,
+        "end_index": 2442
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". On Ag and Au, higher concentrations of electrolyte cations favor CO formation at mildly reductive potentials, but at strongly negative potentials, they adversely impact cell performance, decreasing the CO Faradaic efficiencies [9] and hampering device stability due to salt precipitation [10, 11]. The nature of the alkali cation also impacts current densities, with higher values obtained with increasing atomic number [12]",
+        "start_index": 2442,
+        "end_index": 2868
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Descriptors such as cation\u2019s hydrated size [13] and acidity [14] were considered to rationalize the observed behavior. Other larger organic cations also promote eCO$_2$R in aqueous electrolytes by modulating the double layer thickness and strength [15]. However, there is a lack of robust tools for designing microenvironments that optimize the operating conditions for eCO$_2$R.",
+        "start_index": 2868,
+        "end_index": 3249
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Progress in the understanding of microenvironments for eCO$_2$R was made by focusing at different scales. In continuum models, the transport in the diffuse and diffusion layer in the vicinity of electrodes for eCO$_2$R commonly assumes diluted conditions and planar electrodes and is modeled with the generalized modified Poisson-Nernst-Planck (gmPNP) equations [16, 17]. Porous electrodes were also recently studied with this approach [18]",
+        "start_index": 3249,
+        "end_index": 3689
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In these models, the cation concentration in the vicinity (up to few tens of nanometers) of a cathode is the main contributor in the Langmuir-type activity coefficient flux term commonly referred to as steric term. The steric term modulates the amount of reagents reaching the Outer Helmholtz Plane (OHP) and leads to relevant size exclusion effects",
+        "start_index": 3689,
+        "end_index": 4040
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". However, approaches to elucidate local conditions on nanostructured electrodes [19] and optimize their structures [18] require experimental results or parametrized Tafel terms for",
+        "start_index": 4040,
+        "end_index": 4221
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "reactivity as boundary condition. At the atomic scale close to the electrode, the local role of cations in eCO$_2$R was directly addressed via ab initio molecular dynamics (AIMD) by explicitly adding cations in the electrolyte. Partially desolvated cations stabilize CO$_2^-$ through direct coordination [7] and slow growth AIMD simulations show that inner sphere mechanisms reduce barriers for CO$_2$ adsorption [20\u201322]",
+        "start_index": 4221,
+        "end_index": 4641
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Moreover, MD simulations at extended time-scales show that cation coordination affects mostly the polarizable adsorbates (CO$_2^-$, COOH, COCO) [23].",
+        "start_index": 4641,
+        "end_index": 4792
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Coupling these different length scales via multiscale modeling can provide a robust way to optimize microenvironments. Consistency in the assumptions adopted across length scales is paramount when coupling surface reaction kinetics with transport and homogeneous reactions occurring in the electrolyte [24, 25]. The first multiscale model of eCO$_2$R [26] included microkinetics with DFT-derived kinetic constants paired with a continuum transport model",
+        "start_index": 4792,
+        "end_index": 5245
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". By evaluating different pathways for CO formation on Ag(110), a reaction mechanism involving CO$_2^-$ as an intermediate and H$_2$O as a proton source was proposed, which captured the experimental trends in current densities as a function of CO$_2$ partial pressure",
+        "start_index": 5245,
+        "end_index": 5512
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". A subsequent study considering cations and size exclusion effects at the transport level and adsorption energies of eCO$_2$R intermediates with a double layer charging (mean-field) model could reproduce the trends across monovalent cations on Ag and Cu [13] and the observed Tafel slopes on Au(211) [27]",
+        "start_index": 5512,
+        "end_index": 5817
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In these cases, the effect of the cation was fundamentally electrostatic [25, 28, 29] and coupled the macroscale to the atomistic level through the surface charge densities. However, surface-enhanced spectroscopy measurements [30\u201332] suggest that considering only non-bonding electric field effects might be too simplistic, and local interactions between the cation and the key intermediates need to be explicitly taken into account.",
+        "start_index": 5817,
+        "end_index": 6252
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "To move towards practical implementations, advanced eCO$_2$R electrolyzers, such as Membrane Electrode Assemblies (MEAs) [33], employ microenvironments based on stabilized cationic polyelectrolytes (ionomers) on the electrodes [4, 34, 35]. Cross-linking the ionomer on Ag electrode supports prolonged high CO Faradaic efficiencies in acidic electrolytes, avoiding carbonate precipitation [36]",
+        "start_index": 6252,
+        "end_index": 6644
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Considering these interfaces in the modeling efforts requires including activity and transport of water in the continuum model [37].",
+        "start_index": 6644,
+        "end_index": 6778
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "These considerations have been included in stand-alone transport models, but they have not been collectively implemented across scales in ab-initio multiscale models.",
+        "start_index": 6778,
+        "end_index": 6944
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Ab-initio design of microenvironments for eCO$_2$R requires the full deployment of a multiscale approach, considering both the atomic-scale and transport effects of the electrolyte on the current densities. Therefore, we built an ab-initio multiscale model accounting for the cation role at all scales",
+        "start_index": 6944,
+        "end_index": 7245
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Specifically, the cation transport from the OHP to the electrode surface was considered as a reaction step in the microkinetic model and the stabilization of the reaction intermediates in microenvironments composed of a cation and a surface site was evaluated. The model reproduces trends in experimental data for eCO$_2$R on Ag in different alkali metal MHCO$_3$ electrolytes and quantifies the local operating conditions",
+        "start_index": 7245,
+        "end_index": 7669
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We also considered an AEM-type solid electrolyte at different hydration levels. Using this methodology, we can design the catalyst-electrolyte microenvironments and predict the best electrolyte and operating conditions.",
+        "start_index": 7669,
+        "end_index": 7890
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Results\n\nThe active site for eCO$_2$R",
+        "start_index": 7890,
+        "end_index": 7927
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We study Ag due to its excellent selectivity towards CO, which allows us to focus on the buffer reaction environment rather than the different heterogeneous catalysis mechanisms",
+        "start_index": 7927,
+        "end_index": 8104
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To evaluate the effect of cations towards the reaction intermediates of CO$_2$ reduction to CO at the DFT level, we solvated alkali cations (Li$^+$, K$^+$, Cs$^+$) with three water molecules and placed them in the vicinity of the adsorbates on Ag(111). For K$^+$, we also evaluated the Ag(110) and Ag(100) facets, see Figure S1",
+        "start_index": 8104,
+        "end_index": 8433
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The coordination number of cations were kept constant to analyze the intrinsic differences in stabilization that the cation provides. In all cases, the cations were found to stabilize CO$_2$ and COOH intermediates by at least 0.5 eV and 0.4 eV respectively (Figure 1(a): DFT and AIMD)",
+        "start_index": 8433,
+        "end_index": 8719
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This is consistent with previous works [7, 21] and indicates that the cation greatly aids in activating CO$_2$ and keeping it adsorbed on the surface. In particular, the O\u2013C\u2013O bond angle decreases from the 180\u00b0 in the gas phase to around 135\u00b0 in presence of the cation, which further facilitates the first proton-coupled electron transfer (PCET) to form COOH. We note",
+        "start_index": 8719,
+        "end_index": 9088
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "that the addition of microsolvated cation also induces excess surface charge on the Ag surfaces (-0.03 e\u207b/atom). However it is difficult to disentangle the chemical stabilization and purely electrostatic effects when the cation is introduced into the system. This is discussed in further detail in SI section 1.1.7",
+        "start_index": 9088,
+        "end_index": 9402
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Additionally, we have tested the influence of potential on binding energies of surface intermediates using Grand Canonical DFT using VASP-sol++ for the Ag(111)-K\u207a system. Except for CO\u2082, we see that the binding energies of reaction intermediates in the CO pathway shift within 0.17 eV across a 1.5 V potential range (Figure S2). The CO\u2082 binding energy shifts with a slope of 0",
+        "start_index": 9402,
+        "end_index": 9780
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".44 eV/V, in-line with greater number of excess electrons needed to maintain the fixed potential as compared to the clean slab. The implications of these shifts on CO current densities is discussed in the following section.",
+        "start_index": 9780,
+        "end_index": 10003
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Based on these results, we propose that the active site for eCO\u2082R consists of a microenvironment including both the surface sites on Ag and a partially dehydrated cation present in the vicinity of the reaction plane (less than 5.7 \u00c5, see Figure S3). We include this proposed active site by accounting for the transport of the cation from the OHP to the vicinity of the electrode as an elementary step in the microkinetic model (MKM)",
+        "start_index": 10003,
+        "end_index": 10435
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To obtain the kinetic constants associated with the cations\u2019 transport, we first performed AIMD simulations with Li\u207a, K\u207a and Cs\u207a on Ag(111) in the presence of CO\u2082\u207b. For the cation that forms a contact-ion pair with CO\u2082\u207b, we then performed constrained AIMD simulations at different cation surface distances (Figure S4). The cation coordination numbers far from the surface (>5 \u00c5) are within 0",
+        "start_index": 10435,
+        "end_index": 10828
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".47 of the experimental bulk coordination numbers (Li\u207a: 4, K\u207a: 6, and Cs\u207a: 8). Importantly, the coordination analysis revealed an average loss of about one H\u2082O molecule as the cations move from OHP (assumed to be at 5 \u00c5) towards the electrode",
+        "start_index": 10828,
+        "end_index": 11070
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Therefore, we estimated the energy required for the cations to lose a single water molecule and form the reaction microenvironment, which is considered a elementary step in the MKM. Among the cations Li\u207a has the highest reaction energy followed by K\u207a and Cs\u207a (Figure S5) in line with their charge vs. radius ratios",
+        "start_index": 11070,
+        "end_index": 11386
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The energy associated with this coordination change and the potential jump across the electric double layer (\u0394\u03d5OHP) are used to estimate the surface coverage of cations (\u03b8M\u207a) (SI Section 1.1.2). This is then multiplied by the number of Ag surface...",
+        "start_index": 11386,
+        "end_index": 11637
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "sites per unit area to obtain the estimate of the number of active sites in the presence of cations. We note that the water coordination of $K^+$ and $Cs^+$ close to the surface was around 5 and 6 respectively and dynamic (Figure S4), while for $Li^+$ it is 3 and more static",
+        "start_index": 11637,
+        "end_index": 11912
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The effect of changing the water coordination of $K^+$ and $Cs^+$ (from 3 to 5 and 6 respectively) on the binding energies of adsorbates was estimated and found to be within 0.13 eV (Figure S6) and therefore should not affect the trends observed across cations in the multiscale models.",
+        "start_index": 11912,
+        "end_index": 12200
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Multiscale modeling",
+        "start_index": 12200,
+        "end_index": 12219
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The multiscale approach employed in this study, including the role of cations in $CO_2$ reduction, is described in Figure 1(a). The DFT representation of the electronic structure for the surface and adsorbates is coupled to AIMD simulations to include the effect of cations and water rearrangements close to the surface in the kinetic barriers",
+        "start_index": 12219,
+        "end_index": 12562
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Atomic-scale results are then fed to a self-consistent loop composed of (i) MKM where the active sites are microenvironments composed of a cation in the vicinity of the surface sites, which provides the current densities as boundary condition to the transport model; (ii) monodimensional gmPNP transport model providing local conditions at the OHP acting as boundary conditions for the MKM.",
+        "start_index": 12562,
+        "end_index": 12954
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We considered chemical species transport across a 50 $\\mu$m diffusion layer in the vicinity of an Ag planar electrode starting from the OHP (Figure 1(b)) and four competing electrochemical reactions at the reaction plane: 1. $CO_2$ reduction to CO via $H_2O$-facilitated PCET; 2. $H_2O$ reduction to $H_2$; 3",
+        "start_index": 12954,
+        "end_index": 13262
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". $CO_2$ reduction to CO via $H^+$-facilitated PCET; and 4. $H^+$ reduction to $H_2$. All the mechanisms except mechanism 4 require cations in the vicinity of the electrode to occur",
+        "start_index": 13262,
+        "end_index": 13443
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". $H^+$ reduction does not involve any polar intermediates and experiments reveal very little effect on acidic HER currents across monovalent cations [40], therefore the effect of cation on $H^+$ reduction is not considered. In this work, mechanisms 1 and 2 were always considered, while mechanisms 3 and 4 were only included in the less negative potentials range",
+        "start_index": 13443,
+        "end_index": 13806
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We also consider the HCOOH formation for $K^+$ and $Li^+$ buffers on Ag(111). As the discussions on the role of carbonic acid and bicarbonate ions as proton donors to produce $H_2$ [41, 42] and their contribution to $CO_2R$ [43, 44] is",
+        "start_index": 13806,
+        "end_index": 14043
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 1: Multiscale Methodology and Computational Domain. (a) DFT and AIMD simulations (blue), carried out only once for a given facet and electrolyte, provide cation coordination and estimate energetics for CO\\textsubscript{2} reduction and HER in the presence of cations. The derived rate constants, $k_i$, are included in the microkinetic model (green) to solve rate equations",
+        "start_index": 14043,
+        "end_index": 14423
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The active sites on the surface are only considered when the cation is in close proximity, thus determining current densities $j_i$. The corresponding fluxes, $J_i$, establish boundary conditions for the continuum transport model (orange), incorporating external applied potential $V_{\\text{RHE}}$ and buffer concentrations $[\\text{MHCO}_3]$",
+        "start_index": 14423,
+        "end_index": 14766
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The macroscale model outputs, consisting of conditions at OHP, are fed back to the microkinetic model and the loop is repeated iteratively until the convergence of current densities. (b) Representation of the computational domains: the transport model governing equations are solved across a 50 \\textmu m diffusion layer going from the OHP to the electrolyte bulk while the microkinetic model accounts for the surface reactions",
+        "start_index": 14766,
+        "end_index": 15195
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (c,d) Schematics of H-cell and MEA type setups for eCO\\textsubscript{2}R with the modeled domains marked by the orange rectangles.",
+        "start_index": 15195,
+        "end_index": 15327
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "For a given buffer-electrode system, the DFT simulations are only performed once to estimate the energetics at 0 $V_{\\text{RHE}}$",
+        "start_index": 15327,
+        "end_index": 15456
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". They form the input to the MKM, along with the cation concentration $[\\text{M}^+]_{\\text{OHP}}$, $\\text{pH}_{\\text{OHP}}$, $\\Delta \\phi_{\\text{OHP}}$ and CO\\textsubscript{2} partial pressure $P_{\\text{CO}_2,\\text{OHP}}$, which are obtained from the transport model",
+        "start_index": 15456,
+        "end_index": 15722
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We define $P_{\\text{CO}_2}$ as $[\\text{CO}_2]/[\\text{CO}_2]_{\\text{sat}}$, where $[\\text{CO}_2]_{\\text{sat}}$ is the concentration of CO\\textsubscript{2} in saturated pure water at room temperature (obtained from Henry\u2019s law)",
+        "start_index": 15722,
+        "end_index": 15949
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The steady-state current densities $j_i$ from the MKM along with the bulk conditions are fed back into the transport model until convergence in $j_i$ is reached. The outputs from the multiscale model are: $j_i$ as a function of the applied potential, Faradaic...",
+        "start_index": 15949,
+        "end_index": 16213
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "efficiencies (FE), local conditions at the OHP as well as across the diffusion layer (see Figure S7), and degree of rate control \\(^{45}\\) of kinetic elementary steps.",
+        "start_index": 16213,
+        "end_index": 16380
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Ag(111) \u2013 KHCO\\(_3\\) system**",
+        "start_index": 16380,
+        "end_index": 16411
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We considered the case of eCO\\(_2\\)R on Ag(111) in a CO\\(_2\\)-saturated KHCO\\(_3\\) buffer for validation. Different starting concentrations of KHCO\\(_3\\) were examined to identify the best operating conditions in a H-cell type reactor",
+        "start_index": 16411,
+        "end_index": 16645
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Current densities for CO\\(_2\\)R via H\\(_2\\)O (mechanism 1) are given in Figure 2(a) (see Figure S8 for the current densities obtained from all the mechanisms). From the degree of rate control analysis in Figure 2, we determine two areas",
+        "start_index": 16645,
+        "end_index": 16883
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". At less negative potentials, the CO\\(_2\\) to COOH step is rate limiting (kinetic-limited), while at more negative potentials, the adsorption of CO\\(_2\\) from the double layer is limiting (transport-limited). This shift in the rate-determining step corresponds to the peak in current densities, which divides the potential in two regions. At lower magnitude potentials, in the kinetically limited region (more than about \\(-1",
+        "start_index": 16883,
+        "end_index": 17309
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".4 \\text{ V}_{\\text{RHE}}\\)), higher cation concentration favors CO\\(_2\\)RR, while at higher magnitude potentials, in the transport limited region (below about \\(-1.4 \\text{ V}_{\\text{RHE}}\\)) the trend is inverted, with lower buffer concentrations leading to higher current densities. For the 0",
+        "start_index": 17309,
+        "end_index": 17604
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1 M KHCO\\(_3\\) system, current densities are about two orders of magnitude lower than in the experimental data \\(^{46}\\). Analysis of the potential contributing factors (Figure S9) suggests that considering the lower energy configurations for the cation desolvation (Figure S5) or a larger potential shift for cation penetration past the OHP might account for one order of magnitude difference",
+        "start_index": 17604,
+        "end_index": 17998
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Incorporating experimental values of free energetics for water solvation \\(^{47}\\) in the cation coordination shift might also bring the simulated current densities within one order of magnitude to the experimental values. When considering GC-DFT formalism, the current density is about one order of magnitude lower than the constant charge DFT in the kinetically limited section of the \\(iV\\) curve (Figure S10), and the peak is shifted to more negative potentials by 0.1 V",
+        "start_index": 17998,
+        "end_index": 18474
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In the transport limited region, the current densities are comparable.",
+        "start_index": 18474,
+        "end_index": 18546
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The initial bulk conditions for the different electrolytes vary substantially (Figure 2): \\([\\text{H}^+]\\), spans across more than two orders of magnitude in the different starting electrolyte",
+        "start_index": 18546,
+        "end_index": 18738
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 2: Model Validation and iV Curves of Ag(111)-K\u207a System. (a) CO current density from H\u2082O (mechanism 1) vs. applied potential (V_{RHE}) for varying concentrations of KHCO\u2083 buffers on Ag(111)",
+        "start_index": 18738,
+        "end_index": 18933
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (b) MKM results indicating the degree of rate control for CO\u2082 to COOH PCET and CO\u2082 adsorption steps for [K\u207a]\u2080 = 2 M. (c) Shift in bulk pH and [CO\u2082], assumed as P_{CO\u2082}, with respect to buffer concentration.",
+        "start_index": 18933,
+        "end_index": 19141
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "concentrations, and the CO\u2082 available in a 2 M KHCO\u2083 solution is less than half of that available in pure water as a result of the increased ionic strength of the solution. These bulk variations also impact the local conditions at OHP (Figure 3(a)): at less negative potentials, significantly less CO\u2082 is available at OHP in concentrated buffer solutions than in lower buffer concentrations",
+        "start_index": 19141,
+        "end_index": 19531
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". For all starting [K\u207a]\u2080 concentrations, the [K\u207a]\u2080 reaches the steric limit (emerging from the steric term in the gmPNP model assuming a simple cubic packing [17]) of 5.7 M at more negative potentials (Figure 3(b)). [K\u207a]\u2080 at strongly negative potentials is almost 100 times its bulk values in the case of [K\u207a]\u2080 = 0",
+        "start_index": 19531,
+        "end_index": 19845
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".05 M, in line with experimentally observed surface concentration measurements [48].",
+        "start_index": 19845,
+        "end_index": 19929
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "At less negative potentials, even though the P_{CO\u2082,OHP} is lower for high buffer concentrations, [K\u207a]\u2080 is higher, which is sufficient to increase the availability of microenvironments on the electrocatalyst, resulting in higher current densities for higher buffer concentrations (Figure 2(a)). However, at strongly negative potentials, as the cations...",
+        "start_index": 19929,
+        "end_index": 20283
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "approach the steric limit, the effect of the decrease in $P_{\\text{CO}_2,\\text{OHP}}$ becomes more relevant and the system transitions from a kinetic-dominated regime to a transport-dominated one (Figure 2(b)) reducing the availability of CO$_2$ in concentrated buffers.",
+        "start_index": 20283,
+        "end_index": 20553
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The proton reduction reaction, responsible for decreasing the CO FE at less cathodic potentials [49], is a strong function of pH. As shown in Figure 3(c), the pH$_{\\text{OHP}}$ decreases initially with potential due to the double layer charging, and later increases due to the strong OH$^-$ flux from the electrochemical reactions and the size exclusion effect of cations crowding the OHP",
+        "start_index": 20553,
+        "end_index": 20941
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The larger $\\Delta \\phi_{\\text{OHP}}$ at higher buffer concentrations (due to high $[\\text{K}^+]_{\\text{OHP}}$) leads to a less negative local potential in the diffusion layer, hindering H$^+$ migration through a cation-shielding effect (Figure S11) [50].",
+        "start_index": 20941,
+        "end_index": 21198
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "For CO$_2$R, the H$_2$O-facilitated mechanism (mechanism 1) dominates, with the acidic mechanism (mechanism 3) contributing at least two orders of magnitude less regardless of buffer concentration (Figure S8(a)), which is in line with experiments suggesting that protons are not directly involved in CO$_2$R [49]",
+        "start_index": 21198,
+        "end_index": 21510
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". However, at less negative potentials, HER via H$^+$ reduction (mechanism 4) is dominant compared to H$_2$OR (mechanism 2) due to lower barriers, and has current densities of the same order of magnitude as the CO$_2$R via H$_2$O (Figure S8(b))",
+        "start_index": 21510,
+        "end_index": 21754
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This explains the predicted low CO Faradaic efficiencies at lower buffer concentrations (Figure 3(d)), in agreement with experimental literature [49]. Higher buffer concentrations maintain higher pHs (Figure 3(c)), promoting high CO Faradaic efficiencies even at less negative potentials. The convergence of the H$^+$-related current densities and concentration in the multiscale loop became problematic below -1 V$_{\\text{RHE}}$",
+        "start_index": 21754,
+        "end_index": 22185
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Theory suggests that below this point $[\\text{H}^+]_{\\text{OHP}}$ should rapidly decrease and the CO FE ramp up, especially for the lower buffer concentrations, until about -1.6 V$_{\\text{RHE}}$ when H$_2$OR starts dominating",
+        "start_index": 22185,
+        "end_index": 22412
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". H$_2$OR is neither transport nor pH dependent: its rate is controlled solely by the number of K$^+$-based microenvironments, in line with the experimental observations on Au electrodes [51] (Figure S8(b)). Consequently, higher buffer concentrations lead to higher H$_2$ evolution rates from H$_2$OR",
+        "start_index": 22412,
+        "end_index": 22712
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The barriers for H$_2$OR are always unfavorable with respect to CO$_2$R (Figures 4(e) and S12), however, at strongly negative applied potentials, CO$_2$R becomes transport limited, allowing the H$_2$OR current density to become prevalent (see Figure S8), leading to a drop in FEs. Our model effec-",
+        "start_index": 22712,
+        "end_index": 23011
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 3: **OHP Conditions and Faradaic Efficiency of Ag(111)-K\u207a System.** (a, b, c) OHP conditions, including $P_{\\text{CO}_2,\\text{OHP}}$, $[\\text{K}^+]_{\\text{OHP}}$, and $[\\text{H}^+]_{\\text{OHP}}$ at various buffer concentrations",
+        "start_index": 23011,
+        "end_index": 23245
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (d) Faradaic efficiency of CO vs. $V_{\\text{RHE}}$, along with the illustrations depicting OHP conditions at representative low and high buffer concentrations. Full dots indicate H\u2082O is only considered as proton donor (mechanisms 1 and 2); empty dots indicate H\u207a (mechanisms 3 and 4) is also considered.",
+        "start_index": 23245,
+        "end_index": 23550
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "...tatively predicts and explain the well-known bell curve shape of the Faradaic efficiency, in line with experimental observations [9, 49] (Figure 3(d)).",
+        "start_index": 23550,
+        "end_index": 23704
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "To further test the dependency of the current density on the buffer pH, we followed an",
+        "start_index": 23704,
+        "end_index": 23790
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "approach available in the literature \\[43\\] and considered KHCO$_3$ + KClO$_4$ buffers, starting at different cation concentrations and similar pHs (see Tables S6 and S7)",
+        "start_index": 23790,
+        "end_index": 23960
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We observe that in the low potential region, the higher P$_{CO_2,OHP}$ balances out the lower availability of microenvironments due to a reduced [K$^+$]$_{OHP}$ for lower starting buffer concentrations, resulting in a current density for H$_2$O facilitated CO$_2$R almost independent from the initial cation concentration. In the high potential region (below about -1",
+        "start_index": 23960,
+        "end_index": 24329
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".4 V$_{RHE}$), CO$_2$ transport is especially hindered for higher buffer concentrations because of the size-exclusion effect (Figure S13). Ultimately, for a given buffer pH, the lowest buffer concentration better promotes CO$_2$R at strongly negative potentials by decreasing the transport limitations for CO$_2$ and activating fewer sites for H$_2$O reduction.",
+        "start_index": 24329,
+        "end_index": 24690
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The Faradaic efficiency curve for CO in Figure 3(d) can be roughly divided into three regimes based on the applied potentials and dominant HER mechanism. At strongly negative potentials, below about -1.4 V$_{RHE}$, H$_2$OR dominates. Conversely, at less negative potentials, above about -0.9 V$_{RHE}$, H$^+$ reduction dominates, especially at low buffer concentration where pH$_{OHP}$ is lower",
+        "start_index": 24690,
+        "end_index": 25084
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In agreement with recent experimental studies \\[49\\], we predict that the optimal operating region for eCO$_2$R, corresponding to the peak of the FE bell, is a potential region in which the dominating mechanism for H$_2$ production switches from H$^+$ to H$_2$O reduction, and in which CO$_2$R is still in the kinetic regime",
+        "start_index": 25084,
+        "end_index": 25410
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". When operating at less negative potentials, higher buffer concentrations ([K$^+$]$_b$ $\\geq$0.5 M) promote higher FE due to the lower H$^+$ availability and by forming relatively more microenvironments for CO$_2$R with respect to lower buffer concentrations at the same potentials. However, pH$_{OHP}$ is relatively high in these cases (>6.5), suggesting deposition of carbonates",
+        "start_index": 25410,
+        "end_index": 25791
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Conversely, at strongly negative potentials, lower buffer concentrations ([K$^+$]$_b$ $\\leq$0.1 M) are beneficial since they reduce CO$_2$ transport limitations while H$^+$ migration is suppressed by enhanced electric field shielding (i.e., higher cation concentration at the OHP). Additionally, the relatively acidic pH (<6.0) hinders carbonate precipitation, but might imply a non-negligible contribution from H$^+$ reduction.",
+        "start_index": 25791,
+        "end_index": 26221
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Varying microenvironments",
+        "start_index": 26221,
+        "end_index": 26246
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "To predict the trends across different cations and identify the best operating conditions on Ag(111), we varied the buffer to Cs\\(^+\\)-based and Li\\(^+\\)-based carbonate solutions and compared the results with K\\(^+\\). As \\(\\text{Li}_2\\text{CO}_3\\) has a solubility limit of 0",
+        "start_index": 26246,
+        "end_index": 26522
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".18 mol/1L H\\(_2\\)O at 25\\(^\\circ\\)C \\(^52\\) (KHCO\\(_3\\) has a solubility limit 3.61 mol/1L H\\(_2\\)O), we did not consider buffer concentrations with [Li\\(^+] > 0.1\\) M.",
+        "start_index": 26522,
+        "end_index": 26691
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 4(a) shows that the current density for Cs\\(^+\\) is the highest across the potential range, in agreement with the experimental data \\(^{13}\\)",
+        "start_index": 26691,
+        "end_index": 26839
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". For Li\\(^+\\) buffers, the current density is higher (although within an order of magnitude) with respect to K\\(^+\\) at less negative potentials; but becomes severely transport limited at intermediate potentials with the maximum reached current densities of the order of $10^{-4}$ mA cm\\(^{-2}\\). This is due to the larger hydrated diameter of Li\\(^+\\) ($d = 7",
+        "start_index": 26839,
+        "end_index": 27200
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".64$ \u00c5 \\(^53\\)) which leads to a steric limit of only 3.72 M at OHP \\(^{17}\\) and significant size exclusion effects. The direct comparison with the experimental current densities (Figure S14) shows that for Li\\(^+\\), similarly to K\\(^+\\), the peak current density is 2-orders of magnitudes lower than the experimental results",
+        "start_index": 27200,
+        "end_index": 27526
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". For Cs\\(^+\\), the experimental and predicted peak current densities are of the same order of magnitude. Notably, the peak current density potentials (highlighted by colored bars in Figure 4(a)) follow the order K\\(^+\\) $\\approx$ Cs\\(^+\\) $>$ Li\\(^+\\), in line with experimental evidence \\(^{13}\\)",
+        "start_index": 27526,
+        "end_index": 27824
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". When varying buffer concentrations, all cations show the same general behavior: higher concentrations promote CO\\(_2\\)R at first and then demote it (see Figures S15 and S16). In terms of FE (Figure 4(d)), Cs\\(^+\\) shows the highest CO FE across the potential range",
+        "start_index": 27824,
+        "end_index": 28090
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Li\\(^+\\) shows low CO Faradaic efficiencies at less negative potentials due to acidic pHs (Figure S17), resulting in dominance of H\\(^+\\) reduction. In the strongly negative potential region, the low Li\\(^+\\) current densities lead to a rapid decrease of the CO FE as compared to K\\(^+\\) in favor of H\\(_2\\)OR as the latter is not affected by transport.",
+        "start_index": 28090,
+        "end_index": 28445
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "For all cations, the shift to a transport-limited regime happens when P\\(_{\\text{CO}_2\\text{OHP}}\\) drops below approximately 0.1. The relative position of the regime change, and therefore, the $iV$ peaks in the different cases are explained by a combination of atomic-scale and transport effects",
+        "start_index": 28445,
+        "end_index": 28741
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The local conditions at OHP (Figure 4(b,c)) are quite similar for Cs\\(^+\\) and K\\(^+\\) due to their similar hydrated diameters ($d = 6.62$ \u00c5 for K\\(^+\\) and $d = 6.58$ \u00c5 for Cs\\(^+\\) \\(^53\\)),",
+        "start_index": 28741,
+        "end_index": 28935
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 4: i\\textit{V} and FE Curves and OHP Conditions for Inorganic Cation Buffers on Ag(111). (a) CO current density for K$^+$, Li$^+$, Cs$^+$ carbonate buffers at two bulk concentrations with colored bars indicating peak current density potentials. (b) P$_{\\text{CO}_2,\\text{OHP}}$ vs",
+        "start_index": 28935,
+        "end_index": 29222
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". $V_{\\text{RHE}}$, with a dashed area indicating the limits for CO$_2$ mass transport. (c) [M$^+$]$_{\\text{OHP}}$ vs. $V_{\\text{RHE}}$, with illustrations of the hydrated diameters of the cations. (d) CO Faradaic Efficiency for the different buffers",
+        "start_index": 29222,
+        "end_index": 29472
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Full dots indicate that H$_2$O only is considered as proton donor (mechanisms 1 and 2); empty dots indicate H$^+$ (mechanisms 3 and 4) is also considered",
+        "start_index": 29472,
+        "end_index": 29627
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (e) DFT Gibbs free energy profile at 0 V$_{\\text{RHE}}$ for CO formation on Ag(111) across inorganic cations, each coordinated with 3 water molecules (M$^+$H$_2$O)$_3$. (f) Schematics showing the impact of alkali cation nature on CO$_2$ transport and atomic-scale energetics leading to a steric limit for cation crowding of 5",
+        "start_index": 29627,
+        "end_index": 29954
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".72 M and 5.83 M, respectively. The enhanced Cs$^+$ CO current density can therefore be attributed to atomic-scale effects,",
+        "start_index": 29954,
+        "end_index": 30077
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "in particular the lower barriers for CO\\textsubscript{2} adsorption and the first PCET to form COOH (Figure 4(e), both lower by at least 0.1 eV). Additionally, Cs\\textsuperscript{+} benefits from the lower barriers for CO\\textsubscript{2} transport from the OHP to the electrode due to its softer hydration shell (Figure S5), which favors the formation of microenvironments at the electrode surface",
+        "start_index": 30077,
+        "end_index": 30475
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Furthermore the higher PCET barriers for K\\textsuperscript{+} than Cs\\textsuperscript{+} (Figure 4(e)) lead to a shift in peak potentials towards more negative values",
+        "start_index": 30475,
+        "end_index": 30643
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Li\\textsuperscript{+} current densities are still within an order of magnitude of K\\textsuperscript{+} at less negative potentials (Figure 4(a)) due to its PCET barriers for CO\\textsubscript{2} to COOH being lower by 0.15 eV with respect to K\\textsuperscript{+} (Figure 4(e))",
+        "start_index": 30643,
+        "end_index": 30920
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". However, Li\\textsuperscript{+} suffers from greater CO\\textsubscript{2} transport limitations and lower [Li\\textsuperscript{+}]\\textsubscript{OHP} due to its larger hydrated radius, and a higher barrier for cation transport to reaction plane, leading to a lower number of microenvironments (Figure S18)",
+        "start_index": 30920,
+        "end_index": 31224
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The CO\\textsubscript{2} adsorption rate for Li\\textsuperscript{+} is significantly lower, and it competes with the kinetically limited first PCET at lower applied potentials, leading to the peak being located at the lowest V\\textsubscript{RHE} of the batch.",
+        "start_index": 31224,
+        "end_index": 31483
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Cs\\textsuperscript{+} based buffers are the best performing electrolytes towards eCO\\textsubscript{2}R on Ag(111) in the explored potential range due to a combination of favorable atomic scale and transport effects (Figure 4(f)). Additionally, CsHCO\\textsubscript{3} has a solubility limit of 10",
+        "start_index": 31483,
+        "end_index": 31778
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".78 mol/1L H\\textsubscript{2}O [52], therefore the better performances for Cs\\textsuperscript{+} are coupled with a reduced risk of carbonate precipitation. The CO current density in Li\\textsuperscript{+} based buffers are within an order of magnitude of the case of K\\textsuperscript{+} at low applied voltages (E < -1",
+        "start_index": 31778,
+        "end_index": 32097
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1 V\\textsubscript{RHE}), while at higher potentials the transport limitations of Li\\textsuperscript{+} are prevalent due to the larger hydrated size and K\\textsuperscript{+} shows current densities two orders of magnitude higher than Li\\textsuperscript{+}.",
+        "start_index": 32097,
+        "end_index": 32354
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "To predict the system\u2019s selectivity towards carbon products, we evaluated CO\\textsubscript{2} reduction to HCOOH in the presence of Li\\textsuperscript{+} and K\\textsuperscript{+}. The energetics for formic acid pathway were unfavorable with respect to the CO pathway by 0.58 eV and 0",
+        "start_index": 32354,
+        "end_index": 32637
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".47 eV for K\\textsuperscript{+} and Li\\textsuperscript{+} respectively (Figure S19(a,b)). The multiscale simulations predict that the HCOOH current densities are 6 to 10 orders of magnitude lower than the CO current densities, in agreement with single facet studies in the literature showing that formate is detected as a product in trace amounts only [13, 46] (Figure S19(c))",
+        "start_index": 32637,
+        "end_index": 33013
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Li\\textsuperscript{+} promotes relatively higher HCOOH current densities with respect to K\\textsuperscript{+}. In both cases, higher cation concentrations promote relatively higher HCOOH current densities at less cathodic voltages, and",
+        "start_index": 33013,
+        "end_index": 33250
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "relatively lower current densities at strongly cathodic voltages. DFT simulations on Ag (211) in presence of K\\(^+\\) show that OCO\\(^*\\) binding is favorable by 0.32 eV compared to Ag(111) for HCOOH pathway, indicating the formic acid production may occur on step surfaces (Figure S20).",
+        "start_index": 33250,
+        "end_index": 33536
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We also evaluated 0.01 M BaCO\\(_3\\) buffer, since Ba\\(^{2+}\\) is the bivalent cation observed to promote the highest eCO\\(_2\\)R current densities [14]",
+        "start_index": 33536,
+        "end_index": 33686
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The constrained AIMD simulations reveal that in contrast to monovalent cations (Figure S4), Ba\\(^{2+}\\) shifts its coordination by 2 water molecules (from 7 to 5) as it moves from OHP towards the electrode surface, which corresponds to a desolvation energy of 0.60 eV. DFT energetics show that the binding energy of CO\\(_2\\) and COOH are stabilized by 0",
+        "start_index": 33686,
+        "end_index": 34041
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".28 and 0.14 eV respectively as compared to K\\(^+\\), in line with higher charge of Ba\\(^{2+}\\) (Figure S21(a))",
+        "start_index": 34041,
+        "end_index": 34151
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This leads to an order of magnitude higher CO current densities than K\\(^+\\) (Figure S22(a)), even though the P\\(_{CO_2}\\) and the [Ba\\(^{2+}\\)]_OHP are substantially lower due to the large hydrated size of Ba\\(^{2+}\\)",
+        "start_index": 34151,
+        "end_index": 34371
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The FE decreases at less cathodic potentials with respect to K\\(^+\\) (Figure S22(b)) due to water reduction barriers being lower by 0.41 eV for Ba\\(^{2+}\\) with respect to K\\(^+\\) (Figure S21(b)). It is worth noting that BaCO\\(_3\\) is scarcely soluble in water at neutral and basic pH [52], and a 0",
+        "start_index": 34371,
+        "end_index": 34671
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".01 M solution is past the solubility limit by several orders of magnitude.",
+        "start_index": 34671,
+        "end_index": 34746
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "To compare the performance of carbonate-based electrolytes on various Ag facets, we considered K\\(^+\\) based buffers on Ag(100), Ag(111), and Ag(110). Results are given for Ag(100) and Ag(110) up to the potential where convergence of the multiscale loop is possible",
+        "start_index": 34746,
+        "end_index": 35011
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". As shown in Figure S23(a), for a given starting ion concentration, in agreement with experimental evidence [46], we predict better performance for the (110) facet, where the reaction intermediates are relatively more stabilized (Figure S24), followed by (100) and (111). From a transport perspective, the distinguishing factor among these crystalline planes is their potential of zero charge (PZC)",
+        "start_index": 35011,
+        "end_index": 35410
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In the gmPNP model, the PZC corresponds to the potential at which there is no surplus charge at the working electrode surface [1]",
+        "start_index": 35410,
+        "end_index": 35541
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Ag(110) has the lowest PZC (Table S8), leading to reduced [K\\(^+\\)]_OHP because of the reduced \\(\\Delta\\phi_{OHP}\\) (see Figure S25); the current densities are still high for Ag(110) due to the large stabilization of the adsorbates (Figure S24)",
+        "start_index": 35541,
+        "end_index": 35787
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". On the other hand, Ag(111) produces the strongest electric field gradient in the set due to the high PZC, thus favoring the",
+        "start_index": 35787,
+        "end_index": 35912
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "cation accumulation and surface activation, but the atomic scale energetics are unfavorable (Figure S24) leading to lower current densities. Variations in $[K^+]_{\\text{b}}$ lead to significant variations to the conditions at OHP (Figure S23(b) and (c) show $P_{\\text{CO}_2,OHP}$ and $[K^+]_{\\text{OHP}}$ for the different planes)",
+        "start_index": 35912,
+        "end_index": 36242
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This leads to overlaps in the performances of different crystalline planes. For example, although the energetics of Ag(110) are in principle the most favorable towards $\\text{eCO}_2\\text{R}$, at slightly negative applied potentials Ag(100) in a 2 M saturated KHCO$_3$ buffer outperforms Ag(110) in a 0.01 M saturated KHCO$_3$ buffer (Figure S23(a)).",
+        "start_index": 36242,
+        "end_index": 36593
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Ionomer**",
+        "start_index": 36593,
+        "end_index": 36604
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "AEM-based electrolyzers promote industry-relevant current densities for $\\text{eCO}_2\\text{R}$. The computational framework in (Figure 1(a)) can be adapted to describe ionomer-based solid electrolytes",
+        "start_index": 36604,
+        "end_index": 36804
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We chose to model a Tokuyama A201 membrane, a tetramethylammonium (TMA$^+$) based AEM, on a planar Ag(111) electrode and in contact with a CO$_2$-saturated 0.1 M KHCO$_3$ solution (see Figure 1(d)), due to the availability of data of the membrane\u2019s properties [54]",
+        "start_index": 36804,
+        "end_index": 37070
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". In this electrolyte, the water content is regulated by the membrane\u2019s properties and the water activity $a_{\\text{H}_2\\text{O}} \\neq 1$. Therefore, we adapted the gmPNP model to account for both the reduced water content and the fixed background charge. The microenvironments formed by both the TMA$^+$ positive moiety and the inorganic cation K$^+$ present in the buffer solution were considered",
+        "start_index": 37070,
+        "end_index": 37468
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We kept a 50 \u00b5m geometrical domain for the transport model for consistency, and we maintained a water coordination of 3 for TMA$^+$ in the DFT simulations, consistent with the inorganic cations. We assume the density of TMA$^+$ ions at the surface to be same as the bulk (surface coverage $\\approx 1.6\\%$ \u2013 see the Supporting Information Section 1.1.5 for further details)",
+        "start_index": 37468,
+        "end_index": 37842
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We considered the parameter $\\lambda$, defined as the number of H$_2$O molecules per each positive moiety [54]. The concentration of positive moieties determines the ion exchange capacity (IEC) of the membrane: for Tokuyama A201, IEC = 1",
+        "start_index": 37842,
+        "end_index": 38081
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1 mM g$^{-1}$ and a fully hydrated membrane (corresponding to water activity $a_{\\text{H}_2\\text{O}} = 1$) was characterized to have $\\lambda = 11$ [54]",
+        "start_index": 38081,
+        "end_index": 38234
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We note that Tokuyama A201 is a hydrophilic membrane (there are no hydrophobic channels as in Nafion, for example) and the CO$_2$, as well as all the other aqueous species, is transported solely as solute in water through the membrane.",
+        "start_index": 38234,
+        "end_index": 38471
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We show that the TMA\\(^{+}\\) cations in the AEM inherently stabilize the CO\\(_2\\)\\(^{-}\\) and COOH polarized reaction intermediates (Figure S26). In comparison to K\\(^{+}\\), the TMA\\(^{+}\\) based microenvironments lead to weaker CO\\(_2\\)\\(^{-}\\) adsorption energy (less stable by 0",
+        "start_index": 38471,
+        "end_index": 38752
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1 eV) and higher PCET barriers by at least 0.1 eV. This can be attributed to the lower charge density and larger distance (\\(\\sim 4.5\\) \u00c5) of the TMA\\(^{+}\\) ions from the surface as compared to the inorganic cations",
+        "start_index": 38752,
+        "end_index": 38969
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Another important distinction between TMA\\(^{+}\\) and K\\(^{+}\\) is that the positive moiety does not need to be transported to the surface from the double layer, as its concentration is fixed by the characteristics of the membrane",
+        "start_index": 38969,
+        "end_index": 39201
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To investigate how fixing the TMA\\(^{+}\\) moieties on the membrane affects current densities as compared to freely moving moieties in a liquid electrolyte, we also considered the N(CH\\(_3\\))\\(_4\\)HCO\\(_3\\) buffer. Our AIMD simulations show that TMA\\(^{+}\\) ions in water are already present at a distance of \\(\\sim 4",
+        "start_index": 39201,
+        "end_index": 39519
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".5\\) \u00c5 from the surface, which is close to the OHP distance considered in this study (5 \u00c5). Therefore, the surface coverages are directly estimated, without considering a water coordination shift, by assuming proportionality with the steric limit concentration of TMA\\(^{+}\\) (4.2 M).",
+        "start_index": 39519,
+        "end_index": 39803
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure S27 compares current densities obtained in a AEM with \\(\\lambda = 11\\) in a 0.1 M K\\(^{+}\\) based buffer and two liquid buffers: one with \\([\\text{TMA}\\(^{+}\\)]_b = 1.32\\) M (corresponding to the fixed concentration of moieties in the AEM) and another with \\([\\text{K}\\(^{+}\\)]_b = 0",
+        "start_index": 39803,
+        "end_index": 40093
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1\\) M. TMA\\(^{+}\\) current density is higher in the liquid electrolyte due to the higher concentration of freely moving cations at OHP. Interestingly, at moderately cathodic potentials, CO current densities from K\\(^{+}\\) is higher in the AEM case than the liquid electrolyte, due to the fixed positive background charge of the membrane promoting K\\(^{+}\\) migration to the negatively charged electrode.",
+        "start_index": 40093,
+        "end_index": 40497
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "We varied the hydration of the AEM in order to evaluate the effect on current densities and FEs. Current density curves associated with the different microenviroments (K\\(^{+}\\) and TMA\\(^{+}\\)) for \\(\\lambda = 11, 7\\) and 4 are shown in Figure 5(a)",
+        "start_index": 40497,
+        "end_index": 40746
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Throughout the potential window and at all hydration levels, CO current densities from TMA\\(^{+}\\) microenvironments are within one order of magnitude from K\\(^{+}\\). Decreasing \\(\\lambda\\) decreases the current densities due to the reduced \\(a_{\\text{H}_2\\text{O}}\\), which negatively impacts the transport of CO\\(_2\\) (and other species) at the electrode and the CO current densities",
+        "start_index": 40746,
+        "end_index": 41133
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The \\(a_{\\text{H}_2\\text{O}}\\) was experimentally characterized as a nonlinear function of \\(\\lambda\\) [54], which is fitted in our transport model to obtain the",
+        "start_index": 41133,
+        "end_index": 41296
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 5: Voltage and FE Curves and OHP Conditions for AEM on Ag(111). (a) Current density of CO in an AEM for K$^+$ and TMA$^+$ microenvironments at different $\\lambda$. H$_2$O is considered as proton donor (mechanisms 1 and 2 only) for both cations",
+        "start_index": 41296,
+        "end_index": 41546
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (b,c) CO FE for the system and relative % of CO produced via TMA$^+$ microenvironments as a function of $V_{RHE}$",
+        "start_index": 41546,
+        "end_index": 41661
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (d,e) $P_{\\text{CO}_2\\cdot\\text{OHP} \\cdot a_{\\text{H}_2\\text{O}}}$ and $[K^+]_{\\text{OHP} \\cdot a_{\\text{H}_2\\text{O}}}$ vs. $V_{RHE}$.",
+        "start_index": 41661,
+        "end_index": 41799
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "local $a_{\\text{H}_2\\text{O}}$. This explains the nonlinear effect towards eCO$_2$R when linearly varying $\\lambda$. The peak potential for TMA$^+$ current densities is shifted to more negative potentials compared to K$^+$",
+        "start_index": 41799,
+        "end_index": 42021
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This shift can be explained by the higher PCET barriers for TMA$^+$ microenvironments: the rate for the first PCET is relatively lower compared to K$^+$ at intermediate potentials, and higher potentials must be applied for it to compete with the CO$_2$ adsorption rate. This is confirmed by the degree of rate control analysis in Figure S28.",
+        "start_index": 42021,
+        "end_index": 42364
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figure 5(b) shows that FE is barely impacted by the different $\\lambda$ values. The CO FE stays close to 100% (we only consider H$_2$O as proton donor) up until -1",
+        "start_index": 42364,
+        "end_index": 42527
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".5 $V_{RHE}$, dropping at more negative potentials due to H$_2$OR promoted by K$^+$ microenvironments, while H$_2$OR promoted by TMA$^+$ microenvironments is at least one order of magnitude lower (see Figure S29). In the case of a fully hydrated Tokuyama membrane ($\\lambda = 11$) in a CO$_2$-saturated 0",
+        "start_index": 42527,
+        "end_index": 42831
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1 M KHCO$_3$ electrode, $[K^+]_{\\text{AEM}} = 0.012$ M (all the bulk species\u2019 concentrations are reported in Table S9). Nevertheless, for $\\lambda = 11$, $[K^+]_{\\text{OHP}}$ is close to the steric limit at strongly negative potentials, and at low magnitude potentials, it is...",
+        "start_index": 42831,
+        "end_index": 43110
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "higher than in the corresponding \\([K^+]_b = 0.1\\) M liquid electrolyte, producing more \\(K^+\\) microenvironments and therefore increasing the CO current density (Figure S27). This is due to the presence of the fixed background charge in the domain, which pushes the mobile positive charges towards the negatively charged electrode",
+        "start_index": 43110,
+        "end_index": 43441
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The presence of the fixed background charge does not affect \\([CO_2]_{\\text{AEM}}\\), which is simply \\([CO_2]_b \\cdot a_{H_2O}\\), but it is necessary to account for the Donnan potential to establish AEM bulk values of the charged species 55, 56 (details are reported in the SI, section 1.3)",
+        "start_index": 43441,
+        "end_index": 43733
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". When \\(\\lambda\\) decreases, the presence of \\(K^+\\) decreases drastically. This explains the slight increase in FE at low \\(\\lambda\\), suppressing the \\(H_2O\\)R from \\(K^+\\) microenvironments and leading to the highest contribution in CO current density from the TMA\\(^+\\) microenvironments",
+        "start_index": 43733,
+        "end_index": 44025
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Figure 5(c) illustrates that at less negative potentials the CO current density from TMA\\(^+\\) microenvironments is higher than the current density from \\(K^+\\) due to low \\(K^+\\) surface coverages. However, at intermediate potentials (before the system switches to transport limited), the current density from \\(K^+\\) microenvironments is prevalent as the \\([K^+]_{OHP}\\) increases",
+        "start_index": 44025,
+        "end_index": 44409
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The \\(K^+\\)-based current density switches to a transport-limited regime before the TMA\\(^+\\)-based one and at more negative potentials the TMA\\(^+\\)-based mechanism is prevalent again.",
+        "start_index": 44409,
+        "end_index": 44596
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The reduction in \\(\\lambda\\) negatively impacts the transport of all the species, which explains the strong dependency of \\(a_{H_2O} \\cdot P_{CO_2OHP}\\) and \\(a_{H_2O} \\cdot [K^+]_{OHP}\\) on \\(\\lambda\\) (Figure 5(d) and (e) respectively)",
+        "start_index": 44596,
+        "end_index": 44833
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Since \\(pH_{OHP}\\) is always quite high (see Figure S30), it is reasonable to think that the acidic HER will be relatively lower than in the liquid electrolyte case at low \\(V_{\\text{RHE}}\\), and the FE would be high even if we included \\(H^+\\)-based mechanisms",
+        "start_index": 44833,
+        "end_index": 45096
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Ultimately, we show that in hydrophilic membranes water content is a key parameter for optimizing e\\(CO_2\\)R, and that both the fixed background charge and the inorganic cation contributes to the overall performances of the system.",
+        "start_index": 45096,
+        "end_index": 45329
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Discussion**",
+        "start_index": 45329,
+        "end_index": 45343
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Our study provides a comprehensive understanding of the mechanism underlying e\\(CO_2\\)R on Ag surfaces in a wide range of electrolyte environments. We elucidated key trends in e\\(CO_2\\)R by explicitly considering the role of cations across different length scales and identifying the catalytic active site as a microenvironment composed of the Ag surface...",
+        "start_index": 45343,
+        "end_index": 45700
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "sites and partially dehydrated cations. The differences observed in the performances of various electrolytes depend not only on the energetics of the system but also on transport properties. Specifically, the cation accumulation at OHP promotes the formation of microenvironments but induces a CO\\(_2\\) transport limitation due to size exclusion effects. The operating conditions for eCO\\(_2\\)R need to be optimized accounting for both these aspects.",
+        "start_index": 45700,
+        "end_index": 46150
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "![Figure 6](https://example.com/figure6.png)",
+        "start_index": 46150,
+        "end_index": 46194
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Figure 6: Normalized current density plots for liquid electrolytes and ionomer optimization.** (a) \\(j_{\\text{CO}}\\) of cations at -1.4 V\\(_{\\text{RHE}}\\) normalized by their highest value for different buffer concentrations as a function of the number of microenvironments at OHP given as cations concentration and cube of hydrated diameter",
+        "start_index": 46194,
+        "end_index": 46537
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". (b) Illustrations of microenvironments based on immobilized organic cations found in ionomers at different water contents (\\(\\lambda\\)) and ion exchange capacities (IEC).",
+        "start_index": 46537,
+        "end_index": 46709
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Figures 6(a) and 6(b) illustrate the current density at operating potentials as a function of cation concentration at OHP and the cube of hydrated diameter, \\([M^+]_{\\text{OHP}} \\cdot (d_{\\text{hydrated}})^3\\), a descriptive parameter of the number of microenvironments at OHP. This plot loosely resembles a volcano, but includes both transport and kinetic effects",
+        "start_index": 46709,
+        "end_index": 47073
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". At low buffer concentrations, cations with smaller hydrated diameters (Cs\\(^+\\), K\\(^+\\)) reach higher current densities with an increase in the number of microenvironments if \\(j_{\\text{CO}}\\) is in the kinetic regime. At higher buffer concentrations, when the CO\\(_2\\) transport is unfavorable, the system switches to the transport limited side",
+        "start_index": 47073,
+        "end_index": 47421
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Cations with larger hydrated diameters such as Li\\(^+\\) quickly reach CO\\(_2\\) transport limitations at typical operating potentials, making them unsuitable for reaching higher current densities.",
+        "start_index": 47421,
+        "end_index": 47618
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Our framework can be fine-tuned to describe systems requiring more chemical information. The extension of the model to C\\(_2^+\\) products is feasible by adding additional reaction",
+        "start_index": 47618,
+        "end_index": 47797
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "pathways into the DFT-microkinetic model. On the transport side, concentrated potassium acetate solutions \\[57\\] can break the steric limit concentration due to the chelating properties of the counter anions, likely affecting the transport of CO\\(_2\\) and K\\(^+\\)",
+        "start_index": 47797,
+        "end_index": 48060
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The model could also accommodate precipitation limits or electrolytes containing high concentrations of organic cations \\[15\\] that will require to take into account \\(a_{H_2O}\\) modulation and different mechanisms for transport of reactants at OHP, in addition to the cations. Finally, our framework could be expanded to complex pore-scale resolved geometries or effective domains describing complex devices configurations such as Gas Diffusion Electrodes (GDEs) and also to complex reaction networks.",
+        "start_index": 48060,
+        "end_index": 48564
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "As we have demonstrated, AEMs offer a strategy to break the transport limitations of the ions by having a fixed background charge (Figure 6(b)). In this case, microenvironments based on the positive moieties promote eCO\\(_2\\)R, and the current densities are solely limited by CO\\(_2\\) transport",
+        "start_index": 48564,
+        "end_index": 48858
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". However, the dispersed charge nature of organic cations and their larger distance from the electrodes in AEMs leads to lower current densities compared to their inorganic counterparts at intermediate potentials. Strategies to overcome this include periodic flushing with K\\(^+\\) in pure-water fed MEAs \\[58\\] to combine the benefits of organic and inorganic cation activation, although this reintroduces the problem of carbonate precipitation",
+        "start_index": 48858,
+        "end_index": 49302
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Alternatively, increasing the concentration of charged organic species and cross-linking them to keep them stable at highly negative potentials \\[35, 36\\] is a promising strategy to improve the performance towards eCO\\(_2\\)R, if proper water management is achieved. Lower hydration levels might be tolerated if CO\\(_2\\) transport occurs through alternative mechanisms, such as hydrophobic channels in Nafion \\[59\\]",
+        "start_index": 49302,
+        "end_index": 49718
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". However, excessively low water activity can still hinder the availability of the proton source for eCO\\(_2\\)R. Therefore, thin membranes (< 10 \\(\\mu\\)m) with integrated hydrophobic channels and stabilized organic cations at strongly negative potentials are desired. Finally, the kinetic constants for homogeneous reactions are affected by strong local electric fields in MEAs and in bipolar membranes \\[55\\]",
+        "start_index": 49718,
+        "end_index": 50127
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". This is particularly relevant at interfaces, potentially affecting eCO\\(_2\\)R performances. Therefore, more detailed experimental and modeling efforts can aid in the design of membranes. In particular there is a need for further characterization of the physical properties of membranes, with a focus on permittivity.",
+        "start_index": 50127,
+        "end_index": 50445
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "In conclusion, we have developed an ab-initio multiscale model for the design of catalyst/electrolyte microenvironments in eCO$_2$R. The guidelines provided can be employed when optimizing electrolytes, ionomers and operating conditions. Our work paves the way towards a fully first-principles multiscale electrolyte and ionomer design for electrochemical interfaces.",
+        "start_index": 50445,
+        "end_index": 50812
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Methods\n\nAtomic scale simulations",
+        "start_index": 50812,
+        "end_index": 50845
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Density Functional Theory (DFT) simulations were performed using the Vienna Ab initio Simulation Package, VASP 5.4.4 [60, 61] and the Perdew, Burke, and Ernzerhof (PBE) functional [62]. In addition, we utilized the DFT-D2 method to incorporate van der Waals (vdW) corrections, employing our reparametrized C$_6$ coefficients specifically tailored for metallic systems [63]",
+        "start_index": 50845,
+        "end_index": 51217
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Core electrons were described using Projected Augmented Wave (PAW) pseudopotentials [64], while valence electrons were expanded using plane waves with a basis set cutoff energy of 450 eV. The converged lattice constant for the bulk fcc Ag is 4.13 \u00c5",
+        "start_index": 51217,
+        "end_index": 51467
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". A 72 atom unit cell for all the three facets with the following sizes p($\\sqrt{13} \\times \\sqrt{19}$) Ag(111) of 4 layers, p(4 x 3) Ag(110) of 6 layers and p(3$\\sqrt{2}$ x 3$\\sqrt{2}$) Ag(100) of 4 layers were used",
+        "start_index": 51467,
+        "end_index": 51683
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". For the stepped Ag(211) surface, a 60 atom unit cell of 4 layers with a size of p($\\sqrt{15} \\times \\sqrt{15}$) was used. A $\\Gamma$-centered k-point grid was used with a reciprocal grid smaller than 0.03 2$\\pi$ \u00c5$^{-1}$. In the direction perpendicular to the surface, a single k-point was used",
+        "start_index": 51683,
+        "end_index": 51979
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". All simulations were non spin-polarized, and a vacuum spacing of 15 \u00c5 was maintained. Dipole corrections were applied to address any asymmetry issues in the z-direction. To determine partial electron occupancies, we implemented the Gaussian smearing scheme with an energy smearing of 0.03 eV. Structural optimization was carried out until the forces reached a convergence threshold of within 0.03 eV/\u00c5.",
+        "start_index": 51979,
+        "end_index": 52383
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The binding energies of the adsorbates were calculated versus CO$_2$ (g), H$_2$O (g), H$_2$ (g), and the clean slab with M$^+$H$_2$O$_3$. All the systems with the alkali metal are simulated such that the cation donates its extra electron to the surface [65]",
+        "start_index": 52383,
+        "end_index": 52640
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The gas phase energies of CO$_2$ and CO were corrected to match with the corresponding NIST reaction energies of formation from CH$_4$ (g) [66]. Implicit solvation was included through",
+        "start_index": 52640,
+        "end_index": 52826
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "the VASPsol method \\[67, 68\\] and the entropies for the adsorbed species were calculated using the Harmonic Oscillator approximation with all the frequencies below 50 cm\\(^{-1}\\) set to be 50 cm\\(^{-1}\\). Computational Hydrogen Electrode (CHE) \\[69\\] approximation was used to correct the free energy of intermediates with respect to potential and pH",
+        "start_index": 52826,
+        "end_index": 53176
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The simulations with microsolvated cation on Ag surfaces correspond to -0.5 V\\(_{\\text{SHE}}\\) and a pH of 7, which correspond to \\(\\sim 0\\) V\\(_{\\text{RHE}}\\). Activation barriers were assessed using the Climbing Image Nudged Elastic Band (CI-NEB) method \\[70\\]",
+        "start_index": 53176,
+        "end_index": 53440
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To create the intermediate images between the initial and final states, we employed the Image Dependent Pair Potential (IDPP) method \\[71\\]. Grand Canonical formalisms for Ag(111)-K\\(^+\\) system was introduced using VASP-sol++ \\[38\\], by assuming an ion concentration of 1 M and the hydrated diameter of K\\(^+\\) to be 6.62 \u00c5 \\[53\\]",
+        "start_index": 53440,
+        "end_index": 53773
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". More details about how the Grand Canonical formalism has been incorporated in the microkinetic model can be found in the Supporting Information section 1.1.6.",
+        "start_index": 53773,
+        "end_index": 53933
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The ab initio molecular dynamics (AIMD) simulations were done using the canonical NVT ensemble at 300 K using the Nos\u00e9-Hoover thermostat \\[72, 73\\]",
+        "start_index": 53933,
+        "end_index": 54080
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To simulate the water density of 1000 kg/m\\(^3\\), a larger p(3\\(\\sqrt{3}\\) x 3\\(\\sqrt{3}\\))\u00b0 Ag (111) unit cell of 4 layers was used with the Brillouin zone sampled at a \\(\\Gamma\\) point",
+        "start_index": 54080,
+        "end_index": 54268
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The solvent configurations were taken from our previous work on the Au surface \\[7\\] and placed on top of the Ag (111) surface with the cation coverage set to 0.07 ML (2/27). The AIMD simulations were run for 10 ps as pre-equilibration for all the cases. The constrained molecular dynamics using the slow-growth approach \\[74, 75\\] were run with distance between cation and surface as the reaction coordinate",
+        "start_index": 54268,
+        "end_index": 54678
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". A set of 4 images were taken along this coordinate and run for additional 18 ps at the constrained reaction coordinate. The cation that forms the contact-ion pair with CO\\(_2^\u2212\\) has been chosen for this analysis. Coordination analysis on each image was performed using the neighbor list function from the Atomic Simulation Environment (ASE) \\[76\\] by using a cutoff distance of 1.1 times the covalent radii of the atoms.",
+        "start_index": 54678,
+        "end_index": 55101
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The coordination number of the cations changed within 0.2 after 12 ps (Figure S32), hence the coordination analysis at different z-distances (Figure S4) was done using the final 3 ps of the trajectories. The larger standard deviations on K\\(^+\\) and Cs\\(^+\\) as compared to Li\\(^+\\).",
+        "start_index": 55101,
+        "end_index": 55384
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "can be related to their loose first coordination shell merging with the second shell (Figure S33). The standard deviations are directly proportional to the ability of the cation to desolvate and change its water coordinations, which is the easiest for Cs\\(^+\\) followed by K\\(^+\\) and Li\\(^+\\) (energetics in Figure S5)",
+        "start_index": 55384,
+        "end_index": 55703
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". To assess whether varying cation concentrations affect the coordination shifts, we performed additional AIMD simulations for K\\(^+\\) by decreasing the cation coverage to 1/27 ML. The shift in surface coverage increased the Fermi level marginally by 0",
+        "start_index": 55703,
+        "end_index": 55955
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".01 eV, despite a less negative excess surface charge per atom (Figure S34), due to the reorientation of water molecules with their hydrogen atoms pointing further away from the surface (Figure S35) [77, 78]",
+        "start_index": 55955,
+        "end_index": 56162
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We note that CO\\(_2^-\\) is stable on the surface at 1/27 ML of K\\(^+\\) (\\(\\alpha_{\\text{CO}_2} = 123^\\circ \\pm 4^\\circ\\)), provided that the cation is in its vicinity",
+        "start_index": 56162,
+        "end_index": 56330
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Further, to check if a cation forming a solvent-separated ion pair with CO\\(_2^-\\) influences the coordination shifts, we performed AIMD simulations by placing K\\(^+\\) at least 5 \u00c5 away from CO\\(_2^-\\). In both cases, the coordination shift, as the K\\(^+\\) moves from the OHP towards the surface remained around 1 (Figure S36) and the desolvation energies remain within 0",
+        "start_index": 56330,
+        "end_index": 56703
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".06 eV, which is within the error bars reported in Figure S5. This observation highlights that the coordination shift is primarily influenced by the cation\u2019s distance from the surface, rather than its proximity to the adsorbed species. Therefore, our approach of treating the cation desolvation as an independent step in the microkinetic model is justified",
+        "start_index": 56703,
+        "end_index": 57059
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The barriers for the rate-determining CO\\(_2\\) to COOH PCET for Ag(111)-M\\(^+\\)(H\\(_2\\)O)\\(_72\\) were calculated using the thermodynamic integration method [79] (Table S11) and verified to be within 0.1 eV of the Ag(111)-M\\(^+\\)(H\\(_2\\)O)\\(_3\\).",
+        "start_index": 57059,
+        "end_index": 57306
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Microkinetic model**",
+        "start_index": 57306,
+        "end_index": 57328
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Mean-field microkinetic modeling (MKM) was performed to estimate the current densities as a function of the potential and ion concentrations at OHP. We considered a differential reactor model and used the PyMKM solver [80] including the effect of potential and pH for estimation of current densities. The Gibbs free reaction and activation energy equations under CHE approximation for H\\(_3\\)O\\(^+\\) and water as proton sources were derived from literature (Supporting Information Section 1.1",
+        "start_index": 57328,
+        "end_index": 57820
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".1) [81]. Current densities from MKM were used to calculate mass flux boundary conditions at OHP for a transport model implemented in COMSOL Multiphysics 6.0. More details regarding the elementary",
+        "start_index": 57820,
+        "end_index": 58016
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "steps and specific reactor equations can be found in the Supporting Information Section 1.1.",
+        "start_index": 58016,
+        "end_index": 58108
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Transport model**",
+        "start_index": 58108,
+        "end_index": 58127
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "For the liquid electrolyte case, a 50 \u00b5m diffusion layer including $M^+$, $CO_2$, $HCO_3^-$, $CO_3^{2-}$, $H^+$, and $OH^-$ was modeled, including bulk reactivity, diffusion, migration, and steric exclusion term [16,17]. The model is commonly referred to as gmPNP (generalized modified Poisson-Nernst-Planck)",
+        "start_index": 58127,
+        "end_index": 58435
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We considered a set of $CO_2$-saturated carbonate solutions with $Li^+$, $K^+$, and $Cs^+$ as counterions. We assumed that the carbonates dissociate completely and that the various cations do not behave as Lewis acids",
+        "start_index": 58435,
+        "end_index": 58654
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The species concentration bulk boundary conditions, as well as the initial conditions, correspond to the bulk concentration of all species calculated for a given initial buffer concentration considering homogeneous equilibria, Sechenov\u2019s coefficients to account for the ionic strength of the initial buffer [82,83] and Henry\u2019s law to calculate the $CO_2$ solubility. Bulk concentrations for all species for the $K^+$ case are given in Table S5",
+        "start_index": 58654,
+        "end_index": 59099
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The bulk potential is at the point of zero charge (PZC). PZC values for different levels are given in Table S8.",
+        "start_index": 59099,
+        "end_index": 59212
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "For the AEM case, a 50 \u00b5m diffusion layer including $M^+$, $CO_2$, $HCO_3^-$, $CO_3^{2-}$, $H^+$, $OH^-$, $H_2O$, and $TMA^+$ was modeled, with gmPNP equations solved for $M^+$, $CO_2$, $HCO_3^-$,",
+        "start_index": 59212,
+        "end_index": 59408
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "$CO_3^{2-}$, $H^+$, and $OH^-$",
+        "start_index": 59408,
+        "end_index": 59438
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The diffusion coefficients are effective coefficients depending on the local $H_2O$ concentration [37]; $H_2O$ was assumed to self-diffuse in the ionomer based on an experimental relationship between $c_{H_2O}$ and $D_{H_2O}$ [54] and to be transported by electro-osmosis [37]; while the $TMA^+$ is present at a fixed concentration throughout the domain (see Supporting Information section 1",
+        "start_index": 59438,
+        "end_index": 59831
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ".3 for further explanation). The bulk concentrations of the species in the ionomer depend on the hydration level of the membrane and were calculated taking into account the Donnan potential (which results from having a fixed background charge in the domain) [55,56]. The relative permittivity of the domain is assumed to be $\\varepsilon_r = 42$ following available literature [56], but data in the literature are scarce and further experimental studies are needed.",
+        "start_index": 59831,
+        "end_index": 60295
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "In both cases, the current densities from the MKM are used to calculate the boundary mass flux of species at OHP in the macroscale domain. The local electric field at OHP is calculated from the applied potential by approximating the electric double layer as a 20\n\u00b5F/cm\u00b2 capacitor [13] 84 and considering the local concentration of charged species.\n\n**Multiscale loop**",
+        "start_index": 60295,
+        "end_index": 60663
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "The bulk cation concentration \\([M^+]_b\\) and \\(V_{RHE}\\) are given as input to the multiscale model, along with a first guess for \\(j_i\\)",
+        "start_index": 60663,
+        "end_index": 60801
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The transport model is solved; \\(pH_{OHP}, P_{CO_2, OHP}, [M^+]_{OHP}, \\Delta \\phi_{OHP}\\) (and \\(a_{H_2O}\\) in the AEM case) are input in the microkinetic model, which returns the considered set of \\(j_i\\) employed to calculate flux boundary conditions in the transport model",
+        "start_index": 60801,
+        "end_index": 61079
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Transport model and MKM are looped until all the current densities terms have less than 1% difference with respect to the previous iteration, and the loop was iterated at least 4 times. Up to 10 multiscale loop interactions are typically required to converge a voltage point which typically takes up to 3 minutes on a desktop computer equipped with an Intel\u00ae Core\u2122 i7-9700 processor (3 GHz) and a 16 GB RAM",
+        "start_index": 61079,
+        "end_index": 61487
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". We investigated a voltage range from -0.4 \\(V_{RHE}\\) to -1.7 \\(V_{RHE}\\). Mechanisms 1 and 2 were always included, mechanisms 3 and 4 were dropped for simulations below -1 \\(V_{RHE}\\) due to difficulty of convergence in the multiscale loop.",
+        "start_index": 61487,
+        "end_index": 61730
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "**Acknowledgements**",
+        "start_index": 61730,
+        "end_index": 61750
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "F.L., R.R.S and P.N. acknowledge the European Union\u2019s Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 861151 (F.L. and P.N.) and no. 754510 (R.R.S). F.L., E.F.J., S.M., N.L. and S.H",
+        "start_index": 61750,
+        "end_index": 61983
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". acknowledge funding from NCCR Catalysis (grant number 180544), a National Centre of Competence in Research funded by the Swiss National Science Foundation. N.L. and R.R.S. thank the Spanish Ministry of Science and Innovation (PID2021-122516OBI00) and Severo Ochoa (CEX2019-000925-S) for their financial support",
+        "start_index": 61983,
+        "end_index": 62295
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". The Barcelona Supercomputing Center (BSC-RES) is further acknowledged for providing generous computational resources and technical support. We thank Pol Sanz Berman for his valuable assistance in refining the figures.",
+        "start_index": 62295,
+        "end_index": 62514
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "Data Availability",
+        "start_index": 62514,
+        "end_index": 62531
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "All the DFT and AIMD simulations are uploaded to the ioChem-BD database [85]. (DOI: https://doi.org/10.19061/iochem-bd-1-318).\n\nCode Availability\n\nThe electroMKM module as part of the pyMKM code can be found here. The continuum model and multi-scale loop will be made available from the lead contact upon reasonable request.\n\nReferences",
+        "start_index": 62531,
+        "end_index": 62867
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "1. Bard, A. J. & Faulkner, L. R. *Electrochemical Methods: Fundamentals and Applications* 2nd (Wiley, 2001).\n\n2. N\u00f8rskov, J. K., Bligaard, T, Rossmeisl, J & Christensen, C. H. Towards the computational design of solid catalysts. *Nat. Chem.* 1, 37\u201346 (2009).",
+        "start_index": 62867,
+        "end_index": 63125
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "3. Stephens, I. E. L. *et al.* 2022 roadmap on low temperature electrochemical CO\u2082 reduction. *J. Phys.: Energy* 4, 042003 (2022).",
+        "start_index": 63125,
+        "end_index": 63255
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "4. Bui, J. C., Kim, C., King, A. J., Romiluyi, O., Kusoglu, A., Weber, A. Z. & Bell, A. T. Engineering Catalyst\u2013Electrolyte Microenvironments to Optimize the Activity and Selectivity for the Electrochemical Reduction of CO\u2082 on Cu and Ag. *Acc. Chem. Res.* 55, 484\u2013494 (2022).",
+        "start_index": 63255,
+        "end_index": 63530
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "5. Hasan, M. H. & McCrum, I. T. Understanding the role of near-surface solvent in electrochemical adsorption and electrocatalysis with theory and experiment. *Curr. Opin. Electrochem.* 33, 100937 (2022).",
+        "start_index": 63530,
+        "end_index": 63733
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "6. Thorson, M. R., Siil, K. I. & Kenis, P. J. A. Effect of Cations on the Electrochemical Conversion of CO\u2082 to CO. *J. Electrochem. Soc.* 160, F69\u2013F74 (2013).",
+        "start_index": 63733,
+        "end_index": 63891
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "7. Monteiro, M. C. O., Dattila, F., Hagedoorn, B., Garc\u00eda-Muelas, R., L\u00f3pez, N. & Koper, M. T. M. Absence of CO\\textsubscript{2} electroreduction on copper, gold and silver electrodes without metal cations in solution. *Nat. Catal.* **4**, 654\u2013662 (2021).",
+        "start_index": 63891,
+        "end_index": 64146
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "8. Chandrashekar, S., van Montfort, H.-P. I., Bohra, D., Filonenko, G., Geerlings, H., Burdyny, T. & Smith, W. A. Investigating the role of potassium cations during electrochemical CO\\textsubscript{2} reduction. *Nanoscale* **14**, 14185\u201314190 (2022).",
+        "start_index": 64146,
+        "end_index": 64397
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "9. Marcandalli, G., Monteiro, M. C. O., Goyal, A. & Koper, M. T. M. Electrolyte Effects on CO\\textsubscript{2} Electrochemical Reduction to CO. *Acc. Chem. Res.* **55**, 1900\u20131911 (2022).",
+        "start_index": 64397,
+        "end_index": 64584
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "10. Rabinowitz, J. A. & Kanan, M. W. The future of low-temperature carbon dioxide electrolysis depends on solving one basic problem. *Nat. Commun.* **11**, 5231 (2020).",
+        "start_index": 64584,
+        "end_index": 64752
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "11. Endr\u0151di, B., Samu, A., Kecsenovity, E., Halm\u00e1gyi, T., Seb\u0151k, D. & Jan\u00e1ky, C. Operando cathode activation with alkali metal cations for high current density operation of water-fed zero-gap carbon dioxide electrolyser. *Nat. Energy* **6**, 439\u2013448 (2021).",
+        "start_index": 64752,
+        "end_index": 65009
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "12. Singh, M. R., Kwon, Y., Lum, Y., Ager, J. W. & Bell, A. T. Hydrolysis of Electrolyte Cations Enhances the Electrochemical Reduction of CO\\textsubscript{2} over Ag and Cu. *J. Am. Chem. Soc.* **138**, 13006\u201313012 (2016).",
+        "start_index": 65009,
+        "end_index": 65232
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "13. Ringe, S., Clark, E. L., Resasco, J., Walton, A., Seger, B., Bell, A. T. & Chan, K. Understanding cation effects in electrochemical CO\\textsubscript{2} reduction. *Energy Environ. Sci.* **12**, 3001\u20133014 (2019).",
+        "start_index": 65232,
+        "end_index": 65447
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "14. Monteiro, M. C. O., Dattila, F., L\u00f3pez, N. & Koper, M. T. M. The Role of Cation Acidity on the Competition between Hydrogen Evolution and CO\\textsubscript{2} Reduction on Gold Electrodes. *J. Am. Chem. Soc.* **144**, 1589\u20131602 (2022).",
+        "start_index": 65447,
+        "end_index": 65685
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "15. Liu, B., Guo, W. & Gebbie, M. A. Tuning Ionic Screening To Accelerate Electrochemical CO\\textsubscript{2} Reduction in Ionic Liquid Electrolytes. *ACS Catal.* **12**, 9706\u20139716 (2022).",
+        "start_index": 65685,
+        "end_index": 65873
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "16. Bohra, D., Chaudhry, J. H., Burdyny, T., Pidko, E. A. & Smith, W. A. Modeling the electrical double layer to understand the reaction environment in a CO\u2082 electrocatalytic system. *Energy Environ. Sci.* **12**, 3380\u20133389 (11 2019).",
+        "start_index": 65873,
+        "end_index": 66107
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "17. Wang, H., Thiele, A. & Pilon, L. Simulations of Cyclic Voltammetry for Electric Double Layers in Asymmetric Electrolytes: A Generalized Modified Poisson\u2013Nernst\u2013Planck Model. *J. Phys. Chem. C* **117**, 18286\u201318297 (2013).",
+        "start_index": 66107,
+        "end_index": 66332
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "18. Johnson, E. F., Boutin, E., Liu, S. & Haussener, S. Pathways to enhance electrochemical CO\u2082 reduction identified through direct pore-level modeling. *EES Catal.* **1**, 704\u2013719 (2023).",
+        "start_index": 66332,
+        "end_index": 66520
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "19. Zi, X., Zhou, Y., Zhu, L., Chen, Q., Tan, Y., Wang, X., Sayed, M., Pens\u00e4, E., Geioushy, R. A., Liu, K., Fu, J., Cort\u00e9s, E. & Liu, M. Breaking K\u207a Concentration Limit on Cu Nanoneedles for Acidic Electrocatalytic CO\u2082 Reduction to Multi-Carbon Products. *Angew. Chem. Int",
+        "start_index": 66520,
+        "end_index": 66792
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". Ed.* **62**, e202309351 (2023).",
+        "start_index": 66792,
+        "end_index": 66825
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "20. Qin, X., Vegge, T. & Hansen, H. A. CO\u2082 activation at Au(110)\u2013water interfaces: An ab initio molecular dynamics study. *J. Chem. Phys.* **155**, 134703 (2021).",
+        "start_index": 66825,
+        "end_index": 66987
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "21. Qin, X., Vegge, T. & Hansen, H. A. Cation-Coordinated Inner-Sphere CO\u2082 Electroreduction at Au\u2013Water Interfaces. *J. Am. Chem. Soc.* **145**, 1897\u20131905 (2023).",
+        "start_index": 66987,
+        "end_index": 67149
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "22. Qin, X., Hansen, H. A., Honkala, K. & Melander, M. M. Cation-induced changes in the inner- and outer-sphere mechanisms of electrocatalytic CO\u2082 reduction. *Nat. Commun.* **14**, 7607 (2023).",
+        "start_index": 67149,
+        "end_index": 67342
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "23. Shin, S.-J., Choi, H., Ringe, S., Won, D. H., Oh, H.-S., Kim, D. H., Lee, T., Nam, D.-H., Kim, H. & Choi, C. H. A unifying mechanism for cation effect modulating C1 and C2 productions from CO\u2082 electroreduction. *Nat. Commun.* **13**, 5482 (2022).",
+        "start_index": 67342,
+        "end_index": 67592
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "24. Wehinger, G. D., Ambrosetti, M., Cheula, R., Ding, Z.-B., Isoz, M., Kreitz, B., Kuhlmann, K., Kutscherauer, M., Niyogi, K., Poissonnier, J., R\u00e9ocreux, R., Rudolf, D., Wagner, J., Zimmermann, R., Bracconi, M., Freund, H., Krewer, U",
+        "start_index": 67592,
+        "end_index": 67826
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". & Maestri, M. Quo vadis multiscale modeling in reaction engineering? \u2013 A perspective. *Chem. Eng. Res. Des.* **184**, 39\u201358 (2022).",
+        "start_index": 67826,
+        "end_index": 67959
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "25. Xu, A., Govindarajan, N., Kastlunger, G., Vijay, S. & Chan, K. Theories for Electrolyte Effects in CO\u2082 Electroreduction. *Acc. Chem. Res.* **55**, 495\u2013503 (2022).",
+        "start_index": 67959,
+        "end_index": 68125
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "26. Singh, M. R., Goodpaster, J. D., Weber, A. Z., Head-Gordon, M. & Bell, A. T. Mechanistic insights into electrochemical reduction of CO\u2082 over Ag using density functional theory and transport models. *Proc. Natl. Acad. Sci.* **114**, E8812\u2013E8821 (2017).",
+        "start_index": 68125,
+        "end_index": 68380
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "27. Ringe, S., Morales-Guio, C. G., Chen, L. D., Fields, M., Jaramillo, T. F., Hahn, C. & Chan, K. Double layer charging driven carbon dioxide adsorption limits the rate of electrochemical carbon dioxide reduction on Gold. *Nat. Commun.* **11**, 33 (2020).",
+        "start_index": 68380,
+        "end_index": 68636
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "28. Chen, L. D., Urushihara, M., Chan, K. & N\u00f8rskov, J. K. Electric Field Effects in Electrochemical CO\u2082 Reduction. *ACS Catal.* **6**, 7133\u20137139 (2016).",
+        "start_index": 68636,
+        "end_index": 68789
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "29. Resasco, J., Chen, L. D., Clark, E., Tsai, C., Hahn, C., Jaramillo, T. F., Chan, K. & Bell, A. T. Promoter Effects of Alkali Metal Cations on the Electrochemical Reduction of Carbon Dioxide. *J. Am. Chem. Soc.* **139**, 11277\u201311287 (2017).",
+        "start_index": 68789,
+        "end_index": 69032
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "30. Malkani, A. S., Li, J., Oliveira, N. J., He, M., Chang, X., Xu, B. & Lu, Q. Understanding the electric and nonelectric field components of the cation effect on the electrochemical CO reduction reaction. *Sci. Adv.* **6**, eabd2569 (2020).",
+        "start_index": 69032,
+        "end_index": 69274
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "31. Zhu, Q., Wallentine, S. K., Deng, G.-H., Rebstock, J. A. & Baker, L. R. The Solvation-Induced Onsager Reaction Field Rather than the Double-Layer Field Controls CO\u2082 Reduction on Gold. *JACS Au* **2**, 472\u2013482 (2022).",
+        "start_index": 69274,
+        "end_index": 69494
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "32. Xu, Y., Xia, Z., Gao, W., Xiao, H. & Xu, B. Cation effect on the elementary steps of the electrochemical CO reduction reaction on Cu. *Nat. Catal.*, 1\u201310 (2024).",
+        "start_index": 69494,
+        "end_index": 69659
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "33. Zhang, Z., Huang, X., Chen, Z., Zhu, J., Endr\u00f6di, B., Jan\u00e1ky, C. & Deng, D. Membrane Electrode Assembly for Electrocatalytic CO\u2082 Reduction: Principle and Application. *Angew. Chem. Int. Ed.* **62**, e202302789 (2023).",
+        "start_index": 69659,
+        "end_index": 69880
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "34. Garc\u00eda de Arquer, F. P., Dinh, C.-T., Ozden, A., Wicks, J., McCallum, C., Kirmani, A. R., Nam, D.-H., Gabardo, C., Seifitokaldani, A., Wang, X., Li, Y. C., Li, F., Edwards, J., Richter, L. J., Thorpe, S. J., Sinton, D",
+        "start_index": 69880,
+        "end_index": 70101
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": ". & Sargent, E. H. CO\u2082 electrolysis",
+        "start_index": 70101,
+        "end_index": 70136
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2024-ff7s8-v3 ORCID: https://orcid.org/0000-0002-3044-1662 Content not peer-reviewed by ChemRxiv. License: CC BY 4.0\nto multicarbon products at activities greater than 1 A cm\\(^{-2}\\). *Science* **367**, 661\u2013666 (2020).",
+        "start_index": 70136,
+        "end_index": 70389
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "35. Kim, C., Bui, J. C., Luo, X., Cooper, J. K., Kusoglu, A., Weber, A. Z. & Bell, A. T. Tailored catalyst microenvironments for CO\\(_2\\) electroreduction to multicarbon products on copper using bilayer ionomer coatings. *Nat. Energy* **6**, 1026\u20131034 (2021).",
+        "start_index": 70389,
+        "end_index": 70648
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "36. Qin, H.-G., Du, Y.-F., Bai, Y.-Y., Li, F.-Z., Yue, X., Wang, H., Peng, J.-Z. & Gu, J. Surface-immobilized cross-linked cationic polyelectrolyte enables CO\\(_2\\) reduction with metal cation-free acidic electrolyte. *Nat. Commun.* **14**, 5640 (2023).",
+        "start_index": 70648,
+        "end_index": 70901
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "37. Weng, L.-C., Bell, A. T. & Weber, A. Z. Towards membrane-electrode assembly systems for CO\\(_2\\) reduction: a modeling study. *Energy Environ. Sci.* **12**, 1950\u20131968 (2019).",
+        "start_index": 70901,
+        "end_index": 71079
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "38. Islam, S. M. R., Khezeli, F., Ringe, S. & Plaisance, C. An implicit electrolyte model for plane wave density functional theory exhibiting nonlinear response and a nonlocal cavity definition. *J. Chem. Phys.* **159**, 234117 (2023).",
+        "start_index": 71079,
+        "end_index": 71314
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "39. Marcus, Y. Effect of Ions on the Structure of Water: Structure Making and Breaking. *Chem. Rev.* **109**, 1346\u20131370 (2009).",
+        "start_index": 71314,
+        "end_index": 71441
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "40. Monteiro, M. C. O., Philips, M. F., Schouten, K. J. P. & Koper, M. T. M. Efficiency and selectivity of CO\\(_2\\) reduction to CO on gold gas diffusion electrodes in acidic media. *Nat. Commun.* **12**, 4943 (2021).",
+        "start_index": 71441,
+        "end_index": 71658
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "41. Shinagawa, T., Obata, K. & Takanabe, K. Switching of Kinetically Relevant Reactants for the Aqueous Cathodic Process Determined by Mass-transport Coupled with Protolysis. *ChemCatChem* **11**, 5961\u20135968 (2019).",
+        "start_index": 71658,
+        "end_index": 71872
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "42. Zhang, B. A., Ozel, T., Elias, J. S., Costentin, C. & Nocera, D. G. Interplay of Homogeneous Reactions, Mass Transport, and Kinetics in Determining Selectivity of the Reduction of CO\\(_2\\) on Gold Electrodes. *ACS Cent. Sci.* **5**, 1097\u20131105 (2019).",
+        "start_index": 71872,
+        "end_index": 72126
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "43. Marcandalli, G., Goyal, A. & Koper, M. T. M. Electrolyte Effects on the Faradaic Efficiency of CO\\(_2\\) Reduction to CO on a Gold Electrode. *ACS Catal.* **11**, 4936\u20134945 (2021).",
+        "start_index": 72126,
+        "end_index": 72309
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "44. Resasco, J., Lum, Y., Clark, E., Zeledon, J. Z. & Bell, A. T. Effects of Anion Identity and Concentration on Electrochemical Reduction of CO$_2$. *ChemElectroChem* **5**, 1064\u20131072 (2018).",
+        "start_index": 72309,
+        "end_index": 72501
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "45. Campbell, C. T. The Degree of Rate Control: A Powerful Tool for Catalysis Research. *ACS Catal.* **7**, 2770\u20132779 (2017).",
+        "start_index": 72501,
+        "end_index": 72626
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "46. Clark, E. L., Ringe, S., Tang, M., Walton, A., Hahn, C., Jaramillo, T. F., Chan, K. & Bell, A. T. Influence of Atomic Surface Structure on the Activity of Ag for the Electrochemical Reduction of CO$_2$ to CO. *ACS Catal.* **9**, 4006\u20134014 (2019).",
+        "start_index": 72626,
+        "end_index": 72876
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "47. Wertz, D. H. Relationship between the gas-phase entropies of molecules and their entropies of solvation in water and 1-octanol. *J. Am. Chem. Soc.* **102**, 5316\u20135322 (1980).",
+        "start_index": 72876,
+        "end_index": 73054
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "48. Garlyyev, B., Xue, S., Watzele, S., Scieszka, D. & Bandarenka, A. S. Influence of the Nature of the Alkali Metal Cations on the Electrical Double-Layer Capacitance of Model Pt(111) and Au(111) Electrodes. *J. Phys. Chem. Lett.* **9**, 1927\u20131930 (2018).",
+        "start_index": 73054,
+        "end_index": 73310
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "49. Liu, X. & Koper, M. T. M. Tuning the Interfacial Reaction Environment for CO$_2$ Electroreduction to CO in Mildly Acidic Media. *J. Am. Chem. Soc.* **146**, 5242\u20135251 (2024).",
+        "start_index": 73310,
+        "end_index": 73488
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "50. Gu, J., Liu, S., Ni, W., Ren, W., Haussener, S. & Hu, X. Modulating electric field distribution by alkali cations for CO$_2$ electroreduction in strongly acidic medium. *Nat. Catal.* **5**, 268\u2013276 (2022).",
+        "start_index": 73488,
+        "end_index": 73697
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "51. Goyal, A. & Koper, M. T. M. The Interrelated Effect of Cations and Electrolyte pH on the Hydrogen Evolution Reaction on Gold Electrodes in Alkaline Media. *Angew. Chem. Int. Ed.* **60**, 13452\u201313462 (2021).",
+        "start_index": 73697,
+        "end_index": 73907
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "52. Rumble, J. *CRC Handbook of Chemistry and Physics* 104th Edition (Internet Version 2023). Chap. Ionic Conductivity and Diffusion at Infinite Dilution (CRC Press / Taylor & Francis, Boca Raton, FL., 2023).",
+        "start_index": 73907,
+        "end_index": 74115
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "53. Nightingale, E. R. J. Phenomenological Theory of Ion Solvation. Effective Radii of Hydrated Ions. *J. Phys. Chem.* **63**, 1381\u20131387 (1959).",
+        "start_index": 74115,
+        "end_index": 74259
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "54. Peng, J., Roy, A. L., Greenbaum, S. G. & Zawodzinski, T. A. Effect of CO$_2$ absorption on ion and water mobility in an anion exchange membrane. *J. Power Sources* **380**, 64\u201375 (2018).",
+        "start_index": 74259,
+        "end_index": 74449
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "55. Bui, J. C., Digdaya, I., Xiang, C., Bell, A. T. & Weber, A. Z. Understanding Multi-Ion Transport Mechanisms in Bipolar Membranes. *ACS Appl. Mater. Interfaces* **12**, 52509\u201352526 (2020).",
+        "start_index": 74449,
+        "end_index": 74640
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "56. Gokturk, P. A., Sujanani, R., Qian, J., Wang, Y., Katz, L. E., Freeman, B. D. & Crumlin, E. J. The Donnan potential revealed. *Nat. Commun.* **13**, 5880 (2022).",
+        "start_index": 74640,
+        "end_index": 74805
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "57. Ren, W., Xu, A., Chan, K. & Hu, X. A Cation Concentration Gradient Approach to Tune the Selectivity and Activity of CO$_2$ Electroreduction. *Angew. Chem. Int. Ed.* **61**, e202214173 (2022).",
+        "start_index": 74805,
+        "end_index": 75000
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "58. Endr\u00f6di, B., Samu, A., Kecsenovity, E., Halm\u00e1gyi, T., Seb\u0151k, D. & Jan\u00e1ky, C. Operando cathode activation with alkali metal cations for high current density operation of water-fed zero-gap carbon dioxide electrolyzers. *Nat. Energy* **6**, 439\u2013448 (2021).",
+        "start_index": 75000,
+        "end_index": 75258
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "59. Adesina, P., Elliott, J. A. & Lapkin, A. A. Multiscale modelling of species transport in hydrophilic Nafion\u00ae-coated Cu catalysts for CO$_2$ electro-reduction. *Chem. Eng. J.* **478**, 147461 (2023).",
+        "start_index": 75258,
+        "end_index": 75460
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "60. Kresse, G. & Furthm\u00fcller, J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set. *Comput. Mater. Sci.* **6**, 15\u201350 (1996).",
+        "start_index": 75460,
+        "end_index": 75645
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "61. Kresse, G. & Joubert, D. From ultrasoft pseudopotentials to the projector augmented-wave method. *Phys. Rev. B* **59**, 1758\u20131775 (1999).\n\n62. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient approximation made simple. *Phys. Rev. Lett.* **77**, 3865 (1996).",
+        "start_index": 75645,
+        "end_index": 75920
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "63. Almora-Barrios, N., Carchini, G., B\u0142o\u0144ski, P. & L\u00f3pez, N. Costless derivation of dispersion coefficients for metal surfaces. *J. Chem. Theory Comput.* **10**, 5002\u20135009 (2014).",
+        "start_index": 75920,
+        "end_index": 76100
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "64. Kresse, G. & Joubert, D. From ultrasoft pseudopotentials to the projector augmented-wave method. *Phys. Rev. B* **59**, 1758\u20131775 (1999).",
+        "start_index": 76100,
+        "end_index": 76241
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "65. Dattila, F., Monteiro, M. C. O., Koper, M. T. M. & L\u00f3pez, N. Reply to: On the role of metal cations in CO$_2$ electrocatalytic reduction. *Nat. Catal.* **5**, 979\u2013981 (2022).",
+        "start_index": 76241,
+        "end_index": 76419
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "66. Kauppinen, M. M., Daelman, N., L\u00f3pez, N. & Honkala, K. The role of polaronic states in the enhancement of CO oxidation by single-atom Pt/CeO$_2$. *J. Catal.* **423**, 26\u201333 (2023).",
+        "start_index": 76419,
+        "end_index": 76603
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "67. Mathew, K., Sundararaman, R., Letchworth-Weaver, K., Arias, T. A. & Hennig, R. G. Implicit solvation model for density-functional study of nanocrystal surfaces and reaction pathways. *J. Chem. Phys.* **140**, 084106 (2014).",
+        "start_index": 76603,
+        "end_index": 76830
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "68. Mathew, K., Kolluru, V. S. C., Mula, S., Steinmann, S. N. & Hennig, R. G. Implicit self-consistent electrolyte model in plane-wave density-functional theory. *J. Chem. Phys.* **151**, 234101 (2019).",
+        "start_index": 76830,
+        "end_index": 77032
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "69. N\u00f8rskov, J. K., Rossmeisl, J., Logadottir, A., Lindqvist, L., Kitchin, J. R., Bligaard, T. & J\u00f3nsson, H. Origin of the overpotential for oxygen reduction at a fuel-cell cathode. *J. Phys. Chem. B.* **108**, 17886\u201317892 (2004).",
+        "start_index": 77032,
+        "end_index": 77262
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "70. Henkelman, G., Uberuaga, B. P. & J\u00f3nsson, H. A climbing image nudged elastic band method for finding saddle points and minimum energy paths. *J. Chem. Phys.* **113**, 9901\u20139904 (2000).",
+        "start_index": 77262,
+        "end_index": 77450
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "71. Smidstrup, S., Pedersen, A., Stokbro, K. & J\u00f3nsson, H. Improved initial guess for minimum energy path calculations. *J. Chem. Phys.* **140**, 214106\u20137 (2014).\n\n72. Nos\u00e9, S. A unified formulation of the constant temperature molecular dynamics methods. *J. Chem. Phys.* **81**, 511\u2013519 (1984).",
+        "start_index": 77450,
+        "end_index": 77745
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "73. Hoover, W. G. Canonical dynamics: Equilibrium phase-space distributions. *Phys. Rev. A* **31**, 1695\u20131697 (1985).",
+        "start_index": 77745,
+        "end_index": 77862
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "74. Woo, T. K., Margl, P. M., Bl\u00f6chl, P. E. & Ziegler, T. A Combined Car-Parrinello QM/MM Implementation for ab Initio Molecular Dynamics Simulations of Extended Systems: Application to Transition Metal Catalysis. *J. Phys. Chem. B* **101**, 7877\u20137880 (1997).",
+        "start_index": 77862,
+        "end_index": 78121
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "75. Jarzynski, C. Nonequilibrium Equality for Free Energy Differences. *Phys. Rev. Lett.* **78**, 2690\u20132693 (1997).",
+        "start_index": 78121,
+        "end_index": 78236
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "76. Larsen, A. H. *et al.* The atomic simulation environment\u2014a Python library for working with atoms. *J. Phys.: Condens. Matter* **29**, 273002 (2017).",
+        "start_index": 78236,
+        "end_index": 78388
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "77. Le, J.-B., Fan, Q.-Y., Li, J.-Q. & Cheng, J. Molecular origin of negative component of Helmholtz capacitance at electrified Pt(111)/water interface. *Sci. Adv.* **6**, eabb1219 (2020).",
+        "start_index": 78388,
+        "end_index": 78576
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "78. Doblhoff-Dier, K. & Koper, M. T. Electric double layer of Pt(111): Known unknowns and unknown knowns. *Curr. Opin. Electrochem.* **39**, 101258 (2023).\n\n79. Sprik, M. & Ciccotti, G. Free energy from constrained molecular dynamics. *J. Chem. Phys.* **109**, 7737\u20137744 (1998).",
+        "start_index": 78576,
+        "end_index": 78854
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "80. Sabadell-Rend\u00f3n, A., Kaza\u0131lmczak, K., Morandi, S., Euzenat, F., Curulla-Ferr\u00e9, D. & L\u00f3pez, N. Automated Multiscale simulation environment. *Digit. Discov.* **2**, 1721\u20131732 (2023).",
+        "start_index": 78854,
+        "end_index": 79038
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "81. Kastlunger, G., Wang, L., Govindarajan, N., Heenen, H. H., Ringe, S., Jaramillo, T., Hahn, C. & Chan, K. Using pH Dependence to Understand Mechanisms in Electrochemical CO Reduction. *ACS Catal.* **12**, 4344\u20134357 (2022).",
+        "start_index": 79038,
+        "end_index": 79263
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "82. Schumpe, A. The estimation of gas solubilities in salt solutions. *Chem. Eng. Sci.* **48**, 153\u2013158 (1993).\n\n83. Weisenberger, S. & Schumpe, A. Estimation of gas solubilities in salt solutions at temperatures from 273 K to 363 K. *AIChE Journal* **42**, 298\u2013300 (1996).",
+        "start_index": 79263,
+        "end_index": 79536
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "84. Johnson, E. F., Boutin, E. & Haussener, S. Surface Charge Boundary Condition Often Misused in CO\u2082 Reduction Models. *J. Phys. Chem. C* **127**, 18784\u201318790 (2023).",
+        "start_index": 79536,
+        "end_index": 79703
+    },
+    {
+        "document_name": "37.txt",
+        "chunk_text": "85. \u00c1lvarez Moreno, M., de Graaf, C., L\u00f3pez, N., Masesas, F., Poblet, J. M. & Bo, C. Managing the Computational Chemistry Big Data Problem: The ioChem-BD Platform. *J. Chem. Inf. Model.* **55**, 95\u2013103 (2015).",
+        "start_index": 79703,
+        "end_index": 79912
+    }
+]

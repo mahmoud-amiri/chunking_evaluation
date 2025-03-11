@@ -1,0 +1,698 @@
+[
+    {
+        "document_name": "97.txt",
+        "chunk_text": "2019-nCoV vs. SARS-CoV: Which Truly Has a Higher ACE2 Affinity? A Quantum Chemical Perspective on Virus-Receptor Noncovalent Interactions\n\nby Nitai Sylvetsky*\u00a7\n\nEmail: nitai.sylvetsky@weizmann.ac.il\n\n\u00a7 Department of Organic Chemistry, Weizmann Institute of Science, 76100 Rehovot, Israel",
+        "start_index": 0,
+        "end_index": 287
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "KEYWORDS 2019-nCoV \u2022 SARS-CoV \u2022 ACE2 receptor \u2022 noncovalent interactions \u2022 electronic structure \u2022 B3LYP \u2022 MMFF94 \u2022 chemical intuition",
+        "start_index": 287,
+        "end_index": 420
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "ABSTRACT While the title question is still a matter for ongoing debate, current hypotheses suggest that a few particular amino acid substitutions are responsible for the ACE2 affinity differences between the two viruses (the spike proteins of which exhibit 76% sequence identity, and are therefore assumed to adopt similar folded structures)",
+        "start_index": 420,
+        "end_index": 761
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In the present paper, noncovalent interaction energetics associated with said substitutions are assessed by means of B3LYP/TZVP electronic structure calculations on a representative set of geometries \u2013 chosen to reflect different biochemically-significant spatial organizations of the amino acid residues at hand. We found that the sum and (unbiased-)average of calculated interaction energetics under consideration are larger in SARS-CoV compared to 2019-nCoV",
+        "start_index": 761,
+        "end_index": 1223
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Thus, we hereby challenge earlier predictions claiming a higher ACE2 affinity for 2019-nCoV employing \u201cchemical-intuition\u201d-based analyses of said substitutions alone. We also demonstrate that the latter predictions are potentially somewhat-biased for being based on a SARS-CoV\u2013ACE2 crystal structure \u2013 which should not be expected to represent a bound spike-protein\u2013receptor complex in physiological conditions",
+        "start_index": 1223,
+        "end_index": 1635
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". By comparing electronic-structure-based results with ones obtained using the widely-used MMFF94 molecular mechanics force-field, we show that despite being specifically parametrized for van der Waals interactions \u2013 such classical force fields might prove inadequate in cases where only several, well-defined noncovalent binding factors are assumed to play crucial roles in biochemically-significant binding events.",
+        "start_index": 1635,
+        "end_index": 2051
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Introduction",
+        "start_index": 2051,
+        "end_index": 2063
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "2019-nCoV is a newly emerged, human-infectious coronavirus (CoV) that has recently spread to become a global epidemiological problem. As of 12.03.20, there have been more than 134,509 diagnosed cases and more than 4,981 confirmed deaths worldwide (ABC news, USA). Due to the fact that the pathogenesis of this virus has not been thoroughly investigated, healthcare professionals are forced to rely on ad hoc practical treatment options",
+        "start_index": 2063,
+        "end_index": 2498
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". A long-term, economically-sustainable battle against 2019-nCoV, however, would require the development of effective medicinal measures (e.g., drugs, vaccines and the like). One important starting point towards such development is the virus\u2019 genome sequence, which is currently available (GenBank ID: MN908947.3). It has been realized that 2019-nCoV shares 82 % sequence identity with severe acute respiratory syndrome-related coronavirus (SARS-CoV)",
+        "start_index": 2498,
+        "end_index": 2948
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Thus, past findings from medicinal chemistry studies on SARS-CoV may directly be used in current research efforts on 2019-nCoV.",
+        "start_index": 2948,
+        "end_index": 3077
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "It is well-known that CoV rely on their spike proteins for binding to a host cell surface receptor \u2013 which, in turn, leads to cell invasion. As for SARS-CoV, the particular receptor to which 2019-nCoV binds is angiotensin-converting enzyme 2 (ACE2). Since the spike proteins for the two viruses exhibit no less than 76% sequence identity, they are broadly assumed to adopt similar folded structures",
+        "start_index": 3077,
+        "end_index": 3475
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Again, in SARS-CoV, a receptor binding domain \u2013 responsible for high-affinity interactions with ACE2 \u2013 has already been identified in region S1 of the spike protein (see Ref. for the appropriate nomenclature).",
+        "start_index": 3475,
+        "end_index": 3686
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "The current hypothesis is that such receptor binding domain is also employed by 2019-nCoV. That being said, non-conserved mutations (that is, deviations from the known SARS-CoV amino-acid sequence in these regions) were recognized in structural regions that interact directly with ACE2. Thus, it was suggested that some particular amino acid substitutions are to be held responsible for overall cell-affinity differences between the two viruses",
+        "start_index": 3686,
+        "end_index": 4130
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Needless to say, identifying particular amino acids that significantly contribute to ACE2-binding in 2019-nCoV is expected to lead to the development of effective vaccines.",
+        "start_index": 4130,
+        "end_index": 4304
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Based mostly on \u201cchemical intuition\u201d, Morse et. al. have predicted that several amino-acid substitutions would result in a greater affinity for 2019-nCoV, due to stronger noncovalent interactions with specific, corresponding residues in ACE2. In this context, the following substitutions were addressed (SARS-CoV/2019-nCoV): V404/K417, Y484/Q498, L472/F486, and C474/Q492",
+        "start_index": 4304,
+        "end_index": 4675
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". However, reliable assessments of the relevant noncovalent",
+        "start_index": 4675,
+        "end_index": 4734
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "interactions \u2013 that may rise from subtle electronic effects which must be explicitly considered \u2013 are to be obtained in order to confirm/refute predictions of this sort. In this context, electronic structure methods constitute a precious (and almost exclusive) source of information on biochemically-relevant noncovalent interactions between individual molecules \u2013 which, in turn, often used for the parametrization and calibration of more approximate computational modeling techniques (such as classical molecular mechanics force fields)",
+        "start_index": 4734,
+        "end_index": 5272
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ".\\textsuperscript{7\u201311} Having been involved in a few recent quantum chemical investigations of noncovalent complexes,\\textsuperscript{12\u201316} we shall now attempt to employ B3LYP/TZVP calculations \u2013 which have been shown to be capable of providing reliable noncovalent interaction energetics\\textsuperscript{17} \u2013 for the purpose of calculating energy differences associated with the aforementioned substitutions",
+        "start_index": 5272,
+        "end_index": 5684
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In such manner, reliable energetic \u201cgains/losses\u201d which result from these particular substitutions may be quantitatively assessed, so that important practical conclusions regarding the above prediction may be drawn. This general strategy is concisely summarized in Figure 1.",
+        "start_index": 5684,
+        "end_index": 5960
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "![The B3LYP Scoreboard](image)\n\n**Figure 1.** An illustration of the basic analysis strategy employed in this paper; relevant noncovalent interaction energetics will be compared \u201cacross\u201d the two viruses, such that their contribution to the overall virus-ACE2 affinity may be assessed.",
+        "start_index": 5960,
+        "end_index": 6244
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "It should clearly be considered that binding regions in both spike protein and ACE2 may exhibit substantial conformational flexibility in physiological conditions (see, for instance, a",
+        "start_index": 6244,
+        "end_index": 6428
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "representative discussions on protein flexibility in Refs.\\textsuperscript{18,19}). Thus, crystal structure geometries should not be considered as an ultimate source of structural information on the systems at hand (this fact seems to have been overlooked in recent research efforts). We will therefore mostly restrict our discussion to particular spatial organizations of the relevant amino acid dimers/clusters, chosen to represent \u201cupper bounds\u201d for said interactions",
+        "start_index": 6428,
+        "end_index": 6898
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In such manner, we would be able to use statistical inference tools and critically answer whether said substitutions actually lead to a substantial, potential increase in interaction energies \u2013 or, perhaps, suggest that their implications are not quite as straightforward. Still, and in order to compare our results with those of Morse et al., we will also consider geometries derived directly from the crystal structure in Ref.\\textsuperscript{2}.",
+        "start_index": 6898,
+        "end_index": 7348
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Since some recent/contemporary research ventures have involved indirect assessments of the aforementioned noncovalent binding factors by means of classical molecular mechanics force fields,\\textsuperscript{20-22} we shall also compare our electronic-structure-based energetics with ones obtained using the widely-applicable MMFF94 force-field \u2013 which has been specifically parametrized for van der Waals (vdW) interactions\\textsuperscript{23} and is often used for investigations of organic molecules",
+        "start_index": 7348,
+        "end_index": 7848
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "and polypeptides",
+        "start_index": 7848,
+        "end_index": 7864
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ".\\textsuperscript{24,25}",
+        "start_index": 7864,
+        "end_index": 7888
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "**Computational Methods**",
+        "start_index": 7888,
+        "end_index": 7913
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Electronic structure calculations were performed using the Gaussian16\\textsuperscript{26} software suite and ran on the Faculty of Chemistry HPC cluster at the Weizmann institute of science. The B3LYP functional,\\textsuperscript{27} which was recommended for biochemically-relevant noncovalent systems in Ref",
+        "start_index": 7913,
+        "end_index": 8221
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ".\\textsuperscript{17}, as well as Grimme\u2019s DFT-D3 atom-pairwise dispersion corrections\\textsuperscript{28} and the TZVP basis set\\textsuperscript{29} were used throughout.",
+        "start_index": 8221,
+        "end_index": 8392
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "In addition, MMFF94\\textsuperscript{23,30} geometry optimizations and energy calculations were performed using the Avogadro software (Macintosh version 1.2).\\textsuperscript{31}",
+        "start_index": 8392,
+        "end_index": 8569
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "The sixteen geometries considered in this work were obtained in the following manner: first, four amino-acid dimers, corresponding to the noncovalent interactions between SARS-CoV and ACE2 addressed by Morse et al. (see introduction), were directly extracted from the crystal structure considered in Ref.\\textsuperscript{2} [PDB ID: 2AJF]",
+        "start_index": 8569,
+        "end_index": 8907
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". These dimers were then spatially reorganized (based on chemical intuition and bearing in mind that the polypeptide backbone must remain intact) to represent significant binding interactions, and subsequently optimized using the MMFF94 force-field to produce five additional structures. Finally, substitutions",
+        "start_index": 8907,
+        "end_index": 9217
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "associated with 2019-nCoV were performed and reorganized-optimized in a similar manner \u2013 resulting in seven more structures (sixteen in total). For the sake of consistency, we have chosen to carry out MMFF94 geometry optimizations on the original, crystal-structure-derived dimers \u2013 despite the fact no noticeable structural changes have seemed to result from such choice. All final geometries used in our interaction energy calculations are provided in .xyz format in the electronic supporting information.",
+        "start_index": 9217,
+        "end_index": 9724
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "**Results and Discussion**",
+        "start_index": 9724,
+        "end_index": 9750
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Before we begin our analysis, a few notes about nomenclature are in place. As can be seen in Table 1, we labeled all noncovalent interactions under consideration based on the participating residues in ACE2",
+        "start_index": 9750,
+        "end_index": 9955
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". For instance, the particular interaction involving residues D30 and H34 in ACE2, as well as residue V404 in SARS-CoV, will be denoted 1-SARS-n (n denotes a particular molecular structure representing the latter interaction; specifically, 1-SARS-a corresponds to the SARS-CoV\u2013ACE2 crystal structure from Ref.2). Note that for the sake of good order, structure illustrations and names are also presented in Figure 2.",
+        "start_index": 9955,
+        "end_index": 10371
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| Interaction number (n) | ACE2  | SARS/nCoV | Notes                                                                 |\n|-----------------------|-------|-----------|----------------------------------------------------------------------|\n| 1                     | D30, H34 | V404/K417  | \\(a, b, c\\) are used to denote different (chemically-significant) structures, which differ in their noncovalent nature (see Table 2). |",
+        "start_index": 10371,
+        "end_index": 10792
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 2                     | K353  | Y484/Q498  |                                                                      |\n| 3                     | L79, M82 | L472/F486  | \\(n\\)-SARS-a \\((n=1-4)\\) correspond to interactions derived from the SARS-ACE2 crystal structure in Ref.2 |\n| 4                     | Q24   | C474/Q492  |                                                                      |",
+        "start_index": 10792,
+        "end_index": 11185
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Figure 2. Biochemically-significant structures considered in the present work (atom legend: gray=C, white=H, Red=O, Blue=N, Yellow=S).\nOur calculated B3LYP/def2-TZVP noncovalent interaction energetics, as well as their deviation from ones calculated using the classical MMFF94 force-field, are presented in Table 2.",
+        "start_index": 11185,
+        "end_index": 11500
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "**Table 2.** Calculated B3LYP/def2-TZVP interaction energetics, and their deviations from those calculated using the MMFF94 force-field. The noncovalent character of each interaction is also indicated (second column from the left)",
+        "start_index": 11500,
+        "end_index": 11730
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Statistical dispersion measures for virus-specific interactions are given in the bottom three rows (s=sample standard deviation, MAD=mean absolute deviation); SARS-CoV* denotes the removal of n-SARS-a structures (n=1-4) from the statistical sample.",
+        "start_index": 11730,
+        "end_index": 11980
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| Character (in order of significance) | IE (kcal/mol) | dMMFF94 |\n|--------------------------------------|--------------|---------|\n| 1-SARS-a                             | vdW (weak)   | -0.632  | 0.055  |\n| 1-SARS-b                             | 1HB, vdW     | -13.723 | 1.013  |",
+        "start_index": 11980,
+        "end_index": 12262
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 1-nCoV-a                             | vdW          | -1.587  | -1.944 |\n| 1-nCoV-b                             | 1HB          | -3.712  | -0.328 |\n| 2-SARS-a                             | vdW          | -1.210  | -0.143 |\n| 2-SARS-b                             | vdW          | -3.215  | -1.647 |",
+        "start_index": 12262,
+        "end_index": 12561
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 2-nCoV                               | 1HB, vdW     | -6.389  | -1.702 |\n| 3-SARS-a                             | vdW, hydrophobic | -3.217 | -1.060 |\n| 3-SARS-b                             | vdW, hydrophobic | -3.229 | -0.695 |",
+        "start_index": 12561,
+        "end_index": 12791
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 3-nCoV-a                             | vdW(S-\u03c0), hydrophobic | -2.879 | -0.396 |\n| 3-nCoV-b                             | Hydrophobic, vdW(S-\u03c0) | -7.510 | -2.831 |\n| 3-nCoV-c                             | vdW(S-\u03c0), hydrophobic | -3.744 | -3.624 |",
+        "start_index": 12791,
+        "end_index": 13039
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 4-SARS-a                             | vdW (very weak) | 0.016  | -0.116 |\n| 4-SARS-b                             | 1HB (S=HB donor) | -5.664 | -1.003 |\n| 4-SARS-c                             | 1HB (S=HB acceptor) | -2.116 | -0.502 |",
+        "start_index": 13039,
+        "end_index": 13274
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| 4-nCoV                               | 1HB, vdW     | -6.660  | 1.712  |",
+        "start_index": 13274,
+        "end_index": 13348
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| Range | s   | MAD |\n|-------|-----|-----|\n| SARS-CoV | 13.739 | 4.137 | 2.679 |\n| SARS-CoV* | 11.607 | 4.729 | 3.283 |\n| 2019-nCoV | 6.676  | 2.216 | 1.897 |",
+        "start_index": 13348,
+        "end_index": 13507
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "First, let us compare our DFT results to those obtained using the MMFF94 force-field. Not quite surprisingly, exceptionally large deviations are observed for structures reflecting significant vdW contributions (note, in particular, those associated with the S-\u03c0 stabilized 3-nCoV-b/c). Generally-smaller deviations are accordingly found for hydrophobic or \u201cpure\u201d hydrogen bonding interactions (which do not involve additional significant vdW contributions)",
+        "start_index": 13507,
+        "end_index": 13963
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". It is important to note that for some structures, said deviations are similar in magnitude to the calculated interaction strength; this should indeed indicate that classical force fields of this sort might prove problematic in cases where just a few, well-defined",
+        "start_index": 13963,
+        "end_index": 14228
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "noncovalent binding factors are considered. In the present such case, MMFF94 clearly fails to provide accurate energetics for many structures, and should thus not be relied upon for answering whether the particular interactions under consideration indicate higher ACE2 affinity for either SARS-CoV or 2019-nCoV. Electronic structure calculations capable of accurately describing noncovalent binding factors should therefore be used as a reliable source of information for such purposes.",
+        "start_index": 14228,
+        "end_index": 14714
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "We can now move on and focus on our B3LYP/def2-TZVP results. Excluding interaction 1, for which SARS-CoV exhibits the largest interaction energy (1-SARS-b), 2019-nCoV indeed seems to be capable of participating in stronger noncovalent interactions (2-nCoV, 3-nCoV-b, and 4-nCoV correspond to the strongest interactions for n=2-4)",
+        "start_index": 14714,
+        "end_index": 15043
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". As somewhat briefly addressed by Morse et. al., most energetic \u201cgains\u201d associated with 2019-nCoV residues may be rationalized using chemical intuition. For instance, in interactions 2 and 4, 2019-nCoV clearly relies on hydrogen bonding while SARS-CoV is only capable of participating in either van der Waals (vdW), or sulfur-containing hydrogen bonding interactions \u2013 both can be expected to be weaker",
+        "start_index": 15043,
+        "end_index": 15446
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In addition, 2019-nCoV apparently benefits from S-\u03c0 stabilization in interaction 2, which can clearly turn significant in an appropriate spatial organization (3-nCoV-b). That being said, and contrary to the prediction by Morse et. al., 1-SARS-b is clearly capable of benefitting from a combination of vdW and hydrogen bond stabilization, which do not exist in the 1-nCoV structures",
+        "start_index": 15446,
+        "end_index": 15829
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". As shown in Figure 2, this latter finding may, in fact, be attributed to the spatial properties of residue V404 in SARS-CoV, which enable it to interact significantly with both D30 and H34 in ACE2 (compare with residue K417 in 2019-nCoV; see structures 1-nCoV-a/b).",
+        "start_index": 15829,
+        "end_index": 16096
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "An important thing to note here, however, is that the largest calculated energies for interactions n=1-4 should not, on their own, be simply considered as a measure for the overall interaction strength between SARS-CoV/2019-nCoV and ACE2. As mentioned in the introduction, such macro-scaled protein-protein interactions are driven by a great many noncovalent binding factors, and are characterized with significant conformational flexibility",
+        "start_index": 16096,
+        "end_index": 16537
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Thus, one should not expect all possible noncovalent binding factors to be \u201cfully utilized\u201d \u2013 as the maximization of one factor might lead to geometric constraints which inhibit maximizations of others. Bearing this in mind, we shall accordingly consider the entire calculated interaction space (as opposed to the aforementioned, maximum-interaction-strength data points in isolation) in the remainder of the present discussion.",
+        "start_index": 16537,
+        "end_index": 16967
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "A few representative statistical dispersion measures describing the interaction space at hand are also presented in the lower part of Table 2. It can clearly be seen that the range of interaction energetics (from smallest to largest) in SARS-CoV is about as twice as large as that of 2019-nCoV",
+        "start_index": 16967,
+        "end_index": 17260
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In addition, both standard deviation and mean absolute deviation are significantly larger in SARS-CoV compared to 2019-nCoV (by ~87% and ~41%, respectively). Indeed, it can easily be inferred that based on the four noncovalent interactions considered in this work, SARS-CoV is more dependent on specific energetically-favored spatial organizations (i.e., n-SARS-b, n=1-4) for effective binding",
+        "start_index": 17260,
+        "end_index": 17655
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". In particular, interactions 1 and 4 may be identified as potentially-significant binding factors for SARS-CoV, as their potential magnitudes are larger than those of 2 and 3. 2019-nCoV, on the other hand, exhibits rather balanced dependence on the four considered interactions (though interaction 1 is indeed a bit weaker than its counterparts).",
+        "start_index": 17655,
+        "end_index": 18002
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Again, based on the present interaction space, and considering that both receptor binding domains in the virus\u2019 spike protein and their corresponding binding sites in ACE2 may exhibit significant conformational flexibility, we may now come up with a few possible interaction \u201cscenarios\u201d for the two viruses \u2013 which will, in turn, help us establish important practical conclusions regarding the latter\u2019s overall ACE2 affinities (Table 3)",
+        "start_index": 18002,
+        "end_index": 18438
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". First, if we assume that all interactions may indeed reach their maximum value for both viruses (scenario I), then SARS-CoV can be expected to bind to ACE2 with a slightly greater (~6%) overall affinity; however, and since this scenario should clearly not be perceived as having exclusive biochemical significance \u2013 additional scenarios must obviously be considered as well. In scenario II, minimum values are considered for all investigated interactions",
+        "start_index": 18438,
+        "end_index": 18894
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". 2019-nCoV, in this case, is clearly the \u201cwinner\u201d \u2013 as the sum of its interactions amounts to ~350% of the corresponding sum for SARS-CoV",
+        "start_index": 18894,
+        "end_index": 19032
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". That being said, it should be stressed that interactions derived from the crystal structure of SARS-CoV\u2013ACE2 (that is, n-SARS-a) \u2013 which can be expected to represent lower bounds for interactions 1, 2 and 4 \u2013 are likely to bias this scenario in favor of 2019-nCoV",
+        "start_index": 19032,
+        "end_index": 19297
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Still, and since the statistical dispersion measures are larger for SARS-CoV even in case where crystal structure geometries are not considered (see Table 2) \u2013 it is possible to expect 2019-nCoV to bind to ACE2 with higher affinity in the current scenario",
+        "start_index": 19297,
+        "end_index": 19554
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". If we consider the average value of all investigated interactions for each virus as a measure for overall ACE2 affinity (scenario III), then 2019-nCoV is shown to have the upper hand (larger by ~26% than the average interaction for SARS-CoV). Similarly, summing the average value for each individual interaction (scenario IV) gives 2019-nCoV an advantage of",
+        "start_index": 19554,
+        "end_index": 19913
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "~34%. However, removing the aforementioned, somewhat-biased crystal-structure-derived energetics from our averaging (V and VI) \u2013 SARS-CoV clearly exhibits superior statistics (values are larger than those for 2019-nCoV by ~20% and ~18%, respectively).",
+        "start_index": 19913,
+        "end_index": 20164
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Table 3. Six interaction scenarios based upon our calculated energetics (Table 2)",
+        "start_index": 20164,
+        "end_index": 20245
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". $\\Sigma \\text{Max}_n = $ the sum of maximum calculated values for each interaction (n=1-4); $\\Sigma \\text{Min}_n = $ the sum of minimum such values; Average$_{\\text{tot}} = $ the average of all calculated interaction energetics for a given virus; $\\Sigma \\text{Average}_n = $ the sum of average values for each interaction",
+        "start_index": 20245,
+        "end_index": 20569
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". As in Table 2, * denotes the removal of n-SARS-a structures (n=1-4) from the statistical sample.",
+        "start_index": 20569,
+        "end_index": 20667
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| Scenario | I       | II      | III     | IV      | V       | VI      |\n|----------|---------|---------|---------|---------|---------|---------|",
+        "start_index": 20667,
+        "end_index": 20812
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| Description: | $\\Sigma \\text{Max}_n$ | $\\Sigma \\text{Min}_n$ | Average$_{\\text{tot}}$ | $\\Sigma \\text{Average}_n$ | Average$_{\\text{tot}}$ | $\\Sigma \\text{Average}_n$ |",
+        "start_index": 20812,
+        "end_index": 20982
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "| SARS-CoV  | -25.830 | -5.043  | -3.665  | -15.200 | -5.589  | -24.056 |\n| 2019-nCoV | -24.270 | -17.515 | -4.640  | -20.409 | -4.640  | -20.409 |",
+        "start_index": 20982,
+        "end_index": 21129
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "The above findings lead us to suspect that previous comparisons of individual noncovalent binding factors such as those carried out by Morse et. al. are somewhat biased towards the crystal structure of SARS-CoV\u2013ACE2 \u2013 which, as said, does not trivially represent binding interactions in physiological conditions",
+        "start_index": 21129,
+        "end_index": 21440
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Indeed, crystal structures constitute an important source of information on biochemically-significant structures and corresponding interactions; the information derived from them, however, should be critically evaluated and not be taken \u201ctoo literally\u201d. Bearing this in mind, we suspect that the interactions considered in this work favor SARS-CoV over 2019-nCoV in terms of their overall contribution to the virus\u2019 ACE2 affinity",
+        "start_index": 21440,
+        "end_index": 21871
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Nevertheless, additional crucial binding factors should certainly be considered for the purpose of arriving at unambiguous, practically-useful predictions of such affinities.",
+        "start_index": 21871,
+        "end_index": 22047
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Before ending this discussion, we would like to clarify that we do not at all wish to imply that realistic ACE2 affinities can be trivially reduced (in the statistical sense) to the four noncovalent interactions considered above",
+        "start_index": 22047,
+        "end_index": 22275
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". What we do mean to demonstrate is that (a) hypotheses regarding implications of particular amino acid substitutions on overall receptor affinity must be confirmed/refuted by means of appropriate information on relevant noncovalent binding factors, and that (b) in the absence of such information, classical molecular dynamics simulations, as well as insights drawn from \u201cchemical intuition\u201d, are prone to lead to erroneous conclusions",
+        "start_index": 22275,
+        "end_index": 22711
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Alas, claims according to which 2019-nCoV has, in fact, a higher affinity towards ACE2 compared to SARS-CoV should not be based upon shots in the dark and questionable expectations.",
+        "start_index": 22711,
+        "end_index": 22894
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Summary and Conclusions",
+        "start_index": 22894,
+        "end_index": 22917
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Based on our analysis of the noncovalent interaction space under consideration, we were able to draw the following conclusions:",
+        "start_index": 22917,
+        "end_index": 23044
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "- The sum of the strongest calculated noncovalent interactions is larger in SARS than in 2019. Thus, the former is, in principle, capable of stronger binding to ACE2 \u2013 contrary to former predictions.",
+        "start_index": 23044,
+        "end_index": 23243
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "- If only significantly interacting structures are considered (that is, if extremely weak interactions derived from the SARS-ACE2 crystal structure are removed from the investigated sample) then the average of all calculated noncovalent interaction energies and sum of average energies for interactions 1-4 are also larger in SARS-CoV than in 2019-nCoV (see scenarios V and VI in Table 3)",
+        "start_index": 23243,
+        "end_index": 23631
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". This indicates that earlier predictions (suggesting the opposite) are potentially biased towards crystal structure geometries \u2013 which might indeed be unrepresentative of bound structures in physiological conditions.",
+        "start_index": 23631,
+        "end_index": 23848
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "- The MMFF94 force-field is clearly inadequate for calculating realistic noncovalent energetics for the interactions at hand. Classical molecular mechanics force-fields of this sort are thus prone to produce unreliable results in cases where a small number of noncovalent factors are considered as biochemically-significant.",
+        "start_index": 23848,
+        "end_index": 24172
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "In addition, we suggest that the following considerations should generally be considered in future investigations of biochemically-significant noncovalent binding factors, and particularly in virus-receptor affinity estimates:",
+        "start_index": 24172,
+        "end_index": 24398
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "- Conformational flexibly for considered proteins in physiological conditions is cannot trivially be inferred from crystal-structure geometries (a fact that seems to have been overlooked in previous investigations); thus \u2013\n  - Virus-receptor crystal structures should not be regarded as an unquestionable source of structural information on the bound structure at hand.\n  - A biochemically-significant interaction space should be considered, such that practical conclusions may statistically be inferred from it.",
+        "start_index": 24398,
+        "end_index": 24910
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "- Hypotheses suggesting biochemically-significant implications of particular noncovalent binding factors on macromolecular binding events should be confirmed/refuted using appropriate means and techniques \u2013 such as electronic\nstructure methods proven reliable for the systems considered. In such manner, some (unfortunately) flawed inferences may indeed be averted.",
+        "start_index": 24910,
+        "end_index": 25275
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "As a final remark, we would like to express our hopes for a growing number of practical-problem-solving quantum chemical research attempts. Indeed, even technically unsophisticated applications of electronic structure methods can be used for providing surprisingly-useful answers to important, large-scale (bio)chemical questions \u2013 as long as the latter are phrased and examined carefully and critically.\n\n**Acknowledgments**",
+        "start_index": 25275,
+        "end_index": 25700
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Research at Weizmann was funded by the Israel Science Foundation and by the Estate of Emile Mimran (Weizmann), while computational resources and services were provided by Chemfarm (the Weizmann Institute Faculty of Chemistry HPC facility). NS acknowledges the Pearlman grant for student-initiated research (awarded by faculty of chemistry) as well as a doctoral fellowship from the Feinberg Graduate School at the Weizmann Institute",
+        "start_index": 25700,
+        "end_index": 26132
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Finally, special thanks go to Sarah Sylvetsky for kindly illustrating Figure 1 on a voluntary basis.",
+        "start_index": 26132,
+        "end_index": 26234
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "**Supporting information**\n\nAll geometries used in this work are provided in the ESI (in .xyz format), alongside a dedicated spreadsheet containing our raw and calculated data, and an example Gaussian input for the DFT calculations used here.\n\n**References**",
+        "start_index": 26234,
+        "end_index": 26492
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "1. F. Wu, S. Zhao, B. Yu, Y.-M. Chen, W. Wang, Z.-G. Song, Y. Hu, Z.-W. Tao, J.-H. Tian, Y.-Y. Pei, M.-L. Yuan, Y.-L. Zhang, F.-H. Dai, Y. Liu, Q.-M. Wang, J.-J. Zheng, L. Xu, E.C. Holmes, and Y",
+        "start_index": 26492,
+        "end_index": 26686
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ".-Z. Zhang, Nature 579, 265 (2020).",
+        "start_index": 26686,
+        "end_index": 26721
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "2. F. Li, Science (80-. ). 309, 1864 (2005).\n3. J.S. Morse, T. Lalonde, S. Xu, and W.R. Liu, ChemBioChem 21, 730 (2020).",
+        "start_index": 26721,
+        "end_index": 26841
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "4. N. Dong, X. Yang, L. Ye, K. Chen, E.W.-C. Chan, M. Yang, and S. Chen, BioRxiv 2020.01.20.913368 (2020).\n5. L. Du, Y. He, Y. Zhou, S. Liu, B.-J. Zheng, and S. Jiang, Nat. Rev. Microbiol. 7, 226 (2009).",
+        "start_index": 26841,
+        "end_index": 27044
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "6. S. Xia, Y. Zhu, M. Liu, Q. Lan, W. Xu, Y. Wu, T. Ying, S. Liu, Z. Shi, S. Jiang, and L. Lu, Cell. Mol. Immunol. 1 (2020).",
+        "start_index": 27044,
+        "end_index": 27168
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "7. J. \u0158ez\u00e1\u010d and P. Hobza, Chem. Rev. 116, 5038 (2016).\n\n8. P. Hobza, Acc. Chem. Res. 45, 663 (2012).\n\n9. L.A. Burns, M.S. Marshall, and C.D. Sherrill, J. Chem. Theory Comput. 10, 49 (2014).",
+        "start_index": 27168,
+        "end_index": 27357
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "10. M.J. Gillan, D. Alf\u00e8, P.J. Bygrave, C.R. Taylor, and F.R. Manby, J. Chem. Phys. 139, 114101 (2013).\n\n11. K.E. Riley and P. Hobza, Wiley Interdiscip. Rev. Comput. Mol. Sci. 1, 3 (2011).",
+        "start_index": 27357,
+        "end_index": 27545
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "12. N. Sylvetsky, M.K. Kesharwani, and J.M.L. Martin, J. Chem. Phys. 147, 134106 (2017).",
+        "start_index": 27545,
+        "end_index": 27633
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "13. N. Sylvetsky, M.K. Kesharwani, and J.M.L. Martin, in Proc. ICCMSE-2017, Thessaloniki, Greece, April 21-26, 2017 (2017), p. http://arxiv.org/abs/1705.01891.",
+        "start_index": 27633,
+        "end_index": 27792
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "14. D. Manna, M.K. Kesharwani, N. Sylvetsky, and J.M.L. Martin, J. Chem. Theory Comput. 13, 3136 (2017).\n\n15. M.K. Kesharwani, A. Karton, N. Sylvetsky, and J.M.L. Martin, Aust. J. Chem. EarlyView, 10.1071/CH17588 (2018).",
+        "start_index": 27792,
+        "end_index": 28012
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "16. M.K. Kesharwani, D. Manna, N. Sylvetsky, and J.M.L. Martin, J. Phys. Chem. A 122, 2184 (2018).\n\n17. B. Brauer, M.K. Kesharwani, S. Kozuch, and J.M.L. Martin, Phys. Chem. Chem. Phys. 18, 20905 (2016).",
+        "start_index": 28012,
+        "end_index": 28215
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "18. T. Blundell and S. Wood, Annu. Rev. Biochem. 51, 123 (1982).",
+        "start_index": 28215,
+        "end_index": 28279
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "19. M. Amaral, D.B. Kokh, J. Bomke, A. Wegener, H.P. Buchstaller, H.M. Eggenweiler, P. Matias, C. Sirrenberg, R.C. Wade, and M. Frech, Nat. Commun. 8, 2276 (2017).",
+        "start_index": 28279,
+        "end_index": 28442
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "20. C. Peng, Z. Zhu, Y. Shi, X. Wang, K. Mu, Y. Yang, X. Zhang, Z. Xu, and W. Zhu, (2020).\n\n21. J.T. Ortega, M.L. Serrano, F.H. Pujol, and H.R. Rangel, EXCLI J. 19, 410 (2020).",
+        "start_index": 28442,
+        "end_index": 28618
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "22. E.S. Brielle, D. Schneidman, and M. Linial, BioRxiv 2020.03.10.986398 (2020).\n\n23. T.A. Halgren, J. Comput. Chem. 17, 520 (1996).",
+        "start_index": 28618,
+        "end_index": 28751
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "24. F.L. Tobiason, R.W. Hemingway, and G. Vergoten, in Plant Polyphenols 2 (Springer US, Boston, MA, 1999), pp. 527\u2013544.\n\n25. \u00c1. J\u00e1sz, \u00c1. R\u00e1k, I. Ladj\u00e1nszki, and G. Cserey, J. Mol. Struct. 1188, 227 (2019).",
+        "start_index": 28751,
+        "end_index": 28957
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "26. Gaussian 16 Revision C.01, M. Frisch, G. Trucks, H. Schlegel, G. Scuseria, M. Robb, J. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. Hratchian, A. Izmaylov, J. Bloino, G",
+        "start_index": 28957,
+        "end_index": 29183
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Zheng, J. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. Montgomery, J. Peralta, F. Ogliaro, M. Bearpark, J. Heyd, E. Brothers, K",
+        "start_index": 29183,
+        "end_index": 29401
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": ". Kudin,",
+        "start_index": 29401,
+        "end_index": 29409
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "V. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, P. Rendell, J. Burant, S. Iyengar, \nJ. Tomasi, M. Cossi, N. Rega, J. Millam, M. Klene, J. Knox, J. Cross, V. Bakken, C. Adamo,",
+        "start_index": 29409,
+        "end_index": 29593
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "J. Jaramillo, R. Gomperts, R. Stratmann, O. Yazyev, A. Austin, R. Cammi, C. Pomelli, J. \nOchterski, R. Martin, K. Morokuma, V. Zakrzewski, G. Voth, P. Salvador, J. Dannenberg, S.",
+        "start_index": 29593,
+        "end_index": 29771
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "Dapprich, A. Daniels, O. Farkas, J. Foresman, J. Ortiz, J. Cioslowski, and D. Fox, Gaussian \nInc., Wallingford CT (2016).",
+        "start_index": 29771,
+        "end_index": 29892
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "27 A.D. Becke, J. Chem. Phys. 98, 5648 (1993).\n\n28 S. Grimme, J. Antony, S. Ehrlich, and H. Krieg, J. Chem. Phys. 132, 154104 (2010).\n\n29 F. Weigend and R. Ahlrichs, Phys. Chem. Chem. Phys. 7, 3297 (2005).",
+        "start_index": 29892,
+        "end_index": 30097
+    },
+    {
+        "document_name": "97.txt",
+        "chunk_text": "30 T.A. Halgren, J. Comput. Chem. 17, 490 (1996).\n\n31 M.D. Hanwell, D.E. Curtis, D.C. Lonie, T. Vandermeersch, E. Zurek, and G.R. \nHutchison, J. Cheminform. 4, 17 (2012).",
+        "start_index": 30097,
+        "end_index": 30267
+    }
+]

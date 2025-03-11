@@ -1,0 +1,1148 @@
+[
+    {
+        "document_name": "80.txt",
+        "chunk_text": "A Fast Neural Network for Isotopic Charge State Assignment\n\nJohn G. Pavek,\u00b9 Nicholas E. Bollis,\u00b2 Josiah Grimes,\u00b9 Michael R. Shortreed\u00b2, Lloyd M. Smith,\u00b2 and Michael T. Marty\u00b9,*\n\n\u00b9Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721, USA\n\u00b2Department of Chemistry, University of Wisconsin-Madison, Madison, WI 53706, USA",
+        "start_index": 0,
+        "end_index": 347
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "*mtmarty@arizona.edu\n\nAbstract",
+        "start_index": 347,
+        "end_index": 377
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Electrospray ionization (ESI) mass spectrometry is an essential technique for chemical analysis in a range of fields. In ESI, analytes can produce multiple charge states, which must be correctly assigned for identification. Existing approaches to charge state assignment can suffer from limited accuracy and/or poor speed. Here, we developed a fast deep learning neural network to perform isotopic cluster charge assignment",
+        "start_index": 377,
+        "end_index": 800
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The performance of our algorithm, IsoDec, was demonstrated on top-down proteomics spectra collected on diverse instruments. On these highly complex individual spectra, we found that IsoDec produces similar sequence coverage to existing software tools but with improved accuracy. Importantly, this performance enhancement stems directly from the neural network charge assignment approach, not simply improved scoring and filtering of isotopic clusters",
+        "start_index": 800,
+        "end_index": 1252
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Finally, when applied to large top-down proteomics data sets, we discovered that IsoDec produces proteoform-spectrum matches with a better combination of coverage and accuracy. Overall, IsoDec provides a compelling demonstration of the potential of lightweight neural networks in mass spectrometry data analysis for diverse applications.",
+        "start_index": 1252,
+        "end_index": 1591
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Introduction",
+        "start_index": 1591,
+        "end_index": 1603
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Electrospray ionization (ESI) mass spectrometry (MS) is an essential technique in chemical analysis, enabling a diverse range of environmental, industrial, and biological applications. One benefit of ESI is that it imparts multiple charges to analytes, which enables larger species to be analyzed on instruments with limited m/z ranges. Even on instruments with higher m/z ranges, having multiple charge states aids in fragmenting molecules for different applications.\\textsuperscript{1,2}",
+        "start_index": 1603,
+        "end_index": 2092
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "However, the presence of different charge states complicates data analysis because the charge must be assigned to determine the mass. For low resolution data, with resolved charge states but unresolved isotope distributions, multiple approaches have been developed to determine the charge from the spacing between adjacent charge states.\\textsuperscript{3\u201314} For unresolved data lacking resolved charge state distributions, charge detection-mass spectrometry can be used to directly measure the charge on individual ions",
+        "start_index": 2092,
+        "end_index": 2613
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".\\textsuperscript{15,16} For high resolution data with resolved isotope distributions, the spacing between adjacent isotopes is used for charge determination.",
+        "start_index": 2613,
+        "end_index": 2771
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Early work from Senko et al. used Fourier transforms and Patterson charge maps to assign the charge of isotope clusters.\\textsuperscript{17} Horn et al. incorporated this approach into a sequential algorithm that automatically assigned peaks and then removed assigned clusters from the spectrum.\\textsuperscript{18} This algorithm, THRASH, has been adapted in many commercial and non-commercial offspring",
+        "start_index": 2771,
+        "end_index": 3175
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".\\textsuperscript{19,20} For example, Hardkl\u00f6r used a similar overall approach but developed a simpler algorithm, called QuickCharge, based on inverse m/z differences to speed up charge assignment.\\textsuperscript{21}",
+        "start_index": 3175,
+        "end_index": 3392
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Another approach to charge assignment is with pattern matching. For example, ProMex scans theoretical isotopic envelopes for each possible charge across a spectrum to identify and assign isotopic envelopes in m/z space.\\textsuperscript{22,23} Other tools use a targeted approach and generate a set of theoretical isotope distributions for predicted fragments, which are then compared against the data",
+        "start_index": 3392,
+        "end_index": 3792
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".\\textsuperscript{24,25} In contrast, rather than assigning a charge to isotope clusters, FLASHDeconv implements log-transformation and pattern scanning to identify groups of isotope peaks with the same mass but different charges.\\textsuperscript{26}",
+        "start_index": 3792,
+        "end_index": 4042
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "One common problem with tools for isotopic charge state assignment has been low accuracy. Tabb et al. found that different charge assignment algorithms gave significant heterogeneity in top-down proteomics searches.\\textsuperscript{27} Examining manually annotated data with different algorithms and settings, McIlwain et al. found that there were significant tradeoffs between precision and recall, and some peaks were never assigned correctly",
+        "start_index": 4042,
+        "end_index": 4486
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".\\textsuperscript{28} These studies demonstrate the need for new approaches for charge assignment in complex mass spectrometry data.",
+        "start_index": 4486,
+        "end_index": 4618
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To address these challenges, we developed a deep learning neural network model for charge state assignment. Machine learning (ML) and artificial intelligence (AI) approaches have been used in MS data analysis for a range of applications.\\textsuperscript{29,30} For example, AI/ML has been used in imaging MS segmentation\\textsuperscript{30\u201332} and in peptide fragmentation prediction",
+        "start_index": 4618,
+        "end_index": 5001
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".\\textsuperscript{33} It has also been used for isotope cluster grouping\\textsuperscript{34,35} and isotope envelope scoring.\\textsuperscript{36,37} However, we are not aware of any approaches using AI/ML for charge state assignment.",
+        "start_index": 5001,
+        "end_index": 5234
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Using publicly available top-down proteomics (TDP) data sets, we assembled a training set of over 6 million assigned isotope clusters and trained a simple neural network to assign the charge of these clusters. We have incorporated our charge state assignment neural network into a broader workflow to analyze top-down proteomics data. Here, we demonstrate that our neural network approach matches the coverage of existing tools but produces fewer unassigned fragments and greater speed per feature identified.\nExperimental Section\n\nTraining and Test Data",
+        "start_index": 5234,
+        "end_index": 5788
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To enable our deep learning approach, we downloaded TDP data files from MassIVE and the Proteomics Data Exchange. Full details on the training data used are provided in the Supplemental Methods (SM1). Additional data files were downloaded to test the full workflow and were not included in either the training or testing of the neural network",
+        "start_index": 5788,
+        "end_index": 6130
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". For these workflow tests, we first selected three averaged MS2 spectra from top-down proteomics experiments: ultraviolet photodissociation (UVPD)-fragmented carbonic anhydrase II on an Orbitrap Fusion Lumos, electron-transfer dissociation (ETD)-fragmented carbonic anhydrase II on a 21 T FT-ICR, and electron-capture dissociation (ECD)-fragmented apomyoglobin on an Agilent 6560c",
+        "start_index": 6130,
+        "end_index": 6511
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Q-ToF",
+        "start_index": 6511,
+        "end_index": 6516
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". These spectra were selected to provide a rich dataset of top-down fragments that could be compared between instruments and fragmentation methods. Beyond these isolated spectra, we also selected a set of six replicate E. coli top-down LC-MS/MS injections to assess speed, reproducibility, and performance of IsoDec in the context of a top-down proteomics database search with data with multiple mixed MS1 and MS2 scans.",
+        "start_index": 6516,
+        "end_index": 6936
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Computational Overview\n\nThere were four key steps in the development of IsoDec. First, we processed the training data into collections of centroids that represented isotopic clusters of known charge. Second, we transformed each of these small, isolated clusters of data using a mass defect approach into an encoded matrix. Third, we trained the neural network on the encoded training matrices. Fourth, we incorporated the neural network algorithm into a larger workflow to pick peaks, assign charges, and export results.",
+        "start_index": 6936,
+        "end_index": 7456
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Processing Training Data into Discrete Isotope Clusters",
+        "start_index": 7456,
+        "end_index": 7511
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To train the neural network, we broke the data down into a simple classification problem, where each isotope cluster would be classified as a discrete charge from 1 to 49. Although not implemented yet, the classification of charge 0 has been reserved for pure noise, yielding a classification vector of length 50. It is possible to extend this limit to higher charge states, but we found that it was hard to get examples of charges above 30",
+        "start_index": 7511,
+        "end_index": 7951
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". There were several charge states above 40 that had very few examples in our training data, with no representatives for z=46 (see Figure S1). It is possible to synthesize higher charge states for training, and preliminary data indicates this is highly effective at improving model performance for charge 30 to 50 (as described below). However, the initial model presented here is primarily limited to below 30.",
+        "start_index": 7951,
+        "end_index": 8362
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To assign charge states prior to training, we used a brute force assignment strategy, as described in the Supplemental Methods (SM2). After charge states had been assigned, 90% of the clusters were kept as training data, and 10% were randomly separated into testing data. The result was a large set of narrow, centroided isotopic clusters surrounding charge states of known charge",
+        "start_index": 8362,
+        "end_index": 8742
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The charge distribution was heavily skewed toward lower charge states, especially 1, as shown in Figure S1. In the final data collection, we had over 6.1 million assigned isotope clusters in the training data and over 680,000 clusters in the test data.",
+        "start_index": 8742,
+        "end_index": 8996
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Mass Defect Encoding",
+        "start_index": 8996,
+        "end_index": 9016
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "After creating collections of assigned isotope clusters, we next encoded the data using mass defect encoding. The premise of our strategy is that an isotope cluster should have a uniform m/z",
+        "start_index": 9016,
+        "end_index": 9206
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "For peaks that have a uniform spacing, they should have the same mass defect relative to a repeating unit of $1.0033/z$. Here, $1.0033$ is used rather than 1 because it is the average isotope spacing, corresponding to roughly the mass difference between $^{13}\\text{C}$ and $^{12}\\text{C}$",
+        "start_index": 9206,
+        "end_index": 9495
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Another way to describe this effect is that the phase of each cluster is consistent with respect to a wave of frequency $1.0033/z$ (Figure 1A and D). To capture this spacing, we summed the intensity from peaks with similar mass defect/phase values.",
+        "start_index": 9495,
+        "end_index": 9745
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Figure 1. Graphical representation of the mass defect encoding scheme. (A) A wave with a frequency of $1.0033/1$, separated into four phase bins by color ($\\text{blue}$, $\\text{orange}$, $\\text{green}$, and $\\text{purple}$), is shown under mock data containing a +1 isotope distribution",
+        "start_index": 9745,
+        "end_index": 10031
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Note that each of the isotope peaks fall in the $\\text{green}$ bin, showing that they are in phase with the plotted wave. (B) The $z=1$ row of the full encoding vector, as well as its position in the full encoded matrix ($\\text{yellow} = \\text{most intense}, \\text{purple} = \\text{least intense}$). (C) The output charge prediction vector, with a maximum at 1",
+        "start_index": 10031,
+        "end_index": 10392
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The same process for a +7 isotope distribution is shown in D\u2013F. Notice that there are hotspots in the encoded matrix corresponding to +7, but also +14, +21, and subsequent harmonic multiples of 7.",
+        "start_index": 10392,
+        "end_index": 10590
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To calculate the phase for each peak at each $z$, we first transformed the experimental $m/z$ by multiplying by $z/1.0033$. In this space, each isotope peak is exactly 1 apart when $z$ matches the true charge state. To calculate the phase, we simply extract the decimal part of the rescaled $m/z$ by taking the value modulo 1 to yield a phase between 0 and 1",
+        "start_index": 10590,
+        "end_index": 10948
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Because $m/z$ is continuously sampled, we need to bin these phase values. The bin was calculated by multiplying the phase by the total number of bins and taking the floor of the value.",
+        "start_index": 10948,
+        "end_index": 11134
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "We tested several binning resolutions. Surprisingly, very coarse binning worked just as well as finer binning. After training, using 8 bins yielded similar accuracy to 16 bins. Using 4 bins was slightly worse than 8 bins, but the difference was very small, less than 0.1% in accuracy. Bin sizes of 2 or 3 worked but had more noticeable losses in accuracy",
+        "start_index": 11134,
+        "end_index": 11488
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Thus, we chose to train the model at both a 4- and 8-bin size resolution, where the resolution of 4 bins is slightly faster, and 8 bins is slightly more accurate.",
+        "start_index": 11488,
+        "end_index": 11652
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "After calculating the bin number for each peak at each possible charge state, we added the intensity into a \\(50 \\times N\\) matrix (Figure 1B and E), where \\(N\\) is the total number of bins. Each row represents a different charge state from 1\u201350, used in the calculations above. Thus, the phase must be calculated for each m/z data point and each possible charge state, but the relatively simple math operations make this process fast",
+        "start_index": 11652,
+        "end_index": 12086
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". After summing all points into the matrix, there are strong intensities in the matrix for rows where the charge state is equal to the correct charge state or a higher harmonic.",
+        "start_index": 12086,
+        "end_index": 12263
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Note, it is not possible to reverse the operation of phase encoding. Information on both the absolute m/z and each peak intensity is lost in the process. Thus, this encoding is likely not useful for other applications like segmenting which peaks belong to a cluster. However, we found that this phase/mass defect encoding was both fast and informative for charge state assignments, yielding superior accuracy to other encoding approaches tested.\n\nTraining the Neural Network",
+        "start_index": 12263,
+        "end_index": 12737
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "After converting all the centroid clusters into encoded matrices, the next step was to train the neural network using PyTorch. First, data was loaded and grouped into batches. Although slower, we found that a batch size of 32 for training data was best. Training was performed on the University of Arizona Ocelote High Performance Computer (HPC) system using a single Nvidia P100 graphics processing unit (GPU)",
+        "start_index": 12737,
+        "end_index": 13147
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Training took under an hour on the HPC, but it could be done overnight on a laptop with a GPU.",
+        "start_index": 13147,
+        "end_index": 13243
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The neural network was set up as a simple two-layer model. First, the \\(50 \\times N\\) encoding matrix (Figure 1B and E) was flattened into the input vector (Figure 2A). This was then passed through a linear neural network (Figure 2, Operation 1) to a hidden layer vector of the same length, \\(50 \\times N\\)",
+        "start_index": 13243,
+        "end_index": 13549
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". A rectified linear unit (ReLU) operation was then performed on the hidden layer, which simply sets the values below 0 to 0 (Figure 2D). Finally, a second linear network (Figure 2, Operation 2) was used with an output dimension of 50. The location of the highest value in the output vector (Figure 2G) was returned as the charge state.",
+        "start_index": 13549,
+        "end_index": 13885
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The advantage of this simple model is its speed and simplicity. By using only linear transformations, it was easy to translate the model into C with simple matrix multiplication operations. The 8-bin model had 180,450 parameters, and the 4-bin model had 50,250 parameters. More complex linear models with more depth and larger hidden layers were tested, but these did not significantly improve accuracy. Other activation functions besides ReLU were also tested, but ReLU was slightly more accurate and faster",
+        "start_index": 13885,
+        "end_index": 14393
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".",
+        "start_index": 14393,
+        "end_index": 14394
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The model was trained for 10 epochs (iterations) over the full set of training data. The loss function was set to cross entropy loss, and the SGD optimizer was used with an initial learning rate of 0.1 and a scheduler that stepped down by a factor of 0.95 each step. After each epoch, the test data was evaluated for accuracy.",
+        "start_index": 14394,
+        "end_index": 14720
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To simulate crowded spectra, we developed an approach to synthetically mix two known clusters. First, a primary and secondary cluster were chosen at random from the full data set. The m/z of the secondary distribution was shifted to be within the same encoding window as the primary cluster. The intensity of the secondary distribution was normalized randomly to between 5% and 20% of the primary distribution, so that a clear charge state assignment was still present",
+        "start_index": 14720,
+        "end_index": 15188
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". After testing different amounts of mixed data, we trained against data with 40% synthetic double mixes. Additional alternative training strategies were tested that did not improve the model performance, and they are briefly described in the Supplemental Methods (SM3).",
+        "start_index": 15188,
+        "end_index": 15458
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The final model had an accuracy of 99.2% for both the 8-bin and 4-bin versions. After manually examining the mis-assigned data, most of these 0.8% were clusters that were mis-assigned in the original brute force assignment, often with mixed up 1 vs. 2 charge data",
+        "start_index": 15458,
+        "end_index": 15721
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Using stricter criteria on the initial charge assignment could help improve this (a strategy we plan on testing in the future), but we suspect that removing lower-quality data that is correctly assigned might make the model less robust.",
+        "start_index": 15721,
+        "end_index": 15959
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "![Schematic of the neural net](image)",
+        "start_index": 15959,
+        "end_index": 15996
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "**Figure 2.** Schematic of the neural network operations. The matrices and vectors are visualized from the actual model parameters and an example input: A, input vector; B, layer 1 weights; C, layer 1 bias; D, hidden layer 1 after ReLU; E, layer 2 weights (transposed for visualization purposes); F, layer 2 bias; G, output charge prediction vector, the maximum position of which is the assigned charge of +7",
+        "start_index": 15996,
+        "end_index": 16404
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".",
+        "start_index": 16404,
+        "end_index": 16405
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Developing a Workflow for Spectrum Assignment",
+        "start_index": 16405,
+        "end_index": 16450
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To integrate this charge assignment neural network into a workflow that can assign an entire spectrum, we use an approach similar to THRASH and related algorithms.\\(^\\text{18,20,43,44}\\) First, we centroided the data. Then, we selected clusters from the data. Isolated regions were selected around each cluster, similar to the training data. These isotope clusters were then encoded, and the charge state was predicted by the neural network algorithm",
+        "start_index": 16450,
+        "end_index": 16900
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". We allowed two possible charge states to be returned from the neural network in cases where the second highest position in the prediction vector is within 95% of the maximum position. A full description of parameters is provided in Table S1.",
+        "start_index": 16900,
+        "end_index": 17143
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "After predicting the charge state for a cluster (Figure 3, step 1), the next step is to check that the predicted charge matches the data. First, a theoretical isotope distribution for the predicted charge state is generated using a Fourier transform-based algorithm\\(^\\text{45}\\) and an averagine model.\\(^\\text{43}\\) Note, the averagine model could present problems for non-protein analytes, as discussed below",
+        "start_index": 17143,
+        "end_index": 17554
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The predicted m/z peaks are then matched against the experimental data. The cosine similarity score is calculated for the match. If the cosine similar score is above 70% and meets other criteria, the peak is considered a match. However, this cutoff can be adjusted by the user.",
+        "start_index": 17554,
+        "end_index": 17833
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Figure 3. Schematic outline of the full IsoDec workflow. (Step 1) Prospective isotope clusters are selected, encoded, and the charge is predicted. (Step 2) A theoretical isotope distribution is generated and aligned to the data. The optimal shift of the theoretical distribution relative to the experimental data is determined by cosine similarity score. (Step 3) Peaks matched to the theoretical distribution at the optimal shift from step 2 are removed from the spectrum",
+        "start_index": 17833,
+        "end_index": 18305
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The process, steps 1 through 3, is then repeated on the spectrum with matched peaks removed. This loop is repeated until the maximum number of knockdown rounds has been reached, no peaks were accepted, or insufficient peaks remain.",
+        "start_index": 18305,
+        "end_index": 18538
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To fix any mis-monoisotopic alignment issues, the spectrum is shifted, usually by a range of up to \u00b13 isotopes, and the score for each of those shifts is calculated (Figure 3, step 2). The shift with the best score is used. If multiple shifts meet the cosine similarity score threshold, then these shifts are also returned as possible monoisotopic masses (see Supplemental Discussion SD1).",
+        "start_index": 18538,
+        "end_index": 18927
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "For each correct peak, the key information about the scan, such as monoisotopic mass, charge, and isotope distribution are stored in a data structure. After performing the first cycle of charge state assignments, the matched peaks are removed from the spectrum, and the process is repeated. After 5\u201310 rounds of assignments and removals, the algorithm moves on to the next scan",
+        "start_index": 18927,
+        "end_index": 19304
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". After completing all scans in the data, the matched clusters can be output in a variety of formats, such as MsAlign.\\textsuperscript{46,47} Note, unlike other machine learning algorithms for feature identification,\\textsuperscript{34,48,49} IsoDec does not require the LC dimension. Currently, each scan is processed independently.",
+        "start_index": 19304,
+        "end_index": 19637
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Implementation and Incorporation into Existing Tools",
+        "start_index": 19637,
+        "end_index": 19689
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "All code and model parameters for IsoDec are shared open-source with a modified BSD 3-clause license at https://github.com/michaelmarty/UniDec. IsoDec was initially developed and trained in Python using PyTorch,\\textsuperscript{42} but a shared library in C was also developed to speed up execution and simplify distribution. A GUI for deconvolution has been included in the UniDec...",
+        "start_index": 19689,
+        "end_index": 20073
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "software suite (Figure S2), and IsoDec has also been incorporated into MetaMorpheus for proteomics searches (https://github.com/smith-chem-wisc/MetaMorpheus). Additional information on the computational implementation is provided in the Supporting Methods (SM4).",
+        "start_index": 20073,
+        "end_index": 20335
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Assessing Performance\n\nTo characterize IsoDec, we first evaluated sequence coverage and fragments matched for the 3 TDP averaged spectra from different instrument types. These metrics were calculated using an in-house Python script, with results benchmarked against ProSight Lite to ensure accuracy. Additional evaluation was performed by calculating precision-recall curves. Detailed methods for both types of evaluation are provided in the Supplemental Methods (SM5, SM6, and SM7).",
+        "start_index": 20335,
+        "end_index": 20818
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Results from full LC-MS/MS files were searched using a new version of MetaMorpheus in which importing MsAlign files had been enabled, as described in the Supplemental Methods (SM8). For each of the six TDP files, MS2 MsAlign files were generated using IsoDec (both 4- and 8-bin models), FLASHDeconv, and TopFD. MsAlign files from each tool were searched separately but using the same search parameters",
+        "start_index": 20818,
+        "end_index": 21219
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Comparison of IsoDec to the native deconvolution implemented in MetaMorpheus was also performed (Figure S3, Supplemental Discussion SD2). Details on how proteoform-spectrum matches (PrSMs) were calculated and compared are provided in the Supplemental Methods (SM9). Additional Supplemental Methods detail assessing deconvolution quality (SM10), performance on synthetic spectra (SM11), and statistical methods (SM12).",
+        "start_index": 21219,
+        "end_index": 21638
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Results and Discussion\n\nEvaluating Performance on Isolated Spectra",
+        "start_index": 21638,
+        "end_index": 21704
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "We initially benchmarked the performance of IsoDec on a set of complex intact protein fragmentation spectra. These averaged spectra were selected because of their complexity and because they covered three different common mass analyzers (Orbitrap, FT-ICR, and ToF) and fragmentation types (UVPD, ETD, and ECD). Different instrument vendors, mass analyzers, and fragmentation strategies produce data with different characteristics, and it was important to ensure that model performance was consistent across different platforms",
+        "start_index": 21704,
+        "end_index": 22230
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".",
+        "start_index": 22230,
+        "end_index": 22231
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "First, we determined the sequence coverage and percentage of fragments explained for each of the three selected spectra. To compare the performance of IsoDec against existing tools, we benchmarked the results of IsoDec against those of TopFD and FLASHDeconv. IsoDec and TopFD produced the highest sequence coverage on all three spectra (Figure 4A). The two tools performed similarly, yielding between 63\u201377% sequence coverage across the three spectra",
+        "start_index": 22231,
+        "end_index": 22681
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". FLASHDeconv achieved from 41\u201355% coverage.",
+        "start_index": 22681,
+        "end_index": 22725
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "In contrast, IsoDec and FLASHDeconv had the highest percentage of fragments matched. These two tools produced between 40\u201360% fragments matched, while TopFD yielded between 25\u201340% (Figure 4B). Interestingly, the 8-bin and the 4-bin model of IsoDec performed very similarly on these metrics",
+        "start_index": 22725,
+        "end_index": 23013
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Overall, IsoDec exhibited a balanced combination of sequence coverage and fragments matched, demonstrating its ability to accurately assign isotopic envelopes and do so without loss of sensitivity. Importantly, IsoDec achieves this balance across the different fragmentation types and mass analyzers represented in these spectra.",
+        "start_index": 23013,
+        "end_index": 23344
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Figure 4. Summary of single spectrum analysis results. Sequence coverage (A) and percentage of fragments matched (B) produced by each software tool on the three selected spectra. No error bars are shown because each analysis was performed on a single averaged spectrum of each type.",
+        "start_index": 23344,
+        "end_index": 23626
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "One important question is whether this improvement in accuracy came from the neural network charge prediction or from the filtering that was performed after assignment. To test this, we implemented THRASH-like charge assignment in Python that replaced only the neural network piece of the IsoDec workflow and repeated the same evaluation discussed above. THRASH uses a combination of Fourier and Patterson charge maps to assign charges to isotope clusters, and it is the basis for TopFD",
+        "start_index": 23626,
+        "end_index": 24112
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Although the fragments matched was consistently slightly lower, the sequence coverage and percentage of fragments matched were largely similar when replacing the neural network with Fourier/Patterson charge assignment (Figure S4).",
+        "start_index": 24112,
+        "end_index": 24344
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "However, sequence coverage and percentage of fragments matched are imperfect metrics because not all true isotope clusters are from terminal fragments of the protein. There can be true isotope clusters from contaminants or non-terminal fragments that are real but do not match a theoretical terminal fragment. To address this limitation, we performed manual annotation of the selected spectra so that a precision-recall curve, as presented by McIlwain et al., could be constructed to more thoroughly investigate performance.",
+        "start_index": 24344,
+        "end_index": 24868
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "A clear difference in performance between neural network models and THRASH charge assignment can be observed in the precision-recall curve (Figure 5D). IsoDec with the 8- and 4-bin models had optimized $F_1$ values of 0.69 and 0.67, respectively. Under optimal parameters the 8-bin model produced precision and recall values of 0.77 and 0.63, and the 4-bin model yielded 0",
+        "start_index": 24868,
+        "end_index": 25240
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".74 and 0.60. Here, it is clearer that the 8-bin model outperforms the 4-bin model. Both outperform IsoDec with THRASH-like charge prediction, which had an optimal $F_1$ value of 0.64, with a precision of 0.72 and a recall of 0.58. These results show that there is an advantage to using the neural network charge assignment over existing strategies.",
+        "start_index": 25240,
+        "end_index": 25589
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "It is encouraging that the curve for IsoDec-THRASH passes very close to the point for TopFD, which also uses a THRASH-based approach. This agreement indicates that our implementation of THRASH performs similarly to existing implementations in TopFD. FLASHDeconv is more stringent than TopFD, as shown by the higher precision but lower recall.",
+        "start_index": 25589,
+        "end_index": 25931
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Interestingly, there is a clear recall ceiling for IsoDec, likely because the charge for these clusters is never correctly assigned (see Figure 5C), no matter how loose the filtering parameters are. In the case of the cluster in Figure 5C, the distribution to the left is selected first, and multiple",
+        "start_index": 25931,
+        "end_index": 26231
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "shared isotope peaks are knocked down. The knockdown of these shared isotope peaks results in incorrect charge assignment for the distribution highlighted in Figure 5C. Similar recall ceilings were previously observed for THRASH-based algorithms. To achieve higher recall, new strategies to handle cases where the charge is incorrectly assigned are required. Additional details on limitations and future directions are provided below.",
+        "start_index": 26231,
+        "end_index": 26665
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "**Figure 5.** Precision (the percentage of identified clusters that were manually annotated) versus Recall (the percentage of manually annotated clusters that were identified) curve for IsoDec with different charge assignment methods as well as single points for FLASHDeconv and TopFD with default parameters. Above the curve are three isotope clusters that are vertically aligned approximately with where they are first matched on the precision-recall curve. (A) is matched at a precision and recall of 1 and 0",
+        "start_index": 26665,
+        "end_index": 27176
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".027. (B) is first matched at precision and recall of 0.895 and 0.45. (C) has its charge assigned incorrectly by IsoDec, so it is never matched.",
+        "start_index": 27176,
+        "end_index": 27320
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Evaluating Performance on Large Top-Down Data Sets",
+        "start_index": 27320,
+        "end_index": 27370
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Next, we tested how IsoDec performed on large TDP LC-MS/MS data sets consisting of thousands of individual scans and millions of features. We selected a set of six files from replicate injections of intact *E. coli* lysate and benchmarked the performance of IsoDec against FLASHDeconv and TopFD. In addition to sensitivity and accuracy, speed also becomes a concern when working with large files, so we first compared the total time to deconvolve the selected files",
+        "start_index": 27370,
+        "end_index": 27835
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Here, IsoDec performed similarly to FLASHDeconv and significantly faster than TopFD (Figure 6A). We also compared the time per cluster to account for differences in depth of coverage (Figure 6B). Although FLASHDeconv was slightly faster overall, IsoDec has a faster rate per-cluster.",
+        "start_index": 27835,
+        "end_index": 28120
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "After comparing speed, we next compared deconvolution reproducibility. The six selected files are replicate injections under the same chromatographic conditions, so the same species should be found at approximately the same retention time in each file. Features were constructed by aggregating clusters with similar masses from nearby scans, as described in the Supplemental Methods (SM10)",
+        "start_index": 28120,
+        "end_index": 28509
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Each possible pairwise combination of the six files was compared from the same deconvolution algorithm, and we calculated the percentage of features that agreed between the files. Here, IsoDec slightly outperformed FLASHDeconv and TopFD, matching an average of",
+        "start_index": 28509,
+        "end_index": 28771
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "over 75% of features (Figure S5 and Supplemental Discussion SD3). However, all algorithms performed similarly with respect to feature intensity, with over 95% of total feature intensity matched between replicate injections. These data suggest all algorithms perform well on abundant features, and the differences lie in the less abundant proteoforms.",
+        "start_index": 28771,
+        "end_index": 29121
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "We then investigated how IsoDec performs in the context of a proteomics database search. We found that each tool produced a similar number of proteoform-spectrum matches (PrSMs; Figure S6A). A PrSM refers to a match of the combination of an experimental precursor mass and fragmentation spectrum to their synthetic or catalogued counterparts from a database or spectral library",
+        "start_index": 29121,
+        "end_index": 29498
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". The number of unambiguous PrSMs was statistically similar between tools, but FLD and TopFD produced higher numbers of ambiguous PrSMs.",
+        "start_index": 29498,
+        "end_index": 29634
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "We next compared the scans that yielded unambiguous PrSMs from each deconvolution tool. In total, 2160 scans across the six files yielded a PrSM with every algorithm (Figure S6C)",
+        "start_index": 29634,
+        "end_index": 29812
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". From these unambiguous PrSMs, we compared the proteoforms identified using a strict definition of matching that required the same charge in the same scan on the same proteoform, defined as having the same sequence with the same set of post-translational modifications (PTMs) on the same specific residues",
+        "start_index": 29812,
+        "end_index": 30118
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Of the 2160 scans that produced PrSMs in all three searches, 1754 (81%) produced the same proteoform identification (Figure 5C), showing remarkable agreement. If we allowed less strict matching criteria where the PTMs could vary, 2015 (93%) common PrSMs were found (Figure S6D)",
+        "start_index": 30118,
+        "end_index": 30397
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". However, as previously observed, there is still significant variability from each deconvolution tool because only about half of the unique scans that yielded PrSMs in a particular search were shared between all three (Figure S6C).",
+        "start_index": 30397,
+        "end_index": 30629
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "To further characterize the performance of the three algorithms in a search context, we dug deeper into the cases where all three tools (IsoDec 8-bin, FLASHDeconv, and TopFD) produced the same proteoform identification. The sequence coverage and percentage of fragments matched were computed for each matched PrSM (see SM9), and the difference in these two\n\n---",
+        "start_index": 30629,
+        "end_index": 30990
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "**Figure 6.** Summary of results of top-down file analysis. (A) The time required to deconvolve the set of six files and (B) the time per assigned cluster across all six files for each algorithm. No error bars are included in A of B because these metrics report the summed time across all six data files. (C) Overlap of unambiguous PrSMs between the three different deconvolution methods",
+        "start_index": 30990,
+        "end_index": 31377
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". (D) Average difference in sequence coverage on 1754 identical PrSMs between IsoDec-8bit and FLASHDeconv (green) or TopFD (purple), error bars represent 95% confidence intervals (N=1754). TFD, TopFD; FLD, FLASHDeconv; ID-4, IsoDec-4bit; ID-8, IsoDec-8bit.",
+        "start_index": 31377,
+        "end_index": 31633
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "---",
+        "start_index": 31633,
+        "end_index": 31636
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "https://doi.org/10.26434/chemrxiv-2025-f2p26 ORCID: https://orcid.org/0000-0001-8115-1772 Content not peer-reviewed by ChemRxiv. **License:** CC BY 4.0",
+        "start_index": 31636,
+        "end_index": 31787
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "parameters between IsoDec 8-bin and both FLASHDeconv and TopFD were calculated. IsoDec produced approximately 10% greater sequence coverage than FLASHDeconv and TopFD (Figure 6D), but FLASHDeconv had a higher percentage of fragments matched (Figure S6B)",
+        "start_index": 31787,
+        "end_index": 32040
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Manually inspecting three representative MS2 spectra revealed that this decrease in fragments matched with IsoDec is likely due to the detection of more low-abundance clusters that are real but do not correspond to a terminal fragment that would be matched in a traditional search",
+        "start_index": 32040,
+        "end_index": 32322
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Overall, as observed with the individual spectra, TopFD tends to assign more clusters with lower accuracy, FLASHDeconv tends to assign fewer clusters with higher accuracy, and IsoDec tends to fall in the middle, balancing depth of coverage with accuracy of assignment.",
+        "start_index": 32322,
+        "end_index": 32592
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Limitations and Future Directions",
+        "start_index": 32592,
+        "end_index": 32625
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "IsoDec and its neural network approach to charge assignment show promise in addressing some of the challenges with high-resolution deconvolution. However, this initial version has several limitations. The first limitation is the inability to reliably assign high (>30) charge states (Figure S7A), which stems from the underrepresentation of high charge states in the training data (Figure S1)",
+        "start_index": 32625,
+        "end_index": 33017
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". In preliminary testing, balancing the charge states present in the training data with addition of synthetic high-charge clusters dramatically improved accuracy on high charge states (Figure S7B). Further testing and optimization are needed to examine how this new training strategy impacts overall model performance, but this initial result is encouraging.",
+        "start_index": 33017,
+        "end_index": 33375
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The workflow also struggles with overlapping isotope distributions, particularly in cases where there is harmonic overlap or distributions of similar intensity (Figure S8A). In some cases (Figure S8A), the charge state is correctly assigned to a minor distribution, but it is not accepted as a match because another distribution has a higher apex intensity",
+        "start_index": 33375,
+        "end_index": 33731
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Other problems occur when shared peaks are knocked down on earlier versions of the algorithm, and what is left behind cannot be assigned (Figures 5C and S8B). Future work is exploring ways to limit the focus on the encoding to improve charge assignment when multiple peaks are present and ways to improve peak matching, fitting, and removal after assignment.",
+        "start_index": 33731,
+        "end_index": 34091
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Finally, we have largely focused on protein analysis in our initial development of IsoDec. We expect that other types of molecules, including DNA, RNA, and polymers, should perform similarly with the neural network charge assignment. However, adjustments may be needed in isotope distribution prediction to score peaks properly after charge assignment. Future work will implement alternative isotope distribution models beyond the averagine used here.53\n\nConclusion",
+        "start_index": 34091,
+        "end_index": 34556
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Here, we describe a neural network for isotopic cluster charge assignment using a unique mass defect encoding method. The performance of the new workflow, IsoDec, was compared on protein fragmentation spectra from different instruments and on large top-down proteomics LC-MS/MS files. Overall, IsoDec produced similar sensitivity to existing tools but with improved accuracy and speed. TopFD tended to have a higher number of clusters assigned, but a smaller percentage of those clusters matched protein fragments",
+        "start_index": 34556,
+        "end_index": 35069
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". In contrast, FLASHDeconv tended to have a higher percentage of clusters matched but at the cost of assigning fewer total clusters. Importantly, the improvement in performance with IsoDec is due to the neural network strategy for charge assignment, not simply stricter filtering of assigned clusters. Overall, IsoDec presents",
+        "start_index": 35069,
+        "end_index": 35395
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "a novel strategy for encoding raw mass spectrometry data for AI applications and reveals the potential for lightweight and specialized AI to help automate analysis of challenging data.",
+        "start_index": 35395,
+        "end_index": 35579
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Acknowledgements",
+        "start_index": 35579,
+        "end_index": 35595
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "The authors thank the community for public sharing of data that was used as both training and testing data, especially from the labs of Liangliang Sun, Julia Chamot-Rooke, Oliver Kohlbacher, Jan Enghild, Lissa Anderson, Jennifer Broadbelt, and Neil Kelleher. This work was funded by the National Science Foundation (CHE-2403561 to M.T.M.) and the National Institutes of Health (R01GM147653 to M.R",
+        "start_index": 35595,
+        "end_index": 35991
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".S and T32GM135066 to N.E.B). This work used High Performance Computing (HPC) resources supported by the University of Arizona TRIF, UITS, and Research, Innovation, and Impact (RII) and maintained by the UArizona Research Technologies department.",
+        "start_index": 35991,
+        "end_index": 36237
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "References",
+        "start_index": 36237,
+        "end_index": 36247
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(1) Chanthamontri, C.; Liu, J.; McLuckey, S. A. Charge State Dependent Fragmentation of Gaseous \u03b1-Synuclein Cations via Ion Trap and Beam-Type Collisional Activation. Int. J. Mass Spectrom. 2009, 283 (1), 9\u201316. https://doi.org/10.1016/j.ijms.2008.12.007.",
+        "start_index": 36247,
+        "end_index": 36501
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(2) Reid, G. E.; Wu, J.; Chrisman, P. A.; Wells, J. M.; McLuckey, S. A. Charge-State-Dependent Sequence Analysis of Protonated Ubiquitin Ions via Ion Trap Tandem Mass Spectrometry. Anal. Chem. 2001, 73 (14), 3274\u20133281. https://doi.org/10.1021/ac0101095.",
+        "start_index": 36501,
+        "end_index": 36754
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(3) Ferrige, A. G.; Seddon, M. J.; Green, B. N.; Jarvis, S. A.; Skilling, J.; Staunton, J. Disentangling Electrospray Spectra with Maximum Entropy. Rapid Commun. Mass Spectrom. 1992, 6 (11), 707\u2013711. https://doi.org/10.1002/rcm.1290061115.",
+        "start_index": 36754,
+        "end_index": 36993
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(4) Ferrige, A. G.; Seddon, M. J.; Jarvis, S.; Skilling, J.; Welch, J. The Application of Maxent to Electrospray Mass Spectrometry. In Maximum Entropy and Bayesian Methods: Seattle, 1991; Smith, C. R., Erickson, G. J., Neudorfer, P. O., Eds.; Springer Netherlands: Dordrecht, 1992; pp 327\u2013335",
+        "start_index": 36993,
+        "end_index": 37285
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". https://doi.org/10.1007/978-94-017-2219-3_24.",
+        "start_index": 37285,
+        "end_index": 37332
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(5) Ferrige, A. G.; Seddon, M. J.; Jarvis, S.; Skilling, J.; Aplin, R. Maximum Entropy Deconvolution in Electrospray Mass Spectrometry. Rapid Commun. Mass Spectrom. 1991, 5 (8), 374\u2013377. https://doi.org/10.1002/rcm.1290050810.",
+        "start_index": 37332,
+        "end_index": 37558
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(6) Mann, M.; Meng, C. K.; Fenn, J. B. Interpreting Mass Spectra of Multiply Charged Ions. Anal. Chem. 1989, 61 (15), 1702\u20131708.",
+        "start_index": 37558,
+        "end_index": 37686
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(7) Zhang, Z.; Marshall, A. G. A Universal Algorithm for Fast and Automated Charge State Deconvolution of Electrospray Mass-to-Charge Ratio Spectra. J. Am. Soc. Mass Spectrom. 1998, 9 (3), 225\u2013233. https://doi.org/10.1016/S1044-0305(97)00284-5.",
+        "start_index": 37686,
+        "end_index": 37930
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(8) Morgner, N.; Robinson, C. V. Massign: An Assignment Strategy for Maximizing Information from the Mass Spectra of Heterogeneous Protein Assemblies. Anal. Chem. 2012, 84 (6), 2939\u20132948. https://doi.org/10.1021/ac300056a.",
+        "start_index": 37930,
+        "end_index": 38152
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(9) van Breukelen, B.; Barendregt, A.; Heck, A. J. R.; van den Heuvel, R. H. H. Resolving Stoichiometries and Oligomeric States of Glutamate Synthase Protein Complexes with Curve Fitting and Simulation of Electrospray Mass Spectra. Rapid Commun. Mass Spectrom. 2006, 20 (16), 2490\u20132496. https://doi",
+        "start_index": 38152,
+        "end_index": 38450
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".org/10.1002/rcm.2620.",
+        "start_index": 38450,
+        "end_index": 38472
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(10) Lu, J.; Trnkai, M. J.; Roh, S.-H.; Robinson, P. J. J.; Shiau, C.; Fujimori, D. G.; Chiu, W.; Burlingame, A. L.; Guan, S. Improved Peak Detection and Deconvolution of Native Electrospray Mass Spectra from Large Protein Complexes. J. Am. Soc. Mass Spectrom",
+        "start_index": 38472,
+        "end_index": 38731
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". 2015, 26 (12), 2141\u20132151. https://doi.org/10.1007/s13361-015-1235-6.",
+        "start_index": 38731,
+        "end_index": 38801
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(11) Marty, M. T.; Baldwin, A. J.; Marklund, E. G.; Hochberg, G. K. A.; Benesch, J. L. P.; Robinson, C. V. Bayesian Deconvolution of Mass and Ion Mobility Spectra: From Binary Interactions to",
+        "start_index": 38801,
+        "end_index": 38992
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "Polydisperse Ensembles. Anal. Chem. 2015, 87 (8), 4370\u20134376. https://doi.org/10.1021/acs.analchem.5b00140.",
+        "start_index": 38992,
+        "end_index": 39098
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(12) Tseng, Y.-H.; Uetrecht, C.; Yang, S.-C.; Barendregt, A.; Heck, A. J. R.; Peng, W.-P. Game-Theory-Based Search Engine to Automate the Mass Assignment in Complex Native Electrospray Mass Spectra. Anal. Chem. 2013, 85 (23), 11275\u201311283. https://doi.org/10.1021/ac401940e.",
+        "start_index": 39098,
+        "end_index": 39371
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(13) Cleary, S. P.; Thompson, A. M.; Prell, J. S. Fourier Analysis Method for Analyzing Highly Congested Mass Spectra of Ion Populations with Repeated Subunits. Anal. Chem. 2016, 88 (12), 6205\u20136213. https://doi.org/10.1021/acs.analchem.6b01088.",
+        "start_index": 39371,
+        "end_index": 39615
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(14) Peris-D\u00edaz, M. D.; Guran, R.; Zitka, O.; Adam, V.; Kr\u0119\u017cel, A. Mass Spectrometry-Based Structural Analysis of Cysteine-Rich Metal-Binding Sites in Proteins with MetaOdysseus R Software. J. Proteome Res. 2021, 20 (1), 776\u2013785. https://doi.org/10.1021/acs.jproteome",
+        "start_index": 39615,
+        "end_index": 39882
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".0c00651.",
+        "start_index": 39882,
+        "end_index": 39891
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(15) Keifer, D. Z.; Shinholt, D. L.; Jarrold, M. F. Charge Detection Mass Spectrometry with Almost Perfect Charge Accuracy. Anal. Chem. 2015, 87 (20), 10330\u201310337. https://doi.org/10.1021/acs.analchem.5b02324.",
+        "start_index": 39891,
+        "end_index": 40100
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(16) Su, P.; McGee, J. P.; Hollas, M. A. R.; Fellers, R. T.; Durbin, K. R.; Greer, J. B.; Early, B. P.; Yip, P. F.; Zabrouskov, V.; Srzenti\u0107, K.; Senko, M. W.; Compton, P. D.; Kelleher, N. L.; Kafader, J",
+        "start_index": 40100,
+        "end_index": 40303
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". O. Standardized Workflow for Multiplexed Charge Detection Mass Spectrometry on Orbitrap Analyzers. Nat. Protoc. 2025, 1\u201324. https://doi.org/10.1038/s41596-024-01091-y.",
+        "start_index": 40303,
+        "end_index": 40472
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(17) Senko, M. W.; Beu, S. C.; McLafferty, F. W. Automated Assignment of Charge States from Resolved Isotopic Peaks for Multiply Charged Ions. J. Am. Soc. Mass Spectrom. 1995, 6 (1), 52\u201356. https://doi.org/10.1016/s1044-0305(94)00091-D.",
+        "start_index": 40472,
+        "end_index": 40708
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(18) Hor, D. M.; Zubarev, R. A.; McLafferty, F. W. Automated Reduction and Interpretation of High Resolution Electrospray Mass Spectra of Large Molecules. J Am Soc Mass Spectrom 2000, 11 (4), 320\u2013332. https://doi.org/10.1016/s1044-0305(99)00157-9.",
+        "start_index": 40708,
+        "end_index": 40955
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(19) Zabrouskov, V.; Senko, M. W.; Du, Y.; Leduc, R. D.; Kelleher, N. L. New and Automated MSn Approaches for Top-down Identification of Modified Proteins. J. Am. Soc. Mass Spectrom. 2005, 16 (12), 2027\u20132038. https://doi.org/10.1016/j.jasms.2005.08.004",
+        "start_index": 40955,
+        "end_index": 41207
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".",
+        "start_index": 41207,
+        "end_index": 41208
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(20) Basharat, A. R.; Zang, Y.; Sun, L.; Liu, X. TopFD: A Proteoform Feature Detection Tool for Top-Down Proteomics. Anal. Chem. 2023, 95 (21), 8189\u20138196. https://doi.org/10.1021/acs.analchem.2c05244.",
+        "start_index": 41208,
+        "end_index": 41408
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(21) Hoopmann, M. R.; Finney, G. L.; MacCoss, M. J. High-Speed Data Reduction, Feature Detection, and MS/MS Spectrum Quality Assessment of Shotgun Proteomics Data Sets Using High-Resolution Mass Spectrometry. Anal Chem 2007, 79 (15), 5620\u20135632. https://doi.org/10.1021/ac0700833.",
+        "start_index": 41408,
+        "end_index": 41687
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(22) Liu, X.; Inbar, Y.; Dorrestein, P. C.; Wynne, C.; Edwards, N.; Souda, P.; Whitelegge, J. P.; Bafna, V.; Pevzner, P. A. Deconvolution and Database Search of Complex Tandem Mass Spectra of Intact Proteins: A Combinatorial Approach",
+        "start_index": 41687,
+        "end_index": 41920
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Mol Cell Proteomics 2010, 9 (12), 2772\u20132782. https://doi.org/10.1074/mcp.M110.002766.",
+        "start_index": 41920,
+        "end_index": 42007
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(23) Park, J.; Pieholowski, P. D.; Wilkins, C.; Zhou, M.; Mendoza, J.; Fujimoto, G. M.; Gibbons, B. C.; Shaw, J. B.; Shen, Y.; Shukla, A. K.; Moore, R. J.; Liu, T.; Petyuk, V. A.; Toli\u0107, N.; Pa\u0161a-Toli\u0107, L.; Smith, R. D",
+        "start_index": 42007,
+        "end_index": 42225
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".; Payne, S. H.; Kim, S. Informed-Proteomics: Open-Source Software Package for Top-down Proteomics. Nat. Methods 2017, 14 (9), 909\u2013914. https://doi.org/10.1038/nmeth.4388.",
+        "start_index": 42225,
+        "end_index": 42396
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(24) Palasser, M.; Breuker, K. FAST MS: Software for the Automated Analysis of Top-Down Mass Spectra of Polymeric Molecules Including RNA, DNA, and Proteins. J. Am. Soc. Mass Spectrom. 2025, 36 (2), 247\u2013257. https://doi.org/10.1021/jasms.4c00236.",
+        "start_index": 42396,
+        "end_index": 42642
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(25) Robey, M. T.; Durbin, K. R. Improving Top-Down Sequence Coverage with Targeted Fragment Matching. *J. Am. Soc. Mass Spectrom.* 2024, 35 (12), 3296\u20133300. https://doi.org/10.1021/jasms.4c00161.",
+        "start_index": 42642,
+        "end_index": 42838
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(26) Jeong, K.; Kim, J.; Gaikwad, M.; Hidayah, S. N.; Heikaus, L.; Schl\u00fcter, H.; Kohlbacher, O. FLASHDeconv: Ultrafast, High-Quality Feature Deconvolution for Top-Down Proteomics. *Cell Syst.* 2020, 10 (2), 213\u2013218.e6. https://doi.org/10.1016/j.cels",
+        "start_index": 42838,
+        "end_index": 43087
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".2020.01.003.",
+        "start_index": 43087,
+        "end_index": 43100
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(27) Tabb, D. L.; Jeong, K.; Druart, K.; Gant, M. S.; Brown, K. A.; Nicora, C.; Zhou, M.; Couvillion, S.; Nakayasu, E.; Williams, J. E.; Peterson, H. K.; McGuire, M. K.; McGuire, M. A.; Metz, T. O.; Chamot-Rooke, J",
+        "start_index": 43100,
+        "end_index": 43314
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Comparing Top-Down Proteoform Identification: Deconvolution, PrSM Overlap, and PTM Detection. *J. Proteome Res.* 2023, 22 (7), 2199\u20132217. https://doi.org/10.1021/acs.jproteome.2c00673.",
+        "start_index": 43314,
+        "end_index": 43500
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(28) McIlwain, S. J.; Wu, Z.; Wetzel, M.; Belongia, D.; Jin, Y.; Wenger, K.; Ong, I. M.; Ge, Y. Enhancing Top-Down Proteomics Data Analysis by Combining Deconvolution Results through a Machine Learning Strategy. *J. Am. Soc. Mass Spectrom.* 2020, 31 (5), 1104\u20131113. https://doi",
+        "start_index": 43500,
+        "end_index": 43777
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".org/10.1021/jasms.0c00035.",
+        "start_index": 43777,
+        "end_index": 43804
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(29) Meyer, J. G. Deep Learning Neural Network Tools for Proteomics. *Cell Rep Methods* 2021, 1 (2), 100003. https://doi.org/10.1016/j.crmeth.2021.100003.",
+        "start_index": 43804,
+        "end_index": 43958
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(30) Abdelmoula, W. M.; Lopez, B. G.-C.; Randolph, C. E.; Beveridge, C. H.; Wijewardhane, P. R.; Kentt\u00e4maa, H. I.; Chopra, G. Recent Developments in Machine Learning for Mass Spectrometry. *ACS Meas. Sci. Au* 2024, 4 (3), 233\u2013246. https://doi.org/10",
+        "start_index": 43958,
+        "end_index": 44207
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".1021/acsmeasurescianu.3c00060.",
+        "start_index": 44207,
+        "end_index": 44238
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(31) Tran, N. H.; Qiao, R.; Xin, L.; Chen, X.; Liu, C.; Zhang, X.; Shan, B.; Ghodsi, A.; Li, M. Deep Learning Enables de Novo Peptide Sequencing from Data-Independent-Acquisition Mass Spectrometry. *Bioinformatics* 2022, 38 (7), 2015\u20132021. https://doi.org/10",
+        "start_index": 44238,
+        "end_index": 44496
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".1093/bioinformatics/bta032.",
+        "start_index": 44496,
+        "end_index": 44524
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(32) Zhong, J.; Song, X.; Wang, S. FREE: Enhanced Feature Representation for Isotopic Envelope Evaluation in Top-Down Mass Spectra Deconvolution. *Anal. Chem.* 2020, 92 (11), 7778\u20137785. https://doi.org/10.1021/acs.analchem.0c00903.",
+        "start_index": 44524,
+        "end_index": 44755
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(33) Mikawy, N. N.; Ram\u00edrez, C. R.; DeFiglia, S. A.; Szot, C. W.; Le, J.; Lantz, C.; Wei, B.; Zenaidee, M. A.; Blakney, G. T.; Nesvizhskii, A. I.; Loo, J. A.; Ruotolo, B. T.; Shabanowitz, J.; Anderson, L. C",
+        "start_index": 44755,
+        "end_index": 44961
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".; H\u00e4kansson, K. Are Internal Fragments Observable in Electron Based Top-",
+        "start_index": 44961,
+        "end_index": 45034
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(39) Weisbrod, C. R.; Kaiser, N. K.; Syka, J. E. P.; Early, L.; Mullen, C.; Dunyach, J.-J.; English, A. M.; Anderson, L. C.; Blakney, G. T.; Shabanowitz, J.; Hendrickson, C. L.; Marshall, A. G.; Hunt, D. F",
+        "start_index": 45034,
+        "end_index": 45239
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". Front-End Electron Transfer Dissociation Coupled to a 21 Tesla FT-ICR Mass Spectrometer for Intact Protein Sequence Analysis. J. Am. Soc. Mass Spectrom. 2017, 28 (9), 1787\u20131795. https://doi.org/10.1007/s13361-017-1702-3.",
+        "start_index": 45239,
+        "end_index": 45461
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(40) Dunham, S. D.; Wei, B.; Lantz, C.; Loo, J. A.; Brodbelt, J. S. Impact of Internal Fragments on Top-Down Analysis of Intact Proteins by 193 Nm UVPD. J. Proteome Res. 2023, 22 (1), 170\u2013181. https://doi.org/10.1021/acs.jproteome.2c00583.",
+        "start_index": 45461,
+        "end_index": 45700
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(41) Dupr\u00e9, M.; Duchateau, M.; Malosse, C.; Borges-Lima, D.; Calvaresi, V.; Podglajen, I.; Clermont, D.; Rey, M.; Chamot-Rooke, J. Optimization of a Top-Down Proteomics Platform for Closely Related Pathogenic Bacterial Discrimination. J. Proteome Res. 2021, 20 (1), 202\u2013211",
+        "start_index": 45700,
+        "end_index": 45973
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ". https://doi.org/10.1021/acs.jproteome.0c00351.",
+        "start_index": 45973,
+        "end_index": 46021
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(42) Imambi, S.; Prakash, K. B.; Kanagachidambaresan, G. R. PyTorch. In Programming with TensorFlow: Solution for Edge Computing Applications; Prakash, K. B., Kanagachidambaresan, G. R., Eds.; Springer International Publishing: Cham, 2021; pp 87\u2013104. https://doi.org/10",
+        "start_index": 46021,
+        "end_index": 46290
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".1007/978-3-030-57077-4_10.",
+        "start_index": 46290,
+        "end_index": 46317
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(43) Senko, M. W.; Beu, S. C.; McLafferty, F. W. Determination of Monoisotopic Masses and Ion Populations for Large Biomolecules from Resolved Isotopic Distributions. J Am Soc Mass Spectrom 1995, 6 (4), 229\u2013233. https://doi.org/10.1016/1044-0305(95)00017-8.",
+        "start_index": 46317,
+        "end_index": 46574
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(44) Kaur, P.; O\u2019Connor, P. B. Algorithms for Automatic Interpretation of High Resolution Mass Spectra. J. Am. Soc. Mass Spectrom. 2006, 17 (3), 459\u2013468. https://doi.org/10.1016/j.jasms.2005.11.024.",
+        "start_index": 46574,
+        "end_index": 46772
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(45) Rockwood, A. L.; Palmblad, M. Isotopic Distributions. In Mass Spectrometry Data Analysis in Proteomics; Matthiesien, R., Ed.; Humana Press: Totowa, NJ, 2013; pp 65\u201399. https://doi.org/10.1007/978-1-62703-392-3_3.",
+        "start_index": 46772,
+        "end_index": 46989
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(46) Liu, X.; Sirotkin, Y.; Shen, Y.; Anderson, G.; Tsai, Y. S.; Ting, Y. S.; Goodlett, D. R.; Smith, R. D.; Bafna, V.; Pezvzer, P. A. Protein Identification Using Top-Down Spectra. Mol. Cell Proteomics MCP 2012, 11 (6), M111.008524. https://doi.org/10",
+        "start_index": 46989,
+        "end_index": 47241
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".1074/mcp.M111.008524.",
+        "start_index": 47241,
+        "end_index": 47263
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(47) Kou, Q.; Xun, L.; Liu, X. TopPIC: A Software Tool for Top-down Mass Spectrometry-Based Proteofom Identification and Characterization. Bioinformatics 2016, 32 (22), 3495\u20133497. https://doi.org/10.1093/bioinformatics/btw398.",
+        "start_index": 47263,
+        "end_index": 47489
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(48) Dai, Y.; Yang, Y.; Wu, E.; Shen, C.; Qiao, L. Deep Learning Powers Protein Identification from Precursor MS Information. J. Proteome Res. 2024, 23 (9), 3837\u20133846. https://doi.org/10.1021/acs.jproteome.4c00118.",
+        "start_index": 47489,
+        "end_index": 47703
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(49) Zohora, F. T.; Rahman, M. Z.; Tran, N. H.; Xin, L.; Shan, B.; Li, M. Deep Neural Network for Detecting Arbitrary Precision Peptide Features through Attention Based Segmentation. Sci Rep 2021, 11 (1), 18249. https://doi.org/10.1038/s41598-021-97669-7.",
+        "start_index": 47703,
+        "end_index": 47958
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(50) Fellers, R. T.; Greer, J. B.; Early, B. P.; Yu, X.; LeDuc, R. D.; Kelleher, N. L.; Thomas, P. M. ProSight Lite: Graphical Software to Analyze Top-down Mass Spectrometry Data. Proteomics 2015, 15 (7), 1235\u20131238. https://doi.org/10.1002/pmic",
+        "start_index": 47958,
+        "end_index": 48202
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": ".201400313.",
+        "start_index": 48202,
+        "end_index": 48213
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(51) Lyon, Y. A.; Riggs, D.; Fornelli, L.; Compton, P. D.; Julian, R. R. The Ups and Downs of Repeated Cleavage and Internal Fragment Production in Top-Down Proteomics. J. Am. Soc. Mass Spectrom. 2018, 29 (1), 150\u2013157. https://doi.org/10.1007/s13361-017-1823-8.",
+        "start_index": 48213,
+        "end_index": 48474
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(52) Smith, L. M.; Kelleher, N. L. Proteofom: A Single Term Describing Protein Complexity. Nat. Methods 2013, 10 (3), 186\u2013187. https://doi.org/10.1038/nmeth.2369.",
+        "start_index": 48474,
+        "end_index": 48636
+    },
+    {
+        "document_name": "80.txt",
+        "chunk_text": "(53) Agten, A.; Prostko, P.; Geubbelmans, M.; Liu, Y.; De Vijlder, T.; Valkenborg, D. A Compositional Model to Predict the Aggregated Isotope Distribution for Average DNA and RNA Oligonucleotides. Metabolites 2021, 11 (6), 400. https://doi.org/10.3390/metabo11060400.",
+        "start_index": 48636,
+        "end_index": 48903
+    }
+]

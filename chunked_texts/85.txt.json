@@ -1,0 +1,446 @@
+[
+    {
+        "document_name": "85.txt",
+        "chunk_text": "A Simplified Model of Iterative Compound Optimization\n\nJohn S. Delaney\n\nSyngenta, Jealott\u2019s Hill International Research Centre, Bracknell, Berkshire. RG42 6EY. United Kingdom.\n\njohn.delaney@syngenta.com\n\nKEYWORDS\n\nCompound development, iterative improvement, simplified recognition model.\n\nABSTRACT",
+        "start_index": 0,
+        "end_index": 298
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "This paper presents a simplified model of iterative compound optimization in drug/agrochemical discovery. Compounds are represented as binary strings, with project evolution simulated through random bit changes. The model reproduces key statistical features of real projects, including activity distributions and time-series characteristics. This framework enables statistical simulation of compound optimization, potentially aiding project planning and resource estimation.\n\nINTRODUCTION",
+        "start_index": 298,
+        "end_index": 786
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "This work describes a simple model of iterative compound optimization as observed in a typical drug discovery project with a design-make-test-analyze (DMTA) cycle\\(^1\\) and is a continuation of work described in this earlier paper\\(^2\\). That paper attempted to describe how a drug optimization project evolved as a self-avoiding walk through chemical space but provided no underlying mechanism for how the series of compounds changed step-to-step",
+        "start_index": 786,
+        "end_index": 1233
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The hope is that by filling in these gaps the model will become more useful in modelling real projects.",
+        "start_index": 1233,
+        "end_index": 1338
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Structured endeavors involving multiple people or resources often employ some form of abstraction\\(^3\\) to manage different levels of the operation, software development\\(^4\\) being a conspicuous example. Drug/agrochemical development can also be viewed at",
+        "start_index": 1338,
+        "end_index": 1594
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "different levels of abstraction. A project can be defined as a series of related compounds made in time order with associated measured data for the target of interest and other properties that might pertain to a compounds suitability to become a commercial drug. Compound optimization in drug or agrochemical development is usually analyzed as a time-independent process with the focus on the structure-activity relationships within closely related sets of compounds",
+        "start_index": 1594,
+        "end_index": 2060
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". It is difficult to obtain the time a compound was added to a project outside of the databases of individual drug companies. Even within large companies the fact that each project is an aggregate of hundreds or thousands of compounds means that their number is relatively limited compared to the number of compounds in their collections. A model of the statistical behavior of projects that goes beyond the available data might be useful.",
+        "start_index": 2060,
+        "end_index": 2499
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Compound optimization within a project tends to follow a pattern. Projects start with a lead compound (sometimes more than one) found by design or random screening and proceed by making relatively small, incremental changes to the structure of the lead, measuring the response to the changes in an assay. This guides the chemists\u2019 choice of the next compound to make. The cycle repeats until either a compound suitable for progression is found or the patience of the project manager is exhausted, at which point the project ends",
+        "start_index": 2499,
+        "end_index": 3027
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". This paints a rather skeletal picture of a chemical project and does not capture some of the subtleties seen in real projects \u2013 series diverging in multiple directions at once, sudden serendipitous discoveries that radically change the projects focus etc. But for the purposes of modelling projects a simpler, reductive approach has been adopted. The aim is to create a \u201cdigital twin\u201d of a project that reproduces its statistical behavior rather than the structures of the individual compounds within it.",
+        "start_index": 3027,
+        "end_index": 3533
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "METHODS",
+        "start_index": 3533,
+        "end_index": 3540
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "To build a model of a project we need to choose a way to represent molecules, how each compound interacts with the project\u2019s biological target to produce an assay signal and a way of capturing the way that compounds change in an ordered sequence as the project progresses. For this work compounds are described as fixed length binary strings (analogous to a substructural fingerprint) and molecular recognition is achieved by matching a subset of set bits at fixed bit positions",
+        "start_index": 3540,
+        "end_index": 4018
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". This eschews directly using standard chemical structures and protein receptors in favor of a more abstract representation of chemistry. Such a reduced model of molecules and their binding to receptors has precedence in the work of Hann et al. The authors of that paper fashioned a simple model of ligand binding by binary feature matching to draw out general principles of selecting compounds to test. This allowed exhaustive enumeration and simulation techniques to be applied to a population of model compounds interacting with a target.",
+        "start_index": 4018,
+        "end_index": 4559
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The activity of a compound in this representation is defined by two counts. Firstly, the number of target bit positions matched sets the potential level of activity \u2013 the more positions matched, the greater the activity. Secondly, the target defines a few \u201ckill\u201d bits \u2013 matching one or more of these reduces the activity of that compound to zero, regardless of how many target bit positions are matched",
+        "start_index": 4559,
+        "end_index": 4961
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The reasoning behind the \u201ckill\u201d bit is to mimic the effect of activity cliffs\\(^9\\) that are frequently observed in real biological data\\(^10\\). In the example below (figure 1) the first four bit-positions (blue) are recognized by the assay, conferring activity as the sum of the set blue positions, in this case 1",
+        "start_index": 4961,
+        "end_index": 5277
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The last bit-position (red) is a \u201ckill\u201d bit - if it is set the overall activity of the compound is set to zero regardless of the activity sum of the blue positions. The bit-positions in-between (black) can vary without affecting the assay result.",
+        "start_index": 5277,
+        "end_index": 5525
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 1)\n\nSequential changes that produce the compound sequence are produced by randomly swapping a set bit in the current fingerprint with an unset one. This produces the next fingerprint in the series with the same number of set bits and a Hamming distance\\(^11\\) of 2 from the previous fingerprint. This is the smallest change between fingerprints that preserves the number of set bits \u2013 keeping the compound size constant (figure 2).\n\n(Figure 2)",
+        "start_index": 5525,
+        "end_index": 5976
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "An example of a series of changes is shown below (figure 3), one set bit is unset, and an unset bit is set at each step, keeping the same total number of set bits. The changes from step 1 to step 2 are in red, 2 to 3 in green and 3 to 4 in blue.\n\n---\n\n\\(^9\\) activity cliffs\n\n\\(^10\\) biological data",
+        "start_index": 5976,
+        "end_index": 6275
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "\\(^11\\) Hamming distance",
+        "start_index": 6275,
+        "end_index": 6299
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The steps can be widened (i.e. more bit positions changed at each step) by sampling this generator at regular or random intervals. In the above example, sampling every fourth step leads to a Hamming distance of 6 between successive members of the series",
+        "start_index": 6299,
+        "end_index": 6552
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The plot below (figure 4) shows the increase in Hamming distance (relative to compound 1 in the sequence) for a longer bit-string (256 bits, 40 bits set) as the sequence evolves away from its first member. The Hamming distance increases linearly with the number of steps away from the first string, at least for the first few steps.",
+        "start_index": 6552,
+        "end_index": 6886
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 3)\n\n| Step | Bit String |\n|------|------------|\n| 1    | 10001101   |\n| 2    | 00101101   |\n| 3    | 00111001   |\n| 4    | 00111010   |\n\n(Figure 4)",
+        "start_index": 6886,
+        "end_index": 7041
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "For these simulations sampling was achieved by only outputting a string if a uniformly distributed random variable exceeded a censor value. For example, sampling every tenth member (on average) was achieved by setting a censor value of 0.1.",
+        "start_index": 7041,
+        "end_index": 7281
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "To initialize a sequence, we start with a weakly active compound (1 active position set, no kill bits set, the rest of the bit positions randomly assigned (set/unset) so that the overall string has the required bit density (number of set bits)). The series advances one step at a time as described above, an assay result being produced for each string. The evolving sequence and assay results constitutes the simulation of a chemical project",
+        "start_index": 7281,
+        "end_index": 7722
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The method outline above has been implemented as a Python program and can be found in the supplementary material (iterated_project_evolution.py). The current program outputs the calculated assay activities based on hard coded parameters and the individual bit-string values for a fixed number of compounds as a comma separated text file.",
+        "start_index": 7722,
+        "end_index": 8061
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "RESULTS",
+        "start_index": 8061,
+        "end_index": 8068
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The output from the simulation is a stream of bit strings defining a path through chemical space and a list of assay results. To get a qualitative feel for whether the program was producing a path similar to that seen in real herbicide projects, an example project from Syngenta\u2019s internal database was profiled as follows",
+        "start_index": 8068,
+        "end_index": 8390
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The time ordered list of compounds from the project were represented as 256-bit ECFP6 Morgan fingerprints (Pipeline Pilot), a 2D UMAP generated (R function tumap from the uwot package) and a moving average applied (with a window size of 25 steps) to the UMAP coordinates. A similar 2D UMAP was generated for the simulation output, allowing the plots to be compared (figure 5).",
+        "start_index": 8390,
+        "end_index": 8768
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 5)\n\nThe purpose of these diagrams is to illustrate the broad similarity between the trajectories produced by real compound series (represented by fixed length binary fingerprints/strings) and a synthetic trajectory produced by the random tweak process.",
+        "start_index": 8768,
+        "end_index": 9028
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "To check whether the simulations produced good quantitative facsimiles of real project behaviours, we have focused on a couple of measures that can be applied to both real and synthetic projects. The first was to look at the overall distribution of assay results produced by projects, the second to examine the time evolution of projects using the Hurst exponent.",
+        "start_index": 9028,
+        "end_index": 9391
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "A typical distribution of simulated activities is shown below (figure 6 - 256 bit-string, 40 bits set, 15 active bits, 5 kill bits, sampled every 10th generation \u2013 2000 simulation steps). The distribution was modelled using the distribution fitting function in JMP\\textsuperscript{18}, the fitted Zero-Inflated (ZI) Poisson\\textsuperscript{19} is shown below (green).",
+        "start_index": 9391,
+        "end_index": 9758
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 6)\n\nThe bimodal ZI Poisson fitted the observed distribution better than a simple Poisson, illustrating the effect of the kill bits which produced a larger proportion of zero results than a unimodal distribution would have predicted.",
+        "start_index": 9758,
+        "end_index": 9998
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "For comparison, the activity distribution for a real herbicide project\\textsuperscript{20} was generated. The plot below (figure 7) has a bimodal 2 normal mixture distribution\\textsuperscript{21} (green) fitted.",
+        "start_index": 9998,
+        "end_index": 10209
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Multimodal activity distributions can also be observed in in-vitro assays, four examples from ChEMBL\\textsuperscript{22} are shown below (figure 8 - CHEMBL829540, CHEMBL1614199, CHEMBL3431931, CHEMBL648337, CHEMBL1613829), bimodal 2 normal mixtures (green) fitted\\textsuperscript{18}.",
+        "start_index": 10209,
+        "end_index": 10493
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The bimodal nature of these observed distributions can be reasonably well explained by considering that real assays tend to have a limit in how low the activity they detect can be characterized. This may be caused by practical constraints (e.g. compound solubility) or simply that we\u2019re not interested in characterising degrees of inactivity (activity levels that have no commercial interest)",
+        "start_index": 10493,
+        "end_index": 10885
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The effect of applying this sort of censoring to a normal distribution is shown below (figure 9), with values below zero set to zero and a 2 normal distribution fitted.",
+        "start_index": 10885,
+        "end_index": 11055
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The simulations reproduce the multi-modality of assay results quite well, giving some confidence in the overall description of the process in terms of active and kill bits. This leads to a natural interpretation of the simulation\u2019s number of active (nactive) and kill (nkill) bits \u2013 nkill controls the proportion of the distribution that is censored by the assay lower limit, nactive determines the average activity in the second fitted normal distribution.",
+        "start_index": 11055,
+        "end_index": 11512
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Determining the number of active and kill bits to set to mimic a given project is more involved. Earlier we fitted a 2 normal mixture to the activity distribution of a real project which yields 2 means (locations), 2 standard deviations (spreads) and a mixing parameter that gives the contributions of the two normal distributions to the overall mixed distribution",
+        "start_index": 11512,
+        "end_index": 11876
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". Applying the same technique to the outputs from eight simulations with a range of parameters (numbers of active bits varied between 5 and 40, kill bits between 1 and 10) and fitting the mixed normal distributions yields the following relationships (figure 10): -",
+        "start_index": 11876,
+        "end_index": 12140
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "\\( \\mu_2 \\) is the mean of the larger normal distribution, \\( \\pi_1 \\) is the proportion of the overall distribution derived from the smaller normal distribution.",
+        "start_index": 12140,
+        "end_index": 12302
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The time evolution of a series project activity measures can be characterised by the the Hurst exponent. A random walk produces a time-series with a Hurst exponent close to 0.5 \u2013 for a process with long-term memory the value is higher, and lower for an antipersistent process. Harold Hurst was a hydrologist working in Egypt from 1906",
+        "start_index": 12302,
+        "end_index": 12636
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". He was interested in the yearly variation in the levels of the Nile and he noticed that the system, rather than being simply periodic or random, showed clustering of flood years and drought years. He devised a way of numerically characterising a time-series of observations as a single number, the Hurst exponent which takes values between 0 and 1. The Hurst exponent must be estimated from a time-series and the estimate is generally considered unreliable for series with fewer than a hundred points",
+        "start_index": 12636,
+        "end_index": 13138
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The Hurst exponents for time ordered series of PCA log ED50 activity values were calculated by the rescaled range method. The distribution of Hurst exponents for 100 Syngenta herbicide projects is shown below (figure 11), the mean value is 0.72 and the standard deviation 0.11.",
+        "start_index": 13138,
+        "end_index": 13417
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 11)",
+        "start_index": 13417,
+        "end_index": 13428
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "For comparison, the following plots (figure 12) show the distribution of Hurst exponents for 100 project simulations (256 bit-string, 40 bits set, 15 active bits, 5 kill bits) at five different levels of sampling (censor).\n(Figure 12)",
+        "start_index": 13428,
+        "end_index": 13662
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The Hurst exponent of each simulation can be tuned by changing the effective diversity of the stream \u2013 increasing the gap (as measured by the Hamming distance between successive fingerprints) decreases the average Hurst exponent in a predictable way (figure 13).",
+        "start_index": 13662,
+        "end_index": 13924
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "(Figure 13)",
+        "start_index": 13924,
+        "end_index": 13935
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The overall project simulation is thus controlled by three main parameters \u2013 numbers of active and kill bits, and the sampling rate \u2013 as well as the number of set bits and the bit-string length. The number of set bits and bit-string length for real projects can be derived from analysis of their Morgan fingerprints",
+        "start_index": 13935,
+        "end_index": 14250
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". The number of bits set in the simulation bit-string can be directly related to the median number of bits set in a real project \u2013 for the set of Syngenta herbicide projects this was 61 bits in a 256-bit Morgan fingerprint (ECFP6, Pipeline Pilot).",
+        "start_index": 14250,
+        "end_index": 14497
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The three linear relationships above were used to map the measured values for real projects (Hurst exponent, \u03bc2 and \u03c01 \u2013 all derived from the time-ordered list of assay activities) to the simulation control parameters (censor value, nactive and nkill bit counts) allowing simulations that mimicked any given project to be run.\n\nCONCLUSIONS",
+        "start_index": 14497,
+        "end_index": 14836
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Studying the statistical behaviour of optimisation projects is hard because of the paucity of well-curated examples, even within large research organisations. A simplified model that characterizes the essential features of a project\u2019s evolution offers an\nalternative. This work attempts to show that project characteristics such as step-to-step diversity and overall activity distribution can simulated by a simple model. The main features of the simulation output are:",
+        "start_index": 14836,
+        "end_index": 15305
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "- A bimodal activity distribution similar to observed project assay data\n- Parameters that can be fitted to project assay data distribution (nactive and nkill)\n- Tuneable diversity, controlled by the censor value and adjusted to match the Hurst value seen in real projects",
+        "start_index": 15305,
+        "end_index": 15577
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "There seem to be two main uses for a model like this. The fitted assay activity distribution for a project can be used to produce a model with similar statistical properties, allowing multiple simulations to be run from randomly generated starting points. The aim would be to assess the range of possible project outcomes (e.g. the maximum activity observed in a given number of steps)",
+        "start_index": 15577,
+        "end_index": 15962
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". This is somewhat analogous to equilibrium pricing of financial futures contracts (\"fair price\"\\(^{25}\\)) \u2013 another way of framing the question could be \u201cstarting from this set of compounds (in a project with assay results), how many compounds would one need to make before finding one with a ten-fold improvement in assay result?\u201d The fair price in this case might be the median number of compounds required over repeated randomized simulations. Another avenue would be to examine the effect of different project management strategies (e.g",
+        "start_index": 15962,
+        "end_index": 16503
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": ". early stopping) for a realistic range of model parameters \u2013 this is analogous to the work described in reference 2 but with a model more directly related to real world parameters.",
+        "start_index": 16503,
+        "end_index": 16684
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The current simulation framework is very bare bones with no consideration of SAR or chemical design. As such it offers opportunities for improvement \u2013 e.g. some form of reinforcement learning (even a very basic, \u201cMENACE\"-like\\(^{26}\\) system), applications of different stop policies (currently the simulation runs for a fixed number of steps) and improved parameter fitting.\n\nACKNOWLEDGMENT",
+        "start_index": 16684,
+        "end_index": 17075
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "The author would like to thank Dr Chris Baker for his helpful comments and encouragement in preparing this paper.\n\nAUTHOR INFORMATION\n\nCorresponding Author\n\n*John S. Delaney - Syngenta, Jealott\u2019s Hill International Research Centre, Bracknell, Berkshire. RG42 6EY. United Kingdom.\n\nhttps://orcid.org/0000-0003-2218-1167\n\nPresent Addresses",
+        "start_index": 17075,
+        "end_index": 17412
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "\u2020435A Woodham Lane, Woodham, Surrey. KT15 3QE. United Kingdom. Email: john.delaney.1998@gmail.com",
+        "start_index": 17412,
+        "end_index": 17509
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "REFERENCES\n1 Plowright, Alleyn T. Hypothesis driven drug design: improving quality and effectiveness of the design-make-test-analyse cycle. *Drug Discovery Today* **2012**, 17(1-2), 56-62. DOI: 10.1016/j.drudis.2011.09.012",
+        "start_index": 17509,
+        "end_index": 17731
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "2 Delaney, John S. Modelling iterative compound optimisation using a self-avoiding walk. *Drug Discovery Today* **2009**, 14(3-4), 198-207. DOI: 10.1016/j.drudis.2008.10.007\n\n3 Hofstadter, Douglas. *G\u00f6del, Escher, Bach*. 1979 Basic Books. ISBN 978-0-465-02656-2.",
+        "start_index": 17731,
+        "end_index": 17993
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "4 Colburn, Timothy and Shute, Gary. Abstraction in Computer Science. *Minds and Machines* **2007**, 17 (2), 169\u2013184\n\n5 Landrum et al. SIMPD: an algorithm for generating time splits for validating machine learning approaches. *Journal of Cheminformatics* **2023**, 15, 119. DOI: 10.1186/s13321-023-00787-9",
+        "start_index": 17993,
+        "end_index": 18297
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "6 The Economist \u201cDigital twins are fast becoming part of everyday life\u201d, 29 August 2024\n\n7 Chen et al. Concepts and applications of chemical fingerprint for hit and lead screening **2022**, 27(11), 103356",
+        "start_index": 18297,
+        "end_index": 18501
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "8 Hann et al. Molecular Complexity and Its Impact on the Probability of Finding Leads for Drug Discovery. *J. Chem. Inf. Comput. Sci.* **2001**, 41, 856-864. DOI: 10.1021/ci010043i",
+        "start_index": 18501,
+        "end_index": 18681
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "9 Bajorath et al. Evolving Concept of Activity Cliffs. *ACS Omega* **2019**, 4, 11, 14360\u201314368. DOI: 10.1021/acsomega.9b02221",
+        "start_index": 18681,
+        "end_index": 18807
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "10 Maggiora, GM. On outliers and activity cliffs\u2014why QSAR often disappoints. *J Chem Inf Model*. **2006**, 46,1535. DOI: 10.1021/ci060117s",
+        "start_index": 18807,
+        "end_index": 18945
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "11 R. W. Hamming, Error detecting and error correcting codes, *The Bell System Technical Journal* **1950**, vol. 29, no. 2, pp. 147-160. DOI: 10.1002/j.1538-7305.1950.tb00463.x\n\n12 Van Rossum, G. & Drake, F.L., 2009. Python 3 Reference Manual, Scotts Valley, CA: CreateSpace.",
+        "start_index": 18945,
+        "end_index": 19220
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "13 Rogers, D and Hann, M. Extended-Connectivity Fingerprints, *J Chem Inf Model*. **2010**, 50, 5, 742-754. DOI: 10.1021/ci100050t\n\n14 R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/ (accessed 2024-10-09)",
+        "start_index": 19220,
+        "end_index": 19541
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "15 James Melville (2019). uwot: The Uniform Manifold Approximation and Projection (UMAP) Method for Dimensionality Reduction. R package version 0.2.2. https://CRAN.R-project.org/package=uwot (accessed 2024-10-09)",
+        "start_index": 19541,
+        "end_index": 19753
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "16 Hurst, H. \"Long Term Storage Capacity of Reservoirs\" *Transactions of the American Society of Civil Engineers* **1951**, 116, 770-799. DOI: 10.1061/TACEAT.0006518\n\n17 Mandelbrot, BB and Hudson, RL \u201cThe (Mis)Behaviour of Markets\u201d **2004** Profile Books.",
+        "start_index": 19753,
+        "end_index": 20008
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "18 JMP\u00ae, Version 17.2.0. SAS Institute Inc., Cary, NC, 1989\u20132023.",
+        "start_index": 20008,
+        "end_index": 20073
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "19 Lachin, John M. (2011), Biostatistical Methods: The Assessment of Relative Risks (Second ed.), Wiley, ISBN 978-0470508220\nActivity from a principal components analysis of log effective dose for 50% plant kill (log ED50) across a standard mix of weed species \u2013 more positive means more herbicidally active, i.e. lower log ED50.",
+        "start_index": 20073,
+        "end_index": 20402
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Robertson, CA and Fryer, JG. \"Some descriptive properties of normal mixtures\" 1969 Skandinavisk Aktuarietidskrift. 69 (3\u20134): 137\u2013146. DOI: 10.1080/03461238.1969.10404590",
+        "start_index": 20402,
+        "end_index": 20571
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Overington, JP et al. ChEMBL: A Large-scale Bioactivity Database for Drug Discovery 2012 Nucleic Acids Res., 40, 1100-1107. DOI: 10.1093/nar/gkr777\n\nKaragiannis, T et al, Long-Range Dependence: Now you see it, now you don't! 2002, IEEE GLOBECOM - Global Internet Symposium, IEEE Communications Society",
+        "start_index": 20571,
+        "end_index": 20872
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Di Matteo, T et al. Scaling behaviors in differently developed markets. Physica A 2003, 324,183-188. DOI: 10.1016/S0378-4371(02)01996-9\n\nNasdaq Glossary https://www.nasdaq.com/glossary/F/fair-price (accessed 2024-10-09)",
+        "start_index": 20872,
+        "end_index": 21091
+    },
+    {
+        "document_name": "85.txt",
+        "chunk_text": "Michie, Donald (November 1963). \"Experiments on the Mechanization of Game-Learning Part I: Characterization of the Model and its Parameters\". The Computer Journal. 6 (3): 232\u2013236. DOI: 10.1093/comjnl/6.3.232",
+        "start_index": 21091,
+        "end_index": 21298
+    }
+]
