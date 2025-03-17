@@ -73,7 +73,7 @@ for question, references, doc_name in qa_pairs:
         continue  # Skip if the document isn't chunked
 
     chunks = doc_chunks[doc_name]  # Retrieve corresponding chunks
-    found_match = False  # Track if any chunk matches
+    relevant_chunks = {}  # Store chunk_id -> relevance_score
 
     for ref in references:
         start_idx = ref["start_index"]
@@ -86,21 +86,46 @@ for question, references, doc_name in qa_pairs:
             chunk_end = chunk["end_index"]
             chunk_id = f"{os.path.splitext(doc_name)[0]}_{chunk_index}"  # Remove ".txt"
 
-            # **Matching Logic**
-            if (start_idx >= chunk_start and end_idx <= chunk_end) or \
-               (chunk_start <= start_idx < chunk_end) or \
-               (chunk_start < end_idx <= chunk_end) or \
-               (ref_content.lower() in chunk_text.lower()):
-                
-                qrels.append({
-                    "query_id": str(query_id),
-                    "doc_id": chunk_id,
-                    "relevance": 1
-                })
-                found_match = True
+            # **Matching Logic with Integer Relevance Scores**
+            overlap_score = 0  # Default = No relevance
 
-    if not found_match:
-        print(f"⚠️ Warning: No matching chunk found for query {query_id} in {doc_name}")
+            if (start_idx >= chunk_start and end_idx <= chunk_end):
+                overlap_score = 3  # Fully inside chunk → Max relevance
+            elif (chunk_start <= start_idx < chunk_end) or (chunk_start < end_idx <= chunk_end):
+                overlap_score = 2  # Partially inside chunk
+            elif ref_content.lower() in chunk_text.lower():
+                overlap_score = 1  # Some part of the answer found in chunk
+
+            # Store max relevance for each chunk
+            if overlap_score > 0:
+                if chunk_id in relevant_chunks:
+                    relevant_chunks[chunk_id] = max(relevant_chunks[chunk_id], overlap_score)
+                else:
+                    relevant_chunks[chunk_id] = overlap_score
+
+            # 🔹 **Check Adjacent Chunks (for split answers)**
+            if chunk_index > 0:  # Previous chunk
+                prev_chunk_id = f"{os.path.splitext(doc_name)[0]}_{chunk_index - 1}"
+                prev_chunk_text = chunks[chunk_index - 1]["chunk_text"]
+                if ref_content.lower() in prev_chunk_text.lower():
+                    relevant_chunks[prev_chunk_id] = max(relevant_chunks.get(prev_chunk_id, 0), 1)
+
+            if chunk_index < len(chunks) - 1:  # Next chunk
+                next_chunk_id = f"{os.path.splitext(doc_name)[0]}_{chunk_index + 1}"
+                next_chunk_text = chunks[chunk_index + 1]["chunk_text"]
+                if ref_content.lower() in next_chunk_text.lower():
+                    relevant_chunks[next_chunk_id] = max(relevant_chunks.get(next_chunk_id, 0), 1)
+
+    # Store qrels
+    for chunk_id, relevance in relevant_chunks.items():
+        qrels.append({
+            "query_id": str(query_id),
+            "doc_id": chunk_id,
+            "relevance": relevance
+        })
+
+    if not relevant_chunks:
+        print(f"⚠️ Warning: No relevant chunk found for query {query_id} in {doc_name}")
 
     query_id += 1
 

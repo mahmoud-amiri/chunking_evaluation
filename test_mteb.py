@@ -40,7 +40,7 @@ for entry in qrels_raw:
 print("📌 Sample Qrels Entry:", list(qrels.items())[:3])
 
 # 🔹 **Step 4: Load Sentence Transformer Model (Move to GPU)**
-model_name = "sentence-transformers/all-MiniLM-L6-v2"
+model_name = "sentence-transformers/all-mpnet-base-v2"
 model = SentenceTransformer(model_name).to(device)  # ✅ Move model to GPU
 
 # 🔹 **Step 5: Convert Corpus & Queries to Dict Format**
